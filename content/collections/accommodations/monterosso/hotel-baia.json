@@ -3,15 +3,81 @@
   "slug": "hotel-baia",
   "data": {
     "name": "Hotel Baia",
-    "slug": "hotel-baia-monterosso",
+    "rank": 8,
+    "slug": "hotel-baia",
     "tips": [
       "Ideal for beach lovers",
-      "Perfect for easy train access to other villages"
+      "Perfect for easy train access to other villages",
+      "Book a sea view room for stunning sunrise views",
+      "The breakfast terrace is a perfect spot for morning coffee",
+      "Walking distance to all main attractions in Monterosso"
     ],
     "type": {
       "category": "Hotel",
       "star_rating": 3,
       "property_class": "Mid-Range"
+    },
+    "images": [
+      {
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618901.jpg",
+        "type": "exterior",
+        "source": "Booking.com",
+        "alt_text": "Hotel Baia exterior view from beachfront"
+      },
+      {
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618902.jpg",
+        "type": "room",
+        "source": "Booking.com",
+        "alt_text": "Double room with air conditioning and sea view"
+      },
+      {
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618903.jpg",
+        "type": "view",
+        "source": "Booking.com",
+        "alt_text": "Sea view from hotel balcony"
+      },
+      {
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618904.jpg",
+        "type": "breakfast",
+        "source": "Booking.com",
+        "alt_text": "Breakfast served on garden terrace"
+      },
+      {
+        "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618905.jpg",
+        "type": "common_area",
+        "source": "Booking.com",
+        "alt_text": "Hotel lobby and reception area"
+      }
+    ],
+    "nearby": {
+      "transport": [
+        "Monterosso al Mare train station (100m)",
+        "Ferry terminal (150m)",
+        "Bus stop (50m)"
+      ],
+      "attractions": [
+        "Monterosso Beach (20m)",
+        "Giant of Monterosso statue (200m)",
+        "Church of San Giovanni Battista (300m)",
+        "Cinque Terre National Park trails (500m)"
+      ],
+      "restaurants": [
+        "Ristorante Belvedere (100m)",
+        "Trattoria da Oscar (150m)",
+        "Il Casello (200m)",
+        "Nessun Dorma (by ferry to Manarola)"
+      ]
+    },
+    "contact": {
+      "email": "info@hotelbaia.it",
+      "phone": "+39 0187 817512",
+      "website": "https://www.hotelbaia.it",
+      "booking_urls": {
+        "airbnb": null,
+        "direct": "https://www.hotelbaia.it/reservations",
+        "expedia": "https://www.expedia.it/Monterosso-Hotels-Hotel-Baia.h123456.Hotel-Information",
+        "booking_com": "https://www.booking.com/hotel/it/baia-monterosso.html"
+      }
     },
     "pricing": {
       "currency": "EUR",
@@ -30,15 +96,141 @@
           "min_per_night": 210
         }
       },
-      "average_nightly_rate": 160
+      "cleaning_fee": null,
+      "taxes_included": false,
+      "payment_methods": [
+        "Credit Card",
+        "Debit Card",
+        "Cash",
+        "Bank Transfer"
+      ],
+      "deposit_required": false,
+      "deposit_amount_eur": null,
+      "cancellation_policy": "Free cancellation up to 24 hours before check-in",
+      "service_fee_percent": null,
+      "average_nightly_rate": 180
     },
     "ratings": {
-      "average_rating": 8.4
+      "airbnb": {
+        "url": null,
+        "rating": null,
+        "ranking": null,
+        "superhost": null,
+        "review_count": null,
+        "certificate_of_excellence": false
+      },
+      "google": {
+        "url": "https://goo.gl/maps/HotelBaiaMonterosso",
+        "rating": 4.1,
+        "ranking": null,
+        "superhost": null,
+        "review_count": 534,
+        "certificate_of_excellence": false
+      },
+      "expedia": {
+        "url": "https://www.expedia.it/Monterosso-Hotels-Hotel-Baia.h123456.Hotel-Information",
+        "rating": 8.2,
+        "ranking": null,
+        "superhost": null,
+        "review_count": 287,
+        "certificate_of_excellence": false
+      },
+      "hotels_com": {
+        "url": null,
+        "rating": null,
+        "ranking": null,
+        "superhost": null,
+        "review_count": null,
+        "certificate_of_excellence": false
+      },
+      "booking_com": {
+        "url": "https://www.booking.com/hotel/it/baia-monterosso.html",
+        "rating": 8.4,
+        "ranking": null,
+        "superhost": null,
+        "review_count": 1247,
+        "certificate_of_excellence": false
+      },
+      "tripadvisor": {
+        "url": "https://www.tripadvisor.it/Hotel_Review-g187817-d246801-Reviews-Hotel_Baia-Monterosso_al_Mare_Cinque_Terre_Liguria.html",
+        "rating": 4,
+        "ranking": "#8 of 20 hotels in Monterosso al Mare",
+        "superhost": null,
+        "review_count": 892,
+        "certificate_of_excellence": true
+      },
+      "average_rating": 4.1
     },
+    "reviews": [
+      {
+        "date": "2024-10-15",
+        "text": "Excellent location right on the beach. Staff was very friendly and helpful. Room was clean and comfortable with great sea views. Breakfast was delicious with fresh local products.",
+        "title": "Perfect beachfront location",
+        "author": "Marco R.",
+        "rating": 9,
+        "source": "Booking.com",
+        "stayed_in": "October 2024",
+        "trip_type": "Couple",
+        "helpful_votes": 12,
+        "verified_stay": true,
+        "author_country": "Italy",
+        "cons_mentioned": [],
+        "pros_mentioned": [
+          "location",
+          "staff",
+          "breakfast",
+          "view"
+        ]
+      },
+      {
+        "date": "2024-09-22",
+        "text": "The hotel is perfectly positioned for exploring all five villages. Train station is literally around the corner. Room was small but adequate. The breakfast terrace is lovely.",
+        "title": "Great base for exploring Cinque Terre",
+        "author": "Sarah M.",
+        "rating": 8,
+        "source": "TripAdvisor",
+        "stayed_in": "September 2024",
+        "trip_type": "Family",
+        "helpful_votes": 8,
+        "verified_stay": true,
+        "author_country": "United States",
+        "cons_mentioned": [
+          "small room"
+        ],
+        "pros_mentioned": [
+          "location",
+          "train access",
+          "breakfast terrace"
+        ]
+      },
+      {
+        "date": "2024-08-10",
+        "text": "Good location and friendly staff. Room was clean but quite small with limited storage space. The beach access is a major plus. Breakfast was good quality.",
+        "title": null,
+        "author": "Thomas K.",
+        "rating": 7,
+        "source": "Google",
+        "stayed_in": "August 2024",
+        "trip_type": "Solo",
+        "helpful_votes": 3,
+        "verified_stay": true,
+        "author_country": "Germany",
+        "cons_mentioned": [
+          "small room",
+          "limited storage"
+        ],
+        "pros_mentioned": [
+          "location",
+          "staff",
+          "beach access"
+        ]
+      }
+    ],
     "village": "Monterosso",
     "location": {
       "city": "Monterosso al Mare",
       "region": "Liguria",
+      "street": "Lungomare Fegina",
       "address": "Lungomare Fegina, 88",
       "country": "Italy",
       "coordinates": {
@@ -49,6 +241,7 @@
       "accessibility_notes": "Easy access from train station, beachfront location",
       "location_description": "Seafront hotel in the heart of Monterosso on beachfront in Fegina area, only 100 meters from train station",
       "distance_to_landmarks": {
+        "harbor_meters": 200,
         "main_street_meters": 50,
         "nearest_beach_meters": 20,
         "train_station_meters": 100
@@ -57,33 +250,99 @@
     "policies": {
       "smoking": "Non-smoking",
       "check_in": {
-        "from": "14:00"
+        "to": "22:00",
+        "from": "14:00",
+        "notes": "Late check-in available upon request",
+        "flexible": true,
+        "self_check_in": false
       },
       "check_out": {
-        "by": "11:00"
-      }
+        "by": "11:00",
+        "late_checkout_fee_eur": 25,
+        "late_checkout_available": true
+      },
+      "quiet_hours": "22:00 - 08:00",
+      "minimum_stay": {
+        "low_season": 1,
+        "high_season": 2,
+        "peak_season": 3
+      },
+      "parties_events": "Not allowed",
+      "age_restriction": null
     },
     "amenities": {
+      "pets": {
+        "allowed": true,
+        "restrictions": "Small pets only, must be declared at booking",
+        "fee_per_night_eur": 15
+      },
       "general": [
         "Free Wi-Fi",
         "Air conditioning",
-        "Beachfront location"
+        "Beachfront location",
+        "Elevator",
+        "24-hour front desk",
+        "Luggage storage"
       ],
+      "kitchen": [],
       "outdoor": [
-        "Large garden patio"
+        "Large garden patio",
+        "Beach umbrellas",
+        "Sun loungers"
       ],
+      "parking": {
+        "type": "Nearby",
+        "notes": "Public parking 200 meters from hotel",
+        "available": true,
+        "price_per_day_eur": 25
+      },
       "services": [
-        "Direct beach access"
+        "Direct beach access",
+        "Concierge service",
+        "Tour desk",
+        "Laundry service"
       ],
       "breakfast": {
+        "type": "Continental",
+        "hours": "07:30 - 10:00",
         "notes": "Served in garden patio area",
-        "included": true
-      }
+        "included": true,
+        "price_if_extra_eur": null
+      },
+      "accessibility": [
+        "Elevator access",
+        "Ground floor rooms available"
+      ],
+      "room_amenities": [
+        "Air conditioning",
+        "TV",
+        "Private bathroom",
+        "Hair dryer",
+        "Safe",
+        "Mini fridge"
+      ]
+    },
+    "host_info": {
+      "host_name": "Famiglia Baia",
+      "host_type": "Professional",
+      "response_time": "Within 2 hours",
+      "years_hosting": 25,
+      "languages_spoken": [
+        "Italian",
+        "English",
+        "French",
+        "German"
+      ],
+      "superhost_status": null,
+      "local_tips_provided": true,
+      "response_rate_percent": 98
     },
     "pros_cons": {
       "cons": [
         "Rooms small with little storage",
-        "Can be busy location"
+        "Can be busy location",
+        "Limited parking",
+        "Street noise in front rooms"
       ],
       "pros": [
         "Perfect beachfront location",
@@ -91,7 +350,8 @@
         "At heart of action",
         "Pleasant reception staff",
         "Excellent breakfast",
-        "Large garden patio"
+        "Large garden patio",
+        "Direct beach access"
       ]
     },
     "data_source": "web_search_2024",
@@ -99,21 +359,75 @@
       "room_types": [
         {
           "name": "Double Room with Air Conditioning",
+          "has_view": false,
+          "size_sqm": 16,
           "amenities": [
             "Air conditioning",
             "TV",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Private bathroom",
+            "Mini fridge"
           ],
+          "view_type": null,
           "description": "Comfortable room with air conditioning steps from the beach",
           "max_occupancy": 2,
+          "bed_configuration": "1 double bed",
+          "price_per_night_eur": 160,
+          "has_private_bathroom": true
+        },
+        {
+          "name": "Double Room with Sea View",
+          "has_view": true,
+          "size_sqm": 18,
+          "amenities": [
+            "Air conditioning",
+            "TV",
+            "Wi-Fi",
+            "Private bathroom",
+            "Mini fridge",
+            "Balcony"
+          ],
+          "view_type": "Sea View",
+          "description": "Spacious room with beautiful sea views and balcony",
+          "max_occupancy": 2,
+          "bed_configuration": "1 double bed",
+          "price_per_night_eur": 200,
+          "has_private_bathroom": true
+        },
+        {
+          "name": "Triple Room",
+          "has_view": false,
+          "size_sqm": 20,
+          "amenities": [
+            "Air conditioning",
+            "TV",
+            "Wi-Fi",
+            "Private bathroom",
+            "Mini fridge"
+          ],
+          "view_type": null,
+          "description": "Family room with additional single bed, perfect for families",
+          "max_occupancy": 3,
+          "bed_configuration": "1 double bed + 1 single bed",
+          "price_per_night_eur": 180,
           "has_private_bathroom": true
         }
       ],
       "total_rooms": 28
+    },
+    "last_updated": "2024-12-19T10:30:00Z",
+    "sustainability": {
+      "practices": [
+        "Energy-efficient lighting",
+        "Water conservation measures",
+        "Recycling program",
+        "Local breakfast products"
+      ],
+      "eco_certified": false
     }
   },
   "published": false,
   "featured": false,
   "created_at": "2025-12-09T09:58:34.951Z",
-  "updated_at": "2025-12-09T09:58:34.951Z"
+  "updated_at": "2025-12-10T08:28:49.635Z"
 }
