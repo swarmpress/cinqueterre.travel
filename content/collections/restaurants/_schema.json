@@ -1,0 +1,839 @@
+{
+  "type": "cinqueterre_restaurants",
+  "display_name": "Cinque Terre Restaurants",
+  "singular_name": "Restaurant",
+  "description": "Restaurant data for Cinque Terre villages",
+  "icon": "utensils",
+  "color": "#F97316",
+  "json_schema": {
+    "$ref": "#/definitions/cinqueterre_restaurants",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+      "cinqueterre_restaurants": {
+        "type": "object",
+        "required": [
+          "name",
+          "slug",
+          "location",
+          "village",
+          "ratings",
+          "details"
+        ],
+        "properties": {
+          "menu": {
+            "type": "object",
+            "properties": {
+              "must_try": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "specialties": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "signature_dishes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "price_eur": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "dietary_info": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rank": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "tips": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "url",
+                "source",
+                "alt_text",
+                "type"
+              ],
+              "properties": {
+                "url": {
+                  "type": "string"
+                },
+                "type": {
+                  "enum": [
+                    "exterior",
+                    "interior",
+                    "food",
+                    "view"
+                  ],
+                  "type": "string"
+                },
+                "source": {
+                  "enum": [
+                    "Google",
+                    "TripAdvisor",
+                    "Official",
+                    "Yelp"
+                  ],
+                  "type": "string"
+                },
+                "alt_text": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "contact": {
+            "type": "object",
+            "properties": {
+              "email": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "phone": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "website": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "reservations_url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "details": {
+            "type": "object",
+            "required": [
+              "cuisine_type",
+              "price_range"
+            ],
+            "properties": {
+              "best_for": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "features": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "atmosphere": {
+                "type": "string"
+              },
+              "dress_code": {
+                "enum": [
+                  "Casual",
+                  "Smart Casual",
+                  "Formal"
+                ],
+                "type": "string",
+                "default": "Casual"
+              },
+              "price_range": {
+                "type": "object",
+                "required": [
+                  "level"
+                ],
+                "properties": {
+                  "level": {
+                    "enum": [
+                      "€",
+                      "€€",
+                      "€€€",
+                      "€€€€"
+                    ],
+                    "type": "string"
+                  },
+                  "max_price_eur": {
+                    "type": "integer"
+                  },
+                  "min_price_eur": {
+                    "type": "integer"
+                  },
+                  "average_meal_eur": {
+                    "type": "integer"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "cuisine_type": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "dietary_options": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "reservation_required": {
+                "type": "boolean",
+                "default": false
+              },
+              "credit_cards_accepted": {
+                "type": "boolean",
+                "default": true
+              },
+              "wheelchair_accessible": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "ratings": {
+            "type": "object",
+            "required": [
+              "average_rating"
+            ],
+            "properties": {
+              "yelp": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "maximum": 5,
+                        "minimum": 0
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "google": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "maximum": 5,
+                        "minimum": 0
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "michelin": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "Selected",
+                          "Star",
+                          "Bib Gourmand"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "description": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "foursquare": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "tripadvisor": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "maximum": 5,
+                        "minimum": 0
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "average_rating": {
+                "type": "number",
+                "maximum": 5,
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "reviews": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "source",
+                "author",
+                "rating",
+                "date",
+                "text"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "author": {
+                  "type": "string"
+                },
+                "rating": {
+                  "type": "integer",
+                  "maximum": 5,
+                  "minimum": 1
+                },
+                "source": {
+                  "enum": [
+                    "Google",
+                    "TripAdvisor",
+                    "Yelp"
+                  ],
+                  "type": "string"
+                },
+                "language": {
+                  "type": "string",
+                  "default": "en"
+                },
+                "helpful_votes": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "village": {
+            "enum": [
+              "Riomaggiore",
+              "Manarola",
+              "Corniglia",
+              "Vernazza",
+              "Monterosso"
+            ],
+            "type": "string"
+          },
+          "location": {
+            "type": "object",
+            "required": [
+              "address",
+              "city",
+              "coordinates"
+            ],
+            "properties": {
+              "city": {
+                "type": "string"
+              },
+              "region": {
+                "type": "string",
+                "default": "Liguria"
+              },
+              "street": {
+                "type": "string"
+              },
+              "address": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string",
+                "default": "Italy"
+              },
+              "coordinates": {
+                "type": "object",
+                "required": [
+                  "latitude",
+                  "longitude"
+                ],
+                "properties": {
+                  "latitude": {
+                    "type": "number"
+                  },
+                  "longitude": {
+                    "type": "number"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "postal_code": {
+                "type": "string",
+                "default": "19017"
+              },
+              "location_description": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "pros_cons": {
+            "type": "object",
+            "properties": {
+              "cons": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "pros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "data_source": {
+            "type": "string",
+            "default": "claude_web_search"
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "opening_hours": {
+            "type": "object",
+            "required": [
+              "hours"
+            ],
+            "properties": {
+              "hours": {
+                "type": "object",
+                "properties": {
+                  "friday": {
+                    "type": "object",
+                    "properties": {
+                      "open": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "close": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "closed": {
+                        "type": "boolean",
+                        "default": false
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "monday": {
+                    "type": "object",
+                    "properties": {
+                      "open": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "close": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "closed": {
+                        "type": "boolean",
+                        "default": false
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "sunday": {
+                    "type": "object",
+                    "properties": {
+                      "open": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "close": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "closed": {
+                        "type": "boolean",
+                        "default": false
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "tuesday": {
+                    "type": "object",
+                    "properties": {
+                      "open": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "close": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "closed": {
+                        "type": "boolean",
+                        "default": false
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "saturday": {
+                    "type": "object",
+                    "properties": {
+                      "open": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "close": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "closed": {
+                        "type": "boolean",
+                        "default": false
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "thursday": {
+                    "type": "object",
+                    "properties": {
+                      "open": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "close": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "closed": {
+                        "type": "boolean",
+                        "default": false
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "wednesday": {
+                    "type": "object",
+                    "properties": {
+                      "open": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "close": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "closed": {
+                        "type": "boolean",
+                        "default": false
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "notes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "timezone": {
+                "type": "string",
+                "default": "Europe/Rome"
+              },
+              "lunch_hours": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "dinner_hours": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "seasonal_closure": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "field_metadata": {
+    "name": {
+      "label": "Restaurant Name",
+      "helpText": "The name of the restaurant",
+      "required": true,
+      "placeholder": "Enter restaurant name"
+    },
+    "slug": {
+      "label": "URL Slug",
+      "helpText": "URL-friendly identifier",
+      "required": true,
+      "placeholder": "restaurant-name"
+    },
+    "village": {
+      "type": "select",
+      "label": "Village",
+      "options": [
+        "Riomaggiore",
+        "Manarola",
+        "Corniglia",
+        "Vernazza",
+        "Monterosso"
+      ],
+      "helpText": "Which Cinque Terre village",
+      "required": true
+    },
+    "details.cuisine_type": {
+      "type": "tags",
+      "label": "Cuisine Type",
+      "helpText": "Types of cuisine served"
+    },
+    "ratings.average_rating": {
+      "max": 5,
+      "min": 0,
+      "type": "number",
+      "label": "Average Rating",
+      "helpText": "Overall rating (0-5)"
+    },
+    "details.price_range.level": {
+      "type": "select",
+      "label": "Price Range",
+      "options": [
+        "€",
+        "€€",
+        "€€€",
+        "€€€€"
+      ]
+    }
+  },
+  "title_field": "name",
+  "summary_field": "details.atmosphere"
+}
