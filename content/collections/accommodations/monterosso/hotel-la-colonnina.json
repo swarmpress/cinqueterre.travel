@@ -2,21 +2,160 @@
   "id": "bead8e28-e00b-492c-a7f6-581dc62f3971",
   "slug": "hotel-la-colonnina",
   "data": {
-    "name": "Hotel la Colonnina",
+    "name": {
+      "de": "Hotel La Colonnina",
+      "en": "Hotel La Colonnina",
+      "fr": "Hôtel La Colonnina",
+      "it": "Hotel La Colonnina"
+    },
+    "rank": 4,
+    "slug": "hotel-la-colonnina",
+    "tips": {
+      "best_rooms": {
+        "de": "Superior-Zimmer mit Meerblick-Balkon",
+        "en": "Superior rooms with sea view balcony",
+        "fr": "Chambres Supérieures avec balcon vue mer",
+        "it": "Camere Superior con balcone vista mare"
+      },
+      "insider_tips": {
+        "de": "Bitten Sie um ein Zimmer mit Balkon zum Meer für Sonnenaufgänge. Die Lage des Hotels ist perfekt für Strandtage und Wanderungen.",
+        "en": "Request a room with a balcony facing the sea for morning sunrises. The hotel's location makes it perfect for both beach days and hiking the trails.",
+        "fr": "Demandez une chambre avec balcon face à la mer pour les levers de soleil matinaux. L'emplacement de l'hôtel est parfait pour les journées plage et randonnées.",
+        "it": "Richiedete una camera con balcone fronte mare per le albe mattutine. La posizione dell'hotel è perfetta sia per le giornate in spiaggia che per le escursioni."
+      },
+      "when_to_book": {
+        "de": "Rechtzeitig für den Sommer buchen, ausgezeichnete Preise im Frühling",
+        "en": "Book well in advance for summer, excellent rates in spring",
+        "fr": "Réservez bien à l'avance pour l'été, excellents tarifs au printemps",
+        "it": "Prenotare con largo anticipo per l'estate, tariffe eccellenti in primavera"
+      }
+    },
     "type": "hotel",
-    "village": "Monterosso al Mare",
-    "features": [
-      "historic center location",
-      "eco-friendly",
-      "environmental quality label",
-      "sustainable practices"
+    "stars": 4,
+    "booking": {
+      "booking_url": "https://www.booking.com/hotel/it/la-colonnina.html",
+      "cancellation_policy": {
+        "de": "Kostenlose Stornierung bis 24 Stunden vor Anreise",
+        "en": "Free cancellation up to 24 hours before arrival",
+        "fr": "Annulation gratuite jusqu'à 24 heures avant l'arrivée",
+        "it": "Cancellazione gratuita fino a 24 ore prima dell'arrivo"
+      }
+    },
+    "contact": {
+      "email": "info@lacolonninahotel.it",
+      "phone": "+39 0187 817439",
+      "website": "https://www.lacolonninahotel.it"
+    },
+    "details": {
+      "rooms": 21,
+      "teaser": {
+        "de": "Boutique-Eleganz nur wenige Schritte vom Strand",
+        "en": "Boutique elegance steps from the beach",
+        "fr": "Élégance boutique à quelques pas de la plage",
+        "it": "Eleganza boutique a pochi passi dalla spiaggia"
+      },
+      "check_in": "15:00",
+      "check_out": "11:00",
+      "highlights": {
+        "de": [
+          "Strandnähe",
+          "Boutique-Stil",
+          "Zimmer mit Meerblick",
+          "Moderne Ausstattung"
+        ],
+        "en": [
+          "Beach proximity",
+          "Boutique style",
+          "Sea view rooms",
+          "Modern amenities"
+        ],
+        "fr": [
+          "Proximité de la plage",
+          "Style boutique",
+          "Chambres vue mer",
+          "Équipements modernes"
+        ],
+        "it": [
+          "Vicinanza alla spiaggia",
+          "Stile boutique",
+          "Camere vista mare",
+          "Servizi moderni"
+        ]
+      },
+      "description": {
+        "de": "Elegantes Boutique-Hotel nur wenige Schritte vom schönen Strand von Monterosso entfernt. Hotel La Colonnina bietet stilvolle Unterkünfte mit modernen Annehmlichkeiten und persönlichen Service.",
+        "en": "Elegant boutique hotel located steps from Monterosso's beautiful beach, offering stylish accommodations with modern amenities. Hotel La Colonnina features beautifully decorated rooms, many with sea views, and provides personalized service in an intimate setting.",
+        "fr": "Élégant hôtel boutique situé à quelques pas de la belle plage de Monterosso. Hôtel La Colonnina offre un hébergement élégant avec des équipements modernes.",
+        "it": "Elegante hotel boutique situato a pochi passi dalla bella spiaggia di Monterosso. Hotel La Colonnina offre sistemazioni eleganti con servizi moderni e servizio personalizzato."
+      }
+    },
+    "ratings": {
+      "count": 1056,
+      "average": 8.5,
+      "breakdown": {
+        "value": 8.1,
+        "comfort": 8.3,
+        "service": 8.6,
+        "location": 9.2,
+        "cleanliness": 8.8
+      }
+    },
+    "sources": [
+      "https://www.lacolonninahotel.it",
+      "https://www.booking.com/hotel/it/la-colonnina.html"
     ],
-    "source_url": "https://fullsuitcase.com/cinque-terre-hotels/",
-    "description": "Located in the historic center of Monterosso, this sustainability-focused hotel has earned the Environmental Quality Label from Cinque Terre National Park. Distinguished by its prime location and eco-friendly practices, it provides a top-notch guest experience.",
-    "price_range": "€€€"
+    "village": "monterosso",
+    "featured": false,
+    "location": {
+      "address": "Via Zuecca 6, 19016 Monterosso al Mare SP, Italy",
+      "sea_view": true,
+      "coordinates": {
+        "lat": 44.1453,
+        "lng": 9.6545
+      },
+      "distance_to_center": "80m",
+      "distance_to_station": "120m"
+    },
+    "amenities": [
+      "WiFi",
+      "Air conditioning",
+      "Bar",
+      "Terrace",
+      "Room service",
+      "Concierge",
+      "Safe",
+      "Mini bar"
+    ],
+    "published": true,
+    "seo_title": {
+      "de": "Hotel La Colonnina Monterosso | Boutique-Strandhotel Cinque Terre",
+      "en": "Hotel La Colonnina Monterosso | Boutique Beachfront Hotel Cinque Terre",
+      "fr": "Hôtel La Colonnina Monterosso | Hôtel Boutique en Bord de Mer Cinque Terre",
+      "it": "Hotel La Colonnina Monterosso | Hotel Boutique Fronte Mare Cinque Terre"
+    },
+    "price_range": {
+      "max": 320,
+      "min": 160,
+      "season": "high season",
+      "currency": "EUR"
+    },
+    "last_updated": "2025-12-10T15:10:31.883Z",
+    "seo_keywords": [
+      "Hotel La Colonnina",
+      "boutique hotel Monterosso",
+      "beachfront accommodation",
+      "sea view hotel Cinque Terre",
+      "luxury Monterosso hotel"
+    ],
+    "seo_description": {
+      "de": "Erleben Sie Boutique-Luxus im Hotel La Colonnina in Monterosso. Elegantes Strandhotel mit stilvollen Zimmern, Meerblick und erstklassiger Lage direkt am Strand.",
+      "en": "Experience boutique luxury at Hotel La Colonnina in Monterosso. Elegant beachfront hotel with stylish rooms, sea views, and prime location just steps from the beach in Cinque Terre.",
+      "fr": "Découvrez le luxe boutique à l'Hôtel La Colonnina à Monterosso. Élégant hôtel en bord de mer avec chambres stylées, vue mer et emplacement privilégié à quelques pas de la plage.",
+      "it": "Vivete il lusso boutique all'Hotel La Colonnina a Monterosso. Elegante hotel fronte mare con camere eleganti, vista mare e posizione privilegiata a pochi passi dalla spiaggia."
+    }
   },
-  "published": false,
+  "published": true,
   "featured": false,
   "created_at": "2025-12-09T09:19:00.556Z",
-  "updated_at": "2025-12-09T09:19:00.556Z"
+  "updated_at": "2025-12-10T15:58:01.827Z"
 }
