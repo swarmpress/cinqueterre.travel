@@ -1,0 +1,2187 @@
+{
+  "type": "cinqueterre_region",
+  "display_name": "Cinque Terre Region Profile",
+  "singular_name": "Region Profile",
+  "description": "Comprehensive Cinque Terre regional information",
+  "icon": "map",
+  "color": "#10B981",
+  "json_schema": {
+    "$ref": "#/definitions/cinqueterre_region",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+      "cinqueterre_region": {
+        "type": "object",
+        "required": [
+          "metadata",
+          "basic_information"
+        ],
+        "properties": {
+          "history": {
+            "type": "object",
+            "required": [
+              "section_intro"
+            ],
+            "properties": {
+              "timeline": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "period",
+                    "headline",
+                    "event"
+                  ],
+                  "properties": {
+                    "era": {
+                      "enum": [
+                        "Prehistoric",
+                        "Roman",
+                        "Medieval",
+                        "Renaissance",
+                        "Modern"
+                      ],
+                      "type": "string"
+                    },
+                    "event": {
+                      "type": "string"
+                    },
+                    "period": {
+                      "type": "string"
+                    },
+                    "headline": {
+                      "type": "string"
+                    },
+                    "legacy_today": {
+                      "type": "string"
+                    },
+                    "significance": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "origin_story": {
+                "type": "object",
+                "required": [
+                  "headline",
+                  "full_story"
+                ],
+                "properties": {
+                  "intro": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  },
+                  "why_here": {
+                    "type": "string"
+                  },
+                  "full_story": {
+                    "type": "string"
+                  },
+                  "name_origins": {
+                    "type": "object",
+                    "properties": {
+                      "cinque_terre": {
+                        "type": "string"
+                      },
+                      "individual_villages": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "earliest_inhabitants": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "the_terraces": {
+                "type": "object",
+                "required": [
+                  "headline"
+                ],
+                "properties": {
+                  "intro": {
+                    "type": "string"
+                  },
+                  "purpose": {
+                    "type": "object",
+                    "properties": {
+                      "modern_use": {
+                        "type": "string"
+                      },
+                      "crops_grown": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "original_purpose": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "headline": {
+                    "type": "string"
+                  },
+                  "statistics": {
+                    "type": "object",
+                    "properties": {
+                      "comparison": {
+                        "type": "string"
+                      },
+                      "total_walls_km": {
+                        "type": "number"
+                      },
+                      "total_terraces_hectares": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "construction": {
+                    "type": "object",
+                    "properties": {
+                      "how_built": {
+                        "type": "string"
+                      },
+                      "when_built": {
+                        "type": "string"
+                      },
+                      "dry_stone_technique": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "how_to_experience": {
+                    "type": "string"
+                  },
+                  "unesco_recognition": {
+                    "type": "string"
+                  },
+                  "preservation_challenges": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "section_intro": {
+                "type": "string"
+              },
+              "cultural_heritage": {
+                "type": "object",
+                "properties": {
+                  "headline": {
+                    "type": "string"
+                  },
+                  "local_festivals": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "fishing_tradition": {
+                    "type": "object",
+                    "properties": {
+                      "today": {
+                        "type": "string"
+                      },
+                      "history": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "winemaking_tradition": {
+                    "type": "object",
+                    "properties": {
+                      "history": {
+                        "type": "string"
+                      },
+                      "sciacchetra": {
+                        "type": "object",
+                        "properties": {
+                          "rarity": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string"
+                          },
+                          "production_method": {
+                            "type": "string"
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "historical_periods": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "period_name",
+                    "headline"
+                  ],
+                  "properties": {
+                    "intro": {
+                      "type": "string"
+                    },
+                    "years": {
+                      "type": "string"
+                    },
+                    "headline": {
+                      "type": "string"
+                    },
+                    "period_name": {
+                      "type": "string"
+                    },
+                    "remnants_today": {
+                      "type": "string"
+                    },
+                    "transformation": {
+                      "type": "string"
+                    },
+                    "key_developments": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "genoese_influence": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "architectural_heritage": {
+                "type": "object",
+                "properties": {
+                  "intro": {
+                    "type": "string"
+                  },
+                  "headline": {
+                    "type": "string"
+                  },
+                  "the_colors": {
+                    "type": "object",
+                    "properties": {
+                      "famous_palette": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "origin_of_colors": {
+                        "type": "string"
+                      },
+                      "color_coding_legend": {
+                        "type": "string"
+                      },
+                      "best_village_for_colors": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "tower_houses": {
+                    "type": "object",
+                    "properties": {
+                      "description": {
+                        "type": "string"
+                      },
+                      "where_to_see": {
+                        "type": "string"
+                      },
+                      "why_built_tall": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "from_isolation_to_fame": {
+                "type": "object",
+                "properties": {
+                  "headline": {
+                    "type": "string"
+                  },
+                  "the_railroad": {
+                    "type": "object",
+                    "properties": {
+                      "year": {
+                        "type": "integer"
+                      },
+                      "impact": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "unesco_effect": {
+                    "type": "string"
+                  },
+                  "modern_challenges": {
+                    "type": "object",
+                    "properties": {
+                      "overtourism": {
+                        "type": "string"
+                      },
+                      "depopulation": {
+                        "type": "string"
+                      },
+                      "sustainable_solutions": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "the_isolation_years": {
+                    "type": "string"
+                  },
+                  "discovery_by_tourists": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "region_name": {
+                "type": "string",
+                "default": "Cinque Terre"
+              },
+              "search_type": {
+                "type": "string",
+                "default": "region_profile"
+              },
+              "data_sources": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "generated_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "last_updated": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "content_language": {
+                "type": "string",
+                "default": "en"
+              }
+            },
+            "additionalProperties": false
+          },
+          "highlights": {
+            "type": "object",
+            "required": [
+              "section_intro"
+            ],
+            "properties": {
+              "hidden_gems": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "teaser",
+                    "location"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "teaser": {
+                      "type": "string"
+                    },
+                    "headline": {
+                      "type": "string"
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "how_to_find": {
+                      "type": "string"
+                    },
+                    "why_overlooked": {
+                      "type": "string"
+                    },
+                    "best_kept_secret_rating": {
+                      "type": "integer",
+                      "maximum": 10,
+                      "minimum": 1
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "section_intro": {
+                "type": "string"
+              },
+              "signature_views": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "location",
+                    "village",
+                    "what_you_see"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "village": {
+                      "type": "string"
+                    },
+                    "headline": {
+                      "type": "string"
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "best_light": {
+                      "enum": [
+                        "sunrise",
+                        "morning",
+                        "afternoon",
+                        "golden-hour",
+                        "sunset",
+                        "blue-hour"
+                      ],
+                      "type": "string"
+                    },
+                    "photo_tips": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "coordinates": {
+                      "type": "object",
+                      "required": [
+                        "latitude",
+                        "longitude"
+                      ],
+                      "properties": {
+                        "latitude": {
+                          "type": "number"
+                        },
+                        "longitude": {
+                          "type": "number"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "crowd_level": {
+                      "enum": [
+                        "low",
+                        "moderate",
+                        "high",
+                        "very-high"
+                      ],
+                      "type": "string"
+                    },
+                    "what_you_see": {
+                      "type": "string"
+                    },
+                    "accessibility": {
+                      "enum": [
+                        "easy",
+                        "moderate",
+                        "difficult"
+                      ],
+                      "type": "string"
+                    },
+                    "instagram_worthy_rating": {
+                      "type": "integer",
+                      "maximum": 10,
+                      "minimum": 1
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "unique_experiences": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "description"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "when": {
+                      "type": "string"
+                    },
+                    "where": {
+                      "type": "string"
+                    },
+                    "headline": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "locals_favorite": {
+                      "type": "boolean"
+                    },
+                    "price_range_eur": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "booking_required": {
+                      "type": "boolean"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "must_do_experiences": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "rank",
+                    "name",
+                    "headline",
+                    "description",
+                    "location"
+                  ],
+                  "properties": {
+                    "cost": {
+                      "enum": [
+                        "free",
+                        "budget",
+                        "moderate",
+                        "expensive"
+                      ],
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "rank": {
+                      "type": "integer"
+                    },
+                    "intro": {
+                      "type": "string"
+                    },
+                    "category": {
+                      "enum": [
+                        "hiking",
+                        "culinary",
+                        "scenic",
+                        "cultural",
+                        "adventure",
+                        "relaxation"
+                      ],
+                      "type": "string"
+                    },
+                    "duration": {
+                      "type": "string"
+                    },
+                    "headline": {
+                      "type": "string"
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "best_time": {
+                      "type": "string"
+                    },
+                    "difficulty": {
+                      "enum": [
+                        "easy",
+                        "moderate",
+                        "challenging"
+                      ],
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "insider_tip": {
+                      "type": "string"
+                    },
+                    "why_unmissable": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "seasonal_highlights": {
+                "type": "object",
+                "properties": {
+                  "fall": {
+                    "type": "object",
+                    "required": [
+                      "headline"
+                    ],
+                    "properties": {
+                      "headline": {
+                        "type": "string"
+                      },
+                      "highlights": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "beach_scene": {
+                        "type": "string"
+                      },
+                      "nature_notes": {
+                        "type": "string"
+                      },
+                      "unique_appeal": {
+                        "type": "string"
+                      },
+                      "special_events": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "harvest_activities": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "spring": {
+                    "type": "object",
+                    "required": [
+                      "headline"
+                    ],
+                    "properties": {
+                      "headline": {
+                        "type": "string"
+                      },
+                      "highlights": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "beach_scene": {
+                        "type": "string"
+                      },
+                      "nature_notes": {
+                        "type": "string"
+                      },
+                      "unique_appeal": {
+                        "type": "string"
+                      },
+                      "special_events": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "harvest_activities": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "summer": {
+                    "type": "object",
+                    "required": [
+                      "headline"
+                    ],
+                    "properties": {
+                      "headline": {
+                        "type": "string"
+                      },
+                      "highlights": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "beach_scene": {
+                        "type": "string"
+                      },
+                      "nature_notes": {
+                        "type": "string"
+                      },
+                      "unique_appeal": {
+                        "type": "string"
+                      },
+                      "special_events": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "harvest_activities": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "winter": {
+                    "type": "object",
+                    "required": [
+                      "headline"
+                    ],
+                    "properties": {
+                      "headline": {
+                        "type": "string"
+                      },
+                      "highlights": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "beach_scene": {
+                        "type": "string"
+                      },
+                      "nature_notes": {
+                        "type": "string"
+                      },
+                      "unique_appeal": {
+                        "type": "string"
+                      },
+                      "special_events": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "harvest_activities": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "for_different_travelers": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "object",
+                  "required": [
+                    "headline",
+                    "best_village_to_stay"
+                  ],
+                  "properties": {
+                    "headline": {
+                      "type": "string"
+                    },
+                    "top_spots": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "top_experiences": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "best_village_to_stay": {
+                      "type": "string"
+                    },
+                    "top_free_experiences": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "final_verdict": {
+            "type": "object",
+            "required": [
+              "headline",
+              "summary"
+            ],
+            "properties": {
+              "summary": {
+                "type": "string"
+              },
+              "headline": {
+                "type": "string"
+              },
+              "the_magic": {
+                "type": "string"
+              },
+              "the_reality": {
+                "type": "string"
+              },
+              "who_might_not": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "parting_thought": {
+                "type": "string"
+              },
+              "who_will_love_it": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "one_piece_of_advice": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "latest_reviews": {
+            "type": "object",
+            "properties": {
+              "reviews": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "source",
+                    "author",
+                    "rating",
+                    "date",
+                    "text"
+                  ],
+                  "properties": {
+                    "date": {
+                      "type": "string"
+                    },
+                    "rank": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "author": {
+                      "type": "string"
+                    },
+                    "rating": {
+                      "type": "number",
+                      "maximum": 5,
+                      "minimum": 1
+                    },
+                    "source": {
+                      "enum": [
+                        "Google",
+                        "TripAdvisor",
+                        "Booking.com",
+                        "Lonely Planet",
+                        "Travel Blog"
+                      ],
+                      "type": "string"
+                    },
+                    "visit_date": {
+                      "type": "string"
+                    },
+                    "tips_shared": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "would_return": {
+                      "type": "boolean"
+                    },
+                    "helpful_votes": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "traveler_type": {
+                      "enum": [
+                        "solo",
+                        "couple",
+                        "family",
+                        "friends",
+                        "group-tour"
+                      ],
+                      "type": "string"
+                    },
+                    "visit_duration": {
+                      "type": "string"
+                    },
+                    "author_location": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "photos_attached": {
+                      "type": "integer"
+                    },
+                    "would_recommend": {
+                      "type": "boolean"
+                    },
+                    "favorite_village": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "villages_visited": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "criticisms_mentioned": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "highlights_mentioned": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "common_themes": {
+                "type": "object",
+                "properties": {
+                  "recurring_tips": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "tip"
+                      ],
+                      "properties": {
+                        "tip": {
+                          "type": "string"
+                        },
+                        "frequency": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "what_people_love": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "theme"
+                      ],
+                      "properties": {
+                        "theme": {
+                          "type": "string"
+                        },
+                        "validity": {
+                          "type": "string"
+                        },
+                        "frequency": {
+                          "enum": [
+                            "very-common",
+                            "common",
+                            "occasional",
+                            "rare"
+                          ],
+                          "type": "string"
+                        },
+                        "sample_quote": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "common_complaints": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "theme"
+                      ],
+                      "properties": {
+                        "theme": {
+                          "type": "string"
+                        },
+                        "validity": {
+                          "type": "string"
+                        },
+                        "frequency": {
+                          "enum": [
+                            "very-common",
+                            "common",
+                            "occasional",
+                            "rare"
+                          ],
+                          "type": "string"
+                        },
+                        "sample_quote": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              },
+              "section_intro": {
+                "type": "string"
+              },
+              "average_rating": {
+                "type": "number",
+                "maximum": 5,
+                "minimum": 0
+              },
+              "review_summary": {
+                "type": "string"
+              },
+              "rating_breakdown": {
+                "type": "object",
+                "properties": {
+                  "1_star_percent": {
+                    "type": "integer"
+                  },
+                  "2_star_percent": {
+                    "type": "integer"
+                  },
+                  "3_star_percent": {
+                    "type": "integer"
+                  },
+                  "4_star_percent": {
+                    "type": "integer"
+                  },
+                  "5_star_percent": {
+                    "type": "integer"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "overall_sentiment": {
+                "enum": [
+                  "very-positive",
+                  "positive",
+                  "mixed",
+                  "negative"
+                ],
+                "type": "string"
+              },
+              "total_reviews_analyzed": {
+                "type": "integer"
+              }
+            },
+            "additionalProperties": false
+          },
+          "beyond_the_five": {
+            "type": "object",
+            "properties": {
+              "section_intro": {
+                "type": "string"
+              },
+              "nearby_destinations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "why_visit"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "why_visit": {
+                      "type": "string"
+                    },
+                    "highlights": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "distance_km": {
+                      "type": "integer"
+                    },
+                    "day_trip_worthy": {
+                      "type": "boolean"
+                    },
+                    "how_to_get_there": {
+                      "type": "string"
+                    },
+                    "time_needed_hours": {
+                      "type": "number"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "combining_with_other_italian_destinations": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "basic_information": {
+            "type": "object",
+            "required": [
+              "tagline",
+              "elevator_pitch",
+              "location",
+              "the_five_villages"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "default": "Cinque Terre"
+              },
+              "tagline": {
+                "type": "string"
+              },
+              "location": {
+                "type": "object",
+                "required": [
+                  "coordinates_center"
+                ],
+                "properties": {
+                  "region": {
+                    "type": "string",
+                    "default": "Liguria"
+                  },
+                  "country": {
+                    "type": "string",
+                    "default": "Italy"
+                  },
+                  "province": {
+                    "type": "string",
+                    "default": "La Spezia"
+                  },
+                  "coastline": {
+                    "type": "string",
+                    "default": "Italian Riviera (Riviera di Levante)"
+                  },
+                  "bounding_box": {
+                    "type": "object",
+                    "required": [
+                      "north",
+                      "south",
+                      "east",
+                      "west"
+                    ],
+                    "properties": {
+                      "east": {
+                        "type": "number"
+                      },
+                      "west": {
+                        "type": "number"
+                      },
+                      "north": {
+                        "type": "number"
+                      },
+                      "south": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "total_area_km2": {
+                    "type": "number"
+                  },
+                  "coordinates_center": {
+                    "type": "object",
+                    "required": [
+                      "latitude",
+                      "longitude"
+                    ],
+                    "properties": {
+                      "latitude": {
+                        "type": "number"
+                      },
+                      "longitude": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "coastline_length_km": {
+                    "type": "number"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "name_local": {
+                "type": "string",
+                "default": "Cinque Terre"
+              },
+              "at_a_glance": {
+                "type": "object",
+                "properties": {
+                  "ideal_for": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "best_season": {
+                    "type": "object",
+                    "properties": {
+                      "overall": {
+                        "enum": [
+                          "spring",
+                          "summer",
+                          "fall",
+                          "winter"
+                        ],
+                        "type": "string"
+                      },
+                      "for_hiking": {
+                        "type": "string"
+                      },
+                      "for_swimming": {
+                        "type": "string"
+                      },
+                      "for_photography": {
+                        "type": "string"
+                      },
+                      "for_fewer_crowds": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "time_needed": {
+                    "type": "object",
+                    "required": [
+                      "absolute_minimum_days",
+                      "recommended_days",
+                      "to_fully_explore_days"
+                    ],
+                    "properties": {
+                      "ideal_pace": {
+                        "type": "string"
+                      },
+                      "recommended_days": {
+                        "type": "integer"
+                      },
+                      "absolute_minimum_days": {
+                        "type": "number"
+                      },
+                      "to_fully_explore_days": {
+                        "type": "integer"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "not_ideal_for": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "budget_overview": {
+                    "type": "object",
+                    "properties": {
+                      "note": {
+                        "type": "string"
+                      },
+                      "budget_daily_eur": {
+                        "type": "integer"
+                      },
+                      "luxury_daily_eur": {
+                        "type": "integer"
+                      },
+                      "moderate_daily_eur": {
+                        "type": "integer"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "quick_facts": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "icon",
+                    "category",
+                    "fact"
+                  ],
+                  "properties": {
+                    "fact": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "category": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "demographics": {
+                "type": "object",
+                "properties": {
+                  "local_dialect": {
+                    "type": "string"
+                  },
+                  "annual_visitors": {
+                    "type": "integer"
+                  },
+                  "population_year": {
+                    "type": "integer"
+                  },
+                  "population_trend": {
+                    "enum": [
+                      "declining",
+                      "stable",
+                      "growing"
+                    ],
+                    "type": "string"
+                  },
+                  "primary_language": {
+                    "type": "string",
+                    "default": "Italian"
+                  },
+                  "total_population": {
+                    "type": "integer"
+                  },
+                  "population_challenge": {
+                    "type": "string"
+                  },
+                  "visitor_to_resident_ratio": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "name_meaning": {
+                "type": "string",
+                "default": "Five Lands"
+              },
+              "elevator_pitch": {
+                "type": "string"
+              },
+              "classifications": {
+                "type": "object",
+                "properties": {
+                  "national_park": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "default": "Parco Nazionale delle Cinque Terre"
+                      },
+                      "area_km2": {
+                        "type": "number"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "established": {
+                        "type": "integer",
+                        "default": 1999
+                      },
+                      "unique_distinction": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "other_recognitions": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "marine_protected_area": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "zones": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "area_km2": {
+                        "type": "number"
+                      },
+                      "established": {
+                        "type": "integer"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "unesco_world_heritage": {
+                    "type": "object",
+                    "properties": {
+                      "status": {
+                        "type": "boolean",
+                        "default": true
+                      },
+                      "criteria": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "official_name": {
+                        "type": "string",
+                        "default": "Portovenere, Cinque Terre, and the Islands"
+                      },
+                      "inscription_year": {
+                        "type": "integer",
+                        "default": 1997
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "iconic_elements": {
+                "type": "object",
+                "properties": {
+                  "visual_icons": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "natural_icons": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "cultural_icons": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "architectural_icons": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              },
+              "the_five_villages": {
+                "type": "object",
+                "required": [
+                  "overview"
+                ],
+                "properties": {
+                  "overview": {
+                    "type": "string"
+                  },
+                  "villages": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "name",
+                        "one_liner",
+                        "character",
+                        "signature_feature"
+                      ],
+                      "properties": {
+                        "name": {
+                          "enum": [
+                            "Riomaggiore",
+                            "Manarola",
+                            "Corniglia",
+                            "Vernazza",
+                            "Monterosso al Mare"
+                          ],
+                          "type": "string"
+                        },
+                        "vibe": {
+                          "enum": [
+                            "romantic",
+                            "adventurous",
+                            "authentic",
+                            "bustling",
+                            "tranquil"
+                          ],
+                          "type": "string"
+                        },
+                        "best_for": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "nickname": {
+                          "type": "string"
+                        },
+                        "character": {
+                          "type": "string"
+                        },
+                        "one_liner": {
+                          "type": "string"
+                        },
+                        "population": {
+                          "type": "integer"
+                        },
+                        "unique_note": {
+                          "type": "string"
+                        },
+                        "signature_feature": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "order_south_to_north": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": [
+                      "Riomaggiore",
+                      "Manarola",
+                      "Corniglia",
+                      "Vernazza",
+                      "Monterosso al Mare"
+                    ]
+                  },
+                  "village_comparison_quick": {
+                    "type": "object",
+                    "properties": {
+                      "best_beaches": {
+                        "type": "string"
+                      },
+                      "least_crowded": {
+                        "type": "string"
+                      },
+                      "most_romantic": {
+                        "type": "string"
+                      },
+                      "best_nightlife": {
+                        "type": "string"
+                      },
+                      "most_authentic": {
+                        "type": "string"
+                      },
+                      "best_food_scene": {
+                        "type": "string"
+                      },
+                      "most_accessible": {
+                        "type": "string"
+                      },
+                      "most_photogenic": {
+                        "type": "string"
+                      },
+                      "best_for_families": {
+                        "type": "string"
+                      },
+                      "best_base_for_hiking": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "name_pronunciation": {
+                "type": "string",
+                "default": "CHEEN-kweh TEHR-reh"
+              },
+              "character_and_identity": {
+                "type": "object",
+                "required": [
+                  "essence"
+                ],
+                "properties": {
+                  "essence": {
+                    "type": "string"
+                  },
+                  "cultural_identity": {
+                    "type": "string"
+                  },
+                  "what_makes_it_unique": {
+                    "type": "string"
+                  },
+                  "relationship_with_sea": {
+                    "type": "string"
+                  },
+                  "relationship_with_land": {
+                    "type": "string"
+                  },
+                  "defining_characteristics": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "the_cinque_terre_experience": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "village_comparison_guide": {
+            "type": "object",
+            "properties": {
+              "section_intro": {
+                "type": "string"
+              },
+              "best_village_for": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "object",
+                  "required": [
+                    "village",
+                    "why"
+                  ],
+                  "properties": {
+                    "why": {
+                      "type": "string"
+                    },
+                    "village": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "comparison_table": {
+                "type": "object",
+                "properties": {
+                  "villages": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "object",
+                      "properties": {
+                        "crowds": {
+                          "type": "integer",
+                          "maximum": 5,
+                          "minimum": 1
+                        },
+                        "beaches": {
+                          "type": "integer",
+                          "maximum": 5,
+                          "minimum": 1
+                        },
+                        "overall": {
+                          "type": "number"
+                        },
+                        "romantic": {
+                          "type": "integer",
+                          "maximum": 5,
+                          "minimum": 1
+                        },
+                        "nightlife": {
+                          "type": "integer",
+                          "maximum": 5,
+                          "minimum": 1
+                        },
+                        "food_scene": {
+                          "type": "integer",
+                          "maximum": 5,
+                          "minimum": 1
+                        },
+                        "photogenic": {
+                          "type": "integer",
+                          "maximum": 5,
+                          "minimum": 1
+                        },
+                        "authenticity": {
+                          "type": "integer",
+                          "maximum": 5,
+                          "minimum": 1
+                        },
+                        "accessibility": {
+                          "type": "integer",
+                          "maximum": 5,
+                          "minimum": 1
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  },
+                  "categories": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              },
+              "which_village_to_stay_in": {
+                "type": "object",
+                "properties": {
+                  "intro": {
+                    "type": "string"
+                  },
+                  "recommendations": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "traveler_type",
+                        "recommended_village",
+                        "reason"
+                      ],
+                      "properties": {
+                        "reason": {
+                          "type": "string"
+                        },
+                        "alternative": {
+                          "type": "string"
+                        },
+                        "traveler_type": {
+                          "type": "string"
+                        },
+                        "recommended_village": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "travel_essentials_summary": {
+            "type": "object",
+            "properties": {
+              "getting_there": {
+                "type": "object",
+                "properties": {
+                  "by_car": {
+                    "type": "object",
+                    "properties": {
+                      "where_to_leave_car": {
+                        "type": "string"
+                      },
+                      "driving_recommendation": {
+                        "type": "string"
+                      },
+                      "parking_daily_cost_eur": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "by_train": {
+                    "type": "object",
+                    "properties": {
+                      "main_hub": {
+                        "type": "string",
+                        "default": "La Spezia Centrale"
+                      },
+                      "booking_tip": {
+                        "type": "string"
+                      },
+                      "from_major_cities": {
+                        "type": "object",
+                        "additionalProperties": {
+                          "type": "object",
+                          "properties": {
+                            "changes": {
+                              "type": "integer"
+                            },
+                            "cost_eur": {
+                              "type": "string"
+                            },
+                            "time_hours": {
+                              "type": "number"
+                            }
+                          },
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "headline": {
+                    "type": "string"
+                  },
+                  "nearest_airports": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "airport"
+                      ],
+                      "properties": {
+                        "airport": {
+                          "type": "string"
+                        },
+                        "best_route": {
+                          "type": "string"
+                        },
+                        "distance_km": {
+                          "type": "integer"
+                        },
+                        "transfer_time_hours": {
+                          "type": "number"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              },
+              "health_safety": {
+                "type": "object",
+                "properties": {
+                  "tap_water": {
+                    "type": "string"
+                  },
+                  "sun_safety": {
+                    "type": "string"
+                  },
+                  "hiking_safety": {
+                    "type": "string"
+                  },
+                  "overall_safety": {
+                    "type": "string"
+                  },
+                  "emergency_number": {
+                    "type": "string",
+                    "default": "112"
+                  },
+                  "nearest_hospital": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "money_matters": {
+                "type": "object",
+                "properties": {
+                  "atms": {
+                    "type": "string"
+                  },
+                  "tipping": {
+                    "type": "string"
+                  },
+                  "currency": {
+                    "type": "string",
+                    "default": "EUR"
+                  },
+                  "headline": {
+                    "type": "string"
+                  },
+                  "money_tips": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "credit_cards": {
+                    "type": "string"
+                  },
+                  "daily_budgets": {
+                    "type": "object",
+                    "properties": {
+                      "luxury_eur": {
+                        "type": "integer"
+                      },
+                      "mid_range_eur": {
+                        "type": "integer"
+                      },
+                      "backpacker_eur": {
+                        "type": "integer"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "section_intro": {
+                "type": "string"
+              },
+              "essential_tips": {
+                "type": "object",
+                "properties": {
+                  "before_you_go": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "during_your_visit": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "common_mistakes_to_avoid": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              },
+              "getting_around": {
+                "type": "object",
+                "properties": {
+                  "headline": {
+                    "type": "string"
+                  },
+                  "golden_rule": {
+                    "type": "string"
+                  },
+                  "cinque_terre_card": {
+                    "type": "object",
+                    "properties": {
+                      "what_it_is": {
+                        "type": "string"
+                      },
+                      "where_to_buy": {
+                        "type": "string"
+                      },
+                      "who_needs_it": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "transport_options": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "object",
+                      "properties": {
+                        "cost": {
+                          "type": "string"
+                        },
+                        "season": {
+                          "type": "string"
+                        },
+                        "frequency": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "additionalProperties": false
+              },
+              "packing_essentials": {
+                "type": "object",
+                "properties": {
+                  "must_have": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "leave_at_home": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "highly_recommended": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "detailed_information_blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "block_id",
+                "title",
+                "headline",
+                "icon",
+                "intro",
+                "content"
+              ],
+              "properties": {
+                "icon": {
+                  "type": "string"
+                },
+                "intro": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "object",
+                  "additionalProperties": {}
+                },
+                "block_id": {
+                  "type": "string"
+                },
+                "headline": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            },
+            "default": []
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "field_metadata": {
+    "metadata.generated_at": {
+      "type": "datetime",
+      "label": "Generated At"
+    },
+    "basic_information.name": {
+      "label": "Region Name",
+      "required": true,
+      "placeholder": "Cinque Terre"
+    },
+    "basic_information.tagline": {
+      "label": "Tagline",
+      "required": true,
+      "placeholder": "Where Mountains Kiss the Sea"
+    }
+  },
+  "title_field": "basic_information.name",
+  "summary_field": "basic_information.tagline"
+}
