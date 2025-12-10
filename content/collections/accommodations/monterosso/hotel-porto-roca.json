@@ -2,33 +2,162 @@
   "id": "c4e6238e-55fd-4dad-bbf2-5ffe36afb42b",
   "slug": "hotel-porto-roca",
   "data": {
-    "name": "Hotel Porto Roca",
+    "name": {
+      "de": "Hotel Porto Roca",
+      "en": "Hotel Porto Roca",
+      "fr": "Hôtel Porto Roca",
+      "it": "Hotel Porto Roca"
+    },
+    "rank": 1,
+    "slug": "hotel-porto-roca",
+    "tips": {
+      "best_rooms": {
+        "de": "Superior-Zimmer mit Meerblick und Balkon in den oberen Etagen",
+        "en": "Superior rooms with sea view and balcony on upper floors",
+        "fr": "Chambres Supérieures avec vue mer et balcon aux étages supérieurs",
+        "it": "Camere Superior con vista mare e balcone ai piani superiori"
+      },
+      "insider_tips": {
+        "de": "Bitten Sie um ein Zimmer mit Meerblick-Balkon für das beste Erlebnis. Die Restaurantterrasse bietet unglaubliche Sonnenuntergangsblicke.",
+        "en": "Request a room with sea view balcony for the best experience. The hotel's restaurant terrace offers incredible sunset views.",
+        "fr": "Demandez une chambre avec balcon vue mer pour la meilleure expérience. La terrasse du restaurant offre des vues incroyables sur le coucher de soleil.",
+        "it": "Richiedete una camera con balcone vista mare per la migliore esperienza. La terrazza del ristorante offre viste incredibili del tramonto."
+      },
+      "when_to_book": {
+        "de": "3-4 Monate im Voraus für Sommeraufenthalte buchen",
+        "en": "Book 3-4 months in advance for summer stays",
+        "fr": "Réservez 3-4 mois à l'avance pour les séjours d'été",
+        "it": "Prenotare 3-4 mesi in anticipo per soggiorni estivi"
+      }
+    },
     "type": "hotel",
-    "email": "portoroca@portoroca.it",
-    "phone": "+39 0187 817502",
-    "address": "Via Corone 1, 19016 Monterosso (SP)",
-    "village": "Monterosso al Mare",
-    "website": "https://www.portoroca.it",
-    "features": [
-      "infinity pool",
-      "sea view",
-      "private beach",
-      "terrace bar",
-      "air conditioning",
-      "Wi-Fi",
-      "satellite TV",
-      "minibar",
-      "safe",
-      "balcony",
-      "free taxi service",
-      "restaurant discounts"
+    "stars": 4,
+    "booking": {
+      "booking_url": "https://www.booking.com/hotel/it/porto-roca.html",
+      "cancellation_policy": {
+        "de": "Kostenlose Stornierung bis 24 Stunden vor Anreise",
+        "en": "Free cancellation up to 24 hours before arrival",
+        "fr": "Annulation gratuite jusqu'à 24 heures avant l'arrivée",
+        "it": "Cancellazione gratuita fino a 24 ore prima dell'arrivo"
+      }
+    },
+    "contact": {
+      "email": "portorocahotel@portorocahotel.it",
+      "phone": "+39 0187 817502",
+      "website": "https://www.portorocahotel.it"
+    },
+    "details": {
+      "rooms": 43,
+      "teaser": {
+        "de": "Klippenluxus mit atemberaubendem Meerblick",
+        "en": "Clifftop luxury with stunning sea views",
+        "fr": "Luxe en falaise avec vue mer époustouflante",
+        "it": "Lusso sulla scogliera con vista mare mozzafiato"
+      },
+      "check_in": "15:00",
+      "check_out": "11:00",
+      "highlights": {
+        "de": [
+          "Panorama-Meerblick",
+          "Terrassierte Gärten",
+          "Schwimmbad",
+          "Gourmet-Restaurant"
+        ],
+        "en": [
+          "Panoramic sea views",
+          "Terraced gardens",
+          "Swimming pool",
+          "Fine dining restaurant"
+        ],
+        "fr": [
+          "Vue panoramique sur la mer",
+          "Jardins en terrasses",
+          "Piscine",
+          "Restaurant gastronomique"
+        ],
+        "it": [
+          "Vista panoramica sul mare",
+          "Giardini terrazzati",
+          "Piscina",
+          "Ristorante gourmet"
+        ]
+      },
+      "description": {
+        "de": "Das Hotel Porto Roca liegt auf dramatischen Klippen mit Blick auf das Ligurische Meer und bietet atemberaubende Panoramablicke und elegante Unterkünfte. Dieses familiengeführte Boutique-Hotel vereint traditionellen Charme mit modernem Komfort.",
+        "en": "Perched on dramatic cliffs overlooking the Ligurian Sea, Hotel Porto Roca offers breathtaking panoramic views and elegant accommodations. This family-run boutique hotel combines traditional charm with modern comfort, featuring beautifully appointed rooms and terraced gardens.",
+        "fr": "Perché sur des falaises spectaculaires surplombant la mer Ligure, l'Hôtel Porto Roca offre des vues panoramiques à couper le souffle et des hébergements élégants. Cet hôtel boutique familial allie charme traditionnel et confort moderne.",
+        "it": "Arroccato su scogliere drammatiche con vista sul Mar Ligure, l'Hotel Porto Roca offre panorami mozzafiato e sistemazioni eleganti. Questo hotel boutique a conduzione familiare combina fascino tradizionale e comfort moderno."
+      }
+    },
+    "ratings": {
+      "count": 1247,
+      "average": 8.7,
+      "breakdown": {
+        "value": 8,
+        "comfort": 8.5,
+        "service": 8.8,
+        "location": 9.2,
+        "cleanliness": 9.1
+      }
+    },
+    "sources": [
+      "https://www.portorocahotel.it",
+      "https://www.booking.com/hotel/it/porto-roca.html"
     ],
-    "source_url": "https://www.portoroca.it",
-    "description": "A 4-star hotel with an impressive infinity pool and terrace bar overlooking the sea. The hotel features 43 rooms, most with balconies offering breathtaking views of the sea and picturesque coastline. The hotel's defining feature is its suave exclusivity with a private beach and panoramic cliff-top location.",
-    "price_range": "€€€€"
+    "village": "monterosso",
+    "featured": true,
+    "location": {
+      "address": "Via Corone 1, 19016 Monterosso al Mare SP, Italy",
+      "sea_view": true,
+      "coordinates": {
+        "lat": 44.1446,
+        "lng": 9.6541
+      },
+      "distance_to_center": "100m",
+      "distance_to_station": "200m"
+    },
+    "amenities": [
+      "Swimming pool",
+      "Restaurant",
+      "Bar",
+      "WiFi",
+      "Air conditioning",
+      "Room service",
+      "Concierge",
+      "Parking",
+      "Terrace",
+      "Garden"
+    ],
+    "published": true,
+    "seo_title": {
+      "de": "Hotel Porto Roca Monterosso | Luxus-Klippenhotel Cinque Terre",
+      "en": "Hotel Porto Roca Monterosso | Luxury Clifftop Hotel Cinque Terre",
+      "fr": "Hôtel Porto Roca Monterosso | Hôtel de Luxe sur Falaise Cinque Terre",
+      "it": "Hotel Porto Roca Monterosso | Hotel di Lusso sulla Scogliera Cinque Terre"
+    },
+    "price_range": {
+      "max": 380,
+      "min": 180,
+      "season": "high season",
+      "currency": "EUR"
+    },
+    "last_updated": "2025-12-10T15:10:31.883Z",
+    "seo_keywords": [
+      "Hotel Porto Roca",
+      "Monterosso accommodation",
+      "Cinque Terre luxury hotel",
+      "sea view hotel",
+      "clifftop hotel Italy"
+    ],
+    "seo_description": {
+      "de": "Übernachten Sie im Hotel Porto Roca in Monterosso, einem Luxus-Klippenhotel mit Panorama-Meerblick, eleganten Zimmern und Weltklasse-Küche im Herzen der Cinque Terre.",
+      "en": "Stay at Hotel Porto Roca in Monterosso, a luxury clifftop hotel with panoramic sea views, elegant rooms, and world-class dining in the heart of Cinque Terre.",
+      "fr": "Séjournez à l'Hôtel Porto Roca à Monterosso, un hôtel de luxe sur falaise avec vue panoramique sur la mer, chambres élégantes et cuisine de classe mondiale au cœur des Cinque Terre.",
+      "it": "Soggiornate all'Hotel Porto Roca a Monterosso, un hotel di lusso sulla scogliera con vista panoramica sul mare, camere eleganti e cucina di classe mondiale nel cuore delle Cinque Terre."
+    }
   },
-  "published": false,
-  "featured": false,
+  "published": true,
+  "featured": true,
   "created_at": "2025-12-09T09:19:00.551Z",
-  "updated_at": "2025-12-09T09:19:00.551Z"
+  "updated_at": "2025-12-10T15:58:01.823Z"
 }
