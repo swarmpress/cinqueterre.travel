@@ -1,0 +1,3219 @@
+{
+  "type": "cinqueterre_weather",
+  "display_name": "Cinque Terre Weather",
+  "singular_name": "Weather Report",
+  "description": "Weather conditions and activity recommendations for Cinque Terre",
+  "icon": "cloud-sun",
+  "color": "#3B82F6",
+  "json_schema": {
+    "$ref": "#/definitions/cinqueterre_weather",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+      "cinqueterre_weather": {
+        "type": "object",
+        "required": [
+          "metadata",
+          "current_conditions"
+        ],
+        "properties": {
+          "metadata": {
+            "type": "object",
+            "required": [
+              "query_location",
+              "generated_at"
+            ],
+            "properties": {
+              "timezone": {
+                "type": "string",
+                "default": "Europe/Rome"
+              },
+              "coordinates": {
+                "type": "object",
+                "required": [
+                  "latitude",
+                  "longitude"
+                ],
+                "properties": {
+                  "latitude": {
+                    "type": "number"
+                  },
+                  "longitude": {
+                    "type": "number"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "elevation_m": {
+                "type": "integer"
+              },
+              "search_type": {
+                "type": "string",
+                "default": "weather_and_recommendations"
+              },
+              "climate_zone": {
+                "type": "string",
+                "default": "Mediterranean"
+              },
+              "data_sources": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "query_location": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "useful_links": {
+            "type": "object",
+            "properties": {
+              "ferry_status": {
+                "type": "string"
+              },
+              "marine_forecast": {
+                "type": "string"
+              },
+              "official_weather": {
+                "type": "string"
+              },
+              "trail_conditions": {
+                "type": "string"
+              },
+              "emergency_services": {
+                "type": "string",
+                "default": "112"
+              }
+            },
+            "additionalProperties": false
+          },
+          "daily_forecast": {
+            "type": "object",
+            "required": [
+              "generated_at",
+              "days"
+            ],
+            "properties": {
+              "days": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "date",
+                    "day_of_week",
+                    "is_today",
+                    "summary",
+                    "icon",
+                    "temperature"
+                  ],
+                  "properties": {
+                    "sun": {
+                      "type": "object",
+                      "required": [
+                        "sunrise",
+                        "sunset"
+                      ],
+                      "properties": {
+                        "sunset": {
+                          "type": "string"
+                        },
+                        "sunrise": {
+                          "type": "string"
+                        },
+                        "uv_level": {
+                          "enum": [
+                            "low",
+                            "moderate",
+                            "high",
+                            "very-high",
+                            "extreme"
+                          ],
+                          "type": "string"
+                        },
+                        "uv_index_max": {
+                          "type": "integer"
+                        },
+                        "daylight_hours": {
+                          "type": "number"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "wind": {
+                      "type": "object",
+                      "properties": {
+                        "description": {
+                          "type": "string"
+                        },
+                        "max_gust_kmh": {
+                          "type": "number"
+                        },
+                        "avg_speed_kmh": {
+                          "type": "number"
+                        },
+                        "direction_cardinal": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "alerts": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "type",
+                          "severity",
+                          "message"
+                        ],
+                        "properties": {
+                          "type": {
+                            "enum": [
+                              "heat",
+                              "cold",
+                              "wind",
+                              "rain",
+                              "thunderstorm",
+                              "fog",
+                              "uv",
+                              "air-quality",
+                              "sea-conditions"
+                            ],
+                            "type": "string"
+                          },
+                          "message": {
+                            "type": "string"
+                          },
+                          "severity": {
+                            "enum": [
+                              "advisory",
+                              "watch",
+                              "warning"
+                            ],
+                            "type": "string"
+                          },
+                          "recommendation": {
+                            "type": "string"
+                          }
+                        },
+                        "additionalProperties": false
+                      },
+                      "default": []
+                    },
+                    "comfort": {
+                      "type": "object",
+                      "properties": {
+                        "overall_rating": {
+                          "enum": [
+                            "excellent",
+                            "good",
+                            "fair",
+                            "poor",
+                            "uncomfortable"
+                          ],
+                          "type": "string"
+                        },
+                        "evening_comfort": {
+                          "type": "string"
+                        },
+                        "morning_comfort": {
+                          "type": "string"
+                        },
+                        "afternoon_comfort": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "humidity": {
+                      "type": "object",
+                      "properties": {
+                        "average_percent": {
+                          "type": "integer"
+                        },
+                        "morning_percent": {
+                          "type": "integer"
+                        },
+                        "afternoon_percent": {
+                          "type": "integer"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "is_today": {
+                      "type": "boolean"
+                    },
+                    "day_of_week": {
+                      "type": "string"
+                    },
+                    "temperature": {
+                      "type": "object",
+                      "required": [
+                        "high_c",
+                        "high_f",
+                        "low_c",
+                        "low_f"
+                      ],
+                      "properties": {
+                        "low_c": {
+                          "type": "number"
+                        },
+                        "low_f": {
+                          "type": "number"
+                        },
+                        "high_c": {
+                          "type": "number"
+                        },
+                        "high_f": {
+                          "type": "number"
+                        },
+                        "feels_like_low_c": {
+                          "type": "number"
+                        },
+                        "feels_like_high_c": {
+                          "type": "number"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "precipitation": {
+                      "type": "object",
+                      "required": [
+                        "probability_percent"
+                      ],
+                      "properties": {
+                        "type": {
+                          "anyOf": [
+                            {
+                              "enum": [
+                                "none",
+                                "rain",
+                                "snow",
+                                "mixed"
+                              ],
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "timing": {
+                          "anyOf": [
+                            {
+                              "enum": [
+                                "morning",
+                                "afternoon",
+                                "evening",
+                                "night",
+                                "all-day",
+                                "intermittent"
+                              ],
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "total_mm": {
+                          "type": "number"
+                        },
+                        "thunderstorm_risk": {
+                          "type": "boolean"
+                        },
+                        "probability_percent": {
+                          "type": "integer",
+                          "maximum": 100,
+                          "minimum": 0
+                        },
+                        "hours_of_precipitation": {
+                          "type": "integer"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "activity_ratings": {
+                      "type": "object",
+                      "properties": {
+                        "hiking": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "boat_tour": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "photography": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "ferry_travel": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "train_travel": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "wine_tasting": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "outdoor_dining": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "swimming_beach": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "village_exploration": {
+                          "type": "object",
+                          "required": [
+                            "rating",
+                            "score"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "score": {
+                              "type": "integer",
+                              "maximum": 10,
+                              "minimum": 1
+                            },
+                            "rating": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair",
+                                "poor",
+                                "not-recommended",
+                                "cancelled"
+                              ],
+                              "type": "string"
+                            },
+                            "best_time": {
+                              "type": "string"
+                            },
+                            "sea_conditions": {
+                              "type": "string"
+                            },
+                            "lighting_conditions": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "packing_suggestions": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "detailed_description": {
+                      "type": "string"
+                    },
+                    "clothing_recommendation": {
+                      "type": "object",
+                      "properties": {
+                        "evening": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "morning": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "afternoon": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "essentials": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "generated_at": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "weather_alerts": {
+            "type": "object",
+            "required": [
+              "last_checked"
+            ],
+            "properties": {
+              "no_alerts": {
+                "type": "boolean",
+                "default": true
+              },
+              "last_checked": {
+                "type": "string"
+              },
+              "active_alerts": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "type",
+                    "severity",
+                    "urgency",
+                    "headline",
+                    "description",
+                    "issued_at",
+                    "expires_at"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "enum": [
+                        "thunderstorm",
+                        "heavy-rain",
+                        "flooding",
+                        "high-wind",
+                        "heat",
+                        "cold",
+                        "fog",
+                        "air-quality",
+                        "uv",
+                        "marine",
+                        "wildfire"
+                      ],
+                      "type": "string"
+                    },
+                    "source": {
+                      "type": "string"
+                    },
+                    "urgency": {
+                      "enum": [
+                        "immediate",
+                        "expected",
+                        "future"
+                      ],
+                      "type": "string"
+                    },
+                    "headline": {
+                      "type": "string"
+                    },
+                    "severity": {
+                      "enum": [
+                        "minor",
+                        "moderate",
+                        "severe",
+                        "extreme"
+                      ],
+                      "type": "string"
+                    },
+                    "certainty": {
+                      "enum": [
+                        "observed",
+                        "likely",
+                        "possible"
+                      ],
+                      "type": "string"
+                    },
+                    "issued_at": {
+                      "type": "string"
+                    },
+                    "expires_at": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "instruction": {
+                      "type": "string"
+                    },
+                    "affected_areas": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "hourly_forecast": {
+            "type": "object",
+            "required": [
+              "generated_at",
+              "hours"
+            ],
+            "properties": {
+              "hours": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "time",
+                    "hour",
+                    "is_daylight",
+                    "summary",
+                    "icon",
+                    "temperature_c",
+                    "feels_like_c"
+                  ],
+                  "properties": {
+                    "hour": {
+                      "type": "string"
+                    },
+                    "icon": {
+                      "type": "string"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "wind": {
+                      "type": "object",
+                      "required": [
+                        "speed_kmh"
+                      ],
+                      "properties": {
+                        "gust_kmh": {
+                          "type": [
+                            "number",
+                            "null"
+                          ]
+                        },
+                        "speed_kmh": {
+                          "type": "number"
+                        },
+                        "direction_cardinal": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "uv_index": {
+                      "type": "integer"
+                    },
+                    "is_daylight": {
+                      "type": "boolean"
+                    },
+                    "feels_like_c": {
+                      "type": "number"
+                    },
+                    "precipitation": {
+                      "type": "object",
+                      "required": [
+                        "probability_percent"
+                      ],
+                      "properties": {
+                        "type": {
+                          "anyOf": [
+                            {
+                              "enum": [
+                                "none",
+                                "rain",
+                                "snow",
+                                "sleet"
+                              ],
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "amount_mm": {
+                          "type": "number"
+                        },
+                        "intensity": {
+                          "anyOf": [
+                            {
+                              "enum": [
+                                "none",
+                                "light",
+                                "moderate",
+                                "heavy"
+                              ],
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "probability_percent": {
+                          "type": "integer",
+                          "maximum": 100,
+                          "minimum": 0
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "temperature_c": {
+                      "type": "number"
+                    },
+                    "visibility_km": {
+                      "type": "number"
+                    },
+                    "humidity_percent": {
+                      "type": "integer"
+                    },
+                    "cloud_cover_percent": {
+                      "type": "integer"
+                    },
+                    "activity_suitability": {
+                      "type": "object",
+                      "properties": {
+                        "hiking": {
+                          "enum": [
+                            "excellent",
+                            "good",
+                            "fair",
+                            "poor",
+                            "not-recommended"
+                          ],
+                          "type": "string"
+                        },
+                        "swimming": {
+                          "enum": [
+                            "excellent",
+                            "good",
+                            "fair",
+                            "poor",
+                            "not-recommended"
+                          ],
+                          "type": "string"
+                        },
+                        "photography": {
+                          "enum": [
+                            "excellent",
+                            "good",
+                            "fair",
+                            "poor"
+                          ],
+                          "type": "string"
+                        },
+                        "dining_outdoors": {
+                          "enum": [
+                            "excellent",
+                            "good",
+                            "fair",
+                            "poor",
+                            "not-recommended"
+                          ],
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "generated_at": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "seasonal_context": {
+            "type": "object",
+            "required": [
+              "current_season"
+            ],
+            "properties": {
+              "current_season": {
+                "enum": [
+                  "spring",
+                  "summer",
+                  "fall",
+                  "winter"
+                ],
+                "type": "string"
+              },
+              "tourist_season": {
+                "enum": [
+                  "low",
+                  "shoulder",
+                  "high",
+                  "peak"
+                ],
+                "type": "string"
+              },
+              "seasonal_events": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "date"
+                  ],
+                  "properties": {
+                    "date": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "weather_dependent": {
+                      "type": "boolean",
+                      "default": false
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "crowd_expectations": {
+                "type": "string"
+              },
+              "is_typical_weather": {
+                "type": "boolean"
+              },
+              "season_description": {
+                "type": "string"
+              },
+              "seasonal_activities": {
+                "type": "object",
+                "properties": {
+                  "activities_to_avoid": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "seasonal_highlights": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "best_activities_this_season": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              },
+              "comparison_to_average": {
+                "type": "object",
+                "properties": {
+                  "notes": {
+                    "type": "string"
+                  },
+                  "temperature": {
+                    "enum": [
+                      "above-average",
+                      "average",
+                      "below-average"
+                    ],
+                    "type": "string"
+                  },
+                  "precipitation": {
+                    "enum": [
+                      "above-average",
+                      "average",
+                      "below-average"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "marine_conditions": {
+            "type": "object",
+            "required": [
+              "observation_time",
+              "sea_state",
+              "water_temperature"
+            ],
+            "properties": {
+              "tides": {
+                "type": "object",
+                "properties": {
+                  "tidal_range": {
+                    "enum": [
+                      "micro",
+                      "meso",
+                      "macro"
+                    ],
+                    "type": "string"
+                  },
+                  "next_low_tide": {
+                    "type": "object",
+                    "required": [
+                      "time",
+                      "height_m"
+                    ],
+                    "properties": {
+                      "time": {
+                        "type": "string"
+                      },
+                      "height_m": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "next_high_tide": {
+                    "type": "object",
+                    "required": [
+                      "time",
+                      "height_m"
+                    ],
+                    "properties": {
+                      "time": {
+                        "type": "string"
+                      },
+                      "height_m": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "tide_table_today": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "type",
+                        "time",
+                        "height_m"
+                      ],
+                      "properties": {
+                        "time": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "enum": [
+                            "high",
+                            "low"
+                          ],
+                          "type": "string"
+                        },
+                        "height_m": {
+                          "type": "number"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "current_tide_status": {
+                    "enum": [
+                      "rising",
+                      "falling",
+                      "high",
+                      "low"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "currents": {
+                "type": "object",
+                "properties": {
+                  "strength": {
+                    "enum": [
+                      "weak",
+                      "moderate",
+                      "strong"
+                    ],
+                    "type": "string"
+                  },
+                  "direction": {
+                    "type": "string"
+                  },
+                  "swimming_advisory": {
+                    "enum": [
+                      "safe",
+                      "caution",
+                      "dangerous"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "sea_state": {
+                "type": "object",
+                "required": [
+                  "description",
+                  "wave_height_m"
+                ],
+                "properties": {
+                  "description": {
+                    "enum": [
+                      "calm",
+                      "smooth",
+                      "slight",
+                      "moderate",
+                      "rough",
+                      "very-rough",
+                      "high",
+                      "very-high",
+                      "phenomenal"
+                    ],
+                    "type": "string"
+                  },
+                  "wave_height_m": {
+                    "type": "number"
+                  },
+                  "swell_height_m": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "wave_direction": {
+                    "type": "string"
+                  },
+                  "swell_direction": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "beaufort_sea_scale": {
+                    "type": "integer",
+                    "maximum": 9,
+                    "minimum": 0
+                  },
+                  "wave_period_seconds": {
+                    "type": "number"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "data_source": {
+                "type": "string"
+              },
+              "beach_conditions": {
+                "type": "object",
+                "properties": {
+                  "water_quality": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "excellent",
+                          "good",
+                          "moderate",
+                          "poor"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "jellyfish_risk": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "low",
+                          "moderate",
+                          "high"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "swimming_safety": {
+                    "enum": [
+                      "safe",
+                      "caution",
+                      "not-recommended",
+                      "dangerous"
+                    ],
+                    "type": "string"
+                  },
+                  "best_beaches_today": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  }
+                },
+                "additionalProperties": false
+              },
+              "observation_time": {
+                "type": "string"
+              },
+              "water_activities": {
+                "type": "object",
+                "properties": {
+                  "sup": {
+                    "type": "object",
+                    "required": [
+                      "recommended",
+                      "rating"
+                    ],
+                    "properties": {
+                      "notes": {
+                        "type": "string"
+                      },
+                      "rating": {
+                        "enum": [
+                          "excellent",
+                          "good",
+                          "fair",
+                          "poor",
+                          "not-recommended"
+                        ],
+                        "type": "string"
+                      },
+                      "recommended": {
+                        "type": "boolean"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "diving": {
+                    "type": "object",
+                    "required": [
+                      "recommended",
+                      "rating"
+                    ],
+                    "properties": {
+                      "notes": {
+                        "type": "string"
+                      },
+                      "rating": {
+                        "enum": [
+                          "excellent",
+                          "good",
+                          "fair",
+                          "poor",
+                          "not-recommended"
+                        ],
+                        "type": "string"
+                      },
+                      "recommended": {
+                        "type": "boolean"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "kayaking": {
+                    "type": "object",
+                    "required": [
+                      "recommended",
+                      "rating"
+                    ],
+                    "properties": {
+                      "notes": {
+                        "type": "string"
+                      },
+                      "rating": {
+                        "enum": [
+                          "excellent",
+                          "good",
+                          "fair",
+                          "poor",
+                          "not-recommended"
+                        ],
+                        "type": "string"
+                      },
+                      "recommended": {
+                        "type": "boolean"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "swimming": {
+                    "type": "object",
+                    "required": [
+                      "recommended",
+                      "rating"
+                    ],
+                    "properties": {
+                      "notes": {
+                        "type": "string"
+                      },
+                      "rating": {
+                        "enum": [
+                          "excellent",
+                          "good",
+                          "fair",
+                          "poor",
+                          "not-recommended"
+                        ],
+                        "type": "string"
+                      },
+                      "recommended": {
+                        "type": "boolean"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "snorkeling": {
+                    "type": "object",
+                    "required": [
+                      "recommended",
+                      "rating"
+                    ],
+                    "properties": {
+                      "notes": {
+                        "type": "string"
+                      },
+                      "rating": {
+                        "enum": [
+                          "excellent",
+                          "good",
+                          "fair",
+                          "poor",
+                          "not-recommended"
+                        ],
+                        "type": "string"
+                      },
+                      "recommended": {
+                        "type": "boolean"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "boat_rental": {
+                    "type": "object",
+                    "required": [
+                      "recommended",
+                      "rating"
+                    ],
+                    "properties": {
+                      "notes": {
+                        "type": "string"
+                      },
+                      "rating": {
+                        "enum": [
+                          "excellent",
+                          "good",
+                          "fair",
+                          "poor",
+                          "not-recommended"
+                        ],
+                        "type": "string"
+                      },
+                      "recommended": {
+                        "type": "boolean"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "water_temperature": {
+                "type": "object",
+                "required": [
+                  "surface_c",
+                  "surface_f",
+                  "swimming_comfort"
+                ],
+                "properties": {
+                  "surface_c": {
+                    "type": "number"
+                  },
+                  "surface_f": {
+                    "type": "number"
+                  },
+                  "swimming_comfort": {
+                    "enum": [
+                      "cold",
+                      "cool",
+                      "refreshing",
+                      "comfortable",
+                      "warm"
+                    ],
+                    "type": "string"
+                  },
+                  "wetsuit_recommendation": {
+                    "enum": [
+                      "not-needed",
+                      "optional",
+                      "recommended",
+                      "required"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "ferry_boat_conditions": {
+                "type": "object",
+                "required": [
+                  "overall_status"
+                ],
+                "properties": {
+                  "overall_status": {
+                    "enum": [
+                      "excellent",
+                      "good",
+                      "fair",
+                      "poor",
+                      "service-at-risk",
+                      "cancelled"
+                    ],
+                    "type": "string"
+                  },
+                  "recommendation": {
+                    "type": "string"
+                  },
+                  "seasickness_risk": {
+                    "enum": [
+                      "low",
+                      "moderate",
+                      "high",
+                      "very-high"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "visibility_underwater": {
+                "type": "object",
+                "properties": {
+                  "conditions": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "excellent",
+                          "good",
+                          "moderate",
+                          "poor"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "estimated_m": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "snorkeling_rating": {
+                    "enum": [
+                      "excellent",
+                      "good",
+                      "fair",
+                      "poor",
+                      "not-recommended"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "current_conditions": {
+            "type": "object",
+            "required": [
+              "observation_time",
+              "summary",
+              "icon",
+              "temperature"
+            ],
+            "properties": {
+              "icon": {
+                "enum": [
+                  "clear",
+                  "partly-cloudy",
+                  "cloudy",
+                  "overcast",
+                  "fog",
+                  "drizzle",
+                  "rain",
+                  "heavy-rain",
+                  "thunderstorm",
+                  "snow",
+                  "sleet",
+                  "hail",
+                  "windy"
+                ],
+                "type": "string"
+              },
+              "wind": {
+                "type": "object",
+                "required": [
+                  "speed_kmh"
+                ],
+                "properties": {
+                  "gust_kmh": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "speed_kmh": {
+                    "type": "number"
+                  },
+                  "speed_mph": {
+                    "type": "number"
+                  },
+                  "description": {
+                    "enum": [
+                      "calm",
+                      "light-breeze",
+                      "gentle-breeze",
+                      "moderate-breeze",
+                      "fresh-breeze",
+                      "strong-breeze",
+                      "near-gale",
+                      "gale",
+                      "strong-gale",
+                      "storm"
+                    ],
+                    "type": "string"
+                  },
+                  "speed_knots": {
+                    "type": "number"
+                  },
+                  "beaufort_scale": {
+                    "type": "integer",
+                    "maximum": 12,
+                    "minimum": 0
+                  },
+                  "direction_degrees": {
+                    "type": "integer"
+                  },
+                  "direction_cardinal": {
+                    "enum": [
+                      "N",
+                      "NE",
+                      "E",
+                      "SE",
+                      "S",
+                      "SW",
+                      "W",
+                      "NW"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "summary": {
+                "type": "string"
+              },
+              "humidity": {
+                "type": "object",
+                "required": [
+                  "relative_percent"
+                ],
+                "properties": {
+                  "dew_point_c": {
+                    "type": "number"
+                  },
+                  "comfort_level": {
+                    "enum": [
+                      "comfortable",
+                      "slightly-humid",
+                      "humid",
+                      "very-humid",
+                      "dry"
+                    ],
+                    "type": "string"
+                  },
+                  "relative_percent": {
+                    "type": "integer",
+                    "maximum": 100,
+                    "minimum": 0
+                  }
+                },
+                "additionalProperties": false
+              },
+              "pressure": {
+                "type": "object",
+                "required": [
+                  "hpa"
+                ],
+                "properties": {
+                  "hpa": {
+                    "type": "number"
+                  },
+                  "inhg": {
+                    "type": "number"
+                  },
+                  "trend": {
+                    "enum": [
+                      "rising",
+                      "falling",
+                      "steady"
+                    ],
+                    "type": "string"
+                  },
+                  "trend_description": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "sun_moon": {
+                "type": "object",
+                "required": [
+                  "sunrise",
+                  "sunset",
+                  "daylight_hours"
+                ],
+                "properties": {
+                  "sunset": {
+                    "type": "string"
+                  },
+                  "moonset": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "sunrise": {
+                    "type": "string"
+                  },
+                  "moonrise": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "moon_phase": {
+                    "enum": [
+                      "new",
+                      "waxing-crescent",
+                      "first-quarter",
+                      "waxing-gibbous",
+                      "full",
+                      "waning-gibbous",
+                      "last-quarter",
+                      "waning-crescent"
+                    ],
+                    "type": "string"
+                  },
+                  "daylight_hours": {
+                    "type": "number"
+                  },
+                  "blue_hour_evening": {
+                    "type": "object",
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "properties": {
+                      "end": {
+                        "type": "string"
+                      },
+                      "start": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "blue_hour_morning": {
+                    "type": "object",
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "properties": {
+                      "end": {
+                        "type": "string"
+                      },
+                      "start": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "golden_hour_evening": {
+                    "type": "object",
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "properties": {
+                      "end": {
+                        "type": "string"
+                      },
+                      "start": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "golden_hour_morning": {
+                    "type": "object",
+                    "required": [
+                      "start",
+                      "end"
+                    ],
+                    "properties": {
+                      "end": {
+                        "type": "string"
+                      },
+                      "start": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "moon_illumination_percent": {
+                    "type": "integer"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "uv_index": {
+                "type": "object",
+                "required": [
+                  "value",
+                  "level",
+                  "protection_required"
+                ],
+                "properties": {
+                  "level": {
+                    "enum": [
+                      "low",
+                      "moderate",
+                      "high",
+                      "very-high",
+                      "extreme"
+                    ],
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "recommendation": {
+                    "type": "string"
+                  },
+                  "protection_required": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "visibility": {
+                "type": "object",
+                "required": [
+                  "km"
+                ],
+                "properties": {
+                  "km": {
+                    "type": "number"
+                  },
+                  "miles": {
+                    "type": "number"
+                  },
+                  "description": {
+                    "enum": [
+                      "excellent",
+                      "good",
+                      "moderate",
+                      "poor",
+                      "very-poor"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "air_quality": {
+                "type": "object",
+                "properties": {
+                  "aqi": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "level": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "good",
+                          "moderate",
+                          "unhealthy-sensitive",
+                          "unhealthy",
+                          "very-unhealthy",
+                          "hazardous"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "recommendation": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "dominant_pollutant": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "temperature": {
+                "type": "object",
+                "required": [
+                  "current_c",
+                  "current_f",
+                  "feels_like_c",
+                  "feels_like_f"
+                ],
+                "properties": {
+                  "current_c": {
+                    "type": "number"
+                  },
+                  "current_f": {
+                    "type": "number"
+                  },
+                  "max_today_c": {
+                    "type": "number"
+                  },
+                  "min_today_c": {
+                    "type": "number"
+                  },
+                  "feels_like_c": {
+                    "type": "number"
+                  },
+                  "feels_like_f": {
+                    "type": "number"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "precipitation": {
+                "type": "object",
+                "required": [
+                  "is_precipitating",
+                  "probability_percent"
+                ],
+                "properties": {
+                  "type": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "none",
+                          "drizzle",
+                          "rain",
+                          "heavy-rain",
+                          "thunderstorm",
+                          "snow",
+                          "sleet",
+                          "hail"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "intensity": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "none",
+                          "light",
+                          "moderate",
+                          "heavy"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "amount_today_mm": {
+                    "type": "number"
+                  },
+                  "is_precipitating": {
+                    "type": "boolean"
+                  },
+                  "amount_last_hour_mm": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "probability_percent": {
+                    "type": "integer",
+                    "maximum": 100,
+                    "minimum": 0
+                  }
+                },
+                "additionalProperties": false
+              },
+              "comfort_indices": {
+                "type": "object",
+                "properties": {
+                  "heat_index_c": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "wind_chill_c": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "outdoor_comfort": {
+                    "enum": [
+                      "excellent",
+                      "good",
+                      "fair",
+                      "poor",
+                      "uncomfortable"
+                    ],
+                    "type": "string"
+                  },
+                  "outdoor_comfort_score": {
+                    "type": "integer",
+                    "maximum": 10,
+                    "minimum": 1
+                  }
+                },
+                "additionalProperties": false
+              },
+              "weather_station": {
+                "type": "string"
+              },
+              "observation_time": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "forecast_confidence": {
+            "type": "object",
+            "properties": {
+              "today": {
+                "type": "object",
+                "required": [
+                  "confidence"
+                ],
+                "properties": {
+                  "notes": {
+                    "type": "string"
+                  },
+                  "confidence": {
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "days_3_5": {
+                "type": "object",
+                "required": [
+                  "confidence"
+                ],
+                "properties": {
+                  "notes": {
+                    "type": "string"
+                  },
+                  "confidence": {
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "days_6_7": {
+                "type": "object",
+                "required": [
+                  "confidence"
+                ],
+                "properties": {
+                  "notes": {
+                    "type": "string"
+                  },
+                  "confidence": {
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "tomorrow": {
+                "type": "object",
+                "required": [
+                  "confidence"
+                ],
+                "properties": {
+                  "notes": {
+                    "type": "string"
+                  },
+                  "confidence": {
+                    "enum": [
+                      "high",
+                      "medium",
+                      "low"
+                    ],
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "next_update": {
+                "type": "string"
+              },
+              "last_updated": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "packing_and_preparation": {
+            "type": "object",
+            "properties": {
+              "clothing_guide": {
+                "type": "object",
+                "properties": {
+                  "daytime": {
+                    "type": "object",
+                    "properties": {
+                      "layering_advice": {
+                        "type": "string"
+                      },
+                      "recommendations": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "temperature_range": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "evening": {
+                    "type": "object",
+                    "properties": {
+                      "notes": {
+                        "type": "string"
+                      },
+                      "recommendations": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "temperature_range": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "footwear": {
+                    "type": "object",
+                    "properties": {
+                      "notes": {
+                        "type": "string"
+                      },
+                      "primary": {
+                        "type": "string"
+                      },
+                      "alternatives": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "rain_gear": {
+                    "type": "object",
+                    "required": [
+                      "needed"
+                    ],
+                    "properties": {
+                      "needed": {
+                        "type": "boolean"
+                      },
+                      "probability": {
+                        "enum": [
+                          "low",
+                          "medium",
+                          "high"
+                        ],
+                        "type": "string"
+                      },
+                      "recommendations": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "sun_protection": {
+                    "type": "object",
+                    "required": [
+                      "needed"
+                    ],
+                    "properties": {
+                      "needed": {
+                        "type": "boolean"
+                      },
+                      "uv_level": {
+                        "type": "string"
+                      },
+                      "recommendations": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "for_date_range": {
+                "type": "string"
+              },
+              "essential_items": {
+                "type": "object",
+                "properties": {
+                  "always_bring": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "weather_specific": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "activity_specific": {
+                    "type": "object",
+                    "properties": {
+                      "beach": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "hiking": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "photography": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "health_and_safety": {
+                "type": "object",
+                "properties": {
+                  "hydration": {
+                    "type": "object",
+                    "properties": {
+                      "recommendation": {
+                        "type": "string"
+                      },
+                      "water_intake_liters": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "heat_safety": {
+                    "type": "object",
+                    "properties": {
+                      "concern_level": {
+                        "enum": [
+                          "none",
+                          "low",
+                          "moderate",
+                          "high"
+                        ],
+                        "type": "string"
+                      },
+                      "recommendations": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "sun_exposure": {
+                    "type": "object",
+                    "properties": {
+                      "risk_level": {
+                        "enum": [
+                          "low",
+                          "moderate",
+                          "high",
+                          "very-high"
+                        ],
+                        "type": "string"
+                      },
+                      "spf_recommendation": {
+                        "type": "integer"
+                      },
+                      "peak_hours_to_avoid": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "activity_recommendations": {
+            "type": "object",
+            "required": [
+              "generated_for_date"
+            ],
+            "properties": {
+              "generated_for_date": {
+                "type": "string"
+              },
+              "indoor_alternatives": {
+                "type": "object",
+                "properties": {
+                  "activities": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "name",
+                        "type"
+                      ],
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "enum": [
+                            "museum",
+                            "restaurant",
+                            "wine-tasting",
+                            "cooking-class",
+                            "spa",
+                            "shopping"
+                          ],
+                          "type": "string"
+                        },
+                        "location": {
+                          "type": "string"
+                        },
+                        "duration_hours": {
+                          "type": "number"
+                        },
+                        "why_recommended": {
+                          "type": "string"
+                        },
+                        "booking_required": {
+                          "type": "boolean",
+                          "default": false
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "recommended_when": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "hiking_recommendations": {
+                "type": "object",
+                "required": [
+                  "overall_hiking_conditions"
+                ],
+                "properties": {
+                  "trail_conditions": {
+                    "type": "object",
+                    "properties": {
+                      "via_dell_amore": {
+                        "type": "object",
+                        "required": [
+                          "status",
+                          "weather_suitability",
+                          "recommended_today"
+                        ],
+                        "properties": {
+                          "notes": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "enum": [
+                              "open",
+                              "partially-open",
+                              "closed"
+                            ],
+                            "type": "string"
+                          },
+                          "hazards": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "best_time": {
+                            "type": "string"
+                          },
+                          "recommended_today": {
+                            "type": "boolean"
+                          },
+                          "weather_suitability": {
+                            "enum": [
+                              "excellent",
+                              "good",
+                              "fair",
+                              "poor",
+                              "dangerous"
+                            ],
+                            "type": "string"
+                          },
+                          "difficulty_increase_due_to_weather": {
+                            "type": "boolean"
+                          }
+                        },
+                        "additionalProperties": false
+                      },
+                      "sanctuary_trails": {
+                        "type": "object",
+                        "required": [
+                          "status",
+                          "weather_suitability",
+                          "recommended_today"
+                        ],
+                        "properties": {
+                          "notes": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "enum": [
+                              "open",
+                              "partially-open",
+                              "closed"
+                            ],
+                            "type": "string"
+                          },
+                          "hazards": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "best_time": {
+                            "type": "string"
+                          },
+                          "recommended_today": {
+                            "type": "boolean"
+                          },
+                          "weather_suitability": {
+                            "enum": [
+                              "excellent",
+                              "good",
+                              "fair",
+                              "poor",
+                              "dangerous"
+                            ],
+                            "type": "string"
+                          },
+                          "difficulty_increase_due_to_weather": {
+                            "type": "boolean"
+                          }
+                        },
+                        "additionalProperties": false
+                      },
+                      "sentiero_azzurro": {
+                        "type": "object",
+                        "required": [
+                          "status",
+                          "weather_suitability",
+                          "recommended_today"
+                        ],
+                        "properties": {
+                          "notes": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "enum": [
+                              "open",
+                              "partially-open",
+                              "closed"
+                            ],
+                            "type": "string"
+                          },
+                          "hazards": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "default": []
+                          },
+                          "best_time": {
+                            "type": "string"
+                          },
+                          "recommended_today": {
+                            "type": "boolean"
+                          },
+                          "weather_suitability": {
+                            "enum": [
+                              "excellent",
+                              "good",
+                              "fair",
+                              "poor",
+                              "dangerous"
+                            ],
+                            "type": "string"
+                          },
+                          "difficulty_increase_due_to_weather": {
+                            "type": "boolean"
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "safety_considerations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "overall_hiking_conditions": {
+                    "enum": [
+                      "excellent",
+                      "good",
+                      "fair",
+                      "poor",
+                      "not-recommended"
+                    ],
+                    "type": "string"
+                  },
+                  "hiking_gear_recommendations": {
+                    "type": "object",
+                    "properties": {
+                      "footwear": {
+                        "type": "string"
+                      },
+                      "sun_protection": {
+                        "type": "string"
+                      },
+                      "clothing_layers": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "essential_items": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "hydration_recommendation": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "activities_by_time_of_day": {
+                "type": "object",
+                "properties": {
+                  "night": {
+                    "type": "object",
+                    "required": [
+                      "time_window",
+                      "weather_summary"
+                    ],
+                    "properties": {
+                      "time_window": {
+                        "type": "string"
+                      },
+                      "not_recommended": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "weather_summary": {
+                        "type": "string"
+                      },
+                      "recommended_activities": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": [
+                            "activity",
+                            "suitability"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "activity": {
+                              "type": "string"
+                            },
+                            "suitability": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "evening": {
+                    "type": "object",
+                    "required": [
+                      "time_window",
+                      "weather_summary"
+                    ],
+                    "properties": {
+                      "time_window": {
+                        "type": "string"
+                      },
+                      "not_recommended": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "weather_summary": {
+                        "type": "string"
+                      },
+                      "recommended_activities": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": [
+                            "activity",
+                            "suitability"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "activity": {
+                              "type": "string"
+                            },
+                            "suitability": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "morning": {
+                    "type": "object",
+                    "required": [
+                      "time_window",
+                      "weather_summary"
+                    ],
+                    "properties": {
+                      "time_window": {
+                        "type": "string"
+                      },
+                      "not_recommended": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "weather_summary": {
+                        "type": "string"
+                      },
+                      "recommended_activities": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": [
+                            "activity",
+                            "suitability"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "activity": {
+                              "type": "string"
+                            },
+                            "suitability": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "afternoon": {
+                    "type": "object",
+                    "required": [
+                      "time_window",
+                      "weather_summary"
+                    ],
+                    "properties": {
+                      "time_window": {
+                        "type": "string"
+                      },
+                      "not_recommended": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "weather_summary": {
+                        "type": "string"
+                      },
+                      "recommended_activities": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": [
+                            "activity",
+                            "suitability"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "activity": {
+                              "type": "string"
+                            },
+                            "suitability": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "early_morning": {
+                    "type": "object",
+                    "required": [
+                      "time_window",
+                      "weather_summary"
+                    ],
+                    "properties": {
+                      "time_window": {
+                        "type": "string"
+                      },
+                      "not_recommended": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "default": []
+                      },
+                      "weather_summary": {
+                        "type": "string"
+                      },
+                      "recommended_activities": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": [
+                            "activity",
+                            "suitability"
+                          ],
+                          "properties": {
+                            "notes": {
+                              "type": "string"
+                            },
+                            "activity": {
+                              "type": "string"
+                            },
+                            "suitability": {
+                              "enum": [
+                                "excellent",
+                                "good",
+                                "fair"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "default": []
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "todays_top_recommendations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "rank",
+                    "activity",
+                    "category",
+                    "weather_suitability_score",
+                    "reason"
+                  ],
+                  "properties": {
+                    "rank": {
+                      "type": "integer",
+                      "maximum": 5,
+                      "minimum": 1
+                    },
+                    "reason": {
+                      "type": "string"
+                    },
+                    "activity": {
+                      "type": "string"
+                    },
+                    "category": {
+                      "enum": [
+                        "outdoor",
+                        "water",
+                        "cultural",
+                        "culinary",
+                        "relaxation",
+                        "adventure"
+                      ],
+                      "type": "string"
+                    },
+                    "what_to_bring": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "best_time_window": {
+                      "type": "object",
+                      "required": [
+                        "start",
+                        "end"
+                      ],
+                      "properties": {
+                        "end": {
+                          "type": "string"
+                        },
+                        "start": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "booking_required": {
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "physical_intensity": {
+                      "enum": [
+                        "low",
+                        "moderate",
+                        "high"
+                      ],
+                      "type": "string"
+                    },
+                    "weather_considerations": {
+                      "type": "string"
+                    },
+                    "estimated_duration_hours": {
+                      "type": "number"
+                    },
+                    "weather_suitability_score": {
+                      "type": "integer",
+                      "maximum": 10,
+                      "minimum": 1
+                    },
+                    "alternatives_if_weather_changes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "weather_dependent_warnings": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "activity",
+                    "current_status",
+                    "reason"
+                  ],
+                  "properties": {
+                    "reason": {
+                      "type": "string"
+                    },
+                    "activity": {
+                      "type": "string"
+                    },
+                    "alternative": {
+                      "type": "string"
+                    },
+                    "current_status": {
+                      "enum": [
+                        "go",
+                        "caution",
+                        "no-go"
+                      ],
+                      "type": "string"
+                    },
+                    "expected_change": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "photography_recommendations": {
+                "type": "object",
+                "required": [
+                  "overall_conditions"
+                ],
+                "properties": {
+                  "tips": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "best_times": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "time_window",
+                        "type",
+                        "quality_rating"
+                      ],
+                      "properties": {
+                        "type": {
+                          "enum": [
+                            "golden-hour",
+                            "blue-hour",
+                            "midday",
+                            "sunset",
+                            "night"
+                          ],
+                          "type": "string"
+                        },
+                        "time_window": {
+                          "type": "string"
+                        },
+                        "quality_rating": {
+                          "enum": [
+                            "excellent",
+                            "good",
+                            "fair"
+                          ],
+                          "type": "string"
+                        },
+                        "recommended_subjects": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        },
+                        "recommended_locations": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          },
+                          "default": []
+                        }
+                      },
+                      "additionalProperties": false
+                    },
+                    "default": []
+                  },
+                  "lighting_quality": {
+                    "enum": [
+                      "harsh",
+                      "bright",
+                      "soft",
+                      "dramatic",
+                      "flat",
+                      "golden"
+                    ],
+                    "type": "string"
+                  },
+                  "overall_conditions": {
+                    "enum": [
+                      "excellent",
+                      "good",
+                      "fair",
+                      "poor"
+                    ],
+                    "type": "string"
+                  },
+                  "gear_recommendations": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "default": []
+                  },
+                  "weather_impact_on_photos": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "field_metadata": {},
+  "title_field": "location",
+  "date_field": "timestamp"
+}
