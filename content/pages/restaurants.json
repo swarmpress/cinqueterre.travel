@@ -1,0 +1,511 @@
+{
+  "id": "restaurants-listing-001",
+  "slug": {
+    "en": "/en/restaurants",
+    "de": "/de/restaurants",
+    "fr": "/fr/restaurants"
+  },
+  "title": {
+    "en": "Best Restaurants in Cinque Terre - Dining Guide",
+    "de": "Restaurants Cinque Terre",
+    "fr": "Restaurants Cinque Terre"
+  },
+  "page_type": "collection",
+  "seo": {
+    "title": {
+      "en": "Best Cinque Terre Restaurants 2025 | Seafood, Pesto & Local Wine",
+      "de": "Cinque Terre Restaurants 2025 | Beste Küche & Meeresfrüchte",
+      "fr": "Restaurants Cinque Terre 2025 | Meilleure Cuisine & Fruits de Mer"
+    },
+    "description": {
+      "en": "Discover the best restaurants in Cinque Terre. Fresh Ligurian seafood, authentic pesto, local wines, and harbor-view dining in all five villages.",
+      "de": "Die besten Restaurants der Cinque Terre. Frische Meeresfrüchte, lokale Spezialitäten und Weinstuben.",
+      "fr": "Les meilleurs restaurants des Cinque Terre. Fruits de mer frais, spécialités locales et caves à vin."
+    },
+    "keywords": {
+      "en": [
+        "Cinque Terre restaurants",
+        "Italian seafood",
+        "Ligurian cuisine",
+        "pesto Genovese",
+        "Sciacchetrà wine"
+      ],
+      "de": [
+        "Cinque Terre Restaurants",
+        "Italien Essen",
+        "Meeresfrüchte Ligurien",
+        "Pesto"
+      ],
+      "fr": [
+        "Cinque Terre restaurants",
+        "Italie cuisine",
+        "Fruits de mer Ligurie",
+        "Pesto"
+      ]
+    }
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200&q=80",
+      "eyebrow": {
+        "en": "Authentic Ligurian Cuisine",
+        "de": "Cinque Terre",
+        "fr": "Cinque Terre"
+      },
+      "title": {
+        "en": "Dining in Cinque Terre",
+        "de": "Restaurants",
+        "fr": "Restaurants"
+      },
+      "subtitle": {
+        "en": "Fresh-caught seafood, world-famous pesto, local wines, and unforgettable harbor views. Discover the flavors of the Italian Riviera in trattorias, seafood restaurants, and hidden gems.",
+        "de": "Authentische ligurische Küche in jedem Dorf. Frische Meeresfrüchte, handgemachte Pasta und lokale Weine.",
+        "fr": "Cuisine ligure authentique dans chaque village. Fruits de mer frais, pâtes maison et vins locaux."
+      },
+      "buttons": [
+        {
+          "text": {
+            "en": "View All Restaurants",
+            "de": "Alle Restaurants",
+            "fr": "Tous les restaurants"
+          },
+          "url": {
+            "en": "#restaurants",
+            "de": "#list",
+            "fr": "#list"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "By Village",
+            "de": "Nach Dorf",
+            "fr": "Par village"
+          },
+          "url": {
+            "en": "#villages",
+            "de": "#villages",
+            "fr": "#villages"
+          },
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": {
+        "en": "Culinary Scene",
+        "de": "Kulinarik",
+        "fr": "Gastronomie"
+      },
+      "title": {
+        "en": "Cinque Terre Dining",
+        "de": "Lokale Spezialitäten",
+        "fr": "Spécialités Locales"
+      },
+      "stats": [
+        {
+          "value": {
+            "en": "50+"
+          },
+          "label": {
+            "en": "Restaurants"
+          }
+        },
+        {
+          "value": {
+            "en": "5"
+          },
+          "label": {
+            "en": "Villages"
+          }
+        },
+        {
+          "value": {
+            "en": "€15-50"
+          },
+          "label": {
+            "en": "Avg. Main Course"
+          }
+        },
+        {
+          "value": {
+            "en": "100%"
+          },
+          "label": {
+            "en": "Fresh Seafood"
+          }
+        }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": {
+        "en": "Must-Try Dishes"
+      },
+      "title": {
+        "en": "Ligurian Specialties",
+        "de": "Entdecken Sie die Küche jedes Dorfes",
+        "fr": "Découvrez la cuisine de chaque village"
+      },
+      "subtitle": {
+        "en": "The dishes that define Cinque Terre cuisine."
+      },
+      "features": [
+        {
+          "icon": "leaf",
+          "title": {
+            "en": "Pesto alla Genovese"
+          },
+          "description": {
+            "en": "The world-famous basil sauce, made with local basil, pine nuts, Parmigiano, and Ligurian olive oil. Try it on trofie pasta."
+          }
+        },
+        {
+          "icon": "fish",
+          "title": {
+            "en": "Fresh Seafood"
+          },
+          "description": {
+            "en": "Anchovies, branzino, octopus, and the catch of the day. Local fishermen supply restaurants directly from morning catches."
+          }
+        },
+        {
+          "icon": "bread",
+          "title": {
+            "en": "Focaccia di Recco"
+          },
+          "description": {
+            "en": "Paper-thin, cheese-filled focaccia. A Ligurian specialty best eaten hot from the oven."
+          }
+        },
+        {
+          "icon": "wine",
+          "title": {
+            "en": "Sciacchetrà"
+          },
+          "description": {
+            "en": "Cinque Terre's famous dessert wine made from dried grapes. Pairs perfectly with local desserts and cantuccini."
+          }
+        },
+        {
+          "icon": "lemon",
+          "title": {
+            "en": "Limoncino"
+          },
+          "description": {
+            "en": "Locally made lemon liqueur from Monterosso lemons. A perfect digestivo after dinner."
+          }
+        },
+        {
+          "icon": "pizza",
+          "title": {
+            "en": "Farinata"
+          },
+          "description": {
+            "en": "Thin chickpea flour pancake, crispy on the outside, soft inside. A traditional Ligurian street food."
+          }
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "variant": "two-column-with-testimonial",
+      "eyebrow": {
+        "en": "Dining Tips"
+      },
+      "title": {
+        "en": "Make the Most of Your Meals"
+      },
+      "subtitle": {
+        "en": "Insider advice for dining in Cinque Terre"
+      },
+      "content": {
+        "en": "**Reservations** are essential at popular restaurants, especially for dinner and sunset tables. Book 2-3 days ahead in summer. **Lunch** is often better value than dinner with the same quality. Look for *menù turistico* for fixed-price meals. **Aperitivo** is a great way to enjoy views with drinks and snacks before dinner. Most restaurants close between lunch and dinner (3-7pm)."
+      },
+      "testimonial": {
+        "quote": {
+          "en": "The seafood here is the freshest I've ever tasted. We watched our fish being brought in from the harbor and an hour later it was on our plate. Pure magic."
+        },
+        "author": {
+          "en": "Marco Benedetti"
+        },
+        "role": {
+          "en": "Food Writer"
+        },
+        "image": {
+          "en": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+        }
+      }
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": {
+        "en": "Practical Information"
+      },
+      "title": {
+        "en": "Dining FAQs"
+      },
+      "items": [
+        {
+          "question": {
+            "en": "Do I need reservations?"
+          },
+          "answer": {
+            "en": "Highly recommended for dinner, especially at popular restaurants with views. Lunch is usually easier to get without booking."
+          }
+        },
+        {
+          "question": {
+            "en": "What's a typical meal cost?"
+          },
+          "answer": {
+            "en": "Budget €15-25 for a casual lunch, €30-50 for dinner with wine. Harbor-view restaurants are pricier. Pizza and focaccia shops offer cheaper options."
+          }
+        },
+        {
+          "question": {
+            "en": "Which village has the best restaurants?"
+          },
+          "answer": {
+            "en": "Monterosso has the most variety, Vernazza the best harbor dining, Manarola for sunset views. Each village has excellent options."
+          }
+        },
+        {
+          "question": {
+            "en": "Are there vegetarian options?"
+          },
+          "answer": {
+            "en": "Yes, though seafood dominates. Pesto dishes, pasta, salads, and vegetable antipasti are widely available. Vegan options more limited."
+          }
+        },
+        {
+          "question": {
+            "en": "What's the dress code?"
+          },
+          "answer": {
+            "en": "Smart casual is fine for most restaurants. No swimwear or bare feet. Some upscale restaurants prefer slightly dressier attire."
+          }
+        },
+        {
+          "question": {
+            "en": "When do restaurants serve?"
+          },
+          "answer": {
+            "en": "Lunch: 12-3pm. Dinner: 7-10pm. Most close between meals. Many close one day per week, often Tuesday or Wednesday."
+          }
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": {
+        "en": "Ready to Discover Cinque Terre's Flavors?"
+      },
+      "subtitle": {
+        "en": "From seaside trattorias to village wine bars, find your perfect dining experience in the five villages."
+      },
+      "buttons": [
+        {
+          "text": {
+            "en": "View All Restaurants"
+          },
+          "url": {
+            "en": "#restaurants"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Back to Cinque Terre"
+          },
+          "url": {
+            "en": "/en/cinque-terre"
+          },
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": {
+        "en": "Cinqueterre.travel"
+      },
+      "companyDescription": {
+        "en": "Your complete guide to Italy's most beautiful coastal villages."
+      },
+      "copyright": {
+        "en": "© 2025 Cinqueterre.travel. All rights reserved."
+      },
+      "columns": [
+        {
+          "title": {
+            "en": "Villages"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Monterosso"
+              },
+              "url": {
+                "en": "/en/monterosso"
+              }
+            },
+            {
+              "label": {
+                "en": "Vernazza"
+              },
+              "url": {
+                "en": "/en/vernazza"
+              }
+            },
+            {
+              "label": {
+                "en": "Corniglia"
+              },
+              "url": {
+                "en": "/en/corniglia"
+              }
+            },
+            {
+              "label": {
+                "en": "Manarola"
+              },
+              "url": {
+                "en": "/en/manarola"
+              }
+            },
+            {
+              "label": {
+                "en": "Riomaggiore"
+              },
+              "url": {
+                "en": "/en/riomaggiore"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Plan Your Trip"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Getting There"
+              },
+              "url": {
+                "en": "/en/transportation"
+              }
+            },
+            {
+              "label": {
+                "en": "Where to Stay"
+              },
+              "url": {
+                "en": "/en/accommodations"
+              }
+            },
+            {
+              "label": {
+                "en": "Hiking Trails"
+              },
+              "url": {
+                "en": "/en/hikes"
+              }
+            },
+            {
+              "label": {
+                "en": "Weather"
+              },
+              "url": {
+                "en": "/en/weather"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Explore"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Restaurants"
+              },
+              "url": {
+                "en": "/en/restaurants"
+              }
+            },
+            {
+              "label": {
+                "en": "Events"
+              },
+              "url": {
+                "en": "/en/events"
+              }
+            },
+            {
+              "label": {
+                "en": "Points of Interest"
+              },
+              "url": {
+                "en": "/en/pois"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Resources"
+          },
+          "links": [
+            {
+              "label": {
+                "en": "Travel Guide"
+              },
+              "url": {
+                "en": "/en/cinque-terre"
+              }
+            },
+            {
+              "label": {
+                "en": "Contact Us"
+              },
+              "url": {
+                "en": "/en/contact"
+              }
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": {
+            "en": "https://instagram.com/cinqueterre"
+          }
+        },
+        {
+          "platform": "facebook",
+          "url": {
+            "en": "https://facebook.com/cinqueterre"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "page_type": "collection"
+  },
+  "status": "published",
+  "created_at": "2025-12-12T22:00:00.000Z",
+  "updated_at": "2025-12-13T06:28:49.844Z"
+}
