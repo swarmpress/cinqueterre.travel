@@ -1,16 +1,52 @@
 {
   "id": "57ed7f44-0ead-4c70-a333-50a2230af234",
   "slug": "/fr/monterosso/getting-here",
-  "title": "Comment y Aller",
+  "title": "Comment se Rendre à Monterosso",
   "page_type": "getting-here",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Comment Aller à Monterosso - Train, Voiture, Bateau et Conseils",
+    "description": "Guide complet pour rejoindre Monterosso al Mare. Trains régionaux, parking, ferry, et tous les moyens de transport vers les Cinque Terre.",
+    "keywords": "transport monterosso, train cinque terre, comment aller monterosso, parking"
+  },
+  "body": [
+    {
+      "id": "hero-getting-here",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Comment se Rendre à Monterosso",
+      "subheading": "Votre guide pour arriver facilement au plus grand village des Cinque Terre",
+      "buttons": [{"text": "Voir les cartes", "href": "/fr/monterosso/maps", "variant": "primary"}]
+    },
+    {
+      "id": "features-getting-here",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Options de Transport",
+      "subheading": "Tous les moyens pour rejoindre Monterosso",
+      "features": [
+        {"name": "Train (Recommandé)", "description": "Ligne régionale Gênes-La Spezia avec trains fréquents. Station centrale de Monterosso bien desservie. Carte Cinque Terre disponible.", "icon": "train"},
+        {"name": "En Voiture", "description": "Parking payant à l'entrée du village (limité). Route SP370 depuis La Spezia. Mieux vaut se garer à Levanto et prendre le train.", "icon": "car"},
+        {"name": "Ferry/Bateau", "description": "Service de ferry saisonnier depuis La Spezia, Portovenere et entre les villages. Vue spectaculaire depuis la mer.", "icon": "boat"},
+        {"name": "À Pied (Randonnée)", "description": "Sentiers de randonnée depuis Vernazza (2h) ou Levanto (2h30). Arrivée pittoresque mais physique.", "icon": "hiking"},
+        {"name": "Aéroports Proches", "description": "Gênes (100 km, 1h30), Pise (90 km, 2h), Milan (230 km, 3h). Puis train régional vers Monterosso.", "icon": "plane"},
+        {"name": "Navette Locale", "description": "Bus électriques gratuits entre la gare et le centre historique en haute saison. Très pratique pour les bagages.", "icon": "bus"}
+      ]
+    },
+    {
+      "id": "cta-getting-here",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Planifiez Votre Arrivée",
+      "subheading": "Informations complémentaires pour votre voyage",
+      "buttons": [{"text": "Voir les excursions en bateau", "href": "/fr/monterosso/boat-tours", "variant": "primary"}, {"text": "Cartes détaillées", "href": "/fr/monterosso/maps", "variant": "secondary"}]
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "fr",
     "page_type": "getting-here"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

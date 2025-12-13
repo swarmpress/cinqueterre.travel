@@ -1,16 +1,55 @@
 {
   "id": "3c54a00a-16a5-4ad8-8676-8dc53d71b24b",
   "slug": "/en/monterosso/things-to-do",
-  "title": "Things to Do",
+  "title": "Things to Do in Monterosso",
   "page_type": "things-to-do",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Things to Do in Monterosso 2025 | Activities & Experiences",
+    "description": "Best things to do in Monterosso. Beaches, hiking, boat tours, wine tasting, and exploring the old town.",
+    "keywords": ["things to do Monterosso", "activities", "Cinque Terre experiences"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "eyebrow": "Monterosso al Mare",
+      "title": "Things to Do",
+      "subtitle": "From sandy beaches to mountain hikes. The most activities of any Cinque Terre village.",
+      "buttons": [
+        { "text": "View Activities", "url": "#activities", "variant": "primary" },
+        { "text": "Back to Monterosso", "url": "/en/monterosso", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Activities",
+      "title": "Top Experiences",
+      "features": [
+        { "icon": "beach", "title": "Beach Day", "description": "Relax on the only sandy beaches in Cinque Terre. Swim in crystal-clear water." },
+        { "icon": "hiking", "title": "Hike to Vernazza", "description": "Most scenic Blue Trail section. 2 hours through terraced vineyards." },
+        { "icon": "ship", "title": "Boat Tour", "description": "See all five villages from the sea. Sunset cruises available." },
+        { "icon": "wine", "title": "Wine Tasting", "description": "Local Sciacchetrà and white wines. Visit cantinas and agriturismi." },
+        { "icon": "history", "title": "Old Town Walk", "description": "Explore medieval streets, churches, and hidden piazzas." },
+        { "icon": "fish", "title": "Fresh Seafood", "description": "Try local anchovies and fresh catches at harbor restaurants." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Plan Your Activities",
+      "buttons": [
+        { "text": "Beaches", "url": "/en/monterosso/beaches", "variant": "primary" },
+        { "text": "Hiking", "url": "/en/monterosso/hiking", "variant": "secondary" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "en",
     "page_type": "things-to-do"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

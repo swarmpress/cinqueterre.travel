@@ -4,13 +4,208 @@
   "title": "Agriturismi",
   "page_type": "agriturismi",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Vita Rurale",
+      "title": "Agriturismi nelle Cinque Terre",
+      "subtitle": "Immergiti nella vita rurale ligure tra vigneti terrazzati e uliveti. Degusta prodotti locali, vini DOC e olio extravergine in autentiche aziende agricole a conduzione familiare.",
+      "buttons": [
+        {
+          "text": "Scopri Agriturismi",
+          "url": "#agriturismi",
+          "variant": "primary"
+        },
+        {
+          "text": "Esperienze",
+          "url": "#esperienze",
+          "variant": "secondary"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Esperienze Autentiche",
+      "title": "Cosa Offrono gli Agriturismi",
+      "subtitle": "Dall'alloggio alle degustazioni, vivi la campagna ligure.",
+      "features": [
+        {
+          "icon": "bed",
+          "title": "Camere Rurali",
+          "description": "Alloggio in casali ristrutturati tra vigneti e uliveti. Vista panoramica su mare e montagna. Colazione con prodotti dell'azienda."
+        },
+        {
+          "icon": "wine",
+          "title": "Degustazioni Vino",
+          "description": "Assaggia Sciacchetrà, Cinque Terre DOC, Vermentino. Visita in cantina, spiegazione della produzione eroica in terrazza."
+        },
+        {
+          "icon": "olive",
+          "title": "Olio Extravergine",
+          "description": "Olio DOP Riviera Ligure prodotto in loco. Degustazioni guidate, visita all'oliveto, vendita diretta."
+        },
+        {
+          "icon": "food",
+          "title": "Cucina Tradizionale",
+          "description": "Pranzi e cene con prodotti km 0: verdure dell'orto, uova fresche, formaggi locali, salumi artigianali."
+        },
+        {
+          "icon": "grape",
+          "title": "Tour nei Vigneti",
+          "description": "Passeggia tra i terrazzamenti patrimonio UNESCO. Scopri la viticoltura eroica su pendenze impossibili."
+        },
+        {
+          "icon": "nature",
+          "title": "Relax nella Natura",
+          "description": "Lontano dalla folla turistica, immerso nel verde. Piscine panoramiche, giardini, silenzio e tranquillità."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Info Pratiche",
+      "title": "Agriturismi in Numeri",
+      "stats": [
+        {
+          "value": "€70-120",
+          "label": "Camera/Notte"
+        },
+        {
+          "value": "€25-40",
+          "label": "Degustazione Vini"
+        },
+        {
+          "value": "Entroterra",
+          "label": "Posizione"
+        },
+        {
+          "value": "Bio",
+          "label": "Prodotti"
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Domande Frequenti",
+      "title": "Agriturismi - FAQ",
+      "items": [
+        {
+          "question": "Dove si trovano?",
+          "answer": "Nell'entroterra, a 2-5 km dai villaggi costieri. Raggiungibili in auto o con transfer. Posizione panoramica su vigneti e mare."
+        },
+        {
+          "question": "Serve l'auto?",
+          "answer": "Consigliata. Gli agriturismi sono spesso isolati su colline. Alcuni offrono servizio navetta da/per stazioni. Verifica in anticipo."
+        },
+        {
+          "question": "Cosa è incluso?",
+          "answer": "Generalmente: colazione con prodotti aziendali, parcheggio gratuito. Extra a pagamento: degustazioni vino, cene, tour in vigneto."
+        },
+        {
+          "question": "È adatto ai bambini?",
+          "answer": "Sì, molti agriturismi sono family-friendly: spazi verdi, animali da cortile, piscine, tranquillità. Perfetto per famiglie che cercano relax."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Vivi l'Esperienza Rurale Ligure",
+      "subtitle": "Scopri il lato autentico delle Cinque Terre, tra vigneti terrazzati e tradizioni contadine millenarie.",
+      "buttons": [
+        {
+          "text": "Trova Agriturismo",
+          "url": "#cerca",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            {
+              "label": "Monterosso",
+              "url": "/it/monterosso"
+            },
+            {
+              "label": "Vernazza",
+              "url": "/it/vernazza"
+            },
+            {
+              "label": "Corniglia",
+              "url": "/it/corniglia"
+            },
+            {
+              "label": "Manarola",
+              "url": "/it/manarola"
+            },
+            {
+              "label": "Riomaggiore",
+              "url": "/it/riomaggiore"
+            }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            {
+              "label": "Come Arrivare",
+              "url": "/it/cinque-terre/getting-here"
+            },
+            {
+              "label": "Dove Dormire",
+              "url": "/it/cinque-terre/hotels"
+            },
+            {
+              "label": "Sentieri",
+              "url": "/it/cinque-terre/hiking"
+            }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            {
+              "label": "Ristoranti",
+              "url": "/it/cinque-terre/restaurants"
+            },
+            {
+              "label": "Eventi",
+              "url": "/it/cinque-terre/events"
+            },
+            {
+              "label": "Spiagge",
+              "url": "/it/cinque-terre/beaches"
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/cinqueterre"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "it",
     "page_type": "agriturismi"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

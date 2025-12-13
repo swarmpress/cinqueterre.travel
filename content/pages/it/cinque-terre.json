@@ -1,15 +1,123 @@
 {
   "id": "dbcf91dc-85b5-431b-9ce5-61fa779f8d26",
   "slug": "/it/cinque-terre",
-  "title": "Cinque Terre",
+  "title": "Cinque Terre - Patrimonio UNESCO della Riviera Ligure",
   "page_type": "city",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Cinque Terre 2025 | Guida Completa ai 5 Villaggi UNESCO",
+    "description": "Guida completa alle Cinque Terre. I cinque villaggi colorati della Riviera Ligure: Monterosso, Vernazza, Corniglia, Manarola e Riomaggiore. Sentieri, spiagge, cucina.",
+    "keywords": ["Cinque Terre", "UNESCO", "Liguria", "Riviera", "Italia", "sentieri", "villaggi colorati"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Patrimonio UNESCO",
+      "title": "Cinque Terre",
+      "subtitle": "Cinque villaggi colorati aggrappati alle scogliere della Riviera Ligure. Un paesaggio unico plasmato da secoli di coltivazione sui terrazzamenti, dove mare, montagna e tradizione si fondono in uno dei luoghi più belli del mondo.",
+      "buttons": [
+        { "text": "Scopri i Villaggi", "url": "#villaggi", "variant": "primary" },
+        { "text": "Pianifica il Viaggio", "url": "#pianifica", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?w=1200&q=80"
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "La Regione",
+      "title": "Cinque Terre in Numeri",
+      "stats": [
+        { "value": "5", "label": "Villaggi" },
+        { "value": "1997", "label": "Patrimonio UNESCO" },
+        { "value": "120km", "label": "Sentieri" },
+        { "value": "2.5M", "label": "Visitatori/Anno" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "I Cinque Villaggi",
+      "title": "Ognuno Unico",
+      "features": [
+        {
+          "icon": "beach",
+          "title": "Monterosso",
+          "description": "Il più grande. Spiagge sabbiose, migliori servizi, base ideale per famiglie."
+        },
+        {
+          "icon": "anchor",
+          "title": "Vernazza",
+          "description": "Il più pittoresco. Porto naturale incantevole, il gioiello delle Cinque Terre."
+        },
+        {
+          "icon": "mountain",
+          "title": "Corniglia",
+          "description": "Il più tranquillo. Arroccato tra i vigneti, raggiungibile solo a piedi."
+        },
+        {
+          "icon": "camera",
+          "title": "Manarola",
+          "description": "Il più fotografato. Tramonti leggendari e vino Sciacchetrà."
+        },
+        {
+          "icon": "building",
+          "title": "Riomaggiore",
+          "description": "Il più colorato. Case torre drammatiche e Via dell'Amore."
+        },
+        {
+          "icon": "hiking",
+          "title": "Sentiero Azzurro",
+          "description": "Il famoso percorso che collega tutti i villaggi lungo la costa."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Pronto per le Cinque Terre?",
+      "subtitle": "Uno dei luoghi più belli del pianeta ti aspetta. Pianifica la tua visita e scopri la magia della Riviera Ligure.",
+      "buttons": [
+        { "text": "Dove Dormire", "url": "/it/accommodations", "variant": "primary" },
+        { "text": "Sentieri", "url": "/it/hikes", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            { "label": "Monterosso", "url": "/it/monterosso" },
+            { "label": "Vernazza", "url": "/it/vernazza" },
+            { "label": "Corniglia", "url": "/it/corniglia" },
+            { "label": "Manarola", "url": "/it/manarola" },
+            { "label": "Riomaggiore", "url": "/it/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            { "label": "Come Arrivare", "url": "/it/transportation" },
+            { "label": "Dove Dormire", "url": "/it/accommodations" },
+            { "label": "Sentieri", "url": "/it/hikes" },
+            { "label": "Meteo", "url": "/it/weather" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "it"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

@@ -1,16 +1,55 @@
 {
   "id": "e51e531b-1dae-4223-882c-98cedf237d0d",
   "slug": "/en/vernazza/hiking",
-  "title": "Hiking Trails",
+  "title": "Hiking Trails from Vernazza",
   "page_type": "hiking",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Vernazza Hiking Trails 2025 | Best Routes in Cinque Terre",
+    "description": "Discover the best hiking trails from Vernazza. Routes to Monterosso, Corniglia, and scenic mountain sanctuaries with stunning coastal views.",
+    "keywords": ["Vernazza hiking", "Cinque Terre trails", "coastal paths", "mountain routes"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "eyebrow": "Vernazza",
+      "title": "Hiking Trails from Vernazza",
+      "subtitle": "Experience the most spectacular coastal and mountain trails. Vernazza is the perfect base for exploring Cinque Terre's famous hiking routes.",
+      "buttons": [
+        { "text": "View Trails", "url": "#trails", "variant": "primary" },
+        { "text": "Back to Vernazza", "url": "/en/vernazza", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Popular Routes",
+      "title": "Featured Trails",
+      "features": [
+        { "icon": "hiking", "title": "Vernazza to Monterosso", "description": "2-hour coastal route with stunning views. Most popular trail." },
+        { "icon": "mountain", "title": "Vernazza to Corniglia", "description": "90-minute high trail through vineyards and olive groves." },
+        { "icon": "church", "title": "Reggio Sanctuary", "description": "Mountain pilgrimage path with panoramic coastal views." },
+        { "icon": "view", "title": "Prevo Loop", "description": "Circular route above the village through wine terraces." },
+        { "icon": "climb", "title": "Difficulty Range", "description": "From moderate coastal paths to challenging mountain routes." },
+        { "icon": "ticket", "title": "Cinque Terre Card", "description": "Required for main coastal trails between villages." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Plan Your Hike",
+      "buttons": [
+        { "text": "Trail Maps", "url": "/en/vernazza/maps", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/vernazza/getting-here", "variant": "secondary" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "vernazza",
     "lang": "en",
     "page_type": "hiking"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

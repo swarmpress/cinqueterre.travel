@@ -4,7 +4,119 @@
   "title": "Aperçu",
   "page_type": "overview",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Patrimoine UNESCO",
+      "title": "Cinque Terre : Les Cinq Villages de la Côte Ligure",
+      "subtitle": "Découvrez cinq villages colorés perchés sur des falaises escarpées, reliés par des sentiers de randonnée spectaculaires et un train pittoresque. Un joyau de la Riviera italienne classé au patrimoine mondial.",
+      "buttons": [
+        { "text": "Explorer les Villages", "url": "#villages", "variant": "primary" },
+        { "text": "Planifier Votre Visite", "url": "/fr/cinque-terre/getting-here", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80"
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "En un coup d'œil",
+      "title": "Cinque Terre en Chiffres",
+      "stats": [
+        { "value": "5", "label": "Villages Colorés" },
+        { "value": "12 km", "label": "de Sentiers Côtiers" },
+        { "value": "4000", "label": "Habitants Permanents" },
+        { "value": "1997", "label": "Inscrit à l'UNESCO" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Les Cinq Villages",
+      "title": "Découvrez Chaque Village",
+      "features": [
+        { "icon": "map-pin", "title": "Monterosso al Mare", "description": "Le plus grand village avec de belles plages de sable et un centre historique médiéval." },
+        { "icon": "map-pin", "title": "Vernazza", "description": "Considéré comme le plus pittoresque, avec son port naturel et sa forteresse génoise." },
+        { "icon": "map-pin", "title": "Corniglia", "description": "Le seul village perché sur une falaise, accessible par 382 marches ou navette." },
+        { "icon": "map-pin", "title": "Manarola", "description": "Célèbre pour ses maisons colorées et le sentier de l'amour (Via dell'Amore)." },
+        { "icon": "map-pin", "title": "Riomaggiore", "description": "Le village le plus au sud, avec des ruelles escarpées et une marina pittoresque." }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Activités Principales",
+      "title": "Que Faire aux Cinque Terre",
+      "features": [
+        { "icon": "compass", "title": "Randonnées Spectaculaires", "description": "Parcourez les sentiers côtiers offrant des vues à couper le souffle sur la Méditerranée." },
+        { "icon": "utensils", "title": "Gastronomie Locale", "description": "Dégustez le pesto génois, les anchois frais et le vin Sciacchetrà." },
+        { "icon": "train", "title": "Train Panoramique", "description": "Voyagez facilement entre les villages avec des vues spectaculaires sur la côte." },
+        { "icon": "sailboat", "title": "Excursions en Bateau", "description": "Admirez les villages depuis la mer et découvrez des criques cachées." },
+        { "icon": "camera", "title": "Photographie", "description": "Capturez les maisons colorées, les couchers de soleil et les paysages uniques." },
+        { "icon": "wine", "title": "Vignobles en Terrasses", "description": "Visitez les vignobles historiques cultivés sur des terrasses escarpées." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Planifiez Votre Aventure aux Cinque Terre",
+      "subtitle": "Découvrez tout ce que vous devez savoir pour visiter ces villages extraordinaires.",
+      "buttons": [
+        { "text": "Comment S'y Rendre", "url": "/fr/cinque-terre/getting-here", "variant": "primary" },
+        { "text": "Meilleurs Sentiers", "url": "/fr/cinque-terre/hiking", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "Votre guide complet des plus beaux villages côtiers d'Italie.",
+      "copyright": "© 2025 Cinqueterre.travel. Tous droits réservés.",
+      "columns": [
+        {
+          "title": "Villages",
+          "links": [
+            { "label": "Monterosso", "url": "/fr/monterosso" },
+            { "label": "Vernazza", "url": "/fr/vernazza" },
+            { "label": "Corniglia", "url": "/fr/corniglia" },
+            { "label": "Manarola", "url": "/fr/manarola" },
+            { "label": "Riomaggiore", "url": "/fr/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Planifier",
+          "links": [
+            { "label": "Comment S'y Rendre", "url": "/fr/cinque-terre/getting-here" },
+            { "label": "Où Dormir", "url": "/fr/cinque-terre/hotels" },
+            { "label": "Restaurants", "url": "/fr/cinque-terre/restaurants" },
+            { "label": "Carte", "url": "/fr/cinque-terre/maps" }
+          ]
+        },
+        {
+          "title": "Activités",
+          "links": [
+            { "label": "Randonnées", "url": "/fr/cinque-terre/hiking" },
+            { "label": "Plages", "url": "/fr/cinque-terre/beaches" },
+            { "label": "Excursions Bateau", "url": "/fr/cinque-terre/boat-tours" },
+            { "label": "Événements", "url": "/fr/cinque-terre/events" }
+          ]
+        },
+        {
+          "title": "Infos",
+          "links": [
+            { "label": "Météo", "url": "/fr/cinque-terre/weather" },
+            { "label": "FAQ", "url": "/fr/cinque-terre/faq" },
+            { "label": "Conseils", "url": "/fr/cinque-terre/insights" },
+            { "label": "Blog", "url": "/fr/cinque-terre/blog" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" },
+        { "platform": "facebook", "url": "https://facebook.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "fr",
@@ -12,5 +124,5 @@
   },
   "status": "draft",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

@@ -1,15 +1,123 @@
 {
   "id": "bee31458-8cd4-4bc2-98f1-5071b5e7933c",
   "slug": "/it",
-  "title": "Guida Turistica Cinque Terre",
+  "title": "Guida Turistica Cinque Terre - Guida Completa al Paradiso Costiero Italiano",
   "page_type": "language_root",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Guida Cinque Terre 2025 | Pianifica la Tua Avventura nella Riviera Ligure",
+    "description": "Guida completa ai cinque villaggi UNESCO delle Cinque Terre. Scopri Monterosso, Vernazza, Corniglia, Manarola e Riomaggiore. Hotel, sentieri, ristoranti e consigli di viaggio.",
+    "keywords": ["Cinque Terre", "viaggi Italia", "Riviera Ligure", "UNESCO", "Liguria", "villaggi costieri", "sentieri escursionistici"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Patrimonio UNESCO",
+      "title": "Scopri le Cinque Terre",
+      "subtitle": "Cinque antichi villaggi di pescatori aggrappati a scogliere spettacolari lungo la stupenda costa ligure italiana. Un luogo dove case colorate scendono verso acque cristalline, dove antichi sentieri si snodano tra i vigneti e dove il tempo sembra fermarsi.",
+      "buttons": [
+        { "text": "Esplora i Villaggi", "url": "#villaggi", "variant": "primary" },
+        { "text": "Pianifica il Viaggio", "url": "#pianifica", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?w=1200&q=80"
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "La Regione",
+      "title": "Cinque Terre in Numeri",
+      "stats": [
+        { "value": "5", "label": "Villaggi UNESCO" },
+        { "value": "1997", "label": "Anno Patrimonio" },
+        { "value": "120km", "label": "Sentieri" },
+        { "value": "2,5M", "label": "Visitatori/Anno" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "I Cinque Villaggi",
+      "title": "Ognuno Unico",
+      "features": [
+        {
+          "icon": "beach",
+          "title": "Monterosso al Mare",
+          "description": "Il villaggio più grande con spiagge sabbiose, ottimi ristoranti e la migliore infrastruttura turistica. Base ideale per famiglie."
+        },
+        {
+          "icon": "anchor",
+          "title": "Vernazza",
+          "description": "Il villaggio più pittoresco con porto naturale, case colorate e l'iconica chiesa di Santa Margherita che si protende verso il mare."
+        },
+        {
+          "icon": "mountain",
+          "title": "Corniglia",
+          "description": "Il villaggio tranquillo, arroccato su una scogliera circondato da vigneti. Raggiungibile tramite 382 gradini o sentieri escursionistici."
+        },
+        {
+          "icon": "camera",
+          "title": "Manarola",
+          "description": "Il villaggio più fotografato con tramonti leggendari, antiche tradizioni vinicole e il famoso vino Sciacchetrà."
+        },
+        {
+          "icon": "building",
+          "title": "Riomaggiore",
+          "description": "La porta delle Cinque Terre con drammatiche case torre, vita notturna vivace e punto di partenza della Via dell'Amore."
+        },
+        {
+          "icon": "hiking",
+          "title": "Sentiero Azzurro",
+          "description": "Il famoso sentiero blu che collega tutti i cinque villaggi lungo la costa. Una delle esperienze escursionistiche più belle d'Italia."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Pronto per la Tua Avventura alle Cinque Terre?",
+      "subtitle": "Uno dei luoghi più belli del mondo ti aspetta. Pianifica la tua visita e scopri la magia della Riviera Ligure.",
+      "buttons": [
+        { "text": "Trova Alloggio", "url": "/it/alloggi", "variant": "primary" },
+        { "text": "Esplora i Sentieri", "url": "/it/sentieri", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            { "label": "Monterosso", "url": "/it/monterosso" },
+            { "label": "Vernazza", "url": "/it/vernazza" },
+            { "label": "Corniglia", "url": "/it/corniglia" },
+            { "label": "Manarola", "url": "/it/manarola" },
+            { "label": "Riomaggiore", "url": "/it/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            { "label": "Come Arrivare", "url": "/it/trasporti" },
+            { "label": "Dove Dormire", "url": "/it/alloggi" },
+            { "label": "Sentieri", "url": "/it/sentieri" },
+            { "label": "Meteo", "url": "/it/meteo" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "lang": "it",
     "is_default": false
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

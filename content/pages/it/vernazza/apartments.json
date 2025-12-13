@@ -4,13 +4,208 @@
   "title": "Appartamenti",
   "page_type": "apartments",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Case Vacanza",
+      "title": "Appartamenti a Vernazza",
+      "subtitle": "Vivi come un locale in appartamenti autentici nel cuore dei borghi storici. Cucine attrezzate, terrazze panoramiche e l'autonomia di una vera casa vacanze.",
+      "buttons": [
+        {
+          "text": "Cerca Appartamenti",
+          "url": "#cerca",
+          "variant": "primary"
+        },
+        {
+          "text": "Consigli Utili",
+          "url": "#info",
+          "variant": "secondary"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Vantaggi",
+      "title": "Perché Scegliere un Appartamento",
+      "subtitle": "Autonomia, spazio e autenticità per il tuo soggiorno.",
+      "features": [
+        {
+          "icon": "chef",
+          "title": "Cucina Attrezzata",
+          "description": "Prepara i tuoi pasti con prodotti locali dal mercato. Risparmia e vivi da locale."
+        },
+        {
+          "icon": "users",
+          "title": "Ideale per Famiglie",
+          "description": "Più spazio e privacy. Camere separate, lavatrice, flessibilità negli orari."
+        },
+        {
+          "icon": "terrace",
+          "title": "Terrazze Panoramiche",
+          "description": "Molti appartamenti offrono terrazze private con vista mare o sui tetti del borgo."
+        },
+        {
+          "icon": "coin",
+          "title": "Miglior Rapporto Qualità-Prezzo",
+          "description": "Per soggiorni lunghi (3+ notti), gli appartamenti sono più convenienti degli hotel."
+        },
+        {
+          "icon": "home",
+          "title": "Vita Locale",
+          "description": "Vivi nei vicoli storici tra i residenti, lontano dalle zone più turistiche."
+        },
+        {
+          "icon": "calendar",
+          "title": "Flessibilità",
+          "description": "Nessun vincolo di orari per colazione o check-out. Vivi secondo i tuoi ritmi."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Prezzi Medi",
+      "title": "Costi Appartamenti",
+      "stats": [
+        {
+          "value": "€60-100",
+          "label": "Monolocale/Notte"
+        },
+        {
+          "value": "€100-180",
+          "label": "Bilocale Vista Mare"
+        },
+        {
+          "value": "3 Notti",
+          "label": "Minimo Soggiorno"
+        },
+        {
+          "value": "€50-100",
+          "label": "Pulizie Finali"
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Domande Frequenti",
+      "title": "Appartamenti - FAQ",
+      "items": [
+        {
+          "question": "Ci sono molte scale?",
+          "answer": "Sì, la maggior parte degli appartamenti richiede di salire scale ripide (spesso senza ascensore). Verifica sempre prima di prenotare se hai bagagli pesanti."
+        },
+        {
+          "question": "Come funziona il check-in?",
+          "answer": "Solitamente autonomo con cassette portachiavi o incontro con il proprietario. Comunica sempre l'orario di arrivo in anticipo."
+        },
+        {
+          "question": "È inclusa la biancheria?",
+          "answer": "Generalmente sì (lenzuola e asciugamani), ma verifica sempre nell'annuncio. Le pulizie finali spesso hanno un costo extra."
+        },
+        {
+          "question": "Dove parcheggio?",
+          "answer": "I centri storici sono ZTL. Dovrai usare parcheggi a pagamento fuori dai borghi (€20-30/giorno) o arrivare in treno."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Trova il Tuo Appartamento Ideale",
+      "subtitle": "Vivi l'esperienza autentica delle Cinque Terre con la comodità e l'autonomia di una casa vacanze.",
+      "buttons": [
+        {
+          "text": "Cerca Ora",
+          "url": "#cerca",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            {
+              "label": "Monterosso",
+              "url": "/it/monterosso"
+            },
+            {
+              "label": "Vernazza",
+              "url": "/it/vernazza"
+            },
+            {
+              "label": "Corniglia",
+              "url": "/it/corniglia"
+            },
+            {
+              "label": "Manarola",
+              "url": "/it/manarola"
+            },
+            {
+              "label": "Riomaggiore",
+              "url": "/it/riomaggiore"
+            }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            {
+              "label": "Come Arrivare",
+              "url": "/it/cinque-terre/getting-here"
+            },
+            {
+              "label": "Dove Dormire",
+              "url": "/it/cinque-terre/hotels"
+            },
+            {
+              "label": "Sentieri",
+              "url": "/it/cinque-terre/hiking"
+            }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            {
+              "label": "Ristoranti",
+              "url": "/it/cinque-terre/restaurants"
+            },
+            {
+              "label": "Eventi",
+              "url": "/it/cinque-terre/events"
+            },
+            {
+              "label": "Spiagge",
+              "url": "/it/cinque-terre/beaches"
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/cinqueterre"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "vernazza",
     "lang": "it",
     "page_type": "apartments"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

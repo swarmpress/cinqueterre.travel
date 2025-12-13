@@ -1,15 +1,114 @@
 {
   "id": "206c2fe0-0fcd-4d70-8785-56fa6585324a",
   "slug": "/it/vernazza",
-  "title": "Vernazza",
+  "title": "Vernazza - Il Porto Più Bello delle Cinque Terre",
   "page_type": "city",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Guida Vernazza 2025 | Il Gioiello delle Cinque Terre",
+    "description": "Vernazza, il villaggio più pittoresco delle Cinque Terre. Porto naturale incantevole, chiesa di Santa Margherita, torre Doria e atmosfera autentica.",
+    "keywords": ["Vernazza", "Cinque Terre", "porto Italia", "Santa Margherita", "torre Doria", "fotografia"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Il Gioiello della Costa",
+      "title": "Vernazza",
+      "subtitle": "Il porto naturale più fotografato d'Italia. Case colorate si affacciano su una piccola baia protetta, dominata dalla chiesa di Santa Margherita d'Antiochia che si protende verso il mare. L'essenza più pura delle Cinque Terre.",
+      "buttons": [
+        { "text": "Esplora il Porto", "url": "#porto", "variant": "primary" },
+        { "text": "Dove Dormire", "url": "#alloggi", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80"
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "A Colpo d'Occhio",
+      "title": "Vernazza in Numeri",
+      "stats": [
+        { "value": "852", "label": "Abitanti" },
+        { "value": "1080", "label": "Prima Menzione" },
+        { "value": "#1", "label": "Per Bellezza" },
+        { "value": "40m", "label": "Torre Doria" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Perché Vernazza",
+      "title": "Un Porto da Sogno",
+      "features": [
+        {
+          "icon": "anchor",
+          "title": "Porto Naturale",
+          "description": "L'unico porto naturale delle Cinque Terre. Barche colorate, pescatori al lavoro e acqua cristallina."
+        },
+        {
+          "icon": "church",
+          "title": "Santa Margherita",
+          "description": "La chiesa del XIV secolo si protende sul mare. Uno degli scorci più iconici d'Italia."
+        },
+        {
+          "icon": "castle",
+          "title": "Torre Doria",
+          "description": "Salita panoramica con vista mozzafiato su tutto il villaggio e la costa."
+        },
+        {
+          "icon": "camera",
+          "title": "Viste Perfette",
+          "description": "Ogni angolo è una cartolina. Il villaggio più fotogenico delle Cinque Terre."
+        },
+        {
+          "icon": "swimming",
+          "title": "Nuotare nel Porto",
+          "description": "Tuffati direttamente dalle rocce nel porto. Acqua cristallina e atmosfera unica."
+        },
+        {
+          "icon": "utensils",
+          "title": "Cucina di Mare",
+          "description": "Pesce freschissimo servito con vista sul porto. Ristoranti autentici e trattorie."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Scopri il Cuore delle Cinque Terre",
+      "subtitle": "Vernazza cattura l'essenza della Riviera Ligure. Piccolo, autentico e incredibilmente bello.",
+      "buttons": [
+        { "text": "Vedi Alloggi", "url": "/it/vernazza/hotels", "variant": "primary" },
+        { "text": "Torna alle Cinque Terre", "url": "/it/cinque-terre", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            { "label": "Monterosso", "url": "/it/monterosso" },
+            { "label": "Vernazza", "url": "/it/vernazza" },
+            { "label": "Corniglia", "url": "/it/corniglia" },
+            { "label": "Manarola", "url": "/it/manarola" },
+            { "label": "Riomaggiore", "url": "/it/riomaggiore" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "vernazza",
     "lang": "it"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

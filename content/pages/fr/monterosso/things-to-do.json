@@ -1,16 +1,93 @@
 {
   "id": "bf943dd5-92b1-48a1-9268-04a3787383bc",
   "slug": "/fr/monterosso/things-to-do",
-  "title": "Activités",
+  "title": "Que Faire à Monterosso al Mare",
   "page_type": "things-to-do",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Que Faire à Monterosso - Meilleures Activités et Attractions",
+    "description": "Guide complet des activités à Monterosso : plages, randonnées, visites culturelles, sports nautiques, dégustation de vins et gastronomie locale.",
+    "keywords": "activités monterosso, que faire cinque terre, tourisme monterosso, attractions"
+  },
+  "body": [
+    {
+      "id": "hero-things-to-do",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Que Faire à Monterosso",
+      "subheading": "Détente, culture et aventure dans le plus grand village des Cinque Terre",
+      "buttons": [
+        {
+          "text": "Voir les randonnées",
+          "href": "/fr/monterosso/hiking",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "id": "features-things-to-do",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Activités Incontournables",
+      "subheading": "Les meilleures expériences à Monterosso",
+      "features": [
+        {
+          "name": "Détente à la Plage",
+          "description": "Profitez des seules vraies plages de sable des Cinque Terre. Baignade, bain de soleil, sports nautiques.",
+          "icon": "beach"
+        },
+        {
+          "name": "Visite de la Vieille Ville",
+          "description": "Explorez le centre médiéval avec l'église San Giovanni Battista, le couvent des Capucins et les ruelles pittoresques.",
+          "icon": "landmark"
+        },
+        {
+          "name": "Géant de Neptune",
+          "description": "Admirez la statue emblématique de 14 mètres qui soutient une terrasse sur la falaise.",
+          "icon": "statue"
+        },
+        {
+          "name": "Randonnées Panoramiques",
+          "description": "Sentiers côtiers vers Vernazza ou sentiers de montagne vers les sanctuaires avec vues spectaculaires.",
+          "icon": "hiking"
+        },
+        {
+          "name": "Dégustation de Vin",
+          "description": "Visitez les caves locales pour goûter le Cinque Terre DOC blanc et le précieux Sciacchetrà.",
+          "icon": "wine"
+        },
+        {
+          "name": "Excursions en Bateau",
+          "description": "Croisières côtières pour admirer les villages depuis la mer, avec possibilité de baignade.",
+          "icon": "boat"
+        }
+      ]
+    },
+    {
+      "id": "cta-things-to-do",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Planifiez Votre Séjour",
+      "subheading": "Trouvez l'hébergement parfait pour vos activités",
+      "buttons": [
+        {
+          "text": "Voir les hôtels",
+          "href": "/fr/monterosso/hotels",
+          "variant": "primary"
+        },
+        {
+          "text": "Excursions en bateau",
+          "href": "/fr/monterosso/boat-tours",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "fr",
     "page_type": "things-to-do"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

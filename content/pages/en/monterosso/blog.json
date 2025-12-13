@@ -1,16 +1,55 @@
 {
   "id": "f714b245-ce73-44e8-aeaa-8ee5608eb00a",
   "slug": "/en/monterosso/blog",
-  "title": "Blog",
+  "title": "Monterosso al Mare Travel Blog",
   "page_type": "blog",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Monterosso Blog 2025 | Travel Tips & Local Stories",
+    "description": "Read our latest articles about Monterosso. Travel tips, hidden gems, local culture, and insider guides to the largest Cinque Terre village.",
+    "keywords": ["Monterosso blog", "travel tips", "local stories", "Cinque Terre guides"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "eyebrow": "Monterosso al Mare",
+      "title": "Monterosso Travel Blog",
+      "subtitle": "Local stories, travel tips, and insider guides to experiencing the best of Monterosso and Cinque Terre.",
+      "buttons": [
+        { "text": "Read Articles", "url": "#blog", "variant": "primary" },
+        { "text": "Back to Monterosso", "url": "/en/monterosso", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Featured Topics",
+      "title": "Popular Articles",
+      "features": [
+        { "icon": "beach", "title": "Best Beach Spots", "description": "Where to find the perfect spot on Monterosso's two beaches." },
+        { "icon": "restaurant", "title": "Dining Like a Local", "description": "Hidden trattorias and where locals actually eat." },
+        { "icon": "hiking", "title": "Secret Hiking Trails", "description": "Less crowded paths with incredible views." },
+        { "icon": "camera", "title": "Photography Guide", "description": "Best times and locations for stunning photos." },
+        { "icon": "wine", "title": "Wine Tasting Tips", "description": "Discovering Monterosso's wine culture and cellars." },
+        { "icon": "calendar", "title": "Seasonal Events", "description": "When to visit for festivals and local celebrations." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Plan Your Visit",
+      "buttons": [
+        { "text": "Things to Do", "url": "/en/monterosso/things-to-do", "variant": "primary" },
+        { "text": "Explore Monterosso", "url": "/en/monterosso", "variant": "secondary" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "en",
     "page_type": "blog"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

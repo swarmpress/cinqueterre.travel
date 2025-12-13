@@ -1,16 +1,76 @@
 {
   "id": "7cbeb167-371a-43b2-878e-c94e68bbf39b",
   "slug": "/it/monterosso/restaurants",
-  "title": "Ristoranti",
+  "title": "Ristoranti e Trattorie a Monterosso",
   "page_type": "restaurants",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Ristoranti Monterosso - Dove Mangiare alle Cinque Terre",
+    "description": "I migliori ristoranti di Monterosso al Mare: trattorie tipiche, pesce fresco, cucina ligure, pizzerie e osterie. Prenota i ristoranti più amati.",
+    "keywords": "ristoranti monterosso, trattorie cinque terre, cucina ligure, pesce fresco, dove mangiare"
+  },
+  "body": [
+    {
+      "id": "hero-section",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Ristoranti a Monterosso",
+      "subheading": "Scopri la cucina ligure autentica nel villaggio più grande delle Cinque Terre"
+    },
+    {
+      "id": "features-section",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Dove Mangiare",
+      "subheading": "Dai ristoranti gourmet alle focaccerie locali",
+      "features": [
+        {
+          "name": "Trattorie Tipiche",
+          "description": "Cucina ligure tradizionale: trofie al pesto, acciughe fritte, muscoli ripieni e coniglio alla ligure."
+        },
+        {
+          "name": "Ristoranti di Pesce",
+          "description": "Pesce fresco del giorno: branzino, orata, frittura mista, spaghetti allo scoglio e zuppa di pesce."
+        },
+        {
+          "name": "Pizzerie",
+          "description": "Pizza al taglio e al piatto, focaccia barese, farinata di ceci. Ottime per cene informali."
+        },
+        {
+          "name": "Osterie con Vista Mare",
+          "description": "Cena romantica sulla terrazza con vista spiaggia e tramonto. Prenota in anticipo."
+        },
+        {
+          "name": "Focaccerie e Street Food",
+          "description": "Focaccia ligure, pesto alla genovese, panini con acciughe e porchetta. Economico e veloce."
+        },
+        {
+          "name": "Gelaterie Artigianali",
+          "description": "Gelato fatto in casa con ingredienti locali: limone delle Cinque Terre, basilico e miele."
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Prenota il Tuo Tavolo",
+      "subheading": "I ristoranti migliori si riempiono velocemente, prenota in anticipo",
+      "primaryCta": {
+        "text": "Consigli Locali",
+        "url": "/it/monterosso/insights"
+      },
+      "secondaryCta": {
+        "text": "Tutti i Ristoranti",
+        "url": "/it/cinque-terre/restaurants"
+      }
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "it",
     "page_type": "restaurants"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

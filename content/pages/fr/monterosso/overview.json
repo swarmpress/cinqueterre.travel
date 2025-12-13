@@ -1,16 +1,93 @@
 {
   "id": "1e0f4942-81a1-4a68-babc-cecedb8158c6",
   "slug": "/fr/monterosso/overview",
-  "title": "Aperçu",
+  "title": "Aperçu de Monterosso al Mare",
   "page_type": "overview",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Monterosso al Mare - Guide Complet du Plus Grand Village des Cinque Terre",
+    "description": "Découvrez Monterosso, le plus grand et le plus accessible des villages des Cinque Terre. Plages de sable, vieille ville médiévale, et atmosphère décontractée.",
+    "keywords": "monterosso, cinque terre, plages, italie, ligurie, villages colorés"
+  },
+  "body": [
+    {
+      "id": "hero-monterosso-overview",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Monterosso al Mare",
+      "subheading": "Le plus grand et le plus occidental des villages des Cinque Terre, célèbre pour ses belles plages de sable",
+      "buttons": [
+        {
+          "text": "Explorer les plages",
+          "href": "/fr/monterosso/beaches",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "id": "features-monterosso",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Pourquoi Visiter Monterosso",
+      "subheading": "Découvrez ce qui rend ce village unique",
+      "features": [
+        {
+          "name": "Plages de Sable",
+          "description": "Le seul village des Cinque Terre avec de vraies plages de sable, parfait pour la baignade et la détente au soleil.",
+          "icon": "sun"
+        },
+        {
+          "name": "Vieille Ville Historique",
+          "description": "Un centre médiéval préservé avec des ruelles étroites, des églises anciennes et une architecture ligurienne authentique.",
+          "icon": "building"
+        },
+        {
+          "name": "Le Plus Accessible",
+          "description": "Terrain plat idéal pour les familles et les personnes à mobilité réduite. Pas d'escaliers raides comme dans les autres villages.",
+          "icon": "accessibility"
+        },
+        {
+          "name": "Géant de Neptune",
+          "description": "La statue emblématique de 14 mètres de haut surplombant la mer, symbole de la protection du village.",
+          "icon": "landmark"
+        },
+        {
+          "name": "Excellent Vin Local",
+          "description": "Production renommée de vin blanc Cinque Terre DOC et du précieux Sciacchetrà, vin de dessert.",
+          "icon": "wine"
+        },
+        {
+          "name": "Vie Nocturne Animée",
+          "description": "Plus de restaurants, bars et activités en soirée que les autres villages des Cinque Terre.",
+          "icon": "music"
+        }
+      ]
+    },
+    {
+      "id": "cta-monterosso",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Planifiez Votre Visite à Monterosso",
+      "subheading": "Explorez nos guides détaillés pour profiter au maximum de votre séjour",
+      "buttons": [
+        {
+          "text": "Choses à Faire",
+          "href": "/fr/monterosso/things-to-do",
+          "variant": "primary"
+        },
+        {
+          "text": "Où Séjourner",
+          "href": "/fr/monterosso/hotels",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "fr",
     "page_type": "overview"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

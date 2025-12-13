@@ -1,15 +1,123 @@
 {
   "id": "1e787c50-d4c0-4d9a-9913-cafeafedf4c1",
   "slug": "/en",
-  "title": "Cinque Terre Travel Guide",
+  "title": "Cinque Terre Travel Guide - Complete Guide to Italy's Coastal Paradise",
   "page_type": "language_root",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Cinque Terre Travel Guide 2025 | Plan Your Italian Riviera Adventure",
+    "description": "Complete guide to Cinque Terre's five UNESCO villages. Discover Monterosso, Vernazza, Corniglia, Manarola & Riomaggiore. Hotels, hiking trails, restaurants & travel tips.",
+    "keywords": ["Cinque Terre", "Italy travel", "Italian Riviera", "UNESCO", "Liguria", "coastal villages", "hiking trails"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "UNESCO World Heritage",
+      "title": "Discover Cinque Terre",
+      "subtitle": "Five ancient fishing villages clinging to dramatic cliffs along Italy's stunning Ligurian coast. A place where colorful houses cascade down to crystal-clear waters, where ancient footpaths wind through vineyards, and where time seems to slow down.",
+      "buttons": [
+        { "text": "Explore the Villages", "url": "#villages", "variant": "primary" },
+        { "text": "Plan Your Trip", "url": "#plan", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?w=1200&q=80"
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "The Region",
+      "title": "Cinque Terre at a Glance",
+      "stats": [
+        { "value": "5", "label": "UNESCO Villages" },
+        { "value": "1997", "label": "World Heritage Year" },
+        { "value": "120km", "label": "Hiking Trails" },
+        { "value": "2.5M", "label": "Annual Visitors" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "The Five Villages",
+      "title": "Each One Unique",
+      "features": [
+        {
+          "icon": "beach",
+          "title": "Monterosso al Mare",
+          "description": "The largest village with sandy beaches, excellent restaurants, and the best tourist infrastructure. Ideal base for families."
+        },
+        {
+          "icon": "anchor",
+          "title": "Vernazza",
+          "description": "The most picturesque village with a natural harbor, colorful houses, and the iconic Santa Margherita church reaching toward the sea."
+        },
+        {
+          "icon": "mountain",
+          "title": "Corniglia",
+          "description": "The quiet one, perched high on a cliff surrounded by vineyards. Reached by 382 steps or hiking trails. Most authentic atmosphere."
+        },
+        {
+          "icon": "camera",
+          "title": "Manarola",
+          "description": "The most photographed village with legendary sunsets, ancient wine traditions, and the famous Sciacchetrà dessert wine."
+        },
+        {
+          "icon": "building",
+          "title": "Riomaggiore",
+          "description": "The gateway to Cinque Terre with dramatic tower houses, vibrant nightlife, and the starting point of Via dell'Amore."
+        },
+        {
+          "icon": "hiking",
+          "title": "Sentiero Azzurro",
+          "description": "The famous Blue Trail connecting all five villages along the coast. One of Italy's most scenic hiking experiences."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Ready for Your Cinque Terre Adventure?",
+      "subtitle": "One of the world's most beautiful places awaits. Plan your visit and discover the magic of the Italian Riviera.",
+      "buttons": [
+        { "text": "Find Accommodation", "url": "/en/accommodations", "variant": "primary" },
+        { "text": "Explore Hiking Trails", "url": "/en/hikes", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "Your complete guide to Italy's most beautiful coastal villages.",
+      "copyright": "© 2025 Cinqueterre.travel. All rights reserved.",
+      "columns": [
+        {
+          "title": "Villages",
+          "links": [
+            { "label": "Monterosso", "url": "/en/monterosso" },
+            { "label": "Vernazza", "url": "/en/vernazza" },
+            { "label": "Corniglia", "url": "/en/corniglia" },
+            { "label": "Manarola", "url": "/en/manarola" },
+            { "label": "Riomaggiore", "url": "/en/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Plan Your Trip",
+          "links": [
+            { "label": "Getting Here", "url": "/en/transportation" },
+            { "label": "Where to Stay", "url": "/en/accommodations" },
+            { "label": "Hiking Trails", "url": "/en/hikes" },
+            { "label": "Weather", "url": "/en/weather" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "lang": "en",
     "is_default": true
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

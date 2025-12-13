@@ -4,13 +4,198 @@
   "title": "Meteo",
   "page_type": "weather",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Clima e Stagioni",
+      "title": "Meteo e Quando Visitare Manarola",
+      "subtitle": "Clima mediterraneo mite tutto l'anno. Stagioni diverse offrono esperienze uniche: primavera fiorita, estate balneare, autunno vendemmiale, inverno autentico.",
+      "buttons": [
+        {
+          "text": "Periodo Migliore",
+          "url": "#periodo",
+          "variant": "primary"
+        },
+        {
+          "text": "Meteo Attuale",
+          "url": "#meteo",
+          "variant": "secondary"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Le Quattro Stagioni",
+      "title": "Quando Visitare le Cinque Terre",
+      "subtitle": "Ogni stagione ha il suo fascino e le sue caratteristiche.",
+      "features": [
+        {
+          "icon": "flower",
+          "title": "Primavera (Mar-Mag)",
+          "description": "Ideale per trekking. Temperature 15-22°C, fioritura, poca folla. Possibili piogge ad aprile. La stagione perfetta."
+        },
+        {
+          "icon": "sun",
+          "title": "Estate (Giu-Ago)",
+          "description": "Alta stagione. 25-30°C, mare caldo, spiagge, eventi. Molto affollato e caro. Caldo intenso sui sentieri."
+        },
+        {
+          "icon": "leaf",
+          "title": "Autunno (Set-Nov)",
+          "description": "Eccellente per visite. 18-25°C in settembre, vendemmia, colori caldi. Meno turisti. Piogge in novembre."
+        },
+        {
+          "icon": "cloud",
+          "title": "Inverno (Dic-Feb)",
+          "description": "Bassa stagione. 8-15°C, molti servizi chiusi, poca folla. Autentico ma limitato. Presepe di Manarola a dicembre."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Temperature Medie",
+      "title": "Il Clima in Numeri",
+      "stats": [
+        {
+          "value": "15-22°C",
+          "label": "Primavera"
+        },
+        {
+          "value": "25-30°C",
+          "label": "Estate"
+        },
+        {
+          "value": "18-24°C",
+          "label": "Autunno"
+        },
+        {
+          "value": "8-15°C",
+          "label": "Inverno"
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Domande Frequenti",
+      "title": "Meteo - FAQ",
+      "items": [
+        {
+          "question": "Qual è il periodo migliore?",
+          "answer": "Aprile-maggio e settembre-ottobre. Temperature perfette per trekking, meno folla, prezzi più bassi, mare ancora balneabile a settembre."
+        },
+        {
+          "question": "Quando evitare la visita?",
+          "answer": "Luglio-agosto: troppo caldo sui sentieri, prezzi altissimi, folle enormi. Novembre-febbraio: molti servizi chiusi, meteo instabile."
+        },
+        {
+          "question": "Quando si può fare il bagno?",
+          "answer": "Giugno-settembre è il periodo ideale. Maggio e ottobre sono possibili ma l'acqua è fresca (18-20°C). Luglio-agosto: 24-26°C."
+        },
+        {
+          "question": "Quanto piove?",
+          "answer": "Ottobre-novembre sono i mesi più piovosi. Aprile ha ancora qualche pioggia. Estate (giugno-agosto) è la stagione più secca."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Scegli il Momento Giusto per la Tua Visita",
+      "subtitle": "Ogni stagione offre esperienze diverse. Pianifica in base alle tue preferenze: trekking, mare, cultura o tranquillità.",
+      "buttons": [
+        {
+          "text": "Pianifica il Viaggio",
+          "url": "/it/cinque-terre/getting-here",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            {
+              "label": "Monterosso",
+              "url": "/it/monterosso"
+            },
+            {
+              "label": "Vernazza",
+              "url": "/it/vernazza"
+            },
+            {
+              "label": "Corniglia",
+              "url": "/it/corniglia"
+            },
+            {
+              "label": "Manarola",
+              "url": "/it/manarola"
+            },
+            {
+              "label": "Riomaggiore",
+              "url": "/it/riomaggiore"
+            }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            {
+              "label": "Come Arrivare",
+              "url": "/it/cinque-terre/getting-here"
+            },
+            {
+              "label": "Dove Dormire",
+              "url": "/it/cinque-terre/hotels"
+            },
+            {
+              "label": "Sentieri",
+              "url": "/it/cinque-terre/hiking"
+            }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            {
+              "label": "Ristoranti",
+              "url": "/it/cinque-terre/restaurants"
+            },
+            {
+              "label": "Eventi",
+              "url": "/it/cinque-terre/events"
+            },
+            {
+              "label": "Spiagge",
+              "url": "/it/cinque-terre/beaches"
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/cinqueterre"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "manarola",
     "lang": "it",
     "page_type": "weather"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

@@ -1,15 +1,79 @@
 {
-  "id": "3c82878e-083e-4f11-8526-17c3e4f1865c",
-  "slug": "/de/cinque-terre",
-  "title": "Cinque Terre",
-  "page_type": "city",
-  "seo": {},
-  "body": [],
-  "metadata": {
-    "city": "cinque-terre",
-    "lang": "de"
+  "id": "home-de-001",
+  "slug": "/de",
+  "title": "Cinque Terre Reiseführer 2025",
+  "page_type": "homepage",
+  "seo": {
+    "title": "Cinque Terre Reiseführer 2025 | Ihr Kompletter Italien-Urlaub",
+    "description": "Planen Sie Ihren perfekten Cinque Terre Urlaub. Wanderwege, beste Restaurants, Unterkünfte und Insidertipps für alle fünf Dörfer.",
+    "keywords": ["Cinque Terre", "Italien Urlaub", "Cinque Terre Reiseführer", "Wandern Italien", "Ligurien"]
   },
-  "status": "draft",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Cinque Terre, Italien",
+      "title": "Entdecken Sie die Fünf Länder",
+      "subtitle": "Fünf farbenfrohe Dörfer an dramatischen Klippen. Wanderwege mit Meerblick, frische Meeresfrüchte und italienische Authentizität an der ligurischen Küste.",
+      "buttons": [
+        { "text": "Reise planen", "url": "#villages", "variant": "primary" },
+        { "text": "Alle Wanderwege", "url": "/de/wanderungen", "variant": "secondary" }
+      ],
+      "image": {
+        "src": "/images/hero-cinque-terre.jpg",
+        "alt": "Bunte Häuser von Manarola an den Klippen der Cinque Terre"
+      }
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "stats": [
+        { "value": "5", "label": "Malerische Dörfer" },
+        { "value": "12km", "label": "Küstenwanderwege" },
+        { "value": "1997", "label": "UNESCO Welterbe" },
+        { "value": "300+", "label": "Sonnentage" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "id": "villages",
+      "eyebrow": "Fünf Einzigartige Dörfer",
+      "title": "Entdecken Sie jedes Dorf",
+      "subtitle": "Jedes Dorf der Cinque Terre hat seinen eigenen Charakter.",
+      "features": [
+        { "icon": "beach", "title": "Monterosso al Mare", "description": "Das größte Dorf mit sandigen Stränden und historischer Altstadt." },
+        { "icon": "anchor", "title": "Vernazza", "description": "Postkartenidyllischer Hafen und das meistfotografierte Dorf." },
+        { "icon": "grape", "title": "Corniglia", "description": "Das einzige Dorf nicht auf Meereshöhe. 382 Stufen und Weingärten." },
+        { "icon": "sunset", "title": "Manarola", "description": "Berühmt für Sonnenuntergänge und Wein." },
+        { "icon": "hiking", "title": "Riomaggiore", "description": "Dramatische Klippenhäuser und Tor zur Via dell'Amore." },
+        { "icon": "map", "title": "Reiseplanung", "description": "Transport, Cinque Terre Card und Tipps für Ihren Besuch." }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "FAQ",
+      "title": "Häufige Fragen",
+      "items": [
+        { "question": "Was ist die beste Reisezeit?", "answer": "April-Mai und September-Oktober bieten perfektes Wetter mit weniger Touristen." },
+        { "question": "Brauche ich eine Cinque Terre Card?", "answer": "Ja, für den Blauen Weg und unbegrenzte Zugfahrten zwischen den Dörfern." },
+        { "question": "Kann ich alle Orte an einem Tag besuchen?", "answer": "Ja, aber hektisch. Zwei bis drei Tage ermöglichen entspanntes Erkunden." },
+        { "question": "Sind die Dörfer behindertengerecht?", "answer": "Eingeschränkt. Steile Straßen und Treppen sind üblich. Monterosso ist am besten zugänglich." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Bereit, die Cinque Terre zu erkunden?",
+      "buttons": [
+        { "text": "Reise planen", "url": "/de/transport", "variant": "primary" },
+        { "text": "Alle Wanderwege", "url": "/de/wanderungen", "variant": "secondary" }
+      ]
+    }
+  ],
+  "metadata": { "lang": "de", "type": "homepage" },
+  "status": "published",
+  "created_at": "2025-12-12T22:00:00.000Z",
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

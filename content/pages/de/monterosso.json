@@ -1,15 +1,62 @@
 {
-  "id": "c0ddc056-b817-42c4-9011-da60bd6e4c0d",
+  "id": "monterosso-de-001",
   "slug": "/de/monterosso",
-  "title": "Monterosso al Mare",
-  "page_type": "city",
-  "seo": {},
-  "body": [],
-  "metadata": {
-    "city": "monterosso",
-    "lang": "de"
+  "title": "Monterosso al Mare Reiseführer",
+  "page_type": "village",
+  "seo": {
+    "title": "Monterosso al Mare 2025 | Strände, Restaurants & Unterkünfte",
+    "description": "Entdecken Sie Monterosso al Mare, das größte Dorf der Cinque Terre. Sandstrände, Altstadt, beste Hotels.",
+    "keywords": ["Monterosso", "Cinque Terre Strände", "Monterosso Hotels", "Italien Küste"]
   },
-  "status": "draft",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Cinque Terre",
+      "title": "Monterosso al Mare",
+      "subtitle": "Das größte der fünf Dörfer mit dem einzigen Sandstrand. Zwei Bereiche—Altstadt und Fegina—verbunden durch einen Tunnel.",
+      "buttons": [
+        { "text": "Restaurants", "url": "/de/monterosso/restaurants", "variant": "primary" },
+        { "text": "Unterkünfte", "url": "/de/monterosso/unterkuenfte", "variant": "secondary" }
+      ],
+      "image": { "src": "/images/villages/monterosso-hero.jpg", "alt": "Sandstrand von Monterosso" }
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "stats": [
+        { "value": "1.500", "label": "Einwohner" },
+        { "value": "2", "label": "Bereiche" },
+        { "value": "1", "label": "Sandstrand" },
+        { "value": "1000+", "label": "Jahre Geschichte" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Highlights",
+      "title": "Was Monterosso besonders macht",
+      "features": [
+        { "icon": "beach", "title": "Sandstrände", "description": "Einziger Sandstrand in Cinque Terre." },
+        { "icon": "history", "title": "Altstadt", "description": "Mittelalterliche Gassen und historische Kirchen." },
+        { "icon": "hotel", "title": "Beste Unterkünfte", "description": "Hotels und Pensionen für jeden Geschmack." },
+        { "icon": "hiking", "title": "Wanderwege", "description": "Startpunkt des Blauen Wegs nach Vernazza." },
+        { "icon": "fish", "title": "Anchovis-Tradition", "description": "Berühmt für gesalzene Anchovis." },
+        { "icon": "train", "title": "Gute Anbindung", "description": "Größter Bahnhof, einfache Anreise." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Monterosso erkunden",
+      "buttons": [
+        { "text": "Restaurants", "url": "/de/monterosso/restaurants", "variant": "primary" },
+        { "text": "Unterkünfte", "url": "/de/monterosso/unterkuenfte", "variant": "secondary" }
+      ]
+    }
+  ],
+  "metadata": { "village": "monterosso", "lang": "de" },
+  "status": "published",
+  "created_at": "2025-12-12T22:00:00.000Z",
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

@@ -1,16 +1,96 @@
 {
   "id": "6cbba208-1146-42ba-94d5-4e3f29405e33",
   "slug": "/en/riomaggiore/maps",
-  "title": "Maps",
+  "title": "Riomaggiore Maps & Navigation",
   "page_type": "maps",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Riomaggiore Maps 2025 | Village & Hiking Trail Maps",
+    "description": "Detailed maps of Riomaggiore village, hiking trails to Manarola, Via dell'Amore, and surrounding areas. Navigate with confidence.",
+    "keywords": ["riomaggiore maps", "village map", "hiking trail maps", "via dell'amore map", "navigation"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "eyebrow": "Riomaggiore",
+      "title": "Navigate Riomaggiore with Ease",
+      "subtitle": "Detailed maps of the village streets, hiking trails, viewpoints, and key locations to help you explore every corner of Riomaggiore.",
+      "buttons": [
+        {
+          "text": "View Maps",
+          "url": "#maps",
+          "variant": "primary"
+        },
+        {
+          "text": "Back to Overview",
+          "url": "/en/riomaggiore/overview",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Map Resources",
+      "title": "Available Maps",
+      "features": [
+        {
+          "icon": "map",
+          "title": "Village Map",
+          "description": "Detailed street map showing all lanes, staircases, restaurants, shops, and viewpoints"
+        },
+        {
+          "icon": "hiking-boot",
+          "title": "Hiking Trail Maps",
+          "description": "Via dell'Amore, route to Manarola, sanctuary trail, and vineyard paths with difficulty levels"
+        },
+        {
+          "icon": "train",
+          "title": "Transportation Map",
+          "description": "Train station location, ferry dock, parking areas, and connections to other villages"
+        },
+        {
+          "icon": "camera",
+          "title": "Photo Spot Map",
+          "description": "Best viewpoints and photography locations marked with optimal times of day"
+        },
+        {
+          "icon": "utensils",
+          "title": "Restaurant Locations",
+          "description": "All dining options mapped by type: seafood, pizza, wine bars, gelato, cafes"
+        },
+        {
+          "icon": "building",
+          "title": "Points of Interest",
+          "description": "Churches, castle, harbor, swimming areas, and historic sites clearly marked"
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Plan Your Route",
+      "description": "Use maps together with hiking guides and weather information for the best experience.",
+      "buttons": [
+        {
+          "text": "Hiking Trails",
+          "url": "/en/riomaggiore/hiking",
+          "variant": "primary"
+        },
+        {
+          "text": "Weather Info",
+          "url": "/en/riomaggiore/weather",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "riomaggiore",
     "lang": "en",
     "page_type": "maps"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

@@ -4,13 +4,213 @@
   "title": "Mappe",
   "page_type": "maps",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Orientati",
+      "title": "Mappe e Orientamento a Corniglia",
+      "subtitle": "Mappe interattive, cartografie dei sentieri, planimetrie dei villaggi e guide geografiche per esplorare ogni angolo delle Cinque Terre senza perderti.",
+      "buttons": [
+        {
+          "text": "Mappe Sentieri",
+          "url": "#sentieri",
+          "variant": "primary"
+        },
+        {
+          "text": "Scarica PDF",
+          "url": "#download",
+          "variant": "secondary"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Tipologie di Mappe",
+      "title": "Strumenti di Navigazione",
+      "subtitle": "Dalle mappe turistiche alle cartografie tecniche per escursionisti.",
+      "features": [
+        {
+          "icon": "hiking",
+          "title": "Mappe Sentieri",
+          "description": "Rete completa dei 120 km di sentieri con difficoltà, tempi di percorrenza, dislivelli, punti d'acqua."
+        },
+        {
+          "icon": "town",
+          "title": "Planimetrie Villaggi",
+          "description": "Mappe dettagliate dei 5 borghi con punti di interesse, ristoranti, servizi, stazioni, spiagge."
+        },
+        {
+          "icon": "train",
+          "title": "Trasporti Pubblici",
+          "description": "Mappa ferroviaria con orari, traghetti stagionali, bus locali, collegamenti regionali."
+        },
+        {
+          "icon": "parking",
+          "title": "Parcheggi e Accessi",
+          "description": "Dove lasciare l'auto, ZTL, parcheggi a pagamento, navette, aree sosta camper."
+        },
+        {
+          "icon": "beach",
+          "title": "Spiagge e Balneazione",
+          "description": "Mappa delle spiagge, calette, punti di accesso al mare, piattaforme per tuffi, aree snorkeling."
+        },
+        {
+          "icon": "viewpoint",
+          "title": "Punti Panoramici",
+          "description": "I migliori spot fotografici, terrazze panoramiche, belvedere, orari di luce ottimale."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Rete Territoriale",
+      "title": "Il Territorio in Numeri",
+      "stats": [
+        {
+          "value": "120 km",
+          "label": "Rete Sentieri"
+        },
+        {
+          "value": "18 km",
+          "label": "Linea Costiera"
+        },
+        {
+          "value": "5",
+          "label": "Villaggi"
+        },
+        {
+          "value": "400m",
+          "label": "Altitudine Max"
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Navigazione",
+      "title": "Orientarsi - FAQ",
+      "items": [
+        {
+          "question": "Serve GPS per i sentieri?",
+          "answer": "Consigliato ma non indispensabile. Sentieri ben segnalati con numeri e colori. App utili: Maps.me (offline), AllTrails, Komoot."
+        },
+        {
+          "question": "C'è connessione nei sentieri?",
+          "answer": "Variabile. 4G nei villaggi, limitata sui sentieri di crinale. Scarica mappe offline prima di partire."
+        },
+        {
+          "question": "Dove trovo mappe cartacee?",
+          "answer": "Uffici informazioni nei villaggi, stazioni ferroviarie, Parco Nazionale Cinque Terre. Gratis con Cinque Terre Card."
+        },
+        {
+          "question": "Esistono tour guidati?",
+          "answer": "Sì, guide certificate offrono trekking guidati con spiegazioni naturalistiche, storiche e culturali. Prenotazione online o in loco."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Scarica le Mappe e Parti all'Avventura",
+      "subtitle": "Esplora sentieri, villaggi e spiagge con le mappe ufficiali delle Cinque Terre.",
+      "buttons": [
+        {
+          "text": "Scarica Mappe PDF",
+          "url": "#download",
+          "variant": "primary"
+        },
+        {
+          "text": "Mappe Interattive",
+          "url": "#interattive",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            {
+              "label": "Monterosso",
+              "url": "/it/monterosso"
+            },
+            {
+              "label": "Vernazza",
+              "url": "/it/vernazza"
+            },
+            {
+              "label": "Corniglia",
+              "url": "/it/corniglia"
+            },
+            {
+              "label": "Manarola",
+              "url": "/it/manarola"
+            },
+            {
+              "label": "Riomaggiore",
+              "url": "/it/riomaggiore"
+            }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            {
+              "label": "Come Arrivare",
+              "url": "/it/cinque-terre/getting-here"
+            },
+            {
+              "label": "Dove Dormire",
+              "url": "/it/cinque-terre/hotels"
+            },
+            {
+              "label": "Sentieri",
+              "url": "/it/cinque-terre/hiking"
+            }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            {
+              "label": "Ristoranti",
+              "url": "/it/cinque-terre/restaurants"
+            },
+            {
+              "label": "Eventi",
+              "url": "/it/cinque-terre/events"
+            },
+            {
+              "label": "Spiagge",
+              "url": "/it/cinque-terre/beaches"
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/cinqueterre"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "corniglia",
     "lang": "it",
     "page_type": "maps"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

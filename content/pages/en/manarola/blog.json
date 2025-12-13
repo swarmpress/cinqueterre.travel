@@ -1,16 +1,55 @@
 {
   "id": "cb66ce69-5f8d-436d-a883-15df4634a254",
   "slug": "/en/manarola/blog",
-  "title": "Blog",
+  "title": "Manarola Travel Blog & Stories",
   "page_type": "blog",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Manarola Blog 2025 | Travel Stories & Local Insights",
+    "description": "Read travel stories, tips, and local insights about Manarola. Photography guides, hidden gems, and authentic experiences.",
+    "keywords": ["Manarola blog", "travel stories", "local tips", "photography guide"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "eyebrow": "Manarola",
+      "title": "Travel Blog & Stories",
+      "subtitle": "Discover Manarola through stories from travelers and locals. Photography tips, hidden gems, and insider knowledge.",
+      "buttons": [
+        { "text": "Read Stories", "url": "#blog", "variant": "primary" },
+        { "text": "Back to Manarola", "url": "/en/manarola", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Featured Articles",
+      "title": "Popular Stories",
+      "features": [
+        { "icon": "camera", "title": "Photography Guide", "description": "Best times, spots, and settings for capturing Manarola's iconic views." },
+        { "icon": "sunset", "title": "Perfect Sunset Evening", "description": "How to plan the ultimate sunset experience from aperitivo to dinner." },
+        { "icon": "wine", "title": "Wine Trail Experience", "description": "Walking the vineyard terraces and tasting Sciacchetrà where it's made." },
+        { "icon": "walk", "title": "Hidden Corners", "description": "Secret viewpoints and quiet spots away from the crowds." },
+        { "icon": "food", "title": "Local Food Guide", "description": "Must-try dishes and where to find authentic Ligurian cuisine." },
+        { "icon": "history", "title": "Village History", "description": "Stories of the families who built the terraces and shaped this village." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "More Resources",
+      "buttons": [
+        { "text": "Local Insights", "url": "/en/manarola/insights", "variant": "primary" },
+        { "text": "Back to Manarola", "url": "/en/manarola", "variant": "secondary" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "manarola",
     "lang": "en",
     "page_type": "blog"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

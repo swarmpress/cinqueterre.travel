@@ -4,13 +4,208 @@
   "title": "Cosa Fare",
   "page_type": "things-to-do",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Esperienze Uniche",
+      "title": "Cosa Fare a Riomaggiore",
+      "subtitle": "Trekking panoramici, degustazioni di vino, tour in barca, bagni in mare cristallino, scoperta di borghi medievali. Un paradiso di esperienze tra natura, cultura e tradizione.",
+      "buttons": [
+        {
+          "text": "Attività Top",
+          "url": "#attivita",
+          "variant": "primary"
+        },
+        {
+          "text": "Itinerari",
+          "url": "#itinerari",
+          "variant": "secondary"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Esperienze Imperdibili",
+      "title": "Le Migliori Attività",
+      "subtitle": "Dalle escursioni alle degustazioni, vivi le Cinque Terre a 360°.",
+      "features": [
+        {
+          "icon": "hiking",
+          "title": "Trekking sui Sentieri",
+          "description": "Percorri il Sentiero Azzurro che collega i 5 villaggi. Viste panoramiche mozzafiato, 120 km di rete sentieristica."
+        },
+        {
+          "icon": "wine",
+          "title": "Degustazioni Vino",
+          "description": "Assaggia lo Sciacchetrà e i vini DOC locali. Visita le cantine nei terrazzamenti, tour enogastronomici guidati."
+        },
+        {
+          "icon": "boat",
+          "title": "Tour in Barca",
+          "description": "Ammira i villaggi dal mare, nuota in calette nascoste, esplora grotte. Tour al tramonto con aperitivo."
+        },
+        {
+          "icon": "camera",
+          "title": "Fotografia",
+          "description": "Cattura i panorami più iconici d'Italia. Alba a Riomaggiore, tramonto a Manarola, vicoli colorati ovunque."
+        },
+        {
+          "icon": "swim",
+          "title": "Mare e Spiagge",
+          "description": "Tuffati nelle acque cristalline dell'area marina protetta. Snorkeling, kayak, paddleboard."
+        },
+        {
+          "icon": "food",
+          "title": "Gastronomia Locale",
+          "description": "Pesto, acciughe, focaccia, pesce fresco. Tour gastronomici, corsi di cucina, sagre tradizionali."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Pianifica",
+      "title": "Quanto Tempo Servire",
+      "stats": [
+        {
+          "value": "2-3",
+          "label": "Giorni Minimi"
+        },
+        {
+          "value": "5-7",
+          "label": "Giorni Ideali"
+        },
+        {
+          "value": "1",
+          "label": "Giorno per Villaggio"
+        },
+        {
+          "value": "4-6h",
+          "label": "Sentieri Principali"
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Domande Frequenti",
+      "title": "Attività - FAQ",
+      "items": [
+        {
+          "question": "Cosa non posso perdere?",
+          "answer": "Almeno un sentiero panoramico, il tramonto a Manarola, un pranzo di pesce a Vernazza, una degustazione di Sciacchetrà, un bagno a Monterosso."
+        },
+        {
+          "question": "Quanto è faticoso il trekking?",
+          "answer": "Dipende dal sentiero. La Via dell'Amore è pianeggiante (quando aperta). Vernazza-Monterosso è impegnativo (2h, molte scale). Valuta il tuo livello."
+        },
+        {
+          "question": "Serve prenotare le attività?",
+          "answer": "Sì per: tour in barca, degustazioni vino, ristoranti vista mare, guide turistiche. No per: sentieri, spiagge, visite chiese, treni."
+        },
+        {
+          "question": "Cosa fare con i bambini?",
+          "answer": "Spiaggia di Monterosso, treni tra villaggi, gelato artigianale, sentieri facili ai santuari, nuotate nelle calette."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Crea il Tuo Itinerario Perfetto",
+      "subtitle": "Combina trekking, mare, cultura e gastronomia per un'esperienza indimenticabile nelle Cinque Terre.",
+      "buttons": [
+        {
+          "text": "Pianifica Ora",
+          "url": "/it/cinque-terre/getting-here",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            {
+              "label": "Monterosso",
+              "url": "/it/monterosso"
+            },
+            {
+              "label": "Vernazza",
+              "url": "/it/vernazza"
+            },
+            {
+              "label": "Corniglia",
+              "url": "/it/corniglia"
+            },
+            {
+              "label": "Manarola",
+              "url": "/it/manarola"
+            },
+            {
+              "label": "Riomaggiore",
+              "url": "/it/riomaggiore"
+            }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            {
+              "label": "Come Arrivare",
+              "url": "/it/cinque-terre/getting-here"
+            },
+            {
+              "label": "Dove Dormire",
+              "url": "/it/cinque-terre/hotels"
+            },
+            {
+              "label": "Sentieri",
+              "url": "/it/cinque-terre/hiking"
+            }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            {
+              "label": "Ristoranti",
+              "url": "/it/cinque-terre/restaurants"
+            },
+            {
+              "label": "Eventi",
+              "url": "/it/cinque-terre/events"
+            },
+            {
+              "label": "Spiagge",
+              "url": "/it/cinque-terre/beaches"
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/cinqueterre"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "riomaggiore",
     "lang": "it",
     "page_type": "things-to-do"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

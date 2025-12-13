@@ -4,13 +4,208 @@
   "title": "Eventi",
   "page_type": "events",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Tradizioni e Cultura",
+      "title": "Eventi e Feste a Corniglia",
+      "subtitle": "Sagre patronali, feste religiose millenarie, eventi enogastronomici e celebrazioni tradizionali. Vivi l'autenticità della cultura ligure attraverso gli eventi che scandiscono l'anno.",
+      "buttons": [
+        {
+          "text": "Calendario",
+          "url": "#calendario",
+          "variant": "primary"
+        },
+        {
+          "text": "Tradizioni",
+          "url": "#tradizioni",
+          "variant": "secondary"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Eventi Principali",
+      "title": "Le Celebrazioni dell'Anno",
+      "subtitle": "Dalle feste religiose alle sagre enogastronomiche.",
+      "features": [
+        {
+          "icon": "candle",
+          "title": "Luminaria di Manarola",
+          "description": "8 dicembre: il presepe luminoso più grande del mondo. 300 figure illuminate sui terrazzamenti. Spettacolo unico."
+        },
+        {
+          "icon": "anchor",
+          "title": "Festa del Limone",
+          "description": "Maggio, Monterosso: celebrazione del famoso limone gigante. Degustazioni, mercatini, prodotti tipici."
+        },
+        {
+          "icon": "fire",
+          "title": "Fuochi di San Giovanni",
+          "description": "24 giugno, Riomaggiore: spettacolo pirotecnico sul mare. Tradizione centenaria con musica e festa fino all'alba."
+        },
+        {
+          "icon": "grape",
+          "title": "Festa dell'Uva",
+          "description": "Settembre: celebrazione della vendemmia. Degustazioni di Sciacchetrà, musica tradizionale, balli folkloristici."
+        },
+        {
+          "icon": "fish",
+          "title": "Sagre del Pesce",
+          "description": "Estate: ogni villaggio celebra il pescato locale. Fritture, acciughe, specialità marinare a prezzi popolari."
+        },
+        {
+          "icon": "church",
+          "title": "Processioni Patronali",
+          "description": "Ogni villaggio ha il suo santo patrono. Processioni storiche, luminarie, musica e fuochi d'artificio."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Calendario",
+      "title": "Eventi per Stagione",
+      "stats": [
+        {
+          "value": "Pasqua",
+          "label": "Processioni Religiose"
+        },
+        {
+          "value": "Mag-Giu",
+          "label": "Feste Patronali"
+        },
+        {
+          "value": "Lug-Ago",
+          "label": "Sagre Estive"
+        },
+        {
+          "value": "Settembre",
+          "label": "Vendemmia"
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Domande Frequenti",
+      "title": "Eventi - FAQ",
+      "items": [
+        {
+          "question": "Quando ci sono più eventi?",
+          "answer": "L'estate (giugno-agosto) è ricca di sagre e feste patronali. Dicembre offre il famoso presepe luminoso di Manarola. Settembre è il mese della vendemmia."
+        },
+        {
+          "question": "Gli eventi sono gratuiti?",
+          "answer": "La maggior parte degli eventi è gratuita (processioni, luminarie, fuochi). Le sagre enogastronomiche richiedono acquisto di tickets per le degustazioni."
+        },
+        {
+          "question": "Serve prenotare per gli eventi?",
+          "answer": "No, ma durante gli eventi principali i villaggi sono molto affollati. Prenota alloggio con largo anticipo se vuoi partecipare."
+        },
+        {
+          "question": "Dove trovo il calendario aggiornato?",
+          "answer": "Consulta i siti ufficiali dei comuni e del Parco Nazionale Cinque Terre. Molti eventi dipendono dal calendario liturgico e variano ogni anno."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Vivi le Tradizioni delle Cinque Terre",
+      "subtitle": "Partecipa alle feste patronali, alle sagre enogastronomiche e alle celebrazioni che rendono unica l'identità culturale di questi villaggi.",
+      "buttons": [
+        {
+          "text": "Pianifica la Visita",
+          "url": "/it/cinque-terre/getting-here",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            {
+              "label": "Monterosso",
+              "url": "/it/monterosso"
+            },
+            {
+              "label": "Vernazza",
+              "url": "/it/vernazza"
+            },
+            {
+              "label": "Corniglia",
+              "url": "/it/corniglia"
+            },
+            {
+              "label": "Manarola",
+              "url": "/it/manarola"
+            },
+            {
+              "label": "Riomaggiore",
+              "url": "/it/riomaggiore"
+            }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            {
+              "label": "Come Arrivare",
+              "url": "/it/cinque-terre/getting-here"
+            },
+            {
+              "label": "Dove Dormire",
+              "url": "/it/cinque-terre/hotels"
+            },
+            {
+              "label": "Sentieri",
+              "url": "/it/cinque-terre/hiking"
+            }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            {
+              "label": "Ristoranti",
+              "url": "/it/cinque-terre/restaurants"
+            },
+            {
+              "label": "Eventi",
+              "url": "/it/cinque-terre/events"
+            },
+            {
+              "label": "Spiagge",
+              "url": "/it/cinque-terre/beaches"
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/cinqueterre"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "corniglia",
     "lang": "it",
     "page_type": "events"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

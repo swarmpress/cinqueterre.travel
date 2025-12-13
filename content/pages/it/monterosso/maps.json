@@ -1,16 +1,76 @@
 {
   "id": "c97062c0-c07a-4ed9-9fa3-6214f2cb8563",
   "slug": "/it/monterosso/maps",
-  "title": "Mappe",
+  "title": "Mappe di Monterosso al Mare",
   "page_type": "maps",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Mappe Monterosso - Cartine Sentieri e Centro Storico",
+    "description": "Mappe dettagliate di Monterosso al Mare: centro storico, sentieri, spiagge, parcheggi e punti di interesse. Scarica le cartine per esplorare il villaggio.",
+    "keywords": "mappe monterosso, cartine cinque terre, mappa sentieri, parcheggi, centro storico"
+  },
+  "body": [
+    {
+      "id": "hero-section",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Mappe di Monterosso",
+      "subheading": "Orientati nel villaggio più grande delle Cinque Terre"
+    },
+    {
+      "id": "features-section",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Mappe Disponibili",
+      "subheading": "Tutte le cartine per esplorare Monterosso",
+      "features": [
+        {
+          "name": "Mappa del Centro Storico",
+          "description": "Vie principali, chiese, monumenti, ristoranti e negozi nel borgo antico di Monterosso."
+        },
+        {
+          "name": "Mappa delle Spiagge",
+          "description": "Spiaggia di Fegina e centro storico con stabilimenti balneari, servizi e accessi."
+        },
+        {
+          "name": "Sentieri e Trekking",
+          "description": "Mappa dettagliata dei sentieri: Vernazza, Levanto, Santuario di Soviore e percorsi secondari."
+        },
+        {
+          "name": "Parcheggi e Trasporti",
+          "description": "Posizione dei parcheggi, stazione ferroviaria, fermate bus e approdo traghetti."
+        },
+        {
+          "name": "Mappa Interattiva",
+          "description": "Visualizza tutti i punti di interesse su Google Maps con indicazioni stradali in tempo reale."
+        },
+        {
+          "name": "PDF Scaricabili",
+          "description": "Scarica le mappe in formato PDF da consultare offline durante le escursioni."
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Pianifica il Tuo Itinerario",
+      "subheading": "Usa le nostre mappe per organizzare la visita perfetta",
+      "primaryCta": {
+        "text": "Cosa Vedere",
+        "url": "/it/monterosso/sights"
+      },
+      "secondaryCta": {
+        "text": "Sentieri",
+        "url": "/it/monterosso/hiking"
+      }
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "it",
     "page_type": "maps"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

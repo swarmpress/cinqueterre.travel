@@ -1,16 +1,76 @@
 {
   "id": "f4fc9058-cc1c-4f62-81fb-26f06e4d8778",
   "slug": "/it/monterosso/weather",
-  "title": "Meteo",
+  "title": "Meteo e Clima a Monterosso",
   "page_type": "weather",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Meteo Monterosso - Clima e Quando Visitare le Cinque Terre",
+    "description": "Clima e meteo a Monterosso al Mare: temperature mese per mese, precipitazioni, periodo migliore per visitare e cosa mettere in valigia.",
+    "keywords": "meteo monterosso, clima cinque terre, quando visitare, temperature, previsioni meteo"
+  },
+  "body": [
+    {
+      "id": "hero-section",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Meteo e Clima",
+      "subheading": "Tutto sul tempo a Monterosso per pianificare al meglio la tua visita"
+    },
+    {
+      "id": "features-section",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Clima Durante l'Anno",
+      "subheading": "Temperature e condizioni stagionali",
+      "features": [
+        {
+          "name": "Primavera (Marzo-Maggio)",
+          "description": "Temperature miti 15-22°C, poche piogge, fioritura. Ideale per trekking. Maggio è perfetto."
+        },
+        {
+          "name": "Estate (Giugno-Agosto)",
+          "description": "Caldo 25-30°C, sole, mare caldo 22-25°C. Alta stagione, affollato. Perfetto per la spiaggia."
+        },
+        {
+          "name": "Autunno (Settembre-Novembre)",
+          "description": "Settembre ancora caldo e soleggiato. Ottobre mite e tranquillo. Vendemmia e tartufi."
+        },
+        {
+          "name": "Inverno (Dicembre-Febbraio)",
+          "description": "Fresco 8-14°C, piogge frequenti, pochi turisti. Ristoranti e hotel spesso chiusi."
+        },
+        {
+          "name": "Periodo Migliore",
+          "description": "Maggio-giugno e settembre-ottobre: clima perfetto, meno folla, prezzi più bassi."
+        },
+        {
+          "name": "Cosa Mettere in Valigia",
+          "description": "Estate: leggero, costume, crema solare. Primavera/autunno: giacca leggera. Inverno: impermeabile."
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Pianifica la Tua Visita",
+      "subheading": "Scegli il periodo giusto e prenota in anticipo",
+      "primaryCta": {
+        "text": "Trova Alloggio",
+        "url": "/it/monterosso/hotels"
+      },
+      "secondaryCta": {
+        "text": "FAQ",
+        "url": "/it/monterosso/faq"
+      }
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "it",
     "page_type": "weather"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

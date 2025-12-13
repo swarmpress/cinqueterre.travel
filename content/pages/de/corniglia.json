@@ -1,15 +1,62 @@
 {
-  "id": "1f2062e5-77db-4691-9e01-ed546ab7f204",
+  "id": "corniglia-de-001",
   "slug": "/de/corniglia",
-  "title": "Corniglia",
-  "page_type": "city",
-  "seo": {},
-  "body": [],
-  "metadata": {
-    "city": "corniglia",
-    "lang": "de"
+  "title": "Corniglia Reiseführer",
+  "page_type": "village",
+  "seo": {
+    "title": "Corniglia 2025 | Das ruhige Weindorf der Cinque Terre",
+    "description": "Entdecken Sie Corniglia, das einzige Dorf nicht am Meer. 382 Stufen und authentische Atmosphäre.",
+    "keywords": ["Corniglia", "Cinque Terre Wein", "Lardarina Treppe", "ruhiges Dorf"]
   },
-  "status": "draft",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Cinque Terre",
+      "title": "Corniglia",
+      "subtitle": "Das einzige Dorf auf einem Felsvorsprung 100 Meter über dem Meer. Erreicht über 382 Stufen, umgeben von Weinbergen.",
+      "buttons": [
+        { "text": "Restaurants", "url": "/de/corniglia/restaurants", "variant": "primary" },
+        { "text": "Unterkünfte", "url": "/de/corniglia/unterkuenfte", "variant": "secondary" }
+      ],
+      "image": { "src": "/images/villages/corniglia-hero.jpg", "alt": "Corniglia auf dem Felsvorsprung" }
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "stats": [
+        { "value": "245", "label": "Einwohner" },
+        { "value": "382", "label": "Stufen" },
+        { "value": "100m", "label": "Über dem Meer" },
+        { "value": "0", "label": "Kreuzfahrtmassen" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Highlights",
+      "title": "Was Corniglia besonders macht",
+      "features": [
+        { "icon": "stairs", "title": "Lardarina Treppe", "description": "382 Stufen vom Bahnhof—oder Shuttlebus." },
+        { "icon": "wine", "title": "Weinberge", "description": "Umgeben von Rebstöcken." },
+        { "icon": "peace", "title": "Ruhe", "description": "Am wenigsten besuchtes Dorf." },
+        { "icon": "view", "title": "Panorama", "description": "Blick auf beide Küstenrichtungen." },
+        { "icon": "gelato", "title": "Bestes Eis", "description": "Alberto Gelateria—legendär!" },
+        { "icon": "history", "title": "Römische Wurzeln", "description": "Benannt nach Familie Cornelia." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Corniglia erkunden",
+      "buttons": [
+        { "text": "Restaurants", "url": "/de/corniglia/restaurants", "variant": "primary" },
+        { "text": "Unterkünfte", "url": "/de/corniglia/unterkuenfte", "variant": "secondary" }
+      ]
+    }
+  ],
+  "metadata": { "village": "corniglia", "lang": "de" },
+  "status": "published",
+  "created_at": "2025-12-12T22:00:00.000Z",
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

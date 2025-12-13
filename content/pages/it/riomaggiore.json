@@ -1,15 +1,114 @@
 {
   "id": "261a9241-e698-4a35-a9bd-9aed3417770d",
   "slug": "/it/riomaggiore",
-  "title": "Riomaggiore",
+  "title": "Riomaggiore - La Porta delle Cinque Terre",
   "page_type": "city",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Guida Riomaggiore 2025 | Il Primo Villaggio delle Cinque Terre",
+    "description": "Riomaggiore, il villaggio più meridionale delle Cinque Terre. Case colorate sulla scogliera, Via dell'Amore, porticciolo pittoresco e vita notturna vivace.",
+    "keywords": ["Riomaggiore", "Cinque Terre", "Via dell'Amore", "case colorate", "vita notturna", "scogliere"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "La Porta del Parco",
+      "title": "Riomaggiore",
+      "subtitle": "Il primo villaggio che si incontra arrivando da La Spezia. Case torre dai colori vivaci si arrampicano su ripide scogliere, creando uno degli skyline più drammatici della costa italiana. Punto di partenza della Via dell'Amore e del parco nazionale.",
+      "buttons": [
+        { "text": "Esplora il Villaggio", "url": "#villaggio", "variant": "primary" },
+        { "text": "Via dell'Amore", "url": "#via-amore", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=1200&q=80"
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "A Colpo d'Occhio",
+      "title": "Riomaggiore in Numeri",
+      "stats": [
+        { "value": "1.400", "label": "Abitanti" },
+        { "value": "1251", "label": "Prima Menzione" },
+        { "value": "#1", "label": "Per Vita Notturna" },
+        { "value": "1km", "label": "Via dell'Amore" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Perché Riomaggiore",
+      "title": "Colori e Vita",
+      "features": [
+        {
+          "icon": "building",
+          "title": "Case Torre",
+          "description": "Architettura unica con case strette e alte arrampicate sulla scogliera. I colori più vivaci delle Cinque Terre."
+        },
+        {
+          "icon": "heart",
+          "title": "Via dell'Amore",
+          "description": "Il sentiero degli innamorati verso Manarola. Il percorso più romantico d'Italia."
+        },
+        {
+          "icon": "anchor",
+          "title": "Porto Pittoresco",
+          "description": "Piccola marina con barche colorate. Perfetto per foto e aperitivi al tramonto."
+        },
+        {
+          "icon": "moon",
+          "title": "Vita Notturna",
+          "description": "Bar e locali animati. L'atmosfera più vivace tra i cinque villaggi."
+        },
+        {
+          "icon": "swimming",
+          "title": "Scogliere per Tuffi",
+          "description": "Piattaforme rocciose per prendere il sole e tuffarsi nel mare cristallino."
+        },
+        {
+          "icon": "info",
+          "title": "Centro Parco",
+          "description": "Sede del centro visitatori del Parco Nazionale. Informazioni e biglietti per i sentieri."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Inizia la Tua Avventura",
+      "subtitle": "Riomaggiore è il punto di partenza perfetto per esplorare le Cinque Terre. Energia, colore e romanticismo ti aspettano.",
+      "buttons": [
+        { "text": "Vedi Alloggi", "url": "/it/riomaggiore/hotels", "variant": "primary" },
+        { "text": "Torna alle Cinque Terre", "url": "/it/cinque-terre", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            { "label": "Monterosso", "url": "/it/monterosso" },
+            { "label": "Vernazza", "url": "/it/vernazza" },
+            { "label": "Corniglia", "url": "/it/corniglia" },
+            { "label": "Manarola", "url": "/it/manarola" },
+            { "label": "Riomaggiore", "url": "/it/riomaggiore" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "riomaggiore",
     "lang": "it"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

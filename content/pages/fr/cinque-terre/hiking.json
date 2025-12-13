@@ -4,7 +4,134 @@
   "title": "Sentiers de Randonnée",
   "page_type": "hiking",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Sentiers Panoramiques",
+      "title": "Randonnées des Cinque Terre",
+      "subtitle": "Parcourez les sentiers côtiers légendaires reliant les cinq villages. Des vues à couper le souffle sur la Méditerranée, des vignobles en terrasses et des villages colorés vous attendent.",
+      "buttons": [
+        { "text": "Principaux Sentiers", "url": "#sentiers", "variant": "primary" },
+        { "text": "Carte des Sentiers", "url": "/fr/cinque-terre/maps", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&q=80"
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Réseau de Sentiers",
+      "title": "Chiffres Clés",
+      "stats": [
+        { "value": "120 km", "label": "de Sentiers Balisés" },
+        { "value": "5", "label": "Sentiers Principaux" },
+        { "value": "7,50€", "label": "Carte Trekking Journalière" },
+        { "value": "Avril-Oct", "label": "Meilleure Période" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Sentiers Principaux",
+      "title": "Les Meilleurs Itinéraires",
+      "features": [
+        { "icon": "trending-up", "title": "Sentier Bleu (SVA)", "description": "Monterosso-Vernazza (3.5km, 2h). Le sentier le plus spectaculaire, vues mer époustouflantes." },
+        { "icon": "trending-up", "title": "Vernazza-Corniglia", "description": "4km, 1.5-2h. Passage par vignobles et oliveraies avec vues panoramiques." },
+        { "icon": "trending-up", "title": "Corniglia-Manarola", "description": "3.5km, 1.5h. Sentier tranquille à travers vignobles en terrasses." },
+        { "icon": "heart", "title": "Via dell'Amore", "description": "Manarola-Riomaggiore (1km, 20min). Sentier romantique (actuellement fermé pour rénovation)." },
+        { "icon": "mountain", "title": "Sanctuaire Trek", "description": "Sentiers vers les sanctuaires perchés au-dessus de chaque village. Vues extraordinaires." },
+        { "icon": "compass", "title": "Sentier de Crête", "description": "Alta Via delle 5 Terre: sentier de montagne reliant tous les villages (35km)." }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Niveaux de Difficulté",
+      "title": "Choisir Son Sentier",
+      "features": [
+        { "icon": "check-circle", "title": "Facile", "description": "Via dell'Amore (quand ouverte), promenades autour des villages." },
+        { "icon": "activity", "title": "Modéré", "description": "Sentiers côtiers principaux. Bonne condition physique requise." },
+        { "icon": "alert-triangle", "title": "Difficile", "description": "Alta Via, sentiers de montagne. Pour randonneurs expérimentés." },
+        { "icon": "thermometer", "title": "Équipement", "description": "Chaussures de randonnée, eau (1.5L min), protection solaire, chapeau." },
+        { "icon": "clock", "title": "Temps de Marche", "description": "Prévoir 5-6h pour Monterosso-Riomaggiore via sentiers côtiers." },
+        { "icon": "ticket", "title": "Carte Cinque Terre", "description": "Obligatoire pour sentiers payants. Inclut trains illimités." }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Conseils Pratiques",
+      "title": "Bien Préparer Sa Randonnée",
+      "features": [
+        { "icon": "alert-circle", "title": "Vérifier Ouvertures", "description": "Certains sentiers ferment après pluies. Vérifiez sur parconazionale5terre.it" },
+        { "icon": "sunrise", "title": "Partir Tôt", "description": "Commencez avant 9h pour éviter chaleur et foule. Levés de soleil magnifiques." },
+        { "icon": "droplet", "title": "Hydratation", "description": "Peu de points d'eau en chemin. Prenez suffisamment d'eau." },
+        { "icon": "smartphone", "title": "Applications", "description": "Téléchargez maps.me ou AllTrails avec cartes hors-ligne." },
+        { "icon": "arrow-right", "title": "Sens de Marche", "description": "Sud vers Nord (Riomaggiore → Monterosso) : soleil dans le dos." },
+        { "icon": "life-buoy", "title": "Sécurité", "description": "Restez sur sentiers balisés. Urgences : 118 (ambulance) ou 112 (général)." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Prêt Pour l'Aventure ?",
+      "subtitle": "Découvrez les paysages spectaculaires des Cinque Terre à pied.",
+      "buttons": [
+        { "text": "Voir la Carte", "url": "/fr/cinque-terre/maps", "variant": "primary" },
+        { "text": "Météo Actuelle", "url": "/fr/cinque-terre/weather", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "Votre guide complet des plus beaux villages côtiers d'Italie.",
+      "copyright": "© 2025 Cinqueterre.travel. Tous droits réservés.",
+      "columns": [
+        {
+          "title": "Villages",
+          "links": [
+            { "label": "Monterosso", "url": "/fr/monterosso" },
+            { "label": "Vernazza", "url": "/fr/vernazza" },
+            { "label": "Corniglia", "url": "/fr/corniglia" },
+            { "label": "Manarola", "url": "/fr/manarola" },
+            { "label": "Riomaggiore", "url": "/fr/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Randonnées",
+          "links": [
+            { "label": "Sentiers Monterosso", "url": "/fr/monterosso/hiking" },
+            { "label": "Sentiers Vernazza", "url": "/fr/vernazza/hiking" },
+            { "label": "Carte Interactive", "url": "/fr/cinque-terre/maps" },
+            { "label": "Météo", "url": "/fr/cinque-terre/weather" }
+          ]
+        },
+        {
+          "title": "Activités",
+          "links": [
+            { "label": "Plages", "url": "/fr/cinque-terre/beaches" },
+            { "label": "Excursions Bateau", "url": "/fr/cinque-terre/boat-tours" },
+            { "label": "Que Faire", "url": "/fr/cinque-terre/things-to-do" },
+            { "label": "Événements", "url": "/fr/cinque-terre/events" }
+          ]
+        },
+        {
+          "title": "Infos",
+          "links": [
+            { "label": "Hébergements", "url": "/fr/cinque-terre/hotels" },
+            { "label": "Restaurants", "url": "/fr/cinque-terre/restaurants" },
+            { "label": "FAQ", "url": "/fr/cinque-terre/faq" },
+            { "label": "Conseils", "url": "/fr/cinque-terre/insights" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" },
+        { "platform": "facebook", "url": "https://facebook.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "fr",
@@ -12,5 +139,5 @@
   },
   "status": "draft",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

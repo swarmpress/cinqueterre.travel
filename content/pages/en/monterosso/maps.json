@@ -1,16 +1,55 @@
 {
   "id": "5c189868-4ebe-4876-8915-ebac25cec9e0",
   "slug": "/en/monterosso/maps",
-  "title": "Maps",
+  "title": "Maps of Monterosso al Mare",
   "page_type": "maps",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Monterosso Maps 2025 | Village & Hiking Trail Maps",
+    "description": "Detailed maps of Monterosso al Mare. Village layout, hiking trails, beaches, restaurants, and key landmarks for easy navigation.",
+    "keywords": ["Monterosso map", "village map", "hiking trails", "Cinque Terre navigation"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "eyebrow": "Monterosso al Mare",
+      "title": "Monterosso Maps & Navigation",
+      "subtitle": "Detailed maps to help you navigate Monterosso's two districts, find beaches, restaurants, and connect to hiking trails.",
+      "buttons": [
+        { "text": "View Maps", "url": "#maps", "variant": "primary" },
+        { "text": "Back to Monterosso", "url": "/en/monterosso", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Navigation Tools",
+      "title": "Map Resources",
+      "features": [
+        { "icon": "map", "title": "Village Layout", "description": "Old Town and Fegina districts with key landmarks marked." },
+        { "icon": "hiking", "title": "Hiking Trails", "description": "Detailed trail maps to Vernazza and Sanctuary of Soviore." },
+        { "icon": "beach", "title": "Beach Locations", "description": "Both beaches with access points and facilities." },
+        { "icon": "restaurant", "title": "Restaurants & Cafes", "description": "Dining options plotted throughout both districts." },
+        { "icon": "train", "title": "Transportation", "description": "Train station, bus stops, and parking locations." },
+        { "icon": "landmark", "title": "Points of Interest", "description": "Churches, towers, viewpoints, and historic sites." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Plan Your Route",
+      "buttons": [
+        { "text": "Hiking Trails", "url": "/en/monterosso/hiking", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/monterosso/getting-here", "variant": "secondary" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "en",
     "page_type": "maps"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

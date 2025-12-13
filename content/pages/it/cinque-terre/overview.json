@@ -4,13 +4,127 @@
   "title": "Panoramica",
   "page_type": "overview",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Patrimonio UNESCO",
+      "title": "Panoramica delle Cinque Terre",
+      "subtitle": "Cinque villaggi di pescatori colorati arroccati su scogliere drammatiche lungo la Riviera Ligure italiana. Un capolavoro di architettura e natura dove l'uomo ha costruito in armonia con il paesaggio per oltre mille anni.",
+      "buttons": [
+        { "text": "Esplora i Villaggi", "url": "#villaggi", "variant": "primary" },
+        { "text": "Pianifica la Visita", "url": "/it/cinque-terre/getting-here", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80"
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "A Colpo d'Occhio",
+      "title": "Le Cinque Terre in Numeri",
+      "stats": [
+        { "value": "5", "label": "Villaggi Storici" },
+        { "value": "1997", "label": "Patrimonio UNESCO" },
+        { "value": "18km", "label": "Costa Protetta" },
+        { "value": "4000", "label": "Abitanti" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Scopri le Cinque Terre",
+      "title": "Cosa Rende Speciale Questo Luogo",
+      "subtitle": "Dalla natura selvaggia alla cultura millenaria, un patrimonio mondiale da preservare.",
+      "features": [
+        {
+          "icon": "home",
+          "title": "Villaggi Autentici",
+          "description": "Cinque borghi medievali perfettamente conservati, ognuno con il suo carattere unico e la sua storia millenaria."
+        },
+        {
+          "icon": "hiking",
+          "title": "Sentieri Panoramici",
+          "description": "120 km di antichi sentieri di montagna che collegano i villaggi con viste mozzafiato sul Mediterraneo."
+        },
+        {
+          "icon": "wine",
+          "title": "Vigneti Terrazzati",
+          "description": "7000 km di muretti a secco sostengono vigneti eroici che producono vini pregiati come lo Sciacchetrà."
+        },
+        {
+          "icon": "wave",
+          "title": "Parco Nazionale Marino",
+          "description": "Acque cristalline protette con biodiversità marina eccezionale, ideali per snorkeling e immersioni."
+        },
+        {
+          "icon": "restaurant",
+          "title": "Cucina Ligure",
+          "description": "Piatti tradizionali a base di pesce fresco, pesto al basilico, acciughe e focaccia genovese."
+        },
+        {
+          "icon": "train",
+          "title": "Facilmente Accessibili",
+          "description": "Collegamento ferroviario frequente tra i villaggi e con le principali città italiane."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Inizia il Tuo Viaggio nelle Cinque Terre",
+      "subtitle": "Scopri i cinque villaggi, pianifica i tuoi sentieri e trova il tuo angolo di paradiso sulla Riviera Ligure.",
+      "buttons": [
+        { "text": "Guida ai Villaggi", "url": "/it/cinque-terre/things-to-do", "variant": "primary" },
+        { "text": "Sentieri e Trekking", "url": "/it/cinque-terre/hiking", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            { "label": "Monterosso", "url": "/it/monterosso" },
+            { "label": "Vernazza", "url": "/it/vernazza" },
+            { "label": "Corniglia", "url": "/it/corniglia" },
+            { "label": "Manarola", "url": "/it/manarola" },
+            { "label": "Riomaggiore", "url": "/it/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            { "label": "Come Arrivare", "url": "/it/cinque-terre/getting-here" },
+            { "label": "Dove Dormire", "url": "/it/cinque-terre/hotels" },
+            { "label": "Sentieri", "url": "/it/cinque-terre/hiking" },
+            { "label": "Meteo", "url": "/it/cinque-terre/weather" }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            { "label": "Ristoranti", "url": "/it/cinque-terre/restaurants" },
+            { "label": "Eventi", "url": "/it/cinque-terre/events" },
+            { "label": "Spiagge", "url": "/it/cinque-terre/beaches" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" },
+        { "platform": "facebook", "url": "https://facebook.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "it",
     "page_type": "overview"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

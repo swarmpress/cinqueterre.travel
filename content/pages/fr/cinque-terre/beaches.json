@@ -4,7 +4,133 @@
   "title": "Plages",
   "page_type": "beaches",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Côte Méditerranéenne",
+      "title": "Plages des Cinque Terre",
+      "subtitle": "Découvrez les plages uniques des cinq villages, des criques rocheuses intimes aux étendues de sable doré. Eaux cristallines et paysages spectaculaires garantis.",
+      "buttons": [
+        { "text": "Plages par Village", "url": "#plages", "variant": "primary" },
+        { "text": "Conseils Baignade", "url": "#conseils", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Plages Principales",
+      "title": "Les Meilleures Plages",
+      "features": [
+        { "icon": "sun", "title": "Fegina (Monterosso)", "description": "La plus grande plage de sable des Cinque Terre. Équipements complets, idéale familles." },
+        { "icon": "waves", "title": "Plage de Monterosso Vieux", "description": "Petite plage au pied du centre historique. Plus calme et pittoresque." },
+        { "icon": "anchor", "title": "Port de Vernazza", "description": "Petite plage de galets dans le port. Cadre unique, très photographique." },
+        { "icon": "umbrella", "title": "Guvano (Corniglia)", "description": "Plage isolée accessible par tunnel. Naturiste, pour aventuriers." },
+        { "icon": "droplet", "title": "Marina di Manarola", "description": "Plateforme rocheux pour bronzer et plonger. Pas de sable mais eau profonde." },
+        { "icon": "wave", "title": "Marina di Riomaggiore", "description": "Petite zone de baignade entre rochers. Populaire auprès des locaux." }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Informations Pratiques",
+      "title": "À Savoir",
+      "stats": [
+        { "value": "22-26°C", "label": "Température Eau (Été)" },
+        { "value": "Juin-Sept", "label": "Meilleure Période" },
+        { "value": "15-25€", "label": "Location Parasol + Transats" },
+        { "value": "8h-19h", "label": "Horaires Plages Privées" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Types de Plages",
+      "title": "Choisir Sa Plage",
+      "features": [
+        { "icon": "beach-ball", "title": "Plages de Sable", "description": "Monterosso uniquement. Confortable pour familles avec enfants." },
+        { "icon": "mountain", "title": "Plages de Galets", "description": "Vernazza, Manarola. Prenez des chaussures d'eau." },
+        { "icon": "dive", "title": "Plateformes Rocheuses", "description": "Idéales pour plonger. Échelles dans l'eau pour remonter." },
+        { "icon": "ticket", "title": "Plages Privées (Stabilimenti)", "description": "Parasols, transats, douches, bars. Confort maximum payant." },
+        { "icon": "map", "title": "Plages Publiques (Libere)", "description": "Accès gratuit mais moins d'équipements. Arrivez tôt." },
+        { "icon": "sailboat", "title": "Criques Secrètes", "description": "Accessibles uniquement en bateau ou kayak. Isolées et tranquilles." }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Conseils Pratiques",
+      "title": "Bien Profiter des Plages",
+      "features": [
+        { "icon": "sunrise", "title": "Arrivez Tôt", "description": "Les meilleures places partent vite, surtout juillet-août. Avant 9h idéal." },
+        { "icon": "shoe", "title": "Chaussures d'Eau", "description": "Essentielles pour plages de galets. Protègent des oursins et rochers." },
+        { "icon": "backpack", "title": "Équipement à Apporter", "description": "Serviette, crème solaire, eau, masque/tuba pour explorer." },
+        { "icon": "shower", "title": "Douches Limitées", "description": "Peu de douches publiques. Plages privées en ont." },
+        { "icon": "warning", "title": "Vagues & Courants", "description": "Certains jours, mer agitée. Respectez drapeaux et consignes." },
+        { "icon": "recycle", "title": "Respect de l'Environnement", "description": "Emportez vos déchets. Zone protégée, préservons-la." }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Profitez de la Méditerranée",
+      "subtitle": "Découvrez les plages uniques de chaque village des Cinque Terre.",
+      "buttons": [
+        { "text": "Voir Tous les Villages", "url": "/fr/cinque-terre/overview", "variant": "primary" },
+        { "text": "Excursions Bateau", "url": "/fr/cinque-terre/boat-tours", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "Votre guide complet des plus beaux villages côtiers d'Italie.",
+      "copyright": "© 2025 Cinqueterre.travel. Tous droits réservés.",
+      "columns": [
+        {
+          "title": "Villages",
+          "links": [
+            { "label": "Monterosso", "url": "/fr/monterosso" },
+            { "label": "Vernazza", "url": "/fr/vernazza" },
+            { "label": "Corniglia", "url": "/fr/corniglia" },
+            { "label": "Manarola", "url": "/fr/manarola" },
+            { "label": "Riomaggiore", "url": "/fr/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Activités Mer",
+          "links": [
+            { "label": "Excursions Bateau", "url": "/fr/cinque-terre/boat-tours" },
+            { "label": "Kayak & Sports Nautiques", "url": "/fr/cinque-terre/things-to-do" },
+            { "label": "Plongée", "url": "/fr/cinque-terre/things-to-do" }
+          ]
+        },
+        {
+          "title": "Activités",
+          "links": [
+            { "label": "Randonnées", "url": "/fr/cinque-terre/hiking" },
+            { "label": "Que Faire", "url": "/fr/cinque-terre/things-to-do" },
+            { "label": "Événements", "url": "/fr/cinque-terre/events" },
+            { "label": "Restaurants", "url": "/fr/cinque-terre/restaurants" }
+          ]
+        },
+        {
+          "title": "Infos",
+          "links": [
+            { "label": "Hébergements", "url": "/fr/cinque-terre/hotels" },
+            { "label": "Comment S'y Rendre", "url": "/fr/cinque-terre/getting-here" },
+            { "label": "Météo", "url": "/fr/cinque-terre/weather" },
+            { "label": "FAQ", "url": "/fr/cinque-terre/faq" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" },
+        { "platform": "facebook", "url": "https://facebook.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "fr",
@@ -12,5 +138,5 @@
   },
   "status": "draft",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

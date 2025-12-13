@@ -4,13 +4,208 @@
   "title": "Spiagge",
   "page_type": "beaches",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Mare e Spiagge",
+      "title": "Spiagge e Balneazione nelle Cinque Terre",
+      "subtitle": "Dalla sabbia dorata di Monterosso alle scogliere rocciose di Manarola, dalle calette nascoste alle piattaforme per tuffi. Acque cristalline in un'area marina protetta.",
+      "buttons": [
+        {
+          "text": "Spiagge Principali",
+          "url": "#spiagge",
+          "variant": "primary"
+        },
+        {
+          "text": "Consigli Balneazione",
+          "url": "#info",
+          "variant": "secondary"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Dove Fare il Bagno",
+      "title": "Le Spiagge dei 5 Villaggi",
+      "subtitle": "Sabbia, ciottoli o scogliere: scegli la tua esperienza balneare.",
+      "features": [
+        {
+          "icon": "umbrella",
+          "title": "Monterosso - Fegina",
+          "description": "L'unica vera spiaggia di sabbia delle Cinque Terre. Ampia, attrezzata con stabilimenti balneari, ideale per famiglie."
+        },
+        {
+          "icon": "waves",
+          "title": "Vernazza - Porto",
+          "description": "Piccola spiaggia di ciottoli nel cuore del borgo. Scenografica ma affollata. Tuffi dalla piazzetta sul mare."
+        },
+        {
+          "icon": "rock",
+          "title": "Corniglia - Spiaggione",
+          "description": "Spiaggia di ciottoli e scogli raggiungibile via scalinata o sentiero. Più tranquilla, meno turistica, acqua cristallina."
+        },
+        {
+          "icon": "diving",
+          "title": "Manarola - Scogliere",
+          "description": "Piattaforme rocciose piatte ideali per prendere il sole e tuffarsi. Non c'è sabbia ma l'atmosfera è magica."
+        },
+        {
+          "icon": "snorkel",
+          "title": "Riomaggiore - Marina",
+          "description": "Piccola area balneare roccioso al porto. Perfetta per snorkeling tra gli scogli. Escalini in cemento per l'accesso."
+        },
+        {
+          "icon": "boat",
+          "title": "Calette Nascoste",
+          "description": "Piccole baie raggiungibili solo via mare o sentieri impervi. Per gli avventurosi che cercano privacy totale."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Info Mare",
+      "title": "Balneazione nelle Cinque Terre",
+      "stats": [
+        {
+          "value": "23-26°C",
+          "label": "Acqua Estate"
+        },
+        {
+          "value": "Lug-Ago",
+          "label": "Alta Stagione"
+        },
+        {
+          "value": "Bandiera Blu",
+          "label": "Qualità"
+        },
+        {
+          "value": "Protetta",
+          "label": "Area Marina"
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Domande Frequenti",
+      "title": "Spiagge - FAQ",
+      "items": [
+        {
+          "question": "Quale spiaggia è la migliore?",
+          "answer": "Dipende: Monterosso per sabbia e spazio, Vernazza per scenografia, Manarola per tuffi e tramonti, Corniglia per tranquillità."
+        },
+        {
+          "question": "Le spiagge sono affollate?",
+          "answer": "Molto affollate in alta stagione (luglio-agosto), soprattutto Monterosso e Vernazza. Arriva presto (prima delle 10) per trovare posto."
+        },
+        {
+          "question": "Servono scarpette da scoglio?",
+          "answer": "Fortemente consigliate per tutte le spiagge tranne Monterosso. I ciottoli possono essere scomodi e gli scogli scivolosi."
+        },
+        {
+          "question": "Si può fare snorkeling?",
+          "answer": "Sì, l'area marina protetta offre ottima visibilità e biodiversità. Le zone rocciose di Manarola e Riomaggiore sono ideali."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Tuffati nel Mare delle Cinque Terre",
+      "subtitle": "Acque cristalline in un'area marina protetta, tra le spiagge più scenografiche del Mediterraneo.",
+      "buttons": [
+        {
+          "text": "Trova la Tua Spiaggia",
+          "url": "#spiagge",
+          "variant": "primary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            {
+              "label": "Monterosso",
+              "url": "/it/monterosso"
+            },
+            {
+              "label": "Vernazza",
+              "url": "/it/vernazza"
+            },
+            {
+              "label": "Corniglia",
+              "url": "/it/corniglia"
+            },
+            {
+              "label": "Manarola",
+              "url": "/it/manarola"
+            },
+            {
+              "label": "Riomaggiore",
+              "url": "/it/riomaggiore"
+            }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            {
+              "label": "Come Arrivare",
+              "url": "/it/cinque-terre/getting-here"
+            },
+            {
+              "label": "Dove Dormire",
+              "url": "/it/cinque-terre/hotels"
+            },
+            {
+              "label": "Sentieri",
+              "url": "/it/cinque-terre/hiking"
+            }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            {
+              "label": "Ristoranti",
+              "url": "/it/cinque-terre/restaurants"
+            },
+            {
+              "label": "Eventi",
+              "url": "/it/cinque-terre/events"
+            },
+            {
+              "label": "Spiagge",
+              "url": "/it/cinque-terre/beaches"
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/cinqueterre"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "it",
     "page_type": "beaches"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

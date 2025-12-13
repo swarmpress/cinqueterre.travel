@@ -4,7 +4,129 @@
   "title": "Ferienwohnungen",
   "page_type": "apartments",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Ferienwohnungen",
+      "title": "Ferienwohnungen in Cinque Terre",
+      "subtitle": "Erleben Sie das authentische Leben in den Cinque Terre in komfortablen Ferienwohnungen. Genießen Sie die Freiheit einer eigenen Küche, lokale Märkte und das Gefühl, wie ein Einheimischer zu leben.",
+      "buttons": [
+        { "text": "Wohnungen durchsuchen", "url": "#apartments", "variant": "primary" },
+        { "text": "Hotels ansehen", "url": "/de/cinque-terre/hotels", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Vorteile",
+      "title": "Wohnen wie zuhause",
+      "features": [
+        {
+          "icon": "home",
+          "title": "Komplette Wohnungen",
+          "description": "Voll ausgestattete Apartments mit Küche, Wohnbereich und allem Komfort eines Zuhauses."
+        },
+        {
+          "icon": "map-pin",
+          "title": "Zentrale Lagen",
+          "description": "Wohnungen im Herzen der Dörfer, nur wenige Schritte von Hafen, Geschäften und Restaurants entfernt."
+        },
+        {
+          "icon": "users",
+          "title": "Ideal für Familien",
+          "description": "Geräumige Optionen mit mehreren Schlafzimmern für Familien und Gruppen."
+        },
+        {
+          "icon": "eye",
+          "title": "Balkone & Terrassen",
+          "description": "Viele Apartments mit privaten Außenbereichen und spektakulärem Meerblick."
+        },
+        {
+          "icon": "clock",
+          "title": "Flexible Aufenthalte",
+          "description": "Wochenend-Kurztrips bis zu mehrwöchigen Aufenthalten möglich."
+        },
+        {
+          "icon": "coffee",
+          "title": "Lokale Erfahrung",
+          "description": "Einkaufen auf Märkten, selbst kochen mit ligurischen Zutaten – leben Sie wie ein Local."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Übernachtungsmöglichkeiten",
+      "title": "Ferienwohnungen in Zahlen",
+      "stats": [
+        { "value": "500+", "label": "Ferienwohnungen" },
+        { "value": "€70-300", "label": "Preis/Nacht" },
+        { "value": "4.6★", "label": "Gästebewertung" },
+        { "value": "75%", "label": "Mit Meerblick" }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Finden Sie Ihre perfekte Ferienwohnung",
+      "subtitle": "Buchen Sie Ihre Unterkunft und erleben Sie die Cinque Terre wie ein Einheimischer.",
+      "buttons": [
+        { "text": "Alle Unterkünfte", "url": "/de/cinque-terre/hotels", "variant": "primary" },
+        { "text": "Anreise planen", "url": "/de/cinque-terre/getting-here", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "Ihr kompletter Reiseführer zu Italiens schönsten Küstendörfern.",
+      "copyright": "© 2025 Cinqueterre.travel. Alle Rechte vorbehalten.",
+      "columns": [
+        {
+          "title": "Dörfer",
+          "links": [
+            { "label": "Monterosso", "url": "/de/monterosso" },
+            { "label": "Vernazza", "url": "/de/vernazza" },
+            { "label": "Corniglia", "url": "/de/corniglia" },
+            { "label": "Manarola", "url": "/de/manarola" },
+            { "label": "Riomaggiore", "url": "/de/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Reiseplanung",
+          "links": [
+            { "label": "Anreise", "url": "/de/cinque-terre/getting-here" },
+            { "label": "Hotels", "url": "/de/cinque-terre/hotels" },
+            { "label": "Wanderwege", "url": "/de/cinque-terre/hiking" },
+            { "label": "Wetter", "url": "/de/cinque-terre/weather" }
+          ]
+        },
+        {
+          "title": "Erleben",
+          "links": [
+            { "label": "Restaurants", "url": "/de/cinque-terre/restaurants" },
+            { "label": "Aktivitäten", "url": "/de/cinque-terre/things-to-do" },
+            { "label": "Strände", "url": "/de/cinque-terre/beaches" },
+            { "label": "Bootstouren", "url": "/de/cinque-terre/boat-tours" }
+          ]
+        },
+        {
+          "title": "Hilfe",
+          "links": [
+            { "label": "FAQ", "url": "/de/cinque-terre/faq" },
+            { "label": "Karten", "url": "/de/cinque-terre/maps" },
+            { "label": "Insider-Tipps", "url": "/de/cinque-terre/insights" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" },
+        { "platform": "facebook", "url": "https://facebook.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "de",
@@ -12,5 +134,5 @@
   },
   "status": "draft",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

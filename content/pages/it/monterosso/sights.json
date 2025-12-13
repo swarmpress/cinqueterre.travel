@@ -1,16 +1,76 @@
 {
   "id": "ce24828b-e68a-4b31-b9ff-6634b52481bd",
   "slug": "/it/monterosso/sights",
-  "title": "Attrazioni",
+  "title": "Cosa Vedere a Monterosso",
   "page_type": "sights",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Attrazioni Monterosso - Cosa Vedere alle Cinque Terre",
+    "description": "Le principali attrazioni di Monterosso al Mare: Chiesa di San Giovanni Battista, Torre Aurora, Gigante, Convento dei Cappuccini e centro storico medievale.",
+    "keywords": "attrazioni monterosso, cosa vedere, chiesa san giovanni, torre aurora, il gigante, centro storico"
+  },
+  "body": [
+    {
+      "id": "hero-section",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Attrazioni di Monterosso",
+      "subheading": "Scopri i monumenti e i luoghi imperdibili del villaggio"
+    },
+    {
+      "id": "features-section",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Cosa Vedere",
+      "subheading": "I luoghi più importanti da non perdere",
+      "features": [
+        {
+          "name": "Chiesa di San Giovanni Battista",
+          "description": "Cattedrale gotico-ligure del XIII secolo con facciata a strisce bianche e nere. Rosone splendido."
+        },
+        {
+          "name": "Il Gigante (Nettuno)",
+          "description": "Statua monumentale di 14 metri sulla scogliera. Simbolo del villaggio, resti di villa liberty."
+        },
+        {
+          "name": "Torre Aurora",
+          "description": "Torre medievale del XVI secolo, parte del sistema difensivo. Oggi torre campanaria privata."
+        },
+        {
+          "name": "Convento dei Cappuccini",
+          "description": "Monastero del XVII secolo sulla collina. Chiostro, chiesa e vista panoramica. Opere di Van Dyck."
+        },
+        {
+          "name": "Oratorio della Confraternita dei Neri",
+          "description": "Cappella barocca con teschio e ossa sulla facciata. Affreschi e arredi sacri del XVIII secolo."
+        },
+        {
+          "name": "Centro Storico Medievale",
+          "description": "Vicoli stretti (caruggi), archi, case torri colorate e piazzette. Atmosfera autentica ligure."
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Esplora Monterosso",
+      "subheading": "Cammina tra storia, arte e tradizioni del borgo marinaro",
+      "primaryCta": {
+        "text": "Cosa Fare",
+        "url": "/it/monterosso/things-to-do"
+      },
+      "secondaryCta": {
+        "text": "Mappe",
+        "url": "/it/monterosso/maps"
+      }
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "it",
     "page_type": "sights"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

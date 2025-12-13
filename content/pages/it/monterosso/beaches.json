@@ -1,16 +1,76 @@
 {
   "id": "6aed36a3-3f09-44e6-913a-041455ebb27b",
   "slug": "/it/monterosso/beaches",
-  "title": "Spiagge",
+  "title": "Le Spiagge di Monterosso al Mare",
   "page_type": "beaches",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Spiagge di Monterosso - Le Migliori Spiagge di Sabbia delle Cinque Terre",
+    "description": "Scopri le spiagge di sabbia di Monterosso: Fegina e il centro storico. L'unico villaggio delle Cinque Terre con vere spiagge sabbiose.",
+    "keywords": "spiagge monterosso, fegina beach, spiaggia sabbia cinque terre, bagni monterosso, spiaggia centro storico"
+  },
+  "body": [
+    {
+      "id": "hero-section",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Le Spiagge di Monterosso",
+      "subheading": "L'unico villaggio delle Cinque Terre con vere spiagge di sabbia"
+    },
+    {
+      "id": "features-section",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Le Nostre Spiagge",
+      "subheading": "Due spiagge principali per tutti i gusti",
+      "features": [
+        {
+          "name": "Spiaggia di Fegina",
+          "description": "La spiaggia più grande con stabilimenti balneari attrezzati, lettini, ombrelloni e servizi completi."
+        },
+        {
+          "name": "Spiaggia del Centro Storico",
+          "description": "Spiaggia più piccola e caratteristica ai piedi del borgo antico, meno affollata e più autentica."
+        },
+        {
+          "name": "Sabbia Fine",
+          "description": "Le uniche vere spiagge sabbiose delle Cinque Terre, ideali per famiglie con bambini."
+        },
+        {
+          "name": "Stabilimenti Balneari",
+          "description": "Numerosi bagni privati con servizi: docce, spogliatoi, bar, ristoranti e noleggio attrezzature."
+        },
+        {
+          "name": "Spiaggia Libera",
+          "description": "Tratti di spiaggia pubblica gratuita disponibili su entrambe le spiagge principali."
+        },
+        {
+          "name": "Sport Acquatici",
+          "description": "Noleggio kayak, SUP, pedalò. Possibilità di snorkeling e immersioni nelle acque cristalline."
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Prenota la Tua Vacanza al Mare",
+      "subheading": "Trova l'alloggio perfetto vicino alle spiagge di Monterosso",
+      "primaryCta": {
+        "text": "Vedi Alloggi",
+        "url": "/it/monterosso/hotels"
+      },
+      "secondaryCta": {
+        "text": "Cosa Fare",
+        "url": "/it/monterosso/things-to-do"
+      }
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "it",
     "page_type": "beaches"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

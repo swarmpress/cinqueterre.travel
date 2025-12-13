@@ -1,16 +1,76 @@
 {
   "id": "593a2397-a6ae-48c2-a2c7-899defa702d6",
   "slug": "/it/monterosso/events",
-  "title": "Eventi",
+  "title": "Eventi e Festività a Monterosso",
   "page_type": "events",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Eventi a Monterosso - Festival e Tradizioni delle Cinque Terre",
+    "description": "Scopri gli eventi e le festività di Monterosso al Mare: sagre estive, feste religiose, eventi gastronomici e manifestazioni culturali durante tutto l'anno.",
+    "keywords": "eventi monterosso, festival cinque terre, sagre liguria, feste religiose, eventi estivi"
+  },
+  "body": [
+    {
+      "id": "hero-section",
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "heading": "Eventi e Festività",
+      "subheading": "Vivi le tradizioni autentiche di Monterosso durante tutto l'anno"
+    },
+    {
+      "id": "features-section",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "heading": "Eventi Principali",
+      "subheading": "Calendario delle celebrazioni più importanti",
+      "features": [
+        {
+          "name": "Festa di San Giovanni (24 Giugno)",
+          "description": "La festa patronale più importante con processione, fuochi d'artificio sul mare e bancarelle."
+        },
+        {
+          "name": "Salita dei Giganti (Maggio)",
+          "description": "Gara podistica impegnativa sui sentieri che circondano Monterosso, attira corridori da tutta Europa."
+        },
+        {
+          "name": "Sagra del Limone e Acciughe",
+          "description": "Evento gastronomico estivo dedicato ai prodotti tipici locali: limoni e acciughe di Monterosso."
+        },
+        {
+          "name": "Natale a Monterosso",
+          "description": "Mercatini natalizi, presepe vivente nel borgo antico e illuminazioni suggestive lungo il mare."
+        },
+        {
+          "name": "Concerti Estivi",
+          "description": "Rassegna musicale all'aperto sulla spiaggia e nella piazza principale durante i mesi estivi."
+        },
+        {
+          "name": "Festa dell'Uva (Settembre)",
+          "description": "Celebrazione della vendemmia con degustazioni di vino locale, Sciacchetrà e prodotti del territorio."
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "heading": "Pianifica la Tua Visita Durante gli Eventi",
+      "subheading": "Prenota in anticipo, gli alloggi si esauriscono rapidamente durante le festività",
+      "primaryCta": {
+        "text": "Trova Alloggio",
+        "url": "/it/monterosso/hotels"
+      },
+      "secondaryCta": {
+        "text": "Tutti gli Eventi",
+        "url": "/it/cinque-terre/events"
+      }
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "it",
     "page_type": "events"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

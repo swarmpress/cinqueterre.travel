@@ -1,16 +1,78 @@
 {
   "id": "77636cb3-200c-47ab-a289-bda4912e5789",
   "slug": "/en/corniglia/events",
-  "title": "Events",
+  "title": "Events in Corniglia",
   "page_type": "events",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Corniglia Events 2025 | Festivals & Local Celebrations",
+    "description": "Annual events and festivals in Corniglia. Wine harvest, patron saint festivals, local traditions, and seasonal celebrations.",
+    "keywords": ["Corniglia events", "Cinque Terre festivals", "wine harvest", "local traditions"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "eyebrow": "Corniglia Events",
+      "title": "Festivals & Celebrations",
+      "subtitle": "Experience authentic local traditions, wine harvest festivals, and patron saint celebrations.",
+      "buttons": [
+        { "text": "View Events", "url": "#events", "variant": "primary" },
+        { "text": "Back to Corniglia", "url": "/en/corniglia/overview", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Annual Events",
+      "title": "Corniglia Celebrations",
+      "features": [
+        {
+          "icon": "wine",
+          "title": "Grape Harvest (Sept-Oct)",
+          "description": "Celebrate the vendemmia with local wine producers. Taste new wine and experience ancient traditions."
+        },
+        {
+          "icon": "church",
+          "title": "Feast of San Pietro (June 29)",
+          "description": "Patron saint festival with religious procession, music, fireworks, and community dinner."
+        },
+        {
+          "icon": "food",
+          "title": "Lemon Festival (May)",
+          "description": "Celebrate Ligurian lemons with food stalls, tastings, and traditional recipes."
+        },
+        {
+          "icon": "music",
+          "title": "Summer Concerts (Jul-Aug)",
+          "description": "Evening concerts in the main square. Classical music, jazz, and Italian folk performances."
+        },
+        {
+          "icon": "lantern",
+          "title": "Luminaria (Aug 15)",
+          "description": "Ferragosto celebration with candles, lights, and evening festivities throughout the village."
+        },
+        {
+          "icon": "tradition",
+          "title": "Christmas Market (Dec)",
+          "description": "Small but charming holiday market with local crafts, food specialties, and mulled wine."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Experience Authentic Local Traditions",
+      "buttons": [
+        { "text": "Plan Your Visit", "url": "/en/corniglia/overview", "variant": "primary" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "corniglia",
     "lang": "en",
     "page_type": "events"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

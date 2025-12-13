@@ -4,7 +4,129 @@
   "title": "Sehenswürdigkeiten",
   "page_type": "sights",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Kulturerbe",
+      "title": "Sehenswürdigkeiten in Cinque Terre",
+      "subtitle": "Erkunden Sie mittelalterliche Burgen, historische Kirchen, bunte Dorfplätze und atemberaubende Aussichtspunkte. Jedes der fünf Dörfer bietet einzigartige Schätze und jahrhundertealte Geschichte.",
+      "buttons": [
+        { "text": "Top-Sehenswürdigkeiten", "url": "#sights", "variant": "primary" },
+        { "text": "Dörfer entdecken", "url": "/de/cinque-terre/overview", "variant": "secondary" }
+      ],
+      "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=1200&q=80"
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Highlights",
+      "title": "Unvergessliche Orte",
+      "features": [
+        {
+          "icon": "castle",
+          "title": "Castello Doria (Vernazza)",
+          "description": "Mittelalterliche Burg aus dem 11. Jahrhundert mit spektakulärem 360°-Panorama über Dorf und Meer."
+        },
+        {
+          "icon": "church",
+          "title": "San Giovanni Battista",
+          "description": "Gotische Kirche in Monterosso mit schwarz-weißer Fassade und bedeutender Kunstsammlung."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Manarola Krippe",
+          "description": "Weltgrößte beleuchtete Krippe am Hang mit über 15.000 Lichtern (Dezember-Januar)."
+        },
+        {
+          "icon": "sun",
+          "title": "Terrazza Santa Maria (Corniglia)",
+          "description": "Panoramaterrasse mit atemberaubendem Blick über die Küste und die Weinberge."
+        },
+        {
+          "icon": "wine-glass",
+          "title": "Weinbergterrassen",
+          "description": "UNESCO-geschützte Trockenmauern und steile Weinberge – über 1.000 Jahre Weinbaugeschichte."
+        },
+        {
+          "icon": "heart",
+          "title": "Via dell'Amore",
+          "description": "Der berühmte Liebespfad zwischen Riomaggiore und Manarola mit romantischen Ausblicken."
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "eyebrow": "Kulturelles Erbe",
+      "title": "Geschichte in Zahlen",
+      "stats": [
+        { "value": "1997", "label": "UNESCO-Welterbe" },
+        { "value": "12+", "label": "Historische Kirchen" },
+        { "value": "1000+", "label": "Jahre Geschichte" },
+        { "value": "5", "label": "Mittelalterliche Dörfer" }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Entdecken Sie die Geschichte",
+      "subtitle": "Tauchen Sie ein in die faszinierende Geschichte und Kultur der Cinque Terre mit unseren detaillierten Dorf-Führern.",
+      "buttons": [
+        { "text": "Alle Dörfer ansehen", "url": "/de/cinque-terre/overview", "variant": "primary" },
+        { "text": "Wanderwege erkunden", "url": "/de/cinque-terre/hiking", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "Ihr kompletter Reiseführer zu Italiens schönsten Küstendörfern.",
+      "copyright": "© 2025 Cinqueterre.travel. Alle Rechte vorbehalten.",
+      "columns": [
+        {
+          "title": "Dörfer",
+          "links": [
+            { "label": "Monterosso", "url": "/de/monterosso" },
+            { "label": "Vernazza", "url": "/de/vernazza" },
+            { "label": "Corniglia", "url": "/de/corniglia" },
+            { "label": "Manarola", "url": "/de/manarola" },
+            { "label": "Riomaggiore", "url": "/de/riomaggiore" }
+          ]
+        },
+        {
+          "title": "Reiseplanung",
+          "links": [
+            { "label": "Anreise", "url": "/de/cinque-terre/getting-here" },
+            { "label": "Unterkünfte", "url": "/de/cinque-terre/hotels" },
+            { "label": "Wanderwege", "url": "/de/cinque-terre/hiking" },
+            { "label": "Wetter", "url": "/de/cinque-terre/weather" }
+          ]
+        },
+        {
+          "title": "Erleben",
+          "links": [
+            { "label": "Restaurants", "url": "/de/cinque-terre/restaurants" },
+            { "label": "Aktivitäten", "url": "/de/cinque-terre/things-to-do" },
+            { "label": "Strände", "url": "/de/cinque-terre/beaches" },
+            { "label": "Veranstaltungen", "url": "/de/cinque-terre/events" }
+          ]
+        },
+        {
+          "title": "Hilfe",
+          "links": [
+            { "label": "FAQ", "url": "/de/cinque-terre/faq" },
+            { "label": "Karten", "url": "/de/cinque-terre/maps" },
+            { "label": "Insider-Tipps", "url": "/de/cinque-terre/insights" }
+          ]
+        }
+      ],
+      "socialLinks": [
+        { "platform": "instagram", "url": "https://instagram.com/cinqueterre" },
+        { "platform": "facebook", "url": "https://facebook.com/cinqueterre" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "cinque-terre",
     "lang": "de",
@@ -12,5 +134,5 @@
   },
   "status": "draft",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }

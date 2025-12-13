@@ -1,16 +1,55 @@
 {
   "id": "c64510c0-efcf-4ae2-b00f-6e4896526abf",
   "slug": "/en/monterosso/weather",
-  "title": "Weather",
+  "title": "Monterosso Weather",
   "page_type": "weather",
-  "seo": {},
-  "body": [],
+  "seo": {
+    "title": "Monterosso Weather 2025 | Best Time to Visit",
+    "description": "Weather in Monterosso al Mare. Best months, temperatures, and what to pack for your visit.",
+    "keywords": ["Monterosso weather", "best time visit", "Cinque Terre climate"]
+  },
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "simple-centered",
+      "eyebrow": "Monterosso al Mare",
+      "title": "Weather in Monterosso",
+      "subtitle": "Mediterranean climate with mild winters and warm summers. The beach village enjoys the best weather for swimming.",
+      "buttons": [
+        { "text": "Seasonal Guide", "url": "#seasons", "variant": "primary" },
+        { "text": "Back to Monterosso", "url": "/en/monterosso", "variant": "secondary" }
+      ]
+    },
+    {
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "eyebrow": "Seasons",
+      "title": "When to Visit",
+      "features": [
+        { "icon": "flower", "title": "Spring (Apr-May)", "description": "18-22°C. Ideal hiking weather, fewer crowds." },
+        { "icon": "sun", "title": "Summer (Jun-Aug)", "description": "25-30°C. Beach season! Hot, crowded but vibrant." },
+        { "icon": "leaf", "title": "Autumn (Sep-Oct)", "description": "20-25°C. Best time! Warm sea, grape harvest." },
+        { "icon": "rain", "title": "Winter (Nov-Mar)", "description": "8-14°C. Mild but quiet. Some closures." },
+        { "icon": "swim", "title": "Sea Temperature", "description": "18-25°C May-October. Perfect for swimming." },
+        { "icon": "umbrella", "title": "Rain", "description": "Wettest in October-November. Pack a jacket!" }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered",
+      "title": "Plan Your Visit",
+      "buttons": [
+        { "text": "Beaches", "url": "/en/monterosso/beaches", "variant": "primary" },
+        { "text": "Back to Monterosso", "url": "/en/monterosso", "variant": "secondary" }
+      ]
+    }
+  ],
   "metadata": {
     "city": "monterosso",
     "lang": "en",
     "page_type": "weather"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T22:00:00.000Z"
 }

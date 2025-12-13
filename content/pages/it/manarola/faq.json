@@ -4,13 +4,190 @@
   "title": "FAQ",
   "page_type": "faq",
   "seo": {},
-  "body": [],
+  "body": [
+    {
+      "type": "hero-section",
+      "variant": "split-with-image",
+      "eyebrow": "Informazioni Utili",
+      "title": "Domande Frequenti su Manarola",
+      "subtitle": "Tutte le risposte che cerchi per pianificare la tua visita: trasporti, alloggi, sentieri, costi, periodi migliori e consigli pratici.",
+      "buttons": [
+        {
+          "text": "Vedi FAQ",
+          "url": "#faq",
+          "variant": "primary"
+        },
+        {
+          "text": "Guida Completa",
+          "url": "/it/manarola",
+          "variant": "secondary"
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?w=1200&q=80"
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Prima della Visita",
+      "title": "Pianificazione del Viaggio",
+      "items": [
+        {
+          "question": "Quanti giorni servono?",
+          "answer": "Minimo 2-3 giorni per visitare tutti e 5 i villaggi. Ideale: 4-5 giorni per includere trekking, relax al mare e degustazioni. 1 settimana se vuoi vivere il territorio con calma."
+        },
+        {
+          "question": "Qual è il periodo migliore?",
+          "answer": "Aprile-maggio e settembre-ottobre. Temperature ideali (18-24°C), meno folla, prezzi migliori. Luglio-agosto: molto caldo e affollato."
+        },
+        {
+          "question": "Quanto costa una visita?",
+          "answer": "Budget medio: €80-120/giorno (alloggio €50-80, pasti €20-30, trasporti €10). Luxury: €200+/giorno. Backpacker: €50-70/giorno."
+        },
+        {
+          "question": "Serve prenotare in anticipo?",
+          "answer": "Sì, soprattutto in alta stagione (maggio-settembre). Alloggi: 2-3 mesi prima. Ristoranti vista mare: 3-7 giorni prima. Treni: non serve prenotazione."
+        },
+        {
+          "question": "Come arrivo?",
+          "answer": "Treno è l'opzione migliore. Tutti i villaggi sulla linea Genova-La Spezia. Aeroporti: Genova (90km), Pisa (80km). Auto sconsigliata: parcheggi limitati e costosi."
+        },
+        {
+          "question": "Serve la Cinque Terre Card?",
+          "answer": "Sì se vuoi fare sentieri e muoverti in treno. Include: treni illimitati + Sentiero Azzurro. €18.20 (1 giorno), €33 (2 giorni), €47 (3 giorni)."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "variant": "two-columns",
+      "eyebrow": "Durante la Visita",
+      "title": "Consigli Pratici",
+      "items": [
+        {
+          "question": "Quale villaggio è il più bello?",
+          "answer": "Soggettivo! Vernazza: il più pittoresco. Manarola: il più fotografato. Monterosso: spiagge. Riomaggiore: il più vivace. Corniglia: il più autentico e tranquillo."
+        },
+        {
+          "question": "Dove dormire?",
+          "answer": "Dipende: Monterosso per spiagge e servizi, Vernazza per atmosfera, Manarola per romanticismo, Riomaggiore per vita notturna, Corniglia per tranquillità. O La Spezia: più economico."
+        },
+        {
+          "question": "I sentieri sono difficili?",
+          "answer": "Varia. Via dell'Amore: facile e pianeggiante (chiusa). Vernazza-Monterosso: impegnativo (scale ripide, 2h). Serve allenamento base e scarpe da trekking."
+        },
+        {
+          "question": "Posso visitare con bambini?",
+          "answer": "Sì! Spiaggia di Monterosso, treni tra villaggi, sentieri facili ai santuari. Evita sentieri impegnativi. Attenzione a scale e dislivelli."
+        },
+        {
+          "question": "Dove mangiare?",
+          "answer": "Trofie al pesto, acciughe, pesce fresco. Evita ristoranti turistici sul lungomare. Cerca trattorie nei vicoli. Prenota in anticipo."
+        },
+        {
+          "question": "È accessibile ai disabili?",
+          "answer": "Limitato. Centri storici con scale e vicoli stretti. Monterosso è il più accessibile (lungomare piano, spiaggia). Verifica sempre strutture specifiche."
+        }
+      ]
+    },
+    {
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "title": "Altre Domande?",
+      "subtitle": "Esplora le guide dettagliate per ogni villaggio e scopri tutti i segreti delle Cinque Terre.",
+      "buttons": [
+        {
+          "text": "Guida Completa",
+          "url": "/it/cinque-terre/overview",
+          "variant": "primary"
+        },
+        {
+          "text": "Contattaci",
+          "url": "#contatti",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "companyName": "Cinqueterre.travel",
+      "companyDescription": "La tua guida completa ai villaggi costieri più belli d'Italia.",
+      "copyright": "© 2025 Cinqueterre.travel. Tutti i diritti riservati.",
+      "columns": [
+        {
+          "title": "Villaggi",
+          "links": [
+            {
+              "label": "Monterosso",
+              "url": "/it/monterosso"
+            },
+            {
+              "label": "Vernazza",
+              "url": "/it/vernazza"
+            },
+            {
+              "label": "Corniglia",
+              "url": "/it/corniglia"
+            },
+            {
+              "label": "Manarola",
+              "url": "/it/manarola"
+            },
+            {
+              "label": "Riomaggiore",
+              "url": "/it/riomaggiore"
+            }
+          ]
+        },
+        {
+          "title": "Pianifica",
+          "links": [
+            {
+              "label": "Come Arrivare",
+              "url": "/it/cinque-terre/getting-here"
+            },
+            {
+              "label": "Dove Dormire",
+              "url": "/it/cinque-terre/hotels"
+            },
+            {
+              "label": "Sentieri",
+              "url": "/it/cinque-terre/hiking"
+            }
+          ]
+        },
+        {
+          "title": "Esplora",
+          "links": [
+            {
+              "label": "Ristoranti",
+              "url": "/it/cinque-terre/restaurants"
+            },
+            {
+              "label": "Eventi",
+              "url": "/it/cinque-terre/events"
+            },
+            {
+              "label": "Spiagge",
+              "url": "/it/cinque-terre/beaches"
+            }
+          ]
+        }
+      ],
+      "socialLinks": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/cinqueterre"
+        }
+      ]
+    }
+  ],
   "metadata": {
     "city": "manarola",
     "lang": "it",
     "page_type": "faq"
   },
-  "status": "draft",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-04T13:18:46.911Z"
+  "updated_at": "2025-12-12T23:00:00.000Z"
 }
