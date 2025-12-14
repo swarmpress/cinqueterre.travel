@@ -1,0 +1,352 @@
+{
+  "id": "cinqueterre-travel",
+  "name": "Cinque Terre Travel Guide",
+  "description": "The ultimate travel resource for Cinque Terre, featuring comprehensive guides to all five villages, hiking trails, restaurants, hotels, weather information, and local culture.",
+  "version": "1.0.0",
+
+  "locales": ["en", "de", "it", "fr"],
+  "defaultLocale": "en",
+
+  "types": {
+    "pages": {
+      "landing-page": {
+        "id": "landing-page",
+        "name": "Landing Page",
+        "kind": "page",
+        "icon": "home",
+        "color": "#3B82F6",
+        "description": "Main entry point for the website or a section",
+        "schema": {
+          "sections": [
+            { "type": "hero-section", "required": true },
+            { "type": "feature-section", "required": false },
+            { "type": "content-section", "required": true },
+            { "type": "cta-section", "required": false }
+          ]
+        },
+        "prompts": {
+          "tone": "welcoming, inspiring, informative",
+          "writingPrompt": "Create a compelling landing page that immediately captures the reader's attention and makes them want to explore Cinque Terre. Focus on the unique beauty and experiences available.",
+          "keywords": ["Cinque Terre", "Italian Riviera", "UNESCO", "travel guide"]
+        },
+        "display": {
+          "title_field": "title",
+          "image_field": "hero.image"
+        }
+      },
+      "village-guide": {
+        "id": "village-guide",
+        "name": "Village Guide",
+        "kind": "page",
+        "icon": "map-pin",
+        "color": "#10B981",
+        "description": "Comprehensive guide to a Cinque Terre village",
+        "schema": {
+          "sections": [
+            { "type": "hero-section", "required": true },
+            { "type": "content-section", "required": true },
+            { "type": "feature-section", "required": true },
+            { "type": "gallery-section", "required": false },
+            { "type": "faq-section", "required": false },
+            { "type": "cta-section", "required": true }
+          ]
+        },
+        "prompts": {
+          "tone": "informative, authentic, practical",
+          "writingPrompt": "Write a comprehensive guide to this village that helps travelers plan their visit. Include historical context, must-see attractions, local tips, and practical information. Make it feel personal and authentic.",
+          "keywords": ["village name", "things to do", "restaurants", "hotels", "hiking"],
+          "requiredSections": ["overview", "attractions", "dining", "accommodation", "getting there"]
+        },
+        "display": {
+          "title_field": "title",
+          "image_field": "hero.image"
+        }
+      },
+      "topic-page": {
+        "id": "topic-page",
+        "name": "Topic Page",
+        "kind": "page",
+        "icon": "file-text",
+        "color": "#8B5CF6",
+        "description": "Focused page on a specific topic (hiking, restaurants, weather, etc.)",
+        "schema": {
+          "sections": [
+            { "type": "hero-section", "required": true },
+            { "type": "content-section", "required": true },
+            { "type": "feature-section", "required": false },
+            { "type": "faq-section", "required": false }
+          ]
+        },
+        "prompts": {
+          "tone": "helpful, detailed, practical",
+          "writingPrompt": "Create an in-depth resource page on this specific topic. Provide actionable information, insider tips, and help travelers make informed decisions."
+        },
+        "display": {
+          "title_field": "title"
+        }
+      }
+    },
+    "collections": {
+      "restaurants": {
+        "id": "restaurants",
+        "name": "Restaurants",
+        "kind": "entity",
+        "icon": "utensils",
+        "color": "#F97316",
+        "description": "Restaurant data for Cinque Terre villages",
+        "prompts": {
+          "researchPrompt": "Research this restaurant using official sources, review sites (TripAdvisor, Google, Yelp), and local guides. Verify current opening hours, menu highlights, and recent reviews.",
+          "writingPrompt": "Write an honest, helpful review that helps travelers decide if this restaurant suits their needs. Include atmosphere, signature dishes, price range, and practical tips.",
+          "keywords": ["restaurant name", "village", "cuisine type", "price range"]
+        },
+        "display": {
+          "title_field": "name",
+          "summary_field": "details.atmosphere",
+          "list_fields": ["name", "village", "details.price_range.level", "ratings.average_rating"]
+        }
+      },
+      "accommodations": {
+        "id": "accommodations",
+        "name": "Accommodations",
+        "kind": "entity",
+        "icon": "bed",
+        "color": "#EC4899",
+        "description": "Hotels, B&Bs, and apartments in Cinque Terre",
+        "prompts": {
+          "researchPrompt": "Research this accommodation using booking sites (Booking.com, TripAdvisor, Airbnb), official website, and recent reviews. Verify amenities, pricing, and current availability.",
+          "writingPrompt": "Write a balanced review that helps travelers choose the right accommodation. Highlight what makes it special, who it's best suited for, and any potential drawbacks.",
+          "keywords": ["hotel name", "village", "room type", "price range", "amenities"]
+        },
+        "display": {
+          "title_field": "name",
+          "summary_field": "type.category",
+          "list_fields": ["name", "village", "type.category", "pricing.price_level", "ratings.average_rating"]
+        }
+      },
+      "hikes": {
+        "id": "hikes",
+        "name": "Hiking Trails",
+        "kind": "entity",
+        "icon": "mountain",
+        "color": "#22C55E",
+        "description": "Hiking trails in and around Cinque Terre",
+        "prompts": {
+          "researchPrompt": "Research this hiking trail using official Cinque Terre park information, hiking guides, and recent traveler reports. Verify current trail status, difficulty, and any closures.",
+          "writingPrompt": "Create a practical hiking guide that helps travelers plan their hike. Include trail conditions, difficulty level, scenic highlights, and essential tips.",
+          "keywords": ["trail name", "difficulty", "duration", "views", "Sentiero Azzurro"]
+        },
+        "display": {
+          "title_field": "name",
+          "summary_field": "difficulty",
+          "list_fields": ["name", "difficulty", "duration", "villages"]
+        }
+      },
+      "events": {
+        "id": "events",
+        "name": "Events",
+        "kind": "entity",
+        "icon": "calendar",
+        "color": "#06B6D4",
+        "description": "Festivals, events, and celebrations in Cinque Terre",
+        "prompts": {
+          "researchPrompt": "Research this event using official tourism sources, local news, and community calendars. Verify dates, times, and any participation requirements.",
+          "writingPrompt": "Write an engaging description that captures the atmosphere and cultural significance of this event. Help travelers understand what to expect and how to participate."
+        },
+        "display": {
+          "title_field": "name",
+          "summary_field": "description",
+          "list_fields": ["name", "date", "village", "type"]
+        }
+      },
+      "pois": {
+        "id": "pois",
+        "name": "Points of Interest",
+        "kind": "entity",
+        "icon": "star",
+        "color": "#EAB308",
+        "description": "Attractions and notable places in Cinque Terre",
+        "prompts": {
+          "researchPrompt": "Research this point of interest using travel guides, official sources, and visitor reviews. Gather historical context, visiting hours, and visitor tips.",
+          "writingPrompt": "Write an informative description that brings this place to life. Include historical significance, what makes it special, and practical visiting information."
+        },
+        "display": {
+          "title_field": "name",
+          "summary_field": "description",
+          "list_fields": ["name", "village", "type"]
+        }
+      }
+    }
+  },
+
+  "sitemap": {
+    "nodes": [
+      {
+        "id": "home",
+        "type": "landing-page",
+        "position": { "x": 400, "y": 50 },
+        "data": {
+          "slug": "/",
+          "title": { "en": "Cinque Terre Travel Guide", "de": "Cinque Terre Reisefuhrer" },
+          "status": "published"
+        }
+      },
+      {
+        "id": "cinque-terre",
+        "type": "landing-page",
+        "position": { "x": 400, "y": 150 },
+        "data": {
+          "slug": "/cinque-terre",
+          "title": { "en": "About Cinque Terre", "de": "Uber Cinque Terre" },
+          "status": "published"
+        }
+      },
+      {
+        "id": "monterosso",
+        "type": "village-guide",
+        "position": { "x": 100, "y": 300 },
+        "data": {
+          "slug": "/monterosso",
+          "title": { "en": "Monterosso al Mare", "de": "Monterosso al Mare" },
+          "status": "published",
+          "prompts": {
+            "variables": { "village": "Monterosso", "nickname": "the beach village" }
+          }
+        }
+      },
+      {
+        "id": "vernazza",
+        "type": "village-guide",
+        "position": { "x": 250, "y": 300 },
+        "data": {
+          "slug": "/vernazza",
+          "title": { "en": "Vernazza", "de": "Vernazza" },
+          "status": "published",
+          "prompts": {
+            "variables": { "village": "Vernazza", "nickname": "the jewel of Cinque Terre" }
+          }
+        }
+      },
+      {
+        "id": "corniglia",
+        "type": "village-guide",
+        "position": { "x": 400, "y": 300 },
+        "data": {
+          "slug": "/corniglia",
+          "title": { "en": "Corniglia", "de": "Corniglia" },
+          "status": "published",
+          "prompts": {
+            "variables": { "village": "Corniglia", "nickname": "the hilltop village" }
+          }
+        }
+      },
+      {
+        "id": "manarola",
+        "type": "village-guide",
+        "position": { "x": 550, "y": 300 },
+        "data": {
+          "slug": "/manarola",
+          "title": { "en": "Manarola", "de": "Manarola" },
+          "status": "published",
+          "prompts": {
+            "variables": { "village": "Manarola", "nickname": "the wine village" }
+          }
+        }
+      },
+      {
+        "id": "riomaggiore",
+        "type": "village-guide",
+        "position": { "x": 700, "y": 300 },
+        "data": {
+          "slug": "/riomaggiore",
+          "title": { "en": "Riomaggiore", "de": "Riomaggiore" },
+          "status": "published",
+          "prompts": {
+            "variables": { "village": "Riomaggiore", "nickname": "the colorful gateway" }
+          }
+        }
+      },
+      {
+        "id": "collection-restaurants",
+        "type": "collection:restaurants",
+        "position": { "x": 100, "y": 500 },
+        "data": {
+          "filter": {}
+        }
+      },
+      {
+        "id": "collection-accommodations",
+        "type": "collection:accommodations",
+        "position": { "x": 300, "y": 500 },
+        "data": {
+          "filter": {}
+        }
+      },
+      {
+        "id": "collection-hikes",
+        "type": "collection:hikes",
+        "position": { "x": 500, "y": 500 },
+        "data": {
+          "filter": {}
+        }
+      },
+      {
+        "id": "collection-events",
+        "type": "collection:events",
+        "position": { "x": 700, "y": 500 },
+        "data": {
+          "filter": {}
+        }
+      }
+    ],
+    "edges": [
+      { "id": "e-home-cinque-terre", "source": "home", "target": "cinque-terre", "type": "parent-child" },
+      { "id": "e-cinque-terre-monterosso", "source": "cinque-terre", "target": "monterosso", "type": "parent-child" },
+      { "id": "e-cinque-terre-vernazza", "source": "cinque-terre", "target": "vernazza", "type": "parent-child" },
+      { "id": "e-cinque-terre-corniglia", "source": "cinque-terre", "target": "corniglia", "type": "parent-child" },
+      { "id": "e-cinque-terre-manarola", "source": "cinque-terre", "target": "manarola", "type": "parent-child" },
+      { "id": "e-cinque-terre-riomaggiore", "source": "cinque-terre", "target": "riomaggiore", "type": "parent-child" },
+      { "id": "e-monterosso-restaurants", "source": "monterosso", "target": "collection-restaurants", "type": "collection-link" },
+      { "id": "e-monterosso-accommodations", "source": "monterosso", "target": "collection-accommodations", "type": "collection-link" },
+      { "id": "e-vernazza-restaurants", "source": "vernazza", "target": "collection-restaurants", "type": "collection-link" },
+      { "id": "e-vernazza-accommodations", "source": "vernazza", "target": "collection-accommodations", "type": "collection-link" },
+      { "id": "e-cinque-terre-hikes", "source": "cinque-terre", "target": "collection-hikes", "type": "collection-link" },
+      { "id": "e-cinque-terre-events", "source": "cinque-terre", "target": "collection-events", "type": "collection-link" }
+    ]
+  },
+
+  "agentConfig": {
+    "contentProduction": {
+      "enabled": true,
+      "autoResearch": true,
+      "languages": ["en", "de"],
+      "defaultWriter": null,
+      "defaultEditor": null
+    },
+    "publishing": {
+      "autoPublish": false,
+      "requireApproval": true,
+      "deployBranch": "main",
+      "deployPath": "/"
+    },
+    "seo": {
+      "enabled": true,
+      "targetKeywords": [
+        "Cinque Terre",
+        "Italian Riviera",
+        "Cinque Terre travel guide",
+        "Cinque Terre villages",
+        "Monterosso",
+        "Vernazza",
+        "Corniglia",
+        "Manarola",
+        "Riomaggiore"
+      ],
+      "competitors": [
+        "visitcinqueterre.it",
+        "cinqueterre.eu.com"
+      ]
+    }
+  },
+
+  "updatedAt": "2025-12-13T10:00:00.000Z"
+}
