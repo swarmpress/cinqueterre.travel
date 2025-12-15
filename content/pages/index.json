@@ -63,484 +63,516 @@
   },
   "body": [
     {
+      "title": "Discover the True Cinque Terre",
+      "subtitle": "Five ancient villages where time moves differently, connected by coastal trails, local traditions, and stories worth telling.",
+      "cta": {
+        "text": "Start Planning",
+        "url": "/planning"
+      },
+      "id": "section-0",
       "type": "hero-section",
       "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?w=1200&q=80",
-      "eyebrow": {
-        "en": "UNESCO World Heritage",
-        "de": "Cinque Terre, Italien",
-        "fr": "Cinque Terre, Italie",
-        "it": "Patrimonio UNESCO"
-      },
-      "title": {
-        "en": "Discover Cinque Terre",
-        "de": "Entdecken Sie die Fünf Länder",
-        "fr": "Découvrez les Cinq Terres",
-        "it": "Scopri le Cinque Terre"
-      },
-      "subtitle": {
-        "en": "Five ancient fishing villages clinging to dramatic cliffs along Italy's stunning Ligurian coast. A place where colorful houses cascade down to crystal-clear waters, where ancient footpaths wind through vineyards, and where time seems to slow down.",
-        "de": "Fünf farbenfrohe Dörfer an dramatischen Klippen. Wanderwege mit Meerblick, frische Meeresfrüchte und italienische Authentizität an der ligurischen Küste.",
-        "fr": "Cinq villages colorés sur des falaises spectaculaires. Sentiers côtiers, fruits de mer frais et authenticité italienne sur la Riviera ligure.",
-        "it": "Cinque antichi villaggi di pescatori aggrappati a scogliere spettacolari lungo la stupenda costa ligure italiana. Un luogo dove case colorate scendono verso acque cristalline, dove antichi sentieri si snodano tra i vigneti e dove il tempo sembra fermarsi."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Explore the Villages",
-            "de": "Reise planen",
-            "fr": "Planifier votre voyage",
-            "it": "Esplora i Villaggi"
-          },
-          "url": {
-            "en": "#villages",
-            "de": "#villages",
-            "fr": "#villages",
-            "it": "#villaggi"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Plan Your Trip",
-            "de": "Alle Wanderwege",
-            "fr": "Randonnées",
-            "it": "Pianifica il Viaggio"
-          },
-          "url": {
-            "en": "#plan",
-            "de": "/de/wanderungen",
-            "fr": "/fr/randonnees",
-            "it": "#pianifica"
-          },
-          "variant": "secondary"
-        }
-      ],
-      "id": "section-0",
       "prompts": {
-        "writingPrompt": "Write a compelling headline. "
+        "generatedAt": "2025-12-15T13:52:34.799Z",
+        "source": "ai",
+        "writingPrompt": "Write content for the hero-section section on the \"Cinque Terre Travel Guide\" page. Target audience: The target audience for a travel portal about the Cinque Terre consists of several closely related g...",
+        "keywords": [
+          "Cinque Terre travel guide",
+          "Cinque Terre villages",
+          "Monterosso al Mare",
+          "Vernazza",
+          "Corniglia",
+          "Manarola",
+          "Riomaggiore",
+          "Cinque Terre itinerary",
+          "Cinque Terre things to do",
+          "Cinque Terre hiking"
+        ],
+        "fieldHints": {
+          "title": {
+            "prompt": "Write a compelling headline that captures attention for The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experiences.\n\nAt its core, the portal addresses experience-driven leisure travelers. These are international visitors, often couples or solo travelers, who are planning a short to medium-length stay and want to understand what makes the Cinque Terre unique. They are less interested in generic sightseeing lists and more focused on atmosphere, beauty, and authenticity. They look for guidance that helps them choose the right village, the right season, and the right pace, and they value narrative explanations over transactional content.\n\nClosely connected to this group are active and outdoor-oriented travelers. Many of them come specifically for hiking, coastal walks, and photography. They tend to travel outside peak summer months and are highly attentive to practical details such as trail conditions, weather, crowd levels, and safety. For them, the portal serves as a trusted companion that combines inspiration with reliable, up-to-date information.\n\nAnother important audience is made up of slow-travel and culture-focused visitors. These travelers are interested in local life, food, wine, traditions, and history rather than iconic viewpoints alone. They often stay longer, return multiple times, or use the Cinque Terre as a base to explore Liguria more deeply. They appreciate editorial content, background stories, and insights that go beyond what is commonly shared on social media.\n\nIn addition, the portal appeals to planners and researchers who enjoy preparing their trips in detail. This includes first-time visitors who want reassurance and structure, as well as experienced Italy travelers who compare destinations and itineraries carefully. For them, the portal functions as a comprehensive reference that brings clarity and confidence to their planning process.\n\nOverall, the target audience is not defined primarily by age or nationality, but by mindset. It consists of travelers who value context, storytelling, and informed recommendations; who prefer depth over speed; and who see the Cinque Terre not as a checklist destination, but as a place to be understood, experienced, and remembered.",
+            "maxLength": 80,
+            "generatedPreview": "Discover the True Cinque Terre"
+          },
+          "subtitle": {
+            "prompt": "Write supporting text that expands on the headline and provides context",
+            "maxLength": 200,
+            "generatedPreview": "Five ancient villages where time moves differently, connected by coastal trails, local traditions, a..."
+          },
+          "eyebrow": {
+            "prompt": "Write a short category label or teaser (2-4 words)",
+            "maxLength": 40
+          },
+          "backgroundImage": {
+            "prompt": "Full-width background image that sets the visual tone",
+            "style": "photographic",
+            "aspectRatio": "16:9",
+            "mood": "inviting, professional"
+          },
+          "image": {
+            "prompt": "Featured image that supports the section content",
+            "style": "photographic",
+            "mood": "inviting, professional"
+          },
+          "screenshot": {
+            "prompt": "Product or app screenshot showing key functionality",
+            "style": "photographic",
+            "aspectRatio": "16:9",
+            "mood": "inviting, professional"
+          },
+          "images": {
+            "prompt": "Gallery of related images that tell a visual story",
+            "style": "photographic",
+            "mood": "inviting, professional"
+          }
+        }
       },
-      "ai_hints": {}
+      "ai_hints": {
+        "generatedAt": "2025-12-15T13:52:34.799Z",
+        "source": "ai",
+        "audience": "The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experie...",
+        "purpose": "To serve as a comprehensive yet curated travel companion for the Cinque Terre, inspiring travelers through high-quality, trustworthy, and story-driven content while supporting them with practical, dec...",
+        "uniqueValue": "A deeply curated, context-rich Cinque Terre travel portal that combines editorial storytelling with practical, up-to-date guidance—helping travelers understand not just what to see, but when, why, and how to experience the region in an authentic, well-informed, and unhurried way.",
+        "wordRange": {
+          "min": 30,
+          "max": 80
+        }
+      }
     },
     {
-      "type": "stats-section",
-      "variant": "simple-grid",
-      "eyebrow": {
-        "en": "The Region",
-        "it": "La Regione"
-      },
-      "title": {
-        "en": "Cinque Terre at a Glance",
-        "it": "Cinque Terre in Numeri"
-      },
+      "heading": "The Cinque Terre by Numbers",
       "stats": [
         {
-          "value": {
-            "en": "5",
-            "de": "5",
-            "fr": "5",
-            "it": "5"
-          },
-          "label": {
-            "en": "UNESCO Villages",
-            "de": "Malerische Dörfer",
-            "fr": "Villages pittoresques",
-            "it": "Villaggi UNESCO"
-          }
+          "value": "5",
+          "label": "Ancient Villages",
+          "description": "Each with its own character and story spanning centuries"
         },
         {
-          "value": {
-            "en": "1997",
-            "de": "12km",
-            "fr": "12km",
-            "it": "1997"
-          },
-          "label": {
-            "en": "World Heritage Year",
-            "de": "Küstenwanderwege",
-            "fr": "Sentiers côtiers",
-            "it": "Anno Patrimonio"
-          }
+          "value": "1997",
+          "label": "UNESCO World Heritage",
+          "description": "Recognized for outstanding universal value"
         },
         {
-          "value": {
-            "en": "120km",
-            "de": "1997",
-            "fr": "1997",
-            "it": "120km"
-          },
-          "label": {
-            "en": "Hiking Trails",
-            "de": "UNESCO Welterbe",
-            "fr": "Patrimoine UNESCO",
-            "it": "Sentieri"
-          }
+          "value": "12km",
+          "label": "Coastal Stretch",
+          "description": "Of dramatic cliffs, vineyards, and Mediterranean beauty"
         },
         {
-          "value": {
-            "en": "2.5M",
-            "de": "300+",
-            "fr": "300+",
-            "it": "2,5M"
-          },
-          "label": {
-            "en": "Annual Visitors",
-            "de": "Sonnentage",
-            "fr": "Jours de soleil",
-            "it": "Visitatori/Anno"
-          }
+          "value": "7",
+          "label": "Historic Trails",
+          "description": "Ancient pathways connecting villages and terraced landscapes"
+        },
+        {
+          "value": "1000+",
+          "label": "Years of History",
+          "description": "From medieval origins to living cultural heritage"
+        },
+        {
+          "value": "2.5M",
+          "label": "Annual Visitors",
+          "description": "Drawn to authentic Italian coastal culture"
         }
       ],
-      "id": "section-1"
+      "id": "section-1",
+      "type": "stats-section",
+      "variant": "simple-grid",
+      "prompts": {
+        "generatedAt": "2025-12-15T13:52:44.412Z",
+        "source": "ai",
+        "writingPrompt": "Write content for the stats-section section on the \"Cinque Terre Travel Guide\" page. Target audience: The target audience for a travel portal about the Cinque Terre consists of several closely related g...",
+        "keywords": [
+          "Cinque Terre travel guide",
+          "Cinque Terre villages",
+          "Monterosso al Mare",
+          "Vernazza",
+          "Corniglia",
+          "Manarola",
+          "Riomaggiore",
+          "Cinque Terre itinerary",
+          "Cinque Terre things to do",
+          "Cinque Terre hiking"
+        ],
+        "fieldHints": {
+          "eyebrow": {
+            "prompt": "Write a short category label or teaser (2-4 words)",
+            "maxLength": 40
+          },
+          "title": {
+            "prompt": "Write a compelling headline that captures attention for The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experiences.\n\nAt its core, the portal addresses experience-driven leisure travelers. These are international visitors, often couples or solo travelers, who are planning a short to medium-length stay and want to understand what makes the Cinque Terre unique. They are less interested in generic sightseeing lists and more focused on atmosphere, beauty, and authenticity. They look for guidance that helps them choose the right village, the right season, and the right pace, and they value narrative explanations over transactional content.\n\nClosely connected to this group are active and outdoor-oriented travelers. Many of them come specifically for hiking, coastal walks, and photography. They tend to travel outside peak summer months and are highly attentive to practical details such as trail conditions, weather, crowd levels, and safety. For them, the portal serves as a trusted companion that combines inspiration with reliable, up-to-date information.\n\nAnother important audience is made up of slow-travel and culture-focused visitors. These travelers are interested in local life, food, wine, traditions, and history rather than iconic viewpoints alone. They often stay longer, return multiple times, or use the Cinque Terre as a base to explore Liguria more deeply. They appreciate editorial content, background stories, and insights that go beyond what is commonly shared on social media.\n\nIn addition, the portal appeals to planners and researchers who enjoy preparing their trips in detail. This includes first-time visitors who want reassurance and structure, as well as experienced Italy travelers who compare destinations and itineraries carefully. For them, the portal functions as a comprehensive reference that brings clarity and confidence to their planning process.\n\nOverall, the target audience is not defined primarily by age or nationality, but by mindset. It consists of travelers who value context, storytelling, and informed recommendations; who prefer depth over speed; and who see the Cinque Terre not as a checklist destination, but as a place to be understood, experienced, and remembered.",
+            "maxLength": 80
+          },
+          "subtitle": {
+            "prompt": "Write supporting text that expands on the headline and provides context",
+            "maxLength": 200
+          },
+          "stats": {
+            "prompt": "Present compelling statistics with clear labels"
+          },
+          "image": {
+            "prompt": "Featured image that supports the section content",
+            "style": "photographic",
+            "mood": "inviting, professional"
+          }
+        }
+      },
+      "ai_hints": {
+        "generatedAt": "2025-12-15T13:52:44.412Z",
+        "source": "ai",
+        "audience": "The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experie...",
+        "purpose": "To serve as a comprehensive yet curated travel companion for the Cinque Terre, inspiring travelers through high-quality, trustworthy, and story-driven content while supporting them with practical, dec...",
+        "uniqueValue": "A deeply curated, context-rich Cinque Terre travel portal that combines editorial storytelling with practical, up-to-date guidance—helping travelers understand not just what to see, but when, why, and how to experience the region in an authentic, well-informed, and unhurried way.",
+        "wordRange": {
+          "min": 20,
+          "max": 60
+        }
+      }
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "The Five Villages",
-        "de": "Fünf Einzigartige Dörfer",
-        "fr": "Cinq Villages Uniques",
-        "it": "I Cinque Villaggi"
-      },
-      "title": {
-        "en": "Each One Unique",
-        "de": "Entdecken Sie jedes Dorf",
-        "fr": "Découvrez chaque village",
-        "it": "Ognuno Unico"
-      },
+      "heading": "Why Choose Our Cinque Terre Guide",
+      "subheading": "Discover the region through thoughtful curation, local insight, and honest storytelling",
       "features": [
         {
-          "icon": "beach",
-          "title": {
-            "en": "Monterosso al Mare",
-            "de": "Monterosso al Mare",
-            "fr": "Monterosso al Mare",
-            "it": "Monterosso al Mare"
-          },
-          "description": {
-            "en": "The largest village with sandy beaches, excellent restaurants, and the best tourist infrastructure. Ideal base for families.",
-            "de": "Das größte Dorf mit sandigen Stränden und historischer Altstadt.",
-            "fr": "Le plus grand village avec plages de sable et vieille ville historique.",
-            "it": "Il villaggio più grande con spiagge sabbiose, ottimi ristoranti e la migliore infrastruttura turistica. Base ideale per famiglie."
-          }
+          "title": "Curated Recommendations",
+          "description": "Carefully selected places, experiences, and insights that reflect authentic local character rather than tourist checklists.",
+          "icon": "star"
         },
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Vernazza",
-            "de": "Vernazza",
-            "fr": "Vernazza",
-            "it": "Vernazza"
-          },
-          "description": {
-            "en": "The most picturesque village with a natural harbor, colorful houses, and the iconic Santa Margherita church reaching toward the sea.",
-            "de": "Postkartenidyllischer Hafen und das meistfotografierte Dorf.",
-            "fr": "Port de carte postale, le village le plus photographié.",
-            "it": "Il villaggio più pittoresco con porto naturale, case colorate e l'iconica chiesa di Santa Margherita che si protende verso il mare."
-          }
+          "title": "Seasonal Context",
+          "description": "Real-time guidance on weather, crowds, trail conditions, and how each village changes throughout the year.",
+          "icon": "shield"
         },
         {
-          "icon": "mountain",
-          "title": {
-            "en": "Corniglia",
-            "de": "Corniglia",
-            "fr": "Corniglia",
-            "it": "Corniglia"
-          },
-          "description": {
-            "en": "The quiet one, perched high on a cliff surrounded by vineyards. Reached by 382 steps or hiking trails. Most authentic atmosphere.",
-            "de": "Das einzige Dorf nicht auf Meereshöhe. 382 Stufen und Weingärten.",
-            "fr": "Seul village pas au niveau de la mer. 382 marches et vignobles.",
-            "it": "Il villaggio tranquillo, arroccato su una scogliera circondato da vigneti. Raggiungibile tramite 382 gradini o sentieri escursionistici."
-          }
+          "title": "Local Culture Focus",
+          "description": "Stories about traditions, food, wine, and daily life that help you connect meaningfully with the region.",
+          "icon": "heart"
         },
         {
-          "icon": "camera",
-          "title": {
-            "en": "Manarola",
-            "de": "Manarola",
-            "fr": "Manarola",
-            "it": "Manarola"
-          },
-          "description": {
-            "en": "The most photographed village with legendary sunsets, ancient wine traditions, and the famous Sciacchetrà dessert wine.",
-            "de": "Berühmt für Sonnenuntergänge und Wein.",
-            "fr": "Célèbre pour ses couchers de soleil et son vin.",
-            "it": "Il villaggio più fotografato con tramonti leggendari, antiche tradizioni vinicole e il famoso vino Sciacchetrà."
-          }
+          "title": "Practical Planning Support",
+          "description": "Reliable information on transportation, accommodation, dining, and logistics to build confidence in your decisions.",
+          "icon": "check"
         },
         {
-          "icon": "building",
-          "title": {
-            "en": "Riomaggiore",
-            "de": "Riomaggiore",
-            "fr": "Riomaggiore",
-            "it": "Riomaggiore"
-          },
-          "description": {
-            "en": "The gateway to Cinque Terre with dramatic tower houses, vibrant nightlife, and the starting point of Via dell'Amore.",
-            "de": "Dramatische Klippenhäuser und Tor zur Via dell'Amore.",
-            "fr": "Maisons spectaculaires sur falaises et Via dell'Amore.",
-            "it": "La porta delle Cinque Terre con drammatiche case torre, vita notturna vivace e punto di partenza della Via dell'Amore."
-          }
+          "title": "Village Character Profiles",
+          "description": "In-depth portraits of each village's unique atmosphere, pace, and personality to match your travel style.",
+          "icon": "zap"
         },
         {
-          "icon": "hiking",
-          "title": {
-            "en": "Sentiero Azzurro",
-            "de": "Reiseplanung",
-            "fr": "Planification",
-            "it": "Sentiero Azzurro"
-          },
-          "description": {
-            "en": "The famous Blue Trail connecting all five villages along the coast. One of Italy's most scenic hiking experiences.",
-            "de": "Transport, Cinque Terre Card und Tipps für Ihren Besuch.",
-            "fr": "Transport, Cinque Terre Card et conseils.",
-            "it": "Il famoso sentiero blu che collega tutti i cinque villaggi lungo la costa. Una delle esperienze escursionistiche più belle d'Italia."
-          }
+          "title": "Slow Travel Philosophy",
+          "description": "Encouragement to experience the Cinque Terre thoughtfully, respecting both the landscape and local communities.",
+          "icon": "compass"
         }
       ],
-      "id": "section-2"
+      "id": "section-2",
+      "type": "feature-section",
+      "variant": "simple-3x2-grid",
+      "prompts": {
+        "generatedAt": "2025-12-15T13:52:53.525Z",
+        "source": "ai",
+        "writingPrompt": "Write content for the feature-section section on the \"Cinque Terre Travel Guide\" page. Target audience: The target audience for a travel portal about the Cinque Terre consists of several closely related g...",
+        "keywords": [
+          "Cinque Terre travel guide",
+          "Cinque Terre villages",
+          "Monterosso al Mare",
+          "Vernazza",
+          "Corniglia",
+          "Manarola",
+          "Riomaggiore",
+          "Cinque Terre itinerary",
+          "Cinque Terre things to do",
+          "Cinque Terre hiking"
+        ],
+        "fieldHints": {
+          "eyebrow": {
+            "prompt": "Write a short category label or teaser (2-4 words)",
+            "maxLength": 40
+          },
+          "title": {
+            "prompt": "Write a compelling headline that captures attention for The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experiences.\n\nAt its core, the portal addresses experience-driven leisure travelers. These are international visitors, often couples or solo travelers, who are planning a short to medium-length stay and want to understand what makes the Cinque Terre unique. They are less interested in generic sightseeing lists and more focused on atmosphere, beauty, and authenticity. They look for guidance that helps them choose the right village, the right season, and the right pace, and they value narrative explanations over transactional content.\n\nClosely connected to this group are active and outdoor-oriented travelers. Many of them come specifically for hiking, coastal walks, and photography. They tend to travel outside peak summer months and are highly attentive to practical details such as trail conditions, weather, crowd levels, and safety. For them, the portal serves as a trusted companion that combines inspiration with reliable, up-to-date information.\n\nAnother important audience is made up of slow-travel and culture-focused visitors. These travelers are interested in local life, food, wine, traditions, and history rather than iconic viewpoints alone. They often stay longer, return multiple times, or use the Cinque Terre as a base to explore Liguria more deeply. They appreciate editorial content, background stories, and insights that go beyond what is commonly shared on social media.\n\nIn addition, the portal appeals to planners and researchers who enjoy preparing their trips in detail. This includes first-time visitors who want reassurance and structure, as well as experienced Italy travelers who compare destinations and itineraries carefully. For them, the portal functions as a comprehensive reference that brings clarity and confidence to their planning process.\n\nOverall, the target audience is not defined primarily by age or nationality, but by mindset. It consists of travelers who value context, storytelling, and informed recommendations; who prefer depth over speed; and who see the Cinque Terre not as a checklist destination, but as a place to be understood, experienced, and remembered.",
+            "maxLength": 80
+          },
+          "subtitle": {
+            "prompt": "Write supporting text that expands on the headline and provides context",
+            "maxLength": 200
+          },
+          "features": {
+            "prompt": "Write feature descriptions that highlight key benefits and value"
+          },
+          "screenshot": {
+            "prompt": "Product or app screenshot showing key functionality",
+            "style": "photographic",
+            "aspectRatio": "16:9",
+            "mood": "inviting, professional"
+          }
+        }
+      },
+      "ai_hints": {
+        "generatedAt": "2025-12-15T13:52:53.525Z",
+        "source": "ai",
+        "audience": "The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experie...",
+        "purpose": "To serve as a comprehensive yet curated travel companion for the Cinque Terre, inspiring travelers through high-quality, trustworthy, and story-driven content while supporting them with practical, dec...",
+        "uniqueValue": "A deeply curated, context-rich Cinque Terre travel portal that combines editorial storytelling with practical, up-to-date guidance—helping travelers understand not just what to see, but when, why, and how to experience the region in an authentic, well-informed, and unhurried way.",
+        "wordRange": {
+          "min": 50,
+          "max": 150
+        }
+      }
     },
     {
+      "heading": "A Living Landscape Worth Understanding",
+      "content": "The Cinque Terre is not a theme park or a collection of viewpoints to be ticked off a list. It is a working coastal landscape where five ancient fishing villages cling to clifftops above the Ligurian Sea, connected by footpaths worn smooth by centuries of use. Terraced vineyards cascade down impossible slopes, held in place by dry stone walls that represent generations of patient labor.\n\nEach village has its own rhythm and character. Monterosso spreads along the coast's only real beach. Vernazza clusters around a natural harbor that has sheltered boats since Roman times. Corniglia perches high above the sea, reached by 382 steps or a winding road. Manarola tumbles toward the water in a cascade of pastel houses. Riomaggiore, the southernmost village, guards the entrance to this maritime world.\n\nThe seasons change everything here. Summer brings warmth, crowds, and the full drama of coastal light. Spring and autumn offer gentler weather and clearer trails. Winter strips the landscape to its essence, revealing the bones of the terrain and the quiet persistence of local life.\n\nThis is a place that rewards patience and preparation. Understanding when to visit, which trails are open, and how the villages differ will transform your experience from hurried sightseeing into something deeper and more lasting.",
+      "id": "section-3",
       "type": "content-section",
       "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=800&q=80",
-      "reversed": true,
-      "eyebrow": {
-        "en": "Plan Your Journey",
-        "de": "Planen Sie Ihre Reise",
-        "fr": "Planifiez Votre Voyage",
-        "it": "Pianifica il Tuo Viaggio"
-      },
-      "title": {
-        "en": "Getting Around Cinque Terre",
-        "de": "So Erkunden Sie Cinque Terre",
-        "fr": "Se Déplacer aux Cinque Terre",
-        "it": "Muoversi nelle Cinque Terre"
-      },
-      "content": {
-        "en": "The five villages are connected by scenic hiking trails, a regional train line, and ferry boats. Most visitors use a combination of all three. The Cinque Terre Card provides unlimited train travel and trail access.\n\n**By Train:** Trains run every 20-30 minutes between all villages. Journey time from Monterosso to Riomaggiore is about 15 minutes.\n\n**By Ferry:** Boats operate from March to November, offering stunning coastal views. Perfect for photography and a different perspective.\n\n**On Foot:** The famous Sentiero Azzurro (Blue Trail) connects all villages along the coastline. Allow 4-5 hours for the complete hike.",
-        "de": "Die fünf Dörfer sind durch malerische Wanderwege, eine Regionalzuglinie und Fähren verbunden. Die meisten Besucher nutzen eine Kombination aus allen drei. Die Cinque Terre Card bietet unbegrenzte Zugfahrten und Wegzugang.\n\n**Mit dem Zug:** Züge fahren alle 20-30 Minuten zwischen allen Dörfern. Die Fahrt von Monterosso nach Riomaggiore dauert etwa 15 Minuten.\n\n**Mit der Fähre:** Boote verkehren von März bis November und bieten atemberaubende Küstenaussichten.\n\n**Zu Fuß:** Der berühmte Sentiero Azzurro verbindet alle Dörfer entlang der Küste. Planen Sie 4-5 Stunden für die komplette Wanderung.",
-        "fr": "Les cinq villages sont reliés par des sentiers de randonnée pittoresques, une ligne de train régionale et des ferries. La plupart des visiteurs utilisent une combinaison des trois. La Cinque Terre Card offre des trajets en train illimités et l'accès aux sentiers.\n\n**En Train:** Les trains circulent toutes les 20-30 minutes entre tous les villages. Le trajet de Monterosso à Riomaggiore prend environ 15 minutes.\n\n**En Bateau:** Les ferries opèrent de mars à novembre, offrant des vues côtières spectaculaires.\n\n**À Pied:** Le célèbre Sentiero Azzurro relie tous les villages le long de la côte. Prévoyez 4-5 heures pour la randonnée complète.",
-        "it": "I cinque villaggi sono collegati da sentieri panoramici, una linea ferroviaria regionale e traghetti. La maggior parte dei visitatori usa una combinazione di tutti e tre. La Cinque Terre Card offre viaggi in treno illimitati e accesso ai sentieri.\n\n**In Treno:** I treni passano ogni 20-30 minuti tra tutti i villaggi. Il viaggio da Monterosso a Riomaggiore dura circa 15 minuti.\n\n**In Traghetto:** I traghetti operano da marzo a novembre, offrendo viste costiere mozzafiato.\n\n**A Piedi:** Il famoso Sentiero Azzurro collega tutti i villaggi lungo la costa. Prevedi 4-5 ore per l'escursione completa."
-      },
-      "id": "section-3"
-    },
-    {
-      "type": "map",
-      "variant": "village-overview",
-      "height": "500px",
-      "zoom": 12,
-      "showControls": true,
-      "showClustering": false,
-      "heading": {
-        "en": "Explore the Five Villages",
-        "de": "Entdecken Sie die Fünf Dörfer",
-        "fr": "Explorez les Cinq Villages",
-        "it": "Esplora i Cinque Villaggi"
-      },
-      "id": "section-4"
-    },
-    {
-      "type": "testimonial-section",
-      "variant": "simple-centered-with-background",
-      "quote": {
-        "en": "Cinque Terre was the highlight of our Italian adventure. Walking between villages, stopping for fresh focaccia and local wine, watching the sunset paint the colorful houses... pure magic.",
-        "de": "Die Cinque Terre waren das Highlight unserer Italien-Reise. Zwischen den Dörfern wandern, frische Focaccia und lokalen Wein genießen, den Sonnenuntergang über den bunten Häusern beobachten... pure Magie.",
-        "fr": "Les Cinque Terre ont été le point fort de notre aventure italienne. Marcher entre les villages, s'arrêter pour de la focaccia fraîche et du vin local, regarder le coucher du soleil peindre les maisons colorées... magique.",
-        "it": "Le Cinque Terre sono state il momento più bello della nostra avventura italiana. Camminare tra i villaggi, fermarsi per focaccia fresca e vino locale, guardare il tramonto dipingere le case colorate... pura magia."
-      },
-      "author": {
-        "en": "Sarah & Michael, California",
-        "de": "Sarah & Michael, Kalifornien",
-        "fr": "Sarah & Michael, Californie",
-        "it": "Sarah & Michael, California"
-      },
-      "role": {
-        "en": "Visited September 2024",
-        "de": "Besuch September 2024",
-        "fr": "Visite Septembre 2024",
-        "it": "Visita Settembre 2024"
-      },
-      "id": "section-5"
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered-with-gradient",
-      "title": {
-        "en": "Ready for Your Cinque Terre Adventure?",
-        "de": "Häufige Fragen",
-        "fr": "Prêt à explorer les Cinque Terre?",
-        "it": "Pronto per la Tua Avventura alle Cinque Terre?"
-      },
-      "subtitle": {
-        "en": "One of the world's most beautiful places awaits. Plan your visit and discover the magic of the Italian Riviera.",
-        "it": "Uno dei luoghi più belli del mondo ti aspetta. Pianifica la tua visita e scopri la magia della Riviera Ligure."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Find Accommodation",
-            "fr": "Planifier",
-            "it": "Trova Alloggio"
+      "prompts": {
+        "generatedAt": "2025-12-15T13:53:03.076Z",
+        "source": "ai",
+        "writingPrompt": "Write content for the content-section section on the \"Cinque Terre Travel Guide\" page. Target audience: The target audience for a travel portal about the Cinque Terre consists of several closely related g...",
+        "keywords": [
+          "Cinque Terre travel guide",
+          "Cinque Terre villages",
+          "Monterosso al Mare",
+          "Vernazza",
+          "Corniglia",
+          "Manarola",
+          "Riomaggiore",
+          "Cinque Terre itinerary",
+          "Cinque Terre things to do",
+          "Cinque Terre hiking"
+        ],
+        "fieldHints": {
+          "eyebrow": {
+            "prompt": "Write a short category label or teaser (2-4 words)",
+            "maxLength": 40
           },
-          "url": {
-            "en": "/en/accommodations",
-            "fr": "/fr/transport",
-            "it": "/it/alloggi"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Explore Hiking Trails",
-            "fr": "Randonnées",
-            "it": "Esplora i Sentieri"
-          },
-          "url": {
-            "en": "/en/hikes",
-            "fr": "/fr/randonnees",
-            "it": "/it/sentieri"
-          },
-          "variant": "secondary"
-        }
-      ],
-      "id": "section-6"
-    },
-    {
-      "type": "footer-section",
-      "variant": "4-column-simple",
-      "companyName": {
-        "en": "Cinqueterre.travel",
-        "it": "Cinqueterre.travel"
-      },
-      "companyDescription": {
-        "en": "Your complete guide to Italy's most beautiful coastal villages.",
-        "it": "La tua guida completa ai villaggi costieri più belli d'Italia."
-      },
-      "copyright": {
-        "en": "© 2025 Cinqueterre.travel. All rights reserved.",
-        "it": "© 2025 Cinqueterre.travel. Tutti i diritti riservati."
-      },
-      "columns": [
-        {
           "title": {
-            "en": "Villages",
-            "it": "Villaggi"
+            "prompt": "Write a compelling headline that captures attention for The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experiences.\n\nAt its core, the portal addresses experience-driven leisure travelers. These are international visitors, often couples or solo travelers, who are planning a short to medium-length stay and want to understand what makes the Cinque Terre unique. They are less interested in generic sightseeing lists and more focused on atmosphere, beauty, and authenticity. They look for guidance that helps them choose the right village, the right season, and the right pace, and they value narrative explanations over transactional content.\n\nClosely connected to this group are active and outdoor-oriented travelers. Many of them come specifically for hiking, coastal walks, and photography. They tend to travel outside peak summer months and are highly attentive to practical details such as trail conditions, weather, crowd levels, and safety. For them, the portal serves as a trusted companion that combines inspiration with reliable, up-to-date information.\n\nAnother important audience is made up of slow-travel and culture-focused visitors. These travelers are interested in local life, food, wine, traditions, and history rather than iconic viewpoints alone. They often stay longer, return multiple times, or use the Cinque Terre as a base to explore Liguria more deeply. They appreciate editorial content, background stories, and insights that go beyond what is commonly shared on social media.\n\nIn addition, the portal appeals to planners and researchers who enjoy preparing their trips in detail. This includes first-time visitors who want reassurance and structure, as well as experienced Italy travelers who compare destinations and itineraries carefully. For them, the portal functions as a comprehensive reference that brings clarity and confidence to their planning process.\n\nOverall, the target audience is not defined primarily by age or nationality, but by mindset. It consists of travelers who value context, storytelling, and informed recommendations; who prefer depth over speed; and who see the Cinque Terre not as a checklist destination, but as a place to be understood, experienced, and remembered.",
+            "maxLength": 80
           },
-          "links": [
-            {
-              "label": {
-                "en": "Monterosso",
-                "it": "Monterosso"
-              },
-              "url": {
-                "en": "/en/monterosso",
-                "it": "/it/monterosso"
-              }
-            },
-            {
-              "label": {
-                "en": "Vernazza",
-                "it": "Vernazza"
-              },
-              "url": {
-                "en": "/en/vernazza",
-                "it": "/it/vernazza"
-              }
-            },
-            {
-              "label": {
-                "en": "Corniglia",
-                "it": "Corniglia"
-              },
-              "url": {
-                "en": "/en/corniglia",
-                "it": "/it/corniglia"
-              }
-            },
-            {
-              "label": {
-                "en": "Manarola",
-                "it": "Manarola"
-              },
-              "url": {
-                "en": "/en/manarola",
-                "it": "/it/manarola"
-              }
-            },
-            {
-              "label": {
-                "en": "Riomaggiore",
-                "it": "Riomaggiore"
-              },
-              "url": {
-                "en": "/en/riomaggiore",
-                "it": "/it/riomaggiore"
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "en": "Plan Your Trip",
-            "it": "Pianifica"
+          "subtitle": {
+            "prompt": "Write supporting text that expands on the headline and provides context",
+            "maxLength": 200
           },
-          "links": [
-            {
-              "label": {
-                "en": "Getting Here",
-                "it": "Come Arrivare"
-              },
-              "url": {
-                "en": "/en/transportation",
-                "it": "/it/trasporti"
-              }
-            },
-            {
-              "label": {
-                "en": "Where to Stay",
-                "it": "Dove Dormire"
-              },
-              "url": {
-                "en": "/en/accommodations",
-                "it": "/it/alloggi"
-              }
-            },
-            {
-              "label": {
-                "en": "Hiking Trails",
-                "it": "Sentieri"
-              },
-              "url": {
-                "en": "/en/hikes",
-                "it": "/it/sentieri"
-              }
-            },
-            {
-              "label": {
-                "en": "Weather",
-                "it": "Meteo"
-              },
-              "url": {
-                "en": "/en/weather",
-                "it": "/it/meteo"
-              }
-            }
-          ]
-        }
-      ],
-      "socialLinks": [
-        {
-          "platform": "instagram",
-          "url": {
-            "en": "https://instagram.com/cinqueterre",
-            "it": "https://instagram.com/cinqueterre"
+          "content": {
+            "prompt": "Write engaging body content. Guidelines: Our content exists to evoke a feeling before it delivers information. The Cinque Terre is not a dest",
+            "generatedPreview": "The Cinque Terre is not a theme park or a collection of viewpoints to be ticked off a list. It is a ..."
+          },
+          "image": {
+            "prompt": "Featured image that supports the section content",
+            "style": "photographic",
+            "mood": "inviting, professional"
+          },
+          "images": {
+            "prompt": "Gallery of related images that tell a visual story",
+            "style": "photographic",
+            "mood": "inviting, professional"
           }
         }
+      },
+      "ai_hints": {
+        "generatedAt": "2025-12-15T13:53:03.076Z",
+        "source": "ai",
+        "audience": "The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experie...",
+        "purpose": "To serve as a comprehensive yet curated travel companion for the Cinque Terre, inspiring travelers through high-quality, trustworthy, and story-driven content while supporting them with practical, dec...",
+        "uniqueValue": "A deeply curated, context-rich Cinque Terre travel portal that combines editorial storytelling with practical, up-to-date guidance—helping travelers understand not just what to see, but when, why, and how to experience the region in an authentic, well-informed, and unhurried way.",
+        "wordRange": {
+          "min": 100,
+          "max": 300
+        }
+      }
+    },
+    {
+      "title": "The Five Villages of Cinque Terre",
+      "content": "The Cinque Terre unfolds along eleven kilometers of Ligurian coastline, where five ancient fishing villages cling to dramatic cliffs between Monterosso and Riomaggiore. Each village reveals its own character through narrow medieval streets, terraced vineyards, and harbors carved from living rock.\n\nMonterosso al Mare, the northernmost village, offers the region's only substantial beach and a more resort-like atmosphere. Its old town, separated from the newer Fegina district by a medieval tower, maintains the charm of a working fishing village despite welcoming the most visitors.\n\nVernazza, perhaps the most photographed of the five, centers around a natural harbor protected by Doria Castle. Its colorful houses rise from the water's edge, creating the iconic Cinque Terre silhouette that has inspired countless travelers.\n\nPerched high above the sea, Corniglia stands alone among the villages as the only one without direct harbor access. Reached by 365 stone steps or a shuttle bus, this quiet village rewards visitors with panoramic views and a more contemplative pace.\n\nManarola descends to the sea through terraced vineyards that produce the region's famous Sciacchetrà wine. Its main street follows an ancient Roman path, while the harbor area becomes an outdoor living room where locals gather at sunset.\n\nRiomaggiore, the southernmost village, tumbles down a steep ravine in a cascade of pastel houses. Its Via dell'Amore once connected it directly to Manarola, though the famous lover's path remains closed following recent landslides.\n\nThe villages are connected by coastal trains running every 20-30 minutes during peak season, with hiking trails offering more intimate ways to move between them. Each stop reveals different moods, views, and rhythms, inviting travelers to discover their own preferred corner of this remarkable coastline.",
+      "id": "section-4",
+      "type": "map",
+      "variant": "village-overview",
+      "prompts": {
+        "generatedAt": "2025-12-15T13:53:15.036Z",
+        "source": "ai",
+        "writingPrompt": "Write content for the map section on the \"Cinque Terre Travel Guide\" page. Target audience: The target audience for a travel portal about the Cinque Terre consists of several closely related g...",
+        "keywords": [
+          "Cinque Terre travel guide",
+          "Cinque Terre villages",
+          "Monterosso al Mare",
+          "Vernazza",
+          "Corniglia",
+          "Manarola",
+          "Riomaggiore",
+          "Cinque Terre itinerary",
+          "Cinque Terre things to do",
+          "Cinque Terre hiking"
+        ]
+      },
+      "ai_hints": {
+        "generatedAt": "2025-12-15T13:53:15.036Z",
+        "source": "ai",
+        "audience": "The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experie...",
+        "purpose": "To serve as a comprehensive yet curated travel companion for the Cinque Terre, inspiring travelers through high-quality, trustworthy, and story-driven content while supporting them with practical, dec...",
+        "uniqueValue": "A deeply curated, context-rich Cinque Terre travel portal that combines editorial storytelling with practical, up-to-date guidance—helping travelers understand not just what to see, but when, why, and how to experience the region in an authentic, well-informed, and unhurried way.",
+        "wordRange": {
+          "min": 50,
+          "max": 200
+        }
+      }
+    },
+    {
+      "heading": "What Travelers Are Saying",
+      "testimonials": [
+        {
+          "quote": "This guide helped us understand the soul of each village before we arrived. We knew exactly which trails to walk and when to find those perfect quiet moments away from the crowds.",
+          "author": "Sarah Chen",
+          "role": "Photographer",
+          "company": ""
+        },
+        {
+          "quote": "Finally, a resource that treats the Cinque Terre with the respect it deserves. The seasonal insights were invaluable—we visited in October and had an absolutely magical experience.",
+          "author": "Marco Benedetti",
+          "role": "Travel Writer",
+          "company": "Slow Travel Italy"
+        },
+        {
+          "quote": "The restaurant recommendations were spot-on authentic, not tourist traps. We felt like we were dining where locals actually go, experiencing the real flavors of Liguria.",
+          "author": "Emma Thompson",
+          "role": "Food Enthusiast",
+          "company": ""
+        },
+        {
+          "quote": "As someone who's visited dozens of times, I still learned something new from every article. The depth of cultural context and practical details is unmatched.",
+          "author": "David Martinez",
+          "role": "Italy Tour Guide",
+          "company": "Mediterranean Journeys"
+        }
       ],
-      "id": "section-7"
+      "id": "section-5",
+      "type": "testimonial-section",
+      "variant": "simple-centered-with-background",
+      "prompts": {
+        "generatedAt": "2025-12-15T13:53:24.273Z",
+        "source": "ai",
+        "writingPrompt": "Write content for the testimonial-section section on the \"Cinque Terre Travel Guide\" page. Target audience: The target audience for a travel portal about the Cinque Terre consists of several closely related g...",
+        "keywords": [
+          "Cinque Terre travel guide",
+          "Cinque Terre villages",
+          "Monterosso al Mare",
+          "Vernazza",
+          "Corniglia",
+          "Manarola",
+          "Riomaggiore",
+          "Cinque Terre itinerary",
+          "Cinque Terre things to do",
+          "Cinque Terre hiking"
+        ]
+      },
+      "ai_hints": {
+        "generatedAt": "2025-12-15T13:53:24.273Z",
+        "source": "ai",
+        "audience": "The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experie...",
+        "purpose": "To serve as a comprehensive yet curated travel companion for the Cinque Terre, inspiring travelers through high-quality, trustworthy, and story-driven content while supporting them with practical, dec...",
+        "uniqueValue": "A deeply curated, context-rich Cinque Terre travel portal that combines editorial storytelling with practical, up-to-date guidance—helping travelers understand not just what to see, but when, why, and how to experience the region in an authentic, well-informed, and unhurried way.",
+        "wordRange": {
+          "min": 50,
+          "max": 150
+        }
+      }
+    },
+    {
+      "heading": "Start Planning Your Cinque Terre Journey",
+      "description": "Discover the rhythms of coastal villages, seasonal trails, and authentic experiences that define this remarkable corner of Liguria.",
+      "primaryCta": {
+        "text": "Explore the Villages",
+        "url": "/villages"
+      },
+      "secondaryCta": {
+        "text": "Check Trail Conditions",
+        "url": "/trails"
+      },
+      "id": "section-6",
+      "type": "cta-section",
+      "variant": "simple-centered-with-gradient",
+      "prompts": {
+        "generatedAt": "2025-12-15T13:53:28.073Z",
+        "source": "ai",
+        "writingPrompt": "Write content for the cta-section section on the \"Cinque Terre Travel Guide\" page. Target audience: The target audience for a travel portal about the Cinque Terre consists of several closely related g...",
+        "keywords": [
+          "Cinque Terre travel guide",
+          "Cinque Terre villages",
+          "Monterosso al Mare",
+          "Vernazza",
+          "Corniglia",
+          "Manarola",
+          "Riomaggiore",
+          "Cinque Terre itinerary",
+          "Cinque Terre things to do",
+          "Cinque Terre hiking"
+        ],
+        "fieldHints": {
+          "title": {
+            "prompt": "Write a compelling headline that captures attention for The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experiences.\n\nAt its core, the portal addresses experience-driven leisure travelers. These are international visitors, often couples or solo travelers, who are planning a short to medium-length stay and want to understand what makes the Cinque Terre unique. They are less interested in generic sightseeing lists and more focused on atmosphere, beauty, and authenticity. They look for guidance that helps them choose the right village, the right season, and the right pace, and they value narrative explanations over transactional content.\n\nClosely connected to this group are active and outdoor-oriented travelers. Many of them come specifically for hiking, coastal walks, and photography. They tend to travel outside peak summer months and are highly attentive to practical details such as trail conditions, weather, crowd levels, and safety. For them, the portal serves as a trusted companion that combines inspiration with reliable, up-to-date information.\n\nAnother important audience is made up of slow-travel and culture-focused visitors. These travelers are interested in local life, food, wine, traditions, and history rather than iconic viewpoints alone. They often stay longer, return multiple times, or use the Cinque Terre as a base to explore Liguria more deeply. They appreciate editorial content, background stories, and insights that go beyond what is commonly shared on social media.\n\nIn addition, the portal appeals to planners and researchers who enjoy preparing their trips in detail. This includes first-time visitors who want reassurance and structure, as well as experienced Italy travelers who compare destinations and itineraries carefully. For them, the portal functions as a comprehensive reference that brings clarity and confidence to their planning process.\n\nOverall, the target audience is not defined primarily by age or nationality, but by mindset. It consists of travelers who value context, storytelling, and informed recommendations; who prefer depth over speed; and who see the Cinque Terre not as a checklist destination, but as a place to be understood, experienced, and remembered.",
+            "maxLength": 80
+          },
+          "subtitle": {
+            "prompt": "Write supporting text that expands on the headline and provides context",
+            "maxLength": 200
+          },
+          "backgroundImage": {
+            "prompt": "Full-width background image that sets the visual tone",
+            "style": "photographic",
+            "aspectRatio": "16:9",
+            "mood": "inviting, professional"
+          },
+          "image": {
+            "prompt": "Featured image that supports the section content",
+            "style": "photographic",
+            "mood": "inviting, professional"
+          }
+        }
+      },
+      "ai_hints": {
+        "generatedAt": "2025-12-15T13:53:28.073Z",
+        "source": "ai",
+        "audience": "The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experie...",
+        "purpose": "To serve as a comprehensive yet curated travel companion for the Cinque Terre, inspiring travelers through high-quality, trustworthy, and story-driven content while supporting them with practical, dec...",
+        "uniqueValue": "A deeply curated, context-rich Cinque Terre travel portal that combines editorial storytelling with practical, up-to-date guidance—helping travelers understand not just what to see, but when, why, and how to experience the region in an authentic, well-informed, and unhurried way.",
+        "wordRange": {
+          "min": 20,
+          "max": 50
+        }
+      }
+    },
+    {
+      "title": "Discover the Cinque Terre with Care",
+      "content": "This independent travel portal is dedicated to helping you experience the Cinque Terre thoughtfully and authentically. We curate recommendations based on quality and local character, provide reliable practical information, and encourage slower, more meaningful travel. Our content reflects the rhythm of the seasons, the reality of the terrain, and deep respect for this remarkable coastal landscape and its communities. Travel well, tread lightly, and take time to truly see.",
+      "id": "section-7",
+      "type": "footer-section",
+      "variant": "4-column-simple",
+      "prompts": {
+        "generatedAt": "2025-12-15T13:53:32.848Z",
+        "source": "ai",
+        "writingPrompt": "Write content for the footer-section section on the \"Cinque Terre Travel Guide\" page. Target audience: The target audience for a travel portal about the Cinque Terre consists of several closely related g...",
+        "keywords": [
+          "Cinque Terre travel guide",
+          "Cinque Terre villages",
+          "Monterosso al Mare",
+          "Vernazza",
+          "Corniglia",
+          "Manarola",
+          "Riomaggiore",
+          "Cinque Terre itinerary",
+          "Cinque Terre things to do",
+          "Cinque Terre hiking"
+        ]
+      },
+      "ai_hints": {
+        "generatedAt": "2025-12-15T13:53:32.848Z",
+        "source": "ai",
+        "audience": "The target audience for a travel portal about the Cinque Terre consists of several closely related groups, all united by a desire for meaningful, well-informed, and emotionally engaging travel experie...",
+        "purpose": "To serve as a comprehensive yet curated travel companion for the Cinque Terre, inspiring travelers through high-quality, trustworthy, and story-driven content while supporting them with practical, dec...",
+        "uniqueValue": "A deeply curated, context-rich Cinque Terre travel portal that combines editorial storytelling with practical, up-to-date guidance—helping travelers understand not just what to see, but when, why, and how to experience the region in an authentic, well-informed, and unhurried way.",
+        "wordRange": {
+          "min": 50,
+          "max": 200
+        }
+      }
     }
   ],
   "metadata": {
@@ -548,5 +580,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-15T08:48:05.630Z"
+  "updated_at": "2025-12-15T13:54:22.799Z"
 }
