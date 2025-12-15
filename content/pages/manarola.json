@@ -420,6 +420,25 @@
       ]
     },
     {
+      "type": "map",
+      "variant": "category-filtered",
+      "center": { "lat": 44.1066, "lng": 9.7276 },
+      "zoom": 17,
+      "height": "400px",
+      "showControls": true,
+      "showClustering": false,
+      "showFilters": true,
+      "filterCategories": ["viewpoint", "restaurant", "church", "beach"],
+      "collectionTypes": ["pois", "restaurants", "accommodations"],
+      "collectionFilter": { "village": "manarola" },
+      "heading": {
+        "en": "Explore Manarola",
+        "de": "Manarola Erkunden",
+        "fr": "Explorer Manarola",
+        "it": "Esplora Manarola"
+      }
+    },
+    {
       "type": "faq-section",
       "variant": "two-columns",
       "eyebrow": {

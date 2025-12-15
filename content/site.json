@@ -7,6 +7,120 @@
   "locales": ["en", "de", "it", "fr"],
   "defaultLocale": "en",
 
+  "theme": {
+    "name": "Mediterranean",
+    "extends": "ocean",
+    "colors": {
+      "primary": {
+        "50": "#f0f9ff",
+        "100": "#e0f2fe",
+        "200": "#bae6fd",
+        "300": "#7dd3fc",
+        "400": "#38bdf8",
+        "500": "#0ea5e9",
+        "600": "#0284c7",
+        "700": "#0369a1",
+        "800": "#075985",
+        "900": "#0c4a6e"
+      },
+      "secondary": {
+        "50": "#fdf4f3",
+        "100": "#fce8e5",
+        "200": "#fbd5cf",
+        "300": "#f7b5aa",
+        "400": "#f08b7b",
+        "500": "#e4664c",
+        "600": "#d14a2e",
+        "700": "#af3c24",
+        "800": "#913522",
+        "900": "#783223"
+      },
+      "accent": "#d4a855",
+      "background": "#fafaf9",
+      "foreground": "#1c1917",
+      "muted": "#78716c"
+    },
+    "fonts": {
+      "display": "Playfair Display, Georgia, serif",
+      "sans": "Inter, system-ui, -apple-system, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "borderRadius": "0.75rem",
+    "shadows": "default"
+  },
+
+  "layout": {
+    "header": {
+      "variant": "simple",
+      "sticky": true,
+      "transparentOnHero": true,
+      "showCta": false
+    },
+    "footer": {
+      "variant": "four-column",
+      "showSocial": true,
+      "showNewsletter": false
+    },
+    "container": {
+      "maxWidth": "7xl",
+      "padding": "6"
+    }
+  },
+
+  "navigation": {
+    "main": [
+      {
+        "title": { "en": "Cinque Terre", "de": "Cinque Terre", "fr": "Cinque Terre", "it": "Cinque Terre" },
+        "url": "/cinque-terre"
+      },
+      {
+        "title": { "en": "Villages", "de": "Dörfer", "fr": "Villages", "it": "Villaggi" },
+        "children": [
+          { "title": { "en": "Monterosso", "de": "Monterosso", "fr": "Monterosso", "it": "Monterosso" }, "url": "/monterosso", "description": { "en": "The beach village", "de": "Das Stranddorf", "fr": "Le village de la plage", "it": "Il villaggio della spiaggia" } },
+          { "title": { "en": "Vernazza", "de": "Vernazza", "fr": "Vernazza", "it": "Vernazza" }, "url": "/vernazza", "description": { "en": "The jewel", "de": "Das Juwel", "fr": "Le joyau", "it": "Il gioiello" } },
+          { "title": { "en": "Corniglia", "de": "Corniglia", "fr": "Corniglia", "it": "Corniglia" }, "url": "/corniglia", "description": { "en": "The hilltop village", "de": "Das Hügeldorf", "fr": "Le village perché", "it": "Il villaggio sulla collina" } },
+          { "title": { "en": "Manarola", "de": "Manarola", "fr": "Manarola", "it": "Manarola" }, "url": "/manarola", "description": { "en": "The wine village", "de": "Das Weindorf", "fr": "Le village du vin", "it": "Il villaggio del vino" } },
+          { "title": { "en": "Riomaggiore", "de": "Riomaggiore", "fr": "Riomaggiore", "it": "Riomaggiore" }, "url": "/riomaggiore", "description": { "en": "The colorful gateway", "de": "Das bunte Tor", "fr": "La porte colorée", "it": "Il portale colorato" } }
+        ]
+      },
+      {
+        "title": { "en": "Hiking", "de": "Wandern", "fr": "Randonnée", "it": "Escursioni" },
+        "url": "/cinque-terre/hiking"
+      },
+      {
+        "title": { "en": "Plan Your Trip", "de": "Reise planen", "fr": "Planifier votre voyage", "it": "Pianifica il viaggio" },
+        "children": [
+          { "title": { "en": "Hotels", "de": "Hotels", "fr": "Hôtels", "it": "Hotel" }, "url": "/cinque-terre/hotels" },
+          { "title": { "en": "Restaurants", "de": "Restaurants", "fr": "Restaurants", "it": "Ristoranti" }, "url": "/cinque-terre/restaurants" },
+          { "title": { "en": "Getting Here", "de": "Anreise", "fr": "Comment y aller", "it": "Come arrivare" }, "url": "/cinque-terre/getting-here" },
+          { "title": { "en": "Weather", "de": "Wetter", "fr": "Météo", "it": "Meteo" }, "url": "/cinque-terre/weather" },
+          { "title": { "en": "Events", "de": "Veranstaltungen", "fr": "Événements", "it": "Eventi" }, "url": "/cinque-terre/events" }
+        ]
+      }
+    ],
+    "footer": {
+      "villages": [
+        { "title": { "en": "Monterosso", "de": "Monterosso", "fr": "Monterosso", "it": "Monterosso" }, "url": "/monterosso" },
+        { "title": { "en": "Vernazza", "de": "Vernazza", "fr": "Vernazza", "it": "Vernazza" }, "url": "/vernazza" },
+        { "title": { "en": "Corniglia", "de": "Corniglia", "fr": "Corniglia", "it": "Corniglia" }, "url": "/corniglia" },
+        { "title": { "en": "Manarola", "de": "Manarola", "fr": "Manarola", "it": "Manarola" }, "url": "/manarola" },
+        { "title": { "en": "Riomaggiore", "de": "Riomaggiore", "fr": "Riomaggiore", "it": "Riomaggiore" }, "url": "/riomaggiore" }
+      ],
+      "planTrip": [
+        { "title": { "en": "Hiking Trails", "de": "Wanderwege", "fr": "Sentiers", "it": "Sentieri" }, "url": "/cinque-terre/hiking" },
+        { "title": { "en": "Hotels", "de": "Hotels", "fr": "Hôtels", "it": "Hotel" }, "url": "/cinque-terre/hotels" },
+        { "title": { "en": "Restaurants", "de": "Restaurants", "fr": "Restaurants", "it": "Ristoranti" }, "url": "/cinque-terre/restaurants" },
+        { "title": { "en": "Weather", "de": "Wetter", "fr": "Météo", "it": "Meteo" }, "url": "/cinque-terre/weather" }
+      ],
+      "explore": [
+        { "title": { "en": "Events", "de": "Veranstaltungen", "fr": "Événements", "it": "Eventi" }, "url": "/cinque-terre/events" },
+        { "title": { "en": "Beaches", "de": "Strände", "fr": "Plages", "it": "Spiagge" }, "url": "/cinque-terre/beaches" },
+        { "title": { "en": "Boat Tours", "de": "Bootstouren", "fr": "Excursions en bateau", "it": "Tour in barca" }, "url": "/cinque-terre/boat-tours" },
+        { "title": { "en": "Points of Interest", "de": "Sehenswürdigkeiten", "fr": "Points d'intérêt", "it": "Punti di interesse" }, "url": "/cinque-terre/sights" }
+      ]
+    }
+  },
+
   "types": {
     "pages": {
       "landing-page": {

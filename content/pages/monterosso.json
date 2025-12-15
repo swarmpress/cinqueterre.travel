@@ -346,13 +346,38 @@
       ]
     },
     {
+      "type": "map",
+      "variant": "category-filtered",
+      "center": { "lat": 44.1456, "lng": 9.6537 },
+      "zoom": 16,
+      "height": "400px",
+      "showControls": true,
+      "showClustering": true,
+      "showFilters": true,
+      "filterCategories": ["beach", "restaurant", "hotel", "viewpoint", "church"],
+      "collectionTypes": ["pois", "restaurants", "accommodations"],
+      "collectionFilter": { "village": "monterosso" },
+      "heading": {
+        "en": "Explore Monterosso",
+        "de": "Monterosso Erkunden",
+        "fr": "Explorer Monterosso",
+        "it": "Esplora Monterosso"
+      }
+    },
+    {
       "type": "content-section",
       "variant": "two-column-with-testimonial",
       "eyebrow": {
-        "en": "Local Specialty"
+        "en": "Local Specialty",
+        "de": "Lokale Spezialität",
+        "fr": "Spécialité Locale",
+        "it": "Specialità Locale"
       },
       "title": {
-        "en": "Anchovies of Monterosso"
+        "en": "Anchovies of Monterosso",
+        "de": "Sardellen von Monterosso",
+        "fr": "Anchois de Monterosso",
+        "it": "Acciughe di Monterosso"
       },
       "subtitle": {
         "en": "A culinary tradition dating back centuries"

@@ -417,6 +417,25 @@
       ]
     },
     {
+      "type": "map",
+      "variant": "category-filtered",
+      "center": { "lat": 44.0994, "lng": 9.7387 },
+      "zoom": 17,
+      "height": "400px",
+      "showControls": true,
+      "showClustering": false,
+      "showFilters": true,
+      "filterCategories": ["viewpoint", "restaurant", "church", "beach"],
+      "collectionTypes": ["pois", "restaurants", "accommodations"],
+      "collectionFilter": { "village": "riomaggiore" },
+      "heading": {
+        "en": "Explore Riomaggiore",
+        "de": "Riomaggiore Erkunden",
+        "fr": "Explorer Riomaggiore",
+        "it": "Esplora Riomaggiore"
+      }
+    },
+    {
       "type": "faq-section",
       "variant": "two-columns",
       "eyebrow": {

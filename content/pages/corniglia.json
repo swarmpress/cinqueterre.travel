@@ -416,6 +416,25 @@
       ]
     },
     {
+      "type": "map",
+      "variant": "category-filtered",
+      "center": { "lat": 44.1201, "lng": 9.7105 },
+      "zoom": 17,
+      "height": "400px",
+      "showControls": true,
+      "showClustering": false,
+      "showFilters": true,
+      "filterCategories": ["viewpoint", "restaurant", "church", "hike"],
+      "collectionTypes": ["pois", "restaurants", "accommodations"],
+      "collectionFilter": { "village": "corniglia" },
+      "heading": {
+        "en": "Explore Corniglia",
+        "de": "Corniglia Erkunden",
+        "fr": "Explorer Corniglia",
+        "it": "Esplora Corniglia"
+      }
+    },
+    {
       "type": "faq-section",
       "variant": "two-columns",
       "eyebrow": {

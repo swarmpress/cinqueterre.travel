@@ -416,6 +416,25 @@
       ]
     },
     {
+      "type": "map",
+      "variant": "category-filtered",
+      "center": { "lat": 44.1352, "lng": 9.6840 },
+      "zoom": 17,
+      "height": "400px",
+      "showControls": true,
+      "showClustering": false,
+      "showFilters": true,
+      "filterCategories": ["viewpoint", "restaurant", "church", "beach"],
+      "collectionTypes": ["pois", "restaurants", "accommodations"],
+      "collectionFilter": { "village": "vernazza" },
+      "heading": {
+        "en": "Explore Vernazza",
+        "de": "Vernazza Erkunden",
+        "fr": "Explorer Vernazza",
+        "it": "Esplora Vernazza"
+      }
+    },
+    {
       "type": "faq-section",
       "variant": "two-columns",
       "eyebrow": {
