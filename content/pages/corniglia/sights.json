@@ -7,182 +7,152 @@
     "it": "/it/corniglia/sights"
   },
   "title": {
-    "en": "Sights & Attractions in Corniglia",
-    "de": "Sehenswürdigkeiten",
-    "fr": "Sites & Attractions",
-    "it": "Attrazioni"
+    "en": "What to See in Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "sights",
   "seo": {
     "title": {
-      "en": "Corniglia Sights 2025 | What to See in Cinque Terre"
+      "en": "What to See in Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Top sights in Corniglia. Lardarina staircase, Santa Maria Belvedere church, panoramic terraces, vineyards, and authentic village atmosphere."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia attractions",
-        "Lardarina",
-        "Cinque Terre sights",
-        "Santa Maria church"
-      ]
+      "en": "The sights of Corniglia aren't the usual tourist attractions—they're vantage points, ancient structures, and the accumulated evidence of people living on impossible terrain for millennia."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Corniglia Sights",
-        "it": "Attrazioni Imperdibili",
-        "de": "Sehenswürdigkeiten Corniglia"
-      },
-      "title": {
-        "en": "What to See in Corniglia",
-        "it": "Cosa Vedere a Corniglia",
-        "de": "Was Sie in Corniglia entdecken sollten"
-      },
-      "subtitle": {
-        "en": "Historic church, famous staircase, panoramic viewpoints, and terraced vineyards.",
-        "it": "Chiese medievali, santuari panoramici, castelli antichi e i borghi più fotogenici d'Italia. Scopri i tesori nascosti e le attrazioni iconiche tra vicoli storici e terrazze sul mare.",
-        "de": "Gotische Kirchen, panoramische Aussichtspunkte, jahrhundertealte Weinbergterrassen und die berühmte Lardarina-Treppe - Corniglias architektonische Schätze erzählen eine 800-jährige Geschichte mediterraner Kultur."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Explore",
-            "it": "Principali Attrazioni"
-          },
-          "url": {
-            "en": "#sights",
-            "it": "#attrazioni"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Tour Guidato"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#tour"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Seeing<br/>What Endures",
+      "subtitle": "Corniglia's attractions aren't monuments built for visitors—they're the structures and spaces that made village life possible for two thousand years. A church, a viewpoint, terraces, stairs. Simple things that reveal everything.",
+      "badge": "Sights Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Essential Sights",
+      "quote": "You can see everything in Corniglia in two hours if you're efficient. But efficiency misses the point. These aren't things to check off—they're places to understand, each one revealing something about how people built lives on this clifftop.",
+      "content": [
+        "**The church anchors the village**. San Pietro has stood here since the 1300s, built on Roman foundations, witnessing every generation of villagers. It's small, plain, and essential—the spiritual center that made community possible.",
+        "**The terraces explain everything**. Walking through the agricultural terraces teaches more about Corniglia than any museum could. Dry-stone walls, steep slopes, vines clinging to impossible angles—this is why the village exists.",
+        "**The viewpoints reward the climb**. Largo Taragio and the Santa Maria belvedere offer perspectives that justify every step up the Lardarina. You see the whole coast laid out, understanding why people chose this difficult place.",
+        "**The streets are the attraction**. Via Fieschi isn't scenic in the postcard sense—it's narrow, ordinary, lived-in. But walking it during morning shopping or evening passeggiata shows village life as it actually functions."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Must-See",
-        "it": "Da Non Perdere"
-      },
-      "title": {
-        "en": "Corniglia Attractions",
-        "it": "Le Attrazioni Principali",
-        "de": "Corniglias Kulturelles Erbe in Zahlen"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "sight",
+      "items": [
         {
-          "icon": "stairs",
-          "title": {
-            "en": "Lardarina Staircase",
-            "it": "Chiese e Santuari"
-          },
-          "description": {
-            "en": "Iconic 382-step brick staircase built in 1875. The dramatic entrance to Corniglia from the train station.",
-            "it": "San Giovanni Battista, Madonna di Soviore, Santuario di Montenero. Architettura gotica-ligure e affreschi medievali."
-          }
+          "id": 1,
+          "name": "Chiesa di San Pietro",
+          "category": "Religious Heritage",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c7?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The 14th-century parish church—Gothic architecture built on Roman ruins, still serving the community it was built for.",
+          "description": "San Pietro sits at the heart of the village, its Gothic facade and rose window marking centuries of worship in this elevated sanctuary. Inside, marble artifacts hint at the Roman settlement that preceded the church. The building is simple but proportioned beautifully; it wasn't built to impress visitors but to serve the faithful.",
+          "giuliaComment": "I was baptized here, confirmed here, married here. So were my parents and grandparents. The church isn't a tourist attraction to us—it's where the village marks its moments. Visitors are welcome, but understand you're entering a living space, not a museum.",
+          "signature": "Where generations gather"
         },
         {
-          "icon": "church",
-          "title": {
-            "en": "Santa Maria Belvedere",
-            "it": "Castelli e Torri"
-          },
-          "description": {
-            "en": "14th-century Gothic church with beautiful rose window. Simple elegant architecture on the main square.",
-            "it": "Castello Doria a Vernazza, fortificazioni genovesi, torri di avvistamento saracene. Testimonianze di difesa marittima."
-          }
+          "id": 2,
+          "name": "Largo Taragio",
+          "category": "Panoramic Viewpoint",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1578662996442-48f60103fc96-regular.jpg",
+          "intro": "The main terrace overlook—where the village meets the sky and the coast reveals itself in both directions.",
+          "description": "This small piazza at the edge of the village opens onto views that stop conversation. North toward Vernazza, south toward Manarola, and across terraces that seem to tumble into the sea. The terrace fills at sunset; come early or stay late for quieter contemplation.",
+          "giuliaComment": "I've watched thousands of sunsets from here and they're never the same. The light changes, the clouds shift, the colors vary. Visitors photograph furiously, but the photographs never capture it. Some things exist only in the moment of seeing them.",
+          "signature": "Where the view becomes the point"
         },
         {
-          "icon": "view",
-          "title": {
-            "en": "Terrazza di Santa Maria",
-            "it": "Porti Storici"
-          },
-          "description": {
-            "en": "Panoramic terrace next to the church. Spectacular views of coastline and vineyards.",
-            "it": "Approdi medievali scavati nella roccia. Il porto di Vernazza è uno dei più pittoreschi d'Italia."
-          }
-        },
-        {
-          "icon": "wine",
-          "title": {
-            "en": "Terraced Vineyards",
-            "it": "Centri Storici"
-          },
-          "description": {
-            "en": "Ancient agricultural terraces surrounding the village. Walk among vines producing Vernaccia wine.",
-            "it": "Vicoli stretti, case-torri colorate, carruggi medievali. Architettura ligure perfettamente conservata."
-          }
-        },
-        {
-          "icon": "streets",
-          "title": {
-            "en": "Via Fieschi",
-            "it": "Terrazzamenti"
-          },
-          "description": {
-            "en": "The narrow main street through Corniglia. Authentic village shops, cafes, and local life.",
-            "it": "7000 km di muretti a secco patrimonio UNESCO. Vigneti eroici costruiti in 1000 anni di lavoro."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Belvedere Viewpoint",
-            "it": "Musei e Cultura"
-          },
-          "description": {
-            "en": "Western terrace for stunning sunset views. See Monterosso and Vernazza in the distance.",
-            "it": "Museo delle Cinque Terre, collezioni d'arte sacra, mostre fotografiche sulla storia dei borghi marinari."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Discover Corniglia's Hidden Treasures",
-        "it": "Attrazioni in Numeri",
-        "de": "Corniglias architektonische Meisterwerke"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Plan Your Visit"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 3,
+          "name": "The Lardarina Stairway",
+          "category": "Historic Structure",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1605540436563-5bca919ae766-regular.jpg",
+          "intro": "377 steps built in 1876 to connect the new railway to the ancient village—a sight you experience with your legs.",
+          "description": "When the railway came to Cinque Terre, Corniglia presented a problem: the station sat at sea level, the village 100 meters above. The solution was the Lardarina, a zigzag stairway that turns arrival into journey. Each switchback offers new views; the climb transforms transportation into experience.",
+          "giuliaComment": "The stairs are controversial. Visitors complain; locals shrug. We've always climbed—before the railway, we climbed to the terraces, to the sanctuary above, down to the sea. 377 steps isn't hardship; it's just how life works here.",
+          "signature": "Where arrival requires effort"
         }
       ],
-      "eyebrow": {
-        "de": "Unverzichtbare Besichtigungen"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Terraces as Sight",
+          "quote": "UNESCO didn't protect the villages—it protected the terraces. The dry-stone walls stretching across these hills represent more labor than the Great Wall of China. Every wall you see was built by hand, without mortar, by people who believed the landscape could be made to produce. That belief, made physical, is the sight."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Hidden Corners",
+      "quote": "Corniglia's best sights aren't on any map. They're the details you notice when you stop looking for attractions and start looking at the village itself.",
+      "content": [
+        "**The carved doorways**. Many village houses have doorframes carved with dates and family symbols—some dating back centuries. These marks of pride and ownership tell stories no guidebook includes.",
+        "**The garden glimpses**. Through gates and over walls, you catch views of private gardens where families grow vegetables on terraces too small for vineyards. These aren't sights in the tourist sense; they're evidence of ongoing life.",
+        "**The cemetery views**. Above the village, the cemetery offers one of the quietest viewpoints—and the experience of seeing where generations of villagers rest, watching over the terraces they worked.",
+        "**The evening lights**. After dark, the village lights glow against the hillside. From the terrace below or the trails above, Corniglia at night becomes something the daytime visitor never sees."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "discovery",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Upper Village",
+          "category": "Quiet Exploration",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Above Via Fieschi, the village continues—quieter streets, fewer visitors, the daily life that tourism doesn't reach.",
+          "description": "Most visitors stay on Via Fieschi, moving from stairs to viewpoint to restaurant. But Corniglia extends upward, into residential streets where laundry hangs and cats sleep and the village exists for itself rather than for visitors. These aren't sights to photograph; they're spaces to walk through respectfully.",
+          "giuliaComment": "I live up here, in the part visitors skip. It's not more beautiful than Via Fieschi—it's less. But it's where the village actually lives. If you want to understand Corniglia rather than photograph it, walk these quiet streets. Just walk quietly.",
+          "signature": "Where the village continues"
+        },
+        {
+          "id": 5,
+          "name": "Volastra Sanctuary Path",
+          "category": "Day Walk",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The trail to Volastra climbs through terraces to a hill village with sanctuary church—where agricultural heritage meets spiritual practice.",
+          "description": "An hour's climb from Corniglia reaches Volastra, a tiny village centered on the sanctuary of Nostra Signora della Salute. The walk passes through active vineyards; the destination offers a bar, a church, and views that make Corniglia's elevation seem modest. This isn't a sight in Corniglia—it's a sight from Corniglia.",
+          "giuliaComment": "The sanctuary has been receiving pilgrims for centuries. We walked here as children, praying for good harvests or healthy family. It's less about the destination than the walking—moving through the landscape our ancestors made, arriving at the place they prayed.",
+          "signature": "Where walking becomes seeing"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Best Hour",
+          "quote": "Every sight in Corniglia looks different at different times. The terrace at sunset. The church in morning light. The stairs at dawn when no one else is climbing. The views don't change, but the experience of them does. See the same thing twice; notice what changed."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Seeing Simply",
+      "content": [
+        "Corniglia doesn't compete with cities that have museums and monuments. Its attractions are elemental: a church where people pray, a viewpoint where they pause, terraces where they work, stairs they climb.",
+        "The simplicity is the point. These aren't things built to attract visitors—they're things built because people needed them. Visiting means seeing what need and tradition created over centuries.",
+        "Take your time. Walk slowly. Notice details. The carved doorway, the garden glimpse, the way light falls on stone at different hours. Corniglia's sights reveal themselves to attention, not to efficiency."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Things to Do", "url": "/en/corniglia/things-to-do", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "sights"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.834Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

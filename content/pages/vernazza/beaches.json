@@ -7,187 +7,151 @@
     "it": "/it/vernazza/beaches"
   },
   "title": {
-    "en": "Beaches in Vernazza",
-    "de": "Strände",
-    "fr": "Plages",
-    "it": "Spiagge"
+    "en": "Vernazza Beaches: Your Guide to Cinque Terre's Most Spectacular Swimming Spots"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Vernazza Beach 2025 | Swimming & Harbor Beach Guide"
+      "en": "Vernazza Beaches Guide | Best Swimming Spots Cinque Terre"
     },
     "description": {
-      "en": "Discover the beach in Vernazza. Small rocky harbor beach with crystal-clear water, perfect for swimming in Cinque Terre's most scenic setting."
-    },
-    "keywords": {
-      "en": [
-        "Vernazza beach",
-        "harbor swimming",
-        "rocky beach",
-        "Cinque Terre swimming"
-      ]
+      "en": "Discover Vernazza's stunning beaches from the famous main harbor to hidden rocky coves. Swimming tips, access routes, and insider secrets included."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Vernazza",
-        "it": "Mare e Spiagge",
-        "de": "Vernazza"
-      },
-      "title": {
-        "en": "Vernazza Beach",
-        "it": "Spiagge e Balneazione a Vernazza",
-        "de": "Strand & Bademöglichkeiten in Vernazza"
-      },
-      "subtitle": {
-        "en": "Swim in the protected harbor with colorful houses as your backdrop. Small rocky beach with the most spectacular setting in Cinque Terre.",
-        "it": "Dalla sabbia dorata di Monterosso alle scogliere rocciose di Manarola, dalle calette nascoste alle piattaforme per tuffi. Acque cristalline in un'area marina protetta.",
-        "de": "Schwimmen Sie im geschützten Hafen mit bunten Häusern als Kulisse. Einzigartige Felsenplattformen und der fotogenste Badeplatz der Cinque Terre – wo mittelalterliche Architektur auf kristallklares Mittelmeer trifft."
-      },
+      "variant": "split-with-image",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76d99d4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHx2ZXJuYXp6YSUyMGJlYWNoJTIwY2lucXVlJTIwdGVycmV8ZW58MHwwfHx8MTc2NTg5MTc0NXww&ixlib=rb-4.1.0&q=80&w=1200",
+      "eyebrow": "Vernazza Beaches",
+      "title": "Dive Into Vernazza's Dramatic Coastal Beauty",
+      "subtitle": "From the iconic harbor beach where medieval towers meet turquoise waters to secret swimming spots accessible only to those who know where to look, Vernazza offers the most photogenic beaches in all of Cinque Terre.",
       "buttons": [
         {
-          "text": {
-            "en": "Beach Guide",
-            "it": "Spiagge Principali"
-          },
-          "url": {
-            "en": "#beach",
-            "it": "#spiagge"
-          },
+          "text": "Explore All Beaches",
+          "url": "#beaches-collection",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Vernazza",
-            "it": "Consigli Balneazione"
-          },
-          "url": {
-            "en": "/en/vernazza",
-            "it": "#info"
-          },
+          "text": "Swimming Safety Tips",
+          "url": "#safety-tips",
           "variant": "secondary"
         }
       ]
     },
     {
+      "type": "stats-section",
+      "stats": [
+        {
+          "number": "1",
+          "label": "Main Harbor Beach",
+          "description": "Protected swimming in the medieval port"
+        },
+        {
+          "number": "4",
+          "label": "Rocky Swimming Spots",
+          "description": "Secret coves for adventurous swimmers"
+        },
+        {
+          "number": "18-24°C",
+          "label": "Peak Season Water Temp",
+          "description": "Perfect for swimming June through September"
+        },
+        {
+          "number": "Medieval",
+          "label": "Tower Views",
+          "description": "11th-century Doria castle overlooking the beach"
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHx2ZXJuYXp6YSUyMGhhcmJvciUyMGJlYWNofGVufDB8MHx8fDE3NjU4OTE3NDV8MA&ixlib=rb-4.1.0&q=80&w=1200",
+      "variant": "image-right",
+      "title": "Swimming in a Medieval Masterpiece",
+      "content": "Vernazza's beaches aren't just about sun and sea – they're about swimming in living history. The main harbor beach sits within the embrace of 11th-century fortifications, where the Doria family's cylindrical tower stands sentinel over swimmers just as it once watched for Saracen raiders.\n\nThe protected harbor creates naturally calm waters perfect for families, while the dramatic backdrop of colorful houses cascading down cliffsides makes every swim feel like you've dove into a Renaissance painting. Early morning swims (around 7 AM) offer the most magical experience, when golden light strikes the medieval stones and you'll have the water nearly to yourself.\n\nBeyond the famous harbor, Vernazza reveals secret swimming spots to those willing to explore. Rocky platforms carved by centuries of waves provide natural diving boards, while hidden coves accessible via the Sentiero Azzurro offer pristine waters away from the crowds."
+    },
+    {
+      "type": "collection-embed",
+      "collection": "beaches",
+      "village": "vernazza"
+    },
+    {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Beach Experience",
-        "it": "Dove Fare il Bagno",
-        "de": "Meine Bade-Entdeckungen"
-      },
-      "title": {
-        "en": "What to Know",
-        "it": "Le Spiagge dei 5 Villaggi",
-        "de": "Warum Vernazzas Strand anders ist"
-      },
+      "title": "Essential Beach Wisdom for Vernazza",
       "features": [
         {
-          "icon": "waves",
-          "title": {
-            "en": "Small Rocky Beach",
-            "it": "Monterosso - Fegina"
-          },
-          "description": {
-            "en": "Compact pebble and rock area at the harbor entrance.",
-            "it": "L'unica vera spiaggia di sabbia delle Cinque Terre. Ampia, attrezzata con stabilimenti balneari, ideale per famiglie."
-          }
+          "icon": "🌅",
+          "title": "Golden Hour Swimming",
+          "description": "Arrive by 7 AM for magical light on medieval towers and calm waters before day crowds arrive."
         },
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Protected Harbor",
-            "it": "Vernazza - Porto"
-          },
-          "description": {
-            "en": "Calm waters ideal for swimming and snorkeling.",
-            "it": "Piccola spiaggia di ciottoli nel cuore del borgo. Scenografica ma affollata. Tuffi dalla piazzetta sul mare."
-          }
+          "icon": "🏊‍♀️",
+          "title": "Harbor Protection",
+          "description": "The medieval breakwater creates naturally sheltered swimming conditions even when seas are rough elsewhere."
         },
         {
-          "icon": "camera",
-          "title": {
-            "en": "Incredible Backdrop",
-            "it": "Corniglia - Spiaggione"
-          },
-          "description": {
-            "en": "Swim with views of colorful houses and Doria Castle.",
-            "it": "Spiaggia di ciottoli e scogli raggiungibile via scalinata o sentiero. Più tranquilla, meno turistica, acqua cristallina."
-          }
+          "icon": "📸",
+          "title": "Underwater Views",
+          "description": "Crystal-clear Mediterranean waters offer 15-20 meter visibility for snorkeling around ancient harbor stones."
         },
         {
-          "icon": "sun",
-          "title": {
-            "en": "Limited Space",
-            "it": "Manarola - Scogliere"
-          },
-          "description": {
-            "en": "Arrive early in summer to secure a good spot.",
-            "it": "Piattaforme rocciose piatte ideali per prendere il sole e tuffarsi. Non c'è sabbia ma l'atmosfera è magica."
-          }
+          "icon": "⚠️",
+          "title": "Rock Entry Points",
+          "description": "Wear sturdy water shoes for rocky platforms – the ancient stones can be slippery when wet."
         },
         {
-          "icon": "dive",
-          "title": {
-            "en": "Deep Water Platform",
-            "it": "Riomaggiore - Marina"
-          },
-          "description": {
-            "en": "Jump from the harbor wall into clear blue water.",
-            "it": "Piccola area balneare roccioso al porto. Perfetta per snorkeling tra gli scogli. Escalini in cemento per l'accesso."
-          }
+          "icon": "🎒",
+          "title": "Beach Gear Strategy",
+          "description": "Pack light and waterproof – space is limited and you'll want to explore multiple swimming spots."
         },
         {
-          "icon": "shower",
-          "title": {
-            "en": "No Facilities",
-            "it": "Calette Nascoste"
-          },
-          "description": {
-            "en": "No beach chairs or umbrellas - bring your own towel.",
-            "it": "Piccole baie raggiungibili solo via mare o sentieri impervi. Per gli avventurosi che cercano privacy totale."
-          }
+          "icon": "🕐",
+          "title": "Tide Timing",
+          "description": "High tide offers deeper water for diving from rocks, low tide reveals hidden tidal pools to explore."
         }
-      ],
-      "content": {
-        "de": "Nach drei Sommern in Vernazza kann ich Ihnen versichern: Vergessen Sie, was Sie über Strände zu wissen glauben. Hier gibt es keinen kilometerlangen Sand, sondern etwas viel Kostbareres – den **intimsten und spektakulärsten Badeplatz der italienischen Riviera**.\n\nDer **Hafen von Vernazza** ist nicht nur Italiens fotogenster Hafen, sondern auch ein natürliches Schwimmbecken. Die bunten Häuser, die direkt aus dem Mittelmeer zu wachsen scheinen, spiegeln sich im türkisfarbenen Wasser wider. Wenn Sie von der **Piazza Marconi** die Steintreppe hinunter zum Wasser gehen, betreten Sie eine Szenerie, die Generationen von Malern inspiriert hat.\n\nDas Besondere? Die Kombination aus geschütztem Hafenwasser und authentischer Atmosphäre. Während andere Orte überfüllte Touristenstrände bieten, baden Sie hier zwischen Fischerbooten und mittelalterlicher Architektur."
-      }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "title": "Your Vernazza Beach Questions Answered",
+      "faqs": [
+        {
+          "question": "Is Vernazza's main beach suitable for children?",
+          "answer": "Absolutely. The harbor beach offers protected, shallow areas perfect for families. The medieval breakwater shields swimmers from waves, creating calm, lagoon-like conditions. However, always supervise children as there are deeper areas near the harbor mouth."
+        },
+        {
+          "question": "Can I access the rocky swimming spots safely?",
+          "answer": "Yes, but come prepared. The rocky platforms along Vernazza's coast are accessible via marked paths, but wear sturdy water shoes with good grip. The best entry points are clearly visible from the main village – look for areas where locals are swimming and follow their lead."
+        },
+        {
+          "question": "What's the best time to swim at Vernazza for photos?",
+          "answer": "Early morning (7-9 AM) offers the most dramatic light as the sun illuminates the medieval tower and colorful houses. The water is calmest then too. For sunset swimming, the rocky platforms on the western side provide stunning evening light, though the harbor itself faces east."
+        },
+        {
+          "question": "Are there facilities like showers or changing rooms?",
+          "answer": "Limited facilities exist near the harbor – there are public restrooms in the village center, about a 2-minute walk from the beach. No changing rooms or showers directly on the beach, so plan accordingly. Several waterfront restaurants offer facilities for customers."
+        },
+        {
+          "question": "How do I find the secret swimming spots around Vernazza?",
+          "answer": "The best hidden spots are accessible via the Sentiero Azzurro trail sections. Head toward Monterosso for 10-15 minutes to find rocky coves, or toward Corniglia for dramatic cliff-diving spots. Look for worn paths leading down from the trail – if you see locals' towels, you've found a good spot."
+        },
+        {
+          "question": "What water temperatures can I expect throughout the year?",
+          "answer": "Swimming season runs May through October. Water reaches 18-20°C in May/June, peaks at 24°C in August, and remains pleasant (20-22°C) through September. Even winter swimming is possible for cold-water enthusiasts, with temperatures around 14-16°C from December to March."
+        }
+      ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore the Coast",
-        "it": "Balneazione nelle Cinque Terre",
-        "de": "Ihre Schwimmplätze in Vernazza"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Boat Tours"
-          },
-          "url": {
-            "en": "/en/vernazza/boat-tours"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Hiking Trails"
-          },
-          "url": {
-            "en": "/en/vernazza/hiking"
-          },
-          "variant": "secondary"
-        }
-      ],
-      "eyebrow": {
-        "de": "Bademöglichkeiten"
+      "variant": "centered",
+      "eyebrow": "Ready to Dive In?",
+      "title": "Create Your Perfect Vernazza Beach Day",
+      "subtitle": "From sunrise swims in the medieval harbor to discovering hidden coves along the coastal trail, let us help you experience Vernazza's beaches like a local explorer.",
+      "button": {
+        "text": "Plan Your Beach Adventure",
+        "url": "/experiences/vernazza",
+        "variant": "primary"
       }
     }
   ],
@@ -195,7 +159,7 @@
     "city": "vernazza",
     "page_type": "beaches"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.848Z"
+  "updated_at": "2025-12-16T13:31:40.171Z"
 }

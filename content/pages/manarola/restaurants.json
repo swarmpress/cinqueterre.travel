@@ -7,218 +7,158 @@
     "it": "/it/manarola/restaurants"
   },
   "title": {
-    "en": "Best Restaurants in Manarola",
-    "de": "Beste Restaurants in Manarola",
-    "fr": "Restaurants",
-    "it": "Ristoranti"
+    "en": "Dining in Manarola | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Manarola Restaurants 2025 | Best Seafood & Wine Dining",
-      "de": "Manarola Restaurants 2025 | Beste Meeresfrüchte & Weinlokale"
+      "en": "Dining in Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover the best restaurants in Manarola. Fresh seafood, local wine, and spectacular sunset views while you dine.",
-      "de": "Entdecken Sie die besten Restaurants in Manarola. Frische Meeresfrüchte, lokale Weine und spektakuläre Sonnenuntergangsaussichten."
-    },
-    "keywords": {
-      "en": [
-        "Manarola restaurants",
-        "where to eat Manarola",
-        "Cinque Terre dining",
-        "seafood",
-        "Sciacchetrà wine"
-      ],
-      "de": [
-        "Manarola Restaurants",
-        "wo essen in Manarola",
-        "Cinque Terre Gastronomie",
-        "Meeresfrüchte"
-      ]
+      "en": "In a village where you can see every restaurant from the harbor, quality matters more than quantity. Manarola's dining scene is small, focused, and—at its best—extraordinary."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "de": "Manarola",
-        "it": "Gastronomia Vista Mare"
-      },
-      "title": {
-        "en": "Restaurants in Manarola",
-        "de": "Restaurants in Manarola",
-        "it": "Ristoranti a Manarola"
-      },
-      "subtitle": {
-        "en": "Intimate dining with spectacular views. Fresh seafood, local wines, and traditional Ligurian cuisine in the most photogenic village.",
-        "de": "Intimes Essen mit spektakulärer Aussicht. Frische Meeresfrüchte, lokale Weine und traditionelle ligurische Küche im fotogensten Dorf.",
-        "it": "Cena romantica al tramonto nelle terrazze panoramiche più fotografate d'Italia. Pesce fresco, vini locali e la magia di Manarola che si illumina al calar della sera."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "Every Meal<br/>With a View",
+      "subtitle": "Manarola has perhaps a dozen restaurants. You could eat at all of them in a week. This limitation is a gift: every place knows it competes with its neighbors, visible just across the narrow streets. Quality must earn return visits.",
+      "badge": "Dining Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Dining Philosophy",
+      "quote": "In Manarola, the menu matters less than the moment. The best meals are not planned—they're discovered when the light is right, the wine is local, and the fish was swimming this morning.",
+      "content": [
+        "**Reservations define success**. The good tables—terraces at sunset, harbor views at dusk—book early. Call by noon for dinner. Call days ahead for prime weekend seating. This isn't bureaucracy; it's a village of 300 with restaurants everyone wants.",
+        "**The fish changes everything**. What the boats bring in determines what's best. The daily catch isn't a cliché here—it's the menu. Ask what came in. Order that. Trust the kitchen's relationship with the harbor.",
+        "**Wine is local**. Cinque Terre DOC white pairs with everything from the sea. Sciacchetrà after dinner is expensive and worth it. The restaurants here pour what the terraces above produce. Geography becomes flavor.",
+        "**Service is Mediterranean**. Meals take hours. No one rushes you. The rhythm assumes you have nowhere else to be. Fight this expectation and you'll frustrate yourself. Accept it and dinner becomes evening."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "restaurant",
+      "items": [
         {
-          "text": {
-            "en": "View All Restaurants",
-            "de": "Alle Restaurants",
-            "it": "Ristoranti Top"
-          },
-          "url": {
-            "en": "#list",
-            "de": "#list",
-            "it": "#ristoranti"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "Il Porticciolo",
+          "category": "Harbor Dining",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+          "intro": "Refined seafood on the harbor's edge—where the boats unload and the kitchen begins.",
+          "description": "Il Porticciolo occupies the prime harbor position: terrace tables look directly at the fishing boats and the cliffs beyond. The menu focuses on what arrives each morning. Preparations are clean, letting quality speak. Service is knowledgeable about wine pairings. This is Manarola's flagship dining room.",
+          "giuliaComment": "My aunt celebrates every birthday here. The owner knew her father. That's how Manarola works—restaurants are family history, not just places to eat. The branzino is always perfect, but ask what they're excited about that day. Their enthusiasm tells you what to order.",
+          "signature": "Where the harbor becomes the table",
+          "priceRange": "$$$",
+          "practicalInfo": "Reserve by noon for dinner. Request terrace for sunset. Closed Tuesdays."
         },
         {
-          "text": {
-            "en": "Back to Manarola",
-            "de": "Zurück",
-            "it": "Prenota Tavolo"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "de": "/de/manarola",
-            "it": "#prenota"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "La Scogliera",
+          "category": "Cliff-Side Dining",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+          "intro": "Carved into the cliff itself—dining where the rock meets the sea.",
+          "description": "La Scogliera's terrace extends from the cliff face, tables hovering above the water. The setting dominates: spray reaches diners on rough days, sunset light turns everything golden. The menu runs seafood-forward with some meat options. The view ensures full booking regardless of food quality—but the food is genuinely good.",
+          "giuliaComment": "This is where I bring visitors who need to understand why Manarola is special. Not the best food in the village—that's arguable—but the most dramatic setting. One dinner here creates memories that outlast better meals elsewhere.",
+          "signature": "Where drama meets dinner",
+          "priceRange": "$$$",
+          "practicalInfo": "Book days ahead for sunset tables. No indoor seating. Closed in rough weather."
+        },
+        {
+          "id": 3,
+          "name": "Terrazza del Borgo",
+          "category": "Upper Village",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Above the crowds, looking down on the village—the local choice for special occasions.",
+          "description": "Set higher up the village, Terrazza del Borgo offers a different perspective: looking down on the pastel rooftops rather than out to sea. The climb discourages day-trippers, keeping tables available longer. The kitchen does traditional Ligurian food well—pesto, focaccia, local preparations unchanged for generations.",
+          "giuliaComment": "When I want dinner without tourists, I climb to Terrazza. The extra stairs are worth it. The pesto here is made the old way, with mortar and pestle, and you can taste the difference. Order it with trofie and don't modify anything.",
+          "signature": "Where locals escape",
+          "priceRange": "$$",
+          "practicalInfo": "Easier reservations than harbor restaurants. Worth the climb. Cash preferred."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Sunset Table",
+          "quote": "Everyone wants the sunset table. In summer, that means calling before noon, specifying 'tramonto' (sunset), and accepting whatever they offer. The magic hour is brief—maybe an hour of golden light. Time your arrival for the beginning, linger through dessert, and the memory justifies the effort."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Top Picks",
-        "de": "Top-Empfehlungen",
-        "it": "Esperienza Culinaria"
-      },
-      "title": {
-        "en": "Featured Restaurants",
-        "de": "Ausgewählte Restaurants",
-        "it": "Cenare a Manarola"
-      },
-      "features": [
+      "type": "editorial-intro",
+      "badge": "Beyond Fine Dining",
+      "quote": "Not every meal needs a reservation. Manarola's casual options—focaccia windows, wine bars, harbor-side aperitivo spots—offer their own pleasures.",
+      "content": [
+        "**Bar Aristide** anchors the main square with coffee, aperitivo, and people-watching. It's not exceptional; it's essential. The local crowd gathers here because location matters when you live in a village this small.",
+        "**The focaccia shops** serve what locals eat for lunch: simple bread, good olive oil, sometimes cheese or vegetables. Line up with workers and eat standing. It costs almost nothing and tastes like the place.",
+        "**Enoteca da Eliseo** pours serious wine in a serious setting. If Sciacchetrà interests you—and it should—this is where to taste without restaurant markup. The owner knows the terrace the grapes came from.",
+        "**Pizzeria da Enzo** does exactly what you expect: wood-fired pizza, simple preparations, family atmosphere. Not why you came to Manarola, but sometimes exactly what you need after days of seafood."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
         {
-          "icon": "star",
-          "title": {
-            "en": "Nessun Dorma",
-            "de": "Nessun Dorma",
-            "it": "Terrazze al Tramonto"
-          },
-          "description": {
-            "en": "Legendary sunset terrace. Focaccia, antipasti plates, and local wine with stunning views.",
-            "de": "Legendäre Sonnenterrasse mit Focaccia, Antipasti und lokalem Wein.",
-            "it": "La terrazza Nessun Dorma è leggendaria: vista iconica su Manarola, vino locale e taglieri. Arriva presto per il tramonto."
-          }
+          "id": 4,
+          "name": "The Aperitivo Hour",
+          "category": "Evening Ritual",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Before dinner, Italians drink—and in Manarola, that ritual has perfect staging.",
+          "description": "Around 6pm, as the light softens, the bars fill with locals and visitors ordering Aperol spritzes, Negronis, or simple local wine. Small plates appear—olives, focaccia, cheese. No one intends this as dinner, but it often delays dinner until 9pm. The aperitivo hour is social preparation for the evening ahead.",
+          "giuliaComment": "Aperitivo isn't about the drink. It's about the transition—from day to evening, from rushing to relaxing, from tourist to guest. Find a spot with a view, order something local, and let the hour happen. Dinner will wait.",
+          "signature": "When time slows down"
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Trattoria dal Billy",
-            "de": "Trattoria dal Billy",
-            "it": "Pesce Freschissimo"
-          },
-          "description": {
-            "en": "Family-run for generations. Fresh catch daily and homemade pasta overlooking the sea.",
-            "de": "Familiengeführt. Täglicher Fang und hausgemachte Pasta mit Meerblick.",
-            "it": "Frittura di paranza, polpo, cozze ripiene, branzino al forno. Il pescato arriva direttamente dal porticciolo."
-          }
-        },
+          "id": 5,
+          "name": "The Lunch Question",
+          "category": "Midday Strategy",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Should you eat lunch in Manarola? The answer depends on your plans.",
+          "description": "Midday in Manarola means crowds, heat, and restaurants running at capacity. The food is fine but rushed. Locals avoid it, eating focaccia on the go or skipping lunch entirely. If you must eat at noon, keep it simple. Save the real meal for evening when the village calms and kitchens have time to care.",
+          "giuliaComment": "I never eat lunch at a sit-down restaurant here in summer. The experience suffers. Grab focaccia, find shade, rest. Then come back at 8pm when the cooks have attention to give and the waiters have patience to offer. That's the meal worth having.",
+          "signature": "When timing matters more than hunger"
+        }
+      ],
+      "interludes": [
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Ristorante Marina Piccola",
-            "de": "Ristorante Marina Piccola",
-            "it": "Atmosfera Romantica"
-          },
-          "description": {
-            "en": "Harbor-side location. Seafood specialties and romantic ambiance.",
-            "de": "Am Hafen. Meeresfrüchte-Spezialitäten und romantisches Ambiente.",
-            "it": "Manarola è il villaggio più romantico. Cena a lume di candela con vista sulle case colorate illuminate."
-          }
-        },
-        {
-          "icon": "home",
-          "title": {
-            "en": "La Scogliera",
-            "de": "La Scogliera",
-            "it": "Sciacchetrà DOC"
-          },
-          "description": {
-            "en": "Hidden gem on the rocks. Traditional recipes and incredible water views.",
-            "de": "Auf den Felsen. Traditionelle Rezepte und Wasserblick.",
-            "it": "Manarola è patria di questo vino passito leggendario. Degustalo con i cantucci al termine della cena."
-          }
-        },
-        {
-          "icon": "utensils",
-          "title": {
-            "en": "Trattoria Il Porticciolo",
-            "de": "Trattoria Il Porticciolo",
-            "it": "Location Fotografica"
-          },
-          "description": {
-            "en": "Cozy atmosphere in the main square. Pasta, seafood, and local wines.",
-            "de": "Am Hauptplatz. Pasta, Meeresfrüchte und lokale Weine.",
-            "it": "Molti ristoranti offrono viste da cartolina. La tua cena diventerà il post Instagram più invidiato."
-          }
-        },
-        {
-          "icon": "pasta",
-          "title": {
-            "en": "Aristide",
-            "de": "Aristide",
-            "it": "Prenotazione Essenziale"
-          },
-          "description": {
-            "en": "Modern Ligurian cuisine with creative twists on traditional dishes.",
-            "de": "Moderne ligurische Küche mit kreativen Variationen.",
-            "it": "I posti vista mare si esauriscono rapidamente. Prenota con 3-5 giorni di anticipo, soprattutto per il tramonto."
-          }
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Cash Reality",
+          "quote": "Manarola's smaller establishments prefer cash. ATMs exist but can run dry on busy weekends. The larger restaurants take cards, but smaller bars and wine shops often don't. Bring euros. Save the card for your hotel."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore Manarola",
-        "de": "Manarola Erkunden",
-        "it": "Costi e Consigli"
-      },
+      "type": "closing-note",
+      "title": "The Meal That Matters",
+      "content": [
+        "In a village this small, every restaurant knows its neighbors, its competitors, its reputation. There's no hiding behind size or anonymity. Quality is survival.",
+        "Book the sunset table. Order what the boats brought. Drink what the terraces produce. Let the meal take hours. This is not just dinner—it's participation in a culture that has eaten this way, in this place, for centuries.",
+        "The best meal in Manarola isn't the most expensive or the most famous. It's the one where the light is right, the wine is cold, and you have nowhere else to be."
+      ],
       "buttons": [
-        {
-          "text": {
-            "en": "Hotels",
-            "de": "Hotels"
-          },
-          "url": {
-            "en": "/en/manarola/hotels",
-            "de": "/de/manarola/hotels"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "de": "Zurück"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "de": "/de/manarola"
-          },
-          "variant": "secondary"
-        }
+        { "text": "Wine Culture", "url": "/en/culinary", "variant": "primary" },
+        { "text": "Plan Your Stay", "url": "/en/manarola/hotels", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "restaurants"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.839Z"
+  "updated_at": "2026-01-05T18:30:00.000Z"
 }

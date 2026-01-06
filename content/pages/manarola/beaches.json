@@ -7,197 +7,152 @@
     "it": "/it/manarola/beaches"
   },
   "title": {
-    "en": "Beaches & Swimming in Manarola",
-    "de": "Strände",
-    "fr": "Plages",
-    "it": "Spiagge"
+    "en": "Swimming in Manarola | Cinque Terre Dispatch"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Manarola Beaches 2025 | Swimming Spots & Rocky Shores"
+      "en": "Swimming in Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Best swimming spots in Manarola. Rocky beaches, cliff jumping, and crystal-clear Mediterranean waters."
-    },
-    "keywords": {
-      "en": [
-        "Manarola beaches",
-        "swimming Manarola",
-        "Cinque Terre beaches",
-        "cliff jumping"
-      ]
+      "en": "There are no beaches in Manarola—only rocks, deep water, and some of the clearest swimming in the Mediterranean. This is not a limitation. It's a feature."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Mare e Spiagge",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Beaches & Swimming",
-        "it": "Spiagge e Balneazione a Manarola",
-        "de": "Strände & Schwimmen"
-      },
-      "subtitle": {
-        "en": "No sandy beaches here, but dramatic rocky shores and crystal-clear waters perfect for swimming, sunbathing, and cliff jumping.",
-        "it": "Dalla sabbia dorata di Monterosso alle scogliere rocciose di Manarola, dalle calette nascoste alle piattaforme per tuffi. Acque cristalline in un'area marina protetta.",
-        "de": "Keine Sandstrände, aber dramatische Felsenküste und kristallklares Wasser - perfekt zum Schwimmen, Sonnenbaden und für mutige Klippensprünge in diesem authentischen Fischerdorf."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "Into the<br/>Deep Blue",
+      "subtitle": "Manarola has no sand. What it has instead: volcanic rocks smoothed by centuries of waves, water so clear you can see fifteen meters down, and the kind of swimming that makes you feel more alive than any beach ever could.",
+      "badge": "Swimming Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Rocky Truth",
+      "quote": "When visitors ask about beaches, I tell them the truth: we don't have any. Then I tell them what we do have, and their disappointment turns to anticipation. Swimming from rocks in deep water is not a compromise—it's an upgrade.",
+      "content": [
+        "**Forget wading**. The water is deep immediately—fifteen meters in places you can dive from rocks. No shallow stretches to cross, no gradual entry. You commit to the sea or you don't.",
+        "**The clarity is extraordinary**. Volcanic rock filters the water naturally. On calm days, you can see the bottom, watch fish, follow the rock formations down into darkness. This is Mediterranean swimming at its purest.",
+        "**The platforms are earned**. Stone ledges smoothed by generations of swimmers provide places to sit, sun, and launch. Finding a good spot requires arriving early or knowing where to look.",
+        "**The temperature is honest**. Summer water reaches 22-24°C—warm enough for long swims, cool enough to invigorate. Spring and autumn are colder but swimmable. Winter is for the committed."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "spot",
+      "items": [
         {
-          "text": {
-            "en": "View Swimming Spots",
-            "it": "Spiagge Principali"
-          },
-          "url": {
-            "en": "#beaches",
-            "it": "#spiagge"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "Marina Platform",
+          "category": "Main Swimming Area",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The obvious choice—steps from the village, surrounded by colored houses, watched by diners at harbor restaurants.",
+          "description": "The marina platform is where everyone swims. Stone ledges at various heights provide easy entry and exit. The water is deep enough for diving almost everywhere. It gets crowded by midday in summer but empties around 6pm when the golden light arrives. The famous photo of Manarola? You're swimming in it.",
+          "giuliaComment": "I grew up jumping from these rocks. Every local kid learns here. The tourists join us now, which is fine—there's room. But if you want the real experience, come at 7am. You'll share the water with one or two old swimmers and no one else.",
+          "signature": "Where the village meets the sea"
         },
         {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Consigli Balneazione"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#info"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "Punta Bonfiglio Cove",
+          "category": "Quieter Option",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Around the point from the marina—fewer people, rougher access, better swimming.",
+          "description": "Follow the path past the marina toward the famous viewpoint. Below, rocks provide more isolated swimming. The water is cleaner here—less boat traffic, fewer people. Access requires climbing down from the path. Not for those uncomfortable on uneven terrain.",
+          "giuliaComment": "This is where I go when the marina is crowded. The access isn't obvious—look for where locals leave their towels. The swimming is better, the rocks are less worn, and you'll have space to yourself. Bring water shoes for the descent.",
+          "signature": "Where locals escape"
+        },
+        {
+          "id": 3,
+          "name": "Trail Access Points",
+          "category": "Adventure Swimming",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Along the coastal trails—spots only reachable by hiking, where you might swim completely alone.",
+          "description": "The trails toward Corniglia and Riomaggiore pass several rocky outcrops where confident swimmers can access the water. No ladders, no platforms, no lifeguards. You descend, you swim, you climb back up. The reward: pristine water, total solitude, and the satisfaction of effort.",
+          "giuliaComment": "These spots are for strong swimmers who can handle rough rock and current. I send experienced visitors to specific points along the trail—ask me if you're confident in the water. The swimming is magnificent, but you need to know what you're doing.",
+          "signature": "Where effort earns isolation"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Water Shoe Question",
+          "quote": "Water shoes are not optional in Manarola. The rocks are not soft. The surfaces are not smooth. Bring proper footwear with grip and drainage. Your feet will thank you. Every year, tourists limp around with cut feet because they thought sandals would be fine. They weren't."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Swimming Spots",
-        "it": "Dove Fare il Bagno"
-      },
-      "title": {
-        "en": "Where to Swim",
-        "it": "Le Spiagge dei 5 Villaggi",
-        "de": "Manarolaas wilde Schönheit - Ein Paradies für Felsenküsten-Liebhaber"
-      },
-      "features": [
-        {
-          "icon": "anchor",
-          "title": {
-            "en": "Marina Swimming Area",
-            "it": "Monterosso - Fegina"
-          },
-          "description": {
-            "en": "Main swimming spot by the harbor. Flat rocks for sunbathing and easy water access.",
-            "it": "L'unica vera spiaggia di sabbia delle Cinque Terre. Ampia, attrezzata con stabilimenti balneari, ideale per famiglie."
-          }
-        },
-        {
-          "icon": "diving",
-          "title": {
-            "en": "Cliff Jumping Rocks",
-            "it": "Vernazza - Porto"
-          },
-          "description": {
-            "en": "Popular spot for brave swimmers. Jump from various heights into deep blue water.",
-            "it": "Piccola spiaggia di ciottoli nel cuore del borgo. Scenografica ma affollata. Tuffi dalla piazzetta sul mare."
-          }
-        },
-        {
-          "icon": "boat",
-          "title": {
-            "en": "Harbor Boat Ramp",
-            "it": "Corniglia - Spiaggione"
-          },
-          "description": {
-            "en": "Gentle entry point. Good for families and less confident swimmers.",
-            "it": "Spiaggia di ciottoli e scogli raggiungibile via scalinata o sentiero. Più tranquilla, meno turistica, acqua cristallina."
-          }
-        },
-        {
-          "icon": "snorkel",
-          "title": {
-            "en": "Snorkeling Area",
-            "it": "Manarola - Scogliere"
-          },
-          "description": {
-            "en": "Clear waters around the rocks. See fish and underwater rock formations.",
-            "it": "Piattaforme rocciose piatte ideali per prendere il sole e tuffarsi. Non c'è sabbia ma l'atmosfera è magica."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Punta Bonfiglio Rocks",
-            "it": "Riomaggiore - Marina"
-          },
-          "description": {
-            "en": "Quieter swimming spot below the cemetery viewpoint. More private.",
-            "it": "Piccola area balneare roccioso al porto. Perfetta per snorkeling tra gli scogli. Escalini in cemento per l'accesso."
-          }
-        },
-        {
-          "icon": "stairs",
-          "title": {
-            "en": "Via dell'Amore Access",
-            "it": "Calette Nascoste"
-          },
-          "description": {
-            "en": "Small rocky areas accessible from the coastal path. Secluded swimming.",
-            "it": "Piccole baie raggiungibili solo via mare o sentieri impervi. Per gli avventurosi che cercano privacy totale."
-          }
-        }
-      ],
-      "subtitle": {
-        "de": "Nach drei Sommern hier kann ich Ihnen versichern: Die schroffen Klippen bieten ein unvergesslicheres Schwimmerlebnis als jeder Sandstrand"
-      },
-      "content": {
-        "de": "Vergessen Sie klassische Sandstrände - Manarola bietet etwas viel Authentischeres. Hier, wo das türkisfarbene Ligurische Meer auf dramatische Schieferklippen trifft, erleben Sie das wahre Mittelmeer-Feeling. \n\nVom **Hafen von Manarola** aus können Sie die perfekten Schwimmplätze erreichen. Das kristallklare Wasser ist so transparent, dass Sie bis auf den Meeresgrund blicken können - ein Traum für Unterwasserfotografen. Die beste Zeit zum Schwimmen ist zwischen 10:00 und 16:00 Uhr, wenn die Sonne die Felsenplattformen aufgewärmt hat.\n\nTipp einer Einheimischen: Bringen Sie Badeschuhe mit! Die Felsen können rutschig werden, und der Meeresgrund ist stellenweise steinig."
-      }
+      "type": "editorial-intro",
+      "badge": "Practical Swimming",
+      "quote": "The Mediterranean doesn't care about your schedule or your comfort. It offers extraordinary swimming to those who prepare for it.",
+      "content": [
+        "**Timing matters**. Early morning offers calm water and solitude. Midday brings crowds and boats. Late afternoon provides the best light and cooling water. Avoid swimming when rough weather warnings are posted.",
+        "**Entry and exit require planning**. Scout your entry point before committing. Know how you'll get out. The ladders at the marina are convenient but crowded. Rock exits require upper body strength and dry handholds.",
+        "**Currents exist**. The water near shore is generally calm, but currents increase as you swim out. Don't overestimate your ability. Stay closer to shore than you think you need to.",
+        "**No lifeguards means no rescue**. The village assumes you can take care of yourself. Swim with a buddy. Don't drink and swim. Know your limits. The sea is beautiful and indifferent."
+      ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Beach Day",
-        "it": "Balneazione nelle Cinque Terre",
-        "de": "Die besten Stellen zum Baden"
-      },
-      "buttons": [
+      "type": "collection-with-interludes",
+      "itemType": "consideration",
+      "items": [
         {
-          "text": {
-            "en": "Boat Tours"
-          },
-          "url": {
-            "en": "/en/manarola/boat-tours"
-          },
-          "variant": "primary"
+          "id": 4,
+          "name": "The After-Hike Swim",
+          "category": "Perfect Pairing",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Every hike from Manarola should end at the water—the Mediterranean as reward and recovery.",
+          "description": "The trails here are hot, steep, and demanding. The water is cool, clear, and restorative. The combination is one of the great pleasures of Cinque Terre. Hike in the morning, swim in the afternoon. Let the salt water soothe what the stone abraded.",
+          "giuliaComment": "This is the rhythm: wake early, hike before the heat, return to the village, swim until dinner, eat while watching the sunset. The swimming isn't just activity—it's the pause between exertions that makes everything else feel earned.",
+          "signature": "When effort meets relief"
         },
         {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 5,
+          "name": "The Sunset Swim",
+          "category": "Magic Hour",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the light turns gold and the crowds thin—swimming becomes ritual.",
+          "description": "Between 6pm and sunset, the marina transforms. The day-trippers leave. The water warms. The light changes everything. Swimming in this light, looking up at houses turned amber, watching the sky shift colors—this is why people fall in love with Manarola.",
+          "giuliaComment": "I swim almost every evening in summer. The water never gets better than this hour. The families come out, the kids jump from rocks, the old swimmers do their laps. It's not tourism—it's village life at its best.",
+          "signature": "When swimming becomes ceremony"
         }
       ],
-      "eyebrow": {
-        "de": "Schwimmplätze"
-      }
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Rough Water Rule",
+          "quote": "When the sea is rough, don't swim. This sounds obvious, but tourists regularly ignore warnings. The Mediterranean can be violent. Waves that look manageable can slam you into rocks. Respect the red flags. They exist for reasons that have been learned the hard way."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Sea Remembers",
+      "content": [
+        "Swimming in Manarola is not about comfort. It's not about sand between your toes or gradual warm-up. It's about commitment—jumping into water that immediately asks something of you.",
+        "The reward is proportional. The clarity, the depth, the feeling of rocks beneath and cliffs above—this is swimming as it was before beaches were groomed and lifeguards appeared.",
+        "Come prepared. Respect the water. Arrive early or stay late. Let the Mediterranean teach you why people have swum from these rocks for centuries."
+      ],
+      "buttons": [
+        { "text": "Hiking Trails", "url": "/en/manarola/hiking", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/manarola/hotels", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "beaches"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.837Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

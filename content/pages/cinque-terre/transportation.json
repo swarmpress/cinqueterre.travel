@@ -1,0 +1,137 @@
+{
+  "id": "transportation-page-01",
+  "slug": {
+    "en": "/en/transportation",
+    "de": "/de/anreise",
+    "fr": "/fr/transport",
+    "it": "/it/trasporti"
+  },
+  "title": {
+    "en": "Arrival & Orientation | Getting to Riomaggiore",
+    "de": "Anreise & Orientierung | Nach Riomaggiore",
+    "fr": "Arrivée & Orientation | Accès à Riomaggiore",
+    "it": "Arrivo & Orientamento | Come arrivare a Riomaggiore"
+  },
+  "page_type": "transportation",
+  "seo": {
+    "title": {
+      "en": "Getting to Riomaggiore | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "Riomaggiore is not reached instantly. The tunnels, the winding roads, and the sudden shift in light are all part of the transition into the village's rhythm."
+    }
+  },
+  "template": "cinque-terre",
+  "body": [
+    {
+      "type": "editorial-hero",
+      "title": "The Art of<br/>Arrival",
+      "subtitle": "Riomaggiore is not reached instantly. The tunnels, the winding roads, and the sudden shift in light are all part of the transition into the village's rhythm.",
+      "badge": "The First Step",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2572&auto=format&fit=crop",
+      "height": "70vh"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "A Gradual Approach",
+      "quote": "To arrive in Riomaggiore is to shed the speed of the modern world. Whether you come by rail, road, or sea, the village requires you to slow down before it reveals itself.",
+      "leftContent": "<p>The geography of the Cinque Terre is <strong>defiant</strong>. For centuries, these villages were accessible only by boat or by the narrow mule tracks that crisscross the hills. Today, while modern transport has bridged the gap, the physical reality remains: Riomaggiore is a vertical world of stone and salt, where movement is measured in steps rather than kilometers.</p><p>Knowing this in advance <strong>changes your arrival</strong>. It transforms a long tunnel or a steep parking lot from a frustration into a threshold.</p>",
+      "rightContent": "<p>We encourage you to <strong>arrive with patience</strong>. The train may be crowded, the parking may be distant, and the boat may be at the mercy of the waves. But each of these paths offers a different perspective on the village's character. To arrive unhurried is to begin your journey already in sync with the pace of the coast.</p><p>Once you reach the station or the parking garage, <strong>the village begins</strong>. There is no 'lobby' here—only the street, the stairs, and the immediate presence of the houses.</p>"
+    },
+    {
+      "type": "airports-overview",
+      "title": "Geographical Orientation",
+      "subtitle": "Riomaggiore is the easternmost of the five villages, situated on the Ligurian coast in northern Italy, between the port city of La Spezia and the historic city of Genoa.",
+      "airports": [
+        { "name": "Pisa (PSA)", "code": "PSA", "distance": "100 km", "time": "1.5 hours" },
+        { "name": "Genoa (GOA)", "code": "GOA", "distance": "115 km", "time": "2 hours" },
+        { "name": "Florence (FLR)", "code": "FLR", "distance": "170 km", "time": "2.5 hours" },
+        { "name": "Milan (MXP/LIN)", "code": "MXP", "distance": "250-280 km", "time": "3-4 hours" }
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "generic",
+      "items": [
+        {
+          "id": 1,
+          "name": "By Train",
+          "category": "Primary Route",
+          "village": "La Spezia Centrale",
+          "image": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=1600",
+          "intro": "The rhythmic approach through the heart of the coast.",
+          "description": "The train is the recommended way to reach Riomaggiore. Frequent regional services connect La Spezia Centrale to all five villages. The journey through the tunnels, emerging into the light of each village station, is part of the experience. Buy a Cinque Terre Card for unlimited travel between villages.",
+          "giuliaComment": "Sit on the right side of the train when departing La Spezia. You'll catch glimpses of the sea between tunnels—brief flashes of blue that hint at what's to come.",
+          "signature": "Frequency: Every 15-30 minutes, Journey: 8 minutes from La Spezia",
+          "practicalInfo": "Purchase Cinque Terre Card at La Spezia station. Valid for unlimited train travel and trail access."
+        },
+        {
+          "id": 2,
+          "name": "By Car",
+          "category": "Limited Access",
+          "village": "Via dell'Amore Parking",
+          "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1600",
+          "intro": "A winding descent from the modern world.",
+          "description": "Driving to Riomaggiore is possible but challenging. The SP370 winds down from the main coastal road, ending at a parking garage above the village. From there, it's stairs and elevators to the center. Parking is limited and expensive in peak season—consider leaving your car in La Spezia.",
+          "giuliaComment": "I only drive here in winter, when the village is quiet and the parking garage isn't full. In summer, leave your car behind. Trust me—the stress isn't worth it.",
+          "signature": "Parking: Limited, expensive, and often full by 9 AM in summer",
+          "practicalInfo": "Parking garage open 24/7. About €3/hour or €25/day. Free parking available in La Spezia with train connection."
+        },
+        {
+          "id": 3,
+          "name": "By Ferry",
+          "category": "Seasonal Route",
+          "village": "Riomaggiore Harbor",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600",
+          "intro": "The ancient approach, seeing the village as sailors did.",
+          "description": "From April to October, ferries connect the Cinque Terre villages and the Gulf of Poets. Approaching Riomaggiore by sea offers a perspective unavailable from any land route—the colorful houses stacked against the cliff, the tiny harbor, the dramatic entrance between the rocks.",
+          "giuliaComment": "There's a moment when the ferry rounds the headland and Riomaggiore appears. It's the same view the fishermen see when returning home. Take it slowly—this is the village introducing itself.",
+          "signature": "Season: April-October, Weather dependent",
+          "practicalInfo": "Ferries can be cancelled in rough seas. Check weather and always have a backup plan via train."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Weight of the Journey",
+          "quote": "In Riomaggiore, your luggage is your first lesson in local physics. Wheeled suitcases, designed for flat airport terminals, are the natural enemies of our stone stairs. If you can, pack light. If you can't, consider a backpack. Every kilo you shed is a kilo you don't have to carry up a 14th-century staircase. The less you carry, the more you can notice.",
+          "align": "left"
+        },
+        {
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Editorial Interlude",
+          "title": "A Vertical Reality",
+          "quote": "We must be honest: Riomaggiore is a difficult village for those with limited mobility. The beauty of the place is inseparable from its steepness. While the main street has been smoothed over the years, the soul of the village remains in the carruggi—the narrow, stepped alleys that climb the cliffs. If you struggle with stairs, plan your stay at the harbor or the very top, and use the local shuttle bus to bridge the gap.",
+          "align": "right"
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "badge": "Final Orientation",
+      "title": "The Last Mile",
+      "content": "<p>However you arrive, remember: the journey to Riomaggiore doesn't end at the station or the parking garage. It ends when you've climbed the stairs to your room, when you've opened the windows to the sound of the sea, when you've taken your first breath of salt air.</p><p>That's when you've truly arrived. Everything before is just preparation.</p>",
+      "actions": [
+        {
+          "label": "Plan Your Stay",
+          "href": "/accommodations",
+          "variant": "primary"
+        },
+        {
+          "label": "Explore the Village",
+          "href": "/sights",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "page_type": "transportation"
+  },
+  "status": "generated",
+  "created_at": "2025-01-05T00:00:00.000Z",
+  "updated_at": "2025-01-05T00:00:00.000Z"
+}

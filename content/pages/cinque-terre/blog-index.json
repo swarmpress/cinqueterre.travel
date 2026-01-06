@@ -1,0 +1,101 @@
+{
+  "id": "blog-index-page-01",
+  "slug": {
+    "en": "/en/blog",
+    "de": "/de/blog",
+    "fr": "/fr/blog",
+    "it": "/it/blog"
+  },
+  "title": {
+    "en": "The Dispatch | Stories & Guides from Cinque Terre"
+  },
+  "page_type": "blog-index",
+  "seo": {
+    "title": { "en": "The Dispatch | Stories & Guides from Cinque Terre" },
+    "description": { "en": "We don't just list places; we tell their stories. Curated chronicles of life in the five villages." }
+  },
+  "template": "cinque-terre",
+  "body": [
+    {
+      "type": "blog-index",
+      "stories": [
+        {
+          "id": 1,
+          "slug": "the-ultimate-guide-to-cinque-terres-best-beaches",
+          "title": "The Ultimate Guide to Cinque Terre's Best Beaches",
+          "excerpt": "From the sandy shores of Monterosso to the hidden rocky coves of Riomaggiore, we explore the most pristine swimming spots in the Italian Riviera.",
+          "author": "Giulia Rossi",
+          "date": "Oct 15, 2023",
+          "readTime": "8 min read",
+          "category": "Guides",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "isLead": true
+        },
+        {
+          "id": 2,
+          "slug": "5-hidden-gelaterias-you-need-to-try",
+          "title": "5 Hidden Gelaterias You Need to Try",
+          "excerpt": "Skip the tourist traps and find the real deal. Our local experts reveal where to find the creamiest artisanal gelato in the five villages.",
+          "author": "Marco Bianchi",
+          "date": "Oct 14, 2023",
+          "readTime": "4 min read",
+          "category": "Food",
+          "image": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=2670&auto=format&fit=crop"
+        },
+        {
+          "id": 3,
+          "slug": "a-photographers-guide-to-manarola-at-sunset",
+          "title": "A Photographer's Guide to Manarola at Sunset",
+          "excerpt": "Capturing the perfect golden hour shot in Manarola requires timing and positioning. Here are the best angles and secret spots.",
+          "author": "Elena Moretti",
+          "date": "Oct 12, 2023",
+          "readTime": "6 min read",
+          "category": "Photography",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2574&auto=format&fit=crop"
+        },
+        {
+          "id": 4,
+          "slug": "hiking-the-blue-trail-what-to-expect",
+          "title": "Hiking the Blue Trail: What to Expect",
+          "excerpt": "Everything you need to know about the Sentiero Azzurro, from difficulty levels and closures to the most scenic stops along the way.",
+          "author": "Luca Verdi",
+          "date": "Oct 10, 2023",
+          "readTime": "10 min read",
+          "category": "Guides",
+          "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2670&auto=format&fit=crop"
+        },
+        {
+          "id": 5,
+          "slug": "where-to-stay-hotel-vs-airbnb",
+          "title": "Where to Stay: Hotel vs. Airbnb",
+          "excerpt": "Choosing the right accommodation can make or break your trip. We weigh the pros and cons for every type of traveler.",
+          "author": "Sofia Neri",
+          "date": "Oct 08, 2023",
+          "readTime": "5 min read",
+          "category": "Hotels",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop"
+        },
+        {
+          "id": 6,
+          "slug": "day-trip-to-portovenere",
+          "title": "Day Trip to Portovenere",
+          "excerpt": "Often called the 'sixth village', Portovenere offers a more tranquil but equally stunning experience. Here's why you should visit.",
+          "author": "Giulia Rossi",
+          "date": "Oct 05, 2023",
+          "readTime": "7 min read",
+          "category": "Guides",
+          "image": "https://images.unsplash.com/photo-1555979863-69fb96e63359?q=80&w=2670&auto=format&fit=crop"
+        }
+      ],
+      "categories": ["All Stories", "Guides", "Food & Drink", "Culture", "Photography", "Hotels"],
+      "introTitle": "Slow Journalism for a\nFast-Moving Coastline.",
+      "introSubtitle": "We don't just list places; we tell their stories. From the salt-crusted traditions of the local fishermen to the quietest corners of the high trails, welcome to our curated chronicle of life in the five villages.",
+      "newsletterTitle": "Get the Dispatch in\nYour Inbox.",
+      "newsletterSubtitle": "Join 15,000+ lovers of the Italian Riviera. No spam, just curated stories, local secrets, and seasonal guides delivered once a month."
+    }
+  ],
+  "metadata": { "page_type": "blog-index" },
+  "status": "generated",
+  "created_at": "2025-01-05T00:00:00.000Z",
+  "updated_at": "2025-01-05T00:00:00.000Z"
+}

@@ -7,201 +7,169 @@
     "it": "/it/riomaggiore/events"
   },
   "title": {
-    "en": "Events & Festivals in Riomaggiore",
-    "de": "Veranstaltungen",
-    "fr": "Événements",
-    "it": "Eventi"
+    "en": "Village Rhythms in Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "events",
   "seo": {
     "title": {
-      "en": "Riomaggiore Events 2025 | Festivals & Local Celebrations"
+      "en": "Village Rhythms in Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Experience traditional festivals in Riomaggiore from religious celebrations to wine harvest festivals. Annual events calendar for Cinque Terre's liveliest village."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore events",
-        "cinque terre festivals",
-        "local celebrations",
-        "italian festivals",
-        "cultural events"
-      ]
+      "en": "The festivals of Riomaggiore are not entertainment. They are the village's heartbeat—ancient rhythms of faith, harvest, and community that have pulsed for eight centuries."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Tradizioni e Cultura",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Festivals & Local Celebrations",
-        "it": "Eventi e Feste a Riomaggiore",
-        "de": "Festivals & Lokale Feiern"
-      },
-      "subtitle": {
-        "en": "Join authentic Italian celebrations from religious feast days to harvest festivals in Cinque Terre's most vibrant village.",
-        "it": "Sagre patronali, feste religiose millenarie, eventi enogastronomici e celebrazioni tradizionali. Vivi l'autenticità della cultura ligure attraverso gli eventi che scandiscono l'anno.",
-        "de": "Erleben Sie authentische italienische Feste von religiösen Feiertagen bis zu Erntefesten im lebendigsten Dorf der Cinque Terre. Ich verrate Ihnen, welche Veranstaltungen Sie keinesfalls verpassen sollten."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "The Village<br/>Calendar",
+      "subtitle": "In Riomaggiore, celebration is not escape from daily life—it is daily life intensified. The festivals here mark time the way they always have: by harvest, by saint's day, by the turning of seasons.",
+      "badge": "Events & Festivals",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Rhythm of Celebration",
+      "quote": "To experience Riomaggiore's festivals is to understand something about the village that no guidebook can teach: the way work and celebration blend, the way the sacred and the social share the same streets.",
+      "content": [
+        "The **calendar here is ancient**. Long before tourism, the village organized its year around saints' days and harvests. Those rhythms persist. The Feast of San Giovanni Battista on June 24th has been celebrated for over seven centuries.",
+        "**Faith is public**. Processions wind through streets too narrow for spectators and participants to separate. Everyone becomes part of the ceremony. The distinction between watching and belonging dissolves.",
+        "**Music belongs outdoors**. Summer concerts happen in the marina, where the sound bounces off stone walls and mixes with the splash of the harbor. The Rimazû Folk Festival fills the village with Ligurian dialect songs that most young people barely understand but everyone feels.",
+        "**Harvest is communal**. The grape harvest brings neighbors together on terraces where families have worked side by side for generations. The celebration that follows is not about showing off—it's about sharing what the land has given."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "event",
+      "items": [
         {
-          "text": {
-            "en": "View Events",
-            "it": "Calendario"
-          },
-          "url": {
-            "en": "#events",
-            "it": "#calendario"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "Feast of San Giovanni Battista",
+          "category": "Religious Festival",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The village's patron saint day—when Riomaggiore celebrates itself.",
+          "description": "June 24th transforms the village. The morning begins with fishermen blessing their boats, a tradition that predates memory. By evening, processions fill the streets with candles and song, and the harbor becomes a gathering place for every generation.",
+          "giuliaComment": "This is my favorite day of the year. The village becomes what it always was—a community first, a tourist destination second. Even visitors become part of the celebration.",
+          "signature": "Seven centuries of continuous celebration",
+          "practicalInfo": "June 24th. Procession begins at dusk. No reservations needed—just show up and join."
         },
         {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Tradizioni"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#tradizioni"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "Sciacchetrà Wine Festival",
+          "category": "Harvest Celebration",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the famous dessert wine of Cinque Terre gets its moment in the golden autumn light.",
+          "description": "The Sciacchetrà festival celebrates the rare dessert wine that has made this coast famous for centuries. Tastings happen in ancient cellars and on terraces with vineyard views. Local winemakers share their craft with anyone willing to listen.",
+          "giuliaComment": "This wine takes months to make and years to perfect. The festival is a chance to understand why the terraces exist—why generations built walls on cliffs so grapes could grow.",
+          "signature": "The wine that made the terraces worth building",
+          "practicalInfo": "Autumn, dates vary. Tastings throughout village. Book cellar visits in advance."
+        },
+        {
+          "id": 3,
+          "name": "Rimazû Folk Festival",
+          "category": "Music & Culture",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A week of Ligurian music that fills the village with sounds most Italians have forgotten.",
+          "description": "The Rimazû Festival brings musicians who still sing in Ligurian dialect—a language of the sea and the hills that's disappearing with each generation. The music ranges from traditional ballads to reggae-inflected folk, all performed in venues carved from stone.",
+          "giuliaComment": "I don't understand all the words. My grandmother did. But I feel them. The festival keeps something alive that would otherwise fade into silence.",
+          "signature": "Where language becomes music becomes memory",
+          "practicalInfo": "Summer week, dates vary. Free concerts throughout village. Some ticketed events."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Logic of Village Time",
+          "quote": "Riomaggiore's festivals don't happen at convenient times. They happen when they've always happened—on saints' days, at harvest, when the community decides to gather. The village runs on a calendar older than convenience."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Annual Events",
-        "it": "Eventi Principali"
-      },
-      "title": {
-        "en": "Celebrate Like a Local",
-        "it": "Le Celebrazioni dell'Anno",
-        "de": "Feiern wie die Einheimischen"
-      },
-      "features": [
-        {
-          "icon": "church",
-          "title": {
-            "en": "San Giovanni Battista",
-            "it": "Luminaria di Manarola"
-          },
-          "description": {
-            "en": "Patron saint celebration June 24th with procession, fireworks over the harbor, and traditional music",
-            "it": "8 dicembre: il presepe luminoso più grande del mondo. 300 figure illuminate sui terrazzamenti. Spettacolo unico."
-          }
-        },
-        {
-          "icon": "grape",
-          "title": {
-            "en": "Grape Harvest Festival",
-            "it": "Festa del Limone"
-          },
-          "description": {
-            "en": "September celebration of Sciacchetrà wine harvest with tastings and vineyard tours",
-            "it": "Maggio, Monterosso: celebrazione del famoso limone gigante. Degustazioni, mercatini, prodotti tipici."
-          }
-        },
-        {
-          "icon": "heart",
-          "title": {
-            "en": "Via dell'Amore Festival",
-            "it": "Fuochi di San Giovanni"
-          },
-          "description": {
-            "en": "Romantic celebrations along the famous Lover's Walk with music and local food",
-            "it": "24 giugno, Riomaggiore: spettacolo pirotecnico sul mare. Tradizione centenaria con musica e festa fino all'alba."
-          }
-        },
-        {
-          "icon": "sparkles",
-          "title": {
-            "en": "Christmas Nativity",
-            "it": "Festa dell'Uva"
-          },
-          "description": {
-            "en": "Elaborate nativity scene in the harbor with hundreds of figures, illuminated nightly",
-            "it": "Settembre: celebrazione della vendemmia. Degustazioni di Sciacchetrà, musica tradizionale, balli folkloristici."
-          }
-        },
-        {
-          "icon": "music",
-          "title": {
-            "en": "Summer Concerts",
-            "it": "Sagre del Pesce"
-          },
-          "description": {
-            "en": "Live music performances in the piazza and along the harbor throughout summer months",
-            "it": "Estate: ogni villaggio celebra il pescato locale. Fritture, acciughe, specialità marinare a prezzi popolari."
-          }
-        },
-        {
-          "icon": "fish",
-          "title": {
-            "en": "Seafood Festivals",
-            "it": "Processioni Patronali"
-          },
-          "description": {
-            "en": "Traditional sagre celebrating local anchovies, octopus, and other Mediterranean catches",
-            "it": "Ogni villaggio ha il suo santo patrono. Processioni storiche, luminarie, musica e fuochi d'artificio."
-          }
-        }
-      ],
-      "subtitle": {
-        "de": "Die versteckten Schätze der ligurischen Festkultur"
-      },
-      "content": {
-        "de": "Nach drei Sommern in Vernazza kann ich Ihnen versichern: Die wahre Seele der Cinque Terre offenbart sich nicht in den überfüllten Touristenmonaten, sondern während der traditionellen Dorffeste. In Riomaggiore erleben Sie eine Authentizität, die in anderen Küstenorten längst verschwunden ist.\n\nVon der **Via Colombo** bis hinauf zum **Schloss Riomaggiore** verwandelt sich das gesamte Dorf während der großen Feiertage in eine einzige Festmeile. Die engen Gassen zwischen den bunten Häusern erfüllen sich mit dem Duft von Focaccia und dem Klang traditioneller ligurischer Musik.\n\n**Insider-Tipp:** Reservieren Sie rechtzeitig im **Rio Bistrot** oder **Dau Cila** - während der Feste sind die besten Restaurants oft wochenlang im Voraus ausgebucht. Alternativ probieren Sie bei **Te la do io la merenda** die beste Focaccia der Region."
-      }
+      "type": "editorial-intro",
+      "badge": "Seasonal Rhythms",
+      "quote": "Each season brings its own celebrations. The key is not to plan festivals into your trip, but to let your trip find the festivals.",
+      "content": [
+        "**Spring** brings Easter processions through candlelit streets, and the first warm evenings when the marina becomes a social gathering place.",
+        "**Summer** fills with concerts, the folk festival, and long evenings when dinner doesn't start until the sun is low and the boats are home.",
+        "**Autumn** belongs to the grape harvest and the wine festivals—the terraces busy with work, then quiet with celebration.",
+        "**Winter** offers the Living Nativity, when village residents perform the Christmas story in streets and terraces, and the year ends with midnight gatherings at the harbor."
+      ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Experience More of Riomaggiore",
-        "it": "Eventi per Stagione",
-        "de": "Die wichtigsten Feste des Jahres"
-      },
-      "description": {
-        "en": "Discover the village's vibrant nightlife and cultural attractions beyond the festivals."
-      },
-      "buttons": [
+      "type": "collection-with-interludes",
+      "itemType": "event",
+      "items": [
         {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "primary"
+          "id": 4,
+          "name": "Madonna di Montenero Pilgrimage",
+          "category": "Religious Tradition",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The climb that generations have made to pray above their village.",
+          "description": "The pilgrimage to the Sanctuary of Madonna di Montenero is not a tourist hike—it's an act of devotion that locals have performed for six centuries. The path is steep, the views are stunning, and the community that gathers at the top shares something that transcends language.",
+          "giuliaComment": "My grandmother made this climb every Sunday. When I walk the path, I walk with her. The exercise is incidental. The purpose is remembrance.",
+          "signature": "400 meters of elevation, 600 years of faith",
+          "practicalInfo": "Throughout the year. Major processions on feast days. 45-minute climb."
         },
         {
-          "text": {
-            "en": "Local Insights"
-          },
-          "url": {
-            "en": "/en/riomaggiore/insights"
-          },
-          "variant": "secondary"
+          "id": 5,
+          "name": "Summer Marina Concerts",
+          "category": "Music Series",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the harbor becomes a concert hall and the Mediterranean becomes the backdrop.",
+          "description": "Weekly summer concerts transform the marina into an open-air venue. The music ranges from classical to jazz to folk, but the setting is always the same: stone walls, harbor water, and the evening light that makes everything golden.",
+          "giuliaComment": "I've seen international musicians and local accordion players on the same stage. The harbor doesn't discriminate. It makes everyone sound good.",
+          "signature": "Where the sea applauds",
+          "practicalInfo": "Summer evenings, usually weekly. Free admission. Bring wine and something to sit on."
+        },
+        {
+          "id": 6,
+          "name": "Living Nativity Scene",
+          "category": "Christmas Tradition",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When Riomaggiore becomes Bethlehem, and the village performs its oldest story.",
+          "description": "The Presepe Vivente turns the village's streets and terraces into a living nativity scene. Residents in period costume populate corners and courtyards, reenacting the Christmas story in locations that haven't changed much in centuries.",
+          "giuliaComment": "My cousin plays a shepherd every year. The costumes are homemade, the acting is earnest, and the setting needs no decoration. The village is already ancient enough to be believable.",
+          "signature": "Where the village becomes the stage",
+          "practicalInfo": "December, dates vary. Free to walk through. Dress warmly—performances are outdoors."
         }
       ],
-      "eyebrow": {
-        "de": "Jährliche Höhepunkte"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Art of Showing Up",
+          "quote": "The best way to experience a Riomaggiore festival is simply to be present. Don't photograph everything. Don't stay on the edges. Step into the crowd, accept the wine someone offers you, and let the village include you."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Festival Will Find You",
+      "content": [
+        "You cannot schedule authenticity. The best festival moments in Riomaggiore happen when you're not planning them—when you turn a corner and find a procession, when a concert starts in the harbor as you're finishing dinner, when a neighbor invites you to a celebration you didn't know was happening.",
+        "Stay long enough, and the village calendar will reveal itself. Its rhythms are older than your itinerary. Trust them.",
+        "The festival will find you."
+      ],
+      "buttons": [
+        { "text": "Plan Your Stay", "url": "/en/riomaggiore/hotels", "variant": "primary" },
+        { "text": "The Culinary Story", "url": "/en/culinary", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "events"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.845Z"
+  "updated_at": "2026-01-05T17:00:00.000Z"
 }

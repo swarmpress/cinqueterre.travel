@@ -7,199 +7,152 @@
     "it": "/it/riomaggiore/blog"
   },
   "title": {
-    "en": "Riomaggiore Travel Blog & Stories",
-    "de": "Blog",
-    "fr": "Blog",
-    "it": "Blog"
+    "en": "Stories from Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "blog",
   "seo": {
     "title": {
-      "en": "Riomaggiore Blog 2025 | Travel Stories & Local Tips"
+      "en": "Stories from Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Read authentic travel stories, photography guides, and insider tips about Riomaggiore. Learn from locals and experienced travelers."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore blog",
-        "travel stories",
-        "visitor experiences",
-        "photography tips",
-        "local guides"
-      ]
+      "en": "Eight centuries of stories live in these stone walls. The best ones are not found in guidebooks—they're told over wine by those who grew up hearing them from their grandmothers."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Storie e Racconti",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Stories from the Southernmost Village",
-        "it": "Blog di Viaggio - Riomaggiore",
-        "de": "Geschichten aus dem südlichsten Dorf"
-      },
-      "subtitle": {
-        "en": "Real experiences, photography tips, hidden spots, and local insights from travelers and residents who know Riomaggiore best.",
-        "it": "Ispirazioni, itinerari dettagliati, consigli di viaggio, esperienze autentiche e segreti locali raccontati da chi vive e ama le Cinque Terre.",
-        "de": "Authentische Erfahrungen, Fotografie-Tipps, versteckte Spots und lokale Einblicke von Reisenden und Bewohnern, die Riomaggiore am besten kennen."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Read Stories",
-            "it": "Leggi Articoli"
-          },
-          "url": {
-            "en": "#blog",
-            "it": "#blog"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Guide Pratiche"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#guide"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Stories<br/>Worth Telling",
+      "subtitle": "Every village has its official history, written in dates and facts. But the real history of Riomaggiore lives in stories—told over wine, passed through generations, earned by those who stay long enough to hear them.",
+      "badge": "Stories & Reflections",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Art of Listening",
+      "quote": "The best stories in Riomaggiore are not written. They're spoken—by fishermen mending nets at dawn, by nonne who remember when the trains first came, by shopkeepers whose families have sold focaccia for four generations.",
+      "content": [
+        "**Stories require patience**. They emerge in moments you can't schedule: a shared table at a trattoria, a conversation during a sudden rainstorm, the quiet after the day-trippers leave. The village reveals itself to those who wait.",
+        "**The language carries history**. The local dialect preserves words from medieval Latin, from the Greek refugees who founded this place, from centuries of isolation on these cliffs. When old fishermen talk to each other, they speak a language tourists never hear.",
+        "**Every stone has a story**. The stairs worn smooth by centuries of climbing. The hooks in harbor walls where boats have been tied for eight hundred years. The doorways built low when people were shorter and privacy meant survival.",
+        "**The stories change with the teller**. The same legend sounds different from a seventy-year-old who heard it from her grandmother than from a young guide reading from a card. Both versions are true. Neither is complete."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Featured Topics",
-        "it": "Categorie del Blog",
-        "de": "Beliebte Themen"
-      },
-      "title": {
-        "en": "Explore Our Content",
-        "it": "Cosa Troverai",
-        "de": "Entdecken Sie unsere Inhalte"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "story",
+      "items": [
         {
-          "icon": "camera",
-          "title": {
-            "en": "Photography Guides",
-            "it": "Itinerari Dettagliati"
-          },
-          "description": {
-            "en": "Best times, locations, and techniques for capturing Riomaggiore's colorful beauty",
-            "it": "Percorsi giorno per giorno con mappe, tempistiche, consigli su dove mangiare e cosa vedere. Da 2 a 7 giorni."
-          }
+          "id": 1,
+          "name": "The Dolphin Legend",
+          "category": "Origin Stories",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "How Greek refugees found sanctuary on these cliffs—guided, legend says, by dolphins through treacherous waters.",
+          "description": "In the 8th century, Greek refugees fleeing barbarian invasions in the Vara Valley needed a new home. The coastline here was deadly—rocks hidden beneath waves, currents that pulled boats to their destruction. But legend says dolphins guided their small vessels through safe passages to this sheltered inlet, where they would build the village that became Riomaggiore.",
+          "giuliaComment": "My grandmother told this story differently. In her version, it wasn't just any dolphins—it was the same pod that still visits our harbor, generation after generation. She swore she recognized individual markings. I believe her.",
+          "signature": "Where refuge was found through divine guidance"
         },
         {
-          "icon": "map",
-          "title": {
-            "en": "Hidden Gems",
-            "it": "Guide Fotografiche"
-          },
-          "description": {
-            "en": "Secret viewpoints, local hangouts, and off-the-beaten-path discoveries",
-            "it": "I migliori spot per foto, orari di luce ideale, composizioni, filtri. Porta a casa cartoline perfette."
-          }
+          "id": 2,
+          "name": "The Castle's True Purpose",
+          "category": "Medieval Tales",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Why the medieval fortress is circular—and what that shape meant for survival.",
+          "description": "The castle built in 1260 wasn't meant to be beautiful. Its circular shape deflects cannon fire better than square walls. Its position allowed watchers to see Saracen pirates approaching from any direction. When the warning bells rang, the entire village could flee inside its walls. This wasn't architecture—it was survival made stone.",
+          "giuliaComment": "The castle saved the village multiple times. But the stories I find more interesting are about the times it didn't—the raids that succeeded, the people who were taken. Those stories are harder to find. Families don't like to tell them.",
+          "signature": "Where geometry meant survival"
         },
         {
-          "icon": "users",
-          "title": {
-            "en": "Local Interviews",
-            "it": "Enogastronomia"
-          },
-          "description": {
-            "en": "Stories from fishermen, restaurant owners, and longtime residents",
-            "it": "Dove mangiare il miglior pesto, degustazioni vino, sagre, mercati locali, ricette tradizionali da provare."
-          }
-        },
-        {
-          "icon": "calendar",
-          "title": {
-            "en": "Seasonal Guides",
-            "it": "Guide ai Sentieri"
-          },
-          "description": {
-            "en": "What to expect and how to make the most of each season in Riomaggiore",
-            "it": "Descrizioni dettagliate di ogni percorso: difficoltà, durata, cosa portare, punti panoramici, alternative."
-          }
-        },
-        {
-          "icon": "hiking-boot",
-          "title": {
-            "en": "Trail Reports",
-            "it": "Segreti Locali"
-          },
-          "description": {
-            "en": "Detailed hiking accounts with current trail conditions and insider tips",
-            "it": "Luoghi nascosti, orari strategici per evitare folle, trattorie autentiche, calette segrete. Insider tips."
-          }
-        },
-        {
-          "icon": "utensils",
-          "title": {
-            "en": "Food Stories",
-            "it": "Pianificazione"
-          },
-          "description": {
-            "en": "Deep dives into local cuisine, recipes, and the best places to eat",
-            "it": "Budget, quando andare, cosa mettere in valigia, errori da evitare, checklist pre-partenza."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Get Practical Information",
-        "it": "Contenuti Aggiornati",
-        "de": "Meine visuellen Geschichten aus Riomaggiore"
-      },
-      "description": {
-        "en": "Beyond stories, find essential guides for planning your Riomaggiore visit."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Local Insights"
-          },
-          "url": {
-            "en": "/en/riomaggiore/insights"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Terraces' Human Cost",
+          "category": "Working History",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A thousand years of labor, one stone at a time—the true story of how these hillsides became vineyard.",
+          "description": "UNESCO calls the terraces 'remarkable' and 'ingenious.' What they don't mention is that building them killed people. Stones that weighed too much fell on workers. Men lost their footing on wet slopes. Heat exhaustion, snakebites, collapses. Every meter of terrace wall cost something. The wine you drink here carries that weight.",
+          "giuliaComment": "My family's terrace has a section my great-grandfather built alone after his brother died. He worked through grief by moving stones. Every family here has similar stories. The terraces are beautiful, but they're also monuments to labor that never gets mentioned in the brochures.",
+          "signature": "Where beauty was built with sacrifice"
         }
       ],
-      "subtitle": {
-        "de": "Als Fotografin und Visual Storytellerin teile ich hier meine persönlichen Erfahrungen"
-      },
-      "content": {
-        "de": "Ich erinnere mich noch genau an den ersten Moment, als ich durch den Bahnhofstunnel von Riomaggiore trat und die Via Colombo hinunterblickte. Diese gestapelten bunten Häuser, die sich zum Meer hin neigen - es war wie ein lebendiges Gemälde.\n\nSeit ich aus Mailand hierher gekommen bin, um die Cinque Terre zu dokumentieren, ist Riomaggiore zu meinem fotografischen Herzstück geworden. Jeder Sonnenuntergang am berühmten Aussichtspunkt ist anders, jede Golden Hour bringt neue Nuancen in die ohnehin schon leuchtenden Fassaden.\n\nIn meinen Blogbeiträgen teile ich nicht nur die perfekten Instagram-Spots mit Ihnen, sondern auch die Geschichten dahinter. Wo finde ich das beste Licht für Drohnenaufnahmen? Welche versteckten Winkel in der Marina zeigen die traditionellen Fischerboote am authentischsten? Und wie schaffe ich es, auch in der Hochsaison menschenleere Aufnahmen zu bekommen?\n\nJeder Artikel entsteht aus echter Leidenschaft und jahrelanger Erfahrung vor Ort. Denn die schönsten Bilder entstehen nicht zufällig - sie brauchen lokales Wissen, das richtige Timing und manchmal auch den Mut, um 5:30 Uhr für den perfekten Sonnenaufgang aufzustehen."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Stories We Choose",
+          "quote": "Tourism prefers certain narratives—romance, beauty, timeless charm. But the stories that matter to locals are often the hard ones: the storms that took fishermen, the years when the grapes failed, the families who left and never returned. Both versions are Riomaggiore."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Living Story",
+      "quote": "Riomaggiore's story isn't finished. Every day adds to it—every boat that goes out, every child who learns to swim in the harbor, every meal shared between strangers who become friends.",
+      "content": [
+        "**The fishermen are historians**. They know which rocks have always been dangerous, where the currents changed after the earthquake of 1920, which days the sea is kind and which it isn't. Their knowledge is the village's living memory.",
+        "**The restaurants are archives**. Recipes passed through generations, modified slightly by each cook, carry the taste of specific eras. The pesto at one place tastes like the 1960s because that's when their grandmother perfected it.",
+        "**The houses tell their own stories**. Look at the doorways—some are ancient, some rebuilt after the 1966 floods, some expanded when tourism made renovation affordable. The village reads like layers of geology, each era visible in the stone.",
+        "**You become part of the story**. Stay long enough and the shopkeeper will remember your name. The fisherman will nod when you pass. The café owner will pour your usual without asking. That's when the real stories start."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "moment",
+      "items": [
+        {
+          "id": 4,
+          "name": "Evening at the Harbor",
+          "category": "Daily Life",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the day-trippers leave and the village exhales—the daily transformation worth staying for.",
+          "description": "Around 5pm in summer, the character of the harbor changes completely. The tourist boats stop running. The families appear—children playing on the rocks, grandparents watching from doorways, teenagers testing their courage on higher diving platforms. The village reclaims its public space.",
+          "giuliaComment": "This is when I swim. The water is warmest, the crowds are gone, and the light turns everything gold. Every local family has their spot on the rocks, claimed by decades of use. The best stories happen here, when neighbors talk across towels.",
+          "signature": "When the village returns to itself"
+        },
+        {
+          "id": 5,
+          "name": "The Night Train",
+          "category": "Rituals",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "After the last train leaves La Spezia, Riomaggiore becomes truly quiet—and the real night begins.",
+          "description": "The last train from La Spezia arrives around 11pm. After that, the station goes silent. The streets empty of everyone except residents and overnight guests. The harbor lights reflect on still water. This is when neighbors gather for late wine, when young couples walk streets that finally belong to them, when the village sounds like itself.",
+          "giuliaComment": "My favorite conversations happen after the last train. Something about knowing no more tourists will arrive makes people relax. The wine flows. The stories get longer. The truth comes easier in the dark.",
+          "signature": "When silence becomes intimacy"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Patience Required",
+          "quote": "Day-trippers see the surface. Weekend visitors see the performance. Week-long guests see the rhythm. But the real stories? Those require months, years, return visits. The village decides when to trust you. You cannot rush it."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Story Continues",
+      "content": [
+        "This page cannot contain Riomaggiore's stories—it can only point toward them. The real stories are spoken, not written. They live in the memories of those who've stayed long enough to earn them.",
+        "Come with patience. Come with curiosity. Come willing to listen more than you photograph. The stories that matter don't pose for cameras.",
+        "And when you leave, you become part of the story too—one of thousands who came, saw, and perhaps, if you stayed long enough and listened carefully enough, understood."
+      ],
+      "buttons": [
+        { "text": "Cultural Insights", "url": "/en/riomaggiore/insights", "variant": "primary" },
+        { "text": "Plan Your Stay", "url": "/en/riomaggiore/hotels", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "blog"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.845Z"
+  "updated_at": "2026-01-05T18:15:00.000Z"
 }

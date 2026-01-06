@@ -1,0 +1,121 @@
+{
+  "id": "culinary-riomaggiore",
+  "slug": {
+    "en": "/en/culinary",
+    "de": "/de/culinary",
+    "fr": "/fr/culinary",
+    "it": "/it/culinary"
+  },
+  "title": {
+    "en": "The Culinary Story of Riomaggiore | Cinque Terre Dispatch"
+  },
+  "page_type": "culinary",
+  "seo": {
+    "title": {
+      "en": "The Culinary Story of Riomaggiore | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "In Riomaggiore, food is not an attraction. It is a rhythm, a memory, and a response to a vertical world."
+    }
+  },
+  "template": "cinque-terre-culinary",
+  "body": [
+    {
+      "type": "editorial-hero",
+      "title": "The Story of<br/>the Table",
+      "subtitle": "In Riomaggiore, food is not an attraction. It is a rhythm, a memory, and a response to a vertical world.",
+      "badge": "Culinary Narrative",
+      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2670&auto=format&fit=crop"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Culinary Story",
+      "quote": "To eat in Riomaggiore is to understand scarcity. For centuries, this village had no flat land for cattle, no wide fields for grain. It had only the verticality of the cliffs and the depth of the sea.",
+      "content": [
+        "The story begins in the **terraces**. Every inch of soil was earned, carved out of the rock to plant grapevines and olive trees. This is why wine here is not just a drink; it is the village's primary currency of labor.",
+        "Then there is the **sea**. Because the village was poor and the work was hard, the food became simple. Fish is served with little more than a squeeze of lemon and a drizzle of the oil pressed from those hillside groves.",
+        "You will notice that **menus are short**. This is not a lack of choice, but a commitment to the day. If the sea was rough, there is no sea bass.",
+        "Meals here follow the **rhythm of work**. A quick cone of fried fish at midday to keep moving, and a long, slow dinner as the sun dips behind the village."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "restaurant",
+      "items": [
+        {
+          "id": 1,
+          "name": "Dau Cila",
+          "category": "Seafood Restaurant",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+          "intro": "A terrace carved into the cliff where the sea is closer than the kitchen.",
+          "description": "Dau Cila occupies one of the most dramatic positions in the village—a series of terraces that seem to hang directly over the water. The menu is dictated by the morning catch, and the wine list reads like a love letter to the local Sciacchetrà.",
+          "giuliaComment": "This is where I bring visitors who want to understand the relationship between the village and the sea. The grilled octopus here is a conversation, not just a meal.",
+          "signature": "The sound of waves beneath your table",
+          "priceRange": "$$$",
+          "practicalInfo": "Reservations essential. Request a lower terrace for sunset.",
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.4
+        },
+        {
+          "id": 2,
+          "name": "Rio Bistrot",
+          "category": "Modern Ligurian",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where tradition meets a younger generation's confidence.",
+          "description": "Rio Bistrot represents a new voice in Riomaggiore—respectful of tradition but unafraid to experiment. The tasting menus are a journey through local ingredients presented with modern technique.",
+          "giuliaComment": "I love the energy here. The chef is from the village, but he's traveled. He brings the world back home without forgetting where he came from.",
+          "signature": "The pesto foam that started a hundred arguments",
+          "priceRange": "$$$$",
+          "practicalInfo": "Tasting menu only. Book a week in advance during summer.",
+          "googleRating": 4.7,
+          "tripadvisorRating": 4.6
+        },
+        {
+          "id": 3,
+          "name": "La Lanterna",
+          "category": "Traditional Trattoria",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+          "intro": "The kind of place where the nonna still makes the pasta.",
+          "description": "La Lanterna is unchanged in a changing village. The menu is handwritten, the portions are generous, and the wine comes from a family vineyard up the hill.",
+          "giuliaComment": "When I want to feel like I'm eating at my grandmother's table, I come here. The trofie al pesto is the standard by which I judge all others.",
+          "signature": "Recipes that haven't changed in three generations",
+          "priceRange": "$$",
+          "practicalInfo": "No reservations. Arrive early for lunch or late for dinner.",
+          "googleRating": 4.6,
+          "tripadvisorRating": 4.5
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Logic of the Short Menu",
+          "quote": "In many places, a long menu is a sign of abundance. In Riomaggiore, it is often a sign of frozen storage. Look for the places that offer only four or five starters and mains. It means the chef was at the harbor this morning."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Best Meal is a Matter of Mood",
+      "content": [
+        "In the end, eating well in Riomaggiore is less about finding the 'perfect' restaurant and more about matching your meal to your spirit.",
+        "Some days require the quiet of a hidden osteria; others, the salt-spray energy of the harbor rocks with a paper cone of fish.",
+        "Slow down. Notice the light. Listen to the village. The table will find you."
+      ],
+      "buttons": [
+        { "text": "Plan Your Day", "url": "/itinerary", "variant": "primary" },
+        { "text": "Explore the Village", "url": "/village", "variant": "secondary" }
+      ]
+    }
+  ],
+  "metadata": {
+    "page_type": "culinary"
+  },
+  "status": "published",
+  "created_at": "2026-01-05T12:00:00.000Z",
+  "updated_at": "2026-01-05T12:00:00.000Z"
+}

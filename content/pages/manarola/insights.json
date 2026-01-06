@@ -7,197 +7,152 @@
     "it": "/it/manarola/insights"
   },
   "title": {
-    "en": "Local Insights for Manarola",
-    "de": "Insider-Tipps",
-    "fr": "Conseils Locaux",
-    "it": "Consigli Locali"
+    "en": "Local Insights from Manarola | Cinque Terre Dispatch"
   },
   "page_type": "insights",
   "seo": {
     "title": {
-      "en": "Manarola Local Insights 2025 | Insider Tips & Secrets"
+      "en": "Local Insights from Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Insider tips for visiting Manarola. Local secrets, best times to visit, crowd avoidance, and authentic experiences."
-    },
-    "keywords": {
-      "en": [
-        "Manarola tips",
-        "local secrets",
-        "insider guide",
-        "avoid crowds"
-      ]
+      "en": "The hidden knowledge of Manarola—what locals understand that visitors miss, the rhythms and customs and unwritten rules that make village life work."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Consigli degli Esperti",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Local Insights",
-        "it": "Consigli Locali per Manarola",
-        "de": "Insider-Tipps eines Kulturhistorikers"
-      },
-      "subtitle": {
-        "en": "Insider knowledge from locals and frequent visitors. Learn the secrets to experiencing Manarola like a resident.",
-        "it": "Segreti, trucchi e insider tips per vivere le Cinque Terre come un locale. Evita errori comuni, scopri gemme nascoste e massimizza la tua esperienza.",
-        "de": "Nach Jahrzehnten der Erforschung ligurischer Traditionen teile ich mit Ihnen die verborgenen Geheimnisse Manarolaas. Erleben Sie das authentische Cinque Terre abseits der Touristenpfade."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "What<br/>Locals Know",
+      "subtitle": "Every village has its secrets—not hidden places, but hidden knowledge. The things everyone here understands but no guidebook explains. The rhythms of daily life, the unwritten rules, the way things actually work beneath the surface visitors see.",
+      "badge": "Local Insights",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Hidden Village",
+      "quote": "Tourists see Manarola from outside—the colored houses, the harbor, the sunset. Locals see it from inside—the morning rhythms, the family connections, the way the village actually functions. Both views are real. But only one reveals how to be here rather than just visit.",
+      "content": [
+        "**The village has rhythms**. Morning belongs to locals—shopping, coffee, the quiet business of daily life. Midday brings tourists flooding from trains. Evening, as the crowds thin, the village breathes again. Understanding these rhythms means knowing when to do what.",
+        "**Everyone knows everyone**. In a village of 300 permanent residents, anonymity doesn't exist. The shopkeeper knows who's visiting whom. The restaurant owner knows who stayed last year. Your behavior here has memory.",
+        "**Respect is earned, not assumed**. Locals have seen millions of tourists. Most blur together. The ones who return, who learn names, who say buongiorno properly—those are the ones remembered. Attention earns attention.",
+        "**The real village is vertical**. The postcard shows the harbor. The village lives above—in the narrow streets climbing the hill, where laundry hangs and gardens grow and the tourists rarely wander."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "insight",
+      "items": [
         {
-          "text": {
-            "en": "Read Insights",
-            "it": "Scopri i Segreti"
-          },
-          "url": {
-            "en": "#insights",
-            "it": "#consigli"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "The Morning Hours",
+          "category": "Daily Rhythm",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Before 9am, Manarola belongs to those who live here—and to visitors wise enough to wake early.",
+          "description": "The first trains bring day-trippers at 10am. Before that, the village is different: locals at the café, fishermen at the harbor, the alimentari restocking. Walking the streets at 7am, you see the village as it exists for itself. By 10am, that village disappears until evening.",
+          "giuliaComment": "I start each day at the café by 7. The same faces, the same conversations. When visitors join us early—not as tourists but as people having morning coffee—they see something they can't see later. The village before performance mode.",
+          "signature": "When early rising reveals truth"
         },
         {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Errori da Evitare"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#errori"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "The Family Networks",
+          "category": "Social Structure",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The village runs on family connections—who's related to whom, who has which responsibilities, who owes what to whom.",
+          "description": "The major families have been here for centuries. They own the buildings, run the businesses, maintain the terraces. Understanding Manarola means understanding that the restaurant owner is the cousin of the hotel keeper who is the nephew of the man maintaining the vineyard above. It's all connected.",
+          "giuliaComment": "I'm related to half the village by blood and the other half by marriage. When something happens here, everyone knows within the hour. There are no secrets, only varying levels of discretion. That's how small communities work.",
+          "signature": "When family means village"
+        },
+        {
+          "id": 3,
+          "name": "The Water Reality",
+          "category": "Practical Knowledge",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Water is precious here—collected from rain, limited in summer, never wasted. The village was built around this constraint.",
+          "description": "The old cisterns still exist, though modernized plumbing has arrived. But the culture of water conservation persists. Quick showers. Careful dish washing. No watering during dry spells. Visitors who leave taps running or take 20-minute showers reveal themselves as outsiders who don't understand the place.",
+          "giuliaComment": "My grandmother could tell stories of dry summers when water was rationed. We don't face that now, but the habits remain. Water respect is built into how we live. When visitors waste water, they waste something we learned to value across generations.",
+          "signature": "When scarcity shapes culture"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Language Question",
+          "quote": "Italian is the official language, but the old people speak Ligurian dialect among themselves—a Romance language distinct from standard Italian. When you hear rapid conversation you can't follow even if you know Italian, you're hearing the village's private language, the one used for family business."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Pro Tips",
-        "it": "Insider Tips"
-      },
-      "title": {
-        "en": "Insider Knowledge",
-        "it": "I Segreti dei Locali",
-        "de": "Manarolaas verborgene Schätze"
-      },
-      "features": [
-        {
-          "icon": "clock",
-          "title": {
-            "en": "Beat the Crowds",
-            "it": "Orari Strategici"
-          },
-          "description": {
-            "en": "Arrive before 10am or after 4pm. Early morning offers best light and empty streets.",
-            "it": "Arriva prima delle 9:00 o dopo le 17:00. Le folle delle crociere invadono i villaggi 10:00-16:00. Tramonti: arriva 2 ore prima."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Sunset Strategy",
-            "it": "Dove Mangiare Davvero"
-          },
-          "description": {
-            "en": "Claim your harbor rock spot 45 min early. Bring wine from the Co-op for picnic.",
-            "it": "Evita ristoranti sul lungomare con menu turistici. Sali nei vicoli, cerca dove mangiano i locali. Niente foto fuori."
-          }
-        },
-        {
-          "icon": "train",
-          "title": {
-            "en": "Base Yourself Here",
-            "it": "Muoversi Smart"
-          },
-          "description": {
-            "en": "Stay overnight in Manarola. Day-trippers leave by 6pm, then village becomes magical.",
-            "it": "Compra Cinque Terre Card in stazione La Spezia (meno code). Usa treni regionali prima delle 9:00 (quasi vuoti)."
-          }
-        },
-        {
-          "icon": "restaurant",
-          "title": {
-            "en": "Dining Reservations",
-            "it": "Foto Perfette"
-          },
-          "description": {
-            "en": "Book Nessun Dorma and Billy days ahead in high season. Walk-ins nearly impossible.",
-            "it": "Manarola: vista classica dalla strada sopra. Vernazza: dalla terrazza del castello. Alba: Riomaggiore. Tramonto: Manarola."
-          }
-        },
-        {
-          "icon": "shop",
-          "title": {
-            "en": "Local Shopping",
-            "it": "Luoghi Nascosti"
-          },
-          "description": {
-            "en": "Buy wine direct from producers on Via Discovolo. Much cheaper than tourist shops.",
-            "it": "Caletta sotto Corniglia (scalinata), terrazza panoramica Nessun Dorma (vino + vista), santuari in collina (zero turisti)."
-          }
-        },
-        {
-          "icon": "swim",
-          "title": {
-            "en": "Swimming Timing",
-            "it": "Come Risparmiare"
-          },
-          "description": {
-            "en": "Best swimming 11am-3pm when sun hits the harbor. Mornings are shaded and cold.",
-            "it": "Pernotta a La Spezia (40% meno), pranzo con focaccia e vino (€8), aperitivo invece di cena costosa, treno invece taxi."
-          }
-        }
-      ],
-      "subtitle": {
-        "de": "Basierend auf historischer Forschung und lokalem Wissen"
-      }
+      "type": "editorial-intro",
+      "badge": "The Unwritten Rules",
+      "quote": "Every community has rules that aren't posted anywhere. In Manarola, these rules govern everything from where to swim to how to greet people. Breaking them marks you as an outsider; following them earns respect.",
+      "content": [
+        "**Greet everyone**. When you enter a shop, say buongiorno (or buonasera after 6pm). When you pass someone on a narrow street, acknowledge them. The village runs on small courtesies.",
+        "**Don't block the narrow streets**. These streets are paths, not photo studios. If you must stop, move to the side. The locals still need to move through their village while you're visiting it.",
+        "**Evening noise ends early**. After 10pm, the village is quiet. Loud conversations, music, shouting—these disturb people who work in the morning. Respect the silence.",
+        "**The rocks are not beaches**. Swimming from the harbor rocks is for confident swimmers. No lifeguards, no warnings, no sympathy for those who hurt themselves doing something foolish."
+      ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More Help",
-        "it": "Info Fondamentali",
-        "de": "Die Geheimnisse der Einheimischen"
-      },
-      "buttons": [
+      "type": "collection-with-interludes",
+      "itemType": "insight",
+      "items": [
         {
-          "text": {
-            "en": "FAQ"
-          },
-          "url": {
-            "en": "/en/manarola/faq"
-          },
-          "variant": "primary"
+          "id": 4,
+          "name": "The Tourist Economy",
+          "category": "Economic Reality",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Tourism sustains the village now—but the relationship is complicated, a bargain with benefits and costs.",
+          "description": "Before tourism, Manarola was dying. Young people left. Terraces were abandoned. Buildings crumbled. Tourism brought money, restored buildings, provided jobs. But it also brought crowds, raised prices, made the village unaffordable for many who grew up here. The locals benefit and resent in equal measure.",
+          "giuliaComment": "I'm grateful for tourism—it let me stay when my parents had to leave to find work. But I also remember when the village was ours, when we knew everyone we passed on the street. Now I'm a stranger in my own home most days. It's complicated.",
+          "signature": "When salvation brings loss"
         },
         {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 5,
+          "name": "The Religious Calendar",
+          "category": "Cultural Rhythm",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The church still organizes village time—feast days, processions, the rhythms of the Catholic year.",
+          "description": "Sunday mass at San Lorenzo isn't just for believers; it's the weekly village gathering. Feast days bring processions that block streets (and tourists must wait). August 15th (Assumption) is the village's biggest celebration. These aren't tourist events—they're the real calendar, the one that matters to those who live here.",
+          "giuliaComment": "I'm not religious in the traditional sense, but I attend mass most Sundays. It's where I see everyone, hear the news, stay connected. The church is the village's gathering place whether you believe or not.",
+          "signature": "When tradition structures time"
         }
       ],
-      "eyebrow": {
-        "de": "Expertenwissen"
-      },
-      "subtitle": {
-        "de": "Authentische Erfahrungen, die nur wenige Besucher kennen"
-      }
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Return Visitor",
+          "quote": "Locals notice who returns. The visitor who came last year and remembers names, who asks after children, who knows which café to use and when—that person moves from tourist to acquaintance. After enough returns, they become part of the extended community. It takes years, but it happens."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Seeing What's Hidden",
+      "content": [
+        "The insights here aren't secrets—they're obvious to anyone who lives here. But they're invisible to most visitors, who see only the surface: the pretty buildings, the blue sea, the Instagram opportunity.",
+        "Seeing deeper requires attention. It requires slowing down. It requires treating the village as a place where people actually live, not just a destination to be consumed.",
+        "Come early. Stay late. Learn names. Follow rhythms. Say buongiorno. And slowly, the hidden village reveals itself—not through effort, but through presence."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/manarola/overview", "variant": "primary" },
+        { "text": "Stories", "url": "/en/manarola/blog", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "insights"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.839Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

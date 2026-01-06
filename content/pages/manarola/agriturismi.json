@@ -7,193 +7,152 @@
     "it": "/it/manarola/agriturismi"
   },
   "title": {
-    "en": "Agriturismi near Manarola",
-    "de": "Agriturismi",
-    "fr": "Agriturismi",
-    "it": "Agriturismi"
+    "en": "Farm Stays Near Manarola | Cinque Terre Dispatch"
   },
   "page_type": "agriturismi",
   "seo": {
     "title": {
-      "en": "Manarola Agriturismi 2025 | Farm Stays & Rural Accommodations"
+      "en": "Farm Stays Near Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Authentic farm stays near Manarola. Experience wine production, home-cooked meals, and peaceful countryside settings."
-    },
-    "keywords": {
-      "en": [
-        "Manarola agriturismi",
-        "farm stays",
-        "rural accommodation",
-        "wine agriturismo"
-      ]
+      "en": "The agriturismi above Manarola put you in the terraced landscape that made this village possible—working farms where the wine and oil come from the slopes outside your window."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Vita Rurale",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Agriturismi & Farm Stays",
-        "it": "Agriturismi a Manarola",
-        "de": "Agriturismi & Landgasthöfe"
-      },
-      "subtitle": {
-        "en": "Experience authentic Italian countryside. Stay at working farms and vineyards in the hills above Manarola with panoramic views.",
-        "it": "Immergiti nella vita rurale ligure tra vigneti terrazzati e uliveti. Degusta prodotti locali, vini DOC e olio extravergine in autentiche aziende agricole a conduzione familiare.",
-        "de": "Erleben Sie authentisches italienisches Landleben. Übernachten Sie auf arbeitsamen Bauernhöfen und Weingütern in den Hügeln oberhalb von Manarola mit spektakulären Panoramablicken auf das Mittelmeer."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Farm Stays",
-            "it": "Scopri Agriturismi"
-          },
-          "url": {
-            "en": "#agriturismi",
-            "it": "#agriturismi"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Esperienze"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#esperienze"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Where<br/>Wine Begins",
+      "subtitle": "The village of Manarola exists because of the terraces above it—centuries of cultivation that created the wine, the economy, and the way of life. An agriturismo stay puts you inside that living history, not just looking at it from below.",
+      "badge": "Farm Stays",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Understanding Agriturismo",
+      "quote": "An agriturismo is not a rural bed and breakfast with good marketing. It's a working farm that accepts guests—a place where the hospitality supports the agriculture, not the other way around. The distinction matters.",
+      "content": [
+        "**The word has legal meaning**. Italian law requires agriturismi to derive primary income from farming. The rooms, the meals, the tastings—these supplement actual agricultural work. You're staying at a farm, not a hotel with a garden.",
+        "**Location means distance**. Agriturismi sit in the terraces above the village, 10-30 minutes by car or trail. What you trade in convenience you gain in immersion. The view is different; the quiet is real; the connection to the land is tangible.",
+        "**Food comes from here**. Breakfast features eggs from chickens you can see. Dinner uses vegetables from the garden below. The wine is from grapes grown on the property. This isn't marketing—it's the point.",
+        "**The experience is participatory**. Many farms welcome guests to help with work: harvesting, pruning, pressing. This isn't staged tourism; it's how these families have operated for generations."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Farm Stays",
-        "it": "Esperienze Autentiche"
-      },
-      "title": {
-        "en": "Featured Agriturismi",
-        "it": "Cosa Offrono gli Agriturismi"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
         {
-          "icon": "wine",
-          "title": {
-            "en": "Agriturismo Sciacchetrà",
-            "it": "Camere Rurali"
-          },
-          "description": {
-            "en": "Working vineyard producing famous wine. Rooms with terraces overlooking the sea.",
-            "it": "Alloggio in casali ristrutturati tra vigneti e uliveti. Vista panoramica su mare e montagna. Colazione con prodotti dell'azienda."
-          }
+          "id": 1,
+          "name": "The Sciacchetrà Experience",
+          "category": "Wine Heritage",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The legendary dessert wine of Cinque Terre—tasting it where it's made, from grapes you can see drying.",
+          "description": "Sciacchetrà is made from grapes left to dry for months after harvest, concentrating their sugar. Production is tiny—maybe a few hundred bottles per farm. At an agriturismo, you taste it in the cellar where it aged, with the winemaker explaining the process their family has used for generations. The connection between glass and ground is immediate.",
+          "giuliaComment": "Every family's Sciacchetrà is different. The terroir matters, but so does the tradition—how long they dry the grapes, how they blend, how patient they are. Tasting it at the farm, with the person who made it, is completely different from buying a bottle elsewhere. The stories change the taste.",
+          "signature": "Where the wine tells its own story"
         },
         {
-          "icon": "farm",
-          "title": {
-            "en": "Agriturismo Volastra",
-            "it": "Degustazioni Vino"
-          },
-          "description": {
-            "en": "Hilltop location near the sanctuary. Organic vegetables and homemade wine.",
-            "it": "Assaggia Sciacchetrà, Cinque Terre DOC, Vermentino. Visita in cantina, spiegazione della produzione eroica in terrazza."
-          }
+          "id": 2,
+          "name": "The Harvest Participation",
+          "category": "Seasonal Work",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1571406251871-c4d4d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "September brings the vendemmia—the grape harvest that defines the year. Some farms welcome guests to join.",
+          "description": "Harvest is physical work: carrying baskets up steep terraces, cutting grapes by hand, sorting the fruit that will become wine. Participating isn't tourism; it's labor alongside people doing what their families have done for centuries. The meals afterward—tired, satisfied, surrounded by people who worked alongside you—are unforgettable.",
+          "giuliaComment": "I've worked harvests my whole life. When visitors join, I see them understand something they couldn't learn any other way—how hard this work is, how much the wine represents, why these terraces matter. A morning of harvest teaches more than a lifetime of tastings.",
+          "signature": "When work becomes understanding"
         },
         {
-          "icon": "home",
-          "title": {
-            "en": "La Sosta",
-            "it": "Olio Extravergine"
-          },
-          "description": {
-            "en": "Traditional farmhouse with home-cooked dinners. Stunning views of three villages.",
-            "it": "Olio DOP Riviera Ligure prodotto in loco. Degustazioni guidate, visita all'oliveto, vendita diretta."
-          }
-        },
-        {
-          "icon": "olive",
-          "title": {
-            "en": "Ca' du Ferrà",
-            "it": "Cucina Tradizionale"
-          },
-          "description": {
-            "en": "Olive grove and vineyard setting. Farm-to-table breakfast with local products.",
-            "it": "Pranzi e cene con prodotti km 0: verdure dell'orto, uova fresche, formaggi locali, salumi artigianali."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Buranco Agriturismo",
-            "it": "Tour nei Vigneti"
-          },
-          "description": {
-            "en": "Panoramic terrace restaurant open to non-guests. Spectacular sunset dining.",
-            "it": "Passeggia tra i terrazzamenti patrimonio UNESCO. Scopri la viticoltura eroica su pendenze impossibili."
-          }
-        },
-        {
-          "icon": "leaf",
-          "title": {
-            "en": "Agriturismo Villanova",
-            "it": "Relax nella Natura"
-          },
-          "description": {
-            "en": "Peaceful countryside retreat. Learn about wine-making and olive oil production.",
-            "it": "Lontano dalla folla turistica, immerso nel verde. Piscine panoramiche, giardini, silenzio e tranquillità."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More Accommodation",
-        "it": "Agriturismi in Numeri",
-        "de": "Authentische ligurische Landwirtschaft erleben"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Hotels"
-          },
-          "url": {
-            "en": "/en/manarola/hotels"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Terrace Understanding",
+          "category": "Agricultural Heritage",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+          "intro": "UNESCO protects these terraces as cultural heritage—but staying among them teaches what protection means.",
+          "description": "The dry-stone walls require constant maintenance. Every storm damages something. The slopes are so steep that machines can't help; every repair is done by hand. Staying at an agriturismo means seeing this work happen—understanding that the landscape isn't preserved by designation but by labor.",
+          "giuliaComment": "My family maintains 300 meters of wall. When visitors see me repairing stones after rain, they start to understand what this landscape costs. It's not a museum; it's a living system that requires constant care. That understanding changes how they see everything here.",
+          "signature": "When landscape becomes responsibility"
         }
       ],
-      "subtitle": {
-        "de": "Entdecken Sie das wahre Herz der ligurischen Landwirtschaft"
-      },
-      "content": {
-        "de": "Die Agriturismi rund um Manarola bieten Ihnen eine seltene Gelegenheit, das authentische Landleben der Cinque Terre zu erleben. Diese familiengeführten Betriebe, die sich auf den terrassierten Hängen oberhalb des **Hafens von Manarola** erstrecken, praktizieren seit Generationen nachhaltigen Weinbau und Olivenanbau.\n\nVon der **Kirche San Lorenzo** aus führen jahrhundertealte Pfade zu den Weingütern, wo der berühmte Sciacchetrà-Wein produziert wird. Die Gastgeber dieser Agriturismi sind nicht nur Landwirte, sondern auch Hüter einer uralten Tradition, die sie gerne mit ihren Gästen teilen.\n\nDie meisten Betriebe liegen strategisch günstig zwischen dem Dorf und dem **Aussichtspunkt Punta Bonfiglio**, wodurch Sie sowohl die Ruhe des Landlebens als auch die spektakulären Küstenblicke genießen können. Reservierungen sind besonders in der Erntezeit von September bis Oktober unerlässlich."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Timing Question",
+          "quote": "September harvest is the marquee season, but every month offers something. Spring brings pruning and wildflowers. Summer is maintenance and hospitality. Autumn has olives after grapes. Winter is quiet, contemplative, when farmers rest and plan. Each season reveals a different farm life."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Realities",
+      "quote": "Agriturismo stays require adjustment. You're not in the village. Transportation is necessary. The rhythm is agricultural, not tourist. For those who adapt, the rewards are substantial.",
+      "content": [
+        "**Transportation is essential**. Most farms are 15-30 minutes from Manarola by car or 45-90 minutes by foot. Some offer pickup services; others require you to drive. Public transit options are limited.",
+        "**Reservations are crucial**. Small properties with few rooms book well ahead, especially during harvest. Plan months in advance for September-October.",
+        "**Language can be a barrier**. Many farm families speak limited English. Patience, gestures, and translation apps help. But communication through food requires no translation.",
+        "**Amenities are simple**. Expect comfortable but not luxurious rooms. WiFi may be unreliable. Air conditioning isn't guaranteed. What you gain is authenticity."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
+        {
+          "id": 4,
+          "name": "Spring at the Farm",
+          "category": "Seasonal Guide",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the terraces awaken—wildflowers, new growth, and the careful work of pruning.",
+          "description": "Spring brings wildflowers to the terraces and careful work to the vines. Pruning determines the year's crop; it requires skill passed through generations. The weather is gentle, the trails are quiet, and the farms are preparing for the growing season.",
+          "giuliaComment": "Spring is my favorite time at the farm. The work is hopeful—you're shaping what will become. The visitors are fewer, the conversations longer. If you want to understand the craft without the harvest crowds, come in April or May.",
+          "signature": "When everything begins again"
+        },
+        {
+          "id": 5,
+          "name": "Autumn Abundance",
+          "category": "Peak Season",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "September through November—grape harvest, then olive harvest, the busiest and most celebratory time.",
+          "description": "The vendemmia brings September alive. October sees the first pressing, the beginning of fermentation. November brings olive harvest and oil pressing. The farms are busy, the meals abundant, the sense of accomplishment palpable. This is when agricultural life peaks.",
+          "giuliaComment": "Come during harvest if you can. The energy is different—focused, communal, exhausting in the best way. The meals after work, with wine from the previous year, are celebrations that have happened here for centuries. You're not watching tradition; you're inside it.",
+          "signature": "When work becomes celebration"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "Finding Authentic Farms",
+          "quote": "Not everything called 'agriturismo' is genuine. Look for active agricultural operations—working vineyards, olive groves in production, gardens supplying the kitchen. Ask what the farm produces. Real agriturismi are proud to explain their work."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Above and Beyond",
+      "content": [
+        "An agriturismo stay isn't for everyone. It requires transportation, adjustment, and acceptance that convenience yields to authenticity.",
+        "But for those who want to understand Manarola—not just photograph it—the farms above the village offer something the village itself cannot: the living heritage that created this landscape, still practiced by families who've been here for centuries.",
+        "Come hungry. Come curious. Leave understanding why the terraces matter."
+      ],
+      "buttons": [
+        { "text": "Village Hotels", "url": "/en/manarola/hotels", "variant": "primary" },
+        { "text": "Culinary Story", "url": "/en/culinary", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "agriturismi"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.836Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

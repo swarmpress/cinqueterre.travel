@@ -7,199 +7,157 @@
     "it": "/it/riomaggiore/getting-here"
   },
   "title": {
-    "en": "How to Get to Riomaggiore",
-    "de": "Anreise",
-    "fr": "Comment y Aller",
-    "it": "Come Arrivare"
+    "en": "Getting to Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "getting-here",
   "seo": {
     "title": {
-      "en": "Getting to Riomaggiore 2025 | Train, Car & Ferry Guide"
+      "en": "Getting to Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Complete guide to reaching Riomaggiore. Train connections, driving directions, parking info, and ferry schedules for the southernmost Cinque Terre village."
-    },
-    "keywords": {
-      "en": [
-        "getting to riomaggiore",
-        "riomaggiore train",
-        "how to reach",
-        "parking",
-        "transportation"
-      ]
+      "en": "The journey to Riomaggiore is part of the experience. Whether you emerge from a tunnel onto a cliffside platform or approach by sea with the village rising before you, arrival here is always dramatic."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Informazioni di Viaggio",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Gateway to Cinque Terre",
-        "it": "Come Arrivare a Riomaggiore",
-        "de": "Anreise ins Cinque Terre"
-      },
-      "subtitle": {
-        "en": "The southernmost village is easy to reach by train from La Spezia. No car needed - the train station is in the heart of the village.",
-        "it": "Treno, auto, aereo o traghetto: tutte le opzioni per raggiungere i 5 borghi. Collegamenti, orari, costi e consigli pratici per organizzare il tuo viaggio.",
-        "de": "Das südlichste Dorf der Cinque Terre ist bequem mit dem Zug von La Spezia erreichbar. Kein Auto erforderlich - der Bahnhof liegt direkt im Dorfzentrum, nur wenige Schritte von der ikonischen Via Colombo entfernt."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Transportation Info",
-            "it": "In Treno"
-          },
-          "url": {
-            "en": "#getting-here",
-            "it": "#treno"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Altre Opzioni"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#altro"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Art of<br/>Arrival",
+      "subtitle": "Riomaggiore is not easy to reach—and that's the point. The village has always been protected by its geography: cliffs to the sea, mountains to the land, and a railway that burrows through rock to deliver you somewhere unexpected.",
+      "badge": "Getting Here",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Journey Philosophy",
+      "quote": "There are no shortcuts to Riomaggiore. Every approach requires commitment—a train through darkness, a boat across open water, a car abandoned miles from where you want to be. The village demands you choose your arrival.",
+      "content": [
+        "The **train** is how most visitors arrive, and how everyone should experience this coast at least once. The regional railway emerges from tunnels onto platforms carved into cliffs, with the Mediterranean visible through windows before you've gathered your bags.",
+        "The **ferry** offers the approach that fishermen have known for centuries—Riomaggiore rising from the sea, its colored houses stacked like a child's blocks against the hill. This is how the village wants to be seen.",
+        "The **car** is an exercise in letting go. You can drive to Cinque Terre, but you cannot drive into Riomaggiore. The village's car-free existence is not a policy; it's geography. The streets were built for donkeys, not automobiles.",
+        "**Walking** remains an option—the hiking trails that connect the five villages were paths before they were attractions. To arrive on foot is to arrive as people did for centuries."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Transportation",
-        "it": "Mezzi di Trasporto",
-        "de": "Verkehrsmittel"
-      },
-      "title": {
-        "en": "How to Reach Riomaggiore",
-        "it": "Come Raggiungere le Cinque Terre",
-        "de": "Anreise nach Riomaggiore"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "transport",
+      "items": [
         {
-          "icon": "train",
-          "title": {
-            "en": "By Train (Best Option)",
-            "it": "Treno (Consigliato)"
-          },
-          "description": {
-            "en": "Direct trains from La Spezia (10 min), Genoa (2 hrs), Pisa (2.5 hrs). Station in village center",
-            "it": "Tutti i 5 villaggi sono collegati dalla linea Genova-La Spezia. Treni ogni 15-30 min. Il modo più comodo, veloce ed ecologico."
-          }
+          "id": 1,
+          "name": "By Train",
+          "category": "Primary Access",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The railway that made Cinque Terre accessible—and gave tourists a reason to discover what locals had always known.",
+          "description": "The Genoa-La Spezia railway opened in 1874, boring through cliffs that had kept these villages isolated for centuries. Today, trains from La Spezia reach Riomaggiore in 12 minutes, emerging from tunnels onto a platform where the sea is already visible.",
+          "giuliaComment": "I've made this journey thousands of times. It never gets ordinary—the moment the train exits the tunnel and you see the coast spread out below. That's when the trip begins.",
+          "signature": "12 minutes from La Spezia to another world",
+          "practicalInfo": "Trains every 15-30 minutes in season. Cinque Terre Card includes unlimited travel. Validate tickets before boarding."
         },
         {
-          "icon": "car",
-          "title": {
-            "en": "By Car",
-            "it": "Auto"
-          },
-          "description": {
-            "en": "Drive to La Spezia, park at Park & Ride, take train to Riomaggiore. Village is car-free",
-            "it": "Sconsigliata: strade strette, parcheggi limitatissimi e costosi (€25-30/giorno), centri storici ZTL. Lascia l'auto a La Spezia."
-          }
+          "id": 2,
+          "name": "By Ferry",
+          "category": "Scenic Approach",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "See Riomaggiore the way it was meant to be seen—from the water, rising against the hills.",
+          "description": "Ferries connect Riomaggiore to Portovenere, La Spezia, and the other Cinque Terre villages from spring through autumn. The approach by sea reveals the village's true drama—the impossibility of its location, the determination of its builders.",
+          "giuliaComment": "The ferry is more expensive and less frequent than the train. It's also infinitely more beautiful. If the weather is good, take the boat at least once.",
+          "signature": "The approach that reveals the village",
+          "practicalInfo": "April-October only. Weather-dependent. Book at the harbor or La Spezia. 15 minutes from Portovenere."
         },
         {
-          "icon": "parking",
-          "title": {
-            "en": "Parking Options",
-            "it": "Aereo"
-          },
-          "description": {
-            "en": "Limited paid parking above village (steep walk down). Better to use La Spezia Park & Ride",
-            "it": "Aeroporti più vicini: Genova (90 km), Pisa (80 km). Da entrambi, treno per La Spezia (1-1.5 ore) poi treno locale."
-          }
-        },
-        {
-          "icon": "ferry",
-          "title": {
-            "en": "By Boat",
-            "it": "Traghetto"
-          },
-          "description": {
-            "en": "Seasonal ferry from La Spezia, Portovenere, and Lerici. Scenic arrival at the harbor",
-            "it": "Stagionale (aprile-ottobre). Collegamenti tra villaggi e da La Spezia/Portovenere. Panoramico ma limitato dal meteo."
-          }
-        },
-        {
-          "icon": "plane",
-          "title": {
-            "en": "From Airports",
-            "it": "Bus"
-          },
-          "description": {
-            "en": "Pisa (closest), Genoa, or Milan airports. Take train to La Spezia, then local train",
-            "it": "Opzione secondaria. Collegamenti da La Spezia e Levanto. Meno frequenti del treno, strade tortuose."
-          }
-        },
-        {
-          "icon": "map",
-          "title": {
-            "en": "Getting Around",
-            "it": "A Piedi"
-          },
-          "description": {
-            "en": "Walk everywhere in the village. Train or boat to other Cinque Terre villages",
-            "it": "Una volta arrivato, muoviti a piedi. I centri storici sono piccoli e pedonali. Il Sentiero Azzurro collega tutti i villaggi."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Visit",
-        "it": "Come Arrivare in Numeri",
-        "de": "Detaillierte Anreise-Informationen"
-      },
-      "description": {
-        "en": "Once you arrive, use our maps to navigate the village and trails."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Maps"
-          },
-          "url": {
-            "en": "/en/riomaggiore/maps"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "By Car",
+          "category": "Indirect Access",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "You can drive to Cinque Terre. You cannot drive into Riomaggiore.",
+          "description": "Parking exists above the village—expensive, limited, and often full. From there, you walk down (or take a shuttle) into a village that has never accommodated automobiles. The car-free experience begins at the parking lot; plan accordingly.",
+          "giuliaComment": "I tell people: don't drive unless you have a reason. The parking is stressful, the cost is high, and the train is easier. But if you're exploring the broader region, a car gives freedom the railway cannot.",
+          "signature": "Where freedom meets limitation",
+          "practicalInfo": "Parking €2-5/hour. Limited spaces. Shuttle or steep walk to village. Consider La Spezia parking instead."
         }
       ],
-      "subtitle": {
-        "de": "Als Spezialist für praktische Reiselogistik teile ich meine bewährtesten Tipps für eine reibungslose Anreise nach Riomaggiore mit Ihnen."
-      },
-      "content": {
-        "de": "## Anreise mit dem Zug - Die beste Option\n\n**Von Deutschland aus** empfehle ich die Nachtzugverbindung von München nach La Spezia (ÖBB Nightjet, ab 89€ im Liegewagen). Alternativ fahren Sie tagsüber über Zürich-Mailand-Genua nach La Spezia Centrale.\n\n**Wichtiger Tipp:** Kaufen Sie die Cinque Terre Card bereits am Bahnhof La Spezia. Diese beinhaltet unbegrenzte Zugfahrten zwischen den fünf Dörfern, Zugang zu den Wanderwegen und ermäßigten Eintritt zu lokalen Attraktionen. Preise: Tagesticket 16€, Zweitagesticket 29€, Dreitagesticket 47€.\n\n**Zugfrequenz:** Alle 15-30 Minuten verkehren Regionalzüge zwischen La Spezia und den Cinque Terre. Fahrtzeit nach Riomaggiore: 10 Minuten.\n\n## Anreise mit dem Auto - Praktische Überlegungen\n\nAls Ligurier rate ich: Fahren Sie **nur bis La Spezia**, nicht ins Dorf selbst. Die Via Colombo und andere Dorfstraßen sind für den Durchgangsverkehr gesperrt.\n\n**Parkmöglichkeiten:**\n- **Parcheggio Cinque Terre** (La Spezia): 18€/Tag, 5 Minuten zu Fuß zum Bahnhof\n- **Garage oberhalb Riomaggiore:** 25€/Tag, sehr begrenzte Plätze\n- **Kostenloser Parkplatz SP32:** 20 Minuten Fußweg zum Dorf\n\n## Schiffsverbindungen - Die malerische Route\n\nBesonders empfehlenswert ist die Anreise per Schiff von **Portovenere** aus (März-Oktober). Die 90-minütige Fahrt bietet spektakuläre Ausblicke auf die Küste und das mittelalterliche Schloss Riomaggiore. Tickets: 35€ pro Strecke, online buchbar.\n\n**Tipp:** Buchen Sie den 16:30-Uhr-Schiff für die beste Beleuchtung der bunten Häuser entlang der Via Colombo."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Cinque Terre Card",
+          "quote": "The card isn't optional—it's how you access trails and how you ride trains without hunting for tickets. Buy it at La Spezia station, choose your duration (1, 2, or 3 days), and forget about transportation logistics."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Practical Details",
+      "quote": "Logistics in Cinque Terre require patience and planning. The infrastructure was built for a village of fishermen, not waves of international visitors. Adjust your expectations accordingly.",
+      "content": [
+        "**From Rome**: High-speed trains reach La Spezia in 4 hours. Change there for the regional train to Riomaggiore. Book the first leg in advance; the second leg doesn't need reservations.",
+        "**From Florence**: About 3.5 hours with a change in La Spezia or Pisa. The Pisa connection adds coastal scenery; La Spezia is more direct.",
+        "**From Milan**: 3.5 hours via La Spezia. Morning departures let you arrive before the midday crowds.",
+        "**From nearby airports**: Pisa is closest (90 minutes to La Spezia), followed by Genoa (2 hours). Florence and Milan airports work but add travel time. Consider overnight stays near airports for early arrivals."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
+        {
+          "id": 4,
+          "name": "Timing Your Arrival",
+          "category": "Strategy",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When you arrive shapes everything—the crowds you meet, the light you see, the village you experience.",
+          "description": "The first train from La Spezia (around 6am) delivers you to a village still waking up—fishermen returning, locals beginning their day, tourists still asleep. Mid-morning brings crowds. Late afternoon brings golden light and departing day-trippers.",
+          "giuliaComment": "I always recommend arriving early or late. The middle of the day is when Riomaggiore is most crowded and least itself. Earn the quiet hours.",
+          "signature": "The village belongs to those who earn its hours",
+          "practicalInfo": "First trains around 6am, last around 11pm. Crowds peak 11am-3pm. Golden hour magic after 5pm."
+        },
+        {
+          "id": 5,
+          "name": "Luggage Logistics",
+          "category": "Practical Reality",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The village was built for people carrying baskets, not wheeling suitcases.",
+          "description": "Every path in Riomaggiore involves stairs. Heavy luggage becomes punishment. The wise traveler packs light, stores extra bags at La Spezia's left luggage service, and arrives with only what can be carried comfortably up medieval steps.",
+          "giuliaComment": "I've watched travelers wrestle suitcases up stairs for twenty minutes, arriving sweating and frustrated. Then I've watched someone with a single backpack stride into the village smiling. Choose your experience.",
+          "signature": "Light packing is not sacrifice—it's freedom",
+          "practicalInfo": "Left luggage at La Spezia station (€6/day). Most accommodations have stairs. Pack like a backpacker, even if you're not one."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Off-Season Secret",
+          "quote": "November through March, Riomaggiore becomes a village again—quieter, slower, more willing to reveal itself. Ferries stop, some restaurants close, but the train still runs and the welcome grows warmer."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Arrival is the Beginning",
+      "content": [
+        "However you reach Riomaggiore—by train through tunnels, by boat across waves, by car to a parking lot that forces you to walk—the arrival is only the first step.",
+        "The journey changes you before the destination does. The train's emergence from darkness into light, the ferry's approach to an impossible village, the descent from parking lot to harbor—these are all part of what Riomaggiore offers.",
+        "Choose your arrival thoughtfully. Then forget about transportation and start living here."
+      ],
+      "buttons": [
+        { "text": "Where to Stay", "url": "/en/riomaggiore/hotels", "variant": "primary" },
+        { "text": "What to Do", "url": "/en/riomaggiore/things-to-do", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "getting-here"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.846Z"
+  "updated_at": "2026-01-05T17:00:00.000Z"
 }

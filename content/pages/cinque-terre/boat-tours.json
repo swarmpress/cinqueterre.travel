@@ -7,201 +7,148 @@
     "it": "/it/cinque-terre/boat-tours"
   },
   "title": {
-    "en": "Boat Tours in Cinque Terre 2025",
-    "de": "Bootstouren",
-    "fr": "Excursions en Bateau",
-    "it": "Gite in Barca"
+    "en": "Cinque Terre Boat Tours: Coastal Views & Village Hopping"
   },
   "page_type": "boat-tours",
   "seo": {
     "title": {
-      "en": "Cinque Terre Boat Tours 2025 | Coastal Cruises & Ferry Service"
+      "en": "Cinque Terre Boat Tours | Coastal Views | Cinqueterre.travel"
     },
     "description": {
-      "en": "Discover Cinque Terre from the sea. Boat tours, ferry connections, sunset cruises, snorkeling trips, and private charters along the stunning coastline."
-    },
-    "keywords": {
-      "en": [
-        "cinque terre boat tours",
-        "ferry",
-        "coastal cruise",
-        "sunset boat tour",
-        "snorkeling",
-        "kayaking",
-        "private charter"
-      ]
+      "en": "Experience Cinque Terre from the sea. Private boats, sunset cruises, and village hopping tours. Discover hidden coves and UNESCO coastline."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Explore by Sea",
-        "it": "Esperienza in Mare",
-        "de": "Entdecken Sie vom Meer aus"
-      },
-      "title": {
-        "en": "Cinque Terre Boat Tours & Ferries",
-        "it": "Tour in Barca nelle Cinque Terre",
-        "de": "Bootstouren & Fährverbindungen Cinque Terre"
-      },
-      "subtitle": {
-        "en": "Experience the stunning coastline from the water with ferry connections, scenic cruises, and unforgettable sunset tours",
-        "it": "Ammira i 5 villaggi dalla prospettiva più spettacolare: il mare. Case colorate che emergono dalle scogliere, grotte nascoste, calette segrete e tramonti indimenticabili.",
-        "de": "Ich kann Ihnen versichern - die spektakuläre Küstenlinie vom Wasser aus zu erleben ist pure Magie. Als Fotografin sammle ich hier meine schönsten Aufnahmen: bunte Häuser, die aus Klippen wachsen, versteckte Grotten und unvergessliche Sonnenuntergänge."
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
+      "eyebrow": "UNESCO Maritime Heritage",
+      "title": "Experience Cinque Terre from the Sea",
+      "subtitle": "Discover why medieval sailors called this coast 'paradise.' From private yacht charters to traditional fishing boat tours, witness centuries of vertical architecture cascading into azure waters.",
       "buttons": [
         {
-          "text": {
-            "en": "View Boat Tours",
-            "it": "Prenota Tour"
-          },
-          "url": {
-            "en": "#boat-tours",
-            "it": "#tour"
-          },
+          "text": "Book Your Boat Tour",
+          "url": "#tours",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Beaches",
-            "it": "Tipi di Tour"
-          },
-          "url": {
-            "en": "/en/cinque-terre/beaches",
-            "it": "#tipologie"
-          },
+          "text": "View Tour Options",
+          "url": "#features",
           "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "title": "Your Maritime Journey",
+      "stats": [
+        {
+          "number": "15km",
+          "label": "of UNESCO coastline"
+        },
+        {
+          "number": "5",
+          "label": "historic fishing villages"
+        },
+        {
+          "number": "2-6",
+          "label": "hours tour duration"
+        },
+        {
+          "number": "600",
+          "label": "years of maritime tradition"
         }
       ]
     },
     {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Water Activities",
-        "it": "Tipologie di Tour",
-        "de": "Wassererlebnisse"
-      },
-      "title": {
-        "en": "Boat Tours & Marine Adventures",
-        "it": "Esperienze in Barca",
-        "de": "Bootstouren & Maritime Abenteuer"
-      },
+      "title": "Choose Your Perfect Voyage",
+      "subtitle": "From intimate sunset cruises to full-day adventures, each tour reveals different facets of this ancient maritime landscape",
       "features": [
         {
-          "icon": "ship",
-          "title": {
-            "en": "Ferry Service",
-            "it": "Tour dei 5 Villaggi"
-          },
-          "description": {
-            "en": "Regular ferry connections between all five villages from March to October, best way to see the coast",
-            "it": "Giro completo costiero con soste per nuotare. 3-4 ore, guida inclusa, partenza da Monterosso o La Spezia."
-          }
+          "icon": "⛵",
+          "title": "Private Yacht Charters",
+          "description": "Exclusive access to hidden coves and secluded beaches. Your captain shares stories passed down through generations of local fishermen."
         },
         {
-          "icon": "sunset",
-          "title": {
-            "en": "Sunset Cruises",
-            "it": "Tour al Tramonto"
-          },
-          "description": {
-            "en": "Romantic evening tours with wine tastings, watching the villages glow in golden Mediterranean light",
-            "it": "Esperienza romantica con aperitivo a bordo. Vista spettacolare sui villaggi illuminati dal sole al calar del giorno."
-          }
+          "icon": "🌅",
+          "title": "Sunset Aperitivo Cruises",
+          "description": "Golden hour magic with local Sciacchetrà wine and focaccia di Recco. Watch the villages glow as medieval church bells echo across the water."
         },
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Swimming & Snorkeling",
-            "it": "Snorkeling e Grotte"
-          },
-          "description": {
-            "en": "Boat tours with stops at secluded coves and crystal-clear waters perfect for swimming and snorkeling",
-            "it": "Esplorazione dell'area marina protetta con attrezzatura inclusa. Visita a grotte e calette nascoste."
-          }
+          "icon": "🏊‍♀️",
+          "title": "Swimming & Snorkeling Tours",
+          "description": "Dive into crystal-clear waters at Guvano Beach and explore underwater grottos accessible only by boat."
         },
         {
-          "icon": "sailboat",
-          "title": {
-            "en": "Private Charters",
-            "it": "Barca a Vela"
-          },
-          "description": {
-            "en": "Customized sailing tours, fishing trips, and exclusive experiences for couples and small groups",
-            "it": "Tour in barca a vela tradizionale. Esperienza più autentica e sostenibile, gruppi piccoli."
-          }
+          "icon": "📸",
+          "title": "Photography Expeditions",
+          "description": "Capture postcard-perfect angles impossible from land. Early morning departures avoid crowds for that perfect shot."
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "variant": "image-right",
+      "image": "https://images.unsplash.com/photo-1570737040404-cd52ed5543c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGJvYXR8ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=800",
+      "title": "The Maritime Soul of Cinque Terre",
+      "content": "For over six centuries, these waters have been the lifeline of the Cinque Terre. Before the railway carved through the mountains in 1874, boats were the only connection between these cliff-hugging communities and the outside world.\n\nToday's tours follow the same ancient routes used by merchants carrying wine, olive oil, and the precious anchovy catch that built these villages. Your journey reveals architectural marvels impossible to appreciate from land – the ingenious engineering that allowed entire communities to flourish on seemingly impossible terrain.\n\nFrom April through October, the Battello del Golfo provides scheduled service between villages, while private operators offer intimate experiences year-round. Spring and early autumn offer the clearest waters and most comfortable temperatures for swimming stops."
+    },
+    {
+      "type": "faq-section",
+      "title": "Planning Your Maritime Adventure",
+      "faqs": [
+        {
+          "question": "When is the best time for boat tours?",
+          "answer": "Peak season runs April through October with daily departures. For the clearest waters and fewer crowds, book in May, early June, or September. Winter tours operate on weekends with advance booking, offering dramatic storm-watching opportunities."
         },
         {
-          "icon": "kayak",
-          "title": {
-            "en": "Kayak Tours",
-            "it": "Tour Privati"
-          },
-          "description": {
-            "en": "Guided sea kayaking adventures exploring hidden beaches and caves along the rugged coastline",
-            "it": "Barca riservata per te e il tuo gruppo. Itinerario personalizzato, massima flessibilità."
-          }
+          "question": "How much should I budget for a boat tour?",
+          "answer": "Shared tours start from €25 per person for basic village hopping, while sunset aperitivo cruises range €45-65. Private charters begin at €300 for up to 6 guests for half-day experiences, reaching €800-1200 for luxury full-day charters with swimming stops and gourmet lunch."
         },
         {
-          "icon": "camera",
-          "title": {
-            "en": "Photography Tours",
-            "it": "Tour con Degustazione"
-          },
-          "description": {
-            "en": "Capture the colorful villages from unique perspectives only accessible from the water",
-            "it": "Combinazione mare e enogastronomia. Include degustazione di vini locali e prodotti tipici."
-          }
+          "question": "Can tours operate in rough weather?",
+          "answer": "Safety is paramount. Tours cancel when waves exceed 1.5 meters or during strong Libeccio winds. Operators typically offer full refunds or rescheduling. The enclosed waters near Monterosso provide shelter during mild weather, allowing modified shorter routes."
+        },
+        {
+          "question": "What should I bring on board?",
+          "answer": "Sunscreen (marine reflection intensifies UV), hat, sunglasses, and water bottle are essential. Many boats lack shade. Bring swimwear for swimming stops and a light jacket for evening cruises – Mediterranean temperatures drop quickly after sunset."
+        },
+        {
+          "question": "Are there age restrictions or accessibility considerations?",
+          "answer": "Most boats welcome all ages, though choppy conditions may be uncomfortable for very young children or those with mobility issues. Traditional wooden boats require climbing over sides to board. Modern catamarans offer easier access and more stability."
+        },
+        {
+          "question": "Where do tours depart from?",
+          "answer": "Primary departure points are Monterosso al Mare (largest harbor), La Spezia (major port), and Riomaggiore (smaller boats only). Some operators provide shuttle service from other villages. Advance booking recommended, especially for sunset cruises which sell out weeks ahead in summer."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore More Water Activities",
-        "it": "Dettagli e Prezzi",
-        "de": "Meine persönlichen Empfehlungen als Fotografin"
-      },
-      "description": {
-        "en": "Discover beaches, diving spots, and coastal adventures in Cinque Terre"
-      },
+      "variant": "centered",
+      "title": "Ready to See Cinque Terre from Its True Perspective?",
+      "subtitle": "Join centuries of travelers who discovered that these villages reveal their greatest secrets from the sea. Book your maritime adventure and understand why poets called this coastline 'where earth meets heaven.'",
       "buttons": [
         {
-          "text": {
-            "en": "Best Beaches"
-          },
-          "url": {
-            "en": "/en/cinque-terre/beaches"
-          },
+          "text": "Explore Boat Tours",
+          "url": "/tours",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/cinque-terre/things-to-do"
-          },
+          "text": "Contact Local Operators",
+          "url": "/contact",
           "variant": "secondary"
         }
-      ],
-      "subtitle": {
-        "de": "Nach unzähligen Stunden auf dem Wasser kenne ich die besten Spots und Zeiten"
-      },
-      "content": {
-        "de": "## Die goldene Stunde nutzen\n\nAls Visual Storyteller sage ich Ihnen: Buchen Sie unbedingt eine frühe Morgentour oder eine Sonnenuntergangsfahrt. Das Licht zwischen 7:00-8:30 Uhr und 18:30-20:00 Uhr ist magisch. Ich habe von der **Santa Maria Belvedere** aus gesehen, wie das erste Licht die bunten Häuser küsst - vom Boot aus ist dieser Anblick noch spektakulärer.\n\n## Praktische Tipps für Ihre Tour\n\n**Beste Reisezeit:** April bis Oktober, aber ich bevorzuge Mai und September - weniger Menschenmassen, perfektes Licht.\n\n**Preise 2024:**\n- Einzelfahrt zwischen Dörfern: 5-7 EUR\n- Tagespass alle Dörfer: 35 EUR\n- Sonnenuntergangstour: 45-65 EUR\n- Halbtägige Panoramatour: 38-55 EUR\n\n**Buchung:** Reservierungen empfohlen, besonders Juni-August. Online 10% günstiger.\n\n## Geheimtipps vom Wasser\n\nDie **Lardarina Treppe** sieht vom Meer aus wie eine Himmelsleiter. Und der Blick auf die **Corniglia Weinberg-Terrassen** während der goldenen Stunde? Ich bekomme immer noch Gänsehaut. In der **Osteria Mananan** können Sie nach der Tour den gleichen Wein verkosten, den Sie vom Boot aus wachsen sahen."
-      }
+      ]
     }
   ],
   "metadata": {
     "city": "cinque-terre",
     "page_type": "boat-tours"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.828Z"
+  "updated_at": "2025-12-16T10:42:32.450Z"
 }

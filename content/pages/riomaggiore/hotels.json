@@ -7,184 +7,175 @@
     "it": "/it/riomaggiore/hotels"
   },
   "title": {
-    "en": "Hotels in Riomaggiore",
-    "de": "Hotels",
-    "fr": "Hôtels",
-    "it": "Hotel"
+    "en": "Where to Stay in Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "hotels",
   "seo": {
     "title": {
-      "en": "Riomaggiore Hotels 2025 | Best Accommodations & Sea Views"
+      "en": "Where to Stay in Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Find the perfect hotel in Riomaggiore. From boutique hotels with harbor views to charming B&Bs in colorful houses. Book your Cinque Terre stay."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore hotels",
-        "cinque terre accommodation",
-        "harbor view rooms",
-        "boutique hotels",
-        "b&b riomaggiore"
-      ]
+      "en": "The best place to sleep in Riomaggiore is not a hotel. It's a converted wine cellar, a fisherman's house, a room where the window opens onto eight centuries of sea and stone."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Dove Dormire",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Stay in Colorful Cliff Houses",
-        "it": "Hotel e Alloggi a Riomaggiore",
-        "de": "Übernachten in farbenprächtigen Klippenhäusern"
-      },
-      "subtitle": {
-        "en": "Experience authentic village life in boutique hotels, charming B&Bs, and rooms with spectacular harbor and sea views.",
-        "it": "Dalle camere con vista mare agli appartamenti nel centro storico, trova il tuo rifugio perfetto tra i vicoli colorati e le terrazze panoramiche.",
-        "de": "Erleben Sie authentisches Dorfleben in Boutique-Hotels, charmanten B&Bs und Zimmern mit spektakulärem Hafen- und Meerblick. Wachen Sie zum Klang der Wellen auf und lassen Sie sich von der ligurischen Gastfreundschaft verzaubern."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Accommodations",
-            "it": "Vedi Alloggi"
-          },
-          "url": {
-            "en": "#hotels",
-            "it": "#hotel"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Consigli Utili"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#consigli"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Where to<br/>Wake Up",
+      "subtitle": "In Riomaggiore, accommodation is not lodging—it's immersion. The best places to stay put you inside the village's rhythms: the 6am bells, the returning fishing boats, the light that changes on stone walls through the day.",
+      "badge": "Where to Stay",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Logic of Lodging",
+      "quote": "There are no chain hotels in Riomaggiore. What there is: family-run locandas, converted medieval houses, and B&Bs where breakfast comes with stories about the village and advice about where to swim.",
+      "content": [
+        "**Location is philosophy**. Stay at the harbor and you'll hear boats scraping stone at dawn. Stay on the hill and you'll earn your view with stairs. Stay in the valley and you'll find quiet at the cost of a climb.",
+        "**Stairs are inevitable**. This village was built before elevators, before wheelchair ramps, before the assumption that ground should be flat. Every accommodation requires some negotiation with gravity.",
+        "**Breakfast tells you everything**. The places that serve local focaccia, homemade cakes, and stories about the neighborhood are the places that understand what you came for. Chain coffee and packaged croissants are warnings.",
+        "**Book early, but not too early**. The best properties fill months ahead for summer. But plans change, cancellations happen, and sometimes the best stays are the ones that open up at the last moment."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Accommodation Options",
-        "it": "Info Pratiche",
-        "de": "Unterkunftsmöglichkeiten"
-      },
-      "title": {
-        "en": "Where to Stay in Riomaggiore",
-        "it": "Prezzi e Disponibilità",
-        "de": "Wo Sie in Riomaggiore übernachten sollten"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "hotel",
+      "items": [
         {
-          "icon": "hotel",
-          "title": {
-            "en": "Boutique Hotels"
-          },
-          "description": {
-            "en": "Small luxury hotels in restored tower-houses with modern amenities and breathtaking views"
-          }
+          "id": 1,
+          "name": "Locanda Ca' dei Duxi",
+          "category": "Historic Locanda",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A 15th-century building where breakfast happens in a wine cellar.",
+          "description": "Ca' dei Duxi occupies one of the village's oldest structures—walls that have stood since the 1400s, rooms that were once storage for the harvest. The morning meal is served in the original wine cellar, surrounded by stone that has witnessed five centuries.",
+          "giuliaComment": "This is where I send friends who want to feel the village, not just visit it. The building itself is an experience. The hosts make it home.",
+          "signature": "500 years of hospitality",
+          "priceRange": "€€€",
+          "practicalInfo": "Book months ahead for summer. Breakfast included. Stairs unavoidable."
         },
         {
-          "icon": "home-heart",
-          "title": {
-            "en": "Charming B&Bs"
-          },
-          "description": {
-            "en": "Family-run bed & breakfasts offering personal service and authentic local experience"
-          }
+          "id": 2,
+          "name": "Hotel Villa Argentina",
+          "category": "Hillside Hotel",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the view comes with altitude and the climb comes with reward.",
+          "description": "Villa Argentina sits above the village, surrounded by terraces and gardens. The elevation means panoramic sea views from the breakfast terrace—and a real walk to reach the harbor. But the return climb earns you sunset from your balcony.",
+          "giuliaComment": "The view is worth the walk. I send hikers here—people who understand that the best things in Riomaggiore require some effort.",
+          "signature": "The panorama you earn",
+          "priceRange": "€€€",
+          "practicalInfo": "Shuttle available from station. Garden terrace. Sea view rooms book first."
         },
         {
-          "icon": "waves",
-          "title": {
-            "en": "Harbor View Rooms"
-          },
-          "description": {
-            "en": "Wake up to the sight of fishing boats and colorful houses from waterfront locations"
-          }
-        },
-        {
-          "icon": "key",
-          "title": {
-            "en": "Historic Buildings"
-          },
-          "description": {
-            "en": "Stay in traditional Ligurian tower-houses dating back centuries, carefully restored"
-          }
-        },
-        {
-          "icon": "train",
-          "title": {
-            "en": "Near Train Station"
-          },
-          "description": {
-            "en": "Convenient locations for easy day trips to other Cinque Terre villages"
-          }
-        },
-        {
-          "icon": "sparkles",
-          "title": {
-            "en": "Romantic Getaways"
-          },
-          "description": {
-            "en": "Perfect for couples with rooftop terraces, sunset views, and proximity to Via dell'Amore"
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Riomaggiore Stay",
-        "it": "Dove Dormire",
-        "de": "Riomaggiore Unterkünfte im Überblick"
-      },
-      "description": {
-        "en": "Explore vacation rentals for more space and flexibility, or discover what makes this village special."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Apartments"
-          },
-          "url": {
-            "en": "/en/riomaggiore/apartments"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Sunset Line",
+          "category": "Boutique B&B",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the bath has a view and the sunset is part of the room rate.",
+          "description": "The Sunset Line offers something rare: an open-air bath with views over the Mediterranean. This is boutique accommodation for couples who understand that the room itself can be an experience, not just a place to sleep.",
+          "giuliaComment": "I recommend this for anniversaries, honeymoons, or anyone who wants to feel spoiled. The outdoor bath at sunset is absurdly romantic.",
+          "signature": "Where the room is the view",
+          "priceRange": "€€€",
+          "practicalInfo": "Couples oriented. Book well ahead. The bath is the point—don't miss it."
         }
       ],
-      "subtitle": {
-        "de": "Präzise Zahlen für Ihre perfekte Reiseplanung"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Question of Luggage",
+          "quote": "Every accommodation in Riomaggiore requires stairs. Every one. Pack light or suffer. The village was built for donkeys, not rolling suitcases. A single carry-on bag transforms your arrival from ordeal to adventure."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Value Question",
+      "quote": "Price in Riomaggiore correlates with view and location, not necessarily with quality. Some of the warmest hosts run the simplest properties. Some of the most expensive rooms have the coldest service.",
+      "content": [
+        "**Budget options exist**, but they require flexibility. Simple rooms in residential areas, family-run places off the tourist path, apartments without sea views—these can be excellent if you understand that the village itself is the experience.",
+        "**Mid-range is where the character lives**. The B&Bs run by locals who know every restaurant, every swimming spot, every shortcut through the village—these are often the best value.",
+        "**Luxury is relative**. In a village with no infinity pools or spa facilities, luxury means location, service, and atmosphere. A 15th-century locanda with attentive hosts offers luxury that chain hotels cannot match.",
+        "**Apartments suit longer stays**. A week in Riomaggiore benefits from a kitchen, laundry, and the feeling of temporary residency rather than tourism."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "hotel",
+      "items": [
+        {
+          "id": 4,
+          "name": "Cinque Terre Coast to Coast",
+          "category": "Exceptional B&B",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the hosts become friends and the advice becomes invaluable.",
+          "description": "Coast to Coast exemplifies what a B&B can be when the hosts genuinely care. They know which trail is open, which restaurant has the best fish today, and where to watch the sunset without the crowds. The rooms are comfortable; the hospitality is exceptional.",
+          "giuliaComment": "The owners love this village the way I do. When guests ask me for recommendations, these hosts give the same advice I would. That's rare.",
+          "signature": "Where local knowledge is the amenity",
+          "priceRange": "€€",
+          "practicalInfo": "Great value. Excellent breakfast. Hosts speak multiple languages."
+        },
+        {
+          "id": 5,
+          "name": "A due passi dal mare",
+          "category": "Waterfront Location",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The name means 'two steps from the sea'—and it's not exaggerating.",
+          "description": "This property puts you at the heart of harbor life. You'll hear the boats, smell the salt, and be able to swim before breakfast. The trade-off is the energy of the marina—this is not a quiet retreat, but an immersion in the village's beating heart.",
+          "giuliaComment": "For people who want to feel the village's pulse, there's no better location. You'll know when the boats come in. You'll hear the harbor wake up.",
+          "signature": "Where the sea is your neighbor",
+          "priceRange": "€€",
+          "practicalInfo": "Marina location means activity and noise. Perfect for those who want to be in the center."
+        },
+        {
+          "id": 6,
+          "name": "Cà Della Valletta",
+          "category": "Valley Retreat",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2670&auto=format&fit=crop",
+          "intro": "In the quiet valley behind the village, where the terraces begin.",
+          "description": "Cà Della Valletta offers something the harbor properties cannot: quiet. Set in the valley behind the main village, surrounded by vineyards, this is where you stay when you want to hear birds instead of boats.",
+          "giuliaComment": "The hosts here are extraordinary—genuinely warm, endlessly helpful. The location is peaceful, the valley beautiful. The trade-off is the walk to the harbor.",
+          "signature": "Where quiet is the luxury",
+          "priceRange": "€€",
+          "practicalInfo": "Valley location means some walking. Exceptional hosts. Peaceful setting."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Timing of Booking",
+          "quote": "Summer requires months of advance planning. Spring and fall reward spontaneity. Winter brings quiet and availability. The best season depends on what you came for—the crowds, or the escape from them."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Bed is Secondary",
+      "content": [
+        "You will not remember the thread count of your sheets or the pressure of your shower. You will remember waking to church bells, falling asleep to the sound of the sea, and the view from your window as the light changed through the day.",
+        "Choose your accommodation for what it puts you close to: the harbor, the trails, the quiet, the light. The room is where you sleep. The village is where you live.",
+        "Book something. Any of these will do. Then forget about lodging and start planning how to spend your days."
+      ],
+      "buttons": [
+        { "text": "Getting Here", "url": "/en/riomaggiore/getting-here", "variant": "primary" },
+        { "text": "Plan Your Itinerary", "url": "/en/itinerary", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "hotels"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.846Z"
+  "updated_at": "2026-01-05T17:00:00.000Z"
 }

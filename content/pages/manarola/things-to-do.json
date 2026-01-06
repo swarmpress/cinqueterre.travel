@@ -7,192 +7,152 @@
     "it": "/it/manarola/things-to-do"
   },
   "title": {
-    "en": "Things to Do in Manarola",
-    "de": "Aktivitäten",
-    "fr": "Activités",
-    "it": "Cosa Fare"
+    "en": "Things to Do in Manarola | Cinque Terre Dispatch"
   },
   "page_type": "things-to-do",
   "seo": {
     "title": {
-      "en": "Manarola Things to Do 2025 | Activities & Experiences"
+      "en": "Things to Do in Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Best activities in Manarola: swimming, wine tasting, sunset watching, boat tours, and exploring the Via dell'Amore."
-    },
-    "keywords": {
-      "en": [
-        "Manarola activities",
-        "what to do Manarola",
-        "Cinque Terre experiences",
-        "wine tasting"
-      ]
+      "en": "The best thing to do in Manarola is nothing in particular—walking, watching, swimming, eating when hungry. But if you need a list, here's what the village offers to those paying attention."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Esperienze Uniche",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Things to Do",
-        "it": "Cosa Fare a Manarola",
-        "de": "Aktivitäten & Erlebnisse"
-      },
-      "subtitle": {
-        "en": "From wine tasting in ancient vineyards to swimming in crystal waters, Manarola offers unforgettable experiences in the most scenic setting.",
-        "it": "Trekking panoramici, degustazioni di vino, tour in barca, bagni in mare cristallino, scoperta di borghi medievali. Un paradiso di esperienze tra natura, cultura e tradizione.",
-        "de": "Von Weinverkostungen in jahrhundertealten Weinbergen bis hin zu kristallklaren Gewässern - Manarola bietet Ihnen unvergessliche Erlebnisse in der spektakulärsten Kulisse der Riviera."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "See All Activities",
-            "it": "Attività Top"
-          },
-          "url": {
-            "en": "#activities",
-            "it": "#attivita"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Itinerari"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#itinerari"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Slow Down<br/>and See",
+      "subtitle": "Manarola doesn't offer theme parks or organized activities. It offers itself—a village where the doing is mostly watching, walking, tasting, and being present. The checklist mentality misses the point. The village rewards those who let it unfold.",
+      "badge": "Activities Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Activity Philosophy",
+      "quote": "When visitors ask what there is to do, I want to ask back: what does 'doing' mean to you? If it means scheduled activities with clear outcomes, Manarola will disappoint. If it means engaging fully with a place, there's more here than days can hold.",
+      "content": [
+        "**Watching is an activity**. The harbor at different hours. The light changing on facades. The fishermen with their boats. The way tourists move and locals don't. Observation sounds passive until you try to do it well.",
+        "**Walking discovers**. The obvious paths lead to obvious places. The unnamed alleys, the stairs that climb past doorways, the routes you take because they're there—these reveal the village that guidebooks can't show.",
+        "**Eating is cultural participation**. Not just consuming—understanding why this dish exists here, what the wine means to those who make it, how meals structure days. Food in Manarola is history made edible.",
+        "**Doing nothing is legitimate**. A morning on the rocks. An afternoon reading on a terrace. An evening watching sunset without photographing it. The village doesn't demand productivity. Neither should you."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Experiences",
-        "it": "Esperienze Imperdibili",
-        "de": "Entdeckungen"
-      },
-      "title": {
-        "en": "Popular Activities",
-        "it": "Le Migliori Attività",
-        "de": "Manarolaas Schätze in Zahlen"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "activity",
+      "items": [
         {
-          "icon": "sunset",
-          "title": {
-            "en": "Watch the Sunset",
-            "it": "Trekking sui Sentieri"
-          },
-          "description": {
-            "en": "Join locals on the harbor rocks for the most spectacular sunset in Cinque Terre.",
-            "it": "Percorri il Sentiero Azzurro che collega i 5 villaggi. Viste panoramiche mozzafiato, 120 km di rete sentieristica."
-          }
+          "id": 1,
+          "name": "Walk the Terraces",
+          "category": "Essential Experience",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Climb through the vineyard paths that make the village possible—agricultural heritage you can enter.",
+          "description": "Above Manarola, trails wind through terraced vineyards. These aren't tourist paths—they're working agricultural routes. Walk them to understand the scale of labor: every stone wall built by hand, every vine tended individually, slopes so steep you grip the rails. The views expand as you climb.",
+          "giuliaComment": "This is the activity I recommend first. The village makes sense from above. You see how small it is, how the terraces dwarf the buildings, how the whole system connects. Walk up through the vines. Come down understanding what 'wine village' really means.",
+          "signature": "Where walking becomes understanding"
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Wine Tasting",
-            "it": "Degustazioni Vino"
-          },
-          "description": {
-            "en": "Sample Sciacchetrà dessert wine in the village where it's produced. Visit local cantinas.",
-            "it": "Assaggia lo Sciacchetrà e i vini DOC locali. Visita le cantine nei terrazzamenti, tour enogastronomici guidati."
-          }
+          "id": 2,
+          "name": "Taste Sciacchetrà",
+          "category": "Wine Experience",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The legendary dessert wine made only here—expensive, rare, and worth the price for understanding what the terraces produce.",
+          "description": "Sciacchetrà is made from grapes dried for months, concentrating sugar and flavor. Production is tiny. Bottles cost €50-100 and up. The wine represents centuries of tradition—the reason the terraces exist, the product that justified the labor. Taste it at local cantinas or better restaurants.",
+          "giuliaComment": "Don't just drink it—ask questions. Where did these grapes grow? Who dried them? How long did it age? The wine carries stories. A glass of Sciacchetrà without conversation is just sweet wine. With conversation, it's two thousand years of history.",
+          "signature": "Where wine becomes heritage"
         },
         {
-          "icon": "boat",
-          "title": {
-            "en": "Swimming & Diving",
-            "it": "Tour in Barca"
-          },
-          "description": {
-            "en": "Swim in crystal-clear waters, jump from rocks, or snorkel around the harbor.",
-            "it": "Ammira i villaggi dal mare, nuota in calette nascoste, esplora grotte. Tour al tramonto con aperitivo."
-          }
-        },
-        {
-          "icon": "camera",
-          "title": {
-            "en": "Photography Tours",
-            "it": "Fotografia"
-          },
-          "description": {
-            "en": "Capture the iconic colorful houses from the best viewpoints. Morning and sunset tours.",
-            "it": "Cattura i panorami più iconici d'Italia. Alba a Riomaggiore, tramonto a Manarola, vicoli colorati ovunque."
-          }
-        },
-        {
-          "icon": "anchor",
-          "title": {
-            "en": "Boat Excursions",
-            "it": "Mare e Spiagge"
-          },
-          "description": {
-            "en": "See the village from the sea. Full-day tours connecting all five villages.",
-            "it": "Tuffati nelle acque cristalline dell'area marina protetta. Snorkeling, kayak, paddleboard."
-          }
-        },
-        {
-          "icon": "utensils",
-          "title": {
-            "en": "Food Experiences",
-            "it": "Gastronomia Locale"
-          },
-          "description": {
-            "en": "Cooking classes, focaccia making, and pesto workshops with local chefs.",
-            "it": "Pesto, acciughe, focaccia, pesce fresco. Tour gastronomici, corsi di cucina, sagre tradizionali."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore More",
-        "it": "Quanto Tempo Servire",
-        "de": "Meine persönlichen Empfehlungen"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Boat Tours"
-          },
-          "url": {
-            "en": "/en/manarola/boat-tours"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Swim at the Marina",
+          "category": "Physical Activity",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "No beach, just rocks and deep clear water—swimming as the village has always done it.",
+          "description": "The marina platform offers direct access to Mediterranean water so clear you can see the bottom fifteen meters down. No wading, no gradual entry—you jump in and you're swimming. The rocks around the harbor provide sunning spots. Morning is quiet; afternoon is crowded; evening is golden.",
+          "giuliaComment": "I swim almost every day in summer. The water is part of living here. When tourists swim, they're doing what we do—not some arranged activity. Join us. The water doesn't distinguish between visitors and locals.",
+          "signature": "Where swimming is belonging"
         }
       ],
-      "eyebrow": {
-        "de": "Authentische Erlebnisse"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Checklist Problem",
+          "quote": "Visitors arrive with lists: see the viewpoint, visit the church, photograph the harbor, eat at that restaurant. They complete their lists and leave, having 'done' Manarola. But they haven't done Manarola—they've crossed off items. The village doesn't work that way. It reveals itself to wanderers, not schedulers."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Organized Options",
+      "quote": "If you need structure, options exist. But remember: the best experiences in Manarola are usually unscheduled.",
+      "content": [
+        "**Wine tastings** at the cooperative and local cantinas provide education and samples. Book ahead for dedicated sessions, or simply show up and ask what's available. The informal option often teaches more.",
+        "**Cooking classes** exist through various operators—pesto making, focaccia, traditional pasta. These provide hands-on learning and something to take home. Quality varies; ask your accommodation for recommendations.",
+        "**Hiking trails** extend in multiple directions: to Volastra through terraces, to Corniglia along cliffs, to the sanctuary above. Maps are available. The Cinque Terre Card covers trail access and trains.",
+        "**Boat tours** depart from the harbor for coastal views. Some focus on swimming access, others on village perspectives from sea. Private charters allow customization."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "moment",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Sunset Watch",
+          "category": "Essential Ritual",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the light turns gold and the village glows—the activity that requires nothing but presence.",
+          "description": "Between 6pm and sunset, Manarola transforms. The day-trippers leave. The light softens. The viewpoint fills with those who stayed for this hour. The village turns amber, then rose, then shadow. This is not passively waiting—it's active watching, the reward for being here when it matters.",
+          "giuliaComment": "I've seen thousands of sunsets here. None are the same. The light, the clouds, the quality of the air—every evening writes itself differently. If you do nothing else in Manarola, do this. Stand somewhere with a view and watch. That's the activity.",
+          "signature": "When watching becomes event"
+        },
+        {
+          "id": 5,
+          "name": "The Morning Walk",
+          "category": "Daily Practice",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Before the trains bring the crowds—the village as it exists for those who live here.",
+          "description": "Walk Manarola before 9am. The cafés are open but quiet. The harbor is empty or occupied only by swimmers. The light is gentle. The village is awake but unhurried. This is the Manarola that locals know—before the performance begins, when the place is simply itself.",
+          "giuliaComment": "Every morning I walk from my house to the café to the harbor and back. The route takes ten minutes and tells me everything: who's up, what the weather is doing, what kind of day it will be. Join this walk. You'll see a different village than the one arriving on the 10am train.",
+          "signature": "When routine reveals place"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Doing Nothing Option",
+          "quote": "Sit on a rock. Watch boats. Read a book. Drink coffee without checking your phone. The village doesn't demand constant activity. Some of the best hours in Manarola are hours where 'nothing' happens—except presence, attention, and the slow realization that you're somewhere remarkable."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "What To Do Is Who To Be",
+      "content": [
+        "The question 'what should I do in Manarola' masks a deeper question: how should I be in Manarola? The answer is: slowly, attentively, without demanding the village entertain you.",
+        "Walk. Watch. Taste. Swim. Sit. Let hours pass without accomplishment. The village doesn't need you to be productive. It needs you to be present.",
+        "When you leave, what you remember won't be the items you checked off. It'll be the light at a certain hour, the taste of that wine, the feeling of cold water after a hot climb. These aren't activities—they're experiences. Manarola offers them freely to anyone willing to slow down enough to receive them."
+      ],
+      "buttons": [
+        { "text": "Dining Guide", "url": "/en/manarola/restaurants", "variant": "primary" },
+        { "text": "Plan Your Stay", "url": "/en/manarola/hotels", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "things-to-do"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.840Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

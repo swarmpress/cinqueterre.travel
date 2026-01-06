@@ -7,185 +7,152 @@
     "it": "/it/corniglia/beaches"
   },
   "title": {
-    "en": "Beaches Near Corniglia",
-    "de": "Strände",
-    "fr": "Plages",
-    "it": "Spiagge"
+    "en": "Swimming Near Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Corniglia Beaches 2025 | Swimming & Beach Access"
+      "en": "Swimming Near Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Beach access from Corniglia. The only Cinque Terre village without direct beach, but nearby options in Vernazza and Manarola for swimming."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia beach",
-        "Cinque Terre swimming",
-        "Guvano beach",
-        "beach access"
-      ]
+      "en": "Corniglia is the only Cinque Terre village without direct beach access—but that doesn't mean you can't swim. It means you earn your swim."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Beaches & Swimming",
-        "it": "Mare e Spiagge",
-        "de": "Strände & Baden"
-      },
-      "title": {
-        "en": "Beach Access from Corniglia",
-        "it": "Spiagge e Balneazione a Corniglia",
-        "de": "Strandzugang von Corniglia"
-      },
-      "subtitle": {
-        "en": "Corniglia is the only village without direct beach access. Nearby options require a short train ride or hike.",
-        "it": "Dalla sabbia dorata di Monterosso alle scogliere rocciose di Manarola, dalle calette nascoste alle piattaforme per tuffi. Acque cristalline in un'area marina protetta.",
-        "de": "Corniglia ist das einzige Dorf ohne direkten Strandzugang. Die nahegelegenen Optionen erreichen Sie mit einer kurzen Zugfahrt oder Wanderung."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "Swimming<br/>From the Heights",
+      "subtitle": "Corniglia sits 100 meters above the sea with no harbor, no beach, no easy water access. Yet some of the most rewarding swimming in Cinque Terre exists within reach—if you're willing to climb down, and then climb back up.",
+      "badge": "Beach Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Swimming Reality",
+      "quote": "Every swim from Corniglia involves a descent and an ascent. There are no beach bars, no lifeguards, no easy access. What exists is rocky coastline, clear water, and the satisfaction of earning your swim.",
+      "content": [
+        "**The village has no beach**. This simple fact shapes everything. Corniglia's relationship with the sea is visual, not physical—you look at the water, not into it. Swimming requires leaving the village.",
+        "**Options require effort**. The closest swimming spot is a 15-minute descent on rocky trails. Returning after swimming means climbing in wet clothes, tired from the water. This isn't a complaint—it's the price of admission.",
+        "**The water quality rewards the effort**. With no harbor and no easy access, these spots see fewer swimmers. The water is clearer, the rocks less crowded, the experience more private than the accessible beaches of other villages.",
+        "**Preparation is essential**. You're not walking to a managed beach. You're hiking to rocks by the sea. Bring water, wear proper shoes, know your swimming ability."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "spot",
+      "items": [
         {
-          "text": {
-            "en": "Beach Options",
-            "it": "Spiagge Principali"
-          },
-          "url": {
-            "en": "#beaches",
-            "it": "#spiagge"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "Spiaggione di Corniglia",
+          "category": "Closest Option",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-regular.jpg",
+          "intro": "The nearest swimming—a rocky cove accessible from the train station area, bypassing the 377 stairs entirely.",
+          "description": "From the station, a path descends to this rocky beach—about 15 minutes down, 20-30 minutes back up. The pebbled shore and clear water make swimming pleasant. No facilities exist; bring everything you need. The route is steep and can be slippery; proper footwear isn't optional.",
+          "giuliaComment": "This is where locals go when we want to swim without dealing with village crowds. It's not beautiful in the beach-resort sense—it's beautiful in the wild-coast sense. You earn the swim, and the swim rewards the effort. That's the trade.",
+          "signature": "Where effort meets water"
         },
         {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Consigli Balneazione"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#info"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "Guvano Beach",
+          "category": "The Hidden Legend",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The famous (or infamous) naturist beach—accessed through a long-abandoned railway tunnel and increasingly difficult to reach.",
+          "description": "Guvano was legendary in the 1970s-80s as a free beach, accessible through a disused railway tunnel. The tunnel is now officially closed; the beach access uncertain. Those who find their way report a wild, dramatic cove where the sea meets cliffs. It's not a casual destination; it's an adventure with uncertain outcomes.",
+          "giuliaComment": "Everyone asks about Guvano. The honest answer: it's complicated. The official access is closed. People still go, but the routes change and the risks are real. If you're determined, ask around locally—but understand that 'famous' doesn't mean 'accessible.'",
+          "signature": "Where legend meets reality"
+        },
+        {
+          "id": 3,
+          "name": "Walk to Manarola",
+          "category": "Alternative Strategy",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Sometimes the best Corniglia beach strategy is to hike to another village—Manarola's swimming rocks are an hour's walk away.",
+          "description": "The trail from Corniglia to Manarola takes about an hour. Arriving at Manarola's harbor means access to swimming rocks, cliff jumping spots, and the ease of train return to Corniglia. You swim in Manarola but return to Corniglia's evening quiet. It's a hybrid approach that many find ideal.",
+          "giuliaComment": "When friends visit and want to swim, I often suggest this: hike to Manarola, swim there, take the train back. You get the walking, the swimming, and the different villages in one day. Then return to Corniglia for dinner above it all.",
+          "signature": "Where hiking becomes swimming"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The No-Beach Advantage",
+          "quote": "Most visitors see Corniglia's lack of beach access as a limitation. Some of us see it differently: the village that doesn't compete for swimmers attracts people interested in other things—wine, terraces, quiet. The missing beach is part of what we're choosing."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Swimming Near Corniglia",
-        "it": "Dove Fare il Bagno"
-      },
-      "title": {
-        "en": "Where to Swim",
-        "it": "Le Spiagge dei 5 Villaggi",
-        "de": "Corniglias besondere Lage verstehen"
-      },
-      "features": [
-        {
-          "icon": "train",
-          "title": {
-            "en": "Vernazza Beach",
-            "it": "Monterosso - Fegina"
-          },
-          "description": {
-            "en": "5 minutes by train. Small sandy beach in charming harbor. Most convenient option from Corniglia.",
-            "it": "L'unica vera spiaggia di sabbia delle Cinque Terre. Ampia, attrezzata con stabilimenti balneari, ideale per famiglie."
-          }
-        },
-        {
-          "icon": "rocks",
-          "title": {
-            "en": "Manarola Rocks",
-            "it": "Vernazza - Porto"
-          },
-          "description": {
-            "en": "8 minutes by train. Flat rock platforms for sunbathing and swimming. Crystal clear water.",
-            "it": "Piccola spiaggia di ciottoli nel cuore del borgo. Scenografica ma affollata. Tuffi dalla piazzetta sul mare."
-          }
-        },
-        {
-          "icon": "hiking",
-          "title": {
-            "en": "Guvano Beach",
-            "it": "Corniglia - Spiaggione"
-          },
-          "description": {
-            "en": "Historic nude beach below Corniglia. Currently closed - check local status. Accessible via tunnel when open.",
-            "it": "Spiaggia di ciottoli e scogli raggiungibile via scalinata o sentiero. Più tranquilla, meno turistica, acqua cristallina."
-          }
-        },
-        {
-          "icon": "swimming",
-          "title": {
-            "en": "Monterosso Beach",
-            "it": "Manarola - Scogliere"
-          },
-          "description": {
-            "en": "15 minutes by train. Largest sandy beach in Cinque Terre. Beach clubs and amenities.",
-            "it": "Piattaforme rocciose piatte ideali per prendere il sole e tuffarsi. Non c'è sabbia ma l'atmosfera è magica."
-          }
-        },
-        {
-          "icon": "boat",
-          "title": {
-            "en": "Boat Tours",
-            "it": "Riomaggiore - Marina"
-          },
-          "description": {
-            "en": "Discover hidden coves and swimming spots accessible only by boat. Tours depart from Monterosso.",
-            "it": "Piccola area balneare roccioso al porto. Perfetta per snorkeling tra gli scogli. Escalini in cemento per l'accesso."
-          }
-        },
-        {
-          "icon": "view",
-          "title": {
-            "en": "Enjoy the Views",
-            "it": "Calette Nascoste"
-          },
-          "description": {
-            "en": "Corniglia's elevated position offers the best panoramic views. Trade beach access for spectacular scenery.",
-            "it": "Piccole baie raggiungibili solo via mare o sentieri impervi. Per gli avventurosi che cercano privacy totale."
-          }
-        }
-      ],
-      "content": {
-        "de": "Als ich zum ersten Mal in Vernazza ankam und den steilen Weg nach Corniglia hinaufblickte, verstand ich sofort, warum dieses Dorf so einzigartig ist. Hoch oben auf den Klippen thronend, ist Corniglia das einzige der fünf Dörfer ohne direkten Meerzugang - aber lassen Sie sich davon nicht abschrecken!\n\nNach drei Sommern hier kann ich Ihnen versichern: Die spektakuläre **Corniglia Panoramaterrasse** und der **Santa Maria Belvedere** bieten Aussichten, die jeden Mangel an eigenem Strand mehr als kompensieren. Von der **Lardarina Treppe** aus können Sie bereits das glitzernde Mittelmeer in all seinen Facetten bewundern.\n\nDie Wahrheit ist, dass Corniglias erhöhte Position Ihnen Zugang zu den schönsten Stränden der gesamten Cinque Terre ermöglicht - Sie müssen nur wissen, wie Sie dorthin gelangen."
-      }
+      "type": "editorial-intro",
+      "badge": "Swimming Safety",
+      "quote": "These aren't managed beaches. There are no lifeguards, no facilities, no one watching. You're responsible for yourself, and the sea doesn't care about your plans.",
+      "content": [
+        "**Know your ability**. The rocky entries require confidence. The water can be rough. If you're not a strong swimmer, these spots may not be for you—the real beaches at Monterosso offer safer swimming.",
+        "**Bring what you need**. Water, sunscreen, shoes that handle wet rocks. Nothing is available at these spots. If you forget it, you don't have it.",
+        "**Tell someone where you're going**. Cell service is unreliable on the coast. Let someone know your plans. Return when you said you would.",
+        "**Watch the weather**. Calm mornings can become rough afternoons. Don't swim if the sea looks aggressive. The Mediterranean is mostly gentle, but it demands respect."
+      ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore Nearby Beach Options",
-        "it": "Balneazione nelle Cinque Terre",
-        "de": "Ihre Strand-Optionen"
-      },
-      "buttons": [
+      "type": "collection-with-interludes",
+      "itemType": "option",
+      "items": [
         {
-          "text": {
-            "en": "Plan Your Visit"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 4,
+          "name": "Train to Monterosso",
+          "category": "Easy Beach Alternative",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When you want actual beach—sand, services, lifeguards—Monterosso is 15 minutes by train.",
+          "description": "Monterosso has what Corniglia doesn't: proper sandy beaches, both the old town beach and Fegina's longer strand. Beach chairs, umbrellas, bars, lifeguards in season. For families with children or anyone wanting conventional beach time, the train ride is worth it.",
+          "giuliaComment": "There's no shame in taking the train to Monterosso for beach day. Not every swim needs to be an adventure. Sometimes you want sand, a cold drink, and someone watching the water. Corniglia's charm doesn't require rejecting convenience when you need it.",
+          "signature": "Where convenience exists"
+        },
+        {
+          "id": 5,
+          "name": "Boat Tours",
+          "category": "Swimming from the Sea",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Some boat tours include swimming stops at coves unreachable by land—access the water from the water.",
+          "description": "Several operators run tours from Monterosso or Riomaggiore that include swimming stops at otherwise inaccessible coves. You're approaching from the sea rather than descending from land. The tours vary in quality and crowd size; smaller boats offer better experiences.",
+          "giuliaComment": "The boat tours change the relationship with the coast entirely. Suddenly you're looking up at the terraces instead of down at the water. Some tours stop at beautiful coves where you swim in complete isolation. It's a different experience—and for some visitors, the best one.",
+          "signature": "Where sea access means boats"
         }
       ],
-      "eyebrow": {
-        "de": "Baden nahe Corniglia"
-      }
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Morning Swim",
+          "quote": "If you're going to swim from Corniglia's rocky spots, go early. The light is better, the water calmer, the climbs cooler. By afternoon, you're descending in heat and returning exhausted. Dawn swimmers understand something the rest miss."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Village Above the Water",
+      "content": [
+        "Corniglia's relationship with the sea is different from its neighbors'. You don't walk out your door and jump in the water. You look at the Mediterranean from above, admire its colors, plan your descent.",
+        "This distance creates appreciation. The swim you earn feels different from the swim you take for granted. The climb back up, tired and salt-dried, reminds you that everything worthwhile requires something.",
+        "Choose Corniglia if you want wine terraces and evening quiet. Take the train to other villages when you want easy swimming. The combination works—you don't have to choose one kind of experience forever."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Hiking Trails", "url": "/en/corniglia/hiking", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "beaches"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.832Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

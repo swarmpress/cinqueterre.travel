@@ -7,185 +7,161 @@
     "it": "/it/monterosso/beaches"
   },
   "title": {
-    "en": "Beaches in Monterosso al Mare",
-    "de": "Strände in Monterosso - Die einzigen Sandstrände der Cinque Terre",
-    "fr": "Plages de Monterosso al Mare",
-    "it": "Le Spiagge di Monterosso al Mare"
+    "en": "Monterosso Beaches: Cinque Terre's Premier Coastal Paradise"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Monterosso Beaches 2025 | Only Sandy Beaches in Cinque Terre",
-      "de": "Strände in Monterosso - Die einzigen Sandstrände der Cinque Terre",
-      "fr": "Plages de Monterosso - Les Meilleures Plages de Sable des Cinque Terre",
-      "it": "Spiagge di Monterosso - Le Migliori Spiagge di Sabbia delle Cinque Terre"
+      "en": "Best Beaches in Monterosso al Mare | Cinqueterre.travel"
     },
     "description": {
-      "en": "Discover beaches in Monterosso. The only sandy beaches in Cinque Terre. Free areas and beach clubs with services.",
-      "de": "Entdecken Sie die schönsten Strände in Monterosso al Mare. Fegina-Strand und Altstadt-Strand bieten die einzigen echten Sandstrände der gesamten Cinque Terre Region.",
-      "fr": "Guide complet des plages de Monterosso : Fegina et la plage de la vieille ville. Sable fin, eaux cristallines et équipements parfaits pour les familles.",
-      "it": "Scopri le spiagge di sabbia di Monterosso: Fegina e il centro storico. L'unico villaggio delle Cinque Terre con vere spiagge sabbiose."
-    },
-    "keywords": {
-      "en": [
-        "Monterosso beaches",
-        "Cinque Terre beach",
-        "Fegina beach",
-        "sandy beach Italy"
-      ],
-      "de": "monterosso strände, fegina strand, monterosso sandstrand, beste strände cinque terre, baden monterosso",
-      "fr": "plages monterosso, plage fegina, plages cinque terre, plages de sable italie",
-      "it": "spiagge monterosso, fegina beach, spiaggia sabbia cinque terre, bagni monterosso, spiaggia centro storico"
+      "en": "Discover Monterosso's stunning beaches in Cinque Terre. From golden sand to hidden coves, find your perfect Mediterranean escape with insider tips."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Monterosso al Mare"
-      },
-      "title": {
-        "en": "Beaches in Monterosso",
-        "de": "Strände in Monterosso"
-      },
-      "subtitle": {
-        "en": "The only sandy beaches in all of Cinque Terre. Crystal-clear water, beach clubs, and free public areas.",
-        "de": "Die einzigen echten Sandstrände der Cinque Terre - perfekt zum Sonnenbaden und Schwimmen"
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
+      "eyebrow": "Cinque Terre's Beach Capital",
+      "title": "Monterosso's Golden Coast: Where the Sea Meets Poetry",
+      "subtitle": "Experience the Riviera as Nobel laureate Eugenio Montale did—on pristine beaches where ancient red cliffs embrace the Mediterranean's sapphire waters. Monterosso offers the only true sand beaches in all of Cinque Terre.",
       "buttons": [
         {
-          "text": {
-            "en": "Beach Guide",
-            "fr": "Voir les activités"
-          },
-          "url": {
-            "en": "#list"
-          },
+          "text": "Explore All Beaches",
+          "url": "#beaches",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Monterosso"
-          },
-          "url": {
-            "en": "/en/monterosso"
-          },
+          "text": "Beach Guide & Tips",
+          "url": "#guide",
           "variant": "secondary"
         }
       ]
     },
     {
+      "type": "stats-section",
+      "title": "Monterosso Beach Essentials",
+      "subtitle": "Everything you need to know for your perfect beach day",
+      "stats": [
+        {
+          "number": "2",
+          "unit": "Main Beaches",
+          "description": "Fegina and Old Town beaches offer different experiences"
+        },
+        {
+          "number": "800m",
+          "unit": "of Coastline",
+          "description": "The longest stretch of accessible beaches in Cinque Terre"
+        },
+        {
+          "number": "4",
+          "unit": "Hidden Coves",
+          "description": "Secret spots accessible by boat or adventurous hiking"
+        },
+        {
+          "number": "Apr-Oct",
+          "unit": "Beach Season",
+          "description": "Prime swimming months with perfect Mediterranean weather"
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "variant": "text-with-image",
+      "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&q=80",
+      "title": "The Art of Beach Life in Monterosso",
+      "content": "Unlike the dramatic cliff-hugging beaches of its sister villages, Monterosso unfolds like a Riviera dream. Here, golden sand meets your feet instead of smooth stones, and the beach stretches wide enough for proper lounging, not just quick dips between train connections.\n\nThe magic lies in the contrast: ancient red cliffs (the 'Mons Rubeus' that gives the village its name) frame modern beach clubs where you can sip Sciacchetrà while watching fishing boats return with the day's catch. This is where Romans once built their summer villas, and you'll understand why within moments of settling onto the warm sand.\n\nTiming is everything here. Arrive before 9 AM to claim your perfect spot and witness the morning light painting those famous red cliffs. The afternoon brings a golden hour that lasts for hours, when the Mediterranean becomes a mirror reflecting centuries of stories."
+    },
+    {
+      "type": "collection-embed",
+      "collection": "beaches",
+      "title": "Monterosso's Beach Collection",
+      "subtitle": "From bustling beach clubs to secret swimming holes—discover your perfect coastal escape"
+    },
+    {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Beach Areas"
-      },
-      "title": {
-        "en": "Where to Swim"
-      },
+      "title": "Your Monterosso Beach Strategy",
+      "subtitle": "Insider secrets from someone who's watched a thousand sunrises from these shores",
       "features": [
         {
-          "icon": "beach",
-          "title": {
-            "en": "Fegina Beach"
-          },
-          "description": {
-            "en": "Main beach in new town. Mix of free and paid sections with services.",
-            "de": "Der größte Strand mit feinem Sand, Strandclubs, Liegestuhlverleih und Restaurants. Ideal für Familien.",
-            "fr": "La plus grande plage, située dans le nouveau quartier. Sable fin, nombreux établissements balnéaires avec parasols et transats. Idéale pour les familles.",
-            "it": "La spiaggia più grande con stabilimenti balneari attrezzati, lettini, ombrelloni e servizi completi."
-          }
+          "icon": "🏖️",
+          "title": "Beach Club Luxury",
+          "description": "Premium stabilimenti offer umbrellas, loungers, and seaside dining. Book ahead June-September for the best spots with sea views."
         },
         {
-          "icon": "umbrella",
-          "title": {
-            "en": "Beach Clubs"
-          },
-          "description": {
-            "en": "Rent sunbeds and umbrellas. Restaurant service available.",
-            "de": "Kleinerer, gemütlicher Strand direkt am historischen Zentrum mit authentischer Atmosphäre.",
-            "fr": "Plage plus petite et intime près du centre historique. Atmosphère authentique avec vue sur les maisons colorées.",
-            "it": "Spiaggia più piccola e caratteristica ai piedi del borgo antico, meno affollata e più autentica."
-          }
+          "icon": "🏊‍♀️",
+          "title": "Free Swimming Areas",
+          "description": "Public sections on both beaches provide excellent swimming without fees. Look for the rocky areas for the clearest, deepest water."
         },
         {
-          "icon": "sun",
-          "title": {
-            "en": "Free Beaches"
-          },
-          "description": {
-            "en": "Public areas between the paid sections. Bring your own gear.",
-            "de": "Kristallklares ligurisches Meer mit ausgezeichneter Wasserqualität und blauer Flagge.",
-            "fr": "Mer Ligurienne propre et claire, parfaite pour la baignade et le snorkeling. Drapeau bleu européen.",
-            "it": "Le uniche vere spiagge sabbiose delle Cinque Terre, ideali per famiglie con bambini."
-          }
+          "icon": "🚤",
+          "title": "Boat Access Only",
+          "description": "Hidden coves like Canneto Beach require boat trips or serious hiking. Reward: pristine waters and near-complete solitude."
         },
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Old Town Beach"
-          },
-          "description": {
-            "en": "Smaller beach near the harbor. More rocky but atmospheric.",
-            "de": "Zahlreiche Bagni (Strandbäder) mit Sonnenschirmen, Liegen, Umkleiden und Beach-Bars.",
-            "fr": "Location de parasols, chaises longues, kayaks et pédalos. Douches, vestiaires et bars de plage disponibles.",
-            "it": "Numerosi bagni privati con servizi: docce, spogliatoi, bar, ristoranti e noleggio attrezzature."
-          }
+          "icon": "📸",
+          "title": "Photography Gold",
+          "description": "Best light hits between 7-9 AM and 6-8 PM. The red cliffs glow like fire against the blue Mediterranean during these magic hours."
         },
         {
-          "icon": "swim",
-          "title": {
-            "en": "Swimming"
-          },
-          "description": {
-            "en": "Clear water, gentle waves. Perfect for families.",
-            "de": "Kostenlose öffentliche Strandabschnitte ohne Gebühren - perfekt für Budget-Reisende.",
-            "fr": "Sections de plage libre d'accès où vous pouvez étendre votre propre serviette sans payer.",
-            "it": "Tratti di spiaggia pubblica gratuita disponibili su entrambe le spiagge principali."
-          }
+          "icon": "🌊",
+          "title": "Swimming Conditions",
+          "description": "Monterosso's bay offers the calmest waters in Cinque Terre. Even when other villages see rough seas, swimming here remains pleasant."
         },
         {
-          "icon": "ship",
-          "title": {
-            "en": "Water Sports"
-          },
-          "description": {
-            "en": "Kayak and paddleboard rental available in summer.",
-            "de": "Schnorcheln, Kajakverleih, Stand-Up-Paddling und Bootstouren direkt am Strand.",
-            "fr": "Plages facilement accessibles sans escaliers, idéales pour les personnes âgées, les familles avec poussettes et les personnes à mobilité réduite.",
-            "it": "Noleggio kayak, SUP, pedalò. Possibilità di snorkeling e immersioni nelle acque cristalline."
-          }
+          "icon": "🍽️",
+          "title": "Beachside Dining",
+          "description": "Fresh seafood steps from the water. Try the anchovy pasta at beachfront restaurants—caught in these very waters that morning."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "title": "Beach Planning Essentials",
+      "subtitle": "The questions every Monterosso beach-goer asks",
+      "faqs": [
+        {
+          "question": "When is the best time to visit Monterosso's beaches?",
+          "answer": "May through September offers the warmest water and longest days, but April and October provide fewer crowds with still-pleasant swimming. Arrive before 9 AM or after 4 PM to avoid peak sun and secure the best spots."
+        },
+        {
+          "question": "Do I need to pay for beach access?",
+          "answer": "No, all beaches have free public areas. However, premium beach clubs (stabilimenti) charge €15-30 per day for umbrellas, loungers, and facilities. The investment is worth it for comfort and convenience during peak season."
+        },
+        {
+          "question": "What's the difference between Fegina and Old Town beaches?",
+          "answer": "Fegina Beach (New Town) is larger with more facilities and beach clubs, while Old Town Beach offers a more intimate setting with traditional fishing boats. Both have excellent swimming, but Fegina has better amenities for full-day lounging."
+        },
+        {
+          "question": "Can I reach the hidden beaches without a boat?",
+          "answer": "Some secluded spots like Canneto Beach require boat access or challenging coastal hikes. Local boat tours cost €30-50 per person and include multiple coves. The adventure is part of the experience."
+        },
+        {
+          "question": "What should I bring for a perfect beach day?",
+          "answer": "Reef-safe sunscreen (mandatory), water shoes for rocky areas, a waterproof bag, and cash for beach clubs. Don't forget a good book—these beaches are made for lingering."
+        },
+        {
+          "question": "Is swimming safe year-round?",
+          "answer": "The swimming season runs April through October, with water temperatures reaching 24°C (75°F) in summer. Monterosso's protected bay makes it the safest swimming in Cinque Terre, even during shoulder seasons."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore Monterosso"
-      },
+      "variant": "centered",
+      "eyebrow": "Plan Your Perfect Beach Day",
+      "title": "Start Your Monterosso Beach Adventure",
+      "subtitle": "From sunrise swims to sunset aperitivos, create memories that last a lifetime on Cinque Terre's most beautiful coastline.",
       "buttons": [
         {
-          "text": {
-            "en": "Restaurants",
-            "de": "Restaurants am Strand",
-            "fr": "Voir les hôtels"
-          },
-          "url": {
-            "en": "/en/monterosso/restaurants"
-          },
+          "text": "Book Beach Experience",
+          "url": "/experiences/monterosso",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Monterosso",
-            "de": "Bootstouren",
-            "fr": "Météo actuelle"
-          },
-          "url": {
-            "en": "/en/monterosso"
-          },
+          "text": "Explore More Villages",
+          "url": "/villages",
           "variant": "secondary"
         }
       ]
@@ -195,7 +171,7 @@
     "city": "monterosso",
     "page_type": "beaches"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.841Z"
+  "updated_at": "2025-12-16T12:56:27.171Z"
 }

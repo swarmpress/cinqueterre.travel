@@ -7,191 +7,173 @@
     "it": "/it/vernazza/weather"
   },
   "title": {
-    "en": "Weather in Vernazza - Cinque Terre",
-    "de": "Wetter",
-    "fr": "Météo",
-    "it": "Meteo"
+    "en": "Vernazza Weather Guide: When to Visit Italy's Most Photogenic Village"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Vernazza Weather 2025 | Climate Guide & Best Time to Visit"
+      "en": "Vernazza Weather: Best Times to Visit | Cinqueterre.travel"
     },
     "description": {
-      "en": "Complete weather guide for Vernazza. Monthly climate data, best times to visit, and what to expect throughout the year in Cinque Terre."
-    },
-    "keywords": {
-      "en": [
-        "Vernazza weather",
-        "best time to visit",
-        "climate",
-        "when to go"
-      ]
+      "en": "Plan your perfect Vernazza visit with detailed weather insights, seasonal highlights, and insider timing tips for Italy's most stunning coastal village."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Vernazza",
-        "it": "Clima e Stagioni",
-        "de": "Vernazza"
-      },
-      "title": {
-        "en": "Weather & Climate Guide",
-        "it": "Meteo e Quando Visitare Vernazza",
-        "de": "Wetter & Klimaleitfaden"
-      },
-      "subtitle": {
-        "en": "Mediterranean climate with mild winters and warm summers. Plan your visit with detailed weather information for Cinque Terre's most beautiful village.",
-        "it": "Clima mediterraneo mite tutto l'anno. Stagioni diverse offrono esperienze uniche: primavera fiorita, estate balneare, autunno vendemmiale, inverno autentico.",
-        "de": "Mediterranes Klima mit milden Wintern und warmen Sommern. Planen Sie Ihren Besuch mit detaillierten Wetterinformationen für das schönste Dorf der Cinque Terre."
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
+      "eyebrow": "Weather Intelligence",
+      "title": "Master Vernazza's Weather Patterns",
+      "subtitle": "From sun-drenched summer terraces to dramatic winter storms, discover when to visit for your perfect Italian Riviera experience in this medieval maritime jewel.",
       "buttons": [
         {
-          "text": {
-            "en": "Weather Details",
-            "it": "Periodo Migliore"
-          },
-          "url": {
-            "en": "#weather",
-            "it": "#periodo"
-          },
+          "text": "See Best Times",
+          "url": "#best-times",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Vernazza",
-            "it": "Meteo Attuale"
-          },
-          "url": {
-            "en": "/en/vernazza",
-            "it": "#meteo"
-          },
+          "text": "Weather Calendar",
+          "url": "#seasonal-guide",
           "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "title": "Vernazza Climate at a Glance",
+      "subtitle": "Essential weather data for planning your visit to the Ligurian coast",
+      "stats": [
+        {
+          "number": "290",
+          "label": "Sunny days per year",
+          "description": "More sunshine than Rome"
+        },
+        {
+          "number": "65°F",
+          "label": "Average annual temp",
+          "description": "Mild Mediterranean climate"
+        },
+        {
+          "number": "35",
+          "label": "Inches annual rainfall",
+          "description": "Mostly October-December"
+        },
+        {
+          "number": "72°F",
+          "label": "Peak water temperature",
+          "description": "Perfect for swimming July-September"
         }
       ]
     },
     {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Climate Information",
-        "it": "Le Quattro Stagioni",
-        "de": "Klimainformationen"
-      },
-      "title": {
-        "en": "When to Visit",
-        "it": "Quando Visitare le Cinque Terre",
-        "de": "Beste Reisezeit für Vernazza"
-      },
+      "title": "Seasonal Highlights in Vernazza",
+      "subtitle": "Each season offers distinct advantages for different travel styles",
       "features": [
         {
           "icon": "sun",
-          "title": {
-            "en": "Best Months",
-            "it": "Primavera (Mar-Mag)"
-          },
-          "description": {
-            "en": "May, June, September - perfect weather with fewer crowds.",
-            "it": "Ideale per trekking. Temperature 15-22°C, fioritura, poca folla. Possibili piogge ad aprile. La stagione perfetta."
-          }
+          "title": "Spring Magic (April-May)",
+          "description": "Wildflowers bloom on hiking trails, perfect temperatures for terraced vineyard walks, and crowds haven't arrived yet. Average 68°F with occasional light showers."
         },
         {
-          "icon": "thermometer",
-          "title": {
-            "en": "Summer (Jul-Aug)",
-            "it": "Estate (Giu-Ago)"
-          },
-          "description": {
-            "en": "Warm 25-30°C. Peak season with most tourists.",
-            "it": "Alta stagione. 25-30°C, mare caldo, spiagge, eventi. Molto affollato e caro. Caldo intenso sui sentieri."
-          }
+          "icon": "thermometer-sun",
+          "title": "Summer Perfection (June-August)",
+          "description": "Peak season brings 80°F days, warm swimming waters, and long golden hours. Book restaurants like Belforte and Gambero Rosso well in advance."
         },
         {
           "icon": "leaf",
-          "title": {
-            "en": "Spring (Apr-May)",
-            "it": "Autunno (Set-Nov)"
-          },
-          "description": {
-            "en": "Mild 18-23°C. Wildflowers and ideal hiking conditions.",
-            "it": "Eccellente per visite. 18-25°C in settembre, vendemmia, colori caldi. Meno turisti. Piogge in novembre."
-          }
+          "title": "Autumn Harvest (September-October)",
+          "description": "Grape harvest season with cooler hiking weather, dramatic light for photography, and local wine festivals. Water still warm through September."
         },
         {
-          "icon": "autumn",
-          "title": {
-            "en": "Fall (Sep-Oct)",
-            "it": "Inverno (Dic-Feb)"
-          },
-          "description": {
-            "en": "Pleasant 20-25°C. Harvest season with clear skies.",
-            "it": "Bassa stagione. 8-15°C, molti servizi chiusi, poca folla. Autentico ma limitato. Presepe di Manarola a dicembre."
-          }
+          "icon": "wind",
+          "title": "Winter Drama (November-March)",
+          "description": "Powerful storm watching from medieval fortress, cozy restaurant dining, and authentic local life. Many establishments close, but those open offer intimate experiences."
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "variant": "text-with-image",
+      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHx2ZXJuYXp6YSUyMGNpbnF1ZSUyMHRlcnJlJTIwaXRhbHl8ZW58MHwwfHx8MTc2NTg5MTc0NXww&ixlib=rb-4.1.0&q=80&w=600",
+      "title": "Peak Season Strategy: Navigate Summer Like a Local",
+      "content": [
+        "Summer transforms Vernazza into a Mediterranean paradise, but success requires insider timing. Temperatures hover around 82°F with brilliant sunshine, making cliff-top dining at Nessun Dorma irresistible.",
+        "**Morning Magic**: Visit before 9 AM when golden light bathes the harbor and temperatures are perfect for photography. The fortress offers spectacular sunrise views with no crowds.",
+        "**Midday Escape**: Seek shade in medieval alleys or book lunch at Gambero Rosso's covered terrace. Water temperature reaches 72°F - ideal for swimming off the rocks.",
+        "**Evening Glory**: The famous sunset hour (around 8 PM in July) brings crowds, but arriving 90 minutes early secures prime spots. Local tip: Book Belforte's corner tower table months ahead for the ultimate romantic dinner.",
+        "Pack light layers - sea breezes can cool clifftop restaurants by 10°F after sunset, and occasional summer thunderstorms bring dramatic skies and brief downpours."
+      ]
+    },
+    {
+      "type": "content-section",
+      "variant": "text-only",
+      "title": "Off-Season Rewards: Authentic Vernazza",
+      "content": [
+        "**October-November**: Prime hiking weather with temperatures in the comfortable 60-65°F range. Grape harvest brings local festivals, and restaurant terraces offer sweaters and heaters for cozy outdoor dining. Storm watching from the Doria Castle becomes a dramatic spectacle.",
+        "**December-February**: Vernazza reveals its authentic character when tourism slows. While many restaurants close (Belforte operates April-October only), remaining establishments like Gambero Rosso offer intimate dining experiences. Temperatures rarely drop below 45°F, and sunny winter days provide crystal-clear coastal views.",
+        "**March-April**: Wildflower season transforms the terraced landscapes into botanical gardens. Perfect hiking weather returns (60-70°F), and restaurants begin reopening with fresh seasonal menus. Easter week brings local processions and traditional celebrations.",
+        "The key advantage of shoulder seasons: genuine interactions with locals, easier restaurant reservations, and the village's medieval maritime character shining through without summer's tourist overlay."
+      ],
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1654170388271-9a7f508e7545-hero.jpg"
+    },
+    {
+      "type": "faq-section",
+      "title": "Weather Planning Questions",
+      "subtitle": "Expert answers to help time your visit perfectly",
+      "faqs": [
+        {
+          "question": "When is the best weather for hiking between villages?",
+          "answer": "April-May and September-October offer ideal hiking conditions with temperatures between 65-75°F. Summer can be too hot (85°F+) for the exposed coastal trails, while winter rain makes paths slippery. Spring wildflowers and autumn harvest light provide stunning scenery."
         },
         {
-          "icon": "rain",
-          "title": {
-            "en": "Winter (Nov-Mar)"
-          },
-          "description": {
-            "en": "Cool 8-15°C. Quieter but some services closed."
-          }
+          "question": "What's the swimming season in Vernazza?",
+          "answer": "Swimming is excellent June through September, with water temperatures reaching 72°F in August. Brave locals swim May through October, but visitors typically prefer July-August when both air and water are warm enough for comfortable sea access from the rocky shores."
         },
         {
-          "icon": "swim",
-          "title": {
-            "en": "Swimming Season"
-          },
-          "description": {
-            "en": "May through September with water temps 20-25°C."
-          }
+          "question": "How should I dress for dinner at cliffside restaurants?",
+          "answer": "Even in summer, bring a light jacket for evening dining. Clifftop locations like Belforte can be 10°F cooler due to sea breezes, and air conditioning inside medieval stone buildings runs cold. Layers are essential year-round for comfort."
+        },
+        {
+          "question": "When do restaurants and hotels close for winter?",
+          "answer": "Many establishments close November-March, with Belforte specifically operating April-October only. Gambero Rosso typically remains open year-round but may have limited hours. Always confirm seasonal schedules when booking, especially for special occasion dining."
+        },
+        {
+          "question": "Is there a rainy season to avoid?",
+          "answer": "October-December sees the most rainfall, but it's usually brief, dramatic storms rather than persistent drizzle. January-February are driest winter months. Summer rain is rare but can include spectacular lightning shows over the Ligurian Sea."
+        },
+        {
+          "question": "What's the best weather for photography?",
+          "answer": "Golden hour magic happens twice daily - sunrise around 7 AM and sunset around 8 PM in summer. Spring offers wildflower foregrounds, autumn provides warm harvest light, and winter storms create dramatic seascapes. Overcast days actually enhance the village's medieval atmosphere."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Trip",
-        "it": "Il Clima in Numeri",
-        "de": "Detaillierte Wetteranalyse nach Jahreszeiten"
-      },
+      "variant": "centered",
+      "eyebrow": "Ready to Experience Vernazza?",
+      "title": "Plan Your Perfect Weather Window",
+      "subtitle": "Use our seasonal insights to book the ideal time for your Ligurian coast adventure. Whether seeking summer sunset dining or peaceful winter exploration, Vernazza rewards every season.",
       "buttons": [
         {
-          "text": {
-            "en": "Events Calendar"
-          },
-          "url": {
-            "en": "/en/vernazza/events"
-          },
+          "text": "Explore Restaurants",
+          "url": "/vernazza/restaurants",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Book Accommodation"
-          },
-          "url": {
-            "en": "/en/vernazza/hotels"
-          },
+          "text": "Hiking Guide",
+          "url": "/vernazza/hiking",
           "variant": "secondary"
         }
-      ],
-      "subtitle": {
-        "de": "Präzise Planung für Ihre Cinque Terre Reise"
-      },
-      "content": {
-        "de": "## Frühling (März bis Mai): Die Erweckung Vernazzas\n\n**Temperaturen:** 12-22°C | **Regentage:** 8-10 pro Monat | **Besucherdichte:** Gering bis moderat\n\nDer Frühling transformiert Vernazzas terrassierte Weinberge in ein grünes Paradies. Die **Vernazza Olivenhain Erbe Wege** sind besonders reizvoll, wenn sich die ersten Knospen zeigen. März kann noch kühl und regnerisch sein - perfekt für gemütliche Stunden in der **Antica Osteria Il Baretto**, wo Familie seit Generationen authentische ligurische Gerichte serviert.\n\nApril bringt die ersten warmen Tage und die **Vernazza Saisonale Wildblumen Wege** erstrahlen in voller Pracht. Die Piazza Marconi erwacht aus dem Winterschlaf, und die ersten Gäste genießen ihren Morgenkaffee im Freien.\n\n## Sommer (Juni bis August): Mediterrane Vollendung\n\n**Temperaturen:** 22-30°C | **Regentage:** 3-5 pro Monat | **Besucherdichte:** Sehr hoch\n\nDie Sommermonate verwandeln Vernazza in ein lebendiges Freilichtmuseum. Das kristallklare Wasser lädt zum Schwimmen an den einzigartigen **Schwimmbereichen von Vernazza** ein - sowohl am kleinen Hafenstrand als auch von den Felsplattformen aus.\n\n**Wichtiger Hinweis:** Reservieren Sie Tische in **Nessun Dorma** mindestens 2-3 Tage im Voraus. Die Sonnenuntergänge von dieser Terrasse sind legendär, aber entsprechend begehrt.\n\nDie **Blue Marlin Bar** wird zum gesellschaftlichen Mittelpunkt - hier treffen sich Einheimische und Reisende bei Aperitivo zwischen 17:00-19:00 Uhr.\n\n## Herbst (September bis November): Goldene Erntezeit\n\n**Temperaturen:** 15-25°C | **Regentage:** 8-12 pro Monat | **Besucherdichte:** Moderat\n\nSeptember ist argumamentativ der perfekteste Monat: sommerliche Temperaturen ohne die extremen Menschenmassen. Die **Weinlese** in den historischen Terrassen beginnt, und die **Cantina Cheo** öffnet ihre Türen für authentische Verkostungen.\n\nOktober bringt spektakuläre Lichtverhältnisse für Fotografen - besonders vom **Castello Doria** aus sind die Farbenspiele über dem Mittelmeer unvergesslich. November kann stürmisch werden, aber diese dramatischen Wetterbedingungen vom **Ristorante Belforte** aus zu beobachten, ist ein Erlebnis für sich.\n\n## Winter (Dezember bis Februar): Authentisches Ligurien\n\n**Temperaturen:** 8-15°C | **Regentage:** 6-8 pro Monat | **Besucherdichte:** Minimal\n\nVernazza zeigt sein wahres Gesicht. Viele Restaurants schließen (außer **Gambero Rosso** und meist **Blue Marlin Bar**), aber gerade deshalb erleben Sie das authentische Dorfleben. Die **Kirche Santa Margherita d'Antiochia** ist besonders atmosphärisch, wenn der charakteristische Nebel vom Meer aufsteigt.\n\nDas einzigartige **Unterwasser-Weihnachten** im Dezember zieht Taucher aus ganz Europa an - ein surreales Spektakel im klaren Winterwasser."
-      }
+      ]
     }
   ],
   "metadata": {
     "city": "vernazza",
     "page_type": "weather"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.852Z"
+  "updated_at": "2025-12-16T13:44:59.004Z"
 }

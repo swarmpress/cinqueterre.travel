@@ -1,0 +1,127 @@
+{
+  "id": "events-riomaggiore",
+  "slug": {
+    "en": "/en/events",
+    "de": "/de/events",
+    "fr": "/fr/events",
+    "it": "/it/events"
+  },
+  "title": {
+    "en": "Events & Rhythms of Riomaggiore | Cinque Terre Dispatch"
+  },
+  "page_type": "events",
+  "seo": {
+    "title": {
+      "en": "Events & Rhythms of Riomaggiore | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "Events in Riomaggiore are not spectacles. They are the brief surfacing of a deep, local rhythm—moments when the village remembers who it is."
+    }
+  },
+  "template": "cinque-terre-events",
+  "body": [
+    {
+      "type": "editorial-hero",
+      "title": "Moments of<br/>Shared Attention",
+      "subtitle": "Events in Riomaggiore are not spectacles. They are the brief surfacing of a deep, local rhythm—moments when the village remembers who it is.",
+      "badge": "The Living Calendar",
+      "image": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=2670&auto=format&fit=crop"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Meaning of Gathering",
+      "quote": "To understand an event in Riomaggiore, you must first understand that it is not for you. It is for the village, for the ancestors, and for the sea.",
+      "content": [
+        "Most of our gatherings are **rooted in the soil and the sea**. They follow the religious calendar, the cycles of the vineyards, or the ancient traditions of the fishing boats.",
+        "You will find that **spectacle is rare**. The beauty of a procession or a harvest is found in its lack of polish—in the way a neighbor carries a heavy statue.",
+        "The meaning of these events lies in **observation and respect**. We invite you to watch, to listen, and to feel the shift in the village's energy.",
+        "In Riomaggiore, **timing is everything**. Some events last all day, others only a few luminous minutes."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "event",
+      "items": [
+        {
+          "id": 1,
+          "name": "Festa di San Giovanni",
+          "category": "Religious Festival",
+          "village": "Riomaggiore",
+          "date": "June 24",
+          "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The night the village lights up over the sea, celebrating the patron saint of neighboring Manarola.",
+          "description": "On the eve of San Giovanni, the cliffs between Riomaggiore and Manarola are lit by thousands of small candles. The tradition is ancient—a way of honoring the saint and the fishermen who work these waters.",
+          "giuliaComment": "Find a spot on the rocks below the village before sunset. The view of the candlelit cliffs from the water is unlike anything else.",
+          "signature": "A constellation of flames reflected on the midnight sea",
+          "timeOfDay": "Evening to midnight",
+          "location": "Harbor and coastal cliffs",
+          "practicalInfo": "Arrive early for best viewing spots. Bring a jacket—nights by the sea are cool.",
+          "googleRating": 4.8,
+          "tripadvisorRating": 4.7
+        },
+        {
+          "id": 2,
+          "name": "The Grape Harvest",
+          "category": "Seasonal Tradition",
+          "village": "Riomaggiore",
+          "date": "September – October",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the terraces come alive with the ancient work of the vendemmia.",
+          "description": "The grape harvest is not a single event but a season. For weeks, the sound of the monorail echoes through the valley as crates of grapes are brought down from the steep terraces.",
+          "giuliaComment": "If you're here in late September, ask at the local enoteca if any families are welcoming visitors to help with the harvest. It's hard work, but the reward is a meal you'll never forget.",
+          "signature": "The scent of crushed grapes drifting down from the terraces",
+          "timeOfDay": "Early morning to late afternoon",
+          "location": "Vineyard terraces above the village",
+          "practicalInfo": "Not a formal event—respect private property and ask before photographing.",
+          "googleRating": 4.9,
+          "tripadvisorRating": 4.8
+        },
+        {
+          "id": 3,
+          "name": "Presepe di Manarola",
+          "category": "Christmas Tradition",
+          "village": "Manarola",
+          "date": "December 8 – January 6",
+          "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The world's largest illuminated nativity scene, painted in light across the hillside.",
+          "description": "Every December, the hills above Manarola are transformed into a glowing nativity scene with over 300 life-sized figures and 17,000 lights. The display is a labor of love by the village and a single dedicated artist.",
+          "giuliaComment": "Walk up to Manarola at dusk. As the lights come on, the entire hillside becomes a painting. It's best seen from the cemetery terrace.",
+          "signature": "A hillside of light emerging from the darkness",
+          "timeOfDay": "Sunset to late evening",
+          "location": "Hillside above Manarola (viewable from Riomaggiore)",
+          "practicalInfo": "Free to view. The lighting ceremony on December 8th is especially moving.",
+          "googleRating": 4.9,
+          "tripadvisorRating": 4.9
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Art of the Edge",
+          "quote": "The best way to experience a village event is from the edge. Don't try to be at the front of the procession or the center of the square. Find a high step, a quiet corner, or a window. From the periphery, you see the whole."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Power of Chance",
+      "content": [
+        "In the end, the most powerful moments in Riomaggiore are often the ones you didn't plan for.",
+        "It is the sound of a distant bell that leads you to a small chapel, or the sight of a monorail carrying a crate of grapes that reminds you of the season.",
+        "Don't chase the calendar. Let the village reveal itself to you in its own time."
+      ],
+      "buttons": [
+        { "text": "Explore the Village", "url": "/village", "variant": "primary" },
+        { "text": "Where to Rest", "url": "/accommodations", "variant": "secondary" }
+      ]
+    }
+  ],
+  "metadata": {
+    "page_type": "events"
+  },
+  "status": "published",
+  "created_at": "2026-01-05T12:00:00.000Z",
+  "updated_at": "2026-01-05T12:00:00.000Z"
+}

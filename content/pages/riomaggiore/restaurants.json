@@ -7,199 +7,217 @@
     "it": "/it/riomaggiore/restaurants"
   },
   "title": {
-    "en": "Best Restaurants in Riomaggiore",
-    "de": "Restaurants",
-    "fr": "Restaurants",
-    "it": "Ristoranti"
+    "en": "Where to Eat in Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Riomaggiore Restaurants 2025 | Best Seafood & Italian Dining"
+      "en": "Where to Eat in Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover the best restaurants in Riomaggiore from fresh seafood at the harbor to traditional Ligurian trattorias. Complete dining guide with harbor views."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore restaurants",
-        "seafood dining",
-        "ligurian cuisine",
-        "harbor restaurants",
-        "cinque terre food"
-      ]
+      "en": "From cliff-side trattorias to fried fish in paper cones—a local's guide to the tables where Riomaggiore feeds its soul."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Sapori del Mare",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Harbor Dining & Ligurian Flavors",
-        "it": "Ristoranti a Riomaggiore",
-        "de": "Hafenküche & Ligurische Aromen"
-      },
-      "subtitle": {
-        "en": "Fresh seafood, traditional pesto, and spectacular harbor views. Riomaggiore offers the most authentic dining experience in Cinque Terre.",
-        "it": "Il villaggio più vivace offre la scena gastronomica più variegata: dalle trattorie tradizionali ai wine bar moderni, dai ristoranti sul porto alle osterie nei vicoli storici.",
-        "de": "Frische Meeresfrüchte, traditionelles Pesto und spektakuläre Hafenblicke. Riomaggiore bietet das authentischste Speiseerlebnis in Cinque Terre - ich führe Sie zu den besten Geheimtipps und familiengeführten Trattorias."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Dining Options",
-            "it": "Dove Mangiare"
-          },
-          "url": {
-            "en": "#restaurants",
-            "it": "#ristoranti"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Vita Notturna"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#nightlife"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Where the Village<br/>Feeds Its Soul",
+      "subtitle": "In Riomaggiore, eating is not tourism. It is participation—in the morning catch, in the afternoon lull, in the golden hour that makes every meal a ceremony.",
+      "badge": "Dining Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Dining Story",
+      "quote": "The best restaurants in Riomaggiore are not trying to impress you. They are trying to feed you what the sea offered this morning and what the hills have been perfecting for eight centuries.",
+      "content": [
+        "There is a **hierarchy** here, but it is not what you expect. A Michelin-recognized kitchen sits alongside a focaccia window, and the locals frequent both with equal reverence.",
+        "The **rhythm of meals** matters more than the venue. A quick standing lunch at noon—fried fish, paper cone, harbor view. A slow aperitivo as the light turns gold. And dinner only when the village has settled into evening.",
+        "You will notice **short menus**. This is integrity, not limitation. If the chef wasn't at the harbor this morning, the fish won't be on the plate tonight.",
+        "**Reservations** are not optional for dinner. These terraces are small, and the demand is not."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Dining Highlights",
-        "it": "Scena Culinaria",
-        "de": "Kulinarische Höhepunkte"
-      },
-      "title": {
-        "en": "Where to Eat in Riomaggiore",
-        "it": "Mangiare a Riomaggiore",
-        "de": "Wo Sie in Riomaggiore essen sollten"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "restaurant",
+      "items": [
         {
-          "icon": "utensils",
-          "title": {
-            "en": "Harbor Seafood Restaurants",
-            "it": "Massima Varietà"
-          },
-          "description": {
-            "en": "Dine at waterfront trattorias serving fresh catch of the day, anchovies, and Ligurian fish specialties",
-            "it": "Più ristoranti degli altri villaggi. Da trattorie familiari a locali moderni, da pizzerie a sushi bar fusion."
-          }
+          "id": 1,
+          "name": "Dau Cila",
+          "category": "Seafood Restaurant",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+          "intro": "A terrace carved into the cliff where the sea is closer than the kitchen.",
+          "description": "Dau Cila occupies one of the most dramatic positions in the village—a series of terraces that seem to hang directly over the water. The menu is dictated by the morning catch, and the wine list reads like a love letter to local Sciacchetrà.",
+          "giuliaComment": "This is where I bring visitors who want to understand the relationship between the village and the sea. The grilled octopus here is a conversation, not just a meal.",
+          "signature": "The sound of waves beneath your table",
+          "priceRange": "$$$",
+          "practicalInfo": "Reservations essential. Request a lower terrace for sunset.",
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.4
         },
         {
-          "icon": "wine-glass",
-          "title": {
-            "en": "Wine Bars & Enotecas",
-            "it": "Ristoranti sul Porto"
-          },
-          "description": {
-            "en": "Sample local Sciacchetrà dessert wine and Cinque Terre DOC whites in cozy wine bars",
-            "it": "Vista diretta sulle barche dei pescatori. Pesce freschissimo portato a riva la mattina stessa."
-          }
+          "id": 2,
+          "name": "Rio Bistrot",
+          "category": "Modern Ligurian",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where tradition meets a younger generation's confidence.",
+          "description": "Rio Bistrot represents a new voice in Riomaggiore—respectful of tradition but unafraid to experiment. The Michelin Guide recognizes what locals already knew: this is a kitchen with vision. The tasting menus are journeys through local ingredients presented with modern technique.",
+          "giuliaComment": "I love the energy here. The chef is from the village, but he's traveled. He brings the world back home without forgetting where he came from.",
+          "signature": "The pesto foam that started a hundred arguments",
+          "priceRange": "$$$$",
+          "practicalInfo": "Tasting menu only. Book a week in advance during summer.",
+          "googleRating": 4.7,
+          "tripadvisorRating": 4.6
         },
         {
-          "icon": "leaf",
-          "title": {
-            "en": "Traditional Pesto Dishes",
-            "it": "Vita Serale"
-          },
-          "description": {
-            "en": "Authentic Genovese pesto made with local basil, served with trofie pasta and focaccia",
-            "it": "L'unico villaggio con vera vita notturna. Wine bar, aperitivi, musica dal vivo fino a tardi."
-          }
+          "id": 3,
+          "name": "Trattoria Dal Billy",
+          "category": "Panoramic Seafood",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+          "intro": "Climb for twenty minutes. Earn your view. Then eat like a king.",
+          "description": "Dal Billy sits at the top of the village, requiring a proper walk through winding alleys. The reward is a terrace with the entire coastline spread before you, and seafood that arrives daily from the harbor far below.",
+          "giuliaComment": "The climb is part of the experience. By the time you arrive, you're hungry enough to appreciate the generous portions. Their seafood risotto is legendary.",
+          "signature": "A view that makes you forget your aching legs",
+          "priceRange": "$$$",
+          "practicalInfo": "Dinner reservations essential. Go before sunset to watch the light change.",
+          "googleRating": 4.6,
+          "tripadvisorRating": 4.5
         },
         {
-          "icon": "pizza-slice",
-          "title": {
-            "en": "Focacceria & Bakeries",
-            "it": "Street Food"
-          },
-          "description": {
-            "en": "Grab fresh focaccia di Recco, farinata, and local breads from traditional bakeries",
-            "it": "Focaccerie, friggitorie, gelaterie artigianali. Perfetto per pranzi veloci tra un sentiero e l'altro."
-          }
-        },
-        {
-          "icon": "ice-cream",
-          "title": {
-            "en": "Gelato & Desserts",
-            "it": "Atmosfera Giovane"
-          },
-          "description": {
-            "en": "Artisan gelato shops serving traditional flavors and Ligurian sweets along Via Colombo",
-            "it": "Clientela più giovane e internazionale. Menù innovativi che reinterpretano la tradizione ligure."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Sunset Aperitivo",
-            "it": "Facile Accesso"
-          },
-          "description": {
-            "en": "Evening drinks with snacks at harbor bars, the most vibrant nightlife in Cinque Terre",
-            "it": "Stazione ferroviaria direttamente nel centro. Più comodo raggiungere ristoranti anche in serata."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Complete Your Riomaggiore Experience",
-        "it": "Prezzi e Orari",
-        "de": "Meine persönlichen Restaurantempfehlungen für Riomaggiore"
-      },
-      "description": {
-        "en": "After dining, explore the village's attractions and scenic trails."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Hiking Trails"
-          },
-          "url": {
-            "en": "/en/riomaggiore/hiking"
-          },
-          "variant": "secondary"
+          "id": 4,
+          "name": "A Pie' de Ma'",
+          "category": "Romantic Waterfront",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "On the famous Via dell'Amore, where dinner becomes declaration.",
+          "description": "Perched at the start of the legendary Lovers' Walk, A Pie' de Ma' offers the most romantic setting in the village. The menu honors traditional Ligurian seafood, but the real specialty is the atmosphere—waves crashing below as the sun sets.",
+          "giuliaComment": "If you're proposing, do it here. If you're celebrating an anniversary, do it here. If you just want to feel the magic of this coast, do it here.",
+          "signature": "Romance that requires reservation",
+          "priceRange": "$$$",
+          "practicalInfo": "Book well ahead for sunset tables. The path can be slippery—wear proper shoes.",
+          "googleRating": 4.4,
+          "tripadvisorRating": 4.3
         }
       ],
-      "subtitle": {
-        "de": "Als Kulinarikexpertin mit tiefen Wurzeln in Ligurien teile ich meine Geheimtipps für unvergessliche Geschmackserlebnisse"
-      },
-      "content": {
-        "de": "Nach über einem Jahrzehnt in der ligurischen Küche und unzähligen Besuchen in Riomaggiore kenne ich jeden Winkel der lokalen Gastronomieszene. Dieses Dorf ist besonders - es hat die größte Auswahl an Restaurants in allen Cinque Terre, und ich führe Sie zu den authentischsten Erlebnissen.\n\n## Die absoluten Höhepunkte\n\n**Rio Bistrot** ist mein Tipp für besondere Anlässe. Dieses Michelin Guide Restaurant in der Via Colombo revolutioniert die traditionelle ligurische Küche. Chef Marco kreiert innovative Interpretationen klassischer Gerichte - probieren Sie unbedingt seine Variationen von Trofie al Pesto (22€). Reservierungen sind essentiell, besonders von Juni bis September.\n\n**Dau Cila** direkt am Wasser ist pure Romantik. Hier speiste ich zum ersten Mal die perfekten Muscoli ripieni (gefüllte Muscheln, 16€). Die Terrasse bietet direkten Meerblick, und der Service ist außergewöhnlich aufmerksam. Preise bewegen sich zwischen 25-40€ pro Person.\n\n## Authentische lokale Erfahrungen\n\nFür das echte Riomaggiore-Gefühl empfehle ich **Te la do io la merenda** - ein unscheinbarer Laden, wo Einheimische ihre Focaccia holen. Die Focaccia col formaggio (4€) ist legendär, und ich kaufe oft zusätzlich eingelegte Oliven für Picknicks auf den Wanderwegen.\n\n**Fuori Rotta** versteckt sich abseits der Hauptstraße und bietet kreative mediterrane Küche. Das Risotto ai frutti di mare (18€) ist spektakulär, und die Weinauswahl umfasst exzellente lokale Produzenten wie Terre di Bargon."
-      }
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Logic of the Climb",
+          "quote": "In Riomaggiore, the best views require effort. The restaurants at the top are not inconvenient—they are honest. They ask you to work for your dinner, and they reward you with perspectives that no waterfront table can offer."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Quick Bites",
+      "quote": "Not every meal needs a reservation. Some of the village's finest eating happens standing up, paper in hand, with the harbor as your dining room.",
+      "content": [
+        "**Te la do io la merenda** is a legend. The focaccia here—particularly the focaccia col formaggio—draws a line out the door every morning. Join it.",
+        "**Tutti Fritti** and **Il Pescato Cucinato** serve the same essential dish: the day's catch, battered, fried, and served in a paper cone. The argument about which is better has no resolution. Try both.",
+        "**Vertical Wine Bar** blurs the line between wine shop and neighborhood gathering. The selection is local and the advice is honest. A perfect aperitivo stop.",
+        "**Bar Centrale** is where the village's social life happens. Morning espresso, afternoon gossip, evening prosecco. The coffee is good, but the people-watching is better."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "restaurant",
+      "items": [
+        {
+          "id": 5,
+          "name": "Te la do io la merenda",
+          "category": "Focaccia & Street Food",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The focaccia that makes locals line up before they even open.",
+          "description": "This tiny window serves what many consider the finest focaccia in the Cinque Terre. The focaccia col formaggio—that melting, cheese-filled perfection—disappears within hours of baking.",
+          "giuliaComment": "I've been coming here since childhood. The recipe hasn't changed, and neither has my order. Get there early or accept disappointment.",
+          "signature": "Focaccia col formaggio that disappears by noon",
+          "priceRange": "$",
+          "practicalInfo": "Cash only. No seating. Open mornings until sold out.",
+          "googleRating": 4.8,
+          "tripadvisorRating": 4.7
+        },
+        {
+          "id": 6,
+          "name": "Vertical Wine Bar",
+          "category": "Wine Bar & Aperitivo",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the village's wine education happens, one glass at a time.",
+          "description": "Vertical is equal parts wine shop, tasting room, and village living room. The owner knows every vineyard in the hills above, and he'll guide you through local varieties you've never heard of.",
+          "giuliaComment": "This is where I send people who want to understand Ligurian wine. Ask for the Sciacchetrà flight. It will change how you think about dessert wine.",
+          "signature": "A wine education that fits in a glass",
+          "priceRange": "$$",
+          "practicalInfo": "Drop by for aperitivo or schedule a proper tasting. They ship bottles home.",
+          "googleRating": 4.6,
+          "tripadvisorRating": 4.5
+        },
+        {
+          "id": 7,
+          "name": "Tutti Fritti",
+          "category": "Fried Seafood",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
+          "intro": "The paper cone that defines a Ligurian summer.",
+          "description": "Fried fish in a cone is not fast food here—it's an art form. Tutti Fritti has perfected the light, crispy batter that showcases rather than overwhelms the day's catch.",
+          "giuliaComment": "This is my guilty pleasure. The cone of mixed fried fish, eaten walking along the harbor, is summer distilled into a single experience.",
+          "signature": "The crunch that echoes off the harbor walls",
+          "priceRange": "$",
+          "practicalInfo": "Perfect for a quick lunch. Take it to the rocks by the marina.",
+          "googleRating": 4.4,
+          "tripadvisorRating": 4.3
+        },
+        {
+          "id": 8,
+          "name": "Punta Bonfiglio Bar",
+          "category": "Viewpoint Bar",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The view that makes everything taste better.",
+          "description": "At the famous Punta Bonfiglio viewpoint, this simple bar serves drinks and light fare to hikers and photographers who've found one of Italy's most spectacular outlooks.",
+          "giuliaComment": "I come here for the view, not the menu. But a cold beer at sunset, with the whole village spread below you? That's its own kind of cuisine.",
+          "signature": "The most Instagram-worthy drink you'll ever have",
+          "priceRange": "$",
+          "practicalInfo": "Simple refreshments only. The view is the main course.",
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.4
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Case for Standing Up",
+          "quote": "Italians understand that some of the best eating happens on your feet. A focaccia tastes different when you're standing in morning sunlight. A cone of fried fish belongs in motion, not at a table. Trust the rhythm."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Table Will Find You",
+      "content": [
+        "Eating in Riomaggiore is not about finding the perfect restaurant. It's about matching your meal to your moment.",
+        "Some days demand a terrace with tablecloths and wine lists. Others call for nothing more than fried fish in paper, eaten on warm rocks while the harbor busies itself below.",
+        "Listen to the village. Follow your hunger. The table will find you."
+      ],
+      "buttons": [
+        { "text": "Plan Your Itinerary", "url": "/en/itinerary", "variant": "primary" },
+        { "text": "Explore the Village", "url": "/en/riomaggiore", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "restaurants"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.847Z"
+  "updated_at": "2026-01-05T16:00:00.000Z"
 }

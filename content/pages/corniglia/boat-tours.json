@@ -7,186 +7,152 @@
     "it": "/it/corniglia/boat-tours"
   },
   "title": {
-    "en": "Boat Tours from Corniglia",
-    "de": "Bootstouren",
-    "fr": "Excursions en Bateau",
-    "it": "Gite in Barca"
+    "en": "Boat Tours from Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "boat-tours",
   "seo": {
     "title": {
-      "en": "Corniglia Boat Tours 2025 | Cinque Terre Sailing Trips"
+      "en": "Boat Tours from Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Boat tours and sailing trips from Corniglia area. See all five villages from the sea, swim in hidden coves, sunset cruises."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia boat tours",
-        "Cinque Terre sailing",
-        "coastal cruises",
-        "boat trips"
-      ]
+      "en": "Corniglia has no harbor—boat tours mean traveling to another village first. But seeing Corniglia from the water reveals why this clifftop village chose elevation over sea access."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Boat Tours",
-        "it": "Esperienza in Mare",
-        "de": "Bootstouren"
-      },
-      "title": {
-        "en": "See Cinque Terre from the Sea",
-        "it": "Tour in Barca da Corniglia",
-        "de": "Die Cinque Terre vom Meer erleben"
-      },
-      "subtitle": {
-        "en": "Boat tours depart from nearby Monterosso. See Corniglia's clifftop position from the water and all five villages in one trip.",
-        "it": "Ammira i 5 villaggi dalla prospettiva più spettacolare: il mare. Case colorate che emergono dalle scogliere, grotte nascoste, calette segrete e tramonti indimenticabili.",
-        "de": "Als Fotografin kann ich Ihnen versichern: Die spektakulärste Perspektive auf Corniglia und die anderen Dörfer haben Sie vom Wasser aus. Bootstouren starten vom nahegelegenen Monterosso - perfekt für unvergessliche Aufnahmen der Steilküste."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Tour Options",
-            "it": "Prenota Tour"
-          },
-          "url": {
-            "en": "#tours",
-            "it": "#tour"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Tipi di Tour"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#tipologie"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Village<br/>Seen From Sea",
+      "subtitle": "Corniglia has no harbor, no ferry stop, no boats pulling up to its shores. To see it from the water, you must leave from somewhere else—but the view of the clifftop village rising 100 meters above the sea is worth the detour.",
+      "badge": "Boat Tours",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Harbor-less Village",
+      "quote": "Every other Cinque Terre village has ferries stopping at its harbor, boats pulled up on its beach. Corniglia's relationship with the sea is different: visible but not touchable, admired from above rather than entered from below.",
+      "content": [
+        "**No direct boat access exists**. The cliffs drop straight into the water. There's no harbor to build, no beach to launch from. Corniglia chose terraces over water, wine over fish, elevation over access.",
+        "**But the view from the sea is remarkable**. Seeing the village from below, watching the terraces cascade from cliff edge to water line, understanding the scale of what humans built on these impossible slopes—the boat perspective reveals what walking can't.",
+        "**Tours depart from other villages**. Monterosso and Vernazza both have ferry connections and boat tour operators. From either, you can arrange passage that includes Corniglia views, swimming stops below the cliffs, and the unique experience of looking up at the village you'll later look down from.",
+        "**The day combines perspectives**. Take a boat tour in the morning, seeing Corniglia from below. Then climb to the village, seeing the sea from above. The two views complete each other."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Boat Experiences",
-        "it": "Tipologie di Tour",
-        "de": "Bootstour-Erlebnisse"
-      },
-      "title": {
-        "en": "Tours & Cruises",
-        "it": "Esperienze in Barca",
-        "de": "Touren & Kreuzfahrten"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "option",
+      "items": [
         {
-          "icon": "boat",
-          "title": {
-            "en": "Five Villages Tour",
-            "it": "Tour dei 5 Villaggi"
-          },
-          "description": {
-            "en": "See all Cinque Terre villages from the sea. Departs Monterosso, 2-3 hours with swimming stops.",
-            "it": "Giro completo costiero con soste per nuotare. 3-4 ore, guida inclusa, partenza da Monterosso o La Spezia."
-          }
+          "id": 1,
+          "name": "Ferry Day Pass",
+          "category": "Public Option",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1500930287596-c1ecaa373bb2?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The public ferries don't stop at Corniglia—but they pass close enough to see it, and the day pass lets you explore the coast village by village.",
+          "description": "Ferries connect Monterosso, Vernazza, Manarola, and Riomaggiore (plus Portovenere and La Spezia). Corniglia is visible from the water but not accessible. A day pass (€35-40) lets you hop on and off, building your own coastal exploration with Corniglia views included in the passage.",
+          "giuliaComment": "The ferry passing Corniglia is a strange experience for us. We wave; they photograph. We can't reach the water; they can't reach us. It's a reminder of what we chose when our ancestors built here: the terraces, not the harbor. The wine, not the fish.",
+          "signature": "Where ships pass by"
         },
         {
-          "icon": "sunset",
-          "title": {
-            "en": "Sunset Cruises",
-            "it": "Tour al Tramonto"
-          },
-          "description": {
-            "en": "Evening sailing with aperitivo. Watch the villages light up as the sun sets over the Mediterranean.",
-            "it": "Esperienza romantica con aperitivo a bordo. Vista spettacolare sui villaggi illuminati dal sole al calar del giorno."
-          }
+          "id": 2,
+          "name": "Private Boat Charters",
+          "category": "Premium Experience",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Charter a private boat from Monterosso or Vernazza—stop where you want, swim where you choose, see Corniglia from angles the ferries don't reach.",
+          "description": "Several operators offer half-day and full-day charters (€200-600 depending on boat and duration). Private charters allow swimming stops in coves below Corniglia's cliffs, sunset positioning for photography, and the freedom to linger where the views demand attention.",
+          "giuliaComment": "The private boats can reach spots the ferries ignore—little coves below our cliffs where the water is crystal clear and the crowds don't exist. If you want to understand Corniglia from the water, this is the way. Ask the captain to position for the afternoon light.",
+          "signature": "Where freedom shapes the journey"
         },
         {
-          "icon": "swimming",
-          "title": {
-            "en": "Swimming Stops",
-            "it": "Snorkeling e Grotte"
-          },
-          "description": {
-            "en": "Anchor at hidden coves and grottos. Crystal-clear water accessible only by boat.",
-            "it": "Esplorazione dell'area marina protetta con attrezzatura inclusa. Visita a grotte e calette nascoste."
-          }
-        },
-        {
-          "icon": "camera",
-          "title": {
-            "en": "Photography Tours",
-            "it": "Barca a Vela"
-          },
-          "description": {
-            "en": "Capture the villages from unique angles. Best views are from the water during golden hour.",
-            "it": "Tour in barca a vela tradizionale. Esperienza più autentica e sostenibile, gruppi piccoli."
-          }
-        },
-        {
-          "icon": "sailing",
-          "title": {
-            "en": "Private Charters",
-            "it": "Tour Privati"
-          },
-          "description": {
-            "en": "Rent a boat with captain for your group. Customize itinerary and timing.",
-            "it": "Barca riservata per te e il tuo gruppo. Itinerario personalizzato, massima flessibilità."
-          }
-        },
-        {
-          "icon": "kayak",
-          "title": {
-            "en": "Kayak Tours",
-            "it": "Tour con Degustazione"
-          },
-          "description": {
-            "en": "Paddle along the coast at your own pace. Guided kayak tours available from Monterosso.",
-            "it": "Combinazione mare e enogastronomia. Include degustazione di vini locali e prodotti tipici."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Experience Cinque Terre from the Water",
-        "it": "Dettagli e Prezzi",
-        "de": "Meine Fotografie-Tipps für Bootstouren"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Plan Your Visit"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 3,
+          "name": "Sunset Cruises",
+          "category": "Golden Hour",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The evening light on Corniglia's cliffs creates colors that daytime visitors never see—golden terraces reflected in calm seas.",
+          "description": "Several operators offer sunset departures, timing the approach to Corniglia for optimal light. The village faces west; the evening sun illuminates the terraces directly. Prosecco, swimming, and the slow shift from gold to pink to purple as the sun drops. Book well ahead in summer.",
+          "giuliaComment": "From the village, we watch the boats pass at sunset, knowing what they're seeing. Sometimes I wish I could see it too—but then I remember that we live in the view they're photographing. The trade seems fair.",
+          "signature": "Where light creates magic"
         }
       ],
-      "subtitle": {
-        "de": "Als visuelle Geschichtenerzählerin teile ich meine Erfahrungen"
-      },
-      "content": {
-        "de": "Ich habe unzählige Stunden auf Bouten vor der Cinque Terre verbracht, und jede Fahrt offenbart neue fotografische Möglichkeiten. **Corniglia ist das einzige Dorf ohne direkten Meereszugang** - aber genau das macht es vom Wasser aus so spektakulär.\n\nVon der **Corniglia Panoramaterrasse** haben Sie einen fantastischen Landblick, aber die Bootstour zeigt Ihnen, wie dramatisch das Dorf auf seinem Felsvorsprung thront. Die **antiken Weinberg-Terrassen** sind vom Meer aus besonders eindrucksvoll - diese jahrhundertealten Strukturen, die sich den Hang hinaufziehen.\n\n**Beste Fotozeiten:** Die goldene Stunde beginnt etwa 1,5 Stunden vor Sonnenuntergang. Ich empfehle die Abendtouren von 17:00-19:30 Uhr (Sommer) für das perfekte Licht auf den bunten Häuserfassaden.\n\n**Praktische Hinweise für deutsche Reisende:**\n- Reservierung mindestens 48 Stunden im Voraus (online möglich)\n- Bootstouren sind wetterabhängig - alternative Termine werden angeboten\n- Sonnenschutz und wasserfeste Kamera-Ausrüstung mitnehmen\n- Seekrankheitstabletten bei empfindlichem Magen\n- Die meisten Anbieter sprechen Englisch, deutsche Guides seltener\n\n**Von Corniglia zur Bootstour:** Nehmen Sie den Zug nach Monterosso (8 Minuten, 2,30 EUR). Die Lardarina-Treppe hinunter zum Bahnhof sind 382 Stufen - planen Sie 10-15 Minuten extra ein."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "Swimming Below the Cliffs",
+          "quote": "The water directly below Corniglia is some of the clearest on the coast—no harbor pollution, no easy access to muddy the crystal clarity. Boat tours can drop anchor here for swimming in water so clear you see the bottom at 10 meters. It's the only way to swim 'at' Corniglia."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Planning",
+      "quote": "Boat tours from the Corniglia area require leaving Corniglia. The logistics of getting to departure points and back shape how you plan the day.",
+      "content": [
+        "**Depart from Monterosso or Vernazza**. Both have ferry landings and private operators. Monterosso offers more options; Vernazza is closer. Either works.",
+        "**Combine with hiking**. Walk from Corniglia to Vernazza (90 minutes), take the boat tour, ferry back to Monterosso, train to Corniglia. You've seen the coast from every angle.",
+        "**Book in advance during summer**. Sunset cruises especially fill weeks ahead. Private charters require planning. Only the public ferries accept walk-ups reliably.",
+        "**Check weather and sea conditions**. Rough seas cancel boats and spoil experiences. The morning weather often differs from afternoon. Local operators know the patterns; trust their cancellation decisions."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Five-Village View",
+          "category": "Complete Picture",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Only from the water can you see all five villages in sequence—each one different, each one revealing something the others hide.",
+          "description": "A full coast passage shows you Riomaggiore's stacked houses, Manarola's harbor, Corniglia's clifftop isolation, Vernazza's castle, Monterosso's beaches. The sequence tells the story of five villages making different choices about the same coast. Corniglia's choice—elevation over access—becomes clear in contrast.",
+          "giuliaComment": "From land, you can only see neighboring villages. From the water, you see them all as one continuous coast. The differences become obvious: who built harbors, who built terraces, who chose the sea, who chose the hill. We chose the hill.",
+          "signature": "Where the coast reveals itself"
+        },
+        {
+          "id": 5,
+          "name": "The Terrace Perspective",
+          "category": "Agricultural Understanding",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+          "intro": "From the sea, the terraces become comprehensible—thousands of walls cascading from cliff top to water line, an engineering wonder visible only from below.",
+          "description": "Walking through terraces, you see one wall at a time. From the water, you see them all—centuries of labor made visible in a single view. The scale is staggering: more linear distance of walls than the Great Wall of China, built by hand, maintained by hand, sustaining vines that produce wine you can drink in the village above.",
+          "giuliaComment": "When I take the ferry to La Spezia, I always look back at Corniglia's terraces. Every wall I see, someone in my family probably helped build or repair. The view from the water shows what our ancestors created. It's humbling in the best way.",
+          "signature": "Where labor becomes landscape"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Best Photography Position",
+          "quote": "Afternoon light hits Corniglia's cliffs directly—the terraces turn gold, the village glows. Ask boat captains to position between 4pm and 6pm, when the angle creates depth and the colors peak. Morning shots are clearer; afternoon shots are warmer."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Two-Way View",
+      "content": [
+        "Seeing Corniglia from the water completes the experience of being in Corniglia. From above, you look down at boats passing below, wondering what they see. From below, you look up at the village, understanding what elevation means.",
+        "The harbor-less village chose something different from its neighbors. Boat tours make that choice visible: no ferry dock, no easy access, just cliffs and terraces and a village that turned away from the sea to face its vineyards.",
+        "Include the boat perspective in your Corniglia visit. The village is best understood from both directions: the climb up the Lardarina, and the view from the water looking at what you climbed to reach."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Beaches", "url": "/en/corniglia/beaches", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "boat-tours"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.833Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

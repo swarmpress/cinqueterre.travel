@@ -7,191 +7,152 @@
     "it": "/it/manarola/weather"
   },
   "title": {
-    "en": "Weather & Best Time to Visit Manarola",
-    "de": "Wetter",
-    "fr": "Météo",
-    "it": "Meteo"
+    "en": "Weather in Manarola | Cinque Terre Dispatch"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Manarola Weather 2025 | Best Time to Visit & Climate Guide"
+      "en": "Weather in Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Manarola weather guide. Monthly temperatures, rainfall, and the best seasons to visit Cinque Terre's most scenic village."
-    },
-    "keywords": {
-      "en": [
-        "Manarola weather",
-        "when to visit Manarola",
-        "Cinque Terre climate",
-        "best time to visit"
-      ]
+      "en": "The weather in Manarola is not something to plan around—it's something to live within. Each season reveals a different village, and the locals know which days belong to which activities."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Clima e Stagioni",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Weather & Climate",
-        "it": "Meteo e Quando Visitare Manarola",
-        "de": "Wetter & Klima"
-      },
-      "subtitle": {
-        "en": "Mediterranean climate with mild winters and warm summers. Learn the best times to visit and what to expect throughout the year.",
-        "it": "Clima mediterraneo mite tutto l'anno. Stagioni diverse offrono esperienze uniche: primavera fiorita, estate balneare, autunno vendemmiale, inverno autentico.",
-        "de": "Mediterranes Klima mit milden Wintern und warmen Sommern. Erfahren Sie die optimalen Reisezeiten und was Sie das ganze Jahr über erwartet."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "See Climate Data",
-            "it": "Periodo Migliore"
-          },
-          "url": {
-            "en": "#weather",
-            "it": "#periodo"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Meteo Attuale"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#meteo"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Sky<br/>Decides",
+      "subtitle": "Manarola exists within the weather, not despite it. The Mediterranean climate shapes every activity—when to swim, when to hike, when to sit inside with wine and watch the sea turn grey. Understanding the seasons means understanding how to be here.",
+      "badge": "Weather Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Climate Reality",
+      "quote": "Visitors ask for the 'best weather' as if one answer exists. But ask what you want to do, and I'll tell you which weather makes that perfect. Swimming weather isn't hiking weather. Wine-tasting weather isn't beach weather. The Mediterranean offers variety, not perfection.",
+      "content": [
+        "**The mild baseline** holds year-round. Temperatures rarely drop below 5°C in winter or exceed 32°C in summer. The sea moderates everything. What changes dramatically is the light, the crowds, and which activities the weather enables.",
+        "**Microclimates matter**. Manarola faces southeast, catching morning sun while the western cliffs hold afternoon shade. The harbor is warmer than the upper village. The terraces above can be ten degrees cooler than the waterfront.",
+        "**The sea determines swimming**. Water temperature matters more than air temperature. The Mediterranean reaches 24°C by August, stays swimmable through October, and takes until June to warm again. Early swimmers know: the air can be warm while the water isn't.",
+        "**Rain concentrates in autumn**. October and November bring the most precipitation—short, intense bursts rather than all-day drizzle. These storms can be spectacular, watching from a warm café."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Seasonal Guide",
-        "it": "Le Quattro Stagioni",
-        "de": "Saisonaler Reiseführer"
-      },
-      "title": {
-        "en": "When to Visit",
-        "it": "Quando Visitare le Cinque Terre",
-        "de": "Die beste Reisezeit für Manarola"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
         {
-          "icon": "sun",
-          "title": {
-            "en": "Spring (Apr-May)",
-            "it": "Primavera (Mar-Mag)"
-          },
-          "description": {
-            "en": "Perfect weather 15-22°C. Wildflowers bloom, fewer crowds. Ideal for hiking and photography.",
-            "it": "Ideale per trekking. Temperature 15-22°C, fioritura, poca folla. Possibili piogge ad aprile. La stagione perfetta."
-          }
+          "id": 1,
+          "name": "Spring (March-May)",
+          "category": "Hiking Season",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Wildflowers on terraces, perfect trail temperatures, and the village waking from winter quiet.",
+          "description": "Spring brings Manarola to life. The terraces bloom with wildflowers—poppies, broom, wild herbs. Temperatures hover between 15-20°C, ideal for hiking without summer's oppressive heat. The sea is still cold (16-19°C), but the trails are perfect. Restaurants reopen. The village emerges from its intimate winter mode.",
+          "giuliaComment": "March can still bring storms. April is unpredictable—pack layers. But May is golden: warm enough for afternoon swimming, cool enough for morning hikes, and the village isn't yet overwhelmed by summer visitors. This is my favorite month.",
+          "signature": "When the terraces come alive"
         },
         {
-          "icon": "beach",
-          "title": {
-            "en": "Summer (Jun-Aug)",
-            "it": "Estate (Giu-Ago)"
-          },
-          "description": {
-            "en": "Hot 25-30°C. Peak season with crowds. Best for swimming and sunbathing.",
-            "it": "Alta stagione. 25-30°C, mare caldo, spiagge, eventi. Molto affollato e caro. Caldo intenso sui sentieri."
-          }
+          "id": 2,
+          "name": "Summer (June-August)",
+          "category": "Swimming Season",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Hot days, warm water, long evenings—the Mediterranean summer that draws millions.",
+          "description": "Summer is why Cinque Terre became famous. Temperatures reach 26-30°C. The sea finally warms to swimming temperature (22-24°C). Days are longest—sunset after 9pm in late June. This is also peak season: maximum crowds, maximum prices, reservations essential everywhere.",
+          "giuliaComment": "July and August are beautiful but exhausting. The day-trippers start arriving at 10am and don't leave until sunset. If you must come in summer, stay overnight—mornings before 9am and evenings after 7pm are still ours. Those are the real summer hours.",
+          "signature": "When the sea finally invites"
         },
         {
-          "icon": "leaf",
-          "title": {
-            "en": "Fall (Sep-Oct)",
-            "it": "Autunno (Set-Nov)"
-          },
-          "description": {
-            "en": "Warm 18-25°C. Grape harvest season. Great weather with reduced crowds.",
-            "it": "Eccellente per visite. 18-25°C in settembre, vendemmia, colori caldi. Meno turisti. Piogge in novembre."
-          }
-        },
-        {
-          "icon": "cloud",
-          "title": {
-            "en": "Winter (Nov-Mar)",
-            "it": "Inverno (Dic-Feb)"
-          },
-          "description": {
-            "en": "Mild 8-15°C. Quiet season. See the famous nativity scene, but some restaurants close.",
-            "it": "Bassa stagione. 8-15°C, molti servizi chiusi, poca folla. Autentico ma limitato. Presepe di Manarola a dicembre."
-          }
-        },
-        {
-          "icon": "umbrella",
-          "title": {
-            "en": "Rainfall"
-          },
-          "description": {
-            "en": "Wettest Oct-Nov. Driest June-August. Occasional storms can close hiking trails."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Best Sunset Views"
-          },
-          "description": {
-            "en": "Year-round spectacular sunsets. Summer offers longest days. Clear skies in September-October."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Visit",
-        "it": "Il Clima in Numeri",
-        "de": "Detaillierte Klimainformationen"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Getting Here"
-          },
-          "url": {
-            "en": "/en/manarola/getting-here"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Autumn (September-October)",
+          "category": "Harvest Season",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Golden light, grape harvest, warm water, fewer crowds—what many consider the perfect season.",
+          "description": "Autumn is Manarola's secret best season. September holds summer's warmth without summer's crowds. The sea stays swimmable through October. The light turns golden, perfect for photography. And the vendemmia (grape harvest) brings the village together for its oldest tradition.",
+          "giuliaComment": "September and early October are paradise. Warm enough for swimming, cool enough for hiking, few enough visitors that you can get a restaurant table without booking a week ahead. Late October brings the first real storms—dramatic but unpredictable.",
+          "signature": "When the light turns gold"
         }
       ],
-      "subtitle": {
-        "de": "Als gebürtiger Ligurer kenne ich die Wetterkapriolen unserer Küste genau"
-      },
-      "content": {
-        "de": "Das mediterrane Klima Manarolaas wird durch die schützenden Berge und das temperaturausgleichende Meer geprägt. Die **jährliche Durchschnittstemperatur** beträgt angenehme 16°C.\n\n**Niederschlag:** Die meisten Regentage fallen zwischen Oktober und April (durchschnittlich 8-12 Tage pro Monat). Juli und August sind praktisch niederschlagsfrei. Beachten Sie, dass kurze, intensive Schauer typisch für das Mittelmeerklima sind.\n\n**Luftfeuchtigkeit:** Konstant bei 60-70%, was das ganzjährig milde Gefühl erklärt. Der Mistral-Wind aus Nordwesten sorgt besonders im Frühjahr für klare Sicht bis nach Korsika.\n\n**Meerestemperatur:** Von 15°C im Februar bis 24°C im August. Schwimmen ist von Mai bis Oktober möglich, wobei die optimale Badezeit von Juni bis September reicht."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Afternoon Sea Breeze",
+          "quote": "Around 2pm, the thermal winds pick up. This is when locals know to come inside, when the sea gets choppy, when boat tours can get uncomfortable. Morning calm, afternoon wind—the Mediterranean's daily rhythm. Plan accordingly."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Off-Season",
+      "quote": "November through February is when Manarola becomes itself again. Many restaurants close, many visitors leave, and the village returns to the people who live here year-round.",
+      "content": [
+        "**Winter is real**. Not cold by continental standards—temperatures rarely drop below 5°C—but wet. November brings the heaviest rains. December through February can be grey for days. But between storms, winter sun is gentle and beautiful.",
+        "**The Natività lights up December**. Mario Andreoli's illuminated nativity scene on the terraces above the village draws visitors even in the cold season. From December 8 through late January, this is Manarola's winter attraction.",
+        "**Fewer restaurants, more intimacy**. Some establishments close entirely from November to March. Others operate reduced hours. What remains is authentic—the places that serve locals, not just tourists.",
+        "**Storm watching has its appeal**. Big waves crashing against the harbor walls, sea spray reaching the windows, sitting inside with wine and watching the Mediterranean's fury—this is a different kind of beauty."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "practical",
+      "items": [
+        {
+          "id": 4,
+          "name": "What to Pack",
+          "category": "Preparation",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The essentials change by season, but some things are always necessary.",
+          "description": "Year-round: comfortable walking shoes with grip (the stones get slippery), layers for temperature variation between harbor and upper village, sun protection. Summer adds swimwear and water shoes for rocky swimming. Winter adds a waterproof layer and warm evening wear. Spring and fall need both—the weather can shift mid-day.",
+          "giuliaComment": "The most common mistake: bringing only sandals. Even in summer, you'll want proper shoes for the trails and the steep village paths. The second most common mistake: assuming evening will be as warm as afternoon. Bring a light jacket always.",
+          "signature": "Where preparation prevents problems"
+        },
+        {
+          "id": 5,
+          "name": "Reading the Forecast",
+          "category": "Planning",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Mediterranean forecasts are reliable for 3 days, suggestive for 7, and fantasy beyond.",
+          "description": "Trust the short-term forecast. Plan hiking for clear mornings. Plan boat trips for calm days. Have backup options for everything. The weather apps work well for basic conditions, but local knowledge—asking at your accommodation or restaurant—gives better insight into what the numbers actually mean for activities.",
+          "giuliaComment": "I use Windy.com for the wind patterns—crucial for boat decisions and swimming comfort. But for whether to hike, I look at the sky in the morning. Clear morning usually means clear day. Hazy morning can go either way. Learn to read the village's weather, not just the app.",
+          "signature": "Where technology meets intuition"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Evening Layer",
+          "quote": "Even in August, the evening can cool quickly once the sun drops behind the mountains. Every local carries a light jacket or sweater to dinner. The tourists eating in shorts are easy to spot—they're the cold ones."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Weather as Opportunity",
+      "content": [
+        "Bad weather doesn't exist in Manarola—only inappropriate plans. Rain makes the perfect excuse for a long lunch. Wind cancels swimming but enhances wine tasting. Grey days reveal the village without the golden light that draws photographers.",
+        "Come when you can, stay flexible, and let the weather guide your activities rather than fighting it. The Mediterranean has been here for millions of years. It knows what it's doing.",
+        "Pack layers. Check forecasts. But mostly, trust that whatever weather arrives, Manarola will still be beautiful—just differently beautiful than the day before."
+      ],
+      "buttons": [
+        { "text": "Things to Do", "url": "/en/manarola/things-to-do", "variant": "primary" },
+        { "text": "Hiking Trails", "url": "/en/manarola/hiking", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "weather"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.840Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

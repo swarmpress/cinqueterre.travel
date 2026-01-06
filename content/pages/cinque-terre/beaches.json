@@ -7,223 +7,146 @@
     "it": "/it/cinque-terre/beaches"
   },
   "title": {
-    "en": "Best Beaches in Cinque Terre 2025",
-    "de": "Strände",
-    "fr": "Plages",
-    "it": "Spiagge"
+    "en": "Cinque Terre's Secret Swimming Spots: Hidden Beaches & Azure Coves"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Cinque Terre Beaches 2025 | Sandy Beaches & Swimming Spots"
+      "en": "Best Beaches in Cinque Terre | Hidden Coves & Swimming Spots"
     },
     "description": {
-      "en": "Discover the best beaches in Cinque Terre. Sandy shores in Monterosso, rocky coves, secret swimming spots, and crystal-clear Mediterranean waters."
-    },
-    "keywords": {
-      "en": [
-        "cinque terre beaches",
-        "monterosso beach",
-        "swimming",
-        "sandy beaches",
-        "beach clubs",
-        "snorkeling",
-        "mediterranean sea"
-      ]
+      "en": "Discover Cinque Terre's most spectacular beaches and swimming spots. From hidden pebble coves to secret rock pools - your complete guide to coastal bliss."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Mediterranean Coast",
-        "de": "Küstenparadies",
-        "fr": "Côte Méditerranéenne",
-        "it": "Mare e Spiagge"
-      },
-      "title": {
-        "en": "Cinque Terre Beaches & Swimming",
-        "de": "Strände in Cinque Terre",
-        "fr": "Plages des Cinque Terre",
-        "it": "Spiagge e Balneazione nelle Cinque Terre"
-      },
-      "subtitle": {
-        "en": "Sandy beaches, hidden coves, crystal-clear waters, and dramatic cliffside swimming spots along the Ligurian coast",
-        "de": "Entdecken Sie versteckte Buchten, Kiesstrände und kristallklares Wasser entlang der ligurischen Küste. Vom Sandstrand in Monterosso bis zu geheimen Badeplätzen zwischen den Felsen.",
-        "fr": "Découvrez les plages uniques des cinq villages, des criques rocheuses intimes aux étendues de sable doré. Eaux cristallines et paysages spectaculaires garantis.",
-        "it": "Dalla sabbia dorata di Monterosso alle scogliere rocciose di Manarola, dalle calette nascoste alle piattaforme per tuffi. Acque cristalline in un'area marina protetta."
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg",
+      "eyebrow": "Coastal Paradise",
+      "title": "Where Turquoise Waters Meet Dramatic Cliffs",
+      "subtitle": "Dive into the Mediterranean's most stunning swimming spots along the Riviera di Levante. From secluded pebble beaches accessible only by boat to crystal-clear rock pools carved by centuries of waves.",
       "buttons": [
         {
-          "text": {
-            "en": "Find Your Beach",
-            "de": "Strände entdecken",
-            "fr": "Plages par Village",
-            "it": "Spiagge Principali"
-          },
-          "url": {
-            "en": "#beaches",
-            "de": "#beaches",
-            "fr": "#plages",
-            "it": "#spiagge"
-          },
+          "text": "Explore All Beaches",
+          "url": "#beaches",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Boat Tours",
-            "de": "Bootstouren ansehen",
-            "fr": "Conseils Baignade",
-            "it": "Consigli Balneazione"
-          },
-          "url": {
-            "en": "/en/cinque-terre/boat-tours",
-            "de": "/de/cinque-terre/boat-tours",
-            "fr": "#conseils",
-            "it": "#info"
-          },
+          "text": "Best Swimming Times",
+          "url": "#timing",
           "variant": "secondary"
         }
       ]
     },
     {
+      "type": "stats-section",
+      "stats": [
+        {
+          "value": "15",
+          "label": "Swimming Spots",
+          "description": "From beaches to hidden coves"
+        },
+        {
+          "value": "24°C",
+          "label": "Summer Water",
+          "description": "Perfect swimming temperature"
+        },
+        {
+          "value": "May-Oct",
+          "label": "Swimming Season",
+          "description": "Optimal conditions"
+        }
+      ]
+    },
+    {
+      "type": "collection-embed",
+      "collection": "beaches",
+      "limit": 20,
+      "layout": "grid",
+      "showFilters": true
+    },
+    {
+      "type": "content-section",
+      "variant": "image-right",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-regular.jpg",
+      "eyebrow": "Insider's Guide",
+      "title": "Swimming Like a Local in Cinque Terre",
+      "content": "The magic happens when you know where to look. While tourists crowd the main beaches, locals slip away to hidden coves accessible only by scrambling down rocky paths or arriving by kayak.\n\nTiming is everything here. Early morning swims reward you with mirror-calm waters and golden light painting the cliffs. The water temperature peaks in August at a delicious 25°C, but September offers the sweet spot of warm seas with fewer crowds.\n\nBring water shoes - the rocky shores can be challenging, but they create the most spectacular underwater landscapes. The clarity here rivals tropical destinations, with visibility often exceeding 20 meters on calm days."
+    },
+    {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Beach Guide",
-        "de": "Badeplätze",
-        "fr": "Plages Principales",
-        "it": "Dove Fare il Bagno"
-      },
-      "title": {
-        "en": "Where to Swim in Cinque Terre",
-        "de": "Die schönsten Strände",
-        "fr": "Les Meilleures Plages",
-        "it": "Le Spiagge dei 5 Villaggi"
-      },
+      "eyebrow": "Essential Knowledge",
+      "title": "Your Complete Swimming Guide",
       "features": [
         {
-          "icon": "sun",
-          "title": {
-            "en": "Monterosso Beaches",
-            "de": "Monterosso Strand",
-            "fr": "Fegina (Monterosso)",
-            "it": "Monterosso - Fegina"
-          },
-          "description": {
-            "en": "The only sandy beaches in Cinque Terre with beach clubs, umbrellas, and easy access for families",
-            "de": "Der einzige Sandstrand der Cinque Terre mit Liegestühlen, Bars und sanftem Einstieg – ideal für Familien.",
-            "fr": "La plus grande plage de sable des Cinque Terre. Équipements complets, idéale familles.",
-            "it": "L'unica vera spiaggia di sabbia delle Cinque Terre. Ampia, attrezzata con stabilimenti balneari, ideale per famiglie."
-          }
+          "icon": "🏊‍♀️",
+          "title": "Best Swimming Months",
+          "description": "May through October offer comfortable water temperatures. July-August peak at 24-25°C, while shoulder seasons provide perfect conditions with fewer crowds."
         },
         {
-          "icon": "waves",
-          "title": {
-            "en": "Fegina Beach",
-            "de": "Guvano Beach",
-            "fr": "Plage de Monterosso Vieux",
-            "it": "Vernazza - Porto"
-          },
-          "description": {
-            "en": "Long sandy beach with services, restaurants, and the iconic Giant statue overlooking the bay",
-            "de": "Versteckter FKK-Strand bei Corniglia, erreichbar durch einen Tunnel – ruhig und naturbelassen.",
-            "fr": "Petite plage au pied du centre historique. Plus calme et pittoresque.",
-            "it": "Piccola spiaggia di ciottoli nel cuore del borgo. Scenografica ma affollata. Tuffi dalla piazzetta sul mare."
-          }
+          "icon": "⛵",
+          "title": "Boat Access Beaches",
+          "description": "Many of Cinque Terre's most stunning swimming spots are only accessible by boat or kayak. Consider hiring a local fisherman for authentic access to hidden coves."
         },
         {
-          "icon": "umbrella",
-          "title": {
-            "en": "Old Town Beach",
-            "de": "Vernazza Hafen",
-            "fr": "Port de Vernazza",
-            "it": "Corniglia - Spiaggione"
-          },
-          "description": {
-            "en": "Smaller sandy beach near Monterosso's historic center with calmer waters and local atmosphere",
-            "de": "Kleine Badeplattform am malerischen Hafen mit Sprungturm und authentischer Dorfatmosphäre.",
-            "fr": "Petite plage de galets dans le port. Cadre unique, très photographique.",
-            "it": "Spiaggia di ciottoli e scogli raggiungibile via scalinata o sentiero. Più tranquilla, meno turistica, acqua cristallina."
-          }
+          "icon": "🌅",
+          "title": "Perfect Timing",
+          "description": "Swim before 9 AM or after 5 PM for the calmest waters and best light. Avoid midday when afternoon winds can create choppy conditions."
         },
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Vernazza Harbor",
-            "de": "Fossola Beach",
-            "fr": "Guvano (Corniglia)",
-            "it": "Manarola - Scogliere"
-          },
-          "description": {
-            "en": "Rocky swimming area in the picturesque harbor with deep water and cliff jumping spots",
-            "de": "Ruhiger Kiesstrand in Monterosso, weniger touristisch mit klarem Wasser zum Schnorcheln.",
-            "fr": "Plage isolée accessible par tunnel. Naturiste, pour aventuriers.",
-            "it": "Piattaforme rocciose piatte ideali per prendere il sole e tuffarsi. Non c'è sabbia ma l'atmosfera è magica."
-          }
+          "icon": "👟",
+          "title": "Essential Gear",
+          "description": "Water shoes are mandatory for rocky entries. Bring snorkel gear - the underwater visibility and marine life are exceptional in these protected waters."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "eyebrow": "Common Questions",
+      "title": "Everything You Need to Know",
+      "faqs": [
+        {
+          "question": "What's the best beach for families with children?",
+          "answer": "Monterosso al Mare's sandy beach is ideal for families, offering gentle entry into calm waters and nearby amenities. The protected bay stays calmer than exposed rocky coves, and there are beach clubs with umbrellas and facilities."
         },
         {
-          "icon": "droplet",
-          "title": {
-            "en": "Manarola Swimming",
-            "de": "Manarola Felsen",
-            "fr": "Marina di Manarola",
-            "it": "Riomaggiore - Marina"
-          },
-          "description": {
-            "en": "Rocky platforms and ladders for swimming in crystal-clear waters below the village",
-            "de": "Sonnenbadeplätze auf den Felsen am Hafen – perfekt zum Sonnenuntergang beobachten.",
-            "fr": "Plateforme rocheux pour bronzer et plonger. Pas de sable mais eau profonde.",
-            "it": "Piccola area balneare roccioso al porto. Perfetta per snorkeling tra gli scogli. Escalini in cemento per l'accesso."
-          }
+          "question": "Can you swim at all the Cinque Terre villages?",
+          "answer": "Yes, but conditions vary dramatically. Monterosso has the only sandy beach, while Vernazza and Riomaggiore offer small pebble beaches. Manarola and Corniglia require short hikes to swimming spots, with Corniglia's accessed via the Guvano beach trail."
         },
         {
-          "icon": "fish",
-          "title": {
-            "en": "Riomaggiore Marina",
-            "de": "Riomaggiore Marina",
-            "fr": "Marina di Riomaggiore",
-            "it": "Calette Nascoste"
-          },
-          "description": {
-            "en": "Small harbor beach and rocky swimming areas with excellent snorkeling opportunities",
-            "de": "Kleine Badebucht zwischen Booten mit direktem Zugang zum tiefblauen Meer.",
-            "fr": "Petite zone de baignade entre rochers. Populaire auprès des locaux.",
-            "it": "Piccole baie raggiungibili solo via mare o sentieri impervi. Per gli avventurosi che cercano privacy totale."
-          }
+          "question": "Is the water safe for swimming?",
+          "answer": "Absolutely. Cinque Terre's waters are part of a protected marine sanctuary with excellent water quality. The rocky coastline creates natural filtration, resulting in exceptionally clear, clean water that's regularly monitored."
+        },
+        {
+          "question": "What should I bring for a swimming day?",
+          "answer": "Essential items include water shoes for rocky entries, snorkel gear for exploring, reef-safe sunscreen, and plenty of water. A waterproof bag protects valuables during boat trips to remote coves."
+        },
+        {
+          "question": "Are there dangerous areas to avoid?",
+          "answer": "Avoid swimming during rough weather or strong winds. Some remote coves have challenging rocky entries - assess your swimming ability honestly. Always inform someone of your plans when exploring isolated beaches."
+        },
+        {
+          "question": "When is the water warmest for swimming?",
+          "answer": "Water temperature peaks in August-September at 24-25°C (75-77°F). The swimming season runs May through October, with comfortable temperatures from June onwards. September offers the perfect balance of warm water and fewer crowds."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore More Water Activities",
-        "de": "Strände in Zahlen",
-        "fr": "À Savoir",
-        "it": "Balneazione nelle Cinque Terre"
-      },
-      "description": {
-        "en": "Discover boat tours, kayaking, snorkeling, and coastal adventures in Cinque Terre"
-      },
+      "variant": "centered",
+      "eyebrow": "Ready to Dive In?",
+      "title": "Your Cinque Terre Swimming Adventure Awaits",
+      "subtitle": "From hidden coves to crystal-clear rock pools, discover why these Mediterranean waters have enchanted swimmers for centuries.",
       "buttons": [
         {
-          "text": {
-            "en": "Boat Tours"
-          },
-          "url": {
-            "en": "/en/cinque-terre/boat-tours"
-          },
+          "text": "Plan Your Swimming Route",
+          "url": "/cinque-terre/itineraries",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/cinque-terre/things-to-do"
-          },
+          "text": "Book Boat Tours",
+          "url": "/cinque-terre/tours",
           "variant": "secondary"
         }
       ]
@@ -233,7 +156,7 @@
     "city": "cinque-terre",
     "page_type": "beaches"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.827Z"
+  "updated_at": "2025-12-16T10:41:03.493Z"
 }

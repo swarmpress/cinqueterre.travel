@@ -7,184 +7,155 @@
     "it": "/it/manarola/hiking"
   },
   "title": {
-    "en": "Hiking Trails from Manarola",
-    "de": "Wanderwege",
-    "fr": "Sentiers de Randonnée",
-    "it": "Sentieri"
+    "en": "Hiking from Manarola | Cinque Terre Dispatch"
   },
   "page_type": "hiking",
   "seo": {
     "title": {
-      "en": "Manarola Hiking 2025 | Via dell'Amore & Vineyard Trails"
+      "en": "Hiking from Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Best hiking trails from Manarola including Via dell'Amore, vineyard paths, and routes to Corniglia and Riomaggiore."
-    },
-    "keywords": {
-      "en": [
-        "Manarola hiking",
-        "Via dell'Amore",
-        "Cinque Terre trails",
-        "coastal path",
-        "vineyard hikes"
-      ]
+      "en": "The trails from Manarola climb through the terraces that made this village—vineyard paths where Romans walked, cliff edges with views that photography cannot capture, routes that connect all five villages."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Trekking e Sentieri",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Hiking Trails",
-        "it": "Sentieri di Manarola",
-        "de": "Wanderwege und Hiking-Trails"
-      },
-      "subtitle": {
-        "en": "Discover spectacular coastal paths, ancient vineyard trails, and the famous Via dell'Amore. Manarola is the perfect base for exploring Cinque Terre on foot.",
-        "it": "Percorsi panoramici tra cielo e mare, antichi sentieri di collegamento tra i villaggi, vigneti terrazzati e viste mozzafiato sul Mediterraneo. Un'esperienza di trekking unica al mondo.",
-        "de": "Entdecken Sie spektakuläre Küstenpfade, antike Weinbergwege und die berühmte Via dell'Amore. Als eine, die drei Sommer in der Region verbracht hat, verspreche ich Ihnen: Manarola ist der perfekte Ausgangspunkt für unvergessliche Wandererlebnisse in den Cinque Terre."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Trail Map",
-            "it": "Sentieri Principali"
-          },
-          "url": {
-            "en": "#trails",
-            "it": "#sentieri"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Mappe e Info"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#info"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Walk the<br/>Terraces",
+      "subtitle": "Every trail from Manarola tells the story of this coast: stone paths built for agriculture before tourism existed, routes connecting villages that needed each other for survival, views earned by climbing what others drove past.",
+      "badge": "Hiking Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Trail Philosophy",
+      "quote": "The paths here weren't built for hikers. They were built for workers—farmers carrying grapes down terraces, mules hauling supplies between villages, priests walking to distant churches. We're borrowing infrastructure that served other purposes for centuries.",
+      "content": [
+        "**Via dell'Amore is closed**. The famous 'Path of Love' connecting Manarola to Riomaggiore remains indefinitely closed for repairs after rockfall. Plan alternative routes. Don't build your trip around something that may not open.",
+        "**The real trails go up**. The coastal path is a highlight, but Manarola's best hiking climbs: through terraced vineyards to Volastra, up to the sanctuary at Montenero, along the alta via that runs the ridge above all five villages.",
+        "**Difficulty is real**. Mediterranean sun, steep grades, uneven stone—these trails demand respect. Start early. Carry water. Wear proper shoes. The views reward preparation, not optimism.",
+        "**The Cinque Terre Card is essential**. Coastal trails require paid access. The card includes unlimited train travel between villages, making one-way hikes practical: walk to the next village, train back for dinner."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Popular Routes",
-        "it": "Rete Sentieristica",
-        "de": "Wandern in Manarola"
-      },
-      "title": {
-        "en": "Best Hiking Trails",
-        "it": "I Sentieri in Numeri",
-        "de": "Das Wanderparadies in Zahlen"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "trail",
+      "items": [
         {
-          "icon": "heart",
-          "title": {
-            "en": "Via dell'Amore"
-          },
-          "description": {
-            "en": "Romantic coastal path to Riomaggiore. Easy 20-minute walk with stunning sea views."
-          }
+          "id": 1,
+          "name": "Manarola to Corniglia",
+          "category": "Coastal Classic",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The quintessential Cinque Terre hike—cliff-edge paths with views of both villages and endless sea.",
+          "description": "This section of the Sentiero Azzurro (Blue Trail) covers roughly 3km with significant elevation changes. The path alternates between exposed clifftop traverses and shaded vineyard sections. Views open to both villages: Manarola shrinking behind, Corniglia's hilltop profile emerging ahead. Budget 90 minutes and bring water.",
+          "giuliaComment": "Start early—by 7:30am if possible. You'll have the trail largely to yourself, the light will be gentle, and you'll reach Corniglia before the heat. The midday sun on these exposed sections is brutal. Respect it.",
+          "signature": "The hike that defines Cinque Terre",
+          "practicalInfo": "Distance: 3km. Time: 1.5 hours. Difficulty: Moderate. Requires Cinque Terre Card."
         },
         {
-          "icon": "mountain",
-          "title": {
-            "en": "Trail to Corniglia"
-          },
-          "description": {
-            "en": "Classic 2-hour coastal hike through vineyards and olive groves. Moderate difficulty."
-          }
+          "id": 2,
+          "name": "Manarola to Volastra",
+          "category": "Vineyard Climb",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Through the working terraces to a hamlet that tourism forgot—the agricultural heart of Cinque Terre.",
+          "description": "This trail climbs steeply through the terraced vineyards that supply Manarola's wine. You'll pass workers during harvest season, see the dry-stone walls up close, understand the labor these slopes demand. Volastra at the top rewards with quiet streets, a simple church, and views down to the coast. Return the same way or continue to Corniglia.",
+          "giuliaComment": "Volastra is where I send people who think Cinque Terre is just tourism. No souvenir shops. One bar. Farmers who've worked these terraces for generations. It's thirty minutes of climbing into a different century.",
+          "signature": "Where wine comes from",
+          "practicalInfo": "Distance: 2km one way. Time: 45 min up, 30 down. Difficulty: Moderate-Strenuous. No card needed."
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Vineyard Loop"
-          },
-          "description": {
-            "en": "Walk through terraced vineyards above the village. Learn about wine production."
-          }
-        },
-        {
-          "icon": "church",
-          "title": {
-            "en": "Sanctuary of Volastra"
-          },
-          "description": {
-            "en": "Uphill trail to historic hilltop sanctuary. Panoramic views of three villages."
-          }
-        },
-        {
-          "icon": "compass",
-          "title": {
-            "en": "Blue Trail SVA"
-          },
-          "description": {
-            "en": "Famous coastal path connecting all five villages. Spectacular but challenging."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Punta Bonfiglio Path"
-          },
-          "description": {
-            "en": "Short walk to the best sunset viewpoint. Cemetery platform overlooks the harbor."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Hike",
-        "it": "I Percorsi Più Belli",
-        "de": "Meine persönlichen Wanderempfehlungen für Manarola"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Getting Here"
-          },
-          "url": {
-            "en": "/en/manarola/getting-here"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Sanctuary of Montenero",
+          "category": "Pilgrimage Path",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The ancient pilgrimage route to a sanctuary at 365 meters—the highest viewpoint above the village.",
+          "description": "For centuries, villagers climbed to the Sanctuary of Montenero for festivals, prayers, and the views. The path remains: steep, devotional, rewarding. At the top, a simple church and panoramas that stretch from Portofino to Tuscany. The descent can be made via a different route through chestnut forests.",
+          "giuliaComment": "My grandmother walked this path on her wedding day, as village brides did. The climb was part of the ceremony—earning the blessing. The tradition is mostly gone now, but the path remembers. The views from the sanctuary are the best above Manarola.",
+          "signature": "Where pilgrimage meets panorama",
+          "practicalInfo": "Distance: 5km round trip. Time: 2.5-3 hours. Difficulty: Strenuous. Bring lunch."
         }
       ],
-      "subtitle": {
-        "de": "Nach drei Sommern in Vernazza und unzähligen Wanderungen kenne ich jeden Pfad"
-      },
-      "content": {
-        "de": "Während meiner Zeit in den Cinque Terre habe ich jeden einzelnen Wanderweg erkundet, und ich muss Ihnen sagen: **Manarola bietet die vielseitigsten Hiking-Möglichkeiten aller fünf Dörfer**.\n\nBeginnen Sie Ihren Tag früh mit dem **Manarola Sonnenaufgang Goldene-Stunde Pfad** - die warmen Farben, die die bunten Häuser in ein magisches Licht tauchen, sind einfach atemberaubend. Der **Aussichtspunkt Punta Bonfiglio** ist dabei ein absolutes Muss für Fotografen.\n\nFür erfahrene Wanderer empfehle ich den **Manarola zum Volastra Heiligtum Weg 506** - dieser anspruchsvolle Aufstieg führt Sie durch jahrhundertealte Weinbergterrassen und belohnt Sie mit spektakulären Panoramablicken. Die **Terrazza del Borgo** eignet sich perfekt für eine wohlverdiente Pause.\n\n**Praktischer Tipp:** Kaufen Sie Ihre Cinque Terre Card am **Bahnhof Manarola** (16,00 EUR für einen Tag) - sie beinhaltet den Zugang zu allen markierten Wanderwegen und die Zugnutzung zwischen den Dörfern."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Via dell'Amore Question",
+          "quote": "Yes, it's closed. It's been closed for years. It may open partially, close again, reopen. Don't plan around it. The other trails are better anyway—the Via dell'Amore was always the easy option, scenic but brief. The trails that climb offer more and ask more. They're worth it."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Matters",
+      "quote": "The trails don't care about your schedule. Sun, stone, and steep grades make their own demands. Prepare accordingly or suffer the consequences.",
+      "content": [
+        "**Start early**. By 9am in summer, the sun is already strong on south-facing slopes. The best hiking happens between 6:30am and 10am, then again after 5pm. Midday is for swimming or siesta, not trails.",
+        "**Water is not optional**. Carry at least a liter per person per hour of hiking. There are no reliable water sources on most trails. Dehydration happens faster than you expect at these grades.",
+        "**Footwear matters**. Sandals are for the harbor. The trails are stone, often uneven, sometimes loose. Proper hiking shoes with grip prevent injuries that could end your trip.",
+        "**Know your limits**. These are not flat coastal paths. Elevation changes are real, surfaces are challenging, heat adds difficulty. There's no shame in turning back or choosing easier routes."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
+        {
+          "id": 4,
+          "name": "The One-Way Strategy",
+          "category": "Planning",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Walk one direction, train back—the approach that makes Cinque Terre hiking practical.",
+          "description": "With the Cinque Terre Card, you can hike to the next village and train back. This eliminates retracing steps, saves energy, and lets you end at a harbor rather than climbing back to where you started. Walk to Corniglia in the morning, lunch there, train back for afternoon swimming.",
+          "giuliaComment": "I never hike round-trip here. Walk one way, enjoy it fully, and let the train handle the return. Life is too short to retrace paths when there's a train waiting. Buy the card, use the system.",
+          "signature": "When logistics enhance experience"
+        },
+        {
+          "id": 5,
+          "name": "The Season Factor",
+          "category": "Timing",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Each season offers different hiking—from spring wildflowers to autumn harvest paths.",
+          "description": "Spring (April-May) brings wildflowers and mild temperatures but occasional rain. Summer demands early starts but offers longest days. Autumn (September-October) is ideal: harvest activity on terraces, comfortable temperatures, clear light. Winter provides solitude and views but shorter days and possible trail closures.",
+          "giuliaComment": "October is my favorite hiking month. The light is lower, warmer. The terraces are busy with harvest. The sea is still warm enough for post-hike swimming. The tourists thin out. If you can choose your timing, choose October.",
+          "signature": "When the calendar shapes the path"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Swimming Reward",
+          "quote": "End every hike at the harbor for a swim. The Mediterranean cools what the trail heated. The salt water soothes what the stones scraped. Plan your route to finish at water. Carry a towel. The swimming isn't optional—it's how Cinque Terre hiking ends."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Trails Remember",
+      "content": [
+        "These paths were walked for a thousand years before you arrived. Farmers, pilgrims, fishermen—they wore these stones smooth. What feels like tourism is actually participation in something older.",
+        "Choose a trail that matches your fitness and ambition. Start early. Carry water. Respect the grade. The views are earned, not given—and earned views mean more than those glimpsed from a train window.",
+        "The terraces wait. They've been waiting since Romans first carved them. They'll remember you passed through, briefly, and then continue waiting for the next."
+      ],
+      "buttons": [
+        { "text": "Trail Conditions", "url": "/en/hiking", "variant": "primary" },
+        { "text": "Plan Your Stay", "url": "/en/manarola/hotels", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "hiking"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.838Z"
+  "updated_at": "2026-01-05T18:30:00.000Z"
 }

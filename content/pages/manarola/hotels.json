@@ -7,183 +7,158 @@
     "it": "/it/manarola/hotels"
   },
   "title": {
-    "en": "Best Hotels in Manarola",
-    "de": "Hotels",
-    "fr": "Hôtels",
-    "it": "Hotel"
+    "en": "Where to Stay in Manarola | Cinque Terre Dispatch"
   },
   "page_type": "hotels",
   "seo": {
     "title": {
-      "en": "Manarola Hotels 2025 | Stay in Cinque Terre's Most Iconic Village"
+      "en": "Where to Stay in Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Find the perfect hotel in Manarola. Sea views, romantic settings, and authentic Italian hospitality in colorful cliffside accommodations."
-    },
-    "keywords": {
-      "en": [
-        "Manarola hotels",
-        "where to stay Manarola",
-        "Cinque Terre accommodation",
-        "boutique hotels"
-      ]
+      "en": "Manarola's accommodations are as compact as the village itself. No chain hotels. No massive properties. Just family-run places where the owners live downstairs and breakfast comes from their gardens."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Dove Dormire",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Hotels in Manarola",
-        "it": "Hotel e Alloggi a Manarola",
-        "de": "Hotels in Manarola"
-      },
-      "subtitle": {
-        "en": "Stay in the heart of the most photographed village. Charming hotels with sea views, terraces, and authentic Italian character.",
-        "it": "Dalle camere con vista mare agli appartamenti nel centro storico, trova il tuo rifugio perfetto tra i vicoli colorati e le terrazze panoramiche.",
-        "de": "Übernachten Sie im Herzen des meistfotografierten Dorfes der Cinque Terre. Ausgewählte Unterkünfte mit Meerblick, Panoramaterrassen und authentischem ligurischem Charakter erwarten Sie."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Browse Hotels",
-            "it": "Vedi Alloggi"
-          },
-          "url": {
-            "en": "#hotels",
-            "it": "#hotel"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Consigli Utili"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#consigli"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Sleep Above<br/>the Sea",
+      "subtitle": "In a village of 300 residents, every room matters. The properties here are small, family-run, and booked months ahead in summer. What you lose in amenities, you gain in authenticity—owners who know every sunrise viewpoint, every quiet restaurant, every secret swimming spot.",
+      "badge": "Accommodations",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Understanding Manarola Stays",
+      "quote": "There are no large hotels in Manarola. The village won't allow them—geography forbids it, preservation mandates prohibit it. What you'll find instead: converted fishermen's houses, family B&Bs, and apartments where the owner's grandmother was born.",
+      "content": [
+        "**Book months ahead for summer**. June through September fills by February. The best properties—those with views, terraces, or particular character—go first. Waiting until spring for summer dates means settling for what remains.",
+        "**Location is vertical**. 'Near the harbor' means easy access but tourist noise. 'Upper village' means views and quiet but steep climbs with luggage. 'Near the station' splits the difference. Choose based on priorities, not just price.",
+        "**Family-run means personal**. Your host will likely greet you, serve your breakfast, and know where you're eating dinner. This isn't intrusion; it's how small villages work. The relationship is part of the experience.",
+        "**Amenities are modest**. Air conditioning isn't universal. Elevators don't exist. WiFi can be unreliable. You're sleeping in buildings older than your country. Adjust expectations accordingly."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Accommodation",
-        "it": "Info Pratiche",
-        "de": "Unterkünfte in Manarola"
-      },
-      "title": {
-        "en": "Where to Stay",
-        "it": "Prezzi e Disponibilità",
-        "de": "Übernachtung im Postkartendorf"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "accommodation",
+      "items": [
         {
-          "icon": "star",
-          "title": {
-            "en": "La Torretta Lodge"
-          },
-          "description": {
-            "en": "Boutique hotel in medieval tower. Rooftop terrace with panoramic views."
-          }
+          "id": 1,
+          "name": "La Torretta",
+          "category": "Boutique Luxury",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The closest Manarola has to a boutique hotel—hot tub, sea views, and the village's most refined accommodations.",
+          "description": "La Torretta occupies a restored medieval tower with views across rooftops to the sea. The hot tub on the terrace has become Instagram-famous—guests come specifically for sunset soaks with Mediterranean panoramas. Rooms are individually designed, breakfast is generous, and the location balances accessibility with quiet.",
+          "giuliaComment": "This is where I send guests who want comfort without leaving Cinque Terre. The hot tub really is that good—especially at sunset when the light turns everything gold. Book the tower room if you can; the stairs are worth the view.",
+          "signature": "Where comfort meets character",
+          "priceRange": "€180-350/night",
+          "practicalInfo": "Book 3-4 months ahead for summer. Rooftop hot tub open to all guests. Breakfast included."
         },
         {
-          "icon": "home",
-          "title": {
-            "en": "Hotel Marina Piccola"
-          },
-          "description": {
-            "en": "Family-run hotel by the harbor. Traditional rooms with sea views."
-          }
+          "id": 2,
+          "name": "Ca' D'Andrean",
+          "category": "Village Hotel",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Family-run for generations—the reliable choice in the village center.",
+          "description": "Ca' D'Andrean represents Manarola hospitality at its most traditional. The family has operated this hotel for decades, knowing the village better than any guidebook. Rooms are comfortable without pretension. Location is central without being noisy. The experience is Italian village accommodation as it's meant to be.",
+          "giuliaComment": "The Andrean family knows everyone. Ask them for restaurant advice—they'll tell you where to go and where to avoid. Their recommendations have never steered me wrong. The breakfast is simple but includes local products they source themselves.",
+          "signature": "Where tradition meets hospitality",
+          "priceRange": "€120-205/night",
+          "practicalInfo": "Central location. Family-run since 1960s. Reserve directly for best rates."
         },
         {
-          "icon": "bed",
-          "title": {
-            "en": "Ca' d'Andrean"
-          },
-          "description": {
-            "en": "Charming B&B in restored historic building. Breakfast terrace overlooking the village."
-          }
-        },
-        {
-          "icon": "building",
-          "title": {
-            "en": "Residence San Pietro"
-          },
-          "description": {
-            "en": "Modern apartments with kitchens. Perfect for families and longer stays."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "5 Terre Backpackers"
-          },
-          "description": {
-            "en": "Budget-friendly hostel with sunset terrace. Social atmosphere for solo travelers."
-          }
-        },
-        {
-          "icon": "key",
-          "title": {
-            "en": "Affittacamere Manarola"
-          },
-          "description": {
-            "en": "Cozy guest rooms in local homes. Authentic village experience."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More Accommodation Options",
-        "it": "Dove Dormire",
-        "de": "Exklusive Unterkünfte mit Panoramablick"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Apartments"
-          },
-          "url": {
-            "en": "/en/manarola/apartments"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Hotel Marina Piccola",
+          "category": "Harbor Adjacent",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A converted fisherman's cottage with the harbor at your doorstep.",
+          "description": "Marina Piccola occupies what was once a working fisherman's house, steps from the boat ramp. The location is unbeatable for harbor access—swimming, restaurants, and the famous sunset viewpoint are immediate. Rooms retain historic character with modern comfort. Sea views from upper floors.",
+          "giuliaComment": "The location is perfect if harbor life is your priority. You'll hear boats in the morning and restaurants at night—this is immersion, not retreat. The fisherman who built this house would recognize the bones, even if the rooms have WiFi now.",
+          "signature": "Where history meets the harbor",
+          "priceRange": "€152-284/night",
+          "practicalInfo": "Best for harbor access. Upper floor for views. Can be noisy in peak season."
         }
       ],
-      "subtitle": {
-        "de": "Manarola bietet eine sorgfältig kuratierte Auswahl an Boutique-Hotels und authentischen Gästehäusern"
-      },
-      "content": {
-        "de": "Die Auswahl der richtigen Unterkunft in Manarola erfordert eine durchdachte Planung, da dieses Juwel der Cinque Terre nur begrenzte, aber außergewöhnliche Übernachtungsmöglichkeiten bietet. Ich empfehle Ihnen, mindestens drei bis vier Monate im Voraus zu reservieren, insbesondere für die Hauptsaison von Mai bis September.\n\n**Premium-Kategorie (€250-380 pro Nacht):** **La Torretta** verkörpert den Höhepunkt des Boutique-Charmes mit ihrem stylischen Design, dem luxuriösen Whirlpool und den atemberaubenden Meerblicken. Diese Unterkunft liegt strategisch günstig, nur wenige Gehminuten vom ikonischen **Hafen von Manarola** entfernt.\n\n**Gehobene Mittelklasse (€150-250 pro Nacht):** **Hotel Marina Piccola** besticht durch seine privilegierte Lage in einem historischen Fischerhaus mit direktem Panorama-Meerblick. **Amanarola** hingegen hat sich durch außergewöhnliche Gastfreundschaft und spektakuläre Aussichten einen hervorragenden Ruf erarbeitet.\n\n**Authentische Erfahrung (€120-180 pro Nacht):** **Da Baranin B&B and Apartment** bietet Ruhe im höchsten Teil des Dorfes mit beeindruckenden Terrassenblicken, während **Ca' D'Andrean** im historischen Zentrum authentischen italienischen Charme vermittelt."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Luggage Reality",
+          "quote": "There are no elevators in Manarola. No flat streets. No bellhops. Your luggage goes where you carry it. Pack light or prepare for stairs. Some properties offer pickup from the station—ask when booking. This isn't a complaint; it's the reality of a vertical village."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The B&B Alternative",
+      "quote": "Manarola's B&Bs often outperform its hotels. Smaller, more personal, and frequently better located, they offer what chain hospitality cannot: hosts who live the village daily.",
+      "content": [
+        "**Da Baranin** sits at the village's highest point, requiring a serious climb but rewarding guests with panoramic views and absolute quiet. The family produces their own honey, served at breakfast. Worth the stairs.",
+        "**Amanarola** represents the new generation of B&B: design-conscious rooms, careful attention to comfort, hosts who understand what modern travelers want. Consistently high ratings reflect genuine quality.",
+        "**Affittacamere Da Paulin** is hospitality as relationship. The family treats guests like visiting relatives—sometimes for better, sometimes for more than you expected. The personal touch either charms or overwhelms.",
+        "**Ca' del Monica** focuses on breakfast. The morning spread has become legendary—local products, family recipes, enough food for a morning hike. Stay here if mornings matter."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "consideration",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Apartment Option",
+          "category": "Self-Catering",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "For longer stays or those wanting kitchen access, Manarola's apartments offer independence.",
+          "description": "Rental apartments throughout the village provide what hotels and B&Bs don't: kitchen facilities, space to spread out, and freedom from breakfast schedules. Quality varies widely—some are renovated gems, others are tired tourist traps. Book through reputable platforms and read recent reviews carefully.",
+          "giuliaComment": "Apartments make sense for a week or more. You can shop at the market in La Spezia, cook with local ingredients, and live more like a resident than a tourist. But vet carefully—the bad ones are bad, and in a village this small, you'll feel it.",
+          "signature": "Where independence meets immersion"
+        },
+        {
+          "id": 5,
+          "name": "The Timing Question",
+          "category": "When to Book",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When you book determines what you can book. The calendar is not forgiving.",
+          "description": "Summer (June-September) books up 4-6 months ahead for the best properties. Shoulder seasons (April-May, October) offer 2-3 month windows. Winter brings last-minute availability but some properties close. The pattern is simple: the better the property, the earlier it fills.",
+          "giuliaComment": "I've seen visitors arrive in July hoping to find a room. They end up in La Spezia, commuting to a village they wanted to wake up in. Don't be that person. Decide when you're going, then book immediately. Manarola rewards the prepared.",
+          "signature": "Where timing is everything"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Direct Booking Advantage",
+          "quote": "Many Manarola properties offer better rates when you book directly rather than through aggregators. Call or email the property. You'll often get a lower price, and you establish the relationship that makes small-town hospitality work. The personal connection isn't just charm—it's practical."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "A Room in the Village",
+      "content": [
+        "Staying in Manarola means accepting that accommodation is part of the experience, not just logistics. Your host's recommendations matter. Your room's location shapes your days. The stairs you climb become part of the memory.",
+        "Don't choose by amenity list—choose by character. The best nights here happen in modest rooms with views that no five-star resort can match, with breakfasts served by families who've poured coffee in this kitchen for generations.",
+        "Book early. Pack light. Accept the stairs. The village rewards those who come prepared to meet it on its terms."
+      ],
+      "buttons": [
+        { "text": "Dining in Manarola", "url": "/en/manarola/restaurants", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/manarola/getting-here", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "hotels"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.839Z"
+  "updated_at": "2026-01-05T18:30:00.000Z"
 }

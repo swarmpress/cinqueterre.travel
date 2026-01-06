@@ -1,0 +1,333 @@
+{
+  "id": "village-page-01",
+  "slug": {
+    "en": "/en/village",
+    "de": "/de/dorf",
+    "fr": "/fr/village",
+    "it": "/it/villaggio"
+  },
+  "title": {
+    "en": "Riomaggiore | Cinque Terre Dispatch"
+  },
+  "page_type": "village",
+  "seo": {
+    "title": { "en": "Riomaggiore | Cinque Terre Dispatch" },
+    "description": { "en": "The southernmost village of the Cinque Terre, where medieval towers guard colorful houses and every cobblestone path leads to extraordinary discoveries." }
+  },
+  "template": "cinque-terre",
+  "body": [
+    {
+      "type": "hero-section",
+      "title": "Riomaggiore",
+      "subtitle": "The Southernmost Village of Cinque Terre",
+      "backgroundImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000"
+    },
+    {
+      "type": "village-intro",
+      "village": "Riomaggiore",
+      "tagline": "Where the land falls into the sea",
+      "introduction": "Riomaggiore is the first village you encounter when arriving from La Spezia, and in many ways, it sets the tone for everything the Cinque Terre represents: a vertical world of stone and color, carved into cliffs that seem too steep for habitation.",
+      "highlights": [
+        { "label": "Founded", "value": "1239 AD" },
+        { "label": "Residents", "value": "~1,500" },
+        { "label": "Elevation", "value": "0-340m" },
+        { "label": "Character", "value": "Authentic & Vertical" }
+      ],
+      "quote": {
+        "text": "Riomaggiore does not ask you to understand it immediately. It reveals itself slowly, in the way the light changes on the houses, in the rhythm of the waves, in the smell of focaccia at dawn.",
+        "author": "Giulia Rossi",
+        "role": "Local Expert"
+      }
+    },
+    {
+      "type": "featured-carousel",
+      "title": "Essential Riomaggiore",
+      "subtitle": "The experiences that define this village",
+      "items": [
+        {
+          "id": 1,
+          "title": "The Harbor at Dawn",
+          "description": "Watch the fishermen prepare their boats before the first train arrives.",
+          "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800",
+          "category": "Experience",
+          "link": "/sights"
+        },
+        {
+          "id": 2,
+          "title": "Climb to the Castle",
+          "description": "The 13th-century fortress offers the best views of the coastline.",
+          "image": "https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?w=800",
+          "category": "Sights",
+          "link": "/sights"
+        },
+        {
+          "id": 3,
+          "title": "Dine by the Water",
+          "description": "Fresh seafood with the sound of waves beneath your table.",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800",
+          "category": "Culinary",
+          "link": "/culinary"
+        },
+        {
+          "id": 4,
+          "title": "The Sanctuary Path",
+          "description": "A pilgrimage through vineyards to Montenero.",
+          "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800",
+          "category": "Hiking",
+          "link": "/things-to-do"
+        }
+      ]
+    },
+    {
+      "type": "trending-now",
+      "title": "Happening Now",
+      "subtitle": "What the village is talking about this season",
+      "items": [
+        {
+          "id": 1,
+          "title": "Winter Light Festival",
+          "description": "The harbor illuminated with local artisan installations",
+          "tag": "Event",
+          "link": "/events"
+        },
+        {
+          "id": 2,
+          "title": "New Wine Release",
+          "description": "2023 Sciacchetrà now available at local cantinas",
+          "tag": "Seasonal",
+          "link": "/culinary"
+        },
+        {
+          "id": 3,
+          "title": "Trail Reopening",
+          "description": "The path to Manarola via Beccara is fully restored",
+          "tag": "Hiking",
+          "link": "/things-to-do"
+        }
+      ]
+    },
+    {
+      "type": "village-selector",
+      "title": "Explore All Five Villages",
+      "subtitle": "Each village has its own character. Discover which one calls to you.",
+      "villages": [
+        { "name": "Riomaggiore", "tagline": "The Gateway", "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=400", "link": "/riomaggiore", "active": true },
+        { "name": "Manarola", "tagline": "The Photogenic", "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=400", "link": "/manarola" },
+        { "name": "Corniglia", "tagline": "The Hidden", "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=400", "link": "/corniglia" },
+        { "name": "Vernazza", "tagline": "The Jewel", "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=400", "link": "/vernazza" },
+        { "name": "Monterosso", "tagline": "The Beach", "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=400", "link": "/monterosso" }
+      ]
+    },
+    {
+      "type": "places-to-stay",
+      "title": "Where to Wake Up",
+      "subtitle": "Curated accommodations for every kind of traveler",
+      "categories": [
+        { "name": "Harbor Views", "count": 5 },
+        { "name": "Upper Village", "count": 8 },
+        { "name": "Vineyard Retreats", "count": 3 }
+      ],
+      "featured": [
+        {
+          "id": 1,
+          "name": "Scorci Di Mare",
+          "category": "Historic Guesthouse",
+          "image": "https://images.unsplash.com/photo-1515444744559-7be63e1600de?w=600",
+          "priceRange": "$$$",
+          "link": "/accommodations"
+        },
+        {
+          "id": 2,
+          "name": "The Sunset Line",
+          "category": "Luxury Guesthouse",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?w=600",
+          "priceRange": "$$$$",
+          "link": "/accommodations"
+        },
+        {
+          "id": 3,
+          "name": "Locanda Ca Da Iride",
+          "category": "Charming Guesthouse",
+          "image": "https://images.unsplash.com/photo-1551882547-ff43c63e1c24?w=600",
+          "priceRange": "$$",
+          "link": "/accommodations"
+        }
+      ],
+      "ctaLink": "/accommodations",
+      "ctaText": "View All Stays"
+    },
+    {
+      "type": "eat-drink",
+      "title": "The Culinary Story",
+      "subtitle": "From the sea to the terraces, the flavors of Riomaggiore",
+      "categories": [
+        { "name": "Seafood", "icon": "fish" },
+        { "name": "Wine", "icon": "wine" },
+        { "name": "Street Food", "icon": "utensils" }
+      ],
+      "featured": [
+        {
+          "id": 1,
+          "name": "Dau Cila",
+          "type": "Seafood & Wine",
+          "description": "Fresh catch by the harbor",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600",
+          "link": "/culinary"
+        },
+        {
+          "id": 2,
+          "name": "Rio Bistrot",
+          "type": "Contemporary",
+          "description": "Modern Ligurian cuisine",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600",
+          "link": "/culinary"
+        },
+        {
+          "id": 3,
+          "name": "Vertical Wine Bar",
+          "type": "Wine Bar",
+          "description": "Taste the terraces",
+          "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600",
+          "link": "/culinary"
+        }
+      ],
+      "ctaLink": "/culinary",
+      "ctaText": "Explore Dining"
+    },
+    {
+      "type": "highlights",
+      "title": "Village Highlights",
+      "subtitle": "The sights and experiences that define Riomaggiore",
+      "items": [
+        {
+          "id": 1,
+          "title": "The Harbor & Marina",
+          "description": "Where the village meets the sea",
+          "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600",
+          "category": "Maritime",
+          "link": "/sights"
+        },
+        {
+          "id": 2,
+          "title": "Via Colombo",
+          "description": "The spine of village life",
+          "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=600",
+          "category": "Village Life",
+          "link": "/sights"
+        },
+        {
+          "id": 3,
+          "title": "San Giovanni Battista",
+          "description": "Gothic stone since 1340",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600",
+          "category": "Sacred",
+          "link": "/sights"
+        },
+        {
+          "id": 4,
+          "title": "The Castle",
+          "description": "13th-century watchtower",
+          "image": "https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?w=600",
+          "category": "Historic",
+          "link": "/sights"
+        }
+      ]
+    },
+    {
+      "type": "curated-escapes",
+      "title": "Curated Journeys",
+      "subtitle": "Thoughtfully planned itineraries for every kind of traveler",
+      "escapes": [
+        {
+          "id": 1,
+          "name": "The Salt & Stone Path",
+          "duration": "4 Days",
+          "description": "A slow journey through the rhythm of the coast",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600",
+          "link": "/itinerary"
+        },
+        {
+          "id": 2,
+          "name": "Culinary Discovery",
+          "duration": "2 Days",
+          "description": "From the terraces to the table",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600",
+          "link": "/culinary"
+        }
+      ]
+    },
+    {
+      "type": "latest-stories",
+      "title": "From The Dispatch",
+      "subtitle": "Stories and guides from our editors",
+      "stories": [
+        {
+          "id": 1,
+          "title": "The Ultimate Guide to Cinque Terre's Best Beaches",
+          "excerpt": "From sandy shores to hidden coves",
+          "author": "Giulia Rossi",
+          "date": "Oct 15, 2023",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?w=600",
+          "link": "/blog/the-ultimate-guide-to-cinque-terres-best-beaches"
+        },
+        {
+          "id": 2,
+          "title": "5 Hidden Gelaterias You Need to Try",
+          "excerpt": "Skip the tourist traps",
+          "author": "Marco Bianchi",
+          "date": "Oct 14, 2023",
+          "image": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?w=600",
+          "link": "/blog/5-hidden-gelaterias-you-need-to-try"
+        }
+      ],
+      "ctaLink": "/blog",
+      "ctaText": "Read All Stories"
+    },
+    {
+      "type": "practical-advice",
+      "title": "Practical Essentials",
+      "subtitle": "Everything you need to plan your visit",
+      "sections": [
+        {
+          "title": "Getting Here",
+          "content": "The regional train from La Spezia takes 8 minutes. A 300m tunnel connects the station to the village center.",
+          "link": "/transportation"
+        },
+        {
+          "title": "When to Visit",
+          "content": "April-June and September-October offer the best weather with fewer crowds. Winter has its own quiet magic.",
+          "link": "/weather"
+        },
+        {
+          "title": "What to Pack",
+          "content": "Comfortable walking shoes are essential. The village is vertical—expect stairs.",
+          "link": "/things-to-do"
+        }
+      ]
+    },
+    {
+      "type": "about",
+      "title": "About Cinque Terre Dispatch",
+      "description": "We are a team of local experts, writers, and guides who believe that the best travel is slow travel. Our mission is to help you discover the Cinque Terre not as a tourist, but as a temporary local.",
+      "team": [
+        { "name": "Giulia Rossi", "role": "Lead Editor", "image": "/giulia_rossi.png" },
+        { "name": "Marco Bianchi", "role": "Culinary Editor", "image": "/marco_bianchi.png" }
+      ],
+      "ctaLink": "/team",
+      "ctaText": "Meet the Team"
+    },
+    {
+      "type": "newsletter",
+      "variant": "simple-centered",
+      "eyebrow": "Stay Connected",
+      "title": "Get the Dispatch",
+      "subtitle": "Curated stories, local secrets, and seasonal guides delivered to your inbox.",
+      "buttonText": "Subscribe",
+      "placeholder": "your@email.com"
+    }
+  ],
+  "metadata": { "page_type": "village" },
+  "status": "generated",
+  "created_at": "2025-01-05T00:00:00.000Z",
+  "updated_at": "2025-01-05T00:00:00.000Z"
+}

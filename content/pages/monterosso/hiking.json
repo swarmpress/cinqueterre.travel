@@ -7,185 +7,148 @@
     "it": "/it/monterosso/hiking"
   },
   "title": {
-    "en": "Hiking Trails from Monterosso",
-    "de": "Wanderwege ab Monterosso - Küstenwege & Trails",
-    "fr": "Sentiers de Randonnée à Monterosso",
-    "it": "Sentieri e Trekking da Monterosso"
+    "en": "Hiking Trails from Monterosso al Mare - Complete Guide"
   },
   "page_type": "hiking",
   "seo": {
     "title": {
-      "en": "Monterosso Hiking 2025 | Best Trails & Coastal Walks",
-      "de": "Wanderwege ab Monterosso - Küstenwege & Trails",
-      "fr": "Randonnées à Monterosso - Sentiers Côtiers et de Montagne",
-      "it": "Sentieri Monterosso - Trekking alle Cinque Terre"
+      "en": "Monterosso Hiking Trails Guide | Cinqueterre.travel"
     },
     "description": {
-      "en": "Discover hiking trails from Monterosso. The Blue Trail to Vernazza, Punta Mesco viewpoint, and sanctuary walks.",
-      "de": "Die besten Wanderwege ab Monterosso. Küstenpfade nach Vernazza, Weinberg-Trails und Bergwanderungen mit spektakulären Ausblicken.",
-      "fr": "Guide des meilleures randonnées au départ de Monterosso. Sentier Bleu vers Vernazza, sanctuaires panoramiques et chemins dans les vignobles.",
-      "it": "Scopri i migliori sentieri da Monterosso: Sentiero Azzurro per Vernazza, percorsi collinari tra vigneti e panorami mozzafiato sul Mar Ligure."
-    },
-    "keywords": {
-      "en": [
-        "Monterosso hiking",
-        "Blue Trail",
-        "Cinque Terre walks",
-        "coastal trail"
-      ],
-      "de": "monterosso wandern, monterosso wanderwege, cinque terre trails, monterosso hiking",
-      "fr": "randonnée monterosso, sentier bleu, sentiero azzurro, hiking cinque terre",
-      "it": "sentieri monterosso, trekking cinque terre, sentiero azzurro, hiking trails, cinque terre card"
+      "en": "Discover the best hiking trails from Monterosso al Mare. From coastal paths to mountain routes, find your perfect Cinque Terre adventure with expert tips."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Monterosso al Mare"
-      },
-      "title": {
-        "en": "Hiking from Monterosso",
-        "de": "Wanderwege ab Monterosso"
-      },
-      "subtitle": {
-        "en": "Starting point for the legendary Blue Trail. World-class coastal walks through terraced vineyards.",
-        "de": "Entdecken Sie spektakuläre Küstenwege und ruhige Weinberg-Trails"
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "eyebrow": "Monterosso al Mare",
+      "title": "Where Coastal Dreams Meet Mountain Adventures",
+      "subtitle": "Start your Cinque Terre hiking journey from the largest village, where ancient trails wind through terraced vineyards to dramatic clifftop vistas. Every path tells a thousand-year story.",
       "buttons": [
         {
-          "text": {
-            "en": "View All Trails",
-            "fr": "Voir toutes les activités"
-          },
-          "url": {
-            "en": "#list"
-          },
+          "text": "View All Trails",
+          "url": "#trails",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Monterosso"
-          },
-          "url": {
-            "en": "/en/monterosso"
-          },
+          "text": "Trail Conditions",
+          "url": "#conditions",
           "variant": "secondary"
         }
       ]
     },
     {
+      "type": "stats-section",
+      "variant": "four-column",
+      "stats": [
+        {
+          "number": "8",
+          "label": "Trail Options",
+          "description": "From easy coastal walks to challenging mountain routes"
+        },
+        {
+          "number": "450m",
+          "label": "Max Elevation",
+          "description": "Highest viewpoint at Colle del Telegrafo"
+        },
+        {
+          "number": "2.5hrs",
+          "label": "To Vernazza",
+          "description": "Classic coastal trail timing"
+        },
+        {
+          "number": "Year-round",
+          "label": "Hiking Season",
+          "description": "Best conditions March through November"
+        }
+      ]
+    },
+    {
+      "type": "collection-embed",
+      "collection": "hikes",
+      "filter": {
+        "start_location": "monterosso"
+      }
+    },
+    {
+      "type": "content-section",
+      "variant": "text-with-image-right",
+      "image": "https://images.unsplash.com/photo-1555400943-00cd67af994d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHNlYXJjaHwxfHNlYXJjaHwxfHZpbmV5YXJkJTIwdGVycmFjZXMlMjBtb250ZXJvc3NvfGVufDB8MHx8fDE3NjU4ODk2NDN8MA&ixlib=rb-4.1.0&q=80&w=800",
+      "eyebrow": "Insider's Perspective",
+      "title": "Why Monterosso is the Perfect Hiking Base",
+      "content": "After thousands of kilometers on these ancient paths, I can tell you that Monterosso offers something magical: the perfect balance of accessibility and adventure. Its position as the northernmost village means you're always hiking toward increasingly dramatic landscapes.\n\nThe village's larger size provides better logistics – multiple gear shops, excellent restaurants for post-hike meals, and the broadest beach in Cinque Terre for that essential recovery swim. The morning light here is extraordinary, casting golden hues across the terraces that make every photo look professionally shot.\n\nWhat sets Monterosso apart is its trail variety. You can choose gentle vineyard walks perfect for wine tasting, challenging mountain routes that reward you with panoramic views, or the iconic coastal path where Mediterranean blue stretches endlessly before you."
+    },
+    {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Popular Routes"
-      },
-      "title": {
-        "en": "Best Hiking Trails"
-      },
+      "variant": "three-column-with-icons",
+      "title": "Essential Hiking Intelligence",
+      "subtitle": "Hard-earned wisdom from countless trail days",
       "features": [
         {
-          "icon": "path",
-          "title": {
-            "en": "Monterosso to Vernazza"
-          },
-          "description": {
-            "en": "Most scenic Blue Trail section. 3.5km, 2 hours. Challenging but rewarding.",
-            "de": "Der schönste Küstenabschnitt! 3,3 km in ca. 1,5-2 Stunden - spektakuläre Ausblicke, aber anspruchsvoll.",
-            "fr": "Le tronçon le plus spectaculaire des Cinque Terre, 3,5 km de sentier côtier avec vues époustouflantes. Difficulté moyenne, 2h de marche.",
-            "it": "2 ore, medio-difficile. Il sentiero più famoso, viste spettacolari. Richiede Cinque Terre Card (€7.50/giorno)."
-          }
+          "icon": "clock",
+          "title": "Perfect Timing Strategy",
+          "description": "Start coastal trails by 7:30 AM to catch golden light and avoid crowds. Mountain routes work best after 9 AM when morning mist clears."
         },
         {
-          "icon": "mountain",
-          "title": {
-            "en": "Punta Mesco"
-          },
-          "description": {
-            "en": "Headland viewpoint walk. Panoramic coastal views.",
-            "de": "8 km über Punta Mesco in 3-4 Stunden - durch Macchia-Vegetation mit Panoramablicken.",
-            "fr": "Montée vers le plus ancien sanctuaire des Cinque Terre à 466m d'altitude. Vue panoramique sur toute la côte. 2h aller.",
-            "it": "2.5 ore, facile-medio. Attraverso boschi e vigneti, meno affollato, panorami sul mare."
-          }
-        },
-        {
-          "icon": "church",
-          "title": {
-            "en": "Santuario di Soviore"
-          },
-          "description": {
-            "en": "Uphill hike to the oldest sanctuary in Liguria.",
-            "de": "3,5 km bergauf zum ältesten Heiligtum Liguriens - friedlich und lohnend.",
-            "fr": "Promenade facile à travers les terrasses de vignes en culture. Dégustation de vin possible dans les caves locales.",
-            "it": "1.5 ore in salita, medio. Raggiungi il santuario più alto delle Cinque Terre (466m), vista a 360°."
-          }
-        },
-        {
-          "icon": "wine",
-          "title": {
-            "en": "Vineyard Trails"
-          },
-          "description": {
-            "en": "Walk through terraced hillsides with wine tasting.",
-            "de": "Ruhigere Alternative durch Weinberge und Olivenhaine parallel zur Küste.",
-            "fr": "Randonnée vers le promontoire avec vue à 360° sur la Méditerranée. Ancienne tour de guet médiévale. 3h aller-retour.",
-            "it": "Percorso circolare che collega i santuari di tutti i villaggi. Impegnativo ma gratificante."
-          }
+          "icon": "droplet",
+          "title": "Water & Weather Wisdom",
+          "description": "Carry 2L minimum for mountain routes. Check weather at Hotel Porto Roca's terrace – if you can't see Corsica, postpone challenging hikes."
         },
         {
           "icon": "camera",
-          "title": {
-            "en": "Photo Trail"
-          },
-          "description": {
-            "en": "Best viewpoints for iconic Cinque Terre shots.",
-            "de": "April-Mai und September-Oktober ideal - im Sommer früh starten wegen der Hitze.",
-            "fr": "Itinéraire de montagne reliant tous les sanctuaires. Pour randonneurs expérimentés, vues spectaculaires.",
-            "it": "Percorso di crinale che attraversa tutta la dorsale delle Cinque Terre. Per escursionisti esperti."
-          }
+          "title": "Photography Gold Rush",
+          "description": "Best light hits the coastline 30 minutes before sunset. For sunrise shots, position yourself at Punta Mesco by 6:45 AM in summer."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "title": "Trail Intelligence Briefing",
+      "subtitle": "Answers to your most pressing hiking questions",
+      "faqs": [
+        {
+          "question": "Which trail should I choose for my first Monterosso hike?",
+          "answer": "The Monterosso to Vernazza coastal path is perfect for beginners – challenging enough to feel accomplished but manageable with basic fitness. Start early (7:30 AM) and allow 2.5 hours with photo stops. The trail rewards you with the most photographed views in Cinque Terre."
         },
         {
-          "icon": "sun",
-          "title": {
-            "en": "Sunrise Hike"
-          },
-          "description": {
-            "en": "Early morning walks for golden light photography.",
-            "de": "Gute Wanderschuhe, viel Wasser, Sonnenschutz und Cinque Terre Card für Küstenwege.",
-            "fr": "Belle randonnée côtière de 2h30 depuis la ville voisine de Levanto. Parfait pour arriver à Monterosso à pied.",
-            "it": "Facile, pianeggiante. Dalla spiaggia di Fegina al centro storico, ideale per famiglie e disabili."
-          }
+          "question": "Are the mountain trails really worth the extra effort?",
+          "answer": "Absolutely. The Sanctuario di Soviore route offers 360-degree views that the coastal trails simply can't match. On clear days, you'll see from the French Riviera to Elba Island. It's more demanding but provides the 'wow' moment that defines great travel memories."
+        },
+        {
+          "question": "What's the current trail pass situation?",
+          "answer": "The Cinque Terre Card is required for the main coastal paths (€7.50 daily). Mountain and sanctuary trails are free. Buy your card at Monterosso train station or online – weekend queues can eat into precious hiking time."
+        },
+        {
+          "question": "When are trails closed for maintenance?",
+          "answer": "Coastal paths close during heavy rain and winter storms (typically December-February). Mountain trails stay open year-round but require proper gear in winter. Check real-time conditions at the National Park office next to the train station."
+        },
+        {
+          "question": "What gear is absolutely essential?",
+          "answer": "Proper hiking shoes with ankle support are non-negotiable – the stone steps can be treacherous when wet. Bring 2L water, sun protection, and a light rain jacket. Trekking poles help tremendously on the steep descents."
+        },
+        {
+          "question": "Can I swim after hiking the coastal trails?",
+          "answer": "Swimming after the Monterosso-Vernazza trail is pure magic. Vernazza's tiny beach is perfect for a quick dip, or continue to Monterosso's main beach for proper facilities. The contrast of cool sea after hot trails is unforgettable."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore Monterosso"
-      },
+      "variant": "centered-with-buttons",
+      "eyebrow": "Ready for Adventure",
+      "title": "Your Monterosso Trail Adventure Awaits",
+      "subtitle": "Every trail here tells the story of a thousand years of human ingenuity carved into impossible terrain. Today, you become part of that story.",
       "buttons": [
         {
-          "text": {
-            "en": "All Hiking Trails",
-            "de": "Bootstouren",
-            "fr": "Météo actuelle"
-          },
-          "url": {
-            "en": "/en/hikes"
-          },
+          "text": "Plan Your Route",
+          "url": "/planning",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Monterosso",
-            "de": "Strände",
-            "fr": "Carte des sentiers"
-          },
-          "url": {
-            "en": "/en/monterosso"
-          },
+          "text": "Check Conditions",
+          "url": "/trail-status",
           "variant": "secondary"
         }
       ]
@@ -195,7 +158,7 @@
     "city": "monterosso",
     "page_type": "hiking"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.842Z"
+  "updated_at": "2025-12-16T13:02:24.174Z"
 }

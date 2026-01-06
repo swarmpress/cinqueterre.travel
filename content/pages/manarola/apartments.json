@@ -7,192 +7,152 @@
     "it": "/it/manarola/apartments"
   },
   "title": {
-    "en": "Vacation Apartments in Manarola",
-    "de": "Ferienwohnungen",
-    "fr": "Appartements",
-    "it": "Appartamenti"
+    "en": "Apartments in Manarola | Cinque Terre Dispatch"
   },
   "page_type": "apartments",
   "seo": {
     "title": {
-      "en": "Manarola Apartments 2025 | Vacation Rentals with Kitchen"
+      "en": "Apartments in Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Rent an apartment in Manarola. Self-catering vacation rentals with kitchens, terraces, and authentic village living."
-    },
-    "keywords": {
-      "en": [
-        "Manarola apartments",
-        "vacation rentals Manarola",
-        "self-catering",
-        "Airbnb Manarola"
-      ]
+      "en": "Renting an apartment in Manarola means living as the village lives—shopping at the alimentari, cooking in a real kitchen, waking to bells and roosters rather than hotel corridors."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Case Vacanza",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Vacation Apartments",
-        "it": "Appartamenti a Manarola",
-        "de": "Ferienwohnungen"
-      },
-      "subtitle": {
-        "en": "Live like a local in your own apartment. Full kitchens, private terraces, and the freedom to explore on your own schedule.",
-        "it": "Vivi come un locale in appartamenti autentici nel cuore dei borghi storici. Cucine attrezzate, terrazze panoramiche e l'autonomia di una vera casa vacanze.",
-        "de": "Erleben Sie authentisches italienisches Leben in privaten Apartments mit komplett ausgestatteten Küchen, panoramischen Terrassen und der Freiheit, Ihr eigenes Cinque Terre-Abenteuer zu gestalten."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Browse Apartments",
-            "it": "Cerca Appartamenti"
-          },
-          "url": {
-            "en": "#apartments",
-            "it": "#cerca"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Consigli Utili"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#info"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Living<br/>Not Staying",
+      "subtitle": "A hotel room is where you sleep. An apartment is where you live. In Manarola, that difference matters—cooking local ingredients, opening shutters to morning light, having a door that's yours for the week. The village reveals itself differently when you're not just visiting.",
+      "badge": "Apartments",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Apartment Advantage",
+      "quote": "Visitors who stay in apartments see a different village than hotel guests. They learn which streets catch morning sun. They have favorite vendors at the alimentari. They know the rhythm of the church bells. A week in an apartment creates understanding that a weekend in a hotel cannot.",
+      "content": [
+        "**Space changes experience**. An apartment gives you a living room for evening wine, a kitchen for market discoveries, a terrace for sunrise coffee. You expand into the space rather than fitting into a room.",
+        "**Cooking is connection**. The alimentari sells local olive oil, the wine shop offers village-produced Sciacchetrà, the morning vendor has vegetables from inland farms. Cooking these ingredients creates a relationship with the place that restaurants alone cannot provide.",
+        "**The economics work differently**. Apartments cost less than hotels per square meter. Groups and families especially benefit—two bedrooms, a kitchen, a living room, often a terrace, for what two hotel rooms would cost.",
+        "**Privacy enables presence**. A door you close, a space that's yours, the freedom to be home without being public. This privacy, paradoxically, allows deeper engagement with the village when you do go out."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Rental Options",
-        "it": "Vantaggi",
-        "de": "Übernachtungsqualität"
-      },
-      "title": {
-        "en": "Featured Apartments",
-        "it": "Perché Scegliere un Appartamento",
-        "de": "Premium-Apartments in authentischer Lage"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "apartment-type",
+      "items": [
         {
-          "icon": "home",
-          "title": {
-            "en": "Casa Capellini",
-            "it": "Cucina Attrezzata"
-          },
-          "description": {
-            "en": "Traditional apartment with sea-view terrace. Kitchen, 2 bedrooms, sleeps 4-5.",
-            "it": "Prepara i tuoi pasti con prodotti locali dal mercato. Risparmia e vivi da locale."
-          }
+          "id": 1,
+          "name": "Historic Village Apartments",
+          "category": "Traditional",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Stone walls, original details, centuries of history—apartments in buildings that have housed families since the medieval period.",
+          "description": "The historic apartments occupy the tower houses that define Manarola's silhouette. Expect thick walls, small windows, stone stairs. Some have original beams, traditional tile floors, fireplaces that once heated winter nights. The character is authentic; the amenities vary. Some have been modernized thoughtfully; others maintain their original simplicity.",
+          "giuliaComment": "These buildings have housed my family for generations. The walls hold stories. Yes, the stairs are steep and the ceilings low—that's how people built when they built to last. If you want history you can touch, choose an old building. If you need modern convenience above all else, look elsewhere.",
+          "signature": "Where the walls remember"
         },
         {
-          "icon": "key",
-          "title": {
-            "en": "Manarola Holidays",
-            "it": "Ideale per Famiglie"
-          },
-          "description": {
-            "en": "Modern renovated apartments in the heart of the village. Various sizes available.",
-            "it": "Più spazio e privacy. Camere separate, lavatrice, flessibilità negli orari."
-          }
+          "id": 2,
+          "name": "Sea-View Apartments",
+          "category": "Premium",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The apartments everyone wants—terraces facing the Mediterranean, the view you came for visible from where you wake.",
+          "description": "Sea-view apartments command premium prices because the view never gets old. You'll watch fishing boats leave at dawn, ferries pass midday, sunset light the cliffs. Most include terraces or balconies where you can eat breakfast watching the harbor. The best book months in advance.",
+          "giuliaComment": "The sea view costs more, but consider: you'll spend hours on that terrace. Breakfast there. Aperitivo there. Reading there. The premium pays for itself in moments. Book early—these are the first to fill, and they fill fast.",
+          "signature": "When the view becomes the room"
         },
         {
-          "icon": "building",
-          "title": {
-            "en": "La Torretta Apartments",
-            "it": "Terrazze Panoramiche"
-          },
-          "description": {
-            "en": "Historic building apartments with character. Some with balconies overlooking the harbor.",
-            "it": "Molti appartamenti offrono terrazze private con vista mare o sui tetti del borgo."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Vista Mare",
-            "it": "Miglior Rapporto Qualità-Prezzo"
-          },
-          "description": {
-            "en": "Stunning sea views from every window. Rooftop terrace for sunset watching.",
-            "it": "Per soggiorni lunghi (3+ notti), gli appartamenti sono più convenienti degli hotel."
-          }
-        },
-        {
-          "icon": "utensils",
-          "title": {
-            "en": "Kitchen-Equipped Studios",
-            "it": "Vita Locale"
-          },
-          "description": {
-            "en": "Compact studios perfect for couples. Full kitchen and cozy living space.",
-            "it": "Vivi nei vicoli storici tra i residenti, lontano dalle zone più turistiche."
-          }
-        },
-        {
-          "icon": "family",
-          "title": {
-            "en": "Family Apartments",
-            "it": "Flessibilità"
-          },
-          "description": {
-            "en": "Spacious 3-bedroom apartments. Perfect for families or groups up to 6 people.",
-            "it": "Nessun vincolo di orari per colazione o check-out. Vivi secondo i tuoi ritmi."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Other Accommodation",
-        "it": "Costi Appartamenti",
-        "de": "Ausgewählte Ferienwohnungen"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Hotels"
-          },
-          "url": {
-            "en": "/en/manarola/hotels"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Upper Village Apartments",
+          "category": "Quieter Option",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Above the tourist flow, where the streets are quieter and the gardens more abundant—residential Manarola.",
+          "description": "The upper village offers what the harbor area cannot: quiet. The tourists concentrate below; up here, locals live. Expect more space, often lower prices, definitely more stairs. The trade-off: you'll climb to reach home, but you'll arrive to peace. Some upper apartments have garden access, vineyard views, and morning birdsong.",
+          "giuliaComment": "I live in the upper village. The daily climb keeps me fit, and the quiet is worth every step. Visitors who choose these apartments often become regulars—they've discovered the village beyond the postcard. Just know what you're choosing: stairs, not convenience.",
+          "signature": "Where locals actually live"
         }
       ],
-      "eyebrow": {
-        "de": "Premium-Auswahl"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Stair Reality",
+          "quote": "Every apartment in Manarola involves stairs. Some more than others, but there's no avoiding them. The village is vertical. If stairs are genuinely impossible for you, Manarola presents real challenges. Consider Monterosso, which offers flatter options. Here, stairs are simply how life works."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Considerations",
+      "quote": "Apartment living requires preparation that hotel stays don't. You're not a guest anymore—you're a temporary resident. Plan accordingly.",
+      "content": [
+        "**Arrive with provisions**. Unlike hotels, apartments don't provide toiletries, coffee, cooking basics. Bring what you need for the first morning, or shop in La Spezia before arriving.",
+        "**Understand the check-in**. Most apartments have specific check-in windows—often meeting the owner or manager at a set time. Late arrivals require coordination. Communicate your schedule in advance.",
+        "**Learn the systems**. Water heaters, door locks, WiFi passwords, garbage sorting—each apartment has its own procedures. Pay attention to the walkthrough; ask questions before the owner leaves.",
+        "**Respect the neighbors**. Apartment buildings are shared spaces. The neighbors are locals who live here year-round. Noise after 10pm disturbs people who have to work tomorrow."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "consideration",
+      "items": [
+        {
+          "id": 4,
+          "name": "Booking Reality",
+          "category": "Planning",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The best apartments book early, especially for summer. Know the rhythm of availability.",
+          "description": "July and August fill by March. September and May fill by June. Off-season has more flexibility but fewer options—some owners close for winter. The platforms are familiar (Airbnb, Booking, VRBO), but direct owner contact sometimes yields better prices and local knowledge. Minimum stays often apply during peak season.",
+          "giuliaComment": "If you want a specific apartment, book as early as you can commit. The good ones—the terraces, the views, the renovated historic spaces—go first. What remains last-minute tends to be either overpriced or compromised. Plan ahead or accept what's available.",
+          "signature": "When planning enables choice"
+        },
+        {
+          "id": 5,
+          "name": "The Kitchen Question",
+          "category": "Living Well",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Having a kitchen doesn't mean eating every meal at home—it means having the choice.",
+          "description": "The best approach: eat out for dinner, cook for everything else. Breakfast on your terrace with market fruit and local bread. Simple lunch from the alimentari's selection. Then dinner at the restaurants that make Manarola special. You save money, eat better, and experience the village as a resident rather than only as a restaurant customer.",
+          "giuliaComment": "When I have friends visiting, I tell them: buy olive oil and good bread immediately. Use them for breakfast and lunch. Save restaurant money for one memorable dinner each night. The kitchen isn't about avoiding restaurants—it's about expanding how you experience the village.",
+          "signature": "When choice creates rhythm"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Luggage Problem",
+          "quote": "Whatever you bring to Manarola, you carry. From station to apartment, up however many stairs that requires. No porters, no elevators, no vehicles fit the streets. Pack half of what you think you need. Trust me on this one."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "A Week Is Not Enough",
+      "content": [
+        "The visitors who rent apartments tend to stay longer. A night or two doesn't justify the setup; a week makes it worthwhile. And a week in Manarola is different from a weekend—you slow down, you develop habits, you start to feel like you belong.",
+        "Consider the apartment as an investment in experience rather than just accommodation. You're not buying a bed; you're buying a temporary life in one of the world's most beautiful villages.",
+        "Choose carefully. The right apartment becomes your Manarola home. The wrong one is just an expensive inconvenience. Read reviews, ask questions, understand exactly what you're booking. Then settle in and let the village teach you what it knows."
+      ],
+      "buttons": [
+        { "text": "Hotels", "url": "/en/manarola/hotels", "variant": "primary" },
+        { "text": "Restaurants", "url": "/en/manarola/restaurants", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "apartments"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.836Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

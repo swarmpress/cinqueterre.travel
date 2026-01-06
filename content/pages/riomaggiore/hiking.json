@@ -7,184 +7,157 @@
     "it": "/it/riomaggiore/hiking"
   },
   "title": {
-    "en": "Hiking Trails from Riomaggiore",
-    "de": "Wanderwege",
-    "fr": "Sentiers de Randonnée",
-    "it": "Sentieri"
+    "en": "Hiking from Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "hiking",
   "seo": {
     "title": {
-      "en": "Riomaggiore Hiking Trails 2025 | Via dell'Amore & Coastal Paths"
+      "en": "Hiking from Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover the best hiking trails from Riomaggiore including Via dell'Amore, the trail to Manarola, and sanctuary hikes with panoramic coastal views."
-    },
-    "keywords": {
-      "en": [
-        "via dell'amore",
-        "riomaggiore hiking",
-        "cinque terre trails",
-        "manarola trail",
-        "coastal hiking"
-      ]
+      "en": "The trails above Riomaggiore are not attractions. They are the original infrastructure—paths worn by centuries of farmers, pilgrims, and those who understood that everything here requires a climb."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Trekking e Sentieri",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Via dell'Amore & Coastal Trails",
-        "it": "Sentieri di Riomaggiore",
-        "de": "Via dell'Amore & Küstenwanderwege"
-      },
-      "subtitle": {
-        "en": "Start your Cinque Terre hiking adventure from Riomaggiore. Home to the famous Lover's Walk and spectacular trails connecting all five villages.",
-        "it": "Percorsi panoramici tra cielo e mare, antichi sentieri di collegamento tra i villaggi, vigneti terrazzati e viste mozzafiato sul Mediterraneo. Un'esperienza di trekking unica al mondo.",
-        "de": "Beginnen Sie Ihr Cinque Terre Wanderabenteuer in Riomaggiore! Hier startet der berühmte Liebespfad und spektakuläre Bergwege führen Sie durch terrassierte Weinberge zu allen fünf Dörfern. Als Isabella kann ich Ihnen versichern: Diese Wanderungen werden Sie verzaubern."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Explore Trails",
-            "it": "Sentieri Principali"
-          },
-          "url": {
-            "en": "#trails",
-            "it": "#sentieri"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Mappe e Info"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#info"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Walking<br/>Upward",
+      "subtitle": "In Riomaggiore, the real village begins where the pavement ends. The trails above are not detours—they are how this place has always connected to the world.",
+      "badge": "Hiking Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Vertical Life",
+      "quote": "Every trail in Riomaggiore was built by someone who needed to get somewhere—to vineyards, to sanctuaries, to neighboring villages before trains existed. Walking these paths, you inherit their effort.",
+      "content": [
+        "The trails here predate tourism by centuries. The **Sentiero Azzurro** connecting the five villages was not a scenic route—it was the only route, used by farmers, merchants, and anyone who needed to move along this coast before the railway arrived in 1874.",
+        "**Elevation is constant**. There is no flat walk from Riomaggiore. Even the famous Via dell'Amore, the gentlest path, was carved into cliffs that offered no natural horizontal surface.",
+        "The **sanctuary trails** leading to Montenero were pilgrimage routes. Locals climbed to pray for good harvests, safe fishing, healthy children. The faith that built these paths is still visible in their care.",
+        "Modern hikers follow ancient logic. The trails that seem most scenic were designed for **practical purpose**—the views are bonuses, accidents of geography that reward those who chose function over comfort."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Trail Network",
-        "it": "Rete Sentieristica",
-        "de": "Wandernetz in Zahlen"
-      },
-      "title": {
-        "en": "Hiking Routes from Riomaggiore",
-        "it": "I Sentieri in Numeri",
-        "de": "Riomaggiorres Wanderwege"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "hike",
+      "items": [
         {
-          "icon": "heart",
-          "title": {
-            "en": "Via dell'Amore"
-          },
-          "description": {
-            "en": "The iconic Lover's Walk to Manarola, a romantic paved path carved into the cliff (20 min, easy)"
-          }
+          "id": 1,
+          "name": "Via dell'Amore to Manarola",
+          "category": "Easy Coastal Walk",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The most famous path in Cinque Terre—where romance met engineering.",
+          "description": "Cut into the cliffs in the 1920s, the Via dell'Amore was originally a service path for railway workers. Its flat, paved surface and dramatic coastal views made it accidentally romantic. When open, it offers the easiest walk between villages.",
+          "giuliaComment": "I've walked this path a thousand times. It never gets ordinary. But check the status—landslides close it regularly, and reopening takes years.",
+          "signature": "20 minutes of level walking above the sea",
+          "practicalInfo": "Check current status before planning. Often closed. When open: paved, flat, partially wheelchair accessible."
         },
         {
-          "icon": "mountain",
-          "title": {
-            "en": "Riomaggiore to Manarola"
-          },
-          "description": {
-            "en": "High route via vineyard terraces when Via dell'Amore is closed (1.5 hours, moderate)"
-          }
+          "id": 2,
+          "name": "Sentiero Azzurro to Manarola",
+          "category": "Moderate Coastal Trail",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The alternative to Via dell'Amore—harder, higher, and arguably more rewarding.",
+          "description": "When the Via dell'Amore closes, this upper route becomes the main connection to Manarola. It climbs through terraced vineyards before descending to the neighboring village. More demanding, but the views from the high point reveal why people fought to farm these cliffs.",
+          "giuliaComment": "This is the real trail. The Via dell'Amore is beautiful, but this path shows you the agricultural landscape that defines Cinque Terre. Don't skip it.",
+          "signature": "45 minutes of earned perspective",
+          "practicalInfo": "Moderate difficulty. 200m elevation change. Good shoes essential. Requires Cinque Terre Card."
         },
         {
-          "icon": "church",
-          "title": {
-            "en": "Sanctuary Trail"
-          },
-          "description": {
-            "en": "Climb to Santuario di Montenero for panoramic views over the village and coast (40 min, steep)"
-          }
-        },
-        {
-          "icon": "grape",
-          "title": {
-            "en": "Vineyard Paths"
-          },
-          "description": {
-            "en": "Walk through terraced Sciacchetrà vineyards on ancient stone staircases"
-          }
-        },
-        {
-          "icon": "compass",
-          "title": {
-            "en": "Blue Trail (SVA)"
-          },
-          "description": {
-            "en": "Part of the Sentiero Azzurro connecting all five villages along the coast"
-          }
-        },
-        {
-          "icon": "sunrise",
-          "title": {
-            "en": "Coastal Viewpoints"
-          },
-          "description": {
-            "en": "Multiple scenic overlooks perfect for sunrise and sunset photography"
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Enhance Your Hiking Experience",
-        "it": "I Percorsi Più Belli",
-        "de": "Die schönsten Wanderungen ab Riomaggiore"
-      },
-      "description": {
-        "en": "Get detailed maps and learn about the best times to hike these spectacular trails."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Trail Maps"
-          },
-          "url": {
-            "en": "/en/riomaggiore/maps"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Weather Info"
-          },
-          "url": {
-            "en": "/en/riomaggiore/weather"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Sanctuary of Montenero",
+          "category": "Challenging Climb",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The pilgrimage that generations of locals made to pray above their village.",
+          "description": "The trail to Santuario della Madonna di Montenero climbs 400 meters through forest and vineyard. At the top, a small church has stood since the 14th century, offering panoramic views that stretch from Portovenere to Portofino on clear days.",
+          "giuliaComment": "My grandmother walked this trail every Sunday of her life. For her, it wasn't exercise—it was obligation, gratitude, community. I still go when I need to think.",
+          "signature": "400 meters of elevation, 600 years of faith",
+          "practicalInfo": "Challenging. 45-60 minutes up, 30-40 minutes down. Bring water. Church has limited opening hours."
         }
       ],
-      "eyebrow": {
-        "de": "Hauptwanderwege"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Cinque Terre Card",
+          "quote": "Most trails require a Cinque Terre Card—not bureaucracy, but necessity. The fees fund trail maintenance in terrain where repairs mean moving mountains. Buy the card at the station, download the app, and consider it a contribution to preservation."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Knowledge",
+      "quote": "The trails will teach you humility. They do not care about your schedule, your footwear choices, or your expectations. Respect them, and they reward you. Dismiss them, and they remind you of physics.",
+      "content": [
+        "**Timing matters** more than fitness. Start early in summer—by 10am, the exposed sections become punishing. The golden hours before 8am and after 5pm offer manageable temperatures and better light.",
+        "**Footwear is not optional**. The smooth stone steps become treacherous when wet. The rocky sections demand ankle support. Flip-flops are not rebellion; they are hospital visits waiting to happen.",
+        "**Water weight is welcome weight**. Bring more than you think you need. There are few refill points on the trails, and the Mediterranean sun is deceptively aggressive.",
+        "**Trail conditions change**. Check the park office or app before starting. Paths close after storms, sometimes for years. Having a backup plan is not pessimism—it's local wisdom."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "hike",
+      "items": [
+        {
+          "id": 4,
+          "name": "High Path (Sentiero Alto)",
+          "category": "Full Day Challenge",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1590078756532-171c4a1ec067?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The ridge route that most tourists never find—and the reason serious hikers keep returning.",
+          "description": "The Sentiero Alto runs along the ridgeline above all five villages, connecting mountain sanctuaries through forest and vineyard. It's longer, harder, and more rewarding than the coastal trails. From here, you see how small the villages are against the scale of the landscape.",
+          "giuliaComment": "This is my favorite trail, and I never recommend it lightly. It demands respect—full day commitment, proper preparation, real fitness. The reward is perspective most visitors never earn.",
+          "signature": "Where Cinque Terre becomes wilderness",
+          "practicalInfo": "Full day. 12km+. Significant elevation. Not for beginners. Pack lunch and plenty of water."
+        },
+        {
+          "id": 5,
+          "name": "Evening Harbor Loop",
+          "category": "Easy Evening Stroll",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the big trails are too much—a simple walk to watch the village settle into evening.",
+          "description": "From the station through the tunnel to the harbor, then up to the castle viewpoint and back via the church. This gentle loop takes less than an hour but captures Riomaggiore's rhythm—the transition from day's work to evening's rest.",
+          "giuliaComment": "Not every walk needs to be epic. Sometimes the best trail is the one that ends at a table with a glass of wine and a view of the boats coming home.",
+          "signature": "The walk that becomes a ritual",
+          "practicalInfo": "30-45 minutes. Gentle inclines. Good for any fitness level. Perfect before dinner."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Secret of Slow",
+          "quote": "Italian hikers don't rush. They stop for espresso, for conversation, for the view. The trails were built by people who walked them daily—not as achievement, but as commute. Honor their pace."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Trail Knows More Than the Map",
+      "content": [
+        "Every path in Riomaggiore has a logic you discover by walking it. The switchbacks aren't inefficient—they're sustainable. The stone steps aren't quaint—they're drainage engineering.",
+        "The best hike is the one you're ready for. Not the longest, not the most famous, but the one that matches your energy, your time, and your willingness to be changed by the landscape.",
+        "Walk well. Return different."
+      ],
+      "buttons": [
+        { "text": "Plan Your Itinerary", "url": "/en/itinerary", "variant": "primary" },
+        { "text": "Where to Eat After", "url": "/en/riomaggiore/restaurants", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "hiking"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.846Z"
+  "updated_at": "2026-01-05T16:30:00.000Z"
 }

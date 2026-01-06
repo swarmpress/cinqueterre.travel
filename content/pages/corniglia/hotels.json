@@ -7,174 +7,152 @@
     "it": "/it/corniglia/hotels"
   },
   "title": {
-    "en": "Hotels & Accommodations in Corniglia",
-    "de": "Hotels",
-    "fr": "Hôtels",
-    "it": "Hotel"
+    "en": "Where to Stay in Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "hotels",
   "seo": {
     "title": {
-      "en": "Hotels in Corniglia 2025 | Where to Stay in Cinque Terre"
+      "en": "Where to Stay in Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Find the best hotels and accommodations in Corniglia. Peaceful village atmosphere, panoramic views, authentic guesthouses and B&Bs."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia hotels",
-        "Cinque Terre accommodation",
-        "Corniglia B&B",
-        "where to stay Corniglia"
-      ]
+      "en": "Sleeping in Corniglia means waking to terraces and sea, in rooms converted from spaces that once stored wine and dried grapes. The accommodation is limited; the peace is not."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Corniglia Accommodations",
-        "it": "Dove Dormire",
-        "de": "Corniglia Unterkünfte"
-      },
-      "title": {
-        "en": "Where to Stay in Corniglia",
-        "it": "Hotel e Alloggi a Corniglia",
-        "de": "Übernachten in Corniglia"
-      },
-      "subtitle": {
-        "en": "Limited but charming options. Peaceful atmosphere, vineyard views, and authentic village living.",
-        "it": "Dalle camere con vista mare agli appartamenti nel centro storico, trova il tuo rifugio perfetto tra i vicoli colorati e le terrazze panoramiche.",
-        "de": "Exklusive, aber bezaubernde Optionen. Friedliche Atmosphäre, Weinbergblicke und authentisches Dorfleben im höchstgelegenen Dorf der Cinque Terre."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Options",
-            "it": "Vedi Alloggi"
-          },
-          "url": {
-            "en": "#hotels",
-            "it": "#hotel"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "See Apartments",
-            "it": "Consigli Utili"
-          },
-          "url": {
-            "en": "/en/corniglia/apartments",
-            "it": "#consigli"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Sleeping<br/>Among the Vines",
+      "subtitle": "Corniglia's accommodations exist within a village that never built for tourism. The rooms occupy converted farmhouses, the terraces overlook active vineyards, and the quiet after dark is absolute. Limited supply makes early booking essential.",
+      "badge": "Accommodation Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Accommodation Reality",
+      "quote": "Corniglia has perhaps 20 properties offering rooms. That's it. No hotels in the traditional sense—just guesthouses, apartments, and rooms in family homes. This scarcity creates both the village's charm and its booking challenge.",
+      "content": [
+        "**The stairs shape everything**. Every piece of luggage must climb 377 steps. Some hosts offer pickup service; most expect you to manage. Pack light or arrange help. This isn't a limitation—it's the reason Corniglia stays quiet.",
+        "**The buildings are converted**. Bedrooms occupy spaces that once stored wine or dried grapes. Stone walls, wooden beams, thick walls that keep rooms cool in summer—the architecture speaks to agricultural heritage, not hospitality design.",
+        "**The views justify the climb**. Nearly every property offers terrace views over vineyards and sea. Waking to sunrise over the Mediterranean, coffee on a terrace above ancient terraces—this is what staying in Corniglia means.",
+        "**Booking requires advance planning**. The best properties fill months ahead for peak season. Spring and fall offer better availability. Last-minute stays in summer rarely find quality options."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Accommodation Types",
-        "it": "Info Pratiche"
-      },
-      "title": {
-        "en": "Stay in Corniglia",
-        "it": "Prezzi e Disponibilità"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "accommodation",
+      "items": [
         {
-          "icon": "home",
-          "title": {
-            "en": "Village Guesthouses"
-          },
-          "description": {
-            "en": "Small family-run guesthouses in historic buildings. Intimate atmosphere with personal service and local recommendations."
-          }
+          "id": 1,
+          "name": "Terrace Properties",
+          "category": "View Focused",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Properties chosen for their panoramic terraces—the view is the amenity, the room is where you sleep between sunrises and sunsets.",
+          "description": "Several properties in Corniglia have terraces that could define a stay. Madüneta 5 Terre, Appartamento Giumin, and Affittacamere La Torre all offer panoramic views that justify premium prices. The terraces face south and west; evening light transforms them. Book these first and furthest in advance.",
+          "giuliaComment": "Visitors ask which property has the best view. The honest answer: any property with a terrace has a view worth traveling for. The differences between them matter less than the difference between having a terrace and not having one. Prioritize outdoor space.",
+          "signature": "Where the view is the room"
         },
         {
-          "icon": "bed",
-          "title": {
-            "en": "B&Bs with Views"
-          },
-          "description": {
-            "en": "Bed and breakfasts offering panoramic terraces. Wake up to vineyard or sea views with homemade breakfast."
-          }
+          "id": 2,
+          "name": "Village Center Rooms",
+          "category": "Convenient Location",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Properties along Via Fieschi—steps from restaurants and bars, in the heart of village life, trading views for convenience.",
+          "description": "Not every stay needs a panoramic terrace. Properties along Via Fieschi put you in the middle of the village: morning coffee next door, restaurants a minute away, the sound of village life outside your window. The views are of narrow streets rather than coastline, but the convenience is real.",
+          "giuliaComment": "Some visitors want to be in the village, not above it. The Via Fieschi properties let you stumble out for espresso without climbing stairs, hear the church bells properly, feel embedded in daily life. It's a different experience, equally valid.",
+          "signature": "Where the village is the view"
         },
         {
-          "icon": "key",
-          "title": {
-            "en": "Holiday Apartments"
-          },
-          "description": {
-            "en": "Self-catering apartments for independent travelers. Experience village life with your own kitchen and terrace."
-          }
-        },
-        {
-          "icon": "wine",
-          "title": {
-            "en": "Vineyard Stays"
-          },
-          "description": {
-            "en": "Rooms near working vineyards. Peaceful hillside locations just minutes from the village center."
-          }
-        },
-        {
-          "icon": "peace",
-          "title": {
-            "en": "Quiet Location"
-          },
-          "description": {
-            "en": "Fewest tourists of all five villages. Enjoy authentic local atmosphere and peaceful nights."
-          }
-        },
-        {
-          "icon": "hiking",
-          "title": {
-            "en": "Hiker's Paradise"
-          },
-          "description": {
-            "en": "Perfect base for exploring all hiking trails. Central location with easy access to other villages."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Book Your Corniglia Stay",
-        "it": "Dove Dormire",
-        "de": "Die Essenz authentischen Reisens"
-      },
-      "subtitle": {
-        "en": "Limited options - reserve well in advance for summer months.",
-        "it": "Scegli la soluzione più adatta alle tue esigenze.",
-        "de": "Warum Corniglia die anspruchsvollste Wahl für Unterkunft in den Cinque Terre darstellt"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View All Accommodations"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 3,
+          "name": "Villa Properties",
+          "category": "Private Retreats",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Larger properties for families or groups—private gardens, multiple bedrooms, space that village apartments can't offer.",
+          "description": "Villa Lardarina represents the top tier: private grounds, multiple bedrooms, outdoor spaces that feel like estates. These properties rent entire houses rather than rooms, often requiring week-long minimums in high season. The prices reflect exclusivity; the experience justifies them for groups who want privacy.",
+          "giuliaComment": "The villa properties are for visitors who want Corniglia to themselves. You're not part of village life—you're observing it from a private terrace. This has its appeal, especially for families who need space. Just understand you're trading integration for privacy.",
+          "signature": "Where privacy means space"
         }
       ],
-      "content": {
-        "de": "Als einziges Dorf ohne direkten Meereszugang bietet Corniglia eine Unterkunftserfahrung von unvergleichlicher Authentizität. Die **Lardarina Treppe** mit ihren 382 Stufen fungiert als natürlicher Filter und bewahrt die Ruhe des Dorfes vor Massentourismus.\n\nDie verfügbaren Unterkünfte reflektieren diese Exklusivität. **Madüneta 5 Terre** verkörpert den authentischen ligurischen Charme mit Panorama-Meerblick, während **Sole Terra Mare** die Essenz der Cinque Terre mit seiner Gartenumgebung und klimatisierten Räumen einfängt.\n\nBesonders hervorzuheben ist **Villa Lardarina**, eine elegante Villa mit herrlicher privater natürlicher Umgebung. Die Lage ermöglicht es Ihnen, morgens auf der **Corniglia Panoramaterrasse** den Sonnenaufgang zu erleben und abends am **Corniglia Sonnenuntergangs-Punkt** die goldenen Stunden zu genießen.\n\nDie **Corniglia Weinberg-Terrassen** sind praktisch vor Ihrer Haustür - ein unschätzbarer Vorteil für Liebhaber des berühmten Sciacchetrà-Weins. Die Nähe zu authentischen Restaurants wie **Cecio** und **Osteria Mananan** garantiert kulinarische Erlebnisse höchster Qualität."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Luggage Question",
+          "quote": "Every review mentions the stairs. Every traveler wonders how to manage luggage. The answer: pack light. A backpack handles the 377 steps better than a roller bag. If you must bring more, arrange pickup in advance or hire someone at the station. The stairs don't change for luggage."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Booking Strategy",
+      "quote": "Corniglia rewards planners and frustrates spontaneity. The village's limited accommodation requires booking well ahead—or flexibility about where you end up.",
+      "content": [
+        "**Book 3-4 months ahead for peak season**. June-September fills the quality properties quickly. The best terraces go first. Waiting until May for a July stay means accepting what remains.",
+        "**Shoulder seasons offer breathing room**. April-May and September-October provide easier booking with better weather than you'd expect. The terraces are just as beautiful; the crowds are not.",
+        "**Minimum stays are common**. Peak season often requires 2-3 night minimums. This discourages one-night visitors and keeps Corniglia quieter than villages without such requirements.",
+        "**Off-season closures happen**. Some properties close November-March. Those that remain open offer dramatic storm-watching and intimate village life, but restaurant options shrink."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "consideration",
+      "items": [
+        {
+          "id": 4,
+          "name": "What's Included",
+          "category": "Practical Details",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Breakfast varies wildly, WiFi works sometimes, air conditioning is rare—Corniglia accommodations are not hotels.",
+          "description": "Expect stone walls and character, not hotel amenities. Breakfast might be homemade focaccia with local honey, or it might be a voucher for the bar. WiFi depends on village infrastructure. Air conditioning exists in newer conversions but isn't universal. The charm is the point; convenience requires adaptation.",
+          "giuliaComment": "Visitors used to hotels are sometimes surprised. This is a village, not a resort. The walls are thick and keep rooms cool; you might not need air conditioning. The breakfast at the bar is how we all eat. The WiFi works well enough for most purposes. Adjust expectations and you'll be fine.",
+          "signature": "Where character beats convenience"
+        },
+        {
+          "id": 5,
+          "name": "The Host Relationship",
+          "category": "Village Hospitality",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Your host likely lives in the village, knows everyone, and can open doors to experiences booking sites can't arrange.",
+          "description": "Corniglia hosts aren't hospitality professionals—they're village residents who rent rooms. This creates both limitations and opportunities. They might not answer emails promptly, but they can arrange wine tastings with their cousin, recommend the restaurant that doesn't take reservations, tell you which path to take at sunset.",
+          "giuliaComment": "The best experiences come through hosts. Ask them questions. Accept their recommendations. Let them introduce you to their neighbors. The relationship is different from a hotel—more personal, requiring more from both sides. It's how village hospitality has always worked.",
+          "signature": "Where hosts become guides"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Price Reality",
+          "quote": "Corniglia accommodation costs €70-200 per night depending on property and season. This is less than Vernazza or Monterosso for comparable views. The value comes from the quiet, the authenticity, the feeling of staying in a real village rather than a tourist destination."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Sleeping at Elevation",
+      "content": [
+        "Staying in Corniglia isn't about amenities—it's about waking in a village that doesn't cater to tourism, walking out to terraces that overlook active vineyards, hearing evening quiet that most villages have lost.",
+        "The limited accommodation is a feature, not a bug. It keeps the village small, the crowds manageable, the experience authentic. The stairs filter out the uncommitted. What remains is genuine.",
+        "Book early. Pack light. Choose a property with a terrace if you can. And understand that the inconveniences—the stairs, the distance from beaches, the limited options—are what preserve the Corniglia that made you want to visit."
+      ],
+      "buttons": [
+        { "text": "Restaurants", "url": "/en/corniglia/restaurants", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/corniglia/getting-here", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "hotels"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.834Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

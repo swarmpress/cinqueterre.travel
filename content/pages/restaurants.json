@@ -6,498 +6,246 @@
     "fr": "/fr/restaurants"
   },
   "title": {
-    "en": "Best Restaurants in Cinque Terre - Dining Guide",
-    "de": "Restaurants Cinque Terre",
-    "fr": "Restaurants Cinque Terre"
+    "en": "Cinque Terre Restaurants: Where Ligurian Tradition Meets Coastal Elegance"
   },
   "page_type": "collection",
   "seo": {
     "title": {
-      "en": "Best Cinque Terre Restaurants 2025 | Seafood, Pesto & Local Wine",
-      "de": "Cinque Terre Restaurants 2025 | Beste Küche & Meeresfrüchte",
-      "fr": "Restaurants Cinque Terre 2025 | Meilleure Cuisine & Fruits de Mer"
+      "en": "Best Restaurants Cinque Terre | Fine Dining | Cinqueterre.travel"
     },
     "description": {
-      "en": "Discover the best restaurants in Cinque Terre. Fresh Ligurian seafood, authentic pesto, local wines, and harbor-view dining in all five villages.",
-      "de": "Die besten Restaurants der Cinque Terre. Frische Meeresfrüchte, lokale Spezialitäten und Weinstuben.",
-      "fr": "Les meilleurs restaurants des Cinque Terre. Fruits de mer frais, spécialités locales et caves à vin."
-    },
-    "keywords": {
-      "en": [
-        "Cinque Terre restaurants",
-        "Italian seafood",
-        "Ligurian cuisine",
-        "pesto Genovese",
-        "Sciacchetrà wine"
-      ],
-      "de": [
-        "Cinque Terre Restaurants",
-        "Italien Essen",
-        "Meeresfrüchte Ligurien",
-        "Pesto"
-      ],
-      "fr": [
-        "Cinque Terre restaurants",
-        "Italie cuisine",
-        "Fruits de mer Ligurie",
-        "Pesto"
-      ]
+      "en": "Discover exceptional restaurants in Cinque Terre, from Michelin-starred dining to family trattorias. Fresh seafood, handmade pasta, and stunning views."
     }
   },
   "body": [
     {
       "type": "hero-section",
       "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200&q=80",
-      "eyebrow": {
-        "en": "Authentic Ligurian Cuisine",
-        "de": "Cinque Terre",
-        "fr": "Cinque Terre"
-      },
-      "title": {
-        "en": "Dining in Cinque Terre",
-        "de": "Restaurants",
-        "fr": "Restaurants"
-      },
-      "subtitle": {
-        "en": "Fresh-caught seafood, world-famous pesto, local wines, and unforgettable harbor views. Discover the flavors of the Italian Riviera in trattorias, seafood restaurants, and hidden gems.",
-        "de": "Authentische ligurische Küche in jedem Dorf. Frische Meeresfrüchte, handgemachte Pasta und lokale Weine.",
-        "fr": "Cuisine ligure authentique dans chaque village. Fruits de mer frais, pâtes maison et vins locaux."
-      },
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1748164795892-c85ed20da144-hero.jpg",
+      "eyebrow": "Culinary Excellence",
+      "title": "A Feast for the Senses in the Five Lands",
+      "subtitle": "From family-run trattorias serving grandmother's recipes to Michelin-starred establishments pushing culinary boundaries, discover where the treasures of land and sea unite in perfect harmony along these legendary cliffs.",
       "buttons": [
         {
-          "text": {
-            "en": "View All Restaurants",
-            "de": "Alle Restaurants",
-            "fr": "Tous les restaurants"
-          },
-          "url": {
-            "en": "#restaurants",
-            "de": "#list",
-            "fr": "#list"
-          },
+          "text": "Explore Restaurants",
+          "url": "#restaurants",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "By Village",
-            "de": "Nach Dorf",
-            "fr": "Par village"
-          },
-          "url": {
-            "en": "#villages",
-            "de": "#villages",
-            "fr": "#villages"
-          },
+          "text": "Learn About Ligurian Cuisine",
+          "url": "#cuisine",
           "variant": "secondary"
         }
       ]
     },
     {
       "type": "stats-section",
-      "variant": "simple-grid",
-      "eyebrow": {
-        "en": "Culinary Scene",
-        "de": "Kulinarik",
-        "fr": "Gastronomie"
-      },
-      "title": {
-        "en": "Cinque Terre Dining",
-        "de": "Lokale Spezialitäten",
-        "fr": "Spécialités Locales"
-      },
+      "title": "Culinary Treasures by the Numbers",
       "stats": [
         {
-          "value": {
-            "en": "50+"
-          },
-          "label": {
-            "en": "Restaurants"
-          }
+          "number": "106",
+          "label": "Exceptional restaurants"
         },
         {
-          "value": {
-            "en": "5"
-          },
-          "label": {
-            "en": "Villages"
-          }
+          "number": "5",
+          "label": "UNESCO villages"
         },
         {
-          "value": {
-            "en": "€15-50"
-          },
-          "label": {
-            "en": "Avg. Main Course"
-          }
+          "number": "800+",
+          "label": "Years of tradition"
         },
         {
-          "value": {
-            "en": "100%"
-          },
-          "label": {
-            "en": "Fresh Seafood"
-          }
+          "number": "3",
+          "label": "Michelin-recommended"
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Must-Try Dishes"
-      },
-      "title": {
-        "en": "Ligurian Specialties",
-        "de": "Entdecken Sie die Küche jedes Dorfes",
-        "fr": "Découvrez la cuisine de chaque village"
-      },
-      "subtitle": {
-        "en": "The dishes that define Cinque Terre cuisine."
-      },
-      "features": [
+      "type": "collection-embed",
+      "collectionType": "restaurants",
+      "heading": "Featured Restaurants",
+      "headingLevel": 2,
+      "items": [
         {
-          "icon": "leaf",
-          "title": {
-            "en": "Pesto alla Genovese"
-          },
-          "description": {
-            "en": "The world-famous basil sauce, made with local basil, pine nuts, Parmigiano, and Ligurian olive oil. Try it on trofie pasta."
+          "slug": "cecio",
+          "title": "Cecio",
+          "summary": "Authentic family recipes in the heart of Corniglia",
+          "url": "/cecio",
+          "village": "corniglia",
+          "data": {
+            "featured": true
           }
         },
         {
-          "icon": "fish",
-          "title": {
-            "en": "Fresh Seafood"
-          },
-          "description": {
-            "en": "Anchovies, branzino, octopus, and the catch of the day. Local fishermen supply restaurants directly from morning catches."
+          "slug": "ristorante-miky",
+          "title": "Ristorante Miky",
+          "summary": "Sophisticated seafood dining with panoramic coastal views",
+          "url": "/ristorante-miky",
+          "village": "monterosso",
+          "data": {
+            "featured": true
           }
         },
         {
-          "icon": "bread",
-          "title": {
-            "en": "Focaccia di Recco"
-          },
-          "description": {
-            "en": "Paper-thin, cheese-filled focaccia. A Ligurian specialty best eaten hot from the oven."
+          "slug": "rio-bistrot",
+          "title": "Rio Bistrot",
+          "summary": "Michelin Guide contemporary restaurant with creative seafood dishes",
+          "url": "/rio-bistrot",
+          "village": "riomaggiore",
+          "data": {
+            "featured": true
           }
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Sciacchetrà"
-          },
-          "description": {
-            "en": "Cinque Terre's famous dessert wine made from dried grapes. Pairs perfectly with local desserts and cantuccini."
+          "slug": "gambero-rosso-vernazza",
+          "title": "Gambero Rosso",
+          "summary": "Waterfront dining with the freshest seafood in Vernazza's most scenic setting",
+          "url": "/gambero-rosso-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": true
           }
         },
         {
-          "icon": "lemon",
-          "title": {
-            "en": "Limoncino"
-          },
-          "description": {
-            "en": "Locally made lemon liqueur from Monterosso lemons. A perfect digestivo after dinner."
+          "slug": "osteria-mananan",
+          "title": "Osteria Mananan",
+          "summary": "Fine dining with breathtaking sea views",
+          "url": "/osteria-mananan",
+          "village": "corniglia",
+          "data": {
+            "featured": true
           }
         },
         {
-          "icon": "pizza",
-          "title": {
-            "en": "Farinata"
-          },
-          "description": {
-            "en": "Thin chickpea flour pancake, crispy on the outside, soft inside. A traditional Ligurian street food."
+          "slug": "dau-cila",
+          "title": "Dau Cila",
+          "summary": "Romantic seaside dining with traditional Ligurian flavors and sea views",
+          "url": "/dau-cila",
+          "village": "riomaggiore",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "ristorante-belforte-vernazza",
+          "title": "Ristorante Belforte",
+          "summary": "Clifftop fine dining in a medieval tower with breathtaking Ligurian Sea views",
+          "url": "/ristorante-belforte-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "il-porticciolo",
+          "title": "Il Porticciolo",
+          "summary": "Refined seafood dining with harbor views and daily fresh catches",
+          "url": "/il-porticciolo",
+          "village": "manarola",
+          "data": {
+            "featured": true
           }
         }
-      ]
+      ],
+      "display": {
+        "layout": "grid",
+        "columns": 3,
+        "showImage": true,
+        "showSummary": true,
+        "imageAspect": "landscape"
+      },
+      "showViewAll": true,
+      "viewAllUrl": "/restaurants"
     },
     {
       "type": "content-section",
-      "variant": "two-column-with-testimonial",
-      "eyebrow": {
-        "en": "Dining Tips"
-      },
-      "title": {
-        "en": "Make the Most of Your Meals"
-      },
-      "subtitle": {
-        "en": "Insider advice for dining in Cinque Terre"
-      },
-      "content": {
-        "en": "**Reservations** are essential at popular restaurants, especially for dinner and sunset tables. Book 2-3 days ahead in summer. **Lunch** is often better value than dinner with the same quality. Look for *menù turistico* for fixed-price meals. **Aperitivo** is a great way to enjoy views with drinks and snacks before dinner. Most restaurants close between lunch and dinner (3-7pm)."
-      },
-      "testimonial": {
-        "quote": {
-          "en": "The seafood here is the freshest I've ever tasted. We watched our fish being brought in from the harbor and an hour later it was on our plate. Pure magic."
+      "id": "cuisine",
+      "variant": "text-with-image",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d29b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200&q=80",
+      "eyebrow": "Ligurian Gastronomy",
+      "title": "The Soul of Cinque Terre Cuisine",
+      "content": "Mamma mia, where do I begin? Every morning in Cinque Terre starts with the same intoxicating ritual—fishermen returning with silvery catches while nonne emerge from ancient kitchens, their hands already dusted with flour for the day's pasta.\n\nThis is where pesto was born, dear friends. Not in some sterile commercial kitchen, but in the sun-drenched gardens of Liguria, where basil grows so aromatic it perfumes entire neighborhoods. Here, every restaurant tells a story through food—whether it's the century-old family recipe for trofie al pesto or the innovative interpretations earning Michelin recognition.\n\nThe magic lies in the marriage of mountain and sea. Wild herbs cascade down terraced cliffs to meet the Mediterranean's bounty. Farinata—that golden chickpea pancake—sizzles in wood-fired ovens while anchovies from Monterosso are transformed into colatura, Liguria's liquid gold.\n\nBook your table for sunset, when the golden hour transforms every meal into a masterpiece. The locals dine late here—8:30 PM is early—because great food, like great wine, cannot be rushed."
+    },
+    {
+      "type": "feature-section",
+      "title": "What Makes Dining Here Extraordinary",
+      "features": [
+        {
+          "icon": "🍾",
+          "title": "Local Wine Pairings",
+          "description": "Crisp Vermentino and sweet Sciacchetrà wines crafted from grapes grown on impossible terraces carved into cliffsides over centuries."
         },
-        "author": {
-          "en": "Marco Benedetti"
+        {
+          "icon": "🎣",
+          "title": "Daily Fresh Catches",
+          "description": "Restaurants source directly from local fishermen—what was swimming this morning becomes your dinner, prepared with time-honored techniques."
         },
-        "role": {
-          "en": "Food Writer"
+        {
+          "icon": "🌿",
+          "title": "Garden-to-Table Herbs",
+          "description": "Wild fennel, marjoram, and basil harvested from ancient terraces add layers of flavor impossible to replicate elsewhere."
         },
-        "image": {
-          "en": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+        {
+          "icon": "👨‍🍳",
+          "title": "Generational Recipes",
+          "description": "Family secrets passed down through centuries, from hand-rolled pasta techniques to the perfect balance of garlic in pesto."
+        },
+        {
+          "icon": "🏰",
+          "title": "Historic Settings",
+          "description": "Dine in medieval towers, converted monasteries, and clifftop terraces where every meal comes with 800 years of history."
+        },
+        {
+          "icon": "🌅",
+          "title": "Unmatched Views",
+          "description": "Every restaurant offers a feast for the eyes—dramatic seascapes, vineyard vistas, and sunsets that paint the sky in impossible colors."
         }
-      }
+      ]
     },
     {
       "type": "faq-section",
-      "variant": "two-columns",
-      "eyebrow": {
-        "en": "Practical Information"
-      },
-      "title": {
-        "en": "Dining FAQs"
-      },
-      "items": [
+      "title": "Your Dining Questions Answered",
+      "faqs": [
         {
-          "question": {
-            "en": "Do I need reservations?"
-          },
-          "answer": {
-            "en": "Highly recommended for dinner, especially at popular restaurants with views. Lunch is usually easier to get without booking."
-          }
+          "question": "Do I need reservations for Cinque Terre restaurants?",
+          "answer": "Absolutely, especially during peak season (April-October) and for dinner service. The best restaurants book weeks in advance. Even casual trattorias appreciate a call the morning of your visit. Pro tip: many restaurants close between 3-7 PM, so don't expect to walk in for an early dinner."
         },
         {
-          "question": {
-            "en": "What's a typical meal cost?"
-          },
-          "answer": {
-            "en": "Budget €15-25 for a casual lunch, €30-50 for dinner with wine. Harbor-view restaurants are pricier. Pizza and focaccia shops offer cheaper options."
-          }
+          "question": "What's the typical dining schedule here?",
+          "answer": "Lunch runs 12:00-3:00 PM, with many kitchens closing by 2:30 PM. Dinner starts around 7:30 PM for tourists, though locals prefer 8:30-9:00 PM. Most restaurants close one day per week and may have seasonal closures, so always check ahead."
         },
         {
-          "question": {
-            "en": "Which village has the best restaurants?"
-          },
-          "answer": {
-            "en": "Monterosso has the most variety, Vernazza the best harbor dining, Manarola for sunset views. Each village has excellent options."
-          }
+          "question": "What should I expect to spend on a meal?",
+          "answer": "Casual trattorias: €25-40 per person for pasta and wine. Mid-range restaurants: €50-80 per person for antipasti, main course, and wine. Fine dining establishments: €80-150 per person for full tasting experiences. Fresh seafood commands premium prices, especially whole fish."
         },
         {
-          "question": {
-            "en": "Are there vegetarian options?"
-          },
-          "answer": {
-            "en": "Yes, though seafood dominates. Pesto dishes, pasta, salads, and vegetable antipasti are widely available. Vegan options more limited."
-          }
+          "question": "Are there vegetarian options in this seafood-focused region?",
+          "answer": "Surprisingly, yes! Ligurian cuisine offers incredible vegetarian dishes—pesto pasta (ensure no fish-based sauce), farinata, focaccia col formaggio, and numerous veggie-based antipasti. Most restaurants are happy to accommodate, though always mention dietary needs when booking."
         },
         {
-          "question": {
-            "en": "What's the dress code?"
-          },
-          "answer": {
-            "en": "Smart casual is fine for most restaurants. No swimwear or bare feet. Some upscale restaurants prefer slightly dressier attire."
-          }
+          "question": "Which village has the best restaurant scene?",
+          "answer": "Each village offers distinct experiences: Monterosso has the most options and fine dining; Vernazza delivers unbeatable harbor views; Corniglia offers the best value with locals' favorites; Manarola balances romance with quality; Riomaggiore surprises with innovative kitchens. Try multiple villages!"
         },
         {
-          "question": {
-            "en": "When do restaurants serve?"
-          },
-          "answer": {
-            "en": "Lunch: 12-3pm. Dinner: 7-10pm. Most close between meals. Many close one day per week, often Tuesday or Wednesday."
-          }
+          "question": "When is the best time to visit for food lovers?",
+          "answer": "Late spring (May-June) and early autumn (September-October) offer perfect weather, full seasonal menus, and fewer crowds. Summer brings energy but requires advance planning. Winter (November-March) sees many closures, but remaining restaurants offer intimate experiences with locals."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered-with-gradient",
-      "title": {
-        "en": "Ready to Discover Cinque Terre's Flavors?"
-      },
-      "subtitle": {
-        "en": "From seaside trattorias to village wine bars, find your perfect dining experience in the five villages."
-      },
+      "title": "Ready to Taste Cinque Terre?",
+      "subtitle": "Let our local dining experts craft the perfect culinary journey for your visit. From securing impossible-to-get reservations to arranging private cooking classes, we'll ensure every meal becomes a treasured memory.",
       "buttons": [
         {
-          "text": {
-            "en": "View All Restaurants"
-          },
-          "url": {
-            "en": "#restaurants"
-          },
+          "text": "Plan My Culinary Journey",
+          "url": "/contact",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Cinque Terre"
-          },
-          "url": {
-            "en": "/en/cinque-terre"
-          },
+          "text": "Browse All Restaurants",
+          "url": "/restaurants",
           "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "footer-section",
-      "variant": "4-column-simple",
-      "companyName": {
-        "en": "Cinqueterre.travel"
-      },
-      "companyDescription": {
-        "en": "Your complete guide to Italy's most beautiful coastal villages."
-      },
-      "copyright": {
-        "en": "© 2025 Cinqueterre.travel. All rights reserved."
-      },
-      "columns": [
-        {
-          "title": {
-            "en": "Villages"
-          },
-          "links": [
-            {
-              "label": {
-                "en": "Monterosso"
-              },
-              "url": {
-                "en": "/en/monterosso"
-              }
-            },
-            {
-              "label": {
-                "en": "Vernazza"
-              },
-              "url": {
-                "en": "/en/vernazza"
-              }
-            },
-            {
-              "label": {
-                "en": "Corniglia"
-              },
-              "url": {
-                "en": "/en/corniglia"
-              }
-            },
-            {
-              "label": {
-                "en": "Manarola"
-              },
-              "url": {
-                "en": "/en/manarola"
-              }
-            },
-            {
-              "label": {
-                "en": "Riomaggiore"
-              },
-              "url": {
-                "en": "/en/riomaggiore"
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "en": "Plan Your Trip"
-          },
-          "links": [
-            {
-              "label": {
-                "en": "Getting There"
-              },
-              "url": {
-                "en": "/en/transportation"
-              }
-            },
-            {
-              "label": {
-                "en": "Where to Stay"
-              },
-              "url": {
-                "en": "/en/accommodations"
-              }
-            },
-            {
-              "label": {
-                "en": "Hiking Trails"
-              },
-              "url": {
-                "en": "/en/hikes"
-              }
-            },
-            {
-              "label": {
-                "en": "Weather"
-              },
-              "url": {
-                "en": "/en/weather"
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "en": "Explore"
-          },
-          "links": [
-            {
-              "label": {
-                "en": "Restaurants"
-              },
-              "url": {
-                "en": "/en/restaurants"
-              }
-            },
-            {
-              "label": {
-                "en": "Events"
-              },
-              "url": {
-                "en": "/en/events"
-              }
-            },
-            {
-              "label": {
-                "en": "Points of Interest"
-              },
-              "url": {
-                "en": "/en/pois"
-              }
-            }
-          ]
-        },
-        {
-          "title": {
-            "en": "Resources"
-          },
-          "links": [
-            {
-              "label": {
-                "en": "Travel Guide"
-              },
-              "url": {
-                "en": "/en/cinque-terre"
-              }
-            },
-            {
-              "label": {
-                "en": "Contact Us"
-              },
-              "url": {
-                "en": "/en/contact"
-              }
-            }
-          ]
-        }
-      ],
-      "socialLinks": [
-        {
-          "platform": "instagram",
-          "url": {
-            "en": "https://instagram.com/cinqueterre"
-          }
-        },
-        {
-          "platform": "facebook",
-          "url": {
-            "en": "https://facebook.com/cinqueterre"
-          }
         }
       ]
     }
@@ -505,7 +253,7 @@
   "metadata": {
     "page_type": "collection"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-12T22:00:00.000Z",
-  "updated_at": "2025-12-13T06:28:49.844Z"
+  "updated_at": "2025-12-16T13:11:30.241Z"
 }

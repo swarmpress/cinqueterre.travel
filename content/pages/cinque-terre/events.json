@@ -7,223 +7,247 @@
     "it": "/it/cinque-terre/events"
   },
   "title": {
-    "en": "Events & Festivals in Cinque Terre 2025",
-    "de": "Veranstaltungen",
-    "fr": "Événements",
-    "it": "Eventi"
+    "en": "Cinque Terre Events & Festivals - Your Cultural Calendar"
   },
   "page_type": "events",
   "seo": {
     "title": {
-      "en": "Cinque Terre Events 2025 | Local Festivals & Cultural Celebrations"
+      "en": "Cinque Terre Events & Festivals | Cinqueterre.travel"
     },
     "description": {
-      "en": "Discover traditional festivals, religious celebrations, wine harvests, and cultural events in Cinque Terre throughout the year."
-    },
-    "keywords": {
-      "en": [
-        "cinque terre events",
-        "italian festivals",
-        "local celebrations",
-        "sagra",
-        "religious festivals",
-        "wine harvest",
-        "lemon festival"
-      ]
+      "en": "Experience authentic Italian culture through Cinque Terre's vibrant festivals, patron saint celebrations, harvest festivals, and underwater Christmas traditions."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Local Culture & Traditions",
-        "de": "Feste & Tradition",
-        "fr": "Festivités & Culture",
-        "it": "Tradizioni e Cultura"
-      },
-      "title": {
-        "en": "Cinque Terre Events & Festivals",
-        "de": "Veranstaltungen in Cinque Terre",
-        "fr": "Événements aux Cinque Terre",
-        "it": "Eventi e Feste nelle Cinque Terre"
-      },
-      "subtitle": {
-        "en": "Experience authentic Italian celebrations, traditional sagre, religious processions, and seasonal festivals throughout the year",
-        "de": "Erleben Sie authentische italienische Feste, religiöse Feiern und kulturelle Veranstaltungen in den fünf Dörfern. Von Weinfestivals bis zu traditionellen Prozessionen – tauchen Sie ein in die lebendige Kultur Liguriens.",
-        "fr": "Vivez la culture locale à travers fêtes traditionnelles, festivals gastronomiques et célébrations religieuses. Découvrez l'âme authentique de la Ligurie.",
-        "it": "Sagre patronali, feste religiose millenarie, eventi enogastronomici e celebrazioni tradizionali. Vivi l'autenticità della cultura ligure attraverso gli eventi che scandiscono l'anno."
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "eyebrow": "Cultural Experiences",
+      "title": "Where Ancient Traditions Meet Mediterranean Magic",
+      "subtitle": "From underwater Christmas ceremonies to harvest celebrations, discover the festivals that bring Cinque Terre's timeless villages to life through centuries-old traditions and community spirit.",
       "buttons": [
         {
-          "text": {
-            "en": "View Event Calendar",
-            "de": "Veranstaltungskalender",
-            "fr": "Calendrier Annuel",
-            "it": "Calendario"
-          },
-          "url": {
-            "en": "#events",
-            "de": "#events",
-            "fr": "#calendrier",
-            "it": "#calendario"
-          },
+          "text": "Browse Events",
+          "url": "#events",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Things to Do",
-            "de": "Reiseplanung",
-            "fr": "Fêtes Patronales",
-            "it": "Tradizioni"
-          },
-          "url": {
-            "en": "/en/cinque-terre/things-to-do",
-            "de": "/de/cinque-terre/getting-here",
-            "fr": "#fetes",
-            "it": "#tradizioni"
-          },
+          "text": "Plan Your Visit",
+          "url": "/contact",
           "variant": "secondary"
         }
       ]
     },
     {
+      "type": "stats-section",
+      "stats": [
+        {
+          "number": "103",
+          "label": "Annual Events",
+          "description": "From intimate village celebrations to coast-wide festivals"
+        },
+        {
+          "number": "5",
+          "label": "Village Traditions",
+          "description": "Each village maintains its unique patron saint festivities"
+        },
+        {
+          "number": "12",
+          "label": "Months of Magic",
+          "description": "Year-round celebrations capture every season's beauty"
+        },
+        {
+          "number": "800+",
+          "label": "Years of Heritage",
+          "description": "Living traditions passed down through generations"
+        }
+      ]
+    },
+    {
+      "type": "collection-embed",
+      "collectionType": "events",
+      "heading": "Featured Events & Festivals",
+      "headingLevel": 2,
+      "items": [
+        {
+          "slug": "festa-san-pietro-corniglia",
+          "title": "Feast of San Pietro",
+          "summary": "Traditional patron saint festival with processions and famous cake",
+          "url": "/festa-san-pietro-corniglia",
+          "category": "religious",
+          "village": "corniglia",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "festa-della-madonna-assunta",
+          "title": "Feast of the Assumption of Mary",
+          "summary": "Experience Manarola's most sacred tradition with procession through the village streets.",
+          "url": "/festa-della-madonna-assunta",
+          "category": "religious",
+          "village": "manarola",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "festa-san-giovanni-battista-riomaggiore",
+          "title": "Feast of San Giovanni Battista",
+          "summary": "Experience Riomaggiore's most important religious celebration",
+          "url": "/festa-san-giovanni-battista-riomaggiore",
+          "category": "religious",
+          "village": "riomaggiore",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "festa-di-santa-margherita",
+          "title": "Saint Margaret Festival",
+          "summary": "Experience Vernazza's most beloved celebration honoring Saint Margaret with spectacular processions and fireworks.",
+          "url": "/festa-di-santa-margherita",
+          "category": "religious",
+          "village": "vernazza",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "rimazu-folk-festival-riomaggiore",
+          "title": "Rimazû Folk Festival",
+          "summary": "Week-long folk music festival celebrating Ligurian dialect and Mediterranean culture, featuring reggae, folk music, storytelling ballads, and contemporary songwriting with Sciacchetrà wine tastings.",
+          "url": "/rimazu-folk-festival-riomaggiore",
+          "category": "music",
+          "village": "riomaggiore",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "natale-subacqueo",
+          "title": "Underwater Christmas",
+          "summary": "Unique Christmas tradition where divers retrieve a statue of Baby Jesus from underwater and carry it in procession to the church for Christmas Mass.",
+          "url": "/natale-subacqueo",
+          "category": "religious",
+          "village": "vernazza",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "corniglia-harvest-festival",
+          "title": "Harvest Festival Corniglia",
+          "summary": "Traditional grape harvest with famous Vernaccia wine tastings",
+          "url": "/corniglia-harvest-festival",
+          "category": "food_wine",
+          "village": "corniglia",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "festa-del-limone-monterosso",
+          "title": "Monterosso Lemon Festival",
+          "summary": "Discover the sweet and sour treasures of Monterosso's legendary lemons",
+          "url": "/festa-del-limone-monterosso",
+          "category": "food_wine",
+          "village": "monterosso",
+          "data": {
+            "featured": true
+          }
+        }
+      ],
+      "display": {
+        "layout": "grid",
+        "columns": 3,
+        "showImage": true,
+        "showSummary": true,
+        "imageAspect": "landscape"
+      },
+      "showViewAll": true,
+      "viewAllUrl": "/events"
+    },
+    {
+      "type": "content-section",
+      "variant": "text-with-image",
+      "image": "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcHJvY2Vzc2lvbiUyMGZlc3RpdmFsJTIwY2VsZWJyYXRpb258ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=800",
+      "title": "The Soul of Cinque Terre Lives in Its Celebrations",
+      "content": "Each village pulses with its own rhythm of celebration, where ancient patron saint festivals transform narrow medieval streets into theaters of devotion and joy. Watch as processions wind through terraced vineyards, carrying centuries-old statues blessed by Mediterranean salt air. The magic intensifies as twilight falls—lanterns flicker against pastel facades while traditional songs echo between stone walls.\n\nFrom Vernazza's underwater Christmas miracle to Corniglia's harvest bounty, these aren't tourist performances but living traditions where three generations gather, recipes are passed down, and the line between sacred and celebratory beautifully blurs. Time your visit with these festivals, and you'll witness the authentic heart of Ligurian culture beating strongest."
+    },
+    {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Annual Celebrations",
-        "de": "Jährliche Highlights",
-        "fr": "Événements Majeurs",
-        "it": "Eventi Principali"
-      },
-      "title": {
-        "en": "Traditional Festivals & Events",
-        "de": "Traditionelle Feste",
-        "fr": "Festivités Annuelles",
-        "it": "Le Celebrazioni dell'Anno"
-      },
+      "title": "Festival Seasons & Experiences",
+      "subtitle": "Discover the perfect celebration for every season",
       "features": [
         {
-          "icon": "calendar",
-          "title": {
-            "en": "Lemon Festival (Monterosso)",
-            "de": "Festa dell'Uva (September)",
-            "fr": "Fête de San Giovanni (24 Juin)",
-            "it": "Luminaria di Manarola"
-          },
-          "description": {
-            "en": "Mid-May celebration of local citrus with tastings, products, and traditional lemon-themed dishes",
-            "de": "Weinfest in Monterosso mit Traubenernte-Feier, Weinproben und traditioneller Musik.",
-            "fr": "Monterosso célèbre son saint patron avec feux d'artifice et processions nocturnes spectaculaires.",
-            "it": "8 dicembre: il presepe luminoso più grande del mondo. 300 figure illuminate sui terrazzamenti. Spettacolo unico."
-          }
+          "icon": "🌸",
+          "title": "Spring Awakenings",
+          "description": "Easter processions and patron saint festivals mark the season of renewal, with flower-adorned altars and traditional benedictions overlooking terraced vineyards."
         },
         {
-          "icon": "star",
-          "title": {
-            "en": "Feast of San Giovanni",
-            "de": "Festa di San Giovanni (24. Juni)",
-            "fr": "Festa della Madonna Bianca (5 Août)",
-            "it": "Festa del Limone"
-          },
-          "description": {
-            "en": "June 24th celebration in Monterosso and Riomaggiore with fireworks, processions, and festivities",
-            "de": "Patronatsfest in Monterosso mit Prozession, Feuerwerk und Festbeleuchtung am Hafen.",
-            "fr": "Grande fête à Portovenere avec illuminations marines et procession de bateaux.",
-            "it": "Maggio, Monterosso: celebrazione del famoso limone gigante. Degustazioni, mercatini, prodotti tipici."
-          }
+          "icon": "☀️",
+          "title": "Summer Celebrations",
+          "description": "Village squares come alive with outdoor concerts, seafood festivals, and the magical Saint Margaret festivities complete with spectacular fireworks over the harbor."
         },
         {
-          "icon": "grape",
-          "title": {
-            "en": "Wine Harvest Festivals",
-            "de": "Presepe di Manarola (Dezember)",
-            "fr": "Fête des Vendanges (Sept-Oct)",
-            "it": "Fuochi di San Giovanni"
-          },
-          "description": {
-            "en": "September-October celebrations of Sciacchetrà and Cinque Terre DOC wines with tastings and events",
-            "de": "Weltgrößte beleuchtete Krippe am Hang – über 15.000 Lichter erschaffen ein magisches Spektakel.",
-            "fr": "Célébration de la récolte du raisin avec dégustations de vin et produits locaux.",
-            "it": "24 giugno, Riomaggiore: spettacolo pirotecnico sul mare. Tradizione centenaria con musica e festa fino all'alba."
-          }
+          "icon": "🍇",
+          "title": "Harvest Traditions",
+          "description": "September and October bring vendemmia celebrations, where ancient winemaking traditions blend with contemporary tastings and grape stomping ceremonies."
         },
         {
-          "icon": "fish",
-          "title": {
-            "en": "Anchovy Festivals",
-            "de": "Festa di Santa Margherita (Juli)",
-            "fr": "Festival de Musique (Juillet-Août)",
-            "it": "Festa dell'Uva"
-          },
-          "description": {
-            "en": "Spring and fall celebrations honoring the local fishing tradition with seafood feasts",
-            "de": "Traditionelles Fest in Vernazza mit Prozession, Live-Musik und Straßenfeier.",
-            "fr": "Concerts de musique classique et jazz dans églises et places des villages.",
-            "it": "Settembre: celebrazione della vendemmia. Degustazioni di Sciacchetrà, musica tradizionale, balli folkloristici."
-          }
+          "icon": "🎄",
+          "title": "Winter Miracles",
+          "description": "The mystical underwater Christmas ceremony in Vernazza represents one of Italy's most unique holiday traditions, followed by candlelit processions through village streets."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "title": "Festival Planning Essentials",
+      "faqs": [
+        {
+          "question": "When are the best festivals to experience in Cinque Terre?",
+          "answer": "The most spectacular celebrations occur during summer patron saint festivals (June-September), autumn harvest festivals (September-October), and the unique underwater Christmas ceremony in December. Each season offers distinct experiences, from outdoor concerts with sea views to intimate wine tastings in ancient cellars."
         },
         {
-          "icon": "music",
-          "title": {
-            "en": "Summer Concerts",
-            "de": "Sommerkonzerte",
-            "fr": "Nuit de la Saint-Laurent (10 Août)",
-            "it": "Sagre del Pesce"
-          },
-          "description": {
-            "en": "Open-air classical and traditional music performances in village squares and churches",
-            "de": "Klassische Konzerte und Jazz-Events in historischen Kirchen und auf Piazzas.",
-            "fr": "Observation des étoiles filantes depuis les plages et terrasses panoramiques.",
-            "it": "Estate: ogni villaggio celebra il pescato locale. Fritture, acciughe, specialità marinare a prezzi popolari."
-          }
+          "question": "Do I need reservations for festival events?",
+          "answer": "Most traditional patron saint festivals and processions are free and open to all. However, special events like harvest dinners, wine tastings, and concerts often require advance booking, especially during peak summer months. We recommend securing spots for exclusive experiences 2-3 weeks ahead."
         },
         {
-          "icon": "heart",
-          "title": {
-            "en": "Christmas Markets",
-            "de": "Sagre (Food Festivals)",
-            "fr": "Sagre Gastronomiques (Toute l'année)",
-            "it": "Processioni Patronali"
-          },
-          "description": {
-            "en": "December festivities with nativity scenes, local crafts, and traditional holiday foods",
-            "de": "Lokale Spezialitäten-Feste mit Anchovis, Pesto und frischer Pasta in jedem Dorf.",
-            "fr": "Fêtes célébrant spécialités locales : anchois, pesto, focaccia, limoncino.",
-            "it": "Ogni villaggio ha il suo santo patrono. Processioni storiche, luminarie, musica e fuochi d'artificio."
-          }
+          "question": "Are festivals suitable for families with children?",
+          "answer": "Absolutely! Many festivals are family-centered community celebrations where children play active roles. Harvest festivals include grape stomping activities, while patron saint processions create magical experiences for young ones. Evening events typically end by 10 PM, perfect for family schedules."
+        },
+        {
+          "question": "What should I wear to participate in festivals?",
+          "answer": "Dress comfortably for walking on uneven stone surfaces, with layers for temperature changes from day to evening. Religious processions appreciate modest attire. Bring comfortable walking shoes and a light jacket for evening celebrations, as coastal breezes can be cool even in summer."
+        },
+        {
+          "question": "How do I photograph festivals respectfully?",
+          "answer": "During religious ceremonies, be discreet and avoid flash photography near altars or during prayers. The golden hour before sunset creates stunning light for procession photos. Ask permission before photographing locals up close, and remember that participation often yields better shots than passive observation."
+        },
+        {
+          "question": "Can I taste local specialties at festivals?",
+          "answer": "Festival food is often the highlight! Each celebration features regional specialties—from Corniglia's famous torta during San Pietro to fresh seafood at summer festivals. Local wine, including the prized Sciacchetrà dessert wine, accompanies most celebrations. Many events include communal meals or food stalls with authentic preparations."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Visit Around Local Events",
-        "de": "Veranstaltungen in Zahlen",
-        "fr": "Calendrier Saisonnier",
-        "it": "Eventi per Stagione"
-      },
-      "description": {
-        "en": "Experience Cinque Terre's authentic culture and traditions during festivals and celebrations"
-      },
+      "variant": "centered",
+      "eyebrow": "Ready to Experience",
+      "title": "Join the Celebration",
+      "subtitle": "From sacred processions to harvest festivities, discover which events align with your travel dates. Our local expertise ensures you experience the most authentic celebrations and hidden festival moments that transform your Cinque Terre journey into an unforgettable cultural immersion.",
       "buttons": [
         {
-          "text": {
-            "en": "Best Time to Visit"
-          },
-          "url": {
-            "en": "/en/cinque-terre/weather"
-          },
+          "text": "Plan My Festival Experience",
+          "url": "/contact",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Overview"
-          },
-          "url": {
-            "en": "/en/cinque-terre/overview"
-          },
+          "text": "View All Events",
+          "url": "/events",
           "variant": "secondary"
         }
       ]
@@ -233,7 +257,7 @@
     "city": "cinque-terre",
     "page_type": "events"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.829Z"
+  "updated_at": "2025-12-16T10:44:22.197Z"
 }

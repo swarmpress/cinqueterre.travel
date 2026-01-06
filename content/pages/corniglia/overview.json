@@ -7,218 +7,152 @@
     "it": "/it/corniglia/overview"
   },
   "title": {
-    "en": "Corniglia - The Hidden Gem of Cinque Terre",
-    "de": "Corniglia - Das versteckte Juwel der Cinque Terre",
-    "fr": "Aperçu",
-    "it": "Panoramica"
+    "en": "Discovering Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "overview",
   "seo": {
     "title": {
-      "en": "Corniglia Travel Guide 2025 | The Village Above the Sea",
-      "de": "Corniglia Reiseführer 2025 | Das Dorf über dem Meer"
+      "en": "Discovering Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Corniglia, Cinque Terre's hidden gem perched high on cliffs. The only village without direct sea access, reached by the famous 382-step Lardarina staircase, surrounded by vineyards.",
-      "de": "Entdecken Sie Corniglia, das versteckte Juwel der Cinque Terre hoch auf den Klippen. Das einzige Dorf ohne direkten Meerzugang, erreichbar über die berühmte Lardarina-Treppe mit 382 Stufen."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia",
-        "Cinque Terre",
-        "Lardarina steps",
-        "Italian vineyards",
-        "peaceful Italy",
-        "cliff village"
-      ],
-      "de": [
-        "Corniglia",
-        "Cinque Terre",
-        "Lardarina Treppe",
-        "italienische Weinberge",
-        "ruhiges Italien"
-      ]
+      "en": "The village that makes you earn it—377 steps separate Corniglia from the casual visitor, and those steps create a threshold between tourism and something more authentic."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80",
-      "eyebrow": {
-        "en": "The Village Above the Sea",
-        "de": "Das Dorf über dem Meer",
-        "it": "Scopri il Villaggio"
-      },
-      "title": {
-        "en": "Corniglia",
-        "de": "Corniglia",
-        "it": "Panoramica di Corniglia"
-      },
-      "subtitle": {
-        "en": "Perched 100 meters above the Mediterranean, Corniglia is Cinque Terre's most peaceful village. The only one without direct sea access, reached by climbing the legendary 382-step Lardarina staircase. Surrounded by terraced vineyards producing excellent white wine.",
-        "de": "100 Meter über dem Mittelmeer thront Corniglia als friedlichstes Dorf der Cinque Terre. Das einzige ohne direkten Meerzugang, erreichbar über die legendäre Lardarina-Treppe mit 382 Stufen. Umgeben von Weinbergterrassen mit exzellentem Weißwein.",
-        "it": "Tutto quello che devi sapere su corniglia. Storia, caratteristiche, cosa vedere, dove mangiare e dormire. La guida completa per pianificare la tua visita."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "The Village<br/>Above the Sea",
+      "subtitle": "Corniglia doesn't greet you at sea level like its neighbors. It sits 100 meters above the waves, connected to the train station by 377 steps that have sorted visitors since 1876. Those who climb discover what the others miss: a village that kept its agricultural soul.",
+      "badge": "Village Overview",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Elevated Village",
+      "quote": "Corniglia is the only village of the five without a harbor—and that fact shaped everything. While the others looked to the sea, Corniglia looked to the terraces. Wine, not fish, built this village. The elevation that isolates it also protected it.",
+      "content": [
+        "**The stairs change everything**. The 377 steps of the Lardarina stairway aren't just transportation—they're a filter. Cruise ship passengers with tight schedules skip Corniglia. Day-trippers in a hurry move on to easier villages. What remains is quieter, more intentional, more authentic.",
+        "**The terraces define the landscape**. Roman settlers recognized this promontory's perfect southern exposure and built the first terraces for wine. Two millennia later, those terraces still produce grapes—and walking among them feels like walking through history.",
+        "**The village is compact**. Via Fieschi runs through the center, connecting piazza to terrace overlook. Everything important happens along this spine: morning coffee, afternoon gelato, evening aperitivo, the small exchanges that make village life.",
+        "**The views reward the climb**. From Largo Taragio, you can see north to Vernazza, south toward Manarola, and across the water toward places that feel impossibly far from this quiet hilltop."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
         {
-          "text": {
-            "en": "Plan Your Visit",
-            "de": "Besuch planen",
-            "it": "Cosa Vedere"
-          },
-          "url": {
-            "en": "#visit",
-            "de": "#visit",
-            "it": "/it/corniglia/sights"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "The Lardarina Climb",
+          "category": "Arrival Experience",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1605540436563-5bca919ae766-regular.jpg",
+          "intro": "377 steps zigzag up from the station—each switchback revealing more of the coastline until you emerge at the village gates.",
+          "description": "Built in 1876 when the railway arrived, the Lardarina transforms arrival into ritual. There are benches at intervals for catching your breath and appreciating how far you've come. Fifteen minutes of effort earns entrance to a village that tourist buses can't reach.",
+          "giuliaComment": "I've climbed these stairs thousands of times, and I still pause at the top to appreciate the view. Tourists ask if there's an easier way—there's a small shuttle bus, but it runs irregularly and misses the point. The climb is how Corniglia wants to be entered.",
+          "signature": "Where the climb becomes the welcome"
         },
         {
-          "text": {
-            "en": "Things to Do",
-            "de": "Aktivitäten",
-            "it": "Pianifica Visita"
-          },
-          "url": {
-            "en": "/en/corniglia/things-to-do",
-            "de": "/de/corniglia/things-to-do",
-            "it": "/it/corniglia/getting-here"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "Via Fieschi",
+          "category": "Village Heart",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-regular.jpg",
+          "intro": "The main street threads through the village—alimentari, bars, and the quiet rhythm of daily life happening in the narrowest of spaces.",
+          "description": "Via Fieschi isn't scenic in the postcard sense. It's a working street where locals shop, children play, and life happens. The alimentari stocks what families need, the bars serve morning coffee to the same faces, and the afternoon quiet is real, not staged.",
+          "giuliaComment": "My grandmother knew everyone on Via Fieschi. I still know most of them. The village is small enough that anonymity doesn't exist—a blessing when you need help, a constraint when you want privacy. This is how villages work.",
+          "signature": "Where the village lives"
+        },
+        {
+          "id": 3,
+          "name": "Largo Taragio",
+          "category": "Panoramic Terrace",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1578662996442-48f60103fc96-regular.jpg",
+          "intro": "The main terrace opens to 360-degree views—north to Vernazza, south toward the sea, and across terraces that seem to cascade into infinity.",
+          "description": "This is where visitors end up, cameras in hand, trying to capture what cameras can't. The light changes constantly—morning mist, midday brilliance, golden sunset, moonlit silver. Each visit to the same spot reveals a different coastline.",
+          "giuliaComment": "I come here at different hours just to see how the view changes. Dawn is spectacular but requires commitment. Sunset is crowded but worth sharing. The best hour is the one after sunset, when visitors leave and locals reclaim the terrace.",
+          "signature": "Where horizons extend forever"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Village Without a Harbor",
+          "quote": "Every other Cinque Terre village has a harbor—boats, swimming, the constant presence of the sea at close range. Corniglia's relationship with the water is different: visible but distant, admired but not touched. This creates a different rhythm, one focused on land rather than sea."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Why Visit Corniglia",
-        "de": "Warum Corniglia besuchen",
-        "it": "A Colpo d'Occhio"
-      },
-      "title": {
-        "en": "Authentic Cinque Terre Experience",
-        "de": "Authentisches Cinque Terre Erlebnis",
-        "it": "Corniglia in Numeri"
-      },
-      "subtitle": {
-        "en": "Fewer crowds, local atmosphere, stunning panoramic views.",
-        "de": "Weniger Touristen, lokale Atmosphäre, atemberaubende Panoramablicke."
-      },
-      "features": [
+      "type": "editorial-intro",
+      "badge": "The Wine Heritage",
+      "quote": "The Romans called this wine 'cornelia' and shipped it across the empire. Two thousand years later, the terraces they built still produce grapes, and Corniglia still defines itself by viticulture more than any other village.",
+      "content": [
+        "**Sciacchetrà is the treasure**. This dessert wine, made from grapes dried on the terraces, represents centuries of accumulated knowledge. Production is tiny—a few hundred bottles per family—and tasting it here means understanding what the landscape produces.",
+        "**The terraces require constant work**. Every dry-stone wall needs maintenance. Every storm damages something. The families who maintain these terraces do work that machines can't do, on slopes that defy logic.",
+        "**Wine shapes the calendar**. Pruning in spring, watching in summer, harvest in September. The village's rhythm follows the vines, not the tourist season. Visiting during harvest means seeing Corniglia as it's always been.",
+        "**Local wine is everywhere**. The bars pour wine from families who live in the village. The restaurants serve bottles made on the terraces visible through their windows. The connection between glass and land is immediate."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "activity",
+      "items": [
         {
-          "icon": "stairs",
-          "title": {
-            "en": "The Lardarina Staircase",
-            "de": "Die Lardarina-Treppe"
-          },
-          "description": {
-            "en": "Famous 382-step brick staircase climbing from the train station to the village. A rite of passage for every visitor.",
-            "de": "Berühmte Ziegeltreppe mit 382 Stufen vom Bahnhof zum Dorf. Ein Initiationsritus für jeden Besucher."
-          }
+          "id": 4,
+          "name": "Wine Tasting",
+          "category": "Local Experience",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506377247377-2a5b3b417ebb-regular.jpg",
+          "intro": "Stone cellars carved into the hillside hold the village's liquid heritage—wines you can't find elsewhere, made by families you might meet.",
+          "description": "Cantina de Mananan offers tastings in a cellar that's been storing wine for centuries. The Cinque Terre DOC whites are crisp and mineral; the rare Sciacchetrà is golden, complex, worth the splurge. The explanations connect each glass to specific terraces visible outside.",
+          "giuliaComment": "I grew up thinking everyone had a cantina full of wine. It wasn't until I left that I understood how unusual this is—families making their own wine from their own terraces, as they've done for generations. The tastings here share something precious.",
+          "signature": "Where terraces become wine"
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Ancient Vineyards",
-            "de": "Alte Weinberge"
-          },
-          "description": {
-            "en": "Surrounded by terraced vineyards producing Vernaccia white wine. The agricultural heart of Cinque Terre.",
-            "de": "Umgeben von Weinbergterrassen mit Vernaccia-Weißwein. Das landwirtschaftliche Herz der Cinque Terre."
-          }
-        },
+          "id": 5,
+          "name": "Terrace Walking",
+          "category": "Landscape Immersion",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1474224017046-182ece80b263-regular.jpg",
+          "intro": "The paths between terraces offer perspectives the main trails miss—intimate encounters with dry-stone walls, vines, and the engineering genius of centuries.",
+          "description": "You can walk the main Sentiero Azzurro or explore the secondary paths that wind through active vineyards. The secondary paths are quieter, steeper, and more revealing. You'll pass farmers at work, encounter tools unchanged since Roman times, and understand why UNESCO protected this landscape.",
+          "giuliaComment": "The tourist trail is beautiful but sanitized. The real landscape is the working one—the terraces where my neighbors still grow grapes, the walls they repair every winter, the paths worn by generations of farmers. Ask permission before entering private terraces, and most families will let you explore.",
+          "signature": "Where history is still being worked"
+        }
+      ],
+      "interludes": [
         {
-          "icon": "peace",
-          "title": {
-            "en": "Peaceful Atmosphere",
-            "de": "Friedliche Atmosphäre"
-          },
-          "description": {
-            "en": "Fewest tourists of all five villages. Experience authentic local life away from the crowds.",
-            "de": "Die wenigsten Touristen aller fünf Dörfer. Erleben Sie authentisches Dorfleben abseits der Massen."
-          }
-        },
-        {
-          "icon": "view",
-          "title": {
-            "en": "Panoramic Terraces",
-            "de": "Panoramaterrassen"
-          },
-          "description": {
-            "en": "Breathtaking 360-degree views from the clifftop position. See three other villages from various viewpoints.",
-            "de": "Atemberaubende 360-Grad-Ausblicke von der Klippenposition. Sehen Sie drei andere Dörfer von verschiedenen Aussichtspunkten."
-          }
-        },
-        {
-          "icon": "hiking",
-          "title": {
-            "en": "Best Hiking Access",
-            "de": "Bester Wanderzugang"
-          },
-          "description": {
-            "en": "Central position makes it ideal for hiking to other villages. Well-connected to all major trails.",
-            "de": "Zentrale Lage ideal für Wanderungen zu anderen Dörfern. Gut verbunden mit allen Hauptwegen."
-          }
-        },
-        {
-          "icon": "food",
-          "title": {
-            "en": "Local Cuisine",
-            "de": "Lokale Küche"
-          },
-          "description": {
-            "en": "Traditional trattorias serving local families for generations. Authentic recipes without tourist markup.",
-            "de": "Traditionelle Trattorien, die seit Generationen lokale Familien bedienen. Authentische Rezepte ohne Touristenaufschlag."
-          }
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Quiet Village Secret",
+          "quote": "Corniglia's visitors tend to be different—less hurried, more curious, willing to climb. The stairs filter out the cruise ship crowds. What remains is calmer, more conversational, more like what the village was before tourism."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered-with-gradient",
-      "title": {
-        "en": "Experience the Real Cinque Terre",
-        "de": "Erleben Sie das echte Cinque Terre",
-        "it": "Cosa Rende Speciale Questo Borgo"
-      },
-      "subtitle": {
-        "en": "Climb the Lardarina, taste local wine, and discover why Corniglia rewards those who make the effort.",
-        "de": "Erklimmen Sie die Lardarina, probieren Sie lokalen Wein und entdecken Sie, warum Corniglia diejenigen belohnt, die sich die Mühe machen.",
-        "it": "Caratteristiche uniche e attrattive principali."
-      },
+      "type": "closing-note",
+      "title": "The Village That Makes You Earn It",
+      "content": [
+        "Corniglia isn't for everyone, and it knows this. The stairs, the elevation, the lack of a beach—these aren't flaws to be overcome but characteristics to be appreciated. The village has chosen what kind of visitors it wants.",
+        "Come prepared to climb. Come prepared to slow down. Come prepared to taste wines from terraces you can see, to eat food from gardens you can visit, to experience a village that still works the way villages worked for centuries.",
+        "The 377 steps are an invitation, not an obstacle. Those who accept discover Corniglia's secret: that the hardest village to reach is often the most rewarding to find."
+      ],
       "buttons": [
-        {
-          "text": {
-            "en": "View Accommodations",
-            "de": "Unterkünfte ansehen"
-          },
-          "url": {
-            "en": "/en/corniglia/hotels",
-            "de": "/de/corniglia/hotels"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Hiking Trails",
-            "de": "Wanderwege"
-          },
-          "url": {
-            "en": "/en/corniglia/hiking",
-            "de": "/de/corniglia/hiking"
-          },
-          "variant": "secondary"
-        }
+        { "text": "Where to Stay", "url": "/en/corniglia/hotels", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/corniglia/getting-here", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "overview"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.834Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

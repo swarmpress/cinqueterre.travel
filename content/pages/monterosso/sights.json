@@ -7,185 +7,161 @@
     "it": "/it/monterosso/sights"
   },
   "title": {
-    "en": "Sights & Attractions in Monterosso",
-    "de": "Sehenswürdigkeiten in Monterosso - Top Attraktionen",
-    "fr": "Sites et Attractions de Monterosso",
-    "it": "Cosa Vedere a Monterosso"
+    "en": "Top Attractions & Sights in Monterosso al Mare"
   },
   "page_type": "sights",
   "seo": {
     "title": {
-      "en": "Monterosso Attractions 2025 | Beaches, Old Town & Giant Statue",
-      "de": "Sehenswürdigkeiten in Monterosso - Top Attraktionen",
-      "fr": "Sites à Voir à Monterosso - Monuments et Attractions Principales",
-      "it": "Attrazioni Monterosso - Cosa Vedere alle Cinque Terre"
+      "en": "Best Monterosso Sights & Attractions | Cinque Terre Travel"
     },
     "description": {
-      "en": "Discover what to see in Monterosso. Sandy beaches, historic old town, Il Gigante statue, and medieval churches.",
-      "de": "Die wichtigsten Sehenswürdigkeiten in Monterosso al Mare. Aurora-Turm, Kapuzinerkloster, Kirchen und spektakuläre Aussichtspunkte.",
-      "fr": "Guide des attractions incontournables de Monterosso : Géant de Neptune, églises historiques, tours médiévales et panoramas exceptionnels.",
-      "it": "Le principali attrazioni di Monterosso al Mare: Chiesa di San Giovanni Battista, Torre Aurora, Gigante, Convento dei Cappuccini e centro storico medievale."
-    },
-    "keywords": {
-      "en": [
-        "Monterosso attractions",
-        "Il Gigante",
-        "what to see Monterosso",
-        "old town"
-      ],
-      "de": "monterosso sehenswürdigkeiten, monterosso attraktionen, monterosso sights, monterosso highlights",
-      "fr": "attractions monterosso, géant neptune, églises monterosso, monuments cinque terre",
-      "it": "attrazioni monterosso, cosa vedere, chiesa san giovanni, torre aurora, il gigante, centro storico"
+      "en": "Discover Monterosso's historic monasteries, stunning beaches, and cultural treasures. Complete guide to the largest Cinque Terre village's must-see sights."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Monterosso al Mare"
-      },
-      "title": {
-        "en": "Sights & Attractions",
-        "de": "Sehenswürdigkeiten in Monterosso"
-      },
-      "subtitle": {
-        "en": "From sandy beaches to medieval towers. Discover the largest and most diverse village in Cinque Terre.",
-        "de": "Entdecken Sie historische Kirchen, den Aurora-Turm und malerische Aussichtspunkte"
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1595846519845-68e298c2edd8-hero.jpg",
+      "eyebrow": "Monterosso al Mare",
+      "title": "Where Medieval Grandeur Meets Coastal Beauty",
+      "subtitle": "Explore centuries of history in the largest Cinque Terre village, where Benedictine monasteries overlook pristine beaches and Nobel Prize-winning poets found their muse.",
       "buttons": [
         {
-          "text": {
-            "en": "View All Sights",
-            "fr": "Guide complet"
-          },
-          "url": {
-            "en": "#list"
-          },
+          "text": "Plan Your Visit",
+          "url": "#planning",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Monterosso"
-          },
-          "url": {
-            "en": "/en/monterosso"
-          },
+          "text": "View All Villages",
+          "url": "/villages",
           "variant": "secondary"
         }
       ]
     },
     {
+      "type": "stats-section",
+      "variant": "four-column",
+      "stats": [
+        {
+          "number": "643",
+          "unit": "CE",
+          "label": "First documented in Lombard records"
+        },
+        {
+          "number": "1056",
+          "unit": "",
+          "label": "Benedictine monastery established"
+        },
+        {
+          "number": "5",
+          "unit": "beaches",
+          "label": "Including Cinque Terre's largest"
+        },
+        {
+          "number": "1",
+          "unit": "Nobel laureate",
+          "label": "Poet Eugenio Montale's summer retreat"
+        }
+      ]
+    },
+    {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Must See"
-      },
-      "title": {
-        "en": "Top Attractions"
-      },
+      "variant": "three-column",
+      "eyebrow": "Historic Treasures",
+      "title": "Monterosso's Must-See Cultural Sights",
+      "subtitle": "From ancient monasteries to literary landmarks, discover the cultural heritage that makes Monterosso the historic heart of Cinque Terre.",
       "features": [
         {
-          "icon": "beach",
-          "title": {
-            "en": "Sandy Beaches"
-          },
-          "description": {
-            "en": "Only sandy beaches in Cinque Terre. Both free and paid sections.",
-            "de": "Der imposante Wehrturm aus dem 16. Jahrhundert markiert die Grenze zwischen Alt- und Neustadt.",
-            "fr": "Statue colossale de 14 mètres représentant Neptune, sculptée en 1910. Symbole emblématique de Monterosso surplombant la mer.",
-            "it": "Cattedrale gotico-ligure del XIII secolo con facciata a strisce bianche e nere. Rosone splendido."
-          }
-        },
-        {
-          "icon": "statue",
-          "title": {
-            "en": "Il Gigante"
-          },
-          "description": {
-            "en": "14-meter Neptune statue on the rocks. Historic landmark.",
-            "de": "Historisches Kloster auf dem Hügel mit Van Dyck-Gemälden und spektakulärem Meerblick.",
-            "fr": "Chef-d'œuvre gothique-ligurien du XIVe siècle avec sa façade rayée en marbre blanc et vert. Magnifique rosace.",
-            "it": "Statua monumentale di 14 metri sulla scogliera. Simbolo del villaggio, resti di villa liberty."
-          }
-        },
-        {
           "icon": "church",
-          "title": {
-            "en": "San Giovanni Battista"
-          },
-          "description": {
-            "en": "13th-century Gothic church with striped marble facade.",
-            "de": "Gotisch-ligurische Kirche aus dem 14. Jahrhundert mit schöner Rosette an der Fassade.",
-            "fr": "Monastère du XVIIe siècle perché sur la colline avec cloître paisible et tableaux de Van Dyck. Vue panoramique exceptionnelle.",
-            "it": "Torre medievale del XVI secolo, parte del sistema difensivo. Oggi torre campanaria privata."
-          }
+          "title": "San Giovanni Battista Church",
+          "description": "Marvel at the Gothic-Ligurian striped facade and rose window of this 13th-century masterpiece, housing precious medieval frescoes and the miraculous Salus Infirmorum Madonna."
         },
         {
           "icon": "castle",
-          "title": {
-            "en": "Aurora Tower"
-          },
-          "description": {
-            "en": "Medieval watchtower dividing old and new town.",
-            "de": "Monumentale Neptun-Statue aus dem 20. Jahrhundert - ein ikonisches Fotomotiv.",
-            "fr": "Tour médiévale du XVIe siècle, vestige des fortifications contre les pirates sarrasins. Centre de la vieille ville.",
-            "it": "Monastero del XVII secolo sulla collina. Chiostro, chiesa e vista panoramica. Opere di Van Dyck."
-          }
+          "title": "Aurora Tower & Medieval Fortifications",
+          "description": "Climb the 16th-century watchtower for panoramic views of all five villages, then explore the remaining medieval walls that once protected against Saracen raids."
         },
         {
-          "icon": "history",
-          "title": {
-            "en": "Old Town"
-          },
-          "description": {
-            "en": "Narrow medieval streets and hidden piazzas.",
-            "de": "Malerische Carruggi (enge Gassen) mit bunten Häusern, Bögen und kleinen Plätzen.",
-            "fr": "Le plus ancien sanctuaire marial des Cinque Terre (XIe siècle), accessible par randonnée. Vue spectaculaire sur la côte.",
-            "it": "Cappella barocca con teschio e ossa sulla facciata. Affreschi e arredi sacri del XVIII secolo."
-          }
+          "icon": "monastery",
+          "title": "Convento dei Cappuccini",
+          "description": "Visit the 17th-century Capuchin monastery perched above Monterosso, home to Van Dyck's stunning Crucifixion and peaceful cloisters overlooking the sea."
         },
         {
-          "icon": "view",
-          "title": {
-            "en": "Fegina Promenade"
-          },
-          "description": {
-            "en": "Beachfront walk with cafes and stunning views.",
-            "de": "Felsvorsprung mit Leuchtturm und den besten Panoramablicken über die Cinque Terre.",
-            "fr": "Paysage culturel unique de vignes en terrasses sur les pentes abruptes. Patrimoine agricole millénaire des Cinque Terre.",
-            "it": "Vicoli stretti (caruggi), archi, case torri colorate e piazzette. Atmosfera autentica ligure."
-          }
+          "icon": "statue",
+          "title": "Il Gigante Statue",
+          "description": "Discover the 14-meter concrete Neptune statue carved into the cliff face, a unique Art Nouveau monument from 1910 that has become Monterosso's most photographed landmark."
+        },
+        {
+          "icon": "museum",
+          "title": "Eugenio Montale Literary Trail",
+          "description": "Follow in the footsteps of the Nobel Prize-winning poet through his favorite Monterosso haunts, including his summer house and the landscapes that inspired his greatest works."
+        },
+        {
+          "icon": "garden",
+          "title": "Historic Lemon Terraces",
+          "description": "Explore the ancient terraced gardens above the village where Benedictine monks first cultivated the famous Monterosso lemons, still harvested using traditional methods."
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "variant": "text-with-sidebar-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1600298881974-6be191ceeda1-regular.jpg",
+      "eyebrow": "Cultural Heritage",
+      "title": "The Living Story of Monterosso's Past",
+      "content": [
+        "As the oldest documented settlement in Cinque Terre, Monterosso carries the weight of nearly 1,400 years of continuous habitation. The village's unique position as both a religious center and maritime hub shaped its distinctive character, evident in every stone of its medieval churches and monastery walls.",
+        "The Benedictine monastery, founded in 1056, became the spiritual heart of the entire Cinque Terre region. Its monks developed the terraced agriculture that still defines the landscape today, creating the famous lemon groves that cascade down the hillsides in perfect geometric precision.",
+        "Unlike its sister villages, Monterosso evolved as a place of contemplation and learning. This intellectual tradition continued into the modern era when Nobel laureate Eugenio Montale chose it as his summer retreat, finding in its ancient stones and luminous light the inspiration for some of Italy's greatest poetry.",
+        "Today, you can witness this living heritage in the morning processions that wind through medieval streets, in the fishing boats that still follow centuries-old patterns, and in the hands of craftsmen who restore the village's treasures using techniques passed down through generations of master artisans."
+      ]
+    },
+    {
+      "type": "faq-section",
+      "title": "Planning Your Monterosso Cultural Experience",
+      "faqs": [
+        {
+          "question": "What's the best time to visit Monterosso's historic sites?",
+          "answer": "Early morning (8-10 AM) offers the best lighting for photography and fewer crowds at major sites. Churches are typically open 9 AM-12 PM and 3-6 PM. The Convento dei Cappuccini closes for siesta 12-3 PM, so plan accordingly."
+        },
+        {
+          "question": "How long do I need to see Monterosso's main cultural attractions?",
+          "answer": "Allow a full day to properly explore the major sites. San Giovanni Battista requires 30 minutes, the Aurora Tower climb takes 45 minutes including views, and the Convento dei Cappuccini needs 1-2 hours. The literary trail can be walked in 2-3 hours with stops."
+        },
+        {
+          "question": "Are there guided tours available for Monterosso's historic sites?",
+          "answer": "Yes, the local tourist office offers guided walks focusing on medieval history and religious heritage. Private cultural guides specialize in Montale's literary connections and monastery history. Book ahead during peak season (June-September)."
+        },
+        {
+          "question": "What should I know about visiting religious sites in Monterosso?",
+          "answer": "Dress modestly (covered shoulders and knees) for churches and the monastery. Photography may be restricted inside religious buildings. The Convento dei Cappuccini requires a small donation for Van Dyck viewing. Sunday masses are held in Italian at San Giovanni Battista."
+        },
+        {
+          "question": "How do I access the Aurora Tower and is it worth the climb?",
+          "answer": "The tower entrance is near Torre Aurora restaurant. The climb involves steep medieval stairs but rewards you with the only 360-degree view of all five villages. Best visited at sunset for spectacular photography. Small entrance fee applies."
+        },
+        {
+          "question": "Can I combine sightseeing with dining at historic locations?",
+          "answer": "Absolutely. Torre Aurora restaurant occupies part of the medieval fortifications with panoramic dining. Several restaurants near San Giovanni Battista offer terrace dining with church views. Book sunset tables well in advance, especially at Torre Aurora."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore Monterosso"
-      },
+      "variant": "centered",
+      "eyebrow": "Ready to Explore",
+      "title": "Discover Monterosso's Timeless Beauty",
+      "subtitle": "From medieval monasteries to Nobel Prize inspiration, experience the cultural heart of Cinque Terre with our curated itineraries and local expertise.",
       "buttons": [
         {
-          "text": {
-            "en": "All Attractions",
-            "de": "Karten",
-            "fr": "Activités"
-          },
-          "url": {
-            "en": "/en/pois"
-          },
+          "text": "View Luxury Packages",
+          "url": "/packages",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Monterosso",
-            "de": "Aktivitäten",
-            "fr": "Histoire locale"
-          },
-          "url": {
-            "en": "/en/monterosso"
-          },
+          "text": "Contact Our Specialists",
+          "url": "/contact",
           "variant": "secondary"
         }
       ]
@@ -195,7 +171,7 @@
     "city": "monterosso",
     "page_type": "sights"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.843Z"
+  "updated_at": "2025-12-16T13:07:38.723Z"
 }

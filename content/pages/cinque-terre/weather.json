@@ -1,203 +1,108 @@
 {
-  "id": "8c1f3164-b2f5-4ad8-8543-6bbfaab02146",
+  "id": "weather-page-01",
   "slug": {
-    "en": "/en/cinque-terre/weather",
-    "de": "/de/cinque-terre/weather",
-    "fr": "/fr/cinque-terre/weather",
-    "it": "/it/cinque-terre/weather"
+    "en": "/en/weather",
+    "de": "/de/wetter",
+    "fr": "/fr/meteo",
+    "it": "/it/meteo"
   },
   "title": {
-    "en": "Cinque Terre Weather & Best Time to Visit 2025",
-    "de": "Wetter",
-    "fr": "Météo",
-    "it": "Meteo"
+    "en": "Weather & Conditions | Riomaggiore",
+    "de": "Wetter & Bedingungen | Riomaggiore",
+    "fr": "Météo & Conditions | Riomaggiore",
+    "it": "Meteo & Condizioni | Riomaggiore"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Cinque Terre Weather 2025 | Best Time to Visit & Climate Guide"
+      "en": "Weather & Conditions | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Complete weather guide for Cinque Terre. Monthly climate, best seasons, what to pack, and tips for planning your perfect visit year-round."
-    },
-    "keywords": {
-      "en": [
-        "cinque terre weather",
-        "best time to visit",
-        "climate",
-        "seasons",
-        "temperature",
-        "rainfall",
-        "when to go"
-      ]
+      "en": "The current state of the sea, the sky, and the village—curated for those who plan with intention."
     }
   },
+  "template": "cinque-terre",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Climate & Seasons",
-        "it": "Clima e Stagioni",
-        "de": "Klima & Jahreszeiten"
+      "type": "weather-live",
+      "title": "Atmosphere &\nCoastal Rhythms",
+      "subtitle": "The current state of the sea, the sky, and the village—curated for those who plan with intention.",
+      "heroImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000",
+      "current": {
+        "temp": 12,
+        "condition": "Partly Cloudy",
+        "icon": "cloud",
+        "high": 14,
+        "low": 8,
+        "wind": "12 km/h",
+        "humidity": "65%",
+        "seaTemp": "16°C",
+        "uvIndex": "Low (2)",
+        "visibility": "15 km",
+        "sunrise": "07:45",
+        "sunset": "16:50"
       },
-      "title": {
-        "en": "Weather & Best Time to Visit",
-        "it": "Meteo e Quando Visitare le Cinque Terre",
-        "de": "Wetter & Beste Reisezeit für Cinque Terre"
-      },
-      "subtitle": {
-        "en": "Mediterranean climate with mild winters and warm summers. Plan your perfect trip with detailed weather information and seasonal tips",
-        "it": "Clima mediterraneo mite tutto l'anno. Stagioni diverse offrono esperienze uniche: primavera fiorita, estate balneare, autunno vendemmiale, inverno autentico.",
-        "de": "Mediterranes Klima mit milden Wintern und warmen Sommern. Planen Sie Ihre perfekte Reise mit detaillierten Wetterinformationen und saisonalen Empfehlungen von einem Ligurien-Kenner."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Seasonal Guide",
-            "it": "Periodo Migliore"
-          },
-          "url": {
-            "en": "#weather",
-            "it": "#periodo"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Events Calendar",
-            "it": "Meteo Attuale"
-          },
-          "url": {
-            "en": "/en/cinque-terre/events",
-            "it": "#meteo"
-          },
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Seasonal Guide",
-        "it": "Le Quattro Stagioni",
-        "de": "Saisonaler Reiseführer"
-      },
-      "title": {
-        "en": "When to Visit Cinque Terre",
-        "it": "Quando Visitare le Cinque Terre",
-        "de": "Wann Sie Cinque Terre besuchen sollten"
-      },
-      "features": [
-        {
-          "icon": "flower",
-          "title": {
-            "en": "Spring (April-May)",
-            "it": "Primavera (Mar-Mag)"
-          },
-          "description": {
-            "en": "Ideal weather, wildflowers blooming, fewer crowds, perfect hiking conditions, temperatures 15-22°C",
-            "it": "Ideale per trekking. Temperature 15-22°C, fioritura, poca folla. Possibili piogge ad aprile. La stagione perfetta."
-          }
-        },
-        {
-          "icon": "sun",
-          "title": {
-            "en": "Summer (June-August)",
-            "it": "Estate (Giu-Ago)"
-          },
-          "description": {
-            "en": "Peak season, hot and busy, perfect beach weather, festivals and events, temperatures 25-30°C",
-            "it": "Alta stagione. 25-30°C, mare caldo, spiagge, eventi. Molto affollato e caro. Caldo intenso sui sentieri."
-          }
-        },
-        {
-          "icon": "leaf",
-          "title": {
-            "en": "Fall (September-October)",
-            "it": "Autunno (Set-Nov)"
-          },
-          "description": {
-            "en": "Best time to visit, warm sea, wine harvest, fewer tourists, pleasant hiking, temperatures 18-25°C",
-            "it": "Eccellente per visite. 18-25°C in settembre, vendemmia, colori caldi. Meno turisti. Piogge in novembre."
-          }
-        },
-        {
-          "icon": "cloud",
-          "title": {
-            "en": "Winter (November-March)",
-            "it": "Inverno (Dic-Feb)"
-          },
-          "description": {
-            "en": "Quiet season, mild climate, lower prices, some businesses closed, good for authentic experience, 8-15°C",
-            "it": "Bassa stagione. 8-15°C, molti servizi chiusi, poca folla. Autentico ma limitato. Presepe di Manarola a dicembre."
-          }
-        },
-        {
-          "icon": "umbrella",
-          "title": {
-            "en": "Rainfall Patterns"
-          },
-          "description": {
-            "en": "Wettest months are October-November and March-April. Summer is typically dry with occasional storms"
-          }
-        },
-        {
-          "icon": "backpack",
-          "title": {
-            "en": "What to Pack"
-          },
-          "description": {
-            "en": "Comfortable walking shoes, sun protection, layers for evening, light jacket for spring/fall"
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Start Planning Your Visit",
-        "it": "Il Clima in Numeri",
-        "de": "Detaillierte Klimaanalyse"
-      },
-      "description": {
-        "en": "Check transport options, accommodation, and things to do in every season"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Getting Here"
-          },
-          "url": {
-            "en": "/en/cinque-terre/getting-here"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Find Hotels"
-          },
-          "url": {
-            "en": "/en/cinque-terre/hotels"
-          },
-          "variant": "secondary"
-        }
+      "forecast": [
+        { "day": "Fri", "date": "Dec 19", "high": 13, "low": 7, "condition": "Sunny", "icon": "sun" },
+        { "day": "Sat", "date": "Dec 20", "high": 11, "low": 9, "condition": "Rainy", "icon": "rain" },
+        { "day": "Sun", "date": "Dec 21", "high": 10, "low": 6, "condition": "Cloudy", "icon": "cloud" },
+        { "day": "Mon", "date": "Dec 22", "high": 12, "low": 8, "condition": "Sunny", "icon": "sun" },
+        { "day": "Tue", "date": "Dec 23", "high": 14, "low": 10, "condition": "Partly Cloudy", "icon": "cloud" }
       ],
-      "subtitle": {
-        "de": "Präzise Wetterinformationen für die optimale Reiseplanung"
-      },
-      "content": {
-        "de": "Als in La Spezia Geborener kenne ich die klimatischen Eigenarten der ligurischen Küste seit Jahrzehnten. Cinque Terre profitiert von einem klassischen mediterranen Klima mit durchschnittlich **275 Sonnentagen** jährlich.\n\n## Temperaturen im Jahresverlauf\n\n**Januar-März:** 8-15°C - Ideal für ruhige Spaziergänge durch die Via Fieschi Hauptstraße ohne Menschenmassen. Die **Corniglia Sonnenuntergangs-Punkt** bietet auch in der kühleren Jahreszeit spektakuläre Lichtstimmungen.\n\n**April-Juni:** 15-25°C - Die Corniglia Wildblumen und Mediterrane Botanische Entdeckung zeigt sich in voller Pracht. Perfekte Bedingungen für den anspruchsvollen **Corniglia nach Vernazza Heiligtum Grat Weg**.\n\n**Juli-September:** 22-30°C - Hochsommerliche Temperaturen erfordern frühe Wanderungen. Der **Corniglia Sonnenaufgang Meditation und Achtsamkeitswanderung** beginnt optimal um 6:00 Uhr.\n\n**Oktober-Dezember:** 10-20°C - Herbstliche Klarheit ermöglicht außergewöhnliche Fernsichten von der **Corniglia Panoramaterrasse**."
-      }
+      "webcams": [
+        {
+          "id": 1,
+          "name": "Harbor View",
+          "description": "Live view of the iconic Riomaggiore harbor and boat ramp.",
+          "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1000",
+          "status": "Live"
+        },
+        {
+          "id": 2,
+          "name": "Main Street (Via Colombo)",
+          "description": "Looking up the bustling main street from the lower village.",
+          "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=1000",
+          "status": "Live"
+        }
+      ]
+    },
+    {
+      "type": "weather-journal",
+      "condition": "Partly Cloudy",
+      "note": "December in Riomaggiore has a specific kind of light—crisp and clear. It's not beach weather, but it's the best time for the high trails. The air is fresh, and you won't break a sweat climbing to Montenero. Just remember: the sun drops behind the cliffs early, so the village gets chilly by 4 PM. Carry a light wool scarf—it's the local way.",
+      "quote": "Watch the horizon—it always tells the truth first.",
+      "recommendations": [
+        "Perfect for the hike to Santuario di Montenero.",
+        "Ideal light for photography in the harbor around 3 PM.",
+        "Grab a hot 'Sciacchetrà' tasting at a local enoteca as the sun sets."
+      ],
+      "author": "Giulia Rossi",
+      "role": "Riomaggiore Expert",
+      "image": "/giulia_rossi.png"
+    },
+    {
+      "type": "closing-note",
+      "badge": "Weather Wisdom",
+      "title": "Watch the Horizon",
+      "content": "<p>Coastal weather is a living thing. It changes with the tide, the wind, and the season. Plan your day, but be ready to let the village surprise you.</p><p>The best experiences in Riomaggiore are often the ones you didn't plan.</p>",
+      "actions": [
+        {
+          "label": "Plan Your Journey",
+          "href": "/itinerary",
+          "variant": "primary"
+        },
+        {
+          "label": "Explore Sights",
+          "href": "/sights",
+          "variant": "secondary"
+        }
+      ]
     }
   ],
   "metadata": {
-    "city": "cinque-terre",
     "page_type": "weather"
   },
-  "status": "published",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.831Z"
+  "status": "generated",
+  "created_at": "2025-01-05T00:00:00.000Z",
+  "updated_at": "2025-01-05T00:00:00.000Z"
 }

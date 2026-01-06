@@ -7,195 +7,152 @@
     "it": "/it/manarola/sights"
   },
   "title": {
-    "en": "Top Sights & Attractions in Manarola",
-    "de": "Sehenswürdigkeiten",
-    "fr": "Sites & Attractions",
-    "it": "Attrazioni"
+    "en": "What to See in Manarola | Cinque Terre Dispatch"
   },
   "page_type": "sights",
   "seo": {
     "title": {
-      "en": "Manarola Attractions 2025 | What to See & Do"
+      "en": "What to See in Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Manarola's top attractions: Church of San Lorenzo, harbor swimming, sunset viewpoints, and the iconic colorful houses."
-    },
-    "keywords": {
-      "en": [
-        "Manarola attractions",
-        "what to see Manarola",
-        "Cinque Terre sights",
-        "San Lorenzo church"
-      ]
+      "en": "In a village you can cross in five minutes, every building is a sight, every view is a postcard, and the real attraction is the whole—not its parts."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Attrazioni Imperdibili",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Sights & Attractions",
-        "it": "Cosa Vedere a Manarola",
-        "de": "Sehenswürdigkeiten & Attraktionen"
-      },
-      "subtitle": {
-        "en": "Explore the most photographed village in Italy. Historic churches, spectacular viewpoints, and charming harbor scenes.",
-        "it": "Chiese medievali, santuari panoramici, castelli antichi e i borghi più fotogenici d'Italia. Scopri i tesori nascosti e le attrazioni iconiche tra vicoli storici e terrazze sul mare.",
-        "de": "Entdecken Sie das meistfotografierte Dorf Italiens. Mittelalterliche Kirchen, spektakuläre Aussichtspunkte und der charmante Hafen erwarten Sie in diesem Juwel der Cinque Terre."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Explore Attractions",
-            "it": "Principali Attrazioni"
-          },
-          "url": {
-            "en": "#sights",
-            "it": "#attrazioni"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Tour Guidato"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#tour"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Everything<br/>is the Sight",
+      "subtitle": "Most villages have sights—specific buildings to visit, monuments to photograph. Manarola is different. The village itself is the sight. Every corner offers something worth seeing. The challenge is not finding attractions—it's slowing down enough to see what's everywhere.",
+      "badge": "Village Sights",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Sight Philosophy",
+      "quote": "Tourists arrive with lists: visit this church, see that viewpoint, photograph this angle. Locals have no such lists. Everything is familiar, and therefore everything is worth seeing. Try to see like a local—where nothing is a sight because everything is.",
+      "content": [
+        "**The village is the monument**. UNESCO didn't protect specific buildings—they protected the relationship between settlement, terraces, and sea. The sight is the system: stone walls enabling vineyards, vineyards producing wine, wine sustaining families who maintain walls.",
+        "**Scale creates intimacy**. You can see the entire village from multiple points. This compression means details reward attention: a carved doorway, a laundry line between windows, the way morning light hits a particular facade.",
+        "**The colors are functional**. Those Instagram-famous pastel houses weren't painted for aesthetics. Fishermen needed to identify their homes from the sea. Beauty emerged from necessity. The prettiest village in Cinque Terre is also the most practical.",
+        "**The layers reveal themselves slowly**. First visit, you see the obvious: harbor, church, viewpoint. Second visit, you notice the alleys between buildings. Third visit, you start to see how water, stone, and human persistence created this place."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Must-See",
-        "it": "Da Non Perdere",
-        "de": "Unverzichtbar"
-      },
-      "title": {
-        "en": "Top Attractions",
-        "it": "Le Attrazioni Principali",
-        "de": "Hauptattraktionen"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "sight",
+      "items": [
         {
-          "icon": "camera",
-          "title": {
-            "en": "Classic Harbor View",
-            "it": "Chiese e Santuari"
-          },
-          "description": {
-            "en": "The iconic photo spot showing colorful houses stacked up the cliff. Best at sunset.",
-            "it": "San Giovanni Battista, Madonna di Soviore, Santuario di Montenero. Architettura gotica-ligure e affreschi medievali."
-          }
+          "id": 1,
+          "name": "Chiesa di San Lorenzo",
+          "category": "Sacred Architecture",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Gothic parish church from 1338—the spiritual center where village life has gathered for seven centuries.",
+          "description": "San Lorenzo sits elevated above the harbor, its bell tower visible from anywhere in the village. The rose window catches afternoon light. Inside, marble columns from Carrara support a space that has witnessed baptisms, weddings, and funerals of families who've lived here for generations. Not a museum—a working church.",
+          "giuliaComment": "My family has been baptized, married, and buried here for as long as records exist. When you visit San Lorenzo, you're not touring—you're standing where village life has happened for centuries. The building matters less than what it holds.",
+          "signature": "Where faith meets persistence"
         },
         {
-          "icon": "church",
-          "title": {
-            "en": "Church of San Lorenzo",
-            "it": "Castelli e Torri"
-          },
-          "description": {
-            "en": "14th-century Gothic church with beautiful rose window. Built in 1338.",
-            "it": "Castello Doria a Vernazza, fortificazioni genovesi, torri di avvistamento saracene. Testimonianze di difesa marittima."
-          }
+          "id": 2,
+          "name": "Punta Bonfiglio Viewpoint",
+          "category": "The Photograph",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The spot that launched a thousand postcards—where the entire village becomes composition.",
+          "description": "From this rocky promontory, Manarola's colored houses stack in perfect arrangement against sea and sky. This is where the famous photo happens—the one everyone recognizes, the one that sells calendars and fills Instagram feeds. Arrive at golden hour for the light that makes the image.",
+          "giuliaComment": "I don't photograph from here anymore—I've taken that shot too many times. But I still go to watch others discover it. The moment when visitors see the full village for the first time, laid out like a painting—that wonder never gets old, even secondhand.",
+          "signature": "Where the village becomes art"
         },
         {
-          "icon": "boat",
-          "title": {
-            "en": "Marina & Swimming Rocks",
-            "it": "Porti Storici"
-          },
-          "description": {
-            "en": "Rocky swimming area with crystal-clear water. Popular for cliff jumping and sunbathing.",
-            "it": "Approdi medievali scavati nella roccia. Il porto di Vernazza è uno dei più pittoreschi d'Italia."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Punta Bonfiglio",
-            "it": "Centri Storici"
-          },
-          "description": {
-            "en": "Cemetery viewpoint offering the best sunset panorama of the village and harbor.",
-            "it": "Vicoli stretti, case-torri colorate, carruggi medievali. Architettura ligure perfettamente conservata."
-          }
-        },
-        {
-          "icon": "home",
-          "title": {
-            "en": "Via Discovolo",
-            "it": "Terrazzamenti"
-          },
-          "description": {
-            "en": "Main street lined with colorful houses, shops, and cafes. The heart of village life.",
-            "it": "7000 km di muretti a secco patrimonio UNESCO. Vigneti eroici costruiti in 1000 anni di lavoro."
-          }
-        },
-        {
-          "icon": "wine",
-          "title": {
-            "en": "Terraced Vineyards",
-            "it": "Musei e Cultura"
-          },
-          "description": {
-            "en": "Ancient wine terraces clinging to the cliffs. Walk among them on vineyard trails.",
-            "it": "Museo delle Cinque Terre, collezioni d'arte sacra, mostre fotografiche sulla storia dei borghi marinari."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More to Explore",
-        "it": "Attrazioni in Numeri",
-        "de": "Kulturelles Erbe und Architektur"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/manarola/things-to-do"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Terraced Vineyards",
+          "category": "Living Landscape",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Two thousand years of stone walls holding soil on impossible slopes—the engineering that made this village possible.",
+          "description": "Above Manarola, terraces climb toward the ridge. Dry-stone walls, built without mortar, create narrow flat surfaces where grapes can grow. This is the UNESCO heritage: not just the village, but the agricultural system that sustains it. Walking these paths reveals the scale of human labor accumulated over millennia.",
+          "giuliaComment": "Every visitor should walk through the terraces at least once. From below, they look picturesque. From within, they reveal the work—the constant repair, the backbreaking maintenance, the stubbornness required to farm vertical cliffs. That understanding changes how you see the village.",
+          "signature": "Where labor becomes landscape"
         }
       ],
-      "subtitle": {
-        "de": "Eine Zeitreise durch die mediterrane Geschichte"
-      },
-      "content": {
-        "de": "Als Kulturhistoriker fasziniert mich Manarola durch seine außergewöhnliche architektonische Kontinuität. Die **Kirche San Lorenzo** aus dem 14. Jahrhundert repräsentiert die Blütezeit der ligurischen Gotik - ihr Rosenfenster gilt als eines der schönsten Beispiele sakraler Handwerkskunst an der ligurischen Küste.\n\nDie charakteristischen **Turm-Häuser** entstanden zwischen dem 12. und 15. Jahrhundert als Wehrhäuser gegen Sarazenen-Überfälle. Diese defensive Architektur prägt bis heute das Ortsbild und macht jeden Spaziergang durch die engen Gassen zu einer authentischen Zeitreise.\n\nBesonders bemerkenswert ist die **terrassierte Kulturlandschaft**, die seit dem 11. Jahrhundert kontinuierlich bewirtschaftet wird. Vom **Manarola zum Volastra Heiligtum Weg 506** erleben Besucher diese jahrhundertealte Agrartechnik hautnah - ein lebendiges UNESCO-Weltkulturerbe."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Photography Crowd",
+          "quote": "At sunset, the viewpoint fills with photographers fighting for position. This is understandable—the light is extraordinary. But consider: the village looks beautiful all day. Morning light reveals different colors. Midday creates different shadows. The golden hour is special, but it's not the only hour."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Hidden Village",
+      "quote": "The obvious sights draw crowds. The hidden ones reward exploration. In a village this small, hidden doesn't mean far—it means off the obvious path.",
+      "content": [
+        "**The upper village** climbs above the tourist zone. Narrower streets, fewer shops, more laundry lines, more actual life. The higher you go, the less visited the views become—and the better they often are.",
+        "**The oratorio dei Disciplinanti** hides a few steps from San Lorenzo. This 15th-century chapel contains frescoes most visitors never see. Ask at the church for access.",
+        "**The fishing infrastructure** around the marina—winches, ramps, storage areas—represents working heritage that predates tourism. Watch where and how boats are handled to understand the village's oldest purpose.",
+        "**The cemetery** sits above the village with views across the coast. It's quiet, respectful, and offers perspectives on village history that no guidebook captures. The names on stones are the names on storefronts."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Light Changes",
+          "category": "Temporal Sight",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The village looks different every hour—same buildings, different light, completely new experience.",
+          "description": "Morning sun lights the eastern facades while western ones stay shadowed. Midday flattens everything. Afternoon sun reverses the pattern. Sunset turns everything amber. After dark, lights create new compositions. The same walk, taken at different times, reveals different villages.",
+          "giuliaComment": "When visitors ask what to see, I tell them to see the same thing twice—once in morning, once at evening. The building doesn't change. The light changes everything. This is the real sight: not the village, but how the village transforms across the day.",
+          "signature": "When time becomes the attraction"
+        },
+        {
+          "id": 5,
+          "name": "The Detail View",
+          "category": "Looking Close",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The grand views draw eyes outward. The details reward those who look close.",
+          "description": "Carved lintels above doorways. Iron hardware rusted by centuries of salt air. Worn stairs shaped by thousands of climbing feet. Plants growing from cracks in stone walls. The village is made of details, and seeing them requires slowing down from the pace that photographs viewpoints.",
+          "giuliaComment": "My grandmother could tell family histories from doorway carvings. This family had a son who was a mason. That family was wealthy in the 1800s. She read the village like a text. I can't read it that well, but I try to see what she saw.",
+          "signature": "Where attention finds stories"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Checklist Trap",
+          "quote": "The tourists who rush through—church, viewpoint, harbor, done—miss everything. They saw the sights without seeing the village. Take less time with your checklist. Take more time with your eyes. The village reveals itself to those who linger, not those who hurry."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Seeing What's There",
+      "content": [
+        "The best sight in Manarola is the one you're standing in front of right now. Not the famous viewpoint you're walking toward. Not the church you'll visit later. The alley, the doorway, the window you're passing—that's the sight.",
+        "A village this old and this beautiful cannot be adequately captured by a list of attractions. It can only be seen by those who slow down enough to actually look.",
+        "Leave time for aimless walking. Follow alleys that lead nowhere. Stand in one spot for longer than seems necessary. The village rewards patience with details that rushing visitors never see."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/manarola/overview", "variant": "primary" },
+        { "text": "Dining Guide", "url": "/en/manarola/restaurants", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "sights"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.839Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

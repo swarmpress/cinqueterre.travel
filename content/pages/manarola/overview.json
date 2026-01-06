@@ -7,209 +7,152 @@
     "it": "/it/manarola/overview"
   },
   "title": {
-    "en": "Manarola - The Jewel of Cinque Terre",
-    "de": "Manarola - Das Juwel der Cinque Terre",
-    "fr": "Aperçu",
-    "it": "Panoramica"
+    "en": "Manarola Overview | Cinque Terre Dispatch"
   },
   "page_type": "overview",
   "seo": {
     "title": {
-      "en": "Manarola 2025 | Complete Guide to Cinque Terre's Most Iconic Village",
-      "de": "Manarola 2025 | Vollständiger Reiseführer zum ikonischsten Dorf der Cinque Terre"
+      "en": "Manarola Overview | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Manarola, famous for sunset views, colorful houses, and the Via dell'Amore. Your complete guide to accommodation, dining, and attractions.",
-      "de": "Entdecken Sie Manarola, berühmt für Sonnenuntergänge, bunte Häuser und die Via dell'Amore. Ihr kompletter Reiseführer für Unterkunft, Restaurants und Sehenswürdigkeiten."
-    },
-    "keywords": {
-      "en": [
-        "Manarola",
-        "Cinque Terre",
-        "Italy travel",
-        "Via dell'Amore",
-        "sunset viewing",
-        "colorful village"
-      ],
-      "de": [
-        "Manarola",
-        "Cinque Terre",
-        "Italien Reisen",
-        "Via dell'Amore",
-        "Sonnenuntergang",
-        "buntes Dorf"
-      ]
+      "en": "Manarola is the wine village—where Roman terraces still produce grapes, where the sunset turns everything amber, where the scale is small enough to feel like a secret even when tourists crowd the harbor."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Cinque Terre",
-        "de": "Cinque Terre",
-        "it": "Scopri il Villaggio"
-      },
-      "title": {
-        "en": "Welcome to Manarola",
-        "de": "Willkommen in Manarola",
-        "it": "Panoramica di Manarola"
-      },
-      "subtitle": {
-        "en": "The most photographed village in Cinque Terre, famous for spectacular sunsets, pastel-colored houses, and world-renowned wine production.",
-        "de": "Das meistfotografierte Dorf der Cinque Terre, berühmt für spektakuläre Sonnenuntergänge, pastellfarbene Häuser und weltbekannten Weinanbau.",
-        "it": "Tutto quello che devi sapere su manarola. Storia, caratteristiche, cosa vedere, dove mangiare e dormire. La guida completa per pianificare la tua visita."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "The Wine<br/>Village",
+      "subtitle": "Manarola is what happens when Romans decide a vertical cliff is perfect for vineyards. Two thousand years later, the terraces remain—impossibly steep, stubbornly productive, and more photogenic than any village has a right to be.",
+      "badge": "Village Overview",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Understanding Manarola",
+      "quote": "Every visitor to Cinque Terre knows the photo: pastel houses stacked on a cliff, reflected in still water, sunset turning everything gold. That photo is Manarola. What it doesn't show is a village that still produces some of Italy's rarest wine.",
+      "content": [
+        "**The Romans started this**. They recognized what the steep southern exposure and Mediterranean breeze could do for grapes. They carved the first terraces, built the first stone walls without mortar, planted the first vines. The wine village identity predates everything else.",
+        "**Three hundred people live here**. In a village you can cross in five minutes, that number feels correct. Everyone knows everyone. The baker knows your grandmother's maiden name. The priest knows whose boat had a good catch. Anonymity is impossible.",
+        "**The compactness creates intimacy**. Riomaggiore and Vernazza feel like small towns. Corniglia feels isolated. Monterosso feels like a resort. Manarola feels like a family gathering you weren't sure you were invited to—but they set a place for you anyway.",
+        "**The sunset reputation is earned**. The village faces west-northwest. The harbor creates a natural amphitheater. The pastel facades catch light in ways photography cannot quite capture. Whatever you've heard about Manarola sunsets—it's undersold."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "highlight",
+      "items": [
         {
-          "text": {
-            "en": "Explore Attractions",
-            "de": "Attraktionen Erkunden",
-            "it": "Cosa Vedere"
-          },
-          "url": {
-            "en": "#attractions",
-            "de": "#attractions",
-            "it": "/it/manarola/sights"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "The Terraces",
+          "category": "Cultural Landscape",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Two thousand years of agricultural engineering—stone walls holding soil on slopes that shouldn't grow anything.",
+          "description": "The terraced vineyards above Manarola represent perhaps the most ambitious agricultural project per square meter in European history. Dry-stone walls, built without mortar, hold thin ribbons of soil on slopes exceeding 45 degrees. The grapes that grow here become Cinque Terre's DOC wines and the legendary Sciacchetrà.",
+          "giuliaComment": "My cousin tends terraces his family has worked since the 1600s. The documentation exists. That's over fifteen generations on the same strip of land. When he talks about the vines, he talks about his ancestors. They're the same thing to him.",
+          "signature": "Where stubbornness becomes heritage"
         },
         {
-          "text": {
-            "en": "Plan Your Visit",
-            "de": "Besuch Planen",
-            "it": "Pianifica Visita"
-          },
-          "url": {
-            "en": "/en/manarola/getting-here",
-            "de": "/de/manarola/getting-here",
-            "it": "/it/manarola/getting-here"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "The Harbor",
+          "category": "Village Heart",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A boat ramp carved into rock, fishing vessels in faded colors, and the viewing platform where everyone photographs the sunset.",
+          "description": "Manarola's harbor is smaller than Riomaggiore's—just a boat ramp and some rocks for swimming. But the angle is perfect: the village rises behind you, the sea spreads before you, and at sunset, the whole scene turns to gold. This is where the famous photo happens.",
+          "giuliaComment": "The swimming rocks get crowded by noon in summer. But at 7am, you'll share them with one old man who swims every morning, winter included. He's been doing it for sixty years. He doesn't talk much, but if you show up consistently, he'll nod at you.",
+          "signature": "Where the village meets the sea"
+        },
+        {
+          "id": 3,
+          "name": "The Nativita",
+          "category": "Christmas Tradition",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The world's largest illuminated nativity scene—300 figures on a hillside, visible from the sea.",
+          "description": "Every December, a local retired railway worker named Mario Andreoli creates something impossible: 300 luminous figures spread across the terraced hillside above the village. It began in 1961 with a few lights. Now it draws visitors from across Europe. When Mario dies, no one knows if it will continue.",
+          "giuliaComment": "I grew up with Mario's nativity. It's just part of December—the lights go on, Christmas is coming. But visitors don't realize: one man does this. Every year. He's in his eighties now. Every figure is handmade. When he's gone, something irreplaceable leaves with him.",
+          "signature": "One man's gift to the world"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Wine You Cannot Buy",
+          "quote": "Sciacchetrà is Manarola's treasure—a dessert wine made from grapes dried for months, concentrated to sweetness, aged for years. Production is tiny. Most never leaves the valley. A bottle costs €50-100 and up. The ones served at local trattorias, from family cellars, are priceless."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Discover Manarola",
-        "de": "Manarola Entdecken",
-        "it": "A Colpo d'Occhio"
-      },
-      "title": {
-        "en": "What Makes Manarola Special",
-        "de": "Was Manarola Besonders Macht",
-        "it": "Manarola in Numeri"
-      },
-      "features": [
+      "type": "editorial-intro",
+      "badge": "The Village Day",
+      "quote": "Manarola has a rhythm. Fight it and you'll exhaust yourself. Follow it and you'll understand why people have chosen to live on this impossible cliff for two thousand years.",
+      "content": [
+        "**Morning belongs to locals**. Fishermen are out early. The bakery opens at 7. The first trains bring the first tourists around 9. Before that, the village is quiet, unhurried, itself.",
+        "**Midday brings the crowds**. From 10am to 5pm in summer, the harbor fills with day-trippers. The restaurants are busy. The swimming rocks are packed. This is when Manarola performs for visitors.",
+        "**Evening is the reward**. As the day-trippers leave, the village exhales. The restaurants get quieter, more intimate. The sunset crowd gathers on the viewing platform. The light turns golden, then amber, then rose.",
+        "**Night reveals the real village**. After 10pm, Manarola shrinks to its residents and overnight guests. Wine on a terrace. Quiet conversations. Stars over water. This is what you came for."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "comparison",
+      "items": [
         {
-          "icon": "sunset",
-          "title": {
-            "en": "World-Famous Sunsets",
-            "de": "Weltberühmte Sonnenuntergänge"
-          },
-          "description": {
-            "en": "Watch the sun paint the colorful houses in golden light from the harbor rocks.",
-            "de": "Beobachten Sie, wie die Sonne die bunten Häuser in goldenes Licht taucht."
-          }
+          "id": 4,
+          "name": "Why Choose Manarola",
+          "category": "Village Character",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Each village has its personality. Here's what Manarola offers that the others don't.",
+          "description": "Manarola is for wine lovers, sunset chasers, photographers, and those who want intimate scale. It lacks Monterosso's beach and Riomaggiore's convenience. It's more crowded than Corniglia. It's smaller than Vernazza. But its combination of wine culture, photogenic beauty, and perfect sunset views is unmatched.",
+          "giuliaComment": "If you want to swim, go to Monterosso. If you want the easiest logistics, stay in Riomaggiore. If you want hiking, base yourself in Corniglia. But if you want to understand why Cinque Terre became famous—that perfect image of colored houses on cliffs—you want Manarola.",
+          "signature": "The village that became the icon"
         },
         {
-          "icon": "camera",
-          "title": {
-            "en": "Most Photographed Village",
-            "de": "Meistfotografiertes Dorf"
-          },
-          "description": {
-            "en": "The iconic view of stacked houses is recognized worldwide as the image of Cinque Terre.",
-            "de": "Der ikonische Blick auf die gestapelten Häuser ist weltweit als Bild der Cinque Terre bekannt."
-          }
-        },
+          "id": 5,
+          "name": "The Scale Advantage",
+          "category": "Practical Reality",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "You can walk from one end of Manarola to the other in five minutes. That's not a limitation—it's a feature.",
+          "description": "Small means you can't get lost. It means every restaurant is walking distance. It means you'll recognize faces after a day. The limitation becomes intimacy becomes connection. By your second evening, the barista knows your order. By your third, you feel like you belong.",
+          "giuliaComment": "Visitors worry Manarola is 'too small.' They imagine running out of things to do. The opposite is true. Small means you can slow down. You don't need to rush between sights. You can spend an hour watching boats and not feel you're missing something.",
+          "signature": "Where small becomes sufficient"
+        }
+      ],
+      "interludes": [
         {
-          "icon": "wine",
-          "title": {
-            "en": "Sciacchetrà Wine",
-            "de": "Sciacchetrà-Wein"
-          },
-          "description": {
-            "en": "Home to ancient vineyards producing the prized sweet wine of the region.",
-            "de": "Heimat alter Weinberge, die den geschätzten Süßwein der Region produzieren."
-          }
-        },
-        {
-          "icon": "heart",
-          "title": {
-            "en": "Via dell'Amore",
-            "de": "Via dell'Amore"
-          },
-          "description": {
-            "en": "The romantic coastal path connecting Manarola to Riomaggiore.",
-            "de": "Der romantische Küstenweg, der Manarola mit Riomaggiore verbindet."
-          }
-        },
-        {
-          "icon": "church",
-          "title": {
-            "en": "Historic Churches",
-            "de": "Historische Kirchen"
-          },
-          "description": {
-            "en": "Visit the 14th-century Church of San Lorenzo with its Gothic rose window.",
-            "de": "Besuchen Sie die Kirche San Lorenzo aus dem 14. Jahrhundert mit ihrer gotischen Rosette."
-          }
-        },
-        {
-          "icon": "boat",
-          "title": {
-            "en": "Swimming & Diving",
-            "de": "Schwimmen & Tauchen"
-          },
-          "description": {
-            "en": "Rocky swimming spots and crystal-clear waters perfect for cliff jumping.",
-            "de": "Felsige Badestellen und kristallklares Wasser, perfekt zum Klippenspringen."
-          }
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Crowd Question",
+          "quote": "Yes, Manarola is crowded in summer. Yes, the harbor platform fills with photographers at sunset. Yes, you'll wait for tables. But at 7am, you'll have it to yourself. After 9pm, you'll feel like a local. The crowds exist. They can be avoided."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Start Exploring Manarola",
-        "de": "Beginnen Sie Manarola zu Erkunden",
-        "it": "Cosa Rende Speciale Questo Borgo"
-      },
+      "type": "closing-note",
+      "title": "The Wine Village Welcomes",
+      "content": [
+        "Manarola doesn't try to be everything. It doesn't have Monterosso's beach or Riomaggiore's easy access. It's not the hiking hub or the party village. It's the wine village—the one where sunset matters, where the scale is human, where the terraces tell a two-thousand-year story.",
+        "Come for the photograph everyone knows. Stay for the village behind it. Taste the wine that never leaves the valley. Watch the light change. Let the smallness become comfort.",
+        "The terraces have waited two thousand years. They can wait for you."
+      ],
       "buttons": [
-        {
-          "text": {
-            "en": "View Restaurants",
-            "de": "Restaurants Ansehen"
-          },
-          "url": {
-            "en": "/en/manarola/restaurants",
-            "de": "/de/manarola/restaurants"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Find Hotels",
-            "de": "Hotels Finden"
-          },
-          "url": {
-            "en": "/en/manarola/hotels",
-            "de": "/de/manarola/hotels"
-          },
-          "variant": "secondary"
-        }
+        { "text": "Where to Stay", "url": "/en/manarola/hotels", "variant": "primary" },
+        { "text": "Where to Eat", "url": "/en/manarola/restaurants", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "overview"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.839Z"
+  "updated_at": "2026-01-05T18:30:00.000Z"
 }

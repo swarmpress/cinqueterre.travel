@@ -7,186 +7,152 @@
     "it": "/it/corniglia/getting-here"
   },
   "title": {
-    "en": "Getting to Corniglia",
-    "de": "Anreise",
-    "fr": "Comment y Aller",
-    "it": "Come Arrivare"
+    "en": "Getting to Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "getting-here",
   "seo": {
     "title": {
-      "en": "How to Get to Corniglia 2025 | Transportation Guide"
+      "en": "Getting to Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Travel guide to Corniglia. Train access, Lardarina staircase, shuttle bus, parking, and transportation tips for reaching Cinque Terre's clifftop village."
-    },
-    "keywords": {
-      "en": [
-        "getting to Corniglia",
-        "Lardarina stairs",
-        "Corniglia train",
-        "Cinque Terre transportation"
-      ]
+      "en": "Reaching Corniglia requires climbing—377 steps connect the train station to the village 100 meters above. Here's everything you need to know about the ascent."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Transportation",
-        "it": "Informazioni di Viaggio",
-        "de": "Transport & Anreise"
-      },
-      "title": {
-        "en": "Getting to Corniglia",
-        "it": "Come Arrivare a Corniglia",
-        "de": "Anreise nach Corniglia"
-      },
-      "subtitle": {
-        "en": "Reach Corniglia by train, then climb the famous Lardarina staircase or take the shuttle bus. No road access to village center.",
-        "it": "Treno, auto, aereo o traghetto: tutte le opzioni per raggiungere i 5 borghi. Collegamenti, orari, costi e consigli pratici per organizzare il tuo viaggio.",
-        "de": "Erreichen Sie Corniglia per Zug und überwinden Sie anschließend die berühmte Lardarina-Treppe oder nutzen Sie den Shuttlebus. Kein direkter Straßenzugang zum Dorfzentrum möglich."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Transportation Info",
-            "it": "In Treno"
-          },
-          "url": {
-            "en": "#transport",
-            "it": "#treno"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Altre Opzioni"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#altro"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The<br/>Ascent Required",
+      "subtitle": "Every other Cinque Terre village lets you step off the train and into the streets. Corniglia demands more: 377 steps up the Lardarina stairway, 15 minutes of climbing, the effort that earns entry to the village above.",
+      "badge": "Getting Here",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Lardarina Reality",
+      "quote": "The 377 steps aren't negotiable. Built in 1876 when the railway arrived, the Lardarina stairway remains the primary connection between station and village. Understanding this shapes how you prepare, what you pack, and when you arrive.",
+      "content": [
+        "**The station sits at sea level**. The village sits 100 meters above. The Lardarina zigzags between them, each switchback offering expanding views. By the top, you've earned what you're about to experience.",
+        "**The climb takes 10-20 minutes**. Depends on fitness, weather, luggage, and how often you stop for photos. Most visitors manage 15 minutes with pauses. Don't race—the views improve as you climb.",
+        "**The steps can be demanding**. Stone, sometimes slippery when wet, fully exposed to sun. In summer heat, the morning and evening hours make the climb significantly more pleasant.",
+        "**Alternatives exist but aren't always available**. A shuttle bus runs during peak season, but service is irregular. If you need certainty, assume the stairs."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "How to Arrive",
-        "it": "Mezzi di Trasporto",
-        "de": "Verkehrsanbindung"
-      },
-      "title": {
-        "en": "Reaching Corniglia",
-        "it": "Come Raggiungere le Cinque Terre",
-        "de": "Corniglia erreichen: Präzise Anreisemöglichkeiten"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "option",
+      "items": [
         {
-          "icon": "train",
-          "title": {
-            "en": "By Train",
-            "it": "Treno (Consigliato)"
-          },
-          "description": {
-            "en": "Cinque Terre Express stops at Corniglia station. Located 100m below village - climb stairs or take bus.",
-            "it": "Tutti i 5 villaggi sono collegati dalla linea Genova-La Spezia. Treni ogni 15-30 min. Il modo più comodo, veloce ed ecologico."
-          }
+          "id": 1,
+          "name": "The Train",
+          "category": "Primary Access",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Regional trains connect Corniglia to every other village and to La Spezia—the universal transportation method for Cinque Terre.",
+          "description": "Trains run every 20-30 minutes during the day, connecting all five villages and La Spezia Centrale. The Cinque Terre Card (€16/day with trains, €7.50 trail-only) provides unlimited access. The Corniglia station is small—platforms, tunnels, and the stairway beginning.",
+          "giuliaComment": "The train is how everyone comes and goes. Locals use it for grocery shopping in La Spezia, for visiting friends in other villages, for everything. It's not a tourist convenience—it's how the coast functions. Learn the schedule; it structures the day.",
+          "signature": "Where everyone arrives"
         },
         {
-          "icon": "stairs",
-          "title": {
-            "en": "Lardarina Staircase",
-            "it": "Auto"
-          },
-          "description": {
-            "en": "Famous 382-step brick staircase from station to village. 15-minute climb, wonderful views.",
-            "it": "Sconsigliata: strade strette, parcheggi limitatissimi e costosi (€25-30/giorno), centri storici ZTL. Lascia l'auto a La Spezia."
-          }
+          "id": 2,
+          "name": "The Shuttle Bus",
+          "category": "Occasional Alternative",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A small bus connects station to village during peak season—when it runs and when there's space.",
+          "description": "From April through October, a shuttle bus makes the connection, leaving roughly every 30 minutes during busy periods. It fills quickly; there's no guarantee of space. The service costs €1.50 or is included with some Cinque Terre Cards. Don't rely on it—plan for stairs.",
+          "giuliaComment": "The shuttle is convenient when it works, frustrating when it doesn't. I've seen visitors wait an hour because buses were full. If you need the shuttle—mobility issues, heavy luggage—arrange timing carefully. Otherwise, consider the stairs part of the experience.",
+          "signature": "When it works"
         },
         {
-          "icon": "bus",
-          "title": {
-            "en": "Shuttle Bus",
-            "it": "Aereo"
-          },
-          "description": {
-            "en": "Free shuttle runs from train station to village. Timed with train arrivals, limited capacity.",
-            "it": "Aeroporti più vicini: Genova (90 km), Pisa (80 km). Da entrambi, treno per La Spezia (1-1.5 ore) poi treno locale."
-          }
-        },
-        {
-          "icon": "car",
-          "title": {
-            "en": "By Car (Limited)",
-            "it": "Traghetto"
-          },
-          "description": {
-            "en": "Parking extremely limited. Use Levanto or La Spezia parking and take train. Village is pedestrian-only.",
-            "it": "Stagionale (aprile-ottobre). Collegamenti tra villaggi e da La Spezia/Portovenere. Panoramico ma limitato dal meteo."
-          }
-        },
-        {
-          "icon": "hiking",
-          "title": {
-            "en": "Hiking In",
-            "it": "Bus"
-          },
-          "description": {
-            "en": "Hike from Vernazza (2 hours) or Manarola (1.5 hours) on coastal trails. Spectacular approach.",
-            "it": "Opzione secondaria. Collegamenti da La Spezia e Levanto. Meno frequenti del treno, strade tortuose."
-          }
-        },
-        {
-          "icon": "accessibility",
-          "title": {
-            "en": "Accessibility Note",
-            "it": "A Piedi"
-          },
-          "description": {
-            "en": "Challenging for mobility issues. Stairs or limited shuttle bus only. Contact hotels for luggage assistance.",
-            "it": "Una volta arrivato, muoviti a piedi. I centri storici sono piccoli e pedonali. Il Sentiero Azzurro collega tutti i villaggi."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Journey to Corniglia",
-        "it": "Come Arrivare in Numeri",
-        "de": "Präzise Fahrpläne und Verbindungen"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Overview"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 3,
+          "name": "The Hiking Trails",
+          "category": "The Beautiful Approach",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544735716-392fe2489ffa-regular.jpg",
+          "intro": "Walking from other villages means arriving through terraces rather than up stairs—harder but more rewarding.",
+          "description": "The Sentiero Azzurro connects Corniglia to Vernazza (90 minutes) and Manarola (60 minutes). Both trails are demanding but spectacular. Arriving through the terraces rather than the station changes the entrance entirely—you emerge into the village, not below it.",
+          "giuliaComment": "When possible, I arrive by trail and leave by train. The hiking approach reveals what the stairs don't—the terraces, the scope of the landscape, the work that created this place. It's more effort but more understanding.",
+          "signature": "Where effort becomes revelation"
         }
       ],
-      "subtitle": {
-        "de": "Detaillierte Informationen für eine perfekt geplante Anreise nach Corniglia"
-      },
-      "content": {
-        "de": "Als gebürtiger La Spezino kenne ich jeden Winkel dieser Strecke. **Der Cinque Terre Express** verkehrt ganzjährig zwischen La Spezia Centrale und Levanto mit Halt in allen fünf Dörfern.\n\n**Hochsaison (April-Oktober):** Züge alle 15 Minuten von 6:00-24:00 Uhr. **Nebensaison:** Alle 30-60 Minuten. Die **Cinque Terre Card** (€ 16,00/Tag) inkludiert unbegrenzte Zugfahrten plus Zugang zu Wanderwegen.\n\n**Wichtiger Hinweis:** Corniglia ist das einzige Dorf ohne direkten Meereszugang vom Bahnhof. Die **Lardarina-Treppe** ist ein historisches Meisterwerk - 382 Stufen aus lokalem Sandstein, erbaut 1876. Für eine authentische Erfahrung empfehle ich den Aufstieg zu Fuß - die Aussicht auf die **Corniglia Weinberg-Terrassen** entschädigt für jede Anstrengung."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Luggage Question",
+          "quote": "Every bag you bring must climb 377 steps with you—or you must pay someone to carry it. This reality should shape your packing. A backpack handles stairs; roller luggage doesn't. Light packers arrive happy; over-packers arrive exhausted. Consider what you really need."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "From Major Cities",
+      "quote": "Getting to the Cinque Terre means getting to La Spezia first. From there, the regional trains take you the final distance to Corniglia's station and the stairs that await.",
+      "content": [
+        "**From Rome**: 4-5 hours via high-speed train to La Spezia Centrale, then regional train. Book the high-speed segment in advance for better prices.",
+        "**From Florence**: 2.5-3 hours via La Spezia connection. One of the easier day trips, though staying overnight rewards the journey.",
+        "**From Milan**: 3-3.5 hours via La Spezia. Direct high-speed options exist during peak season.",
+        "**From Pisa Airport**: 1.5-2 hours. Change at Pisa Centrale for La Spezia connection. Convenient for international arrivals."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
+        {
+          "id": 4,
+          "name": "Timing Your Climb",
+          "category": "Practical Wisdom",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When you climb matters almost as much as whether you climb—the right timing makes the Lardarina manageable rather than miserable.",
+          "description": "In summer, climb before 10am or after 5pm to avoid peak heat. The morning light is beautiful; the evening light even better. Midday climbing in July and August is genuinely unpleasant—save yourself the suffering.",
+          "giuliaComment": "Visitors who climb at noon in August look like they've been punished. Visitors who climb at 7am look like they've discovered something. Same stairs, different experience. The village rewards those who work with its rhythms, not against them.",
+          "signature": "Where timing transforms experience"
+        },
+        {
+          "id": 5,
+          "name": "Managing Luggage",
+          "category": "Practical Necessity",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1553531889-e6cf4d692b1b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The stairs change how you think about what you bring—and create a market for those who'll carry it for you.",
+          "description": "Several local services transport luggage from station to accommodation (€10-15 per bag). Arrange in advance through your host. Alternatively, pack light: a backpack under 10kg is manageable; anything more becomes burden. The best travelers here look like they're staying a week but packed for a weekend.",
+          "giuliaComment": "We've watched people struggle up those stairs with enormous suitcases, stopping every 20 steps to rest. It's painful to witness. Either pay for porterage or pack less. There's no third option—except suffering.",
+          "signature": "Where less becomes more"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Cinque Terre Card",
+          "quote": "Buy the card. The train-inclusive version pays for itself after three rides, and you'll take more than that. It also covers trail access and reduces friction—just show and go rather than buying individual tickets. One less thing to manage in a day of managing stairs."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Climb as Threshold",
+      "content": [
+        "The Lardarina isn't an inconvenience to be overcome—it's the threshold that separates Corniglia from villages that anyone can wander into. The climb filters visitors, creates quiet, maintains the character that makes the effort worthwhile.",
+        "Accept the stairs as part of choosing this village. Pack light, time smartly, arrive rested. Then climb, pausing at the switchbacks to watch the sea expand beneath you, the terraces multiply beside you, the village slowly reveal itself above.",
+        "By the top, you'll understand: Corniglia doesn't offer easy access because easy access would undo what makes it Corniglia. The climb is the welcome."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/corniglia/hotels", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "getting-here"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.833Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

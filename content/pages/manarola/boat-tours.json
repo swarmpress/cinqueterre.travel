@@ -7,194 +7,152 @@
     "it": "/it/manarola/boat-tours"
   },
   "title": {
-    "en": "Boat Tours from Manarola",
-    "de": "Bootstouren",
-    "fr": "Excursions en Bateau",
-    "it": "Gite in Barca"
+    "en": "Boat Tours from Manarola | Cinque Terre Dispatch"
   },
   "page_type": "boat-tours",
   "seo": {
     "title": {
-      "en": "Manarola Boat Tours 2025 | Cinque Terre Cruises & Excursions"
+      "en": "Boat Tours from Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Best boat tours from Manarola. See all five villages from the sea, sunset cruises, and swimming stops."
-    },
-    "keywords": {
-      "en": [
-        "Manarola boat tours",
-        "Cinque Terre cruises",
-        "boat excursions",
-        "sunset cruise"
-      ]
+      "en": "From Manarola's tiny harbor, boats offer the perspective that land cannot provide—the cliffs from below, the villages from the sea, the coastline as fishermen have known it for centuries."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Esperienza in Mare",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Boat Tours & Excursions",
-        "it": "Tour in Barca da Manarola",
-        "de": "Bootstouren & Meeresausflüge"
-      },
-      "subtitle": {
-        "en": "Experience Cinque Terre from the sea. See the colorful villages from the water, swim in hidden coves, and enjoy sunset cruises.",
-        "it": "Ammira i 5 villaggi dalla prospettiva più spettacolare: il mare. Case colorate che emergono dalle scogliere, grotte nascoste, calette segrete e tramonti indimenticabili.",
-        "de": "Ich fotografiere Cinque Terre seit Jahren, aber nichts bereitet mich auf den Anblick der bunten Häuser vom Meer aus vor. Entdecken Sie versteckte Buchten, schwimmen Sie in kristallklarem Wasser und erleben Sie Sonnenuntergänge, die Ihre Kamera zum Glühen bringen werden."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Tours",
-            "it": "Prenota Tour"
-          },
-          "url": {
-            "en": "#tours",
-            "it": "#tour"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Tipi di Tour"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#tipologie"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Sea<br/>Perspective",
+      "subtitle": "Manarola looks different from the water. The cliffs rise higher. The colors glow brighter. The scale of the terraces becomes comprehensible. A boat tour isn't tourism—it's seeing the village as the sea has always seen it.",
+      "badge": "Boat Tours",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Maritime Reality",
+      "quote": "For most of its history, Manarola was accessed more easily by boat than by land. The trails were for local use. The sea was for trade, for fishing, for connection to the world. When you take a boat from here, you're traveling the way this coast was meant to be traveled.",
+      "content": [
+        "**The harbor is tiny**. Manarola's marina barely qualifies—a small concrete boat ramp, a few moorings, and the waves that crash against the breakwater when the weather turns. This intimacy limits boat size but preserves authenticity.",
+        "**Conditions determine everything**. The Mediterranean looks calm until it isn't. Tours run April through October when weather cooperates. Even then, rough seas can cancel departures. Flexibility is required; refunds are standard.",
+        "**The coastline reveals itself**. From land, you see the villages. From sea, you see what connects them—the cliffs, the caves, the swimming coves inaccessible by foot. The perspective shift is worth the price.",
+        "**Photography transforms**. The famous Manarola photograph—houses stacked against the cliff—comes from land. But the view from the water, looking back at where you stood, offers something equally powerful."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Popular Tours",
-        "it": "Tipologie di Tour"
-      },
-      "title": {
-        "en": "Boat Excursions",
-        "it": "Esperienze in Barca",
-        "de": "Manarola vom Meer aus"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "tour",
+      "items": [
         {
-          "icon": "boat",
-          "title": {
-            "en": "Five Villages Tour",
-            "it": "Tour dei 5 Villaggi"
-          },
-          "description": {
-            "en": "Full-day boat tour visiting all five villages. Swimming stops and onboard lunch.",
-            "it": "Giro completo costiero con soste per nuotare. 3-4 ore, guida inclusa, partenza da Monterosso o La Spezia."
-          }
+          "id": 1,
+          "name": "The Sunset Cruise",
+          "category": "Signature Experience",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Two hours on the water as the light turns golden, the villages glow, and the day surrenders to evening.",
+          "description": "The sunset cruise departs around 6pm (earlier in spring/fall), motors along the coast past Corniglia and Vernazza, then returns as the sun drops. The light on the cliffs during this hour is unrepeatable. Local wine is usually included. The return to Manarola's lit harbor provides the closing photograph.",
+          "giuliaComment": "This is the tour I send people on. Two hours, reasonable price, and that light—you can't replicate it from land. Book a few days ahead in summer because everyone wants this one. And bring a light jacket; the sea breeze cools fast after sunset.",
+          "signature": "When the light justifies everything"
         },
         {
-          "icon": "sunset",
-          "title": {
-            "en": "Sunset Cruise",
-            "it": "Tour al Tramonto"
-          },
-          "description": {
-            "en": "Evening tour along the coast. Watch sunset with prosecco and local snacks.",
-            "it": "Esperienza romantica con aperitivo a bordo. Vista spettacolare sui villaggi illuminati dal sole al calar del giorno."
-          }
+          "id": 2,
+          "name": "The Swimming Tour",
+          "category": "Active Experience",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Boats access coves that trails cannot reach—private swimming in waters too deep for shore access.",
+          "description": "Half-day tours combine coastal viewing with multiple swimming stops. The boat anchors in coves between villages where the water is clearest. Snorkeling gear is typically provided. The combination of boat, sun, and sea makes this the most active option—and the most refreshing.",
+          "giuliaComment": "Good swimmers love this tour. You're jumping into deep water, swimming to rocky shelves, exploring coastline that most visitors never see. Not for those uncomfortable in the ocean. But for the adventurous, it's the best way to experience the marine side of Cinque Terre.",
+          "signature": "When swimming becomes exploration"
         },
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Swimming Excursion",
-            "it": "Snorkeling e Grotte"
-          },
-          "description": {
-            "en": "Half-day tour to hidden coves. Snorkeling equipment and refreshments included.",
-            "it": "Esplorazione dell'area marina protetta con attrezzatura inclusa. Visita a grotte e calette nascoste."
-          }
-        },
-        {
-          "icon": "camera",
-          "title": {
-            "en": "Photography Cruise",
-            "it": "Barca a Vela"
-          },
-          "description": {
-            "en": "Morning departure for best light. Capture all villages from perfect angles.",
-            "it": "Tour in barca a vela tradizionale. Esperienza più autentica e sostenibile, gruppi piccoli."
-          }
-        },
-        {
-          "icon": "wine",
-          "title": {
-            "en": "Wine Tasting Cruise",
-            "it": "Tour Privati"
-          },
-          "description": {
-            "en": "Combine boat tour with vineyard visits. Sample local wines at sea-view cantinas.",
-            "it": "Barca riservata per te e il tuo gruppo. Itinerario personalizzato, massima flessibilità."
-          }
-        },
-        {
-          "icon": "private",
-          "title": {
-            "en": "Private Charters",
-            "it": "Tour con Degustazione"
-          },
-          "description": {
-            "en": "Rent your own boat with captain. Customize your route and schedule.",
-            "it": "Combinazione mare e enogastronomia. Include degustazione di vini locali e prodotti tipici."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More Activities",
-        "it": "Dettagli e Prezzi",
-        "de": "Mein perfekter Tag auf dem Wasser"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/manarola/things-to-do"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Five Village Tour",
+          "category": "Complete Circuit",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "See all five Cinque Terre villages from the water in a single morning or afternoon circuit.",
+          "description": "The full coastal tour runs from Riomaggiore to Monterosso and back, passing all five villages. Some tours include a stop in one village for lunch or exploration. Duration is typically 4-5 hours. The comprehensive view provides context—how the villages relate to each other, how the coastline flows between them.",
+          "giuliaComment": "This is for people who want to understand the whole region, not just Manarola. You see how the villages are both connected and isolated, how the geography shapes everything. It's longer and pricier, but if you're only coming once, it shows you everything.",
+          "signature": "When perspective expands understanding"
         }
       ],
-      "subtitle": {
-        "de": "Als Fotografin brauche ich die besten Perspektiven – und die gibt es nur vom Meer aus"
-      },
-      "content": {
-        "de": "Ich starte meine Bootstour gerne früh morgens vom **Hafen von Manarola** aus. Die ersten Sonnenstrahlen treffen die bunten Häuser und verwandeln sie in ein Kaleidoskop aus Farben, das Sie niemals vom Land aus sehen werden.\n\nWas mich jedes Mal aufs Neue fasziniert: Vom Wasser aus verstehen Sie erst, warum diese Dörfer so einzigartig sind. Die Häuser scheinen direkt aus den Klippen zu wachsen, als hätte die Natur selbst sie gemalt. Ich empfehle Ihnen, eine Tour zu buchen, die alle fünf Dörfer umfasst – jedes hat seine eigene Persönlichkeit, die sich vom Meer aus völlig anders zeigt.\n\n**Mein Geheimtipp**: Die beste Zeit für Fotos ist die goldene Stunde. Wenn Sie eine Sonnenuntergangstour machen, positionieren Sie sich am **Manarola Sonnenuntergang Belvedere** – aber vom Wasser aus haben Sie eine noch spektakulärere Sicht."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Weather Window",
+          "quote": "The Mediterranean has moods. Early morning is calmest—flat water, no thermal winds. By afternoon, the sea often chops up. Most boat operators know this; morning departures get the smoothest conditions. Evening tours catch the light but sometimes the waves too."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Booking Reality",
+      "quote": "Boat tours from Manarola are limited by the harbor's size and the weather's whims. This is not big-boat tourism—it's small operators with small vessels.",
+      "content": [
+        "**Book 2-3 days ahead in summer**. The sunset cruises especially fill up. Last-minute availability exists in shoulder season but not July-August.",
+        "**Expect cancellations**. Weather cancellations happen. Good operators refund fully or reschedule. Don't plan a tight itinerary around a boat tour.",
+        "**Prices range €30-150 per person** depending on tour length and group size. Private charters cost significantly more but offer flexibility.",
+        "**Smaller boats mean more motion**. Those prone to seasickness should take precautions. The afternoon chop especially affects smaller vessels."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "consideration",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Private Charter",
+          "category": "Premium Option",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Your own boat, your own schedule, your own stops—the way to experience the coast without compromise.",
+          "description": "Private charters run €400-800 for a half-day, €700-1200 for a full day, depending on boat size and inclusions. You choose the itinerary: swim stops, village visits, timing. For couples or small groups, this provides flexibility that group tours cannot match. Some charters include onboard dining.",
+          "giuliaComment": "If you're celebrating something—anniversary, birthday, proposal—the private charter is worth it. You control everything. Stop where you want, swim where you want, return when you want. The captain knows secret spots that group tours skip.",
+          "signature": "When exclusivity justifies the cost"
+        },
+        {
+          "id": 5,
+          "name": "The Ferry Option",
+          "category": "Budget Alternative",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The scheduled ferries between villages offer a boat experience without the tour premium.",
+          "description": "Regular ferry service connects the villages April-October. A one-way ticket costs €5-15 depending on distance. The boats are larger, the views are similar, and you get the sea experience without booking a tour. The limitation: fixed schedules, no swimming stops, crowded decks in summer.",
+          "giuliaComment": "For budget travelers, take the ferry to Monterosso and back. You get the coastal views, the sea perspective, the photographs. It's not intimate like a private tour, but it costs a fraction. Sometimes the simple option is the right option.",
+          "signature": "When practicality meets experience"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Captain's Knowledge",
+          "quote": "Good captains know more than the route. They know where dolphins appear, which caves open at low tide, which cliffs glow best at sunset. The small operators—local fishermen running tours on their boats—often know the most. Their commentary may be rough, but their knowledge is real."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The View You Can't Get Otherwise",
+      "content": [
+        "A boat tour is not essential to experiencing Manarola. The village is the village whether seen from land or sea. But the sea perspective offers something land cannot—the reverse angle, the coastal context, the sense of what sailors saw approaching this coast for centuries.",
+        "Choose based on your interests: sunset for photography, swimming for activity, the five-village circuit for comprehension. Or simply take the ferry and enjoy the sea for what it is.",
+        "The Mediterranean earned Manarola's existence. Seeing the village from the water honors that relationship."
+      ],
+      "buttons": [
+        { "text": "Swimming Guide", "url": "/en/manarola/beaches", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/manarola/getting-here", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "boat-tours"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.837Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

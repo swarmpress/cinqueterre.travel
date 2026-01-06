@@ -7,189 +7,163 @@
     "it": "/it/corniglia/restaurants"
   },
   "title": {
-    "en": "Restaurants in Corniglia",
-    "de": "Restaurants",
-    "fr": "Restaurants",
-    "it": "Ristoranti"
+    "en": "Where to Eat in Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Best Restaurants in Corniglia 2025 | Authentic Local Dining"
+      "en": "Where to Eat in Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover authentic trattorias and restaurants in Corniglia. Traditional Ligurian cuisine, local wines, family-run establishments serving generations of recipes."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia restaurants",
-        "Ligurian cuisine",
-        "local trattorias",
-        "Cinque Terre dining",
-        "Vernaccia wine"
-      ]
+      "en": "In a village of 150 residents, every restaurant is family-run, every cook knows their suppliers by name, and the wine comes from terraces you can see from your table."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Corniglia Dining",
-        "it": "Cucina Autentica",
-        "de": "Corniglia Gastronomie"
-      },
-      "title": {
-        "en": "Authentic Local Restaurants",
-        "it": "Ristoranti a Corniglia",
-        "de": "Authentische Familienküche"
-      },
-      "subtitle": {
-        "en": "Traditional trattorias serving local families for generations. Taste genuine Ligurian recipes with excellent local wines.",
-        "it": "Il villaggio più autentico offre anche la cucina più genuina. Trattorie a conduzione familiare dove assaggiare ricette tradizionali tramandate da generazioni, lontano dalle trappole turistiche.",
-        "de": "Als Kulinarikexpertin versichere ich Ihnen: Corniglia bietet die authentischste Küche der Cinque Terre. Hier servieren Familienbetriebe seit Generationen traditionelle ligurische Rezepte - fernab von Touristenfallen und zu fairen Preisen."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "Eating<br/>Above the Clouds",
+      "subtitle": "Corniglia's restaurants exist in a world apart—clifftop terraces where meals unfold with the Mediterranean far below, kitchens where the same families have cooked for generations, and wine lists that read like an atlas of the surrounding slopes.",
+      "badge": "Dining Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555396273-367ea4eb4db5-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Corniglia Kitchen",
+      "quote": "There are maybe a dozen places to eat in Corniglia, and most have been run by the same families for decades. The menus don't change much because the recipes work. The ingredients come from terraces visible through the windows. The pace is slow because rushing would miss the point.",
+      "content": [
+        "**The elevation changes everything**. You're not eating at sea level with the noise and bustle of harbor villages. The air is different up here—cleaner, quieter, scented with wild herbs that grow on the terraces. Dining feels removed from the tourist machine below.",
+        "**The specialties are agricultural**. While coastal villages emphasize seafood, Corniglia's kitchens lean into what the terraces produce: exceptional pesto from local basil, trofie pasta made by hand, vegetables from family gardens, and always the wine.",
+        "**The wine is local**. Every restaurant pours wines from producers you could walk to visit. The Cinque Terre DOC whites are mineral and crisp; the rare Sciacchetrà appears on dessert menus as a treasure. The connection between table and vineyard is immediate.",
+        "**Reservations matter more here**. With fewer restaurants than the coastal villages and the same number of visitors at peak times, tables fill quickly. Book ahead or arrive early, especially for dinner."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "restaurant",
+      "items": [
         {
-          "text": {
-            "en": "View Options",
-            "it": "Dove Mangiare"
-          },
-          "url": {
-            "en": "#restaurants",
-            "it": "#ristoranti"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "Cecio",
+          "category": "Traditional Trattoria",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Four generations of the same family, recipes unchanged, ingredients from their own garden—this is what a Ligurian trattoria should be.",
+          "description": "Cecio sits above the village with views that would justify any meal, but the food stands on its own merit. The trofie al pesto uses basil from their garden; the anchovies come from Monterosso's fleet; the vegetables grew steps away. Fourth-generation hospitality that feels genuine, not performed.",
+          "giuliaComment": "My family has eaten at Cecio for decades. The grandmother who started it made my mother's wedding cake. The grandson who runs it now went to school with my brother. This is what Cinque Terre hospitality used to mean before the crowds—you know the family, they know you.",
+          "signature": "Where tradition serves dinner"
         },
         {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Specialità Locali"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#specialita"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "Osteria a Mananan",
+          "category": "Elevated Ligurian",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Sophisticated interpretations of regional classics in stone-walled rooms that have hosted meals for centuries.",
+          "description": "The Mananan family runs both the osteria and the cantina below. The cooking takes traditional recipes and applies careful technique—not fusion, not modern, just Ligurian food made with exceptional attention. The wine pairings draw from the cantina's deep cellar. Book the sunset terrace if you can.",
+          "giuliaComment": "This is where I bring visitors I want to impress. The setting is elegant without being stiff, the food is serious without being pretentious, and the wine knowledge is deep. They'll guide you through local varieties you've never heard of and remember your preferences if you return.",
+          "signature": "Where tradition meets refinement"
+        },
+        {
+          "id": 3,
+          "name": "Cantina de Mananan",
+          "category": "Wine Bar & Cellar",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Stone cellars carved into the hillside where wine tasting becomes education and small plates complement serious bottles.",
+          "description": "More than a restaurant—a tasting room where the wines of Cinque Terre reveal themselves properly. The cellar holds vintages you won't find elsewhere; the staff explains what makes each vineyard different. Small plates of local cheeses and cured meats accompany the glasses. This is where wine becomes the point.",
+          "giuliaComment": "I learned about wine here. Not from books or courses, but from sitting in the cellar while the owner explained why this terrace's grapes taste different from that one, why the weather in 2019 made such unusual wine. It's education disguised as pleasure.",
+          "signature": "Where wine tells its story"
+        },
+        {
+          "id": 4,
+          "name": "La Posada",
+          "category": "Casual Dining",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Good pizza, honest pasta, the kind of place that feeds hungry hikers without pretension or inflated prices.",
+          "description": "Not every meal needs to be an experience. Sometimes you've climbed 377 steps, hiked from Vernazza, and want solid food at reasonable prices. La Posada delivers: pizza from a proper oven, pasta done correctly, beer cold and wine local. No reservations needed for lunch; dinner fills faster.",
+          "giuliaComment": "This is where locals eat when we don't feel like cooking but don't want a special occasion. The pizza is better than it needs to be for a village this small. The terrace catches afternoon sun. It's uncomplicated in the best way.",
+          "signature": "Where hungry becomes satisfied"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Sciacchetrà Question",
+          "quote": "Every restaurant offers Sciacchetrà, and every visitor wonders if it's worth the price. It is. This dessert wine—made from grapes dried on the terraces for months—represents centuries of knowledge in every golden sip. Order a glass with almond biscotti and understand why Romans shipped this wine across their empire."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Dining in Corniglia",
-        "it": "Esperienza Gastronomica"
-      },
-      "title": {
-        "en": "Where to Eat",
-        "it": "Mangiare a Corniglia",
-        "de": "Warum ich Corniglia für das beste kulinarische Erlebnis halte"
-      },
-      "features": [
-        {
-          "icon": "restaurant",
-          "title": {
-            "en": "Osteria Mananan",
-            "it": "Trattorie Familiari"
-          },
-          "description": {
-            "en": "Legendary family-run restaurant on the main square. Famous for fresh pasta and seafood. Reserve in advance.",
-            "it": "Piccoli locali a conduzione familiare dove la nonna cucina ancora le ricette di sempre. Atmosfera casalinga e prezzi onesti."
-          }
-        },
-        {
-          "icon": "wine",
-          "title": {
-            "en": "Enoteca Il Pirun",
-            "it": "Terrazze Panoramiche"
-          },
-          "description": {
-            "en": "Wine bar with excellent selection of local Vernaccia. Light meals, cheese boards, and stunning terrace views.",
-            "it": "Vista a 360° su vigneti e mare. Cena al tramonto con panorama indimenticabile senza la folla degli altri villaggi."
-          }
-        },
-        {
-          "icon": "food",
-          "title": {
-            "en": "A Cantina de Mananan",
-            "it": "Vini del Territorio"
-          },
-          "description": {
-            "en": "Cozy wine cellar atmosphere. Traditional Ligurian dishes with excellent wine pairings from family vineyards.",
-            "it": "Corniglia è circondata da vigneti. Ogni ristorante offre ottima selezione di Cinque Terre DOC e Sciacchetrà locali."
-          }
-        },
-        {
-          "icon": "pizza",
-          "title": {
-            "en": "Gelateria Alberto",
-            "it": "Prodotti dell'Orto"
-          },
-          "description": {
-            "en": "Local favorite for gelato and quick bites. Try the local focaccia and fresh fruit gelato.",
-            "it": "Verdure coltivate nei terrazzamenti circostanti. Torte di verdura, verdure ripiene, minestrone alla ligure."
-          }
-        },
-        {
-          "icon": "cafe",
-          "title": {
-            "en": "Bar Terza Terra",
-            "it": "Pasta Fresca"
-          },
-          "description": {
-            "en": "Main village bar for morning coffee and aperitivo. Locals gather here - authentic atmosphere guaranteed.",
-            "it": "Trofie, trenette e pansotti fatti a mano. Il pesto è eccezionale grazie al basilico DOP coltivato in zona."
-          }
-        },
-        {
-          "icon": "heart",
-          "title": {
-            "en": "Ristorante Cecio",
-            "it": "Meno Turistica"
-          },
-          "description": {
-            "en": "Family restaurant with panoramic terrace. Home-style cooking with generous portions and reasonable prices.",
-            "it": "Corniglia riceve meno visitatori giornalieri. Atmosfera più rilassata, servizio attento, possibilità di trovare tavolo anche senza prenotazione."
-          }
-        }
-      ],
-      "subtitle": {
-        "de": "Meine persönlichen Erkenntnisse nach Jahren der Erkundung"
-      },
-      "content": {
-        "de": "Nach meiner Ausbildung an der Kochschule in Genua und unzähligen Besuchen in der Region kann ich Ihnen versichern: **Corniglia ist das kulinarische Juwel der Cinque Terre**. Während andere Dörfer von Touristenrestaurants überschwemmt werden, bewahrt Corniglia seine authentische Seele.\n\nIch erinnere mich noch an meinen ersten Besuch im **Cecio** - die Nonna kochte persönlich in der Küche, und der Duft ihrer hausgemachten Pesto erfüllte die Via Fieschi Hauptstraße. Diese Authentizität finden Sie heute noch.\n\n**Warum Corniglia anders ist:**\n- Familiengeführte Restaurants seit 3-4 Generationen\n- Preise 20-30% günstiger als in anderen Cinque Terre-Dörfern\n- Verwendung lokaler Zutaten von den Corniglia Weinberg-Terrassen\n- Kein Touristenmenü-Kauderwelsch - hier gibt es echte ligurische Küche"
-      }
+      "type": "editorial-intro",
+      "badge": "Practical Matters",
+      "quote": "Dining in Corniglia requires adjustment to the rhythms of a village that doesn't cater to tourist schedules. Kitchens open and close at traditional hours. The best tables go to those who plan ahead. Patience is rewarded.",
+      "content": [
+        "**Lunch runs 12:30-2:30pm**. Arrive at opening for the best terrace seats. The afternoon gap (3-7pm) sees most restaurants closed—plan accordingly.",
+        "**Dinner starts at 7:30pm**. Earlier seatings aren't common. Sunset tables require advance requests. Most kitchens close by 10pm.",
+        "**Reservations are essential for dinner**. Call or stop by in person during afternoon hours. Last-minute walk-ins work for lunch but rarely for dinner during high season.",
+        "**Budget €30-50 per person**. This includes wine, which you should order—drinking local wine in Corniglia isn't optional, it's participation. The house wines are often excellent."
+      ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Experience Authentic Ligurian Cuisine",
-        "it": "Prezzi e Consigli",
-        "de": "Wo Sie unbedingt essen sollten"
-      },
-      "buttons": [
+      "type": "collection-with-interludes",
+      "itemType": "spot",
+      "items": [
         {
-          "text": {
-            "en": "Plan Your Visit"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 5,
+          "name": "Bar Matteo",
+          "category": "Morning Coffee",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The morning gathering spot where locals start their day—espresso at the bar, brief conversations, the ritual that makes the village function.",
+          "description": "This isn't a café designed for tourists lingering over laptops. It's a bar in the Italian sense: stand at the counter, drink your espresso in three sips, exchange words with whoever's beside you. The pastries are fresh, the coffee is strong, and the ritual is ancient.",
+          "giuliaComment": "I know who's in the village by who's at Matteo's in the morning. It's information central, the place where news travels. If something happened overnight, you'll hear about it here before anywhere else.",
+          "signature": "Where mornings begin"
+        },
+        {
+          "id": 6,
+          "name": "Alberto Gelateria",
+          "category": "Gelato",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The gelato here has earned regional fame—creative flavors that reflect the terraces and the sea.",
+          "description": "Alberto makes gelato the way it should be made: small batches, real ingredients, flavors that taste like what they claim to be. The local favorites include limoncino (local lemons), Sciacchetrà (the dessert wine), and fior di latte (pure milk). The line justifies itself.",
+          "giuliaComment": "We're unreasonably proud of Alberto's gelato. When friends visit from other villages, we make them try it—it's become a point of local pride. The Sciacchetrà flavor captures the wine perfectly, which sounds impossible until you taste it.",
+          "signature": "Where sweetness rewards the climb"
         }
       ],
-      "eyebrow": {
-        "de": "Meine Restaurant-Empfehlungen"
-      }
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Evening Aperitivo",
+          "quote": "The hour before dinner is sacred. Find a terrace, order a spritz or a glass of local white, watch the light change over the sea. This isn't killing time; it's the point. The meal comes later. Right now, the aperitivo is enough."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Dining at Elevation",
+      "content": [
+        "Corniglia's restaurants don't compete with the harbor-side dining of other villages. They offer something different: meals where the elevation creates distance from the tourist rush, where the terraces outside grow what appears on your plate, where the families cooking have been doing so for generations.",
+        "The climb is part of the meal. The 377 steps build appetite. The view from the terrace rewards the effort. The wine tastes better when you can see where it grew.",
+        "Reserve ahead. Arrive hungry. Order the local wine. Let the meal unfold at Corniglia's pace, which is slower than you're used to, and better for it."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/corniglia/hotels", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "restaurants"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.834Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

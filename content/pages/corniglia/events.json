@@ -7,188 +7,152 @@
     "it": "/it/corniglia/events"
   },
   "title": {
-    "en": "Events in Corniglia",
-    "de": "Veranstaltungen",
-    "fr": "Événements",
-    "it": "Eventi"
+    "en": "Events in Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "events",
   "seo": {
     "title": {
-      "en": "Corniglia Events 2025 | Festivals & Local Celebrations"
+      "en": "Events in Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Annual events and festivals in Corniglia. Wine harvest, patron saint festivals, local traditions, and seasonal celebrations."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia events",
-        "Cinque Terre festivals",
-        "wine harvest",
-        "local traditions"
-      ]
+      "en": "The events of Corniglia aren't staged for tourists—they're the festivals and gatherings that have marked village time for centuries. Joining them means participating in living tradition."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Corniglia Events",
-        "it": "Tradizioni e Cultura",
-        "de": "Corniglia Veranstaltungen"
-      },
-      "title": {
-        "en": "Festivals & Celebrations",
-        "it": "Eventi e Feste a Corniglia",
-        "de": "Festivals & Traditionen"
-      },
-      "subtitle": {
-        "en": "Experience authentic local traditions, wine harvest festivals, and patron saint celebrations.",
-        "it": "Sagre patronali, feste religiose millenarie, eventi enogastronomici e celebrazioni tradizionali. Vivi l'autenticità della cultura ligure attraverso gli eventi che scandiscono l'anno.",
-        "de": "Erleben Sie authentische ligurische Feste, jahrhundertealte Weintraditionen und religiöse Feierlichkeiten in Italiens verstecktem Terrassendorf. Von der Weinlese im Herbst bis zu den magischen Sonnenuntergangskonzerten – Corniglia zeigt Ihnen das wahre Italien."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "When<br/>Corniglia Celebrates",
+      "subtitle": "The village calendar follows rhythms older than tourism: religious feast days, agricultural milestones, the gatherings that have brought the community together for generations. These aren't events—they're the life of the village made visible.",
+      "badge": "Events Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Village Calendar",
+      "quote": "Every festival in Corniglia exists for a reason older than any visitor. The patron saint celebrations, the harvest festivals, the religious processions—these mark time the way they always have, regardless of who happens to be watching.",
+      "content": [
+        "**The religious calendar shapes the year**. Feast days for San Pietro and the Madonna della Salute aren't tourist events—they're the spiritual heartbeat of the community, observed regardless of visitor presence.",
+        "**The agricultural calendar runs parallel**. Harvest in September, pruning in spring, the rhythms of wine-making that have organized village life for millennia. These aren't performances; they're necessary work that happens to be beautiful.",
+        "**Summer brings concerts and gatherings**. The village hosts small cultural events during peak season—acoustic concerts, poetry readings, art shows. These are newer traditions, but they fit the village's character.",
+        "**Participating requires respect**. These aren't events staged for you. When you attend a village festival, you're a guest in someone else's tradition. Observe before participating. Ask before photographing. Remember whose celebration it is."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "event",
+      "items": [
         {
-          "text": {
-            "en": "View Events",
-            "it": "Calendario"
-          },
-          "url": {
-            "en": "#events",
-            "it": "#calendario"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "Festa di San Pietro",
+          "category": "Patron Saint Festival",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The patron saint festival—processions through narrow streets, special masses, the village coming together to honor its protector.",
+          "description": "June 29 brings the feast of San Pietro, Corniglia's patron saint. The celebration includes special liturgy at the parish church, a procession through the village, and a community gathering with food and wine. The festival is religious but also social—a moment when the village reaffirms its identity.",
+          "giuliaComment": "San Pietro's day is when the village feels most itself. Everyone participates—believers and skeptics, old families and newcomers. The procession winds through streets my ancestors walked. The prayers are the same ones they prayed. Visitors are welcome, but understand: this is ours.",
+          "signature": "Where the village honors its saint"
         },
         {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Tradizioni"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#tradizioni"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "The Grape Harvest",
+          "category": "Agricultural Milestone",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1571406251871-c4d4d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "September's vendemmia transforms the village—families in the terraces, the smell of crushed grapes, the culmination of the year's work.",
+          "description": "Harvest isn't a festival in the traditional sense—it's work. But it's work that defines the village, concentrating its purpose and identity. For weeks in September, families pick grapes by hand, carrying baskets up impossible slopes. Some visitors can arrange to participate; all can witness the terraces coming alive.",
+          "giuliaComment": "Harvest is my favorite time. The village is exhausted but happy. We've worked all year for this—and now we see if the work paid off. The grapes tell us what kind of year it was. The wine will tell us what kind of year it will be. Everything depends on these weeks.",
+          "signature": "Where the year's work culminates"
+        },
+        {
+          "id": 3,
+          "name": "Festa della Madonna della Salute",
+          "category": "Religious Pilgrimage",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The pilgrimage to Volastra's sanctuary—village families walking to pray for health and protection, as they have for centuries.",
+          "description": "The sanctuary above Corniglia draws pilgrims on feast days dedicated to the Madonna della Salute. Families walk the trail together, pray at the sanctuary, share a meal. It's not a spectacle; it's a community affirming its faith through movement and presence.",
+          "giuliaComment": "My grandmother walked this pilgrimage until she couldn't walk anymore. Then she prayed from home while we walked for her. The tradition connects generations—we walk the same path our ancestors walked, pray the same prayers, hope for the same things.",
+          "signature": "Where faith meets footsteps"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Events That Aren't Events",
+          "quote": "The most important gatherings in Corniglia aren't on any calendar. Sunday mass. The morning at the bar. The evening passeggiata. These regular rhythms create community more than any festival. You can't attend them as events—you can only participate in them as life."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Annual Events",
-        "it": "Eventi Principali"
-      },
-      "title": {
-        "en": "Corniglia Celebrations",
-        "it": "Le Celebrazioni dell'Anno",
-        "de": "Warum Corniglias Feste so besonders sind"
-      },
-      "features": [
-        {
-          "icon": "wine",
-          "title": {
-            "en": "Grape Harvest (Sept-Oct)",
-            "it": "Luminaria di Manarola"
-          },
-          "description": {
-            "en": "Celebrate the vendemmia with local wine producers. Taste new wine and experience ancient traditions.",
-            "it": "8 dicembre: il presepe luminoso più grande del mondo. 300 figure illuminate sui terrazzamenti. Spettacolo unico."
-          }
-        },
-        {
-          "icon": "church",
-          "title": {
-            "en": "Feast of San Pietro (June 29)",
-            "it": "Festa del Limone"
-          },
-          "description": {
-            "en": "Patron saint festival with religious procession, music, fireworks, and community dinner.",
-            "it": "Maggio, Monterosso: celebrazione del famoso limone gigante. Degustazioni, mercatini, prodotti tipici."
-          }
-        },
-        {
-          "icon": "food",
-          "title": {
-            "en": "Lemon Festival (May)",
-            "it": "Fuochi di San Giovanni"
-          },
-          "description": {
-            "en": "Celebrate Ligurian lemons with food stalls, tastings, and traditional recipes.",
-            "it": "24 giugno, Riomaggiore: spettacolo pirotecnico sul mare. Tradizione centenaria con musica e festa fino all'alba."
-          }
-        },
-        {
-          "icon": "music",
-          "title": {
-            "en": "Summer Concerts (Jul-Aug)",
-            "it": "Festa dell'Uva"
-          },
-          "description": {
-            "en": "Evening concerts in the main square. Classical music, jazz, and Italian folk performances.",
-            "it": "Settembre: celebrazione della vendemmia. Degustazioni di Sciacchetrà, musica tradizionale, balli folkloristici."
-          }
-        },
-        {
-          "icon": "lantern",
-          "title": {
-            "en": "Luminaria (Aug 15)",
-            "it": "Sagre del Pesce"
-          },
-          "description": {
-            "en": "Ferragosto celebration with candles, lights, and evening festivities throughout the village.",
-            "it": "Estate: ogni villaggio celebra il pescato locale. Fritture, acciughe, specialità marinare a prezzi popolari."
-          }
-        },
-        {
-          "icon": "tradition",
-          "title": {
-            "en": "Christmas Market (Dec)",
-            "it": "Processioni Patronali"
-          },
-          "description": {
-            "en": "Small but charming holiday market with local crafts, food specialties, and mulled wine.",
-            "it": "Ogni villaggio ha il suo santo patrono. Processioni storiche, luminarie, musica e fuochi d'artificio."
-          }
-        }
-      ],
-      "subtitle": {
-        "de": "Authentische Traditionen im kleinsten der Cinque Terre Dörfer"
-      },
-      "content": {
-        "de": "Nach drei Sommern in Vernazza und unzähligen Besuchen in Corniglia kann ich Ihnen versichern: Die Feste hier sind magisch anders. Während andere Dörfer von Touristen überströmt werden, bewahrt Corniglia seine Authentizität.\n\nStellen Sie sich vor: Sie sitzen bei **Cantina de Mananan** während des Erntefests, umgeben von Einheimischen, die seit Generationen den berühmten Sciacchetrà-Wein auf den **Corniglia Weinberg-Terrassen** produzieren. Die Sonne geht über dem Mittelmeer unter, und Sie verstehen plötzlich, warum ich nie müde werde, hierher zurückzukehren.\n\nDie **Via Fieschi Hauptstraße** verwandelt sich während der Feste in eine Bühne des Lebens – bunte Girlanden zwischen den pastellfarbenen Häusern, der Duft von Focaccia aus **Il Pirun**, und überall das herzliche Lachen der Corniglianer."
-      }
+      "type": "editorial-intro",
+      "badge": "Summer Cultural Events",
+      "quote": "During high season, the village hosts smaller cultural events—concerts, readings, exhibitions. These are newer traditions, but they honor the village's character by keeping things intimate and acoustic.",
+      "content": [
+        "**Sunset concerts** happen occasionally on the terraces. Local musicians play acoustic sets as the sun drops toward the sea. The audiences are small; the settings are spectacular.",
+        "**Art exhibitions** appear in village spaces during summer. Local artists, occasionally visitors, show work that responds to the landscape and light.",
+        "**Poetry readings** gather small audiences for Italian and sometimes international verse. The settings—a terrace at twilight, a cantina at night—matter as much as the words.",
+        "**Check locally for schedules**. These events aren't heavily promoted. Ask at bars and shops, check notices posted on walls. Part of the charm is discovering what's happening."
+      ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Experience Authentic Local Traditions",
-        "it": "Eventi per Stagione",
-        "de": "Die wichtigsten Feste in Corniglia"
-      },
-      "buttons": [
+      "type": "collection-with-interludes",
+      "itemType": "gathering",
+      "items": [
         {
-          "text": {
-            "en": "Plan Your Visit"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 4,
+          "name": "Sunset Concerts",
+          "category": "Summer Music",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Acoustic performances as the light fades—local musicians, small audiences, the Mediterranean as backdrop.",
+          "description": "During July and August, occasional concerts happen on terraces and in piazzas. The music is typically acoustic—classical guitar, small ensembles, singer-songwriters. The audiences number dozens, not hundreds. The settings are intimate; the experience is unrepeatable.",
+          "giuliaComment": "These concerts fit the village. They're quiet enough that you can still hear the sea. They're small enough that you can meet the musicians afterward. They end early enough that the village can return to its evening rhythm. This is how we want cultural events—integrated, not imposed.",
+          "signature": "Where music meets the evening"
+        },
+        {
+          "id": 5,
+          "name": "Cooking Demonstrations",
+          "category": "Culinary Culture",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Village cooks sharing techniques—pesto-making, pasta-rolling, the recipes that define Ligurian cuisine.",
+          "description": "Occasional demonstrations by local cooks show traditional techniques: grinding pesto in a marble mortar, rolling trofie pasta by hand, preparing vegetables from garden to plate. These aren't cooking schools—they're glimpses into how village kitchens work, shared by cooks who've been doing this since childhood.",
+          "giuliaComment": "When my aunt demonstrates pesto-making, she doesn't use recipes. She knows how it should look, how it should smell, how the pestle should sound against the marble. That knowledge can't be taught in a class—it can only be witnessed, absorbed, practiced over years.",
+          "signature": "Where teaching becomes sharing"
         }
       ],
-      "eyebrow": {
-        "de": "Jährliche Höhepunkte"
-      }
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "Finding Events",
+          "quote": "Corniglia doesn't advertise its events on Instagram. Check the notices posted near the church, ask at the bar, watch for handwritten signs. Part of experiencing village life is learning how village information travels—not through apps, but through conversation and attention."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Participating in Tradition",
+      "content": [
+        "The events of Corniglia aren't entertainment—they're the visible expressions of a community's ongoing life. The festivals that seem quaint to visitors are serious to residents: expressions of faith, celebrations of work, affirmations of identity.",
+        "When you attend a village event, you're being allowed into something that would happen whether you came or not. This requires humility. Watch before you photograph. Listen before you speak. Remember that your presence doesn't define the event—the event defines itself.",
+        "The best way to experience Corniglia's events is to stay long enough that they stop feeling like events and start feeling like rhythm. The weekly mass. The evening gathering. The seasonal change. This is how villages have always marked time. It continues with or without witnesses."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Things to Do", "url": "/en/corniglia/things-to-do", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "events"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.833Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

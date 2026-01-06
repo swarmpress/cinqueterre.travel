@@ -7,197 +7,295 @@
     "it": "/it/vernazza/restaurants"
   },
   "title": {
-    "en": "Best Restaurants in Vernazza",
-    "de": "Restaurants",
-    "fr": "Restaurants",
-    "it": "Ristoranti"
+    "en": "Vernazza Restaurants - Where Sea Meets Culinary Excellence"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Vernazza Restaurants 2025 | Harbor Dining in Cinque Terre"
+      "en": "Best Restaurants in Vernazza | Cinque Terre Dining Guide"
     },
     "description": {
-      "en": "Discover the best restaurants in Vernazza. Harborside dining, fresh seafood, and stunning views at Cinque Terre's most scenic village."
-    },
-    "keywords": {
-      "en": [
-        "Vernazza restaurants",
-        "harbor dining",
-        "seafood Vernazza",
-        "where to eat"
-      ]
+      "en": "Discover Vernazza's finest restaurants - from waterfront seafood to clifftop fine dining. Your guide to authentic Ligurian cuisine in Italy's most scenic village."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Vernazza",
-        "it": "Il Borgo Più Bello",
-        "de": "Vernazza"
-      },
-      "title": {
-        "en": "Restaurants in Vernazza",
-        "it": "Ristoranti a Vernazza",
-        "de": "Restaurants in Vernazza"
-      },
-      "subtitle": {
-        "en": "Experience exceptional dining with views of the iconic harbor. Fresh catch daily and traditional Ligurian cuisine in the most romantic setting.",
-        "it": "Pranzo in piazza affacciata sul porto, cena al tramonto nelle terrazze sul castello, aperitivo con vista sul mare. Vernazza offre la location più scenografica per ogni pasto della giornata.",
-        "de": "Erleben Sie außergewöhnliche Küche mit Blick auf den berühmtesten Hafen Italiens. Täglich frischer Fang und authentische ligurische Rezepte in der romantischsten Kulisse der Cinque Terre."
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544148103-0773bf10d330-hero.jpg",
+      "eyebrow": "Vernazza Dining",
+      "title": "Where Ancient Harbors Meet Modern Flavors",
+      "subtitle": "Dine where medieval sailors once anchored, enjoying the finest Ligurian seafood with views that have captivated travelers for over a thousand years. From waterfront trattorias to clifftop fine dining, Vernazza's restaurants offer more than meals—they serve memories.",
       "buttons": [
         {
-          "text": {
-            "en": "View Restaurants",
-            "it": "Ristoranti Top"
-          },
-          "url": {
-            "en": "#list",
-            "it": "#ristoranti"
-          },
+          "text": "Explore Featured Restaurants",
+          "url": "#featured",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Vernazza",
-            "it": "Prenota Tavolo"
-          },
-          "url": {
-            "en": "/en/vernazza",
-            "it": "#prenota"
-          },
+          "text": "Local Dining Tips",
+          "url": "#dining-guide",
           "variant": "secondary"
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Top Picks",
-        "it": "Esperienza Unica"
-      },
-      "title": {
-        "en": "Featured Restaurants",
-        "it": "Cenare a Vernazza",
-        "de": "Warum ich Vernazza als kulinarisches Juwel betrachte"
-      },
-      "features": [
+      "type": "stats-section",
+      "eyebrow": "Culinary Heritage",
+      "title": "A Taste of Maritime Tradition",
+      "stats": [
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Belforte",
-            "it": "Piazza sul Porto"
-          },
-          "description": {
-            "en": "Carved into the rocks with spectacular harbor views.",
-            "it": "La piazza principale affacciata sul mare è il cuore di Vernazza. Ristoranti con tavoli all'aperto per pranzi e cene con vista unica."
+          "number": "20+",
+          "label": "Authentic Restaurants",
+          "description": "From family trattorias to Michelin-worthy establishments"
+        },
+        {
+          "number": "900+",
+          "label": "Years of History",
+          "description": "Culinary traditions passed down through maritime generations"
+        },
+        {
+          "number": "3",
+          "label": "Signature Dishes",
+          "description": "Pesto, focaccia, and fresh seafood define Vernazza's cuisine"
+        },
+        {
+          "number": "5★",
+          "label": "Scenic Dining",
+          "description": "Every restaurant offers breathtaking Mediterranean views"
+        }
+      ]
+    },
+    {
+      "type": "collection-embed",
+      "collectionType": "restaurants",
+      "heading": "Featured Restaurants",
+      "headingLevel": 2,
+      "items": [
+        {
+          "slug": "gambero-rosso-vernazza",
+          "title": "Gambero Rosso",
+          "summary": "Waterfront dining with the freshest seafood in Vernazza's most scenic setting",
+          "url": "/gambero-rosso-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": true
           }
         },
         {
-          "icon": "star",
-          "title": {
-            "en": "Gambero Rosso",
-            "it": "Terrazze Castello"
-          },
-          "description": {
-            "en": "Harborside institution known for fresh seafood and pasta.",
-            "it": "Ristoranti sulle terrazze sopra il castello Doria. Vista a 180° sul golfo e sul villaggio. Tramonto spettacolare."
+          "slug": "ristorante-belforte-vernazza",
+          "title": "Ristorante Belforte",
+          "summary": "Clifftop fine dining in a medieval tower with breathtaking Ligurian Sea views",
+          "url": "/ristorante-belforte-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": true
           }
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Ristorante Pizzeria Vulnetia",
-            "it": "Pesce del Giorno"
-          },
-          "description": {
-            "en": "Traditional dishes with harbor terrace seating.",
-            "it": "Le barche dei pescatori attraccano direttamente in piazza. Non c'è pesce più fresco: dal mare al piatto in poche ore."
+          "slug": "nessun-dorma-vernazza",
+          "title": "Nessun Dorma",
+          "summary": "The most photogenic dining spot in Cinque Terre with unforgettable views",
+          "url": "/nessun-dorma-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": true
           }
         },
         {
-          "icon": "restaurant",
-          "title": {
-            "en": "Trattoria Gianni Franzi",
-            "it": "Alta Qualità"
-          },
-          "description": {
-            "en": "Family-run with homemade pasta and local wines.",
-            "it": "Vernazza attrae chef di talento. Piatti tradizionali eseguiti perfettamente, ingredienti premium, presentazioni curate."
+          "slug": "antica-osteria-il-baretto-vernazza",
+          "title": "Antica Osteria Il Baretto",
+          "summary": "Authentic family recipes in a cozy medieval setting off the beaten path",
+          "url": "/antica-osteria-il-baretto-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
           }
         },
         {
-          "icon": "gelato",
-          "title": {
-            "en": "Gelateria Il Porticciolo",
-            "it": "Location da Sogno"
-          },
-          "description": {
-            "en": "Award-winning gelato on the main square.",
-            "it": "Ogni pasto è un'esperienza visiva oltre che gastronomica. Il borgo più fotografato d'Italia come sfondo."
+          "slug": "blue-marlin-bar-vernazza",
+          "title": "Blue Marlin Bar",
+          "summary": "The social hub of Vernazza - perfect for aperitivo and people-watching",
+          "url": "/blue-marlin-bar-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
           }
         },
         {
-          "icon": "coffee",
-          "title": {
-            "en": "Bar La Torre",
-            "it": "Premium Price"
-          },
-          "description": {
-            "en": "Perfect for breakfast or sunset aperitivo with views.",
-            "it": "I prezzi riflettono la location eccezionale. Vernazza è il villaggio più costoso per ristorazione, ma ne vale ogni euro."
+          "slug": "ristorante-da-aristide-vernazza",
+          "title": "Ristorante da Aristide",
+          "summary": "Four decades of family tradition serving hearty Ligurian favorites",
+          "url": "/ristorante-da-aristide-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "trattoria-del-capitano-vernazza",
+          "title": "Trattoria del Capitano",
+          "summary": "Seafood stories and panoramic views from a real sea captain's kitchen",
+          "url": "/trattoria-del-capitano-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "pizzeria-vulnetia-vernazza",
+          "title": "Pizzeria Vulnetia",
+          "summary": "Authentic wood-fired pizzas with prime harbor square seating",
+          "url": "/pizzeria-vulnetia-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "la-torre-vernazza",
+          "title": "La Torre",
+          "summary": "Refined coastal cuisine with panoramic views from Vernazza's heights",
+          "url": "/la-torre-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "il-pirata-delle-cinque-terre-vernazza",
+          "title": "Il Pirata delle Cinque Terre",
+          "summary": "Authentic Sicilian breakfast and coffee culture in the heart of Vernazza",
+          "url": "/il-pirata-delle-cinque-terre-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "cantina-de-mananan-vernazza",
+          "title": "Cantina de Mananan",
+          "summary": "Hidden wine sanctuary celebrating local Cinque Terre vintages and flavors",
+          "url": "/cantina-de-mananan-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "lunch-box-vernazza",
+          "title": "Lunch Box",
+          "summary": "Fresh, portable meals perfect for Cinque Terre adventures and hiking",
+          "url": "/lunch-box-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": false
           }
         }
       ],
-      "subtitle": {
-        "de": "Persönliche Einblicke einer ligurischen Küchenchefin"
+      "display": {
+        "layout": "grid",
+        "columns": 3,
+        "showImage": true,
+        "showSummary": true,
+        "imageAspect": "landscape"
       },
-      "content": {
-        "de": "Nach dreißig Jahren in der ligurischen Gastronomie kann ich Ihnen versichern: Vernazza bietet die authentischste Küche der Cinque Terre. Während meiner Ausbildung in Genua lernte ich die Geheimnisse der traditionellen Rezepte, doch erst hier, zwischen den bunten Häusern der **Piazza Marconi** und dem kristallklaren Wasser des **Hafens von Vernazza**, verstehe ich wahrhaftig die Seele unserer Küche.\n\nJeden Morgen um 6:30 Uhr treffe ich die Fischer am Hafen. Sie bringen Anchovis, Branzino und die berühmten Sardellen direkt vom Boot in die Küchen. Diese Verbindung zwischen Meer und Teller – das ist es, was Vernazzas Restaurants so besonders macht. Keine Touristenfallen, sondern ehrliche Familientraditionen, die seit Generationen weitergegeben werden."
-      }
+      "showViewAll": true,
+      "viewAllUrl": "/restaurants"
+    },
+    {
+      "type": "content-section",
+      "id": "dining-guide",
+      "layout": "text-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555396273-367ea4eb4db5-regular.jpg",
+      "imagePosition": "right",
+      "eyebrow": "Local Dining Wisdom",
+      "title": "Savoring Vernazza Like a Local",
+      "content": "Ah, *carissimi*, let me share the secrets that transform a simple meal into a culinary pilgrimage. In Vernazza, dining is theater—the stage set against terraced vineyards and the endless blue of the Ligurian Sea.\n\n**The Golden Hours of Flavor**\nArrive for lunch between 12:30 and 2:00 PM when the midday sun illuminates the harbor and the catch of the day is at its freshest. The evening *passeggiata* begins around 7:00 PM, when locals emerge for aperitivo and the air fills with the aroma of wood-fired ovens.\n\n**Essential Vernazza Flavors**\nNo visit is complete without tasting *trofie al pesto*—those hand-rolled pasta twists that capture every drop of basil-perfumed sauce. The *farinata* here, made from chickpea flour in ancient wood ovens, carries the smoky essence of centuries. And the *acciughe del Cantabrico*—anchovies so sweet and tender they melt on your tongue like sea-salted butter.\n\n**Wine Wisdom**\nPair your meal with a crisp Cinque Terre DOC white, its mineral notes echoing the salt spray that nourishes the terraced vineyards above. For something truly special, ask for *Sciacchetrà*—the amber dessert wine that locals call \"liquid gold.\"\n\n**Insider's Timing**\nBook reservations for sunset dining at least a day ahead, especially from May through September. The most coveted tables are those overlooking the harbor, where you can watch fishing boats return with the day's catch as you sip your wine."
+    },
+    {
+      "type": "feature-section",
+      "eyebrow": "Dining Experiences",
+      "title": "Every Meal, A Different Story",
+      "features": [
+        {
+          "icon": "🏰",
+          "title": "Medieval Tower Dining",
+          "description": "Feast in centuries-old stone towers where Genoese nobles once entertained, now transformed into intimate restaurants with panoramic sea views."
+        },
+        {
+          "icon": "🎣",
+          "title": "Harbor-to-Table Freshness",
+          "description": "Watch fishermen return with the day's catch, then taste it prepared with traditional Ligurian techniques passed down through maritime families."
+        },
+        {
+          "icon": "🍷",
+          "title": "Terraced Vineyard Views",
+          "description": "Dine on terraces carved into cliffsides, where every table offers dramatic views of the vineyards that produce Cinque Terre's legendary wines."
+        },
+        {
+          "icon": "👨‍🍳",
+          "title": "Generational Recipes",
+          "description": "Taste family recipes preserved for centuries, from hand-rolled pasta techniques to secret spice blends known only to local *nonnas*."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "eyebrow": "Dining Questions",
+      "title": "Your Vernazza Restaurant Guide",
+      "faqs": [
+        {
+          "question": "Do I need reservations at Vernazza restaurants?",
+          "answer": "Absolutely, especially from April through October. Popular waterfront restaurants like Gambero Rosso and clifftop spots like Belforte book up days in advance. Call directly or ask your hotel concierge to secure the best tables with sea views."
+        },
+        {
+          "question": "What's the typical cost for dining in Vernazza?",
+          "answer": "Expect €25-40 per person for lunch at casual trattorias, and €45-80 for dinner at upscale restaurants. Fresh seafood and clifftop dining command premium prices, but the experience—dining with those views—is priceless. A good local wine starts around €20-25 per bottle."
+        },
+        {
+          "question": "What are Vernazza's signature dishes I must try?",
+          "answer": "Start with *trofie al pesto*—hand-rolled pasta with basil pesto that originated in this region. The *fritto misto* (mixed fried seafood) showcases the day's catch, while *farinata* offers a taste of ancient maritime cuisine. Don't miss the local *focaccia col formaggio*—a cheese-filled flatbread that's pure comfort food."
+        },
+        {
+          "question": "When are the best times to dine for views and atmosphere?",
+          "answer": "Sunset dining (7:30-8:30 PM in summer) offers magical golden hour lighting over the harbor. For lunch, arrive by 1:00 PM to secure harbor-view tables. Early evening aperitivo (6:00-7:00 PM) is when locals gather—join them at Blue Marlin Bar for the authentic Vernazza social scene."
+        },
+        {
+          "question": "Are there vegetarian and dietary restriction options?",
+          "answer": "Yes, though seafood dominates most menus. Ligurian cuisine offers excellent vegetarian dishes: pesto pasta, *farinata*, vegetable tarts, and stuffed vegetables. Most restaurants accommodate dietary needs with advance notice, though options may be limited during peak season."
+        },
+        {
+          "question": "How do I choose between waterfront and hillside restaurants?",
+          "answer": "Waterfront restaurants offer intimate harbor views and the freshest seafood—perfect for romantic dinners and watching the daily life of the village. Hillside spots like Nessun Dorma provide panoramic photography opportunities and slightly cooler evening breezes. Both offer authentic experiences, just different perspectives on paradise."
+        }
+      ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore Vernazza",
-        "it": "Costi e Prenotazioni",
-        "de": "Die besten Restaurants in Vernazza"
-      },
+      "variant": "centered",
+      "eyebrow": "Start Planning",
+      "title": "Your Vernazza Culinary Journey Awaits",
+      "content": "From medieval castle dining to harbor-fresh seafood, Vernazza's restaurants offer more than meals—they serve centuries of maritime tradition on plates overlooking one of Italy's most dramatic coastlines. Every bite tells the story of this ancient fishing village.",
       "buttons": [
         {
-          "text": {
-            "en": "Hotels"
-          },
-          "url": {
-            "en": "/en/vernazza/hotels"
-          },
+          "text": "Browse All Restaurants",
+          "url": "/vernazza/restaurants",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/vernazza/things-to-do"
-          },
+          "text": "Plan Your Visit",
+          "url": "/vernazza",
           "variant": "secondary"
         }
-      ],
-      "eyebrow": {
-        "de": "Meine Empfehlungen"
-      }
+      ]
     }
   ],
   "metadata": {
     "city": "vernazza",
     "page_type": "restaurants"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.850Z"
+  "updated_at": "2025-12-16T13:42:05.522Z"
 }

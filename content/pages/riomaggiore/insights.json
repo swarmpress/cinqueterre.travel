@@ -7,199 +7,152 @@
     "it": "/it/riomaggiore/insights"
   },
   "title": {
-    "en": "Local Insights & Tips for Riomaggiore",
-    "de": "Insider-Tipps",
-    "fr": "Conseils Locaux",
-    "it": "Consigli Locali"
+    "en": "Cultural Insights from Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "insights",
   "seo": {
     "title": {
-      "en": "Riomaggiore Local Tips 2025 | Insider Guide & Secrets"
+      "en": "Cultural Insights from Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Expert tips and local insights for visiting Riomaggiore. Learn what locals know about the best times, hidden spots, and authentic experiences."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore tips",
-        "local insights",
-        "insider guide",
-        "travel advice",
-        "local secrets"
-      ]
+      "en": "Beyond the postcard views lies a living culture—Greek origins, medieval survival strategies, agricultural traditions that have persisted for a millennium. What the tourist eye misses."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Consigli degli Esperti",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Experience Riomaggiore Like a Local",
-        "it": "Consigli Locali per Riomaggiore",
-        "de": "Erleben Sie Riomaggiore wie ein Einheimischer"
-      },
-      "subtitle": {
-        "en": "Insider tips, hidden spots, and local wisdom to help you discover the authentic soul of Cinque Terre's most vibrant village.",
-        "it": "Segreti, trucchi e insider tips per vivere le Cinque Terre come un locale. Evita errori comuni, scopri gemme nascoste e massimizza la tua esperienza.",
-        "de": "Exklusive Insider-Tipps, verborgene Orte und lokales Wissen, um die authentische Seele des lebendigsten Dorfes der Cinque Terre zu entdecken. Ein kulturhistorischer Leitfaden für anspruchsvolle Reisende."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Read Tips",
-            "it": "Scopri i Segreti"
-          },
-          "url": {
-            "en": "#insights",
-            "it": "#consigli"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Errori da Evitare"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#errori"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Beneath<br/>the Surface",
+      "subtitle": "Every village has two versions: the one tourists photograph and the one locals live in. Riomaggiore's deeper culture reveals itself slowly, to those who know where to look and what to ask.",
+      "badge": "Cultural Insights",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "What the Eye Misses",
+      "quote": "The pastel houses make beautiful photographs. But they were painted these colors so fishermen could identify their homes from the sea. Every 'charming' detail in Riomaggiore began as survival necessity.",
+      "content": [
+        "**The colors are navigation**. Those Instagram-worthy facades weren't designed for aesthetics—they were designed for recognition. A fisherman returning in fog or darkness needed to spot his home. The colors saved lives before they became postcards.",
+        "**The streets are riverbeds**. Via Colombo follows the path of the 'Rio Major'—the major river that gave the village its name, now channeled underground. The narrow streets weren't designed; they were carved by water, then adopted by humans.",
+        "**The stairs are equalizers**. In a village where everyone climbs the same stairs, class differences flatten. The wealthiest family still walks up like everyone else. Geography enforces a kind of democracy.",
+        "**The dialect preserves history**. Local speech carries Greek words from eighth-century refugees, Latin from medieval administration, French from Napoleonic occupation. The way old fishermen talk is a linguistic archaeology of the village."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Local Knowledge",
-        "it": "Insider Tips",
-        "de": "Lokales Wissen"
-      },
-      "title": {
-        "en": "Insider Tips",
-        "it": "I Segreti dei Locali",
-        "de": "Authentische Insider-Tipps"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "insight",
+      "items": [
         {
-          "icon": "sunrise",
-          "title": {
-            "en": "Best Times to Visit",
-            "it": "Orari Strategici"
-          },
-          "description": {
-            "en": "Arrive early morning or late afternoon to avoid cruise ship crowds and enjoy magical light",
-            "it": "Arriva prima delle 9:00 o dopo le 17:00. Le folle delle crociere invadono i villaggi 10:00-16:00. Tramonti: arriva 2 ore prima."
-          }
+          "id": 1,
+          "name": "The Greek Foundation",
+          "category": "Origins",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Eighth-century refugees fleeing barbarian invasions—what they brought and what remains.",
+          "description": "The Greek refugees who settled Riomaggiore in the 8th century didn't just bring themselves. They brought agricultural knowledge from more advanced Mediterranean cultures, maritime skills honed in Greek waters, and religious practices that blended with local traditions. Traces remain in local dialect, in festival customs, in the way older families approach the sea.",
+          "giuliaComment": "My grandmother used words I later learned were Greek in origin. She didn't know where they came from—they were just how her grandmother spoke. That's how history works here. It lives in language people don't even realize they're preserving.",
+          "signature": "Where Mediterranean cultures merged"
         },
         {
-          "icon": "camera",
-          "title": {
-            "en": "Secret Photo Spots",
-            "it": "Dove Mangiare Davvero"
-          },
-          "description": {
-            "en": "Walk up to the castle ruins at sunset for the best view over the colorful harbor",
-            "it": "Evita ristoranti sul lungomare con menu turistici. Sali nei vicoli, cerca dove mangiano i locali. Niente foto fuori."
-          }
+          "id": 2,
+          "name": "The Architecture of Defense",
+          "category": "Built Environment",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Tower houses, circular fortresses, narrow streets—a village designed to survive.",
+          "description": "Medieval Riomaggiore expected attack. The tower houses (case-torri) were defensible family units—thick walls, small windows, multiple stories that could be sealed floor by floor. The circular castle deflected cannon fire. The narrow streets slowed invaders. This wasn't paranoia; it was response to regular Saracen raids that took people as slaves.",
+          "giuliaComment": "Tourists see 'quaint narrow streets.' I see chokepoints where villagers could defend against pirates. The difference is knowing the history. Every architectural feature that looks decorative was probably defensive first.",
+          "signature": "Where beauty disguises fortification"
         },
         {
-          "icon": "wine-glass",
-          "title": {
-            "en": "Where Locals Drink",
-            "it": "Muoversi Smart"
-          },
-          "description": {
-            "en": "Skip the harbor bars, head up Via Colombo for authentic enotecas with better prices",
-            "it": "Compra Cinque Terre Card in stazione La Spezia (meno code). Usa treni regionali prima delle 9:00 (quasi vuoti)."
-          }
-        },
-        {
-          "icon": "swimmer",
-          "title": {
-            "en": "Swimming Like Locals",
-            "it": "Foto Perfette"
-          },
-          "description": {
-            "en": "Best spot is left side of harbor near the boat ramp, arrive after 4pm for afternoon sun",
-            "it": "Manarola: vista classica dalla strada sopra. Vernazza: dalla terrazza del castello. Alba: Riomaggiore. Tramonto: Manarola."
-          }
-        },
-        {
-          "icon": "parking",
-          "title": {
-            "en": "Parking Hack",
-            "it": "Luoghi Nascosti"
-          },
-          "description": {
-            "en": "Don't drive to village - park in La Spezia and take 10-min train, saves money and stress",
-            "it": "Caletta sotto Corniglia (scalinata), terrazza panoramica Nessun Dorma (vino + vista), santuari in collina (zero turisti)."
-          }
-        },
-        {
-          "icon": "utensils",
-          "title": {
-            "en": "Restaurant Timing",
-            "it": "Come Risparmiare"
-          },
-          "description": {
-            "en": "Lunch 12:30-1pm or dinner after 8pm to avoid tourist rush and get better service",
-            "it": "Pernotta a La Spezia (40% meno), pranzo con focaccia e vino (€8), aperitivo invece di cena costosa, treno invece taxi."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Dive Deeper",
-        "it": "Info Fondamentali",
-        "de": "Die Via dell'Amore: Ein historisches Meisterwerk kehrt zurück"
-      },
-      "description": {
-        "en": "Get answers to specific questions and read traveler stories from Riomaggiore."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Read FAQ"
-          },
-          "url": {
-            "en": "/en/riomaggiore/faq"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Travel Blog"
-          },
-          "url": {
-            "en": "/en/riomaggiore/blog"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Terrace Economy",
+          "category": "Agricultural Heritage",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A thousand years of moving stones—the economics that made it worthwhile.",
+          "description": "Building terraces on vertical cliffs required more labor than seemed rational. But the economics worked: Mediterranean sun on south-facing slopes ripened grapes that couldn't grow in the valleys. Sciacchetrà wine commanded premium prices. The terrace investment paid returns for centuries—until labor costs and tourism changed the equation.",
+          "giuliaComment": "My grandfather calculated that his terrace earned more per square meter than any land in the valley below. Of course, he was counting his own labor at zero. That's how families thought about it—the work was just life, not cost.",
+          "signature": "Where labor created landscape"
         }
       ],
-      "subtitle": {
-        "de": "Exklusives Wissen zur Wiedereröffnung 2025"
-      },
-      "content": {
-        "de": "Als Kulturhistoriker, der die Entwicklung der Cinque Terre über Jahrzehnte verfolgt hat, kann ich Ihnen versichern: Die **Via dell'Amore** ist weitaus mehr als ein romantischer Spaziergang. Dieser 1931 erbaute Ingenieursweg zwischen Riomaggiore und Manarola verkörpert den Triumph menschlicher Entschlossenheit über die zerklüftete ligurische Küste.\n\n**Praktische Informationen für 2025:**\n- **Wiedereröffnung:** Voraussichtlich März 2025 nach umfassender Restaurierung\n- **Zugang:** Nur mit Voranmeldung über offizielle Cinque Terre-Website\n- **Preis:** Ca. 15-20 EUR pro Person (bestätigt)\n- **Beste Zeit:** Frühe Morgenstunden oder späte Nachmittage\n\nDie jahrhundertelange Isolierung dieser Dörfer schuf eine einzigartige Kultur der Selbstgenügsamkeit. Der Bau dieses Weges revolutionierte das soziale Gefüge - plötzlich konnten junge Menschen aus benachbarten Dörfern einander begegnen. Die unzähligen Liebesschlösser sind keine moderne Touristenattraktion, sondern Zeugnisse authentischer Geschichten.\n\n**Insider-Tipp:** Besuchen Sie die Via dell'Amore Wiedereröffnungsfeier - ein seltenes kulturelles Ereignis, das Sie als privilegierter Zeuge der Geschichte erleben lässt."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Tourism Paradox",
+          "quote": "Tourism saved these villages from abandonment—young people have reasons to stay when there are jobs. But it also threatens the culture it came to see. Every souvenir shop that replaces a grocery store makes the village less livable for residents. The balance is precarious."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Living Traditions",
+      "quote": "The traditions that survive are not museum pieces. They're adaptations—practices that evolved with each generation while keeping their essential meaning. A festival that looks unchanged for centuries has actually changed constantly.",
+      "content": [
+        "**The Feast of San Lorenzo** (August 10) honors the patron saint with processions, special foods, and community gathering. It's religious, but it's also social—the one day when everyone, regardless of petty disputes, comes together. The tradition predates memory.",
+        "**The wine harvest** (vendemmia) is both practical and ritual. Families still work the terraces together, though some now hire help. The first pressing, the blessing of new wine, the shared meal after—these mark the agricultural year as they have for centuries.",
+        "**The blessing of the boats** before the fishing season opens asks divine protection for work that remains genuinely dangerous. The harbor fills with decorated boats, the priest walks the waterline, and for a moment, the ancient relationship between village and sea becomes visible.",
+        "**The mourning customs** surrounding death preserve medieval practices: certain clothes, certain foods, certain visitors in certain order. When someone dies in Riomaggiore, the old ways reassert themselves even in families that have otherwise modernized."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "insight",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Gender Geography",
+          "category": "Social Structure",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Who occupies what spaces, and when—the invisible map of village social life.",
+          "description": "Traditional Riomaggiore had gendered spaces: the harbor was men's territory during work hours, the church courtyard was women's gathering place, the upper streets belonged to children until dark. These patterns have softened but not disappeared. Observant visitors notice where different groups cluster at different times.",
+          "giuliaComment": "My generation mixed everything up. We swim at the harbor, we drink at the bars our grandmothers never entered. But I still see the old patterns in the oldest residents—where the men sit, where the women talk, which doorways belong to which conversations.",
+          "signature": "Where space carries social meaning"
+        },
+        {
+          "id": 5,
+          "name": "The Silence of Siesta",
+          "category": "Daily Rhythm",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The hours between lunch and evening—what happens when the village goes quiet.",
+          "description": "From roughly 2pm to 5pm, Riomaggiore changes character. Shops close. Streets empty. The heat of summer demands rest, but the habit persists in cooler months too. This isn't laziness—it's rhythm. The village has always worked early and late, resting in the middle. Fighting this rhythm exhausts you; following it reveals how the place actually functions.",
+          "giuliaComment": "Tourists who push through siesta look exhausted by evening. Those who nap or read or sit quietly on their terrace look refreshed. The village teaches its rhythm to those willing to learn. It's not about following rules—it's about understanding why those rhythms evolved.",
+          "signature": "When rest becomes wisdom"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Art of Observation",
+          "quote": "Cultural insight isn't found in guidebooks. It's found in watching: who greets whom, which doorways stay open, when the church bells mean something specific, why certain benches are always occupied by certain people. The village performs itself constantly for those paying attention."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Seeing Deeper",
+      "content": [
+        "Cultural insight cannot be scheduled or purchased. It emerges from attention, patience, and humility—the willingness to watch without judging, to ask without assuming, to recognize that eight centuries of accumulated wisdom live in practices that might look simple.",
+        "The villagers here have seen millions of tourists. They can distinguish the curious from the consuming, the respectful from the entitled, the genuine from the performative. They share their culture with the former and protect it from the latter.",
+        "Come looking not for experiences to collect but for understanding to develop. The village will respond accordingly."
+      ],
+      "buttons": [
+        { "text": "Village Stories", "url": "/en/riomaggiore/blog", "variant": "primary" },
+        { "text": "Village Overview", "url": "/en/riomaggiore/overview", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "insights"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.846Z"
+  "updated_at": "2026-01-05T18:15:00.000Z"
 }

@@ -7,182 +7,152 @@
     "it": "/it/corniglia/weather"
   },
   "title": {
-    "en": "Weather in Corniglia",
-    "de": "Wetter",
-    "fr": "Météo",
-    "it": "Meteo"
+    "en": "Weather in Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Corniglia Weather 2025 | Best Time to Visit Cinque Terre"
+      "en": "Weather in Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Weather guide for Corniglia. Mediterranean climate, best visiting seasons, monthly temperatures, rainfall, and what to pack."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia weather",
-        "Cinque Terre climate",
-        "best time to visit",
-        "seasonal guide"
-      ]
+      "en": "Corniglia's elevation creates its own microclimate—cooler summers, clearer views, and weather patterns that reward those who understand them."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Weather & Climate",
-        "it": "Clima e Stagioni",
-        "de": "Wetter & Klima"
-      },
-      "title": {
-        "en": "Corniglia Weather Guide",
-        "it": "Meteo e Quando Visitare Corniglia",
-        "de": "Corniglia Wetter-Ratgeber"
-      },
-      "subtitle": {
-        "en": "Mediterranean climate with mild winters and warm summers. Best conditions April-June and September-October.",
-        "it": "Clima mediterraneo mite tutto l'anno. Stagioni diverse offrono esperienze uniche: primavera fiorita, estate balneare, autunno vendemmiale, inverno autentico.",
-        "de": "Mediteranes Klima mit milden Wintern und warmen Sommern. Optimale Bedingungen von April bis Juni und September bis Oktober für Wanderungen und Besichtigungen."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Seasonal Info",
-            "it": "Periodo Migliore"
-          },
-          "url": {
-            "en": "#weather",
-            "it": "#periodo"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Meteo Attuale"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#meteo"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Weather<br/>From Above",
+      "subtitle": "At 100 meters elevation, Corniglia experiences weather differently from the coastal villages below. The height brings cooler breezes, clearer air, and light that photographers travel to capture. Understanding the seasons means knowing when to come.",
+      "badge": "Weather Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Elevated Climate",
+      "quote": "Corniglia's position changes everything about its weather. When coastal villages swelter in summer heat, the hilltop catches breezes that make evenings pleasant. When morning mist shrouds the sea, Corniglia often sits above it in sunshine.",
+      "content": [
+        "**The elevation advantage is real**. Two to three degrees cooler than sea-level villages in summer. Better air circulation. Views that extend further because you start higher. The climb up the Lardarina is compensated by the climate once you arrive.",
+        "**Mediterranean patterns apply**. Hot dry summers, mild wet winters, spring and fall perfection. The rain comes primarily November through February. Summer drought is normal—don't expect green terraces in August.",
+        "**Microclimates within microclimates**. South-facing terraces bake in afternoon sun. Shaded alleys stay cool. The viewpoint catches wind that the village center doesn't. Position matters as much as season.",
+        "**Weather affects everything**. When it rains, the Lardarina steps become slippery. Hot days mean climbing early or late. The best photos happen in specific light. Weather isn't just context—it shapes the experience."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Seasonal Guide",
-        "it": "Le Quattro Stagioni",
-        "de": "Saisonaler Ratgeber"
-      },
-      "title": {
-        "en": "When to Visit",
-        "it": "Quando Visitare le Cinque Terre",
-        "de": "Die beste Reisezeit für Corniglia"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
         {
-          "icon": "spring",
-          "title": {
-            "en": "Spring (Apr-May)",
-            "it": "Primavera (Mar-Mag)"
-          },
-          "description": {
-            "en": "Perfect weather 18-22°C. Wildflowers bloom, fewer crowds. Ideal for hiking and photography.",
-            "it": "Ideale per trekking. Temperature 15-22°C, fioritura, poca folla. Possibili piogge ad aprile. La stagione perfetta."
-          }
+          "id": 1,
+          "name": "Spring (March-May)",
+          "category": "Ideal Conditions",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The terraces bloom, temperatures perfect for hiking, crowds still manageable—spring is when Corniglia reveals itself most gently.",
+          "description": "Temperatures range 15-22°C—warm enough for terraces, cool enough for climbing. Wildflowers blanket the slopes. Occasional rain keeps everything green. The light has clarity that summer haze obscures. April and May are ideal months.",
+          "giuliaComment": "Spring is when I fall in love with Corniglia again. After winter's quiet, everything comes alive. The terraces show every shade of green. The air smells of wild herbs. And you can climb the stairs at noon without suffering.",
+          "signature": "When the landscape awakens"
         },
         {
-          "icon": "summer",
-          "title": {
-            "en": "Summer (Jun-Aug)",
-            "it": "Estate (Giu-Ago)"
-          },
-          "description": {
-            "en": "Hot 25-30°C. Peak season, very crowded. Best for swimming, arrives early to avoid crowds.",
-            "it": "Alta stagione. 25-30°C, mare caldo, spiagge, eventi. Molto affollato e caro. Caldo intenso sui sentieri."
-          }
+          "id": 2,
+          "name": "Summer (June-August)",
+          "category": "Peak Season",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Hot but elevated—Corniglia's summer is more bearable than the coast, with long evenings that reward the day's endurance.",
+          "description": "Temperatures reach 28-32°C at peak, but the elevation provides relief the coast lacks. Sea breezes climb the hill. Evenings cool beautifully. The sun is intense—shade becomes precious, morning and evening become the active hours.",
+          "giuliaComment": "Summer requires strategy. Climb early, rest at midday, emerge for aperitivo when the light turns gold. The tourists who climb at noon suffer unnecessarily. We've always known to work with the heat, not against it.",
+          "signature": "When timing becomes essential"
         },
         {
-          "icon": "autumn",
-          "title": {
-            "en": "Autumn (Sep-Oct)",
-            "it": "Autunno (Set-Nov)"
-          },
-          "description": {
-            "en": "Excellent conditions 20-25°C. Grape harvest season, perfect weather. September rivals spring.",
-            "it": "Eccellente per visite. 18-25°C in settembre, vendemmia, colori caldi. Meno turisti. Piogge in novembre."
-          }
-        },
-        {
-          "icon": "winter",
-          "title": {
-            "en": "Winter (Nov-Mar)",
-            "it": "Inverno (Dic-Feb)"
-          },
-          "description": {
-            "en": "Mild but rainy 10-15°C. Many restaurants closed. Authentic local life, dramatic seas.",
-            "it": "Bassa stagione. 8-15°C, molti servizi chiusi, poca folla. Autentico ma limitato. Presepe di Manarola a dicembre."
-          }
-        },
-        {
-          "icon": "sun",
-          "title": {
-            "en": "Elevated Position"
-          },
-          "description": {
-            "en": "Corniglia's cliff top location means more breeze and sun exposure. Cooler than sea-level villages."
-          }
-        },
-        {
-          "icon": "pack",
-          "title": {
-            "en": "What to Pack"
-          },
-          "description": {
-            "en": "Layers essential year-round. Sun protection, comfortable shoes, light rain jacket. Sweater for evenings."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Perfect Visit",
-        "it": "Il Clima in Numeri",
-        "de": "Detaillierte Wetterinformationen für Ihre Reiseplanung"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Overview"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 3,
+          "name": "Autumn (September-November)",
+          "category": "Harvest Beauty",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The grape harvest, golden light, comfortable temperatures—autumn is perhaps Corniglia's finest season.",
+          "description": "September maintains summer warmth (22-26°C) without summer crowds. October brings harvest and the changing light that photographers prize. November starts the transition—cooler, wetter, quieter. The terraces turn from green to gold.",
+          "giuliaComment": "Autumn is when the village is most itself. The harvest dominates everything—we're working, celebrating, living the purpose of these terraces. The visitors who come now understand why we're here. The light... there's nothing like autumn light on the terraces.",
+          "signature": "When the village works"
         }
       ],
-      "subtitle": {
-        "de": "Als gebürtiger Ligurer kenne ich die Wetterkapriolen unserer Küste genau"
-      },
-      "content": {
-        "de": "## Optimale Reisebedingungen\n\nCorniglia genießt ein typisch mediteranes Klima mit deutlichen Unterschieden zwischen den Jahreszeiten. Die **Corniglia Panoramaterrasse** bietet zu jeder Jahreszeit spektakuläre Ausblicke, doch die Wetterbedingungen beeinflussen Ihr Erlebnis erheblich.\n\n### Temperaturverlauf im Jahresvergleich\n\n**April bis Juni**: Die ideale Reisezeit für Wanderer. Temperaturen zwischen 18-22°C machen Wanderungen wie den **Corniglia Wildblumen und Mediterrane Botanische Entdeckung** zu einem wahren Vergnügen. Die antiken römischen Wege sind trocken und gut begehbar.\n\n**Juli bis August**: Heißeste Periode mit 28-32°C. Frühe Morgenstunden (6-9 Uhr) oder späte Nachmittage ab 17 Uhr empfohlen für Aktivitäten. Die **Via Fieschi Hauptstraße** kann mittags sehr heiß werden.\n\n### Niederschlagspattern\n\nOktober bis Februar: Durchschnittlich 8-12 Regentage monatlich. Kurze, intensive Schauer typisch für das ligurische Klima. Die **Lardarina Treppe** kann bei Nässe rutschig werden - festes Schuhwerk unbedingt erforderlich.\n\n### Wind- und Meeresbedingungen\n\nDer Maestrale (Nordwestwind) bringt klare Sicht und kühle Temperaturen, ideal für Panoramaaufnahmen von **Santa Maria Belvedere**. Scirocco (Südostwind) kann Dunst und höhere Luftfeuchtigkeit verursachen."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Elevation Effect",
+          "quote": "Those 100 meters matter more than you'd think. On the hottest August days, Corniglia is genuinely cooler than Riomaggiore or Monterosso. The breezes that die at sea level still reach our terraces. The morning mist that shrouds the coast often stops below us. Elevation is comfort."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "What to Bring",
+      "quote": "Packing for Corniglia means packing for Mediterranean weather plus elevation plus stairs. The combination creates specific needs that generic travel advice misses.",
+      "content": [
+        "**Layers are essential**. Mornings can be cool, afternoons warm, evenings breezy. The ability to adjust throughout the day matters more than any single perfect outfit.",
+        "**Sun protection is serious**. The terrace exposure means intense sun. Hat, sunscreen, sunglasses—these aren't optional. The light that makes photos beautiful also burns.",
+        "**Good shoes are non-negotiable**. The Lardarina stairs, the terrace paths, the village cobblestones—you'll walk on uneven surfaces constantly. Support and grip matter.",
+        "**Rain gear in shoulder seasons**. Spring and fall bring occasional showers. A compact jacket or umbrella avoids surprises."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "condition",
+      "items": [
+        {
+          "id": 4,
+          "name": "Winter (December-February)",
+          "category": "Quiet Season",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The village at its quietest—some businesses close, storms can be dramatic, but those who come find something authentic.",
+          "description": "Temperatures range 8-14°C—mild by northern standards but brisk by Mediterranean expectations. Rain is common; storms can be spectacular. Some restaurants and accommodations close. What remains is the village living for itself.",
+          "giuliaComment": "Winter is when Corniglia belongs to us again. The visitors leave, the village contracts to its core. We repair walls, prune vines, gather in the bar. It's not for tourists who want entertainment—it's for those who want truth.",
+          "signature": "When the village rests"
+        },
+        {
+          "id": 5,
+          "name": "The Perfect Week",
+          "category": "Best Timing",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "If you could choose any week—late May or mid-September, when everything aligns.",
+          "description": "Late May offers spring's final flourish: flowers still blooming, temperatures ideal (18-24°C), crowds not yet peaked, light spectacular. Mid-September brings harvest energy, summer's warmth without summer's heat, and the golden light that defines Cinque Terre photography.",
+          "giuliaComment": "When friends ask when to visit, I say late May or mid-September without hesitation. These weeks offer what the others can't—perfect weather, manageable crowds, and the village at its most alive. Plan around these windows if you can.",
+          "signature": "When everything aligns"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "Reading the Weather",
+          "quote": "We watch the horizon, not the forecast. When clouds build over the sea, rain follows in hours. When the morning is hazy, the afternoon will be hot. When the wind shifts to the south, weather is changing. The old ways of reading sky and sea still work here."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Weather as Guide",
+      "content": [
+        "Corniglia's weather isn't just backdrop—it shapes what you can do, what you'll see, how the village feels. Understanding the patterns means working with them rather than against them.",
+        "Come in the right season for your purposes. Spring for hiking and wildflowers. Summer for long evenings and sea access. Autumn for harvest and photography. Winter for solitude and authenticity. Each has its rewards.",
+        "And accept that weather changes, plans adjust, and sometimes the unexpected day—the storm that clears to rainbow, the fog that lifts to reveal everything—becomes the one you remember."
+      ],
+      "buttons": [
+        { "text": "Getting Here", "url": "/en/corniglia/getting-here", "variant": "primary" },
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "weather"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.835Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

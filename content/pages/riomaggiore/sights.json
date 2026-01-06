@@ -7,197 +7,169 @@
     "it": "/it/riomaggiore/sights"
   },
   "title": {
-    "en": "Sights & Attractions in Riomaggiore",
-    "de": "Sehenswürdigkeiten",
-    "fr": "Sites & Attractions",
-    "it": "Attrazioni"
+    "en": "What to See in Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "sights",
   "seo": {
     "title": {
-      "en": "Riomaggiore Attractions 2025 | Top Sights & Must-See Places"
+      "en": "What to See in Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Explore Riomaggiore's top attractions from the colorful harbor to Via dell'Amore, historic churches, and scenic viewpoints. Complete guide to must-see sights."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore sights",
-        "attractions",
-        "via dell'amore",
-        "harbor",
-        "church",
-        "viewpoints"
-      ]
+      "en": "Where eight centuries of stone, sea, and survival converge. A guide to seeing Riomaggiore as more than a postcard."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Attrazioni Imperdibili",
-        "de": "Riomaggiore Sehenswürdigkeiten"
-      },
-      "title": {
-        "en": "Iconic Sights & Hidden Gems",
-        "it": "Cosa Vedere a Riomaggiore",
-        "de": "Monumentale Schätze & Verborgene Perlen"
-      },
-      "subtitle": {
-        "en": "From the famous colorful harbor to medieval churches and romantic coastal paths, discover what makes Riomaggiore unforgettable.",
-        "it": "Chiese medievali, santuari panoramici, castelli antichi e i borghi più fotogenici d'Italia. Scopri i tesori nascosti e le attrazioni iconiche tra vicoli storici e terrazze sul mare.",
-        "de": "Von der berühmten Marina mit ihren bunten Häusern bis zur gotischen Kirche San Giovanni Battista – entdecken Sie die historischen Sehenswürdigkeiten, die Riomaggiore zum architektonischen Juwel der Cinque Terre machen."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Explore Attractions",
-            "it": "Principali Attrazioni"
-          },
-          "url": {
-            "en": "#sights",
-            "it": "#attrazioni"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Tour Guidato"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#tour"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Reading the<br/>Stones",
+      "subtitle": "Riomaggiore is not a museum. It is a living document—every wall, every terrace, every narrow stair a sentence in an eight-century story of refuge, labor, and the sea.",
+      "badge": "What to See",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Layered Village",
+      "quote": "To understand what you're seeing in Riomaggiore, you must first understand what you're standing on: a thousand years of human determination carved into cliffs that once offered nothing but sanctuary from a dangerous world.",
+      "content": [
+        "The village began as a **refuge**. Greek sailors fleeing conflict in the Vara Valley found these hidden coves around 1239. What they built was not a town—it was a fortress disguised as fishing huts.",
+        "The **tower houses** that line the harbor are not aesthetic choices. They are survivors of Saracen raids, built tall and narrow so families could defend from upper floors while the lower levels flooded with attackers.",
+        "You'll notice that **nothing is flat**. This is not carelessness. It is the only way to exist here. Every horizontal surface was earned—cut from rock, held by stone walls, defended against gravity and time.",
+        "The colors came later. The **painted facades** were originally practical: fishermen needed to identify their homes from sea. The beauty is accidental, which is perhaps why it feels so honest."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Must-See Places",
-        "it": "Da Non Perdere",
-        "de": "Historische Bedeutung"
-      },
-      "title": {
-        "en": "Top Riomaggiore Attractions",
-        "it": "Le Attrazioni Principali",
-        "de": "Jahrhunderte Ligurischer Geschichte"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "sight",
+      "items": [
         {
-          "icon": "anchor",
-          "title": {
-            "en": "The Harbor (Marina)",
-            "it": "Chiese e Santuari"
-          },
-          "description": {
-            "en": "Colorful fishing boats, tower-houses, and waterfront cafes create Cinque Terre's most photographed scene",
-            "it": "San Giovanni Battista, Madonna di Soviore, Santuario di Montenero. Architettura gotica-ligure e affreschi medievali."
-          }
+          "id": 1,
+          "name": "The Medieval Castle",
+          "category": "Historic Fortress",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The village's original reason for existing—a defensive point against a hostile sea.",
+          "description": "Built in 1260, the Castello di Riomaggiore was not a noble residence. It was pure function—circular walls designed to deflect cannon fire, positioned to see raiders approaching from any direction. What remains today is smaller than the original, but still commands the finest view in the village.",
+          "giuliaComment": "Most visitors rush through. Don't. Sit on the walls at sunset and watch the fishing boats return. You'll understand why people fought to live here.",
+          "signature": "The view that made defense worth dying for",
+          "practicalInfo": "Free access. Best at sunset. 10-minute walk from harbor up steep steps."
         },
         {
-          "icon": "heart",
-          "title": {
-            "en": "Via dell'Amore",
-            "it": "Castelli e Torri"
-          },
-          "description": {
-            "en": "The famous Lover's Walk carved into the cliff, connecting to Manarola in 20 romantic minutes",
-            "it": "Castello Doria a Vernazza, fortificazioni genovesi, torri di avvistamento saracene. Testimonianze di difesa marittima."
-          }
+          "id": 2,
+          "name": "Chiesa di San Giovanni Battista",
+          "category": "Gothic Church",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the village has baptized its children and buried its dead since 1340.",
+          "description": "The Gothic church sits at the heart of the village, its rose window catching morning light that spills onto centuries-old stone floors. The paintings inside are not great art, but they are honest—local saints calming local storms, protecting local sailors.",
+          "giuliaComment": "I was baptized here, as was my mother. The church smells of candle wax and salt air. That combination is the smell of home.",
+          "signature": "Where faith meets the rhythm of the sea",
+          "practicalInfo": "Open daily 9am-12pm, 3pm-6pm. Modest dress required. No photography during services."
         },
         {
-          "icon": "church",
-          "title": {
-            "en": "San Giovanni Battista",
-            "it": "Porti Storici"
-          },
-          "description": {
-            "en": "14th-century Gothic church with beautiful rose window and panoramic terrace",
-            "it": "Approdi medievali scavati nella roccia. Il porto di Vernazza è uno dei più pittoreschi d'Italia."
-          }
+          "id": 3,
+          "name": "The Harbor and Marina",
+          "category": "Living Heritage",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Not a tourist attraction—a working port where the old ways still hold.",
+          "description": "The harbor is where Riomaggiore's economic history becomes visible. Watch the gozzo boats being pulled up ramps, nets spread to dry, old men debating the weather. This is not performance. It is the last generation of a fishing tradition that predates Italy itself.",
+          "giuliaComment": "Come at 7am. Watch the boats return. That's when the harbor shows its true face—tired, productive, real.",
+          "signature": "Where work happens while tourists sleep",
+          "practicalInfo": "Always accessible. Best in early morning. Respect working fishermen and their equipment."
         },
         {
-          "icon": "castle",
-          "title": {
-            "en": "Riomaggiore Castle",
-            "it": "Centri Storici"
-          },
-          "description": {
-            "en": "Medieval castle ruins offering spectacular views over the village and coastline",
-            "it": "Vicoli stretti, case-torri colorate, carruggi medievali. Architettura ligure perfettamente conservata."
-          }
-        },
-        {
-          "icon": "camera",
-          "title": {
-            "en": "Via Colombo",
-            "it": "Terrazzamenti"
-          },
-          "description": {
-            "en": "Main street lined with shops, restaurants, and local artisans in colorful buildings",
-            "it": "7000 km di muretti a secco patrimonio UNESCO. Vigneti eroici costruiti in 1000 anni di lavoro."
-          }
-        },
-        {
-          "icon": "mountain",
-          "title": {
-            "en": "Santuario di Montenero",
-            "it": "Musei e Cultura"
-          },
-          "description": {
-            "en": "Hilltop sanctuary with breathtaking panoramic views, reached via scenic hiking trail",
-            "it": "Museo delle Cinque Terre, collezioni d'arte sacra, mostre fotografiche sulla storia dei borghi marinari."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Riomaggiore Visit",
-        "it": "Attrazioni in Numeri",
-        "de": "Architektonische Meisterwerke Riomaggiorres"
-      },
-      "description": {
-        "en": "Discover all the activities, trails, and experiences this spectacular village offers."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Hiking Trails"
-          },
-          "url": {
-            "en": "/en/riomaggiore/hiking"
-          },
-          "variant": "secondary"
+          "id": 4,
+          "name": "The Terraced Vineyards",
+          "category": "Cultural Landscape",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A thousand years of stone walls holding back gravity so grapes can grow.",
+          "description": "The terraces above Riomaggiore represent one of humanity's most ambitious agricultural projects—millennia of dry-stone walls creating flat surfaces on cliffs where nothing should grow. The Bosco, Albarola, and Vermentino grapes that produce Cinque Terre wine are only here because generations refused to accept impossibility.",
+          "giuliaComment": "Walk the paths between the terraces in late afternoon. The light on the stone walls is golden, and you can taste the effort of centuries.",
+          "signature": "Where stubbornness became wine",
+          "practicalInfo": "Accessible via hiking trails. Best in late afternoon light. Respect active agricultural areas."
         }
       ],
-      "eyebrow": {
-        "de": "Unverzichtbare Sehenswürdigkeiten"
-      }
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Art of Seeing Slowly",
+          "quote": "The temptation in Riomaggiore is to photograph everything quickly and move on. Resist. The village reveals itself to those who sit still—the way light moves through streets, the sound of fishermen calling to each other, the particular quiet of noon when even the cats sleep."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Hidden Perspectives",
+      "quote": "The famous views are famous because they appear in guidebooks. The best views are earned—found by those who wander past the obvious and keep climbing.",
+      "content": [
+        "**Punta Bonfiglio** offers the classic postcard shot of the harbor. But arrive at sunrise, before anyone else, and the view transforms into something personal—just you and the village waking up.",
+        "The **Santuario di Montenero** requires a 45-minute climb, but from its courtyard you can see three villages at once, and on clear days, the curve of the Ligurian coast all the way to Portofino.",
+        "The most overlooked view is from **Via Colombo at midnight**. The tunnel that connects upper and lower village frames the harbor in darkness, fishing boat lights reflecting on black water.",
+        "Don't chase the views. Let them find you. The best moments in Riomaggiore happen while walking somewhere else."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "sight",
+      "items": [
+        {
+          "id": 5,
+          "name": "Via dell'Amore",
+          "category": "Romantic Walkway",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The world-famous path that clings to cliffs between Riomaggiore and Manarola.",
+          "description": "Cut into the rock in the 1920s as a service path for railway workers, the Via dell'Amore became an accidental icon of romance. The name came from couples who used its shadowy corners for private meetings. Today it remains one of the world's most dramatic short walks.",
+          "giuliaComment": "The engineering is what impresses me—how they carved a level path through vertical cliffs. Love stories are fine, but human ingenuity is what made this place possible.",
+          "signature": "Where utility became poetry",
+          "practicalInfo": "Check current status—often closed for maintenance. 20-minute walk when open. Partially accessible."
+        },
+        {
+          "id": 6,
+          "name": "The Main Street Tunnel",
+          "category": "Village Architecture",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+          "intro": "The artery that connects Riomaggiore's two halves—carved through rock to link station to sea.",
+          "description": "Via Colombo's tunnel is more than transit. It's the village's central social space, lined with small shops, gelaterias, and cafes. In summer, the cool darkness offers relief; in winter, shelter from storms. Locals stop here to gossip, tourists to orient.",
+          "giuliaComment": "I've walked this tunnel ten thousand times. I still notice new details—the way paint peels differently in the damp sections, which shop owners are arguing today.",
+          "signature": "The village's living room, carved from stone",
+          "practicalInfo": "Always open. Shops generally 9am-7pm in season. Quieter in early morning."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "Beyond the Famous",
+          "quote": "Everyone knows the Via dell'Amore. But the paths above the village—to the sanctuary, through the vineyards—offer something the famous walk cannot: solitude, effort, and views that belong to you alone."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Let the Village Reveal Itself",
+      "content": [
+        "You cannot see Riomaggiore in a day. You can photograph it in an hour, but that is not seeing.",
+        "The village gives its secrets to those who slow down—who sit in the same piazza at different hours, who return to the harbor when the tourists leave, who watch the light change on the same wall from morning to evening.",
+        "Come with questions, not checkboxes. The answers are written in stone."
+      ],
+      "buttons": [
+        { "text": "Plan Your Itinerary", "url": "/en/itinerary", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/riomaggiore/accommodations", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "sights"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.847Z"
+  "updated_at": "2026-01-05T16:30:00.000Z"
 }

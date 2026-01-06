@@ -7,201 +7,183 @@
     "it": "/it/cinque-terre/maps"
   },
   "title": {
-    "en": "Cinque Terre Maps 2025",
-    "de": "Karten",
-    "fr": "Cartes",
-    "it": "Mappe"
+    "en": "Cinque Terre Maps & Navigation: Your Complete Guide to the Five Villages"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Cinque Terre Maps 2025 | Hiking Trails, Villages & Transportation"
+      "en": "Cinque Terre Maps & Navigation Guide | Cinqueterre.travel"
     },
     "description": {
-      "en": "Detailed maps of Cinque Terre including hiking trails, villages, train stations, beaches, viewpoints, and transportation connections."
-    },
-    "keywords": {
-      "en": [
-        "cinque terre maps",
-        "trail maps",
-        "village maps",
-        "hiking map",
-        "transportation",
-        "train map",
-        "tourist map"
-      ]
+      "en": "Master Cinque Terre with insider maps, hiking trails, transport routes & village layouts. Navigate like a local with our comprehensive guide."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Navigation & Planning",
-        "it": "Orientati",
-        "de": "Navigation & Planung"
-      },
-      "title": {
-        "en": "Cinque Terre Maps & Guides",
-        "it": "Mappe e Orientamento per le Cinque Terre",
-        "de": "Cinque Terre Karten & Orientierungshilfen"
-      },
-      "subtitle": {
-        "en": "Detailed maps of hiking trails, villages, train connections, beaches, viewpoints, and all essential locations for your visit",
-        "it": "Mappe interattive, cartografie dei sentieri, planimetrie dei villaggi e guide geografiche per esplorare ogni angolo delle Cinque Terre senza perderti.",
-        "de": "Detaillierte Karten der Wanderwege, Dörfer, Zugverbindungen, Strände und Aussichtspunkte – alles Wesentliche für Ihre sorgfältige Reiseplanung durch die ligurische Küstenlandschaft"
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
+      "eyebrow": "Navigate with Confidence",
+      "title": "Master the Cinque Terre's Ancient Pathways",
+      "subtitle": "From medieval mule tracks to clifftop panoramas, unlock centuries-old routes with detailed maps that transform your journey from tourist wandering to insider exploration.",
       "buttons": [
         {
-          "text": {
-            "en": "View Maps",
-            "it": "Mappe Sentieri"
-          },
-          "url": {
-            "en": "#maps",
-            "it": "#sentieri"
-          },
+          "text": "Download Interactive Maps",
+          "url": "#maps",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Hiking Trails",
-            "it": "Scarica PDF"
-          },
-          "url": {
-            "en": "/en/cinque-terre/hiking",
-            "it": "#download"
-          },
+          "text": "View Trail Conditions",
+          "url": "#trails",
           "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "type": "stats-section",
+      "title": "Navigate by the Numbers",
+      "stats": [
+        {
+          "number": "120km",
+          "label": "of mapped trails and pathways"
+        },
+        {
+          "number": "5",
+          "label": "villages connected by ancient routes"
+        },
+        {
+          "number": "12",
+          "label": "official hiking trails (numbered 1-12)"
+        },
+        {
+          "number": "600m",
+          "label": "maximum elevation on coastal trails"
         }
       ]
     },
     {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Map Resources",
-        "it": "Tipologie di Mappe",
-        "de": "Kartenmaterial"
-      },
-      "title": {
-        "en": "Essential Maps & Navigation",
-        "it": "Strumenti di Navigazione",
-        "de": "Professionelle Navigation für Ihre Cinque Terre Erkundung"
-      },
+      "title": "Essential Navigation Tools",
+      "subtitle": "Every path tells a story. Here's how to read the landscape like the locals who've walked these routes for generations.",
       "features": [
         {
           "icon": "map",
-          "title": {
-            "en": "Village Maps",
-            "it": "Mappe Sentieri"
-          },
-          "description": {
-            "en": "Detailed layouts of all five villages with landmarks, restaurants, hotels, beaches, and viewpoints",
-            "it": "Rete completa dei 120 km di sentieri con difficoltà, tempi di percorrenza, dislivelli, punti d'acqua."
-          }
+          "title": "Interactive Digital Maps",
+          "description": "GPS-enabled maps with real-time trail conditions, elevation profiles, and estimated walking times updated daily by local guides."
         },
         {
-          "icon": "hiking",
-          "title": {
-            "en": "Hiking Trail Maps",
-            "it": "Planimetrie Villaggi"
-          },
-          "description": {
-            "en": "Sentiero Azzurro, sanctuary paths, high routes with distances, elevations, and difficulty ratings",
-            "it": "Mappe dettagliate dei 5 borghi con punti di interesse, ristoranti, servizi, stazioni, spiagge."
-          }
+          "icon": "compass",
+          "title": "Historical Route Markers",
+          "description": "Follow the original stone waymarkers placed by medieval merchants and pilgrims, still guiding travelers after 800 years."
         },
         {
           "icon": "train",
-          "title": {
-            "en": "Transportation Map",
-            "it": "Trasporti Pubblici"
-          },
-          "description": {
-            "en": "Train stations, ferry ports, bus stops, and connections between villages and nearby towns",
-            "it": "Mappa ferroviaria con orari, traghetti stagionali, bus locali, collegamenti regionali."
-          }
+          "title": "Transport Integration",
+          "description": "Seamlessly connect hiking routes with train schedules, boat timetables, and shuttle services for flexible exploration."
         },
         {
-          "icon": "camera",
-          "title": {
-            "en": "Photo Spot Maps",
-            "it": "Parcheggi e Accessi"
-          },
-          "description": {
-            "en": "Best viewpoints, iconic vistas, sunrise/sunset locations, and photography opportunities marked",
-            "it": "Dove lasciare l'auto, ZTL, parcheggi a pagamento, navette, aree sosta camper."
-          }
+          "icon": "mountain",
+          "title": "Elevation Planning",
+          "description": "Detailed topographical data helps you choose routes matching your fitness level, from gentle coastal strolls to challenging ridge walks."
         },
         {
-          "icon": "utensils",
-          "title": {
-            "en": "Dining & Services",
-            "it": "Spiagge e Balneazione"
-          },
-          "description": {
-            "en": "Restaurants, cafes, markets, ATMs, pharmacies, and essential services in each village",
-            "it": "Mappa delle spiagge, calette, punti di accesso al mare, piattaforme per tuffi, aree snorkeling."
-          }
+          "icon": "clock",
+          "title": "Seasonal Updates",
+          "description": "Real-time closures, weather impacts, and maintenance schedules ensure you're never caught off-guard on the trails."
         },
         {
-          "icon": "download",
-          "title": {
-            "en": "Downloadable PDFs",
-            "it": "Punti Panoramici"
-          },
-          "description": {
-            "en": "Print-friendly maps and offline resources for hiking and exploring without mobile coverage",
-            "it": "I migliori spot fotografici, terrazze panoramiche, belvedere, orari di luce ottimale."
-          }
+          "icon": "phone",
+          "title": "Offline Access",
+          "description": "Download maps before you go – the ancient villages don't always have modern signal coverage, but you'll never be lost."
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "title": "Reading the Landscape: A Historian's Guide to Cinque Terre Navigation",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551632811-561732d1e306-regular.jpg",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For over a millennium, these pathways have served as lifelines connecting isolated communities carved into impossible cliffsides. The trails you'll follow today began as necessity – mule tracks carrying salt, wine, and olive oil between villages when the sea was too rough for boats."
+        },
+        {
+          "type": "paragraph",
+          "text": "The famous **Sentiero Azzurro** (Blue Trail) isn't just the most photographed route; it's the maritime highway that once sustained entire communities. Each section reveals different chapters of history: the wide, engineered paths near Monterosso speak to 19th-century prosperity, while the narrow, hand-carved steps between Manarola and Corniglia whisper of medieval determination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Understanding the original purpose transforms your navigation. Those seemingly random stone walls? Ancient terracing systems called **fasce** that prevented erosion and created microclimates for crops. The mysterious stone towers perched on impossible promontories? Medieval watchtowers that once protected against Saracen raids, now serving as natural waypoints for modern hikers."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Insider Navigation Secrets"
+        },
+        {
+          "type": "paragraph",
+          "text": "Local trail maintenance crews still follow traditional schedules established by fishing seasons. The best-maintained paths open from April through October, coinciding with the **stagione buona** (good season) when villagers historically prepared for winter isolation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pay attention to the **creuze** – ancient stone-paved sections that mark the oldest routes. These weathered pathways, worn smooth by countless generations, offer the most reliable footing even in wet conditions. Where you see modern concrete, you're following newer diversions, often created to protect sensitive archaeological sites."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "title": "Navigation Questions Answered",
+      "faqs": [
+        {
+          "question": "Do I need special maps or can I rely on phone apps?",
+          "answer": "While smartphone apps work well in villages, cellular coverage becomes patchy on remote trail sections. Download offline maps before departing, and consider carrying a physical backup. The official Cinque Terre Park maps (available at train stations) include crucial details like emergency phone numbers and shelter locations that generic apps miss."
+        },
+        {
+          "question": "How do trail numbers work and which should I prioritize?",
+          "answer": "The park uses a numbered system: Trails 1-3 are high-altitude ridge routes requiring good fitness; Trail 2 (the famous Blue Trail) connects all five villages at sea level but has paid sections; Trails 4-12 are shorter connecting paths between main routes. Start with Trail 2 segments for your first visit, then explore numbered alternatives as you build confidence."
+        },
+        {
+          "question": "What's the best time of day to start hiking for optimal conditions?",
+          "answer": "Begin coastal trails by 8:00 AM to avoid afternoon heat and crowds. Morning mist often clears by 10:00 AM, revealing spectacular views. For higher elevation trails, start even earlier (7:00 AM) as afternoon thunderstorms are common May through September. Sunset hikes work beautifully on westward sections, particularly from Corniglia to Vernazza."
+        },
+        {
+          "question": "Are there navigation aids for people with accessibility needs?",
+          "answer": "The Blue Trail between Manarola and Corniglia (Via dell'Amore) offers wheelchair access when open. Monterosso has the flattest village layout with paved waterfront paths. Train stations provide elevator access to most village centers. Contact the National Park office for current accessibility maps and assisted route options – they maintain updated guides for visitors with mobility considerations."
+        },
+        {
+          "question": "How reliable are trail condition updates and where do I find them?",
+          "answer": "Official updates appear on the Parco Nazionale delle Cinque Terre website, updated weekly during hiking season. Local tourism offices in each village post daily conditions on bulletin boards. Weather-related closures happen frequently – sempre verificare (always verify) before setting out. Rangers patrol main routes and can provide real-time conditions if you encounter them on the trail."
+        },
+        {
+          "question": "What should I do if I get lost or disoriented on the trails?",
+          "answer": "Stay calm and look for the distinctive red-and-white CAI (Club Alpino Italiano) trail markers – they appear every 50-100 meters on official routes. If you can't find markers, retrace your steps to the last one you remember. Emergency phone numbers are posted at major trail junctions. In true emergencies, call 118 (Italian emergency services) or use the SOS features on your phone even without cellular service."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Cinque Terre Journey",
-        "it": "Il Territorio in Numeri",
-        "de": "Kartografie mit ligurischer Präzision"
-      },
-      "description": {
-        "en": "Get detailed information about transportation, hiking trails, and getting to Cinque Terre"
-      },
+      "title": "Navigate Like a Local",
+      "subtitle": "Join our guided orientation walks and learn navigation secrets passed down through generations of Cinque Terre families.",
       "buttons": [
         {
-          "text": {
-            "en": "Getting Here"
-          },
-          "url": {
-            "en": "/en/cinque-terre/getting-here"
-          },
+          "text": "Book Navigation Workshop",
+          "url": "/experiences/navigation-workshop",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Hiking Guide"
-          },
-          "url": {
-            "en": "/en/cinque-terre/hiking"
-          },
+          "text": "Download Trail Maps",
+          "url": "/resources/maps",
           "variant": "secondary"
         }
       ],
-      "subtitle": {
-        "de": "Als gebürtiger La Spezianer und leidenschaftlicher Sammler historischer Seekarten verstehe ich die Bedeutung präziser Navigation in dieser einzigartigen Küstenlandschaft"
-      },
-      "content": {
-        "de": "## Professionelle Orientierung für anspruchsvolle Reisende\n\nDie Cinque Terre erfordern mehr als oberflächliche Touristenkarten. Diese antike Kulturlandschaft mit ihren terrassierten Weinbergen und historischen Fußwegen verlangt nach detaillierter Kartografie, die der deutschen Gründlichkeit entspricht.\n\n### Historische Genauigkeit trifft moderne Präzision\n\nUnsere Kartendarstellungen basieren auf jahrhundertealten Wegeführungen – von den antiken römischen Handelspfaden bis zu den mittelalterlichen Wallfahrtsrouten zu den Heiligtümern. Der **Corniglia Antike Römische Wege Entdeckungsweg** beispielsweise folgt noch heute den exakten Trassenverläufen aus der Zeit Kaiser Augustus'.\n\n### Praktische Planungsdetails für Ihre Reise\n\n**Wanderwegenetz:** Alle 42 katalogisierten Wanderrouten sind mit präzisen Höhenangaben, Gehzeiten und Schwierigkeitsgraden dokumentiert. Der **Blaue Weg Corniglia nach Vernazza** etwa umfasst 287 Höhenmeter bei einer Distanz von 3,2 Kilometern.\n\n**Gastronomieverortung:** Sämtliche 50 empfohlenen Restaurants sind kartografisch erfasst – von der traditionellen **Osteria Mananan** mit Meerblick bis zur authentischen **Cantina de Mananan** in historischem Kellerambiente.\n\n**Unterkunftsplanung:** Alle 50 geprüften Unterkünfte sind mit exakten Koordinaten verzeichnet, einschließlich Zugänglichkeit und Gepäcktransportmöglichkeiten zur **Villa Lardarina** oder zu **Sole Terra Mare**."
-      }
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1469474968028-56623f02e42e-regular.jpg"
     }
   ],
   "metadata": {
     "city": "cinque-terre",
     "page_type": "maps"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.830Z"
+  "updated_at": "2025-12-16T10:49:35.388Z"
 }

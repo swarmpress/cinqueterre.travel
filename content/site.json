@@ -11,45 +11,68 @@
   ],
   "defaultLocale": "en",
   "theme": {
-    "name": "Mediterranean",
-    "extends": "ocean",
+    "name": "Black Tomato",
+    "extends": "black-tomato",
+    "mode": "light",
     "colors": {
       "primary": {
-        "50": "#f0f9ff",
-        "100": "#e0f2fe",
-        "200": "#bae6fd",
-        "300": "#7dd3fc",
-        "400": "#38bdf8",
-        "500": "#0ea5e9",
-        "600": "#0284c7",
-        "700": "#0369a1",
-        "800": "#075985",
-        "900": "#0c4a6e"
+        "50": "#f0fdfa",
+        "100": "#ccfbf1",
+        "200": "#99f6e4",
+        "300": "#5eead4",
+        "400": "#2dd4bf",
+        "500": "#14b8a6",
+        "600": "#0d9488",
+        "700": "#0f766e",
+        "800": "#115e59",
+        "900": "#134e4a"
       },
       "secondary": {
-        "50": "#fdf4f3",
-        "100": "#fce8e5",
-        "200": "#fbd5cf",
-        "300": "#f7b5aa",
-        "400": "#f08b7b",
-        "500": "#e4664c",
-        "600": "#d14a2e",
-        "700": "#af3c24",
-        "800": "#913522",
-        "900": "#783223"
+        "50": "#f8fafc",
+        "100": "#f1f5f9",
+        "200": "#e2e8f0",
+        "300": "#cbd5e1",
+        "400": "#94a3b8",
+        "500": "#64748b",
+        "600": "#475569",
+        "700": "#334155",
+        "800": "#1e293b",
+        "900": "#0f172a"
       },
-      "accent": "#d4a855",
-      "background": "#fafaf9",
-      "foreground": "#1c1917",
-      "muted": "#78716c"
+      "accent": "#0d9488",
+      "background": "#ffffff",
+      "foreground": "#0a1628",
+      "muted": "#64748b"
     },
     "fonts": {
-      "display": "Playfair Display, Georgia, serif",
+      "display": "Cormorant Garamond, Georgia, serif",
       "sans": "Inter, system-ui, -apple-system, sans-serif",
       "mono": "JetBrains Mono, monospace"
     },
-    "borderRadius": "0.75rem",
-    "shadows": "default"
+    "borderRadius": "0.5rem",
+    "shadows": "md",
+    "semanticColors": {
+      "background": "#ffffff",
+      "backgroundAlt": "#fafaf9",
+      "surface": "#ffffff",
+      "foreground": "#0a1628",
+      "foregroundMuted": "#64748b",
+      "border": "#e5e7eb",
+      "brand": "#0d9488",
+      "brandForeground": "#ffffff",
+      "accent": "#0d9488",
+      "accentForeground": "#ffffff"
+    },
+    "gradients": {
+      "hero": "linear-gradient(180deg, rgba(10,22,40,0.6) 0%, rgba(10,22,40,0.3) 100%)",
+      "card": "linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(10,22,40,0.7) 100%)",
+      "overlay": "linear-gradient(180deg, transparent 0%, rgba(10,22,40,0.5) 100%)"
+    },
+    "overlays": {
+      "dark": "rgba(10,22,40,0.5)",
+      "light": "rgba(255,255,255,0.9)",
+      "brand": "rgba(13,148,136,0.1)"
+    }
   },
   "layout": {
     "header": {
@@ -624,6 +647,284 @@
           ]
         }
       }
+    },
+    "pageTemplates": {
+      "travel-homepage": {
+        "id": "travel-homepage",
+        "name": "Travel Homepage",
+        "description": "Dramatic full-bleed homepage with hero, destination grid, features, testimonial, and CTA",
+        "icon": "home",
+        "pageType": "landing-page",
+        "design": {
+          "theme": "dark",
+          "imageIntensity": "heavy",
+          "style": "luxury"
+        },
+        "sections": [
+          {
+            "id": "hero-1",
+            "type": "hero-section",
+            "variant": "fullscreen",
+            "required": true,
+            "label": "Hero",
+            "ai_hints": {
+              "tone": "inspiring, evocative",
+              "style": "Full-bleed dramatic imagery with overlay gradient"
+            }
+          },
+          {
+            "id": "destinations-1",
+            "type": "feature-section",
+            "variant": "card-grid",
+            "required": true,
+            "label": "Destinations Grid",
+            "ai_hints": {
+              "style": "Image-forward cards with hover effects and overlay text"
+            }
+          },
+          {
+            "id": "stats-1",
+            "type": "stats-section",
+            "variant": "inline",
+            "required": false,
+            "label": "Key Stats"
+          },
+          {
+            "id": "content-1",
+            "type": "content-section",
+            "variant": "split",
+            "required": true,
+            "label": "Introduction"
+          },
+          {
+            "id": "testimonial-1",
+            "type": "testimonial-section",
+            "variant": "featured",
+            "required": false,
+            "label": "Testimonial",
+            "ai_hints": {
+              "style": "Full-width with background image"
+            }
+          },
+          {
+            "id": "cta-1",
+            "type": "cta-section",
+            "variant": "gradient",
+            "required": true,
+            "label": "Call to Action"
+          }
+        ],
+        "tags": [
+          "homepage",
+          "travel",
+          "luxury",
+          "dark"
+        ]
+      },
+      "destination-collection": {
+        "id": "destination-collection",
+        "name": "Destination Collection",
+        "description": "Grid layout for browsing multiple destinations with filtering",
+        "icon": "grid",
+        "pageType": "landing-page",
+        "design": {
+          "theme": "dark",
+          "imageIntensity": "heavy",
+          "style": "luxury"
+        },
+        "sections": [
+          {
+            "id": "header-1",
+            "type": "hero-section",
+            "variant": "compact",
+            "required": true,
+            "label": "Header",
+            "ai_hints": {
+              "style": "Compact hero with breadcrumbs"
+            }
+          },
+          {
+            "id": "intro-1",
+            "type": "content-section",
+            "variant": "centered",
+            "required": true,
+            "label": "Introduction"
+          },
+          {
+            "id": "grid-1",
+            "type": "feature-section",
+            "variant": "card-grid-large",
+            "required": true,
+            "label": "Destination Cards",
+            "ai_hints": {
+              "style": "Large image cards with overlay text, 2-3 columns"
+            }
+          },
+          {
+            "id": "categories-1",
+            "type": "feature-section",
+            "variant": "category-tiles",
+            "required": false,
+            "label": "Browse by Category"
+          },
+          {
+            "id": "cta-1",
+            "type": "cta-section",
+            "variant": "simple",
+            "required": true,
+            "label": "Call to Action"
+          }
+        ],
+        "tags": [
+          "collection",
+          "travel",
+          "grid",
+          "dark"
+        ]
+      },
+      "destination-detail": {
+        "id": "destination-detail",
+        "name": "Destination Detail",
+        "description": "Comprehensive destination page with hero, content sections, gallery, and FAQ",
+        "icon": "map-pin",
+        "pageType": "village-guide",
+        "design": {
+          "theme": "dark",
+          "imageIntensity": "heavy",
+          "style": "luxury"
+        },
+        "sections": [
+          {
+            "id": "hero-1",
+            "type": "hero-section",
+            "variant": "fullscreen",
+            "required": true,
+            "label": "Hero",
+            "ai_hints": {
+              "style": "Full-height with dramatic destination imagery"
+            }
+          },
+          {
+            "id": "stats-1",
+            "type": "stats-section",
+            "variant": "inline",
+            "required": true,
+            "label": "Key Facts"
+          },
+          {
+            "id": "overview-1",
+            "type": "content-section",
+            "variant": "split",
+            "required": true,
+            "label": "Overview"
+          },
+          {
+            "id": "highlights-1",
+            "type": "feature-section",
+            "variant": "icon-grid",
+            "required": true,
+            "label": "Highlights",
+            "ai_hints": {
+              "style": "Icon-based feature grid"
+            }
+          },
+          {
+            "id": "gallery-1",
+            "type": "gallery-section",
+            "variant": "masonry",
+            "required": false,
+            "label": "Photo Gallery"
+          },
+          {
+            "id": "faq-1",
+            "type": "faq-section",
+            "variant": "accordion",
+            "required": false,
+            "label": "FAQ"
+          },
+          {
+            "id": "cta-1",
+            "type": "cta-section",
+            "variant": "gradient",
+            "required": true,
+            "label": "Book Now"
+          }
+        ],
+        "tags": [
+          "detail",
+          "destination",
+          "travel",
+          "dark"
+        ]
+      },
+      "experience-page": {
+        "id": "experience-page",
+        "name": "Experience Page",
+        "description": "Immersive page for activities and experiences with image grid hero",
+        "icon": "compass",
+        "pageType": "topic-page",
+        "design": {
+          "theme": "dark",
+          "imageIntensity": "heavy",
+          "style": "luxury"
+        },
+        "sections": [
+          {
+            "id": "hero-1",
+            "type": "hero-section",
+            "variant": "image-grid",
+            "required": true,
+            "label": "Image Grid Hero",
+            "ai_hints": {
+              "style": "Multiple images in grid layout with overlay"
+            }
+          },
+          {
+            "id": "intro-1",
+            "type": "content-section",
+            "variant": "centered",
+            "required": true,
+            "label": "Introduction"
+          },
+          {
+            "id": "features-1",
+            "type": "feature-section",
+            "variant": "alternating",
+            "required": true,
+            "label": "Experience Details",
+            "ai_hints": {
+              "style": "Alternating image/text sections"
+            }
+          },
+          {
+            "id": "experiences-1",
+            "type": "feature-section",
+            "variant": "card-grid",
+            "required": false,
+            "label": "Related Experiences"
+          },
+          {
+            "id": "testimonial-1",
+            "type": "testimonial-section",
+            "variant": "quote",
+            "required": false,
+            "label": "Guest Review"
+          },
+          {
+            "id": "cta-1",
+            "type": "cta-section",
+            "variant": "gradient",
+            "required": true,
+            "label": "Book Experience"
+          }
+        ],
+        "tags": [
+          "experience",
+          "activity",
+          "travel",
+          "dark"
+        ]
+      }
     }
   },
   "sitemap": {
@@ -632,212 +933,2105 @@
         "id": "home",
         "type": "landing-page",
         "position": {
-          "x": 328.9156626506025,
-          "y": -89.75903614457832
+          "x": 100,
+          "y": 100
         },
         "data": {
           "slug": "/",
           "title": {
-            "en": "Cinque Terre Travel Guide",
-            "de": "Cinque Terre Reisefuhrer"
-          },
-          "status": "published",
-          "agentAssignments": [
-            {
-              "departmentId": "0fcf2810-636d-4145-93b2-84fa746e9d7a",
-              "agentId": "7496de75-2329-4b51-ab1f-343d593a0c01"
-            },
-            {
-              "departmentId": "c8f66da9-f1c8-4c64-99b7-861b676cc30d",
-              "agentId": "3ec322fd-9c08-47cc-8c12-5b53ab787c7e"
-            },
-            {
-              "departmentId": "70ab7689-6404-4994-8e6b-69cc77ded678",
-              "agentId": "d9a9386a-4017-49eb-8b28-1fdee14daad9"
-            },
-            {
-              "departmentId": "edcb7dc3-ade9-4ac2-b86e-d9f00277c214",
-              "agentId": "09863ba6-ced9-4e61-833a-d0780e4f81d9"
-            },
-            {
-              "departmentId": "f0f7c8e9-2fc4-44dd-a374-befc11f3c7f4",
-              "agentId": "77103f89-c685-4f49-89d5-146de3a49ef3"
-            },
-            {
-              "departmentId": "59d6bc80-cd20-47a8-8e63-cb6c10009274",
-              "agentId": "f819f7cc-7715-4eb7-89f4-998e540b9443"
+            "en": {
+              "en": "Cinque Terre: Five Ancient Villages, One Extraordinary Journey"
             }
-          ]
-        }
-      },
-      {
-        "id": "cinque-terre",
-        "type": "landing-page",
-        "position": {
-          "x": 400,
-          "y": 150
-        },
-        "data": {
-          "slug": "/cinque-terre",
-          "title": {
-            "en": "About Cinque Terre",
-            "de": "Uber Cinque Terre"
           },
           "status": "published"
         }
       },
       {
-        "id": "monterosso",
-        "type": "village-guide",
+        "id": "cinque-terre",
+        "type": "topic-page",
         "position": {
           "x": 100,
-          "y": 300
+          "y": 200
         },
         "data": {
-          "slug": "/monterosso",
+          "slug": "/cinque-terre",
           "title": {
-            "en": "Monterosso al Mare",
-            "de": "Monterosso al Mare"
+            "en": {
+              "en": "Cinque Terre: Italy's Most Enchanting Coastal Villages"
+            }
           },
           "status": "published",
-          "prompts": {
-            "variables": {
-              "village": "Monterosso",
-              "nickname": "the beach village"
-            }
-          }
-        }
-      },
-      {
-        "id": "vernazza",
-        "type": "village-guide",
-        "position": {
-          "x": 250,
-          "y": 300
-        },
-        "data": {
-          "slug": "/vernazza",
-          "title": {
-            "en": "Vernazza",
-            "de": "Vernazza"
-          },
-          "status": "published",
-          "prompts": {
-            "variables": {
-              "village": "Vernazza",
-              "nickname": "the jewel of Cinque Terre"
-            }
-          }
+          "parentId": "home"
         }
       },
       {
         "id": "corniglia",
         "type": "village-guide",
         "position": {
-          "x": 400,
-          "y": 300
+          "x": 300,
+          "y": 200
         },
         "data": {
           "slug": "/corniglia",
           "title": {
-            "en": "Corniglia",
-            "de": "Corniglia"
+            "en": {
+              "en": "Corniglia: The Medieval Village Above the Clouds"
+            }
           },
           "status": "published",
-          "prompts": {
-            "variables": {
-              "village": "Corniglia",
-              "nickname": "the hilltop village"
-            }
-          }
+          "parentId": "home"
         }
       },
       {
         "id": "manarola",
         "type": "village-guide",
         "position": {
-          "x": 550,
-          "y": 300
+          "x": 500,
+          "y": 200
         },
         "data": {
           "slug": "/manarola",
           "title": {
-            "en": "Manarola",
-            "de": "Manarola"
+            "en": {
+              "en": "Manarola: The Wine Village of Cinque Terre"
+            }
           },
           "status": "published",
-          "prompts": {
-            "variables": {
-              "village": "Manarola",
-              "nickname": "the wine village"
+          "parentId": "home"
+        }
+      },
+      {
+        "id": "monterosso",
+        "type": "village-guide",
+        "position": {
+          "x": 700,
+          "y": 200
+        },
+        "data": {
+          "slug": "/monterosso",
+          "title": {
+            "en": {
+              "en": "Monterosso al Mare: The Crown Jewel of Cinque Terre"
             }
-          }
+          },
+          "status": "published",
+          "parentId": "home"
+        }
+      },
+      {
+        "id": "restaurants",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 200
+        },
+        "data": {
+          "slug": "/restaurants",
+          "title": {
+            "en": {
+              "en": "Cinque Terre Restaurants: Where Ligurian Tradition Meets Coastal Elegance"
+            }
+          },
+          "status": "published",
+          "parentId": "home"
         }
       },
       {
         "id": "riomaggiore",
         "type": "village-guide",
         "position": {
-          "x": 700,
-          "y": 300
+          "x": 1100,
+          "y": 200
         },
         "data": {
           "slug": "/riomaggiore",
           "title": {
-            "en": "Riomaggiore",
-            "de": "Riomaggiore"
+            "en": {
+              "en": "Riomaggiore: Gateway to Cinque Terre's Timeless Beauty"
+            }
           },
           "status": "published",
-          "prompts": {
-            "variables": {
-              "village": "Riomaggiore",
-              "nickname": "the colorful gateway"
-            }
-          }
+          "parentId": "home"
         }
       },
       {
-        "id": "collection-restaurants",
-        "type": "collection:restaurants",
+        "id": "transport",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 200
+        },
+        "data": {
+          "slug": "/transport",
+          "title": {
+            "en": {
+              "en": "Transportation in Cinque Terre: Complete Guide to Moving Between Villages"
+            }
+          },
+          "status": "published",
+          "parentId": "home"
+        }
+      },
+      {
+        "id": "vernazza",
+        "type": "village-guide",
+        "position": {
+          "x": 100,
+          "y": 300
+        },
+        "data": {
+          "slug": "/vernazza",
+          "title": {
+            "en": {
+              "en": "Vernazza: Medieval Maritime Jewel of Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "home"
+        }
+      },
+      {
+        "id": "monterosso-agriturismi",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 400
+        },
+        "data": {
+          "slug": "/monterosso/agriturismi",
+          "title": {
+            "en": {
+              "en": "Monterosso Agriturismi: Authentic Farm Stays in Cinque Terre's Crown Jewel"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-apartments",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 400
+        },
+        "data": {
+          "slug": "/monterosso/apartments",
+          "title": {
+            "en": {
+              "en": "Luxury Apartments in Monterosso al Mare | Premium Cinque Terre Stays"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-beaches",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 400
+        },
+        "data": {
+          "slug": "/monterosso/beaches",
+          "title": {
+            "en": {
+              "en": "Monterosso Beaches: Cinque Terre's Premier Coastal Paradise"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-blog",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 400
+        },
+        "data": {
+          "slug": "/monterosso/blog",
+          "title": {
+            "en": {
+              "en": "Monterosso's Culinary Heritage: Where Ancient Traditions Meet Modern Gastronomy"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-boat-tours",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 400
+        },
+        "data": {
+          "slug": "/monterosso/boat-tours",
+          "title": {
+            "en": {
+              "en": "Monterosso Boat Tours: Discover Cinque Terre from the Sea"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-camping",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 400
+        },
+        "data": {
+          "slug": "/monterosso/camping",
+          "title": {
+            "en": {
+              "en": "Camping in Monterosso al Mare: Where Coastal Luxury Meets Ancient History"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-events",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 400
+        },
+        "data": {
+          "slug": "/monterosso/events",
+          "title": {
+            "en": {
+              "en": "Monterosso Events & Festivals - Celebrate Local Traditions"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-faq",
+        "type": "topic-page",
         "position": {
           "x": 100,
           "y": 500
         },
         "data": {
-          "filter": {}
+          "slug": "/monterosso/faq",
+          "title": {
+            "en": {
+              "en": "Monterosso al Mare FAQ - Complete Travel Guide & Expert Tips"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
         }
       },
       {
-        "id": "collection-accommodations",
-        "type": "collection:accommodations",
+        "id": "monterosso-getting-here",
+        "type": "topic-page",
         "position": {
           "x": 300,
           "y": 500
         },
         "data": {
-          "filter": {}
+          "slug": "/monterosso/getting-here",
+          "title": {
+            "en": {
+              "en": "Getting to Monterosso al Mare: Your Complete Travel Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
         }
       },
       {
-        "id": "collection-hikes",
-        "type": "collection:hikes",
+        "id": "monterosso-hiking",
+        "type": "topic-page",
         "position": {
           "x": 500,
           "y": 500
         },
         "data": {
-          "filter": {}
+          "slug": "/monterosso/hiking",
+          "title": {
+            "en": {
+              "en": "Hiking Trails from Monterosso al Mare - Complete Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
         }
       },
       {
-        "id": "collection-events",
-        "type": "collection:events",
+        "id": "monterosso-hotels",
+        "type": "topic-page",
         "position": {
           "x": 700,
           "y": 500
         },
         "data": {
-          "filter": {}
+          "slug": "/monterosso/hotels",
+          "title": {
+            "en": {
+              "en": "Luxury Hotels in Monterosso al Mare - Cinque Terre's Premier Accommodations"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-insights",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 500
+        },
+        "data": {
+          "slug": "/monterosso/insights",
+          "title": {
+            "en": {
+              "en": "Monterosso al Mare Insider's Guide: History, Culture & Hidden Gems"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-maps",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 500
+        },
+        "data": {
+          "slug": "/monterosso/maps",
+          "title": {
+            "en": {
+              "en": "Monterosso Maps & Navigation Guide - Your Complete Village Reference"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-overview",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 500
+        },
+        "data": {
+          "slug": "/monterosso/overview",
+          "title": {
+            "en": {
+              "en": "Monterosso al Mare: The Crown Jewel of Cinque Terre's Five Villages"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-restaurants",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 600
+        },
+        "data": {
+          "slug": "/monterosso/restaurants",
+          "title": {
+            "en": {
+              "en": "Monterosso Restaurants: Where Ligurian Cuisine Meets the Sea"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-sights",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 600
+        },
+        "data": {
+          "slug": "/monterosso/sights",
+          "title": {
+            "en": {
+              "en": "Top Attractions & Sights in Monterosso al Mare"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-things-to-do",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 600
+        },
+        "data": {
+          "slug": "/monterosso/things-to-do",
+          "title": {
+            "en": {
+              "en": "Things to Do in Monterosso al Mare - Complete Cinque Terre Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "monterosso-weather",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 600
+        },
+        "data": {
+          "slug": "/monterosso/weather",
+          "title": {
+            "en": {
+              "en": "Monterosso Weather Guide: When to Visit for Perfect Cinque Terre Days"
+            }
+          },
+          "status": "published",
+          "parentId": "monterosso"
+        }
+      },
+      {
+        "id": "vernazza-agriturismi",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 600
+        },
+        "data": {
+          "slug": "/vernazza/agriturismi",
+          "title": {
+            "en": {
+              "en": "Vernazza Farm Stays & Agriturismi: Authentic Cinque Terre Country Experiences"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-apartments",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 600
+        },
+        "data": {
+          "slug": "/vernazza/apartments",
+          "title": {
+            "en": {
+              "en": "Luxury Apartments in Vernazza - Authentic Cinque Terre Living"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-beaches",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 600
+        },
+        "data": {
+          "slug": "/vernazza/beaches",
+          "title": {
+            "en": {
+              "en": "Vernazza Beaches: Your Guide to Cinque Terre's Most Spectacular Swimming Spots"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-blog",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 700
+        },
+        "data": {
+          "slug": "/vernazza/blog",
+          "title": {
+            "en": {
+              "en": "Vernazza: Your Complete Guide to Cinque Terre's Most Photogenic Village"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-boat-tours",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 700
+        },
+        "data": {
+          "slug": "/vernazza/boat-tours",
+          "title": {
+            "en": {
+              "en": "Vernazza Boat Tours: Premium Maritime Adventures from Historic Harbor"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-camping",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 700
+        },
+        "data": {
+          "slug": "/vernazza/camping",
+          "title": {
+            "en": {
+              "en": "Camping Near Vernazza: Your Gateway to Cinque Terre Adventures"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-events",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 700
+        },
+        "data": {
+          "slug": "/vernazza/events",
+          "title": {
+            "en": {
+              "en": "Vernazza Events & Festivals - Authentic Cultural Celebrations in Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-faq",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 700
+        },
+        "data": {
+          "slug": "/vernazza/faq",
+          "title": {
+            "en": {
+              "en": "Vernazza FAQ - Your Complete Guide to Cinque Terre's Crown Jewel"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-getting-here",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 700
+        },
+        "data": {
+          "slug": "/vernazza/getting-here",
+          "title": {
+            "en": {
+              "en": "Getting to Vernazza: Your Complete Travel Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-hiking",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 700
+        },
+        "data": {
+          "slug": "/vernazza/hiking",
+          "title": {
+            "en": {
+              "en": "Vernazza Hiking Trails: Ancient Paths with Spectacular Views"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-hotels",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 800
+        },
+        "data": {
+          "slug": "/vernazza/hotels",
+          "title": {
+            "en": {
+              "en": "Vernazza Hotels & Accommodations"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-insights",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 800
+        },
+        "data": {
+          "slug": "/vernazza/insights",
+          "title": {
+            "en": {
+              "en": "Discover Vernazza: The Crown Jewel of Cinque Terre's Medieval Maritime Legacy"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-maps",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 800
+        },
+        "data": {
+          "slug": "/vernazza/maps",
+          "title": {
+            "en": {
+              "en": "Navigating Vernazza: Complete Maps & Village Layout Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-overview",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 800
+        },
+        "data": {
+          "slug": "/vernazza/overview",
+          "title": {
+            "en": {
+              "en": "Vernazza: The Crown Jewel of Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-restaurants",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 800
+        },
+        "data": {
+          "slug": "/vernazza/restaurants",
+          "title": {
+            "en": {
+              "en": "Vernazza Restaurants - Where Sea Meets Culinary Excellence"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-sights",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 800
+        },
+        "data": {
+          "slug": "/vernazza/sights",
+          "title": {
+            "en": {
+              "en": "Sights and Landmarks in Vernazza - Medieval Towers, Harbor Views & Hidden Treasures"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-things-to-do",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 800
+        },
+        "data": {
+          "slug": "/vernazza/things-to-do",
+          "title": {
+            "en": {
+              "en": "Things to Do in Vernazza: Medieval Towers, Harbor Views & Authentic Experiences"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "vernazza-weather",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 900
+        },
+        "data": {
+          "slug": "/vernazza/weather",
+          "title": {
+            "en": {
+              "en": "Vernazza Weather Guide: When to Visit Italy's Most Photogenic Village"
+            }
+          },
+          "status": "published",
+          "parentId": "vernazza"
+        }
+      },
+      {
+        "id": "corniglia-agriturismi",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 900
+        },
+        "data": {
+          "slug": "/corniglia/agriturismi",
+          "title": {
+            "en": {
+              "en": "Luxury Agriturismi in Corniglia - Authentic Vineyard Stays"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-apartments",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 900
+        },
+        "data": {
+          "slug": "/corniglia/apartments",
+          "title": {
+            "en": {
+              "en": "Luxury Apartments in Corniglia - Elevated Living Above the Mediterranean"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-beaches",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 900
+        },
+        "data": {
+          "slug": "/corniglia/beaches",
+          "title": {
+            "en": {
+              "en": "Corniglia Beaches: Secret Swimming Spots Above the Mediterranean"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-blog",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 900
+        },
+        "data": {
+          "slug": "/corniglia/blog",
+          "title": {
+            "en": {
+              "en": "Discovering Corniglia: Stories from Cinque Terre's Hilltop Village"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-boat-tours",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 900
+        },
+        "data": {
+          "slug": "/corniglia/boat-tours",
+          "title": {
+            "en": {
+              "en": "Boat Tours from Corniglia: Mediterranean Views from the Village Above the Sea"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-camping",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 900
+        },
+        "data": {
+          "slug": "/corniglia/camping",
+          "title": {
+            "en": {
+              "en": "Camping in Corniglia: Your Guide to Outdoor Stays in the Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-events",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1000
+        },
+        "data": {
+          "slug": "/corniglia/events",
+          "title": {
+            "en": {
+              "en": "Corniglia Events & Festivals: Elevated Cultural Experiences"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-faq",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1000
+        },
+        "data": {
+          "slug": "/corniglia/faq",
+          "title": {
+            "en": {
+              "en": "Corniglia Frequently Asked Questions - Your Complete Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-getting-here",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1000
+        },
+        "data": {
+          "slug": "/corniglia/getting-here",
+          "title": {
+            "en": {
+              "en": "Getting to Corniglia: Your Complete Travel Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-hiking",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1000
+        },
+        "data": {
+          "slug": "/corniglia/hiking",
+          "title": {
+            "en": {
+              "en": "Hiking Trails in Corniglia: Vineyard Paths and Coastal Walks"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-hotels",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1000
+        },
+        "data": {
+          "slug": "/corniglia/hotels",
+          "title": {
+            "en": {
+              "en": "Where to Stay in Corniglia: Luxury Hotels & Charming Accommodations"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-insights",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1000
+        },
+        "data": {
+          "slug": "/corniglia/insights",
+          "title": {
+            "en": {
+              "en": "Corniglia Cultural Insights: Ancient Traditions in Italy's Hilltop Village"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-maps",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1000
+        },
+        "data": {
+          "slug": "/corniglia/maps",
+          "title": {
+            "en": {
+              "en": "Complete Maps & Navigation Guide for Corniglia - Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-overview",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1100
+        },
+        "data": {
+          "slug": "/corniglia/overview",
+          "title": {
+            "en": {
+              "en": "Corniglia: The Elevated Village Crown of Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-restaurants",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1100
+        },
+        "data": {
+          "slug": "/corniglia/restaurants",
+          "title": {
+            "en": {
+              "en": "Corniglia's Best Restaurants: Clifftop Dining with Authentic Ligurian Flavors"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-sights",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1100
+        },
+        "data": {
+          "slug": "/corniglia/sights",
+          "title": {
+            "en": {
+              "en": "Corniglia Sights & Attractions: The Clifftop Village Experience"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-things-to-do",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1100
+        },
+        "data": {
+          "slug": "/corniglia/things-to-do",
+          "title": {
+            "en": {
+              "en": "Complete Guide to Corniglia: Things to Do in Cinque Terre's Crown Jewel"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "corniglia-weather",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1100
+        },
+        "data": {
+          "slug": "/corniglia/weather",
+          "title": {
+            "en": {
+              "en": "Corniglia Weather Guide: Perfect Timing for Your Mediterranean Escape"
+            }
+          },
+          "status": "published",
+          "parentId": "corniglia"
+        }
+      },
+      {
+        "id": "manarola-agriturismi",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1100
+        },
+        "data": {
+          "slug": "/manarola/agriturismi",
+          "title": {
+            "en": {
+              "en": "Authentic Agriturismi in Manarola: Farm-to-Table Excellence"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-apartments",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1100
+        },
+        "data": {
+          "slug": "/manarola/apartments",
+          "title": {
+            "en": {
+              "en": "Luxury Apartments in Manarola - Cliffside Accommodations with Vineyard Views"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-beaches",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1200
+        },
+        "data": {
+          "slug": "/manarola/beaches",
+          "title": {
+            "en": {
+              "en": "Manarola's Pristine Swimming Spots & Hidden Coastal Gems"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-blog",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1200
+        },
+        "data": {
+          "slug": "/manarola/blog",
+          "title": {
+            "en": {
+              "en": "Manarola's Story: From Ancient Roman Vines to UNESCO World Heritage"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-boat-tours",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1200
+        },
+        "data": {
+          "slug": "/manarola/boat-tours",
+          "title": {
+            "en": {
+              "en": "Manarola Boat Tours: Private Charters and Coastal Adventures"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-camping",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1200
+        },
+        "data": {
+          "slug": "/manarola/camping",
+          "title": {
+            "en": {
+              "en": "Camping in Manarola: Your Complete Guide to Staying Under Cinque Terre Stars"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-events",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1200
+        },
+        "data": {
+          "slug": "/manarola/events",
+          "title": {
+            "en": {
+              "en": "Events in Manarola: Festivals, Celebrations & Cultural Experiences"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-faq",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1200
+        },
+        "data": {
+          "slug": "/manarola/faq",
+          "title": {
+            "en": {
+              "en": "Manarola FAQ: Your Complete Guide to Cinque Terre's Wine Village"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-getting-here",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1200
+        },
+        "data": {
+          "slug": "/manarola/getting-here",
+          "title": {
+            "en": {
+              "en": "Getting to Manarola: Complete Travel Guide & Transportation"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-hiking",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1300
+        },
+        "data": {
+          "slug": "/manarola/hiking",
+          "title": {
+            "en": {
+              "en": "Manarola Hiking Trails: From Vineyard Paths to Cliff-Edge Adventures"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-hotels",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1300
+        },
+        "data": {
+          "slug": "/manarola/hotels",
+          "title": {
+            "en": {
+              "en": "Best Hotels and Accommodations in Manarola - Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-insights",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1300
+        },
+        "data": {
+          "slug": "/manarola/insights",
+          "title": {
+            "en": {
+              "en": "Manarola Insights: Ancient Wine Culture Meets Modern Luxury"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-maps",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1300
+        },
+        "data": {
+          "slug": "/manarola/maps",
+          "title": {
+            "en": {
+              "en": "Manarola Maps & Navigation Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-overview",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1300
+        },
+        "data": {
+          "slug": "/manarola/overview",
+          "title": {
+            "en": {
+              "en": "Manarola: The Crown Jewel of Cinque Terre's Wine Country"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-restaurants",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1300
+        },
+        "data": {
+          "slug": "/manarola/restaurants",
+          "title": {
+            "en": {
+              "en": "Manarola's Best Restaurants: Where Ligurian Cuisine Meets the Sea"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-sights",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1300
+        },
+        "data": {
+          "slug": "/manarola/sights",
+          "title": {
+            "en": {
+              "en": "Manarola Sights & Attractions: Your Complete Guide to Cinque Terre's Most Photographed Village"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-things-to-do",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1400
+        },
+        "data": {
+          "slug": "/manarola/things-to-do",
+          "title": {
+            "en": {
+              "en": "Things to Do in Manarola: Ancient Vineyards, Stunning Views & Culinary Excellence"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "manarola-weather",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1400
+        },
+        "data": {
+          "slug": "/manarola/weather",
+          "title": {
+            "en": {
+              "en": "Manarola Weather Guide: Perfect Timing for Your Cinque Terre Visit"
+            }
+          },
+          "status": "published",
+          "parentId": "manarola"
+        }
+      },
+      {
+        "id": "riomaggiore-agriturismi",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1400
+        },
+        "data": {
+          "slug": "/riomaggiore/agriturismi",
+          "title": {
+            "en": {
+              "en": "Authentic Agriturismi in Riomaggiore: Farm-to-Table Experiences"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-apartments",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1400
+        },
+        "data": {
+          "slug": "/riomaggiore/apartments",
+          "title": {
+            "en": {
+              "en": "Luxury Apartments in Riomaggiore - Authentic Cinque Terre Living"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-beaches",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1400
+        },
+        "data": {
+          "slug": "/riomaggiore/beaches",
+          "title": {
+            "en": {
+              "en": "Beaches in Riomaggiore: Swimming & Sunbathing Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-blog",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1400
+        },
+        "data": {
+          "slug": "/riomaggiore/blog",
+          "title": {
+            "en": {
+              "en": "Discover Riomaggiore: Your Gateway to Cinque Terre's Timeless Beauty"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-boat-tours",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1400
+        },
+        "data": {
+          "slug": "/riomaggiore/boat-tours",
+          "title": {
+            "en": {
+              "en": "Riomaggiore Boat Tours: Discover Cinque Terre from the Sea"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-camping",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1500
+        },
+        "data": {
+          "slug": "/riomaggiore/camping",
+          "title": {
+            "en": {
+              "en": "Camping Near Riomaggiore: Your Gateway to Cinque Terre Adventures"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-events",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1500
+        },
+        "data": {
+          "slug": "/riomaggiore/events",
+          "title": {
+            "en": {
+              "en": "Riomaggiore Events & Festivals: Celebrate Life in Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-faq",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1500
+        },
+        "data": {
+          "slug": "/riomaggiore/faq",
+          "title": {
+            "en": {
+              "en": "Riomaggiore FAQ: Your Essential Guide to Cinque Terre's Southernmost Village"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-getting-here",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1500
+        },
+        "data": {
+          "slug": "/riomaggiore/getting-here",
+          "title": {
+            "en": {
+              "en": "How to Get to Riomaggiore: Complete Transport Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-hiking",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1500
+        },
+        "data": {
+          "slug": "/riomaggiore/hiking",
+          "title": {
+            "en": {
+              "en": "Hiking Riomaggiore: Epic Trails & Secret Paths in Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-hotels",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1500
+        },
+        "data": {
+          "slug": "/riomaggiore/hotels",
+          "title": {
+            "en": {
+              "en": "Luxury Hotels & Boutique Stays in Riomaggiore"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-insights",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1500
+        },
+        "data": {
+          "slug": "/riomaggiore/insights",
+          "title": {
+            "en": {
+              "en": "Riomaggiore Cultural Insights: Ancient Traditions & Living Heritage"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-maps",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1600
+        },
+        "data": {
+          "slug": "/riomaggiore/maps",
+          "title": {
+            "en": {
+              "en": "Interactive Maps & Navigation Guide for Riomaggiore"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-overview",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1600
+        },
+        "data": {
+          "slug": "/riomaggiore/overview",
+          "title": {
+            "en": {
+              "en": "Riomaggiore: Gateway to the Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-restaurants",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1600
+        },
+        "data": {
+          "slug": "/riomaggiore/restaurants",
+          "title": {
+            "en": {
+              "en": "Riomaggiore Restaurants: Where the Sea Meets Extraordinary Cuisine"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-sights",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1600
+        },
+        "data": {
+          "slug": "/riomaggiore/sights",
+          "title": {
+            "en": {
+              "en": "Historic Sights & Cultural Treasures of Riomaggiore"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-things-to-do",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1600
+        },
+        "data": {
+          "slug": "/riomaggiore/things-to-do",
+          "title": {
+            "en": {
+              "en": "Things to Do in Riomaggiore: Your Guide to the Cinque Terre Gateway"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "riomaggiore-weather",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1600
+        },
+        "data": {
+          "slug": "/riomaggiore/weather",
+          "title": {
+            "en": {
+              "en": "Riomaggiore Weather Guide: Best Times to Visit & What to Expect"
+            }
+          },
+          "status": "published",
+          "parentId": "riomaggiore"
+        }
+      },
+      {
+        "id": "cinque-terre-agriturismi",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1600
+        },
+        "data": {
+          "slug": "/cinque-terre/agriturismi",
+          "title": {
+            "en": {
+              "en": "Agriturismi of Cinque Terre: Where Tradition Meets Luxury"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-apartments",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1700
+        },
+        "data": {
+          "slug": "/cinque-terre/apartments",
+          "title": {
+            "en": {
+              "en": "Luxury Apartments in Cinque Terre: Your Private Coastal Sanctuary"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-beaches",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1700
+        },
+        "data": {
+          "slug": "/cinque-terre/beaches",
+          "title": {
+            "en": {
+              "en": "Cinque Terre's Secret Swimming Spots: Hidden Beaches & Azure Coves"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-blog",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1700
+        },
+        "data": {
+          "slug": "/cinque-terre/blog",
+          "title": {
+            "en": {
+              "en": "Cultural Heritage of Cinque Terre: A Journey Through Time"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-boat-tours",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1700
+        },
+        "data": {
+          "slug": "/cinque-terre/boat-tours",
+          "title": {
+            "en": {
+              "en": "Cinque Terre Boat Tours: Coastal Views & Village Hopping"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-camping",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1700
+        },
+        "data": {
+          "slug": "/cinque-terre/camping",
+          "title": {
+            "en": {
+              "en": "Camping in Cinque Terre: Where Ancient Villages Meet Modern Adventure"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-events",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1700
+        },
+        "data": {
+          "slug": "/cinque-terre/events",
+          "title": {
+            "en": {
+              "en": "Cinque Terre Events & Festivals - Your Cultural Calendar"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-faq",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1700
+        },
+        "data": {
+          "slug": "/cinque-terre/faq",
+          "title": {
+            "en": {
+              "en": "Cinque Terre FAQ: Your Essential Questions Answered"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-getting-here",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1800
+        },
+        "data": {
+          "slug": "/cinque-terre/getting-here",
+          "title": {
+            "en": {
+              "en": "How to Get to Cinque Terre: Your Complete Transportation Guide"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-hiking",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1800
+        },
+        "data": {
+          "slug": "/cinque-terre/hiking",
+          "title": {
+            "en": {
+              "en": "Cinque Terre Hiking Trails: Complete Guide to Coastal Adventures"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-hotels",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1800
+        },
+        "data": {
+          "slug": "/cinque-terre/hotels",
+          "title": {
+            "en": {
+              "en": "Luxury Hotels & Boutique Stays in Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-insights",
+        "type": "topic-page",
+        "position": {
+          "x": 700,
+          "y": 1800
+        },
+        "data": {
+          "slug": "/cinque-terre/insights",
+          "title": {
+            "en": {
+              "en": "Cinque Terre Cultural Insights: Ancient Traditions in Modern Paradise"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-maps",
+        "type": "topic-page",
+        "position": {
+          "x": 900,
+          "y": 1800
+        },
+        "data": {
+          "slug": "/cinque-terre/maps",
+          "title": {
+            "en": {
+              "en": "Cinque Terre Maps & Navigation: Your Complete Guide to the Five Villages"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-overview",
+        "type": "topic-page",
+        "position": {
+          "x": 1100,
+          "y": 1800
+        },
+        "data": {
+          "slug": "/cinque-terre/overview",
+          "title": {
+            "en": {
+              "en": "Cinque Terre: Where Ancient Villages Meet the Modern Soul"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-restaurants",
+        "type": "topic-page",
+        "position": {
+          "x": 1300,
+          "y": 1800
+        },
+        "data": {
+          "slug": "/cinque-terre/restaurants",
+          "title": {
+            "en": {
+              "en": "Cinque Terre Restaurants: Where Sea Meets Extraordinary Cuisine"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-sights",
+        "type": "topic-page",
+        "position": {
+          "x": 100,
+          "y": 1900
+        },
+        "data": {
+          "slug": "/cinque-terre/sights",
+          "title": {
+            "en": {
+              "en": "Sights & Attractions in Cinque Terre: A Cultural Journey Through Five Timeless Villages"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-things-to-do",
+        "type": "topic-page",
+        "position": {
+          "x": 300,
+          "y": 1900
+        },
+        "data": {
+          "slug": "/cinque-terre/things-to-do",
+          "title": {
+            "en": {
+              "en": "The Ultimate Guide to Cinque Terre: Unmissable Experiences in Italy's Most Romantic Coastal Villages"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
+        }
+      },
+      {
+        "id": "cinque-terre-weather",
+        "type": "topic-page",
+        "position": {
+          "x": 500,
+          "y": 1900
+        },
+        "data": {
+          "slug": "/cinque-terre/weather",
+          "title": {
+            "en": {
+              "en": "Weather & Climate Guide for Cinque Terre"
+            }
+          },
+          "status": "published",
+          "parentId": "cinque-terre"
         }
       }
     ],
@@ -849,70 +3043,694 @@
         "type": "parent-child"
       },
       {
-        "id": "e-cinque-terre-monterosso",
-        "source": "cinque-terre",
-        "target": "monterosso",
-        "type": "parent-child"
-      },
-      {
-        "id": "e-cinque-terre-vernazza",
-        "source": "cinque-terre",
-        "target": "vernazza",
-        "type": "parent-child"
-      },
-      {
-        "id": "e-cinque-terre-corniglia",
-        "source": "cinque-terre",
+        "id": "e-home-corniglia",
+        "source": "home",
         "target": "corniglia",
         "type": "parent-child"
       },
       {
-        "id": "e-cinque-terre-manarola",
-        "source": "cinque-terre",
+        "id": "e-home-manarola",
+        "source": "home",
         "target": "manarola",
         "type": "parent-child"
       },
       {
-        "id": "e-cinque-terre-riomaggiore",
-        "source": "cinque-terre",
+        "id": "e-home-monterosso",
+        "source": "home",
+        "target": "monterosso",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-home-restaurants",
+        "source": "home",
+        "target": "restaurants",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-home-riomaggiore",
+        "source": "home",
         "target": "riomaggiore",
         "type": "parent-child"
       },
       {
-        "id": "e-monterosso-restaurants",
+        "id": "e-home-transport",
+        "source": "home",
+        "target": "transport",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-home-vernazza",
+        "source": "home",
+        "target": "vernazza",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-agriturismi",
         "source": "monterosso",
-        "target": "collection-restaurants",
-        "type": "collection-link"
+        "target": "monterosso-agriturismi",
+        "type": "parent-child"
       },
       {
-        "id": "e-monterosso-accommodations",
+        "id": "e-monterosso-monterosso-apartments",
         "source": "monterosso",
-        "target": "collection-accommodations",
-        "type": "collection-link"
+        "target": "monterosso-apartments",
+        "type": "parent-child"
       },
       {
-        "id": "e-vernazza-restaurants",
+        "id": "e-monterosso-monterosso-beaches",
+        "source": "monterosso",
+        "target": "monterosso-beaches",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-blog",
+        "source": "monterosso",
+        "target": "monterosso-blog",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-boat-tours",
+        "source": "monterosso",
+        "target": "monterosso-boat-tours",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-camping",
+        "source": "monterosso",
+        "target": "monterosso-camping",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-events",
+        "source": "monterosso",
+        "target": "monterosso-events",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-faq",
+        "source": "monterosso",
+        "target": "monterosso-faq",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-getting-here",
+        "source": "monterosso",
+        "target": "monterosso-getting-here",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-hiking",
+        "source": "monterosso",
+        "target": "monterosso-hiking",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-hotels",
+        "source": "monterosso",
+        "target": "monterosso-hotels",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-insights",
+        "source": "monterosso",
+        "target": "monterosso-insights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-maps",
+        "source": "monterosso",
+        "target": "monterosso-maps",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-overview",
+        "source": "monterosso",
+        "target": "monterosso-overview",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-restaurants",
+        "source": "monterosso",
+        "target": "monterosso-restaurants",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-sights",
+        "source": "monterosso",
+        "target": "monterosso-sights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-things-to-do",
+        "source": "monterosso",
+        "target": "monterosso-things-to-do",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-monterosso-monterosso-weather",
+        "source": "monterosso",
+        "target": "monterosso-weather",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-agriturismi",
         "source": "vernazza",
-        "target": "collection-restaurants",
-        "type": "collection-link"
+        "target": "vernazza-agriturismi",
+        "type": "parent-child"
       },
       {
-        "id": "e-vernazza-accommodations",
+        "id": "e-vernazza-vernazza-apartments",
         "source": "vernazza",
-        "target": "collection-accommodations",
-        "type": "collection-link"
+        "target": "vernazza-apartments",
+        "type": "parent-child"
       },
       {
-        "id": "e-cinque-terre-hikes",
-        "source": "cinque-terre",
-        "target": "collection-hikes",
-        "type": "collection-link"
+        "id": "e-vernazza-vernazza-beaches",
+        "source": "vernazza",
+        "target": "vernazza-beaches",
+        "type": "parent-child"
       },
       {
-        "id": "e-cinque-terre-events",
+        "id": "e-vernazza-vernazza-blog",
+        "source": "vernazza",
+        "target": "vernazza-blog",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-boat-tours",
+        "source": "vernazza",
+        "target": "vernazza-boat-tours",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-camping",
+        "source": "vernazza",
+        "target": "vernazza-camping",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-events",
+        "source": "vernazza",
+        "target": "vernazza-events",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-faq",
+        "source": "vernazza",
+        "target": "vernazza-faq",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-getting-here",
+        "source": "vernazza",
+        "target": "vernazza-getting-here",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-hiking",
+        "source": "vernazza",
+        "target": "vernazza-hiking",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-hotels",
+        "source": "vernazza",
+        "target": "vernazza-hotels",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-insights",
+        "source": "vernazza",
+        "target": "vernazza-insights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-maps",
+        "source": "vernazza",
+        "target": "vernazza-maps",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-overview",
+        "source": "vernazza",
+        "target": "vernazza-overview",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-restaurants",
+        "source": "vernazza",
+        "target": "vernazza-restaurants",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-sights",
+        "source": "vernazza",
+        "target": "vernazza-sights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-things-to-do",
+        "source": "vernazza",
+        "target": "vernazza-things-to-do",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-vernazza-vernazza-weather",
+        "source": "vernazza",
+        "target": "vernazza-weather",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-agriturismi",
+        "source": "corniglia",
+        "target": "corniglia-agriturismi",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-apartments",
+        "source": "corniglia",
+        "target": "corniglia-apartments",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-beaches",
+        "source": "corniglia",
+        "target": "corniglia-beaches",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-blog",
+        "source": "corniglia",
+        "target": "corniglia-blog",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-boat-tours",
+        "source": "corniglia",
+        "target": "corniglia-boat-tours",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-camping",
+        "source": "corniglia",
+        "target": "corniglia-camping",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-events",
+        "source": "corniglia",
+        "target": "corniglia-events",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-faq",
+        "source": "corniglia",
+        "target": "corniglia-faq",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-getting-here",
+        "source": "corniglia",
+        "target": "corniglia-getting-here",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-hiking",
+        "source": "corniglia",
+        "target": "corniglia-hiking",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-hotels",
+        "source": "corniglia",
+        "target": "corniglia-hotels",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-insights",
+        "source": "corniglia",
+        "target": "corniglia-insights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-maps",
+        "source": "corniglia",
+        "target": "corniglia-maps",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-overview",
+        "source": "corniglia",
+        "target": "corniglia-overview",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-restaurants",
+        "source": "corniglia",
+        "target": "corniglia-restaurants",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-sights",
+        "source": "corniglia",
+        "target": "corniglia-sights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-things-to-do",
+        "source": "corniglia",
+        "target": "corniglia-things-to-do",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-corniglia-corniglia-weather",
+        "source": "corniglia",
+        "target": "corniglia-weather",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-agriturismi",
+        "source": "manarola",
+        "target": "manarola-agriturismi",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-apartments",
+        "source": "manarola",
+        "target": "manarola-apartments",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-beaches",
+        "source": "manarola",
+        "target": "manarola-beaches",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-blog",
+        "source": "manarola",
+        "target": "manarola-blog",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-boat-tours",
+        "source": "manarola",
+        "target": "manarola-boat-tours",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-camping",
+        "source": "manarola",
+        "target": "manarola-camping",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-events",
+        "source": "manarola",
+        "target": "manarola-events",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-faq",
+        "source": "manarola",
+        "target": "manarola-faq",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-getting-here",
+        "source": "manarola",
+        "target": "manarola-getting-here",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-hiking",
+        "source": "manarola",
+        "target": "manarola-hiking",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-hotels",
+        "source": "manarola",
+        "target": "manarola-hotels",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-insights",
+        "source": "manarola",
+        "target": "manarola-insights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-maps",
+        "source": "manarola",
+        "target": "manarola-maps",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-overview",
+        "source": "manarola",
+        "target": "manarola-overview",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-restaurants",
+        "source": "manarola",
+        "target": "manarola-restaurants",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-sights",
+        "source": "manarola",
+        "target": "manarola-sights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-things-to-do",
+        "source": "manarola",
+        "target": "manarola-things-to-do",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-manarola-manarola-weather",
+        "source": "manarola",
+        "target": "manarola-weather",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-agriturismi",
+        "source": "riomaggiore",
+        "target": "riomaggiore-agriturismi",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-apartments",
+        "source": "riomaggiore",
+        "target": "riomaggiore-apartments",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-beaches",
+        "source": "riomaggiore",
+        "target": "riomaggiore-beaches",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-blog",
+        "source": "riomaggiore",
+        "target": "riomaggiore-blog",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-boat-tours",
+        "source": "riomaggiore",
+        "target": "riomaggiore-boat-tours",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-camping",
+        "source": "riomaggiore",
+        "target": "riomaggiore-camping",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-events",
+        "source": "riomaggiore",
+        "target": "riomaggiore-events",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-faq",
+        "source": "riomaggiore",
+        "target": "riomaggiore-faq",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-getting-here",
+        "source": "riomaggiore",
+        "target": "riomaggiore-getting-here",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-hiking",
+        "source": "riomaggiore",
+        "target": "riomaggiore-hiking",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-hotels",
+        "source": "riomaggiore",
+        "target": "riomaggiore-hotels",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-insights",
+        "source": "riomaggiore",
+        "target": "riomaggiore-insights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-maps",
+        "source": "riomaggiore",
+        "target": "riomaggiore-maps",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-overview",
+        "source": "riomaggiore",
+        "target": "riomaggiore-overview",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-restaurants",
+        "source": "riomaggiore",
+        "target": "riomaggiore-restaurants",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-sights",
+        "source": "riomaggiore",
+        "target": "riomaggiore-sights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-things-to-do",
+        "source": "riomaggiore",
+        "target": "riomaggiore-things-to-do",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-riomaggiore-riomaggiore-weather",
+        "source": "riomaggiore",
+        "target": "riomaggiore-weather",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-agriturismi",
         "source": "cinque-terre",
-        "target": "collection-events",
-        "type": "collection-link"
+        "target": "cinque-terre-agriturismi",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-apartments",
+        "source": "cinque-terre",
+        "target": "cinque-terre-apartments",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-beaches",
+        "source": "cinque-terre",
+        "target": "cinque-terre-beaches",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-blog",
+        "source": "cinque-terre",
+        "target": "cinque-terre-blog",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-boat-tours",
+        "source": "cinque-terre",
+        "target": "cinque-terre-boat-tours",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-camping",
+        "source": "cinque-terre",
+        "target": "cinque-terre-camping",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-events",
+        "source": "cinque-terre",
+        "target": "cinque-terre-events",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-faq",
+        "source": "cinque-terre",
+        "target": "cinque-terre-faq",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-getting-here",
+        "source": "cinque-terre",
+        "target": "cinque-terre-getting-here",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-hiking",
+        "source": "cinque-terre",
+        "target": "cinque-terre-hiking",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-hotels",
+        "source": "cinque-terre",
+        "target": "cinque-terre-hotels",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-insights",
+        "source": "cinque-terre",
+        "target": "cinque-terre-insights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-maps",
+        "source": "cinque-terre",
+        "target": "cinque-terre-maps",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-overview",
+        "source": "cinque-terre",
+        "target": "cinque-terre-overview",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-restaurants",
+        "source": "cinque-terre",
+        "target": "cinque-terre-restaurants",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-sights",
+        "source": "cinque-terre",
+        "target": "cinque-terre-sights",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-things-to-do",
+        "source": "cinque-terre",
+        "target": "cinque-terre-things-to-do",
+        "type": "parent-child"
+      },
+      {
+        "id": "e-cinque-terre-cinque-terre-weather",
+        "source": "cinque-terre",
+        "target": "cinque-terre-weather",
+        "type": "parent-child"
       }
     ]
   },
@@ -952,6 +3770,59 @@
       ]
     }
   },
-  "updatedAt": "2025-12-15T08:07:48.698Z",
+  "brandGuidelines": {
+    "visualStyle": {
+      "aesthetic": "modern luxury travel",
+      "moodDescriptors": [
+        "sophisticated",
+        "aspirational",
+        "authentic",
+        "dramatic",
+        "cinematic"
+      ],
+      "avoidDescriptors": [
+        "budget",
+        "generic",
+        "touristy",
+        "cluttered",
+        "cheap"
+      ]
+    },
+    "voice": {
+      "tone": "inspiring, knowledgeable, never condescending",
+      "vocabulary": {
+        "preferred": [
+          "discover",
+          "authentic",
+          "hidden",
+          "local",
+          "timeless",
+          "breathtaking",
+          "intimate",
+          "curated"
+        ],
+        "avoid": [
+          "cheap",
+          "must-see",
+          "bucket list",
+          "tourist trap",
+          "crowded",
+          "overrated"
+        ]
+      }
+    },
+    "content": {
+      "headlineStyle": "Evocative and intriguing - draw readers in with mystery and promise",
+      "ctaStyle": "Confident and inviting - 'Discover', 'Explore', 'Begin Your Journey'",
+      "imageStyle": "Dramatic landscapes, atmospheric lighting, authentic local moments"
+    },
+    "design": {
+      "heroStyle": "Full-bleed imagery with subtle overlay gradients",
+      "cardStyle": "Image-forward with text overlays, subtle hover effects",
+      "spacing": "Generous whitespace, breathing room between sections",
+      "typography": "Display font for headings, clean sans for body"
+    }
+  },
+  "updatedAt": "2025-12-16T14:23:18.576Z",
   "sha": "145e70636724064bf097314d8054809a8ac10149"
 }

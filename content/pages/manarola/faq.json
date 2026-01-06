@@ -7,180 +7,163 @@
     "it": "/it/manarola/faq"
   },
   "title": {
-    "en": "Manarola FAQ - Frequently Asked Questions",
-    "de": "FAQ",
-    "fr": "FAQ",
-    "it": "FAQ"
+    "en": "Manarola FAQ | Cinque Terre Dispatch"
   },
   "page_type": "faq",
   "seo": {
     "title": {
-      "en": "Manarola FAQ 2025 | Your Questions Answered"
+      "en": "Manarola FAQ | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Common questions about visiting Manarola answered. Parking, swimming, restaurants, Via dell'Amore, and practical travel tips."
-    },
-    "keywords": {
-      "en": [
-        "Manarola FAQ",
-        "Manarola questions",
-        "Cinque Terre help",
-        "travel tips"
-      ]
+      "en": "The questions every visitor asks about Manarola, answered by someone who lives here. Practical advice, honest opinions, and the local perspective on what actually matters."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Informazioni Utili",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Frequently Asked Questions",
-        "it": "Domande Frequenti su Manarola",
-        "de": "Häufig Gestellte Fragen"
-      },
-      "subtitle": {
-        "en": "Get answers to the most common questions about visiting Manarola. Practical tips from parking to swimming spots.",
-        "it": "Tutte le risposte che cerchi per pianificare la tua visita: trasporti, alloggi, sentieri, costi, periodi migliori e consigli pratici.",
-        "de": "Erhalten Sie Antworten auf die wichtigsten Fragen zu Ihrem Manarola-Besuch. Praktische Reisetipps von der Anreise bis zu den besten Badeplätzen – aus der Perspektive eines Liguriers, der diese Küste seit Jahrzehnten kennt."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View FAQs",
-            "it": "Vedi FAQ"
-          },
-          "url": {
-            "en": "#faq",
-            "it": "#faq"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Guida Completa"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "/it/manarola"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Questions<br/>Everyone Asks",
+      "subtitle": "After years of answering the same questions from visitors, patterns emerge. Some questions have simple answers. Others require context. Here's what you need to know before—and during—your time in Manarola.",
+      "badge": "FAQ",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Honest Answers",
+      "quote": "Most FAQs tell you what you want to hear. This one tells you what I've learned from watching thousands of visitors succeed—or struggle—in Manarola. The truth serves you better than marketing.",
+      "content": [
+        "**The best time to visit?** Depends on what you want. Swimming: July-September. Hiking: April-June, September-October. Avoiding crowds: November-March. There's no universal 'best'—only what's best for your priorities.",
+        "**How long to stay?** One day is enough to see the village. Two days is enough to feel it. Longer is better if you want to slow down, which is the point.",
+        "**Is it expensive?** More expensive than inland Italy. Less expensive than Portofino or Positano. Budget €100-150/day minimum for accommodation, meals, and activities.",
+        "**Is it crowded?** Summer days, yes—overwhelmingly. Summer evenings, less so. Shoulder seasons, manageable. Winter, quiet. The crowds follow the cruise ships and day-trippers; they leave by sunset."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Common Questions",
-        "it": "Prima della Visita",
-        "de": "Wichtige Fragen"
-      },
-      "title": {
-        "en": "Need to Know",
-        "it": "Pianificazione del Viaggio",
-        "de": "Wissenswertes für Ihre Reiseplanung"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "faq",
+      "items": [
         {
-          "icon": "car",
-          "title": {
-            "en": "Can I drive to Manarola?"
-          },
-          "description": {
-            "en": "No cars in the village. Park at Volastra (1.5km uphill) or La Spezia and take the train."
-          }
+          "id": 1,
+          "name": "Can I drive to Manarola?",
+          "category": "Getting Here",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Technically yes. Practically, the train is better.",
+          "description": "You can drive to a parking lot above the village, but spaces are limited, expensive (€15-25/day), and fill early in summer. The village itself is pedestrian-only—no vehicles. From the parking lot, you still walk down steep paths. Most visitors find the train far more convenient.",
+          "giuliaComment": "Leave the car in La Spezia. The train takes 8 minutes, costs €4, and drops you directly in the village. The parking lot is a 15-minute walk from where you actually want to be. Save yourself the frustration.",
+          "signature": "When simplicity beats stubbornness"
         },
         {
-          "icon": "heart",
-          "title": {
-            "en": "Is Via dell'Amore open?"
-          },
-          "description": {
-            "en": "Partially reopened in 2024. Check current status before visiting. Beautiful coastal walk when open."
-          }
+          "id": 2,
+          "name": "Do I need reservations for restaurants?",
+          "category": "Dining",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "For dinner in summer, absolutely. For lunch, usually not.",
+          "description": "The good restaurants have limited seating and fill quickly during peak season. Dinner reservations for sunset tables should be made 2-3 days ahead in summer. Lunch is more flexible—walk-ins usually find space. Off-season, reservations are helpful but not essential.",
+          "giuliaComment": "The sunset tables at Il Porticciolo and La Scogliera book up first. If you want that view, plan ahead. For a regular dinner at a normal hour, you can usually manage with a same-day call. But walking in without reservations in July is a gamble.",
+          "signature": "When planning enables spontaneity"
         },
         {
-          "icon": "beach",
-          "title": {
-            "en": "Are there sandy beaches?"
-          },
-          "description": {
-            "en": "No sand, only rocky swimming areas. Flat rocks by the harbor are great for sunbathing."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Best time for sunset?"
-          },
-          "description": {
-            "en": "Harbor rocks and Punta Bonfiglio viewpoint. Arrive 30 min early for best spots."
-          }
-        },
-        {
-          "icon": "luggage",
-          "title": {
-            "en": "Where to store luggage?"
-          },
-          "description": {
-            "en": "Small luggage storage near the train station. Hotels also hold bags for guests."
-          }
-        },
-        {
-          "icon": "time",
-          "title": {
-            "en": "How long to spend here?"
-          },
-          "description": {
-            "en": "Half-day minimum, full day ideal. Stay overnight to experience sunset and evening atmosphere."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Need More Help?",
-        "it": "Consigli Pratici",
-        "de": "Detaillierte Antworten"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Local Insights"
-          },
-          "url": {
-            "en": "/en/manarola/insights"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Is the Via dell'Amore open?",
+          "category": "Hiking",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Check current conditions—it has been closed for years.",
+          "description": "The Via dell'Amore connecting Manarola to Riomaggiore has been closed since 2012 due to rockslide damage. Repairs have been ongoing. Sections have reopened partially, but full restoration keeps getting delayed. Check the Cinque Terre Park website for current status before assuming you can walk it.",
+          "giuliaComment": "I've stopped predicting when it will fully reopen. Every year there's a new target date, every year it slips. The alternative high trail (SVA 531) is harder but open. Plan for that instead and be pleasantly surprised if the Via dell'Amore happens to be accessible.",
+          "signature": "When reality trumps expectation"
         }
       ],
-      "subtitle": {
-        "de": "Praktische Informationen für Ihren Aufenthalt in Manarola"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Tipping Question",
+          "quote": "Tipping in Italy is not expected like in America. Service charge is often included in the bill. For exceptional service, leave a few euros or round up. No one expects 20%. Pretending Italian customs are American customs helps no one."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Questions",
+      "quote": "The questions that matter day-to-day: what to wear, where to swim, how to charge your phone when you realize you forgot your adapter.",
+      "content": [
+        "**What should I wear?** Comfortable walking shoes with grip—essential. The streets are steep and slippery when wet. Casual dress for dinner; no restaurant requires formal attire. Bring layers for temperature changes between day and evening.",
+        "**Where can I swim?** At the marina rocks, though there's no sand beach. The water is deep immediately—you jump in rather than wade. Rocky swimming requires water shoes and confidence.",
+        "**Is there ATM access?** One ATM in the village, occasionally out of cash in summer. Come with euros or backup plans. Credit cards work at most restaurants and shops but not everywhere.",
+        "**Is there WiFi?** Most accommodations and restaurants have WiFi. Coverage in the streets is spotty. Data roaming works if you have an appropriate plan. Don't count on constant connectivity."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "faq",
+      "items": [
+        {
+          "id": 4,
+          "name": "Is Manarola accessible for wheelchairs or limited mobility?",
+          "category": "Accessibility",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Unfortunately, no. The village is challenging for anyone with mobility limitations.",
+          "description": "Manarola is steep stairs and uneven stones. There are no elevators, no flat paths, no wheelchair-accessible routes to most locations. The train station requires stairs. Some accommodations might have ground-floor access, but getting to them involves slopes. Monterosso offers better accessibility if that's a concern.",
+          "giuliaComment": "I wish I could say otherwise, but honesty matters more. This village was built on a cliff before accessibility was a concept. For visitors with serious mobility challenges, Manarola presents real obstacles. Monterosso is flatter and has better infrastructure.",
+          "signature": "When honesty prevents disappointment"
+        },
+        {
+          "id": 5,
+          "name": "What about the famous Manarola photo?",
+          "category": "Photography",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The viewpoint is real, accessible, and crowded at sunset. Plan accordingly.",
+          "description": "The classic Manarola shot—colored houses stacked against the cliff—comes from a viewpoint near the harbor on the way to Corniglia. The spot is marked; you can't miss it. Sunset brings the best light and the biggest crowds. For fewer people, come at sunrise or accept a shoulder in your frame.",
+          "giuliaComment": "Everyone wants that shot. I understand—it's beautiful. But consider: the same view at 7am has no one blocking it. The light is softer, the mood is quieter, and you might see the village as it actually wakes up. Sometimes the unpopular choice is the better choice.",
+          "signature": "When timing changes everything"
+        },
+        {
+          "id": 6,
+          "name": "Should I do a day trip or stay overnight?",
+          "category": "Planning",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Stay overnight if you can. The evening village is different from the daytime village.",
+          "description": "Day-trippers see crowded Manarola from 10am to 6pm. Overnight guests see the quiet village at sunset, after dark, at dawn. The difference is substantial—like visiting two different places. If you must day-trip, come early or stay late to catch the edges of the day.",
+          "giuliaComment": "Day-trippers often tell me they loved Manarola. Overnight guests tell me they fell in love with it. There's a difference. The village after the trains empty, when the locals take back their streets, when the sunset belongs to whoever stayed—that's the real Manarola.",
+          "signature": "When staying reveals what visiting hides"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Luggage Question",
+          "quote": "Pack light. Whatever you bring, you'll carry up and down steep streets and stairs. The village has no luggage service, no taxis, no elevators. Your rolling suitcase will become your enemy. A backpack is your friend."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "When Questions Lead to Understanding",
+      "content": [
+        "The best questions aren't the ones answered here—they're the ones you'll discover while walking the village. Why does this path exist? Who lived in this house? What made this terraced cliff become a village?",
+        "Some questions have factual answers: train schedules, restaurant hours, best viewpoints. Those answers are above.",
+        "The deeper questions—why this place matters, what it feels like to be here, how it changes you—those you'll answer for yourself."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/manarola/overview", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/manarola/getting-here", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "faq"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.838Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

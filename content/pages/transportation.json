@@ -1,0 +1,135 @@
+{
+  "id": "transportation-riomaggiore",
+  "slug": {
+    "en": "/en/transportation",
+    "de": "/de/transportation",
+    "fr": "/fr/transportation",
+    "it": "/it/transportation"
+  },
+  "title": {
+    "en": "Arrival & Orientation: Getting to Riomaggiore | Cinque Terre Dispatch"
+  },
+  "page_type": "transportation",
+  "seo": {
+    "title": {
+      "en": "Arrival & Orientation: Getting to Riomaggiore | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "Riomaggiore is not reached instantly. The tunnels, the winding roads, and the sudden shift in light are all part of the transition into the village's rhythm."
+    }
+  },
+  "template": "cinque-terre-transportation",
+  "body": [
+    {
+      "type": "editorial-hero",
+      "title": "The Art of<br/>Arrival",
+      "subtitle": "Riomaggiore is not reached instantly. The tunnels, the winding roads, and the sudden shift in light are all part of the transition into the village's rhythm.",
+      "badge": "The First Step",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2572&auto=format&fit=crop"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "A Gradual Approach",
+      "quote": "To arrive in Riomaggiore is to shed the speed of the modern world. Whether you come by rail, road, or sea, the village requires you to slow down before it reveals itself.",
+      "content": [
+        "The geography of the Cinque Terre is **defiant**. For centuries, these villages were accessible only by boat or by the narrow mule tracks that crisscross the hills.",
+        "Knowing this in advance **changes your arrival**. It transforms a long tunnel or a steep parking lot from a frustration into a threshold.",
+        "We encourage you to **arrive with patience**. The train may be crowded, the parking may be distant, and the boat may be at the mercy of the waves.",
+        "Once you reach the station or the parking garage, **the village begins**. There is no 'lobby' here—only the street, the stairs, and the immediate presence of the houses."
+      ]
+    },
+    {
+      "type": "airports-overview",
+      "title": "Geographical Orientation",
+      "description": "Riomaggiore is the easternmost of the five villages, situated on the Ligurian coast in northern Italy, between the port city of La Spezia and the historic city of Genoa.",
+      "airports": [
+        { "name": "Pisa (PSA)", "distance": "100 km", "time": "1.5 hours" },
+        { "name": "Genoa (GOA)", "distance": "115 km", "time": "2 hours" },
+        { "name": "Florence (FLR)", "distance": "170 km", "time": "2.5 hours" },
+        { "name": "Milan (MXP/LIN)", "distance": "250-280 km", "time": "3-4 hours" }
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "transport",
+      "items": [
+        {
+          "id": 1,
+          "name": "By Train",
+          "category": "Recommended",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The most practical and atmospheric way to arrive—through the mountain, into the heart of the village.",
+          "description": "The regional train from La Spezia Centrale takes just 8 minutes, emerging from a long tunnel directly into the village. Trains run every 15-30 minutes throughout the day. This is how most visitors arrive, and for good reason.",
+          "giuliaComment": "Take the train. It's not just practical—it's part of the experience. The moment you exit the tunnel and see the sea is always a revelation.",
+          "signature": "The sudden light of the Mediterranean after minutes in darkness",
+          "duration": "8 min from La Spezia",
+          "frequency": "Every 15-30 minutes",
+          "practicalInfo": "Buy a Cinque Terre Card for unlimited train travel between villages.",
+          "googleRating": 4.7,
+          "tripadvisorRating": 4.6
+        },
+        {
+          "id": 2,
+          "name": "By Car",
+          "category": "Limited Access",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Possible, but the village itself is car-free. Prepare for a walk from the parking garage.",
+          "description": "Cars are not allowed in the village center. There is a small parking garage at the top of the hill, but spaces are limited and expensive (€25-35/day in summer). The walk down takes 10-15 minutes on steep stairs.",
+          "giuliaComment": "If you must bring a car, park in La Spezia and take the train. The stress of parking is not worth it.",
+          "signature": "The relief of leaving the car behind and entering a world built for feet",
+          "duration": "Variable (from La Spezia: 20 min)",
+          "frequency": "On demand",
+          "practicalInfo": "Limited spaces. No parking in the village itself. Consider park-and-ride at La Spezia.",
+          "googleRating": 3.5,
+          "tripadvisorRating": 3.4
+        },
+        {
+          "id": 3,
+          "name": "By Ferry",
+          "category": "Scenic Option",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1500514966906-fe245eea9344?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The most beautiful approach—arriving by sea, seeing the village as the fishermen saw it for centuries.",
+          "description": "Ferries operate between the five villages and to/from La Spezia and Portovenere in the warmer months. The service is weather-dependent and can be cancelled in rough seas. When running, it offers unmatched views of the coastline.",
+          "giuliaComment": "If the sea is calm and you have time, take the ferry at least once. The view of the villages from the water is unforgettable.",
+          "signature": "The colorful houses of the village rising from the cliffs as you approach",
+          "duration": "15-45 min depending on route",
+          "frequency": "Hourly in summer, less frequent off-season",
+          "practicalInfo": "Weather-dependent. No service in rough seas. Check Consorzio Marittimo schedule.",
+          "googleRating": 4.6,
+          "tripadvisorRating": 4.5
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Weight of the Journey",
+          "quote": "In Riomaggiore, your luggage is your first lesson in local physics. Wheeled suitcases, designed for flat airport terminals, are the natural enemies of our stone stairs. If you can, pack light. If you can't, consider a backpack."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Slow Down. You've Arrived.",
+      "content": [
+        "Arrival is not just the end of a journey; it is the first moment of your presence in Riomaggiore.",
+        "Resist the urge to orient yourself immediately. Don't look at the map just yet. Allow the village to unfold gradually—the way the light enters the narrow streets, the sound of the sea at the harbor.",
+        "You are here. The village is ready for you."
+      ],
+      "buttons": [
+        { "text": "Plan Your Journey", "url": "/itinerary", "variant": "primary" },
+        { "text": "Where to Rest", "url": "/accommodations", "variant": "secondary" }
+      ]
+    }
+  ],
+  "metadata": {
+    "page_type": "transportation"
+  },
+  "status": "published",
+  "created_at": "2026-01-05T12:00:00.000Z",
+  "updated_at": "2026-01-05T12:00:00.000Z"
+}

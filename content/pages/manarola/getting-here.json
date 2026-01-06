@@ -7,195 +7,153 @@
     "it": "/it/manarola/getting-here"
   },
   "title": {
-    "en": "How to Get to Manarola",
-    "de": "Anreise",
-    "fr": "Comment y Aller",
-    "it": "Come Arrivare"
+    "en": "Getting to Manarola | Cinque Terre Dispatch"
   },
   "page_type": "getting-here",
   "seo": {
     "title": {
-      "en": "Getting to Manarola 2025 | Train, Car & Travel Guide"
+      "en": "Getting to Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Complete guide to reaching Manarola. Train connections, parking options, and transportation tips for Cinque Terre's most iconic village."
-    },
-    "keywords": {
-      "en": [
-        "how to get to Manarola",
-        "Manarola train",
-        "Cinque Terre transportation",
-        "parking Manarola"
-      ]
+      "en": "Manarola is easier to reach than it appears—a train station carved into the cliff, ferries in summer, trails from neighboring villages. The arrival is part of the experience."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Informazioni di Viaggio",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Getting Here",
-        "it": "Come Arrivare a Manarola",
-        "de": "Anreise nach Manarola"
-      },
-      "subtitle": {
-        "en": "Manarola is car-free and best reached by train. Learn about train schedules, parking, and alternative transportation options.",
-        "it": "Treno, auto, aereo o traghetto: tutte le opzioni per raggiungere i 5 borghi. Collegamenti, orari, costi e consigli pratici per organizzare il tuo viaggio.",
-        "de": "Manarola ist autofrei und am besten mit dem Zug zu erreichen. Erfahren Sie alles über Fahrpläne, Parkmöglichkeiten und alternative Transportoptionen für Ihre Reise in das spektakulärste der Cinque Terre Dörfer."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Transportation",
-            "it": "In Treno"
-          },
-          "url": {
-            "en": "#transport",
-            "it": "#treno"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Altre Opzioni"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#altro"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Arriving<br/>by Choice",
+      "subtitle": "Every visitor to Manarola must choose how to arrive: through the mountain by train, across the sea by ferry, or over the hills by foot. Each approach reveals a different village. The journey matters.",
+      "badge": "Getting Here",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Arrival Reality",
+      "quote": "There's no highway exit marked 'Manarola.' You can't just drive here, park, and walk in. This village has protected itself from easy access for centuries. The difficulty is the point—it filters visitors, rewards the committed, and preserves what makes the place worth reaching.",
+      "content": [
+        "**The train is the default**. Most visitors arrive through the tunnel that connects all five villages. The regional line runs frequently—every 20-30 minutes during the day. The journey from La Spezia takes 8 minutes. From Genoa, about 90 minutes. The station sits carved into the cliff, and walking out of that dark tunnel into the Ligurian light is the arrival moment.",
+        "**Cars stay outside**. Parking exists, but it's limited, expensive, and far from the village center. If you must drive, accept that the car stays in the lot while you walk down. This isn't a village designed for automobiles.",
+        "**Ferries offer drama**. From April to October, boats connect the villages by sea. Arriving by water means seeing Manarola as sailors have for centuries—the colored houses stacked against the cliff, the tiny harbor, the scale of human ambition against the Mediterranean.",
+        "**Hiking provides context**. Walking in from Riomaggiore or Corniglia means arriving with understanding—of the terraces, the trails, the physical relationship between villages. The journey takes longer but teaches more."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Transportation",
-        "it": "Mezzi di Trasporto",
-        "de": "Verkehrsverbindungen"
-      },
-      "title": {
-        "en": "How to Arrive",
-        "it": "Come Raggiungere le Cinque Terre",
-        "de": "Anreisemöglichkeiten nach Manarola"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "transport",
+      "items": [
         {
-          "icon": "train",
-          "title": {
-            "en": "By Train (Recommended)",
-            "it": "Treno (Consigliato)"
-          },
-          "description": {
-            "en": "Frequent trains from La Spezia (8 min) and Levanto. Station is in the village center.",
-            "it": "Tutti i 5 villaggi sono collegati dalla linea Genova-La Spezia. Treni ogni 15-30 min. Il modo più comodo, veloce ed ecologico."
-          }
+          "id": 1,
+          "name": "By Train",
+          "category": "Primary Access",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The regional train punches through the mountain every twenty minutes—fast, reliable, and surprisingly dramatic.",
+          "description": "The Cinque Terre train line connects La Spezia to Levanto, stopping at all five villages. Manarola's station is carved directly into the cliff—you exit the tunnel onto a narrow platform, climb the stairs, and emerge into the village. The Cinque Terre Card (€16/day) covers unlimited train travel plus trail access.",
+          "giuliaComment": "Take the train. I know it sounds boring, but emerging from that tunnel into the light, with the village suddenly there—it's a moment. And the train is reliable, which matters when ferries cancel for weather and trails close for maintenance. Practical beats romantic when you need to actually get somewhere.",
+          "signature": "Through the mountain into the light"
         },
         {
-          "icon": "car",
-          "title": {
-            "en": "Parking Areas",
-            "it": "Auto"
-          },
-          "description": {
-            "en": "Park at Volastra (1.5km uphill) or La Spezia. No cars allowed in village itself.",
-            "it": "Sconsigliata: strade strette, parcheggi limitatissimi e costosi (€25-30/giorno), centri storici ZTL. Lascia l'auto a La Spezia."
-          }
+          "id": 2,
+          "name": "By Ferry",
+          "category": "Scenic Option",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The ferry approach reveals Manarola as the sea sees it—vertical cliffs, stacked houses, the drama of the setting.",
+          "description": "Seasonal ferries (April-October) connect the villages by sea. The boats are small enough to enter Manarola's tiny harbor when conditions allow. The journey from Monterosso takes about 45 minutes with stops. From Portovenere, about an hour. Weather can cancel service—check morning conditions.",
+          "giuliaComment": "The ferry is the arrival I recommend for first-time visitors—if the weather cooperates. Seeing the village from the water, approaching the way merchants and fishermen have for centuries, gives you the photograph you came for. But have a train backup. The sea decides, not the schedule.",
+          "signature": "When the sea reveals the village"
         },
         {
-          "icon": "bus",
-          "title": {
-            "en": "Bus from Parking",
-            "it": "Aereo"
-          },
-          "description": {
-            "en": "Shuttle buses connect Volastra parking to the village. Runs frequently in season.",
-            "it": "Aeroporti più vicini: Genova (90 km), Pisa (80 km). Da entrambi, treno per La Spezia (1-1.5 ore) poi treno locale."
-          }
-        },
-        {
-          "icon": "boat",
-          "title": {
-            "en": "Ferry Service",
-            "it": "Traghetto"
-          },
-          "description": {
-            "en": "Seasonal boat service from La Spezia, Portovenere, and Levanto to Manarola harbor.",
-            "it": "Stagionale (aprile-ottobre). Collegamenti tra villaggi e da La Spezia/Portovenere. Panoramico ma limitato dal meteo."
-          }
-        },
-        {
-          "icon": "walk",
-          "title": {
-            "en": "Hiking In",
-            "it": "Bus"
-          },
-          "description": {
-            "en": "Walk from neighboring villages via coastal trails. Via dell'Amore from Riomaggiore.",
-            "it": "Opzione secondaria. Collegamenti da La Spezia e Levanto. Meno frequenti del treno, strade tortuose."
-          }
-        },
-        {
-          "icon": "ticket",
-          "title": {
-            "en": "Cinque Terre Card",
-            "it": "A Piedi"
-          },
-          "description": {
-            "en": "Includes unlimited trains between villages, trails, and buses. Essential for visitors.",
-            "it": "Una volta arrivato, muoviti a piedi. I centri storici sono piccoli e pedonali. Il Sentiero Azzurro collega tutti i villaggi."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Visit",
-        "it": "Come Arrivare in Numeri",
-        "de": "Detaillierte Anreiseinformationen"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Maps"
-          },
-          "url": {
-            "en": "/en/manarola/maps"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "By Hiking Trail",
+          "category": "Active Arrival",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Walking in from neighboring villages means arriving with context—understanding the terraces, the trails, the geography.",
+          "description": "The Sentiero Azzurro connects all five villages along the coast. From Corniglia, expect 90 minutes of challenging but beautiful trail. From Riomaggiore, the Via dell'Amore remains closed, but the alternative high trail (SVA 531) offers 90 minutes of terraced landscape. Hiking in means earning the arrival.",
+          "giuliaComment": "If you have the time and fitness, walk from Corniglia. You'll cross terraces, look down at Manarola from above, and arrive with an understanding of the landscape that train passengers never get. The village makes more sense when you've seen what surrounds it.",
+          "signature": "Where the journey becomes the destination"
         }
       ],
-      "subtitle": {
-        "de": "Präzise Reiseplanung für deutsche Besucher"
-      },
-      "content": {
-        "de": "Als gebürtiger La Spezier kann ich Ihnen versichern: Die Anreise nach Manarola erfordert sorgfältige Planung, belohnt Sie jedoch mit einem der authentischsten Cinque Terre-Erlebnisse.\n\n**Mit dem Zug - Die optimale Wahl**\n\nDie Cinque Terre Express-Züge verkehren alle 15-30 Minuten zwischen La Spezia und Levanto. Eine einfache Fahrt kostet 4,00 EUR, die Cinque Terre Karte (16,00 EUR/Tag) inkludiert unbegrenzte Zugfahrten plus Wanderwege. Kaufen Sie Tickets vorab online oder am Bahnhof - nie im Zug.\n\nDer Bahnhof Manarola ist ein architektonisches Meisterwerk, direkt in die Küstenfelsen gehauen. Von hier sind es nur 2 Minuten zu Fuß zur Kirche San Lorenzo oder zum ikonischen Hafen von Manarola.\n\n**Parken - Realistische Optionen**\n\nVergessen Sie das Parken in Manarola selbst. Volastra bietet 200 Stellplätze (15,00 EUR/Tag), jedoch ist Reservierung über park.parkmobile.it obligatorisch. Alternative: La Spezia Centrale (8,00 EUR/Tag) mit direkter Zugverbindung.\n\nVon Deutschland kommend empfehle ich die Route über die A12 Autostrada Azzurra - malerisch, aber kurvenreich. Planen Sie 30% mehr Zeit als GPS-Angaben ein.\n\n**Für anspruchsvolle Reisende**\n\nDas Hotel Marina Piccola und La Torretta organisieren Gepäcktransport vom Bahnhof. Ca' D'Andrean im historischen Zentrum ist zu Fuß erreichbar, jedoch mit Gepäck herausfordernd."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Parking Reality",
+          "quote": "Yes, you can drive to Manarola. But the parking lot sits above the village, charges €15-25 per day, fills by 10am in summer, and you'll still walk down and up the steep paths. The car is a burden here, not a convenience. Leave it in La Spezia and take the train."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "From Major Cities",
+      "quote": "Manarola is not remote—it's just protected by geography. From any major Italian city, the journey takes less than a day.",
+      "content": [
+        "**From Milan (3 hours)**: High-speed train to La Spezia Centrale, then regional train to Manarola. Direct Frecciarossa connections multiple times daily.",
+        "**From Florence (2.5 hours)**: Similar route through La Spezia. Book early for the high-speed segment—prices vary dramatically.",
+        "**From Rome (4 hours)**: High-speed to La Spezia with a connection. Plan for the change—La Spezia station is straightforward but allow time.",
+        "**From Pisa Airport (1.5 hours)**: Regional train through La Spezia. The cheapest but slowest option from an international arrival point.",
+        "**From Genoa Airport (2 hours)**: Regional train along the coast. A scenic approach but requires attention to schedules."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "practical",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Cinque Terre Card",
+          "category": "Essential Purchase",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The pass that makes movement between villages simple—unlimited trains plus trail access.",
+          "description": "The Cinque Terre Card covers unlimited second-class train travel between Levanto and La Spezia, plus access to the hiking trails. The 1-day card costs €16; 2-day costs €29. Buy at any station ticket office or online. The card simplifies everything—no calculating fares, no validating tickets, just board and go.",
+          "giuliaComment": "The card pays for itself if you make more than 3-4 train trips, which most visitors do. More importantly, it removes friction. You can spontaneously hop to Vernazza for lunch, back to Manarola for the afternoon, up to Monterosso for the beach. Mobility is freedom here.",
+          "signature": "Where simplicity enables exploration"
+        },
+        {
+          "id": 5,
+          "name": "Station to Village",
+          "category": "The Final Steps",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The station sits at the top; the village cascades below. The walk down is your first impression.",
+          "description": "From the station platform, you climb stairs to the tunnel that leads into the village. The main street (Via Birolli) descends steeply to the harbor—maybe 300 meters, maybe 5 minutes, but with luggage it can feel longer. The path is paved but steep. Wheeled suitcases struggle on the stones.",
+          "giuliaComment": "Pack light. Whatever you bring, you'll carry down these streets and up the stairs to most accommodations. There are no elevators, no taxis that fit the streets. The village wasn't designed for roller bags. Travel light and the arrival is pleasant. Travel heavy and you'll regret it.",
+          "signature": "When packing light becomes practical"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Luggage Reality",
+          "quote": "I watch tourists with giant suitcases realize their mistake about fifty meters from the station. The streets are steep, the stones are uneven, and most accommodations involve stairs. A rolling bag on these paths is a wrestling match you'll lose."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Arrival as Arrival",
+      "content": [
+        "Getting to Manarola is not a problem to solve—it's the beginning of the experience. The train emerges from darkness into light. The ferry approaches cliffs that seem impossible. The hiking trail reveals the village gradually.",
+        "Choose your arrival based on what you want to feel: efficiency (train), drama (ferry), or accomplishment (trail). Each is valid. Each sets a different tone for your time here.",
+        "However you arrive, you'll descend from wherever you start into the village itself, passing houses and gardens and glimpses of sea. By the time you reach the harbor, you'll understand—this place was never meant to be easy to reach. That's what kept it worth reaching."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/manarola/overview", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/manarola/hotels", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "getting-here"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.838Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

@@ -7,190 +7,152 @@
     "it": "/it/manarola/camping"
   },
   "title": {
-    "en": "Camping near Manarola",
-    "de": "Camping",
-    "fr": "Camping",
-    "it": "Campeggi"
+    "en": "Camping Near Manarola | Cinque Terre Dispatch"
   },
   "page_type": "camping",
   "seo": {
     "title": {
-      "en": "Manarola Camping 2025 | Campgrounds & Outdoor Stays"
+      "en": "Camping Near Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Camping options near Manarola. Campgrounds in the hills with sea views, nature immersion, and budget-friendly stays."
-    },
-    "keywords": {
-      "en": [
-        "Manarola camping",
-        "Cinque Terre campgrounds",
-        "tent camping",
-        "outdoor accommodation"
-      ]
+      "en": "Wild camping is illegal in Cinque Terre, but organized options exist nearby—a different way to experience this coast, with the challenges and rewards that camping brings."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Natura e Avventura",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Camping & Outdoor Stays",
-        "it": "Campeggi a Manarola",
-        "de": "Camping & Outdoor-Aufenthalte"
-      },
-      "subtitle": {
-        "en": "Camp in the hills above Cinque Terre. Budget-friendly options with stunning views and easy access to all five villages.",
-        "it": "Dormire sotto le stelle a pochi passi dai sentieri panoramici. Campeggi attrezzati, bungalow, glamping e aree sosta camper immersi nella natura del Parco Nazionale.",
-        "de": "Übernachten Sie unter dem ligurischen Sternenhimmel in den Hügeln oberhalb der Cinque Terre. Budgetfreundliche Campingplätze mit spektakulären Panoramablicken und direktem Zugang zu allen fünf Dörfern bieten authentische Naturerlebnisse."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Campgrounds",
-            "it": "Trova Campeggio"
-          },
-          "url": {
-            "en": "#camping",
-            "it": "#campeggi"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Info e Regole"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#info"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Under<br/>Different Stars",
+      "subtitle": "You cannot pitch a tent in Manarola—the village is protected, the land is private, and wild camping is prohibited throughout Cinque Terre. But organized camping exists nearby for those who want to experience this coast without walls around them.",
+      "badge": "Camping Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504851149312-7a075b496cc7-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Camping Reality",
+      "quote": "Every summer, someone decides to sleep on the terraces or the rocks. Every summer, the carabinieri explain why that's illegal. The fines are substantial, the embarrassment is worse, and the damage to fragile terraces is real. Don't be that person.",
+      "content": [
+        "**Wild camping is prohibited**. The entire Cinque Terre National Park prohibits camping outside designated areas. This isn't bureaucracy—it's protection of fragile landscapes, private property, and fire risk in a region that burns easily.",
+        "**Organized options exist**. Several campsites operate within reach of Manarola—not in the village, but accessible by car, bus, or hiking trail. These provide legitimate camping with proper facilities.",
+        "**The experience is different**. Camping near Cinque Terre means trading village ambiance for natural immersion. You're outside the medieval streets, closer to the landscape that frames them.",
+        "**Budget travelers find value**. Campsites cost €15-35 per night—far less than village accommodations. For those who prioritize experience over comfort, camping stretches travel budgets significantly."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Campgrounds",
-        "it": "Tipologie"
-      },
-      "title": {
-        "en": "Camping Options",
-        "it": "Opzioni di Camping"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "option",
+      "items": [
         {
-          "icon": "tent",
-          "title": {
-            "en": "5 Terre Camping",
-            "it": "Piazzole Tenda"
-          },
-          "description": {
-            "en": "Closest campground to Manarola. Located in Volastra with shuttle bus service.",
-            "it": "Aree verdi ombreggiate con elettricità. Bagni comuni, docce calde, area cucina. L'opzione più economica."
-          }
+          "id": 1,
+          "name": "Campeggio Acqua Dolce",
+          "category": "Closest Option",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The nearest proper campsite—inland from Manarola, accessible by bus, with basic facilities and terraced pitches.",
+          "description": "Located in the hills above the coast, Acqua Dolce offers tent and camper pitches with hot showers, a small shop, and restaurant. The bus connection to Manarola takes about 20 minutes. The site gets warm in summer—the sea breeze doesn't reach this far inland. But the views of the mountains compensate.",
+          "giuliaComment": "This is where I send people who insist on camping. It's not glamorous, but it's legitimate. You can hike down to the village, spend the day, and return to your tent. Just understand: it's camping. Expect camping conditions, not hotel comfort with a tent label.",
+          "signature": "Where budget meets legality"
         },
         {
-          "icon": "caravan",
-          "title": {
-            "en": "Camping Acquadolce",
-            "it": "Aree Camper"
-          },
-          "description": {
-            "en": "Near Riomaggiore. Tent sites, bungalows, and camper spots. Pool and restaurant.",
-            "it": "Piazzole per camper e roulotte con allacci elettrici, carico/scarico acque. Servizi dedicati."
-          }
+          "id": 2,
+          "name": "Glamping Options",
+          "category": "Comfortable Alternative",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "For those who want nature without roughing it—furnished tents with beds, sometimes bathrooms, occasionally air conditioning.",
+          "description": "Several properties in the Vara Valley (20-30 minutes inland) offer glamping: permanent tents with real beds, sometimes private bathrooms, often restaurant service. Prices range €100-200/night—more than camping, less than village hotels, different from both.",
+          "giuliaComment": "Glamping is a compromise I understand. You want to feel connected to nature without sleeping on the ground. Fine. But know what you're choosing: you're not camping and you're not in Cinque Terre. You're comfortable in the countryside, visiting the coast by day.",
+          "signature": "When comfort meets nature"
         },
         {
-          "icon": "tree",
-          "title": {
-            "en": "La Sfinge Camping",
-            "it": "Bungalow"
-          },
-          "description": {
-            "en": "Terraced campsite in the hills. Spectacular views and hiking trail access.",
-            "it": "Casette in legno con letti, bagno privato, aria condizionata. Comfort in mezzo alla natura."
-          }
-        },
-        {
-          "icon": "shower",
-          "title": {
-            "en": "Facilities",
-            "it": "Glamping"
-          },
-          "description": {
-            "en": "All sites have bathrooms, showers, cooking areas, and WiFi. Some have pools.",
-            "it": "Tende luxury con letti veri, biancheria inclusa, terrazza privata. Camping di lusso."
-          }
-        },
-        {
-          "icon": "bus",
-          "title": {
-            "en": "Transportation",
-            "it": "Servizi"
-          },
-          "description": {
-            "en": "Shuttle buses to villages or short walk to train stations. Some sites rent bikes.",
-            "it": "Piscina, ristorante, market, Wi-Fi, animazione bambini. Campeggi attrezzati con tutti i comfort."
-          }
-        },
-        {
-          "icon": "wallet",
-          "title": {
-            "en": "Budget-Friendly",
-            "it": "Accesso Sentieri"
-          },
-          "description": {
-            "en": "From €10-30 per person/night. Much cheaper than hotels while staying in nature.",
-            "it": "Posizione strategica con accesso diretto alla rete sentieristica. Ideale per escursionisti."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Other Accommodation",
-        "it": "Costi Camping",
-        "de": "Erstklassige Outdoor-Unterkünfte"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Hotels"
-          },
-          "url": {
-            "en": "/en/manarola/hotels"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Mountain Refuges",
+          "category": "Hiker Option",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Rifugi along the high trails offer dormitory accommodation for hikers—rustic, communal, and tied to the trail network.",
+          "description": "The trails above Cinque Terre connect several mountain refuges offering dormitory beds, simple meals, and the camaraderie of other hikers. These aren't campsites—you're indoors—but the experience is closer to camping than to hotels. Expect shared rooms, shared bathrooms, and trail-focused company.",
+          "giuliaComment": "The rifugi are for serious hikers who want to walk the high routes. You'll share a room with strangers, eat whatever's cooking, and wake early for the trail. Not for everyone, but for the right person, it's the best way to experience the landscape above the villages.",
+          "signature": "Where trails determine lodging"
         }
       ],
-      "eyebrow": {
-        "de": "Campingoptionen"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "Why Wild Camping Is Prohibited",
+          "quote": "The terraces are private property—they belong to families who've maintained them for generations. The fire risk in Mediterranean summer is severe. The damage from even one tent on fragile ground is real. The prohibition isn't about being unfriendly; it's about protecting a landscape that barely survives as it is."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Making It Work",
+      "quote": "Camping near Manarola requires planning that village stays don't. You're farther from everything, dependent on transportation, and dealing with weather without walls.",
+      "content": [
+        "**Transportation is essential**. Without a car, you're dependent on buses that don't run frequently. Plan your connection carefully—the last bus back to the campsite determines when your day in Manarola ends.",
+        "**Weather affects everything**. Rain at a campsite is different from rain at a hotel. Heat without sea breeze is oppressive. Check forecasts and pack accordingly.",
+        "**Supplies require trips**. The nearest real grocery is in La Spezia. Campsite shops carry basics at premium prices. Stock up before arriving.",
+        "**The beach-day problem**. Returning to a campsite after swimming means carrying wet suits on public transport. Plan your logistics or accept damp tents."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "consideration",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Seasonal Question",
+          "category": "Timing",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "May-September offers campable weather, with July-August bringing both crowds and heat.",
+          "description": "Most campsites operate May through September. June and September offer the best balance: warm enough to camp, cool enough to sleep, fewer crowds than high summer. July and August are hot—the inland sites especially suffer without sea breeze. April and October are shoulder months with unpredictable weather.",
+          "giuliaComment": "If you're camping, come in June or September. July and August are brutal at the inland sites—you're cooking in your tent while the coast catches the breeze you can't reach. Early and late season camping is pleasant; peak season camping is endurance.",
+          "signature": "When timing determines comfort"
+        },
+        {
+          "id": 5,
+          "name": "The Hybrid Approach",
+          "category": "Strategy",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Camp some nights, stay in the village others—a compromise that combines budget and experience.",
+          "description": "Some travelers camp during the week when campsites are quieter and cheaper, then move to village accommodation for a weekend night or two. This provides both the camping experience and the evening village atmosphere that camping misses.",
+          "giuliaComment": "This is actually smart. Camp for the budget nights, splurge on one night in Manarola to experience the village after dark. You get both experiences without committing fully to either. Flexibility serves travelers well here.",
+          "signature": "When flexibility creates options"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Evening Problem",
+          "quote": "The evening is when Manarola is most magical—the light, the quiet, the locals taking back their village. Campers miss this unless they arrange late transport. Consider what you're trading for cheaper accommodation."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Camping Compromise",
+      "content": [
+        "Camping near Manarola is not camping in Manarola. You'll be inland, away from the sea, dependent on transportation, experiencing a different version of this coast than village guests experience.",
+        "For budget travelers, the savings are real. For nature lovers, the immersion is authentic. For those seeking village atmosphere and evening magic, camping trades away the best parts of the experience.",
+        "Know what you're choosing. The legal camping options exist and work well for the right traveler. But don't confuse camping near Cinque Terre with being in Cinque Terre. They're different experiences with different rewards."
+      ],
+      "buttons": [
+        { "text": "Hotels", "url": "/en/manarola/hotels", "variant": "primary" },
+        { "text": "Apartments", "url": "/en/manarola/apartments", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "camping"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.837Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

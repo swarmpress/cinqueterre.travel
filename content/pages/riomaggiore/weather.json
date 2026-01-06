@@ -7,183 +7,169 @@
     "it": "/it/riomaggiore/weather"
   },
   "title": {
-    "en": "Riomaggiore Weather & Best Time to Visit",
-    "de": "Wetter",
-    "fr": "Météo",
-    "it": "Meteo"
+    "en": "Weather in Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Riomaggiore Weather 2025 | Climate & Best Time to Visit"
+      "en": "Weather in Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Riomaggiore weather guide with monthly climate data, best seasons to visit, and packing tips. Plan your perfect Cinque Terre trip."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore weather",
-        "best time to visit",
-        "climate",
-        "temperatures",
-        "when to go"
-      ]
+      "en": "The weather in Riomaggiore is not just climate—it's personality. Each season brings a different village: sun-drunk summer, harvest gold autumn, storm-dramatic winter, wildflower-scattered spring."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Clima e Stagioni"
-      },
-      "title": {
-        "en": "Mediterranean Climate Year-Round",
-        "it": "Meteo e Quando Visitare Riomaggiore"
-      },
-      "subtitle": {
-        "en": "Mild winters and warm summers make Riomaggiore beautiful any time of year. Spring and fall offer perfect hiking weather and fewer crowds.",
-        "it": "Clima mediterraneo mite tutto l'anno. Stagioni diverse offrono esperienze uniche: primavera fiorita, estate balneare, autunno vendemmiale, inverno autentico."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "Reading the<br/>Sky",
+      "subtitle": "In Riomaggiore, weather is not something to check—it's something to live. The village changes its character with the seasons, and learning to read that change is part of understanding this place.",
+      "badge": "Weather & Seasons",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Mediterranean Rhythm",
+      "quote": "Locals don't plan around weather forecasts. They read the morning sky, feel the wind direction, notice whether the fishermen are launching boats. The Mediterranean teaches you to pay attention.",
+      "content": [
+        "The **climate is forgiving**—300+ sunny days per year, mild temperatures that rarely dip below 8°C in winter or exceed 28°C in summer. The sea moderates everything, cooling summer heat and warming winter chill.",
+        "**Seasons here are real**. Unlike endlessly pleasant tourist climates, Riomaggiore's seasons bring distinct experiences. Summer buzzes with activity and crowds. Winter brings solitude and the occasional spectacular storm. Each has its value.",
+        "**Weather shapes the day's rhythm**. Midday summer heat drives everyone indoors or into the water. Autumn mornings are for hiking before afternoon aperitivo. Spring evenings stay light long enough for post-dinner wandering.",
+        "**The best weather is the weather you planned for**. Come in summer for swimming, autumn for wine, winter for quiet, spring for wildflowers. There is no wrong season—only wrong expectations."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
         {
-          "text": {
-            "en": "Climate Info",
-            "it": "Periodo Migliore"
-          },
-          "url": {
-            "en": "#weather",
-            "it": "#periodo"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "Summer (June-August)",
+          "category": "Peak Season",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The season of swimming, sunset dinners, and the village at its most alive.",
+          "description": "Temperatures hover between 25-28°C, rarely reaching uncomfortable extremes thanks to sea breezes. Days are long—light until 9pm—and the harbor fills with swimmers from morning to evening. Every terrace table is full.",
+          "giuliaComment": "I love summer, but I work early and rest during midday. The smart visitors do the same. By evening, the village belongs to everyone again.",
+          "signature": "When the sea becomes the center of village life",
+          "practicalInfo": "Book restaurants weeks ahead. Swim early morning or late afternoon. Carry water always. The church offers cool refuge at noon."
         },
         {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Meteo Attuale"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#meteo"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "Autumn (September-November)",
+          "category": "Harvest Season",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the tourists thin and the village returns to its purpose: the grape harvest.",
+          "description": "Pleasant 18-22°C temperatures make autumn the ideal season for hiking. The terraces above the village come alive with harvest activity. Sciacchetrà production begins. The light turns golden and the crowds evaporate.",
+          "giuliaComment": "This is when I love Riomaggiore most. The village feels like itself again. You can walk the main street without bumping into backpacks. The restaurants are quieter, the servers have time to talk.",
+          "signature": "The season the village was built for",
+          "practicalInfo": "September has summer warmth without summer crowds. October brings wine festivals. November can be rainy—pack layers."
+        },
+        {
+          "id": 3,
+          "name": "Winter (December-February)",
+          "category": "Quiet Season",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When Riomaggiore belongs to its residents again—and to visitors who understand solitude.",
+          "description": "Temperatures of 8-13°C feel colder in the damp coastal air. Many restaurants close. The ferries stop. What remains is the village stripped to its essentials: fishermen, locals, and the occasional traveler who came for quiet.",
+          "giuliaComment": "Winter storms here are extraordinary—waves crashing, wind howling, the harbor drama that movies try to recreate. Then the sun breaks through and the sea is glass. You have to be here to understand.",
+          "signature": "When the village shows its private face",
+          "practicalInfo": "Check restaurant hours carefully—many close December through February. Bring waterproof layers. The train runs year-round."
+        },
+        {
+          "id": 4,
+          "name": "Spring (March-May)",
+          "category": "Awakening Season",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The terraces explode with wildflowers, the hiking trails reopen, and the village shakes off winter.",
+          "description": "Temperatures climb from 15°C to 20°C as spring progresses. The hiking trails are at their best—clear paths, comfortable temperatures, spectacular wildflower displays. Restaurants reopen, energy returns.",
+          "giuliaComment": "May is my favorite month. The weather is perfect, the flowers are blooming, and the summer crowds haven't arrived yet. If you can choose your dates, choose May.",
+          "signature": "When everything begins again",
+          "practicalInfo": "Pack layers—mornings can be cool, afternoons warm. Perfect hiking weather. Restaurants return to full operation."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Value of Off-Season",
+          "quote": "Tourism has its seasons, but the village is always here. The visitors who come in November or March see something the summer crowds never will—the village as it lives for itself, not for its audience."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Seasonal Guide",
-        "it": "Le Quattro Stagioni"
-      },
-      "title": {
-        "en": "When to Visit Riomaggiore",
-        "it": "Quando Visitare le Cinque Terre"
-      },
-      "features": [
+      "type": "editorial-intro",
+      "badge": "Practical Weather",
+      "quote": "The forecast matters less than your preparation. Pack for the season, dress in layers, and let the weather become part of the experience rather than an obstacle to it.",
+      "content": [
+        "**Morning weather is deceptive**. A clear sunrise can become a cloudy afternoon. A gray dawn can burn off into brilliant blue. The Mediterranean is moody—plan activities flexibly.",
+        "**Sea breezes save summer**. The coast is 3-5°C cooler than inland. Even when Italy swelters, Riomaggiore offers relief. But pack a light layer for evening—the breeze can turn cool.",
+        "**Rain is rare but real**. July and August average only 3-4 rainy days. But when storms arrive, they're theatrical—short, intense, then gone. Carry a light rain jacket, use the interruption for lunch.",
+        "**The microclimate varies by elevation**. The harbor is warmer than the upper terraces. The castle viewpoint catches more wind. The valley behind the village holds heat. Each location has its own weather."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
         {
-          "icon": "flower",
-          "title": {
-            "en": "Spring (April-May)",
-            "it": "Primavera (Mar-Mag)"
-          },
-          "description": {
-            "en": "Perfect hiking weather, wildflowers, fewer tourists. Temperatures 15-22°C (59-72°F)",
-            "it": "Ideale per trekking. Temperature 15-22°C, fioritura, poca folla. Possibili piogge ad aprile. La stagione perfetta."
-          }
+          "id": 5,
+          "name": "Packing Philosophy",
+          "category": "Practical Wisdom",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Pack less than you think you need, but pack the right things.",
+          "description": "Layers work better than single heavy pieces. A light rain jacket serves double duty as wind protection. Comfortable walking shoes are non-negotiable—the village is vertical. Swimwear lives in your bag all summer.",
+          "giuliaComment": "I watch tourists struggling with overpacked suitcases up medieval stairs. Then I watch them buying things they forgot at the one expensive shop in the village. Pack smart or pay the price.",
+          "signature": "The art of traveling light in a vertical village",
+          "practicalInfo": "Summer: swimwear, sunscreen, hat, light layers, walking shoes. Winter: waterproof layers, warm clothing, sturdy shoes. All seasons: comfortable footwear."
         },
         {
-          "icon": "sun",
-          "title": {
-            "en": "Summer (June-August)",
-            "it": "Estate (Giu-Ago)"
-          },
-          "description": {
-            "en": "Hot and busy. Beach weather, vibrant nightlife, all services open. 25-30°C (77-86°F)",
-            "it": "Alta stagione. 25-30°C, mare caldo, spiagge, eventi. Molto affollato e caro. Caldo intenso sui sentieri."
-          }
-        },
+          "id": 6,
+          "name": "Reading Weather Signs",
+          "category": "Local Wisdom",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The fishermen don't check apps. They read the sky and the sea.",
+          "description": "When the fishing boats stay in the harbor, rough weather is coming. When the morning haze burns off early, the day will be clear. When the wind shifts to the southwest, rain may follow. The village has been reading these signs for centuries.",
+          "giuliaComment": "My grandfather could predict weather three days out just by looking at the horizon. I'm not that good, but I've learned to pay attention. The apps are usually right—but the sky is always more interesting.",
+          "signature": "Ancient meteorology, still relevant",
+          "practicalInfo": "Morning haze clearing by 9am usually means good day. Sudden southwest wind can bring afternoon storms. High clouds moving fast suggest unsettled conditions."
+        }
+      ],
+      "interludes": [
         {
-          "icon": "leaf",
-          "title": {
-            "en": "Fall (September-October)",
-            "it": "Autunno (Set-Nov)"
-          },
-          "description": {
-            "en": "Ideal conditions, warm sea, grape harvest, shoulder season prices. 18-25°C (64-77°F)",
-            "it": "Eccellente per visite. 18-25°C in settembre, vendemmia, colori caldi. Meno turisti. Piogge in novembre."
-          }
-        },
-        {
-          "icon": "snowflake",
-          "title": {
-            "en": "Winter (November-March)",
-            "it": "Inverno (Dic-Feb)"
-          },
-          "description": {
-            "en": "Quiet season, mild but rainy. Some restaurants closed. 8-15°C (46-59°F)",
-            "it": "Bassa stagione. 8-15°C, molti servizi chiusi, poca folla. Autentico ma limitato. Presepe di Manarola a dicembre."
-          }
-        },
-        {
-          "icon": "umbrella",
-          "title": {
-            "en": "Rainfall"
-          },
-          "description": {
-            "en": "October-November wettest months. Summer very dry. Bring layers year-round"
-          }
-        },
-        {
-          "icon": "waves",
-          "title": {
-            "en": "Sea Temperature"
-          },
-          "description": {
-            "en": "Swimmable June-September (22-26°C). Brave locals swim May and October too"
-          }
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Midday Wisdom",
+          "quote": "Italians rest from 1pm to 4pm for good reason. The midday sun in summer is punishing, even here. Follow the local rhythm—swim early, lunch long, nap if you can, then emerge when the shadows lengthen."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan According to Season",
-        "it": "Il Clima in Numeri"
-      },
-      "description": {
-        "en": "Check current events and activities happening during your visit dates."
-      },
+      "type": "closing-note",
+      "title": "The Weather You Get",
+      "content": [
+        "There is no perfect weather in Riomaggiore. There is only the weather that arrives—and your willingness to meet it.",
+        "A rainy morning makes the afternoon sunshine sweeter. A cloudy sunset makes the next day's clear sky a gift. The visitors who insist on perfect conditions miss the variety that makes the village alive.",
+        "Come prepared. Adjust your plans. Let the weather be part of the story, not an obstacle to it."
+      ],
       "buttons": [
-        {
-          "text": {
-            "en": "Events Calendar"
-          },
-          "url": {
-            "en": "/en/riomaggiore/events"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "secondary"
-        }
+        { "text": "Plan Your Visit", "url": "/en/riomaggiore/things-to-do", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/riomaggiore/getting-here", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "weather"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.847Z"
+  "updated_at": "2026-01-05T17:30:00.000Z"
 }

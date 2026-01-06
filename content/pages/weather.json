@@ -1,0 +1,98 @@
+{
+  "id": "weather-riomaggiore",
+  "slug": {
+    "en": "/en/weather",
+    "de": "/de/weather",
+    "fr": "/fr/weather",
+    "it": "/it/weather"
+  },
+  "title": {
+    "en": "Weather & Conditions | Riomaggiore | Cinque Terre Dispatch"
+  },
+  "page_type": "weather",
+  "seo": {
+    "title": {
+      "en": "Weather & Conditions | Riomaggiore | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "The current state of the sea, the sky, and the village—curated for those who plan with intention."
+    }
+  },
+  "template": "cinque-terre-weather",
+  "body": [
+    {
+      "type": "weather-live",
+      "title": "Atmosphere &<br/>Coastal Rhythms",
+      "subtitle": "The current state of the sea, the sky, and the village—curated for those who plan with intention.",
+      "badge": "Live Conditions",
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000",
+      "currentWeather": {
+        "temp": 12,
+        "condition": "Partly Cloudy",
+        "icon": "cloud",
+        "high": 14,
+        "low": 8,
+        "wind": "12 km/h",
+        "humidity": "65%",
+        "seaTemp": "16°C",
+        "uvIndex": "Low (2)",
+        "visibility": "15 km",
+        "sunrise": "07:45",
+        "sunset": "16:50"
+      },
+      "forecast": [
+        { "day": "Fri", "date": "Dec 19", "high": 13, "low": 7, "condition": "Sunny", "icon": "sun" },
+        { "day": "Sat", "date": "Dec 20", "high": 11, "low": 9, "condition": "Rainy", "icon": "rain" },
+        { "day": "Sun", "date": "Dec 21", "high": 10, "low": 6, "condition": "Cloudy", "icon": "cloud" },
+        { "day": "Mon", "date": "Dec 22", "high": 12, "low": 8, "condition": "Sunny", "icon": "sun" },
+        { "day": "Tue", "date": "Dec 23", "high": 14, "low": 10, "condition": "Partly Cloudy", "icon": "cloud" }
+      ]
+    },
+    {
+      "type": "weather-journal",
+      "title": "Giulia's Weather Journal",
+      "signature": "Watch the horizon—it always tells the truth first.",
+      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=2000",
+      "giuliaAdvice": {
+        "condition": "Partly Cloudy",
+        "note": "December in Riomaggiore has a specific kind of light—crisp and clear. It's not beach weather, but it's the best time for the high trails. The air is fresh, and you won't break a sweat climbing to Montenero. Just remember: the sun drops behind the cliffs early, so the village gets chilly by 4 PM. Carry a light wool scarf—it's the local way.",
+        "recommendations": [
+          "Perfect for the hike to Santuario di Montenero.",
+          "Ideal light for photography in the harbor around 3 PM.",
+          "Grab a hot 'Sciacchetrà' tasting at a local enoteca as the sun sets."
+        ]
+      },
+      "webcams": [
+        {
+          "id": 1,
+          "name": "Harbor View",
+          "description": "Live view of the iconic Riomaggiore harbor and boat ramp.",
+          "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1000",
+          "status": "Live"
+        },
+        {
+          "id": 2,
+          "name": "Main Street (Via Colombo)",
+          "description": "Looking up the bustling main street from the lower village.",
+          "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=1000",
+          "status": "Live"
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Watch the Horizon",
+      "content": [
+        "Coastal weather is a living thing. It changes with the tide, the wind, and the season.",
+        "Plan your day, but be ready to let the village surprise you. The best experiences in Riomaggiore are often the ones you didn't plan."
+      ],
+      "author": "The Dispatch Weather Desk"
+    }
+  ],
+  "metadata": {
+    "page_type": "weather"
+  },
+  "status": "published",
+  "created_at": "2026-01-05T12:00:00.000Z",
+  "updated_at": "2026-01-05T12:00:00.000Z"
+}

@@ -1,0 +1,201 @@
+{
+  "id": "culinary-page-01",
+  "slug": {
+    "en": "/en/culinary",
+    "de": "/de/kulinarisches",
+    "fr": "/fr/gastronomie",
+    "it": "/it/gastronomia"
+  },
+  "title": {
+    "en": "The Story of the Table | Culinary Riomaggiore"
+  },
+  "page_type": "culinary",
+  "seo": {
+    "title": { "en": "The Story of the Table | Cinque Terre Dispatch" },
+    "description": { "en": "In Riomaggiore, food is not an attraction. It is a rhythm, a memory, and a response to a vertical world." }
+  },
+  "template": "cinque-terre",
+  "body": [
+    {
+      "type": "editorial-hero",
+      "title": "The Story of<br/>the Table",
+      "subtitle": "In Riomaggiore, food is not an attraction. It is a rhythm, a memory, and a response to a vertical world.",
+      "badge": "Culinary Narrative",
+      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2670&auto=format&fit=crop",
+      "height": "70vh"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Culinary Story",
+      "quote": "To eat in Riomaggiore is to understand scarcity. For centuries, this village had no flat land for cattle, no wide fields for grain. It had only the verticality of the cliffs and the depth of the sea.",
+      "leftContent": "<p>The story begins in the <strong>terraces</strong>. Every inch of soil was earned, carved out of the rock to plant grapevines and olive trees. This is why wine here is not just a drink; it is the village's primary currency of labor. The Sciacchetrà you sip today is the same liquid gold that has sustained these families through generations of isolation.</p><p>Then there is the <strong>sea</strong>. Because the village was poor and the work was hard, the food became simple. Fish is served with little more than a squeeze of lemon and a drizzle of the oil pressed from those hillside groves. There is no need for heavy sauces when the catch was in the water three hours ago.</p>",
+      "rightContent": "<p>You will notice that <strong>menus are short</strong>. This is not a lack of choice, but a commitment to the day. If the sea was rough, there is no sea bass. If the 'orto' (the garden) is between seasons, the vegetables will change. We eat what the land and sea allow, following a rhythm tied to light and weather.</p><p>Meals here follow the <strong>rhythm of work</strong>. A quick cone of fried fish at midday to keep moving, and a long, slow dinner as the sun dips behind the village—a time to reclaim the day from the crowds. To eat well here is to be receptive to these rhythms, to stop looking for variety and start looking for place.</p>"
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "restaurant",
+      "items": [
+        {
+          "id": 1,
+          "name": "Dau Cila",
+          "category": "Seafood & Wine",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600",
+          "intro": "Where the boats come in and the wine is poured from pitchers that have never known a label.",
+          "description": "Dau Cila is the kind of place that makes you forget you ever needed a reservation system. It sits right at the water, where the fishing boats are pulled up onto the stone slipway. The menu is what the sea offered today, prepared with an almost stubborn simplicity.",
+          "giuliaComment": "Order the anchovies marinated in lemon and oil. They are not a starter here; they are a statement of philosophy. And ask for the house white—it comes from terraces you can see from your table.",
+          "signature": "Anchovies marinated in lemon and local olive oil",
+          "cost": "€€€",
+          "openingTimes": "12:00 - 22:00, Closed Tuesdays",
+          "practicalInfo": "Reservations recommended for dinner. Best seats are on the terrace overlooking the harbor.",
+          "googleRating": 4.6,
+          "tripadvisorRating": 4.5
+        },
+        {
+          "id": 2,
+          "name": "Rio Bistrot",
+          "category": "Contemporary Ligurian",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600",
+          "intro": "The village's most ambitious table, where tradition is respected but never worshipped.",
+          "description": "Rio Bistrot represents a different approach to Ligurian cooking—one that honors the ingredients but isn't afraid to surprise. The chef sources everything locally but treats each plate as a composition. This is where Riomaggiore meets the wider world of contemporary cuisine.",
+          "giuliaComment": "This is where I take friends who think they know Italian food. The tasting menu is a journey, but even a simple pasta here shows what's possible when you really care about the details.",
+          "signature": "Tasting menu featuring local seafood with modern techniques",
+          "cost": "€€€€",
+          "openingTimes": "19:00 - 22:30, Closed Mondays",
+          "practicalInfo": "Reservations essential. Smart casual dress. The wine pairing is worth it.",
+          "googleRating": 4.8,
+          "tripadvisorRating": 4.7
+        },
+        {
+          "id": 3,
+          "name": "Trattoria La Grotta",
+          "category": "Traditional Trattoria",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=1600",
+          "intro": "A cave carved into the hillside where time moves at the pace of a proper Italian meal.",
+          "description": "La Grotta is exactly what its name suggests—a restaurant built into a natural cave in the cliffside. The temperature is always perfect, the light is soft, and the portions are generous in the way only a family-run place can manage. This is where locals celebrate birthdays and anniversaries.",
+          "giuliaComment": "Go for the mixed seafood—whatever they caught that morning. The setting alone is worth the climb, but the food is what brings people back year after year.",
+          "signature": "Mixed grilled seafood fresh from the morning catch",
+          "cost": "€€€",
+          "openingTimes": "12:30 - 14:30, 19:00 - 22:00",
+          "practicalInfo": "Located up the hill—wear comfortable shoes. The cave stays cool even in summer.",
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.4
+        },
+        {
+          "id": 4,
+          "name": "Vertical Wine Bar",
+          "category": "Wine Bar & Small Plates",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1600",
+          "intro": "A vertical tasting of the terraces, one glass at a time.",
+          "description": "In a village defined by its verticality, Vertical takes the concept and applies it to wine. Here you can taste the different expressions of the same grape from terraces at different elevations. It's education disguised as pleasure, served with plates of local salumi and cheese.",
+          "giuliaComment": "Start with a Sciacchetrà tasting—they'll walk you through the different producers. It's the best way to understand why this wine is so precious and why we guard these terraces so fiercely.",
+          "signature": "Sciacchetrà tasting flight from local producers",
+          "cost": "€€",
+          "openingTimes": "17:00 - 23:00",
+          "practicalInfo": "No reservations needed. Perfect for an early evening aperitivo before dinner.",
+          "googleRating": 4.7,
+          "tripadvisorRating": 4.6
+        },
+        {
+          "id": 5,
+          "name": "Te La Do Io La Merenda",
+          "category": "Focacceria & Street Food",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae03?w=1600",
+          "intro": "The village's unofficial cafeteria, where focaccia is a religion and coffee is a necessity.",
+          "description": "This tiny spot on the main street is where Riomaggiore fuels itself. The focaccia comes out of the oven throughout the day—plain, with onions, with cheese, with whatever inspiration struck that morning. It's not fancy, but it's perfect.",
+          "giuliaComment": "Come early for the focaccia col formaggio before it sells out. Take it to the rocks by the harbor and eat it while watching the boats. This is the real breakfast of the village.",
+          "signature": "Focaccia col formaggio, hot from the oven",
+          "cost": "€",
+          "openingTimes": "07:00 - 19:00",
+          "practicalInfo": "Cash only. There's no seating—take it and find your spot.",
+          "googleRating": 4.8,
+          "tripadvisorRating": 4.7
+        },
+        {
+          "id": 6,
+          "name": "Trattoria Dal Billy",
+          "category": "Panoramic Dining",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=1600",
+          "intro": "High above the village, where the view competes with the plate for your attention.",
+          "description": "Dal Billy requires a climb—a proper one, up the steep streets to the top of the village. The reward is a terrace that looks out over the entire coastline and a kitchen that takes its seafood seriously. This is where Riomaggiore celebrates special occasions.",
+          "giuliaComment": "Book the terrace for sunset. The spaghetti alle vongole is exceptional, but honestly, I sometimes come just for the view and a glass of wine. The climb is part of the experience.",
+          "signature": "Spaghetti alle vongole with a panoramic sunset",
+          "cost": "€€€",
+          "openingTimes": "12:00 - 14:30, 19:00 - 22:30",
+          "practicalInfo": "Reservations essential for terrace seating. The climb is steep—allow extra time.",
+          "googleRating": 4.6,
+          "tripadvisorRating": 4.5
+        },
+        {
+          "id": 7,
+          "name": "A Pie de Ma",
+          "category": "Romantic Seafood",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600",
+          "intro": "At the foot of the sea, where every table is a front-row seat to the Mediterranean.",
+          "description": "A Pie de Ma sits at the point where the village meets the water. The terrace extends almost into the waves, and on calm evenings, you can hear the sea breathing beneath your table. The menu is pure Ligurian seafood, prepared with respect and restraint.",
+          "giuliaComment": "This is my place for a quiet dinner when I want the sea to do most of the talking. The branzino al sale is simple perfection. Come when the sea is calm—the experience changes completely.",
+          "signature": "Salt-crusted sea bass (branzino al sale)",
+          "cost": "€€€€",
+          "openingTimes": "19:00 - 22:30, Seasonal closures",
+          "practicalInfo": "Weather-dependent seating. Reservations essential. Romantic and intimate.",
+          "googleRating": 4.7,
+          "tripadvisorRating": 4.6
+        },
+        {
+          "id": 8,
+          "name": "Bar Centrale",
+          "category": "Village Bar & Café",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1600",
+          "intro": "The village living room, where the day begins and ends with an espresso.",
+          "description": "Bar Centrale is not a destination restaurant—it's the village's social infrastructure. This is where the fishermen have their morning coffee, where news is exchanged, where the rhythm of the day is set. The food is simple (panini, pastries), but the atmosphere is irreplaceable.",
+          "giuliaComment": "Stand at the bar like a local. Order an espresso and a cornetto in the morning, an Aperol Spritz in the evening. Watch the village pass by. This is the real Riomaggiore.",
+          "signature": "The morning espresso ritual with cornetto",
+          "cost": "€",
+          "openingTimes": "06:30 - 22:00",
+          "practicalInfo": "Standing at the bar is cheaper than sitting. Cash preferred.",
+          "googleRating": 4.4,
+          "tripadvisorRating": 4.3
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Logic of the Short Menu",
+          "quote": "In many places, a long menu is a sign of abundance. In Riomaggiore, it is often a sign of frozen storage. Look for the places that offer only four or five starters and mains. It means the chef was at the harbor this morning, and the 'orto' yesterday. Variety is the enemy of freshness in a village this small.",
+          "align": "left"
+        },
+        {
+          "afterIndex": 5,
+          "type": "secondary",
+          "badge": "Editorial Interlude",
+          "title": "The Bread and the Oil",
+          "quote": "Before you order, look at the bread and the oil on the table. In Liguria, these are not fillers. The oil should be green-gold and smell of the hills. The bread should be simple, a vessel for that oil. If a restaurant gets these two right, you can trust them with the rest of the meal.",
+          "align": "right"
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "badge": "A Final Thought",
+      "title": "The Best Meal is a Matter of Mood",
+      "content": "<p>In the end, eating well in Riomaggiore is less about finding the 'perfect' restaurant and more about matching your meal to your spirit.</p><p>Some days require the quiet of a hidden osteria; others, the salt-spray energy of the harbor rocks with a paper cone of fish. Sometimes, all you need is a glass of Sciacchetrà and the sound of the sea.</p><p>Slow down. Notice the light. Listen to the village. The table will find you.</p>",
+      "actions": [
+        { "label": "Plan Your Day", "href": "/itinerary", "variant": "primary" },
+        { "label": "Explore the Village", "href": "/village", "variant": "secondary" }
+      ]
+    }
+  ],
+  "metadata": { "page_type": "culinary" },
+  "status": "generated",
+  "created_at": "2025-01-05T00:00:00.000Z",
+  "updated_at": "2025-01-05T00:00:00.000Z"
+}

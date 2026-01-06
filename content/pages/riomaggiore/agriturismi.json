@@ -7,199 +7,152 @@
     "it": "/it/riomaggiore/agriturismi"
   },
   "title": {
-    "en": "Agriturismi near Riomaggiore",
-    "de": "Agriturismi",
-    "fr": "Agriturismi",
-    "it": "Agriturismi"
+    "en": "Farm Stays Near Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "agriturismi",
   "seo": {
     "title": {
-      "en": "Riomaggiore Agriturismi 2025 | Farm Stays & Rural Hotels"
+      "en": "Farm Stays Near Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover agriturismi near Riomaggiore in the hills above Cinque Terre. Farm-to-table dining, vineyard stays, and authentic rural Italian experience."
-    },
-    "keywords": {
-      "en": [
-        "agriturismi riomaggiore",
-        "farm stays",
-        "rural accommodation",
-        "vineyard hotels",
-        "country hotels"
-      ]
+      "en": "The agriturismi above Riomaggiore offer something the village cannot: the terraced landscape that made this coast possible, experienced from inside the working farms that still maintain it."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Vita Rurale",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Farm Stays in the Cinque Terre Hills",
-        "it": "Agriturismi a Riomaggiore",
-        "de": "Agriturismi in den Hügeln der Cinque Terre"
-      },
-      "subtitle": {
-        "en": "Experience rural Liguria at agriturismi in the terraced hillsides above Riomaggiore. Enjoy farm-fresh meals, vineyard views, and peaceful countryside.",
-        "it": "Immergiti nella vita rurale ligure tra vigneti terrazzati e uliveti. Degusta prodotti locali, vini DOC e olio extravergine in autentiche aziende agricole a conduzione familiare.",
-        "de": "Erleben Sie das authentische Ligurien in traditionsreichen Agriturismi zwischen terrassierten Weinbergen oberhalb von Riomaggiore. Genießen Sie Mahlzeiten aus eigener Produktion, Sciacchetrà-Weinverkostungen und die friedvolle Ruhe der ligurischen Landschaft fernab der Küstenhektik."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Explore Farm Stays",
-            "it": "Scopri Agriturismi"
-          },
-          "url": {
-            "en": "#agriturismi",
-            "it": "#agriturismi"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Esperienze"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#esperienze"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Above the<br/>Village",
+      "subtitle": "The terraces that cascade above Riomaggiore are not just scenery—they're working agricultural land, maintained by families whose ancestors built the stone walls a thousand years ago. An agriturismo stay puts you inside that living history.",
+      "badge": "Farm Stays",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Understanding Agriturismo",
+      "quote": "An agriturismo is not a rural hotel. It's a working farm that welcomes guests—a place where the food on your table came from the fields outside your window, often harvested that morning.",
+      "content": [
+        "**The word means something specific**. Italian law defines agriturismo: a registered agricultural operation that derives primary income from farming, not tourism. The hospitality supports the farm, not the other way around.",
+        "**Location means separation**. Agriturismi sit above and away from the village—10-20 minutes by car or trail. What you gain in agricultural immersion and quiet, you trade in convenience. This is intentional.",
+        "**Food is the center**. Breakfast and dinner feature what the farm produces: vegetables from terraced gardens, olive oil from ancient trees, wine from grapes grown on slopes that catch the Mediterranean sun. The meal is the experience.",
+        "**The experience is participatory**. Many farms invite guests into daily work—harvesting, pressing, maintaining walls. This isn't performance. It's how these properties have operated for generations."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Rural Stays",
-        "it": "Esperienze Autentiche",
-        "de": "Authentische Landerfahrung"
-      },
-      "title": {
-        "en": "Agriturismo Experience",
-        "it": "Cosa Offrono gli Agriturismi",
-        "de": "Das Agriturismo-Erlebnis in Riomaggiore"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
         {
-          "icon": "grape",
-          "title": {
-            "en": "Vineyard Locations",
-            "it": "Camere Rurali"
-          },
-          "description": {
-            "en": "Stay among Sciacchetrà vineyards with panoramic views over terraces and the sea",
-            "it": "Alloggio in casali ristrutturati tra vigneti e uliveti. Vista panoramica su mare e montagna. Colazione con prodotti dell'azienda."
-          }
+          "id": 1,
+          "name": "The Terrace System",
+          "category": "Agricultural Heritage",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The stone walls that make Cinque Terre agriculture possible—an engineering feat that predates most European nations.",
+          "description": "The terraces above Riomaggiore represent over a millennium of human labor—dry-stone walls built without mortar, creating flat surfaces on vertical cliffs. UNESCO protects this landscape as cultural heritage. From an agriturismo, you understand its scale in ways the village views cannot reveal.",
+          "giuliaComment": "My family maintains 200 meters of terrace wall. It's constant work—every storm damages something. Staying at an agriturismo means staying with people who do this work, not just looking at its results.",
+          "signature": "Where human stubbornness becomes landscape"
         },
         {
-          "icon": "utensils",
-          "title": {
-            "en": "Farm-to-Table Dining",
-            "it": "Degustazioni Vino"
-          },
-          "description": {
-            "en": "Enjoy home-cooked Ligurian meals made with produce from the property's gardens",
-            "it": "Assaggia Sciacchetrà, Cinque Terre DOC, Vermentino. Visita in cantina, spiegazione della produzione eroica in terrazza."
-          }
+          "id": 2,
+          "name": "Harvest Participation",
+          "category": "Seasonal Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the grapes and olives come in—and guests become part of the work.",
+          "description": "Autumn brings the grape harvest (vendemmia), when entire families work the terraces from dawn to dusk. Many agriturismi welcome guests into this labor—carrying baskets, cutting grapes, participating in the transformation from fruit to wine. It's physical work that connects you to centuries of tradition.",
+          "giuliaComment": "The vendemmia is not tourism. It's work. Guests who participate understand this—they come away tired, proud, and with a relationship to the wine they'll drink differently than any tasting could provide.",
+          "signature": "Where visitors become workers"
         },
         {
-          "icon": "mountain",
-          "title": {
-            "en": "Peaceful Setting",
-            "it": "Olio Extravergine"
-          },
-          "description": {
-            "en": "Escape crowds while staying close to villages - best of both worlds",
-            "it": "Olio DOP Riviera Ligure prodotto in loco. Degustazioni guidate, visita all'oliveto, vendita diretta."
-          }
-        },
-        {
-          "icon": "sunrise",
-          "title": {
-            "en": "Spectacular Views",
-            "it": "Cucina Tradizionale"
-          },
-          "description": {
-            "en": "Wake up to sunrise over the Mediterranean and terraced hillsides",
-            "it": "Pranzi e cene con prodotti km 0: verdure dell'orto, uova fresche, formaggi locali, salumi artigianali."
-          }
-        },
-        {
-          "icon": "hiking-boot",
-          "title": {
-            "en": "Trail Access",
-            "it": "Tour nei Vigneti"
-          },
-          "description": {
-            "en": "Direct access to hiking paths connecting villages and sanctuaries",
-            "it": "Passeggia tra i terrazzamenti patrimonio UNESCO. Scopri la viticoltura eroica su pendenze impossibili."
-          }
-        },
-        {
-          "icon": "leaf",
-          "title": {
-            "en": "Organic Products",
-            "it": "Relax nella Natura"
-          },
-          "description": {
-            "en": "Many offer olive oil, wine, and produce made on-site for purchase",
-            "it": "Lontano dalla folla turistica, immerso nel verde. Piscine panoramiche, giardini, silenzio e tranquillità."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Compare Accommodation Options",
-        "it": "Agriturismi in Numeri",
-        "de": "Warum Agriturismi die beste Wahl für anspruchsvolle Reisende sind"
-      },
-      "description": {
-        "en": "Explore village hotels and apartments if you prefer staying in the center of Riomaggiore."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Village Hotels"
-          },
-          "url": {
-            "en": "/en/riomaggiore/hotels"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Apartments"
-          },
-          "url": {
-            "en": "/en/riomaggiore/apartments"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Farm Table Dining",
+          "category": "Culinary Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the distance from field to table is measured in meters, not miles.",
+          "description": "Dinner at an agriturismo features what the farm produces: tomatoes that were on the vine that morning, herbs cut minutes before serving, olive oil pressed from trees you can see through the dining room window. The wine is from grapes grown on the property. The menu reflects the season, not the market.",
+          "giuliaComment": "Restaurant food is prepared. Agriturismo food is grown. The difference sounds subtle until you taste it—the immediacy, the freshness, the connection between place and plate that no restaurant can replicate.",
+          "signature": "Where the menu is written by the land"
         }
       ],
-      "subtitle": {
-        "de": "Authentizität trifft auf Qualität in den Weinbergen von Riomaggiore"
-      },
-      "content": {
-        "de": "## Die wahre Essenz der Cinque Terre\n\nWährend Tausende von Besuchern täglich durch die engen Gassen von Via Colombo strömen, bieten die Agriturismi oberhalb von Riomaggiore eine völlig andere Perspektive auf diese UNESCO-Welterberegion. Hier, wo die terrassierten Weinberge des berühmten Sciacchetrà gedeihen, erleben Sie Ligurien, wie es seit Jahrhunderten existiert.\n\n## Exzellente Lage und Erreichbarkeit\n\nDie meisten Agriturismi sind binnen 15-20 Minuten zu Fuß vom Bahnhof Riomaggiore erreichbar. Der Aufstieg durch die Weinberge belohnt Sie mit spektakulären Ausblicken auf die Marina von Riomaggiore und das gesamte Küstenpanorama. Viele Betriebe bieten einen Abholservice für Gäste mit Gepäck an.\n\n## Kulinarische Exzellenz\n\nIm Gegensatz zu den oft überteuerten Restaurants im Dorfzentrum servieren Agriturismi Mahlzeiten aus eigener Produktion zu fairen Preisen (Abendmenü typischerweise 35-45 EUR). Das Olivenöl DOP wird vor Ort gepresst, das Pesto aus eigenem Basilikum zubereitet, und der Sciacchetrà-Wein stammt aus den umgebenden Terrassen.\n\n## Nachhaltigkeit und Authentizität\n\nFür umweltbewusste deutsche Reisende bieten Agriturismi die perfekte Balance zwischen Komfort und nachhaltiger Landwirtschaft. Viele Betriebe sind biologisch zertifiziert und praktizieren traditionelle Anbaumethoden, die die steilen Terrassen seit dem 11. Jahrhundert prägen."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Sciacchetrà Story",
+          "quote": "The dessert wine of Cinque Terre—Sciacchetrà—comes from grapes left to dry for months after harvest, concentrating their sweetness. Most agriturismi produce small quantities. Tasting it at the farm where it was made, from the barrels where it aged, is different from any bottle you'll buy elsewhere."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Realities",
+      "quote": "Agriturismo stays require adjustment—you're not in the village, transportation is necessary, and the rhythm is agricultural, not tourist. For those who adapt, the rewards are substantial.",
+      "content": [
+        "**Transportation is required**. Most farms are 10-20 minutes from Riomaggiore by car. Some offer pickup services; others require you to drive. Public transit options are limited. Plan accordingly.",
+        "**Reservations are essential**. Agriturismi are small—often just a few rooms. The best ones book months ahead, especially during harvest season. Plan early or accept whatever remains available.",
+        "**Language barriers exist**. Many farm families speak limited English. Patience, gestures, and translation apps help. But the communication through food requires no translation.",
+        "**Amenities are simple**. These are farms, not hotels. Rooms are comfortable but not luxurious. WiFi may be unreliable. Air conditioning isn't guaranteed. The trade-off is authenticity."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
+        {
+          "id": 4,
+          "name": "Spring at the Farm",
+          "category": "Seasonal Guide",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the terraces wake up—wildflowers, new growth, and the promise of summer.",
+          "description": "Spring brings wildflowers to the terraces, new vegetables to the gardens, and perfect weather for exploring the trails that connect farms. It's the season of preparation—pruning, planting, repairing winter damage. Guests can often participate.",
+          "giuliaComment": "I love spring in the hills. The air smells of growth. The colors change daily. And the farms are busy with hopeful work, preparing for what the summer will bring.",
+          "signature": "When everything begins"
+        },
+        {
+          "id": 5,
+          "name": "Autumn Harvest",
+          "category": "Peak Season",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The reason the terraces exist—grape and olive harvest, when the year's work becomes the year's wine.",
+          "description": "September through November is when Cinque Terre agriculture peaks. Grapes come in for wine and Sciacchetrà. Olives are pressed for oil. The farms work long hours, and guests who participate gain understanding that no tour can provide.",
+          "giuliaComment": "If you can visit during vendemmia, do it. The energy is different—focused, communal, exhausting in the best way. And the meals after a day's harvest, with wine from the previous year's work, are unforgettable.",
+          "signature": "When work becomes celebration"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "Finding Authentic Agriturismi",
+          "quote": "Not everything called 'agriturismo' is genuine. Look for properties with active agricultural operations—vineyards being worked, olive groves being harvested, vegetable gardens supplying the kitchen. Ask about farm activities when booking. The real ones are proud to explain what they grow."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Above and Beyond",
+      "content": [
+        "An agriturismo stay isn't for everyone. It requires transportation, adjustment, and acceptance that convenience yields to authenticity.",
+        "But for those who want to understand Cinque Terre—not just photograph it—the farms above Riomaggiore offer something the village cannot: the living heritage that created this landscape, still being practiced by families who've been here for centuries.",
+        "Come hungry. Come curious. Leave understanding why the terraces matter."
+      ],
+      "buttons": [
+        { "text": "Village Hotels", "url": "/en/riomaggiore/hotels", "variant": "primary" },
+        { "text": "The Culinary Story", "url": "/en/culinary", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "agriturismi"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.844Z"
+  "updated_at": "2026-01-05T18:00:00.000Z"
 }

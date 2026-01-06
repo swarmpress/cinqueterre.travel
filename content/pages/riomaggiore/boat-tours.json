@@ -7,199 +7,157 @@
     "it": "/it/riomaggiore/boat-tours"
   },
   "title": {
-    "en": "Boat Tours from Riomaggiore",
-    "de": "Bootstouren",
-    "fr": "Excursions en Bateau",
-    "it": "Gite in Barca"
+    "en": "Boat Tours from Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "boat-tours",
   "seo": {
     "title": {
-      "en": "Riomaggiore Boat Tours 2025 | Cinque Terre by Sea"
+      "en": "Boat Tours from Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Explore Cinque Terre by boat from Riomaggiore. Scenic tours, sunset cruises, private charters, and ferry service connecting all five villages."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore boat tours",
-        "cinque terre by sea",
-        "boat trips",
-        "ferry service",
-        "coastal tours"
-      ]
+      "en": "The Cinque Terre were meant to be seen from the water. The villages that look dramatic from land become impossible from the sea—cliffs that shouldn't hold buildings, colors that shouldn't exist in nature."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Esperienza in Mare",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Explore Cinque Terre by Sea",
-        "it": "Tour in Barca da Riomaggiore",
-        "de": "Cinque Terre vom Meer aus entdecken"
-      },
-      "subtitle": {
-        "en": "Experience the dramatic coastline from the water. Boat tours, sunset cruises, and ferry connections reveal the villages from their most spectacular angle.",
-        "it": "Ammira i 5 villaggi dalla prospettiva più spettacolare: il mare. Case colorate che emergono dalle scogliere, grotte nascoste, calette segrete e tramonti indimenticabili.",
-        "de": "Ich verspreche Ihnen: Die dramatische Küstenlinie vom Wasser aus zu erleben, verändert alles. Bootstouren, Sonnenuntergangsfahrten und Fährverbindungen zeigen die Dörfer aus ihrer spektakulärsten Perspektive – perfekt für unvergessliche Aufnahmen."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Boat Tours",
-            "it": "Prenota Tour"
-          },
-          "url": {
-            "en": "#tours",
-            "it": "#tour"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Tipi di Tour"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#tipologie"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The View<br/>From the Water",
+      "subtitle": "Greek refugees saw these cliffs from the sea before they landed here. Fishermen have navigated these waters for eight centuries. A boat tour is not tourism—it's the original perspective on Cinque Terre.",
+      "badge": "Boat Tours",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Sea Perspective",
+      "quote": "From land, the villages look charming. From sea, they look impossible. The scale of human ambition becomes clear when you see the cliffs those first settlers chose to build on.",
+      "content": [
+        "The **coastline reveals itself differently** from the water. Hidden coves invisible from hiking trails, sea caves that only appear at certain tides, the way the villages stack up the hillside like they're climbing to escape the waves.",
+        "**Swimming access transforms**. Beaches reachable only by boat, rocky platforms where the crowds never arrive, water so clear you can see the bottom ten meters down. The Mediterranean from a boat is a different sea than the Mediterranean from shore.",
+        "**The distances change**. What takes an hour of hiking covers in fifteen minutes of sailing. The relationship between villages—which ones cluster, which ones stand apart—becomes visible in ways the land obscures.",
+        "**The history makes sense**. When you see these cliffs from below, you understand why settlers chose them: defensive positions visible only to those approaching by sea, harbors hidden until you're almost upon them."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "By Sea",
-        "it": "Tipologie di Tour",
-        "de": "Vom Meer aus"
-      },
-      "title": {
-        "en": "Boat Tour Options",
-        "it": "Esperienze in Barca",
-        "de": "Bootstour-Optionen für jeden Geschmack"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "tour",
+      "items": [
         {
-          "icon": "ferry",
-          "title": {
-            "en": "Ferry Service",
-            "it": "Tour dei 5 Villaggi"
-          },
-          "description": {
-            "en": "Hop-on hop-off ferry connecting all five villages, easiest way to see them all in one day",
-            "it": "Giro completo costiero con soste per nuotare. 3-4 ore, guida inclusa, partenza da Monterosso o La Spezia."
-          }
+          "id": 1,
+          "name": "Coastline Discovery",
+          "category": "Classic Tour",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The essential tour—all five villages from the water, with swimming stops at beaches only boats can reach.",
+          "description": "A 2.5-hour journey along the entire UNESCO coastline. You'll pass each village, understanding their geography in ways hiking cannot reveal. Swimming stops at hidden coves break up the journey. Prosecco and local commentary included.",
+          "giuliaComment": "This is the tour I recommend to first-time visitors. Even after years here, I'm still moved by seeing the villages from the water. The scale becomes real.",
+          "signature": "The perspective that changes everything",
+          "practicalInfo": "Daily departures 9:30am and 2:30pm. Book 24 hours ahead in summer. Bring swimwear, towel, sunscreen."
         },
         {
-          "icon": "sunset",
-          "title": {
-            "en": "Sunset Cruises",
-            "it": "Tour al Tramonto"
-          },
-          "description": {
-            "en": "Evening tours along the coast with aperitivo, watching the villages glow in golden light",
-            "it": "Esperienza romantica con aperitivo a bordo. Vista spettacolare sui villaggi illuminati dal sole al calar del giorno."
-          }
+          "id": 2,
+          "name": "Sunset Aperitivo",
+          "category": "Evening Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the light turns golden and the villages glow against the darkening sky.",
+          "description": "A 2-hour evening cruise as the sun drops toward the horizon. Local wines and traditional antipasti accompany the transition from day to night. Watch the villages light up one by one as darkness approaches.",
+          "giuliaComment": "The sunset from the water is incomparable. The way the light hits the facades, the colors deepening as the sky changes—this is romance that doesn't need a special occasion.",
+          "signature": "When golden hour becomes magic hour",
+          "practicalInfo": "Departure time varies with season (around 6pm). Book couples seating for romance. Bring a light layer—evenings cool on the water."
         },
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Private Charters",
-            "it": "Snorkeling e Grotte"
-          },
-          "description": {
-            "en": "Rent a boat with captain for customized tours, swimming stops, and hidden coves",
-            "it": "Esplorazione dell'area marina protetta con attrezzatura inclusa. Visita a grotte e calette nascoste."
-          }
-        },
-        {
-          "icon": "camera",
-          "title": {
-            "en": "Photography Tours",
-            "it": "Barca a Vela"
-          },
-          "description": {
-            "en": "Best perspective to photograph the colorful villages cascading down cliffsides",
-            "it": "Tour in barca a vela tradizionale. Esperienza più autentica e sostenibile, gruppi piccoli."
-          }
-        },
-        {
-          "icon": "swimmer",
-          "title": {
-            "en": "Swimming Stops",
-            "it": "Tour Privati"
-          },
-          "description": {
-            "en": "Many tours include stops at secluded beaches and snorkeling spots along the coast",
-            "it": "Barca riservata per te e il tuo gruppo. Itinerario personalizzato, massima flessibilità."
-          }
-        },
-        {
-          "icon": "wine-glass",
-          "title": {
-            "en": "Wine Tasting Cruises",
-            "it": "Tour con Degustazione"
-          },
-          "description": {
-            "en": "Sample local Sciacchetrà and Cinque Terre wines while cruising the coastline",
-            "it": "Combinazione mare e enogastronomia. Include degustazione di vini locali e prodotti tipici."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More Ways to Explore",
-        "it": "Dettagli e Prezzi",
-        "de": "Meine persönlichen Bootstour-Empfehlungen"
-      },
-      "description": {
-        "en": "Combine boat tours with hiking for the complete Cinque Terre experience."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Hiking Trails"
-          },
-          "url": {
-            "en": "/en/riomaggiore/hiking"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Private Charter",
+          "category": "Exclusive Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Your own skipper, your own schedule, your own version of Cinque Terre from the sea.",
+          "description": "Half-day or full-day charters with a captain who knows every hidden inlet, every secret beach, every story these waters hold. Customize your itinerary—swimming focus, photography focus, village hopping, or pure exploration.",
+          "giuliaComment": "For special occasions or small groups, the private charter is worth the cost. The skipper becomes your guide, your local expert, your host on the water.",
+          "signature": "The sea on your terms",
+          "practicalInfo": "Half-day from €400, full-day from €700. Includes equipment, drinks, snacks. Book well ahead for summer weekends."
         }
       ],
-      "subtitle": {
-        "de": "Als Fotografin habe ich alle Anbieter getestet – hier sind meine Favoriten"
-      },
-      "content": {
-        "de": "Die **Marina von Riomaggiore** ist mein Startpunkt für die besten Aufnahmen. Von hier aus sehen Sie die bunten Häuser in perfektem Licht – besonders am frühen Morgen um 8:30 Uhr oder zur Golden Hour ab 18:00 Uhr.\n\n**Praktische Tipps für Ihre Buchung:**\n- Reservieren Sie mindestens 3-4 Tage im Voraus, besonders von Juni bis September\n- Preise: Kurze Touren ab 25€, Ganztagstouren 45-65€ pro Person\n- Die traditionellen Fischerboote bieten authentische Fotomotive – fragen Sie nach Stopps\n- Bei rauer See werden Touren abgesagt – haben Sie einen Plan B\n\n**Mein Geheimtipp:** Buchen Sie die erste Tour des Tages (meist 9:00 Uhr) für die besten Lichtverhältnisse und weniger Menschenmassen. Die Kapitäne kennen versteckte Fotospots, die in keinem Reiseführer stehen.\n\nFür Instagram-perfekte Aufnahmen empfehle ich die Route entlang des **Sentiero Azzurro** vom Wasser aus – die Küstenlinie wirkt noch dramatischer, wenn man sie von unten betrachtet."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Weather Factor",
+          "quote": "Boat tours depend on the Mediterranean's mood. Calm mornings can become choppy afternoons. Tours cancel for safety, not inconvenience. The flexible traveler books early but holds plans loosely. The sea has its own schedule."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Realities",
+      "quote": "A boat tour is not a passive experience. You'll feel the sun, the salt, the movement of the water. Prepare accordingly, and the hours become unforgettable.",
+      "content": [
+        "**Season matters**. Tours run April through October. July and August are busiest—book days ahead. May, June, and September offer the best combination of good weather and manageable crowds.",
+        "**Timing is everything**. Morning tours have calmer water and clearer visibility for swimming. Afternoon tours offer warmer water but can encounter chop. Evening tours trade swimming for atmosphere.",
+        "**Physical considerations**. Motion sickness is real—take precautions if you're susceptible. Boarding and disembarking require some agility. Sun exposure is intense—protect yourself seriously.",
+        "**Photography changes**. The best shots from boats require patience—the movement, the reflections, the changing angle. Waterproof your equipment. The photos you get will be unlike anything from land."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "specialty",
+      "items": [
+        {
+          "id": 4,
+          "name": "Traditional Fishing Experience",
+          "category": "Cultural Immersion",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Join local fishermen using methods unchanged for centuries—the real maritime heritage of Cinque Terre.",
+          "description": "Early morning departure with working fishermen. Learn net techniques, understand the species that inhabit these waters, and contribute to a catch that might end up in a restaurant that evening. Lunch features whatever the sea provides.",
+          "giuliaComment": "This is for people who want to understand the village, not just visit it. The fishermen who do these experiences are the real thing—families who've worked this water for generations.",
+          "signature": "Where tourism becomes participation",
+          "practicalInfo": "Early morning departures (5-6am). Full morning commitment. Not for the seasick. Book through harbor contacts, not tour agencies."
+        },
+        {
+          "id": 5,
+          "name": "Swimming & Snorkeling Focus",
+          "category": "Active Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The Mediterranean has more to see than its surface—and more swimming spots than the harbor offers.",
+          "description": "Three-hour tours focused on water access. Multiple stops at beaches and rock platforms only reachable by boat. Snorkeling equipment provided. The underwater world of Cinque Terre—sea life, rock formations, clarity that reveals hidden depths.",
+          "giuliaComment": "The swimming from boats is different from the harbor. Cleaner water, fewer people, spots where you might be the only swimmers all day. Bring confidence—there are no ladders at hidden beaches.",
+          "signature": "The Mediterranean you came for",
+          "practicalInfo": "3-hour duration. Multiple swimming stops. Snorkel equipment included. Confidence in water required."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Ferry Alternative",
+          "quote": "The regular ferry service between villages is not a tour, but it's also not nothing. For a fraction of the private boat cost, you can ride the water between villages, getting the sea perspective without the swimming stops. It's transportation that happens to be beautiful."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Sea Remembers",
+      "content": [
+        "Long after the hiking trails blur together and the restaurant meals fade from memory, the view of Cinque Terre from the water stays vivid. Something about the scale, the impossibility, the way the villages seem to cling to cliffs that shouldn't support them.",
+        "A boat tour is not a must-do item on a checklist. It's a different mode of understanding—the original perspective, the one that first settlers had, the one that fishermen still have every morning.",
+        "Take the time. Get on the water. See what the land hides."
+      ],
+      "buttons": [
+        { "text": "Swimming in Riomaggiore", "url": "/en/riomaggiore/beaches", "variant": "primary" },
+        { "text": "Plan Your Itinerary", "url": "/en/itinerary", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "boat-tours"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.845Z"
+  "updated_at": "2026-01-05T17:30:00.000Z"
 }

@@ -7,201 +7,157 @@
     "it": "/it/riomaggiore/beaches"
   },
   "title": {
-    "en": "Beaches in Riomaggiore",
-    "de": "Strände",
-    "fr": "Plages",
-    "it": "Spiagge"
+    "en": "Swimming in Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Riomaggiore Beaches 2025 | Swimming Spots & Rocky Coves"
+      "en": "Swimming in Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Riomaggiore's rocky beaches and swimming spots. From the harbor swimming area to hidden coves, find the best places for a Mediterranean dip."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore beaches",
-        "swimming riomaggiore",
-        "rocky beach",
-        "harbor swimming",
-        "cinque terre beaches"
-      ]
+      "en": "There are no beaches in Riomaggiore—only rocks, ladders, and the sea. This is how the locals have always swum, and it's how you'll swim too."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Mare e Spiagge",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Rocky Coves & Harbor Swimming",
-        "it": "Spiagge e Balneazione a Riomaggiore",
-        "de": "Felsenbuchten & Hafenschwimmen"
-      },
-      "subtitle": {
-        "en": "Dive into crystal-clear Mediterranean waters from rocky platforms and small coves. Authentic seaside experience without sandy beaches.",
-        "it": "Dalla sabbia dorata di Monterosso alle scogliere rocciose di Manarola, dalle calette nascoste alle piattaforme per tuffi. Acque cristalline in un'area marina protetta.",
-        "de": "Tauchen Sie ein in kristallklare Mittelmeergewässer von Felsplattformen und kleinen Buchten. Authentisches Stranderlebnis ohne Sandstrände - pure ligurische Küstenerfahrung."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "Where Rocks<br/>Meet Sea",
+      "subtitle": "Riomaggiore has no sand. What it has is something better: cliffs that drop directly into crystal water, and a swimming culture built on bravery, timing, and respect for the Mediterranean.",
+      "badge": "Swimming Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Rock Swimming Culture",
+      "quote": "Tourists want beaches. Locals know that the best swimming happens where the land gives way suddenly—where you climb down a metal ladder, push off warm stone, and enter water so clear you can count fish on the bottom.",
+      "content": [
+        "There is no gentle entry into the sea at Riomaggiore. The **geology is dramatic**: cliffs that rise vertically from the water, carved into shapes that create natural platforms, deep pools, and diving spots known only to those who grew up here.",
+        "The **harbor area** is the easiest access point—rocky ledges at water level, metal ladders, and water deep enough that you can jump from several heights. This is where families swim, where children learn, where the village gathers on hot summer evenings.",
+        "Beyond the harbor, **hidden coves** reward those willing to scramble over rocks. These spots are quieter, the water even clearer, but they demand sure footing and awareness of tides and currents.",
+        "Swimming here is not passive. It's an **engagement with the landscape**—climbing, diving, floating, then hauling yourself back onto sun-warmed stone to dry. It's physical, immediate, and unforgettable."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "beach",
+      "items": [
         {
-          "text": {
-            "en": "Explore Swimming Spots",
-            "it": "Spiagge Principali"
-          },
-          "url": {
-            "en": "#beaches",
-            "it": "#spiagge"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "The Marina Swimming Area",
+          "category": "Main Swimming Spot",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the village meets the water—accessible, social, and alive with summer energy.",
+          "description": "The rocks around Riomaggiore's small harbor form the village's natural swimming pool. Flat ledges serve as sunbathing spots, metal ladders provide easy water access, and the protected cove offers calmer conditions than the open coast. In summer, this is the village's beach club—without the chairs or the fees.",
+          "giuliaComment": "I've been swimming here since I could walk. The water changes color through the day—green in morning, blue at noon, gold at sunset. Each hour is different.",
+          "signature": "Where every local learned to swim",
+          "practicalInfo": "5-minute walk from station. Free access. Bring water shoes for rocky surfaces."
         },
         {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Consigli Balneazione"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#info"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "The Diving Rocks",
+          "category": "Cliff Jumping",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "For those who prefer their swimming with a rush of adrenaline.",
+          "description": "Beyond the main harbor, rocky platforms rise to various heights—3 meters, 5 meters, up to 15 meters for the brave. These are the village's unofficial diving boards, used by generations of local teenagers and now by visitors seeking the thrill of a Mediterranean cliff jump.",
+          "giuliaComment": "I won't pretend I don't still jump. But I always check depth first, always watch others, and never dive after wine at lunch. The rocks don't care about your confidence.",
+          "signature": "Where courage meets physics",
+          "practicalInfo": "Only for confident swimmers. Check depth before jumping. Never dive head-first. Always have a spotter."
+        },
+        {
+          "id": 3,
+          "name": "The Hidden Coves",
+          "category": "Secluded Swimming",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1502920514313-52581002a659?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Past the harbor, where the coastline breaks into intimate swimming spots known mostly to locals.",
+          "description": "Following the rocky shore beyond the marina, you'll find smaller coves—some accessible by scrambling over boulders, others by swimming around headlands. These spots are quieter, the water often clearer, but they require more effort and more caution.",
+          "giuliaComment": "I won't give coordinates. Part of finding these places is the search. Ask a local teenager—they know where the best spots are. Be prepared for directions given in landmarks and hand gestures.",
+          "signature": "Earned solitude",
+          "practicalInfo": "Requires scrambling and confidence. Check tides and conditions. Tell someone where you're going."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Rules of Rock Swimming",
+          "quote": "There are no lifeguards in Riomaggiore. No flags, no warnings, no rescues waiting. The sea is beautiful and indifferent. Know your limits, watch the conditions, and remember: the rocks were here long before you and will remain long after."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Swimming Areas",
-        "it": "Dove Fare il Bagno"
-      },
-      "title": {
-        "en": "Where to Swim in Riomaggiore",
-        "it": "Le Spiagge dei 5 Villaggi",
-        "de": "Wo Cinque Terre sein authentisches Gesicht zeigt"
-      },
-      "features": [
-        {
-          "icon": "anchor",
-          "title": {
-            "en": "Harbor Swimming Area",
-            "it": "Monterosso - Fegina"
-          },
-          "description": {
-            "en": "Small rocky beach and swimming platforms next to the marina, easy access with local atmosphere",
-            "it": "L'unica vera spiaggia di sabbia delle Cinque Terre. Ampia, attrezzata con stabilimenti balneari, ideale per famiglie."
-          }
-        },
-        {
-          "icon": "waves",
-          "title": {
-            "en": "Rocky Platforms",
-            "it": "Vernazza - Porto"
-          },
-          "description": {
-            "en": "Flat rocks perfect for sunbathing and diving into deep, clear Mediterranean waters",
-            "it": "Piccola spiaggia di ciottoli nel cuore del borgo. Scenografica ma affollata. Tuffi dalla piazzetta sul mare."
-          }
-        },
-        {
-          "icon": "mountain",
-          "title": {
-            "en": "Hidden Coves",
-            "it": "Corniglia - Spiaggione"
-          },
-          "description": {
-            "en": "Small secluded spots accessible via short walks or scrambles along the rocky coastline",
-            "it": "Spiaggia di ciottoli e scogli raggiungibile via scalinata o sentiero. Più tranquilla, meno turistica, acqua cristallina."
-          }
-        },
-        {
-          "icon": "umbrella-beach",
-          "title": {
-            "en": "Locals' Favorite Spots",
-            "it": "Manarola - Scogliere"
-          },
-          "description": {
-            "en": "Ask locals for secret swimming holes away from the main harbor area",
-            "it": "Piattaforme rocciose piatte ideali per prendere il sole e tuffarsi. Non c'è sabbia ma l'atmosfera è magica."
-          }
-        },
-        {
-          "icon": "sun",
-          "title": {
-            "en": "Afternoon Sun",
-            "it": "Riomaggiore - Marina"
-          },
-          "description": {
-            "en": "Best swimming in afternoon when sun illuminates the harbor and water is warmest",
-            "it": "Piccola area balneare roccioso al porto. Perfetta per snorkeling tra gli scogli. Escalini in cemento per l'accesso."
-          }
-        },
-        {
-          "icon": "fish",
-          "title": {
-            "en": "Snorkeling",
-            "it": "Calette Nascoste"
-          },
-          "description": {
-            "en": "Bring a mask to observe Mediterranean fish and marine life in the clear rocky waters",
-            "it": "Piccole baie raggiungibili solo via mare o sentieri impervi. Per gli avventurosi che cercano privacy totale."
-          }
-        }
-      ],
-      "subtitle": {
-        "de": "Vergessen Sie Sandburgen und Liegestühle - Riomaggiore bietet etwas viel Wertvolleres"
-      },
-      "content": {
-        "de": "Als ich das erste Mal die steilen Treppen zur **Marina von Riomaggiore** hinabstieg, verstand ich sofort: Hier geht es nicht um klassisches Strandvergnügen. Die bunten Häuser türmen sich wie Wächter über dem smaragdgrünen Wasser, während traditionelle Fischerboote sanft im geschützten Hafen schaukeln.\n\nNach drei Sommern in Vernazza kann ich Ihnen versichern: Die schönsten Schwimmerlebnisse in Cinque Terre finden Sie nicht auf überfüllten Sandstränden, sondern in den ursprünglichen Felsenbuchten Riomaggiorres. Hier schwimmen Sie dort, wo seit Jahrhunderten ligurische Fischer ihre Netze auswarfen.\n\n**Praktischer Tipp:** Die beste Zeit zum Schwimmen ist zwischen 10:00 und 16:00 Uhr, wenn das Wasser am wärmsten ist. Bringen Sie unbedingt Badeschuhe mit - die Felsen können rutschig sein."
-      }
+      "type": "editorial-intro",
+      "badge": "Practical Wisdom",
+      "quote": "Swimming in Riomaggiore is not a beach vacation. It's a practice—one that rewards preparation, timing, and respect for an environment that offers no margins for error.",
+      "content": [
+        "**Timing is everything**. Early morning offers calm water and empty rocks. By 10am in summer, the main areas are crowded. Late afternoon brings golden light and warm water. Avoid midday—the sun reflects off stone and sea with punishing intensity.",
+        "**Water shoes are not optional**. The rocks are sharp in places, slippery in others. Even experienced locals wear protection. Bring shoes that can get wet and that stay secure when climbing.",
+        "**The sea temperature varies**. Surface water reaches 22-24°C in summer, but deeper water is colder. Thermoclines exist. Enter gradually if sensitive to cold.",
+        "**Watch the weather**. Mediterranean conditions change fast. A calm morning can become a rough afternoon. If the locals aren't swimming, neither should you."
+      ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More Water Activities",
-        "it": "Balneazione nelle Cinque Terre",
-        "de": "Die besten Badeplätze in Riomaggiore"
-      },
-      "description": {
-        "en": "Explore the coastline from a different perspective with boat tours and excursions."
-      },
-      "buttons": [
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
         {
-          "text": {
-            "en": "Boat Tours"
-          },
-          "url": {
-            "en": "/en/riomaggiore/boat-tours"
-          },
-          "variant": "primary"
+          "id": 4,
+          "name": "Snorkeling Paradise",
+          "category": "Underwater Exploration",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Bring a mask—the water clarity reveals a hidden world on the rocky bottom.",
+          "description": "The absence of sand means excellent visibility. The rocky bottom hosts sea urchins, small fish, and underwater gardens of algae and anemones. Snorkeling here is less about exotic species and more about clarity—seeing the Mediterranean as it actually exists.",
+          "giuliaComment": "I keep a mask in my bag all summer. Even five minutes underwater changes your perspective. The village looks different when you've seen what's beneath it.",
+          "signature": "Where clarity reveals hidden life",
+          "practicalInfo": "Bring your own equipment. No rental in village. Best visibility in morning before wind picks up."
         },
         {
-          "text": {
-            "en": "Things to Do"
-          },
-          "url": {
-            "en": "/en/riomaggiore/things-to-do"
-          },
-          "variant": "secondary"
+          "id": 5,
+          "name": "Post-Swim Ritual",
+          "category": "Village Tradition",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The swim is only half the experience. What follows matters too.",
+          "description": "After swimming, the village offers cold showers near the marina, then aperitivo at the harbor bars as the sun drops toward the horizon. This transition—from salt water to cold rinse to chilled wine—is as much a part of summer swimming as the swim itself.",
+          "giuliaComment": "Drying on warm rocks, then walking damp through the village to a bar, then watching the light change while your hair dries—this is my favorite hour of any summer day.",
+          "signature": "From salt to sunset to Spritz",
+          "practicalInfo": "Public rinse showers near marina. Multiple bars with harbor views. No dress code—everyone's coming from the water."
         }
       ],
-      "eyebrow": {
-        "de": "Schwimmplätze"
-      }
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "Respect the Fishermen",
+          "quote": "The harbor belongs to the fishing boats first. Early morning is for work, not tourism. Stay clear of moored boats, don't block ramps, and remember that someone's livelihood depends on the same water you're using for leisure."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Sea Will Teach You",
+      "content": [
+        "Swimming in Riomaggiore is not comfortable. It's not convenient. It doesn't meet you halfway.",
+        "But it's honest. The sea here hasn't been packaged or softened. It remains what it has always been—clear, cold, beautiful, and completely indifferent to your expectations.",
+        "Enter with humility. Leave transformed."
+      ],
+      "buttons": [
+        { "text": "Plan Your Itinerary", "url": "/en/itinerary", "variant": "primary" },
+        { "text": "Hiking Trails", "url": "/en/riomaggiore/hiking", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "beaches"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.845Z"
+  "updated_at": "2026-01-05T16:30:00.000Z"
 }

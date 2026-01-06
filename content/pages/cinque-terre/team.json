@@ -1,0 +1,101 @@
+{
+  "id": "team-page-01",
+  "slug": {
+    "en": "/en/team",
+    "de": "/de/team",
+    "fr": "/fr/equipe",
+    "it": "/it/team"
+  },
+  "title": {
+    "en": "The Editors | Cinque Terre Dispatch",
+    "de": "Die Redakteure | Cinque Terre Dispatch",
+    "fr": "Les Rédacteurs | Cinque Terre Dispatch",
+    "it": "I Redattori | Cinque Terre Dispatch"
+  },
+  "page_type": "team",
+  "seo": {
+    "title": {
+      "en": "Meet Our Team | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "Meet the voices behind Cinque Terre Dispatch. Not anonymous authors, but attentive guides sharing a lived experience of the coast."
+    }
+  },
+  "template": "cinque-terre",
+  "body": [
+    {
+      "type": "editorial-hero",
+      "title": "The Voices of<br/>the Dispatch",
+      "subtitle": "Not anonymous authors, but attentive guides sharing a lived experience of the coast.",
+      "badge": "The People Behind the Perspective",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1600",
+      "height": "70vh"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Human Perspective",
+      "quote": "Cinque Terre deserves to be shown by people who listen more than they promote. Every recommendation on this site is filtered through human perspective.",
+      "leftContent": "<p>We are not experts claiming authority, but attentive guides offering context. We believe that what you read should be shaped by lived experience, attention, and care.</p>",
+      "rightContent": "<p>Our team brings decades of combined experience exploring and documenting this extraordinary coastline, each with their own unique relationship to the five villages.</p>"
+    },
+    {
+      "type": "team-grid",
+      "editors": [
+        {
+          "name": "Giulia Rossi",
+          "role": "Riomaggiore Expert",
+          "bio": "Born in the shadow of the church of San Giovanni Battista, Giulia has watched Riomaggiore evolve from a quiet fishing village to an international destination. Her perspective is rooted in a lifetime of mornings spent on the harbor wall, watching the light change across the water. She writes to preserve what words can hold of a place that is always shifting.",
+          "image": "/giulia_rossi.png",
+          "persona": "Prefers to walk the upper streets at dawn, before the first train arrives. Carries a small notebook for observations. Knows every shortcut and secret path.",
+          "love": "The way the church bells echo off the cliffs at noon. The smell of the harbor after a storm. The quiet conversations of the elderly at Bar Centrale.",
+          "hobbies": ["Morning swims", "Traditional cooking", "Oral history collection", "Vineyard walks"],
+          "accent": "border-primary/20"
+        },
+        {
+          "name": "Marco Bianchi",
+          "role": "Adventure & Trails Editor",
+          "bio": "Marco arrived in Cinque Terre twenty years ago as a hiking guide and never left. He has walked every trail countless times, in every season and weather. His writing focuses on the physical experience of the landscape—the way the body learns a place through effort and movement.",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+          "persona": "Always on the move, rarely sits still. Speaks with his hands, points at things in the distance. Has a scar on his left knee from a trail incident in 2008.",
+          "love": "The view from the top of the Beccara trail. The taste of water from the mountain spring above Corniglia. The first light on Vernazza from the path to Monterosso.",
+          "hobbies": ["Trail maintenance", "Rock climbing", "Photography", "Wild swimming"],
+          "accent": "border-amber-500/20"
+        },
+        {
+          "name": "Elena Moretti",
+          "role": "Culinary & Wine Editor",
+          "bio": "Elena's family has been making Sciacchetrà wine in Manarola for five generations. She left to study hospitality in Milan, then returned to help preserve and share the food traditions that define this coast. Her writing is sensory and precise, focused on the connection between what we eat and where it comes from.",
+          "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800",
+          "persona": "Greets everyone she knows in the street (which is everyone). Always carries something edible in her bag. Has strong opinions about pesto.",
+          "love": "The harvest season, when the whole village smells of grapes. Sunday lunch at her grandmother's table. The sound of corks being pulled at aperitivo hour.",
+          "hobbies": ["Winemaking", "Recipe preservation", "Foraging", "Fermenting"],
+          "accent": "border-rose-500/20"
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "badge": "Our Commitment",
+      "title": "Attentive Guides, Not Experts",
+      "content": "<p>We do not claim to know everything about Cinque Terre. We simply pay attention, and we share what we notice.</p><p>Our commitment is to honesty, to care, and to the ongoing relationship between these villages and the people who visit them. We hope you find something useful in our observations.</p>",
+      "actions": [
+        {
+          "label": "Start Exploring",
+          "href": "/",
+          "variant": "primary"
+        },
+        {
+          "label": "Contact Us",
+          "href": "/contact",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "page_type": "team"
+  },
+  "status": "generated",
+  "created_at": "2025-01-05T00:00:00.000Z",
+  "updated_at": "2025-01-05T00:00:00.000Z"
+}

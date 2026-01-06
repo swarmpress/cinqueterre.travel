@@ -7,195 +7,152 @@
     "it": "/it/manarola/blog"
   },
   "title": {
-    "en": "Manarola Travel Blog & Stories",
-    "de": "Blog",
-    "fr": "Blog",
-    "it": "Blog"
+    "en": "Stories from Manarola | Cinque Terre Dispatch"
   },
   "page_type": "blog",
   "seo": {
     "title": {
-      "en": "Manarola Blog 2025 | Travel Stories & Local Insights"
+      "en": "Stories from Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Read travel stories, tips, and local insights about Manarola. Photography guides, hidden gems, and authentic experiences."
-    },
-    "keywords": {
-      "en": [
-        "Manarola blog",
-        "travel stories",
-        "local tips",
-        "photography guide"
-      ]
+      "en": "The legends of Manarola are whispered in the cantinas and repeated at family dinners—stories that explain why the village is the way it is, passed down through generations who've lived here."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Storie e Racconti",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Travel Blog & Stories",
-        "it": "Blog di Viaggio - Manarola",
-        "de": "Reise-Blog & Geschichten"
-      },
-      "subtitle": {
-        "en": "Discover Manarola through stories from travelers and locals. Photography tips, hidden gems, and insider knowledge.",
-        "it": "Ispirazioni, itinerari dettagliati, consigli di viaggio, esperienze autentiche e segreti locali raccontati da chi vive e ama le Cinque Terre.",
-        "de": "Entdecken Sie Manarola durch meine persönlichen Erfahrungen als Fotografin. Hier teile ich Insider-Tipps für die perfekten Aufnahmen, versteckte Perspektiven und die besten Zeiten für außergewöhnliche Bilder."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Read Stories",
-            "it": "Leggi Articoli"
-          },
-          "url": {
-            "en": "#blog",
-            "it": "#blog"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Guide Pratiche"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#guide"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Stories<br/>They Tell",
+      "subtitle": "Every village has its legends—stories that explain why things are the way they are, that give meaning to places and traditions. Manarola's stories are whispered in cantinas, shared at family dinners, and passed between generations who've lived here for centuries.",
+      "badge": "Village Stories",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Oral Tradition",
+      "quote": "History books tell one story. The people who lived it tell another. In Manarola, the unofficial history—the legends, the explanations, the 'everyone knows' stories—often holds more truth than the archives.",
+      "content": [
+        "**The name itself is contested**. Some say 'Manarola' comes from 'Manium arula'—a small altar to ancestral spirits. Others say 'magna rota'—the great wheel of an ancient mill. Both explanations reveal what the village has always been: a place where the spiritual and practical intertwine.",
+        "**Stories explain customs**. Why do we celebrate this saint? Why does this family have those rights? Why is that path named what it's named? The answers aren't in documents—they're in stories told so often they've become fact.",
+        "**Memory creates community**. When everyone knows the same stories, everyone shares the same understanding. Newcomers become villagers when they learn not just the streets but the legends attached to them.",
+        "**Some truths are better than facts**. Whether the story is historically accurate matters less than what it teaches about how to live here."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Featured Articles",
-        "it": "Categorie del Blog",
-        "de": "Beliebte Artikel"
-      },
-      "title": {
-        "en": "Popular Stories",
-        "it": "Cosa Troverai",
-        "de": "Meine Empfehlungen für Manarola"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "story",
+      "items": [
         {
-          "icon": "camera",
-          "title": {
-            "en": "Photography Guide",
-            "it": "Itinerari Dettagliati"
-          },
-          "description": {
-            "en": "Best times, spots, and settings for capturing Manarola's iconic views.",
-            "it": "Percorsi giorno per giorno con mappe, tempistiche, consigli su dove mangiare e cosa vedere. Da 2 a 7 giorni."
-          }
+          "id": 1,
+          "name": "The Roman Soldiers' Choice",
+          "category": "Origin Legend",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Legend says Roman soldiers abandoned their campaigns to plant vines here—finding this coast more valuable than any conquest.",
+          "description": "The story goes that a Roman company, marching along this coast, was so struck by the landscape that they refused to continue. They settled, married local women, and began planting the vines that would define Manarola for millennia. Whether true or not, the story explains why Manarola exists: some places are too beautiful to leave.",
+          "giuliaComment": "My grandmother told me this story when I asked why we live on such a difficult coast. 'Because our ancestors knew what was valuable,' she said. 'They chose wine and sea over gold and conquest.' I still think about that.",
+          "signature": "When beauty becomes destiny"
         },
         {
-          "icon": "sunset",
-          "title": {
-            "en": "Perfect Sunset Evening",
-            "it": "Guide Fotografiche"
-          },
-          "description": {
-            "en": "How to plan the ultimate sunset experience from aperitivo to dinner.",
-            "it": "I migliori spot per foto, orari di luce ideale, composizioni, filtri. Porta a casa cartoline perfette."
-          }
+          "id": 2,
+          "name": "Mario and the Natività",
+          "category": "Living Legend",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The story of one retired railway worker whose Christmas lights have become world-famous—and what happens when he's gone.",
+          "description": "Mario Andreoli began placing illuminated figures on the terraces in 1961—one figure at first, then more each year. Now over 300 figures spread across the hillside, making the world's largest illuminated nativity. Mario, now in his eighties, still adds figures, still maintains the display. No one knows who will continue when he cannot.",
+          "giuliaComment": "Mario is a legend who's still alive, which is strange. Usually we tell stories about the dead. But his story asks a question we can't answer yet: can one person's obsession become a tradition? Will someone else take it on? Or will the lights go dark when he goes?",
+          "signature": "When one life becomes legacy"
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Wine Trail Experience",
-            "it": "Enogastronomia"
-          },
-          "description": {
-            "en": "Walking the vineyard terraces and tasting Sciacchetrà where it's made.",
-            "it": "Dove mangiare il miglior pesto, degustazioni vino, sagre, mercati locali, ricette tradizionali da provare."
-          }
-        },
-        {
-          "icon": "walk",
-          "title": {
-            "en": "Hidden Corners",
-            "it": "Guide ai Sentieri"
-          },
-          "description": {
-            "en": "Secret viewpoints and quiet spots away from the crowds.",
-            "it": "Descrizioni dettagliate di ogni percorso: difficoltà, durata, cosa portare, punti panoramici, alternative."
-          }
-        },
-        {
-          "icon": "food",
-          "title": {
-            "en": "Local Food Guide",
-            "it": "Segreti Locali"
-          },
-          "description": {
-            "en": "Must-try dishes and where to find authentic Ligurian cuisine.",
-            "it": "Luoghi nascosti, orari strategici per evitare folle, trattorie autentiche, calette segrete. Insider tips."
-          }
-        },
-        {
-          "icon": "history",
-          "title": {
-            "en": "Village History",
-            "it": "Pianificazione"
-          },
-          "description": {
-            "en": "Stories of the families who built the terraces and shaped this village.",
-            "it": "Budget, quando andare, cosa mettere in valigia, errori da evitare, checklist pre-partenza."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More Resources",
-        "it": "Contenuti Aggiornati",
-        "de": "Mein persönlicher Manarola-Moment"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Local Insights"
-          },
-          "url": {
-            "en": "/en/manarola/insights"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Terrace Builders",
+          "category": "Work Legend",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The story of how thousands of kilometers of walls were built without mortar—and what that work cost.",
+          "description": "The terraces of Cinque Terre represent more linear distance than the Great Wall of China. Every stone was placed by hand, without mortar, in a technique called dry-stone walling. The story goes that families would work a section for generations, never finishing, always passing the labor to the next generation. The terraces aren't a project—they're a permanent responsibility.",
+          "giuliaComment": "My great-great-grandfather worked these walls. My great-grandfather. My grandfather. My father. Now me. The story isn't about completion—it's about continuation. We don't build walls; we maintain what was built and keep building. The work is the life.",
+          "signature": "When work becomes inheritance"
         }
       ],
-      "subtitle": {
-        "de": "Als Fotografin habe ich unzählige Sonnenaufgänge erlebt, aber Manarola bleibt etwas Besonderes"
-      },
-      "content": {
-        "de": "Ich erinnere mich noch genau an meinen ersten Morgen in Manarola. Es war 5:30 Uhr, und ich stand mit meiner Kamera am **Manarola Sonnenuntergang Belvedere** – eigentlich ein Sonnenuntergangs-Spot, aber ich wollte das erste Licht einfangen. Die pastellfarbenen Häuser erwachten langsam im goldenen Licht, und ich wusste: Das ist der Moment, für den ich Fotografin geworden bin.\n\nSeit diesem Tag kehre ich immer wieder nach Manarola zurück. Jede Jahreszeit offenbart neue Perspektiven. Im Winter, wenn die **Weihnachtskrippe Manarola** die Hügel illuminiert, entstehen magische Nachtaufnahmen. Im Frühling, während des **Manarola Wildkräuter-Sammel-Pfads**, entdecke ich versteckte Winkel zwischen den Terrassen.\n\nMeine Drohne hat mir völlig neue Blickwinkel eröffnet. Der **Aussichtspunkt Punta Bonfiglio** ist zwar der klassische Postkarten-Spot, aber aus der Luft wirkt Manarola wie ein Gemälde, das direkt ins Meer gemalt wurde. Diese Perspektiven teile ich gerne mit anderen Fotografen, die nach dem perfekten Shot suchen.\n\n**Praktischer Tipp:** Buchen Sie eine Unterkunft wie das **Hotel Marina Piccola** oder **La Torretta** mindestens 3-4 Monate im Voraus, besonders für die Hauptsaison (Juni-September). Die besten Fotospots sind zwischen 6:00-8:00 Uhr morgens und 18:30-20:00 Uhr abends optimal beleuchtet."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Stories Nobody Tells Tourists",
+          "quote": "Some stories are for family only. The feuds between houses. The tragedies that changed everything. The reasons certain families don't speak. These stories shape village life but aren't shared with outsiders. What you hear are the stories we've chosen to tell."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Recent Past",
+      "quote": "Not all stories are ancient. The twentieth century brought changes that the village is still processing—stories that are history for visitors but memory for those who lived them.",
+      "content": [
+        "**The war years** are still remembered by the oldest residents. How the village hid from bombing. Who collaborated and who resisted. Wounds that haven't fully healed, grudges that persist generations later.",
+        "**The emigration era** emptied the village in the 1950s-70s. Young people left for La Spezia, Genoa, America. The terraces were abandoned. The village nearly died. This is recent enough that people remember who left and why.",
+        "**The tourism discovery** in the 1970s-80s reversed the decline. Outsiders found the village beautiful, bought the abandoned houses, brought money but also change. Not everyone agrees this was good.",
+        "**The UNESCO recognition** in 1997 formalized what locals always knew: this place is special. But protection brought restrictions, tourists brought crowds, and the village became something to be managed as much as lived in."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "memory",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Day the Train Came",
+          "category": "Transformation",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the railway connected Manarola to the outside world—and everything began to change.",
+          "description": "Before the railway, Manarola was accessible only by sea or by brutal overland trails. The train changed everything: suddenly the village connected to La Spezia, to Genoa, to the world. Wine could be shipped easily. People could leave—and return. The isolation that had preserved the village was ending.",
+          "giuliaComment": "My grandmother remembered when the train was new. She said the first year felt like the village had cracked open—suddenly there were strangers, opportunities, reasons to leave and reasons to stay. 'We became part of the world,' she said. 'Some people think that was a loss.'",
+          "signature": "When connection changes everything"
+        },
+        {
+          "id": 5,
+          "name": "The Night of the Flood",
+          "category": "Tragedy",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The floods of 2011 changed Cinque Terre overnight—a reminder that nature doesn't care about UNESCO status.",
+          "description": "On October 25, 2011, floods devastated the Cinque Terre. Rivers of mud tore through villages. People died. Trails were destroyed. The disaster revealed how fragile the preserved landscape really was—how centuries of work could be undone in hours. The rebuilding is still ongoing.",
+          "giuliaComment": "I remember that night. Everyone does. The water came so fast. We thought we understood this coast, but the flood taught us humility. We're not in control here. The land tolerates us when it chooses to. That's the lesson no one wants to remember.",
+          "signature": "When nature reminds us"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Future Stories",
+          "quote": "Someday people will tell stories about us—about how we handled the tourists, whether we preserved what mattered, what we chose to protect and what we let change. We're living in someone's future legend. I hope they tell it kindly."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Stories That Shape Place",
+      "content": [
+        "A village is made of stone and stories. The buildings you see were built by the people in the legends. The customs you observe are the traditions the stories explain. Understanding Manarola means understanding not just what it is, but what it believes about itself.",
+        "Ask the old people their stories. They won't all tell you. But when they do, listen carefully. These aren't just entertainment—they're the accumulated wisdom of centuries, the instructions for how to live here, the memory of a community.",
+        "The stories continue. You're in one now. How you experience this village becomes part of its ongoing narrative. Behave accordingly."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/manarola/overview", "variant": "primary" },
+        { "text": "Local Insights", "url": "/en/manarola/insights", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "blog"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.837Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

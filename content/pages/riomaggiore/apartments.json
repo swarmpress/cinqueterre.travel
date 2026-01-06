@@ -7,199 +7,152 @@
     "it": "/it/riomaggiore/apartments"
   },
   "title": {
-    "en": "Vacation Rentals in Riomaggiore",
-    "de": "Ferienwohnungen",
-    "fr": "Appartements",
-    "it": "Appartamenti"
+    "en": "Apartments in Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "apartments",
   "seo": {
     "title": {
-      "en": "Riomaggiore Apartments 2025 | Vacation Rentals & Airbnb"
+      "en": "Apartments in Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Rent an apartment in Riomaggiore's colorful tower-houses. Self-catering vacation rentals with kitchens, terraces, and authentic village living."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore apartments",
-        "vacation rentals",
-        "airbnb riomaggiore",
-        "self-catering",
-        "cinque terre rentals"
-      ]
+      "en": "An apartment in Riomaggiore is not a hotel room with a kitchen. It's a chance to live inside the village—to shop at the local market, cook with Ligurian ingredients, and feel the rhythm of a place."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Case Vacanza",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Live Like a Local in Tower-Houses",
-        "it": "Appartamenti a Riomaggiore",
-        "de": "Wohnen Sie in authentischen Turmhäusern"
-      },
-      "subtitle": {
-        "en": "Rent your own apartment in traditional Ligurian buildings. Enjoy full kitchens, private terraces, and the freedom to experience village life at your own pace.",
-        "it": "Vivi come un locale in appartamenti autentici nel cuore dei borghi storici. Cucine attrezzate, terrazze panoramiche e l'autonomia di una vera casa vacanze.",
-        "de": "Mieten Sie Ihre eigene Ferienwohnung in traditionellen ligurischen Gebäuden. Genießen Sie vollausgestattete Küchen, private Terrassen und die Freiheit, das Dorfleben in Ihrem eigenen Tempo zu erleben."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Browse Apartments",
-            "it": "Cerca Appartamenti"
-          },
-          "url": {
-            "en": "#apartments",
-            "it": "#cerca"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Consigli Utili"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#info"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Living Here,<br/>Not Visiting",
+      "subtitle": "An apartment in Riomaggiore transforms your trip from tourism to temporary residency. You stop being a visitor and start being a neighbor—shopping at the market, nodding at familiar faces, cooking dinner while the light changes on the harbor.",
+      "badge": "Apartment Rentals",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Case for Apartments",
+      "quote": "Hotels exist to serve you. Apartments exist to house you. The difference matters. In an apartment, you become responsible for yourself—and that responsibility is freedom.",
+      "content": [
+        "**Space changes experience**. A separate bedroom, a kitchen, a table for morning coffee—these aren't luxuries, they're the infrastructure of comfortable extended stays. You can retreat. You can spread out. You can be at home.",
+        "**Cooking is connection**. The village market sells vegetables from the terraces above, fish from the morning catch, wine from local cellars. Cooking these ingredients in a Riomaggiore kitchen is not just eating—it's participation.",
+        "**Cost structures differ**. Apartments often cost less per night than hotels, especially for longer stays. But the real savings come from meals at home, from coffee on your terrace instead of at a café, from the freedom to decide what each day requires.",
+        "**Independence has value**. No hotel breakfast schedule. No cleaning service interruptions. No lobby to navigate. Just your keys, your space, and your time."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Rental Options",
-        "it": "Vantaggi",
-        "de": "Unterkunftsarten"
-      },
-      "title": {
-        "en": "Apartment Features & Benefits",
-        "it": "Perché Scegliere un Appartamento",
-        "de": "Ausstattung & Vorteile der Ferienwohnungen"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "location",
+      "items": [
         {
-          "icon": "home",
-          "title": {
-            "en": "Traditional Tower-Houses",
-            "it": "Cucina Attrezzata"
-          },
-          "description": {
-            "en": "Stay in historic colorful buildings stacked on the cliffsides, restored with modern comforts",
-            "it": "Prepara i tuoi pasti con prodotti locali dal mercato. Risparmia e vivi da locale."
-          }
+          "id": 1,
+          "name": "Harbor Level Apartments",
+          "category": "Location Guide",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the action is—fishing boats at dawn, swimmers all day, restaurants at night.",
+          "description": "Apartments near the marina put you at the heart of village life. You'll hear boats scraping stone, smell salt and fish, watch the harbor's daily drama from your window. The trade-off is activity and noise—this is not a retreat, it's an immersion.",
+          "giuliaComment": "I send young travelers and first-timers here. The energy is addictive. You step outside and you're immediately in the village. But if you need quiet to sleep, look elsewhere.",
+          "signature": "Where the village happens"
         },
         {
-          "icon": "chef-hat",
-          "title": {
-            "en": "Full Kitchens",
-            "it": "Ideale per Famiglie"
-          },
-          "description": {
-            "en": "Cook with fresh ingredients from local markets and prepare traditional Ligurian meals",
-            "it": "Più spazio e privacy. Camere separate, lavatrice, flessibilità negli orari."
-          }
+          "id": 2,
+          "name": "Mid-Village Apartments",
+          "category": "Location Guide",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The sweet spot—close enough to walk everywhere, quiet enough to rest.",
+          "description": "Via Colombo and the streets branching from it offer apartments that balance convenience with calm. You're a few minutes from the harbor, a few minutes from the station, surrounded by the working village rather than its tourist face.",
+          "giuliaComment": "This is where I'd stay. Not too far from anything, not overwhelmed by crowds, surrounded by neighbors rather than tourists. The authentic village is right outside your door.",
+          "signature": "Where convenience meets character"
         },
         {
-          "icon": "balcony",
-          "title": {
-            "en": "Private Terraces",
-            "it": "Terrazze Panoramiche"
-          },
-          "description": {
-            "en": "Many apartments feature balconies or rooftop terraces with harbor or sea views",
-            "it": "Molti appartamenti offrono terrazze private con vista mare o sui tetti del borgo."
-          }
-        },
-        {
-          "icon": "users",
-          "title": {
-            "en": "Family-Friendly",
-            "it": "Miglior Rapporto Qualità-Prezzo"
-          },
-          "description": {
-            "en": "Spacious options perfect for families and groups seeking more room than hotels",
-            "it": "Per soggiorni lunghi (3+ notti), gli appartamenti sono più convenienti degli hotel."
-          }
-        },
-        {
-          "icon": "wallet",
-          "title": {
-            "en": "Value for Groups",
-            "it": "Vita Locale"
-          },
-          "description": {
-            "en": "More economical for longer stays and multiple guests compared to hotel rooms",
-            "it": "Vivi nei vicoli storici tra i residenti, lontano dalle zone più turistiche."
-          }
-        },
-        {
-          "icon": "map",
-          "title": {
-            "en": "Central Locations",
-            "it": "Flessibilità"
-          },
-          "description": {
-            "en": "Apartments throughout the village, from harbor area to quiet residential streets",
-            "it": "Nessun vincolo di orari per colazione o check-out. Vivi secondo i tuoi ritmi."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Compare Accommodation Options",
-        "it": "Costi Appartamenti",
-        "de": "Empfohlene Ferienwohnungen in Riomaggiore"
-      },
-      "description": {
-        "en": "Explore hotels and other lodging types to find the perfect fit for your Riomaggiore stay."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Hotels"
-          },
-          "url": {
-            "en": "/en/riomaggiore/hotels"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Plan Your Visit"
-          },
-          "url": {
-            "en": "/en/riomaggiore/getting-here"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Upper Village Apartments",
+          "category": "Location Guide",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The views come with stairs—but what views they are.",
+          "description": "Apartments higher up the hillside offer panoramic perspectives that lower locations cannot match. The coast stretches before you, the village drops away below, and the light at sunset turns everything gold. But every trip to the harbor means a climb back.",
+          "giuliaComment": "These apartments suit fit travelers who don't mind stairs. The views reward the effort. And there's something about living above the village, watching it from your terrace, that changes your relationship to the place.",
+          "signature": "Where effort earns panoramas"
         }
       ],
-      "subtitle": {
-        "de": "Sorgfältig ausgewählte Unterkünfte für anspruchsvolle Reisende"
-      },
-      "content": {
-        "de": "Nach fünfzehn Jahren Erfahrung in der Reisebranche kann ich Ihnen versichern, dass die richtige Unterkunft den Unterschied zwischen einem guten und einem unvergesslichen Aufenthalt ausmacht.\n\n**Locanda Ca' dei Duxi** verkörpert die historische Authentizität Riomaggiorres perfekt. Diese Locanda aus dem 15. Jahrhundert mit ihren traditionellen Steinmauern bietet ein unvergleichliches Ambiente für Gäste, die Geschichte hautnah erleben möchten.\n\nFür Reisende, die Komfort mit spektakulären Aussichten verbinden möchten, empfiehlt sich **The Sunset Line**. Dieses Boutique B&B mit Freiluftbad und direktem Mittelmeerblick bietet die perfekte Kulisse für romantische Abende.\n\n**A due passi dal mare** - buchstäblich \"zwei Schritte vom Meer\" - ermöglicht direkten Zugang zur Marina von Riomaggiore, wo Sie die ikonischen bunten Fischerboote bewundern können.\n\nFür Familien oder längere Aufenthalte bietet **Hotel Due Gemelli** eine ruhige Lage zwischen Pinien und Weinbergen mit spektakulären Riomaggiore-Blicken, während Sie dennoch schnell das Dorfzentrum erreichen."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Stair Reality",
+          "quote": "Every apartment in Riomaggiore involves stairs. Every one. There are no elevators, no level access, no exceptions. The question is not whether you'll climb stairs, but how many and how steep. Plan accordingly."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Considerations",
+      "quote": "Apartment rentals require different planning than hotel stays. The extra effort pays off in experience, but only if you understand what you're committing to.",
+      "content": [
+        "**Booking timing matters**. Summer and September require months of advance booking. Spring and autumn offer more flexibility. Winter brings availability and lower prices, but fewer operating restaurants.",
+        "**Communication is key**. Apartment hosts vary in responsiveness. Confirm arrival procedures, key pickup, and contact information well before your trip. The personal connection often becomes the trip's highlight.",
+        "**Amenities vary widely**. Some apartments have full kitchens, washing machines, air conditioning. Others have minimal facilities. Read descriptions carefully and ask questions before booking.",
+        "**Check-in logistics require planning**. Many apartments don't have 24-hour reception. Coordinate arrival times. Understand key pickup procedures. Have a phone number that works in Italy."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Kitchen Advantage",
+          "category": "Living Local",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A kitchen isn't just for cooking—it's your entry point into local food culture.",
+          "description": "The village market, the harbor fish sellers, the wine shops—these become your sources. You buy what looks good, ask vendors how to prepare it, bring the harvest back to your kitchen. Dinner becomes an event you create, not consume.",
+          "giuliaComment": "The first time you cook Ligurian pesto with basil from the local market, in an apartment with windows open to the sea breeze—that's when you understand why apartments are different from hotels.",
+          "signature": "Where ingredients become experience"
+        },
+        {
+          "id": 5,
+          "name": "The Longer Stay",
+          "category": "Time Investment",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Apartments make economic sense for longer visits—and Riomaggiore rewards those who stay.",
+          "description": "A week in an apartment costs roughly what three hotel nights might. But more importantly, a week teaches you the village in ways a weekend cannot. You develop routines, favorite spots, familiar faces. Tourism becomes something else.",
+          "giuliaComment": "Every guest who stays a week tells me they wish they'd stayed longer. The village reveals itself slowly. The first few days are discovery. The rest become something closer to belonging.",
+          "signature": "When time becomes the luxury"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Shopping Strategy",
+          "quote": "Shop for groceries in La Spezia before arriving—the selection is better and prices are lower. Bring your staples. Then use Riomaggiore's small shops for daily needs, fresh produce, and local specialties. This is how residents manage."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Home Away From Home",
+      "content": [
+        "An apartment doesn't just house you—it locates you. You have an address, a neighborhood, a place where the shopkeeper starts to recognize you.",
+        "The best apartment experiences aren't about the apartment at all. They're about what the apartment enables: the freedom to live at your own pace, the chance to participate in local life, the opportunity to stop being a tourist and start being present.",
+        "Choose your apartment for location, convenience, and practical needs. Then let it fade into the background as the village becomes foreground."
+      ],
+      "buttons": [
+        { "text": "Hotels & B&Bs", "url": "/en/riomaggiore/hotels", "variant": "primary" },
+        { "text": "Plan Your Stay", "url": "/en/riomaggiore/things-to-do", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "apartments"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.844Z"
+  "updated_at": "2026-01-05T18:00:00.000Z"
 }

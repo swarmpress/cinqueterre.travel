@@ -399,6 +399,111 @@
       "collection": "pois",
       "in_nav": false,
       "nav_order": 13
+    },
+    {
+      "slug": "blog",
+      "title": "Blog",
+      "titles": {
+        "en": "The Dispatch | Stories & Guides",
+        "de": "Die Depesche | Geschichten & Reiseführer",
+        "fr": "Les Dépêches | Récits & Guides",
+        "it": "Il Dispaccio | Storie & Guide"
+      },
+      "page_file": "cinque-terre/blog-index.json",
+      "in_nav": true,
+      "nav_order": 14,
+      "children": [
+        {
+          "slug": "the-ultimate-guide-to-cinque-terres-best-beaches",
+          "title": "Best Beaches Guide",
+          "page_file": "blog/the-ultimate-guide-to-cinque-terres-best-beaches.json",
+          "in_nav": false
+        },
+        {
+          "slug": "5-hidden-gelaterias-you-need-to-try",
+          "title": "Hidden Gelaterias",
+          "page_file": "blog/5-hidden-gelaterias-you-need-to-try.json",
+          "in_nav": false
+        }
+      ]
+    },
+    {
+      "slug": "itinerary",
+      "title": "Itinerary",
+      "titles": {
+        "en": "The Salt & Stone Path | 4-Day Journey",
+        "de": "Der Salz & Stein Pfad | 4-Tage-Reise",
+        "fr": "Le Chemin du Sel et de la Pierre | 4 Jours",
+        "it": "Il Sentiero del Sale e della Pietra | 4 Giorni"
+      },
+      "page_file": "cinque-terre/itinerary.json",
+      "in_nav": true,
+      "nav_order": 15
+    },
+    {
+      "slug": "team",
+      "title": "Team",
+      "titles": {
+        "en": "Meet the Team",
+        "de": "Das Team",
+        "fr": "L'Équipe",
+        "it": "Il Team"
+      },
+      "page_file": "cinque-terre/team.json",
+      "in_nav": false,
+      "nav_order": 16
+    },
+    {
+      "slug": "culinary",
+      "title": "Culinary",
+      "titles": {
+        "en": "Culinary Guide",
+        "de": "Kulinarischer Führer",
+        "fr": "Guide Culinaire",
+        "it": "Guida Culinaria"
+      },
+      "page_file": "cinque-terre/culinary.json",
+      "in_nav": true,
+      "nav_order": 17
+    },
+    {
+      "slug": "sights",
+      "title": "Sights",
+      "titles": {
+        "en": "Sights & Experiences",
+        "de": "Sehenswürdigkeiten & Erlebnisse",
+        "fr": "Sites & Expériences",
+        "it": "Attrazioni & Esperienze"
+      },
+      "page_file": "cinque-terre/sights-editorial.json",
+      "in_nav": false,
+      "nav_order": 18
+    },
+    {
+      "slug": "things-to-do",
+      "title": "Things to Do",
+      "titles": {
+        "en": "Things to Do",
+        "de": "Aktivitäten",
+        "fr": "Choses à Faire",
+        "it": "Cose da Fare"
+      },
+      "page_file": "cinque-terre/things-to-do-editorial.json",
+      "in_nav": true,
+      "nav_order": 19
+    },
+    {
+      "slug": "village",
+      "title": "Riomaggiore Village",
+      "titles": {
+        "en": "Riomaggiore | The Gateway",
+        "de": "Riomaggiore | Das Tor",
+        "fr": "Riomaggiore | La Porte d'Entrée",
+        "it": "Riomaggiore | La Porta d'Ingresso"
+      },
+      "page_file": "cinque-terre/village.json",
+      "in_nav": false,
+      "nav_order": 20
     }
   ],
   "footer_nav": [

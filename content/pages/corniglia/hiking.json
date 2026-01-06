@@ -7,173 +7,152 @@
     "it": "/it/corniglia/hiking"
   },
   "title": {
-    "en": "Hiking Trails from Corniglia",
-    "de": "Wanderwege",
-    "fr": "Sentiers de Randonnée",
-    "it": "Sentieri"
+    "en": "Hiking from Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "hiking",
   "seo": {
     "title": {
-      "en": "Corniglia Hiking Trails 2025 | Best Hikes in Cinque Terre"
+      "en": "Hiking from Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Explore hiking trails from Corniglia. Central location for all major trails, connections to Vernazza and Manarola, vineyard paths, and coastal views."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia hiking",
-        "Cinque Terre trails",
-        "SVA trail",
-        "coastal hiking Italy"
-      ]
+      "en": "Corniglia sits at the center of the trail network, with paths radiating to every other village. The elevation that defines the village also defines its hiking—you're always walking through working terraces."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Corniglia Hiking",
-        "it": "Trekking e Sentieri",
-        "de": "Wandern in Corniglia"
-      },
-      "title": {
-        "en": "Perfect Hiking Base",
-        "it": "Sentieri di Corniglia",
-        "de": "Das perfekte Wanderparadies"
-      },
-      "subtitle": {
-        "en": "Central location connecting all major trails. Hike through vineyards, forests, and along spectacular coastal paths.",
-        "it": "Percorsi panoramici tra cielo e mare, antichi sentieri di collegamento tra i villaggi, vigneti terrazzati e viste mozzafiato sul Mediterraneo. Un'esperienza di trekking unica al mondo.",
-        "de": "Zentrale Lage als Ausgangspunkt für alle Hauptwanderwege. Entdecken Sie spektakuläre Pfade durch Weinbergterrassen, mediterrane Wälder und entlang der dramatischen Küstenklippen."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Trails",
-            "it": "Sentieri Principali"
-          },
-          "url": {
-            "en": "#trails",
-            "it": "#sentieri"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Mappe e Info"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#info"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Walking<br/>Through History",
+      "subtitle": "The trails from Corniglia wind through terraces that Romans built, past walls that families still maintain, along paths worn smooth by centuries of farmers carrying grapes to the village. Every hike here is a walk through agricultural history.",
+      "badge": "Hiking Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Central Position",
+      "quote": "Corniglia sits in the middle of the five villages, making it the natural hub for hikers. You can walk to any other village from here, with routes ranging from challenging coastal sections to gentler vineyard paths.",
+      "content": [
+        "**The elevation shapes every hike**. Starting at 100 meters means some trails descend to the sea; others climb higher into the terraces. The Lardarina stairs (377 steps to the station) become just another trail section—good training for what awaits.",
+        "**The Sentiero Azzurro passes through**. The famous Blue Trail connects all five villages, and its Corniglia sections are among the most dramatic—especially the stretch toward Vernazza with its cliff-edge views and steep stone steps.",
+        "**Alternative trails reveal different landscapes**. High routes through Volastra offer vineyard immersion without crowds. The path to the abandoned village of Prevo shows what happens when terraces stop being maintained.",
+        "**Timing matters more here**. The exposed clifftop position means sun and heat hit harder. Summer hiking requires early starts—by 9am the terraces are already warming. Spring and fall offer ideal conditions."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Hiking Routes",
-        "it": "Rete Sentieristica"
-      },
-      "title": {
-        "en": "Trails from Corniglia",
-        "it": "I Sentieri in Numeri",
-        "de": "Corniglia Wanderstatistiken"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "trail",
+      "items": [
         {
-          "icon": "hiking",
-          "title": {
-            "en": "Corniglia to Vernazza"
-          },
-          "description": {
-            "en": "2 hours, moderate. Classic SVA trail with stunning coastal views, vineyard terraces, and dramatic cliffs."
-          }
+          "id": 1,
+          "name": "Corniglia to Vernazza",
+          "category": "Classic Coastal",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544735716-392fe2489ffa-regular.jpg",
+          "intro": "The most dramatic section of the Sentiero Azzurro—cliff edges, stone steps, and views that justify every difficult moment.",
+          "description": "This 3.5km stretch takes about 90 minutes and earns every superlative. The trail hugs the clifftop with exposure that can feel vertiginous, descends through terraces, climbs steep stone stairs, and delivers views that stop conversations. Not for those uncomfortable with heights, but essential for those who want to understand why people hike the Cinque Terre.",
+          "giuliaComment": "This is my favorite section of the entire trail network. I've walked it hundreds of times and still pause at the same points to appreciate the views. Go early, go slowly, and don't let the difficulty obscure the beauty. The challenging sections are over quickly; the memories last.",
+          "signature": "Where challenge meets wonder"
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Corniglia to Manarola"
-          },
-          "description": {
-            "en": "1.5 hours, moderate. High inland route through olive groves and vineyards with panoramic sea views."
-          }
+          "id": 2,
+          "name": "Corniglia to Manarola",
+          "category": "Moderate Coastal",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1590086782957-93c06ef21604?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Shorter than the Vernazza route but still demanding—terraced descent, coastal views, and arrival at Manarola's iconic harbor.",
+          "description": "This 3km section takes about an hour and offers a gentler introduction to Cinque Terre hiking. The descent through terraces requires attention on uneven surfaces, but the exposure is less dramatic than the Vernazza route. You'll end at Manarola's harbor—reward yourself with swimming if the weather cooperates.",
+          "giuliaComment": "When friends who don't hike regularly want to walk between villages, I suggest this route. It's beautiful without being punishing, manageable without being boring. The arrival in Manarola feels earned but not exhausting.",
+          "signature": "Where accessible meets beautiful"
         },
         {
-          "icon": "view",
-          "title": {
-            "en": "Volastra Loop"
-          },
-          "description": {
-            "en": "1 hour, easy. Circular route through the hillside village of Volastra. Wine tasting opportunities."
-          }
-        },
-        {
-          "icon": "stairs",
-          "title": {
-            "en": "The Lardarina"
-          },
-          "description": {
-            "en": "15 minutes, steep. Famous 382-step staircase connecting the train station to the village center."
-          }
-        },
-        {
-          "icon": "mountain",
-          "title": {
-            "en": "Sanctuary Trail"
-          },
-          "description": {
-            "en": "4 hours, challenging. High ridge trail connecting all five sanctuaries. Spectacular panoramic views."
-          }
-        },
-        {
-          "icon": "forest",
-          "title": {
-            "en": "Via dell'Amore (upper)"
-          },
-          "description": {
-            "en": "2 hours, moderate. Alternative high route while lower Lovers Walk remains closed."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Start Your Cinque Terre Hiking Adventure",
-        "it": "I Percorsi Più Belli",
-        "de": "Warum ich Corniglia für Wanderer empfehle"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Plan Your Visit"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 3,
+          "name": "Corniglia to Volastra",
+          "category": "Vineyard Immersion",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Climb into the working vineyards—no crowds, no coastal drama, just terraces and the farmers who maintain them.",
+          "description": "This 2km climb takes about 45 minutes and offers a completely different experience from the coastal trails. You're walking through active agriculture: vineyards in various stages, dry-stone walls being repaired, the infrastructure that makes Cinque Terre wine possible. Volastra itself is a tiny hill village with a bar and a sanctuary church.",
+          "giuliaComment": "The tourist trails go along the coast. The local paths go into the terraces. This route shows what the landscape actually is—agricultural land that happens to be beautiful. You might see my neighbors repairing walls or checking vines. This is the real Cinque Terre.",
+          "signature": "Where tourism ends and agriculture begins"
         }
       ],
-      "subtitle": {
-        "de": "Drei Sommer in Vernazza haben mir gezeigt: Corniglia ist das wahre Herz der Cinque Terre Wanderwege"
-      },
-      "content": {
-        "de": "Nach drei intensiven Sommern, in denen ich jeden Pfad zwischen diesen fünf Perlen erkundet habe, kann ich Ihnen versichern: **Corniglia ist der strategisch beste Ausgangspunkt** für ernsthafte Wanderer.\n\nWährend die anderen Dörfer von Touristenströmen überflutet werden, bewahrt Corniglia seine authentische Ruhe. Von hier aus erreichen Sie die **Corniglia Weinberg-Terrassen** – diese antiken Terrassen sind nicht nur Instagram-tauglich, sondern erzählen 1000 Jahre Winzergeschichte. Der **Blaue Weg Corniglia nach Vernazza** führt Sie durch genau diese Weinberge, wo noch heute der berühmte Sciacchetrà-Wein produziert wird.\n\n**Mein Geheimtipp:** Starten Sie früh am Morgen von der **Corniglia Panoramaterrasse** – das Morgenlicht auf den Terrassen ist spektakulär, und Sie haben die Wege fast für sich allein."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Trail Pass Question",
+          "quote": "The Sentiero Azzurro requires a Cinque Terre Card (€7.50/day for trail access only, or €16/day including trains). High trails like the Volastra route are free. The card funds trail maintenance—a reasonable exchange for paths this spectacular."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Preparation",
+      "quote": "Hiking from Corniglia requires more preparation than wandering coastal paths. The elevation, the exposure, and the distance from services make planning essential.",
+      "content": [
+        "**Footwear is non-negotiable**. The trails are rocky, uneven, and sometimes wet. Hiking boots with ankle support aren't optional—they're required. Sandals and sneakers invite injury.",
+        "**Water must be carried**. No fountains on most trails. Carry 1.5-2 liters per person for longer routes. The terraces are exposed; dehydration happens quickly in summer heat.",
+        "**Sun protection matters more here**. The clifftop position means direct sun without shelter. Hats, sunscreen, and covering clothing prevent the burns that ruin following days.",
+        "**Start early in summer**. By 10am, the terraces are already uncomfortably warm. Begin at 7am to have the trails to yourself and finish before the heat peaks."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "route",
+      "items": [
+        {
+          "id": 4,
+          "name": "The High Route",
+          "category": "Full Day Adventure",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Above the tourist trails, a network of paths connects sanctuary churches and hill villages through landscapes few visitors see.",
+          "description": "Trail 6d from Corniglia climbs through Volastra to San Bernardino sanctuary, then continues to Reggio for views that dwarf the coastal panoramas. This 4-5 hour loop requires fitness and navigation skills but rewards with solitude and perspective. Pack lunch—there are no services above Volastra.",
+          "giuliaComment": "This is where I go when I want to be alone. The tourists stay on the coastal trail; up here, you might see a farmer or two. The views are bigger, the silence is real, and you understand the scale of what the terraces represent. This is hiking for hikers.",
+          "signature": "Where solitude lives"
+        },
+        {
+          "id": 5,
+          "name": "The Lardarina Training",
+          "category": "Conditioning Walk",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1605540436563-5bca919ae766-regular.jpg",
+          "intro": "Use the famous 377 steps as more than transportation—they're perfect conditioning for longer trails.",
+          "description": "If you're staying in Corniglia and planning multi-village hikes, the Lardarina stairs become your training ground. Descend in the morning for a breakfast swim at the beach below, then climb back up. Repeat daily and the longer trails become significantly easier. Your legs will thank you—or curse you, depending on your perspective.",
+          "giuliaComment": "Visitors complain about the stairs once and then avoid them. Locals use them for exercise. I know people who climb up and down three times a day for fitness. After a few days, the stairs feel like nothing—and suddenly the Vernazza trail seems manageable.",
+          "signature": "Where daily life becomes training"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Trail Closure Reality",
+          "quote": "Sections of the Sentiero Azzurro close periodically for maintenance or after storms. Check current conditions before planning. The Cinque Terre National Park website has updated trail status. Closed trails are closed for reasons—don't try to hike them anyway."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Walking the Working Landscape",
+      "content": [
+        "Hiking from Corniglia isn't just exercise with views—it's immersion in a landscape that people built and still maintain. The terraces you walk through produce wine. The walls you pass require annual repair. The paths exist because farmers needed to reach their vines.",
+        "The difficulty is part of the meaning. The steep sections, the exposed traverses, the demanding climbs—these mirror the work that created and maintains the landscape. Easy trails would miss the point.",
+        "Choose routes based on your ability but don't avoid challenge. The views from difficult sections are compensation. The sense of accomplishment at trail's end is real. And the wine at the destination tastes better when you've earned it."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Beaches", "url": "/en/corniglia/beaches", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "hiking"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.833Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

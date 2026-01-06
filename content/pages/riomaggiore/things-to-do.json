@@ -7,187 +7,169 @@
     "it": "/it/riomaggiore/things-to-do"
   },
   "title": {
-    "en": "Things to Do in Riomaggiore",
-    "de": "Aktivitäten",
-    "fr": "Activités",
-    "it": "Cosa Fare"
+    "en": "What to Do in Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "things-to-do",
   "seo": {
     "title": {
-      "en": "Things to Do in Riomaggiore 2025 | Activities & Experiences"
+      "en": "What to Do in Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Top activities in Riomaggiore from hiking Via dell'Amore to harbor dining, wine tasting, swimming, and exploring colorful streets. Complete activity guide."
-    },
-    "keywords": {
-      "en": [
-        "things to do riomaggiore",
-        "activities",
-        "experiences",
-        "what to do",
-        "riomaggiore guide"
-      ]
+      "en": "The question is not what to do in Riomaggiore—it's what to let go of. The village offers more than any itinerary can hold. The art is choosing what matters to you."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Esperienze Uniche"
-      },
-      "title": {
-        "en": "Unforgettable Experiences Await",
-        "it": "Cosa Fare a Riomaggiore"
-      },
-      "subtitle": {
-        "en": "From romantic coastal walks to vibrant nightlife, fresh seafood to scenic hikes. Discover the most exciting and authentic activities in Riomaggiore.",
-        "it": "Trekking panoramici, degustazioni di vino, tour in barca, bagni in mare cristallino, scoperta di borghi medievali. Un paradiso di esperienze tra natura, cultura e tradizione."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "The Art of<br/>Being Here",
+      "subtitle": "Riomaggiore does not need your activities. It offers presence—the chance to exist in a place where eight centuries of human effort have shaped every wall, every terrace, every path. The doing follows naturally.",
+      "badge": "Things to Do",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Philosophy of Experience",
+      "quote": "The visitors who leave Riomaggiore most satisfied are rarely the ones who checked the most boxes. They are the ones who sat in the same piazza twice, returned to the harbor when the light changed, let the village reveal itself on its own terms.",
+      "content": [
+        "There is a **rhythm here** that resists rushing. The fishermen work at dawn, the village naps at noon, the aperitivo hour stretches until dinner becomes possible. Fighting this rhythm is exhausting. Following it is freedom.",
+        "**Not everything requires a destination**. Walking the main street without purpose, sitting on harbor rocks watching the water, standing in the church while your eyes adjust to darkness—these are not breaks between activities. They are the activities.",
+        "The **best experiences are free**: sunrise from the castle viewpoint, swimming in the harbor, wandering the terraces as evening approaches. The paid experiences—meals, tastings, tours—are punctuation, not the sentence.",
+        "**Seasons change everything**. Summer offers swimming and crowds. Spring brings wildflowers and hiking weather. Autumn means grape harvest and wine festivals. Winter reveals a village that belongs to itself again."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "activity",
+      "items": [
         {
-          "text": {
-            "en": "Explore Activities",
-            "it": "Attività Top"
-          },
-          "url": {
-            "en": "#activities",
-            "it": "#attivita"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "Walk the Via dell'Amore",
+          "category": "Iconic Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The path that made Cinque Terre famous—carved into cliffs, suspended over the sea.",
+          "description": "The Via dell'Amore connects Riomaggiore to Manarola along a cliff-hugging path that offers constant Mediterranean views. It's easy, paved, and accessible to most fitness levels. When open, it's the essential walk.",
+          "giuliaComment": "Check if it's open before planning around it—closures are common. But when it's accessible, walk it at sunset. The light on the water is extraordinary.",
+          "signature": "The walk that put this coast on the map",
+          "practicalInfo": "Check current status. 20 minutes when open. Cinque Terre Card required. Best at sunset."
         },
         {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Itinerari"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#itinerari"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "Swim in the Harbor",
+          "category": "Essential Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the village meets the sea—no sand, just rocks, ladders, and crystal water.",
+          "description": "The small harbor offers the village's primary swimming access: rocky platforms, metal ladders, and water clear enough to see the bottom. This is how Riomaggiore has always swum—direct entry into the Mediterranean from sun-warmed stone.",
+          "giuliaComment": "Bring water shoes. The rocks are unforgiving. But the swimming is extraordinary—the water temperature, the clarity, the feeling of entering the sea where generations have entered before you.",
+          "signature": "Swimming the way the village has always swum",
+          "practicalInfo": "Free access. Water shoes recommended. Best in morning or late afternoon. No lifeguards."
+        },
+        {
+          "id": 3,
+          "name": "Watch Sunset from the Castle",
+          "category": "Daily Ritual",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The viewpoint that makes the climb worthwhile—where the whole village spreads below and the sun drops toward the horizon.",
+          "description": "The medieval castle above the village offers the best sunset viewpoint in Riomaggiore. The climb takes 10-15 minutes up steep stairs, but the reward is a panorama that encompasses the harbor, the terraces, and the western horizon.",
+          "giuliaComment": "This is my daily ritual when I'm in the village. The sunset is never the same twice. The company changes—tourists, locals, photographers—but the view remains extraordinary.",
+          "signature": "Where the day ends and the memory begins",
+          "practicalInfo": "Free access. 10-15 minute climb. Bring water. Arrive 30 minutes before sunset for good spots."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Value of Repetition",
+          "quote": "The visitors who understand Riomaggiore best are the ones who do the same thing twice. Walk the same path at different hours. Sit in the same piazza for morning coffee and evening wine. Watch the same view as the light changes. Repetition reveals what novelty hides."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Top Activities",
-        "it": "Esperienze Imperdibili"
-      },
-      "title": {
-        "en": "Best Things to Do",
-        "it": "Le Migliori Attività"
-      },
-      "features": [
+      "type": "editorial-intro",
+      "badge": "Beyond the Obvious",
+      "quote": "The activities everyone knows about are worth doing. But Riomaggiore offers more to those who look past the guidebook.",
+      "content": [
+        "**The terraced vineyards** above the village are not just scenery—they're accessible by hiking paths that reveal the scale of human effort that created this landscape. Walk among them in late afternoon light.",
+        "**The church of San Giovanni Battista** offers cool darkness and centuries of accumulated prayer. Enter without expectations. Let your eyes adjust. Notice the details that emerge from shadow.",
+        "**The wine bar at Vertical** is where locals actually drink. The selection is local, the advice is honest, and the conversation is real. This is not a tourist tasting room.",
+        "**The morning harbor** belongs to fishermen before it belongs to swimmers. Arrive at 7am and watch the boats return. This is the working village that tourism sometimes obscures."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "activity",
+      "items": [
         {
-          "icon": "heart",
-          "title": {
-            "en": "Walk Via dell'Amore",
-            "it": "Trekking sui Sentieri"
-          },
-          "description": {
-            "en": "Stroll the famous Lover's Walk, the most romantic coastal path in Italy to Manarola",
-            "it": "Percorri il Sentiero Azzurro che collega i 5 villaggi. Viste panoramiche mozzafiato, 120 km di rete sentieristica."
-          }
+          "id": 4,
+          "name": "Hike to the Sanctuary",
+          "category": "Pilgrimage",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The climb that locals have made for six centuries—to pray, to give thanks, to see their village from above.",
+          "description": "The path to Santuario della Madonna di Montenero climbs 400 meters through vineyard and forest to a small church with views that stretch along the entire coast. This is not an easy hike, but it's deeply rewarding.",
+          "giuliaComment": "My grandmother walked this path every Sunday of her life. For her, it was faith. For me, it's memory. For visitors, it's perspective—literal and otherwise.",
+          "signature": "Where effort becomes insight",
+          "practicalInfo": "45-60 minutes up. Bring water. Church hours limited. Views worth every step."
         },
         {
-          "icon": "camera",
-          "title": {
-            "en": "Photograph the Harbor",
-            "it": "Degustazioni Vino"
-          },
-          "description": {
-            "en": "Capture colorful tower-houses, fishing boats, and dramatic cliffside scenery",
-            "it": "Assaggia lo Sciacchetrà e i vini DOC locali. Visita le cantine nei terrazzamenti, tour enogastronomici guidati."
-          }
+          "id": 5,
+          "name": "Taste Sciacchetrà Wine",
+          "category": "Cultural Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The dessert wine that explains why the terraces exist—rare, sweet, and made from grapes dried for months.",
+          "description": "Sciacchetrà is the wine that made these hillsides worth cultivating for a thousand years. It's made from grapes left to dry until concentrated, then fermented slowly into something amber and sweet. Tastings are available at local bars and wineries.",
+          "giuliaComment": "This wine is expensive because it's nearly impossible to make. The labor is absurd. But one sip explains everything—why the walls were built, why people stayed, why the landscape looks the way it does.",
+          "signature": "A thousand years in a glass",
+          "practicalInfo": "Available at Vertical wine bar and local cantinas. Small pours—it's meant to be savored. Pairs with local cheese."
         },
         {
-          "icon": "hiking-boot",
-          "title": {
-            "en": "Hike to Sanctuary",
-            "it": "Tour in Barca"
-          },
-          "description": {
-            "en": "Climb to Santuario di Montenero for breathtaking panoramic views over the coast",
-            "it": "Ammira i villaggi dal mare, nuota in calette nascoste, esplora grotte. Tour al tramonto con aperitivo."
-          }
-        },
+          "id": 6,
+          "name": "Eat Fried Fish from Paper",
+          "category": "Street Food Ritual",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
+          "intro": "The midday meal that locals have eaten for generations—simple, portable, perfect.",
+          "description": "A paper cone of mixed fried fish, eaten while walking or sitting on harbor rocks, is not just street food. It's the traditional Ligurian lunch—quick, fresh, and connected to the fishing boats that brought the catch ashore that morning.",
+          "giuliaComment": "This is my favorite meal in the village. Standing by the water, paper cone in hand, watching the harbor. It's not fancy. It's perfect.",
+          "signature": "Where the catch meets the cone",
+          "practicalInfo": "Available at Tutti Fritti and Il Pescato Cucinato. Perfect for lunch. Take it to the harbor rocks."
+        }
+      ],
+      "interludes": [
         {
-          "icon": "utensils",
-          "title": {
-            "en": "Dine at Harbor Restaurants",
-            "it": "Fotografia"
-          },
-          "description": {
-            "en": "Enjoy fresh seafood and local wine at waterfront trattorias with sunset views",
-            "it": "Cattura i panorami più iconici d'Italia. Alba a Riomaggiore, tramonto a Manarola, vicoli colorati ovunque."
-          }
-        },
-        {
-          "icon": "swimmer",
-          "title": {
-            "en": "Swim from Rocky Platforms",
-            "it": "Mare e Spiagge"
-          },
-          "description": {
-            "en": "Take a refreshing dip in crystal-clear Mediterranean waters at the harbor",
-            "it": "Tuffati nelle acque cristalline dell'area marina protetta. Snorkeling, kayak, paddleboard."
-          }
-        },
-        {
-          "icon": "wine-glass",
-          "title": {
-            "en": "Taste Local Wines",
-            "it": "Gastronomia Locale"
-          },
-          "description": {
-            "en": "Sample Sciacchetrà dessert wine and Cinque Terre DOC whites at enotecas",
-            "it": "Pesto, acciughe, focaccia, pesce fresco. Tour gastronomici, corsi di cucina, sagre tradizionali."
-          }
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Permission to Rest",
+          "quote": "Italian villages shut down in the afternoon for a reason. The heat is real, the food is heavy, and the evening requires energy. Give yourself permission to nap, read, or simply sit. Activity is not the point. Presence is."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore More of Riomaggiore",
-        "it": "Quanto Tempo Servire"
-      },
-      "description": {
-        "en": "Discover specific attractions, dining options, and outdoor activities in detail."
-      },
+      "type": "closing-note",
+      "title": "The Village is the Activity",
+      "content": [
+        "You could fill a week in Riomaggiore with organized activities and still miss the point. The village is not a collection of experiences to accumulate—it's a place to exist in.",
+        "Walk without purpose. Sit without distraction. Let the hours pass in a way they cannot pass at home. This is what Riomaggiore offers that no checklist can capture.",
+        "Do less. See more. The village will reward your patience."
+      ],
       "buttons": [
-        {
-          "text": {
-            "en": "Top Attractions"
-          },
-          "url": {
-            "en": "/en/riomaggiore/sights"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Hiking Trails"
-          },
-          "url": {
-            "en": "/en/riomaggiore/hiking"
-          },
-          "variant": "secondary"
-        }
+        { "text": "Where to Eat", "url": "/en/riomaggiore/restaurants", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/riomaggiore/hotels", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "things-to-do"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.847Z"
+  "updated_at": "2026-01-05T17:00:00.000Z"
 }

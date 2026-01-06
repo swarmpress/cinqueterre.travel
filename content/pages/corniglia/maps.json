@@ -7,186 +7,213 @@
     "it": "/it/corniglia/maps"
   },
   "title": {
-    "en": "Corniglia Maps & Navigation",
-    "de": "Karten",
-    "fr": "Cartes",
-    "it": "Mappe"
+    "en": "Complete Maps & Navigation Guide for Corniglia - Cinque Terre"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Corniglia Maps 2025 | Village & Hiking Trail Maps"
+      "en": "Corniglia Maps & Navigation Guide | Cinqueterre.travel"
     },
     "description": {
-      "en": "Maps and navigation for Corniglia. Village map, hiking trails, viewpoints, restaurants, and key landmarks for easy navigation."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia map",
-        "village navigation",
-        "hiking trail map",
-        "Cinque Terre maps"
-      ]
+      "en": "Essential maps and navigation tips for Corniglia. Find hiking trails, restaurants, viewpoints, and the famous 377-step stairway in this elevated village."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Maps & Navigation",
-        "it": "Orientati",
-        "de": "Karten & Navigation"
-      },
-      "title": {
-        "en": "Corniglia Maps",
-        "it": "Mappe e Orientamento a Corniglia",
-        "de": "Corniglia Karten"
-      },
-      "subtitle": {
-        "en": "Navigate Corniglia's compact village, hiking trails, and find key landmarks with our comprehensive maps.",
-        "it": "Mappe interattive, cartografie dei sentieri, planimetrie dei villaggi e guide geografiche per esplorare ogni angolo delle Cinque Terre senza perderti.",
-        "de": "Navigieren Sie durch Corniglias kompaktes Dorf, Wanderwege und finden Sie wichtige Sehenswürdigkeiten mit unseren detaillierten Karten."
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg",
+      "eyebrow": "Navigation Guide",
+      "title": "Master Corniglia's Unique Layout with Expert Maps",
+      "subtitle": "Navigate the only clifftop village of Cinque Terre with confidence. From the legendary 377-step Lardarina stairway to hidden vineyard trails, discover every corner of this elevated medieval settlement.",
       "buttons": [
         {
-          "text": {
-            "en": "View Maps",
-            "it": "Mappe Sentieri"
-          },
-          "url": {
-            "en": "#maps",
-            "it": "#sentieri"
-          },
+          "text": "Get Navigation Tips",
+          "url": "#navigation",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Scarica PDF"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#download"
-          },
+          "text": "View Trail Maps",
+          "url": "#trails",
           "variant": "secondary"
         }
       ]
     },
     {
+      "type": "stats-section",
+      "stats": [
+        {
+          "number": "377",
+          "label": "Steps to reach the village from station",
+          "description": "The famous Lardarina stairway"
+        },
+        {
+          "number": "100m",
+          "label": "Above sea level",
+          "description": "Highest village in Cinque Terre"
+        },
+        {
+          "number": "15",
+          "label": "Minutes walk",
+          "description": "From station to village center"
+        },
+        {
+          "number": "3",
+          "label": "Main hiking trails",
+          "description": "Connecting to other villages"
+        }
+      ]
+    },
+    {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Navigation Tools",
-        "it": "Tipologie di Mappe",
-        "de": "Navigationshilfen"
-      },
-      "title": {
-        "en": "Maps & Guides",
-        "it": "Strumenti di Navigazione",
-        "de": "Karten & Orientierung"
-      },
+      "title": "Essential Navigation Features",
+      "subtitle": "Everything you need to explore Corniglia's unique clifftop location",
       "features": [
         {
-          "icon": "map",
-          "title": {
-            "en": "Village Map",
-            "it": "Mappe Sentieri"
-          },
-          "description": {
-            "en": "Compact village layout from train station via Lardarina to main square and viewpoints.",
-            "it": "Rete completa dei 120 km di sentieri con difficoltà, tempi di percorrenza, dislivelli, punti d'acqua."
-          }
+          "icon": "🗺️",
+          "title": "Village Center Map",
+          "description": "Detailed layout of Via Fieschi with restaurants, shops, and viewpoints marked. Perfect for finding Cecio and Osteria Mananan."
         },
         {
-          "icon": "hiking",
-          "title": {
-            "en": "Hiking Trail Maps",
-            "it": "Planimetrie Villaggi"
-          },
-          "description": {
-            "en": "Detailed maps of trails to Vernazza and Manarola. Elevation profiles and difficulty ratings.",
-            "it": "Mappe dettagliate dei 5 borghi con punti di interesse, ristoranti, servizi, stazioni, spiagge."
-          }
+          "icon": "🚶",
+          "title": "Hiking Trail Routes",
+          "description": "Complete trail maps to Vernazza (1.5 hours) and Manarola (1 hour) with difficulty levels and scenic stops marked."
         },
         {
-          "icon": "restaurant",
-          "title": {
-            "en": "Dining Locations",
-            "it": "Trasporti Pubblici"
-          },
-          "description": {
-            "en": "All restaurants, cafes, and wine bars marked on village map with ratings.",
-            "it": "Mappa ferroviaria con orari, traghetti stagionali, bus locali, collegamenti regionali."
-          }
+          "icon": "📍",
+          "title": "Key Landmarks",
+          "description": "Location guide to San Pietro Church, panoramic terraces, and the best photography spots overlooking the coastline."
         },
         {
-          "icon": "viewpoint",
-          "title": {
-            "en": "Viewpoint Guide",
-            "it": "Parcheggi e Accessi"
-          },
-          "description": {
-            "en": "Best photo locations and panoramic terraces clearly marked with optimal visiting times.",
-            "it": "Dove lasciare l'auto, ZTL, parcheggi a pagamento, navette, aree sosta camper."
-          }
+          "icon": "🚂",
+          "title": "Station Access Routes",
+          "description": "Multiple ways to reach the village: the famous 377-step stairway, shuttle bus schedule, and alternative paths."
         },
         {
-          "icon": "train",
-          "title": {
-            "en": "Station Access",
-            "it": "Spiagge e Balneazione"
-          },
-          "description": {
-            "en": "Routes from train station: Lardarina stairs or shuttle bus pickup point.",
-            "it": "Mappa delle spiagge, calette, punti di accesso al mare, piattaforme per tuffi, aree snorkeling."
-          }
+          "icon": "🍷",
+          "title": "Vineyard Locations",
+          "description": "Map of historic terraced vineyards where Cinque Terre DOC wines are produced, with tasting room locations."
         },
         {
-          "icon": "download",
-          "title": {
-            "en": "Offline Maps",
-            "it": "Punti Panoramici"
-          },
-          "description": {
-            "en": "Download maps for offline use. Cell service can be spotty on trails.",
-            "it": "I migliori spot fotografici, terrazze panoramiche, belvedere, orari di luce ottimale."
-          }
+          "icon": "🌅",
+          "title": "Best Viewpoints",
+          "description": "Strategic viewing positions for sunrise, sunset, and panoramic photography of the Mediterranean coastline."
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "variant": "text-with-image-right",
+      "image": "https://images.unsplash.com/photo-1601031250005-3e0c7b58ad1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMHN0YWlyfGVufDB8MHx8fDE3NjU4ODI0NjB8MA&ixlib=rb-4.1.0&q=80&w=800",
+      "title": "Navigating the Lardarina Stairway",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The dramatic Lardarina stairway is Corniglia's most famous feature - a zigzagging stone staircase carved into the cliff face in 1876. This architectural marvel connects the railway station to the village, climbing 100 meters in elevation over 377 carefully crafted steps."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Navigation Tips for the Stairway:**"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Allow 15-20 minutes for the climb, with rest stops at the scenic landings",
+            "Early morning ascent offers the best lighting and fewer crowds",
+            "Rest areas every 50 steps provide perfect photography opportunities",
+            "Alternative shuttle bus runs every 30 minutes during peak season (€1.50)",
+            "The descent takes 8-10 minutes but requires careful attention on narrow steps"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Each landing reveals new perspectives of the coastline, transforming the climb into a progressive unveiling of the Mediterranean panorama. The stairway's design follows the natural contours of the cliff, creating a harmonious blend of human engineering and geological beauty."
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "variant": "text-with-image-left",
+      "image": "https://images.unsplash.com/photo-1590150146399-0b4b1c2e8659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGhpa2luZ3xlbnwwfDB8fHwxNzY1ODgyNDYwfDA&ixlib=rb-4.1.0&q=80&w=800",
+      "title": "Village Center & Dining Locations",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Corniglia's medieval heart unfolds along Via Fieschi, a narrow stone street where centuries of agricultural tradition meet contemporary culinary excellence. This ancient thoroughfare serves as the village's main artery, connecting historic landmarks with exceptional dining experiences."
+        },
+        {
+          "type": "paragraph",
+          "text": "**Key Dining Locations:**"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Cecio** (Via Serra 58) - Family-run trattoria famous for trofie al pesto made with garden-grown basil. Reserve the small terrace for intimate dining.",
+            "**Osteria Mananan** (Via Fieschi 117) - Upscale dining with panoramic sea views. Book sunset tables well in advance for the golden hour Mediterranean vista.",
+            "**Cantina de Mananan** (Via Fieschi 115) - Intimate wine cellar specializing in rare Sciacchetrà dessert wine and local DOC varietals."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The village center extends from Largo Taragio (the main square) to San Pietro Church, encompassing medieval stone houses, artisan workshops, and panoramic terraces overlooking the Ligurian coastline. Navigation is intuitive - follow Via Fieschi for the main attractions, or explore the narrow vicoli (alleyways) for hidden viewpoints and local discoveries."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "title": "Navigation Questions Answered",
+      "subtitle": "Expert advice for exploring Corniglia's unique layout",
+      "faqs": [
+        {
+          "question": "How do I get from Corniglia station to the village center?",
+          "answer": "You have three options: climb the famous 377-step Lardarina stairway (15-20 minutes), take the shuttle bus that runs every 30 minutes during peak season (€1.50), or follow the longer but gentler road path. The stairway offers the most dramatic approach with stunning coastal views at each landing."
+        },
+        {
+          "question": "What's the best way to navigate between restaurants?",
+          "answer": "Corniglia's compact size makes everything walkable within 5 minutes. Via Fieschi is the main street connecting all major restaurants. Cecio is slightly off the main path on Via Serra, while Osteria Mananan and Cantina de Mananan are both on Via Fieschi. The village has clear signage in Italian and English."
+        },
+        {
+          "question": "Which hiking trails start from Corniglia?",
+          "answer": "Three main trails depart from Corniglia: the scenic coastal path to Vernazza (1.5 hours, moderate difficulty), the vineyard route to Manarola (1 hour, easy-moderate), and the challenging climb to Volastra (45 minutes, steep). All trailheads are clearly marked from the village center."
+        },
+        {
+          "question": "Where are the best viewpoints for photography?",
+          "answer": "The panoramic terrace behind San Pietro Church offers 270-degree coastal views. The Lardarina stairway landings provide dramatic cliff perspectives. For sunset shots, head to the western edge near Via Fieschi 117. The vineyard terraces above the village offer elevated views of the coastline."
+        },
+        {
+          "question": "How do I find the wine tasting locations?",
+          "answer": "Cantina de Mananan is the main wine cellar, located at Via Fieschi 115 in a historic stone building. Look for the wooden wine barrel sign. Several family-run wine shops along Via Fieschi offer tastings of local Cinque Terre DOC wines. Osteria Mananan also features extensive wine selections with sommelier guidance."
+        },
+        {
+          "question": "Is Corniglia accessible for people with mobility challenges?",
+          "answer": "Corniglia presents the most challenges among Cinque Terre villages due to its clifftop location. The shuttle bus provides easier access than the stairway, but the village itself has narrow, uneven stone streets. The main street (Via Fieschi) is relatively flat, but restaurants may have steps and terraces aren't wheelchair accessible."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Navigate Corniglia with Confidence",
-        "it": "Il Territorio in Numeri",
-        "de": "Kartenmaterial für Ihre Corniglia-Erkundung"
-      },
+      "variant": "centered",
+      "title": "Ready to Explore Corniglia?",
+      "subtitle": "Download our complete navigation guide and discover the secrets of Cinque Terre's most authentic village.",
       "buttons": [
         {
-          "text": {
-            "en": "Start Exploring"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
+          "text": "Plan Your Visit",
+          "url": "/corniglia/itinerary",
           "variant": "primary"
+        },
+        {
+          "text": "View All Villages",
+          "url": "/villages",
+          "variant": "secondary"
         }
-      ],
-      "subtitle": {
-        "de": "Professionelle Navigationshilfen für das einzigartige Terrassendorf"
-      },
-      "content": {
-        "de": "Als gebürtiger La Spezianer kenne ich jeden Winkel von Corniglia seit meiner Kindheit. Das auf 100 Metern Höhe thronende Dorf erfordert präzise Navigation - von der historischen **Lardarina Treppe** mit ihren exakt 382 Stufen bis zu den versteckten Aussichtspunkten wie dem **Corniglia Sonnenuntergangs-Punkt**.\n\nUnsere detaillierten Karten zeigen Ihnen nicht nur den direkten Weg zur **Kirche San Pietro** mit ihrer gotischen Rosette, sondern auch die optimalen Routen zu den **Corniglia Weinberg-Terrassen**, wo der berühmte Sciacchetrà-Wein produziert wird. Jede Karte enthält präzise Höhenangaben, Gehzeiten und praktische Informationen zu Restaurants wie **Cantina de Mananan** für Weinverkostungen.\n\nBesonders wichtig: Die **Via Fieschi Hauptstraße** bildet das Herzstück des Dorfs - hier finden Sie sowohl authentische Trattorias wie **Il Pirun** als auch Unterkünfte wie **Corte Del Gallo** mit seiner Panoramaterrasse. Unsere Karten berücksichtigen die Besonderheiten der ligurischen Architektur und helfen Ihnen, sich in den engen Gassen zu orientieren."
-      }
+      ]
     }
   ],
   "metadata": {
     "city": "corniglia",
     "page_type": "maps"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.834Z"
+  "updated_at": "2025-12-16T11:05:13.603Z"
 }

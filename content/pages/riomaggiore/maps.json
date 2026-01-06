@@ -7,199 +7,163 @@
     "it": "/it/riomaggiore/maps"
   },
   "title": {
-    "en": "Riomaggiore Maps & Navigation",
-    "de": "Karten",
-    "fr": "Cartes",
-    "it": "Mappe"
+    "en": "Navigating Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Riomaggiore Maps 2025 | Village & Hiking Trail Maps"
+      "en": "Navigating Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Detailed maps of Riomaggiore village, hiking trails to Manarola, Via dell'Amore, and surrounding areas. Navigate with confidence."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore maps",
-        "village map",
-        "hiking trail maps",
-        "via dell'amore map",
-        "navigation"
-      ]
+      "en": "Maps tell lies by flattening the vertical. Riomaggiore is a three-dimensional village where distance matters less than elevation. Understanding its geography is understanding how to move through it."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Orientati",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Navigate Riomaggiore with Ease",
-        "it": "Mappe e Orientamento a Riomaggiore",
-        "de": "Orientierung in Riomaggiore leicht gemacht"
-      },
-      "subtitle": {
-        "en": "Detailed maps of the village streets, hiking trails, viewpoints, and key locations to help you explore every corner of Riomaggiore.",
-        "it": "Mappe interattive, cartografie dei sentieri, planimetrie dei villaggi e guide geografiche per esplorare ogni angolo delle Cinque Terre senza perderti.",
-        "de": "Detaillierte Karten der Dorfstraßen, Wanderwege, Aussichtspunkte und wichtigen Standorte, damit Sie jeden Winkel Riomaggiorres erkunden können. Als gebürtiger Ligurier stelle ich Ihnen präzise Orientierungshilfen zur Verfügung."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Maps",
-            "it": "Mappe Sentieri"
-          },
-          "url": {
-            "en": "#maps",
-            "it": "#sentieri"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Scarica PDF"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "#download"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Reading<br/>the Village",
+      "subtitle": "Standard maps make Riomaggiore look simple: a main street, a harbor, some climbing alleys. The truth is vertical. Mastering this village means thinking in three dimensions—and knowing which stairs go where.",
+      "badge": "Navigation & Maps",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Vertical Truth",
+      "quote": "Google Maps will tell you a destination is 200 meters away. It won't tell you that those 200 meters involve 150 stairs. This village defeats navigation apps by existing in dimensions they don't measure.",
+      "content": [
+        "**Forget horizontal distance**. What matters in Riomaggiore is vertical distance. A restaurant that looks close on a map might require a ten-minute climb. Another that seems far might be reached by a level walkway.",
+        "**The village has layers**. Harbor level. Main street level. Church level. Castle level. Each layer connects to the others by stairs, some well-marked, some hidden in doorways that look private. Learning these connections is learning the village.",
+        "**Addresses are approximate**. Italian village addresses don't work like city addresses. Buildings have numbers, but people give directions by landmarks: 'past the blue door,' 'below the church,' 'where the old pharmacy was.'",
+        "**Lost is often better**. The village is small enough that you cannot be truly lost—eventually every path reaches the harbor or the main street. Getting lost often reveals the best views, the quietest corners, the spots tourists don't find."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Map Resources",
-        "it": "Tipologie di Mappe",
-        "de": "Kartenressourcen"
-      },
-      "title": {
-        "en": "Available Maps",
-        "it": "Strumenti di Navigazione",
-        "de": "Verfügbare Karten"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "zone",
+      "items": [
         {
-          "icon": "map",
-          "title": {
-            "en": "Village Map",
-            "it": "Mappe Sentieri"
-          },
-          "description": {
-            "en": "Detailed street map showing all lanes, staircases, restaurants, shops, and viewpoints",
-            "it": "Rete completa dei 120 km di sentieri con difficoltà, tempi di percorrenza, dislivelli, punti d'acqua."
-          }
+          "id": 1,
+          "name": "The Harbor Zone",
+          "category": "Village Geography",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the village meets the sea—fishing boats, swimming access, and the restaurants that draw the most visitors.",
+          "description": "The harbor is Riomaggiore's public heart. By morning, fishing boats go out. By midday, swimmers take over the rocky platforms. By evening, the harbor-side restaurants fill with diners watching the light change. Access from the main street involves a short tunnel, one of several that punch through the rock this village is built on.",
+          "giuliaComment": "The harbor looks like one place but it's actually several. The boat slips are working areas—don't sit on the concrete walls where fishermen need to work. The swimming rocks are shared space—locals and tourists together. The restaurant terraces are tourist space—we don't eat there unless someone else is paying.",
+          "signature": "Where the village faces the sea"
         },
         {
-          "icon": "hiking-boot",
-          "title": {
-            "en": "Hiking Trail Maps",
-            "it": "Planimetrie Villaggi"
-          },
-          "description": {
-            "en": "Via dell'Amore, route to Manarola, sanctuary trail, and vineyard paths with difficulty levels",
-            "it": "Mappe dettagliate dei 5 borghi con punti di interesse, ristoranti, servizi, stazioni, spiagge."
-          }
+          "id": 2,
+          "name": "Via Colombo",
+          "category": "Main Artery",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The 'main street' that isn't a street at all—a tunnel-like passage following the underground river's path.",
+          "description": "Via Colombo runs from the train station to near the harbor, following the valley floor where the Rio Major once flowed openly. Shops line both sides—gelato, wine, souvenirs, focaccia. It's narrow enough that crowds make passage slow in peak season. Stairs branch off in both directions, climbing to the village's upper layers.",
+          "giuliaComment": "I avoid Via Colombo between 10am and 6pm in summer. It's not unpleasant—just crowded. The shops there are fine for what they are. But everything Via Colombo has, the side alleys also have, with fewer people. Learn the alternatives.",
+          "signature": "Where commerce meets passage"
         },
         {
-          "icon": "train",
-          "title": {
-            "en": "Transportation Map",
-            "it": "Trasporti Pubblici"
-          },
-          "description": {
-            "en": "Train station location, ferry dock, parking areas, and connections to other villages",
-            "it": "Mappa ferroviaria con orari, traghetti stagionali, bus locali, collegamenti regionali."
-          }
-        },
-        {
-          "icon": "camera",
-          "title": {
-            "en": "Photo Spot Map",
-            "it": "Parcheggi e Accessi"
-          },
-          "description": {
-            "en": "Best viewpoints and photography locations marked with optimal times of day",
-            "it": "Dove lasciare l'auto, ZTL, parcheggi a pagamento, navette, aree sosta camper."
-          }
-        },
-        {
-          "icon": "utensils",
-          "title": {
-            "en": "Restaurant Locations",
-            "it": "Spiagge e Balneazione"
-          },
-          "description": {
-            "en": "All dining options mapped by type: seafood, pizza, wine bars, gelato, cafes",
-            "it": "Mappa delle spiagge, calette, punti di accesso al mare, piattaforme per tuffi, aree snorkeling."
-          }
-        },
-        {
-          "icon": "building",
-          "title": {
-            "en": "Points of Interest",
-            "it": "Punti Panoramici"
-          },
-          "description": {
-            "en": "Churches, castle, harbor, swimming areas, and historic sites clearly marked",
-            "it": "I migliori spot fotografici, terrazze panoramiche, belvedere, orari di luce ottimale."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Plan Your Route",
-        "it": "Il Territorio in Numeri",
-        "de": "Präzise Orientierung für deutsche Reisende"
-      },
-      "description": {
-        "en": "Use maps together with hiking guides and weather information for the best experience."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Hiking Trails"
-          },
-          "url": {
-            "en": "/en/riomaggiore/hiking"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Weather Info"
-          },
-          "url": {
-            "en": "/en/riomaggiore/weather"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Upper Village",
+          "category": "Residential Heights",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where residents actually live—above the tourist zone, quieter, with views that reward the climb.",
+          "description": "Above the church, the stairs continue upward into residential territory. Fewer tourists venture here, deterred by the climb. The streets narrow. Laundry hangs between buildings. Gardens spill from terraces. This is where the village breathes—where children play, where neighbors talk, where the rhythm isn't dictated by tourism.",
+          "giuliaComment": "I live in the upper village. Not because I can't afford harbor-level, but because up here is where the village still feels like a village. The views are better anyway. And I've never waited in a stair-traffic jam going home.",
+          "signature": "Where the village lives"
         }
       ],
-      "subtitle": {
-        "de": "Als Senior Editor mit jahrzehntelanger Erfahrung in der Dokumentation ligurischer Küstengeografie"
-      },
-      "content": {
-        "de": "Nach dreißig Jahren der Kartenerstellung für die Region Cinque Terre verstehe ich die Bedürfnisse deutscher Reisender nach präzisen, verlässlichen Orientierungshilfen. Riomaggiore ist kein gewöhnliches Dorf – seine vertikale Architektur und verwinkelten Gassen erfordern sorgfältige Navigation.\n\nDie **Via Colombo** bildet das Rückgrat des Dorfes und führt Sie von der Marina bis zum Bahnhof. Hier finden Sie Te la do io la merenda für die authentischste Focaccia der Region. Die **Marina von Riomaggiore** erreichen Sie über eine steile Treppe – planen Sie 10-15 Minuten vom Hauptplatz ein.\n\nFür Wanderer ist der **Sentiero Azzurro** der Hauptweg nach Manarola (derzeit 90 Minuten über den Bergweg, da Via dell'Amore bis 2025 geschlossen ist). Der **Riomaggiore Sonnenuntergangsplatz** liegt 20 Gehminuten oberhalb des Dorfes – folgen Sie der Beschilderung \"Cimitero\".\n\n**Praktische Orientierungshilfen:**\n- GPS-Koordinaten Bahnhof: 44.1009°N, 9.7385°E\n- Höhenunterschied Marina-Bahnhof: 45 Meter\n- Entfernung Bahnhof-Dorfzentrum: 300 Meter\n- Parkplatz Via Telemaco Signorini: 5 EUR/Tag (2024)"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Stair Strategy",
+          "quote": "There's no avoiding stairs in Riomaggiore. The question is when to climb them. Morning legs are fresh—save the highest destinations for early. Evening legs are tired—choose harbor-level activities. Midday, during siesta, isn't the time for major climbs."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Navigation",
+      "quote": "The best navigation tool in Riomaggiore isn't an app. It's spatial awareness—understanding that you're moving through a three-dimensional puzzle where the shortest route and the easiest route are rarely the same.",
+      "content": [
+        "**The train station is middle height**. From there, you can go down to the harbor or up to the church and castle. This means most excursions involve either a climb at the start or a climb at the end.",
+        "**Tunnels connect layers**. The passage to the harbor is the obvious one, but others exist. Some are marked, some are doorways in walls that look private. If you see locals disappearing into what looks like a building, it might be a shortcut.",
+        "**Dead ends are common**. Not every ascending path reaches the top. Some stairs end at private doors. Some paths circle back. Part of learning the village is learning which routes work and which don't.",
+        "**Signs are suggestions**. The village has official signage pointing to major destinations, but these often show the longest, most accessible route rather than the fastest. Locals know shortcuts that signs don't indicate."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "navigation",
+      "items": [
+        {
+          "id": 4,
+          "name": "Station to Harbor",
+          "category": "Essential Routes",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The path every visitor walks—and the variations that make it easier or more interesting.",
+          "description": "The direct route goes right on Via Colombo, through the shopping passage, and down to the harbor. Takes about five minutes. But alternatives exist: the upper path via the church offers views instead of shops; the lower path via the old tunnel is shadier and cooler. Each has advantages depending on time, weather, and tolerance for stairs.",
+          "giuliaComment": "I take the upper path in morning, when the light is good and my legs are fresh. I take the tunnel path in afternoon heat. I only take Via Colombo when I need to buy something. There's no 'best' route—there's the right route for the moment.",
+          "signature": "Where choice improves the journey"
+        },
+        {
+          "id": 5,
+          "name": "To the Castle",
+          "category": "Viewpoint Access",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The climb to Riomaggiore's medieval fortress—worth the effort for the views it commands.",
+          "description": "From the church of San Giovanni Battista, steep stairs continue upward to the castle ruins. It's about a 15-minute climb depending on pace and fitness. The views expand with each switchback—first the harbor appears, then the coast in both directions, finally the Mediterranean stretching to the horizon.",
+          "giuliaComment": "Time the castle for late afternoon when the light softens and the heat breaks. Bring water—there's nothing at the top. The last section is steeper than it looks. But the view makes you forget the climb. That's always been true here.",
+          "signature": "Where effort earns panorama"
+        },
+        {
+          "id": 6,
+          "name": "Via dell'Amore Start",
+          "category": "Trail Access",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Finding the famous coastal path—and understanding its current status.",
+          "description": "The Via dell'Amore begins at the southern end of the village, past the harbor. A signed path leads to the official entrance. But here's the reality: the path is often closed for repairs after rockfalls. Check status before planning around it. Alternative routes to Manarola exist through the terraces, though they're longer and more demanding.",
+          "giuliaComment": "People build entire trips around the Via dell'Amore and arrive to find it closed. I feel bad for them. The path is famous, but it's also fragile. If it's closed, take the upper trail instead—harder but more beautiful. The famous path is actually the easy option.",
+          "signature": "Where fame meets fragility"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Getting Lost Strategy",
+          "quote": "If you're lost in Riomaggiore, go downhill until you hit something recognizable, then restart. The harbor is always at the bottom. Via Colombo is always in the middle. No wrong turn here is more than ten minutes from correction."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Learning by Walking",
+      "content": [
+        "The best map of Riomaggiore is the one you make in your head—the mental model that develops from walking every path, taking every stair, getting lost and finding your way back.",
+        "Paper maps and digital apps help with orientation, but they can't teach you how the village works. That knowledge comes only from feet on stone, from wrong turns that become discoveries, from the gradual accumulation of spatial understanding.",
+        "Give yourself time to learn. The village rewards those who explore without agenda, who let curiosity lead them up unknown stairs, who trust that every path leads somewhere worth going."
+      ],
+      "buttons": [
+        { "text": "Getting Here", "url": "/en/riomaggiore/getting-here", "variant": "primary" },
+        { "text": "Things to Do", "url": "/en/riomaggiore/things-to-do", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "maps"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.846Z"
+  "updated_at": "2026-01-05T18:15:00.000Z"
 }

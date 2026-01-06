@@ -7,198 +7,152 @@
     "it": "/it/manarola/maps"
   },
   "title": {
-    "en": "Manarola Maps & Navigation",
-    "de": "Karten",
-    "fr": "Cartes",
-    "it": "Mappe"
+    "en": "Navigating Manarola | Cinque Terre Dispatch"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Manarola Maps 2025 | Village Map & Hiking Trails"
+      "en": "Navigating Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Interactive and downloadable maps of Manarola. Village streets, hiking trails, points of interest, and transportation."
-    },
-    "keywords": {
-      "en": [
-        "Manarola map",
-        "village map",
-        "hiking trails map",
-        "Cinque Terre navigation"
-      ]
+      "en": "The village of Manarola defies maps—a vertical maze of stairs, alleys, and passages that rewards exploration over navigation. Here's what you need to know to find your way."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Orientati",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Maps & Navigation",
-        "it": "Mappe e Orientamento a Manarola",
-        "de": "Karten & Navigation"
-      },
-      "subtitle": {
-        "en": "Navigate Manarola with detailed maps. Find hiking trails, restaurants, viewpoints, and all major attractions.",
-        "it": "Mappe interattive, cartografie dei sentieri, planimetrie dei villaggi e guide geografiche per esplorare ogni angolo delle Cinque Terre senza perderti.",
-        "de": "Orientieren Sie sich in Manarola mit detaillierten Karten. Finden Sie Wanderwege, Restaurants, Aussichtspunkte und alle wichtigen Sehenswürdigkeiten des spektakulärsten Dorfes der Cinque Terre."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "View Maps",
-            "it": "Mappe Sentieri"
-          },
-          "url": {
-            "en": "#maps",
-            "it": "#sentieri"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Scarica PDF"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#download"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "A Village<br/>Without Streets",
+      "subtitle": "Manarola wasn't designed to be navigated—it was designed to be lived in. The medieval builders didn't think about tourists with maps. They thought about wine, fish, and defense. Understanding how to move through the village means understanding why it's shaped the way it is.",
+      "badge": "Navigation Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Vertical Logic",
+      "quote": "GPS will fail you in Manarola. The narrow alleys confuse satellites. The vertical relationships defeat two-dimensional thinking. But if you understand the village's logic—how it was built and why—finding your way becomes intuitive.",
+      "content": [
+        "**The village is vertical, not horizontal**. Distances mean nothing here; elevation changes mean everything. What looks close on a map might be fifty stairs away. What looks far might be a quick descent. Think up and down, not left and right.",
+        "**There are three main levels**. The station sits at the top. The village center—church, main street, shops—sits in the middle. The harbor sits at the bottom. Everything connects through stairs and sloping passages.",
+        "**The main street is Via Birolli**. This road runs from the station area down through the village to the harbor. It's the spine that everything else connects to. If you're lost, find Via Birolli.",
+        "**The alleys have logic**. The narrow passages between buildings weren't random—they channel sea breezes upward, provide shade, and create defensible spaces. Follow them and you'll understand medieval urban design."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Navigation",
-        "it": "Tipologie di Mappe",
-        "de": "Orientierungshilfen"
-      },
-      "title": {
-        "en": "Map Resources",
-        "it": "Strumenti di Navigazione",
-        "de": "Kartografische Ressourcen"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "zone",
+      "items": [
         {
-          "icon": "map",
-          "title": {
-            "en": "Village Map",
-            "it": "Mappe Sentieri"
-          },
-          "description": {
-            "en": "Detailed street map showing restaurants, hotels, shops, and the main piazza.",
-            "it": "Rete completa dei 120 km di sentieri con difficoltà, tempi di percorrenza, dislivelli, punti d'acqua."
-          }
+          "id": 1,
+          "name": "The Station Area",
+          "category": "Upper Village",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the train spits you out—the starting point for most visitors, connected to the village by tunnel and steps.",
+          "description": "The station platform sits inside the cliff. You exit through a tunnel that opens onto a small piazza. From here, you descend into the village proper via stairs or the main path. This area has a few accommodations and the start of the trail to Corniglia, but most village life happens below.",
+          "giuliaComment": "The station was carved into the mountain when the railway came. It's practical, not beautiful. Get through it quickly—the real village is down the hill. But note the departure board; you'll need it later.",
+          "signature": "Where arrival begins descent"
         },
         {
-          "icon": "compass",
-          "title": {
-            "en": "Hiking Trails Map",
-            "it": "Planimetrie Villaggi"
-          },
-          "description": {
-            "en": "All trails from Manarola including Via dell'Amore and routes to other villages.",
-            "it": "Mappe dettagliate dei 5 borghi con punti di interesse, ristoranti, servizi, stazioni, spiagge."
-          }
+          "id": 2,
+          "name": "The Village Center",
+          "category": "Heart of Manarola",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "San Lorenzo church, the main shops, the small piazza—where village life concentrates and visitors pass through.",
+          "description": "The church of San Lorenzo marks the center. Around it cluster the alimentari, the wine shops, the cafés where locals have morning coffee. Via Birolli runs through here, lined with small businesses serving both tourists and residents. The piazza offers the only flat ground in the village.",
+          "giuliaComment": "This is where I run into everyone I know. Morning coffee at the bar, quick shopping at the alimentari, checking in with neighbors. It's the village's living room. Tourists pass through; locals linger.",
+          "signature": "Where the village gathers"
         },
         {
-          "icon": "camera",
-          "title": {
-            "en": "Photo Spots Map",
-            "it": "Trasporti Pubblici"
-          },
-          "description": {
-            "en": "Best viewpoints and photography locations marked with optimal timing.",
-            "it": "Mappa ferroviaria con orari, traghetti stagionali, bus locali, collegamenti regionali."
-          }
-        },
-        {
-          "icon": "train",
-          "title": {
-            "en": "Transportation Map",
-            "it": "Parcheggi e Accessi"
-          },
-          "description": {
-            "en": "Train station location, parking areas, and bus stops clearly marked.",
-            "it": "Dove lasciare l'auto, ZTL, parcheggi a pagamento, navette, aree sosta camper."
-          }
-        },
-        {
-          "icon": "restaurant",
-          "title": {
-            "en": "Dining & Shopping",
-            "it": "Spiagge e Balneazione"
-          },
-          "description": {
-            "en": "All restaurants, cafes, wine bars, and shops pinpointed on interactive map.",
-            "it": "Mappa delle spiagge, calette, punti di accesso al mare, piattaforme per tuffi, aree snorkeling."
-          }
-        },
-        {
-          "icon": "beach",
-          "title": {
-            "en": "Swimming Areas Map",
-            "it": "Punti Panoramici"
-          },
-          "description": {
-            "en": "Rocky beaches and swimming spots with accessibility information.",
-            "it": "I migliori spot fotografici, terrazze panoramiche, belvedere, orari di luce ottimale."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore Manarola",
-        "it": "Il Territorio in Numeri",
-        "de": "Orientierung in Manarolaländlichster Topografie"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Getting Here"
-          },
-          "url": {
-            "en": "/en/manarola/getting-here"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Harbor",
+          "category": "The Waterfront",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The famous view, the swimming rocks, the boat ramp—where the village meets the sea and photographers congregate.",
+          "description": "The harbor is tiny—a concrete ramp, some rocks, a few moored boats. This is where the famous photograph happens, where people swim, where boats depart for tours. It gets extremely crowded at sunset. The rocks around the harbor provide swimming access and sunning spots.",
+          "giuliaComment": "The harbor was working infrastructure for centuries—boats launched here, fish landed here. Now it's mostly a stage for photographs. I still swim here at 7am when it's empty, which is how the harbor should be experienced.",
+          "signature": "Where the village ends"
         }
       ],
-      "eyebrow": {
-        "de": "Navigation"
-      },
-      "subtitle": {
-        "de": "Praktische Navigationshilfe für das vertikale Dorf"
-      },
-      "content": {
-        "de": "Als gebürtiger La Spezianer kenne ich jede Gasse Manarolaäußerst präzise. Die **Via di Mezzo** bildet die Hauptader des Dorfes und führt Sie vom **Bahnhof Manarola** hinab zum ikonischen **Hafen von Manarola**.\n\nDie wichtigste Orientierungsregel: Manarola ist in drei Ebenen gegliedert. Die obere Ebene umfasst die **Kirche San Lorenzo** und den **Friedhof von Manarola** – beide bieten spektakuläre Panoramablicke. Die mittlere Ebene beherbergt das Geschäftszentrum mit Hotels wie **Ca' D'Andrean** und **Hotel Marina Piccola**. Die untere Ebene mündet in den berühmten Hafen.\n\n**Professioneller Tipp:** Die steilen Treppen der **Via Birolli** führen direkt zum **Aussichtspunkt Punta Bonfiglio** – dem meistfotografierten Panorama der Cinque Terre. Planen Sie 15 Minuten Aufstieg vom Hafen."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Upper Village Secret",
+          "quote": "Most tourists descend from the station and never climb back up beyond Via Birolli. But above the main street, the village continues—quieter streets, gardens with views, the cemetery that overlooks the sea. This upper village is where residents actually live. It rewards exploration."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Key Routes",
+      "quote": "You don't need a detailed map of Manarola—you need to understand the main routes and let the village reveal itself from there.",
+      "content": [
+        "**Station to Harbor**: Via Birolli, the main descent. Five minutes without luggage, ten with. The most direct route, the most crowded.",
+        "**Station to Trail (Corniglia)**: Turn right from the station area, follow signs. The Sentiero Azzurro departs toward Corniglia from here.",
+        "**Harbor to Viewpoint**: Follow the path past the swimming rocks toward the promontory. This is where the famous photograph is taken.",
+        "**Via dell'Amore start**: From the harbor area, follow signs toward Riomaggiore. Note: this trail remains mostly closed due to ongoing repairs."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "navigation",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Stairs Reality",
+          "category": "Practical Navigation",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Stairs are how the village moves. Accept them or struggle against them—but you cannot avoid them.",
+          "description": "Shortcuts in Manarola usually mean more stairs, not fewer. The narrow passages between buildings often involve steps. Reaching accommodations almost always means climbing. Coming and going with luggage will involve wrestling bags up and down stone steps. This is the reality.",
+          "giuliaComment": "I've lived here my whole life, and I climb stairs dozens of times daily. My legs are strong; visitors' legs are usually not. Allow more time than you think, rest when needed, and accept that elevation is part of being here.",
+          "signature": "When steps become life"
+        },
+        {
+          "id": 5,
+          "name": "Getting Lost Intentionally",
+          "category": "Exploration Strategy",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The best way to know Manarola is to wander without purpose—every alley leads somewhere interesting.",
+          "description": "Put away the phone. Choose an alley and follow it. Climb stairs that look promising. The village is small enough that you cannot get truly lost—Via Birolli is always findable, the sea is always visible below. The alleys reveal details that planned routes miss: carved doorways, garden glimpses, unexpected views.",
+          "giuliaComment": "When friends visit, I tell them: wander first, map later. The village reveals itself to those who explore without destination. You'll find the main sites eventually. But you'll only find the hidden corners if you let yourself discover them.",
+          "signature": "When wandering becomes discovery"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Timing Navigation",
+          "quote": "Where you can go depends on when you go. The harbor is packed at sunset but empty at dawn. The main street is a bottleneck at midday but peaceful at 7am. Navigation in Manarola is as much about timing as about routes."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Map Is Not the Territory",
+      "content": [
+        "No map captures Manarola accurately. The two-dimensional representation cannot convey the vertical relationships, the narrow passages, the way light and crowd patterns change through the day.",
+        "The best navigation tool is attention. Notice where locals walk. Notice which paths are crowded and which are empty. Notice the stairs that seem to lead nowhere interesting—they often lead somewhere wonderful.",
+        "Learn three things: how to get from station to harbor, how to find your accommodation, and how to return to the station. Everything else will reveal itself through exploration."
+      ],
+      "buttons": [
+        { "text": "Getting Here", "url": "/en/manarola/getting-here", "variant": "primary" },
+        { "text": "Things to Do", "url": "/en/manarola/things-to-do", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "maps"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.839Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

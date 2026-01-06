@@ -7,187 +7,163 @@
     "it": "/it/riomaggiore/faq"
   },
   "title": {
-    "en": "Riomaggiore FAQ - Common Questions Answered",
-    "de": "FAQ",
-    "fr": "FAQ",
-    "it": "FAQ"
+    "en": "Questions About Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "faq",
   "seo": {
     "title": {
-      "en": "Riomaggiore FAQ 2025 | Travel Questions Answered"
+      "en": "Questions About Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Get answers to common questions about visiting Riomaggiore from Via dell'Amore status to best viewpoints, parking, and local tips."
-    },
-    "keywords": {
-      "en": [
-        "riomaggiore faq",
-        "travel questions",
-        "via dell'amore open",
-        "visitor information",
-        "tips"
-      ]
+      "en": "The questions visitors ask are often the wrong questions. Here are the answers to what you should be asking about Riomaggiore—and what the village teaches those who listen."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Riomaggiore",
-        "it": "Informazioni Utili",
-        "de": "Riomaggiore"
-      },
-      "title": {
-        "en": "Your Questions Answered",
-        "it": "Domande Frequenti su Riomaggiore",
-        "de": "Häufig Gestellte Fragen"
-      },
-      "subtitle": {
-        "en": "Everything you need to know about visiting Riomaggiore from practical travel tips to local insights.",
-        "it": "Tutte le risposte che cerchi per pianificare la tua visita: trasporti, alloggi, sentieri, costi, periodi migliori e consigli pratici.",
-        "de": "Alles, was Sie für Ihren Besuch in Riomaggiore wissen müssen – von praktischen Reisetipps bis hin zu lokalen Insiderinfos aus erster Hand."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Read FAQs",
-            "it": "Vedi FAQ"
-          },
-          "url": {
-            "en": "#faq",
-            "it": "#faq"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Overview",
-            "it": "Guida Completa"
-          },
-          "url": {
-            "en": "/en/riomaggiore/overview",
-            "it": "/it/riomaggiore"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "What You<br/>Should Know",
+      "subtitle": "Every visitor arrives with questions. Some are practical—train schedules, restaurant recommendations. Others are harder to answer: How do I see the real village? When does the crowd thin? What am I missing?",
+      "badge": "Questions & Answers",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Right Questions",
+      "quote": "The best question isn't 'Where should I go?' It's 'What should I pay attention to?' The village reveals itself to those who notice—the light changing on stone, the rhythm of fishermen's work, the smell of basil from a window above.",
+      "content": [
+        "**Most FAQs answer logistics**. We'll answer those too—you need to know train schedules and restaurant hours. But we also want to answer the questions that matter more: how to experience the village, not just visit it.",
+        "**The village is patient**. It has been here for eight centuries and will be here long after your visit. The questions you arrive with may not be the questions you leave with. Let Riomaggiore teach you what to ask.",
+        "**Practical knowledge enables presence**. Once you understand how to get here, where to stay, when to eat, you can stop worrying about logistics and start simply being in the place.",
+        "**Local wisdom is free**. Ask the shopkeeper about the weather. Ask the fisherman about the morning catch. Ask the bartender about the wine. The answers will teach you more than any guidebook."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Common Questions",
-        "it": "Prima della Visita",
-        "de": "Häufige Fragen"
-      },
-      "title": {
-        "en": "Essential Information",
-        "it": "Pianificazione del Viaggio",
-        "de": "Wesentliche Informationen"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "faq",
+      "items": [
         {
-          "icon": "heart",
-          "title": {
-            "en": "Is Via dell'Amore Open?"
-          },
-          "description": {
-            "en": "Check current status as it closes periodically. Alternative high route available when closed"
-          }
+          "id": 1,
+          "name": "How do I get to Riomaggiore?",
+          "category": "Logistics",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The answer depends on where you're coming from—but the short version is: take the train.",
+          "description": "From La Spezia, trains run every 15-30 minutes and take just 12 minutes. Buy a Cinque Terre Card (€16/day) which includes unlimited train travel and trail access. From major Italian cities, take a high-speed train to La Spezia Centrale, then connect to the regional train.",
+          "giuliaComment": "Driving is possible but pointless. Parking is expensive, spaces are scarce, and you can't bring your car into the village anyway. Take the train. It's easier, cheaper, and the views from the window are part of the experience.",
+          "signature": "12 minutes from La Spezia, a world away from everywhere else"
         },
         {
-          "icon": "parking",
-          "title": {
-            "en": "Where to Park?"
-          },
-          "description": {
-            "en": "Limited parking above village. Best to park in La Spezia and take the train (10 min)"
-          }
+          "id": 2,
+          "name": "Is the Via dell'Amore open?",
+          "category": "The Famous Path",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The honest answer: it's complicated, and you should check before planning around it.",
+          "description": "The Via dell'Amore has been closed for extended periods due to rockfall and safety concerns. Partial reopenings happen, full closures happen, and the status changes. Always check the official Cinque Terre park website before your visit. Alternative trails to Manarola exist and are often more rewarding.",
+          "giuliaComment": "The Via dell'Amore is famous, but it's not the only beautiful path from Riomaggiore. Don't cancel your trip because of a closure. Don't be disappointed if you can't walk it. The village offers plenty without the famous path.",
+          "signature": "Check the status, but don't build your trip around it"
         },
         {
-          "icon": "clock",
-          "title": {
-            "en": "How Long to Visit?"
-          },
-          "description": {
-            "en": "2-3 hours minimum for village. Full day if hiking to Manarola or exploring thoroughly"
-          }
-        },
-        {
-          "icon": "camera",
-          "title": {
-            "en": "Best Photo Spots?"
-          },
-          "description": {
-            "en": "Harbor area, Via dell'Amore entrance, castle viewpoint, and sunset from sanctuary"
-          }
-        },
-        {
-          "icon": "umbrella-beach",
-          "title": {
-            "en": "Are There Beaches?"
-          },
-          "description": {
-            "en": "Rocky swimming areas, not sandy beaches. Harbor has small platforms for sunbathing"
-          }
-        },
-        {
-          "icon": "wallet",
-          "title": {
-            "en": "Do I Need Cash?"
-          },
-          "description": {
-            "en": "Cards widely accepted but bring cash for small shops, cafes, and Cinque Terre trail pass"
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Need More Information?",
-        "it": "Consigli Pratici",
-        "de": "Praktische Reisetipps"
-      },
-      "description": {
-        "en": "Explore detailed guides and local insights for planning your perfect visit."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Local Insights"
-          },
-          "url": {
-            "en": "/en/riomaggiore/insights"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Getting Here"
-          },
-          "url": {
-            "en": "/en/riomaggiore/getting-here"
-          },
-          "variant": "secondary"
+          "id": 3,
+          "name": "Where should I eat?",
+          "category": "Dining",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+          "intro": "It depends what you want—quick and authentic, romantic and refined, or something in between.",
+          "description": "For fine dining: Rio Bistrot (Michelin-recognized, reserve days ahead). For romance: Dau Cila (seaside terrace, book ahead). For authentic street food: Te la do io la merenda (focaccia that locals line up for). For fried fish: Tutti Fritti or Il Pescato Cucinato. For wine: Vertical Wine Bar.",
+          "giuliaComment": "The best meal in Riomaggiore might not be at a restaurant. It might be focaccia from a window, eaten on harbor rocks while watching the boats. Or a cone of fried fish at sunset. Match the meal to the moment.",
+          "signature": "From Michelin to paper cones, all of it good"
         }
       ],
-      "eyebrow": {
-        "de": "Detaillierte Antworten"
-      },
-      "subtitle": {
-        "de": "Als gebürtiger Ligurer beantworte ich Ihnen die wichtigsten Fragen für einen perfekten Riomaggiore-Besuch."
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Reservation Reality",
+          "quote": "In Riomaggiore, restaurant reservations are made by phone, not app. Call directly—often days ahead for dinner, especially at Rio Bistrot or Dau Cila during summer. The village runs on personal relationships, not booking systems."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Timing & Crowds",
+      "quote": "The same village can feel either overwhelmed or intimate depending on when you arrive. Timing isn't just practical—it determines what village you experience.",
+      "content": [
+        "**When to visit**: May and September offer the best combination of good weather and manageable crowds. July-August brings heat and tourists. October-November brings harvest and quiet. Winter is cold but authentic.",
+        "**When to arrive each day**: Before 9am or after 5pm transforms the experience. Midday is the peak crush. The early bird doesn't just beat the worm—they get the village to themselves.",
+        "**How long to stay**: A few hours sees the surface. A full day allows exploration. A night reveals the evening village. Several nights teach you the rhythm. A week makes you almost local.",
+        "**The crowd question**: Yes, it's crowded in summer. No, you can't avoid it entirely. But you can work around it—arrive early, stay late, explore the upper village, accept that tourism is part of modern Riomaggiore."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "faq",
+      "items": [
+        {
+          "id": 4,
+          "name": "What should I wear?",
+          "category": "Practical",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The village is vertical, the paths are stone, and no choice you make will feel wrong if you can walk comfortably.",
+          "description": "Comfortable walking shoes are non-negotiable—the entire village is stairs. Swimwear if you plan to swim (you should). Layers because weather changes. Sun protection because the Mediterranean sun is stronger than it seems. Church visits require modest dress (covered shoulders and knees).",
+          "giuliaComment": "I see tourists in impractical shoes struggling up stairs every day. Then I see the same tourists limping at evening. Your feet are your transportation here. Treat them well.",
+          "signature": "Comfort over fashion, always"
+        },
+        {
+          "id": 5,
+          "name": "Can I swim in Riomaggiore?",
+          "category": "Swimming",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Yes, but not on a beach. Riomaggiore has no sand—just rocks, ladders, and some of the clearest water on the Italian coast.",
+          "description": "The harbor area offers swimming access via rocky ledges and metal ladders. The water is clean, clear, and often cold. Water shoes help on the rocks. No lifeguards, no amenities, no hand-holding. Just the sea, the way locals have swum for centuries.",
+          "giuliaComment": "Swimming in Riomaggiore is not comfortable. It's not convenient. It's also one of the best swims you'll ever have. Enter the water slowly, let your body adjust, and understand why people keep coming back.",
+          "signature": "No sand, no problem"
+        },
+        {
+          "id": 6,
+          "name": "How do I avoid the crowds?",
+          "category": "Experience",
+          "village": "Riomaggiore",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "You don't avoid them entirely. You learn to work around them—and to find the spaces they don't go.",
+          "description": "Arrive before 9am or after 5pm. Explore the upper village where fewer tourists venture. Visit off-season if your schedule allows. Accept that some crowding is inevitable in summer. Focus on quality of attention, not absence of other people.",
+          "giuliaComment": "The tourists follow each other—from station to main street to harbor to station. Step off that path and you're alone. Walk up instead of down. Turn into the narrow alleys. The quiet is closer than you think.",
+          "signature": "The crowd follows the crowd—step aside"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Cash Question",
+          "quote": "Many restaurants and shops accept cards now. But cash remains useful for small purchases, street food, and some traditional shops. ATMs exist in the village but can run out during busy periods. Bring some euros."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Question That Matters",
+      "content": [
+        "The question everyone asks is 'What should I do in Riomaggiore?' The better question is 'How should I be in Riomaggiore?'",
+        "The answer: slowly, attentively, with patience for the village's rhythms and respect for its residents. The best experiences here don't come from checking boxes—they come from presence.",
+        "Ask your questions. Get your answers. Then put away the guidebook and let the village teach you what you didn't know to ask."
+      ],
+      "buttons": [
+        { "text": "Plan Your Visit", "url": "/en/riomaggiore/things-to-do", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/riomaggiore/getting-here", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "riomaggiore",
+    "village_id": "riomaggiore",
     "page_type": "faq"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.845Z"
+  "updated_at": "2026-01-05T18:00:00.000Z"
 }

@@ -7,183 +7,152 @@
     "it": "/it/corniglia/things-to-do"
   },
   "title": {
-    "en": "Things to Do in Corniglia",
-    "de": "Aktivitäten",
-    "fr": "Activités",
-    "it": "Cosa Fare"
+    "en": "Things to Do in Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "things-to-do",
   "seo": {
     "title": {
-      "en": "Things to Do in Corniglia 2025 | Activities & Experiences"
+      "en": "Things to Do in Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Best activities in Corniglia. Hiking, wine tasting, photography, local cuisine, village exploring, and authentic experiences."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia activities",
-        "things to do Cinque Terre",
-        "wine tasting",
-        "hiking"
-      ]
+      "en": "Corniglia isn't about doing things—it's about being somewhere. The activities here are simple: taste wine, walk terraces, watch light change. What matters is slowing down enough to appreciate them."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Corniglia Activities",
-        "it": "Esperienze Uniche",
-        "de": "Corniglia Aktivitäten"
-      },
-      "title": {
-        "en": "Things to Do",
-        "it": "Cosa Fare a Corniglia",
-        "de": "Entdecken Sie Corniglia"
-      },
-      "subtitle": {
-        "en": "Hiking, wine tasting, village exploring, and experiencing authentic local life.",
-        "it": "Trekking panoramici, degustazioni di vino, tour in barca, bagni in mare cristallino, scoperta di borghi medievali. Un paradiso di esperienze tra natura, cultura e tradizione.",
-        "de": "Wandern durch jahrhundertealte Weinberge, Verkostung des berühmten Sciacchetrà-Weins, und authentische ligurische Erlebnisse hoch über dem Mittelmeer."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Explore Activities",
-            "it": "Attività Top"
-          },
-          "url": {
-            "en": "#activities",
-            "it": "#attivita"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Itinerari"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "#itinerari"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "What<br/>Corniglia Offers",
+      "subtitle": "The things to do here aren't attractions to check off—they're the activities that made village life meaningful for centuries: working with wine, walking through terraces, gathering for meals, watching the day end from a terrace above the sea.",
+      "badge": "Activities Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Corniglia Day",
+      "quote": "Visitors ask what to do in Corniglia. The honest answer: less than you're used to, but more meaningfully. The village rewards slowness, attention, and presence over efficiency and coverage.",
+      "content": [
+        "**The activities are elemental**. Wine tasting, terrace walking, meal enjoying, view watching. These aren't novel experiences—they're the things people have always done here, refined over centuries.",
+        "**The pace is different**. You won't fill a day with activities the way you might in a city. Instead, you'll spend time with fewer things, experiencing them more fully. An afternoon wine tasting. An evening dinner. A morning at the viewpoint.",
+        "**The village rewards return visits**. You can't experience everything in one day because there isn't 'everything' to experience—there are rhythms that reveal themselves over time. Dawn versus dusk. Weekday versus weekend. Spring versus fall.",
+        "**The doing is the being**. Walking through terraces isn't getting somewhere—it's experiencing the landscape. Tasting wine isn't consuming product—it's understanding place. The activities are the point, not the means."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Activities",
-        "it": "Esperienze Imperdibili",
-        "de": "Corniglia in Zahlen"
-      },
-      "title": {
-        "en": "Experience Corniglia",
-        "it": "Le Migliori Attività",
-        "de": "Das höchstgelegene Dorf der Cinque Terre"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "activity",
+      "items": [
         {
-          "icon": "stairs",
-          "title": {
-            "en": "Climb the Lardarina",
-            "it": "Trekking sui Sentieri"
-          },
-          "description": {
-            "en": "Conquer the famous 382 steps from the train station. A Cinque Terre rite of passage.",
-            "it": "Percorri il Sentiero Azzurro che collega i 5 villaggi. Viste panoramiche mozzafiato, 120 km di rete sentieristica."
-          }
+          "id": 1,
+          "name": "Wine Tasting",
+          "category": "Essential Experience",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The wines of Corniglia come from terraces you can see from the tasting room—the connection between glass and land is immediate and complete.",
+          "description": "Cantina de Mananan offers guided tastings in a centuries-old cellar. You'll try Cinque Terre DOC whites made from Bosco, Albarola, and Vermentino grapes; you'll understand why Sciacchetrà costs what it does. The explanations connect each wine to specific terraces, specific families, specific traditions.",
+          "giuliaComment": "I grew up drinking wine from our family's cantina. It wasn't special—it was just what we drank. It took leaving to understand how remarkable it is that we make wine here at all, on slopes this steep, with methods this old. The tastings share that understanding.",
+          "signature": "Where terraces become wine"
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Wine Tasting",
-            "it": "Degustazioni Vino"
-          },
-          "description": {
-            "en": "Sample local Vernaccia at village enotecas. Learn about ancient winemaking traditions.",
-            "it": "Assaggia lo Sciacchetrà e i vini DOC locali. Visita le cantine nei terrazzamenti, tour enogastronomici guidati."
-          }
+          "id": 2,
+          "name": "Terrace Walking",
+          "category": "Landscape Immersion",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The paths through the terraces offer perspectives no viewpoint matches—intimate encounters with the dry-stone walls, the vines, the work that sustains this place.",
+          "description": "Beyond the main coastal trail, secondary paths wind through working vineyards. You'll pass farmers repairing walls, encounter tools unchanged for centuries, understand the physical reality of terrace agriculture. These paths aren't marked for tourists—ask locals for directions, respect private property, and walk with attention.",
+          "giuliaComment": "The tourist trails are beautiful but distant from the work. The real terraces are where my neighbors grow grapes, where the walls need repair after every storm, where the harvest happens in September. Ask before entering private land—most families will welcome genuine interest.",
+          "signature": "Where walking becomes understanding"
         },
         {
-          "icon": "hiking",
-          "title": {
-            "en": "Coastal Hiking",
-            "it": "Tour in Barca"
-          },
-          "description": {
-            "en": "Hike to Vernazza or Manarola on spectacular trails. Central location for all routes.",
-            "it": "Ammira i villaggi dal mare, nuota in calette nascoste, esplora grotte. Tour al tramonto con aperitivo."
-          }
-        },
-        {
-          "icon": "camera",
-          "title": {
-            "en": "Photography",
-            "it": "Fotografia"
-          },
-          "description": {
-            "en": "Capture panoramic views from terraces. Vineyard terraces create stunning compositions.",
-            "it": "Cattura i panorami più iconici d'Italia. Alba a Riomaggiore, tramonto a Manarola, vicoli colorati ovunque."
-          }
-        },
-        {
-          "icon": "food",
-          "title": {
-            "en": "Culinary Experience",
-            "it": "Mare e Spiagge"
-          },
-          "description": {
-            "en": "Dine at authentic trattorias. Taste traditional Ligurian recipes at family restaurants.",
-            "it": "Tuffati nelle acque cristalline dell'area marina protetta. Snorkeling, kayak, paddleboard."
-          }
-        },
-        {
-          "icon": "sunset",
-          "title": {
-            "en": "Sunset Views",
-            "it": "Gastronomia Locale"
-          },
-          "description": {
-            "en": "Watch sunset from Belvedere terrace. See the coastline bathed in golden light.",
-            "it": "Pesto, acciughe, focaccia, pesce fresco. Tour gastronomici, corsi di cucina, sagre tradizionali."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Create Your Corniglia Experience",
-        "it": "Quanto Tempo Servire",
-        "de": "Corniglias beste Aktivitäten"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Plan Your Visit"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 3,
+          "name": "Aperitivo Hour",
+          "category": "Daily Ritual",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The hour before dinner when the village pauses—a glass of wine, the changing light, the transition from day to evening.",
+          "description": "Find a terrace between 6 and 8pm. Order a spritz or a glass of local white. Watch the light shift over the sea. This isn't drinking to get drunk—it's drinking to mark time, to participate in the rhythm that every Mediterranean village shares. The aperitivo is a pause, a breath, a reward for the day.",
+          "giuliaComment": "The aperitivo hour is sacred. It's when we transition from work to rest, from day to evening, from individual to community. Visitors often rush to dinner; locals linger at the bar or terrace, letting the hour unfold. Try it. Sit longer than you think you should.",
+          "signature": "Where pausing becomes activity"
         }
       ],
-      "eyebrow": {
-        "de": "Authentische Erlebnisse"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Art of Doing Less",
+          "quote": "Tourism often measures success by coverage: how many villages visited, how many sights photographed. Corniglia offers a different measure: how deeply you experienced one place. An entire day spent tasting wine, walking terraces, eating one meal, watching one sunset—this is not too little. This is enough."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Seasonal Activities",
+      "quote": "What you can do in Corniglia depends on when you come. The village follows agricultural rhythms that tourism can't override—harvest happens when grapes ripen, not when visitors arrive.",
+      "content": [
+        "**September harvest** transforms the village. Families work the terraces from dawn; the smell of fermenting grapes fills the air. Some visitors can participate with advance arrangement. This is Corniglia at its most authentic.",
+        "**Spring wildflowers** cover the terraces in April-May. The walking is ideal—not too hot, the landscape blooming. Wine from previous years fills the cellars; new vines show their first leaves.",
+        "**Summer heat** requires adjustment. Morning and evening are pleasant; midday drives everyone indoors. Swimming at Monterosso, aperitivo in Corniglia—the seasons teach their own rhythms.",
+        "**Winter quiet** offers something different. Many visitors leave; the village belongs to residents again. Some businesses close, but those open offer intimate experiences impossible in high season."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
+        {
+          "id": 4,
+          "name": "Cooking Classes",
+          "category": "Hands-On Learning",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Learning to make pesto or trofie from village cooks—recipes passed through generations, techniques that can't be learned from books.",
+          "description": "Several village families offer cooking lessons, usually in home kitchens. You'll learn to make pesto with mortar and pestle, roll trofie pasta by hand, prepare dishes using garden vegetables. The teaching is informal; the results are dinner. Book well in advance—these aren't commercial operations.",
+          "giuliaComment": "My aunt teaches pesto-making in her kitchen. She learned from her mother, who learned from hers. The recipes aren't secret—they're just ours. Sharing them with visitors who actually want to learn is a kind of generosity we've always practiced.",
+          "signature": "Where cooking becomes culture"
+        },
+        {
+          "id": 5,
+          "name": "Photography Walks",
+          "category": "Visual Exploration",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The village offers light that photographers obsess over—golden hours that transform familiar scenes into extraordinary images.",
+          "description": "Corniglia's elevated position creates lighting conditions that coastal villages lack. Dawn light hits the terraces while the sea below remains in shadow. Sunset backlights the village against the mountains. The same viewpoints look different every hour. Bring your camera, but also bring patience—the best shots require waiting.",
+          "giuliaComment": "Professional photographers visit repeatedly, chasing specific light conditions. They wake before dawn, stay past sunset, return in different seasons. They understand that the photograph isn't the view—it's the view at a specific moment, in specific light, seen by a specific eye.",
+          "signature": "Where light becomes subject"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Nothing Activity",
+          "quote": "The most honest thing to do in Corniglia is nothing. Sit on the terrace. Watch the sea. Let thoughts come and go. Visitors are often uncomfortable with stillness, but stillness is what the village offers that nowhere else can. Try doing nothing. Notice how it feels."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Doing What Matters",
+      "content": [
+        "Corniglia doesn't offer a long list of activities because it doesn't need to. The activities here are the ones that humans have always found meaningful: eating well, drinking good wine, walking through beautiful landscapes, watching the day end.",
+        "The village teaches a kind of simplicity that modern life obscures. Not emptiness—fullness of a different kind. The fullness of attention, of presence, of being somewhere completely rather than rushing to be somewhere else.",
+        "Come prepared to slow down. Come prepared to do less but notice more. Come prepared to find that enough is different from what you thought—and perhaps better."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Restaurants", "url": "/en/corniglia/restaurants", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "things-to-do"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.835Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }

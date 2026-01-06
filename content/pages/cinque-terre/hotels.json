@@ -7,221 +7,318 @@
     "it": "/it/cinque-terre/hotels"
   },
   "title": {
-    "en": "Hotels in Cinque Terre 2025",
-    "de": "Hotels",
-    "fr": "Hôtels",
-    "it": "Hotel"
+    "en": "Luxury Hotels & Boutique Stays in Cinque Terre"
   },
   "page_type": "hotels",
   "seo": {
     "title": {
-      "en": "Cinque Terre Hotels 2025 | Best Accommodation & Boutique Stays"
+      "en": "Best Hotels Cinque Terre | Luxury Stays | Cinqueterre.travel"
     },
     "description": {
-      "en": "Find the perfect hotel in Cinque Terre. Boutique hotels, sea-view rooms, family-run guesthouses, and luxury stays in all five villages."
-    },
-    "keywords": {
-      "en": [
-        "cinque terre hotels",
-        "accommodation",
-        "boutique hotels",
-        "sea view rooms",
-        "monterosso hotels",
-        "vernazza hotels",
-        "best places to stay"
-      ]
+      "en": "Handpicked luxury hotels & boutique accommodations across all five villages. From clifftop elegance to historic charm - find your perfect Cinque Terre base."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Cinque Terre Accommodation",
-        "de": "Unterkünfte",
-        "fr": "Hébergements",
-        "it": "Dove Dormire"
-      },
-      "title": {
-        "en": "Find Your Perfect Stay",
-        "de": "Hotels in Cinque Terre",
-        "fr": "Hôtels des Cinque Terre",
-        "it": "Hotel e Alloggi nelle Cinque Terre"
-      },
-      "subtitle": {
-        "en": "Charming boutique hotels, family-run guesthouses, and stunning sea-view accommodations in all five villages",
-        "de": "Von charmanten Boutique-Hotels mit Meerblick bis zu traditionellen Gasthäusern im Dorfzentrum – finden Sie die perfekte Unterkunft für Ihren Traumurlaub an der ligurischen Küste.",
-        "fr": "Trouvez l'hébergement parfait dans les cinq villages. Des hôtels de charme aux chambres d'hôtes familiales, dormez au cœur de cette région classée UNESCO.",
-        "it": "Dalle camere con vista mare agli appartamenti nel centro storico, trova il tuo rifugio perfetto tra i vicoli colorati e le terrazze panoramiche."
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
+      "eyebrow": "Handpicked Accommodations",
+      "title": "Stay Where Ligurian Dreams Come True",
+      "subtitle": "From clifftop luxury hotels to intimate family-run locandas, discover accommodations that capture the authentic spirit of Cinque Terre. Each property personally inspected for quality, location, and that indefinable Italian magic.",
       "buttons": [
         {
-          "text": {
-            "en": "Browse Hotels",
-            "de": "Hotels durchsuchen",
-            "fr": "Voir les Villages",
-            "it": "Vedi Alloggi"
-          },
-          "url": {
-            "en": "#hotels",
-            "de": "#hotels",
-            "fr": "#villages",
-            "it": "#hotel"
-          },
+          "text": "Browse Featured Hotels",
+          "url": "#featured",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "View Apartments",
-            "de": "Ferienwohnungen ansehen",
-            "fr": "Conseils de Réservation",
-            "it": "Consigli Utili"
-          },
-          "url": {
-            "en": "/en/cinque-terre/apartments",
-            "de": "/de/cinque-terre/apartments",
-            "fr": "#conseils",
-            "it": "#consigli"
-          },
+          "text": "View by Village",
+          "url": "/villages",
           "variant": "secondary"
         }
       ]
     },
     {
+      "type": "stats-section",
+      "title": "Your Perfect Stay Awaits",
+      "stats": [
+        {
+          "value": "150+",
+          "label": "Carefully Vetted Properties",
+          "description": "From luxury hotels to charming B&Bs"
+        },
+        {
+          "value": "€85-380",
+          "label": "Nightly Rates",
+          "description": "Options for every travel style"
+        },
+        {
+          "value": "5",
+          "label": "Coastal Villages",
+          "description": "Each with distinct character"
+        },
+        {
+          "value": "Year-round",
+          "label": "Seasonal Availability",
+          "description": "Peak season: April-October"
+        }
+      ]
+    },
+    {
+      "type": "collection-embed",
+      "collectionType": "accommodations",
+      "heading": "Featured Accommodations",
+      "headingLevel": 2,
+      "items": [
+        {
+          "slug": "maduneta-5-terre",
+          "title": "Madüneta 5 Terre",
+          "summary": "Experience authentic Ligurian charm with panoramic sea views in Corniglia's heart",
+          "url": "/maduneta-5-terre",
+          "village": "corniglia",
+          "data": {
+            "featured": true,
+            "priceRange": {
+              "max": 160,
+              "min": 85,
+              "season": "high",
+              "currency": "EUR"
+            }
+          }
+        },
+        {
+          "slug": "ca-dandrea-manarola",
+          "title": "Ca' D'Andrean",
+          "summary": "Historic center hotel with authentic Italian charm",
+          "url": "/ca-dandrea-manarola",
+          "village": "manarola",
+          "data": {
+            "featured": true,
+            "priceRange": {
+              "max": 205,
+              "min": 120,
+              "season": "per night",
+              "currency": "EUR"
+            }
+          }
+        },
+        {
+          "slug": "hotel-porto-roca",
+          "title": "Hotel Porto Roca",
+          "summary": "Clifftop luxury with stunning sea views",
+          "url": "/hotel-porto-roca",
+          "village": "monterosso",
+          "data": {
+            "featured": true,
+            "priceRange": {
+              "max": 380,
+              "min": 180,
+              "season": "high season",
+              "currency": "EUR"
+            }
+          }
+        },
+        {
+          "slug": "locanda-ca-dei-duxi-riomaggiore",
+          "title": "Locanda Ca' dei Duxi",
+          "summary": "Historic 15th-century Locanda with traditional stone walls and wine cellar breakfast room",
+          "url": "/locanda-ca-dei-duxi-riomaggiore",
+          "village": "riomaggiore",
+          "data": {
+            "featured": true,
+            "priceRange": {
+              "max": 200,
+              "min": 120,
+              "season": "per night",
+              "currency": "EUR"
+            }
+          }
+        },
+        {
+          "slug": "la-mala-vernazza",
+          "title": "La Mala",
+          "summary": "Clifftop elegance with panoramic sea views in Vernazza's heart",
+          "url": "/la-mala-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": true,
+            "priceRange": {
+              "max": 350,
+              "min": 180,
+              "season": "high season",
+              "currency": "EUR"
+            }
+          }
+        },
+        {
+          "slug": "sole-terra-mare",
+          "title": "Sole Terra Mare",
+          "summary": "Experience the essence of Cinque Terre with sea views, garden setting, and air-conditioned comfort",
+          "url": "/sole-terra-mare",
+          "village": "corniglia",
+          "data": {
+            "featured": true,
+            "priceRange": {
+              "max": 170,
+              "min": 90,
+              "season": "high",
+              "currency": "EUR"
+            }
+          }
+        },
+        {
+          "slug": "marina-piccola-manarola",
+          "title": "Hotel Marina Piccola",
+          "summary": "Historic fisherman's cottage with panoramic sea views",
+          "url": "/marina-piccola-manarola",
+          "village": "manarola",
+          "data": {
+            "featured": true,
+            "priceRange": {
+              "max": 284,
+              "min": 152,
+              "season": "per night",
+              "currency": "EUR"
+            }
+          }
+        },
+        {
+          "slug": "hotel-villa-argentina-riomaggiore",
+          "title": "Hotel Villa Argentina",
+          "summary": "Elevated hotel with Ligurian Sea views, terrace, and garden setting",
+          "url": "/hotel-villa-argentina-riomaggiore",
+          "village": "riomaggiore",
+          "data": {
+            "featured": true,
+            "priceRange": {
+              "max": 250,
+              "min": 140,
+              "season": "per night",
+              "currency": "EUR"
+            }
+          }
+        }
+      ],
+      "display": {
+        "layout": "grid",
+        "columns": 3,
+        "showImage": true,
+        "showSummary": true,
+        "imageAspect": "landscape"
+      },
+      "showViewAll": true,
+      "viewAllUrl": "/accommodations"
+    },
+    {
       "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Accommodation Guide",
-        "de": "Unterkunftsarten",
-        "fr": "Types d'Hébergement",
-        "it": "Info Pratiche"
-      },
-      "title": {
-        "en": "Where to Stay in Cinque Terre",
-        "de": "Perfekte Übernachtung",
-        "fr": "Options de Logement",
-        "it": "Prezzi e Disponibilità"
-      },
+      "title": "Why These Properties Stand Apart",
+      "subtitle": "Every accommodation meets our exacting standards for location, comfort, and authentic character",
       "features": [
         {
-          "icon": "building",
-          "title": {
-            "en": "Boutique Hotels",
-            "de": "Boutique-Hotels",
-            "fr": "Hôtels de Charme"
-          },
-          "description": {
-            "en": "Intimate properties with personalized service, modern amenities, and authentic Ligurian character in historic buildings",
-            "de": "Stilvolle kleine Hotels mit persönlichem Service und einzigartiger Atmosphäre in historischen Gebäuden.",
-            "fr": "Petits hôtels familiaux dans des bâtiments historiques avec vue sur la mer."
-          }
+          "icon": "map-pin",
+          "title": "Prime Village Locations",
+          "description": "Central positions within walking distance of train stations, harbors, and hiking trails. No luggage-hauling marathons."
         },
         {
           "icon": "eye",
-          "title": {
-            "en": "Sea View Rooms",
-            "de": "Pensionen & B&Bs",
-            "fr": "Chambres d'Hôtes"
-          },
-          "description": {
-            "en": "Wake up to stunning Mediterranean vistas from cliffside hotels overlooking colorful harbors and coastline",
-            "de": "Gemütliche Familienbetriebe mit herzlicher Gastfreundschaft und lokalem Flair.",
-            "fr": "B&B authentiques tenus par des locaux, ambiance conviviale garantie."
-          }
+          "title": "Spectacular Views",
+          "description": "Sea vistas, terraced vineyards, or charming village squares. Wake up to postcard-perfect scenes every morning."
         },
         {
-          "icon": "users",
-          "title": {
-            "en": "Family-Run Guesthouses",
-            "de": "Luxury Resorts",
-            "fr": "Appartements"
-          },
-          "description": {
-            "en": "Warm hospitality and local insights from hosts who know Cinque Terre's hidden gems and best experiences",
-            "de": "Erstklassige Hotels mit Spa, Pool und Panoramaterrassen über dem Meer.",
-            "fr": "Location d'appartements pour plus d'indépendance et d'espace."
-          }
-        },
-        {
-          "icon": "map-pin",
-          "title": {
-            "en": "Monterosso Hotels",
-            "de": "Zentrale Lage",
-            "fr": "Agritourismes"
-          },
-          "description": {
-            "en": "Largest selection with beachfront locations, easier access, and more dining options within walking distance",
-            "de": "Hotels im Herzen der Dörfer, nur wenige Schritte von Hafen und Sehenswürdigkeiten entfernt.",
-            "fr": "Séjournez dans les collines environnantes dans des fermes traditionnelles."
-          }
-        },
-        {
-          "icon": "home",
-          "title": {
-            "en": "Village Stays",
-            "de": "Meerblick-Zimmer",
-            "fr": "Hôtels Luxe"
-          },
-          "description": {
-            "en": "Experience authentic life in Vernazza, Corniglia, Manarola, or Riomaggiore's intimate settings",
-            "de": "Wachen Sie mit spektakulärem Blick auf das azurblaue Mittelmeer auf.",
-            "fr": "Établissements haut de gamme avec spa, restaurants gastronomiques et services premium."
-          }
+          "icon": "star",
+          "title": "Personally Inspected",
+          "description": "Every property visited, every room evaluated. We know which have the best showers, quietest nights, and warmest welcome."
         },
         {
           "icon": "calendar",
-          "title": {
-            "en": "Book Early",
-            "de": "Frühstück inklusive",
-            "fr": "Camping"
-          },
-          "description": {
-            "en": "Limited rooms fill quickly in peak season (May-September), reserve 3-6 months ahead for best availability",
-            "de": "Starten Sie den Tag mit frischem Gebäck, lokalem Käse und italienischem Espresso.",
-            "fr": "Campings à proximité pour les voyageurs au budget serré."
-          }
+          "title": "Smart Booking Tips",
+          "description": "Insider knowledge on seasonal pricing, advance booking requirements, and when to find the best availability."
+        },
+        {
+          "icon": "home",
+          "title": "Authentic Character",
+          "description": "From 15th-century stone walls to family-run hospitality. Experience genuine Ligurian culture, not tourist-trap mediocrity."
+        },
+        {
+          "icon": "check-circle",
+          "title": "Modern Comforts",
+          "description": "Air conditioning, reliable Wi-Fi, and comfortable beds. Historic charm enhanced by contemporary amenities."
+        }
+      ]
+    },
+    {
+      "type": "content-section",
+      "layout": "text-with-sidebar",
+      "title": "Choosing Your Cinque Terre Base",
+      "content": "The village you choose shapes your entire experience. Monterosso offers beach luxury and the widest selection of upscale hotels. Vernazza provides the most dramatic harbor setting, perfect for romantic getaways. Manarola delivers classic Cinque Terre charm with excellent photography opportunities.\n\nCorniglia sits elevated above the sea, offering tranquility and spectacular sunset views. Riomaggiore combines authentic village life with convenient rail connections to La Spezia.\n\n**Booking Strategy:** Reserve 3-4 months ahead for summer stays (June-August). Spring (April-May) and autumn (September-October) offer the best balance of weather, crowds, and pricing. Many properties close January-February.\n\n**Budget Considerations:** Expect premium pricing for sea views and central locations. Mid-week stays cost significantly less than weekends. Consider shoulder season for 30-40% savings without sacrificing experience quality.",
+      "sidebar": {
+        "title": "Insider Booking Tips",
+        "items": [
+          "Book directly with properties for better rates and upgrades",
+          "Request rooms facing away from train lines for quieter nights",
+          "Confirm air conditioning - not all historic buildings have it",
+          "Check luggage transport services for hillside properties",
+          "Verify checkout times - some require early departure for cleaning"
+        ]
+      },
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1717266599342-52e4fefc06e9-hero.jpg"
+    },
+    {
+      "type": "faq-section",
+      "title": "Accommodation Questions Answered",
+      "subtitle": "Everything you need to know about staying in Cinque Terre",
+      "faqs": [
+        {
+          "question": "When should I book my Cinque Terre accommodation?",
+          "answer": "Book 3-4 months in advance for summer stays (June-August) and major holidays. Many of the best properties sell out early, especially those with sea views or in Vernazza and Manarola. Spring and fall bookings can be made 6-8 weeks ahead, but don't wait too long for weekend stays."
+        },
+        {
+          "question": "Which village offers the best hotel selection?",
+          "answer": "Monterosso has the most diverse range of accommodations, from luxury beachfront hotels to boutique B&Bs. It's also the only village with traditional resort amenities like spas and multiple restaurant options. However, every village has excellent options - it depends on your preferred atmosphere."
+        },
+        {
+          "question": "Are sea view rooms worth the extra cost?",
+          "answer": "Absolutely. Waking up to sunrise over the Mediterranean is transformative, and the views provide endless photo opportunities. However, village view rooms often cost 30-40% less and offer charming glimpses of local life. Consider your budget and priorities carefully."
+        },
+        {
+          "question": "How do I transport luggage to hillside properties?",
+          "answer": "Many accommodations offer luggage transport services for €10-20 per bag, especially those requiring uphill walks. Some villages have porter services, or you can arrange transport through your hotel. Always confirm this when booking if you have heavy luggage."
+        },
+        {
+          "question": "What amenities should I expect in different price ranges?",
+          "answer": "Budget options (€80-120): Basic comfort, shared bathrooms possible, minimal amenities. Mid-range (€120-200): Private bathrooms, some with sea views, breakfast included. Luxury (€200+): Superior locations, premium amenities, concierge services, and exceptional views."
+        },
+        {
+          "question": "Is air conditioning necessary year-round?",
+          "answer": "Essential for summer stays (June-September) when temperatures reach 30°C+ and humidity is high. Spring and fall are generally comfortable without AC, but request it if you're a warm sleeper. Many historic properties lack central air, so confirm this amenity when booking."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore All Accommodation Options",
-        "de": "Unterkünfte in Zahlen",
-        "fr": "Où Dormir dans Chaque Village",
-        "it": "Dove Dormire"
-      },
-      "description": {
-        "en": "Compare hotels, apartments, agriturismi, and camping for your perfect Cinque Terre stay"
-      },
+      "title": "Find Your Perfect Cinque Terre Retreat",
+      "subtitle": "Browse our complete collection of vetted accommodations across all five villages",
       "buttons": [
         {
-          "text": {
-            "en": "View Apartments"
-          },
-          "url": {
-            "en": "/en/cinque-terre/apartments"
-          },
+          "text": "View All Accommodations",
+          "url": "/accommodations",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Agriturismi Stays"
-          },
-          "url": {
-            "en": "/en/cinque-terre/agriturismi"
-          },
+          "text": "Compare by Village",
+          "url": "/villages",
           "variant": "secondary"
         }
-      ]
+      ],
+      "note": "All properties personally inspected and rated for location, comfort, and value"
     }
   ],
   "metadata": {
     "city": "cinque-terre",
     "page_type": "hotels"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.830Z"
+  "updated_at": "2025-12-16T10:47:49.680Z"
 }

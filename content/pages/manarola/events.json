@@ -7,198 +7,152 @@
     "it": "/it/manarola/events"
   },
   "title": {
-    "en": "Events & Festivals in Manarola",
-    "de": "Veranstaltungen",
-    "fr": "Événements",
-    "it": "Eventi"
+    "en": "Events & Festivals in Manarola | Cinque Terre Dispatch"
   },
   "page_type": "events",
   "seo": {
     "title": {
-      "en": "Manarola Events 2025 | Festivals & Local Celebrations"
+      "en": "Events & Festivals in Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover events and festivals in Manarola. Wine harvest, religious celebrations, and the famous nativity scene."
-    },
-    "keywords": {
-      "en": [
-        "Manarola events",
-        "Cinque Terre festivals",
-        "nativity scene",
-        "wine harvest"
-      ]
+      "en": "The festivals of Manarola are not performances for tourists—they're village celebrations that have happened the same way for centuries. You're welcome to witness them, but you're joining something that exists for its own sake."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Manarola",
-        "it": "Tradizioni e Cultura",
-        "de": "Manarola"
-      },
-      "title": {
-        "en": "Events & Festivals",
-        "it": "Eventi e Feste a Manarola",
-        "de": "Veranstaltungen & Feste"
-      },
-      "subtitle": {
-        "en": "Experience authentic local celebrations. From the world's largest nativity scene to wine harvest festivals and religious traditions.",
-        "it": "Sagre patronali, feste religiose millenarie, eventi enogastronomici e celebrazioni tradizionali. Vivi l'autenticità della cultura ligure attraverso gli eventi che scandiscono l'anno.",
-        "de": "Erleben Sie authentische lokale Traditionen. Von der weltgrößten Weihnachtskrippe bis zu Weinfesten und jahrhundertealten religiösen Zeremonien – tauchen Sie in das echte Italien ein."
-      },
-      "buttons": [
+      "type": "editorial-hero",
+      "title": "When the<br/>Village Celebrates",
+      "subtitle": "Manarola's calendar is marked not by tourist seasons but by older rhythms: the church calendar, the agricultural year, the traditions that have defined village life for generations. When these moments arrive, the village gathers—and visitors who happen to be present witness something authentic.",
+      "badge": "Events & Festivals",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Understanding Village Events",
+      "quote": "The festivals here don't exist for you. They existed before tourism, they'll exist after. You're not the audience—you're a guest at something that happens for the village's own reasons. That's what makes witnessing them special.",
+      "content": [
+        "**Religious calendar shapes the year**. The major festivals—Assumption in August, patron saint days, Christmas—follow the Catholic calendar that has organized village life for centuries. Mass, procession, community meal: the pattern repeats.",
+        "**Agriculture marks the seasons**. Harvest time brings its own celebrations: the vendemmia (grape harvest), the olive pressing, the first taste of new wine. These aren't staged events—they're markers of work that sustains the village.",
+        "**Family gatherings are semi-public**. Weddings, baptisms, first communions spill out of churches into squares. The village is too small for privacy. These private celebrations become community events, witnessed by whoever happens to be present.",
+        "**Summer brings music**. The piazza hosts occasional concerts—sometimes organized, sometimes spontaneous. Quality varies. The setting doesn't. Music in this acoustic bowl of stone and sea is always worth attending."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "event",
+      "items": [
         {
-          "text": {
-            "en": "View Calendar",
-            "it": "Calendario"
-          },
-          "url": {
-            "en": "#events",
-            "it": "#calendario"
-          },
-          "variant": "primary"
+          "id": 1,
+          "name": "The Natività",
+          "category": "Christmas Tradition",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The world's largest illuminated nativity scene—300 figures spread across the terraced hillside, visible from the sea.",
+          "description": "Every December, retired railway worker Mario Andreoli illuminates his life's work: over 300 handmade figures depicting the nativity, spread across the terraces above the village. It began in 1961 with a few lights. Now it draws visitors from across Europe. The lights go on December 8th and stay through late January.",
+          "giuliaComment": "Mario is in his eighties. He made every figure himself. Every year, he adds a few more. When he dies, no one knows if the tradition will continue—it requires his particular obsession. See it while you can. It might not last forever.",
+          "signature": "One man's gift to the world"
         },
         {
-          "text": {
-            "en": "Back to Manarola",
-            "it": "Tradizioni"
-          },
-          "url": {
-            "en": "/en/manarola",
-            "it": "#tradizioni"
-          },
-          "variant": "secondary"
+          "id": 2,
+          "name": "Festa dell'Assunta",
+          "category": "Religious Festival",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "August 15th—the Assumption of Mary celebrated with procession, mass, and the village gathered as it has for centuries.",
+          "description": "The most important religious day in the Italian calendar brings Manarola together. The statue of Mary processes through the village from San Lorenzo to the harbor. Every generation walks: old women in black, children in white, families dressed for celebration. The evening brings food, wine, and community gathering.",
+          "giuliaComment": "I've walked this procession every year of my life. My grandmother walked it. Her grandmother walked it. When I'm old, I'll walk it in black like the other widows do. This isn't for tourists—it's for us. But you're welcome to witness it.",
+          "signature": "Where faith and village merge"
+        },
+        {
+          "id": 3,
+          "name": "The Vendemmia",
+          "category": "Harvest Season",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Late September through October—when the grapes come in and the village turns to the work that defines it.",
+          "description": "The vendemmia is not a single event but a season. Families work their terraces, cutting grapes by hand, carrying them down in baskets. The cooperative presses the fruit. The air smells of fermentation. Some wineries welcome visitors to participate—actual work, not performance—and share the first taste of new wine.",
+          "giuliaComment": "This is my favorite time in the village. Everyone works. The terraces come alive. The wine that will be drunk next year is being made right now. If you can visit during vendemmia, you'll see Manarola as a working village, not a tourist destination.",
+          "signature": "When the terraces justify themselves"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Visitor's Role",
+          "quote": "At village festivals, you're neither participant nor audience—you're witness. The procession doesn't stop for photographs. The mass isn't explained in English. The community meal may or may not have room for strangers. Observe with respect, don't demand accommodation."
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Annual Events",
-        "it": "Eventi Principali",
-        "de": "Authentische Erlebnisse"
-      },
-      "title": {
-        "en": "Major Celebrations",
-        "it": "Le Celebrazioni dell'Anno",
-        "de": "Das pulsierende Herz der ligurischen Tradition"
-      },
-      "features": [
-        {
-          "icon": "star",
-          "title": {
-            "en": "Presepe di Manarola",
-            "it": "Luminaria di Manarola"
-          },
-          "description": {
-            "en": "World's largest hillside nativity scene. Illuminated Dec 8 - Jan 31 with 300+ figures.",
-            "it": "8 dicembre: il presepe luminoso più grande del mondo. 300 figure illuminate sui terrazzamenti. Spettacolo unico."
-          }
-        },
-        {
-          "icon": "wine",
-          "title": {
-            "en": "Grape Harvest Festival",
-            "it": "Festa del Limone"
-          },
-          "description": {
-            "en": "September celebration of the Sciacchetrà wine harvest. Tastings and traditional music.",
-            "it": "Maggio, Monterosso: celebrazione del famoso limone gigante. Degustazioni, mercatini, prodotti tipici."
-          }
-        },
-        {
-          "icon": "church",
-          "title": {
-            "en": "Feast of San Lorenzo",
-            "it": "Fuochi di San Giovanni"
-          },
-          "description": {
-            "en": "August 10 patron saint festival. Procession, mass, and evening fireworks.",
-            "it": "24 giugno, Riomaggiore: spettacolo pirotecnico sul mare. Tradizione centenaria con musica e festa fino all'alba."
-          }
-        },
-        {
-          "icon": "music",
-          "title": {
-            "en": "Summer Concerts",
-            "it": "Festa dell'Uva"
-          },
-          "description": {
-            "en": "July-August concert series in the church square. Classical and traditional Italian music.",
-            "it": "Settembre: celebrazione della vendemmia. Degustazioni di Sciacchetrà, musica tradizionale, balli folkloristici."
-          }
-        },
-        {
-          "icon": "food",
-          "title": {
-            "en": "Sagra dell'Uva",
-            "it": "Sagre del Pesce"
-          },
-          "description": {
-            "en": "October grape festival celebrating the wine tradition. Food stalls and wine flowing.",
-            "it": "Estate: ogni villaggio celebra il pescato locale. Fritture, acciughe, specialità marinare a prezzi popolari."
-          }
-        },
-        {
-          "icon": "boat",
-          "title": {
-            "en": "Regatta dei Rioni",
-            "it": "Processioni Patronali"
-          },
-          "description": {
-            "en": "June rowing competition in the harbor. Teams from different village neighborhoods compete.",
-            "it": "Ogni villaggio ha il suo santo patrono. Processioni storiche, luminarie, musica e fuochi d'artificio."
-          }
-        }
-      ],
-      "subtitle": {
-        "de": "Nach drei Sommern in Vernazza kann ich Ihnen versichern: Die Feste in Manarola sind keine Touristenattraktion"
-      },
-      "content": {
-        "de": "Hier erleben Sie echte italienische Tradition. Wenn die Kirchenglocken der **Kirche San Lorenzo** läuten und die Dorfältesten ihre jahrhundertealten Kostüme anziehen, spüren Sie die ungebrochene Verbindung zwischen Vergangenheit und Gegenwart.\n\nVom dramatischen **Aussichtspunkt Punta Bonfiglio** aus habe ich schon unzählige Sonnenuntergänge während der Dorffeste fotografiert. Die Kombination aus authentischer Volksmusik, dem Duft frischer *focaccia* und dem glitzernden Mittelmeer ist einfach magisch.\n\nPlanen Sie Ihren Besuch sorgfältig: Die wichtigsten Feste sind oft monatelang im Voraus ausgebucht. Reservieren Sie rechtzeitig bei Restaurants wie **Il Porticciolo** oder **La Scogliera** – beide bieten während der Festtage spezielle Menüs mit regionalen Spezialitäten."
-      }
+      "type": "editorial-intro",
+      "badge": "The Smaller Moments",
+      "quote": "Not every village moment is a festival. The smaller gatherings—a wedding, a baptism, an impromptu concert—can be equally memorable, stumbled upon by timing rather than planning.",
+      "content": [
+        "**Saturday weddings** emerge from San Lorenzo and fill the square with guests in formal dress. The bride in white against pastel facades makes photographs that outdo any planned shot.",
+        "**Summer concerts** appear without much warning—a poster, a gathering, music floating through evening air. Quality ranges from amateur to accomplished. The setting compensates for everything.",
+        "**Wine tastings** at the cooperative and local cantinas happen throughout the year. These aren't events exactly—they're commerce—but the conversation over Sciacchetrà with people who made it feels like celebration.",
+        "**The Christmas market** appears in December, small but genuine. Local products, handmade crafts, things the village actually produces. Not the manufactured markets of larger towns."
+      ]
     },
     {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Discover More",
-        "it": "Eventi per Stagione",
-        "de": "Die Höhepunkte des Jahres"
-      },
-      "buttons": [
+      "type": "collection-with-interludes",
+      "itemType": "consideration",
+      "items": [
         {
-          "text": {
-            "en": "Local Insights"
-          },
-          "url": {
-            "en": "/en/manarola/insights"
-          },
-          "variant": "primary"
+          "id": 4,
+          "name": "Timing Your Visit",
+          "category": "Planning",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "If you want to witness village events, certain dates matter. Plan around them—or avoid them, if crowds concern you.",
+          "description": "August 15th (Assumption) and the Christmas season (December-January for the natività) are the marquee moments. The vendemmia spans late September through mid-October—dates vary by weather. Summer Saturdays often bring weddings. But the truth is: you can't plan for the spontaneous. The impromptu concert, the surprise gathering—these reward flexible visitors.",
+          "giuliaComment": "People ask me when to visit for festivals. I tell them: come whenever, stay long enough, something will happen. The village celebrates constantly—births, deaths, saints, seasons. Miss one thing, catch another.",
+          "signature": "When presence matters more than planning"
         },
         {
-          "text": {
-            "en": "Back to Manarola"
-          },
-          "url": {
-            "en": "/en/manarola"
-          },
-          "variant": "secondary"
+          "id": 5,
+          "name": "Respectful Witnessing",
+          "category": "Etiquette",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Village events are not performances. Behave accordingly.",
+          "description": "Don't block processions for photographs. Don't interrupt religious services. Don't treat community meals as restaurants. The village shares its traditions generously, but it expects basic respect. Dress modestly for church events. Quiet your voice during sacred moments. When uncertain, watch what locals do and follow.",
+          "giuliaComment": "I've seen tourists interrupt processions for selfies. I've seen them talk through masses. Most visitors are respectful, but some forget they're guests. We share our traditions because we're proud of them. That sharing depends on visitors honoring what they're witnessing.",
+          "signature": "Where manners enable access"
         }
       ],
-      "eyebrow": {
-        "de": "Wichtigste Veranstaltungen"
-      }
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Empty Season",
+          "quote": "January and February are quiet. The natività ends. The tourists leave. The village returns to itself. Nothing much happens publicly—but life continues. Some visitors prefer this emptiness. The village without performance reveals something too."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Celebrations Without Audience",
+      "content": [
+        "The events of Manarola happen whether tourists witness them or not. The natività lights because Mario wants to light it. The procession walks because faith requires it. The harvest comes because grapes must be picked. You're welcome to see these things, but they don't exist for your seeing.",
+        "This is what makes village festivals special. They're not manufactured. They're not marketed. They're the real rhythms of a real place, continuing as they have for centuries.",
+        "Time your visit for what interests you—or don't plan at all, and let the village surprise you with whatever it happens to be celebrating when you arrive."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/manarola/overview", "variant": "primary" },
+        { "text": "Wine Culture", "url": "/en/culinary", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "manarola",
+    "village_id": "manarola",
     "page_type": "events"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.837Z"
+  "updated_at": "2026-01-05T18:45:00.000Z"
 }

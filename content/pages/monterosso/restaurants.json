@@ -7,185 +7,252 @@
     "it": "/it/monterosso/restaurants"
   },
   "title": {
-    "en": "Best Restaurants in Monterosso al Mare",
-    "de": "Restaurants in Monterosso - Beste Trattorien am Meer",
-    "fr": "Restaurants à Monterosso al Mare",
-    "it": "Ristoranti e Trattorie a Monterosso"
+    "en": "Monterosso Restaurants: Where Ligurian Cuisine Meets the Sea"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Monterosso Restaurants 2025 | Best Dining in Cinque Terre",
-      "de": "Restaurants in Monterosso - Beste Trattorien am Meer",
-      "fr": "Restaurants à Monterosso - Meilleure Cuisine Ligurienne et Fruits de Mer",
-      "it": "Ristoranti Monterosso - Dove Mangiare alle Cinque Terre"
+      "en": "Best Restaurants in Monterosso | Cinque Terre Dining"
     },
     "description": {
-      "en": "Discover the best restaurants in Monterosso al Mare. Beach dining, traditional trattorias, and award-winning seafood.",
-      "de": "Die besten Restaurants in Monterosso al Mare. Authentische ligurische Küche, frischer Fisch und lokale Weine mit spektakulärem Meerblick.",
-      "fr": "Découvrez les meilleurs restaurants de Monterosso. Cuisine ligurienne authentique, fruits de mer frais, pesto local et vins Cinque Terre DOC.",
-      "it": "I migliori ristoranti di Monterosso al Mare: trattorie tipiche, pesce fresco, cucina ligure, pizzerie e osterie. Prenota i ristoranti più amati."
-    },
-    "keywords": {
-      "en": [
-        "Monterosso restaurants",
-        "where to eat Monterosso",
-        "Cinque Terre dining",
-        "seafood"
-      ],
-      "de": "monterosso restaurants, monterosso essen, monterosso trattorien, monterosso dining",
-      "fr": "restaurants monterosso, cuisine ligurienne, fruits de mer cinque terre, pesto",
-      "it": "ristoranti monterosso, trattorie cinque terre, cucina ligure, pesce fresco, dove mangiare"
+      "en": "Discover Monterosso's finest restaurants, from seaside trattorias to Michelin-worthy dining. Fresh seafood, local wines, and authentic Ligurian flavors."
     }
   },
   "body": [
     {
       "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Monterosso al Mare"
-      },
-      "title": {
-        "en": "Restaurants in Monterosso",
-        "de": "Restaurants in Monterosso"
-      },
-      "subtitle": {
-        "en": "The largest selection of restaurants in Cinque Terre. From beachfront dining to traditional family trattorias.",
-        "de": "Authentische ligurische Küche mit frischem Fisch, hausgemachtem Pesto und lokalem Wein"
-      },
+      "variant": "split-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551218808-94e220e084d2-hero.jpg",
+      "eyebrow": "Culinary Excellence",
+      "title": "Monterosso's Finest Tables",
+      "subtitle": "From waterfront trattorias serving just-caught anchovies to sophisticated dining rooms with Michelin-worthy cuisine, Monterosso offers Cinque Terre's most diverse and exceptional restaurant scene.",
       "buttons": [
         {
-          "text": {
-            "en": "View All Restaurants",
-            "fr": "Voir les spécialités locales"
-          },
-          "url": {
-            "en": "#list"
-          },
+          "text": "Explore Featured Restaurants",
+          "url": "#restaurants",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Monterosso"
-          },
-          "url": {
-            "en": "/en/monterosso"
-          },
+          "text": "View All Dining Options",
+          "url": "#all-restaurants",
           "variant": "secondary"
         }
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Top Picks"
+      "type": "stats-section",
+      "heading": "A Culinary Capital",
+      "stats": [
+        {
+          "number": "19",
+          "label": "Exceptional Restaurants",
+          "description": "From beachside focaccerias to fine dining establishments"
+        },
+        {
+          "number": "300+",
+          "label": "Years of Tradition",
+          "description": "Ancient recipes passed down through generations"
+        },
+        {
+          "number": "5",
+          "label": "Local Wine Varieties",
+          "description": "Including the rare Sciacchetrà dessert wine"
+        },
+        {
+          "number": "Year-Round",
+          "label": "Fresh Ingredients",
+          "description": "Local lemons, herbs, and daily-caught seafood"
+        }
+      ]
+    },
+    {
+      "type": "collection-embed",
+      "collectionType": "restaurants",
+      "heading": "Monterosso's Restaurant Collection",
+      "headingLevel": 2,
+      "items": [
+        {
+          "slug": "ristorante-miky",
+          "title": "Ristorante Miky",
+          "summary": "Sophisticated seafood dining with panoramic coastal views",
+          "url": "/ristorante-miky",
+          "village": "monterosso",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "torre-aurora",
+          "title": "Torre Aurora",
+          "summary": "Historic tower dining with panoramic Cinque Terre views",
+          "url": "/torre-aurora",
+          "village": "monterosso",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "ristorante-ciak",
+          "title": "Ristorante Ciak",
+          "summary": "Farm-to-table authenticity with chef-grown organic ingredients",
+          "url": "/ristorante-ciak",
+          "village": "monterosso",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "il-casello",
+          "title": "Il Casello",
+          "summary": "Seaside dining with authentic flavors and Mediterranean views",
+          "url": "/il-casello",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "la-cantina-di-miky",
+          "title": "La Cantina di Miky",
+          "summary": "Creative Ligurian cuisine with extensive local wine selection",
+          "url": "/la-cantina-di-miky",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "il-massimo-della-focaccia",
+          "title": "Il Massimo della Focaccia",
+          "summary": "Home of the best focaccia in Cinque Terre with beachside charm",
+          "url": "/il-massimo-della-focaccia",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "gelateria-golosone",
+          "title": "Gelateria Golosone",
+          "summary": "Rich, creamy gelato considered by many the best in Cinque Terre",
+          "url": "/gelateria-golosone",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "pizzeria-la-cambusa",
+          "title": "Pizzeria La Cambusa",
+          "summary": "Home to the best farinata in Cinque Terre and excellent wood-fired pizza",
+          "url": "/pizzeria-la-cambusa",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "trattoria-gianni-franzi",
+          "title": "Trattoria Gianni Franzi",
+          "summary": "Generous portions of authentic Ligurian cuisine in a beloved local spot",
+          "url": "/trattoria-gianni-franzi",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "osteria-a-cantina-de-mananan",
+          "title": "Osteria A Cantina de Mananan",
+          "summary": "Time-honored family recipes in an authentic neighborhood osteria",
+          "url": "/osteria-a-cantina-de-mananan",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "antica-osteria-il-baretto",
+          "title": "Antica Osteria Il Baretto",
+          "summary": "Historic osteria preserving traditional Ligurian seafood recipes",
+          "url": "/antica-osteria-il-baretto",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        },
+        {
+          "slug": "ristorante-belvedere",
+          "title": "Ristorante Belvedere",
+          "summary": "Refined seafood dining in the heart of Monterosso's main square",
+          "url": "/ristorante-belvedere",
+          "village": "monterosso",
+          "data": {
+            "featured": false
+          }
+        }
+      ],
+      "display": {
+        "layout": "grid",
+        "columns": 3,
+        "showImage": true,
+        "showSummary": true,
+        "imageAspect": "landscape"
       },
-      "title": {
-        "en": "Featured Restaurants"
-      },
-      "features": [
+      "showViewAll": true,
+      "viewAllUrl": "/restaurants"
+    },
+    {
+      "type": "content-section",
+      "variant": "text-with-image",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555396273-367ea4eb4db5-hero.jpg",
+      "heading": "The Flavors That Define Monterosso",
+      "content": "As the largest village in Cinque Terre, Monterosso has always been the region's culinary heart. Here, the ancient traditions of Ligurian cooking reach their most refined expression, from the legendary pesto made with sweet Genovese basil to the delicate anchovies that have sustained this coast for centuries.\n\nThe village's restaurants showcase ingredients that grow within walking distance: lemons from terraced groves, herbs from monastery gardens, olive oil pressed from trees that cling to impossible cliffsides. You'll taste trofie pasta hand-rolled each morning, paired with pesto so aromatic it seems to capture the essence of the Mediterranean scrubland itself.\n\nWhat sets Monterosso apart is its perfect balance of sophistication and authenticity. At Torre Aurora, you can dine on innovative interpretations of classic dishes while gazing out over the same coastline that inspired centuries of fishermen's tales. Meanwhile, at Il Massimo della Focaccia, the warm, olive oil-drizzled bread emerges from ovens following recipes unchanged since the Middle Ages.\n\nThe local Cinque Terre DOC wines deserve special mention. These golden whites, made from Bosco, Albarola, and Vermentino grapes grown on impossibly steep terraces, pair perfectly with the region's seafood. For a truly special experience, seek out Sciacchetrà, the rare dessert wine made from partially dried grapes – a liquid amber that captures the essence of these ancient lands."
+    },
+    {
+      "type": "faq-section",
+      "heading": "Your Monterosso Dining Questions Answered",
+      "faqs": [
         {
-          "icon": "star",
-          "title": {
-            "en": "Ristorante Miky"
-          },
-          "description": {
-            "en": "Award-winning fine dining. Creative seafood in elegant setting.",
-            "de": "Täglich frisch gefangener Fisch, Anchovis, Tintenfisch und die berühmte ligurische Fischsuppe.",
-            "fr": "Spécialité locale renommée : anchois frais marinés, considérés comme les meilleurs d'Italie. À déguster absolument.",
-            "it": "Cucina ligure tradizionale: trofie al pesto, acciughe fritte, muscoli ripieni e coniglio alla ligure."
-          }
+          "question": "What are the signature dishes I must try in Monterosso?",
+          "answer": "Start with fresh anchovies (acciughe) prepared multiple ways – marinated, fried, or in the classic pasta alle vongole. Don't miss the hand-made trofie with pesto, focaccia col formaggio (cheese focaccia), and farinata (chickpea flatbread). For dessert, try the local gelato or pair Sciacchetrà wine with cantucci cookies."
         },
         {
-          "icon": "beach",
-          "title": {
-            "en": "L'Ancora della Tortuga"
-          },
-          "description": {
-            "en": "Fresh fish on Fegina beach. Perfect for sunset dinners.",
-            "de": "Hausgemachtes Pesto alla Genovese mit Trofie-Nudeln - das Signature-Gericht Liguriens.",
-            "fr": "Poissons et fruits de mer pêchés quotidiennement dans la mer Ligurienne. Poulpe, calamars, daurade et loup de mer.",
-            "it": "Pesce fresco del giorno: branzino, orata, frittura mista, spaghetti allo scoglio e zuppa di pesce."
-          }
+          "question": "Do I need reservations at Monterosso restaurants?",
+          "answer": "Absolutely, especially from April through October and particularly for dinner. Popular spots like Ristorante Miky and Torre Aurora book weeks in advance during peak season (June-September). For lunch, casual spots like Il Massimo della Focaccia work on a first-come basis, but even these get busy."
         },
         {
-          "icon": "home",
-          "title": {
-            "en": "Trattoria La Grotta"
-          },
-          "description": {
-            "en": "Traditional Ligurian cooking in a cave-like setting.",
-            "de": "Cinque Terre DOC Weißwein und süßer Sciacchetrà direkt von lokalen Produzenten.",
-            "fr": "Pesto au basilic fait maison selon la recette ligurienne authentique. Servi avec trofie ou trenette.",
-            "it": "Pizza al taglio e al piatto, focaccia barese, farinata di ceci. Ottime per cene informali."
-          }
+          "question": "What's the best time to dine for the most authentic experience?",
+          "answer": "Lunch typically runs from 12:30-2:30 PM, dinner from 7:30-10 PM. For the most local experience, arrive for lunch around 1 PM when you'll find Italian families enjoying long, leisurely meals. Evening aperitivo (6-8 PM) is perfect for wine tasting and lighter bites."
         },
         {
-          "icon": "wine",
-          "title": {
-            "en": "Enoteca da Eliseo"
-          },
-          "description": {
-            "en": "Wine bar with local vintages and small plates.",
-            "de": "Romantisches Dinner direkt am Strand mit Meerblick und Sonnenuntergang.",
-            "fr": "Excellents vins blancs DOC et Sciacchetrà, vin de dessert doux produit dans les vignobles en terrasses.",
-            "it": "Cena romantica sulla terrazza con vista spiaggia e tramonto. Prenota in anticipo."
-          }
+          "question": "How much should I budget for meals in Monterosso?",
+          "answer": "Expect €15-25 for casual lunch spots, €35-60 per person for dinner at mid-range restaurants, and €80-120+ at fine dining establishments like Ristorante Miky. A glass of local Cinque Terre DOC wine runs €6-12. Budget-friendly options like focacceria meals cost €8-15."
         },
         {
-          "icon": "anchor",
-          "title": {
-            "en": "Ristorante Ciak"
-          },
-          "description": {
-            "en": "Harbor views and fresh seafood daily.",
-            "de": "Frische Focaccia, Farinata und frittierte Meeresfrüchte zum Mitnehmen.",
-            "fr": "Nombreuses terrasses panoramiques avec vue sur la mer pour dîner au coucher du soleil.",
-            "it": "Focaccia ligure, pesto alla genovese, panini con acciughe e porchetta. Economico e veloce."
-          }
+          "question": "Are there good vegetarian and dietary restriction options?",
+          "answer": "Yes! Ligurian cuisine naturally features many vegetarian dishes: pesto pasta, farinata, focaccia varieties, and vegetable tarts. Most restaurants accommodate dietary restrictions with advance notice. For gluten-free options, several restaurants offer gluten-free pasta and pizza bases."
         },
         {
-          "icon": "pasta",
-          "title": {
-            "en": "Al Pozzo"
-          },
-          "description": {
-            "en": "Handmade pasta in the old town center.",
-            "de": "Die besten Restaurants sind oft ausgebucht - reservieren Sie im Voraus!",
-            "fr": "Plus de choix qu'ailleurs dans les Cinque Terre : trattorias familiales, restaurants gastronomiques, pizzerias.",
-            "it": "Gelato fatto in casa con ingredienti locali: limone delle Cinque Terre, basilico e miele."
-          }
+          "question": "Can I buy local ingredients to take home?",
+          "answer": "Absolutely. Visit local shops for authentic pesto (refrigerated versions travel well for 2-3 days), dried pasta like trofie, local olive oil, and Cinque Terre DOC wines. The weekly market (Thursday mornings) offers fresh produce, herbs, and artisanal products directly from local producers."
         }
       ]
     },
     {
       "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "Explore Monterosso"
-      },
+      "variant": "centered",
+      "heading": "Ready to Savor Monterosso?",
+      "content": "From sunrise cappuccinos overlooking the Mediterranean to late-night dinners under starlit terraces, Monterosso's restaurants offer memories that will linger long after your last sip of Sciacchetrà wine.",
       "buttons": [
         {
-          "text": {
-            "en": "Hotels",
-            "de": "Agriturismi",
-            "fr": "Activités"
-          },
-          "url": {
-            "en": "/en/monterosso/hotels"
-          },
+          "text": "Plan Your Dining Experience",
+          "url": "/contact",
           "variant": "primary"
         },
         {
-          "text": {
-            "en": "Back to Monterosso",
-            "de": "Aktivitäten",
-            "fr": "Guide complet"
-          },
-          "url": {
-            "en": "/en/monterosso"
-          },
+          "text": "Explore All Cinque Terre Villages",
+          "url": "/villages",
           "variant": "secondary"
         }
       ]
@@ -195,7 +262,7 @@
     "city": "monterosso",
     "page_type": "restaurants"
   },
-  "status": "published",
+  "status": "generated",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.843Z"
+  "updated_at": "2025-12-16T13:06:51.499Z"
 }

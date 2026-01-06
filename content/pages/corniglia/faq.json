@@ -7,171 +7,152 @@
     "it": "/it/corniglia/faq"
   },
   "title": {
-    "en": "Corniglia FAQ",
-    "de": "FAQ",
-    "fr": "FAQ",
-    "it": "FAQ"
+    "en": "Questions About Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "faq",
   "seo": {
     "title": {
-      "en": "Corniglia FAQ 2025 | Common Questions Answered"
+      "en": "Questions About Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Frequently asked questions about Corniglia. Lardarina stairs, beaches, hiking, dining, accessibility, and practical visitor information."
-    },
-    "keywords": {
-      "en": [
-        "Corniglia FAQ",
-        "Corniglia questions",
-        "visitor information",
-        "travel tips"
-      ]
+      "en": "The questions visitors ask most about Corniglia—answered honestly, with local perspective. From the stairs to the wine to the experience of staying in the quietest village."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "simple-centered",
-      "eyebrow": {
-        "en": "Visitor Information",
-        "it": "Informazioni Utili",
-        "de": "Besucherinformationen"
-      },
-      "title": {
-        "en": "Frequently Asked Questions",
-        "it": "Domande Frequenti su Corniglia",
-        "de": "Häufig gestellte Fragen zu Corniglia"
-      },
-      "subtitle": {
-        "en": "Everything you need to know about visiting Corniglia.",
-        "it": "Tutte le risposte che cerchi per pianificare la tua visita: trasporti, alloggi, sentieri, costi, periodi migliori e consigli pratici.",
-        "de": "Alles was Sie für Ihren Besuch in Corniglias terrassierten Weinbergen und Panorama-Aussichtspunkten wissen müssen."
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Read FAQs",
-            "it": "Vedi FAQ"
-          },
-          "url": {
-            "en": "#faq",
-            "it": "#faq"
-          },
-          "variant": "primary"
-        },
-        {
-          "text": {
-            "en": "Back to Corniglia",
-            "it": "Guida Completa"
-          },
-          "url": {
-            "en": "/en/corniglia/overview",
-            "it": "/it/corniglia"
-          },
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "What<br/>Visitors Ask",
+      "subtitle": "The questions arrive before the visitors: Can I avoid the stairs? Is it worth the climb? What makes Corniglia different? Here are the honest answers—not what marketing would say, but what locals actually tell friends.",
+      "badge": "FAQ",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Most Common Questions",
+      "quote": "Every question reveals an assumption. The questions visitors ask about Corniglia reveal what they expect from a Cinque Terre village—and how this village defies those expectations.",
+      "content": [
+        "**About the stairs**: Yes, 377 steps. Yes, you must climb them. No, there's no easy alternative. The shuttle bus is unreliable. The climb is part of choosing Corniglia.",
+        "**About the beaches**: No direct beach access. Swimming requires descent to remote coves or trains to other villages. Corniglia chose terraces over harbor.",
+        "**About the food**: Fewer restaurants than coastal villages, but concentrated quality. Cecio, Osteria Mananan, Cantina de Mananan—each excellent. Reservations matter.",
+        "**About the experience**: Quieter, more agricultural, less overtly touristic. For visitors who want wine terraces over beach bars, evening peace over harbor bustle, authenticity over convenience."
       ]
     },
     {
-      "type": "feature-section",
-      "variant": "simple-3x2-grid",
-      "eyebrow": {
-        "en": "Common Questions",
-        "it": "Prima della Visita",
-        "de": "Wichtige Fragen"
-      },
-      "title": {
-        "en": "Quick Answers",
-        "it": "Pianificazione del Viaggio",
-        "de": "Schnelle Antworten"
-      },
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "question",
+      "items": [
         {
-          "icon": "stairs",
-          "title": {
-            "en": "How many steps in the Lardarina?"
-          },
-          "description": {
-            "en": "382 steps from the train station to the village. Takes 10-15 minutes. Shuttle bus available if needed."
-          }
+          "id": 1,
+          "name": "Can I avoid climbing the stairs?",
+          "category": "Access Question",
+          "village": "Corniglia",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1605540436563-5bca919ae766-regular.jpg",
+          "intro": "The shuttle bus exists but isn't reliable. The honest answer is: accept the stairs or choose another village.",
+          "description": "A small shuttle bus operates April-October, but it runs irregularly, fills quickly, and can't be counted on. Luggage services exist (€10-15 per bag). If mobility issues make stairs impossible, Corniglia may not be accessible to you—this is a genuine limitation of the village's geography.",
+          "giuliaComment": "I understand why people ask. But the stairs exist because the village is where it is, and the village is where it is because our ancestors wanted terraces, not a harbor. The stairs aren't a flaw—they're the consequence of a choice that created everything we love about this place.",
+          "signature": "The honest answer"
         },
         {
-          "icon": "beach",
-          "title": {
-            "en": "Does Corniglia have a beach?"
-          },
-          "description": {
-            "en": "No direct beach access. It's the only Cinque Terre village without a beach. Take train to Vernazza or Manarola."
-          }
+          "id": 2,
+          "name": "Is Corniglia worth visiting if I only have one day in Cinque Terre?",
+          "category": "Time Question",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "With one day, most visitors skip Corniglia for easier villages. That might be the right choice—or the wrong one, depending on what you want.",
+          "description": "If you want postcard photos, easy access, and beach time, other villages serve better in one day. But if you want to see what Cinque Terre was before tourism—wine terraces, quiet streets, agricultural rhythms—Corniglia offers that in concentrated form. An hour here reveals something the coastal villages have lost.",
+          "giuliaComment": "I tell day visitors: don't come to Corniglia just to say you visited five villages. Come if our character matches what you're seeking. Some people spend an hour here and understand something. Others check a box and leave confused. Know why you're climbing.",
+          "signature": "Know what you want"
         },
         {
-          "icon": "crowd",
-          "title": {
-            "en": "Is Corniglia crowded?"
-          },
-          "description": {
-            "en": "Least crowded of all five villages. The staircase deters many tourists. Most authentic local atmosphere."
-          }
-        },
-        {
-          "icon": "time",
-          "title": {
-            "en": "How long to spend in Corniglia?"
-          },
-          "description": {
-            "en": "2-3 hours to see highlights. Half day with lunch. Full day if hiking or staying overnight."
-          }
-        },
-        {
-          "icon": "luggage",
-          "title": {
-            "en": "Can I bring luggage?"
-          },
-          "description": {
-            "en": "Challenging with heavy bags. Stairs or limited shuttle bus only. Contact your hotel for luggage porterage service."
-          }
-        },
-        {
-          "icon": "wine",
-          "title": {
-            "en": "What is Corniglia famous for?"
-          },
-          "description": {
-            "en": "Lardarina staircase, terraced vineyards, Vernaccia wine, and being Cinque Terre's only clifftop village."
-          }
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "simple-centered",
-      "title": {
-        "en": "More Questions?",
-        "it": "Consigli Pratici",
-        "de": "Alles über Corniglia"
-      },
-      "buttons": [
-        {
-          "text": {
-            "en": "Explore Corniglia"
-          },
-          "url": {
-            "en": "/en/corniglia/overview"
-          },
-          "variant": "primary"
+          "id": 3,
+          "name": "Where should I eat in Corniglia?",
+          "category": "Dining Question",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Three names matter: Cecio for traditional home cooking, Osteria Mananan for elevated cuisine, Cantina de Mananan for wine focus.",
+          "description": "Cecio is where locals eat—four generations of family recipes, garden-fresh ingredients, the cooking your Ligurian grandmother would make if you had one. Osteria Mananan offers more refined preparations with spectacular views. The Cantina below it is for wine lovers who want tastings and small plates. All require reservations for dinner.",
+          "giuliaComment": "I eat at Cecio weekly. It's not fancy—it's just right. The Mananan properties are for visitors wanting more polish, and they do it excellently. Don't expect the choice paralysis of bigger villages—we have a few places doing things well rather than many places doing things adequately.",
+          "signature": "Three names, well done"
         }
       ],
-      "eyebrow": {
-        "de": "Detaillierte Antworten"
-      }
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Right Visitor Question",
+          "quote": "The question isn't whether Corniglia is 'good'—all the villages have merit. The question is whether Corniglia is right for you. If you want quiet, wine, terraces, and evening peace, yes. If you want beaches, bars, and easy access, the coastal villages serve better. Know yourself."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Questions",
+      "quote": "Beyond philosophy, visitors have practical questions about logistics, timing, and the mechanics of experiencing Corniglia. Here are the answers.",
+      "content": [
+        "**How long should I stay?** A few hours to glimpse, overnight to appreciate, several days to understand. The village reveals itself to those who linger.",
+        "**When should I visit?** Late May or mid-September for ideal weather and manageable crowds. September brings harvest. Summer brings heat but also long evenings.",
+        "**What should I bring?** Good shoes for stairs and trails. Layers for variable temperatures. Light luggage if staying—every bag climbs with you.",
+        "**Can I drive?** Technically roads exist, but parking is nearly impossible and the village is pedestrian. Take the train like everyone else."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "question",
+      "items": [
+        {
+          "id": 4,
+          "name": "What makes Corniglia different from other villages?",
+          "category": "Character Question",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+          "intro": "No harbor, no beach, no direct water access. Corniglia is the agricultural village—wine terraces instead of fishing boats, elevation instead of sea level.",
+          "description": "The other four villages are coastal in identity: harbors, fishing history, waterfront dining. Corniglia turned inward, upward, into the terraces. The result is quieter streets, deeper wine culture, less tourist infrastructure, and a different relationship with the landscape. For some visitors, this is exactly right. For others, it feels like something's missing.",
+          "giuliaComment": "We're not better or worse than our neighbors—we're different. They chose the sea; we chose the terraces. They host more visitors; we host fewer but differently. The question isn't which village is best—it's which matches what you're looking for.",
+          "signature": "Different choices, different village"
+        },
+        {
+          "id": 5,
+          "name": "Should I stay overnight or day trip?",
+          "category": "Timing Question",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Day trippers see Corniglia in passing. Overnight guests see what the village becomes when the trains empty.",
+          "description": "The evening is when Corniglia becomes itself. The day trippers descend the stairs; the village takes a breath; locals emerge from heat-avoidance; the aperitivo hour begins. Staying overnight means experiencing this transformation—the quiet dinner, the morning climb when you have the stairs to yourself, the rhythm of a place that exists beyond visitor hours.",
+          "giuliaComment": "Everyone should stay at least one night. Not because day visits are worthless—they're not—but because the evening village is something you can't photograph, can't rush through, can't experience in a few hours. It's what Corniglia actually is. Day visitors see the postcard; overnight guests see the life.",
+          "signature": "The evening village"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Sciacchetrà Question",
+          "quote": "Everyone asks about Sciacchetrà, our famous dessert wine. Yes, it's expensive. Yes, it's worth trying. The grapes dry for months, the production is tiny, and the result is unlike anything else. Order a glass at Cantina de Mananan and understand why we've made it for centuries."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Questions That Matter",
+      "content": [
+        "The best questions visitors ask aren't about logistics—they're about understanding. Why this village? What does it offer that others don't? How does it want to be experienced?",
+        "Corniglia answers these questions with its geography, its terraces, its quiet evening streets. The village has made its choices clear: elevation over access, wine over beach, authenticity over convenience.",
+        "If these choices match what you're seeking, come. Climb the stairs. Stay the night. Taste the wine. The village rewards visitors who understand what they're choosing."
+      ],
+      "buttons": [
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/corniglia/getting-here", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "faq"
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-13T06:28:49.833Z"
+  "updated_at": "2026-01-05T19:00:00.000Z"
 }
