@@ -10,6 +10,7 @@
     "en": "Camping in Cinque Terre: Where Ancient Villages Meet Modern Adventure"
   },
   "page_type": "camping",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Camping Cinque Terre Italy | Luxury Outdoor Experiences"
@@ -20,71 +21,54 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504851149312-7a075b496cc7-hero.jpg",
-      "eyebrow": "Outdoor Luxury",
-      "title": "Sleep Under Stars Above the Legendary Cinque Terre",
+      "type": "editorial-hero",
+      "title": "Sleep Under Stars<br/>Above the Legendary Coast",
       "subtitle": "Experience the romance of medieval fishing villages from exclusive camping sites where Mediterranean breezes carry stories of centuries past, and morning light reveals the same dramatic coastline that has inspired travelers for generations.",
-      "buttons": [
-        {
-          "text": "Find Your Perfect Site",
-          "url": "#camping-options",
-          "variant": "primary"
-        },
-        {
-          "text": "View Luxury Glamping",
-          "url": "#glamping",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Outdoor Luxury",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504851149312-7a075b496cc7-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "stats": [
-        {
-          "number": "7",
-          "label": "Premium camping areas within 30 minutes of the villages"
-        },
-        {
-          "number": "365",
-          "label": "Days of Mediterranean climate perfect for outdoor stays"
-        },
-        {
-          "number": "12",
-          "label": "Centuries these coastal paths have welcomed pilgrims and travelers"
-        },
-        {
-          "number": "5",
-          "label": "UNESCO villages accessible from most camping sites"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Your Outdoor Adventure",
+      "quote": "Camping in this region connects you to traditions that stretch back to when these villages were vital stops along medieval pilgrimage routes.",
+      "leftContent": "<p><strong>7 premium camping areas</strong> within 30 minutes of the villages. Enjoy <strong>365 days</strong> of Mediterranean climate. These coastal paths have welcomed travelers for <strong>12 centuries</strong>.</p><p>All <strong>5 UNESCO villages</strong> are accessible from most camping sites.</p>",
+      "rightContent": "<p>From <strong>luxury glamping</strong> to authentic village stays, choose your perfect outdoor experience. Wake to <strong>terraced vineyard views</strong> and enjoy <strong>direct coastal access</strong> to secluded beaches.</p><p>Meet families who've maintained these lands for generations, sharing stories and homemade focaccia.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Why Camping Elevates Your Cinque Terre Experience",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "feature",
+      "items": [
         {
-          "icon": "mountain",
-          "title": "Terraced Vineyard Views",
-          "description": "Wake to panoramic vistas of ancient vine terraces carved into cliffsides, where Sciacchetrà wine has been crafted since the 11th century."
+          "id": 1,
+          "name": "Terraced Vineyard Views",
+          "category": "Scenery",
+          "description": "Wake to panoramic vistas of ancient vine terraces carved into cliffsides, where Sciacchetra wine has been crafted since the 11th century.",
+          "signature": "Views that stretch to forever"
         },
         {
-          "icon": "waves",
-          "title": "Direct Coastal Access",
-          "description": "Many sites offer private paths to secluded beaches and swimming coves, away from the village crowds but steps from crystal-clear waters."
+          "id": 2,
+          "name": "Direct Coastal Access",
+          "category": "Location",
+          "description": "Many sites offer private paths to secluded beaches and swimming coves, away from the village crowds but steps from crystal-clear waters.",
+          "signature": "Your private piece of coastline"
         },
         {
-          "icon": "star",
-          "title": "Authentic Local Connection",
-          "description": "Meet families who've maintained these lands for generations, sharing stories and homemade focaccia that you'll never find in guidebooks."
+          "id": 3,
+          "name": "Authentic Local Connection",
+          "category": "Experience",
+          "description": "Meet families who've maintained these lands for generations, sharing stories and homemade focaccia that you'll never find in guidebooks.",
+          "signature": "Where hospitality is inherited"
         },
         {
-          "icon": "clock",
-          "title": "Extended Golden Hours",
-          "description": "Experience the villages at dawn and dusk when day-trippers have departed, revealing the peaceful rhythm of traditional coastal life."
+          "id": 4,
+          "name": "Extended Golden Hours",
+          "category": "Timing",
+          "description": "Experience the villages at dawn and dusk when day-trippers have departed, revealing the peaceful rhythm of traditional coastal life.",
+          "signature": "When the magic truly happens"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "content-section",
@@ -92,7 +76,7 @@
       "image": "https://images.unsplash.com/photo-1496947850313-7743325ca6e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxnbGFtcGluZyUyMHRlbnQlMjBsdXh1cnl8ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=600",
       "eyebrow": "Camping Options",
       "title": "From Luxury Glamping to Authentic Village Stays",
-      "content": "The camping landscape around Cinque Terre has evolved far beyond basic tent sites. **Camping Acquadolce** in Monterosso offers premium pitches just 200 meters from the beach, where you can hear both Mediterranean waves and church bells from the medieval sanctuary above.\n\nFor those seeking elevated comfort, **Il Poggio** near Levanto provides luxury safari tents with en-suite bathrooms and private terraces overlooking olive groves. Each morning, wake to the scent of wild herbs and the distant sound of fishing boats preparing for their ancient ritual.\n\nInsider tip: Book sites on the eastern slopes for spectacular sunrises over the Gulf of Poets, where Lord Byron once swam in waters that still shimmer with the same golden light.\n\n**Peak Season Strategy**: April through October offers ideal weather, but September and early October provide the perfect balance of warm days, cool evenings, and fewer crowds. Many campgrounds offer 'shoulder season' packages with complimentary wine tastings and guided foraging walks."
+      "content": "The camping landscape around Cinque Terre has evolved far beyond basic tent sites. **Camping Acquadolce** in Monterosso offers premium pitches just 200 meters from the beach, where you can hear both Mediterranean waves and church bells from the medieval sanctuary above.\n\nFor those seeking elevated comfort, **Il Poggio** near Levanto provides luxury safari tents with en-suite bathrooms and private terraces overlooking olive groves. Each morning, wake to the scent of wild herbs and the distant sound of fishing boats preparing for their ancient ritual.\n\n**Peak Season Strategy:** April through October offers ideal weather, but September and early October provide the perfect balance of warm days, cool evenings, and fewer crowds. Many campgrounds offer 'shoulder season' packages with complimentary wine tastings and guided foraging walks.\n\n**Insider tip:** Book sites on the eastern slopes for spectacular sunrises over the Gulf of Poets, where Lord Byron once swam in waters that still shimmer with the same golden light."
     },
     {
       "type": "content-section",
@@ -100,7 +84,7 @@
       "image": "https://images.unsplash.com/photo-1533587851505-d119e26e802d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxoaWtpbmclMjB0cmFpbCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODA3Mzh8MA&ixlib=rb-4.1.0&q=80&w=600",
       "eyebrow": "Local Traditions",
       "title": "Living History Beyond the Tourist Trail",
-      "content": "Camping in this region connects you to traditions that stretch back to when these villages were vital stops along medieval pilgrimage routes. Your campsite neighbors might include **contadini** (local farmers) who still tend ancient terraces by hand, using techniques passed down through generations.\n\nMany camping areas are located on former monastery grounds or near chapels where travelers have sought shelter for centuries. At **Camping La Secca** near Bonassola, you're steps from a 12th-century oratory where pilgrims once prayed before the treacherous coastal journey.\n\nThe evening **passeggiata** (leisurely stroll) takes on new meaning when you can join locals walking the same stone paths their ancestors carved. Watch for the subtle rituals: fishermen mending nets by lamplight, elderly women sharing stories on stone benches, children playing games that echo through narrow *caruggi* (medieval alleyways).\n\n**Cultural Immersion**: Time your stay with village festivals like Monterosso's Lemon Festival in May or Vernazza's Santa Margherita celebration in July, when camping guests are often welcomed into community celebrations."
+      "content": "Camping in this region connects you to traditions that stretch back to when these villages were vital stops along medieval pilgrimage routes. Your campsite neighbors might include **contadini** (local farmers) who still tend ancient terraces by hand, using techniques passed down through generations.\n\nMany camping areas are located on former monastery grounds or near chapels where travelers have sought shelter for centuries. At **Camping La Secca** near Bonassola, you're steps from a 12th-century oratory where pilgrims once prayed before the treacherous coastal journey.\n\nThe evening **passeggiata** (leisurely stroll) takes on new meaning when you can join locals walking the same stone paths their ancestors carved. Watch for the subtle rituals: fishermen mending nets by lamplight, elderly women sharing stories on stone benches, children playing games that echo through narrow *caruggi* (medieval alleyways).\n\n**Cultural Immersion:** Time your stay with village festivals like Monterosso's Lemon Festival in May or Vernazza's Santa Margherita celebration in July, when camping guests are often welcomed into community celebrations."
     },
     {
       "type": "faq-section",
@@ -128,27 +112,18 @@
         },
         {
           "question": "What should I pack for camping near Cinque Terre?",
-          "answer": "Essential items include layers for cool evenings, sturdy hiking shoes for coastal trails, swimwear, and a good daypack. Many sites rent premium camping gear. Don't forget a waterproof jacket—Mediterranean weather can change quickly along the coast."
+          "answer": "Essential items include layers for cool evenings, sturdy hiking shoes for coastal trails, swimwear, and a good daypack. Many sites rent premium camping gear. Don't forget a waterproof jacket - Mediterranean weather can change quickly along the coast."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Your Adventure Awaits",
+      "type": "closing-note",
+      "badge": "Your Adventure Awaits",
       "title": "Book Your Cinque Terre Camping Experience",
-      "content": "Join the centuries of travelers who've found magic in this landscape. From luxury glamping with village views to authentic sites where locals share their stories, your perfect camping experience awaits among these legendary coastal villages.",
-      "buttons": [
-        {
-          "text": "Explore Luxury Camping Options",
-          "url": "/cinque-terre/accommodation",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Itinerary",
-          "url": "/cinque-terre/itineraries",
-          "variant": "secondary"
-        }
+      "content": "<p>Join the centuries of travelers who've found magic in this landscape. From luxury glamping with village views to authentic sites where locals share their stories, your perfect camping experience awaits.</p><p>Experience these legendary coastal villages from a perspective most visitors never discover.</p>",
+      "actions": [
+        { "label": "Explore Luxury Camping Options", "href": "/cinque-terre/accommodation", "variant": "primary" },
+        { "label": "Plan Your Itinerary", "href": "/cinque-terre/itineraries", "variant": "secondary" }
       ]
     }
   ],
@@ -156,7 +131,7 @@
     "city": "cinque-terre",
     "page_type": "camping"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:43:35.511Z"
 }

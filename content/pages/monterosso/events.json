@@ -7,269 +7,175 @@
     "it": "/it/monterosso/events"
   },
   "title": {
-    "en": "Monterosso Events & Festivals - Celebrate Local Traditions"
+    "en": "Events in Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "events",
   "seo": {
     "title": {
-      "en": "Monterosso Events & Festivals Guide | Cinqueterre.travel"
+      "en": "Events in Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Monterosso's vibrant festivals from the famous Lemon Festival to ancient religious celebrations. Experience authentic local traditions year-round."
+      "en": "Monterosso celebrates with festivals that smell of lemons, taste of anchovies, and honor centuries of faith. The Lemon Festival, the Anchovy Sagra, the Corpus Domini flower carpets—each event reveals the village at its most authentic."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533900298318-6b8da08a523e-hero.jpg",
-      "eyebrow": "Cultural Calendar",
-      "title": "Where Ancient Traditions Come Alive",
-      "subtitle": "From golden lemon festivals to centuries-old religious processions, Monterosso's event calendar reads like a love letter to Ligurian heritage. Each celebration offers you a front-row seat to authentic local life, complete with traditional foods, ancient rituals, and moments that transform strangers into famiglia.",
-      "buttons": [
-        {
-          "text": "Browse All Events",
-          "url": "#events",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Visit",
-          "url": "/monterosso",
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Village<br/>Celebrates",
+      "subtitle": "Monterosso's calendar is shaped by what grows, what swims, and what the village has always believed. The Lemon Festival fills streets with citrus sculptures. The Anchovy Sagra honors the fish that fed generations. The religious processions connect the living to six centuries of the dead. These are not performances—they are the village expressing itself.",
+      "badge": "Events & Festivals",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533900298318-6b8da08a523e-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Festival Philosophy",
+      "quote": "Every Monterosso festival has roots deeper than tourism can touch. The Lemon Festival celebrates what the terraces above have always grown. The Anchovy Sagra honors what the sea below has always given. The religious processions carry statues that have been carried for six hundred years.",
+      "content": [
+        "**The Lemon Festival** (Sagra del Limone) transforms the village each May, when the famous Monterosso lemons are ripe and the terraces are fragrant. Streets fill with citrus sculptures, limoncello flows, and lemon-everything appears on every menu.",
+        "**The Anchovy Sagra** honors the small fish with IGP protection that has fed this coast for centuries. Fried, salted, marinated—every preparation appears, and the village eats together.",
+        "**Corpus Domini** brings flower carpets to the streets—elaborate designs created from petals overnight, walked upon in procession by morning. The art is temporary; the tradition is ancient.",
+        "**San Giovanni Battista** is the patron saint's feast—processions, fireworks, and the village gathered in celebration of the protector they've honored since medieval times."
       ]
     },
     {
-      "type": "stats-section",
-      "title": "A Year of Celebrations",
-      "stats": [
-        {
-          "number": "18+",
-          "label": "Annual Events",
-          "description": "From intimate local gatherings to grand festivals"
-        },
-        {
-          "number": "600+",
-          "label": "Years of Tradition",
-          "description": "Some celebrations date back to medieval times"
-        },
-        {
-          "number": "4",
-          "label": "Seasonal Highlights",
-          "description": "Each season brings unique festivities"
-        },
-        {
-          "number": "100%",
-          "label": "Authentic Experience",
-          "description": "Real traditions, not tourist performances"
-        }
-      ]
-    },
-    {
-      "type": "collection-embed",
-      "collectionType": "events",
-      "heading": "Discover Monterosso's Celebrations",
-      "headingLevel": 2,
+      "type": "collection-with-interludes",
+      "itemType": "event",
       "items": [
         {
-          "slug": "festa-del-limone-monterosso",
-          "title": "Monterosso Lemon Festival",
-          "summary": "Discover the sweet and sour treasures of Monterosso's legendary lemons",
-          "url": "/festa-del-limone-monterosso",
-          "category": "food_wine",
-          "village": "monterosso",
-          "data": {
-            "featured": true
-          }
+          "id": 1,
+          "name": "Sagra del Limone",
+          "category": "Food Festival",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The Lemon Festival—when Monterosso's terraces descend into the village and the streets smell of citrus.",
+          "description": "The third weekend of May transforms Monterosso into a lemon celebration. The famous local lemons—larger, more fragrant, less bitter than ordinary citrus—appear in sculptures, desserts, limoncello, and dishes both traditional and creative. The terraced groves that define the landscape above the village finally take center stage.",
+          "giuliaComment": "This is my favorite Monterosso festival. The scent is overwhelming—the entire village smells like the terraces smell in late spring. And everything tastes of lemon for three days.",
+          "signature": "Where the terraces become the table",
+          "date": "Third weekend of May",
+          "practicalInfo": "Book accommodation months ahead. Restaurants offer special lemon menus. Buy limoncello from local producers."
         },
         {
-          "slug": "festa-san-giovanni-battista",
-          "title": "Feast of Saint John the Baptist",
-          "summary": "Witness centuries-old traditions at Monterosso's patron saint celebration",
-          "url": "/festa-san-giovanni-battista",
-          "category": "religious",
-          "village": "monterosso",
-          "data": {
-            "featured": false
-          }
+          "id": 2,
+          "name": "Sagra delle Acciughe Fritte",
+          "category": "Food Festival",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
+          "intro": "The Fried Anchovy Festival—when the fish that defined this coast gets its proper celebration.",
+          "description": "Each September, Monterosso honors the anchovy that has sustained this village for centuries. The local catch—protected by IGP status—appears fried, salted, marinated, stuffed, and in preparations that families have guarded for generations. The village gathers to eat together, and the small fish becomes the main event.",
+          "giuliaComment": "The anchovies here are genuinely different—worth the protected status. At the sagra, you taste a hundred years of refinement in every preparation.",
+          "signature": "Where small fish carry big history",
+          "date": "September (variable)",
+          "practicalInfo": "Check exact dates locally. Come hungry. Pair with local white wine. Casual atmosphere."
         },
         {
-          "slug": "sagra-acciughe-fritte",
-          "title": "Fried Anchovy Festival",
-          "summary": "Savor crispy golden anchovies fresh from Ligurian waters in the heart of Monterosso",
-          "url": "/sagra-acciughe-fritte",
-          "category": "food_wine",
-          "village": "monterosso",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "mostra-presepi-natale",
-          "title": "Christmas Nativity Scenes Exhibition",
-          "summary": "Discover the Christmas spirit through artistic nativity scenes in a medieval Baroque setting",
-          "url": "/mostra-presepi-natale",
-          "category": "cultural",
-          "village": "monterosso",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "corpus-domini-infiorata",
-          "title": "Corpus Domini Flower Carpet Festival",
-          "summary": "Walk on carpets of flowers through streets transformed into works of art",
-          "url": "/corpus-domini-infiorata",
-          "category": "religious",
-          "village": "monterosso",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "nuovo-vino-harvest-celebration",
-          "title": "New Wine Harvest Celebration",
-          "summary": "Taste the first fruits of the harvest in spectacular terraced vineyards above the sea",
-          "url": "/nuovo-vino-harvest-celebration",
-          "category": "food_wine",
-          "village": "monterosso",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "festa-martino-cuckoldy-tradition",
-          "title": "Feast of Saint Martin - Local Tradition",
-          "summary": "Experience an authentic locals-only tradition with wine, dialect, and community spirit",
-          "url": "/festa-martino-cuckoldy-tradition",
-          "category": "cultural",
-          "village": "monterosso",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "olive-harvest-festival",
-          "title": "Olive Harvest Festival",
-          "summary": "Discover the liquid gold of Liguria among centuries-old olive trees",
-          "url": "/olive-harvest-festival",
-          "category": "food_wine",
-          "village": "monterosso",
-          "data": {
-            "featured": false
-          }
+          "id": 3,
+          "name": "Corpus Domini",
+          "category": "Religious Festival",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The flower carpet procession—when streets become sacred art made of petals.",
+          "description": "The night before Corpus Domini, villagers create elaborate carpet designs from flower petals on the main street. By morning, the intricate patterns transform the via principale into a sacred gallery. Then the procession walks through—priests, faithful, and the village together—destroying the art in the act of honoring it. The impermanence is the point.",
+          "giuliaComment": "The overnight creation is extraordinary to witness—neighbors working together, children placing petals, the design emerging from chaos. Then in the morning, it's gone. That's what faith looks like here.",
+          "signature": "Where art exists to be walked upon",
+          "date": "Variable (60 days after Easter)",
+          "practicalInfo": "Modest dress required. Come the night before to watch creation. Morning procession is the main event."
         }
       ],
-      "display": {
-        "layout": "grid",
-        "columns": 3,
-        "showImage": true,
-        "showSummary": true,
-        "imageAspect": "landscape"
-      },
-      "showViewAll": true,
-      "viewAllUrl": "/events"
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1578662996442-48f60103fc96-hero.jpg",
-      "eyebrow": "Festival Photography",
-      "title": "Capturing the Magic of Local Celebrations",
-      "content": "Each festival in Monterosso offers countless opportunities for stunning photographs and unforgettable memories. The Lemon Festival transforms the entire village into a golden wonderland, with citrus sculptures adorning medieval streets and locals dressed in traditional costumes.\n\nReligious processions create powerful visual narratives as centuries-old statues wind through narrow alleys, carried by generations of the same families. The soft morning light during the Corpus Domini flower carpets creates ethereal scenes that belong in Renaissance paintings.\n\nFor the most authentic shots, arrive early when locals are setting up - these behind-the-scenes moments often yield the most genuine captures. The golden hour during harvest festivals in the terraced vineyards above town offers panoramic views that encompass both celebration and landscape.\n\n**Insider's tip:** Ask permission before photographing people in traditional dress - most locals are happy to pose once they see you're genuinely interested in their culture, not just collecting tourist shots."
-    },
-    {
-      "type": "feature-section",
-      "title": "Why Monterosso's Festivals Stand Apart",
-      "subtitle": "These aren't tourist shows - they're living traditions that locals genuinely celebrate",
-      "features": [
+      "interludes": [
         {
-          "icon": "🍋",
-          "title": "Culinary Celebrations",
-          "description": "Taste traditional recipes passed down through generations, from lemon-everything during the citrus festival to perfectly fried anchovies that define Ligurian cuisine."
-        },
-        {
-          "icon": "⛪",
-          "title": "Religious Heritage",
-          "description": "Witness faith in action through processions that have honored patron saints for over 600 years, with elaborate ceremonies and community participation."
-        },
-        {
-          "icon": "🎭",
-          "title": "Cultural Immersion",
-          "description": "Experience authentic local life through festivals where you're welcomed as famiglia, not just an observer, with opportunities to participate in traditions."
-        },
-        {
-          "icon": "🌺",
-          "title": "Artistic Expressions",
-          "description": "Marvel at temporary art installations like flower carpets and nativity scenes that transform public spaces into galleries celebrating local creativity."
-        },
-        {
-          "icon": "🍷",
-          "title": "Seasonal Celebrations",
-          "description": "Connect with the agricultural rhythm of the land through harvest festivals that celebrate the terraced vineyards and olive groves defining the landscape."
-        },
-        {
-          "icon": "📸",
-          "title": "Photography Paradise",
-          "description": "Capture festival moments against the backdrop of medieval architecture and dramatic coastline, with endless opportunities for both candid and composed shots."
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Harvest Calendar",
+          "quote": "Monterosso's festival calendar follows what the land and sea provide. May brings lemons ripe from the terraces. September brings anchovies fat from summer feeding. October brings grapes heavy from the sun. Each celebration marks a moment when nature delivers and the village receives."
         }
       ]
     },
     {
-      "type": "faq-section",
-      "title": "Planning Your Festival Experience",
-      "faqs": [
+      "type": "editorial-intro",
+      "badge": "Sacred Traditions",
+      "quote": "The religious festivals of Monterosso connect the village to six centuries of faith. The processions, the patron saints, the oratories that host confraternities—these are not quaint customs but living practice.",
+      "content": [
+        "**San Giovanni Battista** is the patron saint—his feast day in June brings processions, fireworks over the sea, and the village gathered in celebration. The Gothic church bearing his name has hosted this for seven centuries.",
+        "**The Confraternity of the Dead** (Oratorio dei Neri) maintains medieval traditions of caring for the departed. Their processions through the village streets continue what their predecessors began in the 15th century.",
+        "**Christmas brings the presepi**—nativity scenes displayed throughout the village, from elaborate church installations to simple family tableaux in windows.",
+        "**The Assumption** (August 15) is a major celebration—religious procession, village feast, and the heart of summer's tourism and tradition colliding."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "event",
+      "items": [
         {
-          "question": "When is the best time to visit for festivals?",
-          "answer": "Each season offers unique celebrations. Spring brings religious processions like Corpus Domini, summer features the famous Lemon Festival and seafood celebrations, autumn celebrates harvest season with wine and olive festivals, while winter offers intimate nativity exhibitions and New Year traditions."
+          "id": 4,
+          "name": "Festa di San Giovanni Battista",
+          "category": "Patron Saint Festival",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1517821099606-cef63a9bcda6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The patron saint's celebration—when Monterosso honors the Baptist with procession and fireworks.",
+          "description": "June 24th brings Monterosso's most important religious celebration. The statue of San Giovanni Battista processes through medieval streets, fireworks explode over the harbor, and the village gathers to honor the saint who has protected them since the 13th-century church was built. Sacred and celebratory merge in the way only Italian villages can achieve.",
+          "giuliaComment": "The fireworks over the harbor are the best in Cinque Terre—reflected in the water, framed by the medieval buildings. It's spectacular. But the morning procession is the real event.",
+          "signature": "Where seven centuries of devotion continue",
+          "date": "June 24",
+          "practicalInfo": "Modest dress for procession. Evening fireworks around 10pm. Restaurants very busy—book ahead."
         },
         {
-          "question": "Are visitors welcome to participate in local festivals?",
-          "answer": "Absolutely! Monterosso's festivals are community celebrations where visitors are warmly welcomed. You can taste traditional foods, watch processions, and even help with flower carpet preparations during Corpus Domini. The locals appreciate genuine interest in their traditions."
+          "id": 5,
+          "name": "Vendemmia (Grape Harvest)",
+          "category": "Agricultural Festival",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The grape harvest—when the terraced vineyards deliver and the village makes wine.",
+          "description": "Late September and October bring the vendemmia to Monterosso's terraced slopes. While not a single festival day, the harvest season fills the village with activity—grapes moving down the hillsides, the smell of fermentation beginning, and the new wine eventually arriving. This is the payoff for a year of labor on impossible slopes.",
+          "giuliaComment": "The harvest is when you understand why the terraces matter. All that effort, all those stone walls, all that climbing—this is when it pays off. The first new wine is a celebration.",
+          "signature": "Where the terraces explain themselves",
+          "date": "Late September-October",
+          "practicalInfo": "Wineries may offer tastings. Vineyard access limited during harvest. New wine events in late autumn."
         },
         {
-          "question": "Do I need to book accommodation far in advance during festivals?",
-          "answer": "Yes, especially for major celebrations like the Lemon Festival or Saint John the Baptist feast. Book 2-3 months ahead for popular events. Consider staying in nearby villages if Monterosso is fully booked - the train connections make it easy to join the festivities."
-        },
+          "id": 6,
+          "name": "Christmas Nativity Exhibition",
+          "category": "Winter Celebration",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The presepi trail—when nativity scenes transform Monterosso into a winter gallery.",
+          "description": "From early December through Epiphany, nativity scenes (presepi) appear throughout Monterosso—in churches, public spaces, restaurant windows, and family homes that open their displays to visitors. The tradition is deeply Italian, and Monterosso's medieval setting provides perfect backdrop for these scenes of sacred birth.",
+          "giuliaComment": "Winter Monterosso is quiet and beautiful. The presepi give you a reason to walk the village slowly, looking in windows, visiting churches. It's contemplative in a way summer cannot be.",
+          "signature": "Where winter finds its light",
+          "date": "December-January 6",
+          "practicalInfo": "Many restaurants closed in winter—check ahead. Presepi visible day and evening. Warm clothing essential."
+        }
+      ],
+      "interludes": [
         {
-          "question": "What should I wear to religious festivals and processions?",
-          "answer": "Dress respectfully for religious events - covered shoulders and knees are essential. Comfortable walking shoes are important as processions involve cobblestone streets. For food festivals, casual attire is fine, but bring a light jacket as coastal evenings can be cool."
-        },
-        {
-          "question": "How can I learn about festivals happening during my visit?",
-          "answer": "Check the local Pro Loco office near the train station for current festival schedules. Many events are announced just weeks in advance, especially smaller community celebrations. Follow Monterosso's social media or ask at your accommodation for insider information."
-        },
-        {
-          "question": "Are festivals family-friendly?",
-          "answer": "Most festivals welcome families and often include activities specifically for children. The Lemon Festival and harvest celebrations are particularly family-oriented, while some religious processions may be more solemn. Food festivals offer something for every palate, including kid-friendly options."
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Booking Reality",
+          "quote": "Major festivals fill Monterosso's accommodation weeks in advance. The Lemon Festival, Ferragosto (August 15), and San Giovanni Battista are especially challenging. Book two months ahead, or stay in nearby villages and take the train. The festivals are worth the planning."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Experience Authentic Traditions",
-      "title": "Join the Celebration",
-      "subtitle": "Don't just visit Monterosso - become part of its living traditions. From golden lemon festivals to ancient religious processions, each event offers a gateway into authentic Ligurian culture that will transform your understanding of this magical place.",
+      "type": "closing-note",
+      "title": "The Calendar Calls",
+      "content": [
+        "Monterosso's festivals are not staged for tourists—they are the village expressing what it has always been. A fishing community that honors its anchovies. An agricultural village that celebrates its lemons and grapes. A Catholic community that processes behind saints carried for six hundred years.",
+        "Time your visit for a festival and you see Monterosso at its most alive. The crowds are part of it—locals and visitors together, sharing what the village offers.",
+        "The calendar waits. Choose your celebration."
+      ],
       "buttons": [
-        {
-          "text": "Plan Your Festival Visit",
-          "url": "/monterosso",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore All Villages",
-          "url": "/villages",
-          "variant": "secondary"
-        }
+        { "text": "Plan Your Visit", "url": "/en/monterosso/things-to-do", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/monterosso/hotels", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "events"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T12:59:37.952Z"
+  "updated_at": "2026-01-07T14:00:00.000Z"
 }

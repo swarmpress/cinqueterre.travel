@@ -1,5 +1,5 @@
 {
-  "id": "f714b245-ce73-44e8-aeaa-8ee5608eb00a",
+  "id": "m-blog-001",
   "slug": {
     "en": "/en/monterosso/blog",
     "de": "/de/monterosso/blog",
@@ -7,161 +7,152 @@
     "it": "/it/monterosso/blog"
   },
   "title": {
-    "en": "Monterosso's Culinary Heritage: Where Ancient Traditions Meet Modern Gastronomy"
+    "en": "Stories from Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "blog",
   "seo": {
     "title": {
-      "en": "Monterosso Dining & Culinary Heritage | Cinqueterre.travel"
+      "en": "Stories from Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Monterosso's rich culinary heritage from medieval monasteries to modern fine dining. Ancient recipes, local traditions & award-winning restaurants."
+      "en": "Monterosso's stories span two neighborhoods, two identities, and two thousand years—from the Giant carved into cliff stone to the Nobel laureate who found poetry in these waters."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "Culinary Heritage",
-      "title": "Where Ancient Recipes Meet Modern Excellence",
-      "subtitle": "From Benedictine monastery kitchens to Michelin-starred innovation, Monterosso has nurtured culinary traditions for over a millennium. Today's chefs honor these ancient roots while crafting extraordinary dining experiences.",
+      "type": "editorial-hero",
+      "title": "Stories That<br/>Span the Bay",
+      "subtitle": "Monterosso is a village of dualities: old town and new, land and sea, working village and resort. Its stories reflect these tensions, these harmonies, these contradictions that somehow resolve into a single place.",
+      "badge": "Stories & Reflections",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "A Village in Two Parts",
+      "quote": "Every village has its stories. Monterosso has twice as many—one set for the medieval center where fishermen still mend nets, another for Fegina where the Giant watches over bathers. Both are true. Both are Monterosso.",
+      "content": [
+        "**The tunnel tells the story**. When they carved through Aurora Tower to connect old and new Monterosso, they acknowledged what was already true: this is one village with two souls. The stories on each side differ, but they connect.",
+        "**Nobility and fishermen coexisted**. Unlike other Cinque Terre villages that were purely working communities, Monterosso attracted nobility seeking beach retreats. The stories here include aristocratic villas alongside fishermen's cottages.",
+        "**The poet understood**. Eugenio Montale spent summers here, eventually winning the Nobel Prize for poetry partly inspired by these waters. His words capture what photographs miss—the quality of light, the weight of history, the way the Mediterranean holds memory.",
+        "**The stories continue**. Every day adds new chapters: the last traditional anchovy processor, the farmer who still tends medieval terraces, the child learning to swim where generations have swum. Monterosso's story isn't finished."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "story",
+      "items": [
+        {
+          "id": 1,
+          "name": "Il Gigante's Fall",
+          "category": "Modern Legend",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The 14-meter statue that once held up a villa terrace, now armless but still watching over Fegina beach.",
+          "description": "Built in 1910, the Giant (originally Neptune holding a shell) supported the terrace of an elaborate villa. World War II bombs and the great flood of 1966 destroyed the villa and broke the statue's arms. What remains still guards the beach—a monument to both ambition and destruction, beauty and loss.",
+          "giuliaComment": "Tourists photograph the Giant without knowing its story. They see a headless torso emerging from rock. I see a reminder that even concrete monuments break, that even the grandest plans face the sea's indifference. The Giant's tragedy makes it more beautiful, not less.",
+          "signature": "Where ambition met the sea"
+        },
+        {
+          "id": 2,
+          "name": "The Capuchin Van Dyck",
+          "category": "Sacred Art",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "How a masterpiece by one of Europe's greatest painters ended up in a monastery overlooking the beach.",
+          "description": "The Capuchin monastery above Monterosso houses a Crucifixion by Anthony van Dyck—a painting that would be the centerpiece of any major museum, hanging instead in a small hillside chapel. The story of how it arrived here is lost, but its presence speaks to Monterosso's historical importance: even this remote coast attracted great art.",
+          "giuliaComment": "I take visitors to see the Van Dyck who would never bother with a village church. They stand in that simple space, looking at a painting worth millions, surrounded by nothing but silence and centuries. Art doesn't need context to move you—but context helps.",
+          "signature": "Where masterpieces hide in plain sight"
+        },
+        {
+          "id": 3,
+          "name": "Montale's Mediterranean",
+          "category": "Literary Heritage",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The Nobel laureate who found in Monterosso's light and water the raw material for Italy's greatest modern poetry.",
+          "description": "Eugenio Montale spent childhood summers in Monterosso, returning throughout his life. His poetry collection 'Ossi di Seppia' (Cuttlefish Bones) distills these shores into words—the quality of light on water, the weight of Mediterranean air, the way the landscape shapes consciousness. In 1975, he received the Nobel Prize, and Monterosso claims part of that honor.",
+          "giuliaComment": "Reading Montale in Monterosso is different from reading him elsewhere. The poems make sense here in ways they can't elsewhere—you see the exact light he described, feel the exact heat. The landscape becomes text, and the text becomes landscape.",
+          "signature": "Where words captured the sea"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Anchovy Inheritance",
+          "quote": "Monterosso's anchovies carry IGP protection, but the real heritage is in the families who still process them by hand. The salting techniques passed through generations can't be written down—they live in muscle memory, in the feel of fish and salt, in knowing when the cure is complete. This knowledge is Monterosso's most endangered story."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Living Stories",
+      "quote": "The stories that matter in Monterosso aren't all in the past. They're being written now, in the daily choices of people who stay, who work, who maintain what generations built.",
+      "content": [
+        "**The lemon keepers**. Families still tend IGP-protected lemon groves on terraces above the village, maintaining trees their great-grandparents planted. Their stories are about persistence, about choosing difficult agriculture over easier income.",
+        "**The stabilimenti families**. The beach clubs along Fegina have been run by the same families for generations, creating their own dynasties and dramas. The umbrella you rent comes with a century of family history.",
+        "**The restaurant inheritors**. Some Monterosso restaurants are on their fourth generation of family ownership. The recipes they serve carry stories older than their buildings—dishes that survived wars, floods, and changing tastes.",
+        "**The new arrivals**. Not everyone in Monterosso has deep roots. Some stories are about choosing to come here, to make a life in a place that demands adaptation but rewards commitment."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "moment",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Corpus Christi Petals",
+          "category": "Living Tradition",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the village carpets its streets with flower petals for one day of the year—a tradition that transforms stone into garden.",
+          "description": "Each Corpus Christi, Monterosso residents create elaborate designs on the streets using thousands of flower petals, collected for months, arranged through the night, destroyed by the procession's passage. The ephemeral art—hours to create, minutes to destroy—speaks to something essential about beauty and impermanence.",
+          "giuliaComment": "I help with the petal carpets every year. We work until dawn, knowing the procession will walk through our art before noon. That's the point. Beauty doesn't need to last to matter. The village remembers even when the petals are gone.",
+          "signature": "When flowers become faith"
+        },
+        {
+          "id": 5,
+          "name": "The Evening Passeggiata",
+          "category": "Daily Ritual",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The evening walk that connects old and new town—when all of Monterosso strolls together as the light softens.",
+          "description": "Around 7pm in summer, something shifts. Tourists return to restaurants, but locals emerge for the passeggiata—the evening walk that has no destination but much purpose. From old town through the tunnel to Fegina and back, neighbors meet, news exchanges, the day's heat releases. It's been happening for centuries.",
+          "giuliaComment": "The passeggiata looks like aimless walking but it's actually the village's information system. By the time I reach Fegina, I know who arrived today, whose grandmother is sick, which restaurant has fresh fish. Nothing is announced. Everything is communicated.",
+          "signature": "When walking becomes community"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Stories You Earn",
+          "quote": "The best Monterosso stories aren't told to day-trippers. They emerge over time, earned through return visits, through being recognized, through showing you care about more than photographs. The village decides when you're ready to hear more. Patience is required."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Stories Waiting to Be Told",
+      "content": [
+        "Monterosso's stories could fill libraries—and perhaps they should. The poets who wrote about these waters captured fragments. The families who tell tales at dinner preserve others. But so much remains unwritten, uncollected, at risk of being lost when the last generation who remembers passes.",
+        "Your presence here adds to the story. Every visitor who takes time to listen, to ask, to care about more than scenery, helps the narrative continue. The village notices. The village responds.",
+        "Come with curiosity. Leave with stories. Return to hear more."
+      ],
       "buttons": [
-        {
-          "text": "Explore Fine Dining",
-          "url": "#restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "Discover Traditions",
-          "url": "#heritage",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "headline": "Monterosso's Culinary Legacy in Numbers",
-      "stats": [
-        {
-          "number": "643 CE",
-          "label": "First documented settlement",
-          "description": "When Roman culinary influences began"
-        },
-        {
-          "number": "1056",
-          "label": "Benedictine monastery founded",
-          "description": "Established religious cooking traditions"
-        },
-        {
-          "number": "15+",
-          "label": "Acclaimed restaurants today",
-          "description": "From family trattorias to fine dining"
-        },
-        {
-          "number": "4 Centuries",
-          "label": "Anchovy processing heritage",
-          "description": "Traditional preservation techniques"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "headline": "Culinary Pillars of Monterosso",
-      "subtitle": "Four distinct dining traditions that define the village's gastronomic identity",
-      "features": [
-        {
-          "icon": "monastery",
-          "title": "Monastic Heritage Cuisine",
-          "description": "Ancient recipes from Benedictine monks who cultivated herbs, preserved fish, and created the foundation of local cooking traditions that survive today."
-        },
-        {
-          "icon": "ocean",
-          "title": "Maritime Gastronomy",
-          "description": "Fresh seafood traditions perfected over centuries, from traditional anchovy processing to modern crudo preparations at restaurants like Miky."
-        },
-        {
-          "icon": "farm",
-          "title": "Farm-to-Table Innovation",
-          "description": "Modern interpretations of agricultural heritage, exemplified by Ristorante Ciak where chefs grow their own organic produce in village gardens."
-        },
-        {
-          "icon": "wine",
-          "title": "Terroir & Terraces",
-          "description": "Unique microclimate cuisine featuring ingredients from ancient terraced vineyards and clifftop gardens that have fed the village for generations."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "id": "heritage",
-      "layout": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1515003197210-e0cd71810b5f-hero.jpg",
-      "headline": "From Monastery Kitchens to Modern Masters",
-      "content": "The story of Monterosso's cuisine begins in 1056 with Benedictine monks who established not just a monastery, but a culinary revolution. These medieval masters developed preservation techniques for the abundant anchovies, cultivated terraced gardens that defied gravity, and created recipes that would echo through the centuries.\n\nToday, this ancient wisdom lives on in remarkable ways. At Ristorante Ciak, you can witness a chef who farms his own organic vegetables in the morning and transforms them into extraordinary dishes by evening – a living continuation of the monastery's self-sufficient traditions. Meanwhile, Torre Aurora elevates local ingredients in its historic tower setting, where panoramic views remind diners of the landscape that has sustained this village for nearly a thousand years.\n\nThe Ligurian tradition of preserving food for long sea voyages gave birth to focaccia col formaggio, pesto, and the legendary anchovy preparations that remain central to local menus. These weren't just recipes – they were survival innovations that became cultural treasures."
-    },
-    {
-      "type": "content-section",
-      "id": "restaurants",
-      "layout": "text-only",
-      "headline": "Today's Culinary Renaissance",
-      "content": "Modern Monterosso represents a fascinating culinary paradox: the largest Cinque Terre village has both preserved the most ancient traditions and embraced the most innovative approaches to dining. This unique position as the historical capital has created a restaurant scene unmatched elsewhere in the region.\n\nRistorante Miky exemplifies this evolution perfectly. Set on the beachfront where Roman patricians once dined, it serves sophisticated interpretations of local seafood while maintaining the spectacular coastal views that have drawn visitors for millennia. Their crudo di ricciola represents the perfect marriage of Japanese technique with Ligurian ingredients – innovation rooted in tradition.\n\nWhat makes Monterosso's dining scene truly special is its depth. Beyond the acclaimed fine dining establishments, family-run trattorias still serve recipes passed down through generations, often in buildings that have housed restaurants for centuries. The village's larger size has allowed it to support this diversity while smaller villages focus on more limited offerings.\n\nThe result is a destination where you can experience the full spectrum of Ligurian cuisine, from ancient monastery recipes to cutting-edge interpretations, all within a few cobblestone streets.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1603473511024-9b4cb9226f17-hero.jpg"
-    },
-    {
-      "type": "faq-section",
-      "headline": "Monterosso Culinary Questions",
-      "faqs": [
-        {
-          "question": "What makes Monterosso's food scene different from other Cinque Terre villages?",
-          "answer": "Monterosso offers the most diverse dining options due to its larger size and role as the historical capital. You'll find everything from centuries-old family recipes to innovative fine dining, plus unique experiences like farm-to-table restaurants where chefs grow their own ingredients."
-        },
-        {
-          "question": "Which restaurants require advance reservations?",
-          "answer": "Ristorante Miky and Torre Aurora definitely require reservations, especially for sunset terrace seating. Ristorante Ciak is recommended for reservations due to its unique farm-to-table concept and limited seating. Book 2-3 days ahead during peak season."
-        },
-        {
-          "question": "What are the signature dishes I shouldn't miss?",
-          "answer": "Try the crudo di ricciola at Ristorante Miky, ask about the morning's harvest at Ristorante Ciak, and don't miss the sunset cocktails with panoramic views at Torre Aurora. Traditional anchovy preparations and handmade trofie with pesto are village classics."
-        },
-        {
-          "question": "How do local dining customs differ from typical Italian restaurants?",
-          "answer": "Monterosso restaurants often serve later than inland Italy, with sunset dining being particularly popular. Many specialize in incredibly fresh seafood caught that morning, and portions tend to be smaller but more refined than typical tourist areas."
-        },
-        {
-          "question": "What's the story behind the monastery's influence on local cuisine?",
-          "answer": "The 1056 Benedictine monastery established many preservation techniques still used today, including anchovy processing methods and terraced agriculture. Monks created self-sufficient food systems that became the foundation of local cuisine, with recipes and techniques passed down through generations."
-        },
-        {
-          "question": "Are there dining options for dietary restrictions?",
-          "answer": "Yes, most upscale restaurants accommodate dietary needs with advance notice. Ristorante Miky offers vegetarian and gluten-free options, while Ristorante Ciak's organic focus provides excellent vegetarian dishes. The farm-to-table approach means very fresh, customizable preparations."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered-with-background",
-      "headline": "Experience Monterosso's Culinary Heritage",
-      "subtitle": "From ancient monastery recipes to innovative fine dining, discover why Monterosso has been the gastronomic heart of Cinque Terre for over 900 years.",
-      "buttons": [
-        {
-          "text": "Plan Your Culinary Journey",
-          "url": "/monterosso/restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Village History",
-          "url": "/monterosso",
-          "variant": "secondary"
-        }
+        { "text": "Cultural Insights", "url": "/en/monterosso/insights", "variant": "primary" },
+        { "text": "Village Overview", "url": "/en/monterosso/overview", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "blog"
   },
-  "status": "generated",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T12:57:16.026Z"
+  "status": "published",
+  "created_at": "2026-01-07T10:00:00.000Z",
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

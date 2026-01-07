@@ -10,6 +10,7 @@
     "en": "Luxury Apartments in Cinque Terre: Your Private Coastal Sanctuary"
   },
   "page_type": "apartments",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre Luxury Apartments | Cinqueterre.travel"
@@ -20,77 +21,69 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
-      "eyebrow": "Exclusive Coastal Living",
-      "title": "Wake Up to the Mediterranean at Your Doorstep",
+      "type": "editorial-hero",
+      "title": "Wake Up to the Mediterranean<br/>at Your Doorstep",
       "subtitle": "Discover thoughtfully curated apartments where centuries-old Ligurian architecture meets modern luxury. From sunrise terraces in Corniglia to sea-level retreats in Riomaggiore, each property offers an intimate window into authentic coastal life.",
-      "buttons": [
-        {
-          "text": "View Available Apartments",
-          "url": "#apartments",
-          "variant": "primary"
-        },
-        {
-          "text": "Speak to Our Specialists",
-          "url": "#contact",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Exclusive Coastal Living",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "Your Numbers at a Glance",
-      "stats": [
-        {
-          "number": "47",
-          "label": "Handpicked Properties",
-          "description": "Curated by local experts"
-        },
-        {
-          "number": "5",
-          "label": "Historic Villages",
-          "description": "All villages represented"
-        },
-        {
-          "number": "24/7",
-          "label": "Concierge Support",
-          "description": "Local assistance guaranteed"
-        },
-        {
-          "number": "98%",
-          "label": "Guest Satisfaction",
-          "description": "2024 client reviews"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Curated Excellence",
+      "quote": "Your apartment key unlocks not just a home, but a way of life - where morning espresso tastes different when sipped on a terrace overlooking vineyards that have clung to these cliffs for eight centuries.",
+      "leftContent": "<p><strong>47 handpicked properties</strong> curated by local experts across all <strong>5 historic villages</strong>. Each apartment represents an authentic piece of Ligurian heritage.</p><p>Our <strong>24/7 concierge support</strong> ensures seamless experiences, from arrival to departure. <strong>98% guest satisfaction</strong> from 2024 client reviews.</p>",
+      "rightContent": "<p>Stay in carefully restored <strong>12th to 16th-century buildings</strong>, where original stone arches frame modern amenities and terraced gardens cascade toward the sea.</p><p>Experience the profound peace of <strong>car-free villages</strong> accessible only by foot or train, where the loudest sounds are church bells and crashing waves below.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Why Choose Our Cinque Terre Apartments",
-      "subtitle": "Each property tells a story spanning centuries, from medieval wine merchants' houses to fishermen's cottages transformed into sophisticated retreats.",
-      "features": [
+      "type": "collection-embed",
+      "collectionType": "apartments",
+      "heading": "Featured Apartments",
+      "headingLevel": 2,
+      "display": {
+        "layout": "grid",
+        "columns": 3,
+        "showImage": true,
+        "showSummary": true,
+        "imageAspect": "landscape"
+      },
+      "showViewAll": true,
+      "viewAllUrl": "/apartments"
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "feature",
+      "items": [
         {
-          "icon": "🏛️",
-          "title": "Authentic Heritage Homes",
-          "description": "Stay in carefully restored 12th to 16th-century buildings, where original stone arches frame modern amenities and terraced gardens cascade toward the sea."
+          "id": 1,
+          "name": "Authentic Heritage Homes",
+          "category": "Architecture",
+          "description": "Stay in carefully restored 12th to 16th-century buildings, where original stone arches frame modern amenities and terraced gardens cascade toward the sea.",
+          "signature": "History made comfortable"
         },
         {
-          "icon": "🌅",
-          "title": "Private Panoramic Views",
-          "description": "Your morning espresso tastes different when sipped on a terrace overlooking vineyards that have clung to these cliffs for eight centuries."
+          "id": 2,
+          "name": "Private Panoramic Views",
+          "category": "Setting",
+          "description": "Your morning espresso tastes different when sipped on a terrace overlooking vineyards that have clung to these cliffs for eight centuries.",
+          "signature": "Views that take your breath away"
         },
         {
-          "icon": "🍇",
-          "title": "Village Integration",
-          "description": "Shop at the same bakeries and trattorie locals have patronized for generations. Your apartment key unlocks not just a home, but a way of life."
+          "id": 3,
+          "name": "Village Integration",
+          "category": "Experience",
+          "description": "Shop at the same bakeries and trattorie locals have patronized for generations. Your apartment key unlocks not just a home, but a way of life.",
+          "signature": "Live like a Cinqueterrino"
         },
         {
-          "icon": "🚗",
-          "title": "Car-Free Serenity",
-          "description": "Experience the profound peace of villages accessible only by foot or train. Here, the loudest sounds are church bells and crashing waves below."
+          "id": 4,
+          "name": "Car-Free Serenity",
+          "category": "Atmosphere",
+          "description": "Experience the profound peace of villages accessible only by foot or train. Here, the loudest sounds are church bells and crashing waves below.",
+          "signature": "Peace found nowhere else"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "content-section",
@@ -98,12 +91,7 @@
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1582719471137-c3967ffb1c42-regular.jpg",
       "eyebrow": "Local Insider Knowledge",
       "title": "Living Like a Cinqueterrino",
-      "content": [
-        "The true magic reveals itself in the rituals: morning coffee at Bar Centrale in Monterosso, where the same family has served the perfect espresso since 1947. Evening aperitivo on your terrace as fishing boats return with the day's catch, their lights dancing on darkening waters.",
-        "Your apartment becomes a base for discoveries that guided tours cannot provide. Follow the ancient mule paths where salt merchants once carried precious cargo between villages. Join locals at the morning fish market in Monterosso, where vendors still call out prices in the melodic Ligurian dialect.",
-        "Each village offers its own personality: Riomaggiore's terraced vineyards producing the crisp Sciacchetrà wine; Manarola's impossible cliff-hugging houses that glow golden at sunset; Corniglia's elevated perch offering views that stretch to Corsica on clear days.",
-        "Our concierge team, led by families who've called these villages home for generations, ensures you experience moments money cannot typically buy: private wine tastings in 800-year-old cantinas, dawn hikes along paths known only to locals, cooking classes in kitchens where recipes have passed unchanged through centuries."
-      ]
+      "content": "The true magic reveals itself in the rituals: morning coffee at Bar Centrale in Monterosso, where the same family has served the perfect espresso since 1947. Evening aperitivo on your terrace as fishing boats return with the day's catch, their lights dancing on darkening waters.\n\nYour apartment becomes a base for discoveries that guided tours cannot provide. Follow the ancient mule paths where salt merchants once carried precious cargo between villages. Join locals at the morning fish market in Monterosso, where vendors still call out prices in the melodic Ligurian dialect.\n\nEach village offers its own personality: Riomaggiore's terraced vineyards producing the crisp Sciacchetra wine; Manarola's impossible cliff-hugging houses that glow golden at sunset; Corniglia's elevated perch offering views that stretch to Corsica on clear days.\n\nOur concierge team, led by families who've called these villages home for generations, ensures you experience moments money cannot typically buy: private wine tastings in 800-year-old cantinas, dawn hikes along paths known only to locals, cooking classes in kitchens where recipes have passed unchanged through centuries."
     },
     {
       "type": "faq-section",
@@ -137,23 +125,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-regular.jpg",
-      "eyebrow": "Your Coastal Sanctuary Awaits",
+      "type": "closing-note",
+      "badge": "Your Coastal Sanctuary Awaits",
       "title": "Reserve Your Place in History",
-      "subtitle": "Our most sought-after apartments book months in advance. Secure your dates now and begin anticipating mornings when the Mediterranean greets you from your private terrace.",
-      "buttons": [
-        {
-          "text": "View Available Dates",
-          "url": "/booking",
-          "variant": "primary"
-        },
-        {
-          "text": "Request Custom Itinerary",
-          "url": "/contact",
-          "variant": "secondary"
-        }
+      "content": "<p>Our most sought-after apartments book months in advance. Secure your dates now and begin anticipating mornings when the Mediterranean greets you from your private terrace.</p><p>Browse our curated collection of vacation rentals where centuries-old architecture meets modern comfort, and every window frames a masterpiece.</p>",
+      "actions": [
+        { "label": "View Available Dates", "href": "/booking", "variant": "primary" },
+        { "label": "Request Custom Itinerary", "href": "/en/team", "variant": "secondary" }
       ]
     }
   ],
@@ -161,7 +139,7 @@
     "city": "cinque-terre",
     "page_type": "apartments"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:40:27.071Z"
 }

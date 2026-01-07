@@ -1,5 +1,5 @@
 {
-  "id": "0145756f-1e03-4fb3-a9bb-91f26d10c337",
+  "id": "ac22a501-e1ed-4d97-ad4c-fdcb0f7fcba9",
   "slug": {
     "en": "/en/corniglia/camping",
     "de": "/de/corniglia/camping",
@@ -7,172 +7,155 @@
     "it": "/it/corniglia/camping"
   },
   "title": {
-    "en": "Camping in Corniglia: Your Guide to Outdoor Stays in the Cinque Terre"
+    "en": "Camping Near Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "camping",
   "seo": {
     "title": {
-      "en": "Camping Corniglia Cinque Terre - Best Sites & Tips | Guide"
+      "en": "Camping Near Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover camping options near Corniglia, Italy. From glamping to traditional sites, find your perfect outdoor base for exploring Cinque Terre."
+      "en": "Wild camping is forbidden throughout Cinque Terre—but the ridge above Corniglia offers legitimate alternatives for those who want to sleep closer to the terraced landscape than village rooms allow."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504851149312-7a075b496cc7-hero.jpg",
-      "eyebrow": "Outdoor Adventures",
-      "title": "Sleep Under Tuscan Stars: Corniglia Camping Guide",
-      "subtitle": "Experience the magic of Cinque Terre with unforgettable outdoor accommodations. From luxury glamping with Mediterranean views to authentic camping adventures, discover your perfect base for exploring Italy's most dramatic coastline.",
+      "type": "editorial-hero",
+      "title": "Beyond the<br/>Village Walls",
+      "subtitle": "The romantic notion of camping among Corniglia's terraces meets the practical reality of protected land, fragile soil, and regulations that exist for good reason. But for those willing to look beyond the village, options exist.",
+      "badge": "Camping & Outdoor Stays",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Honest Truth",
+      "quote": "Let me be clear: pitching a tent in Cinque Terre National Park is prohibited. The terraces are UNESCO heritage, the fire risk is real, and the rangers patrol. But alternatives exist—they just require effort.",
+      "content": [
+        "**Wild camping is prohibited**. The terraces took a millennium to build and one careless fire could destroy them. The prohibition isn't bureaucratic whim—it's protection of irreplaceable heritage. The fines are significant.",
+        "**Legitimate campgrounds exist nearby**. They're not in Corniglia—the village barely has room for itself—but within reasonable distance, proper facilities offer the outdoor experience you're seeking.",
+        "**The experience differs from village stays**. Camping near Cinque Terre means commuting to the villages. You trade immersion for independence, walking access for morning drives. Both approaches have value.",
+        "**The ridge location has advantages**. Corniglia's position means the camping options above it offer genuine mountain character—cooler nights, star-filled skies, ridge-line views that the coastal villages cannot match."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "option",
+      "items": [
+        {
+          "id": 1,
+          "name": "Vara Valley Options",
+          "category": "Valley Camping",
+          "village": "Vara Valley",
+          "image": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The agricultural valley behind the coast—traditional camping among working farms and quiet villages.",
+          "description": "The Vara Valley, just over the ridge from Corniglia, offers several camping options. Traditional campgrounds with tent pitches sit among agricultural land, offering a different Liguria than the famous coast. The valley is peaceful, the prices are lower, and Corniglia is reachable via trails or winding roads.",
+          "giuliaComment": "The Vara Valley is what Liguria looked like before tourism. Farmers, quiet villages, proper countryside. Camping there and day-tripping to Corniglia gives you both worlds—the famous coast and the authentic interior.",
+          "signature": "Where the interior offers its own beauty",
+          "practicalInfo": "Various campgrounds, tent pitches from €15-25/night. Car helpful. 20-30 minutes to Corniglia by road."
+        },
+        {
+          "id": 2,
+          "name": "Glamping Alternatives",
+          "category": "Comfortable Outdoors",
+          "village": "Ridge Area",
+          "image": "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Canvas structures and restored farm buildings—outdoor romance with indoor comfort.",
+          "description": "Several agriturismi on the ridges above Corniglia have added glamping options: safari tents with real beds, restored shepherd huts, structures that provide outdoor atmosphere with bathroom facilities. You're sleeping under canvas (or stone) but eating well and sleeping comfortably.",
+          "giuliaComment": "Glamping isn't camping, but it satisfies the desire for something different from hotel rooms. The ridge-line options near Corniglia have spectacular star visibility—no light pollution from the coast.",
+          "signature": "Where comfort meets countryside",
+          "practicalInfo": "Various properties, €70-140/night. Book directly with farms. Car recommended."
+        },
+        {
+          "id": 3,
+          "name": "CAI Mountain Refuges",
+          "category": "Hiker's Option",
+          "village": "Alta Via trails",
+          "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2670&auto=format&fit=crop",
+          "intro": "For serious hikers—the mountain huts along the alta via trails above Cinque Terre.",
+          "description": "The Club Alpino Italiano maintains refugi (mountain huts) along the high trails above the coast. These are earned through hiking—dormitory-style accommodation, shared meals, basic facilities. From these positions, you can descend to Corniglia via trails that have connected ridge to coast for centuries.",
+          "giuliaComment": "The refugi are for people who want the real mountain experience—the one that existed before tourism made everything easy. You hike in, eat simply, sleep in bunks, and wake to trails. It's honest in ways camping can't be.",
+          "signature": "Where the trail is the destination",
+          "practicalInfo": "CAI membership helpful. €25-40/night with meals. Open spring through fall. Book through CAI website."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Preservation Logic",
+          "quote": "The terraces above Corniglia are not vacant land available for camping. They're agricultural heritage that took a thousand years to build and must be actively maintained. One campfire, one trampled section of wall, one drainage disruption can undo decades of work. The prohibition protects something precious."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Making It Work",
+      "quote": "If outdoor stays are essential to your trip, the logistics require planning. Corniglia's position—high, car-free, accessed by stairs—adds complexity that camping visitors must consider.",
+      "content": [
+        "**Transportation is necessary**. From any camping option, reaching Corniglia requires either driving to parking (then climbing stairs) or taking trains from La Spezia. The village's position makes casual access difficult.",
+        "**The stairs remain**. Even if you avoid them by driving to the village access road, you'll eventually want to take the train somewhere. The famous 382 steps are part of any Corniglia experience.",
+        "**Timing matters**. Plan to arrive early and stay late in the villages. The morning trains bring you before day-trippers; the evening ones let you enjoy the village after they leave. Maximize your village time.",
+        "**Hybrid approaches work well**. Some visitors camp for part of their trip and stay in villages for part. This gives you both experiences without the daily logistics of commuting."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Day-Trip Strategy",
+          "category": "Logistics",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "How to maximize Corniglia time when staying outside the village.",
+          "description": "From La Spezia, the first train to Corniglia leaves around 5:30am. The last returns around 11pm. Between those hours, you can hike, explore, eat, and experience the village—then return to your campsite. Starting early gives you Corniglia before the crowds arrive.",
+          "giuliaComment": "Campers who arrive on the first train have Corniglia to themselves for hours. The stairs are cool, the village is quiet, and you can find a terrace for morning coffee before anyone else appears. That's worth waking early for.",
+          "signature": "When early rising creates magic"
+        },
+        {
+          "id": 5,
+          "name": "The Weather Reality",
+          "category": "Planning",
+          "village": "Region-wide",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Mediterranean weather rewards the prepared—and punishes the careless.",
+          "description": "Summer camping is generally reliable, but the ridge-line positions above Corniglia experience more weather variation than the coast. Mountain storms blow through quickly. Night temperatures drop more than at sea level. Spring and fall require serious preparation for changing conditions.",
+          "giuliaComment": "The ridge gets weather the coast doesn't see. I've watched storms pass over the terraces that never reached the villages below. If you're camping above, bring layers, bring rain gear, and check forecasts obsessively.",
+          "signature": "Where altitude changes everything"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Supply Question",
+          "quote": "Stock up in La Spezia before heading to your campsite. Corniglia's small grocery won't supply camping needs. The valley villages have limited shops. Plan your provisions like you're going on expedition—the nearest supermarket is always farther than you think."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Outdoor Trade-Off",
+      "content": [
+        "Camping near Corniglia means accepting trade-offs: convenience for independence, village immersion for outdoor freedom, easy access for earned experience.",
+        "The rewards are real—star-filled skies, morning quiet in nature, the satisfaction of combining outdoor living with village exploration. But the logistics are significant, and the famous terraces remain off-limits.",
+        "Choose this approach if outdoor experience matters deeply. Accept the complications it brings. The combination of camping and Corniglia requires effort—but effort and Corniglia have always gone together."
+      ],
       "buttons": [
-        {
-          "text": "Find Your Perfect Campsite",
-          "url": "#camping-options",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Corniglia",
-          "url": "/corniglia",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Corniglia Camping at a Glance",
-      "stats": [
-        {
-          "number": "5",
-          "label": "Nearby camping facilities within 10km",
-          "description": "Quality options for every budget"
-        },
-        {
-          "number": "365",
-          "label": "Days of Mediterranean climate",
-          "description": "Extended camping season"
-        },
-        {
-          "number": "377",
-          "label": "Steps from train station to village",
-          "description": "Easy access to authentic experiences"
-        },
-        {
-          "number": "100m",
-          "label": "Elevation above sea level",
-          "description": "Cooler nights, stunning sunrise views"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Why Camp Near Corniglia?",
-      "subtitle": "The elevated village offers unique advantages for outdoor enthusiasts seeking an authentic Cinque Terre experience.",
-      "features": [
-        {
-          "icon": "mountain",
-          "title": "Perfect Microclimate",
-          "description": "Corniglia's elevated position creates cooler evenings and refreshing breezes, ideal for comfortable camping year-round."
-        },
-        {
-          "icon": "grape",
-          "title": "Vineyard Proximity",
-          "description": "Wake up surrounded by ancient terraced vineyards. Many sites offer direct access to hiking trails through UNESCO World Heritage landscapes."
-        },
-        {
-          "icon": "train",
-          "title": "Strategic Location",
-          "description": "Central position lets you easily explore all five villages by train, while enjoying peaceful nights away from coastal crowds."
-        },
-        {
-          "icon": "sunrise",
-          "title": "Spectacular Views",
-          "description": "Elevated campsites provide breathtaking sunrise views over the Mediterranean and dramatic cliff-top vistas unavailable at sea level."
-        },
-        {
-          "icon": "hiking-boot",
-          "title": "Trail Access",
-          "description": "Direct access to the famous Sentiero Azzurro coastal trail and inland vineyard paths without navigating village crowds."
-        },
-        {
-          "icon": "restaurant",
-          "title": "Authentic Dining",
-          "description": "Camp near family-run trattorias like Cecio, where you'll taste genuine Ligurian cuisine away from tourist-focused establishments."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image-right",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571863533956-01c88e79957e-regular.jpg",
-      "title": "Camping Options Near Corniglia",
-      "content": "While Corniglia itself doesn't have camping facilities within the village boundaries—a blessing that preserves its medieval character—several excellent options exist within a short distance. **Camping Acquadolce** in nearby Monterosso offers luxury glamping pods with sea views, just a 15-minute train ride away. For a more rustic experience, **Camping Il Pozzo** near Levanto provides traditional tent sites surrounded by olive groves.\n\n**Insider tip from Lorenzo:** The most authentic experience comes from **Agriturismo La Sosta** in the hills above Corniglia. This family-run farm offers camping spaces among their vineyards, where you'll wake to the sound of church bells echoing through the valleys—exactly as local farmers have for centuries.\n\n**Practical considerations:** Book well in advance for April through October. Many sites require minimum 3-night stays during peak season. Consider the daily trek up Corniglia's famous 377-step Lardarina stairway when packing—lightweight gear becomes essential."
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image-left",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504280390367-361c6d9f38f4-regular.jpg",
-      "title": "Living the Medieval Village Experience",
-      "content": "Corniglia's unique position as the only Cinque Terre village not directly on the sea creates an entirely different rhythm for camping visitors. Unlike the maritime bustle of the coastal villages, here you'll experience the ancient agricultural heartbeat that has sustained this community since Roman times.\n\n**Dawn rituals:** Local farmers still tend their terraced vineyards at sunrise—join them for an authentic glimpse into centuries-old traditions. The village's **Via Fieschi** comes alive with the aroma of fresh focaccia from local bakeries, perfect for stocking up before day hikes.\n\n**Evening magic:** As daytrippers depart, Corniglia transforms into an intimate mountain village. Secure a sunset table at **Osteria Mananan's** panoramic terrace—the golden hour views over terraced vineyards stretching to the Mediterranean create memories that define your entire Cinque Terre experience.\n\n**Cultural immersion:** Time your visit with local festivals celebrating the harvest season, when ancient songs echo through stone streets and three-generation families share traditional recipes that predate tourism by centuries."
-    },
-    {
-      "type": "faq-section",
-      "title": "Essential Camping Questions",
-      "subtitle": "Everything you need to know for planning your Corniglia camping adventure",
-      "faqs": [
-        {
-          "question": "Are there any official campsites directly in Corniglia?",
-          "answer": "No, Corniglia village itself doesn't have camping facilities—this actually preserves its authentic medieval character. The nearest quality camping options are 10-15 minutes away by train or car, including luxury glamping in Monterosso and traditional sites near Levanto."
-        },
-        {
-          "question": "What's the best time of year for camping near Corniglia?",
-          "answer": "May through September offers the most reliable weather, though the extended season runs April through October. Late spring and early autumn provide the perfect balance: comfortable temperatures, fewer crowds, and lower accommodation rates. Avoid July-August if you prefer a quieter experience."
-        },
-        {
-          "question": "How do I manage the 377 steps with camping gear?",
-          "answer": "Pack light and consider leaving heavy items at your campsite. Many experienced campers bring day packs only when visiting the village. Alternatively, stay at accommodations near the train station level and use the local shuttle service during peak season."
-        },
-        {
-          "question": "Can I buy camping supplies and groceries near Corniglia?",
-          "answer": "Corniglia has a small alimentari (grocery store) and basic supplies, but serious camping gear should be purchased in larger towns like La Spezia before arriving. The village bakery and local producers offer excellent fresh bread, wine, and regional specialties for campfire dining."
-        },
-        {
-          "question": "What's the camping etiquette for this UNESCO World Heritage area?",
-          "answer": "Wild camping is strictly prohibited throughout Cinque Terre. Always use designated campsites, respect vineyard boundaries, and follow Leave No Trace principles. The terraced landscapes are fragile ecosystems maintained by families for generations—treat them with appropriate reverence."
-        },
-        {
-          "question": "How do I access hiking trails from nearby campsites?",
-          "answer": "Most quality campsites provide direct access to the Sentiero Azzurro coastal trail and inland vineyard paths. The famous Blue Trail connecting all five villages passes near several camping areas. Trail maps are available at tourist information points and most accommodation providers."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
-      "eyebrow": "Start Your Adventure",
-      "title": "Book Your Cinque Terre Camping Experience",
-      "subtitle": "Ready to sleep under Mediterranean stars and wake to ancient vineyard views? Discover our curated selection of camping options near Corniglia—from luxury glamping to authentic farm stays.",
-      "buttons": [
-        {
-          "text": "View Accommodation Options",
-          "url": "/corniglia/hotels",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Corniglia Visit",
-          "url": "/corniglia",
-          "variant": "secondary"
-        }
+        { "text": "Farm Stays", "url": "/en/corniglia/agriturismi", "variant": "primary" },
+        { "text": "Village Hotels", "url": "/en/corniglia/hotels", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "camping"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T10:59:11.154Z"
+  "updated_at": "2026-01-07T15:00:00.000Z"
 }

@@ -10,6 +10,7 @@
     "en": "Cinque Terre Cultural Insights: Ancient Traditions in Modern Paradise"
   },
   "page_type": "insights",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre Cultural Insights | History & Traditions"
@@ -20,82 +21,75 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
-      "eyebrow": "Cultural Heritage",
-      "title": "Beyond the Instagram Moment: The Living History of Cinque Terre",
+      "type": "editorial-hero",
+      "title": "Beyond the Instagram Moment:<br/>The Living History of Cinque Terre",
       "subtitle": "Journey through nine centuries of maritime culture, where ancient fishing traditions meet modern preservation efforts in five extraordinary villages carved from stone and determination.",
-      "buttons": [
-        {
-          "text": "Discover Cultural Experiences",
-          "url": "#experiences",
-          "variant": "primary"
-        },
-        {
-          "text": "View Heritage Sites",
-          "url": "#heritage",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Cultural Heritage",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "A Millennium in Numbers",
-      "subtitle": "The cultural significance of Cinque Terre extends far beyond its photogenic appeal",
-      "stats": [
-        {
-          "number": "1000+",
-          "label": "Years of continuous habitation"
-        },
-        {
-          "number": "7 km",
-          "label": "Of ancient terraced vineyards (terrazzamenti)"
-        },
-        {
-          "number": "1997",
-          "label": "UNESCO World Heritage designation"
-        },
-        {
-          "number": "5",
-          "label": "Villages, each with distinct cultural identity"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "A Millennium in Numbers",
+      "quote": "The cultural significance of Cinque Terre extends far beyond its photogenic appeal - these villages represent over 1000 years of continuous habitation and human triumph over impossible terrain.",
+      "leftContent": "<p>Since <strong>1997</strong>, UNESCO World Heritage designation has protected this remarkable cultural landscape, recognizing <strong>7 km of ancient terraced vineyards</strong> (terrazzamenti) carved into vertical cliffs.</p><p>Each of the <strong>5 villages</strong> maintains its distinct cultural identity, from Monterosso's fishing heritage to Corniglia's wine-making traditions.</p>",
+      "rightContent": "<p>Walking these ancient paths, you follow routes carved by <strong>medieval merchants and pilgrims</strong>. The colorful facades weren't designed for tourists - fishermen needed to identify their homes from the sea.</p><p>Understanding this history transforms every cobblestone and church bell into a story waiting to be heard.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Cultural Treasures Worth Experiencing",
-      "subtitle": "Each tradition tells the story of resilience, ingenuity, and the enduring bond between people and place",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "heritage",
+      "items": [
         {
-          "icon": "⛪",
-          "title": "Sacred Architecture",
-          "description": "Romanesque churches like San Lorenzo in Manarola and Gothic sanctuaries perched on clifftops, each containing centuries of maritime devotion and artistic heritage."
+          "id": 1,
+          "name": "Sacred Architecture",
+          "category": "Religious Heritage",
+          "description": "Romanesque churches like San Lorenzo in Manarola and Gothic sanctuaries perched on clifftops, each containing centuries of maritime devotion and artistic heritage.",
+          "signature": "Where faith meets the sea"
         },
         {
-          "icon": "🍇",
-          "title": "Ancient Viticulture",
-          "description": "The heroic wine-making tradition of sciacchetrà, where grapes are dried on traditional graticci (reed mats) following methods unchanged since the 14th century."
+          "id": 2,
+          "name": "Ancient Viticulture",
+          "category": "Wine Traditions",
+          "description": "The heroic wine-making tradition of sciacchetra, where grapes are dried on traditional graticci (reed mats) following methods unchanged since the 14th century.",
+          "signature": "Liquid gold from impossible terraces"
         },
         {
-          "icon": "🎭",
-          "title": "Living Festivals",
-          "description": "From the luminous Festa di San Lorenzo to the colorful Sagra del Limone, celebrations that have bound communities together for generations."
+          "id": 3,
+          "name": "Living Festivals",
+          "category": "Community Traditions",
+          "description": "From the luminous Festa di San Lorenzo to the colorful Sagra del Limone, celebrations that have bound communities together for generations.",
+          "signature": "Ancient rhythms in modern times"
         },
         {
-          "icon": "🏗️",
-          "title": "Architectural Heritage",
-          "description": "Medieval tower houses and Ligurian loggia showcasing the evolution from defensive settlements to thriving merchant communities."
+          "id": 4,
+          "name": "Architectural Heritage",
+          "category": "Built Environment",
+          "description": "Medieval tower houses and Ligurian loggia showcasing the evolution from defensive settlements to thriving merchant communities.",
+          "signature": "Defense became beauty"
         },
         {
-          "icon": "⚓",
-          "title": "Maritime Traditions",
-          "description": "The ancient gozzo boats and traditional fishing practices that sustained these communities long before tourism arrived."
+          "id": 5,
+          "name": "Maritime Traditions",
+          "category": "Seafaring Culture",
+          "description": "The ancient gozzo boats and traditional fishing practices that sustained these communities long before tourism arrived.",
+          "signature": "The sea has always provided"
         },
         {
-          "icon": "🌿",
-          "title": "Culinary Heritage",
-          "description": "Recipes passed down through generations, from pesto made with Genovese basil to farinata cooked in ancient wood ovens."
+          "id": 6,
+          "name": "Culinary Heritage",
+          "category": "Food Culture",
+          "description": "Recipes passed down through generations, from pesto made with Genovese basil to farinata cooked in ancient wood ovens.",
+          "signature": "Tradition you can taste"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Medieval Origins: From Defense to Beauty",
+          "quote": "The story of Cinque Terre begins not with beauty, but with survival. In the 11th century, families fled inland turmoil to establish fortified settlements along this treacherous coast. What you see today as postcard perfection was born from medieval necessity.",
+          "align": "left"
         }
       ]
     },
@@ -103,13 +97,7 @@
       "type": "content-section",
       "title": "The Medieval Origins: From Defense to Beauty",
       "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73adf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5JTIwdmluZXlhcmQlMjB0ZXJyYWNlcyUyMG1lZGl0ZXJyYW5lYW58ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=1200&q=80",
-      "content": [
-        "The story of Cinque Terre begins not with beauty, but with survival. In the 11th century, families fled inland turmoil to establish fortified settlements along this treacherous coast. What you see today as postcard perfection was born from medieval necessity.",
-        "The distinctive tower houses of Monterosso and Vernazza weren't designed for Instagram—they were defensive structures where entire families could retreat during Saracen raids. The narrow vicoli (alleyways) that now charm visitors once served as strategic chokepoints against invaders.",
-        "By the 13th century, these communities had transformed from refuges into prosperous maritime republics. The terrazzamenti you admire weren't just agricultural innovation—they were acts of faith, with families investing generations of labor to carve farmable land from vertical stone.",
-        "The churches tell this evolution beautifully. San Pietro in Corniglia, built in 1334, sits where a Roman villa once stood, its Gothic-Ligurian facade reflecting the community's growing confidence and wealth from wine and olive trade.",
-        "Today's preservation efforts continue this millennium-old tradition of adaptation. The same ingenuity that built villages on impossible cliffs now protects them from modern pressures while keeping ancient traditions alive."
-      ]
+      "content": "The story of Cinque Terre begins not with beauty, but with survival. In the 11th century, families fled inland turmoil to establish fortified settlements along this treacherous coast. What you see today as postcard perfection was born from medieval necessity.\n\nThe distinctive tower houses of Monterosso and Vernazza weren't designed for Instagram - they were defensive structures where entire families could retreat during Saracen raids. The narrow vicoli (alleyways) that now charm visitors once served as strategic chokepoints against invaders.\n\nBy the 13th century, these communities had transformed from refuges into prosperous maritime republics. The terrazzamenti you admire weren't just agricultural innovation - they were acts of faith, with families investing generations of labor to carve farmable land from vertical stone.\n\nThe churches tell this evolution beautifully. San Pietro in Corniglia, built in 1334, sits where a Roman villa once stood, its Gothic-Ligurian facade reflecting the community's growing confidence and wealth from wine and olive trade.\n\nToday's preservation efforts continue this millennium-old tradition of adaptation. The same ingenuity that built villages on impossible cliffs now protects them from modern pressures while keeping ancient traditions alive."
     },
     {
       "type": "faq-section",
@@ -118,23 +106,23 @@
       "faqs": [
         {
           "question": "Why is Cinque Terre considered a UNESCO World Heritage site?",
-          "answer": "UNESCO recognized Cinque Terre in 1997 for its 'outstanding universal value' as a cultural landscape. The designation honors both the physical achievement—creating agricultural terraces on near-vertical cliffs—and the cultural significance of a thousand years of human adaptation to an extreme environment. The villages represent an exceptional example of human interaction with the landscape."
+          "answer": "UNESCO recognized Cinque Terre in 1997 for its 'outstanding universal value' as a cultural landscape. The designation honors both the physical achievement - creating agricultural terraces on near-vertical cliffs - and the cultural significance of a thousand years of human adaptation to an extreme environment. The five villages demonstrate exceptional testimony to the continuity of human settlement and sustainable land-use."
         },
         {
           "question": "What are the most important cultural traditions still practiced today?",
-          "answer": "The most authentic traditions center around the agricultural calendar: grape harvest (vendemmia) in September, olive harvest in November, and the preparation of sciacchetrà wine using century-old drying techniques. Religious processions for patron saints continue monthly, and traditional boat building (gozzo construction) is still taught to local youth. Many families maintain kitchen gardens using ancient terracing methods."
+          "answer": "The most authentic traditions center around the agricultural calendar: grape harvest (vendemmia) in September, olive harvest in November, and the preparation of sciacchetra wine using century-old drying techniques. Religious processions for patron saints continue monthly, and traditional boat building (gozzo construction) is still taught to local youth. Many families maintain kitchen gardens using ancient terracing methods."
         },
         {
           "question": "How do locals balance tourism with cultural preservation?",
-          "answer": "Each village has developed unique strategies. Monterosso maintains traditional anchovy processing, Vernazza preserves its harbor fishing community, and Manarola continues wine production on original medieval terraces. Local cooperatives like the Cinque Terre National Park work with families to maintain terraces while providing sustainable tourism income. Many traditions now include visitors—like harvest participation—creating economic incentives for preservation."
+          "answer": "Each village has developed unique strategies. Monterosso maintains traditional anchovy processing, Vernazza preserves its harbor fishing community, and Manarola continues wine production on original medieval terraces. Local cooperatives like the Cinque Terre National Park work with families to maintain terraces while providing sustainable tourism income. Many traditions now include visitors - like harvest participation - creating economic incentives for preservation."
         },
         {
           "question": "What architectural features are unique to Cinque Terre?",
-          "answer": "The distinctive 'case-torri' (tower houses) feature thick stone walls, small windows for defense, and flat roofs for rainwater collection. Ligurian loggia—covered balconies—were added during peaceful periods for drying crops. The colorful facades weren't just aesthetic; specific colors helped fishermen identify their homes from the sea. Stone construction uses local limestone and slate, with buildings literally carved into cliffsides."
+          "answer": "The distinctive 'case-torri' (tower houses) feature thick stone walls, small windows for defense, and flat roofs for rainwater collection. Ligurian loggia - covered balconies - were added during peaceful periods for drying crops. The colorful facades weren't just aesthetic; specific colors helped fishermen identify their homes from the sea. Stone construction uses local limestone and slate, with buildings literally carved into cliffsides."
         },
         {
           "question": "When is the best time to experience authentic cultural events?",
-          "answer": "September through November offers the richest cultural immersion. September brings vendemmia (grape harvest) with traditional celebrations. October features olive harvest and the Sagra delle Acciughe (anchovy festival) in Monterosso. November has the Sciacchetrà wine blessing. Religious festivals occur year-round: San Lorenzo in Manarola (August 10), Madonna di Montenero in Riomaggiore (July), and the Festa del Limone in Monterosso (May)."
+          "answer": "September through November offers the richest cultural immersion. September brings vendemmia (grape harvest) with traditional celebrations. October features olive harvest and the Sagra delle Acciughe (anchovy festival) in Monterosso. November has the Sciacchetra wine blessing. Religious festivals occur year-round: San Lorenzo in Manarola (August 10), Madonna di Montenero in Riomaggiore (July), and the Festa del Limone in Monterosso (May)."
         },
         {
           "question": "How can visitors respectfully engage with local culture?",
@@ -143,22 +131,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Experience Living History",
+      "type": "closing-note",
+      "badge": "Experience Living History",
       "title": "Connect with Cinque Terre's Cultural Soul",
-      "subtitle": "Join our carefully curated cultural experiences that support local preservation efforts while offering profound insights into this remarkable heritage.",
-      "buttons": [
-        {
-          "text": "Browse Cultural Experiences",
-          "url": "/experiences",
-          "variant": "primary"
-        },
-        {
-          "text": "Contact Cultural Specialists",
-          "url": "/contact",
-          "variant": "secondary"
-        }
+      "content": "<p>Join our carefully curated cultural experiences that support local preservation efforts while offering profound insights into this remarkable heritage.</p><p>Limited to 8 guests for authentic connections, these journeys reveal the Cinque Terre that exists beyond the photographs - the living traditions, the family stories, the ancient rhythms that continue to shape daily life.</p>",
+      "actions": [
+        { "label": "Browse Cultural Experiences", "href": "/experiences", "variant": "primary" },
+        { "label": "Contact Cultural Specialists", "href": "/en/team", "variant": "secondary" }
       ]
     }
   ],
@@ -166,7 +145,7 @@
     "city": "cinque-terre",
     "page_type": "insights"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:48:41.190Z"
 }

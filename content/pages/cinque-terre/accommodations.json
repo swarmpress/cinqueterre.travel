@@ -11,8 +11,12 @@
   },
   "page_type": "accommodations",
   "seo": {
-    "title": { "en": "Where to Stay in Riomaggiore | Cinque Terre Dispatch" },
-    "description": { "en": "In a vertical village, your choice of bed is a choice of perspective. Discover curated accommodations from harbor-front suites to vineyard retreats." }
+    "title": {
+      "en": "Where to Stay in Riomaggiore | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "In a vertical village, your choice of bed is a choice of perspective. Discover curated accommodations from harbor-front suites to vineyard retreats."
+    }
   },
   "template": "cinque-terre",
   "body": [
@@ -211,13 +215,23 @@
       "title": "The Memory of the Morning",
       "content": "<p>Wherever you choose to wake up, remember this: the view from your window will stay with you longer than the thread count of your sheets.</p><p>Choose the perspective that moves you. The rest is just logistics.</p>",
       "actions": [
-        { "label": "Explore the Village", "href": "/sights", "variant": "primary" },
-        { "label": "Plan Your Journey", "href": "/itinerary", "variant": "secondary" }
+        {
+          "label": "Explore the Village",
+          "href": "/sights",
+          "variant": "primary"
+        },
+        {
+          "label": "Plan Your Journey",
+          "href": "/itinerary",
+          "variant": "secondary"
+        }
       ]
     }
   ],
-  "metadata": { "page_type": "accommodations" },
-  "status": "generated",
+  "metadata": {
+    "page_type": "accommodations"
+  },
+  "status": "published",
   "created_at": "2025-01-05T00:00:00.000Z",
   "updated_at": "2025-01-05T00:00:00.000Z"
 }

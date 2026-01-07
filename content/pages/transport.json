@@ -8,6 +8,7 @@
     "en": "Transportation in Cinque Terre: Complete Guide to Moving Between Villages"
   },
   "page_type": "info",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre Transport Guide | Trains, Ferries & More"
@@ -18,50 +19,15 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
-      "eyebrow": "Transportation Guide",
-      "title": "Navigate Cinque Terre Like a Local",
+      "type": "editorial-hero",
+      "badge": "Transportation Guide",
+      "title": "Navigate Cinque Terre<br/>Like a Local",
       "subtitle": "Master the art of seamless village hopping with our comprehensive guide to trains, ferries, and scenic pathways. Every schedule, every route, every insider tip you need.",
-      "buttons": [
-        {
-          "text": "View All Transport Options",
-          "url": "#transport",
-          "variant": "primary"
-        },
-        {
-          "text": "Download Train Schedule",
-          "url": "/resources/train-schedule",
-          "variant": "secondary"
-        }
-      ]
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
-      "type": "stats-section",
-      "title": "Transportation by the Numbers",
-      "stats": [
-        {
-          "number": "11 km",
-          "label": "Total coastline distance",
-          "description": "From Monterosso to Riomaggiore"
-        },
-        {
-          "number": "2-4 min",
-          "label": "Between villages by train",
-          "description": "The fastest way to travel"
-        },
-        {
-          "number": "€16",
-          "label": "Daily Cinque Terre Card",
-          "description": "Unlimited train travel + trails"
-        },
-        {
-          "number": "20 min",
-          "label": "Monterosso to Levanto ferry",
-          "description": "Scenic coastal route"
-        }
-      ]
+      "type": "editorial-intro",
+      "content": "Eleven kilometers of dramatic coastline. Two to four minutes between villages by train. A sixteen-euro daily card that unlocks unlimited travel and trails. Twenty minutes by ferry from Monterosso to Levanto, with the entire Ligurian coast unfolding before you."
     },
     {
       "type": "collection-embed",
@@ -104,36 +70,51 @@
       "imagePosition": "left"
     },
     {
-      "type": "feature-section",
-      "title": "Transportation Essentials",
-      "subtitle": "Everything you need to know for smooth travels",
-      "features": [
+      "type": "collection-with-interludes",
+      "heading": "Transportation Essentials",
+      "headingLevel": 2,
+      "intro": "Everything you need to know for smooth travels between the five villages.",
+      "items": [
         {
+          "type": "experience",
           "icon": "clock",
           "title": "Perfect Timing",
           "description": "Trains run every 20-30 minutes in high season, 1-2 hours in winter. Ferry service operates March-October with peak frequency May-September."
         },
         {
+          "type": "experience",
           "icon": "credit-card",
           "title": "Smart Ticketing",
           "description": "Cinque Terre Card includes unlimited trains and trails. Single tickets €4-5, but card pays for itself quickly with multiple journeys."
         },
         {
+          "type": "interlude",
+          "content": "There's something magical about watching the villages appear and disappear through train tunnel windows—each emergence revealing a new palette of pastel houses against azure sea."
+        },
+        {
+          "type": "experience",
           "icon": "map",
           "title": "Route Planning",
           "description": "Download offline maps before arriving. Cell service can be spotty in tunnels and remote trail sections."
         },
         {
+          "type": "experience",
           "icon": "accessibility",
           "title": "Accessibility Options",
           "description": "All train stations have elevator access. Monterosso and Manarola offer the best wheelchair-friendly village exploration."
         },
         {
+          "type": "interlude",
+          "content": "The ferry offers a perspective impossible from land—watching the terraced vineyards rise impossibly steep from the water, understanding why these villages remained isolated for centuries."
+        },
+        {
+          "type": "experience",
           "icon": "luggage",
           "title": "Luggage Strategy",
           "description": "Pack light for train travel. Most stations have small platforms. Consider luggage transfer services between accommodations."
         },
         {
+          "type": "experience",
           "icon": "weather",
           "title": "Weather Considerations",
           "description": "Trails close in severe weather. Ferries cancel in rough seas. Always have train backup plans, especially October-March."
@@ -172,28 +153,23 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
+      "type": "closing-note",
       "title": "Ready to Master Cinque Terre Transportation?",
-      "subtitle": "Get detailed schedules, insider routing tips, and real-time updates for seamless village hopping.",
-      "buttons": [
-        {
-          "text": "Get Complete Transport Guide",
-          "url": "/guides/transportation",
-          "variant": "primary"
-        },
-        {
-          "text": "Check Live Train Times",
-          "url": "/train-schedules",
-          "variant": "secondary"
-        }
-      ]
+      "content": "Get detailed schedules, insider routing tips, and real-time updates for seamless village hopping.",
+      "primaryButton": {
+        "text": "Get Complete Transport Guide",
+        "url": "/en/transportation"
+      },
+      "secondaryButton": {
+        "text": "Check Live Train Times",
+        "url": "/en/transportation"
+      }
     }
   ],
   "metadata": {
     "page_type": "info"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-12T22:00:00.000Z",
   "updated_at": "2025-12-16T13:29:01.921Z"
 }

@@ -1,5 +1,5 @@
 {
-  "id": "b9c5510b-165b-4e64-aa91-d26039e9acef",
+  "id": "m-agriturismi-001",
   "slug": {
     "en": "/en/monterosso/agriturismi",
     "de": "/de/monterosso/agriturismi",
@@ -7,164 +7,152 @@
     "it": "/it/monterosso/agriturismi"
   },
   "title": {
-    "en": "Monterosso Agriturismi: Authentic Farm Stays in Cinque Terre's Crown Jewel"
+    "en": "Farm Stays Near Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "agriturismi",
   "seo": {
     "title": {
-      "en": "Monterosso Agriturismi - Farm Stays | Cinqueterre.travel"
+      "en": "Farm Stays Near Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover authentic agriturismi in Monterosso al Mare. Farm-to-table dining, organic vineyards, and traditional Ligurian hospitality in Cinque Terre."
+      "en": "The lemon groves and vineyards above Monterosso offer something the beach cannot: the agricultural heart of Cinque Terre, where families still tend terraces that have produced wine for a millennium."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1566073771259-6a8506099945-hero.jpg",
-      "eyebrow": "Authentic Ligurian Experience",
-      "title": "Farm-to-Table Living in Monterosso's Ancient Terraces",
-      "subtitle": "Experience centuries-old agricultural traditions through authentic agriturismi stays, where organic vineyards meet the Mediterranean and every meal tells the story of this remarkable landscape.",
+      "type": "editorial-hero",
+      "title": "Among the<br/>Lemon Groves",
+      "subtitle": "The terraces above Monterosso are famous for their lemons—fruit so prized it carries protected status. An agriturismo stay puts you inside the working landscape that produces Cinque Terre's most celebrated citrus and wines.",
+      "badge": "Farm Stays",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Monterosso Difference",
+      "quote": "Monterosso's agriturismi are different from those above other villages. Here, the lemons define the landscape—their fragrance, their terraces, their role in local cuisine. The farms that welcome guests often combine citrus with wine production.",
+      "content": [
+        "**Lemons are the signature**. The limoni di Monterosso have IGP protection—like champagne, the name means something legal. The farms above the village have grown these specific lemons for centuries, and the fruit shapes every meal.",
+        "**The terrain is gentler**. Monterosso has more flat land than the other villages, which means some agriturismi are more accessible. The terraces still climb, but the base is broader, the roads slightly easier.",
+        "**Anchovies meet agriculture**. The unique pairing of Monterosso's famous anchovies with lemon creates dishes you'll find nowhere else. Farm stays often feature this combination—the sea and the hillside on one plate.",
+        "**The experience is complete**. Stay at an agriturismo above Monterosso and you can still reach the beach easily—this village has the infrastructure the others lack."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
+        {
+          "id": 1,
+          "name": "The Lemon Terraces",
+          "category": "Agricultural Heritage",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Protected groves producing fruit that carries legal geographic designation—the agricultural treasure of Monterosso.",
+          "description": "The lemon terraces above Monterosso are not ordinary citrus farms. The limoni di Monterosso have IGP status, meaning they can only be called that if grown here, following traditional methods. The trees are often centuries old, the varieties specific to this microclimate, the flavor distinct from any lemon you've tasted elsewhere.",
+          "giuliaComment": "The first time I tasted a Monterosso lemon, I understood why people protect them legally. The flavor is different—sweeter, more complex, less acidic. Once you've had limoncello made from these lemons, the supermarket version tastes like chemicals.",
+          "signature": "Where geography becomes flavor"
+        },
+        {
+          "id": 2,
+          "name": "Wine and Citrus Together",
+          "category": "Combined Production",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Many Monterosso farms produce both wine and lemons—the complete terraced agriculture of Cinque Terre.",
+          "description": "Unlike farms above other villages that focus primarily on wine, Monterosso's agriturismi often maintain both vineyards and lemon groves. The combination creates varied landscapes and diverse farm products. Guests can participate in both grape harvest and lemon picking, depending on season.",
+          "giuliaComment": "The farms that do both are the interesting ones. Wine families and lemon families used to be separate, but the best properties now combine both traditions. You get Sciacchetra with your dinner and limoncello after.",
+          "signature": "Where two traditions merge"
+        },
+        {
+          "id": 3,
+          "name": "Farm Kitchen Dining",
+          "category": "Culinary Experience",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When anchovies from the morning catch meet lemons from the terrace above your table.",
+          "description": "Monterosso's farm kitchens serve a unique cuisine: anchovies preserved in the traditional Monterosso method, combined with lemons from the property's groves, accompanied by wine from their own vines. The famous acciughe al limone—anchovies with lemon—exists in its purest form at these tables.",
+          "giuliaComment": "The combination sounds simple, but getting fresh Monterosso anchovies with real Monterosso lemons, prepared by someone whose grandmother taught them—that's not something restaurants can replicate. It's the farm kitchen or nothing.",
+          "signature": "Where sea and hillside unite on one plate"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Anchovy Connection",
+          "quote": "Monterosso's anchovies are also protected—IGP status, traditional salting methods passed through generations. The farms above the village often have family connections to the fishing boats below. Stay at an agriturismo and you might eat anchovies caught by your host's cousin that morning."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Realities",
+      "quote": "Monterosso's agriturismi are more accessible than those above other villages—but they still require planning. The beach may be close, but you're staying in the hills for a reason.",
+      "content": [
+        "**Beach access is easier**. Unlike other villages, Monterosso has roads that connect the hills to the town center. Some agriturismi offer shuttle services to the beach, making it possible to combine farm stays with beach days.",
+        "**The new town option**. Some farms are positioned above Fegina (the new town) rather than the old town. These often have easier road access but put you farther from the historic center.",
+        "**Summer heat rises**. The terraces above Monterosso can be hot in July and August. Air conditioning isn't guaranteed at traditional farms. Spring and early autumn are more comfortable for agricultural immersion.",
+        "**Harvest seasons differ**. Lemon harvests happen in spring (main crop) and autumn (secondary). Grape harvests happen in September-October. Plan your visit around what you want to participate in."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
+        {
+          "id": 4,
+          "name": "Spring Lemon Harvest",
+          "category": "Peak Citrus Season",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the main lemon crop comes in—fragrance filling the terraces, hands sticky with juice, limoncello in the making.",
+          "description": "March through May brings the primary lemon harvest to Monterosso's terraces. The groves are heavy with fruit, the air smells of citrus, and every meal features fresh lemons. Guests can participate in picking, learn about traditional preservation methods, and watch as the fruit transforms into limoncello.",
+          "giuliaComment": "Spring above Monterosso is intoxicating—literally, the lemon fragrance is everywhere. The farms work long hours during harvest. If you want to help, be prepared for actual labor. But the reward is taking home limoncello you helped make.",
+          "signature": "When the groves come alive"
+        },
+        {
+          "id": 5,
+          "name": "Autumn Double Harvest",
+          "category": "Wine and Citrus Season",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "September through November—grape harvest overlaps with the secondary lemon crop, creating the busiest time in the terraces.",
+          "description": "Autumn brings the vendemmia (grape harvest) while a smaller lemon crop also ripens. Farms that produce both are intensely busy. Guests can help with both harvests, experiencing the full range of Monterosso's agricultural traditions in a single visit.",
+          "giuliaComment": "The farms that do both wine and lemons are exhausted in autumn—but it's the best time to understand how everything connects. You see the whole system working at once. And the meals after a day's harvest are the best meals of the year.",
+          "signature": "When everything ripens at once"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Beach Balance",
+          "quote": "Monterosso is the only Cinque Terre village where you can realistically combine a farm stay with beach days. The distance is manageable, the infrastructure exists. But don't try to do everything—either commit to the agricultural experience or stay in town. The magic is in immersion, not rushing between."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Where Beach Meets Grove",
+      "content": [
+        "An agriturismo above Monterosso offers something unique in Cinque Terre: the agricultural heritage combined with actual beach access. You can wake to lemon fragrance, spend your morning in the terraces, and reach the sand by afternoon.",
+        "But the farms reward commitment. The guests who get the most are those who choose the hills over the beach, who stay for meals, who help with whatever work the season demands.",
+        "Come for the lemons. Stay for the complete experience. Leave understanding why this fruit carries legal protection—and why the families who grow it have done so for centuries."
+      ],
       "buttons": [
-        {
-          "text": "Find Your Agriturismo",
-          "url": "#agriturismi-options",
-          "variant": "primary"
-        },
-        {
-          "text": "Learn About the Tradition",
-          "url": "#heritage",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "headline": "Monterosso's Living Agricultural Heritage",
-      "stats": [
-        {
-          "number": "800+",
-          "label": "Years of Terraced Agriculture",
-          "description": "Benedictine monks began cultivating these hillsides in 1056"
-        },
-        {
-          "number": "15",
-          "label": "Active Agriturismi Properties",
-          "description": "From intimate family farms to historic monastery conversions"
-        },
-        {
-          "number": "4",
-          "label": "UNESCO-Protected Crops",
-          "description": "Including Sciacchetrà wine grapes and ancient olive varieties"
-        },
-        {
-          "number": "90%",
-          "label": "Organic Certification Rate",
-          "description": "Highest among Cinque Terre villages"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "headline": "Why Monterosso's Agriturismi Stand Apart",
-      "subtitle": "As the largest Cinque Terre village with the most developed agricultural heritage, Monterosso offers the most authentic and diverse farm stay experiences.",
-      "features": [
-        {
-          "icon": "🍇",
-          "title": "Historic Vineyard Estates",
-          "description": "Stay among terraces that have produced Cinque Terre DOC wines for centuries, with some properties dating to medieval monastery holdings."
-        },
-        {
-          "icon": "🌿",
-          "title": "Farm-to-Table Authenticity",
-          "description": "Many hosts like Ristorante Ciak's chef grow their own organic produce, offering guests ingredients harvested the same morning."
-        },
-        {
-          "icon": "🏛️",
-          "title": "Monastic Heritage Properties",
-          "description": "Several agriturismi occupy former Benedictine monastery lands, preserving 1,000-year-old agricultural wisdom and architecture."
-        },
-        {
-          "icon": "🍋",
-          "title": "Ancient Lemon Groves",
-          "description": "Experience traditional limoneti cultivation in terraced gardens that have supplied the region since Roman times."
-        },
-        {
-          "icon": "🐟",
-          "title": "Sea-to-Table Connection",
-          "description": "Unique among agriturismi worldwide - combine traditional farming with fresh anchovy processing and Mediterranean fishing traditions."
-        },
-        {
-          "icon": "🎨",
-          "title": "Artisan Craft Workshops",
-          "description": "Learn traditional rope work, religious art restoration, and preserve-making from hosts who maintain these medieval skills."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-regular.jpg",
-      "headline": "The Benedictine Legacy Lives On",
-      "subheadline": "Understanding Monterosso's Unique Agricultural Identity",
-      "content": "When Benedictine monks established their monastery in 1056, they transformed Monterosso's red cliffs into the most sophisticated agricultural system in the Cinque Terre. Unlike the other villages that developed primarily as fishing communities, Monterosso became the region's breadbasket - quite literally.\n\nToday's agriturismi continue this thousand-year tradition. Properties like Agriturismo Ca' du Ferrin occupy terraces first carved by medieval monks, while hosts at places like Agriturismo Buranco maintain ancient cultivation methods passed down through generations. These aren't simple farm stays - they're living museums of Ligurian agricultural heritage.\n\nThe monks' innovation wasn't just agricultural but architectural. They developed the distinctive stone terrace walls (fasce) that prevent erosion and create microclimates perfect for specialized crops. Modern agriturismo guests can walk these same paths, learning about traditional dry-stone construction while harvesting grapes that grow in soil enriched by centuries of careful cultivation.\n\nWhat makes Monterosso's agriturismi extraordinary is their integration of land and sea. Unlike inland farm stays, these properties offer the unique experience of Mediterranean agriculture - where morning harvests are followed by afternoon beach time, and dinner features both garden vegetables and fresh anchovies caught that day."
-    },
-    {
-      "type": "faq-section",
-      "headline": "Planning Your Agriturismo Stay",
-      "subtitle": "Essential information for experiencing Monterosso's agricultural heritage",
-      "faqs": [
-        {
-          "question": "What makes Monterosso's agriturismi different from other Cinque Terre villages?",
-          "answer": "Monterosso has the most developed agricultural heritage and largest selection of authentic farm stays. Many properties occupy historic monastery lands with centuries-old terraces. Unlike other villages focused primarily on fishing, Monterosso combines maritime and agricultural traditions, offering unique sea-to-table and farm-to-table experiences."
-        },
-        {
-          "question": "What's the best season to experience agriturismo life in Monterosso?",
-          "answer": "May through October offers the fullest experience. Grape harvest (late August-September) and lemon season (March-May) provide hands-on agricultural activities. Spring offers wildflower terraces and perfect weather, while late summer provides wine harvest participation and warm sea temperatures."
-        },
-        {
-          "question": "Can I participate in actual farm activities during my stay?",
-          "answer": "Absolutely. Most authentic agriturismi offer hands-on experiences like grape harvesting, olive picking, herb gathering, and traditional preserve making. Properties like those connected to Ristorante Ciak let guests help with morning harvests that appear on dinner tables the same evening."
-        },
-        {
-          "question": "How do I distinguish authentic agriturismi from regular hotels?",
-          "answer": "True agriturismi must derive significant income from agricultural activities and serve primarily farm-produced food. Look for properties with visible terraces, mentions of organic certification, and meal plans featuring estate-grown ingredients. Authentic hosts often give terrace tours and explain traditional cultivation methods."
-        },
-        {
-          "question": "Do Monterosso agriturismi offer cooking classes?",
-          "answer": "Many properties offer hands-on cooking experiences using estate-grown ingredients. You'll learn traditional Ligurian techniques like making pesto with their basil, preparing anchovies, and creating preserves. Some hosts teach medieval monastery recipes passed down through generations."
-        },
-        {
-          "question": "What should I expect in terms of accommodations and amenities?",
-          "answer": "Accommodations range from rustic stone farmhouses to converted monastery buildings. Expect authentic architecture, organic gardens, farm-fresh breakfast, and spectacular terrace views. Most offer WiFi and modern bathrooms while maintaining traditional character. Some properties include pools with panoramic sea views."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "headline": "Experience Monterosso's Living Agricultural Heritage",
-      "subtitle": "Book your authentic agriturismo stay and discover why this thousand-year-old farming tradition continues to flourish in the Mediterranean's most spectacular setting.",
-      "buttons": [
-        {
-          "text": "Browse Agriturismo Options",
-          "url": "/monterosso/accommodations",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Monterosso",
-          "url": "/monterosso",
-          "variant": "secondary"
-        }
+        { "text": "Beach Guide", "url": "/en/monterosso/beaches", "variant": "primary" },
+        { "text": "Village Overview", "url": "/en/monterosso/overview", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "agriturismi"
   },
-  "status": "generated",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T12:54:49.717Z"
+  "status": "published",
+  "created_at": "2026-01-07T10:00:00.000Z",
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

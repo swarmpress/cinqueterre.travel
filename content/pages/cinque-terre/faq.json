@@ -10,6 +10,7 @@
     "en": "Cinque Terre FAQ: Your Essential Questions Answered"
   },
   "page_type": "faq",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre FAQ Guide | Expert Answers | Cinqueterre.travel"
@@ -20,87 +21,75 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
+      "type": "editorial-hero",
+      "title": "Everything You Need<br/>to Know About Cinque Terre",
+      "subtitle": "From train schedules to hiking permits, weather patterns to village secrets - get authoritative answers to the questions every traveler asks about Italy's most spectacular coastal region.",
+      "badge": "Expert Guidance",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533105079780-92b9be482077-hero.jpg",
-      "eyebrow": "Expert Guidance",
-      "title": "Everything You Need to Know About Cinque Terre",
-      "subtitle": "From train schedules to hiking permits, weather patterns to village secrets—get authoritative answers to the questions every traveler asks about Italy's most spectacular coastal region.",
-      "buttons": [
-        {
-          "text": "Most Common Questions",
-          "url": "#essential-faqs",
-          "variant": "primary"
-        },
-        {
-          "text": "Planning Tools",
-          "url": "/cinque-terre/planning",
-          "variant": "secondary"
-        }
-      ]
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "variant": "four-column",
-      "title": "By the Numbers",
-      "stats": [
-        {
-          "number": "5",
-          "label": "UNESCO Villages",
-          "description": "Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore"
-        },
-        {
-          "number": "12km",
-          "label": "Coastal Stretch",
-          "description": "Along the Ligurian Sea between Levanto and La Spezia"
-        },
-        {
-          "number": "2-4",
-          "label": "Hours Between Trains",
-          "description": "Peak frequency during summer months (6am-10pm)"
-        },
-        {
-          "number": "€16",
-          "label": "Cinque Terre Card",
-          "description": "Daily pass for trains, hiking trails, and Wi-Fi"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "By the Numbers",
+      "quote": "The five UNESCO villages - Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore - stretch along 12km of dramatic coastline between Levanto and La Spezia.",
+      "leftContent": "<p>Trains connect villages every <strong>2-4 minutes</strong> during peak hours, with the <strong>Cinque Terre Card at EUR16 daily</strong> covering trains, hiking trails, and Wi-Fi.</p><p>Based on <strong>15 years of guiding travelers</strong> through these coastal villages, we've answered every question you might have.</p>",
+      "rightContent": "<p>Whether you're planning a day trip or an extended stay, understanding the <strong>practical realities</strong> transforms your experience from tourist routine to authentic discovery.</p><p>From booking strategies to local etiquette, these insights come from living and breathing this remarkable place.</p>"
     },
     {
-      "type": "feature-section",
-      "variant": "grid-three-column",
-      "title": "Most Searched Topics",
-      "subtitle": "The essential information every Cinque Terre visitor needs",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "topic",
+      "items": [
         {
-          "icon": "🚂",
-          "title": "Train Connections",
-          "description": "Regional trains connect all five villages every 15-30 minutes in summer. No reservations needed—just validate your ticket before boarding."
+          "id": 1,
+          "name": "Train Connections",
+          "category": "Transportation",
+          "description": "Regional trains connect all five villages every 15-30 minutes in summer. No reservations needed - just validate your ticket before boarding.",
+          "signature": "The trains are your lifeline between villages"
         },
         {
-          "icon": "🥾",
-          "title": "Hiking Requirements",
-          "description": "The famous Sentiero Azzurro requires a Cinque Terre Card (€16/day). Blue Trail sections may close due to landslides—check current status."
+          "id": 2,
+          "name": "Hiking Requirements",
+          "category": "Trails",
+          "description": "The famous Sentiero Azzurro requires a Cinque Terre Card (EUR16/day). Blue Trail sections may close due to landslides - check current status.",
+          "signature": "Always verify trail conditions before setting out"
         },
         {
-          "icon": "🏨",
-          "title": "Where to Stay",
-          "description": "Monterosso offers beaches and luxury hotels. Vernazza provides classic charm. Riomaggiore has the best sunset views and nightlife options."
+          "id": 3,
+          "name": "Where to Stay",
+          "category": "Accommodation",
+          "description": "Monterosso offers beaches and luxury hotels. Vernazza provides classic charm. Riomaggiore has the best sunset views and nightlife options.",
+          "signature": "Each village offers a distinct experience"
         },
         {
-          "icon": "📱",
-          "title": "Booking & Tickets",
-          "description": "Buy Cinque Terre Cards at any train station. Book accommodations 3-6 months ahead for summer. Ferry tickets can be purchased day-of at harbors."
+          "id": 4,
+          "name": "Booking & Tickets",
+          "category": "Planning",
+          "description": "Buy Cinque Terre Cards at any train station. Book accommodations 3-6 months ahead for summer. Ferry tickets can be purchased day-of at harbors.",
+          "signature": "Advance planning rewards the prepared traveler"
         },
         {
-          "icon": "🌦️",
-          "title": "Weather & Timing",
-          "description": "April-June and September-October offer ideal conditions. July-August brings crowds and heat. Winter sees restaurant closures and limited services."
+          "id": 5,
+          "name": "Weather & Timing",
+          "category": "Seasons",
+          "description": "April-June and September-October offer ideal conditions. July-August brings crowds and heat. Winter sees restaurant closures and limited services.",
+          "signature": "Shoulder season is the local's secret"
         },
         {
-          "icon": "💰",
-          "title": "Budget Planning",
-          "description": "Expect €80-150 per person daily including meals, transport, and activities. Grocery shopping and picnics can significantly reduce costs."
+          "id": 6,
+          "name": "Budget Planning",
+          "category": "Costs",
+          "description": "Expect EUR80-150 per person daily including meals, transport, and activities. Grocery shopping and picnics can significantly reduce costs.",
+          "signature": "Quality experiences at every budget level"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Insider Tip",
+          "title": "The Art of Slow Travel",
+          "quote": "Three days minimum allows you to visit all five villages with time for hiking and relaxation. Two days feels rushed but covers the highlights. Five days lets you explore deeply, including nearby Portovenere and Levanto.",
+          "align": "left"
         }
       ]
     },
@@ -116,7 +105,7 @@
         },
         {
           "question": "Can I drive between the villages?",
-          "answer": "Cars are prohibited or severely restricted in all five villages. Monterosso has limited paid parking (€2/hour, €25/day) but fills quickly. The most practical approach is parking in La Spezia (€15-20/day) or Levanto (€18-25/day) and using trains exclusively. This eliminates stress and aligns with the region's sustainable tourism goals."
+          "answer": "Cars are prohibited or severely restricted in all five villages. Monterosso has limited paid parking (EUR2/hour, EUR25/day) but fills quickly. The most practical approach is parking in La Spezia (EUR15-20/day) or Levanto (EUR18-25/day) and using trains exclusively. This eliminates stress and aligns with the region's sustainable tourism goals."
         },
         {
           "question": "Is the hiking difficult and are trails open?",
@@ -132,7 +121,7 @@
         },
         {
           "question": "How much does everything cost?",
-          "answer": "Daily budget breakdown: Transportation (Cinque Terre Card €16), meals (€35-60 per person for lunch and dinner), accommodation (€80-250 per night depending on season and village), activities like boat tours (€25-35). Total daily cost ranges from €80 for budget travelers to €200+ for luxury experiences. Grocery shopping and avoiding tourist-trap restaurants near train stations can significantly reduce costs."
+          "answer": "Daily budget breakdown: Transportation (Cinque Terre Card EUR16), meals (EUR35-60 per person for lunch and dinner), accommodation (EUR80-250 per night depending on season and village), activities like boat tours (EUR25-35). Total daily cost ranges from EUR80 for budget travelers to EUR200+ for luxury experiences. Grocery shopping and avoiding tourist-trap restaurants near train stations can significantly reduce costs."
         },
         {
           "question": "What about accessibility and mobility issues?",
@@ -149,25 +138,16 @@
       "variant": "text-with-image-right",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1590846406792-0adc7f938f1d-regular.jpg",
       "title": "Insider Tips for First-Time Visitors",
-      "content": "After guiding thousands of travelers through Cinque Terre, these details make the difference between a good trip and an unforgettable one.\n\n**Train Strategy**: Board trains from the middle cars—they're less crowded and closer to village center exits. Keep your validated ticket until you fully exit the final station; inspectors check frequently.\n\n**Timing Secrets**: Visit Vernazza's harbor before 9am or after 6pm for photos without crowds. Manarola's sunset viewpoint gets busy, but the walk to Punta Bonfiglio offers equally stunning views with fewer people.\n\n**Local Etiquette**: Restaurants don't rush you once seated—linger over wine and conversation. However, many kitchens close between 2:30-7pm, so plan accordingly. Always greet shopkeepers with 'Buongiorno' or 'Buonasera.'\n\n**Weather Wisdom**: Sea breezes keep temperatures comfortable even in summer, but pack layers. Sudden afternoon storms are common April through October—carry a light rain jacket.\n\n**Photography Note**: The famous postcard shots of Manarola are taken from Via Beccara, a 5-minute walk south of the village center. Arrive 30 minutes before sunset for the best positioning."
+      "content": "After guiding thousands of travelers through Cinque Terre, these details make the difference between a good trip and an unforgettable one.\n\n**Train Strategy**: Board trains from the middle cars - they're less crowded and closer to village center exits. Keep your validated ticket until you fully exit the final station; inspectors check frequently.\n\n**Timing Secrets**: Visit Vernazza's harbor before 9am or after 6pm for photos without crowds. Manarola's sunset viewpoint gets busy, but the walk to Punta Bonfiglio offers equally stunning views with fewer people.\n\n**Local Etiquette**: Restaurants don't rush you once seated - linger over wine and conversation. However, many kitchens close between 2:30-7pm, so plan accordingly. Always greet shopkeepers with 'Buongiorno' or 'Buonasera.'\n\n**Weather Wisdom**: Sea breezes keep temperatures comfortable even in summer, but pack layers. Sudden afternoon storms are common April through October - carry a light rain jacket.\n\n**Photography Note**: The famous postcard shots of Manarola are taken from Via Beccara, a 5-minute walk south of the village center. Arrive 30 minutes before sunset for the best positioning."
     },
     {
-      "type": "cta-section",
-      "variant": "centered-with-background",
-      "background": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
-      "title": "Ready to Experience Cinque Terre?",
-      "subtitle": "Transform these insights into your perfect Italian coastal adventure. Our detailed village guides and planning tools ensure you make the most of every moment.",
-      "buttons": [
-        {
-          "text": "Explore Village Guides",
-          "url": "/cinque-terre",
-          "variant": "primary"
-        },
-        {
-          "text": "Download Planning Checklist",
-          "url": "/cinque-terre/planning",
-          "variant": "secondary"
-        }
+      "type": "closing-note",
+      "badge": "Ready to Experience Cinque Terre?",
+      "title": "Transform These Insights Into Your Perfect Adventure",
+      "content": "<p>Our detailed village guides and planning tools ensure you make the most of every moment along this extraordinary coastline.</p><p>Whether you have two days or two weeks, understanding these practical realities frees you to focus on what matters: the light on ancient stone, the taste of fresh pesto, the rhythm of waves against the harbor walls.</p>",
+      "actions": [
+        { "label": "Explore Village Guides", "href": "/cinque-terre", "variant": "primary" },
+        { "label": "Download Planning Checklist", "href": "/cinque-terre/planning", "variant": "secondary" }
       ]
     }
   ],
@@ -175,7 +155,7 @@
     "city": "cinque-terre",
     "page_type": "faq"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:45:20.659Z"
 }

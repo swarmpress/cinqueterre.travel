@@ -10,6 +10,7 @@
     "en": "Agriturismi of Cinque Terre: Where Tradition Meets Luxury"
   },
   "page_type": "agriturismi",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Luxury Agriturismi Cinque Terre | Farm-to-Table Experiences"
@@ -20,90 +21,90 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
-      "eyebrow": "Authentic Farm Experiences",
-      "title": "Taste Cinque Terre from Its Ancient Heart",
+      "type": "editorial-hero",
+      "title": "Taste Cinque Terre<br/>from Its Ancient Heart",
       "subtitle": "Journey beyond the coastal villages to discover working farms where Ligurian families have cultivated these impossible terraces for centuries. Here, amid olive groves and vineyard walls, you'll taste wine that captures the very essence of this UNESCO landscape.",
-      "buttons": [
-        {
-          "text": "Discover Experiences",
-          "url": "#experiences",
-          "variant": "primary"
-        },
-        {
-          "text": "View Properties",
-          "url": "#properties",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Authentic Farm Experiences",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "Centuries of Cultivation",
-      "stats": [
-        {
-          "number": "800+",
-          "label": "Years of terraced farming"
-        },
-        {
-          "number": "40",
-          "label": "Family-run agriturismi"
-        },
-        {
-          "number": "7",
-          "label": "Indigenous grape varieties"
-        },
-        {
-          "number": "5000",
-          "label": "Stone terrace walls"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Centuries of Cultivation",
+      "quote": "For over eight centuries, the families who run these agriturismi have shaped every stone wall and planted every vine by hand. What you see isn't just agriculture - it's a living cathedral of human determination carved into impossible cliffs.",
+      "leftContent": "<p><strong>800+ years of terraced farming</strong> have shaped this landscape, now home to <strong>40 family-run agriturismi</strong>. Experience <strong>7 indigenous grape varieties</strong> grown on over <strong>5000 stone terrace walls</strong>.</p><p>Each property represents generations of dedication to the land and authentic Ligurian hospitality.</p>",
+      "rightContent": "<p>Sample the legendary <strong>Sciacchetra dessert wine</strong> made from grapes dried on traditional reed mats. Join <strong>ancient olive mill tours</strong> and <strong>hillside foraging walks</strong> with families who've tended these terraces for centuries.</p><p>Begin your day with <strong>sunrise terrace breakfasts</strong> overlooking all five villages as they wake.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Your Agriturismo Experience",
-      "subtitle": "Each farm tells its own story through food, wine, and landscape",
-      "features": [
+      "type": "collection-embed",
+      "collectionType": "agriturismi",
+      "heading": "Featured Agriturismi",
+      "headingLevel": 2,
+      "display": {
+        "layout": "grid",
+        "columns": 3,
+        "showImage": true,
+        "showSummary": true,
+        "imageAspect": "landscape"
+      },
+      "showViewAll": true,
+      "viewAllUrl": "/agriturismi"
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
         {
-          "icon": "🍷",
-          "title": "Sciacchetrà Wine Tastings",
-          "description": "Sample the legendary dessert wine made from grapes dried on traditional reed mats, paired with local honey and aged cheeses."
+          "id": 1,
+          "name": "Sciacchetra Wine Tastings",
+          "category": "Wine",
+          "description": "Sample the legendary dessert wine made from grapes dried on traditional reed mats, paired with local honey and aged cheeses.",
+          "signature": "Liquid gold from heroic terraces"
         },
         {
-          "icon": "🫒",
-          "title": "Ancient Olive Mill Tours",
-          "description": "Watch centuries-old stone mills press Taggiasca olives into liquid gold, then taste the difference in oils aged in traditional terracotta."
+          "id": 2,
+          "name": "Ancient Olive Mill Tours",
+          "category": "Heritage",
+          "description": "Watch centuries-old stone mills press Taggiasca olives into liquid gold, then taste the difference in oils aged in traditional terracotta.",
+          "signature": "The press that time preserved"
         },
         {
-          "icon": "🌿",
-          "title": "Hillside Foraging Walks",
-          "description": "Join local foragers to discover wild herbs, mushrooms, and chestnuts that have sustained these communities through the ages."
+          "id": 3,
+          "name": "Hillside Foraging Walks",
+          "category": "Nature",
+          "description": "Join local foragers to discover wild herbs, mushrooms, and chestnuts that have sustained these communities through the ages.",
+          "signature": "Nature's hidden pantry revealed"
         },
         {
-          "icon": "🍯",
-          "title": "Acacia Honey Harvests",
-          "description": "Learn traditional beekeeping from families who've tended hives for generations, tasting honey flavored by the Mediterranean macchia."
+          "id": 4,
+          "name": "Acacia Honey Harvests",
+          "category": "Tradition",
+          "description": "Learn traditional beekeeping from families who've tended hives for generations, tasting honey flavored by the Mediterranean macchia.",
+          "signature": "Sweetness from ancient slopes"
         },
         {
-          "icon": "🥖",
-          "title": "Focaccia Making Classes",
-          "description": "Master the art of authentic Ligurian focaccia using ancient grains grown on these very hillsides and pressed olive oil."
+          "id": 5,
+          "name": "Focaccia Making Classes",
+          "category": "Culinary",
+          "description": "Master the art of authentic Ligurian focaccia using ancient grains grown on these very hillsides and pressed olive oil.",
+          "signature": "Bread that tells a thousand-year story"
         },
         {
-          "icon": "🌅",
-          "title": "Sunrise Terrace Breakfasts",
-          "description": "Begin your day with farm-fresh eggs, homemade preserves, and panoramic views across the five villages as they wake."
+          "id": 6,
+          "name": "Sunrise Terrace Breakfasts",
+          "category": "Experience",
+          "description": "Begin your day with farm-fresh eggs, homemade preserves, and panoramic views across the five villages as they wake.",
+          "signature": "The most beautiful breakfast in Italy"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "content-section",
       "variant": "image-right",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571019613454-1cb2f99b2d8b-hero.jpg",
       "title": "The Sacred Art of Terrace Cultivation",
-      "content": "For over eight centuries, the families who run these agriturismi have shaped every stone wall and planted every vine by hand. What you see isn't just agriculture—it's a living cathedral of human determination carved into impossible cliffs.\n\nThese *terrazzi* represent one of the world's most extreme forms of viticulture. Each narrow ledge was hewn from solid rock, then filled with soil carried up by hand. The dry-stone walls, built without mortar, flex with the seasons and allow perfect drainage for vines that produce some of Italy's most distinctive wines.\n\nWhen you dine at an agriturismo, you're not just tasting food—you're experiencing the flavors of this heroic landscape. The Bosco grapes that become aromatic white wine. The Albarola that creates crisp minerality. The rare Sciacchetrà dessert wine that takes years to perfect and sells for €80 per bottle in Milano's finest restaurants.\n\nYour hosts will share stories passed down through generations: how their great-grandfathers carried limestone from distant quarries, how they survived the wars by trading wine for grain, how UNESCO recognition both blessed and challenged their way of life."
+      "content": "For over eight centuries, the families who run these agriturismi have shaped every stone wall and planted every vine by hand. What you see isn't just agriculture - it's a living cathedral of human determination carved into impossible cliffs.\n\nThese *terrazzi* represent one of the world's most extreme forms of viticulture. Each narrow ledge was hewn from solid rock, then filled with soil carried up by hand. The dry-stone walls, built without mortar, flex with the seasons and allow perfect drainage for vines that produce some of Italy's most distinctive wines.\n\nWhen you dine at an agriturismo, you're not just tasting food - you're experiencing the flavors of this heroic landscape. The Bosco grapes that become aromatic white wine. The Albarola that creates crisp minerality. The rare Sciacchetra dessert wine that takes years to perfect and sells for EUR80 per bottle in Milano's finest restaurants.\n\nYour hosts will share stories passed down through generations: how their great-grandfathers carried limestone from distant quarries, how they survived the wars by trading wine for grain, how UNESCO recognition both blessed and challenged their way of life."
     },
     {
       "type": "faq-section",
@@ -115,15 +116,15 @@
         },
         {
           "question": "How do I reach the hillside farms from the coastal villages?",
-          "answer": "Most agriturismi provide pickup services from train stations, though many guests enjoy the 30-60 minute hike through ancient mule paths. Some farms are accessible by car via winding mountain roads. Your hosts will provide detailed directions and can arrange transportation for €15-25 per person."
+          "answer": "Most agriturismi provide pickup services from train stations, though many guests enjoy the 30-60 minute hike through ancient mule paths. Some farms are accessible by car via winding mountain roads. Your hosts will provide detailed directions and can arrange transportation for EUR15-25 per person."
         },
         {
           "question": "What should I expect from a typical agriturismo meal?",
-          "answer": "Meals are multi-course celebrations of the farm's production: antipasti with their own olive oil and preserves, handmade pasta with wild herbs, grilled vegetables from the garden, and wine pairings. Expect 2-3 hours of leisurely dining. Prices range from €35-65 per person, often including unlimited house wine."
+          "answer": "Meals are multi-course celebrations of the farm's production: antipasti with their own olive oil and preserves, handmade pasta with wild herbs, grilled vegetables from the garden, and wine pairings. Expect 2-3 hours of leisurely dining. Prices range from EUR35-65 per person, often including unlimited house wine."
         },
         {
           "question": "Can I stay overnight at agriturismi?",
-          "answer": "About half offer accommodations ranging from simple rooms (€80-120/night) to luxury suites (€180-350/night). Book well ahead, especially for harvest season. Many include breakfast and offer cooking classes or guided hikes as part of multi-day packages."
+          "answer": "About half offer accommodations ranging from simple rooms (EUR80-120/night) to luxury suites (EUR180-350/night). Book well ahead, especially for harvest season. Many include breakfast and offer cooking classes or guided hikes as part of multi-day packages."
         },
         {
           "question": "Do agriturismi accommodate dietary restrictions?",
@@ -136,22 +137,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Taste the Terroir",
+      "type": "closing-note",
+      "badge": "Taste the Terroir",
       "title": "Reserve Your Authentic Farm Experience",
-      "subtitle": "Connect with local families who've cultivated these ancient terraces for generations. Every meal tells the story of this extraordinary landscape.",
-      "buttons": [
-        {
-          "text": "Book Farm Experiences",
-          "url": "/experiences/food-wine",
-          "variant": "primary"
-        },
-        {
-          "text": "Find Agriturismo Stays",
-          "url": "/accommodations/agriturismi",
-          "variant": "secondary"
-        }
+      "content": "<p>Connect with local families who've cultivated these ancient terraces for generations. Every meal tells the story of this extraordinary landscape.</p><p>From Sciacchetra wine tastings to sunrise breakfasts overlooking the coast, discover the Cinque Terre beyond the tourist trail.</p>",
+      "actions": [
+        { "label": "Book Farm Experiences", "href": "/experiences/food-wine", "variant": "primary" },
+        { "label": "Find Agriturismo Stays", "href": "/accommodations/agriturismi", "variant": "secondary" }
       ]
     }
   ],
@@ -159,7 +151,7 @@
     "city": "cinque-terre",
     "page_type": "agriturismi"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:39:37.456Z"
 }

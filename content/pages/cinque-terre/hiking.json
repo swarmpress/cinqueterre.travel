@@ -10,6 +10,7 @@
     "en": "Cinque Terre Hiking Trails: Complete Guide to Coastal Adventures"
   },
   "page_type": "hiking",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Best Cinque Terre Hiking Trails | Complete Guide"
@@ -20,49 +21,19 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1582518400468-eb5b45c8190a-hero.jpg",
-      "eyebrow": "Coastal Adventures",
-      "title": "Cinque Terre's Most Spectacular Hiking Trails",
+      "type": "editorial-hero",
+      "title": "Cinque Terre's Most<br/>Spectacular Hiking Trails",
       "subtitle": "Experience Italy's dramatic coastline on foot, from legendary cliff paths to secret vineyard trails. Every step reveals another breathtaking vista of the Mediterranean.",
-      "buttons": [
-        {
-          "text": "Explore All Trails",
-          "url": "#trails",
-          "variant": "primary"
-        },
-        {
-          "text": "Planning Guide",
-          "url": "#guide",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Coastal Adventures",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1582518400468-eb5b45c8190a-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "stats": [
-        {
-          "number": "120km",
-          "label": "of marked trails",
-          "description": "From coastal paths to mountain summits"
-        },
-        {
-          "number": "5",
-          "label": "coastal villages",
-          "description": "Connected by ancient footpaths"
-        },
-        {
-          "number": "586m",
-          "label": "highest elevation",
-          "description": "Mount Prevo panoramic summit"
-        },
-        {
-          "number": "Year-round",
-          "label": "hiking season",
-          "description": "Best conditions March to November"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Trail Network",
+      "quote": "The Sentiero Azzurro (Blue Trail) may be the most famous, but Cinque Terre's hiking network extends far beyond this coastal icon - 120km of marked trails connecting five villages with panoramic summits.",
+      "leftContent": "<p>Over <strong>120km of marked trails</strong> wind through this UNESCO landscape, from coastal paths to <strong>586m mountain summits</strong>. The five coastal villages have been connected by ancient footpaths for over a millennium.</p><p>Hiking season runs <strong>year-round</strong>, with best conditions from March to November when all major trails are typically open.</p>",
+      "rightContent": "<p>Start with the easier coastal sections between villages, then venture inland to experience the region's <strong>mountainous heart</strong>. The high trails offer cooler temperatures in summer and spectacular bird's-eye views.</p><p>Purchase the <strong>Cinque Terre Card</strong> for trail access and train transport. Always check trail conditions at park offices before departing.</p>"
     },
     {
       "type": "collection-embed",
@@ -161,40 +132,53 @@
       "content": "The Sentiero Azzurro (Blue Trail) may be the most famous, but Cinque Terre's hiking network extends far beyond this coastal icon. Ancient mule tracks wind through terraced vineyards, leading to hidden chapels and panoramic viewpoints that few visitors ever discover.\n\nStart with the easier coastal sections between villages, then venture inland to experience the region's mountainous heart. The high trails offer cooler temperatures in summer and spectacular bird's-eye views of the Mediterranean coastline stretching toward the French Riviera.\n\n**Essential Trail Tips:**\n- Purchase the Cinque Terre Card for trail access and train transport\n- Check trail conditions at park offices before departing\n- Carry 1.5 liters of water per person (no fountains on coastal sections)\n- Start early: 7AM departures ensure perfect light and fewer crowds\n- Wear proper hiking shoes with good grip for steep, rocky sections"
     },
     {
-      "type": "feature-section",
-      "heading": "Why Choose These Trails",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "feature",
+      "items": [
         {
-          "icon": "mountain",
-          "title": "Dramatic Coastal Views",
-          "description": "Every trail offers stunning Mediterranean panoramas, from cliff-edge paths to elevated vineyard viewpoints."
+          "id": 1,
+          "name": "Dramatic Coastal Views",
+          "category": "Scenery",
+          "description": "Every trail offers stunning Mediterranean panoramas, from cliff-edge paths to elevated vineyard viewpoints.",
+          "signature": "Where land meets sea in the most spectacular way"
         },
         {
-          "icon": "clock",
-          "title": "Flexible Timing",
-          "description": "Choose from 30-minute village connections to full-day mountain adventures based on your fitness level."
+          "id": 2,
+          "name": "Flexible Timing",
+          "category": "Planning",
+          "description": "Choose from 30-minute village connections to full-day mountain adventures based on your fitness level.",
+          "signature": "A trail for every traveler"
         },
         {
-          "icon": "camera",
-          "title": "Photography Paradise",
-          "description": "Golden hour light illuminates colorful villages against deep blue seas - every turn offers another perfect shot."
+          "id": 3,
+          "name": "Photography Paradise",
+          "category": "Experience",
+          "description": "Golden hour light illuminates colorful villages against deep blue seas - every turn offers another perfect shot.",
+          "signature": "The camera never stops working here"
         },
         {
-          "icon": "leaf",
-          "title": "Ancient Pathways",
-          "description": "Walk centuries-old mule tracks through terraced landscapes, discovering traditional Ligurian agriculture."
+          "id": 4,
+          "name": "Ancient Pathways",
+          "category": "Heritage",
+          "description": "Walk centuries-old mule tracks through terraced landscapes, discovering traditional Ligurian agriculture.",
+          "signature": "Follow in the footsteps of medieval traders"
         },
         {
-          "icon": "compass",
-          "title": "Well-Marked Routes",
-          "description": "Clear trail markers and regular signage ensure you'll never lose your way on any adventure."
+          "id": 5,
+          "name": "Well-Marked Routes",
+          "category": "Navigation",
+          "description": "Clear trail markers and regular signage ensure you'll never lose your way on any adventure.",
+          "signature": "Confidence on every path"
         },
         {
-          "icon": "heart",
-          "title": "Unforgettable Experiences",
-          "description": "From romantic sunset walks to challenging summit climbs, create memories that will last a lifetime."
+          "id": 6,
+          "name": "Unforgettable Experiences",
+          "category": "Memories",
+          "description": "From romantic sunset walks to challenging summit climbs, create memories that will last a lifetime.",
+          "signature": "Every hike tells a story"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "faq-section",
@@ -202,7 +186,7 @@
       "faqs": [
         {
           "question": "Do I need the Cinque Terre Card for hiking?",
-          "answer": "Yes, the Cinque Terre Card is required for accessing the Blue Trail (Sentiero Azzurro) sections between villages. It costs €7.50 per day and includes unlimited train travel between the five villages. Many inland trails remain free to access."
+          "answer": "Yes, the Cinque Terre Card is required for accessing the Blue Trail (Sentiero Azzurro) sections between villages. It costs EUR7.50 per day and includes unlimited train travel between the five villages. Many inland trails remain free to access."
         },
         {
           "question": "What's the best time of day to start hiking?",
@@ -227,22 +211,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Start Your Adventure",
-      "heading": "Ready to Experience Cinque Terre on Foot?",
-      "description": "From gentle coastal strolls to challenging mountain climbs, discover the perfect trail for your Italian adventure. Every path leads to unforgettable memories.",
-      "buttons": [
-        {
-          "text": "Browse All Hiking Trails",
-          "url": "/hikes",
-          "variant": "primary"
-        },
-        {
-          "text": "Download Trail Map",
-          "url": "/resources/trail-map",
-          "variant": "secondary"
-        }
+      "type": "closing-note",
+      "badge": "Start Your Adventure",
+      "title": "Ready to Experience Cinque Terre on Foot?",
+      "content": "<p>From gentle coastal strolls to challenging mountain climbs, discover the perfect trail for your Italian adventure. Every path leads to unforgettable memories.</p><p>The ancient pathways of Cinque Terre have welcomed travelers for over a thousand years. Now it's your turn to walk in their footsteps and discover why this landscape has inspired generations.</p>",
+      "actions": [
+        { "label": "Browse All Hiking Trails", "href": "/hikes", "variant": "primary" },
+        { "label": "Download Trail Map", "href": "/resources/trail-map", "variant": "secondary" }
       ]
     }
   ],
@@ -250,7 +225,7 @@
     "city": "cinque-terre",
     "page_type": "hiking"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:46:44.559Z"
 }

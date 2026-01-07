@@ -11,8 +11,12 @@
   },
   "page_type": "culinary",
   "seo": {
-    "title": { "en": "The Story of the Table | Cinque Terre Dispatch" },
-    "description": { "en": "In Riomaggiore, food is not an attraction. It is a rhythm, a memory, and a response to a vertical world." }
+    "title": {
+      "en": "The Story of the Table | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "In Riomaggiore, food is not an attraction. It is a rhythm, a memory, and a response to a vertical world."
+    }
   },
   "template": "cinque-terre",
   "body": [
@@ -189,13 +193,23 @@
       "title": "The Best Meal is a Matter of Mood",
       "content": "<p>In the end, eating well in Riomaggiore is less about finding the 'perfect' restaurant and more about matching your meal to your spirit.</p><p>Some days require the quiet of a hidden osteria; others, the salt-spray energy of the harbor rocks with a paper cone of fish. Sometimes, all you need is a glass of Sciacchetrà and the sound of the sea.</p><p>Slow down. Notice the light. Listen to the village. The table will find you.</p>",
       "actions": [
-        { "label": "Plan Your Day", "href": "/itinerary", "variant": "primary" },
-        { "label": "Explore the Village", "href": "/village", "variant": "secondary" }
+        {
+          "label": "Plan Your Day",
+          "href": "/itinerary",
+          "variant": "primary"
+        },
+        {
+          "label": "Explore the Village",
+          "href": "/village",
+          "variant": "secondary"
+        }
       ]
     }
   ],
-  "metadata": { "page_type": "culinary" },
-  "status": "generated",
+  "metadata": {
+    "page_type": "culinary"
+  },
+  "status": "published",
   "created_at": "2025-01-05T00:00:00.000Z",
   "updated_at": "2025-01-05T00:00:00.000Z"
 }

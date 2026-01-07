@@ -1,5 +1,5 @@
 {
-  "id": "7c5563b9-591e-42b0-b37d-e6807c247697",
+  "id": "m-overview-001",
   "slug": {
     "en": "/en/monterosso/overview",
     "de": "/de/monterosso/overview",
@@ -7,172 +7,152 @@
     "it": "/it/monterosso/overview"
   },
   "title": {
-    "en": "Monterosso al Mare: The Crown Jewel of Cinque Terre's Five Villages"
+    "en": "Monterosso Overview | Cinque Terre Dispatch"
   },
   "page_type": "overview",
   "seo": {
     "title": {
-      "en": "Monterosso al Mare Guide - Luxury Travel | Cinqueterre.travel"
+      "en": "Monterosso Overview | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Monterosso al Mare, the largest Cinque Terre village. Sandy beaches, world-class restaurants, and UNESCO heritage in Italy's coastal paradise."
+      "en": "Monterosso is the largest of the five villages, the one with sandy beaches, the one divided by a tunnel into two worlds. It offers what no other Cinque Terre village can—and that changes everything."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "UNESCO World Heritage Site",
-      "title": "Monterosso al Mare: Where Ancient Romance Meets Mediterranean Luxury",
-      "subtitle": "The largest and most historically significant of the Cinque Terre villages, where Roman patricians once built summer retreats and Nobel laureates found inspiration. Experience sandy beaches, world-class dining, and centuries of preserved maritime heritage.",
-      "buttons": [
-        {
-          "text": "Explore Restaurants",
-          "url": "#dining",
-          "variant": "primary"
-        },
-        {
-          "text": "Discover History",
-          "url": "#heritage",
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Village<br/>That Has Everything",
+      "subtitle": "Monterosso is Cinque Terre's exception—the village with beaches, with flat terrain, with infrastructure, with choices. It's the largest, the most accessible, and the most different. That difference is its gift.",
+      "badge": "Village Overview",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Understanding Monterosso",
+      "quote": "Monterosso is often dismissed as 'too touristy' by those who prefer their Cinque Terre more austere. But Monterosso isn't less authentic—it's differently authentic, shaped by geography that allowed development the other villages couldn't support.",
+      "content": [
+        "The village is **actually two villages**—medieval old town and beachfront Fegina, connected by a tunnel through Aurora Tower. Your choice of neighborhood shapes your entire experience. Both are valid. Both are Monterosso.",
+        "**The beaches are real**. Sandy shores, beach clubs, room to spread towels. This exists nowhere else in Cinque Terre. For some visitors, this is the entire point. For others, it's a bonus. Either way, it's unique.",
+        "**Flat terrain changes possibilities**. Via Fegina is level. The beach promenade is level. For those who struggle with stairs—the elderly, parents with strollers, anyone with mobility concerns—Monterosso offers what other villages cannot.",
+        "**The infrastructure supports choices**. More restaurants, more shops, more variety, longer hours. The practical comforts of a developed destination combined with the beauty of Cinque Terre. The tradeoff for some is worthwhile for others."
       ]
     },
     {
-      "type": "stats-section",
-      "title": "Monterosso by the Numbers",
-      "stats": [
+      "type": "collection-with-interludes",
+      "itemType": "highlight",
+      "items": [
         {
-          "number": "643 CE",
-          "label": "First Historical Record",
-          "description": "Mentioned in Lombard documents"
+          "id": 1,
+          "name": "Il Gigante",
+          "category": "Village Icon",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The broken Neptune that guards Fegina beach—14 meters of tragedy and beauty carved into the cliff.",
+          "description": "Built in 1910 to support a luxury villa's terrace, Il Gigante (The Giant) once held a shell in his now-missing arms. WWII bombs and the 1966 flood destroyed the villa and broke the statue. What remains still watches over the beach—an unintentional monument to ambition, destruction, and persistence.",
+          "giuliaComment": "The Giant is better broken. A pristine Neptune statue would be forgettable. This damaged colossus, emerging from the cliff, speaks to everything Monterosso has endured—wars, floods, transformations. The damage is the meaning.",
+          "signature": "Where ruins become icons"
         },
         {
-          "number": "2",
-          "label": "Distinct Neighborhoods",
-          "description": "Historic center and seaside Fegina"
+          "id": 2,
+          "name": "The Beach",
+          "category": "Natural Gift",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The only proper sandy beach in Cinque Terre—what brings many visitors and keeps them longer.",
+          "description": "Fegina beach stretches along the promenade: beach clubs with umbrellas and service in the center, public beach at the edges. The water is the same Mediterranean blue as everywhere in Cinque Terre, but here you can actually spread a towel on sand, not rocks. A smaller beach exists in old town for those who prefer less scene.",
+          "giuliaComment": "I grew up taking this beach for granted. Then I visited the other villages and understood what we have. Sand. Room. Comfort. The other villages have their charms, but when I want to actually swim and relax, I stay home.",
+          "signature": "Where Cinque Terre meets the sand"
         },
         {
-          "number": "Only",
-          "label": "Village with Sandy Beaches",
-          "description": "Natural swimming paradise"
-        },
-        {
-          "number": "1,500",
-          "label": "Residents",
-          "description": "Largest Cinque Terre population"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Why Monterosso Captivates Discerning Travelers",
-      "subtitle": "From ancient monasteries to Michelin-quality dining, discover what sets this village apart from its famous neighbors.",
-      "features": [
-        {
-          "icon": "🏖️",
-          "title": "Cinque Terre's Only Sandy Beaches",
-          "description": "Luxuriate on natural sand beaches with crystal-clear waters, protected coves, and beachfront dining - a rarity along this dramatic coastline."
-        },
-        {
-          "icon": "🍽️",
-          "title": "Culinary Capital",
-          "description": "Home to the region's finest restaurants, including Ristorante Miky's seafood mastery and Torre Aurora's panoramic dining experience."
-        },
-        {
-          "icon": "🏛️",
-          "title": "Rich Historical Heritage",
-          "description": "Walk through 1,400 years of history, from Benedictine monasteries to medieval maritime fortifications, all preserved as UNESCO heritage."
-        },
-        {
-          "icon": "🌅",
-          "title": "Spectacular Viewpoints",
-          "description": "Ascend to Torre Aurora for 360-degree coastal views, or discover hidden terraced vineyards carved into red mountain cliffs."
-        },
-        {
-          "icon": "🎨",
-          "title": "Literary Legacy",
-          "description": "Follow in Nobel laureate Eugenio Montale's footsteps through landscapes that inspired some of Italy's greatest modern poetry."
-        },
-        {
-          "icon": "🚂",
-          "title": "Perfect Base for Exploration",
-          "description": "Monterosso's larger size and better transportation links make it ideal for exploring all five villages while enjoying superior amenities."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "id": "heritage",
-      "title": "A Living Chronicle of Mediterranean Civilization",
-      "content": "Standing where Roman patricians once built their coastal retreats, Monterosso al Mare represents the longest continuously inhabited settlement in the Cinque Terre. The village's name, derived from 'Mons Rubeus' (Red Mountain), speaks to the dramatic reddish cliffs that have watched over this community for over a millennium.\n\nUnlike its neighbors that developed purely as fishing villages, Monterosso emerged as a commercial and cultural center. The Benedictine monastery, founded in 1056, established the village as a seat of learning and regional influence. Today, you can still trace this rich heritage through medieval streets where merchant families built their palazzos, and along ancient pilgrimage routes that connected the Cinque Terre to the broader Christian world.\n\nThe village's two distinct quarters tell different stories: the historic centro storico preserves medieval authenticity with narrow caruggi (alleyways) and stone buildings, while Fegina represents early 20th-century resort development, complete with grand hotels and the iconic Giant statue - a 14-meter concrete Neptune that has become Monterosso's modern symbol.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1558611848-73f7eb4001a1-hero.jpg",
-      "layout": "text-left"
-    },
-    {
-      "type": "content-section",
-      "id": "dining",
-      "title": "Culinary Excellence Where Land Meets Sea",
-      "content": "Monterosso's culinary scene represents the pinnacle of Ligurian gastronomy, where ancient fishing traditions meet contemporary innovation. At Ristorante Miky, experience the poetry of fresh crudo di ricciola while watching sunset paint the Mediterranean in golden hues. The restaurant's terrace offers not just exceptional cuisine, but a front-row seat to one of the world's most romantic coastal panoramas.\n\nFor a truly unique experience, discover Torre Aurora, where dining becomes theater. Perched in a historic tower, this restaurant offers 360-degree views of the entire Cinque Terre coastline while serving creative interpretations of traditional Ligurian dishes. Their signature cocktails, crafted with local herbs and spirits, provide the perfect accompaniment to panoramic sunsets.\n\nPerhaps most remarkable is Ristorante Ciak, where the farm-to-table concept reaches its purest expression. Here, the chef is literally a farmer in the morning and head chef in the afternoon, harvesting ingredients from his organic gardens in both Vernazza and Monterosso. Watch through the street-facing window as he transforms morning-picked vegetables into extraordinary dishes that capture the very essence of this Mediterranean terroir.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1514933651103-005eec06c04b-hero.jpg",
-      "layout": "text-right"
-    },
-    {
-      "type": "faq-section",
-      "title": "Essential Monterosso Knowledge",
-      "subtitle": "Everything discerning travelers need to know for an exceptional visit",
-      "faqs": [
-        {
-          "question": "What makes Monterosso different from the other Cinque Terre villages?",
-          "answer": "Monterosso is the largest and most historically significant village, featuring the only sandy beaches in Cinque Terre. It offers superior dining options, better accommodation variety, and serves as the commercial center with more shops and services. Its two distinct neighborhoods provide both medieval charm and beachfront resort amenities."
-        },
-        {
-          "question": "When is the best time to visit for optimal weather and fewer crowds?",
-          "answer": "Late April through early June and September through mid-October offer ideal conditions - warm weather, manageable crowds, and most restaurants open. Many establishments close January-March, while July-August brings peak crowds but extended hours and vibrant energy."
-        },
-        {
-          "question": "How should I plan dining reservations at top restaurants?",
-          "answer": "Book Ristorante Miky and Torre Aurora at least 2-3 days ahead, requesting terrace seating for sunset views. Torre Aurora is perfect for sunset cocktails (arrive by 6 PM), while Miky offers the finest seafood experience. For Ristorante Ciak's unique farm-to-table experience, call ahead to learn about daily harvested ingredients."
-        },
-        {
-          "question": "What are the must-see historical sites beyond the beaches?",
-          "answer": "Visit the Church of San Giovanni Battista with its striking black and white striped facade, explore the medieval centro storico's narrow caruggi, and climb to the remains of the Aurora Castle for panoramic views. The Capuchin Monastery and its gardens offer peaceful contemplation with coastal vistas."
-        },
-        {
-          "question": "How do I navigate between Monterosso's two main areas?",
-          "answer": "The historic center (centro storico) and modern Fegina beach area are connected by a scenic 10-minute walk through a tunnel carved into the cliff. Alternatively, take the pleasant seaside path that offers beautiful coastal views. Most luxury accommodations are in Fegina, while the best restaurants are split between both areas."
-        },
-        {
-          "question": "What unique experiences can I only have in Monterosso?",
-          "answer": "Relax on the Cinque Terre's only sandy beaches, dine at Torre Aurora's historic tower with 360-degree views, experience true farm-to-table dining at Ristorante Ciak, explore the Nobel laureate Montale's favorite landscapes, and visit traditional anchovy processing facilities that have operated for centuries."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "title": "Ready to Experience Monterosso's Timeless Allure?",
-      "subtitle": "From Roman retreats to modern luxury, discover why this ancient village remains the crown jewel of the Cinque Terre. Let us craft your perfect Mediterranean escape.",
-      "buttons": [
-        {
-          "text": "Plan Your Monterosso Experience",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore All Five Villages",
-          "url": "/villages",
-          "variant": "secondary"
+          "id": 3,
+          "name": "The Old Town",
+          "category": "Medieval Heritage",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Through the tunnel from Fegina lies medieval Monterosso—caruggi, the Gothic church, the working harbor.",
+          "description": "Old town is Monterosso as traditional Cinque Terre village: narrow caruggi (alleyways), stone buildings rising from harbor to hillside, the church of San Giovanni Battista with its Gothic facade, the working fishing harbor where boats still launch at dawn. This is where Monterosso's fishing heritage lives.",
+          "giuliaComment": "Old town is where I send visitors who worry Monterosso is 'too touristy.' Walk through the tunnel and the century changes. The caruggi. The church. The harbor where my grandfather fished. This is the Monterosso that existed before any resort.",
+          "signature": "Where history still breathes"
         }
       ],
-      "background": "gradient"
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The IGP Treasures",
+          "quote": "Monterosso has two products with protected geographic status: the lemons that grow on the terraced hillsides and the anchovies that fishermen still catch and salt by hand. Both carry legal protection. Both define Monterosso's culinary identity. Both reward seeking out authentic versions."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Living Village",
+      "quote": "Monterosso is not a museum. It's a community of 1,500 people who happen to live in one of the world's most photographed places—and who navigate the daily tension between heritage and tourism, preservation and change.",
+      "content": [
+        "**The lemon terraces climb above both neighborhoods**. Families still tend IGP-protected groves, producing lemons that can legally call themselves 'Limoni di Monterosso.' The fruit shapes local cuisine; the terraces shape the landscape.",
+        "**The fishing boats still launch at dawn**. Old town's harbor remains working port, not just scenic backdrop. Anchovy season brings the traditional salting that earns IGP protection. The maritime heritage lives in daily practice.",
+        "**The church still marks time**. San Giovanni Battista's bells ring across both neighborhoods, connecting old town and Fegina in sound what the tunnel connects in passage. The sacred landscape overlays the scenic one.",
+        "**The rhythm is Mediterranean**. Morning activity, afternoon quiet, evening passeggiata. Fighting this rhythm exhausts you. Following it reveals how Monterosso actually works."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "essence",
+      "items": [
+        {
+          "id": 4,
+          "name": "Why Choose Monterosso",
+          "category": "The Case for This Village",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Each village suits different travelers. Here's who Monterosso serves best.",
+          "description": "Choose Monterosso if: you want beach time, you prefer flat terrain, you value restaurant variety, you're traveling with mobility concerns, you want a base for exploring all villages, you appreciate both medieval charm and resort comfort. The village accommodates more preferences than its neighbors.",
+          "giuliaComment": "I tell visitors: choose based on what matters to you. Want dramatic cliffs and earned views? Go to Vernazza or Riomaggiore. Want beaches, accessibility, and options? Come here. Neither answer is wrong. They're just different.",
+          "signature": "The village that accommodates"
+        },
+        {
+          "id": 5,
+          "name": "The Honest Tradeoffs",
+          "category": "What to Know",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Monterosso's advantages come with their mirror disadvantages—both worth understanding.",
+          "description": "More development means more crowds in summer. More infrastructure means less of the isolation other villages offer. More accessibility means more visitors who come only for the beach. The village handles millions of visitors annually. It's equipped for this—but the peak season crush is real.",
+          "giuliaComment": "I won't pretend August in Fegina is peaceful. It isn't. But I also know that 7am is quiet everywhere, that old town is calmer than Fegina, that the crowds follow patterns you can work around. The village is crowded—but manageable if you understand the rhythms.",
+          "signature": "The tradeoffs worth accepting"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Base Camp Approach",
+          "quote": "Many experienced Cinque Terre travelers use Monterosso as base camp—superior infrastructure for sleeping, eating, and recovering; easy train access to explore other villages by day. You get the best of both: Monterosso's comforts and every other village's charms. The strategy works."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Where Cinque Terre Meets the World",
+      "content": [
+        "Monterosso is Cinque Terre's most accessible village—in every sense of that word. It welcomes visitors with infrastructure other villages can't provide. It offers experiences other villages can't match. It accommodates travelers other villages might challenge.",
+        "The village is not Cinque Terre's prettiest (that might be Vernazza), its most dramatic (that's probably Riomaggiore), or its most isolated (Corniglia claims that). It's Cinque Terre's most hospitable—the village designed, by geography and history both, to welcome the world.",
+        "Come for the beach, the accessibility, the options. Stay for the lemon terraces, the medieval caruggi, the anchovy heritage. Leave understanding that 'most accessible' doesn't mean 'least interesting'—just 'most different.' And different has its own value."
+      ],
+      "buttons": [
+        { "text": "Things to Do", "url": "/en/monterosso/things-to-do", "variant": "primary" },
+        { "text": "Where to Eat", "url": "/en/monterosso/restaurants", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "overview"
   },
-  "status": "generated",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:06:00.533Z"
+  "status": "published",
+  "created_at": "2026-01-07T10:00:00.000Z",
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

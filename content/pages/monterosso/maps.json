@@ -1,5 +1,5 @@
 {
-  "id": "5c189868-4ebe-4876-8915-ebac25cec9e0",
+  "id": "m-maps-001",
   "slug": {
     "en": "/en/monterosso/maps",
     "de": "/de/monterosso/maps",
@@ -7,162 +7,163 @@
     "it": "/it/monterosso/maps"
   },
   "title": {
-    "en": "Monterosso Maps & Navigation Guide - Your Complete Village Reference"
+    "en": "Navigating Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Monterosso Maps & Navigation Guide | Cinqueterre.travel"
+      "en": "Navigating Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Expert maps and navigation tips for Monterosso al Mare. Find restaurants, beaches, trails, and hidden spots with insider local knowledge."
+      "en": "Monterosso requires different navigation than other Cinque Terre villages—two distinct neighborhoods, actual flat terrain, and a tunnel that connects separate worlds."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "Navigation Made Simple",
-      "title": "Navigate Monterosso Like a Local",
-      "subtitle": "Discover the largest of the Cinque Terre villages with our comprehensive maps, insider routes, and cultural historian's notes on every corner worth exploring",
+      "type": "editorial-hero",
+      "title": "Two Villages,<br/>One Map",
+      "subtitle": "Monterosso's unique layout—old town and Fegina connected by tunnel, beach and hill, medieval and modern—requires navigation that accounts for the divide. Understanding the geography transforms your experience.",
+      "badge": "Navigation & Maps",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Unique Layout",
+      "quote": "Most Cinque Terre navigation concerns stairs. Monterosso navigation concerns something else: the relationship between two neighborhoods that feel like separate villages but share one identity.",
+      "content": [
+        "**The tunnel changes everything**. A 5-minute walk through Aurora Tower connects old town to Fegina. This passage is the key to Monterosso navigation—use it constantly, think nothing of crossing between worlds.",
+        "**Flat terrain actually exists**. Via Fegina is level. The beach promenade is level. After the stair-intensive other villages, this feels almost miraculous. Plan accordingly—some Monterosso exploration requires no climbing at all.",
+        "**The train station is in Fegina**. Most arrivals happen in the new town. Old town requires either the tunnel walk or the scenic coastal path. Know this before booking accommodation.",
+        "**The hills still climb**. Above both neighborhoods, the terrain rises toward the terraces, the sanctuaries, the views. The flat parts are valuable; the climbs remain rewarding."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "zone",
+      "items": [
+        {
+          "id": 1,
+          "name": "Fegina Beach District",
+          "category": "Village Geography",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The train station, the main beach, Il Gigante—Monterosso's modern resort face.",
+          "description": "Fegina stretches along the beach promenade from the train station to the tunnel entrance. This is flat Monterosso: beach clubs, hotels, restaurants with sea views. Il Gigante guards the southern end. The parking area connects above. Most first-time visitors spend most time here because arrival deposits them here and the beach holds them.",
+          "giuliaComment": "Fegina is where Monterosso welcomes the world. The beach, the train, the accessibility—it's designed for tourism. That's not criticism; it's function. Embrace it for what it offers: ease, comfort, sand.",
+          "signature": "Where Monterosso meets the modern world"
+        },
+        {
+          "id": 2,
+          "name": "Old Town Centro Storico",
+          "category": "Village Geography",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Medieval caruggi, the Gothic church, working harbor—Monterosso as Cinque Terre village.",
+          "description": "Through the tunnel from Fegina, old town presents narrow streets, stone buildings, the church of San Giovanni Battista rising above. This is Monterosso as fishing village, less changed by tourism than Fegina. The harbor still works. The caruggi (narrow alleyways) still confuse. The atmosphere still feels medieval.",
+          "giuliaComment": "Get lost in old town—intentionally. The caruggi twist, dead-end, reveal unexpected views. Every wrong turn teaches you something. The medieval layout wasn't designed for efficiency; it was designed for defense and survival. Navigate accordingly.",
+          "signature": "Where Monterosso remembers its past"
+        },
+        {
+          "id": 3,
+          "name": "The Aurora Tower Passage",
+          "category": "The Connection",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The tunnel that connects two worlds—five minutes that span five centuries.",
+          "description": "Aurora Tower once defended the passage between Monterosso's two halves. The 19th-century tunnel carved through it connected what geography had separated. Today, this short walk is the most important navigation in Monterosso—you'll use it multiple times daily, passing from resort to village and back.",
+          "giuliaComment": "The tunnel is more than passage; it's transition. Walking through, you feel the temperature change, the sound change, the century change. I love that moment of emergence—whether into Fegina's brightness or old town's shadow.",
+          "signature": "Where passage becomes transformation"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Flat Miracle",
+          "quote": "After navigating other Cinque Terre villages—where every destination involves stairs—Monterosso's flat terrain feels revolutionary. Via Fegina requires no climbing. The beach promenade is level. For those with mobility concerns, this changes everything about what's possible."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Navigation",
+      "quote": "Understanding Monterosso's layout is half the navigation challenge. The other half is knowing which routes connect what, which climbs reward the effort, and which shortcuts locals use.",
+      "content": [
+        "**Train station to old town**: Exit right, follow the promenade to the tunnel (10 minutes), or take the coastal path for views (15 minutes). The tunnel is faster; the path is prettier.",
+        "**Parking to beach**: The Loreto parking area sits above Fegina. A steep path descends to the train station area. Alternatively, a longer road winds down more gradually. Neither is easy with heavy luggage.",
+        "**Beach to terraces**: From the old town harbor, paths climb toward the lemon groves. From Fegina, the trail to Soviore sanctuary ascends through agricultural landscape. Both offer views unavailable from sea level.",
+        "**The scenic coastal path**: An alternative to the tunnel, this path follows the headland between old town and Fegina. Takes longer but offers views of both areas and Il Gigante from above."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "navigation",
+      "items": [
+        {
+          "id": 4,
+          "name": "Station to Best Views",
+          "category": "Viewpoint Access",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "From arrival to panorama—the paths that reward climbing.",
+          "description": "From Fegina station, the trail to Soviore sanctuary offers the best panoramic ascent—2+ hours round trip, but views of both neighborhoods, the entire coast, and the interior hills. For quicker views, the coastal path above the tunnel provides elevated perspective without major climbing. The Capuchin monastery terrace offers accessible views with less effort.",
+          "giuliaComment": "For the best photos of both old town and Fegina in one frame, take the coastal path above the tunnel. The view from above Aurora Tower shows exactly how the two neighborhoods relate—and how they differ.",
+          "signature": "Where effort earns perspective"
+        },
+        {
+          "id": 5,
+          "name": "The Hiking Trail Starts",
+          "category": "Trail Access",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the famous coastal trails begin—and what you need to know before starting.",
+          "description": "The Sentiero Azzurro (Blue Trail) to Vernazza starts from old town, beyond the harbor. It's the most famous hike in Cinque Terre—2 hours, challenging sections, spectacular views. The trail requires a Cinque Terre Card. The alternative alta via (high trail) starts from above Fegina, heading to Soviore and beyond—longer, higher, less crowded.",
+          "giuliaComment": "The Monterosso-Vernazza trail is justifiably famous but often crowded. For solitude, take the high trail to Soviore instead. The views are different—more mountain than coast—but the experience is more peaceful.",
+          "signature": "Where the coast calls to hikers"
+        },
+        {
+          "id": 6,
+          "name": "The Beach Circuit",
+          "category": "Leisure Navigation",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Moving between beach areas, swimming spots, and seaside dining—the navigation of leisure.",
+          "description": "The main Fegina beach stretches from the train station toward Il Gigante. Beach clubs occupy the central section; public beach fills the edges. A smaller beach exists in old town near the harbor. Moving between them means tunnel walks. The best pattern: morning at one beach, tunnel passage for lunch, afternoon at the other.",
+          "giuliaComment": "I swim in old town in the morning—quieter, more local, the water somehow feels different. Then tunnel to Fegina for afternoon beach club comfort. The tunnel becomes the rhythm of a Monterosso day.",
+          "signature": "Where leisure has its own geography"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Caruggi Logic",
+          "quote": "Old town's narrow alleys seem random but follow medieval logic: the widest streets handled commerce, the narrowest provided defense, dead ends were intentional. Don't fight the confusion—embrace it. Every wrong turn reveals something. The caruggi teach navigation by wandering."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Learning Both Monterossos",
+      "content": [
+        "Navigating Monterosso means navigating two villages and understanding how they connect. The tunnel becomes familiar. The caruggi become legible. The flat promenades become refuge after the vertical challenges elsewhere.",
+        "The best navigation is eventually no navigation—when the village becomes mental map, when you know which tunnel entrance to use, which caruggio leads where, which viewpoint rewards which climb.",
+        "Give yourself time. Get lost intentionally. Let Monterosso teach you its layout. The village has been welcoming visitors for over a century now. It knows how to reveal itself."
+      ],
       "buttons": [
-        {
-          "text": "View Interactive Map",
-          "url": "#interactive-map",
-          "variant": "primary"
-        },
-        {
-          "text": "Download Walking Routes",
-          "url": "#walking-routes",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Monterosso by the Numbers",
-      "stats": [
-        {
-          "number": "1.5km",
-          "label": "Longest Beach Promenade",
-          "description": "More sandy coastline than all other villages combined"
-        },
-        {
-          "number": "3",
-          "label": "Distinct Districts",
-          "description": "Old Town, New Town, and Fegina Beach area"
-        },
-        {
-          "number": "643 CE",
-          "label": "First Documentation",
-          "description": "Oldest recorded village in the Cinque Terre"
-        },
-        {
-          "number": "25",
-          "label": "Historic Churches",
-          "description": "Including the magnificent San Giovanni Battista"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Essential Monterosso Districts & Landmarks",
-      "subtitle": "Understanding the village's unique layout helps you experience its full character",
-      "features": [
-        {
-          "icon": "🏰",
-          "title": "Centro Storico (Old Town)",
-          "description": "Medieval heart with narrow caruggi, the Church of San Giovanni Battista, and authentic trattorias. Home to the original fishing community and best preserved architecture."
-        },
-        {
-          "icon": "🏖️",
-          "title": "Fegina District (New Town)",
-          "description": "Beach resort area with luxury hotels, Ristorante Miky, and the Giant Neptune statue. Connected to Old Town by an underground tunnel through the medieval tower."
-        },
-        {
-          "icon": "🍋",
-          "title": "Terraced Hillsides",
-          "description": "Ancient agricultural terraces still producing the famous Monterosso lemons and Cinque Terre DOC wine grapes. Access via scenic hiking trails."
-        },
-        {
-          "icon": "🚂",
-          "title": "Railway & Harbor Area",
-          "description": "Transportation hub connecting all five villages. The harbor offers boat tours and houses the working fishing fleet alongside pleasure craft."
-        },
-        {
-          "icon": "📍",
-          "title": "Torre Aurora",
-          "description": "Historic watchtower now home to the village's most spectacular restaurant with 360-degree coastal views. Perfect for sunset dining and photography."
-        },
-        {
-          "icon": "⛪",
-          "title": "San Francesco Monastery",
-          "description": "Capuchin convent founded in the 17th century, housing important religious art including works by Van Dyck. Peaceful gardens overlook the sea."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "title": "Navigation Tips from a Cultural Historian",
-      "content": "After decades studying these ancient streets, I've learned that Monterosso reveals its secrets to those who understand its layers of history. The village developed in three phases: the Roman coastal settlement, the medieval hilltop expansion, and the modern beachfront district.\n\n**The Underground Passage**: Few visitors discover the tunnel connecting Old and New Town, built through the base of the medieval Aurora tower. This 19th-century engineering marvel saved the village from being split permanently by the rocky promontory.\n\n**Reading the Architecture**: Notice how building styles change as you move inland from the coast. The pastel houses near the harbor follow Genoese merchant traditions, while structures higher up reflect monastic influence from the Benedictine period.\n\n**Ancient Pathways**: The Via dell'Amore may be closed, but Monterosso offers equally stunning alternatives. The Sentiero Azzurro coastal trail to Vernazza follows ancient mule paths used by merchants for centuries. Look for carved stone markers indicating distances to neighboring villages.\n\n**Sacred Geography**: The placement of churches and shrines follows medieval spiritual logic. San Giovanni Battista faces the sea to bless fishermen, while the Santuario di Soviore commands the hilltops, protecting travelers on ancient pilgrim routes.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-regular.jpg"
-    },
-    {
-      "type": "faq-section",
-      "title": "Local Navigation Questions Answered",
-      "subtitle": "Based on centuries of village wisdom and modern visitor needs",
-      "faqs": [
-        {
-          "question": "How do I move between Old Town and the beach area?",
-          "answer": "Three options: the scenic 10-minute coastal walk along Via Fegina, the underground tunnel through Aurora tower (look for the entrance near the train station), or the elevated pathway with spectacular views. The tunnel is fastest; the coastal route is most pleasant."
-        },
-        {
-          "question": "Where can I find the best viewpoints for photography?",
-          "answer": "Torre Aurora restaurant offers the highest accessible viewpoint. For free alternatives, climb to the Santuario di Soviore (30 minutes uphill) or take the trail toward Vernazza for dramatic coastal shots. Early morning light is magical from the San Francesco monastery terrace."
-        },
-        {
-          "question": "What's the difference between the two beaches?",
-          "answer": "Fegina Beach (New Town) is larger with beach clubs, umbrellas, and restaurants like Miky. The Old Town beach is smaller, more authentic, frequented by locals and fishing boats. Both have the same crystal-clear water and views."
-        },
-        {
-          "question": "How do I reach the famous lemon terraces?",
-          "answer": "Take the Sentiero Rosso (Red Trail) from behind the cemetery. The terraces are still working farms - respect private property and don't pick fruit. Best views are from the trail to Soviore sanctuary, about 45 minutes of steady climbing."
-        },
-        {
-          "question": "Is it better to stay in Old Town or near the beach?",
-          "answer": "Old Town for authentic atmosphere, narrow streets, and proximity to historic sites. Beach area for luxury hotels, easier luggage transport, and immediate beach access. Both are connected by a pleasant 5-minute walk."
-        },
-        {
-          "question": "What should I know about the working harbor area?",
-          "answer": "The harbor still functions as a fishing port - respect working boats and nets. Boat tours depart from the main pier. The fish market operates early morning (6-8 AM) when boats return. Evening aperitivo spots offer the best harbor views."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "title": "Ready to Explore Monterosso?",
-      "subtitle": "Download our detailed walking maps and discover the village's hidden stories with routes crafted by local historians",
-      "buttons": [
-        {
-          "text": "Get Walking Maps",
-          "url": "/monterosso/walking-tours",
-          "variant": "primary"
-        },
-        {
-          "text": "Browse Restaurants",
-          "url": "/monterosso/restaurants",
-          "variant": "secondary"
-        }
+        { "text": "Getting Here", "url": "/en/monterosso/getting-here", "variant": "primary" },
+        { "text": "Things to Do", "url": "/en/monterosso/things-to-do", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "maps"
   },
-  "status": "generated",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:05:06.738Z"
+  "status": "published",
+  "created_at": "2026-01-07T10:00:00.000Z",
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

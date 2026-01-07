@@ -7,173 +7,152 @@
     "it": "/it/vernazza/overview"
   },
   "title": {
-    "en": "Vernazza: The Crown Jewel of Cinque Terre"
+    "en": "Vernazza Overview | Cinque Terre Dispatch"
   },
   "page_type": "overview",
   "seo": {
     "title": {
-      "en": "Vernazza Travel Guide - Medieval Harbor Village | Cinque Terre"
+      "en": "Vernazza Overview | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Vernazza's medieval castle, pristine harbor, and exceptional seafood. Your complete guide to Cinque Terre's most photogenic village."
+      "en": "Vernazza is the crown jewel—where an 11th-century Doria castle guards Italy's only natural harbor in Cinque Terre, and where medieval majesty meets the sea in ways no other village can match."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1462922905131-1a670ce6093c-hero.jpg",
-      "eyebrow": "Most Photogenic Village",
-      "title": "Vernazza: Where Medieval Majesty Meets the Sea",
-      "subtitle": "Experience the crown jewel of Cinque Terre, where an 11th-century Doria castle guards Italy's most perfect natural harbor. From clifftop fine dining to waterfront seafood, Vernazza offers the most romantic and historically rich village experience on the Italian Riviera.",
+      "type": "editorial-hero",
+      "title": "The Crown<br/>Jewel",
+      "subtitle": "Vernazza is what happens when Genoese nobility decides a fishing village needs a castle. An 11th-century fortress still guards Italy's only true natural harbor in Cinque Terre—a strategic position that made this village rich, powerful, and impossibly photogenic.",
+      "badge": "Village Overview",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1462922905131-1a670ce6093c-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Understanding Vernazza",
+      "quote": "Every visitor to Cinque Terre eventually finds their way to Vernazza's harbor. They come for the photograph—medieval tower against pastel houses, fishing boats in the foreground, sea stretching to infinity. What they discover is a village that earned its beauty through a thousand years of strategic importance.",
+      "content": [
+        "**The Doria family built here for a reason**. In 1080, papal records first mention Vernazza. By the 11th century, the powerful Genoese Doria family recognized what made this location extraordinary—the only true natural harbor along the entire Cinque Terre coast. While neighboring villages had exposed beaches, Vernazza could shelter ships.",
+        "**The castle is not decoration**. The cylindrical tower you climb today served as both watchtower and final defensive position. From its ramparts, guards could spot approaching threats along the entire coastline. The strategic advantage was absolute.",
+        "**UNESCO recognized what locals always knew**. In 1997, this medieval maritime architecture received World Heritage status. But the fishermen mending nets in the harbor, the families running restaurants in buildings their ancestors built—they've maintained these traditions for centuries without needing official recognition.",
+        "**The photography reputation is earned**. Vernazza's unique geography creates the perfect composition: harbor in foreground, tower as focal point, pastel houses climbing the cliff, terraces above. Golden hour transforms the scene into something almost impossible. Every photograph you've seen of Cinque Terre—this is where it was taken."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "highlight",
+      "items": [
+        {
+          "id": 1,
+          "name": "The Doria Castle",
+          "category": "Medieval Heritage",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1516747760143-a27c8ba887ae?q=80&w=2670&auto=format&fit=crop",
+          "intro": "An 11th-century fortress built by Genoese nobility—where you can still climb the watchtower that once guarded Mediterranean trade routes.",
+          "description": "The cylindrical tower of Castello Doria remains Vernazza's defining landmark. Climb to the top and you'll understand the strategic advantage it provided—clear sightlines along the coast, commanding views of all approach routes, and the ability to signal neighboring towers. The fortress controlled not just defense but commerce.",
+          "giuliaComment": "Tourists climb the castle for the view. Which is fair—it's spectacular. But spend time on the ramparts imagining what it meant to guard this position. Every ship that passed, every storm that threatened, every rival that approached. A thousand years of vigilance.",
+          "signature": "Where power met the sea"
+        },
+        {
+          "id": 2,
+          "name": "The Natural Harbor",
+          "category": "Village Heart",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73200?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The only true natural harbor in Cinque Terre—protected from storms, deep enough for ships, and still working after a millennium.",
+          "description": "While other villages have boat ramps and rocky beaches, Vernazza has a genuine harbor. Ships could anchor safely here when storms made the coast dangerous. Cargo could be loaded and unloaded efficiently. The Genoese recognized this advantage and built an empire on it. Today, fishing boats still use the same sheltered water.",
+          "giuliaComment": "Watch the harbor in the early morning. Local fishermen still launch from here—the same families, often, that have worked these waters for generations. The tourism industry is newer. The fishing is ancient. Both coexist in the same small space.",
+          "signature": "Where commerce began"
+        },
+        {
+          "id": 3,
+          "name": "The Piazza",
+          "category": "Social Center",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The waterfront square where locals gather for aperitivo, tourists gather for photographs, and the evening passeggiata unfolds.",
+          "description": "Vernazza's small piazza serves as the village's living room. Harbor-front restaurants spill onto the stones. Locals claim the same benches every evening. The sunset crowd gathers, disperses, gathers again. It's where Vernazza performs its daily ritual of being itself while also being watched.",
+          "giuliaComment": "The passeggiata starts around 6pm. Locals walk the harbor, stop to talk, walk again. Tourists join without quite knowing they're participating in something ancient. By 8pm, the piazza is full. By 10pm, only locals remain. The rhythm hasn't changed in centuries.",
+          "signature": "Where the village gathers"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Feast of Santa Margherita",
+          "quote": "Every July, Vernazza honors Santa Margherita with a procession, traditional boats receiving blessings, and fireworks over the harbor. The festival connects today's community with their seafaring ancestors—a thousand years of gratitude for protection, for harvest, for survival on these cliffs."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Dining Scene",
+      "quote": "Vernazza's restaurants aren't just feeding tourists—they're maintaining a culinary tradition shaped by centuries of maritime trade, terraced agriculture, and the simple reality that the best ingredients arrive by boat every morning.",
+      "content": [
+        "**Gambero Rosso sets the standard**. Secure a harbor-view terrace table and watch fishing boats return while savoring branzino al sale—sea bass baked in a salt crust that preserves every nuance of flavor. This is Ligurian seafood at its most essential.",
+        "**Belforte transforms dining into theater**. Perched in a medieval tower with 270-degree sea views, their tasting menu showcases innovative takes on regional classics. The corner tower table is considered one of Italy's most romantic dining spots. Book weeks ahead.",
+        "**Nessun Dorma offers the famous view**. This hillside terrace serves simple food—focaccia, local wine, cured meats—but the panorama is Instagram's most photographed scene in Cinque Terre. Arrive an hour before sunset for prime positioning.",
+        "**The wine comes from above**. The terraces climbing the slopes produce Cinque Terre DOC whites and the precious Sciacchetrà. Every serious restaurant pours what grows within sight of your table."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "comparison",
+      "items": [
+        {
+          "id": 4,
+          "name": "Why Choose Vernazza",
+          "category": "Village Character",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Each village has its personality. Here's what Vernazza offers that the others don't.",
+          "description": "Vernazza is for history lovers, photographers, romantics, and those who want the most sophisticated dining scene in Cinque Terre. It lacks Monterosso's beaches and Riomaggiore's easy access. It's more expensive than Corniglia. But its combination of medieval architecture, natural harbor, and clifftop dining is unmatched anywhere on the Italian Riviera.",
+          "giuliaComment": "If you want beaches, go to Monterosso. If you want easy logistics, stay in Riomaggiore. If you want solitude, choose Corniglia. But if you want to understand why Cinque Terre became famous—that perfect image of tower and harbor and colored houses—you want Vernazza.",
+          "signature": "The village that defined the icon"
+        },
+        {
+          "id": 5,
+          "name": "The Most Visited Reality",
+          "category": "Practical Truth",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Vernazza is the most visited village in Cinque Terre. That reality shapes everything—and can be managed.",
+          "description": "Yes, the harbor fills with day-trippers by 10am. Yes, restaurant reservations require planning. Yes, the famous viewpoints get crowded at sunset. But the crowds follow patterns. Early morning belongs to locals. Late evening belongs to overnight guests. The village exists between and around the crowds for those who understand its rhythms.",
+          "giuliaComment": "I tell visitors: don't fight the crowds, outflank them. The castle at 8am is empty. The harbor at 7am is magical. Dinner at 9pm feels local. The day-trippers leave by 6pm. Everything between 10am and 5pm is tourism. Everything else is Vernazza.",
+          "signature": "Where timing is everything"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Reservation Question",
+          "quote": "For Belforte's medieval tower dining, book 2-3 weeks ahead during peak season and request the corner table. Gambero Rosso accepts reservations for harbor-view terraces—essential for sunset dining. Nessun Dorma is first-come-first-served. Arrive early or accept standing room."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Crown Jewel Awaits",
+      "content": [
+        "Vernazza doesn't try to be convenient. It doesn't have Monterosso's beach access or Riomaggiore's train proximity. It's not the budget option or the quiet escape. It's the crown jewel—the one where medieval fortress meets natural harbor, where the dining scene rivals the scenery, where the photograph everyone knows was taken.",
+        "Come for the castle that's guarded these waters for a thousand years. Stay for the restaurants that have earned every accolade. Watch the sunset from ramparts where guards once watched for raiders. Let the crowds thin and the village reveal itself.",
+        "The Doria family chose this harbor for strategic advantage. You can choose it for something better: beauty that history made, not manufactured."
+      ],
       "buttons": [
-        {
-          "text": "Explore Dining",
-          "url": "#dining",
-          "variant": "primary"
-        },
-        {
-          "text": "Discover History",
-          "url": "#history",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Why Vernazza Captivates Millions",
-      "stats": [
-        {
-          "number": "1080",
-          "label": "First documented in papal records",
-          "description": "Nearly 1,000 years of recorded history"
-        },
-        {
-          "number": "11th",
-          "label": "Century castle still stands",
-          "description": "Medieval Doria fortress guards the harbor"
-        },
-        {
-          "number": "1997",
-          "label": "UNESCO World Heritage status",
-          "description": "Protected cultural landscape"
-        },
-        {
-          "number": "Only",
-          "label": "True natural harbor in Cinque Terre",
-          "description": "Perfect sheltered port for centuries"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Vernazza's Unmissable Experiences",
-      "subtitle": "From medieval fortresses to Michelin-worthy cuisine, discover what makes this harbor village extraordinary.",
-      "features": [
-        {
-          "icon": "🏰",
-          "title": "Medieval Doria Castle",
-          "description": "Climb the 11th-century cylindrical tower built by the powerful Genoese Doria family. The panoramic views from the fortress walls reveal why this strategic position controlled Mediterranean trade routes."
-        },
-        {
-          "icon": "🍽️",
-          "title": "World-Class Waterfront Dining",
-          "description": "Savor fresh branzino al sale at Gambero Rosso's harbor terrace or experience clifftop fine dining at Belforte's medieval tower. Vernazza offers Cinque Terre's most sophisticated culinary scene."
-        },
-        {
-          "icon": "📸",
-          "title": "Instagram's Most Famous View",
-          "description": "Capture the iconic shot from Nessun Dorma's hillside terrace. Time your visit for golden hour when the harbor glows and the medieval tower silhouette creates pure magic."
-        },
-        {
-          "icon": "⛵",
-          "title": "Authentic Maritime Heritage",
-          "description": "Watch local fishermen mend nets in the same harbor where Genoese merchants once loaded cargo. Vernazza maintains its identity as a living, working port village."
-        },
-        {
-          "icon": "🌅",
-          "title": "Spectacular Sunset Rituals",
-          "description": "Join the evening passeggiata along the harbor promenade as locals gather for aperitivo. The medieval architecture creates dramatic shadows as day transforms to night."
-        },
-        {
-          "icon": "🥾",
-          "title": "Legendary Hiking Connections",
-          "description": "Start the famous Via dell'Amore coastal trail or challenge yourself on the steep terraced vineyard paths. Vernazza serves as the perfect base for exploring Cinque Terre's network of ancient trails."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "image-right",
-      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73200?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHNlYXJjaHwyfHx2ZXJuYXp6YSUyMGhhcmJvcnxlbnwwfDB8fHwxNzY1ODkxNzQ1fDA&ixlib=rb-4.1.0&q=80&w=800",
-      "eyebrow": "Dining Excellence",
-      "title": "A Culinary Journey Through Maritime Tradition",
-      "content": "Vernazza's restaurants showcase the village's millennium-long relationship with the sea. At **Gambero Rosso**, secure a harbor-view terrace table where you can watch fishing boats return with the day's catch while savoring their signature branzino al sale - sea bass baked in a salt crust that preserves every nuance of flavor.\n\nFor the ultimate romantic experience, **Ristorante Belforte** transforms dining into theater. Perched in a medieval tower with 270-degree sea views, their tasting menu showcases innovative takes on Ligurian classics. Book the corner tower table well in advance - it's considered one of Italy's most romantic dining spots.\n\nDon't miss the beloved **Nessun Dorma** for a more casual experience with unbeatable views. This hillside gem offers simple, perfect focaccia and local wine while you capture the most Instagram-famous shot in Cinque Terre. Arrive an hour before sunset for prime positioning."
-    },
-    {
-      "type": "content-section",
-      "variant": "image-left",
-      "image": "https://images.unsplash.com/photo-1516747760143-a27c8ba887ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwyNHx8Y2FzdGxlJTIwaXRhbHl8ZW58MHwwfHx8MTc2NTg5MTc0NXww&ixlib=rb-4.1.0&q=80&w=800",
-      "eyebrow": "Medieval Heritage",
-      "title": "The Doria Legacy: Power, Protection, and Maritime Dominance",
-      "content": "When the powerful Genoese **Doria family** chose Vernazza for their fortress in the 11th century, they recognized what made this location extraordinary - the only true natural harbor along the Cinque Terre coast. Unlike the exposed beaches of neighboring villages, Vernazza's deep, sheltered bay could accommodate larger vessels and provide protection during Mediterranean storms.\n\nThe **cylindrical tower** you see today isn't just decorative - it served as both watchtower and final defensive position. Climb to the top and you'll understand the strategic advantage it provided, with clear sightlines along the coast and commanding views of all approach routes.\n\n**UNESCO recognized** this exceptional preservation of medieval maritime architecture in 1997, but locals have maintained these traditions for centuries. Watch for the annual **Feast of Santa Margherita** when traditional boats still receive blessings in the harbor, connecting today's community with their seafaring ancestors."
-    },
-    {
-      "type": "faq-section",
-      "title": "Planning Your Vernazza Experience",
-      "subtitle": "Essential questions answered by local experts",
-      "faqs": [
-        {
-          "question": "When is the best time to visit Vernazza?",
-          "answer": "Late spring (May-June) and early fall (September-October) offer perfect weather with fewer crowds. For photography, visit during golden hour (one hour before sunset) when the medieval architecture glows against the harbor. Summer brings peak energy but also peak crowds - book restaurants well in advance."
-        },
-        {
-          "question": "How do I secure the best restaurant reservations?",
-          "answer": "For Belforte's medieval tower dining, book 2-3 weeks ahead during peak season and request the corner table with panoramic views. Gambero Rosso accepts reservations for harbor-view terrace tables - essential for sunset dining. Nessun Dorma operates first-come-first-served, so arrive early for prime sunset spots."
-        },
-        {
-          "question": "What makes Vernazza different from other Cinque Terre villages?",
-          "answer": "Vernazza is the only village with a true natural harbor and the most significant medieval architecture. Its 11th-century Doria castle, sophisticated dining scene, and role as a former Genoese naval base create a more historically rich and romantically dramatic atmosphere than the other villages."
-        },
-        {
-          "question": "How should I explore Vernazza's castle and viewpoints?",
-          "answer": "Start with the Doria castle climb early morning for the best light and fewer crowds. The entrance fee includes access to the tower and ramparts. For the famous Nessun Dorma viewpoint, it's a steep 10-minute climb from the harbor - wear comfortable shoes and bring water."
-        },
-        {
-          "question": "Can I swim in Vernazza's harbor?",
-          "answer": "Yes, the small rocky beach area beside the harbor offers swimming, though space is limited. The water is typically calm due to the natural harbor protection. For more swimming space, consider the beaches in nearby Monterosso, easily reached by train or hiking trail."
-        },
-        {
-          "question": "What are Vernazza's must-try local specialties?",
-          "answer": "Focus on fresh seafood: branzino al sale (salt-crusted sea bass), crudo di ricciola (raw amberjack), and local anchovies. Pair with Cinque Terre DOC white wine. Don't miss the simple pleasure of fresh focaccia col formaggio from local bakeries - it's a Ligurian classic."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Experience Vernazza?",
-      "title": "Create Your Perfect Medieval Harbor Escape",
-      "description": "From romantic clifftop dinners to historic castle exploration, Vernazza offers Cinque Terre's most sophisticated and historically rich village experience. Let us craft your ideal itinerary combining the best dining, cultural sites, and scenic viewpoints.",
-      "buttons": [
-        {
-          "text": "Plan Your Visit",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Other Villages",
-          "url": "/villages",
-          "variant": "secondary"
-        }
+        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
+        { "text": "Where to Eat", "url": "/en/vernazza/restaurants", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "overview"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:41:09.042Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

@@ -10,6 +10,7 @@
     "en": "Cinque Terre: Where Ancient Villages Meet the Modern Soul"
   },
   "page_type": "overview",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre Italy Travel Guide | Cinqueterre.travel"
@@ -20,98 +21,75 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
+      "type": "editorial-hero",
+      "title": "Five Villages,<br/>One Timeless Story",
+      "subtitle": "For over a millennium, these clifftop sanctuaries have defied time itself. Here, where medieval stone meets azure sea, you'll discover why the Cinque Terre remains Italy's most poetic coastline - and how to experience it like the discerning traveler you are.",
+      "badge": "UNESCO World Heritage",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
-      "eyebrow": "UNESCO World Heritage",
-      "title": "Five Villages, One Timeless Story",
-      "subtitle": "For over a millennium, these clifftop sanctuaries have defied time itself. Here, where medieval stone meets azure sea, you'll discover why the Cinque Terre remains Italy's most poetic coastline—and how to experience it like the discerning traveler you are.",
-      "buttons": [
-        {
-          "text": "Plan Your Journey",
-          "url": "#planning",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore the Villages",
-          "url": "/cinque-terre/villages",
-          "variant": "secondary"
-        }
-      ]
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "A Living Heritage",
-      "stats": [
-        {
-          "number": "1000+",
-          "label": "Years of History",
-          "description": "Continuous settlement since medieval times"
-        },
-        {
-          "number": "5",
-          "label": "UNESCO Villages",
-          "description": "Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore"
-        },
-        {
-          "number": "12",
-          "label": "Kilometers of Coast",
-          "description": "Dramatic cliffs and hidden coves"
-        },
-        {
-          "number": "3,000",
-          "label": "Stone Terraces",
-          "description": "Hand-built vineyard walls defying gravity"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "A Living Heritage",
+      "quote": "Today's UNESCO designation honors not just the visual splendor, but the living culture within. When you hear the evening church bells of San Lorenzo in Manarola, you're experiencing the same call to prayer that has echoed for nearly a thousand years.",
+      "leftContent": "<p><strong>1000+ years of history</strong> have shaped these five villages - Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore. Continuous settlement since medieval times created an extraordinary cultural landscape.</p><p>Over <strong>3,000 stone terraces</strong> cling to the dramatic <strong>12km of coastline</strong>, hand-built by generations defying gravity.</p>",
+      "rightContent": "<p>These aren't just pretty villages; they're <strong>architectural marvels</strong>. Each colored house represents a family's ancestral claim, painted in specific hues that fishermen could recognize from the sea.</p><p>The narrow <strong>carruggi</strong> (medieval alleyways) weren't designed for tourists - they were fortress-like passages protecting communities from Saracen raids.</p>"
     },
     {
       "type": "content-section",
       "variant": "text-with-image-right",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551698618-1dfe5d97d256-hero.jpg",
       "title": "Where Time Carved Beauty from Stone",
-      "content": [
-        "The story of the Cinque Terre begins in the 11th century, when Benedictine monks first carved terraces into these impossible cliffs. What followed was an extraordinary act of human determination—generation after generation building a vertical civilization that would defy both gravity and time.",
-        "These aren't just pretty villages; they're architectural marvels. Each colored house represents a family's ancestral claim, painted in specific hues that fishermen could recognize from the sea. The narrow *carruggi* (medieval alleyways) weren't designed for tourists—they were fortress-like passages protecting communities from Saracen raids.",
-        "Today's UNESCO designation honors not just the visual splendor, but the living culture within. When you hear the evening church bells of San Lorenzo in Manarola, you're experiencing the same call to prayer that has echoed for nearly a thousand years."
-      ]
+      "content": "The story of the Cinque Terre begins in the 11th century, when Benedictine monks first carved terraces into these impossible cliffs. What followed was an extraordinary act of human determination - generation after generation building a vertical civilization that would defy both gravity and time.\n\nThese aren't just pretty villages; they're architectural marvels. Each colored house represents a family's ancestral claim, painted in specific hues that fishermen could recognize from the sea. The narrow *carruggi* (medieval alleyways) weren't designed for tourists - they were fortress-like passages protecting communities from Saracen raids.\n\nToday's UNESCO designation honors not just the visual splendor, but the living culture within. When you hear the evening church bells of San Lorenzo in Manarola, you're experiencing the same call to prayer that has echoed for nearly a thousand years."
     },
     {
-      "type": "feature-section",
-      "title": "Your Cinque Terre Experience",
-      "subtitle": "Beyond the Instagram shots lies a world of authentic encounters waiting for the thoughtful traveler",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
         {
-          "icon": "🚂",
-          "title": "The Coastal Railway",
-          "description": "Your lifeline between villages. Travel like locals on Italy's most scenic train route—just remember to validate your ticket before boarding."
+          "id": 1,
+          "name": "The Coastal Railway",
+          "category": "Transport",
+          "description": "Your lifeline between villages. Travel like locals on Italy's most scenic train route - just remember to validate your ticket before boarding.",
+          "signature": "The journey that connects five worlds"
         },
         {
-          "icon": "🥾",
-          "title": "Ancient Pathways",
-          "description": "Walk the *Sentiero Azzurro* (Blue Trail) that connected these villages for centuries. Each section reveals different perspectives on this vertical world."
+          "id": 2,
+          "name": "Ancient Pathways",
+          "category": "Hiking",
+          "description": "Walk the Sentiero Azzurro (Blue Trail) that connected these villages for centuries. Each section reveals different perspectives on this vertical world.",
+          "signature": "Footsteps echoing through millennia"
         },
         {
-          "icon": "🍷",
-          "title": "Heroic Viticulture",
-          "description": "Taste Sciacchetrà, the golden dessert wine that requires hand-harvesting grapes from impossible terraces. Each bottle represents human triumph over terrain."
+          "id": 3,
+          "name": "Heroic Viticulture",
+          "category": "Wine",
+          "description": "Taste Sciacchetra, the golden dessert wine that requires hand-harvesting grapes from impossible terraces. Each bottle represents human triumph over terrain.",
+          "signature": "Wine born from determination"
         },
         {
-          "icon": "⛪",
-          "title": "Sacred Traditions",
-          "description": "Experience centuries-old festivals like Monterosso's Lemon Festival or Vernazza's Santa Margherita procession, where entire villages become participants in living history."
+          "id": 4,
+          "name": "Sacred Traditions",
+          "category": "Culture",
+          "description": "Experience centuries-old festivals like Monterosso's Lemon Festival or Vernazza's Santa Margherita procession, where entire villages become participants in living history.",
+          "signature": "Faith that moves through generations"
         },
         {
-          "icon": "🏛️",
-          "title": "Medieval Architecture",
-          "description": "Discover defensive towers, Romanesque churches, and loggia that have stood sentinel over the Mediterranean for nearly a millennium."
+          "id": 5,
+          "name": "Medieval Architecture",
+          "category": "Heritage",
+          "description": "Discover defensive towers, Romanesque churches, and loggia that have stood sentinel over the Mediterranean for nearly a millennium.",
+          "signature": "Stone witnesses to centuries"
         },
         {
-          "icon": "🌊",
-          "title": "Maritime Heritage",
-          "description": "Join fishermen at dawn in Monterosso or learn traditional anchovy preservation techniques that have sustained these communities for generations."
+          "id": 6,
+          "name": "Maritime Heritage",
+          "category": "Tradition",
+          "description": "Join fishermen at dawn in Monterosso or learn traditional anchovy preservation techniques that have sustained these communities for generations.",
+          "signature": "The sea has always provided"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "faq-section",
@@ -119,7 +97,7 @@
       "faqs": [
         {
           "question": "When is the best time to visit for a more intimate experience?",
-          "answer": "Late September through October offers the perfect balance—warm swimming weather, harvest season in the vineyards, and significantly fewer crowds. The light during golden hour is particularly magical for photography, and restaurants return to serving locals alongside visitors."
+          "answer": "Late September through October offers the perfect balance - warm swimming weather, harvest season in the vineyards, and significantly fewer crowds. The light during golden hour is particularly magical for photography, and restaurants return to serving locals alongside visitors."
         },
         {
           "question": "How should I plan my time across the five villages?",
@@ -127,7 +105,7 @@
         },
         {
           "question": "What's the most authentic way to experience local culture?",
-          "answer": "Time your visit with local festivals—Vernazza's Santa Margherita celebration in July or Monterosso's Anchovy Festival in September. Book cooking classes with *nonne* (grandmothers) who still make pesto by hand, and shop at the morning markets where vendors have served the same families for decades."
+          "answer": "Time your visit with local festivals - Vernazza's Santa Margherita celebration in July or Monterosso's Anchovy Festival in September. Book cooking classes with nonne (grandmothers) who still make pesto by hand, and shop at the morning markets where vendors have served the same families for decades."
         },
         {
           "question": "Are the famous hiking trails suitable for all fitness levels?",
@@ -139,27 +117,18 @@
         },
         {
           "question": "What should I know about dining reservations and local customs?",
-          "answer": "Book dinner reservations by noon for the same evening, especially March through October. Lunch is typically served 12:30-2:30pm, dinner starts at 7:30pm. Tipping 10% is appreciated but not mandatory. Try to learn a few Italian phrases—locals deeply appreciate the effort, even if imperfect."
+          "answer": "Book dinner reservations by noon for the same evening, especially March through October. Lunch is typically served 12:30-2:30pm, dinner starts at 7:30pm. Tipping 10% is appreciated but not mandatory. Try to learn a few Italian phrases - locals deeply appreciate the effort, even if imperfect."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered-with-background",
-      "background": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
-      "title": "Begin Your Cinque Terre Story",
-      "subtitle": "Every great journey starts with understanding where you're going—and why it matters. Let us help you craft an experience worthy of these thousand-year-old villages.",
-      "buttons": [
-        {
-          "text": "Discover Each Village",
-          "url": "/cinque-terre/villages",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Journey",
-          "url": "/cinque-terre/planning",
-          "variant": "secondary"
-        }
+      "type": "closing-note",
+      "badge": "Begin Your Cinque Terre Story",
+      "title": "Every Great Journey Starts with Understanding",
+      "content": "<p>Where you're going - and why it matters. Let us help you craft an experience worthy of these thousand-year-old villages.</p><p>From intimate accommodations to exclusive experiences, we ensure your Cinque Terre journey becomes a story you'll tell for a lifetime.</p>",
+      "actions": [
+        { "label": "Discover Each Village", "href": "/cinque-terre/villages", "variant": "primary" },
+        { "label": "Plan Your Journey", "href": "/cinque-terre/planning", "variant": "secondary" }
       ]
     }
   ],
@@ -167,7 +136,7 @@
     "city": "cinque-terre",
     "page_type": "overview"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:50:22.211Z"
 }

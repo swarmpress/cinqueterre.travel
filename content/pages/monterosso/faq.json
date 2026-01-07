@@ -1,5 +1,5 @@
 {
-  "id": "e93fc599-c6ec-4b3b-8632-bb4d998970a6",
+  "id": "m-faq-001",
   "slug": {
     "en": "/en/monterosso/faq",
     "de": "/de/monterosso/faq",
@@ -7,165 +7,163 @@
     "it": "/it/monterosso/faq"
   },
   "title": {
-    "en": "Monterosso al Mare FAQ - Complete Travel Guide & Expert Tips"
+    "en": "Questions About Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "faq",
   "seo": {
     "title": {
-      "en": "Monterosso FAQ - Expert Travel Tips & Guide | Cinqueterre.travel"
+      "en": "Questions About Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Essential Monterosso travel questions answered by experts. Train times, restaurants, beaches, accommodation tips for perfect Cinque Terre visit."
+      "en": "Monterosso raises different questions than the other villages—questions about beaches, about the tunnel between worlds, about why this place feels both like Cinque Terre and unlike it."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtb250ZXJvc3NvJTIwY2lucXVlJTIwdGVycmUlMjBpdGFseXxlbnwwfDB8fHwxNzY1ODg5NjQzfDA&ixlib=rb-4.1.0&q=80&w=1200",
-      "eyebrow": "Expert Answers",
-      "title": "Everything You Need to Know About Monterosso al Mare",
-      "subtitle": "From train schedules to secret dining spots, get insider answers to the most frequently asked questions about Cinque Terre's largest village.",
+      "type": "editorial-hero",
+      "title": "The Questions<br/>That Matter",
+      "subtitle": "Monterosso prompts questions the other villages don't: Which beach? Old town or new? Why does this feel different? The answers reveal a village with more options—and more decisions to make.",
+      "badge": "Questions & Answers",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Different Questions",
+      "quote": "Other villages prompt questions about stairs, about rocky swimming, about logistics. Monterosso prompts questions about choices—because unlike elsewhere in Cinque Terre, you actually have them.",
+      "content": [
+        "**Two villages, one question**. Old town or Fegina? Medieval atmosphere or beachfront convenience? The answer shapes your entire Monterosso experience. Neither is wrong, but they're genuinely different.",
+        "**Beach logistics matter here**. Where to swim, where to rent umbrellas, which beach club offers what—questions that don't exist in villages without proper sand.",
+        "**Accessibility questions have answers**. Unlike other villages where 'Is it accessible?' means 'How many stairs?', Monterosso offers genuine flat terrain. The question becomes 'Which areas?' rather than 'Can I at all?'",
+        "**The questions evolve**. First-timers ask about getting here. Returnees ask about which lemon grove to visit, which anchovy festival to attend, which hillside view justifies the climb."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "faq",
+      "items": [
+        {
+          "id": 1,
+          "name": "Should I stay in old town or Fegina?",
+          "category": "The Essential Choice",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The question everyone asks—and the answer depends entirely on what you came for.",
+          "description": "Old town (centro storico) offers medieval atmosphere, traditional restaurants, narrow caruggi alleys, and the Gothic church. Fegina offers the beach, the train station, Il Gigante, and modern conveniences. They're connected by a 5-minute tunnel walk. Choose old town for Italian village immersion, Fegina for beach vacation with Italian flavor.",
+          "giuliaComment": "I ask visitors what they want their morning to look like. Wake up and walk to the beach immediately? Fegina. Wake up in stone streets with church bells and find the beach later? Old town. The answer comes quickly once framed this way.",
+          "signature": "Two experiences, same village"
+        },
+        {
+          "id": 2,
+          "name": "Why is Monterosso so different from the other villages?",
+          "category": "Understanding the Place",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The largest village, the most developed, the one with actual beaches—but why?",
+          "description": "Geography explains everything. Monterosso occupies the widest bay, the most level terrain, the most protected harbor. Where other villages cling to vertical cliffs, Monterosso has room to spread. This attracted more settlement, more development, eventually resort infrastructure. The difference isn't human choice—it's what the land allowed.",
+          "giuliaComment": "People sometimes say Monterosso is 'less authentic' because it has more facilities. I disagree. This is what Cinque Terre looks like when the terrain permits—where people can build without fighting gravity every step.",
+          "signature": "Where geography determined destiny"
+        },
+        {
+          "id": 3,
+          "name": "Can I use Monterosso as a base for all five villages?",
+          "category": "Logistics",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The strategic question—whether to spread your stay or concentrate it here.",
+          "description": "Absolutely. Monterosso's train station connects to all other villages in 4-12 minutes. You have the best infrastructure for return—beaches to relax after exploring, restaurants to dine after hiking. The position works. Many travelers base themselves here and day-trip elsewhere, returning to superior facilities each evening.",
+          "giuliaComment": "For first-time visitors who want everything, Monterosso base makes sense. You get the beach, the accessibility, and easy train access to everywhere else. Purists can stay in other villages later, once they know what they want.",
+          "signature": "Position as strategy"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Accessibility Reality",
+          "quote": "Monterosso is the only Cinque Terre village with genuinely flat terrain. Via Fegina is level. Some buildings have elevators. Wheelchair users and those with mobility limitations have real options here that simply don't exist elsewhere. If accessibility matters, Monterosso is your village."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Beach Questions",
+      "quote": "Monterosso's beaches generate questions no other village prompts—because no other village has proper sandy shores. The questions reveal a different kind of Cinque Terre experience.",
+      "content": [
+        "**Where to swim?** Fegina beach is the largest, with both public areas and stabilimenti (beach clubs). The old town beach is smaller, more local, less crowded. Both have the same clear Mediterranean water.",
+        "**Beach clubs worth it?** The stabilimenti charge for umbrellas and chairs (around 20-30 euros per day), but include amenities: bathroom access, sometimes food service, often better maintained sand areas. For day-trippers, public beach is fine. For longer stays, clubs add comfort.",
+        "**When to swim?** Early morning for calm water and empty beach. Late afternoon for warm water and golden light. Midday heat drives everyone underwater anyway. The water temperature peaks in August but remains swimmable May through October.",
+        "**Swimming elsewhere?** The beaches are Monterosso's gift, but boat tours access hidden coves if you want variety. Rocky platforms exist at the old town harbor for those who prefer."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "faq",
+      "items": [
+        {
+          "id": 4,
+          "name": "What are the best restaurants in Monterosso?",
+          "category": "Dining",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+          "intro": "Monterosso has more dining options than the other villages—which means more choices to navigate.",
+          "description": "For special occasions: Miky (creative seafood, beach terrace, reservations essential). For sunset drama: Torre Aurora (historic tower, panoramic views). For traditional trattorias: explore the old town caruggi. For quick bites: the focaccerias along Via Roma. For anchovy specialties: ask locals which processor's family has a connected restaurant this season.",
+          "giuliaComment": "The restaurant scene here is deeper than other villages. You can eat well for a week without repeating. My advice: one splurge dinner at Miky, one sunset at Torre Aurora, the rest exploring old town spots. Balance is everything.",
+          "signature": "Options that require choosing"
+        },
+        {
+          "id": 5,
+          "name": "What's the story with Il Gigante?",
+          "category": "Landmarks",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The broken statue guarding Fegina beach—everyone asks about it, few know its full story.",
+          "description": "Built in 1910, the 14-meter statue (originally Neptune holding a shell) supported a luxury villa's terrace. WWII bombs destroyed the villa. The 1966 flood broke the statue's arms. What remains still guards the beach—an unintentional monument to both ambition and destruction. Best viewed from the water or the beach at sunset.",
+          "giuliaComment": "I love that the Giant is broken. A perfect statue would be ordinary. The missing arms, the destroyed villa, the damage from war and flood—that's the real Monterosso story. Ambition, beauty, destruction, survival. The Giant embodies all of it.",
+          "signature": "Where damage becomes meaning"
+        },
+        {
+          "id": 6,
+          "name": "How do I reach the lemon terraces?",
+          "category": "Agriculture",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The IGP-protected lemons that define Monterosso—where to see them and how to taste them.",
+          "description": "The lemon terraces climb the hillsides above both old town and Fegina. The easiest access is via the trail to Soviore sanctuary—you'll walk through working groves. For tours and tastings, contact the local agricultural cooperatives. Limoncello made from these specific lemons appears in every shop—but the real thing comes from families who still cultivate.",
+          "giuliaComment": "The commercial limoncello is fine but generic. If you want the real Monterosso experience, ask at old town shops for homemade versions. Small batches, real lemons, prices that reflect actual agriculture. That's worth finding.",
+          "signature": "Where terrain becomes taste"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Anchovy Question",
+          "quote": "Monterosso's anchovies carry IGP protection, but finding the real ones requires asking. The hand-processed versions from traditional families appear in some restaurants, some shops, some market days. Ask where to find them. The answer changes—that's part of the charm."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Questions Keep Coming",
+      "content": [
+        "Every village prompts questions. Monterosso prompts more—because there's more to choose from, more to discover, more ways to experience this unique corner of Cinque Terre.",
+        "The best approach: ask the questions, get the answers, then forget the logistics and simply be present. The questions get you here. The experience keeps you.",
+        "And when you leave, you'll have new questions—questions that only return visits can answer."
+      ],
       "buttons": [
-        {
-          "text": "View Restaurant Guide",
-          "url": "/monterosso/restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "See All Villages",
-          "url": "/villages",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Monterosso by the Numbers",
-      "subtitle": "Essential facts for planning your perfect visit",
-      "stats": [
-        {
-          "number": "15 min",
-          "label": "Walking time between old and new town",
-          "icon": "clock"
-        },
-        {
-          "number": "3",
-          "label": "Michelin-recommended restaurants",
-          "icon": "utensils"
-        },
-        {
-          "number": "2",
-          "label": "Beautiful sandy beaches",
-          "icon": "sun"
-        },
-        {
-          "number": "643 CE",
-          "label": "First historical documentation",
-          "icon": "scroll"
-        }
-      ]
-    },
-    {
-      "type": "faq-section",
-      "title": "Your Monterosso Questions Answered",
-      "subtitle": "Get expert insights from someone who knows every path and train schedule",
-      "faqs": [
-        {
-          "question": "What's the best way to get to Monterosso from other Cinque Terre villages?",
-          "answer": "The regional train is your most reliable option, running every 15-30 minutes during peak season (April-October). From Riomaggiore, it's 8 minutes; from Manarola, 6 minutes; from Corniglia, 4 minutes; from Vernazza, just 3 minutes. Purchase tickets at station machines or use the Cinque Terre Card. Pro tip: validate your ticket before boarding or face a €25 fine. Ferries operate March-October from Monterosso to Vernazza (10 minutes) and other villages, offering stunning coastal views."
-        },
-        {
-          "question": "Where should I eat in Monterosso for the best seafood experience?",
-          "answer": "For luxury dining with spectacular sea views, book a terrace table at Ristorante Miky (Via Fegina 104) - their crudo di ricciola and risotto ai frutti di mare are exceptional. Torre Aurora offers panoramic Cinque Terre views from its historic tower setting, perfect for sunset cocktails. For authentic farm-to-table dining, try Ristorante Ciak where the chef grows organic ingredients in his own gardens. Reserve terrace tables at Miky and Torre Aurora well in advance, especially for sunset dining."
-        },
-        {
-          "question": "What's the difference between Old Town and New Town in Monterosso?",
-          "answer": "Old Town (Centro Storico) features medieval streets, the Gothic San Giovanni Battista church, and traditional restaurants clustered around the historic harbor. New Town (Fegina) offers the main sandy beach, modern hotels, and beachfront restaurants like Ristorante Miky. The areas are connected by a 15-minute coastal walk through a tunnel carved into the cliff. Most luxury accommodations are in New Town for beach access, while Old Town provides authentic village atmosphere and easier train station access."
-        },
-        {
-          "question": "When is the best time to visit Monterosso for good weather and fewer crowds?",
-          "answer": "Late April to early June and September to mid-October offer the perfect balance of pleasant weather (18-25°C) and manageable crowds. July-August see temperatures reaching 28°C with peak tourist numbers - book accommodations 3-4 months ahead. November-March brings cooler weather (10-15°C) with many restaurants closed, but peaceful village atmosphere and dramatic winter seas. For hiking, September-October provides ideal conditions with clear views and comfortable temperatures."
-        },
-        {
-          "question": "Can I drive to Monterosso and where can I park?",
-          "answer": "Yes, but parking is extremely limited and expensive (€2-3 per hour, €20-25 daily). The main parking area is Loreto Car Park above New Town, requiring a steep 10-minute walk down. Book parking online in advance during peak season. Many visitors park in La Spezia (€1 per hour) and take the 8-minute train to Monterosso. For luxury stays, some hotels offer private parking - confirm when booking. The village center is entirely car-free with narrow medieval streets accessible only on foot."
-        },
-        {
-          "question": "What are the must-see attractions in Monterosso beyond the beaches?",
-          "answer": "The 14th-century San Giovanni Battista church features stunning Gothic architecture and houses precious religious art. The Giant statue (Il Gigante) carved into the cliff offers dramatic photo opportunities and represents Neptune. Aurora Tower provides panoramic views and houses the excellent Torre Aurora restaurant. The Convent of the Capuchin Friars contains Van Dyck paintings and peaceful gardens. For hiking enthusiasts, the Monterosso-Vernazza coastal trail (Blue Trail) offers spectacular clifftop views - currently requires Cinque Terre Card (€7.50 daily)."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "two-column-text",
-      "title": "Practical Planning Tips",
-      "subtitle": "Insider knowledge for a seamless Monterosso experience",
-      "content": "**Transportation Essentials**: The Monterosso train station is in Old Town, making it convenient for exploring the historic center. Regional trains connect all five villages every 15-30 minutes during high season. Purchase the Cinque Terre Card for unlimited train travel and hiking trail access.\n\n**Accommodation Strategy**: Book beachfront hotels in New Town for luxury stays with sea access, or choose Old Town for authentic village atmosphere. Popular properties like Hotel Porto Roca and Villa Steno fill up months in advance for summer dates.\n\n**Dining Reservations**: Top restaurants require advance booking, especially for terrace seating. Call directly rather than relying on online systems. Most restaurants close on one weekday - check before planning your dining schedule.\n\n**Beach Access**: The main beach in New Town is free with public facilities. Private beach clubs offer umbrella and chair rentals (€20-30 daily) with bar service. The smaller Old Town beach is more intimate but gets crowded by midday.\n\n**Weather Considerations**: Sea conditions can affect ferry services - have train backup plans. Summer afternoon thunderstorms are common but brief. Pack layers as coastal temperatures vary throughout the day.\n\n**Money Matters**: Many small establishments prefer cash. ATMs are available but can run out during peak season. Budget €15-25 for casual lunch, €40-80 for dinner at recommended restaurants.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1594822252223-abc441158220-hero.jpg"
-    },
-    {
-      "type": "feature-section",
-      "title": "Essential Services & Information",
-      "subtitle": "Everything you need for a worry-free visit",
-      "features": [
-        {
-          "icon": "phone",
-          "title": "Emergency Contacts",
-          "description": "Police: 112 | Medical: 118 | Coast Guard: 1530 | Tourist Info: +39 0187 817506"
-        },
-        {
-          "icon": "wifi",
-          "title": "Internet & Communication",
-          "description": "Free WiFi in most restaurants and hotels. Mobile coverage excellent. Internet cafes near train station."
-        },
-        {
-          "icon": "credit-card",
-          "title": "Banking & ATMs",
-          "description": "ATMs available but can be empty in peak season. Most restaurants accept cards, but bring cash for small purchases."
-        },
-        {
-          "icon": "medical-cross",
-          "title": "Medical Services",
-          "description": "Pharmacy in Old Town center. Nearest hospital in La Spezia (20 minutes by train). Basic first aid at harbor."
-        },
-        {
-          "icon": "luggage",
-          "title": "Luggage Storage",
-          "description": "Available at train station and several shops near the harbor. €5-8 per bag per day."
-        },
-        {
-          "icon": "accessibility",
-          "title": "Accessibility",
-          "description": "Limited wheelchair access due to medieval streets. New Town beach area more accessible than Old Town."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "title": "Plan Your Perfect Monterosso Experience",
-      "subtitle": "Ready to explore Cinque Terre's largest and most historic village? Start with our expert restaurant guide and village insights.",
-      "buttons": [
-        {
-          "text": "Browse Top Restaurants",
-          "url": "/monterosso/restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore All Villages",
-          "url": "/villages",
-          "variant": "secondary"
-        }
+        { "text": "Plan Your Visit", "url": "/en/monterosso/things-to-do", "variant": "primary" },
+        { "text": "Getting Here", "url": "/en/monterosso/getting-here", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "faq"
   },
-  "status": "generated",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:00:45.480Z"
+  "status": "published",
+  "created_at": "2026-01-07T10:00:00.000Z",
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

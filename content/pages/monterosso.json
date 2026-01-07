@@ -10,6 +10,7 @@
     "en": "Monterosso al Mare: The Crown Jewel of Cinque Terre"
   },
   "page_type": "city",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Monterosso al Mare Guide - Best Beaches & Dining | Cinque Terre"
@@ -20,102 +21,96 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "Cinque Terre's Largest Village",
-      "title": "Monterosso al Mare: Where Ancient Splendor Meets Golden Shores",
+      "type": "editorial-hero",
+      "title": "Where Ancient Splendor<br/>Meets Golden Shores",
       "subtitle": "Experience Cinque Terre's most sophisticated village, where Nobel Prize-winning poetry was born, Michelin-quality restaurants line the waterfront, and the only sandy beaches in the region invite pure indulgence.",
-      "buttons": [
-        {
-          "text": "Explore Top Restaurants",
-          "url": "#dining",
-          "variant": "primary"
-        },
-        {
-          "text": "Discover the History",
-          "url": "#heritage",
-          "variant": "secondary"
-        }
+      "badge": "Cinque Terre's Largest Village",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Monterosso by the Numbers",
+      "quote": "Named 'Mons Rubeus'—Red Mountain—for the dramatic reddish cliffs that frame its coastline, Monterosso has attracted those seeking beauty and refinement since Roman nobility first discovered this bay in 643 CE.",
+      "content": [
+        "**The oldest documented settlement**. First recorded in Lombard documents in 643 CE, Monterosso has been drawing visitors for over 1,300 years. Unlike its neighbors that began as humble fishing villages, this is where Roman patricians retreated.",
+        "**Three kilometers of pristine beaches**. The only sandy shores along the entire Cinque Terre coast. Golden Fegina Beach and the secluded Spiaggia del Gigante offer crystal-clear waters and premium amenities unavailable anywhere else in the region.",
+        "**More Michelin recognition per capita**. Twelve Michelin-recommended restaurants serve 1,500 residents—the most concentrated fine dining scene in Cinque Terre. This isn't just a beautiful village; it's a destination for serious gastronomes."
       ]
     },
     {
-      "type": "stats-section",
-      "title": "Monterosso by the Numbers",
-      "stats": [
+      "type": "collection-with-interludes",
+      "itemType": "highlight",
+      "items": [
         {
-          "number": "643 CE",
-          "label": "First documented in Lombard records",
-          "description": "The oldest continuously inhabited settlement in Cinque Terre"
+          "id": 1,
+          "name": "Cinque Terre's Only Sandy Beaches",
+          "category": "Beach Life",
+          "village": "Monterosso",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555993539-1732b0258235-hero.jpg",
+          "intro": "Relax on golden Fegina Beach or discover the secluded Spiaggia del Gigante, both offering crystal-clear waters and premium beach club amenities unavailable elsewhere in the region.",
+          "description": "While other villages have rocky coves and boat ramps, Monterosso offers genuine Mediterranean beach culture. Premium stabilimenti provide loungers, umbrellas, and beachside service. The famous Giant statue has welcomed visitors since 1910. This is Cinque Terre's answer to the French Riviera—without the pretension.",
+          "signature": "Where sand meets sophistication"
         },
         {
-          "number": "3 km",
-          "label": "Of pristine beaches",
-          "description": "The only sandy shores along the entire Cinque Terre coast"
+          "id": 2,
+          "name": "Culinary Excellence",
+          "category": "Gastronomy",
+          "village": "Monterosso",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551218808-94e220e084d2-hero.jpg",
+          "intro": "Dine at Ristorante Miky's panoramic terrace, experience farm-to-table perfection at Ciak, or sip sunset cocktails at historic Torre Aurora with 360-degree coastal views.",
+          "description": "Ristorante Miky sets the standard for elegant seaside dining—begin with their signature crudo di ricciola, then let the risotto ai frutti di mare showcase the morning's catch. Torre Aurora transforms dining into theater, set within a historic tower with 360-degree views. Ristorante Ciak offers true farm-to-table where the chef tends his organic gardens each morning. Reservations require advance planning, particularly for terrace seating during sunset hours.",
+          "signature": "Where every meal is memorable"
         },
         {
-          "number": "1,500",
-          "label": "Permanent residents",
-          "description": "Making it the largest and most developed village"
+          "id": 3,
+          "name": "Rich Cultural Heritage",
+          "category": "History & Culture",
+          "village": "Monterosso",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555993539-1732b0258235-hero.jpg",
+          "intro": "Walk where Nobel laureate Eugenio Montale found inspiration, explore the 1056 Benedictine monastery, and discover the village that served as a Roman patrician retreat.",
+          "description": "Eugenio Montale, Italy's greatest modern poet, spent summers here from the 1920s onward. His verses about these 'ancient walls' and 'lemon houses' introduced the world to Cinque Terre. Follow the Montale Trail through terraced gardens where Nobel Prize-winning poetry was born. The Benedictine monastery, established in 1056, made Monterosso the spiritual center of the region.",
+          "signature": "Where poetry found its home"
         },
         {
-          "number": "12+",
-          "label": "Michelin-recommended restaurants",
-          "description": "More fine dining per capita than anywhere else in Cinque Terre"
+          "id": 4,
+          "name": "Superior Accessibility",
+          "category": "Practical Advantage",
+          "village": "Monterosso",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
+          "intro": "The most accessible Cinque Terre village with the largest train station, ample parking, and direct connections to luxury hotels and beach resorts.",
+          "description": "Unlike villages requiring steep climbs or boat access, Monterosso welcomes visitors with flat promenades and proper infrastructure. The largest train station serves regional and intercity connections. Parking exists for those arriving by car. Luggage doesn't require porters. This is Cinque Terre for those who prefer their beauty accessible.",
+          "signature": "Where convenience meets charm"
+        },
+        {
+          "id": 5,
+          "name": "Dramatic Natural Beauty",
+          "category": "Landscape",
+          "village": "Monterosso",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555993539-1732b0258235-hero.jpg",
+          "intro": "Witness the 'Red Mountain' cliffs that gave the village its name, explore terraced lemon groves, and enjoy unparalleled sunrise views over the Ligurian Sea.",
+          "description": "The reddish cliffs that frame Monterosso create a distinctive color palette at sunrise and sunset. Terraced lemon groves climb the slopes, their fragrance carried on sea breezes. The promontory separating old town from Fegina offers elevated viewpoints. This is natural drama that rivals the architecture.",
+          "signature": "Where landscape defines legacy"
+        },
+        {
+          "id": 6,
+          "name": "Luxury Accommodations",
+          "category": "Lodging",
+          "village": "Monterosso",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
+          "intro": "Stay in boutique hotels with sea views, historic villas, or elegant bed & breakfasts - Monterosso offers the widest range of upscale lodging in Cinque Terre.",
+          "description": "While other villages offer limited options, Monterosso provides proper luxury amenities: boutique hotels with sea-view terraces, historic villas with private gardens, elegant B&Bs with room to breathe. The accommodation matches the dining scene—sophisticated, comfortable, worthy of extended stays.",
+          "signature": "Where comfort comes standard"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Cultural Heritage",
+          "title": "A Village Shaped by Centuries of Distinction",
+          "quote": "Unlike its sister villages that began as humble fishing settlements, Monterosso al Mare emerged from noble Roman origins. The Benedictine monastery established in 1056 made Monterosso the spiritual and cultural center of the region, while its natural harbors fostered maritime commerce that brought prosperity centuries before tourism arrived."
         }
       ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Why Monterosso Captivates Discerning Travelers",
-      "subtitle": "From ancient monasteries to modern luxury, Monterosso offers experiences found nowhere else in Cinque Terre",
-      "features": [
-        {
-          "icon": "🏖️",
-          "title": "Cinque Terre's Only Sandy Beaches",
-          "description": "Relax on golden Fegina Beach or discover the secluded Spiaggia del Gigante, both offering crystal-clear waters and premium beach club amenities unavailable elsewhere in the region."
-        },
-        {
-          "icon": "🍽️",
-          "title": "Culinary Excellence",
-          "description": "Dine at Ristorante Miky's panoramic terrace, experience farm-to-table perfection at Ciak, or sip sunset cocktails at historic Torre Aurora with 360-degree coastal views."
-        },
-        {
-          "icon": "🏛️",
-          "title": "Rich Cultural Heritage",
-          "description": "Walk where Nobel laureate Eugenio Montale found inspiration, explore the 1056 Benedictine monastery, and discover the village that served as a Roman patrician retreat."
-        },
-        {
-          "icon": "🚂",
-          "title": "Superior Accessibility",
-          "description": "The most accessible Cinque Terre village with the largest train station, ample parking, and direct connections to luxury hotels and beach resorts."
-        },
-        {
-          "icon": "🌅",
-          "title": "Dramatic Natural Beauty",
-          "description": "Witness the 'Red Mountain' cliffs that gave the village its name, explore terraced lemon groves, and enjoy unparalleled sunrise views over the Ligurian Sea."
-        },
-        {
-          "icon": "🏨",
-          "title": "Luxury Accommodations",
-          "description": "Stay in boutique hotels with sea views, historic villas, or elegant bed & breakfasts - Monterosso offers the widest range of upscale lodging in Cinque Terre."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "title": "A Village Shaped by Centuries of Distinction",
-      "subtitle": "Understanding Monterosso's unique character through its remarkable history",
-      "content": "Unlike its sister villages that began as humble fishing settlements, Monterosso al Mare emerged from noble Roman origins. Named 'Mons Rubeus' (Red Mountain) for the dramatic reddish cliffs that frame its coastline, this village has always attracted those seeking beauty and refinement.\n\nThe Benedictine monastery established in 1056 made Monterosso the spiritual and cultural center of the region, while its natural harbors fostered maritime commerce that brought prosperity centuries before tourism arrived. This legacy of sophistication explains why you'll find Cinque Terre's finest restaurants, most luxurious accommodations, and most developed infrastructure here.\n\nPerhaps no figure better embodies Monterosso's cultural significance than Eugenio Montale, the Nobel Prize-winning poet who spent his summers here from the 1920s onward. His verses about these 'ancient walls' and 'lemon houses' introduced the world to a landscape that had inspired artists and writers for generations. Today, you can follow the Montale Trail through the terraced gardens where Italy's greatest modern poet found his muse.\n\nThe village's two distinct areas - the historic old town and the modern Fegina district - represent this evolution from ancient settlement to sophisticated resort. The old town preserves medieval charm with its narrow caruggi (alleys) and the striking Church of San Giovanni Battista, while Fegina offers beachfront luxury and the famous Giant statue that has welcomed visitors since 1910.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555993539-1732b0258235-hero.jpg"
-    },
-    {
-      "type": "content-section",
-      "title": "Culinary Excellence: Where Farm Meets Sea",
-      "subtitle": "Three dining experiences that define Monterosso's gastronomic reputation",
-      "id": "dining",
-      "content": "Monterosso's culinary scene represents the pinnacle of Cinque Terre dining, where centuries-old traditions meet modern sophistication. Each of our featured restaurants offers a distinct window into this gastronomic heritage.\n\n**Ristorante Miky** sets the standard for elegant seaside dining. From its front terrace tables facing the sea, you'll experience why this establishment has earned consistent recognition from discerning food critics. Begin with their signature crudo di ricciola - amberjack prepared with a precision that honors both the fish and the Ligurian tradition. The risotto ai frutti di mare showcases the morning's catch in a dish that perfectly balances the sea's bounty with technical excellence.\n\n**Torre Aurora** transforms dining into theater, set within a historic tower with 360-degree views of the Cinque Terre coastline. This isn't merely about the stunning location - though watching sunset paint the coastline golden while sipping their creative cocktails creates unforgettable moments. The kitchen's approach to seafood reflects the same artistry, with presentations that match the dramatic setting.\n\n**Ristorante Ciak** offers something entirely unique: true farm-to-table dining where the chef literally tends his organic gardens each morning before returning to cook with the day's harvest. Watch through the street-facing windows as he prepares dishes using vegetables picked hours earlier from plots in both Monterosso and Vernazza. This connection between soil and plate creates flavors that capture the essence of Ligurian terroir.\n\nReservations at all three require advance planning, particularly for terrace seating during sunset hours. The investment in these experiences pays dividends in memories and an understanding of why Monterosso has attracted gastronomes for generations.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551218808-94e220e084d2-hero.jpg"
     },
     {
       "type": "faq-section",
@@ -149,30 +144,31 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
+      "type": "closing-note",
       "title": "Begin Your Monterosso Story",
-      "subtitle": "Experience where Roman nobility once retreated, Nobel Prize-winning poetry was born, and Cinque Terre's finest cuisine awaits your discovery.",
+      "content": [
+        "Experience where Roman nobility once retreated, Nobel Prize-winning poetry was born, and Cinque Terre's finest cuisine awaits your discovery. Monterosso offers what no other village can match—the perfect balance of natural beauty, cultural depth, and modern comfort.",
+        "The golden beaches welcome you. The terraced gardens await. The restaurants have saved your table. This is Cinque Terre for those who want both the drama and the convenience, the history and the hospitality."
+      ],
       "buttons": [
         {
           "text": "Plan Your Perfect Stay",
-          "url": "/plan-your-trip",
+          "url": "/en/itinerary",
           "variant": "primary"
         },
         {
           "text": "Explore All Villages",
-          "url": "/villages",
+          "url": "/en/cinque-terre",
           "variant": "secondary"
         }
-      ],
-      "backgroundImage": "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxMnxtb250ZXJvc3NvJTIwc3Vuc2V0fGVufDB8MHx8fDE3NjU4ODk2NDN8MA&ixlib=rb-4.1.0&q=80&w=1200"
+      ]
     }
   ],
   "metadata": {
     "city": "monterosso",
     "page_type": "city"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:10:38.663Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

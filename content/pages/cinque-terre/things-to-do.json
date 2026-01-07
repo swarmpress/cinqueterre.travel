@@ -10,6 +10,7 @@
     "en": "The Ultimate Guide to Cinque Terre: Unmissable Experiences in Italy's Most Romantic Coastal Villages"
   },
   "page_type": "things-to-do",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Best Things to Do in Cinque Terre Italy | Cinqueterre.travel"
@@ -20,85 +21,75 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
-      "eyebrow": "UNESCO World Heritage Experience",
-      "title": "Where Medieval Villages Meet Azure Waters",
+      "type": "editorial-hero",
+      "title": "Where Medieval Villages<br/>Meet Azure Waters",
       "subtitle": "Step into a living masterpiece where centuries-old fishing villages cascade down cliffsides into the Mediterranean. Every corner tells a story of resilience, tradition, and breathtaking beauty that has captivated travelers for generations.",
-      "buttons": [
-        {
-          "text": "Explore Village Guides",
-          "url": "/cinque-terre/villages",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Journey",
-          "url": "/cinque-terre/travel-guide",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "UNESCO World Heritage Experience",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "Cinque Terre by the Numbers",
-      "stats": [
-        {
-          "number": "5",
-          "label": "Ancient Villages",
-          "description": "Each with unique character"
-        },
-        {
-          "number": "12km",
-          "label": "Coastal Hiking Trails",
-          "description": "Sentiero Azzurro main route"
-        },
-        {
-          "number": "1997",
-          "label": "UNESCO Recognition",
-          "description": "World Heritage status"
-        },
-        {
-          "number": "2.5M",
-          "label": "Annual Visitors",
-          "description": "Drawn to timeless beauty"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Cinque Terre by the Numbers",
+      "quote": "These five ancient villages - connected by 12km of coastal hiking trails - earned UNESCO World Heritage status in 1997, drawing 2.5 million visitors annually to their timeless beauty.",
+      "leftContent": "<p><strong>5 ancient villages</strong> cascade down impossible cliffs, each with unique character built over a millennium of human determination. The <strong>Sentiero Azzurro</strong> (Blue Trail) stretches 12km along the coast, connecting them all.</p><p>Since <strong>1997</strong>, UNESCO protection has preserved this extraordinary cultural landscape for future generations.</p>",
+      "rightContent": "<p>From <strong>sunrise hikes to sunset aperitivos</strong>, these are the moments that transform a visit into a lifelong memory. The <strong>2.5 million annual visitors</strong> are drawn not just by beauty, but by authenticity.</p><p>Understanding when and where to experience each village reveals the <strong>true soul</strong> of these remarkable communities.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Quintessential Cinque Terre Experiences",
-      "subtitle": "From sunrise hikes to sunset aperitivos, these are the moments that transform a visit into a lifelong memory",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
         {
-          "icon": "🥾",
-          "title": "Hike the Ancient Coastal Path",
-          "description": "Follow the Sentiero Azzurro, carved by medieval pilgrims, connecting all five villages with stunning sea views. The Monterosso to Vernazza section offers the most dramatic vistas."
+          "id": 1,
+          "name": "Hike the Ancient Coastal Path",
+          "category": "Active",
+          "description": "Follow the Sentiero Azzurro, carved by medieval pilgrims, connecting all five villages with stunning sea views. The Monterosso to Vernazza section offers the most dramatic vistas.",
+          "signature": "Walk where merchants and pilgrims have walked for centuries"
         },
         {
-          "icon": "🍷",
-          "title": "Taste Sciacchetrà Wine in Ancient Terraces",
-          "description": "Sample the legendary dessert wine in family-run cantinas overlooking vineyards that have clung to these cliffsides for over a thousand years."
+          "id": 2,
+          "name": "Taste Sciacchetra Wine in Ancient Terraces",
+          "category": "Culinary",
+          "description": "Sample the legendary dessert wine in family-run cantinas overlooking vineyards that have clung to these cliffsides for over a thousand years.",
+          "signature": "Liquid gold from impossible terrain"
         },
         {
-          "icon": "🚤",
-          "title": "Sunset Boat Tour Along the Coast",
-          "description": "See the villages as merchants once did - from the sea. Golden hour illuminates the colorful houses in ways that have inspired artists for centuries."
+          "id": 3,
+          "name": "Sunset Boat Tour Along the Coast",
+          "category": "Maritime",
+          "description": "See the villages as merchants once did - from the sea. Golden hour illuminates the colorful houses in ways that have inspired artists for centuries.",
+          "signature": "The perspective that reveals the true magic"
         },
         {
-          "icon": "🏊‍♀️",
-          "title": "Swim in Hidden Coves",
-          "description": "Discover secluded beaches accessible only by foot or boat. Monterosso's Fegina beach and Corniglia's Guvano offer crystal-clear waters away from crowds."
+          "id": 4,
+          "name": "Swim in Hidden Coves",
+          "category": "Relaxation",
+          "description": "Discover secluded beaches accessible only by foot or boat. Monterosso's Fegina beach and Corniglia's Guvano offer crystal-clear waters away from crowds.",
+          "signature": "Where the Mediterranean reveals her secrets"
         },
         {
-          "icon": "🍝",
-          "title": "Learn Traditional Pasta Making",
-          "description": "Master the art of trofie pasta with local nonnas (grandmothers) who guard century-old family recipes. Pair with fresh pesto made from Prà basil."
+          "id": 5,
+          "name": "Learn Traditional Pasta Making",
+          "category": "Culinary",
+          "description": "Master the art of trofie pasta with local nonnas (grandmothers) who guard century-old family recipes. Pair with fresh pesto made from Pra basil.",
+          "signature": "Recipes passed down through generations"
         },
         {
-          "icon": "📸",
-          "title": "Capture Manarola at Blue Hour",
-          "description": "Position yourself on the Via dell'Amore (when open) or Nessun Dorma terrace for the most iconic Cinque Terre photograph as twilight paints the village blue."
+          "id": 6,
+          "name": "Capture Manarola at Blue Hour",
+          "category": "Photography",
+          "description": "Position yourself on the Via dell'Amore (when open) or Nessun Dorma terrace for the most iconic Cinque Terre photograph as twilight paints the village blue.",
+          "signature": "The shot that defines a thousand journeys"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Sacred Rhythms of Village Life",
+          "quote": "As dawn breaks over the Ligurian Sea, the villages of Cinque Terre awaken to rhythms unchanged for centuries. In Riomaggiore, fishing boats return with the night's catch while the aroma of focaccia col formaggio drifts from ancient bakeries.",
+          "align": "left"
         }
       ]
     },
@@ -106,12 +97,7 @@
       "type": "content-section",
       "title": "The Sacred Rhythms of Village Life",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551632436-cbf8dd35adfa-hero.jpg",
-      "content": [
-        "As dawn breaks over the Ligurian Sea, the villages of Cinque Terre awaken to rhythms unchanged for centuries. In Riomaggiore, fishing boats return with the night's catch while the aroma of focaccia col formaggio drifts from ancient bakeries. This is when you'll witness the authentic soul of these villages - before the world discovers them anew each day.",
-        "The medieval layout of each village tells its own story. Monterosso's wide beaches once welcomed merchants' ships, while Vernazza's natural harbor made it the region's maritime capital. Corniglia, perched highest above the sea, served as the agricultural heart where families cultivated the terraced vineyards that still produce some of Italy's most prized wines.",
-        "Understanding this history deepens every experience. When you climb the stone steps of Manarola, you're following paths carved by generations of farmers carrying their harvest. The colorful houses weren't painted for tourists - these vibrant hues helped fishermen identify their homes from the sea, a practical necessity that became one of the world's most photographed vistas.",
-        "**Insider's Secret:** Visit during the Festa de Noantri in Monterosso (mid-August) or the Sagra del Limone in Monterosso al Mare (May) to witness centuries-old traditions that reveal the villages' true character."
-      ]
+      "content": "As dawn breaks over the Ligurian Sea, the villages of Cinque Terre awaken to rhythms unchanged for centuries. In Riomaggiore, fishing boats return with the night's catch while the aroma of focaccia col formaggio drifts from ancient bakeries. This is when you'll witness the authentic soul of these villages - before the world discovers them anew each day.\n\nThe medieval layout of each village tells its own story. Monterosso's wide beaches once welcomed merchants' ships, while Vernazza's natural harbor made it the region's maritime capital. Corniglia, perched highest above the sea, served as the agricultural heart where families cultivated the terraced vineyards that still produce some of Italy's most prized wines.\n\nUnderstanding this history deepens every experience. When you climb the stone steps of Manarola, you're following paths carved by generations of farmers carrying their harvest. The colorful houses weren't painted for tourists - these vibrant hues helped fishermen identify their homes from the sea, a practical necessity that became one of the world's most photographed vistas.\n\n**Insider's Secret:** Visit during the Festa de Noantri in Monterosso (mid-August) or the Sagra del Limone in Monterosso al Mare (May) to witness centuries-old traditions that reveal the villages' true character."
     },
     {
       "type": "faq-section",
@@ -144,21 +130,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "title": "Your Cinque Terre Story Begins Here",
-      "subtitle": "These ancient villages have welcomed travelers for over a millennium. Let us help you discover why their magic endures.",
-      "description": "Our local specialists have walked every trail, tasted wine with village producers, and know exactly when to catch the perfect light for that unforgettable photograph. Your personalized Cinque Terre adventure awaits.",
-      "buttons": [
-        {
-          "text": "Start Planning Your Journey",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "Browse Village Guides",
-          "url": "/cinque-terre/villages",
-          "variant": "secondary"
-        }
+      "type": "closing-note",
+      "badge": "Your Cinque Terre Story Begins Here",
+      "title": "These Ancient Villages Await Your Discovery",
+      "content": "<p>For over a millennium, these villages have welcomed travelers seeking beauty, tradition, and the authentic rhythms of Italian coastal life.</p><p>Our local specialists have walked every trail, tasted wine with village producers, and know exactly when to catch the perfect light for that unforgettable photograph. Your personalized Cinque Terre adventure awaits.</p>",
+      "actions": [
+        { "label": "Start Planning Your Journey", "href": "/en/team", "variant": "primary" },
+        { "label": "Browse Village Guides", "href": "/cinque-terre/villages", "variant": "secondary" }
       ]
     }
   ],
@@ -166,7 +144,7 @@
     "city": "cinque-terre",
     "page_type": "things-to-do"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:52:51.137Z"
 }

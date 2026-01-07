@@ -1,5 +1,5 @@
 {
-  "id": "455b6f09-8a35-4d47-a775-f144c1f53da3",
+  "id": "7cbba208-1146-42ba-94d5-4e3f29405e44",
   "slug": {
     "en": "/en/corniglia/maps",
     "de": "/de/corniglia/maps",
@@ -7,213 +7,163 @@
     "it": "/it/corniglia/maps"
   },
   "title": {
-    "en": "Complete Maps & Navigation Guide for Corniglia - Cinque Terre"
+    "en": "Navigating Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Corniglia Maps & Navigation Guide | Cinqueterre.travel"
+      "en": "Navigating Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Essential maps and navigation tips for Corniglia. Find hiking trails, restaurants, viewpoints, and the famous 377-step stairway in this elevated village."
+      "en": "Corniglia is small enough to map in your head within an hour. One main street, a few branching alleys, terraces above, cliffs below. The real navigation question isn't where to go—it's how to reach the village in the first place."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg",
-      "eyebrow": "Navigation Guide",
-      "title": "Master Corniglia's Unique Layout with Expert Maps",
-      "subtitle": "Navigate the only clifftop village of Cinque Terre with confidence. From the legendary 377-step Lardarina stairway to hidden vineyard trails, discover every corner of this elevated medieval settlement.",
-      "buttons": [
-        {
-          "text": "Get Navigation Tips",
-          "url": "#navigation",
-          "variant": "primary"
-        },
-        {
-          "text": "View Trail Maps",
-          "url": "#trails",
-          "variant": "secondary"
-        }
-      ]
+      "type": "editorial-hero",
+      "title": "The Smallest<br/>Map",
+      "subtitle": "Corniglia can be walked end to end in ten minutes. The village is not a maze like its neighbors—it's a ridge, with one main street, a handful of side alleys, and terraces cascading in both directions. The navigation challenge isn't finding your way around; it's getting here.",
+      "badge": "Navigation & Maps",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
-      "type": "stats-section",
-      "stats": [
-        {
-          "number": "377",
-          "label": "Steps to reach the village from station",
-          "description": "The famous Lardarina stairway"
-        },
-        {
-          "number": "100m",
-          "label": "Above sea level",
-          "description": "Highest village in Cinque Terre"
-        },
-        {
-          "number": "15",
-          "label": "Minutes walk",
-          "description": "From station to village center"
-        },
-        {
-          "number": "3",
-          "label": "Main hiking trails",
-          "description": "Connecting to other villages"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Essential Navigation Features",
-      "subtitle": "Everything you need to explore Corniglia's unique clifftop location",
-      "features": [
-        {
-          "icon": "🗺️",
-          "title": "Village Center Map",
-          "description": "Detailed layout of Via Fieschi with restaurants, shops, and viewpoints marked. Perfect for finding Cecio and Osteria Mananan."
-        },
-        {
-          "icon": "🚶",
-          "title": "Hiking Trail Routes",
-          "description": "Complete trail maps to Vernazza (1.5 hours) and Manarola (1 hour) with difficulty levels and scenic stops marked."
-        },
-        {
-          "icon": "📍",
-          "title": "Key Landmarks",
-          "description": "Location guide to San Pietro Church, panoramic terraces, and the best photography spots overlooking the coastline."
-        },
-        {
-          "icon": "🚂",
-          "title": "Station Access Routes",
-          "description": "Multiple ways to reach the village: the famous 377-step stairway, shuttle bus schedule, and alternative paths."
-        },
-        {
-          "icon": "🍷",
-          "title": "Vineyard Locations",
-          "description": "Map of historic terraced vineyards where Cinque Terre DOC wines are produced, with tasting room locations."
-        },
-        {
-          "icon": "🌅",
-          "title": "Best Viewpoints",
-          "description": "Strategic viewing positions for sunrise, sunset, and panoramic photography of the Mediterranean coastline."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image-right",
-      "image": "https://images.unsplash.com/photo-1601031250005-3e0c7b58ad1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMHN0YWlyfGVufDB8MHx8fDE3NjU4ODI0NjB8MA&ixlib=rb-4.1.0&q=80&w=800",
-      "title": "Navigating the Lardarina Stairway",
+      "type": "editorial-intro",
+      "badge": "The Simple Layout",
+      "quote": "Corniglia's geography is straightforward: a ridge-top village with a main street running its length. Within minutes of arrival, you'll understand the layout. Within an hour, you'll know where everything is.",
       "content": [
+        "**Via Fieschi is the spine**. The main street runs along the ridge, connecting the church at one end to the terrace viewpoint at the other. Everything branches from this axis.",
+        "**The village is linear**. Unlike the maze-like layouts of other villages, Corniglia follows its ridge. You can't really get lost—walk far enough in either direction and you reach an end.",
+        "**Vertical movement is limited**. There's less climbing within Corniglia than in other villages. The steep parts are getting here; the village itself is relatively level.",
+        "**The terraces are accessible**. Paths lead from the village into the surrounding vineyards. These aren't official tourist routes—they're working agricultural paths—but they're open to respectful walkers."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "zone",
+      "items": [
         {
-          "type": "paragraph",
-          "text": "The dramatic Lardarina stairway is Corniglia's most famous feature - a zigzagging stone staircase carved into the cliff face in 1876. This architectural marvel connects the railway station to the village, climbing 100 meters in elevation over 377 carefully crafted steps."
+          "id": 1,
+          "name": "The Lardarina",
+          "category": "The Famous Stairs",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "382 steps from train station to village—the gateway that defines the Corniglia experience.",
+          "description": "The Lardarina is a brick stairway that climbs from the train station, 100 meters below, to the village. It's the first and last thing most visitors encounter. The climb takes 15-20 minutes depending on pace and fitness. The views improve with each switchback. The name supposedly comes from 'lardo'—fat—either because of the difficulty or the slippery surface when wet.",
+          "giuliaComment": "Everyone focuses on the climb up, but I like the walk down. You've already seen the village; now you see the coast opening before you. Each switchback reveals more Mediterranean. Take it slowly on the descent.",
+          "signature": "Where arrival is earned"
         },
         {
-          "type": "paragraph",
-          "text": "**Navigation Tips for the Stairway:**"
+          "id": 2,
+          "name": "Via Fieschi",
+          "category": "Main Street",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The ridge-top street that is Corniglia—everything else branches from this spine.",
+          "description": "Via Fieschi runs the length of Corniglia, narrow enough that neighbors can talk across it, lined with the village's few shops, restaurants, and services. The grocery, the wine bar, the gelato—everything is here. The street opens to small piazzas at intervals, each with benches and views.",
+          "giuliaComment": "In high season, Via Fieschi is busy by Corniglia standards. In off-season, you might walk its length without seeing another person. The street reveals the village's character—both its intimacy and its solitude.",
+          "signature": "Where the village gathers"
         },
         {
-          "type": "list",
-          "items": [
-            "Allow 15-20 minutes for the climb, with rest stops at the scenic landings",
-            "Early morning ascent offers the best lighting and fewer crowds",
-            "Rest areas every 50 steps provide perfect photography opportunities",
-            "Alternative shuttle bus runs every 30 minutes during peak season (€1.50)",
-            "The descent takes 8-10 minutes but requires careful attention on narrow steps"
-          ]
-        },
+          "id": 3,
+          "name": "Terrazza Santa Maria",
+          "category": "Viewpoint",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The terrace at the end of Via Fieschi—where the village ends and the coast reveals itself.",
+          "description": "At the western end of Via Fieschi, a terrace opens with views toward Manarola and beyond. This is where residents and visitors gather for sunset, where benches face the sea, where the scale of Cinque Terre's coastline becomes visible. The terrace is named for the oratory that once stood here.",
+          "giuliaComment": "This is where I come to think. The view explains everything—why people settled here, why they stayed, why they worked these impossible slopes. Everything makes sense from the terrazza.",
+          "signature": "Where Corniglia meets the horizon"
+        }
+      ],
+      "interludes": [
         {
-          "type": "paragraph",
-          "text": "Each landing reveals new perspectives of the coastline, transforming the climb into a progressive unveiling of the Mediterranean panorama. The stairway's design follows the natural contours of the cliff, creating a harmonious blend of human engineering and geological beauty."
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Shuttle Bus Alternative",
+          "quote": "A small shuttle bus runs from the train station to the village during tourist season, bypassing the Lardarina. It runs infrequently and fills quickly, but it exists. Check schedules at the station. For luggage-laden arrivals, it's worth the wait."
         }
       ]
     },
     {
-      "type": "content-section",
-      "variant": "text-with-image-left",
-      "image": "https://images.unsplash.com/photo-1590150146399-0b4b1c2e8659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGhpa2luZ3xlbnwwfDB8fHwxNzY1ODgyNDYwfDA&ixlib=rb-4.1.0&q=80&w=800",
-      "title": "Village Center & Dining Locations",
+      "type": "editorial-intro",
+      "badge": "Beyond the Village",
+      "quote": "Corniglia's trails lead into terraced landscape that defines Cinque Terre—paths that farmers have walked for centuries, now available to visitors willing to explore beyond the main street.",
       "content": [
+        "**Toward Vernazza**: The coastal trail north connects to Vernazza in about 1.5 hours. It's one of the more challenging Cinque Terre hikes—steep sections, stairs, and dramatic views.",
+        "**Toward Manarola**: The trail south reaches Manarola in about 1 hour. Less dramatic than the Vernazza path but beautiful, with the famous Groppo viewpoint along the way.",
+        "**Into the terraces**: Agricultural paths lead upward from the village into the vineyards. These aren't marked tourist routes—walk carefully, stay on paths, and respect working land.",
+        "**The sanctuary trail**: A longer path climbs to the Santuario di San Bernardino, offering panoramic views and spiritual destination."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "navigation",
+      "items": [
         {
-          "type": "paragraph",
-          "text": "Corniglia's medieval heart unfolds along Via Fieschi, a narrow stone street where centuries of agricultural tradition meet contemporary culinary excellence. This ancient thoroughfare serves as the village's main artery, connecting historic landmarks with exceptional dining experiences."
+          "id": 4,
+          "name": "Station to Village",
+          "category": "Essential Route",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The 382-step climb that begins every Corniglia visit—and how to approach it.",
+          "description": "From the train station, the Lardarina begins immediately. The stairs climb in long switchbacks, each turn revealing more of the coast. There's no shortcut, no alternative walking route—just the stairs or the shuttle bus. Take breaks at the switchbacks. Don't try to rush. The village will wait.",
+          "giuliaComment": "I've climbed the Lardarina thousands of times. The secret is rhythm—find a pace you can maintain, don't stop unless you need to, let your legs find their own tempo. Fight the stairs and they win. Accept them and they're just stairs.",
+          "signature": "Where the journey is the entrance fee"
         },
         {
-          "type": "paragraph",
-          "text": "**Key Dining Locations:**"
+          "id": 5,
+          "name": "To Guvano Beach",
+          "category": "Difficult Access",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The beach below Corniglia—dramatic to look at, challenging to reach.",
+          "description": "Guvano Beach sits directly below Corniglia's cliffs. Access was once via an old railway tunnel (now closed) or via a steep, difficult path. Currently, the easiest access is by water—kayak or boat. The beach itself is rocky and wild, the kind of secret spot that requires effort.",
+          "giuliaComment": "Guvano was our hidden beach before tourism. Now it's famous but still hard to reach. If you're determined to swim from Corniglia, this is the option—but consider the boat tour alternative. Much easier.",
+          "signature": "Where the beach requires commitment"
         },
         {
-          "type": "list",
-          "items": [
-            "**Cecio** (Via Serra 58) - Family-run trattoria famous for trofie al pesto made with garden-grown basil. Reserve the small terrace for intimate dining.",
-            "**Osteria Mananan** (Via Fieschi 117) - Upscale dining with panoramic sea views. Book sunset tables well in advance for the golden hour Mediterranean vista.",
-            "**Cantina de Mananan** (Via Fieschi 115) - Intimate wine cellar specializing in rare Sciacchetrà dessert wine and local DOC varietals."
-          ]
-        },
+          "id": 6,
+          "name": "The Village Loop",
+          "category": "Orientation Walk",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The ten-minute walk that covers everything—useful for orientation, unnecessary for navigation.",
+          "description": "Walk Via Fieschi from the church to the terrazza. Turn into any alley that interests you. Loop back via the other side of the village. You've now seen everything Corniglia offers within its bounds. The exploration beyond—into terraces, toward other villages—is where the real discovery begins.",
+          "giuliaComment": "First-time visitors sometimes ask what they're missing. In Corniglia, nothing is hidden. The village is small and open. The exploration is about depth, not breadth—sitting longer, looking more carefully, watching how light changes.",
+          "signature": "Where small invites careful attention"
+        }
+      ],
+      "interludes": [
         {
-          "type": "paragraph",
-          "text": "The village center extends from Largo Taragio (the main square) to San Pietro Church, encompassing medieval stone houses, artisan workshops, and panoramic terraces overlooking the Ligurian coastline. Navigation is intuitive - follow Via Fieschi for the main attractions, or explore the narrow vicoli (alleyways) for hidden viewpoints and local discoveries."
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Getting Lost Impossibility",
+          "quote": "You cannot get lost in Corniglia. The village is too small. Walk any direction and within minutes you reach either the main street or a cliff edge. The disorientation some visitors feel isn't geographic—it's temporal. Without the rush of other villages, time moves differently here."
         }
       ]
     },
     {
-      "type": "faq-section",
-      "title": "Navigation Questions Answered",
-      "subtitle": "Expert advice for exploring Corniglia's unique layout",
-      "faqs": [
-        {
-          "question": "How do I get from Corniglia station to the village center?",
-          "answer": "You have three options: climb the famous 377-step Lardarina stairway (15-20 minutes), take the shuttle bus that runs every 30 minutes during peak season (€1.50), or follow the longer but gentler road path. The stairway offers the most dramatic approach with stunning coastal views at each landing."
-        },
-        {
-          "question": "What's the best way to navigate between restaurants?",
-          "answer": "Corniglia's compact size makes everything walkable within 5 minutes. Via Fieschi is the main street connecting all major restaurants. Cecio is slightly off the main path on Via Serra, while Osteria Mananan and Cantina de Mananan are both on Via Fieschi. The village has clear signage in Italian and English."
-        },
-        {
-          "question": "Which hiking trails start from Corniglia?",
-          "answer": "Three main trails depart from Corniglia: the scenic coastal path to Vernazza (1.5 hours, moderate difficulty), the vineyard route to Manarola (1 hour, easy-moderate), and the challenging climb to Volastra (45 minutes, steep). All trailheads are clearly marked from the village center."
-        },
-        {
-          "question": "Where are the best viewpoints for photography?",
-          "answer": "The panoramic terrace behind San Pietro Church offers 270-degree coastal views. The Lardarina stairway landings provide dramatic cliff perspectives. For sunset shots, head to the western edge near Via Fieschi 117. The vineyard terraces above the village offer elevated views of the coastline."
-        },
-        {
-          "question": "How do I find the wine tasting locations?",
-          "answer": "Cantina de Mananan is the main wine cellar, located at Via Fieschi 115 in a historic stone building. Look for the wooden wine barrel sign. Several family-run wine shops along Via Fieschi offer tastings of local Cinque Terre DOC wines. Osteria Mananan also features extensive wine selections with sommelier guidance."
-        },
-        {
-          "question": "Is Corniglia accessible for people with mobility challenges?",
-          "answer": "Corniglia presents the most challenges among Cinque Terre villages due to its clifftop location. The shuttle bus provides easier access than the stairway, but the village itself has narrow, uneven stone streets. The main street (Via Fieschi) is relatively flat, but restaurants may have steps and terraces aren't wheelchair accessible."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "title": "Ready to Explore Corniglia?",
-      "subtitle": "Download our complete navigation guide and discover the secrets of Cinque Terre's most authentic village.",
+      "type": "closing-note",
+      "title": "The Simplest Navigation",
+      "content": [
+        "Corniglia's navigation story is simple: climb the stairs, walk the main street, explore the terraces, admire the views. There is no maze to master, no hidden shortcuts to discover, no geographic complexity to decode.",
+        "What Corniglia offers instead is clarity—a village small enough to understand immediately, leaving your attention free for what matters: the terraces, the wine, the quiet, the views.",
+        "The only navigation challenge is getting here. Once you've climbed the Lardarina, everything else is easy. Let the simplicity of the layout become permission to slow down."
+      ],
       "buttons": [
-        {
-          "text": "Plan Your Visit",
-          "url": "/corniglia/itinerary",
-          "variant": "primary"
-        },
-        {
-          "text": "View All Villages",
-          "url": "/villages",
-          "variant": "secondary"
-        }
+        { "text": "Getting Here", "url": "/en/corniglia/getting-here", "variant": "primary" },
+        { "text": "Things to Do", "url": "/en/corniglia/things-to-do", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "maps"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T11:05:13.603Z"
+  "updated_at": "2026-01-07T15:00:00.000Z"
 }

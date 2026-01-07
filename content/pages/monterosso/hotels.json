@@ -7,372 +7,175 @@
     "it": "/it/monterosso/hotels"
   },
   "title": {
-    "en": "Luxury Hotels in Monterosso al Mare - Cinque Terre's Premier Accommodations"
+    "en": "Where to Stay in Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "hotels",
   "seo": {
     "title": {
-      "en": "Monterosso Hotels | Luxury Accommodations | Cinqueterre.travel"
+      "en": "Where to Stay in Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover exceptional hotels in Monterosso al Mare. From clifftop luxury to boutique charm, find your perfect base in Cinque Terre's largest village."
+      "en": "Monterosso has what the other villages lack: real hotels, beach proximity, and enough options to match your style. From clifftop luxury to simple pensioni, the largest village offers the most choices."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "Monterosso al Mare",
-      "title": "Where Luxury Meets Ligurian Tradition",
-      "subtitle": "Experience Cinque Terre's most sophisticated accommodations in the region's largest village. From clifftop sanctuaries to historic center boutiques, each property offers unparalleled access to beaches, restaurants, and that quintessential Italian coastal elegance.",
-      "buttons": [
-        {
-          "text": "View Hotels",
-          "url": "#hotels",
-          "variant": "primary"
-        },
-        {
-          "text": "Booking Guide",
-          "url": "#guide",
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Where Hotels<br/>Actually Exist",
+      "subtitle": "Monterosso is the only village in Cinque Terre with proper hotels—places with reception desks, room service, and the infrastructure that other villages cannot support. This is where you stay when you want amenities alongside authenticity.",
+      "badge": "Where to Stay",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Two Monterossos",
+      "quote": "The old town offers medieval charm and traditional guesthouses. The new town (Fegina) has the beach, the train station, and hotels that cater to modern travelers. Choosing where to stay means choosing which Monterosso you want.",
+      "content": [
+        "**The village is divided**—by a tunnel that connects old and new. The centro storico has narrow streets, ancient buildings, and accommodations that feel like staying with family. Fegina has the beach, the hotels, and easier logistics.",
+        "**Beach access matters here**. Unlike other villages, Monterosso has real sandy beaches. Staying near them means morning swims before breakfast, afternoon lounging, and never having to climb stairs to reach the water.",
+        "**Stairs are less brutal**. Monterosso's terrain is gentler than the other villages. Some hotels have elevators. Some rooms are at street level. If mobility matters, this is your village.",
+        "**Prices reflect the options**. Monterosso has the widest price range in Cinque Terre—from €60 pensioni to €800 villas. The variety means everyone finds something, but booking early matters for the best properties."
       ]
     },
     {
-      "type": "stats-section",
-      "heading": "Monterosso at a Glance",
-      "stats": [
-        {
-          "number": "20+",
-          "label": "Luxury Properties",
-          "description": "From grand hotels to intimate B&Bs"
-        },
-        {
-          "number": "€180-€800",
-          "label": "Nightly Rates",
-          "description": "High season pricing range"
-        },
-        {
-          "number": "5-min",
-          "label": "Beach Access",
-          "description": "Walking distance to sandy beaches"
-        },
-        {
-          "number": "Year-round",
-          "label": "Availability",
-          "description": "Best selection April through October"
-        }
-      ]
-    },
-    {
-      "type": "collection-embed",
-      "collectionType": "accommodations",
-      "heading": "Exceptional Places to Stay",
-      "headingLevel": 2,
+      "type": "collection-with-interludes",
+      "itemType": "hotel",
       "items": [
         {
-          "slug": "hotel-porto-roca",
-          "title": "Hotel Porto Roca",
-          "summary": "Clifftop luxury with stunning sea views",
-          "url": "/hotel-porto-roca",
-          "village": "monterosso",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 380,
-              "min": 180,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
+          "id": 1,
+          "name": "Hotel Porto Roca",
+          "category": "Clifftop Luxury",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The clifftop perch that defines Monterosso luxury—where the view is worth the premium.",
+          "description": "Porto Roca sits above the village, clinging to rock with terraces that drop toward the sea. The rooms open onto Mediterranean panoramas that justify the prices. This is where you stay when you want to watch sunrise from bed and understand why people pay for position.",
+          "giuliaComment": "The views are genuinely extraordinary—not marketing, not exaggeration. You're above everything, watching the coast stretch in both directions. The walk down to the village is the only price beyond the room rate.",
+          "signature": "Where the cliff becomes your balcony",
+          "priceRange": "€€€",
+          "practicalInfo": "Book months ahead for summer. Sea view rooms essential. The terrace restaurant is exceptional. 10-minute walk to village."
         },
         {
-          "slug": "locanda-il-maestrale",
-          "title": "Locanda Il Maestrale",
-          "summary": "Boutique elegance in historic center",
-          "url": "/locanda-il-maestrale",
-          "village": "monterosso",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 240,
-              "min": 120,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
+          "id": 2,
+          "name": "Locanda Il Maestrale",
+          "category": "Historic Boutique",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The old town locanda where elegance meets history—boutique hospitality in medieval walls.",
+          "description": "Il Maestrale occupies a building in Monterosso's centro storico, offering the kind of intimate boutique experience that chain hotels cannot replicate. The rooms are individually designed, the breakfast is personal, and the location puts you steps from the old town's best restaurants.",
+          "giuliaComment": "This is where I send people who want boutique quality without clifftop prices. The old town location means character and convenience. The hosts understand hospitality.",
+          "signature": "Where the old town becomes home",
+          "priceRange": "€€",
+          "practicalInfo": "In the old town—medieval streets, no car access. Excellent breakfast. Book early for sea view rooms."
         },
         {
-          "slug": "casa-vacanze-eden",
-          "title": "Casa Vacanze Eden",
-          "summary": "Elegant apartments with spectacular sea views",
-          "url": "/casa-vacanze-eden",
-          "village": "monterosso",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 280,
-              "min": 130,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "villa-adriana",
-          "title": "Villa Adriana",
-          "summary": "Exclusive clifftop luxury villa",
-          "url": "/villa-adriana",
-          "village": "monterosso",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 800,
-              "min": 400,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "luna-di-marzo",
-          "title": "Luna di Marzo",
-          "summary": "Elegant boutique B&B in historic building",
-          "url": "/luna-di-marzo",
-          "village": "monterosso",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 280,
-              "min": 140,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "hotel-villa-steno",
-          "title": "Hotel Villa Steno",
-          "summary": "Traditional charm in Monterosso's historic center",
-          "url": "/hotel-villa-steno",
-          "village": "monterosso",
-          "data": {
-            "featured": false,
-            "priceRange": {
-              "max": 280,
-              "min": 140,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "albergo-degli-amici",
-          "title": "Albergo degli Amici",
-          "summary": "Cozy family hospitality in peaceful setting",
-          "url": "/albergo-degli-amici",
-          "village": "monterosso",
-          "data": {
-            "featured": false,
-            "priceRange": {
-              "max": 180,
-              "min": 90,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "hotel-la-colonnina",
-          "title": "Hotel La Colonnina",
-          "summary": "Boutique elegance steps from the beach",
-          "url": "/hotel-la-colonnina",
-          "village": "monterosso",
-          "data": {
-            "featured": false,
-            "priceRange": {
-              "max": 320,
-              "min": 160,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "pensione-agavi",
-          "title": "Pensione Agavi",
-          "summary": "Simple comfort with stunning sea views",
-          "url": "/pensione-agavi",
-          "village": "monterosso",
-          "data": {
-            "featured": false,
-            "priceRange": {
-              "max": 120,
-              "min": 60,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "la-spiaggia-locanda",
-          "title": "La Spiaggia Locanda",
-          "summary": "Authentic charm steps from the beach",
-          "url": "/la-spiaggia-locanda",
-          "village": "monterosso",
-          "data": {
-            "featured": false,
-            "priceRange": {
-              "max": 200,
-              "min": 100,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "affittacamere-il-gabbiano",
-          "title": "Affittacamere Il Gabbiano",
-          "summary": "Comfortable sea view rooms near station",
-          "url": "/affittacamere-il-gabbiano",
-          "village": "monterosso",
-          "data": {
-            "featured": false,
-            "priceRange": {
-              "max": 150,
-              "min": 70,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "hotel-pasquale",
-          "title": "Hotel Pasquale",
-          "summary": "Traditional beachfront family hotel",
-          "url": "/hotel-pasquale",
-          "village": "monterosso",
-          "data": {
-            "featured": false,
-            "priceRange": {
-              "max": 220,
-              "min": 110,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
+          "id": 3,
+          "name": "Hotel La Colonnina",
+          "category": "Beach Boutique",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Steps from the beach, steps from the station—the boutique hotel that solves logistics.",
+          "description": "La Colonnina sits in Fegina, between the beach and the train station. This is practical luxury: you can be on the sand in two minutes, on a train in three. The rooms are tasteful, the service is attentive, and the location makes everything easy.",
+          "giuliaComment": "When people ask where to stay if they want the beach and easy train access, this is my answer. The location is perfect. The hotel is comfortable without being fussy.",
+          "signature": "Where convenience meets comfort",
+          "priceRange": "€€€",
+          "practicalInfo": "Fegina location. Beach very close. Train station steps away. Book balcony rooms for views."
         }
       ],
-      "display": {
-        "layout": "grid",
-        "columns": 3,
-        "showImage": true,
-        "showSummary": true,
-        "imageAspect": "landscape"
-      },
-      "showViewAll": true,
-      "viewAllUrl": "/accommodations"
-    },
-    {
-      "type": "content-section",
-      "variant": "split-text-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571896349842-33c89424de2d-regular.jpg",
-      "eyebrow": "Insider's Guide",
-      "heading": "Finding Your Perfect Monterosso Sanctuary",
-      "content": "As the largest and most developed of the five villages, Monterosso offers the widest selection of luxury accommodations in Cinque Terre. Each property type delivers distinct advantages for the discerning traveler.\n\n**Clifftop Properties** like Hotel Porto Roca and Villa Adriana command dramatic sea views but require a 10-15 minute walk to reach restaurants and beaches. The payoff? Unparalleled sunrise views and complete tranquility.\n\n**Historic Center Locations** such as Locanda Il Maestrale place you steps from Monterosso's best restaurants, yet rooms facing the pedestrian streets can experience evening noise until 11 PM during peak season.\n\n**Beachfront Hotels** offer immediate beach access but fill quickly during July and August. Book these properties by March for summer stays, or consider the shoulder seasons when rates drop 40-60% and the Mediterranean remains swimmable through October.\n\n**Pro tip:** Properties with private parking (clearly noted in listings) eliminate the €25 daily public parking fee—a significant consideration for longer stays."
-    },
-    {
-      "type": "feature-section",
-      "heading": "Why Choose Monterosso for Your Stay",
-      "features": [
+      "interludes": [
         {
-          "icon": "beach",
-          "title": "Beach Access",
-          "description": "Only village with expansive sandy beaches and beach clubs"
-        },
-        {
-          "icon": "restaurant",
-          "title": "Dining Excellence",
-          "description": "Michelin-recommended restaurants and historic wine bars"
-        },
-        {
-          "icon": "train",
-          "title": "Transport Hub",
-          "description": "Direct trains to all villages plus La Spezia connections"
-        },
-        {
-          "icon": "shopping",
-          "title": "Services & Shopping",
-          "description": "Full grocery stores, pharmacy, and boutique shopping"
-        },
-        {
-          "icon": "accessibility",
-          "title": "Flat Terrain",
-          "description": "Easiest village to navigate with mobility considerations"
-        },
-        {
-          "icon": "parking",
-          "title": "Parking Options",
-          "description": "Multiple parking areas and hotel partnerships"
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Beach Question",
+          "quote": "Monterosso is the only village with real sandy beaches—and the only one where 'beach proximity' matters when choosing accommodation. A hotel in Fegina puts you steps from the sand. A locanda in the old town adds a 10-minute walk. Choose based on how often you want to swim."
         }
       ]
     },
     {
-      "type": "faq-section",
-      "heading": "Monterosso Accommodation Essentials",
-      "faqs": [
+      "type": "editorial-intro",
+      "badge": "Beyond the View",
+      "quote": "Not every stay needs to be expensive. Monterosso's range includes simple pensioni, family-run B&Bs, and apartments where the value comes from authenticity rather than amenities.",
+      "content": [
+        "**Pensione Agavi** proves that budget doesn't mean compromise. Simple rooms, stunning views, and a family that has been hosting visitors for generations. You'll sleep well and spend the savings on dinner.",
+        "**Albergo degli Amici** is exactly what the name suggests—the friends' inn. Warm welcome, comfortable beds, and the feeling that someone actually cares about your stay.",
+        "**Apartments suit longer visits**. A week in Monterosso benefits from a kitchen, space, and the rhythm of temporary residency. Grocery shopping at the market, cooking with local ingredients, living rather than touring.",
+        "**The train station area** isn't glamorous, but it's practical. Properties near the Fegina station put you close to trains and the beach, even if the medieval charm is a 10-minute walk away."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "hotel",
+      "items": [
         {
-          "question": "When should I book to secure the best properties?",
-          "answer": "Reserve clifftop luxury hotels by February for peak season (July-August). Mid-tier properties fill by April. For value seekers, October-March offers 40-60% savings with most amenities still available, though some restaurants close November through February."
+          "id": 4,
+          "name": "Hotel Villa Steno",
+          "category": "Garden Hotel",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The hillside hotel where gardens replace the beach—greenery, quiet, and breakfast under the lemon trees.",
+          "description": "Villa Steno sits above Monterosso, surrounded by gardens that make the Mediterranean heat bearable. The rooms are traditional, the breakfast terrace is shaded by citrus trees, and the walk to the beach provides morning exercise.",
+          "giuliaComment": "If you want gardens instead of beachfront, this is your place. The lemon trees, the quiet, the sense of being slightly above the tourist flow—it's a different Monterosso experience.",
+          "signature": "Where the garden is the view",
+          "priceRange": "€€",
+          "practicalInfo": "Hillside location—some climbing required. Beautiful gardens. Breakfast terrace excellent. Pool available."
         },
         {
-          "question": "Which area offers the best value for luxury travelers?",
-          "answer": "The historic center provides the sweet spot—walking distance to beaches, restaurants, and trains while avoiding clifftop premiums. Properties like Locanda Il Maestrale deliver boutique luxury at 25% less than comparable clifftop hotels."
+          "id": 5,
+          "name": "Pensione Agavi",
+          "category": "Budget Gem",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The simple pensione where the view costs less than anywhere else—budget accommodation, extraordinary position.",
+          "description": "Agavi offers something rare: affordable rooms with legitimate sea views. The accommodations are simple—no frills, no pretense—but the terrace surveys the coast with the same vista that expensive hotels charge three times as much for.",
+          "giuliaComment": "I send budget travelers here and they return amazed. The rooms are basic, yes. But that view? That view is worth hotels at triple the price. The family has run this place forever.",
+          "signature": "Where budget meets beauty",
+          "priceRange": "€",
+          "practicalInfo": "Simple but excellent value. Sea views from terrace. Book early—word has spread. Cash preferred."
         },
         {
-          "question": "Do I need a car if staying in Monterosso?",
-          "answer": "Absolutely not. Monterosso is perfectly walkable, and trains connect to all villages every 15-30 minutes. If arriving by car, many hotels offer parking partnerships at €15-20/night versus €25 for public lots."
-        },
+          "id": 6,
+          "name": "Luna di Marzo",
+          "category": "Boutique B&B",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The elegant B&B where attention to detail elevates everything—boutique sensibility, personal touch.",
+          "description": "Luna di Marzo takes the B&B concept and refines it. Each room is thoughtfully designed, the breakfast is curated rather than routine, and the hosts anticipate needs before you articulate them. This is boutique hospitality at its most personal.",
+          "giuliaComment": "The owners care about every detail—the linens, the breakfast, the recommendations they give. When I want to send someone somewhere special without the hotel price tag, this is it.",
+          "signature": "Where care is the luxury",
+          "priceRange": "€€",
+          "practicalInfo": "Limited rooms—book early. Excellent breakfast. Personal attention. In the old town."
+        }
+      ],
+      "interludes": [
         {
-          "question": "Which properties offer the best sea views?",
-          "answer": "Hotel Porto Roca commands the most dramatic clifftop position. Casa Vacanze Eden provides excellent views at better value. For beachfront proximity, Hotel La Colonnina delivers direct beach access with partial sea views from upper floors."
-        },
-        {
-          "question": "What's included in typical room rates?",
-          "answer": "Most properties include WiFi, air conditioning, and breakfast. Luxury hotels may add beach towels, umbrellas, and concierge services. Always confirm parking, as this can add €15-25/night. City tax runs €2-5/person/night at most properties."
-        },
-        {
-          "question": "How far in advance should I book for shoulder season?",
-          "answer": "April-May and September-October offer excellent weather with 30% fewer crowds. Book 6-8 weeks ahead for these periods. You'll enjoy restaurant reservations without summer waits and photo opportunities without crowds."
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Parking Reality",
+          "quote": "If you're driving to Monterosso, ask about parking before booking. Public lots cost €25/day and fill early. Some hotels have arrangements for €15-20/night. Others have nothing. This single detail can transform your budget and your stress level."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Book?",
-      "heading": "Secure Your Monterosso Sanctuary Today",
-      "description": "The finest properties fill months in advance. Our expert team has personally inspected every recommendation to ensure your Cinque Terre experience exceeds expectations.",
+      "type": "closing-note",
+      "title": "The Options You Wanted",
+      "content": [
+        "Monterosso gives you what other villages cannot: real choice. Clifftop luxury or beach proximity. Boutique elegance or honest value. Medieval charm or modern convenience. The decision is yours to make.",
+        "The best advice is simple: decide what matters. If it's swimming, stay near the beach. If it's atmosphere, stay in the old town. If it's value, look at the pensioni. If it's views, climb the hill.",
+        "Book something. Any of these will serve you well. Then stop thinking about accommodations and start planning your days."
+      ],
       "buttons": [
-        {
-          "text": "Browse All Properties",
-          "url": "/accommodations",
-          "variant": "primary"
-        },
-        {
-          "text": "Get Booking Advice",
-          "url": "/contact",
-          "variant": "secondary"
-        }
+        { "text": "Explore the Beach", "url": "/en/monterosso/beaches", "variant": "primary" },
+        { "text": "Where to Eat", "url": "/en/monterosso/restaurants", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "hotels"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:03:15.938Z"
+  "updated_at": "2026-01-07T12:45:00.000Z"
 }

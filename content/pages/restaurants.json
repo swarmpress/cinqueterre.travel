@@ -9,6 +9,7 @@
     "en": "Cinque Terre Restaurants: Where Ligurian Tradition Meets Coastal Elegance"
   },
   "page_type": "collection",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Best Restaurants Cinque Terre | Fine Dining | Cinqueterre.travel"
@@ -19,46 +20,15 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1748164795892-c85ed20da144-hero.jpg",
-      "eyebrow": "Culinary Excellence",
-      "title": "A Feast for the Senses in the Five Lands",
+      "type": "editorial-hero",
+      "badge": "Culinary Excellence",
+      "title": "A Feast for the Senses<br/>in the Five Lands",
       "subtitle": "From family-run trattorias serving grandmother's recipes to Michelin-starred establishments pushing culinary boundaries, discover where the treasures of land and sea unite in perfect harmony along these legendary cliffs.",
-      "buttons": [
-        {
-          "text": "Explore Restaurants",
-          "url": "#restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "Learn About Ligurian Cuisine",
-          "url": "#cuisine",
-          "variant": "secondary"
-        }
-      ]
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1748164795892-c85ed20da144-hero.jpg"
     },
     {
-      "type": "stats-section",
-      "title": "Culinary Treasures by the Numbers",
-      "stats": [
-        {
-          "number": "106",
-          "label": "Exceptional restaurants"
-        },
-        {
-          "number": "5",
-          "label": "UNESCO villages"
-        },
-        {
-          "number": "800+",
-          "label": "Years of tradition"
-        },
-        {
-          "number": "3",
-          "label": "Michelin-recommended"
-        }
-      ]
+      "type": "editorial-intro",
+      "content": "One hundred and six exceptional restaurants. Five UNESCO villages. Eight hundred years of culinary tradition. Three Michelin-recommended establishments. This is the gastronomic heart of Liguria—where pesto was born and every meal tells a story."
     },
     {
       "type": "collection-embed",
@@ -167,36 +137,51 @@
       "content": "Mamma mia, where do I begin? Every morning in Cinque Terre starts with the same intoxicating ritual—fishermen returning with silvery catches while nonne emerge from ancient kitchens, their hands already dusted with flour for the day's pasta.\n\nThis is where pesto was born, dear friends. Not in some sterile commercial kitchen, but in the sun-drenched gardens of Liguria, where basil grows so aromatic it perfumes entire neighborhoods. Here, every restaurant tells a story through food—whether it's the century-old family recipe for trofie al pesto or the innovative interpretations earning Michelin recognition.\n\nThe magic lies in the marriage of mountain and sea. Wild herbs cascade down terraced cliffs to meet the Mediterranean's bounty. Farinata—that golden chickpea pancake—sizzles in wood-fired ovens while anchovies from Monterosso are transformed into colatura, Liguria's liquid gold.\n\nBook your table for sunset, when the golden hour transforms every meal into a masterpiece. The locals dine late here—8:30 PM is early—because great food, like great wine, cannot be rushed."
     },
     {
-      "type": "feature-section",
-      "title": "What Makes Dining Here Extraordinary",
-      "features": [
+      "type": "collection-with-interludes",
+      "heading": "What Makes Dining Here Extraordinary",
+      "headingLevel": 2,
+      "items": [
         {
-          "icon": "🍾",
+          "type": "experience",
+          "icon": "wine",
           "title": "Local Wine Pairings",
-          "description": "Crisp Vermentino and sweet Sciacchetrà wines crafted from grapes grown on impossible terraces carved into cliffsides over centuries."
+          "description": "Crisp Vermentino and sweet Sciacchetra wines crafted from grapes grown on impossible terraces carved into cliffsides over centuries."
         },
         {
-          "icon": "🎣",
+          "type": "experience",
+          "icon": "fish",
           "title": "Daily Fresh Catches",
           "description": "Restaurants source directly from local fishermen—what was swimming this morning becomes your dinner, prepared with time-honored techniques."
         },
         {
-          "icon": "🌿",
+          "type": "interlude",
+          "content": "There's a moment, just after the antipasti arrives, when you realize this isn't merely a meal—it's a conversation with centuries of tradition, each bite telling stories of the sea and the terraced hills above."
+        },
+        {
+          "type": "experience",
+          "icon": "herb",
           "title": "Garden-to-Table Herbs",
           "description": "Wild fennel, marjoram, and basil harvested from ancient terraces add layers of flavor impossible to replicate elsewhere."
         },
         {
-          "icon": "👨‍🍳",
+          "type": "experience",
+          "icon": "chef",
           "title": "Generational Recipes",
           "description": "Family secrets passed down through centuries, from hand-rolled pasta techniques to the perfect balance of garlic in pesto."
         },
         {
-          "icon": "🏰",
+          "type": "interlude",
+          "content": "The nonne still make pasta by hand here. Watch their weathered fingers shape trofie with the speed of decades, and understand why some things cannot be rushed or mechanized."
+        },
+        {
+          "type": "experience",
+          "icon": "castle",
           "title": "Historic Settings",
           "description": "Dine in medieval towers, converted monasteries, and clifftop terraces where every meal comes with 800 years of history."
         },
         {
-          "icon": "🌅",
+          "type": "experience",
+          "icon": "sunset",
           "title": "Unmatched Views",
           "description": "Every restaurant offers a feast for the eyes—dramatic seascapes, vineyard vistas, and sunsets that paint the sky in impossible colors."
         }
@@ -233,27 +218,23 @@
       ]
     },
     {
-      "type": "cta-section",
+      "type": "closing-note",
       "title": "Ready to Taste Cinque Terre?",
-      "subtitle": "Let our local dining experts craft the perfect culinary journey for your visit. From securing impossible-to-get reservations to arranging private cooking classes, we'll ensure every meal becomes a treasured memory.",
-      "buttons": [
-        {
-          "text": "Plan My Culinary Journey",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "Browse All Restaurants",
-          "url": "/restaurants",
-          "variant": "secondary"
-        }
-      ]
+      "content": "Let our local dining experts craft the perfect culinary journey for your visit. From securing impossible-to-get reservations to arranging private cooking classes, we'll ensure every meal becomes a treasured memory.",
+      "primaryButton": {
+        "text": "Plan My Culinary Journey",
+        "url": "/en/team"
+      },
+      "secondaryButton": {
+        "text": "Browse All Restaurants",
+        "url": "/restaurants"
+      }
     }
   ],
   "metadata": {
     "page_type": "collection"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-12T22:00:00.000Z",
   "updated_at": "2025-12-16T13:11:30.241Z"
 }

@@ -7,186 +7,169 @@
     "it": "/it/monterosso/getting-here"
   },
   "title": {
-    "en": "Getting to Monterosso al Mare: Your Complete Travel Guide"
+    "en": "Getting to Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "getting-here",
   "seo": {
     "title": {
-      "en": "How to Get to Monterosso, Cinque Terre | Travel Guide"
+      "en": "Getting to Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Complete guide to reaching Monterosso al Mare by train, car, and boat. Train schedules, parking tips, and insider travel advice for Cinque Terre."
+      "en": "Monterosso is the most accessible Cinque Terre village—the train station is central, the beach is steps away, and unlike its neighbors, the terrain allows luggage. Arriving here is surprisingly easy; leaving is the challenge."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "Travel Planning",
-      "title": "Arriving in Monterosso: Where Ancient Paths Meet Modern Journeys",
-      "subtitle": "The largest of the Cinque Terre villages welcomes you with the region's most accessible transportation hub. From medieval pilgrimage routes to today's high-speed rail connections, discover the best ways to reach this UNESCO jewel on the Italian Riviera.",
-      "buttons": [
-        {
-          "text": "Plan Your Journey",
-          "url": "#transportation-options",
-          "variant": "primary"
-        },
-        {
-          "text": "View Train Schedules",
-          "url": "#train-details",
-          "variant": "secondary"
-        }
-      ]
+      "type": "editorial-hero",
+      "title": "The Easy<br/>Arrival",
+      "subtitle": "Monterosso is Cinque Terre's front door—the largest village with the best infrastructure, the flattest terrain, and the most forgiving relationship with luggage. While other villages demand stair-climbing with bags, Monterosso lets you wheel your suitcase from train to hotel. This is where most visitors enter the five villages, and for good reason.",
+      "badge": "Getting Here",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg"
     },
     {
-      "type": "stats-section",
-      "title": "Transportation at a Glance",
-      "subtitle": "Key numbers for planning your arrival in Monterosso",
-      "stats": [
-        {
-          "number": "2.5 hours",
-          "label": "From Rome by train",
-          "description": "Direct high-speed connections"
-        },
-        {
-          "number": "90 minutes",
-          "label": "From Florence",
-          "description": "Via La Spezia connection"
-        },
-        {
-          "number": "45 minutes",
-          "label": "From Genoa",
-          "description": "Regular regional service"
-        },
-        {
-          "number": "€20-35",
-          "label": "Daily parking",
-          "description": "Limited spaces available"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Transportation Options to Monterosso",
-      "subtitle": "Choose your preferred way to reach this historic coastal village",
-      "features": [
-        {
-          "icon": "🚂",
-          "title": "Train (Recommended)",
-          "description": "The most convenient and eco-friendly option. Monterosso station is directly in the village center, steps from restaurants and beaches."
-        },
-        {
-          "icon": "🚗",
-          "title": "Car & Parking",
-          "description": "Limited parking available. Best for bringing luggage or exploring the wider region. Book parking in advance during peak season."
-        },
-        {
-          "icon": "⛵",
-          "title": "Ferry Service",
-          "description": "Scenic coastal approach from Portofino, Cinque Terre villages, and La Spezia. Seasonal service with stunning Mediterranean views."
-        },
-        {
-          "icon": "🚁",
-          "title": "Private Transfer",
-          "description": "Helicopter or luxury car service from major airports. Perfect for seamless luxury travel with luggage handling included."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544198365-f5d60b6d8190-regular.jpg",
-      "eyebrow": "Transportation Details",
-      "title": "Arriving by Train: The Cinque Terre Experience",
+      "type": "editorial-intro",
+      "badge": "The Gateway Village",
+      "quote": "Other Cinque Terre villages punish heavy packers with medieval stairs. Monterosso accommodates them with level streets and hotels that don't require mountaineering. This is not a compromise—it's a feature.",
       "content": [
-        "Monterosso's train station represents more than just transportation—it's your gateway into centuries of maritime history. Built into the clifftop location where medieval pilgrims once paused on their coastal journeys, the modern station connects you seamlessly to Italy's rail network while preserving the village's authentic character.",
-        "The regional trains that serve Monterosso follow the same dramatic coastal route that has welcomed travelers for over a millennium. As you emerge from the tunnels carved through ancient rock formations, the first glimpse of Monterosso's expansive beach and historic center creates an arrival moment that luxury travelers consistently rank among Italy's most memorable.",
-        "**Pro Insider Tip**: Purchase your Cinque Terre Card at Monterosso station for unlimited train travel between villages plus access to hiking trails. The morning trains (8:00-10:00 AM) offer the most comfortable experience with guaranteed seating and optimal lighting for coastal photography."
+        "**The train station is central**. Unlike Corniglia (where you climb 382 steps) or Vernazza (where you navigate narrow passages), Monterosso station sits between old town and Fegina Beach. Walk out and you're there.",
+        "**The terrain is gentle**. Monterosso is the flattest of the five villages. Wheels work here. Rolling suitcases roll. Elderly visitors and those with mobility concerns find it far more accessible than its cliff-hugging neighbors.",
+        "**The infrastructure exists**. Real hotels with lobbies. Multiple restaurants with parking arrangements. A beach with stabilimenti and changing facilities. Monterosso has the tourism infrastructure that smaller villages cannot support.",
+        "**The connections are strongest**. More trains stop here. Ferries dock in the protected harbor. The parking lots are larger (though still limited). If you're making Cinque Terre easy on yourself, you start here."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "transport",
+      "items": [
+        {
+          "id": 1,
+          "name": "By Train",
+          "category": "Primary Access",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The train is how most people arrive—and for good reason. It's fast, frequent, and deposits you at the heart of the village.",
+          "description": "Monterosso sits on the Genoa-La Spezia line, with regional trains every 15-30 minutes in season. From La Spezia, it's the furthest village (20 minutes), but the extra time buys you a proper platform, a station building, and easy access to both town sections. High-speed trains from Rome and Milan connect at La Spezia.",
+          "giuliaComment": "Arrive at Monterosso and the beach is immediately visible. No climbing, no navigating, no wondering where you are. The train doors open and there it is.",
+          "signature": "Where arrival is actually easy",
+          "practicalInfo": "20 minutes from La Spezia. Cinque Terre Card includes unlimited travel. Buy at station. First train around 5am, last around 11pm."
+        },
+        {
+          "id": 2,
+          "name": "By Ferry",
+          "category": "Scenic Approach",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The ferry arrives into Monterosso's protected bay—approaching the beach and the Gigante statue from the sea.",
+          "description": "Ferry services connect Monterosso to La Spezia, Portovenere, and the other Cinque Terre villages from spring through autumn. The approach is dramatic—watching the village grow larger as you glide past the coastline, then docking near the beach with Il Gigante watching over your arrival.",
+          "giuliaComment": "The ferry approach to Monterosso is the most beautiful arrival possible. You see the beach, the old town, the terraces above—everything at once, framed by the sea you've just crossed.",
+          "signature": "Where the sea welcomes you properly",
+          "practicalInfo": "April-October only. Weather-dependent. From La Spezia: 90 minutes with stops. Book ahead in summer."
+        },
+        {
+          "id": 3,
+          "name": "By Car",
+          "category": "Driving Option",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "You can drive to Monterosso—and unlike other villages, parking actually exists. It's still limited, expensive, and stressful, but it's possible.",
+          "description": "Monterosso has proper parking lots—the main Parcheggio near the tunnel and Parcheggio Loreto above. Expect €25-35/day and limited availability in summer. The village streets are pedestrian-only, but you can unload before parking. For regional exploration, a car provides flexibility the train cannot.",
+          "giuliaComment": "I recommend parking in La Spezia and taking the train unless you're exploring the wider region. But if you must drive, Monterosso handles it better than any other village.",
+          "signature": "Where driving is possible if not ideal",
+          "practicalInfo": "€25-35/day parking. Book ahead in summer. Arrive before 10am or after 6pm for better chances. Village is car-free."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Cinque Terre Card",
+          "quote": "Buy the Cinque Terre Card at Monterosso station before you do anything else. It covers unlimited train travel between villages plus hiking trail access. The math works in your favor after two trips—and you'll make many more than two."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Connections and Logistics",
+      "quote": "Getting to Monterosso is half the journey. Getting here from major cities involves train connections, timing decisions, and the eternal question of luggage.",
+      "content": [
+        "**From Rome**: High-speed trains to La Spezia take 3 hours, then connect to regional service (20 minutes). Book the fast train in advance for better prices; the regional connection needs no reservation.",
+        "**From Florence**: About 2.5 hours total via La Spezia. Morning departures get you to the beach by lunch.",
+        "**From Milan**: 3-3.5 hours with the La Spezia change. The high-speed portion is comfortable; the regional train is functional.",
+        "**From airports**: Pisa is closest (train to La Spezia in 1.5 hours, then connect). Genoa works (2 hours). Florence and Milan airports add significant travel time."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
+        {
+          "id": 4,
+          "name": "Luggage Reality",
+          "category": "Practical Wisdom",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Monterosso is the only village where rolling luggage actually works. This matters.",
+          "description": "The streets between the station and most hotels are flat and paved. You can wheel a suitcase without suffering. This is unique in Cinque Terre—every other village involves stairs, cobblestones, or both. If you're traveling heavy, make Monterosso your base.",
+          "giuliaComment": "I've watched people drag luggage up Vernazza's stairs, Corniglia's 382 steps, Riomaggiore's vertical streets. Then they arrive in Monterosso and realize they could have wheeled everything easily. Plan accordingly.",
+          "signature": "Where bags don't punish you",
+          "practicalInfo": "Flat walk from station to Fegina hotels. Old town requires some effort but manageable. Pack light anyway—it's always good advice."
+        },
+        {
+          "id": 5,
+          "name": "Timing Your Arrival",
+          "category": "Strategy",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When you arrive shapes your first impression—and your first impression shapes everything.",
+          "description": "Early morning (before 10am) delivers you to beaches still empty and villages still waking. Midday arrivals face maximum crowds and minimum charm. Late afternoon brings golden light and the sense that you've arrived for the evening rather than fought through the day.",
+          "giuliaComment": "The first train of the day gets you here before the crowds. The last train gets you here when the day-trippers have left. Everything in between is busier than you expect.",
+          "signature": "When you arrive matters",
+          "practicalInfo": "First trains around 5-6am. Peak crowds 10am-4pm. Golden hour arrivals most pleasant. Check-in usually 2-3pm anyway."
+        },
+        {
+          "id": 6,
+          "name": "Using Monterosso as a Base",
+          "category": "Strategy",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Many visitors base in Monterosso and day-trip to other villages. The infrastructure supports this approach.",
+          "description": "With the Cinque Terre Card, you can train to any village in minutes, explore, and return to Monterosso's beaches and restaurants. The accommodation options are broader, the terrain is kinder, and you have a proper base with proper amenities.",
+          "giuliaComment": "Basing in Monterosso and exploring from here is smart, not lazy. You get the beach, the infrastructure, and easy access to everywhere else. The other villages are twenty minutes away.",
+          "signature": "Where home base makes sense",
+          "practicalInfo": "All villages within 20 minutes by train. Morning in Vernazza, afternoon on Monterosso beach. The math works."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The La Spezia Advantage",
+          "quote": "La Spezia is not Cinque Terre, but it's the transportation hub. Staying there one night on either end of your trip simplifies luggage, provides urban amenities, and gives access to the Cinque Terre train line without the premium village prices."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Easy Start",
+      "content": [
+        "Monterosso makes arriving in Cinque Terre easier than it has any right to be. The train delivers you to level ground. The ferry glides into a protected bay. The parking—while limited—actually exists. This is the welcoming version of the coast.",
+        "Use Monterosso's accessibility as your foundation. Base here, explore from here, return here when the other villages' stairs have exhausted you and Monterosso's beach beckons.",
+        "The hardest part of your journey will be leaving."
       ],
       "buttons": [
-        {
-          "text": "Check Train Schedules",
-          "url": "https://www.trenitalia.com",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1469474968028-56623f02e42e-regular.jpg",
-      "eyebrow": "Driving & Parking",
-      "title": "Navigating Monterosso by Car: Strategic Parking Solutions",
-      "content": [
-        "Driving to Monterosso requires careful planning, as this historic village predates automobile access by nearly a thousand years. The narrow medieval streets that once accommodated merchant caravans now challenge modern vehicles, making advance parking reservations essential during peak season (May-October).",
-        "The primary parking area, Parcheggio Monterosso, offers 300+ spaces just a 5-minute walk from the historic center. However, the €25-35 daily rates reflect the premium location and limited coastal real estate. Smart travelers book online through ParkingCinqueTerre.com, especially for weekend visits when day-trippers overwhelm available spaces.",
-        "**Strategic Parking Approach**: Arrive before 9:00 AM or after 6:00 PM for better availability. The Parcheggio Loreto offers slightly lower rates (€20/day) but requires a longer walk. During shoulder seasons (April, November), street parking becomes available along Via Fegina, though spaces fill quickly near restaurant districts like Ristorante Miky's beachfront location."
-      ],
-      "buttons": [
-        {
-          "text": "Reserve Parking",
-          "url": "#parking-booking",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "type": "faq-section",
-      "title": "Getting Here: Your Questions Answered",
-      "subtitle": "Essential travel information based on centuries of welcoming visitors",
-      "faqs": [
-        {
-          "question": "What's the best way to reach Monterosso from major Italian cities?",
-          "answer": "Train is overwhelmingly the best option. From Rome, take a high-speed train to La Spezia (2 hours) then connect to regional service (15 minutes). From Milan, direct trains reach La Spezia in 3 hours. From Florence, the journey takes 2.5 hours total with one connection. Book train tickets in advance for better prices and guaranteed seating."
-        },
-        {
-          "question": "Can I drive between Cinque Terre villages once I'm here?",
-          "answer": "No, driving between villages isn't practical or recommended. The coastal road (SP370) is extremely narrow, winding, and often closed to non-residents during peak hours. Use the train for village-hopping—it's faster, more comfortable, and offers spectacular coastal views that drivers miss."
-        },
-        {
-          "question": "How far in advance should I book parking?",
-          "answer": "Book parking at least 2-3 days ahead during peak season (June-September), especially for weekends. The main Parcheggio Monterosso fills by 10 AM on busy days. Off-season parking is more flexible, but weekend reservations are still recommended given Monterosso's popularity with Italian day-trippers."
-        },
-        {
-          "question": "What about luggage if I'm arriving by train?",
-          "answer": "Monterosso station has no luggage storage, but several hotels offer early bag storage for guests. The walk from station to most accommodations is 3-5 minutes on flat ground. Pack light or arrange hotel pickup—the medieval streets aren't designed for wheeled luggage."
-        },
-        {
-          "question": "Are there direct airport connections to Monterosso?",
-          "answer": "No direct connections exist. From Genoa airport, take the Volabus to Genoa Centrale station (45 minutes) then train to Monterosso (45 minutes). From Pisa airport, train to La Spezia (1.5 hours) then regional train (15 minutes). Private transfers eliminate connections but cost €150-300 depending on distance."
-        },
-        {
-          "question": "When do ferry services operate to Monterosso?",
-          "answer": "Ferry service runs March-October, weather permitting. Daily connections operate from La Spezia, Portovenere, and other Cinque Terre villages. The journey from La Spezia takes 45 minutes with stunning coastal views. Check Navigazione Golfo dei Poeti for current schedules, as service can be suspended during rough seas."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Visit",
-      "title": "Begin Your Monterosso Journey",
-      "subtitle": "From ancient Roman retreats to Nobel Prize-winning poetry inspiration, Monterosso awaits your arrival. Let us help you plan the perfect approach to this UNESCO World Heritage village.",
-      "buttons": [
-        {
-          "text": "Plan Your Visit",
-          "url": "/monterosso/planning",
-          "variant": "primary"
-        },
-        {
-          "text": "Book Accommodations",
-          "url": "/monterosso/hotels",
-          "variant": "secondary"
-        }
+        { "text": "Where to Stay", "url": "/en/monterosso/hotels", "variant": "primary" },
+        { "text": "What to Do", "url": "/en/monterosso/things-to-do", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "getting-here"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:01:39.944Z"
+  "updated_at": "2026-01-07T14:30:00.000Z"
 }

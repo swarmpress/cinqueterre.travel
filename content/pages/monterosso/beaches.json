@@ -7,171 +7,169 @@
     "it": "/it/monterosso/beaches"
   },
   "title": {
-    "en": "Monterosso Beaches: Cinque Terre's Premier Coastal Paradise"
+    "en": "Beaches in Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Best Beaches in Monterosso al Mare | Cinqueterre.travel"
+      "en": "Beaches in Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Monterosso's stunning beaches in Cinque Terre. From golden sand to hidden coves, find your perfect Mediterranean escape with insider tips."
+      "en": "Monterosso has what the other villages lack: real sandy beaches. Not rocky platforms, not concrete slabs—actual sand meeting actual sea. This is why half the visitors come, and why half of them never leave the shore."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "Cinque Terre's Beach Capital",
-      "title": "Monterosso's Golden Coast: Where the Sea Meets Poetry",
-      "subtitle": "Experience the Riviera as Nobel laureate Eugenio Montale did—on pristine beaches where ancient red cliffs embrace the Mediterranean's sapphire waters. Monterosso offers the only true sand beaches in all of Cinque Terre.",
+      "type": "editorial-hero",
+      "title": "Where Sand<br/>Meets Sea",
+      "subtitle": "Monterosso is the exception. While other Cinque Terre villages offer rocky scrambles and concrete platforms, Monterosso spreads genuine sandy beaches along its bay. The old town has its pocket beach; Fegina stretches wide with stabilimenti and space. This is beach life as the Riviera intended.",
+      "badge": "Beach Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Sandy Truth",
+      "quote": "Other Cinque Terre villages will tell you they have beaches. They mean rocks you can lie on, or platforms with ladders. Monterosso means sand between your toes, towels spread properly, children building castles. It's not the same thing.",
+      "content": [
+        "**Fegina Beach** is the main event—the long stretch of sand in the new town, divided between free sections and stabilimenti (beach clubs) where umbrellas, loungers, and seaside service come at a price.",
+        "**Old Town Beach** offers a more intimate experience—smaller, quieter, with fishing boats pulled up on the sand. This is where locals have swum for centuries.",
+        "**Il Gigante presides** over Fegina's eastern end—the damaged Neptune statue that's become Monterosso's most recognizable landmark, carved into the cliff rock.",
+        "**The red cliffs** frame everything. Monterosso takes its name from Mons Rubeus—red mountain—and the warm stone colors reflect in the water at sunset."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "beach",
+      "items": [
+        {
+          "id": 1,
+          "name": "Fegina Beach",
+          "category": "Main Beach",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The long sandy stretch that brings half of Monterosso's visitors—proper beach life with proper sand.",
+          "description": "Fegina Beach extends from the train station to Il Gigante, divided between free public sections and stabilimenti offering umbrellas, loungers, and seaside dining. The water is clean, the sand is real, and the infrastructure exists to spend an entire day without moving. This is Mediterranean beach life at its most accessible.",
+          "giuliaComment": "Arrive before 9am in summer to claim a good spot on the free section. Or pay for a stabilimento and let someone else worry about real estate. The water is the same; the stress level differs.",
+          "signature": "Where beach day becomes reality",
+          "practicalInfo": "Free sections available. Stabilimenti €20-40/day. Best before 10am in summer. Showers and facilities available."
+        },
+        {
+          "id": 2,
+          "name": "Old Town Beach",
+          "category": "Historic Beach",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The smaller beach by the harbor—where fishing boats and swimmers share the same shore.",
+          "description": "Tucked beside the old town's harbor, this smaller beach offers a different character. Fishing boats pull up on the sand, the medieval buildings rise directly behind, and the scale feels more intimate than Fegina's expanse. Less infrastructure, more authenticity—this is how Monterosso swam before tourism arrived.",
+          "giuliaComment": "I prefer this beach to Fegina. It's smaller, yes, but the old town is right there. You can swim, dry off, and be eating lunch in five minutes. The integration with the village is what I love.",
+          "signature": "Where the village meets the water",
+          "practicalInfo": "Smaller than Fegina. Some free sections. Fishing boats present. Old town restaurants steps away."
+        },
+        {
+          "id": 3,
+          "name": "Il Gigante Area",
+          "category": "Landmark Beach",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Swimming in the shadow of the damaged Neptune—where beach meets monument.",
+          "description": "The eastern end of Fegina Beach lies beneath Il Gigante, the 14-meter statue carved into the cliff in 1910. The water here is excellent, and the statue provides shade in the afternoon. Swimming past his armless form while looking up at Art Nouveau ambition carved into ancient rock—this is Monterosso's most distinctive beach moment.",
+          "giuliaComment": "This is where I take friends who've never been. You swim out, turn around, and there's this enormous Neptune watching over you. The photos from the water are extraordinary.",
+          "signature": "Where mythology guards the swimmers",
+          "practicalInfo": "Part of Fegina Beach. Best morning for photos (backlit in afternoon). Rocks at base—water shoes helpful."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Stabilimento Question",
+          "quote": "Stabilimenti are beach clubs: pay €20-40 and receive an umbrella, loungers, changing facilities, and often seaside food and drink service. Is it worth it? In July and August, when free beaches are packed by 9am, absolutely. In May or September, the free sections offer plenty of space. Your choice depends on season and priorities."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Beach Intelligence",
+      "quote": "Monterosso's beaches reward those who understand their rhythms. Morning brings calm water and available space. Midday brings crowds and heat. Evening brings the return of peace and golden light.",
+      "content": [
+        "**Arrive early** if you want free beach space in summer. By 10am, the best spots are claimed. By noon, even the back sections are full.",
+        "**The afternoon retreat** is real. From 1pm to 4pm, heat drives swimmers to restaurants, shade, and air conditioning. The beach reopens psychologically around 4pm.",
+        "**Sunset swimming** is Monterosso's secret pleasure. As day-trippers leave, the water turns golden, the crowds thin, and the beach becomes genuinely beautiful again.",
+        "**Water shoes matter** at the transitions—where sand meets rocks at the beach edges. The Mediterranean is clear because it lacks gentle muddy bottoms."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "beach",
+      "items": [
+        {
+          "id": 4,
+          "name": "Free Beach Sections",
+          "category": "Public Access",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1520942702018-0862c52ccbd4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The spiaggia libera—where no payment is required and space goes to the early arrivers.",
+          "description": "Both Fegina and the old town beach have free public sections (spiaggia libera). No umbrellas provided, no loungers included—just sand, sea, and whatever you bring yourself. These sections fill first and empty last, used by locals, budget travelers, and anyone who prefers simplicity to service.",
+          "giuliaComment": "The free beach is where I grew up swimming. You bring a towel, maybe an umbrella you own, and you stay until you're done. No time limits, no obligations, no pretense.",
+          "signature": "Where the beach is simply beach",
+          "practicalInfo": "No facilities in free sections. Bring your own umbrella/towel. Arrive early in summer. Public showers nearby."
+        },
+        {
+          "id": 5,
+          "name": "Beach Club Experience",
+          "category": "Full Service",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The stabilimento life—umbrella, lounger, service, and the freedom to do nothing.",
+          "description": "Monterosso's stabilimenti offer the complete beach club experience: reserved umbrella, padded loungers, changing rooms, showers, and often beachside food and drink service. You arrive, find your assigned spot, and let someone else handle logistics. In high season, this convenience becomes nearly essential.",
+          "giuliaComment": "I resisted stabilimenti until I had children. Now I understand—when you want a full beach day without stress, paying for service makes sense. The good ones feel like outdoor living rooms.",
+          "signature": "Where relaxation becomes profession",
+          "practicalInfo": "€20-40/day depending on position and season. Book ahead in July/August. Food and drinks available. Full facilities."
+        },
+        {
+          "id": 6,
+          "name": "Hidden Coves",
+          "category": "Secret Spots",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The swimming spots that require boats or scrambles—where effort buys solitude.",
+          "description": "Beyond the main beaches, small coves dot the rocky coastline. Access requires either boat rental, adventurous scrambling, or local knowledge. These spots offer what the main beaches cannot: solitude, pristine water, and the feeling of having found something the crowds missed.",
+          "giuliaComment": "I won't give away my favorite cove. But I'll say this: rent a kayak or a small boat, head west along the coast, and explore. The swimming improves dramatically away from the crowds.",
+          "signature": "Where the adventurous swim alone",
+          "practicalInfo": "Boat rental available at harbor. Some coves accessible by scrambling at low tide. Bring water and snacks. No facilities."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The September Secret",
+          "quote": "September is the best beach month. The water is warmest (it takes all summer to heat the Mediterranean), the crowds have thinned, the light is golden, and Monterosso remembers why it exists. If you can choose your timing, choose September."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Sand is Real",
+      "content": [
+        "Monterosso's beaches deliver what the other villages cannot: genuine Mediterranean beach life. You can spread a towel, build a sandcastle, spend an entire day moving between sea and sand without climbing ladders or balancing on rocks.",
+        "The infrastructure exists—stabilimenti for those who want service, free sections for those who don't. The water is clear, the views are red-cliff dramatic, and Il Gigante watches over it all.",
+        "Come for the beach. The rest of Cinque Terre can wait until you've had your fill of sand."
+      ],
       "buttons": [
-        {
-          "text": "Explore All Beaches",
-          "url": "#beaches",
-          "variant": "primary"
-        },
-        {
-          "text": "Beach Guide & Tips",
-          "url": "#guide",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Monterosso Beach Essentials",
-      "subtitle": "Everything you need to know for your perfect beach day",
-      "stats": [
-        {
-          "number": "2",
-          "unit": "Main Beaches",
-          "description": "Fegina and Old Town beaches offer different experiences"
-        },
-        {
-          "number": "800m",
-          "unit": "of Coastline",
-          "description": "The longest stretch of accessible beaches in Cinque Terre"
-        },
-        {
-          "number": "4",
-          "unit": "Hidden Coves",
-          "description": "Secret spots accessible by boat or adventurous hiking"
-        },
-        {
-          "number": "Apr-Oct",
-          "unit": "Beach Season",
-          "description": "Prime swimming months with perfect Mediterranean weather"
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&q=80",
-      "title": "The Art of Beach Life in Monterosso",
-      "content": "Unlike the dramatic cliff-hugging beaches of its sister villages, Monterosso unfolds like a Riviera dream. Here, golden sand meets your feet instead of smooth stones, and the beach stretches wide enough for proper lounging, not just quick dips between train connections.\n\nThe magic lies in the contrast: ancient red cliffs (the 'Mons Rubeus' that gives the village its name) frame modern beach clubs where you can sip Sciacchetrà while watching fishing boats return with the day's catch. This is where Romans once built their summer villas, and you'll understand why within moments of settling onto the warm sand.\n\nTiming is everything here. Arrive before 9 AM to claim your perfect spot and witness the morning light painting those famous red cliffs. The afternoon brings a golden hour that lasts for hours, when the Mediterranean becomes a mirror reflecting centuries of stories."
-    },
-    {
-      "type": "collection-embed",
-      "collection": "beaches",
-      "title": "Monterosso's Beach Collection",
-      "subtitle": "From bustling beach clubs to secret swimming holes—discover your perfect coastal escape"
-    },
-    {
-      "type": "feature-section",
-      "title": "Your Monterosso Beach Strategy",
-      "subtitle": "Insider secrets from someone who's watched a thousand sunrises from these shores",
-      "features": [
-        {
-          "icon": "🏖️",
-          "title": "Beach Club Luxury",
-          "description": "Premium stabilimenti offer umbrellas, loungers, and seaside dining. Book ahead June-September for the best spots with sea views."
-        },
-        {
-          "icon": "🏊‍♀️",
-          "title": "Free Swimming Areas",
-          "description": "Public sections on both beaches provide excellent swimming without fees. Look for the rocky areas for the clearest, deepest water."
-        },
-        {
-          "icon": "🚤",
-          "title": "Boat Access Only",
-          "description": "Hidden coves like Canneto Beach require boat trips or serious hiking. Reward: pristine waters and near-complete solitude."
-        },
-        {
-          "icon": "📸",
-          "title": "Photography Gold",
-          "description": "Best light hits between 7-9 AM and 6-8 PM. The red cliffs glow like fire against the blue Mediterranean during these magic hours."
-        },
-        {
-          "icon": "🌊",
-          "title": "Swimming Conditions",
-          "description": "Monterosso's bay offers the calmest waters in Cinque Terre. Even when other villages see rough seas, swimming here remains pleasant."
-        },
-        {
-          "icon": "🍽️",
-          "title": "Beachside Dining",
-          "description": "Fresh seafood steps from the water. Try the anchovy pasta at beachfront restaurants—caught in these very waters that morning."
-        }
-      ]
-    },
-    {
-      "type": "faq-section",
-      "title": "Beach Planning Essentials",
-      "subtitle": "The questions every Monterosso beach-goer asks",
-      "faqs": [
-        {
-          "question": "When is the best time to visit Monterosso's beaches?",
-          "answer": "May through September offers the warmest water and longest days, but April and October provide fewer crowds with still-pleasant swimming. Arrive before 9 AM or after 4 PM to avoid peak sun and secure the best spots."
-        },
-        {
-          "question": "Do I need to pay for beach access?",
-          "answer": "No, all beaches have free public areas. However, premium beach clubs (stabilimenti) charge €15-30 per day for umbrellas, loungers, and facilities. The investment is worth it for comfort and convenience during peak season."
-        },
-        {
-          "question": "What's the difference between Fegina and Old Town beaches?",
-          "answer": "Fegina Beach (New Town) is larger with more facilities and beach clubs, while Old Town Beach offers a more intimate setting with traditional fishing boats. Both have excellent swimming, but Fegina has better amenities for full-day lounging."
-        },
-        {
-          "question": "Can I reach the hidden beaches without a boat?",
-          "answer": "Some secluded spots like Canneto Beach require boat access or challenging coastal hikes. Local boat tours cost €30-50 per person and include multiple coves. The adventure is part of the experience."
-        },
-        {
-          "question": "What should I bring for a perfect beach day?",
-          "answer": "Reef-safe sunscreen (mandatory), water shoes for rocky areas, a waterproof bag, and cash for beach clubs. Don't forget a good book—these beaches are made for lingering."
-        },
-        {
-          "question": "Is swimming safe year-round?",
-          "answer": "The swimming season runs April through October, with water temperatures reaching 24°C (75°F) in summer. Monterosso's protected bay makes it the safest swimming in Cinque Terre, even during shoulder seasons."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Plan Your Perfect Beach Day",
-      "title": "Start Your Monterosso Beach Adventure",
-      "subtitle": "From sunrise swims to sunset aperitivos, create memories that last a lifetime on Cinque Terre's most beautiful coastline.",
-      "buttons": [
-        {
-          "text": "Book Beach Experience",
-          "url": "/experiences/monterosso",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore More Villages",
-          "url": "/villages",
-          "variant": "secondary"
-        }
+        { "text": "Where to Stay", "url": "/en/monterosso/hotels", "variant": "primary" },
+        { "text": "Where to Eat", "url": "/en/monterosso/restaurants", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "beaches"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T12:56:27.171Z"
+  "updated_at": "2026-01-07T13:45:00.000Z"
 }

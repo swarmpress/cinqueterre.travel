@@ -10,6 +10,7 @@
     "en": "Cinque Terre Maps & Navigation: Your Complete Guide to the Five Villages"
   },
   "page_type": "maps",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre Maps & Navigation Guide | Cinqueterre.travel"
@@ -20,115 +21,74 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
-      "eyebrow": "Navigate with Confidence",
-      "title": "Master the Cinque Terre's Ancient Pathways",
+      "type": "editorial-hero",
+      "title": "Master the Cinque Terre's<br/>Ancient Pathways",
       "subtitle": "From medieval mule tracks to clifftop panoramas, unlock centuries-old routes with detailed maps that transform your journey from tourist wandering to insider exploration.",
-      "buttons": [
-        {
-          "text": "Download Interactive Maps",
-          "url": "#maps",
-          "variant": "primary"
-        },
-        {
-          "text": "View Trail Conditions",
-          "url": "#trails",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Navigate with Confidence",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "Navigate by the Numbers",
-      "stats": [
-        {
-          "number": "120km",
-          "label": "of mapped trails and pathways"
-        },
-        {
-          "number": "5",
-          "label": "villages connected by ancient routes"
-        },
-        {
-          "number": "12",
-          "label": "official hiking trails (numbered 1-12)"
-        },
-        {
-          "number": "600m",
-          "label": "maximum elevation on coastal trails"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Navigate by the Numbers",
+      "quote": "For over a millennium, these pathways have served as lifelines connecting isolated communities carved into impossible cliffsides. The trails you'll follow today began as necessity - mule tracks carrying salt, wine, and olive oil between villages.",
+      "leftContent": "<p>Over <strong>120km of mapped trails</strong> connect <strong>5 villages</strong> through ancient routes. Follow <strong>12 official hiking trails</strong> (numbered 1-12) reaching up to <strong>600m elevation</strong>.</p><p>GPS-enabled maps with real-time trail conditions, elevation profiles, and estimated walking times updated daily.</p>",
+      "rightContent": "<p>Follow <strong>original stone waymarkers</strong> placed by medieval merchants and pilgrims, still guiding travelers after 800 years.</p><p>Download <strong>offline maps</strong> before you go - the ancient villages don't always have modern signal coverage, but you'll never be lost.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Essential Navigation Tools",
-      "subtitle": "Every path tells a story. Here's how to read the landscape like the locals who've walked these routes for generations.",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "tool",
+      "items": [
         {
-          "icon": "map",
-          "title": "Interactive Digital Maps",
-          "description": "GPS-enabled maps with real-time trail conditions, elevation profiles, and estimated walking times updated daily by local guides."
+          "id": 1,
+          "name": "Interactive Digital Maps",
+          "category": "Technology",
+          "description": "GPS-enabled maps with real-time trail conditions, elevation profiles, and estimated walking times updated daily by local guides.",
+          "signature": "The modern way to explore ancient paths"
         },
         {
-          "icon": "compass",
-          "title": "Historical Route Markers",
-          "description": "Follow the original stone waymarkers placed by medieval merchants and pilgrims, still guiding travelers after 800 years."
+          "id": 2,
+          "name": "Historical Route Markers",
+          "category": "Heritage",
+          "description": "Follow the original stone waymarkers placed by medieval merchants and pilgrims, still guiding travelers after 800 years.",
+          "signature": "Navigation that stood the test of time"
         },
         {
-          "icon": "train",
-          "title": "Transport Integration",
-          "description": "Seamlessly connect hiking routes with train schedules, boat timetables, and shuttle services for flexible exploration."
+          "id": 3,
+          "name": "Transport Integration",
+          "category": "Connectivity",
+          "description": "Seamlessly connect hiking routes with train schedules, boat timetables, and shuttle services for flexible exploration.",
+          "signature": "Every mode, one system"
         },
         {
-          "icon": "mountain",
-          "title": "Elevation Planning",
-          "description": "Detailed topographical data helps you choose routes matching your fitness level, from gentle coastal strolls to challenging ridge walks."
+          "id": 4,
+          "name": "Elevation Planning",
+          "category": "Fitness",
+          "description": "Detailed topographical data helps you choose routes matching your fitness level, from gentle coastal strolls to challenging ridge walks.",
+          "signature": "Know the climb before you start"
         },
         {
-          "icon": "clock",
-          "title": "Seasonal Updates",
-          "description": "Real-time closures, weather impacts, and maintenance schedules ensure you're never caught off-guard on the trails."
+          "id": 5,
+          "name": "Seasonal Updates",
+          "category": "Conditions",
+          "description": "Real-time closures, weather impacts, and maintenance schedules ensure you're never caught off-guard on the trails.",
+          "signature": "Always know what's ahead"
         },
         {
-          "icon": "phone",
-          "title": "Offline Access",
-          "description": "Download maps before you go – the ancient villages don't always have modern signal coverage, but you'll never be lost."
+          "id": 6,
+          "name": "Offline Access",
+          "category": "Reliability",
+          "description": "Download maps before you go - the ancient villages don't always have modern signal coverage, but you'll never be lost.",
+          "signature": "Technology that works everywhere"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "content-section",
       "title": "Reading the Landscape: A Historian's Guide to Cinque Terre Navigation",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551632811-561732d1e306-regular.jpg",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "For over a millennium, these pathways have served as lifelines connecting isolated communities carved into impossible cliffsides. The trails you'll follow today began as necessity – mule tracks carrying salt, wine, and olive oil between villages when the sea was too rough for boats."
-        },
-        {
-          "type": "paragraph",
-          "text": "The famous **Sentiero Azzurro** (Blue Trail) isn't just the most photographed route; it's the maritime highway that once sustained entire communities. Each section reveals different chapters of history: the wide, engineered paths near Monterosso speak to 19th-century prosperity, while the narrow, hand-carved steps between Manarola and Corniglia whisper of medieval determination."
-        },
-        {
-          "type": "paragraph",
-          "text": "Understanding the original purpose transforms your navigation. Those seemingly random stone walls? Ancient terracing systems called **fasce** that prevented erosion and created microclimates for crops. The mysterious stone towers perched on impossible promontories? Medieval watchtowers that once protected against Saracen raids, now serving as natural waypoints for modern hikers."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Insider Navigation Secrets"
-        },
-        {
-          "type": "paragraph",
-          "text": "Local trail maintenance crews still follow traditional schedules established by fishing seasons. The best-maintained paths open from April through October, coinciding with the **stagione buona** (good season) when villagers historically prepared for winter isolation."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pay attention to the **creuze** – ancient stone-paved sections that mark the oldest routes. These weathered pathways, worn smooth by countless generations, offer the most reliable footing even in wet conditions. Where you see modern concrete, you're following newer diversions, often created to protect sensitive archaeological sites."
-        }
-      ]
+      "content": "For over a millennium, these pathways have served as lifelines connecting isolated communities carved into impossible cliffsides. The trails you'll follow today began as necessity - mule tracks carrying salt, wine, and olive oil between villages when the sea was too rough for boats.\n\nThe famous **Sentiero Azzurro** (Blue Trail) isn't just the most photographed route; it's the maritime highway that once sustained entire communities. Each section reveals different chapters of history: the wide, engineered paths near Monterosso speak to 19th-century prosperity, while the narrow, hand-carved steps between Manarola and Corniglia whisper of medieval determination.\n\nUnderstanding the original purpose transforms your navigation. Those seemingly random stone walls? Ancient terracing systems called **fasce** that prevented erosion and created microclimates for crops. The mysterious stone towers perched on impossible promontories? Medieval watchtowers that once protected against Saracen raids, now serving as natural waypoints for modern hikers.\n\n**Insider Navigation Secrets:** Pay attention to the **creuze** - ancient stone-paved sections that mark the oldest routes. These weathered pathways, worn smooth by countless generations, offer the most reliable footing even in wet conditions."
     },
     {
       "type": "faq-section",
@@ -148,42 +108,34 @@
         },
         {
           "question": "Are there navigation aids for people with accessibility needs?",
-          "answer": "The Blue Trail between Manarola and Corniglia (Via dell'Amore) offers wheelchair access when open. Monterosso has the flattest village layout with paved waterfront paths. Train stations provide elevator access to most village centers. Contact the National Park office for current accessibility maps and assisted route options – they maintain updated guides for visitors with mobility considerations."
+          "answer": "The Blue Trail between Manarola and Corniglia (Via dell'Amore) offers wheelchair access when open. Monterosso has the flattest village layout with paved waterfront paths. Train stations provide elevator access to most village centers. Contact the National Park office for current accessibility maps and assisted route options."
         },
         {
           "question": "How reliable are trail condition updates and where do I find them?",
-          "answer": "Official updates appear on the Parco Nazionale delle Cinque Terre website, updated weekly during hiking season. Local tourism offices in each village post daily conditions on bulletin boards. Weather-related closures happen frequently – sempre verificare (always verify) before setting out. Rangers patrol main routes and can provide real-time conditions if you encounter them on the trail."
+          "answer": "Official updates appear on the Parco Nazionale delle Cinque Terre website, updated weekly during hiking season. Local tourism offices in each village post daily conditions on bulletin boards. Weather-related closures happen frequently - sempre verificare (always verify) before setting out."
         },
         {
           "question": "What should I do if I get lost or disoriented on the trails?",
-          "answer": "Stay calm and look for the distinctive red-and-white CAI (Club Alpino Italiano) trail markers – they appear every 50-100 meters on official routes. If you can't find markers, retrace your steps to the last one you remember. Emergency phone numbers are posted at major trail junctions. In true emergencies, call 118 (Italian emergency services) or use the SOS features on your phone even without cellular service."
+          "answer": "Stay calm and look for the distinctive red-and-white CAI (Club Alpino Italiano) trail markers - they appear every 50-100 meters on official routes. If you can't find markers, retrace your steps to the last one you remember. Emergency phone numbers are posted at major trail junctions. In true emergencies, call 118 (Italian emergency services)."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "title": "Navigate Like a Local",
-      "subtitle": "Join our guided orientation walks and learn navigation secrets passed down through generations of Cinque Terre families.",
-      "buttons": [
-        {
-          "text": "Book Navigation Workshop",
-          "url": "/experiences/navigation-workshop",
-          "variant": "primary"
-        },
-        {
-          "text": "Download Trail Maps",
-          "url": "/resources/maps",
-          "variant": "secondary"
-        }
-      ],
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1469474968028-56623f02e42e-regular.jpg"
+      "type": "closing-note",
+      "badge": "Navigate Like a Local",
+      "title": "Learn Navigation Secrets Passed Down Through Generations",
+      "content": "<p>Join our guided orientation walks and discover the ancient routes that connected these villages for a millennium.</p><p>From trail markers to transport connections, master the landscape like the locals who've walked these paths for generations.</p>",
+      "actions": [
+        { "label": "Book Navigation Workshop", "href": "/experiences/navigation-workshop", "variant": "primary" },
+        { "label": "Download Trail Maps", "href": "/resources/maps", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
     "city": "cinque-terre",
     "page_type": "maps"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:49:35.388Z"
 }

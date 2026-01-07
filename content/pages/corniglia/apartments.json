@@ -1,5 +1,5 @@
 {
-  "id": "c9235bf7-64df-4618-8ab1-b0b5ae55b796",
+  "id": "e8b737b9-5348-4751-90f3-d2d69fda04e6",
   "slug": {
     "en": "/en/corniglia/apartments",
     "de": "/de/corniglia/apartments",
@@ -7,162 +7,152 @@
     "it": "/it/corniglia/apartments"
   },
   "title": {
-    "en": "Luxury Apartments in Corniglia - Elevated Living Above the Mediterranean"
+    "en": "Apartments in Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "apartments",
   "seo": {
     "title": {
-      "en": "Corniglia Apartments - Luxury Stays | Cinqueterre.travel"
+      "en": "Apartments in Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover luxury apartments in Corniglia with vineyard views, historic charm, and terraced gardens. Your elevated retreat in the heart of Cinque Terre."
+      "en": "Corniglia's apartments come with built-in advantages: quieter streets, more space, fewer tourists fighting for groceries. The 382 steps that deter day-trippers become your moat against the crowds."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg",
-      "eyebrow": "Luxury Accommodations",
-      "title": "Wake Up to Ancient Vineyards and Endless Mediterranean Views",
-      "subtitle": "Experience Corniglia's unique charm from beautifully appointed apartments perched 100 meters above the sea, where Roman terraces meet modern luxury in the only clifftop village of the Cinque Terre.",
+      "type": "editorial-hero",
+      "title": "Living Above<br/>the Crowds",
+      "subtitle": "An apartment in Corniglia offers something the other villages cannot: genuine residential quiet. The famous 382 steps that visitors complain about become your filter—discouraging casual tourists and leaving the village to those who chose to climb.",
+      "badge": "Apartment Rentals",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Quiet Advantage",
+      "quote": "Corniglia apartments attract a different visitor—one who values peace over convenience, authenticity over easy access. The self-selection works in everyone's favor.",
+      "content": [
+        "**Space is more available**. Without the cruise ship crowds and day-tripper masses, Corniglia apartments are easier to book and often larger than comparable options elsewhere. What other villages lack, this one provides.",
+        "**Cooking is practical**. The village has a small grocery, and you won't fight crowds to shop. Markets in La Spezia are accessible by train. Your apartment kitchen serves as actual kitchen, not decorative afterthought.",
+        "**The terrace views are standard**. Many Corniglia apartments include terraces with vineyard and sea views that would cost premium prices in other villages. Here they're simply what's available.",
+        "**Neighbors are real neighbors**. With fewer tourist accommodations overall, Corniglia apartments tend to be in actual residential buildings. Your neighbors are locals, not other tourists."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "location",
+      "items": [
+        {
+          "id": 1,
+          "name": "Village Center Apartments",
+          "category": "Location Guide",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Along Via Fieschi—the main street with shops, restaurants, and the village's daily rhythm.",
+          "description": "Apartments on Via Fieschi put you at Corniglia's social center—such as it is. The bakery, the wine bar, the small grocery, the church where bells mark time. You're steps from everything the village offers, yet still quieter than anywhere in the other villages.",
+          "giuliaComment": "Via Fieschi is 'busy' by Corniglia standards, which means you might see ten people walking by in an hour. For visitors used to other villages, this is remarkable. For Corniglia, it's the bustling main street.",
+          "signature": "Where center still means quiet"
+        },
+        {
+          "id": 2,
+          "name": "Terrace-View Apartments",
+          "category": "Location Guide",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "On the village edges, facing the terraced hillsides—where the agricultural landscape becomes your view.",
+          "description": "Some Corniglia apartments face the vineyards rather than the sea. These positions offer something unique: the terraced landscape that defines Cinque Terre, visible at all hours, changing with the light. The UNESCO heritage isn't in the distance—it's right outside your window.",
+          "giuliaComment": "I actually prefer the vineyard-facing apartments. The sea view is beautiful, but you can see the sea from any terrace in minutes. The close view of working terraces, with farmers passing in the morning, connects you to what this village actually is.",
+          "signature": "Where heritage becomes daily view"
+        },
+        {
+          "id": 3,
+          "name": "Sea-View Apartments",
+          "category": "Location Guide",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Perched on the cliff edge, looking down at the water 100 meters below—dramatic and distant.",
+          "description": "Corniglia's sea views are different from other villages—you're not at water level but high above it. The perspective is eagles' rather than fishermen's. You see the coast stretching in both directions, boats that look like toys, a relationship to the sea that's visual rather than immediate.",
+          "giuliaComment": "The sea-view apartments in Corniglia offer perspective the other villages can't match. You see the whole coast, the patterns of waves, the way weather approaches from the horizon. It's contemplative rather than interactive.",
+          "signature": "Where distance creates drama"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Stair Commitment",
+          "quote": "Every Corniglia apartment requires confronting the Lardarina—the 382 steps from the train station. Unless you arrive by car (limited parking) or via hiking trail, those stairs are your gateway. Most visitors find it easier than expected. All visitors remember it."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Living",
+      "quote": "Apartment life in Corniglia rewards those who accept its terms: limited shopping options offset by genuine tranquility, climbing offset by views, inconvenience offset by authenticity.",
+      "content": [
+        "**Shopping requires planning**. The village grocery is small; serious shopping means La Spezia. Time your provisioning with train trips. Bring staples from elsewhere.",
+        "**The stairs become routine**. What feels daunting on day one becomes normal by day three. Your legs adjust. The climb becomes automatic. And the views from halfway up never stop being spectacular.",
+        "**Evening is yours**. When day-trippers leave (they all leave—Corniglia has no beach to hold them), the village empties. Your apartment becomes home base for an evening village that belongs to residents and overnight guests alone.",
+        "**Check-in logistics matter**. Coordinate carefully with hosts about arrival—carrying luggage up 382 steps after a long travel day requires planning. Many hosts offer to meet you at the station."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Provisioning Strategy",
+          "category": "Living Local",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "How to keep your Corniglia kitchen stocked without the stress.",
+          "description": "Shop in La Spezia before arriving—supermarkets there have everything at normal prices. Use the village grocery for daily needs: bread, milk, fresh vegetables. The wine shop has local bottles. Accept that some meals will be simple—focaccia, cheese, tomatoes, good wine. That's not compromise; that's Corniglia.",
+          "giuliaComment": "The village grocery has survived because residents actually use it. The selection is small but the vegetables are often from local gardens. Support the shop—it's the social center more than the commercial one.",
+          "signature": "Where limitation becomes simplicity"
+        },
+        {
+          "id": 5,
+          "name": "The Long Stay",
+          "category": "Time Investment",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Corniglia apartments reward those who stay long enough to stop counting the stairs.",
+          "description": "A week in a Corniglia apartment transforms your relationship to the village. The stairs become unremarkable. You develop a favorite terrace, a preferred wine, a nodding acquaintance with the morning baker. The village reveals what hurried visitors miss.",
+          "giuliaComment": "Every long-stay guest tells me the same thing: by day three, they wondered why they'd worried about the stairs. By day seven, they were planning their return. Corniglia requires the time it takes to appreciate.",
+          "signature": "When routine becomes revelation"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Shuttle Option",
+          "quote": "A shuttle bus connects the train station to the village during tourist season, bypassing the famous stairs. It runs infrequently but saves the climb when loaded with luggage. Check schedules—or accept that the stairs are part of the Corniglia experience."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Village That Earns Its Peace",
+      "content": [
+        "Corniglia apartments are not for everyone. They require stairs, planning, and acceptance that convenience was traded for something else.",
+        "What you receive in exchange is a village that actually feels like a village—quiet streets, real neighbors, evenings without tourist crowds, and the satisfaction of living somewhere most visitors only pass through.",
+        "Choose Corniglia if peace matters more than beach access. Choose an apartment if independence matters more than service. The combination creates something worth the climb."
+      ],
       "buttons": [
-        {
-          "text": "Explore Properties",
-          "url": "#apartments",
-          "variant": "primary"
-        },
-        {
-          "text": "View Availability",
-          "url": "#booking",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "headline": "Corniglia by the Numbers",
-      "stats": [
-        {
-          "number": "100m",
-          "label": "Above Sea Level",
-          "description": "Elevated position with panoramic views"
-        },
-        {
-          "number": "377",
-          "label": "Steps to Station",
-          "description": "Historic Lardarina stairway connection"
-        },
-        {
-          "number": "2-8",
-          "label": "Guest Capacity",
-          "description": "Intimate properties for couples to groups"
-        },
-        {
-          "number": "800+",
-          "label": "Years of History",
-          "description": "Living in ancient terraced landscapes"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "headline": "Why Choose Corniglia Apartments",
-      "subtitle": "Discover the advantages of staying in the most peaceful and authentic village of the Cinque Terre",
-      "features": [
-        {
-          "icon": "mountain",
-          "title": "Vineyard Views",
-          "description": "Wake to ancient Roman terraces where local families still produce the renowned Cinque Terre DOC wines in centuries-old traditions."
-        },
-        {
-          "icon": "users",
-          "title": "Authentic Village Life",
-          "description": "Experience genuine Ligurian culture away from cruise ship crowds, where locals still outnumber tourists even in peak season."
-        },
-        {
-          "icon": "home",
-          "title": "Historic Architecture",
-          "description": "Stay in beautifully restored medieval buildings with original stone walls, vaulted ceilings, and traditional architectural details."
-        },
-        {
-          "icon": "leaf",
-          "title": "Garden Terraces",
-          "description": "Many properties feature private terraced gardens with herb plots, lemon trees, and panoramic seating areas overlooking the coast."
-        },
-        {
-          "icon": "wifi",
-          "title": "Modern Amenities",
-          "description": "Enjoy contemporary comforts including high-speed Wi-Fi, updated kitchens, and climate control while maintaining historic charm."
-        },
-        {
-          "icon": "map-pin",
-          "title": "Central Location",
-          "description": "Perfect base for exploring all five villages, with easy train access and the famous Sentiero Azzurro hiking trail starting steps away."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "headline": "Living Like a Local in Corniglia",
-      "content": "Choosing an apartment in Corniglia means embracing the village's unique position as the agricultural heart of the Cinque Terre. Unlike its coastal neighbors, this clifftop settlement developed around wine production rather than fishing, creating a distinctly different atmosphere that feels remarkably authentic.\n\nYour days begin with sunrise over the Apennine Mountains, filtered through ancient vineyard terraces that have remained virtually unchanged since Roman times. The village center, a five-minute walk from most apartments, centers around Via Fieschi - a charming pedestrian street lined with family-run shops, intimate restaurants like the beloved Cecio, and the atmospheric Cantina de Mananan for evening wine tastings.\n\nThe absence of a harbor means Corniglia maintains its peaceful character even during peak summer months. You'll find yourself shopping for fresh focaccia at the local bakery alongside residents whose families have lived here for generations, learning about terraced agriculture from elderly vintners who still tend their plots by hand, and discovering hidden viewpoints known only to locals.\n\nMost Corniglia apartments feature traditional elements like exposed stone walls, terra cotta floors, and wooden beam ceilings, combined with modern kitchens perfect for preparing meals with ingredients from the weekly market. Private terraces are common, often carved into the hillside with stunning views over the Mediterranean or back toward the vineyard-covered mountains.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1566837945700-30057527ade0-regular.jpg",
-      "imageAlt": "Traditional Corniglia apartment interior with stone walls and modern amenities"
-    },
-    {
-      "type": "faq-section",
-      "headline": "Frequently Asked Questions",
-      "faqs": [
-        {
-          "question": "How do I reach my apartment from Corniglia train station?",
-          "answer": "You have two options: climb the famous 377-step Lardarina stairway (about 10-15 minutes) or take the shuttle bus that runs every 20 minutes during daylight hours. Most apartment hosts provide detailed directions and can arrange luggage assistance if needed."
-        },
-        {
-          "question": "Are Corniglia apartments suitable for families with young children?",
-          "answer": "Yes, but choose carefully. The village's elevated position and terraced layout include steep drops and stairs. Look for ground-floor apartments or those with secure terraces. The peaceful atmosphere and open spaces make it ideal for older children who can appreciate the natural beauty."
-        },
-        {
-          "question": "What dining options are within walking distance?",
-          "answer": "Corniglia offers excellent restaurants within the compact village center. Cecio serves authentic family recipes, Osteria Mananan provides fine dining with sea views, and Cantina de Mananan specializes in local wine tastings. Several cafés and a small grocery store complete the options."
-        },
-        {
-          "question": "Can I access other Cinque Terre villages easily from Corniglia?",
-          "answer": "Absolutely. The train station connects to all villages in 5-20 minutes, and hiking trails lead to both Vernazza and Manarola. Many guests find Corniglia the perfect base for exploring while returning to a peaceful retreat each evening."
-        },
-        {
-          "question": "Do I need a car to stay in Corniglia?",
-          "answer": "No car needed or recommended. The village is pedestrian-only with very limited parking outside the center. Public transport, walking, and cycling are the best ways to explore. Some apartments include bicycle access for exploring local vineyard paths."
-        },
-        {
-          "question": "What's the best time to book a Corniglia apartment?",
-          "answer": "Book 3-6 months ahead for peak season (June-September). Spring and fall offer excellent weather with fewer crowds. Winter stays provide a unique perspective on local life, though some restaurants may have reduced hours."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "headline": "Ready to Experience Authentic Cinque Terre Life?",
-      "subtitle": "Discover carefully selected apartments in Corniglia where ancient traditions meet modern comfort, and every morning brings vineyard views and Mediterranean magic.",
-      "buttons": [
-        {
-          "text": "Browse Available Properties",
-          "url": "#properties",
-          "variant": "primary"
-        },
-        {
-          "text": "Contact Our Local Experts",
-          "url": "#contact",
-          "variant": "secondary"
-        }
+        { "text": "Hotels & B&Bs", "url": "/en/corniglia/hotels", "variant": "primary" },
+        { "text": "Things to Do", "url": "/en/corniglia/things-to-do", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "apartments"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T10:56:03.175Z"
+  "updated_at": "2026-01-07T15:00:00.000Z"
 }

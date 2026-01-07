@@ -7,159 +7,157 @@
     "it": "/it/vernazza/beaches"
   },
   "title": {
-    "en": "Vernazza Beaches: Your Guide to Cinque Terre's Most Spectacular Swimming Spots"
+    "en": "Swimming in Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Vernazza Beaches Guide | Best Swimming Spots Cinque Terre"
+      "en": "Swimming in Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Vernazza's stunning beaches from the famous main harbor to hidden rocky coves. Swimming tips, access routes, and insider secrets included."
+      "en": "Vernazza's swimming is not about beaches—it's about the harbor. Rocky platforms, diving locals, clear water protected by ancient breakwaters. This is how the village has always entered the sea."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1558618047-3c8c76d99d4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHx2ZXJuYXp6YSUyMGJlYWNoJTIwY2lucXVlJTIwdGVycmV8ZW58MHwwfHx8MTc2NTg5MTc0NXww&ixlib=rb-4.1.0&q=80&w=1200",
-      "eyebrow": "Vernazza Beaches",
-      "title": "Dive Into Vernazza's Dramatic Coastal Beauty",
-      "subtitle": "From the iconic harbor beach where medieval towers meet turquoise waters to secret swimming spots accessible only to those who know where to look, Vernazza offers the most photogenic beaches in all of Cinque Terre.",
+      "type": "editorial-hero",
+      "title": "The Harbor<br/>Is the Beach",
+      "subtitle": "Vernazza has a small pebble beach, often crowded. But the real swimming happens from the rocks—ancient platforms where locals dive, flat stone worn smooth by generations of swimmers. This is not Caribbean sand. This is Mediterranean entry.",
+      "badge": "Swimming Guide",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76d99d4c?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Swimming Village",
+      "quote": "Cinque Terre was not built for sunbathing. It was built for fishing, farming, and survival. The swimming that evolved here reflects this—direct entry into deep water from rocks that have served this purpose for centuries.",
+      "content": [
+        "**The natural harbor is the key**. Vernazza's protected cove creates swimming conditions impossible elsewhere on this exposed coast. When neighboring villages face rough seas, Vernazza's harbor remains calm.",
+        "**The beach fills quickly**. The small pebble area near the piazza is convenient but crowded by mid-morning. This is where families gather, where tourists assume swimming must happen. It's fine, but not the best option.",
+        "**The rocks are where locals swim**. Past the church, on either side of the harbor, flat stone platforms offer space, diving opportunities, and water that's deeper and clearer. Follow the locals; they know.",
+        "**The breakwater extends everything**. The stone arm protecting the harbor doubles as swimming access—and as the village's evening gathering place. Sunset here, wine in hand, is Vernazza's daily ritual."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "beach",
+      "items": [
+        {
+          "id": 1,
+          "name": "Harbor Beach",
+          "category": "Main Swimming Area",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The small pebble beach where the piazza meets the sea—convenient, crowded, quintessentially Vernazza.",
+          "description": "This is where most visitors swim, and it's easy to understand why. The beach opens directly from the village center, offers gradual entry into calm water, and provides constant views of the harbor and medieval tower. It's also small, fills quickly, and lacks the space for real sunbathing.",
+          "giuliaComment": "Fine for a quick dip after lunch, but not where I spend my time. The beach gets packed by 11am. If you want space, look elsewhere. If you want convenience and company, this works.",
+          "signature": "Where the village meets the water",
+          "practicalInfo": "Free access. Pebbles, not sand. Fills quickly in summer. Shallow entry, good for children."
+        },
+        {
+          "id": 2,
+          "name": "Eastern Rock Platforms",
+          "category": "Local Swimming Spot",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Past the church, the flat rocks where Vernazza's residents have swum for generations.",
+          "description": "The stone platforms east of the harbor offer what the beach cannot: space, diving, and deep water. Locals have used these rocks forever—the smooth surfaces worn by countless swimmers, the entry points tested by generations. The water is clearer here, the crowds thinner, the experience more authentic.",
+          "giuliaComment": "This is where I swim. The walk past the church takes two minutes, but it filters out most tourists. The rocks are perfect for reading, diving, and actual swimming—not just wading.",
+          "signature": "Where locals enter the sea",
+          "practicalInfo": "2-minute walk past church. Water shoes essential. Deep water—be confident. Best morning or late afternoon."
+        },
+        {
+          "id": 3,
+          "name": "The Breakwater",
+          "category": "Sunset Gathering Place",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The stone arm that protects the harbor—and the village's unofficial evening living room.",
+          "description": "The breakwater extends into the harbor, offering swimming access on calm days and gathering space every evening. By 6pm in summer, every flat rock is occupied—locals and visitors alike, wine in hand, legs dangling over the water. The swimming here is secondary to the scene.",
+          "giuliaComment": "Come for the sunset, not the swimming. The breakwater is where Vernazza performs its evening ritual—strangers becoming temporary neighbors over shared views and local wine. Bring a bottle; you'll make friends.",
+          "signature": "Where the day ends together",
+          "practicalInfo": "Free access. Can be slippery. Best for sunset gathering rather than serious swimming. Bring drinks and snacks."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Case for Water Shoes",
+          "quote": "Sea urchins live on these rocks. The smooth stone becomes slippery when wet. The entry points can be sharp. Water shoes are not optional equipment—they're the difference between a pleasant swim and a painful experience. Every local owns a pair. You should too."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Beyond the Harbor",
+      "quote": "The trails that connect Vernazza to neighboring villages also lead to hidden swimming spots—coves and platforms accessible only on foot, offering solitude impossible in the harbor.",
+      "content": [
+        "**The Monterosso trail reveals coves**. Ten to fifteen minutes along the coastal path, small inlets appear—rocky entrances to clear water, often empty even when the harbor is packed.",
+        "**The Corniglia direction is gentler**. The swimming spots along this trail are easier to access, with more gradual entries. Less dramatic than the Monterosso side, but more accessible.",
+        "**Morning is transformation time**. Before 8am, even the main harbor belongs to locals and early risers. The light is soft, the water is calm, and you'll feel like you've discovered something private.",
+        "**Bring everything you need**. The hidden coves have no facilities, no vendors, no shade. Pack water, snacks, sun protection, and the water shoes that will make entry possible."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "beach",
+      "items": [
+        {
+          "id": 4,
+          "name": "Hidden Coves (Monterosso Direction)",
+          "category": "Trail-Access Swimming",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The secret spots that hiking rewards—rocky inlets with clear water and no crowds.",
+          "description": "The Sentiero Azzurro toward Monterosso passes several small coves inaccessible by any other means. Look for worn paths leading down from the trail—if you see locals' towels, you've found a good spot. The swimming here is excellent: clear water, dramatic cliffs, and the solitude that the harbor cannot provide.",
+          "giuliaComment": "These are the spots I share with friends who want real swimming. The entrance requires scrambling, the water is immediately deep, and there's nothing tourist-friendly about it. That's the point.",
+          "signature": "Where effort equals privacy",
+          "practicalInfo": "15-20 minutes along Monterosso trail. Rocky entry. Bring everything—no facilities. Strong swimmers only."
+        },
+        {
+          "id": 5,
+          "name": "Early Morning Harbor",
+          "category": "Timing Strategy",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1558618047-3c8c76d99d4c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The same harbor, transformed by the absence of crowds—Vernazza at 7am belongs to different people.",
+          "description": "Before 8am, the harbor you know becomes unrecognizable. The beach is empty. The rock platforms have space. The water is glassy. Fishermen are the only company, and they're focused on their work. This is when Vernazza reveals what it looks like without visitors.",
+          "giuliaComment": "This is my secret, and I'm giving it to you: wake up early. 7am at the harbor is a different village. By 10am it's gone. That three-hour window is worth the lost sleep.",
+          "signature": "Where timing changes everything",
+          "practicalInfo": "Before 8am. Same locations, empty. Coffee at Il Pirata opens early. Bring towel—nothing else needed."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Mediterranean Reality",
+          "quote": "This is not a sandy beach destination. The swimming here is about entering the sea, not lounging beside it. Bring a towel for the rocks, accept that comfort is relative, and let the water itself be the attraction. It's clearer, cleaner, and more refreshing than any beach resort."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Water Rewards the Willing",
+      "content": [
+        "Vernazza's swimming requires adaptation. Forget sandy beaches, lounge chairs, and gradual entries. This is Mediterranean swimming as it has always been—rocky, direct, and deeply satisfying.",
+        "Find your spot: the crowded beach, the local rocks, the hidden cove, the early morning harbor. Each offers something different. Each requires something of you.",
+        "The water is the same everywhere—clear, cool, and connected to a sea that has shaped this village for a thousand years. Enter it. That's enough."
+      ],
       "buttons": [
-        {
-          "text": "Explore All Beaches",
-          "url": "#beaches-collection",
-          "variant": "primary"
-        },
-        {
-          "text": "Swimming Safety Tips",
-          "url": "#safety-tips",
-          "variant": "secondary"
-        }
+        { "text": "After the Swim", "url": "/en/vernazza/restaurants", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "secondary" }
       ]
-    },
-    {
-      "type": "stats-section",
-      "stats": [
-        {
-          "number": "1",
-          "label": "Main Harbor Beach",
-          "description": "Protected swimming in the medieval port"
-        },
-        {
-          "number": "4",
-          "label": "Rocky Swimming Spots",
-          "description": "Secret coves for adventurous swimmers"
-        },
-        {
-          "number": "18-24°C",
-          "label": "Peak Season Water Temp",
-          "description": "Perfect for swimming June through September"
-        },
-        {
-          "number": "Medieval",
-          "label": "Tower Views",
-          "description": "11th-century Doria castle overlooking the beach"
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHx2ZXJuYXp6YSUyMGhhcmJvciUyMGJlYWNofGVufDB8MHx8fDE3NjU4OTE3NDV8MA&ixlib=rb-4.1.0&q=80&w=1200",
-      "variant": "image-right",
-      "title": "Swimming in a Medieval Masterpiece",
-      "content": "Vernazza's beaches aren't just about sun and sea – they're about swimming in living history. The main harbor beach sits within the embrace of 11th-century fortifications, where the Doria family's cylindrical tower stands sentinel over swimmers just as it once watched for Saracen raiders.\n\nThe protected harbor creates naturally calm waters perfect for families, while the dramatic backdrop of colorful houses cascading down cliffsides makes every swim feel like you've dove into a Renaissance painting. Early morning swims (around 7 AM) offer the most magical experience, when golden light strikes the medieval stones and you'll have the water nearly to yourself.\n\nBeyond the famous harbor, Vernazza reveals secret swimming spots to those willing to explore. Rocky platforms carved by centuries of waves provide natural diving boards, while hidden coves accessible via the Sentiero Azzurro offer pristine waters away from the crowds."
-    },
-    {
-      "type": "collection-embed",
-      "collection": "beaches",
-      "village": "vernazza"
-    },
-    {
-      "type": "feature-section",
-      "title": "Essential Beach Wisdom for Vernazza",
-      "features": [
-        {
-          "icon": "🌅",
-          "title": "Golden Hour Swimming",
-          "description": "Arrive by 7 AM for magical light on medieval towers and calm waters before day crowds arrive."
-        },
-        {
-          "icon": "🏊‍♀️",
-          "title": "Harbor Protection",
-          "description": "The medieval breakwater creates naturally sheltered swimming conditions even when seas are rough elsewhere."
-        },
-        {
-          "icon": "📸",
-          "title": "Underwater Views",
-          "description": "Crystal-clear Mediterranean waters offer 15-20 meter visibility for snorkeling around ancient harbor stones."
-        },
-        {
-          "icon": "⚠️",
-          "title": "Rock Entry Points",
-          "description": "Wear sturdy water shoes for rocky platforms – the ancient stones can be slippery when wet."
-        },
-        {
-          "icon": "🎒",
-          "title": "Beach Gear Strategy",
-          "description": "Pack light and waterproof – space is limited and you'll want to explore multiple swimming spots."
-        },
-        {
-          "icon": "🕐",
-          "title": "Tide Timing",
-          "description": "High tide offers deeper water for diving from rocks, low tide reveals hidden tidal pools to explore."
-        }
-      ]
-    },
-    {
-      "type": "faq-section",
-      "title": "Your Vernazza Beach Questions Answered",
-      "faqs": [
-        {
-          "question": "Is Vernazza's main beach suitable for children?",
-          "answer": "Absolutely. The harbor beach offers protected, shallow areas perfect for families. The medieval breakwater shields swimmers from waves, creating calm, lagoon-like conditions. However, always supervise children as there are deeper areas near the harbor mouth."
-        },
-        {
-          "question": "Can I access the rocky swimming spots safely?",
-          "answer": "Yes, but come prepared. The rocky platforms along Vernazza's coast are accessible via marked paths, but wear sturdy water shoes with good grip. The best entry points are clearly visible from the main village – look for areas where locals are swimming and follow their lead."
-        },
-        {
-          "question": "What's the best time to swim at Vernazza for photos?",
-          "answer": "Early morning (7-9 AM) offers the most dramatic light as the sun illuminates the medieval tower and colorful houses. The water is calmest then too. For sunset swimming, the rocky platforms on the western side provide stunning evening light, though the harbor itself faces east."
-        },
-        {
-          "question": "Are there facilities like showers or changing rooms?",
-          "answer": "Limited facilities exist near the harbor – there are public restrooms in the village center, about a 2-minute walk from the beach. No changing rooms or showers directly on the beach, so plan accordingly. Several waterfront restaurants offer facilities for customers."
-        },
-        {
-          "question": "How do I find the secret swimming spots around Vernazza?",
-          "answer": "The best hidden spots are accessible via the Sentiero Azzurro trail sections. Head toward Monterosso for 10-15 minutes to find rocky coves, or toward Corniglia for dramatic cliff-diving spots. Look for worn paths leading down from the trail – if you see locals' towels, you've found a good spot."
-        },
-        {
-          "question": "What water temperatures can I expect throughout the year?",
-          "answer": "Swimming season runs May through October. Water reaches 18-20°C in May/June, peaks at 24°C in August, and remains pleasant (20-22°C) through September. Even winter swimming is possible for cold-water enthusiasts, with temperatures around 14-16°C from December to March."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Dive In?",
-      "title": "Create Your Perfect Vernazza Beach Day",
-      "subtitle": "From sunrise swims in the medieval harbor to discovering hidden coves along the coastal trail, let us help you experience Vernazza's beaches like a local explorer.",
-      "button": {
-        "text": "Plan Your Beach Adventure",
-        "url": "/experiences/vernazza",
-        "variant": "primary"
-      }
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "beaches"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:31:40.171Z"
+  "updated_at": "2026-01-07T11:30:00.000Z"
 }

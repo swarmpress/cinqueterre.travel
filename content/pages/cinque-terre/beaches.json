@@ -10,6 +10,7 @@
     "en": "Cinque Terre's Secret Swimming Spots: Hidden Beaches & Azure Coves"
   },
   "page_type": "beaches",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Best Beaches in Cinque Terre | Hidden Coves & Swimming Spots"
@@ -20,44 +21,19 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg",
-      "eyebrow": "Coastal Paradise",
-      "title": "Where Turquoise Waters Meet Dramatic Cliffs",
+      "type": "editorial-hero",
+      "title": "Where Turquoise Waters<br/>Meet Dramatic Cliffs",
       "subtitle": "Dive into the Mediterranean's most stunning swimming spots along the Riviera di Levante. From secluded pebble beaches accessible only by boat to crystal-clear rock pools carved by centuries of waves.",
-      "buttons": [
-        {
-          "text": "Explore All Beaches",
-          "url": "#beaches",
-          "variant": "primary"
-        },
-        {
-          "text": "Best Swimming Times",
-          "url": "#timing",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Coastal Paradise",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "stats": [
-        {
-          "value": "15",
-          "label": "Swimming Spots",
-          "description": "From beaches to hidden coves"
-        },
-        {
-          "value": "24°C",
-          "label": "Summer Water",
-          "description": "Perfect swimming temperature"
-        },
-        {
-          "value": "May-Oct",
-          "label": "Swimming Season",
-          "description": "Optimal conditions"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Swimming Season",
+      "quote": "The magic happens when you know where to look. While tourists crowd the main beaches, locals slip away to hidden coves accessible only by scrambling down rocky paths or arriving by kayak.",
+      "leftContent": "<p><strong>15 swimming spots</strong> await discovery, from sandy beaches to hidden coves. The water reaches a perfect <strong>24C in summer</strong>, with visibility often exceeding 20 meters on calm days.</p><p>The swimming season runs from <strong>May through October</strong>, with July and August offering the warmest waters but also the most crowds.</p>",
+      "rightContent": "<p>Early morning swims reward you with <strong>mirror-calm waters</strong> and golden light painting the cliffs. September offers the sweet spot of warm seas with fewer crowds.</p><p>Bring water shoes - the rocky shores can be challenging, but they create the most <strong>spectacular underwater landscapes</strong>.</p>"
     },
     {
       "type": "collection-embed",
@@ -72,34 +48,42 @@
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-regular.jpg",
       "eyebrow": "Insider's Guide",
       "title": "Swimming Like a Local in Cinque Terre",
-      "content": "The magic happens when you know where to look. While tourists crowd the main beaches, locals slip away to hidden coves accessible only by scrambling down rocky paths or arriving by kayak.\n\nTiming is everything here. Early morning swims reward you with mirror-calm waters and golden light painting the cliffs. The water temperature peaks in August at a delicious 25°C, but September offers the sweet spot of warm seas with fewer crowds.\n\nBring water shoes - the rocky shores can be challenging, but they create the most spectacular underwater landscapes. The clarity here rivals tropical destinations, with visibility often exceeding 20 meters on calm days."
+      "content": "The magic happens when you know where to look. While tourists crowd the main beaches, locals slip away to hidden coves accessible only by scrambling down rocky paths or arriving by kayak.\n\nTiming is everything here. Early morning swims reward you with mirror-calm waters and golden light painting the cliffs. The water temperature peaks in August at a delicious 25C, but September offers the sweet spot of warm seas with fewer crowds.\n\nBring water shoes - the rocky shores can be challenging, but they create the most spectacular underwater landscapes. The clarity here rivals tropical destinations, with visibility often exceeding 20 meters on calm days."
     },
     {
-      "type": "feature-section",
-      "eyebrow": "Essential Knowledge",
-      "title": "Your Complete Swimming Guide",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
         {
-          "icon": "🏊‍♀️",
-          "title": "Best Swimming Months",
-          "description": "May through October offer comfortable water temperatures. July-August peak at 24-25°C, while shoulder seasons provide perfect conditions with fewer crowds."
+          "id": 1,
+          "name": "Best Swimming Months",
+          "category": "Timing",
+          "description": "May through October offer comfortable water temperatures. July-August peak at 24-25C, while shoulder seasons provide perfect conditions with fewer crowds.",
+          "signature": "September is the local's secret - warm water, empty coves"
         },
         {
-          "icon": "⛵",
-          "title": "Boat Access Beaches",
-          "description": "Many of Cinque Terre's most stunning swimming spots are only accessible by boat or kayak. Consider hiring a local fisherman for authentic access to hidden coves."
+          "id": 2,
+          "name": "Boat Access Beaches",
+          "category": "Hidden Gems",
+          "description": "Many of Cinque Terre's most stunning swimming spots are only accessible by boat or kayak. Consider hiring a local fisherman for authentic access to hidden coves.",
+          "signature": "Where the trails end, the true adventure begins"
         },
         {
-          "icon": "🌅",
-          "title": "Perfect Timing",
-          "description": "Swim before 9 AM or after 5 PM for the calmest waters and best light. Avoid midday when afternoon winds can create choppy conditions."
+          "id": 3,
+          "name": "Perfect Timing",
+          "category": "Daily Rhythm",
+          "description": "Swim before 9 AM or after 5 PM for the calmest waters and best light. Avoid midday when afternoon winds can create choppy conditions.",
+          "signature": "The Mediterranean rewards the early riser"
         },
         {
-          "icon": "👟",
-          "title": "Essential Gear",
-          "description": "Water shoes are mandatory for rocky entries. Bring snorkel gear - the underwater visibility and marine life are exceptional in these protected waters."
+          "id": 4,
+          "name": "Essential Gear",
+          "category": "Preparation",
+          "description": "Water shoes are mandatory for rocky entries. Bring snorkel gear - the underwater visibility and marine life are exceptional in these protected waters.",
+          "signature": "The right gear transforms a swim into an exploration"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "faq-section",
@@ -128,27 +112,18 @@
         },
         {
           "question": "When is the water warmest for swimming?",
-          "answer": "Water temperature peaks in August-September at 24-25°C (75-77°F). The swimming season runs May through October, with comfortable temperatures from June onwards. September offers the perfect balance of warm water and fewer crowds."
+          "answer": "Water temperature peaks in August-September at 24-25C (75-77F). The swimming season runs May through October, with comfortable temperatures from June onwards. September offers the perfect balance of warm water and fewer crowds."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Dive In?",
+      "type": "closing-note",
+      "badge": "Ready to Dive In",
       "title": "Your Cinque Terre Swimming Adventure Awaits",
-      "subtitle": "From hidden coves to crystal-clear rock pools, discover why these Mediterranean waters have enchanted swimmers for centuries.",
-      "buttons": [
-        {
-          "text": "Plan Your Swimming Route",
-          "url": "/cinque-terre/itineraries",
-          "variant": "primary"
-        },
-        {
-          "text": "Book Boat Tours",
-          "url": "/cinque-terre/tours",
-          "variant": "secondary"
-        }
+      "content": "<p>From hidden coves to crystal-clear rock pools, discover why these Mediterranean waters have enchanted swimmers for centuries.</p><p>The best swimming experiences require patience and timing - arrive early, stay late, and let the rhythm of the tides guide your day.</p>",
+      "actions": [
+        { "label": "Plan Your Swimming Route", "href": "/cinque-terre/itineraries", "variant": "primary" },
+        { "label": "Book Boat Tours", "href": "/cinque-terre/tours", "variant": "secondary" }
       ]
     }
   ],
@@ -156,7 +131,7 @@
     "city": "cinque-terre",
     "page_type": "beaches"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:41:03.493Z"
 }

@@ -7,186 +7,169 @@
     "it": "/it/monterosso/things-to-do"
   },
   "title": {
-    "en": "Things to Do in Monterosso al Mare - Complete Cinque Terre Guide"
+    "en": "What to Do in Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "things-to-do",
   "seo": {
     "title": {
-      "en": "Best Things to Do in Monterosso al Mare | Cinque Terre Travel"
+      "en": "What to Do in Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover the best activities in Monterosso al Mare, from historic sites to beachfront dining. Your complete guide to Cinque Terre's largest village."
+      "en": "Monterosso offers what other villages cannot: real beaches, real hotels, and the space to spread out. The question here is not what to do, but which pleasures to prioritize."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "Monterosso al Mare",
-      "title": "Where Medieval Charm Meets Mediterranean Bliss",
-      "subtitle": "Discover the largest and most historically rich village of the Cinque Terre, where ancient monasteries overlook pristine beaches and UNESCO-protected terraced vineyards cascade to the sea.",
+      "type": "editorial-hero",
+      "title": "The Village<br/>of Options",
+      "subtitle": "Monterosso is Cinque Terre's largest village, and its generosity shows. Sandy beaches instead of rocky platforms. Hotels with actual lobbies. Restaurants with sea views and room for tables. Here, the choices are real—and that's both freedom and responsibility.",
+      "badge": "Things to Do",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Two Villages in One",
+      "quote": "A tunnel connects old Monterosso to new. On one side, medieval streets where donkeys once carried lemons to market. On the other, Fegina—the beach, the station, the resort life. To know Monterosso is to walk between these worlds.",
+      "content": [
+        "**The old town offers history**. The striped church of San Giovanni Battista, the narrow caruggi, the sense of centuries compressed into stone. This is where locals worship, where grandmothers shop, where the village has always lived.",
+        "**Fegina offers the beach**. Sandy, accessible, lined with stabilimenti where you can rent umbrellas and order lunch without moving. This is why most visitors come—and why Monterosso can accommodate them.",
+        "**The two towns share lemons**. The terraced groves above produce the famous Monterosso lemons—fat, fragrant, turned into limoncello and lemon tarts and everything in between. The scent defines summer here.",
+        "**Anchovies connect everything**. The salted anchovies of Monterosso have IGP protection. They appear in every restaurant, on every menu. This is a village that still tastes of its fishing past."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "activity",
+      "items": [
+        {
+          "id": 1,
+          "name": "Spend a Day on the Beach",
+          "category": "Essential Experience",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The only sandy beaches in Cinque Terre—where you can actually lay down a towel and settle in.",
+          "description": "Monterosso's beaches are why half the visitors come. Fegina Beach stretches long and accessible, with both free sections and stabilimenti offering umbrellas, loungers, and seaside service. This is Mediterranean beach life as it's meant to be—proper relaxation, not cliff perching.",
+          "giuliaComment": "I spent my childhood summers on this beach. The stabilimenti have changed hands, the prices have risen, but the feeling is the same. Arrive early, claim your spot, and let the hours dissolve.",
+          "signature": "Where beach day means beach day",
+          "practicalInfo": "Free sections available. Stabilimenti €20-40/day for umbrella and loungers. Best before 10am in summer."
+        },
+        {
+          "id": 2,
+          "name": "Meet Il Gigante",
+          "category": "Icon",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The 14-meter Neptune carved into the cliff—Art Nouveau ambition meeting Ligurian rock.",
+          "description": "Il Gigante once supported a terrace on his shoulders, part of a grand villa that World War II bombs destroyed. Now he stands damaged but defiant at the edge of Fegina Beach, a reminder that Monterosso has always attracted dreamers willing to build impossible things.",
+          "giuliaComment": "As a child, I thought he was ancient—a Roman god who had always been there. Learning he was built in 1910 somehow made him more impressive. Someone looked at that cliff and imagined him.",
+          "signature": "Where ambition became legend",
+          "practicalInfo": "Visible from Fegina Beach. Best photos from the water or eastern end of beach. Free to view."
+        },
+        {
+          "id": 3,
+          "name": "Explore the Old Town",
+          "category": "History",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1539650116574-75c0c6b73b5e?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Medieval streets that remember when this was the largest, most important village on the coast.",
+          "description": "The centro storico unfolds through narrow caruggi, past ancient doorways and small piazzas. The Church of San Giovanni Battista anchors everything with its Gothic-Ligurian stripes. The Oratorio dei Neri holds centuries of local faith. Every turn reveals another layer of the 1,400 years Monterosso has stood here.",
+          "giuliaComment": "Walk the old town in early morning when it belongs to residents. The rhythm is different—slower, quieter, more real. This is the Monterosso that existed before tourism.",
+          "signature": "Where centuries compress into stone",
+          "practicalInfo": "Church opens 9am. Morning best for photography. Free to explore."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Lemon Question",
+          "quote": "Monterosso lemons are not just lemons. They're larger, more fragrant, less bitter—the product of terraced groves tended for centuries. You'll find them everywhere: in limoncello, in desserts, in the lemon granite that saves hot afternoons. The scent is Monterosso's signature perfume."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Beyond the Beach",
+      "quote": "The beach is the easy pleasure. But Monterosso rewards those who look up—to the terraces, the convents, the paths that climb toward views the beach cannot offer.",
+      "content": [
+        "**The Capuchin Convent** perches above the village, housing Van Dyck's 'Crucifixion' and gardens where monks have tended plants for four centuries. The views from here explain why they stayed.",
+        "**The terraced vineyards** climb impossible slopes. Walk among them on paths that farmers have used for a thousand years. The labor required to build and maintain these walls is almost inconceivable.",
+        "**Aurora Tower** offers the only 360-degree viewpoint in the village—and now houses one of the best restaurants. Dinner here means watching sunset from where guards once watched for raiders.",
+        "**The Punta Mesco trail** leads to the lighthouse at the end of the peninsula. It's the most dramatic hike starting from Monterosso, and the views encompass the entire coast."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "activity",
+      "items": [
+        {
+          "id": 4,
+          "name": "Visit the Capuchin Convent",
+          "category": "Sacred Site",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where Van Dyck's Crucifixion hangs and monks still tend gardens above the sea.",
+          "description": "The Convento dei Cappuccini sits between old town and Fegina, a 17th-century monastery that somehow survived time and war. The cloister is peaceful, the church holds genuine artistic treasure, and the views stretch across both halves of the village.",
+          "giuliaComment": "The convent is easy to miss—tourists rush between beach and train. But it's one of the most peaceful places in Cinque Terre. The monks who chose this spot understood something.",
+          "signature": "Where contemplation meets coast",
+          "practicalInfo": "Open daily, limited hours at noon. Modest dress required. Small donation appreciated. 10-minute walk from station."
+        },
+        {
+          "id": 5,
+          "name": "Hike to Punta Mesco",
+          "category": "Trail",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The lighthouse trail that reveals the coast from above—and demands effort in exchange.",
+          "description": "The path to Punta Mesco climbs from Monterosso's western edge to the lighthouse at the end of the peninsula. It's challenging—perhaps 2 hours each way—but the views are unmatched. On clear days, you can see from the French Riviera to Portofino.",
+          "giuliaComment": "This is my favorite hike from Monterosso. The lighthouse sits alone at the end of everything, and the silence up there is different from village silence. You've earned it.",
+          "signature": "Where the coast reveals its full sweep",
+          "practicalInfo": "4 hours round trip. Bring water. Best in morning. Challenging but rewarding."
+        },
+        {
+          "id": 6,
+          "name": "Taste Monterosso Anchovies",
+          "category": "Culinary Heritage",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
+          "intro": "The IGP-protected anchovies that have defined this coast for centuries—salted, fried, marinated, perfect.",
+          "description": "Monterosso anchovies carry protected status because they're genuinely different—caught in these specific waters, processed using methods unchanged for generations. Every restaurant serves them, each preparation revealing another dimension of this small, essential fish.",
+          "giuliaComment": "Ask how the anchovies are prepared before you order. Salted raw with lemon. Fried until crisp. Stuffed and baked. Marinated in vinegar. Each version tells you something about the chef.",
+          "signature": "Where small fish carry large tradition",
+          "practicalInfo": "Available everywhere. Ask for local preparation. Pair with local white wine."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Afternoon Truth",
+          "quote": "Monterosso is two villages at noon: the beach crowded with swimmers, the old town empty as locals eat and rest. By 4pm, the balance shifts—the beach empties toward showers and aperitivos, the old town wakes for evening passeggiata. Time your activities accordingly."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Gift of Choice",
+      "content": [
+        "Monterosso gives you what the other villages cannot: options. You can spend your days entirely on the beach and miss nothing essential. Or you can climb to convents, hike to lighthouses, and taste your way through anchovy preparations.",
+        "The luxury here is freedom. The challenge is choosing. Either way, the village accommodates—with beaches wide enough, restaurants numerous enough, and experiences varied enough to fill whatever time you have.",
+        "Choose something. Then let Monterosso surprise you with what you didn't plan for."
+      ],
       "buttons": [
-        {
-          "text": "Explore Historic Sites",
-          "url": "#historic-attractions",
-          "variant": "primary"
-        },
-        {
-          "text": "Best Beaches & Dining",
-          "url": "#beaches-dining",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Monterosso at a Glance",
-      "stats": [
-        {
-          "number": "643 CE",
-          "label": "First recorded in history",
-          "description": "Oldest documented Cinque Terre village"
-        },
-        {
-          "number": "2",
-          "label": "Historic districts",
-          "description": "Old Town and modern Fegina beach area"
-        },
-        {
-          "number": "1056",
-          "label": "Benedictine monastery founded",
-          "description": "Established as regional religious center"
-        },
-        {
-          "number": "1997",
-          "label": "UNESCO World Heritage",
-          "description": "Recognized for cultural significance"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Unmissable Experiences in Monterosso",
-      "subtitle": "From ancient monasteries to world-class beaches, discover what makes Monterosso the crown jewel of the Cinque Terre",
-      "features": [
-        {
-          "icon": "⛪",
-          "title": "Church of San Giovanni Battista",
-          "description": "Marvel at the 13th-century Gothic architecture with its distinctive black and white striped facade, a masterpiece of Ligurian religious art housing centuries of devotional treasures."
-        },
-        {
-          "icon": "🏖️",
-          "title": "Fegina Beach & Monterosso Beach",
-          "description": "Relax on the Cinque Terre's largest sandy beaches, complete with beach clubs, crystal-clear waters, and the iconic Il Gigante statue carved into the cliff."
-        },
-        {
-          "icon": "🍷",
-          "title": "Sciacchetrà Wine Tastings",
-          "description": "Sample the region's legendary dessert wine made from dried grapes, produced in ancient terraced vineyards that have clung to these cliffs for over a millennium."
-        },
-        {
-          "icon": "🥾",
-          "title": "Sentiero Azzurro Trail",
-          "description": "Begin your coastal hiking adventure on the famous Blue Trail, connecting all five villages with breathtaking clifftop views and Mediterranean flora."
-        },
-        {
-          "icon": "🐟",
-          "title": "Anchovy Processing Heritage",
-          "description": "Witness traditional anchovy salting techniques that have remained unchanged since medieval times, a culinary art form passed down through generations."
-        },
-        {
-          "icon": "🌅",
-          "title": "Aurora Tower Panoramic Views",
-          "description": "Ascend to Torre Aurora for 360-degree views of the entire Cinque Terre coastline while enjoying craft cocktails in a historic 16th-century watchtower."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image-right",
-      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6b73b5e?w=800&q=80",
-      "eyebrow": "Historic Monterosso",
-      "title": "Walk Through Medieval Streets Where Nobel Poets Found Inspiration",
-      "content": "Monterosso's old town reveals layers of history at every turn. The narrow medieval streets, called *caruggi*, wind between stone houses built by merchant families who once controlled trade along this coast. Visit the Oratory of the Dead (*Oratorio dei Morti*), where frescoes from the 15th century tell stories of faith and community resilience.\n\nThe village's connection to literature runs deep. Nobel Prize-winning poet Eugenio Montale spent his summers here, finding inspiration in these very streets and seascapes. His house, now marked with a commemorative plaque, overlooks the bay where he wrote some of his most celebrated verses.\n\nDon't miss the Capuchin Convent, perched on the hill between old and new Monterosso. The 17th-century complex houses Van Dyck's 'Crucifixion' and offers sweeping views of the coastline that have remained unchanged for centuries.",
-      "buttons": [
-        {
-          "text": "Plan Your Historic Walk",
-          "url": "#historic-route",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image-left",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1565026057447-bc90a3dceb87-regular.jpg",
-      "eyebrow": "Culinary Experiences",
-      "title": "Taste Centuries of Tradition at Monterosso's Legendary Tables",
-      "content": "Monterosso's culinary scene reflects its unique position as both fishing village and agricultural center. At **Ristorante Miky**, secure a terrace table for sunset dining where fresh *crudo di ricciola* showcases the day's catch with modern finesse. The restaurant's location directly on the beach means you're literally dining where fishing boats have landed for over 800 years.\n\nFor an authentic farm-to-table experience, **Ristorante Ciak** offers something truly special. The chef tends his own organic gardens in the morning, then transforms that day's harvest into traditional Ligurian dishes. Watch him work through the street-facing window – a living theater of culinary tradition.\n\n**Torre Aurora** provides the most dramatic dining experience, set within a historic watchtower with panoramic terraces. Their creative cocktails incorporate local ingredients like Cinque Terre herbs and Sciacchetrà wine, creating drinks that taste of place and history.\n\nPair any meal with local Cinque Terre Bianco DOC wine or the legendary Sciacchetrà dessert wine, both produced on terraces carved into cliffsides by monks nearly a millennium ago.",
-      "buttons": [
-        {
-          "text": "Reserve Premium Dining",
-          "url": "#restaurant-bookings",
-          "variant": "primary"
-        }
-      ]
-    },
-    {
-      "type": "faq-section",
-      "title": "Your Monterosso Questions Answered",
-      "faqs": [
-        {
-          "question": "What makes Monterosso different from the other Cinque Terre villages?",
-          "answer": "Monterosso is the largest and most historically significant village, featuring the only substantial beaches in Cinque Terre. It's divided into two districts connected by an underground tunnel: the medieval old town with its religious sites and ancient streets, and the modern Fegina area with resort amenities. This unique combination offers both cultural depth and beach relaxation."
-        },
-        {
-          "question": "How long should I plan to spend in Monterosso?",
-          "answer": "Allow a full day to experience Monterosso properly. Spend the morning exploring the old town's churches and historic sites (2-3 hours), enjoy lunch at a waterfront restaurant, then relax on the beach or hike to viewpoints in the afternoon. Many visitors use Monterosso as their base for exploring other villages, as it offers the most accommodation options."
-        },
-        {
-          "question": "What are the best times to visit Monterosso's restaurants?",
-          "answer": "Make reservations well in advance, especially for terrace seating. Lunch service typically runs 12:00-15:00, with dinner from 19:00-23:00. For sunset dining at Torre Aurora or Ristorante Miky, book the earliest dinner seating. Many restaurants close on Mondays and during winter months (November-March)."
-        },
-        {
-          "question": "Can I swim at Monterosso's beaches year-round?",
-          "answer": "Swimming season runs May through October, with warmest waters July-September. The beaches offer both free public areas and paid stabilimenti (beach clubs) with amenities like umbrellas, loungers, and waterfront dining. Fegina Beach has the most facilities, while Monterosso Beach near the old town is more compact and historic."
-        },
-        {
-          "question": "What's the best way to reach Monterosso's hiking trails?",
-          "answer": "The famous Sentiero Azzurro (Blue Trail) begins at Monterosso's eastern edge, near the railway station. Purchase your Cinque Terre Card for trail access and train connections. The trail to Vernazza (2 km, 1.5 hours) offers spectacular coastal views and is considered the most scenic section of the entire network."
-        },
-        {
-          "question": "Where can I experience traditional anchovy processing?",
-          "answer": "Visit local specialty shops in the old town where you can observe traditional salting and preservation methods. The best time is during anchovy season (May-September) when fishing boats bring in daily catches. Many restaurants also offer anchovy tastings paired with local wines, showcasing this ancient preservation art."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Explore",
-      "title": "Experience Monterosso's Timeless Magic",
-      "subtitle": "From medieval monasteries to modern beach clubs, discover why Monterosso al Mare has captivated travelers for over a thousand years. Let our local expertise guide you to experiences beyond the ordinary.",
-      "buttons": [
-        {
-          "text": "Plan Your Monterosso Experience",
-          "url": "#contact",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Other Cinque Terre Villages",
-          "url": "/villages",
-          "variant": "secondary"
-        }
+        { "text": "Where to Eat", "url": "/en/monterosso/restaurants", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/monterosso/hotels", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "things-to-do"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:08:34.406Z"
+  "updated_at": "2026-01-07T13:00:00.000Z"
 }

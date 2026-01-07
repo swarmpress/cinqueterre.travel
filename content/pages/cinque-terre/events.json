@@ -10,6 +10,7 @@
     "en": "Cinque Terre Events & Festivals - Your Cultural Calendar"
   },
   "page_type": "events",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre Events & Festivals | Cinqueterre.travel"
@@ -20,49 +21,19 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
-      "eyebrow": "Cultural Experiences",
-      "title": "Where Ancient Traditions Meet Mediterranean Magic",
+      "type": "editorial-hero",
+      "title": "Where Ancient Traditions<br/>Meet Mediterranean Magic",
       "subtitle": "From underwater Christmas ceremonies to harvest celebrations, discover the festivals that bring Cinque Terre's timeless villages to life through centuries-old traditions and community spirit.",
-      "buttons": [
-        {
-          "text": "Browse Events",
-          "url": "#events",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Visit",
-          "url": "/contact",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Cultural Experiences",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "stats": [
-        {
-          "number": "103",
-          "label": "Annual Events",
-          "description": "From intimate village celebrations to coast-wide festivals"
-        },
-        {
-          "number": "5",
-          "label": "Village Traditions",
-          "description": "Each village maintains its unique patron saint festivities"
-        },
-        {
-          "number": "12",
-          "label": "Months of Magic",
-          "description": "Year-round celebrations capture every season's beauty"
-        },
-        {
-          "number": "800+",
-          "label": "Years of Heritage",
-          "description": "Living traditions passed down through generations"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Living Heritage",
+      "quote": "Each village pulses with its own rhythm of celebration, where ancient patron saint festivals transform narrow medieval streets into theaters of devotion and joy.",
+      "leftContent": "<p>Over <strong>103 annual events</strong> bring these coastal villages to life, from intimate village celebrations to coast-wide festivals. Each of the <strong>5 villages</strong> maintains its unique patron saint festivities, continuing traditions that span <strong>800+ years</strong>.</p><p>Watch processions wind through terraced vineyards, carrying centuries-old statues blessed by Mediterranean salt air.</p>",
+      "rightContent": "<p>The magic intensifies as twilight falls - <strong>lanterns flicker against pastel facades</strong> while traditional songs echo between stone walls.</p><p>Time your visit with these festivals, and you'll witness the <strong>authentic heart of Ligurian culture</strong> beating strongest. <strong>Year-round celebrations</strong> capture every season's beauty.</p>"
     },
     {
       "type": "collection-embed",
@@ -116,8 +87,8 @@
         },
         {
           "slug": "rimazu-folk-festival-riomaggiore",
-          "title": "Rimazû Folk Festival",
-          "summary": "Week-long folk music festival celebrating Ligurian dialect and Mediterranean culture, featuring reggae, folk music, storytelling ballads, and contemporary songwriting with Sciacchetrà wine tastings.",
+          "title": "Rimazu Folk Festival",
+          "summary": "Week-long folk music festival celebrating Ligurian dialect and Mediterranean culture, featuring reggae, folk music, storytelling ballads, and contemporary songwriting with Sciacchetra wine tastings.",
           "url": "/rimazu-folk-festival-riomaggiore",
           "category": "music",
           "village": "riomaggiore",
@@ -174,34 +145,42 @@
       "variant": "text-with-image",
       "image": "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcHJvY2Vzc2lvbiUyMGZlc3RpdmFsJTIwY2VsZWJyYXRpb258ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=800",
       "title": "The Soul of Cinque Terre Lives in Its Celebrations",
-      "content": "Each village pulses with its own rhythm of celebration, where ancient patron saint festivals transform narrow medieval streets into theaters of devotion and joy. Watch as processions wind through terraced vineyards, carrying centuries-old statues blessed by Mediterranean salt air. The magic intensifies as twilight falls—lanterns flicker against pastel facades while traditional songs echo between stone walls.\n\nFrom Vernazza's underwater Christmas miracle to Corniglia's harvest bounty, these aren't tourist performances but living traditions where three generations gather, recipes are passed down, and the line between sacred and celebratory beautifully blurs. Time your visit with these festivals, and you'll witness the authentic heart of Ligurian culture beating strongest."
+      "content": "Each village pulses with its own rhythm of celebration, where ancient patron saint festivals transform narrow medieval streets into theaters of devotion and joy. Watch as processions wind through terraced vineyards, carrying centuries-old statues blessed by Mediterranean salt air. The magic intensifies as twilight falls - lanterns flicker against pastel facades while traditional songs echo between stone walls.\n\nFrom Vernazza's underwater Christmas miracle to Corniglia's harvest bounty, these aren't tourist performances but living traditions where three generations gather, recipes are passed down, and the line between sacred and celebratory beautifully blurs. Time your visit with these festivals, and you'll witness the authentic heart of Ligurian culture beating strongest."
     },
     {
-      "type": "feature-section",
-      "title": "Festival Seasons & Experiences",
-      "subtitle": "Discover the perfect celebration for every season",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
         {
-          "icon": "🌸",
-          "title": "Spring Awakenings",
-          "description": "Easter processions and patron saint festivals mark the season of renewal, with flower-adorned altars and traditional benedictions overlooking terraced vineyards."
+          "id": 1,
+          "name": "Spring Awakenings",
+          "category": "March - May",
+          "description": "Easter processions and patron saint festivals mark the season of renewal, with flower-adorned altars and traditional benedictions overlooking terraced vineyards.",
+          "signature": "When the coast reawakens with color and devotion"
         },
         {
-          "icon": "☀️",
-          "title": "Summer Celebrations",
-          "description": "Village squares come alive with outdoor concerts, seafood festivals, and the magical Saint Margaret festivities complete with spectacular fireworks over the harbor."
+          "id": 2,
+          "name": "Summer Celebrations",
+          "category": "June - August",
+          "description": "Village squares come alive with outdoor concerts, seafood festivals, and the magical Saint Margaret festivities complete with spectacular fireworks over the harbor.",
+          "signature": "Long nights of celebration under Mediterranean stars"
         },
         {
-          "icon": "🍇",
-          "title": "Harvest Traditions",
-          "description": "September and October bring vendemmia celebrations, where ancient winemaking traditions blend with contemporary tastings and grape stomping ceremonies."
+          "id": 3,
+          "name": "Harvest Traditions",
+          "category": "September - October",
+          "description": "September and October bring vendemmia celebrations, where ancient winemaking traditions blend with contemporary tastings and grape stomping ceremonies.",
+          "signature": "When the terraces give up their treasures"
         },
         {
-          "icon": "🎄",
-          "title": "Winter Miracles",
-          "description": "The mystical underwater Christmas ceremony in Vernazza represents one of Italy's most unique holiday traditions, followed by candlelit processions through village streets."
+          "id": 4,
+          "name": "Winter Miracles",
+          "category": "November - February",
+          "description": "The mystical underwater Christmas ceremony in Vernazza represents one of Italy's most unique holiday traditions, followed by candlelit processions through village streets.",
+          "signature": "Sacred moments in the quietest season"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "faq-section",
@@ -229,27 +208,18 @@
         },
         {
           "question": "Can I taste local specialties at festivals?",
-          "answer": "Festival food is often the highlight! Each celebration features regional specialties—from Corniglia's famous torta during San Pietro to fresh seafood at summer festivals. Local wine, including the prized Sciacchetrà dessert wine, accompanies most celebrations. Many events include communal meals or food stalls with authentic preparations."
+          "answer": "Festival food is often the highlight! Each celebration features regional specialties - from Corniglia's famous torta during San Pietro to fresh seafood at summer festivals. Local wine, including the prized Sciacchetra dessert wine, accompanies most celebrations. Many events include communal meals or food stalls with authentic preparations."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Experience",
+      "type": "closing-note",
+      "badge": "Ready to Experience",
       "title": "Join the Celebration",
-      "subtitle": "From sacred processions to harvest festivities, discover which events align with your travel dates. Our local expertise ensures you experience the most authentic celebrations and hidden festival moments that transform your Cinque Terre journey into an unforgettable cultural immersion.",
-      "buttons": [
-        {
-          "text": "Plan My Festival Experience",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "View All Events",
-          "url": "/events",
-          "variant": "secondary"
-        }
+      "content": "<p>From sacred processions to harvest festivities, discover which events align with your travel dates. Our local expertise ensures you experience the most authentic celebrations.</p><p>These hidden festival moments transform your Cinque Terre journey into an unforgettable cultural immersion - where you become part of traditions that have united communities for centuries.</p>",
+      "actions": [
+        { "label": "Plan My Festival Experience", "href": "/en/team", "variant": "primary" },
+        { "label": "View All Events", "href": "/events", "variant": "secondary" }
       ]
     }
   ],
@@ -257,7 +227,7 @@
     "city": "cinque-terre",
     "page_type": "events"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:44:22.197Z"
 }

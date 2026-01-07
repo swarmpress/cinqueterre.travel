@@ -1,5 +1,5 @@
 {
-  "id": "185c81ca-ec37-4a68-91e5-47b85109c95a",
+  "id": "b391fd1d-f7eb-465f-b06a-9bdd0332b53b",
   "slug": {
     "en": "/en/corniglia/insights",
     "de": "/de/corniglia/insights",
@@ -7,155 +7,152 @@
     "it": "/it/corniglia/insights"
   },
   "title": {
-    "en": "Corniglia Cultural Insights: Ancient Traditions in Italy's Hilltop Village"
+    "en": "Cultural Insights from Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "insights",
   "seo": {
     "title": {
-      "en": "Corniglia Cultural Insights & Local Traditions | Cinque Terre"
+      "en": "Cultural Insights from Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Corniglia's unique agricultural heritage, ancient wine traditions, and authentic village life. Your guide to local culture in Italy's most elevated village."
+      "en": "Corniglia reveals a different Cinque Terre—agricultural rather than maritime, elevated rather than coastal, shaped by vineyards rather than fishing nets. The culture here looks up, not out."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg",
-      "eyebrow": "Cultural Heritage",
-      "title": "Where Ancient Vines Tell Stories of Time",
-      "subtitle": "Discover Corniglia's unique position as the agricultural heart of Cinque Terre, where Roman traditions of terraced viticulture continue to shape daily life and where authentic Ligurian culture thrives above the Mediterranean.",
+      "type": "editorial-hero",
+      "title": "The Village<br/>That Looks Up",
+      "subtitle": "While its neighbors built their lives around harbors and boats, Corniglia built its life around terraces and vines. The cultural insights here are agricultural, not maritime—a different Cinque Terre than the one in postcards.",
+      "badge": "Cultural Insights",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "What Makes Corniglia Different",
+      "quote": "The other villages face the sea. Corniglia faces the sky. This orientation shaped everything—the economy, the character, the way residents think about their place in the world.",
+      "content": [
+        "**No harbor meant no fishing culture**. While other villages organized around boats and catches, Corniglia organized around vines and harvests. The cultural references, the seasonal rhythms, the defining labors are agricultural.",
+        "**Height created isolation**. The 382 steps that now deter tourists once isolated the village in more meaningful ways. Corniglia developed its own dialect variations, its own traditions, its own way of being Ligurian.",
+        "**The terraces are identity**. In other villages, residents identify as fishermen or their descendants. In Corniglia, they identify as farmers—people who coaxed life from vertical stone, who built flat land where none existed.",
+        "**Wine is central**. The grapes that grow on Corniglia's slopes have been pressed into wine for millennia. Sciacchetrà—the famous dessert wine—represents the pinnacle of this tradition, requiring patience and knowledge passed through generations."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "insight",
+      "items": [
+        {
+          "id": 1,
+          "name": "The Farmer's Calendar",
+          "category": "Agricultural Rhythm",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The year in Corniglia follows the vines—pruning, growing, harvesting, pressing, waiting.",
+          "description": "While coastal villages mark time by fishing seasons and weather patterns, Corniglia marks time by agricultural cycles. Winter is for pruning and wall repair. Spring is for growth and hope. Summer is for maintenance and anticipation. Autumn is for harvest and celebration. The village's mood follows the vines' progress.",
+          "giuliaComment": "You can tell what month it is by what people are doing in the terraces. Pruning means winter. Tying means spring. Watching means summer. Harvesting means autumn. The calendar is visible.",
+          "signature": "Where time follows the growing season"
+        },
+        {
+          "id": 2,
+          "name": "The Vertical Economy",
+          "category": "Labor and Land",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Everything in Corniglia moves vertically—labor climbs up, harvest comes down, value flows from slope.",
+          "description": "The economics of Corniglia have always been vertical. Workers climb to reach the vines. Grapes are carried down in baskets. The value chain is literal: the higher the terrace, the harder the work, but often the better the wine. This vertical orientation shapes how residents think about effort and reward.",
+          "giuliaComment": "My grandmother measured wealth in terrace meters—how much wall your family maintained, how high you had to climb each day. Horizontal thinking doesn't work here. Everything is up and down.",
+          "signature": "Where gravity shapes economics"
+        },
+        {
+          "id": 3,
+          "name": "The Isolation Advantage",
+          "category": "Village Character",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The stairs that kept others out also kept something in—traditions, dialect, ways of being.",
+          "description": "Corniglia's relative isolation—harder to reach, no beach to attract visitors—preserved elements that tourism eroded elsewhere. The dialect here retained older forms longer. The traditions continued without performance. The village remained a village rather than becoming a stage set.",
+          "giuliaComment": "People complain about the stairs, but I think they've protected us. Day-trippers who won't climb are exactly the visitors we don't need. The stairs select for people who actually want to be here.",
+          "signature": "Where difficulty provides protection"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Tourism Paradox",
+          "quote": "Corniglia receives fewer tourists than other villages—a blessing for character, a challenge for economy. Young people who might stay need income. Tourism provides it, but changes what it touches. The village navigates this paradox daily."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Living Traditions",
+      "quote": "The traditions that survive in Corniglia aren't performed for tourists. They're practiced because they still make sense—because the agricultural calendar still demands them, because the community still needs them.",
+      "content": [
+        "**The vendemmia is communal**. Harvest requires more hands than any single family has. Neighbors help neighbors, as they have for centuries. The tradition persists because the terraces require it.",
+        "**The Festa di San Pietro** honors the village patron in June. The procession, the special foods, the evening gathering—these mark the community's identity, not tourist season.",
+        "**Wine blessing rituals** continue. Before the first pressing, the grapes are blessed. Before the first tasting, thanks are given. The mixture of agricultural practicality and religious observance is genuinely held, not staged.",
+        "**Terrace maintenance is ongoing**. Every winter, every family repairs their walls. The tradition of dry-stone construction continues because it must—the alternative is collapse. Some knowledge cannot be abandoned."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "insight",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Gender Geography",
+          "category": "Social Patterns",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Traditional Corniglia had its spaces—where men gathered, where women gathered, where everyone came together.",
+          "description": "Like other Mediterranean villages, Corniglia had gendered spaces. The wine cellar was traditionally male territory. The church courtyard was where women gathered. The terraces were shared workspace but with different tasks. These patterns have softened but traces remain visible to observers.",
+          "giuliaComment": "My generation changed everything, but I still notice who sits where in the bar, who gathers where in the evening. The old patterns aren't enforced anymore, but they haven't completely disappeared.",
+          "signature": "Where tradition lingers in space"
+        },
+        {
+          "id": 5,
+          "name": "The View as Value",
+          "category": "Aesthetic Culture",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Corniglia residents developed an aesthetic that values panorama—the wider view that their position provides.",
+          "description": "Living high creates a particular relationship with landscape. Corniglia residents take pride in their views—the coast stretching both directions, the islands visible on clear days, the way weather approaches across the horizon. This isn't tourist appreciation. It's an aesthetic developed over generations of living above.",
+          "giuliaComment": "We talk about the view differently than tourists do. They photograph it. We evaluate it—what the haze means for tomorrow, which direction the wind is blowing, whether the islands are clear (good weather coming) or hidden (storm approaching).",
+          "signature": "When panorama becomes practical"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Art of Observation",
+          "quote": "Corniglia reveals itself through details tourists miss: which terrace belongs to which family, where the sunset hits best, why certain walls are maintained and others abandoned. Watch before you conclude. The village teaches those who pay attention."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Seeing Deeper",
+      "content": [
+        "Cultural insight in Corniglia comes from understanding its difference—this is the agricultural village, the elevated village, the village that looked up at its terraces rather than out at the sea.",
+        "The insights available here are quieter than in the other villages but no less deep. The traditions are less dramatic but no less authentic. The culture is less visible but no less real.",
+        "Come with patience. Watch how residents move through their days. Notice what they value, where they gather, how they talk about the land that sustains them. The agricultural heart of Cinque Terre beats quietly here."
+      ],
       "buttons": [
-        {
-          "text": "Explore Local Traditions",
-          "url": "#traditions",
-          "variant": "primary"
-        },
-        {
-          "text": "View Dining Guide",
-          "url": "/corniglia/restaurants",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Living History by the Numbers",
-      "subtitle": "Corniglia's cultural significance spans centuries",
-      "stats": [
-        {
-          "number": "2000+",
-          "label": "Years of continuous wine cultivation",
-          "description": "Since Roman times"
-        },
-        {
-          "number": "377",
-          "label": "Steps in the famous Lardarina stairway",
-          "description": "Built in 1876"
-        },
-        {
-          "number": "100",
-          "label": "Meters above sea level",
-          "description": "Highest village in Cinque Terre"
-        },
-        {
-          "number": "3",
-          "label": "Generations preserving traditional methods",
-          "description": "In most local families"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Authentic Cultural Experiences",
-      "subtitle": "Immerse yourself in traditions that have shaped this remarkable village",
-      "features": [
-        {
-          "icon": "🍇",
-          "title": "Ancient Winemaking Traditions",
-          "description": "Experience centuries-old viticulture techniques on terraces carved by Romans. Visit family cellars where Sciacchetrà dessert wine ages using methods passed down through generations."
-        },
-        {
-          "icon": "🏛️",
-          "title": "Architectural Heritage",
-          "description": "Marvel at medieval stone houses and the Gothic-Ligurian style of San Pietro church, built on Roman foundations. Every corner tells stories of maritime merchants and agricultural prosperity."
-        },
-        {
-          "icon": "🌾",
-          "title": "Living Agricultural Museum",
-          "description": "Witness traditional farming practices still used daily. The terraced landscape itself is a UNESCO-protected cultural artifact, maintained by families for over 20 generations."
-        },
-        {
-          "icon": "🎭",
-          "title": "Seasonal Festivals",
-          "description": "Join harvest celebrations in September when the village comes alive with traditional music, ancient blessing ceremonies, and communal grape-pressing events that date back centuries."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "id": "traditions",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
-      "title": "The Soul of Agricultural Cinque Terre",
-      "content": "Walking through Corniglia is like stepping into a living museum of Mediterranean agriculture. Unlike its coastal neighbors, this village developed purely as a farming community, and that heritage permeates every aspect of daily life.\n\nThe morning ritual begins before dawn, as local families tend to their terraced vineyards using tools and techniques that would be familiar to their Roman ancestors. The dry stone walls, or \"muri a secco,\" that support these terraces represent over 2,000 years of engineering wisdom, built without mortar yet standing strong against winter storms and summer heat.\n\nThe village's elevated position—100 meters above the Mediterranean—created unique cultural characteristics. Here, the rhythm of life follows agricultural seasons rather than fishing tides. September's grape harvest transforms the village into a celebration, with families gathering to press grapes using wooden presses passed down through generations.\n\nAt Cecio, the village's beloved family trattoria, recipes haven't changed in decades. Their trofie al pesto uses basil from the family's own terraced garden, while the house wine comes from vines visible from the dining room windows. This is dining as cultural immersion—every meal tells the story of the land."
-    },
-    {
-      "type": "faq-section",
-      "title": "Understanding Corniglia's Culture",
-      "subtitle": "Insights into local customs and traditions",
-      "faqs": [
-        {
-          "question": "What makes Corniglia culturally different from other Cinque Terre villages?",
-          "answer": "Corniglia developed as a purely agricultural community rather than a fishing village, creating unique traditions centered around wine-making and farming. Its elevated position isolated it from maritime influences, preserving ancient Roman agricultural practices that continue today."
-        },
-        {
-          "question": "When is the best time to experience local traditions?",
-          "answer": "September during harvest season offers the most authentic cultural experiences. However, spring (April-May) shows the terraces in bloom, while early October features wine-pressing celebrations. Avoid July-August when tourist crowds can overshadow local culture."
-        },
-        {
-          "question": "How can visitors respectfully engage with local culture?",
-          "answer": "Book wine tastings with local families, dine at traditional restaurants like Cecio, and visit during working hours to see terraces being maintained. Always stay on marked paths—the terraces are working farmland, not tourist attractions."
-        },
-        {
-          "question": "What traditional foods should I try in Corniglia?",
-          "answer": "Essential experiences include trofie al pesto made with local basil, fresh farinata (chickpea pancake), anchovies prepared Corniglia-style, and most importantly, Sciacchetrà dessert wine—a rare specialty made from dried grapes that represents centuries of local winemaking tradition."
-        },
-        {
-          "question": "How do local families preserve ancient traditions?",
-          "answer": "Knowledge passes through families via hands-on learning. Children learn terrace maintenance, traditional pruning techniques, and wine-making from grandparents. The village's isolation helped preserve these practices when other areas modernized."
-        },
-        {
-          "question": "Can visitors participate in agricultural activities?",
-          "answer": "Some local families offer harvest experiences during September grape-picking season. Contact the village tourist office or ask at restaurants like Cecio about connecting with families who welcome visitors. These experiences must be arranged in advance and require respectful participation in working agriculture."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "title": "Experience Authentic Corniglia",
-      "subtitle": "Begin your cultural journey in Italy's most traditional village",
-      "description": "From ancient wine cellars to family trattorias serving recipes unchanged for generations, Corniglia offers the most authentic cultural experience in Cinque Terre. Let our local insights guide you to the heart of Ligurian tradition.",
-      "buttons": [
-        {
-          "text": "Explore Local Restaurants",
-          "url": "/corniglia/restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Visit",
-          "url": "/corniglia",
-          "variant": "secondary"
-        }
+        { "text": "Village Stories", "url": "/en/corniglia/blog", "variant": "primary" },
+        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "insights"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T11:04:21.639Z"
+  "updated_at": "2026-01-07T15:00:00.000Z"
 }

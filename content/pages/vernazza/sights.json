@@ -7,190 +7,169 @@
     "it": "/it/vernazza/sights"
   },
   "title": {
-    "en": "Sights and Landmarks in Vernazza - Medieval Towers, Harbor Views & Hidden Treasures"
+    "en": "What to See in Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "sights",
   "seo": {
     "title": {
-      "en": "Vernazza Sights & Landmarks - Medieval Towers | Cinqueterre.travel"
+      "en": "What to See in Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Vernazza's medieval castle, ancient church, harbor square, and spectacular viewpoints. Your guide to the most photogenic village's must-see sights."
+      "en": "The most photographed village in Cinque Terre reveals its secrets slowly: the Doria tower, the harbor church, the medieval passages. A guide to seeing what the cameras miss."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d0379b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHx2ZXJuYXp6YSUyMGNhc3RsZSUyMG1lZGlldmFsJTIwaXRhbHl8ZW58MHwwfHx8MTc2NTg5MTc0NXww&ixlib=rb-4.1.0&q=80&w=1200",
-      "eyebrow": "Medieval Maritime Village",
-      "title": "Vernazza's Timeless Sights Reveal a Millennium of Maritime History",
-      "subtitle": "From the commanding Doria Castle to hidden terraced vineyards, every corner of Vernazza tells the story of Ligurian seafaring heritage. Explore medieval towers, sacred spaces, and panoramic viewpoints that have captivated travelers for centuries.",
-      "buttons": [
-        {
-          "text": "Explore Top Sights",
-          "url": "#landmarks",
-          "variant": "primary"
-        },
-        {
-          "text": "View Photo Gallery",
-          "url": "#gallery",
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The View<br/>Everyone Takes",
+      "subtitle": "You've already seen Vernazza—in photographs, in films, on book covers. That iconic harbor framed by tower and church appears a million times a year. What you haven't seen is what the cameras miss: the details, the stories, the village behind the postcard.",
+      "badge": "What to See",
+      "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d0379b?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Photographed Village",
+      "quote": "Every visitor takes the same photograph: the harbor view from above, with the tower, the church, and the pastel houses cascading down to the sea. This is fine. The view is extraordinary. But Vernazza offers more to those who look past the obvious frame.",
+      "content": [
+        "**The harbor is the difference**. Vernazza has the only natural harbor in Cinque Terre—a protected inlet that made this village the coast's commercial center for a thousand years. Everything you see flows from this geographic accident.",
+        "**The tower is older than it looks**. The Doria Castle was built in the 11th century, when Vernazza belonged to Genoa's ruling family. What remains is a cylindrical watchtower that has guarded these waters for a millennium.",
+        "**The church breaks the rules**. Santa Margherita d'Antiochia sits at the water's edge, not above the village like most medieval churches. This placement reflects Vernazza's identity—a town built for the sea, not defended against it.",
+        "**The streets hide in plain sight**. The caruggi—narrow medieval passages—climb the hillside away from the tourist flow. Here the village lives its private life, visible to anyone willing to climb past the piazza."
       ]
     },
     {
-      "type": "stats-section",
-      "title": "Vernazza by the Numbers",
-      "stats": [
+      "type": "collection-with-interludes",
+      "itemType": "sight",
+      "items": [
         {
-          "number": "1080",
-          "label": "First documented mention"
+          "id": 1,
+          "name": "Doria Castle & Tower",
+          "category": "Medieval Fortress",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The cylindrical tower that has defined Vernazza's silhouette for a thousand years.",
+          "description": "Built by Genoa's Doria family in the 11th century, this castle anchored the republic's control of the Ligurian coast. The cylindrical tower was designed to deflect projectiles; the position offered clear sightlines to approaching ships. Today it offers the village's finest panorama—the same view that watchmen scanned for Saracen raiders.",
+          "giuliaComment": "The entrance fee is almost nothing, and most tourists skip it. Their loss. From the tower platform, you understand why Vernazza mattered—it controlled this entire coast. The view explains a thousand years of history.",
+          "signature": "Where power looked out to sea",
+          "practicalInfo": "Small entrance fee (€1.50). Open daily. 15-minute climb from piazza. Best at sunset or early morning."
         },
         {
-          "number": "11th",
-          "label": "Century castle built"
+          "id": 2,
+          "name": "Church of Santa Margherita d'Antiochia",
+          "category": "Gothic Church",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The waterfront church that anchors Vernazza's spiritual life—built where the boats come in.",
+          "description": "Dating to 1318, Santa Margherita d'Antiochia breaks with medieval convention by sitting at the water's edge rather than the village's highest point. Its octagonal bell tower has guided fishermen home for seven centuries. Inside, maritime ex-votos hang alongside Gothic frescoes—tangible evidence of faith that has asked the sea to be merciful.",
+          "giuliaComment": "Enter in the afternoon when the tour groups have gone. Let your eyes adjust to the darkness. The wooden crucifix above the altar survived Saracen raids and two world wars. That's Vernazza's faith—stubborn, survived, still here.",
+          "signature": "Where the sea meets salvation",
+          "practicalInfo": "Free entry. Respectful dress required. Open 9am-12pm, 3pm-6pm. No photography during services."
         },
         {
-          "number": "40m",
-          "label": "Castle tower height"
-        },
-        {
-          "number": "360°",
-          "label": "Harbor panoramic views"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Essential Sights in Vernazza",
-      "subtitle": "From medieval fortifications to sacred art, these landmarks define the village's unique character",
-      "features": [
-        {
-          "icon": "castle",
-          "title": "Doria Castle & Tower",
-          "description": "Climb the 11th-century cylindrical tower for commanding views over the Ligurian Sea. This Genoese fortress showcases medieval maritime defense architecture and offers the village's highest viewpoint."
-        },
-        {
-          "icon": "church",
-          "title": "Church of Santa Margherita",
-          "description": "Marvel at 14th-century Gothic architecture and precious maritime art. The octagonal bell tower serves as Vernazza's spiritual landmark, while frescoes depict the village's seafaring devotion."
-        },
-        {
-          "icon": "harbor",
-          "title": "Harbor Square",
-          "description": "The beating heart of village life, where colorful boats dock against medieval stone. This protected natural harbor has sheltered Ligurian sailors for over a thousand years."
-        },
-        {
-          "icon": "viewpoint",
-          "title": "Belforte Viewpoint",
-          "description": "Discover the dramatic clifftop perch above the harbor, where ancient defensive walls merge with restaurant terraces. Perfect for sunset photography and romantic dining."
-        },
-        {
-          "icon": "trail",
-          "title": "Terraced Vineyards",
-          "description": "Explore centuries-old agricultural terraces carved into steep hillsides. These heroic vineyards produce the famous Cinque Terre DOC wines and showcase traditional farming methods."
-        },
-        {
-          "icon": "architecture",
-          "title": "Medieval Via del Amore",
-          "description": "Wander narrow stone streets lined with five-story tower houses. These medieval passages reveal hidden courtyards, ancient doorways, and architectural details from the Genoese era."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "image-right",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-regular.jpg",
-      "title": "Sacred Spaces & Maritime Heritage",
-      "content": "The Church of Santa Margherita stands as Vernazza's spiritual anchor, its Gothic spires rising above the medieval rooflines like a beacon for returning sailors. Built in the 14th century, this sacred space preserves centuries of maritime devotion through its remarkable art and architecture.\n\nInside, discover precious frescoes depicting Saint Margaret of Antioch, the village's patron saint, alongside maritime ex-votos left by grateful sailors. The octagonal bell tower, visible from every approach to the village, has guided fishermen home for seven centuries.\n\nThe church's position overlooking the harbor reflects the deep connection between faith and the sea in Ligurian culture. During the annual Festa di Santa Margherita in July, the entire village gathers here for traditional blessing ceremonies that honor both the saint and the sea that sustains the community.\n\nDon't miss the remarkable wooden crucifix, carved by local artisans in the 15th century, which survived both Saracen raids and World War II bombing. The adjoining sacristy houses a collection of maritime artifacts donated by villagers, creating a unique museum of local devotion."
-    },
-    {
-      "type": "gallery-section",
-      "id": "gallery",
-      "title": "Vernazza's Photogenic Landmarks",
-      "subtitle": "Capture the medieval magic from every angle",
-      "images": [
-        {
-          "src": "https://images.unsplash.com/photo-1539650116574-75c0c6d0379b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
-          "alt": "Doria Castle tower overlooking harbor"
-        },
-        {
-          "src": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-regular.jpg",
-          "alt": "Church of Santa Margherita bell tower"
-        },
-        {
-          "src": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1560707303-4e980ce876ad-regular.jpg",
-          "alt": "Harbor square with colorful boats"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1566057443842-60d8a24c1caa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
-          "alt": "Terraced vineyards on hillside"
-        },
-        {
-          "src": "https://images.unsplash.com/photo-1539650116574-75c0c6d0379b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600",
-          "alt": "Medieval streets and tower houses"
-        },
-        {
-          "src": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1462922905131-1a670ce6093c-regular.jpg",
-          "alt": "Sunset view from Belforte viewpoint"
+          "id": 3,
+          "name": "The Natural Harbor",
+          "category": "Geographic Wonder",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The only natural harbor in Cinque Terre—the reason Vernazza exists and prospers.",
+          "description": "Vernazza's harbor is not man-made. The cove formed naturally, offering protection that the other villages—clinging to open coastline—could never match. This accident of geography made Vernazza the coast's commercial hub, its boats able to work when neighbors were storm-bound. The breakwater extends the protection; the piazza opens directly onto the water.",
+          "giuliaComment": "Watch how the boats move here compared to Riomaggiore or Manarola. Here they float peacefully. There they must be pulled up ramps and stored. This single difference shaped everything—the wealth, the architecture, the attitude.",
+          "signature": "Where geography became destiny",
+          "practicalInfo": "Always accessible. Best in morning light or at sunset from the breakwater."
         }
       ],
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1696877702740-20574c8c17c3-hero.jpg"
-    },
-    {
-      "type": "faq-section",
-      "title": "Planning Your Vernazza Sightseeing",
-      "faqs": [
+      "interludes": [
         {
-          "question": "What are the opening hours for Doria Castle?",
-          "answer": "Doria Castle is typically open from 10:00 AM to 6:30 PM during summer months (April-October). Winter hours are reduced to 10:00 AM to 4:30 PM. Entry costs €1.50 for adults. The tower climb involves steep medieval stairs, so wear appropriate footwear."
-        },
-        {
-          "question": "Can I visit the Church of Santa Margherita during services?",
-          "answer": "The church welcomes respectful visitors outside of service times, typically 9:00 AM to 12:00 PM and 4:00 PM to 7:00 PM. Sunday morning masses and special feast days may limit access. Photography is permitted but flash is prohibited to preserve the medieval frescoes."
-        },
-        {
-          "question": "What's the best time to photograph Vernazza's sights?",
-          "answer": "Golden hour (1 hour before sunset) offers the most dramatic lighting for harbor shots from Nessun Dorma viewpoint. Early morning (7:00-9:00 AM) provides soft light and fewer crowds at the castle. For church interior photography, visit during late morning when natural light illuminates the frescoes."
-        },
-        {
-          "question": "Are the terraced vineyards accessible to visitors?",
-          "answer": "Yes, several vineyard paths are open to hikers. The Sentiero Azzurro trail passes through working vineyards with spectacular coastal views. Respect private property markers and stay on designated paths. Some local wineries offer guided tours and tastings by appointment."
-        },
-        {
-          "question": "How long should I plan for sightseeing in Vernazza?",
-          "answer": "Plan 3-4 hours to properly explore the main sights: 1 hour for the castle and tower, 30 minutes for the church, 1 hour wandering the medieval streets, and 1-2 hours at viewpoints for photography and relaxation. Add extra time if you plan to hike the vineyard terraces."
-        },
-        {
-          "question": "Is Vernazza accessible for visitors with mobility limitations?",
-          "answer": "The village center and harbor square are relatively accessible, but most historic sights involve stairs and steep paths. The castle tower requires climbing narrow medieval stairs. The church has several steps at the entrance. Consider visiting during less crowded times for easier navigation."
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Problem of Beauty",
+          "quote": "Vernazza is so photogenic that visitors sometimes forget to experience it. They arrive, take the photograph, and leave—having captured the view but missed the village. Resist this. The photograph will look like everyone else's. The memory of sitting in the piazza as evening falls will be yours alone."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "title": "Ready to Discover Medieval Vernazza?",
-      "subtitle": "From castle towers to sacred art, every sight tells the story of a thousand-year maritime heritage. Plan your perfect day exploring the most photogenic village in Cinque Terre.",
-      "buttons": [
+      "type": "editorial-intro",
+      "badge": "Beyond the Piazza",
+      "quote": "The famous view from above is earned by climbing—but the views keep coming as you ascend. Each turn reveals a new frame, a different angle, a fresh composition.",
+      "content": [
+        "**The viewpoint trail to Corniglia** starts just past the train station. Within ten minutes, you'll have the classic aerial view of the harbor. Keep climbing for perspective the postcard-hunters miss.",
+        "**The upper caruggi** wind above the tourist path, connecting houses where families have lived for generations. The view from these narrow passages is private, domestic, real—laundry lines, kitchen gardens, cats in windows.",
+        "**Belforte's perch** is best appreciated from below. The restaurant occupies a medieval defensive position; from the breakwater, look up to understand how this village was fortified.",
+        "**The breakwater at night** offers something no photograph can capture: the harbor in darkness, lit only by restaurant glow and stars, the water lapping against ancient stone."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "sight",
+      "items": [
         {
-          "text": "Explore Vernazza Restaurants",
-          "url": "/vernazza/restaurants",
-          "variant": "primary"
+          "id": 4,
+          "name": "The Medieval Caruggi",
+          "category": "Village Architecture",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+          "intro": "The narrow passages where Vernazza lives its private life—invisible from the piazza below.",
+          "description": "Above the tourist flow, stone passages climb the hillside in a maze that served defense as well as circulation. These caruggi are too narrow for vehicles, too steep for casual wandering. Here you'll find doorway shrines, chatting neighbors, children playing—the village that continues regardless of visitors.",
+          "giuliaComment": "Get lost. Seriously. The caruggi are designed for confusion—that was the point when raiders came. But now it just means that wandering reveals surprises: a hidden courtyard, a grandmother's vegetable garden, a cat who decides you're trustworthy.",
+          "signature": "Where the village hides in plain sight",
+          "practicalInfo": "Always accessible. Wear good shoes. Climb uphill from the main street and explore."
         },
         {
-          "text": "Plan Your Visit",
-          "url": "/vernazza",
-          "variant": "secondary"
+          "id": 5,
+          "name": "The Piazza and Breakwater",
+          "category": "Public Space",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The stage where Vernazza performs itself—and the breakwater where the audience gathers.",
+          "description": "Unlike other Cinque Terre villages, Vernazza's piazza opens directly onto the water. There is no separation between village and sea. The breakwater extends this public space into the harbor, creating an informal gathering place that fills at sunset with locals and visitors sharing wine and views.",
+          "giuliaComment": "The piazza is for passing through. The breakwater is for staying. By evening, every flat rock is occupied—strangers becoming friends over shared bottles and the same extraordinary view. This is where Vernazza happens.",
+          "signature": "Where the village meets the sea",
+          "practicalInfo": "Always accessible. Bring drinks and snacks for the breakwater. Best at sunset. Careful on wet rocks."
+        },
+        {
+          "id": 6,
+          "name": "The Terraced Vineyards",
+          "category": "Cultural Landscape",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The dry-stone walls that climb above the village—a thousand years of defying gravity.",
+          "description": "The terraces above Vernazza represent millennia of agricultural determination. Stone walls hold back hillsides that should be too steep for farming. The grapes that produce Cinque Terre DOC and Sciacchetrà grow here because generations refused to accept impossibility. Walking the vineyard paths reveals the scale of this effort.",
+          "giuliaComment": "Every stone in those walls was carried by hand. Every vine is pruned by someone who climbs for hours to reach it. When you taste the wine here, you're tasting labor that most people cannot imagine. That's what makes it precious.",
+          "signature": "Where stubbornness became beauty",
+          "practicalInfo": "Accessible via hiking trails. Best in late afternoon light. Respect active agricultural areas."
         }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Changing Light",
+          "quote": "Vernazza looks different every hour. Morning light is soft and flat; midday is harsh but clear; late afternoon turns the stone warm; sunset paints everything gold and pink. If you're staying overnight, see the same view at different times. The village transforms itself constantly."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "See Past the Photograph",
+      "content": [
+        "You will take the photograph. Everyone does. The view from above the village, framed by tower and sea, is irresistible—and it should be. That image has drawn visitors here for a century.",
+        "But the photograph is not the village. The village is in the details: the fisherman mending nets, the grandmother watering geraniums, the sound of bells marking noon, the smell of pesto from an invisible kitchen.",
+        "Take your picture. Then put the camera away and see what else Vernazza offers."
+      ],
+      "buttons": [
+        { "text": "Things to Do", "url": "/en/vernazza/things-to-do", "variant": "primary" },
+        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "sights"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:42:58.090Z"
+  "updated_at": "2026-01-07T11:00:00.000Z"
 }

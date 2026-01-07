@@ -7,316 +7,175 @@
     "it": "/it/vernazza/hotels"
   },
   "title": {
-    "en": "Vernazza Hotels & Accommodations"
+    "en": "Where to Stay in Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "hotels",
   "seo": {
     "title": {
-      "en": "Luxury Hotels in Vernazza | Best Accommodations | Cinque Terre"
+      "en": "Where to Stay in Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Vernazza's finest hotels, B&Bs, and villas. From harbor views to clifftop elegance - your perfect Cinque Terre accommodation awaits."
+      "en": "There are no hotels in Vernazza—not in the traditional sense. What there is: guesthouses where families have hosted travelers for generations, rooms where the harbor is your morning view."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1507003211169-0a1dd7228f2d-hero.jpg",
-      "eyebrow": "Sleep in Paradise",
-      "title": "Vernazza's Most Enchanting Places to Stay",
-      "subtitle": "From clifftop suites overlooking the harbor to intimate B&Bs tucked into medieval streets, Vernazza offers accommodations as spectacular as its setting. Wake up to fishing boats bobbing in the harbor and fall asleep to waves lapping against ancient stones.",
-      "buttons": [
-        {
-          "text": "View All Accommodations",
-          "url": "#accommodations",
-          "variant": "primary"
-        },
-        {
-          "text": "Booking Guide",
-          "url": "#guide",
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "Where the Harbor<br/>Wakes You",
+      "subtitle": "Vernazza has no hotels. What it has instead: affittacamere—family-run guesthouses where you don't check in so much as arrive. The best properties put you inside the village rhythm: fishermen mending nets at dawn, church bells at noon, the sunset crowd gathering on the breakwater.",
+      "badge": "Where to Stay",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1507003211169-0a1dd7228f2d-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Guesthouse Philosophy",
+      "quote": "In Vernazza, there is no front desk, no concierge, no lobby. There is only a family who rents rooms, a key that opens a door, and a village that becomes your temporary home. This is not a limitation—it's the point.",
+      "content": [
+        "**There are no traditional hotels**. The accommodations here are affittacamere—guesthouses composed of individual rooms, often without on-site staff. You'll receive instructions, a key, and perhaps a phone number. Self-sufficiency is expected.",
+        "**Sea views command premium prices**. Vernazza's most coveted rooms look directly onto the harbor. These fill months ahead and justify their rates with morning light on medieval towers and sunset colors on the water.",
+        "**The stairs define your experience**. Harbor-level means convenience and noise; hillside means views and exercise. Choose based on your relationship with gravity and your tolerance for the village's social energy.",
+        "**Book absurdly early**. This is the most photographed village in Cinque Terre. The best properties fill six months ahead for summer. Spring and fall reward those who plan; winter rewards the spontaneous."
       ]
     },
     {
-      "type": "stats-section",
-      "heading": "Vernazza by the Numbers",
-      "stats": [
-        {
-          "number": "20+",
-          "label": "Handpicked Properties",
-          "description": "From luxury villas to authentic B&Bs"
-        },
-        {
-          "number": "€110-600",
-          "label": "Nightly Rates",
-          "description": "Options for every travel style"
-        },
-        {
-          "number": "5",
-          "label": "Minutes Walk",
-          "description": "Maximum distance to harbor"
-        },
-        {
-          "number": "Year-round",
-          "label": "Availability",
-          "description": "Perfect for any season"
-        }
-      ]
-    },
-    {
-      "type": "collection-embed",
-      "collectionType": "accommodations",
-      "heading": "Featured Accommodations in Vernazza",
-      "headingLevel": 2,
+      "type": "collection-with-interludes",
+      "itemType": "hotel",
       "items": [
         {
-          "slug": "la-mala-vernazza",
-          "title": "La Mala",
-          "summary": "Clifftop elegance with panoramic sea views in Vernazza's heart",
-          "url": "/la-mala-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 350,
-              "min": 180,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
+          "id": 1,
+          "name": "La Mala",
+          "category": "Premium Guesthouse",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Clifftop elegance where every room frames the harbor like a painting.",
+          "description": "La Mala occupies a privileged position above the harbor, with rooms designed to maximize the views that make Vernazza famous. The décor is refined without being fussy, the beds are excellent, and the terrace at sunset is worth whatever they charge.",
+          "giuliaComment": "This is where I send people who want Vernazza's beauty without the village's rough edges. The rooms are genuinely elegant, the views are extraordinary, and the climb—while real—is manageable.",
+          "signature": "Where the view is the room",
+          "priceRange": "€€€",
+          "practicalInfo": "Book months ahead. Sea view rooms go first. The breakfast terrace is extraordinary."
         },
         {
-          "slug": "gianni-franzi-vernazza",
-          "title": "Gianni Franzi",
-          "summary": "Family-run B&B in the heart of Vernazza's main square",
-          "url": "/gianni-franzi-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 250,
-              "min": 120,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
+          "id": 2,
+          "name": "Gianni Franzi Rooms",
+          "category": "Historic Guesthouse",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The family that feeds the village also houses it—rooms above the restaurant that started it all.",
+          "description": "The Franzi family has been part of Vernazza since the 1960s. Their guesthouse rooms sit above their legendary restaurant, putting you at the heart of the village's social life. The accommodations are comfortable rather than luxurious—but the location and the family's hospitality are unmatched.",
+          "giuliaComment": "Staying at Gianni Franzi means becoming temporary family. They'll remember your name, recommend what to do, and probably invite you for a drink. The rooms are fine; the belonging is exceptional.",
+          "signature": "Where hospitality is hereditary",
+          "priceRange": "€€",
+          "practicalInfo": "Restaurant guests get priority for rooms. Book early for peak season. Breakfast included."
         },
         {
-          "slug": "blue-marlin-vernazza",
-          "title": "Blue Marlin",
-          "summary": "Nautical-themed B&B with panoramic harbor terraces",
-          "url": "/blue-marlin-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 280,
-              "min": 140,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "moonlight-vernazza",
-          "title": "Moonlight",
-          "summary": "Romantic B&B with celestial charm and sea views",
-          "url": "/moonlight-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 220,
-              "min": 110,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "villa-anita-vernazza",
-          "title": "Villa Anita",
-          "summary": "Exclusive hilltop villa with panoramic sea views and luxury amenities",
-          "url": "/villa-anita-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 600,
-              "min": 300,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "vernazza-sea-view-apartment",
-          "title": "Vernazza Sea View Apartment",
-          "summary": "Stunning apartment with direct sea views from every room",
-          "url": "/vernazza-sea-view-apartment",
-          "village": "vernazza",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 300,
-              "min": 150,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "vernazza-hillside-retreat",
-          "title": "Vernazza Hillside Retreat",
-          "summary": "Peaceful hillside retreat with vineyard views and garden setting",
-          "url": "/vernazza-hillside-retreat",
-          "village": "vernazza",
-          "data": {
-            "featured": true,
-            "priceRange": {
-              "max": 280,
-              "min": 140,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
-        },
-        {
-          "slug": "vernazza-rooms-apartment",
-          "title": "Vernazza Rooms",
-          "summary": "Self-catering apartments with authentic Ligurian charm",
-          "url": "/vernazza-rooms-apartment",
-          "village": "vernazza",
-          "data": {
-            "featured": false,
-            "priceRange": {
-              "max": 180,
-              "min": 90,
-              "season": "high season",
-              "currency": "EUR"
-            }
-          }
+          "id": 3,
+          "name": "Polena",
+          "category": "Intimate Guesthouse",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Small, intimate, and blessed with a panoramic terrace that makes other guesthouses jealous.",
+          "description": "Polena keeps it simple: a handful of rooms, all with sea views, and an extraordinary shared terrace that surveys the entire harbor and coast. Breakfast is included and served at a nearby restaurant—but most mornings, you'll want to linger on that terrace.",
+          "giuliaComment": "The terrace is why you book Polena. Sunrise coffee with the harbor spread below you, watching the boats come in—that's what you came for. The rooms are clean and comfortable; the terrace is extraordinary.",
+          "signature": "The terrace that justifies everything",
+          "priceRange": "€€€",
+          "practicalInfo": "Book well ahead for sea view rooms. Breakfast at nearby restaurant included. The terrace is shared but rarely crowded."
         }
       ],
-      "display": {
-        "layout": "grid",
-        "columns": 3,
-        "showImage": true,
-        "showSummary": true,
-        "imageAspect": "landscape"
-      },
-      "showViewAll": true,
-      "viewAllUrl": "/accommodations"
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Luggage Question",
+          "quote": "Vernazza station deposits you at harbor level. From there, every accommodation requires stairs—some of them medieval, most of them steep, all of them charming in retrospect. Pack a single bag you can carry. Rolling suitcases are enemies here. Many hosts offer to meet you; take that offer."
+        }
+      ]
     },
     {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571896349842-33c89424de2d-regular.jpg",
-      "imagePosition": "right",
-      "eyebrow": "Expert Insights",
-      "title": "Where to Stay in Vernazza: An Insider's Guide",
+      "type": "editorial-intro",
+      "badge": "Value and Character",
+      "quote": "The best accommodation in Vernazza might cost €80 or €300. Price correlates with views and location more than quality. Some of the warmest hospitality happens in the simplest rooms.",
       "content": [
-        "As Cinque Terre's most photographed village, Vernazza offers accommodations that range from world-class luxury to authentic family-run B&Bs. Each property I've personally inspected brings something unique to your Italian Riviera experience.",
-        "**Harbor-Level Properties** provide the ultimate convenience. Step out your door onto Via del Santo, and you're seconds from waterfront restaurants and the harbor's morning bustle. Properties like La Mala offer this prime positioning with refined comfort, while Gianni Franzi delivers authentic charm right on the main square.",
-        "**Mid-Level Accommodations** strike the perfect balance between accessibility and tranquility. Blue Marlin's nautical-themed rooms feature terraces that frame the harbor beautifully, while the hillside retreats provide vineyard views and peaceful garden settings away from summer crowds.",
-        "**Clifftop Villas** represent the pinnacle of Vernazza luxury. Villa Anita commands sweeping coastal panoramas that justify every euro of the €300-600 nightly rate. These properties require a short climb but reward you with unparalleled privacy and views that will define your Italian memories."
+        "**Affittacamere Elisabetta** proves that value exists. For less than €100, you get a private bathroom, a rooftop terrace with 360-degree views, and a location near everything. The catch? You're managing everything yourself.",
+        "**Casa Cato** offers bright, modern rooms near the beach and train station—practical for arrivals and departures, with sea views from the better rooms.",
+        "**The hillside properties** trade convenience for views and quiet. Cadè Ventu, perched between Corniglia and Vernazza, offers romance, free parking, and views of three villages—if you don't mind being removed from harbor life.",
+        "**Self-catering apartments** suit longer stays. A week in Vernazza benefits from a kitchen, laundry, and the feeling that you're living rather than visiting."
       ]
     },
     {
-      "type": "feature-section",
-      "heading": "What Sets Vernazza Accommodations Apart",
-      "subtitle": "Every property offers something special, from medieval charm to modern luxury",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "hotel",
+      "items": [
         {
-          "icon": "castle",
-          "title": "Historic Character",
-          "description": "Sleep in buildings dating back centuries, with original stone walls and authentic architectural details"
+          "id": 4,
+          "name": "Affittacamere Elisabetta",
+          "category": "Value Guesthouse",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Under €100 for a room with a 360-degree rooftop terrace—Vernazza's best-kept value secret.",
+          "description": "Elisabetta's guesthouse offers what expensive places charge triple for: a rooftop terrace with views in every direction, clean rooms with private bathrooms, and a central location. The trade-off is minimal service—you're on your own for check-in, information, and breakfast. But for self-sufficient travelers, this is exceptional value.",
+          "giuliaComment": "I send budget-conscious friends here and they return surprised. The terrace alone is worth twice the price. You just need to be comfortable with independence.",
+          "signature": "Where value meets views",
+          "priceRange": "€",
+          "practicalInfo": "Self-check-in. No breakfast. Exceptional rooftop terrace. Book early despite the price."
         },
         {
-          "icon": "waves",
-          "title": "Harbor Views",
-          "description": "Many properties offer direct harbor views where colorful boats create a living postcard outside your window"
+          "id": 5,
+          "name": "Albergo Barbara",
+          "category": "Family-Run Classic",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Near the harbor with views, warmth, and the kind of hospitality that creates return visitors.",
+          "description": "The Barbara family has welcomed guests for decades. Their guesthouse sits near the harbor, close enough to feel the village pulse without drowning in it. Rooms feature modern amenities, some with terraces and panoramic views. But it's the hospitality—genuine, warm, informed—that distinguishes them.",
+          "giuliaComment": "Barbara treats every guest like family. She knows the village intimately and shares freely. The rooms are comfortable; the welcome is what you'll remember.",
+          "signature": "Where hospitality is personal",
+          "priceRange": "€€",
+          "practicalInfo": "Family-run with genuine warmth. Near harbor. Ask for sea view terrace."
         },
         {
-          "icon": "utensils",
-          "title": "Exceptional Breakfast",
-          "description": "Family-run B&Bs serve memorable morning meals featuring local focaccia, fresh pastries, and sea views"
-        },
+          "id": 6,
+          "name": "Santa Marta Rooms",
+          "category": "Central & Comfortable",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Steps from beach, station, and restaurants—Vernazza's most practical location.",
+          "description": "Santa Marta offers what practical travelers need: proximity to everything. The beach is close, the train station closer, restaurants within steps. Rooms are cozy and tastefully decorated; some have balconies. This is where you stay when logistics matter.",
+          "giuliaComment": "Not the most romantic option, but the most practical. If you're arriving late or leaving early, if you want the beach accessible, if convenience trumps charm—Santa Marta delivers.",
+          "signature": "Where location solves problems",
+          "priceRange": "€€",
+          "practicalInfo": "Central location. Some rooms with balconies. Perfect for short stays or tight schedules."
+        }
+      ],
+      "interludes": [
         {
-          "icon": "train",
-          "title": "Perfect Location",
-          "description": "All accommodations within walking distance of the train station, harbor, and trailheads to other villages"
-        },
-        {
-          "icon": "heart",
-          "title": "Personal Service",
-          "description": "Small-scale properties mean personalized attention from hosts who share insider knowledge of their village"
-        },
-        {
-          "icon": "sunset",
-          "title": "Sunset Terraces",
-          "description": "Private or shared terraces where you can enjoy aperitivo while watching the sun set over the Mediterranean"
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Seasonal Calculation",
+          "quote": "June through August demands booking six months ahead and paying premium rates. May and September offer better weather with better availability. October's harvest season brings festivals and wine. Winter brings quiet, rain, and the locals to themselves. Choose your Vernazza."
         }
       ]
     },
     {
-      "type": "faq-section",
-      "heading": "Frequently Asked Questions About Vernazza Hotels",
-      "subtitle": "Everything you need to know before booking your stay",
-      "faqs": [
-        {
-          "question": "When should I book accommodations in Vernazza?",
-          "answer": "Book 3-6 months ahead for peak season (May-September). The best properties fill up quickly, especially those with harbor views. Spring and fall offer better availability and rates 30-50% lower than summer peaks, plus you'll enjoy mild weather and fewer crowds."
-        },
-        {
-          "question": "Which areas of Vernazza are best for staying?",
-          "answer": "Harbor-level properties offer maximum convenience but can be noisy during peak hours. Mid-level accommodations (like those on Via Carattino) balance accessibility with tranquility. Clifftop locations provide stunning views and privacy but require a 10-15 minute uphill walk with luggage."
-        },
-        {
-          "question": "Do Vernazza hotels have air conditioning?",
-          "answer": "Many properties lack AC due to historic building constraints, but thick stone walls keep interiors naturally cool. Properties like Villa Anita and newer apartments typically include climate control. Always confirm before booking if AC is essential for your comfort."
-        },
-        {
-          "question": "What's included in Vernazza B&B breakfast?",
-          "answer": "Expect fresh focaccia Ligure, local pastries, Italian coffee, fresh fruit, and often homemade jams. Some properties like Gianni Franzi serve breakfast on terraces with harbor views. Continental style is standard, with some hosts accommodating dietary restrictions with advance notice."
-        },
-        {
-          "question": "How do I get to my accommodation from the train station?",
-          "answer": "Vernazza station sits at village level - most accommodations are within a 5-minute walk. Harbor-level properties require no climbing, while clifftop villas need a 10-15 minute uphill walk on ancient stepped streets. Many hosts offer luggage assistance or meet guests at the station."
-        },
-        {
-          "question": "Are there luxury options beyond traditional B&Bs?",
-          "answer": "Yes, Villa Anita offers villa-style luxury with full amenities, while several sea-view apartments provide modern comfort with kitchen facilities. La Mala represents the premium B&B experience with elegant rooms and prime harbor positioning. Expect €300-600 nightly for true luxury options."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Your Vernazza Adventure Awaits",
-      "title": "Book Your Perfect Accommodation Today",
-      "subtitle": "From intimate B&Bs to luxury villas, find your ideal base for exploring Cinque Terre's crown jewel. Each property has been personally inspected to ensure an unforgettable Italian Riviera experience.",
+      "type": "closing-note",
+      "title": "The Room is Forgettable",
+      "content": [
+        "You will not remember your thread count or your showerhead. You will remember the harbor light at 6am, the bells that mark noon, the sunset colors on the tower, and the sound of the village settling into evening.",
+        "Book something that puts you where you want to be. Near the water for immersion. Up the hill for views. In the middle for convenience. Then stop thinking about lodging.",
+        "The room is where you sleep. The harbor is where you live."
+      ],
       "buttons": [
-        {
-          "text": "Browse All Properties",
-          "url": "#accommodations",
-          "variant": "primary"
-        },
-        {
-          "text": "Get Booking Help",
-          "url": "/contact",
-          "variant": "secondary"
-        }
+        { "text": "Plan Your Dining", "url": "/en/vernazza/restaurants", "variant": "primary" },
+        { "text": "Explore the Village", "url": "/en/vernazza", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "hotels"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:38:30.229Z"
+  "updated_at": "2026-01-07T10:30:00.000Z"
 }

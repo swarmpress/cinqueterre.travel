@@ -7,162 +7,152 @@
     "it": "/it/vernazza/agriturismi"
   },
   "title": {
-    "en": "Vernazza Farm Stays & Agriturismi: Authentic Cinque Terre Country Experiences"
+    "en": "Farm Stays Near Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "agriturismi",
   "seo": {
     "title": {
-      "en": "Vernazza Agriturismi & Farm Stays | Cinqueterre.travel"
+      "en": "Farm Stays Near Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Stay at authentic Vernazza farm estates. Luxury agriturismi with vineyard views, wine tastings, and traditional Ligurian hospitality in Cinque Terre."
+      "en": "The terraces above Vernazza offer what the famous piazza cannot: the working agricultural landscape that feeds the village below, experienced from the farms that have tended it for generations."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1566073771259-6a8506099945-hero.jpg",
-      "eyebrow": "Vernazza Countryside",
-      "title": "Experience Authentic Ligurian Farm Life Above the Medieval Harbor",
-      "subtitle": "Discover Vernazza's hidden agricultural heritage through carefully selected agriturismi that offer wine tastings, olive grove walks, and terrace farming experiences with breathtaking views of the medieval village below.",
+      "type": "editorial-hero",
+      "title": "Above the<br/>Postcard",
+      "subtitle": "Everyone photographs Vernazza from below. But the farms above it tell a different story: the sweat and persistence that created the landscape everyone came to photograph. An agriturismo stay takes you behind the postcard.",
+      "badge": "Farm Stays",
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Understanding Agriturismo",
+      "quote": "An agriturismo is not a rural hotel with views of the village. It's a working farm that happens to welcome guests--a place where the Sciacchetra you taste was made from grapes grown on the slope outside your window.",
+      "content": [
+        "**The word carries legal weight**. Italian law requires agriturismi to be registered agricultural operations where farming remains the primary activity. The hospitality exists to support the farm, not replace it.",
+        "**Distance is intentional**. Agriturismi sit in the terraced hills above Vernazza--a 15-25 minute drive or steep hike from the harbor. What you lose in proximity to the piazza, you gain in understanding of the landscape.",
+        "**Food tells the story**. Dinner at an agriturismo features olive oil from trees you can see, wine from grapes harvested on these slopes, vegetables from terraced gardens. The Mediterranean diet isn't a concept here--it's geography.",
+        "**Participation is possible**. Many farms welcome guests into seasonal work--grape harvest in autumn, olive pressing in November, terrace maintenance year-round. This isn't performance; it's how these properties have survived."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
+        {
+          "id": 1,
+          "name": "The View They Photograph",
+          "category": "Perspective Shift",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Vernazza is the most photographed village--and from an agriturismo, you understand why the camera can never capture it.",
+          "description": "From the terraces above, Vernazza reveals its geometry: the harbor opening like a small mouth to the sea, the Doria tower standing guard, the colorful buildings cascading down to Piazza Marconi. At sunset, when the light turns everything amber, you understand what generations saw when they chose to farm these impossible slopes.",
+          "giuliaComment": "Photographers crowd the harbor for their shots. But the view from the farms above is different--you see how the village nestles into the landscape, how small it really is against the cliffs and sea. That perspective changes what Vernazza means.",
+          "signature": "Where the famous view gains depth"
+        },
+        {
+          "id": 2,
+          "name": "The Sciacchetra Experience",
+          "category": "Harvest Participation",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The dessert wine that made Cinque Terre famous--produced in tiny quantities from grapes that dry for months on terrace racks.",
+          "description": "Sciacchetra requires patience: grapes harvested in September, dried until December, pressed when their sweetness concentrates to honey thickness. Agriturismi above Vernazza often produce small batches--tasting it where it was made, understanding the labor it required, is different from any bottle you'd buy below.",
+          "giuliaComment": "My aunt makes 50 bottles of Sciacchetra each year. She could sell it for three times the price in the village, but she keeps most of it. When she opens a bottle for guests, she's sharing something more than wine--she's sharing the year's work.",
+          "signature": "Where patience becomes sweetness"
+        },
+        {
+          "id": 3,
+          "name": "Farm Table Evenings",
+          "category": "Culinary Immersion",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the distance from garden to table is measured in footsteps, and the menu is written by what ripened today.",
+          "description": "Dinner at an agriturismo above Vernazza unfolds slowly: antipasti from the garden, pasta with pesto made from basil cut that afternoon, fish from the harbor below, wine from the surrounding terraces. The conversation extends into darkness, the lights of the village twinkling far below.",
+          "giuliaComment": "Restaurant meals end when you pay the bill. Agriturismo dinners end when the family is ready to sleep. The pace is different, the intimacy is different, the food is different. You're not a customer--you're a guest at someone's table.",
+          "signature": "Where dinner becomes belonging"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Tower View",
+          "quote": "From Vernazza's agriturismi, the Doria Castle tower appears from above--a different angle than tourists ever see. You understand it as the medieval watchtower it was, scanning the sea for approaching danger, not as the sunset viewing platform it's become."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Realities",
+      "quote": "Staying at an agriturismo requires accepting a different trip--one where the village is a destination to visit, not a home base. For those who embrace the trade-off, the rewards are unique.",
+      "content": [
+        "**Access requires effort**. Most farms are 15-25 minutes from Vernazza by car, or an hour by foot on steep paths. Some offer pickup from the village; others require your own transportation. Buses are limited.",
+        "**Book early, stay longer**. Agriturismi have few rooms--often just 3-4 available. Summer weekends book months ahead. A two-night minimum often applies. Plan early or accept limited options.",
+        "**Expect simplicity**. These are farms, not hotels. Rooms are comfortable but not luxurious. WiFi may be unreliable. Air conditioning isn't standard. What you get instead is authenticity.",
+        "**Language bridges needed**. Many farm families speak limited English. Translation apps help. Gestures work. But the communication through shared meals needs no translation."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
+        {
+          "id": 4,
+          "name": "Spring Awakening",
+          "category": "Seasonal Guide",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the terraces burst with wildflowers and the farms prepare for the growing season.",
+          "description": "March through May brings wildflowers to the terraces, new shoots on the vines, and perfect temperatures for exploring the trails connecting farms. The work is preparation--pruning, planting, repairing winter damage to stone walls. Guests can often help, learning the patience the landscape demands.",
+          "giuliaComment": "Spring above Vernazza is when everything smells of possibility. The air is clear, the views stretch forever, and the farms are busy with hopeful work. It's my favorite time to visit the terraces--before the heat, before the crowds.",
+          "signature": "When the land remembers how to grow"
+        },
+        {
+          "id": 5,
+          "name": "Harvest Season",
+          "category": "Peak Experience",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "September through November--when the terraces justify centuries of labor with their annual yield.",
+          "description": "The grape harvest (vendemmia) transforms the farms into workshops of focused activity. Families work from dawn, carrying baskets through terraces too steep for machinery. Olive harvest follows. Guests who participate understand Cinque Terre in ways no tour provides--the weight of the baskets, the ache of the climb, the satisfaction of work that matters.",
+          "giuliaComment": "If you can only visit the terraces once, make it harvest season. The energy is different--everyone working together, the meals earned by labor, the wine from last year's effort served with this year's hopes. It's exhausting and unforgettable.",
+          "signature": "When a year's work becomes wine"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "Recognizing Real Agriturismi",
+          "quote": "Some properties call themselves 'agriturismo' without the agricultural substance. Look for active vineyards, working olive groves, gardens supplying the kitchen. Ask what they grow. Real farms are proud to explain. Tourist operations change the subject."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Above the Famous View",
+      "content": [
+        "An agriturismo stay near Vernazza isn't for travelers seeking convenience. The village feels far when you're tired. Transportation requires planning. The simple rooms won't impress on Instagram.",
+        "But for those who want to understand Cinque Terre--not just photograph it--the farms above Vernazza offer something the harbor piazza cannot: the living heritage that built this landscape, still practiced by families whose ancestors placed the first stones.",
+        "Come hungry for more than food. Come ready to work if the season allows. Leave understanding why the terraces matter."
+      ],
       "buttons": [
-        {
-          "text": "Explore Farm Stays",
-          "url": "#featured-properties",
-          "variant": "primary"
-        },
-        {
-          "text": "View Experiences",
-          "url": "#farm-experiences",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "headline": "Vernazza's Agricultural Heritage",
-      "stats": [
-        {
-          "number": "900+",
-          "label": "Years of farming tradition",
-          "description": "Continuous cultivation since medieval times"
-        },
-        {
-          "number": "7",
-          "label": "Family-run agriturismi",
-          "description": "Authentic properties above the village"
-        },
-        {
-          "number": "15",
-          "label": "Hectares of terraced vineyards",
-          "description": "Producing acclaimed Cinque Terre DOC wines"
-        },
-        {
-          "number": "3",
-          "label": "Generations of hospitality",
-          "description": "Family traditions passed down through centuries"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "headline": "Why Choose Vernazza Agriturismi",
-      "subtitle": "Experience the authentic side of Cinque Terre through working farms that have shaped this landscape for centuries",
-      "features": [
-        {
-          "icon": "🍷",
-          "title": "Estate Wine Tastings",
-          "description": "Sample rare Cinque Terre DOC wines directly from family vineyards, including the prized Sciacchetrà dessert wine produced exclusively in this region."
-        },
-        {
-          "icon": "🫒",
-          "title": "Olive Grove Tours",
-          "description": "Walk through centuries-old terraced olive groves and learn traditional pressing techniques that produce Vernazza's celebrated extra virgin olive oil."
-        },
-        {
-          "icon": "🏰",
-          "title": "Medieval Village Views",
-          "description": "Wake to panoramic vistas of Vernazza's iconic harbor and Doria castle from elevated farm positions that few tourists ever experience."
-        },
-        {
-          "icon": "👨‍🌾",
-          "title": "Farming Experiences",
-          "description": "Participate in seasonal activities like grape harvesting, olive picking, or learning the ancient art of dry stone wall construction."
-        },
-        {
-          "icon": "🍽️",
-          "title": "Farm-to-Table Dining",
-          "description": "Enjoy meals prepared exclusively with ingredients grown on the property, from homemade pasta with estate-grown basil to fresh vegetables from kitchen gardens."
-        },
-        {
-          "icon": "🌿",
-          "title": "Terraced Garden Learning",
-          "description": "Understand the ingenious terracing system that has prevented erosion for over 1,000 years while creating Cinque Terre's signature landscape."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-regular.jpg",
-      "headline": "The Maritime Village's Hidden Agricultural Soul",
-      "content": "While Vernazza is renowned as the most maritime of the Cinque Terre villages—its natural harbor making it the naval stronghold of the Genoese Republic—few visitors discover its remarkable agricultural heritage. Above the medieval fortress and colorful houses clinging to the rocks, terraced hillsides tell a different story: one of families who have cultivated impossible slopes for over nine centuries.\n\nThe Doria family, who built Vernazza's imposing castle in the 11th century, also established the first formal vineyard terraces. These fasce—narrow strips of cultivated land carved into steep mountainsides—required generations of backbreaking labor to create. Each terrace is supported by dry stone walls built without mortar, a technique so masterful that these structures have withstood centuries of storms and earthquakes.\n\nToday's agriturismi operators are the inheritors of this ancient wisdom. The Capellini family has worked the same vineyard terraces since the 1400s, now welcoming guests to their stone farmhouse where the medieval wine cellar still houses oak barrels aging Vernazza's signature white wine. The Bernardini estate, perched 400 meters above the village, offers the region's most comprehensive olive oil education, guiding visitors through groves where some trees are documented to be over 800 years old.\n\nWhat makes Vernazza's farm stays unique is their integration with maritime traditions. Unlike purely inland agriturismi, these properties blend sea and mountain culture. You might start your morning harvesting olives, then join the family boat for an afternoon of traditional fishing, returning to enjoy both your agricultural efforts and the day's catch prepared together in the farmhouse kitchen."
-    },
-    {
-      "type": "faq-section",
-      "headline": "Planning Your Vernazza Agriturismo Stay",
-      "faqs": [
-        {
-          "question": "What's the best season to visit Vernazza agriturismi?",
-          "answer": "Spring (April-May) offers mild weather and wildflower blooms, while autumn (September-October) provides harvest experiences like grape picking and olive collecting. Summer brings the warmest weather but also crowds in the village below. Winter (November-March) is quieter with cozy indoor tastings, though some properties have limited operations."
-        },
-        {
-          "question": "How do I reach the farm stays from Vernazza village?",
-          "answer": "Most agriturismi are located 2-4 kilometers uphill from the train station via ancient mule paths or narrow mountain roads. Properties typically offer pickup service or detailed walking directions. The uphill journey takes 30-45 minutes on foot through terraced vineyards—part of the authentic experience but requiring moderate fitness."
-        },
-        {
-          "question": "What farming activities can guests participate in?",
-          "answer": "Activities vary by season: spring planting and pruning, summer garden maintenance and herb harvesting, autumn grape and olive harvests, and winter olive oil production and wine barrel tastings. Most properties also offer year-round experiences like bread making, pasta preparation, and learning traditional terracing techniques."
-        },
-        {
-          "question": "Do agriturismi offer meals, and what should I expect?",
-          "answer": "Authentic agriturismi serve meals prepared exclusively with their own produce: estate wines, pressed olive oil, homegrown vegetables, fresh herbs, and often homemade cheeses. Meals are typically served family-style with the owners, creating intimate cultural exchanges. Dietary restrictions can usually be accommodated with advance notice."
-        },
-        {
-          "question": "How far in advance should I book, and what are typical stays?",
-          "answer": "Book 2-3 months ahead for peak season (July-August and September harvest time). Minimum stays range from 2-7 nights depending on the property and season. Some agriturismi offer day experiences without overnight stays, perfect for combining with village-based accommodations."
-        },
-        {
-          "question": "What's included in typical agriturismo rates?",
-          "answer": "Rates usually include accommodation, breakfast featuring farm products, and often one main meal daily. Wine tastings, farm tours, and basic cooking lessons are frequently included. Additional experiences like professional cooking classes, guided hiking, or boat excursions typically cost extra but are offered at special guest rates."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "headline": "Book Your Vernazza Farm Stay Experience",
-      "subtitle": "Connect with centuries-old traditions while enjoying luxury accommodations and authentic Ligurian hospitality above one of Italy's most photographed villages.",
-      "buttons": [
-        {
-          "text": "View Available Properties",
-          "url": "/vernazza/accommodations",
-          "variant": "primary"
-        },
-        {
-          "text": "Contact Our Local Experts",
-          "url": "/contact",
-          "variant": "secondary"
-        }
+        { "text": "Village Hotels", "url": "/en/vernazza/hotels", "variant": "primary" },
+        { "text": "The Culinary Story", "url": "/en/culinary", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "agriturismi"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:29:54.851Z"
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

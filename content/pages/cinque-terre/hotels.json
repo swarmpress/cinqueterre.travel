@@ -10,6 +10,7 @@
     "en": "Luxury Hotels & Boutique Stays in Cinque Terre"
   },
   "page_type": "hotels",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Best Hotels Cinque Terre | Luxury Stays | Cinqueterre.travel"
@@ -20,50 +21,19 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
-      "eyebrow": "Handpicked Accommodations",
-      "title": "Stay Where Ligurian Dreams Come True",
+      "type": "editorial-hero",
+      "title": "Stay Where Ligurian<br/>Dreams Come True",
       "subtitle": "From clifftop luxury hotels to intimate family-run locandas, discover accommodations that capture the authentic spirit of Cinque Terre. Each property personally inspected for quality, location, and that indefinable Italian magic.",
-      "buttons": [
-        {
-          "text": "Browse Featured Hotels",
-          "url": "#featured",
-          "variant": "primary"
-        },
-        {
-          "text": "View by Village",
-          "url": "/villages",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Handpicked Accommodations",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "Your Perfect Stay Awaits",
-      "stats": [
-        {
-          "value": "150+",
-          "label": "Carefully Vetted Properties",
-          "description": "From luxury hotels to charming B&Bs"
-        },
-        {
-          "value": "€85-380",
-          "label": "Nightly Rates",
-          "description": "Options for every travel style"
-        },
-        {
-          "value": "5",
-          "label": "Coastal Villages",
-          "description": "Each with distinct character"
-        },
-        {
-          "value": "Year-round",
-          "label": "Seasonal Availability",
-          "description": "Peak season: April-October"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Your Perfect Stay Awaits",
+      "quote": "The village you choose shapes your entire experience. Each has its own character - from Monterosso's beach luxury to Manarola's sunset views.",
+      "leftContent": "<p>Over <strong>150+ carefully vetted properties</strong> await your discovery, from luxury hotels to charming B&Bs. Nightly rates range from <strong>EUR85-380</strong>, with options for every travel style across all <strong>5 coastal villages</strong>.</p><p>Peak season runs April through October, with accommodations booking months in advance.</p>",
+      "rightContent": "<p>Each village offers <strong>distinct character</strong> - Monterosso for beaches and upscale dining, Vernazza for dramatic harbor views, Manarola for photography, Corniglia for tranquility, Riomaggiore for nightlife.</p><p>Every property has been <strong>personally inspected</strong> for location, comfort, and authentic Ligurian character.</p>"
     },
     {
       "type": "collection-embed",
@@ -73,7 +43,7 @@
       "items": [
         {
           "slug": "maduneta-5-terre",
-          "title": "Madüneta 5 Terre",
+          "title": "Maduneta 5 Terre",
           "summary": "Experience authentic Ligurian charm with panoramic sea views in Corniglia's heart",
           "url": "/maduneta-5-terre",
           "village": "corniglia",
@@ -211,41 +181,53 @@
       "viewAllUrl": "/accommodations"
     },
     {
-      "type": "feature-section",
-      "title": "Why These Properties Stand Apart",
-      "subtitle": "Every accommodation meets our exacting standards for location, comfort, and authentic character",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "feature",
+      "items": [
         {
-          "icon": "map-pin",
-          "title": "Prime Village Locations",
-          "description": "Central positions within walking distance of train stations, harbors, and hiking trails. No luggage-hauling marathons."
+          "id": 1,
+          "name": "Prime Village Locations",
+          "category": "Location",
+          "description": "Central positions within walking distance of train stations, harbors, and hiking trails. No luggage-hauling marathons.",
+          "signature": "Steps from everything that matters"
         },
         {
-          "icon": "eye",
-          "title": "Spectacular Views",
-          "description": "Sea vistas, terraced vineyards, or charming village squares. Wake up to postcard-perfect scenes every morning."
+          "id": 2,
+          "name": "Spectacular Views",
+          "category": "Scenery",
+          "description": "Sea vistas, terraced vineyards, or charming village squares. Wake up to postcard-perfect scenes every morning.",
+          "signature": "Your window to the Mediterranean"
         },
         {
-          "icon": "star",
-          "title": "Personally Inspected",
-          "description": "Every property visited, every room evaluated. We know which have the best showers, quietest nights, and warmest welcome."
+          "id": 3,
+          "name": "Personally Inspected",
+          "category": "Quality",
+          "description": "Every property visited, every room evaluated. We know which have the best showers, quietest nights, and warmest welcome.",
+          "signature": "Trust built on experience"
         },
         {
-          "icon": "calendar",
-          "title": "Smart Booking Tips",
-          "description": "Insider knowledge on seasonal pricing, advance booking requirements, and when to find the best availability."
+          "id": 4,
+          "name": "Smart Booking Tips",
+          "category": "Planning",
+          "description": "Insider knowledge on seasonal pricing, advance booking requirements, and when to find the best availability.",
+          "signature": "Knowledge that saves you money"
         },
         {
-          "icon": "home",
-          "title": "Authentic Character",
-          "description": "From 15th-century stone walls to family-run hospitality. Experience genuine Ligurian culture, not tourist-trap mediocrity."
+          "id": 5,
+          "name": "Authentic Character",
+          "category": "Heritage",
+          "description": "From 15th-century stone walls to family-run hospitality. Experience genuine Ligurian culture, not tourist-trap mediocrity.",
+          "signature": "Where history welcomes you home"
         },
         {
-          "icon": "check-circle",
-          "title": "Modern Comforts",
-          "description": "Air conditioning, reliable Wi-Fi, and comfortable beds. Historic charm enhanced by contemporary amenities."
+          "id": 6,
+          "name": "Modern Comforts",
+          "category": "Amenities",
+          "description": "Air conditioning, reliable Wi-Fi, and comfortable beds. Historic charm enhanced by contemporary amenities.",
+          "signature": "The best of both worlds"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "content-section",
@@ -283,42 +265,34 @@
         },
         {
           "question": "How do I transport luggage to hillside properties?",
-          "answer": "Many accommodations offer luggage transport services for €10-20 per bag, especially those requiring uphill walks. Some villages have porter services, or you can arrange transport through your hotel. Always confirm this when booking if you have heavy luggage."
+          "answer": "Many accommodations offer luggage transport services for EUR10-20 per bag, especially those requiring uphill walks. Some villages have porter services, or you can arrange transport through your hotel. Always confirm this when booking if you have heavy luggage."
         },
         {
           "question": "What amenities should I expect in different price ranges?",
-          "answer": "Budget options (€80-120): Basic comfort, shared bathrooms possible, minimal amenities. Mid-range (€120-200): Private bathrooms, some with sea views, breakfast included. Luxury (€200+): Superior locations, premium amenities, concierge services, and exceptional views."
+          "answer": "Budget options (EUR80-120): Basic comfort, shared bathrooms possible, minimal amenities. Mid-range (EUR120-200): Private bathrooms, some with sea views, breakfast included. Luxury (EUR200+): Superior locations, premium amenities, concierge services, and exceptional views."
         },
         {
           "question": "Is air conditioning necessary year-round?",
-          "answer": "Essential for summer stays (June-September) when temperatures reach 30°C+ and humidity is high. Spring and fall are generally comfortable without AC, but request it if you're a warm sleeper. Many historic properties lack central air, so confirm this amenity when booking."
+          "answer": "Essential for summer stays (June-September) when temperatures reach 30C+ and humidity is high. Spring and fall are generally comfortable without AC, but request it if you're a warm sleeper. Many historic properties lack central air, so confirm this amenity when booking."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "title": "Find Your Perfect Cinque Terre Retreat",
-      "subtitle": "Browse our complete collection of vetted accommodations across all five villages",
-      "buttons": [
-        {
-          "text": "View All Accommodations",
-          "url": "/accommodations",
-          "variant": "primary"
-        },
-        {
-          "text": "Compare by Village",
-          "url": "/villages",
-          "variant": "secondary"
-        }
-      ],
-      "note": "All properties personally inspected and rated for location, comfort, and value"
+      "type": "closing-note",
+      "badge": "Find Your Perfect Retreat",
+      "title": "Your Cinque Terre Home Awaits",
+      "content": "<p>Browse our complete collection of vetted accommodations across all five villages. Each property has been personally inspected and rated for location, comfort, and value.</p><p>Whether you seek clifftop luxury or authentic family hospitality, your perfect Cinque Terre base is waiting to welcome you home.</p>",
+      "actions": [
+        { "label": "View All Accommodations", "href": "/accommodations", "variant": "primary" },
+        { "label": "Compare by Village", "href": "/villages", "variant": "secondary" }
+      ]
     }
   ],
   "metadata": {
     "city": "cinque-terre",
     "page_type": "hotels"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:47:49.680Z"
 }

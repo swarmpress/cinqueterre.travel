@@ -10,6 +10,7 @@
     "en": "Sights & Attractions in Cinque Terre: A Cultural Journey Through Five Timeless Villages"
   },
   "page_type": "sights",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Best Sights in Cinque Terre | Must-See Attractions Guide"
@@ -20,89 +21,74 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
-      "eyebrow": "UNESCO World Heritage",
-      "title": "Five Villages, A Thousand Years of Stories",
+      "type": "editorial-hero",
+      "title": "Five Villages,<br/>A Thousand Years of Stories",
       "subtitle": "From medieval sanctuaries perched on impossible cliffs to Byzantine mosaics hidden in village squares, Cinque Terre's greatest treasures reveal themselves to those who know where to look.",
-      "buttons": [
-        {
-          "text": "Plan Your Cultural Journey",
-          "url": "#highlights",
-          "variant": "primary"
-        },
-        {
-          "text": "View All Villages",
-          "url": "/cinque-terre/villages",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "UNESCO World Heritage",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "Centuries of Preserved Heritage",
-      "stats": [
-        {
-          "number": "1997",
-          "label": "UNESCO World Heritage designation"
-        },
-        {
-          "number": "12th",
-          "label": "Century origins of oldest structures"
-        },
-        {
-          "number": "15",
-          "label": "Historic churches and sanctuaries"
-        },
-        {
-          "number": "3",
-          "label": "Ancient coastal fortifications"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Centuries of Preserved Heritage",
+      "quote": "Walking through these villages is like turning the pages of a living history book. Each village's layout tells its own story of survival and adaptation.",
+      "leftContent": "<p>Since <strong>1997</strong>, UNESCO World Heritage designation has protected this remarkable cultural landscape. Structures date to the <strong>12th century</strong>, with <strong>15 historic churches and sanctuaries</strong>.</p><p>Three ancient <strong>coastal fortifications</strong> still stand guard over the villages.</p>",
+      "rightContent": "<p>From the <strong>Sanctuary of Montenero</strong> with 14th-century frescoes to <strong>Castello Doria</strong> standing sentinel since the 11th century, each village guards its own treasures.</p><p>The terraced landscapes represent <strong>a thousand years of human ingenuity</strong>.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Unmissable Cultural Highlights",
-      "subtitle": "Each village guards its own collection of architectural marvels and sacred spaces",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "sight",
+      "items": [
         {
-          "icon": "church",
-          "title": "Sanctuary of Montenero",
-          "description": "Monterosso's hilltop sanctuary offers not just spiritual solace but commanding views over the entire coastline. The 14th-century frescoes inside tell stories older than the Renaissance."
+          "id": 1,
+          "name": "Sanctuary of Montenero",
+          "category": "Sacred",
+          "description": "Monterosso's hilltop sanctuary offers not just spiritual solace but commanding views over the entire coastline. The 14th-century frescoes inside tell stories older than the Renaissance.",
+          "signature": "Where faith meets panorama"
         },
         {
-          "icon": "castle",
-          "title": "Castello Doria",
-          "description": "Vernazza's 11th-century castle stands sentinel over the harbor, its cylindrical tower a testament to the village's maritime power during the age of the Maritime Republics."
+          "id": 2,
+          "name": "Castello Doria",
+          "category": "Historic",
+          "description": "Vernazza's 11th-century castle stands sentinel over the harbor, its cylindrical tower a testament to the village's maritime power during the age of the Maritime Republics.",
+          "signature": "Guardian of the harbor since 1080"
         },
         {
-          "icon": "eye",
-          "title": "Via dell'Amore Viewpoints",
-          "description": "Though the famous lovers' path remains closed, alternative viewpoints between Manarola and Riomaggiore reveal the same breathtaking perspectives that inspired poets."
+          "id": 3,
+          "name": "Via dell'Amore Viewpoints",
+          "category": "Scenic",
+          "description": "Though the famous lovers' path remains closed, alternative viewpoints between Manarola and Riomaggiore reveal the same breathtaking perspectives that inspired poets.",
+          "signature": "The most romantic coast in Italy"
         },
         {
-          "icon": "mountain",
-          "title": "Sanctuary of Madonna di Soviore",
-          "description": "Hidden above Monterosso, this 9th-century sanctuary is the oldest Marian shrine in Liguria, reached by ancient pilgrimage paths through chestnut forests."
+          "id": 4,
+          "name": "Sanctuary of Madonna di Soviore",
+          "category": "Pilgrimage",
+          "description": "Hidden above Monterosso, this 9th-century sanctuary is the oldest Marian shrine in Liguria, reached by ancient pilgrimage paths through chestnut forests.",
+          "signature": "Liguria's oldest Marian shrine"
         },
         {
-          "icon": "building",
-          "title": "Church of San Lorenzo",
-          "description": "Manarola's Gothic parish church, with its distinctive rose window, houses precious medieval artworks and offers insight into the spiritual life of these coastal communities."
+          "id": 5,
+          "name": "Church of San Lorenzo",
+          "category": "Sacred",
+          "description": "Manarola's Gothic parish church, with its distinctive rose window, houses precious medieval artworks and offers insight into the spiritual life of these coastal communities.",
+          "signature": "Gothic beauty overlooking the sea"
         },
         {
-          "icon": "ship",
-          "title": "Aurora Tower",
-          "description": "Riomaggiore's 13th-century watchtower, part of the ancient defense system against Saracen raids, now frames some of the most photographed sunsets on the Mediterranean."
+          "id": 6,
+          "name": "Aurora Tower",
+          "category": "Historic",
+          "description": "Riomaggiore's 13th-century watchtower, part of the ancient defense system against Saracen raids, now frames some of the most photographed sunsets on the Mediterranean.",
+          "signature": "Where sunsets become legends"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "content-section",
       "title": "The Sacred and the Secular: Architecture That Tells Stories",
       "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73a0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHw4fHxjaW5xdWUlMjB0ZXJyZSUyMGFyY2hpdGVjdHVyZXxlbnwwfDB8fHwxNzY1ODgwNzM4fDA&ixlib=rb-4.1.0&q=80&w=600",
-      "content": "Walking through these villages is like turning the pages of a living history book. In Corniglia, perched 100 meters above the sea, the Gothic-Ligurian Church of San Pietro reveals 14th-century marble reliefs that survived both time and the salt air. The rose window, carved from Carrara marble, catches the morning light in a way that has moved worshippers for seven centuries.\n\nEach village's layout tells its own story of survival and adaptation. Vernazza's maze-like medieval streets were designed to confuse invaders, while the colorful houses that define the Cinque Terre aesthetic originally served as practical navigation aids for fishermen returning from sea.\n\nThe terraced landscapes you see aren't just Instagram-worthy backdrops—they represent a thousand years of human ingenuity. These dry stone walls, known locally as 'fasce,' stretch for over 6,700 kilometers and required generations of families to build and maintain. Walking among them, you're literally following in the footsteps of medieval farmers who carved civilization from seemingly impossible terrain.\n\nFor the culturally curious, timing your visit during religious festivals reveals layers of tradition invisible to casual observers. The Festa di San Giovanni in Monterosso (June 24) or Corniglia's Feast of Saints Peter and Paul (June 29) transform these villages into living museums of devotion and community."
+      "content": "Walking through these villages is like turning the pages of a living history book. In Corniglia, perched 100 meters above the sea, the Gothic-Ligurian Church of San Pietro reveals 14th-century marble reliefs that survived both time and the salt air. The rose window, carved from Carrara marble, catches the morning light in a way that has moved worshippers for seven centuries.\n\nEach village's layout tells its own story of survival and adaptation. Vernazza's maze-like medieval streets were designed to confuse invaders, while the colorful houses that define the Cinque Terre aesthetic originally served as practical navigation aids for fishermen returning from sea.\n\nThe terraced landscapes you see aren't just Instagram-worthy backdrops - they represent a thousand years of human ingenuity. These dry stone walls, known locally as 'fasce,' stretch for over 6,700 kilometers and required generations of families to build and maintain.\n\n**Insider Tip:** For the culturally curious, timing your visit during religious festivals reveals layers of tradition invisible to casual observers. The Festa di San Giovanni in Monterosso (June 24) or Corniglia's Feast of Saints Peter and Paul (June 29) transform these villages into living museums of devotion and community."
     },
     {
       "type": "faq-section",
@@ -135,20 +121,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "title": "Begin Your Journey Through Living History",
-      "subtitle": "These ancient stones have witnessed empires rise and fall, yet the essential character of the Cinque Terre endures. Let us craft your perfect cultural itinerary.",
-      "buttons": [
-        {
-          "text": "Design My Cultural Journey",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Village Guides",
-          "url": "/cinque-terre/villages",
-          "variant": "secondary"
-        }
+      "type": "closing-note",
+      "badge": "Begin Your Journey Through Living History",
+      "title": "Let Us Craft Your Perfect Cultural Itinerary",
+      "content": "<p>These ancient stones have witnessed empires rise and fall, yet the essential character of the Cinque Terre endures.</p><p>From sacred sanctuaries to defensive towers, every sight tells a story of resilience, faith, and the human determination to create beauty in impossible terrain.</p>",
+      "actions": [
+        { "label": "Design My Cultural Journey", "href": "/en/team", "variant": "primary" },
+        { "label": "Explore Village Guides", "href": "/cinque-terre/villages", "variant": "secondary" }
       ]
     }
   ],
@@ -156,7 +135,7 @@
     "city": "cinque-terre",
     "page_type": "sights"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:52:05.146Z"
 }

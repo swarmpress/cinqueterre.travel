@@ -1,5 +1,5 @@
 {
-  "id": "4895f3ff-c0c7-43b4-9c0b-22d279daa87a",
+  "id": "m-apartments-001",
   "slug": {
     "en": "/en/monterosso/apartments",
     "de": "/de/monterosso/apartments",
@@ -7,162 +7,152 @@
     "it": "/it/monterosso/apartments"
   },
   "title": {
-    "en": "Luxury Apartments in Monterosso al Mare | Premium Cinque Terre Stays"
+    "en": "Apartments in Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "apartments",
   "seo": {
     "title": {
-      "en": "Monterosso Luxury Apartments | Cinque Terre | Cinqueterre.travel"
+      "en": "Apartments in Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover premium apartments in Monterosso al Mare. Historic properties with sea views, modern amenities, and authentic Cinque Terre charm."
+      "en": "Monterosso offers what no other Cinque Terre village can: apartments with beach access, flat terrain for rolling luggage, and the choice between historic old town and beachfront Fegina."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
-      "eyebrow": "Luxury Accommodations",
-      "title": "Exquisite Apartments in Monterosso's Historic Heart",
-      "subtitle": "Wake up to Mediterranean sunrises from private terraces in carefully restored properties. Your home base for exploring the largest and most historically rich Cinque Terre village.",
+      "type": "editorial-hero",
+      "title": "The Village<br/>That Has It All",
+      "subtitle": "An apartment in Monterosso means options: wake in the medieval old town and walk to the beach, or wake in Fegina with the Mediterranean at your doorstep. This is the only Cinque Terre village where both are possible.",
+      "badge": "Apartment Rentals",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Monterosso Advantage",
+      "quote": "Other villages offer charm. Monterosso offers charm plus infrastructure. It's the difference between romantic suffering and romantic comfort—both are valid, but only one includes sandy beaches and flat streets.",
+      "content": [
+        "**Two villages in one**. The tunnel through Aurora Tower connects medieval Monterosso to beachfront Fegina. They feel like different places, and your apartment choice determines which experience you live.",
+        "**Flat terrain exists**. Unlike every other Cinque Terre village, Monterosso has actual level ground. Apartments along Via Fegina require no stairs. This matters more than you think until you've dragged luggage up 200 steps.",
+        "**Beach access changes everything**. Morning coffee on your terrace, afternoon swimming, evening passeggiata—the rhythm of a Monterosso apartment stay revolves around the Mediterranean in ways other villages can't match.",
+        "**Shopping is easier**. More supermarkets, more variety, longer hours. The practical reality of self-catering becomes pleasant rather than challenging."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "location",
+      "items": [
+        {
+          "id": 1,
+          "name": "Old Town Centro Storico",
+          "category": "Location Guide",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Medieval atmosphere, caruggi alleyways, the Gothic church—Cinque Terre as you imagined it.",
+          "description": "Apartments in the centro storico put you in authentic medieval Monterosso: narrow streets, stone buildings, the church of San Giovanni Battista just steps away. The beach requires a 10-minute walk through the tunnel, but you're surrounded by centuries of history. Restaurants here are more traditional, the atmosphere more local.",
+          "giuliaComment": "Old town apartments suit people who came for Italian village life, not beach vacation. The stairs are fewer than in other villages but they still exist. The tradeoff is authenticity—you're living where families have lived since the medieval era.",
+          "signature": "Where history surrounds you"
+        },
+        {
+          "id": 2,
+          "name": "Fegina Beach District",
+          "category": "Location Guide",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Beachfront living with the Mediterranean outside your window—the resort side of Monterosso.",
+          "description": "Fegina apartments line the beach promenade where Il Gigante guards the shore. Many have sea-view terraces. The terrain is flat—genuinely flat, with elevators in some buildings. Beach clubs, the train station, and beachfront restaurants are steps away. It feels more resort than village.",
+          "giuliaComment": "Fegina is for people who want beach vacation first, Italian village second. There's nothing wrong with that—the swimming is extraordinary, the convenience real. But don't expect old-town atmosphere. You're trading charm for comfort.",
+          "signature": "Where the beach is your neighbor"
+        },
+        {
+          "id": 3,
+          "name": "The Hillside Between",
+          "category": "Location Guide",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Above both districts—the views expand but the convenience decreases.",
+          "description": "Apartments climbing the hillside above both old and new town offer panoramic views: the entire coastline visible, both beaches below, the terraces rising behind. The tradeoff is stairs—more than old town, different from Fegina's flatness. But the sunrise over the Mediterranean from a hillside terrace is worth the climb.",
+          "giuliaComment": "Hillside apartments are for people who've been before, who know what they want and what they're willing to trade for it. The views are the best in Monterosso. The walk home after dinner is the price. I think it's worth it.",
+          "signature": "Where perspective rewards effort"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Tunnel Connection",
+          "quote": "The tunnel through Aurora Tower takes five minutes to walk, connecting two different worlds. Old town residents use it for beach days. Fegina residents use it for authentic dinners. Understanding this connection is key to choosing your apartment—you're never far from the other side."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Considerations",
+      "quote": "Monterosso apartments come in more varieties than other villages offer. The choices require thought—but the options themselves are a luxury the other villages don't provide.",
+      "content": [
+        "**Parking proximity matters**. Monterosso has the best parking of any Cinque Terre village—which still means distant and expensive. Apartments near the Loreto parking area reduce the luggage struggle.",
+        "**Air conditioning is common**. The larger buildings in Fegina often have proper AC, a rarity in Cinque Terre. For July-August stays, this comfort is significant.",
+        "**Noise profiles differ**. Old town is quiet at night. Beach promenade apartments hear summer revelry until late. Hillside apartments hear nothing but crickets. Choose according to your sleeping needs.",
+        "**Kitchen quality varies**. Fegina apartments in newer buildings often have full kitchens. Old town apartments in ancient buildings sometimes have minimal facilities. Ask specifically what you're getting."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tip",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Beach Rhythm",
+          "category": "Living Local",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "How an apartment stay shapes itself around the Mediterranean.",
+          "description": "A Monterosso apartment creates a different vacation rhythm than other villages. Morning swim before the crowds. Home for lunch to escape midday heat. Afternoon return to the beach when it quiets. Evening passeggiata as the light softens. The apartment becomes your anchor, the beach your orbit.",
+          "giuliaComment": "I watch apartment guests and hotel guests move differently through the day. Apartment people are relaxed—they have a home base, they can retreat, they don't feel pressure to extract value every moment. That relaxation is what Monterosso is for.",
+          "signature": "Where home enables presence"
+        },
+        {
+          "id": 5,
+          "name": "The Multi-Village Strategy",
+          "category": "Exploration Base",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Monterosso as your base for exploring all five villages—why the position works.",
+          "description": "Monterosso sits at the northern end of Cinque Terre, with direct trains to all other villages. From a Monterosso apartment, you can reach Vernazza in 4 minutes by train, Riomaggiore in 12. Day-trip the other villages, return to superior infrastructure, repeat.",
+          "giuliaComment": "People debate which village to stay in. My answer depends on what they want. For beach plus exploration, Monterosso wins. You have the best base facilities and easy access to everywhere else. The train makes distance irrelevant.",
+          "signature": "Where position becomes strategy"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Grocery Reality",
+          "quote": "Monterosso has multiple food shops, longer hours, and better selection than any other village. For self-catering, this matters enormously. You can actually buy what you want when you want it—a simple pleasure that becomes remarkable after experiencing the limitations elsewhere."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Comfort Without Compromise",
+      "content": [
+        "A Monterosso apartment offers something rare in Cinque Terre: comfort that doesn't require sacrifice. You can have the beach and the history, the convenience and the authenticity, the views and the flat terrain. It's just a matter of which apartment and which neighborhood.",
+        "The village doesn't demand you earn your experience through suffering. It simply offers it—the Mediterranean, the mountains, the medieval and the modern, all accessible from whatever apartment becomes your temporary home.",
+        "Choose based on what matters to you. Then stop choosing and start living. The village will handle the rest."
+      ],
       "buttons": [
-        {
-          "text": "View Available Properties",
-          "url": "#properties",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Monterosso",
-          "url": "/monterosso",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "headline": "Why Choose Monterosso Apartments",
-      "intro": "The largest Cinque Terre village offers the perfect blend of authentic charm and modern comfort",
-      "stats": [
-        {
-          "number": "600m",
-          "label": "Largest beach in Cinque Terre"
-        },
-        {
-          "number": "1056",
-          "label": "Year monastery was founded"
-        },
-        {
-          "number": "15min",
-          "label": "Walk between old and new town"
-        },
-        {
-          "number": "5★",
-          "label": "UNESCO World Heritage status"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "headline": "Unmatched Location & Comfort",
-      "intro": "Monterosso offers unique advantages as your Cinque Terre base",
-      "features": [
-        {
-          "icon": "🏖️",
-          "title": "Beach Access",
-          "description": "Only Cinque Terre village with substantial sandy beaches and beach clubs for ultimate relaxation"
-        },
-        {
-          "icon": "🍽️",
-          "title": "Culinary Excellence",
-          "description": "Home to renowned restaurants like Ristorante Miky and Torre Aurora with panoramic terrace dining"
-        },
-        {
-          "icon": "🚂",
-          "title": "Transport Hub",
-          "description": "Central train station with frequent connections to all villages and major cities like Florence and Rome"
-        },
-        {
-          "icon": "🏛️",
-          "title": "Historic Significance",
-          "description": "Longest documented history dating to 643 CE, with Benedictine monasteries and Nobel laureate connections"
-        },
-        {
-          "icon": "🌅",
-          "title": "Dual Character",
-          "description": "Experience both medieval old town charm and seaside resort elegance in one remarkable village"
-        },
-        {
-          "icon": "🍋",
-          "title": "Local Flavors",
-          "description": "Traditional anchovy processing and lemon cultivation create authentic farm-to-table dining experiences"
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "image-right",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1578662996442-48f60103fc96-regular.jpg",
-      "eyebrow": "Prime Locations",
-      "headline": "Your Perfect Monterosso Neighborhood",
-      "content": "Choose between the atmospheric **Centro Storico** (old town) with its medieval streets and ancient churches, or the elegant **Fegina** district along the beach promenade. Our carefully selected apartments offer the best of both worlds.\n\n**Historic Center Properties** feature centuries-old architecture, proximity to Chiesa di San Giovanni Battista, and authentic neighborhood life. Walk to Torre Aurora's panoramic terraces in minutes, or discover Ristorante Ciak's farm-to-table authenticity.\n\n**Beachfront Apartments** in Fegina provide direct access to Monterosso's famous beaches, the iconic Giant statue, and upscale dining at Ristorante Miky. Enjoy sunset views from private balconies while savoring the Mediterranean breeze.\n\nEach property is selected for its unique character, modern amenities, and authentic Cinque Terre experience. From restored fishermen's houses to elegant villa apartments, your home becomes part of Monterosso's living history."
-    },
-    {
-      "type": "faq-section",
-      "headline": "Planning Your Monterosso Stay",
-      "intro": "Essential information for your luxury apartment experience",
-      "faqs": [
-        {
-          "question": "What makes Monterosso apartments special compared to other Cinque Terre villages?",
-          "answer": "Monterosso offers the largest selection of luxury accommodations with unique advantages: spacious properties due to the village's size, beach access unmatched elsewhere in Cinque Terre, and the best dining scene. Properties often feature private terraces with sea views and original architectural details from centuries past."
-        },
-        {
-          "question": "How do I get to my apartment from the train station?",
-          "answer": "Most apartments are within 5-10 minutes' walk from Monterosso station. We provide detailed directions and can arrange luggage transfer service for beachfront properties. The village has two main areas connected by a scenic 15-minute coastal walk or quick train hop."
-        },
-        {
-          "question": "What's included in a luxury apartment rental?",
-          "answer": "Premium amenities typically include fully equipped kitchens, high-quality linens, Wi-Fi, air conditioning, and often washing machines. Many feature private terraces or balconies with sea views. We provide welcome packages with local specialties and comprehensive area guides."
-        },
-        {
-          "question": "When is the best time to book apartments in Monterosso?",
-          "answer": "Book 3-6 months ahead for peak season (June-September). The best weather and restaurant availability occurs May-October. Spring offers perfect hiking conditions, while autumn provides harvest season charm with fewer crowds but maintained warm weather."
-        },
-        {
-          "question": "Can I explore other Cinque Terre villages easily from Monterosso?",
-          "answer": "Absolutely. Monterosso's central train station offers frequent connections to all villages (5-15 minutes each). You can also hike the famous trails or take boat excursions. The village serves as an ideal base for day trips while offering the most amenities for evening relaxation."
-        },
-        {
-          "question": "What dining options are near the apartments?",
-          "answer": "You'll be steps from world-class restaurants. Ristorante Miky offers sophisticated seafood with panoramic sea views, Torre Aurora provides romantic tower dining with 360-degree vistas, and Ristorante Ciak delivers authentic farm-to-table experiences with chef-grown ingredients."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Experience Monterosso?",
-      "headline": "Secure Your Dream Apartment Today",
-      "content": "Join discerning travelers who choose Monterosso as their Cinque Terre sanctuary. Our curated collection of luxury apartments offers unparalleled comfort in Italy's most historic coastal village.",
-      "buttons": [
-        {
-          "text": "Browse Available Apartments",
-          "url": "/apartments/monterosso",
-          "variant": "primary"
-        },
-        {
-          "text": "Contact Our Specialists",
-          "url": "/contact",
-          "variant": "secondary"
-        }
+        { "text": "Beach Guide", "url": "/en/monterosso/beaches", "variant": "primary" },
+        { "text": "Hotels & B&Bs", "url": "/en/monterosso/hotels", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "apartments"
   },
-  "status": "generated",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T12:55:31.980Z"
+  "status": "published",
+  "created_at": "2026-01-07T10:00:00.000Z",
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

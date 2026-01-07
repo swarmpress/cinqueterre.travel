@@ -8,6 +8,7 @@
     "en": "Cinque Terre: Italy's Most Enchanting Coastal Villages"
   },
   "page_type": "landing",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre Italy - Luxury Travel Guide | Cinqueterre.travel"
@@ -18,82 +19,62 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
-      "eyebrow": "UNESCO World Heritage",
-      "title": "Where Medieval Villages Meet the Mediterranean",
+      "type": "editorial-hero",
+      "badge": "UNESCO World Heritage",
+      "title": "Where Medieval Villages<br/>Meet the Mediterranean",
       "subtitle": "Five impossibly beautiful coastal towns where terraced vineyards tumble into azure waters, and centuries-old traditions continue to flourish against one of Europe's most dramatic coastlines.",
-      "buttons": [
-        {
-          "text": "Explore the Villages",
-          "url": "#villages",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Stay",
-          "url": "#planning",
-          "variant": "secondary"
-        }
-      ]
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg"
     },
     {
-      "type": "stats-section",
-      "title": "Cinque Terre by Numbers",
-      "stats": [
-        {
-          "number": "5",
-          "label": "Ancient Villages",
-          "description": "Each with distinct character"
-        },
-        {
-          "number": "1000",
-          "label": "Years of History",
-          "description": "Dating to medieval times"
-        },
-        {
-          "number": "18km",
-          "label": "Coastal Stretch",
-          "description": "Of protected coastline"
-        },
-        {
-          "number": "7000",
-          "label": "Stone Terraces",
-          "description": "Hand-built wine terraces"
-        }
-      ]
+      "type": "editorial-intro",
+      "content": "Five ancient villages. A thousand years of history. Eighteen kilometers of protected coastline and seven thousand hand-built stone terraces. This is Cinque Terre—where the impossible becomes reality and every view demands to be remembered."
     },
     {
-      "type": "feature-section",
-      "title": "Your Cinque Terre Experience",
-      "subtitle": "Immerse yourself in authentic Italian coastal culture with experiences crafted for discerning travelers",
-      "features": [
+      "type": "collection-with-interludes",
+      "heading": "Your Cinque Terre Experience",
+      "headingLevel": 2,
+      "intro": "Immerse yourself in authentic Italian coastal culture with experiences crafted for discerning travelers.",
+      "items": [
         {
+          "type": "experience",
           "icon": "wine",
           "title": "Private Vineyard Tastings",
-          "description": "Sip Sciacchetrà dessert wine on ancient terraces while local vintners share generations of winemaking wisdom."
+          "description": "Sip Sciacchetra dessert wine on ancient terraces while local vintners share generations of winemaking wisdom."
         },
         {
+          "type": "experience",
           "icon": "boat",
           "title": "Exclusive Boat Experiences",
           "description": "Witness the villages from the sea aboard private vessels, accessing hidden coves and swimming spots known only to locals."
         },
         {
+          "type": "interlude",
+          "content": "The magic of Cinque Terre reveals itself slowly—in the rhythm of waves against painted boats, the scent of basil drifting from kitchen windows, the golden light that transforms ancient stone into something almost alive."
+        },
+        {
+          "type": "experience",
           "icon": "hiking",
           "title": "Guided Heritage Walks",
           "description": "Follow medieval mule paths with expert historians who reveal the stories behind every stone and tradition."
         },
         {
+          "type": "experience",
           "icon": "chef",
           "title": "Culinary Masterclasses",
           "description": "Learn to prepare pesto genovese and focaccia col formaggio in family kitchens passed down through centuries."
         },
         {
+          "type": "interlude",
+          "content": "There's a particular moment, just before sunset, when the five villages seem to glow from within. Locals call it l'ora d'oro—the golden hour—and it's when Cinque Terre reveals why it has inspired poets and painters for centuries."
+        },
+        {
+          "type": "experience",
           "icon": "camera",
           "title": "Golden Hour Photography",
           "description": "Capture the perfect shot during exclusive early morning and late evening access to the most photogenic spots."
         },
         {
+          "type": "experience",
           "icon": "culture",
           "title": "Local Festival Access",
           "description": "Join authentic celebrations like the Festa di San Giovanni or vintage harvest festivals with insider invitations."
@@ -142,16 +123,16 @@
       ]
     },
     {
-      "type": "cta-section",
+      "type": "closing-note",
       "title": "Begin Your Cinque Terre Journey",
-      "subtitle": "Let us curate an authentic Italian coastal experience that honors both luxury and tradition.",
+      "content": "Let us curate an authentic Italian coastal experience that honors both luxury and tradition.",
       "primaryButton": {
         "text": "Start Planning Your Visit",
-        "url": "/contact"
+        "url": "/en/team"
       },
       "secondaryButton": {
         "text": "Download Village Guide",
-        "url": "/guides/cinque-terre"
+        "url": "/en/cinque-terre"
       }
     }
   ],
@@ -159,7 +140,7 @@
     "city": "cinque-terre",
     "page_type": "landing"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:54:17.180Z"
 }

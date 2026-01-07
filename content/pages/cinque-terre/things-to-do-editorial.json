@@ -11,8 +11,12 @@
   },
   "page_type": "things-to-do",
   "seo": {
-    "title": { "en": "The Art of Presence | Cinque Terre Dispatch" },
-    "description": { "en": "In Riomaggiore, 'doing' is a matter of noticing. It is the shift from searching for highlights to paying attention to the rhythm of the stone and the sea." }
+    "title": {
+      "en": "The Art of Presence | Cinque Terre Dispatch"
+    },
+    "description": {
+      "en": "In Riomaggiore, 'doing' is a matter of noticing. It is the shift from searching for highlights to paying attention to the rhythm of the stone and the sea."
+    }
   },
   "template": "cinque-terre",
   "body": [
@@ -157,13 +161,23 @@
       "title": "The Memory of Presence",
       "content": "<p>In the end, the most meaningful moments in Riomaggiore are often the ones that were unplanned and unrecorded.</p><p>It is the way the salt felt on your skin after a swim, the sound of a neighbor's shutters opening in the morning, or the silence of the high paths at dusk. These are the moments that stay with you, long after the photos have been forgotten.</p><p>Give yourself permission to slow down. Trust your senses. The village is not a task to be completed, but a rhythm to be joined.</p>",
       "actions": [
-        { "label": "Plan Your Journey", "href": "/itinerary", "variant": "primary" },
-        { "label": "Explore the Village", "href": "/village", "variant": "secondary" }
+        {
+          "label": "Plan Your Journey",
+          "href": "/itinerary",
+          "variant": "primary"
+        },
+        {
+          "label": "Explore the Village",
+          "href": "/village",
+          "variant": "secondary"
+        }
       ]
     }
   ],
-  "metadata": { "page_type": "things-to-do" },
-  "status": "generated",
+  "metadata": {
+    "page_type": "things-to-do"
+  },
+  "status": "published",
   "created_at": "2025-01-05T00:00:00.000Z",
   "updated_at": "2025-01-05T00:00:00.000Z"
 }

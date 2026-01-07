@@ -10,6 +10,7 @@
     "en": "How to Get to Cinque Terre: Your Complete Transportation Guide"
   },
   "page_type": "getting-here",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "How to Get to Cinque Terre Italy | Transport Guide"
@@ -20,90 +21,61 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5JTIwdHJhaW58ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=1200",
-      "eyebrow": "Travel Planning",
-      "title": "Your Journey to Paradise Begins Here",
+      "type": "editorial-hero",
+      "title": "Your Journey to Paradise<br/>Begins Here",
       "subtitle": "Navigate the routes to Cinque Terre like a seasoned traveler. From Rome's bustling stations to Milan's efficient connections, discover the most elegant paths to these ancient coastal jewels.",
-      "buttons": [
-        {
-          "text": "Plan Your Route",
-          "url": "#transportation",
-          "variant": "primary"
-        },
-        {
-          "text": "Best Travel Times",
-          "url": "#timing",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Travel Planning",
+      "image": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5JTIwdHJhaW58ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=1200",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "Journey at a Glance",
-      "stats": [
-        {
-          "number": "4.5",
-          "label": "hours from Rome",
-          "suffix": "hrs"
-        },
-        {
-          "number": "3",
-          "label": "hours from Milan",
-          "suffix": "hrs"
-        },
-        {
-          "number": "2",
-          "label": "main gateway stations",
-          "suffix": ""
-        },
-        {
-          "number": "5",
-          "label": "village stops",
-          "suffix": ""
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Journey at a Glance",
+      "quote": "For centuries, these villages remained accessible only by sea or treacherous mountain paths. The arrival of the railway in 1874 changed everything, creating one of the world's most spectacular train journeys.",
+      "leftContent": "<p>Just <strong>4.5 hours from Rome</strong> or <strong>3 hours from Milan</strong> via high-speed rail. Two main gateway stations - La Spezia Centrale and Levanto - connect to all <strong>5 village stops</strong>.</p><p>The <strong>Cinque Terre Express</strong> runs every 15-30 minutes during peak season.</p>",
+      "rightContent": "<p>Fly into <strong>Pisa (1.5 hours)</strong>, <strong>Genoa (2 hours)</strong>, or <strong>Milan (3.5 hours)</strong> for convenient connections.</p><p>Purchase your <strong>Cinque Terre Card</strong> at La Spezia station - it includes unlimited local train travel plus hiking trail access.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Your Transportation Options",
-      "subtitle": "Each route offers its own character and charm, from high-speed rail comfort to scenic coastal drives",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "transport",
+      "items": [
         {
-          "icon": "🚆",
-          "title": "High-Speed Train",
-          "description": "The most elegant approach via Frecciarossa to La Spezia, then regional trains to the villages. Comfortable, punctual, and stress-free."
+          "id": 1,
+          "name": "High-Speed Train",
+          "category": "Rail",
+          "description": "The most elegant approach via Frecciarossa to La Spezia, then regional trains to the villages. Comfortable, punctual, and stress-free.",
+          "signature": "The journey that matches the destination"
         },
         {
-          "icon": "✈️",
-          "title": "Fly & Connect",
-          "description": "Land in Pisa, Genoa, or Milan airports. Each offers direct train connections, with Pisa being closest at just 1.5 hours by rail."
+          "id": 2,
+          "name": "Fly & Connect",
+          "category": "Air",
+          "description": "Land in Pisa, Genoa, or Milan airports. Each offers direct train connections, with Pisa being closest at just 1.5 hours by rail.",
+          "signature": "International access made simple"
         },
         {
-          "icon": "🚗",
-          "title": "Scenic Drive",
-          "description": "Drive the coastal roads for breathtaking views, but park outside the villages. Limited ZTL zones protect these ancient streets."
+          "id": 3,
+          "name": "Scenic Drive",
+          "category": "Road",
+          "description": "Drive the coastal roads for breathtaking views, but park outside the villages. Limited ZTL zones protect these ancient streets.",
+          "signature": "For those who love the journey"
         },
         {
-          "icon": "🚢",
-          "title": "Coastal Ferry",
-          "description": "Arrive by sea from La Spezia or Portovenere during season (April-October). The most romantic entrance to these maritime villages."
+          "id": 4,
+          "name": "Coastal Ferry",
+          "category": "Sea",
+          "description": "Arrive by sea from La Spezia or Portovenere during season (April-October). The most romantic entrance to these maritime villages.",
+          "signature": "Approach like the ancients did"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "content-section",
       "layout": "text-with-image",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1464207687429-7505649dae38-regular.jpg",
       "title": "The Train Journey: Poetry in Motion",
-      "content": [
-        "For centuries, these villages remained accessible only by sea or treacherous mountain paths. The arrival of the railway in 1874 changed everything, carving tunnels through ancient rock and creating one of the world's most spectacular train journeys.",
-        "Today's travelers follow the same route that connected these fishing communities to the wider world. The **Cinque Terre Express** runs every 15-30 minutes during peak season, threading between villages like pearls on a coastal string.",
-        "**From Rome**: Board a Frecciarossa high-speed train to La Spezia Centrale (4.5 hours). The journey transforms from urban landscapes to rolling Tuscan hills, finally revealing the Ligurian coast's dramatic beauty.",
-        "**From Milan**: Direct trains reach La Spezia in just 3 hours via the scenic Apennine passes. Morning departures arrive perfectly timed for lunch overlooking the Mediterranean.",
-        "**Insider's tip**: Purchase your **Cinque Terre Card** at La Spezia station. This includes unlimited local train travel plus hiking trail access—essential for exploring beyond the villages themselves."
-      ]
+      "content": "For centuries, these villages remained accessible only by sea or treacherous mountain paths. The arrival of the railway in 1874 changed everything, carving tunnels through ancient rock and creating one of the world's most spectacular train journeys.\n\nToday's travelers follow the same route that connected these fishing communities to the wider world. The **Cinque Terre Express** runs every 15-30 minutes during peak season, threading between villages like pearls on a coastal string.\n\n**From Rome**: Board a Frecciarossa high-speed train to La Spezia Centrale (4.5 hours). The journey transforms from urban landscapes to rolling Tuscan hills, finally revealing the Ligurian coast's dramatic beauty.\n\n**From Milan**: Direct trains reach La Spezia in just 3 hours via the scenic Apennine passes. Morning departures arrive perfectly timed for lunch overlooking the Mediterranean.\n\n**Insider's tip**: Purchase your **Cinque Terre Card** at La Spezia station. This includes unlimited local train travel plus hiking trail access - essential for exploring beyond the villages themselves."
     },
     {
       "type": "faq-section",
@@ -111,11 +83,11 @@
       "faqs": [
         {
           "question": "What's the best airport for reaching Cinque Terre?",
-          "answer": "Pisa Galilei Airport offers the most direct route—just 1.5 hours by train to La Spezia via the coastal line. Genoa (2 hours) and Milan Malpensa (3.5 hours) are excellent alternatives with more international connections."
+          "answer": "Pisa Galilei Airport offers the most direct route - just 1.5 hours by train to La Spezia via the coastal line. Genoa (2 hours) and Milan Malpensa (3.5 hours) are excellent alternatives with more international connections."
         },
         {
           "question": "Can I drive directly to the villages?",
-          "answer": "Limited vehicle access protects these UNESCO sites. Monterosso al Mare offers some parking, while other villages have ZTL (traffic-limited zones). We recommend parking in La Spezia or Levanto and taking the train—it's faster and more relaxing."
+          "answer": "Limited vehicle access protects these UNESCO sites. Monterosso al Mare offers some parking, while other villages have ZTL (traffic-limited zones). We recommend parking in La Spezia or Levanto and taking the train - it's faster and more relaxing."
         },
         {
           "question": "How often do trains run between villages?",
@@ -127,7 +99,7 @@
         },
         {
           "question": "What about luggage storage?",
-          "answer": "La Spezia Centrale station offers luggage storage (€6 per day). Most village stations have limited facilities, so travel light or arrange hotel luggage transfer services through your accommodation."
+          "answer": "La Spezia Centrale station offers luggage storage (EUR6 per day). Most village stations have limited facilities, so travel light or arrange hotel luggage transfer services through your accommodation."
         },
         {
           "question": "Is the ferry service reliable?",
@@ -136,21 +108,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "background": "gradient",
-      "title": "Ready to Begin Your Cinque Terre Adventure?",
-      "subtitle": "Let us craft your perfect journey to these timeless villages. From seamless transfers to exclusive experiences, we handle every detail.",
-      "buttons": [
-        {
-          "text": "Plan My Journey",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "View Sample Itineraries",
-          "url": "/cinque-terre/itineraries",
-          "variant": "secondary"
-        }
+      "type": "closing-note",
+      "badge": "Ready to Begin Your Adventure",
+      "title": "Let Us Craft Your Perfect Journey",
+      "content": "<p>From seamless transfers to exclusive experiences, we handle every detail of your arrival to these timeless villages.</p><p>Whether you prefer high-speed rail comfort or scenic coastal approaches, your Cinque Terre adventure starts with the perfect journey.</p>",
+      "actions": [
+        { "label": "Plan My Journey", "href": "/en/team", "variant": "primary" },
+        { "label": "View Sample Itineraries", "href": "/cinque-terre/itineraries", "variant": "secondary" }
       ]
     }
   ],
@@ -158,7 +122,7 @@
     "city": "cinque-terre",
     "page_type": "getting-here"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:46:01.092Z"
 }

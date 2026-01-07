@@ -1,5 +1,5 @@
 {
-  "id": "e00dee0b-75d3-4987-9133-e23606c12ede",
+  "id": "d7a53b20-e78f-4a9b-a09c-cb1d06197cde",
   "slug": {
     "en": "/en/corniglia/agriturismi",
     "de": "/de/corniglia/agriturismi",
@@ -7,169 +7,152 @@
     "it": "/it/corniglia/agriturismi"
   },
   "title": {
-    "en": "Luxury Agriturismi in Corniglia - Authentic Vineyard Stays"
+    "en": "Farm Stays Near Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "agriturismi",
   "seo": {
     "title": {
-      "en": "Corniglia Agriturismi - Luxury Farm Stays | Cinqueterre.travel"
+      "en": "Farm Stays Near Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover luxury agriturismi in Corniglia. Experience authentic vineyard stays, wine tastings, and farm-to-table dining in Cinque Terre's hilltop village."
+      "en": "Corniglia already sits above the sea—an agriturismo puts you even higher, among the terraced vineyards that have defined this village for a millennium. The agricultural heritage here isn't scenery; it's livelihood."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg",
-      "eyebrow": "Authentic Experiences",
-      "title": "Sleep Among Ancient Vineyards in Corniglia's Luxury Agriturismi",
-      "subtitle": "Experience the soul of Cinque Terre through intimate farm stays where centuries-old traditions meet modern comfort. Wake to sunrise over terraced vineyards, taste wines made steps from your door, and discover why Corniglia remains the agricultural heart of these legendary villages.",
+      "type": "editorial-hero",
+      "title": "Among the<br/>Vineyards",
+      "subtitle": "Corniglia is already the agricultural village—perched above the sea, surrounded by terraces, more connected to the land than the water. An agriturismo stay deepens that connection, putting you inside the working landscape that has sustained this hillside for a thousand years.",
+      "badge": "Farm Stays",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Vineyard Village",
+      "quote": "If Corniglia is already the agricultural heart of Cinque Terre, then the farms above it are the soul. Here the terraces aren't backdrop—they're the entire point.",
+      "content": [
+        "**Corniglia makes agricultural sense**. Unlike its neighbors, this village never had a proper harbor. Its economy was always the land: grapes for wine, olives for oil, vegetables for the table. The agriturismi above carry this tradition forward.",
+        "**The terraces surround you**. From farm stays near Corniglia, you're immersed in the UNESCO landscape—stone walls, vine rows, olive groves stretching toward the sea. You see what the village sees, not what tourists photograph from below.",
+        "**Wine is the story**. Corniglia produces some of the finest grapes in Cinque Terre. The local wine—especially the Sciacchetrà—benefits from these south-facing slopes and maritime breezes. Staying at an agriturismo often means access to wines you cannot buy elsewhere.",
+        "**The quiet is different**. Corniglia is already quieter than other villages. The farms above are quieter still—the only sounds are wind, birds, and the distant church bells marking time as they have for centuries."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "experience",
+      "items": [
+        {
+          "id": 1,
+          "name": "The Ridge Position",
+          "category": "Geographic Advantage",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Agriturismi near Corniglia occupy ridgelines with views in multiple directions—coast, valley, and mountain all visible at once.",
+          "description": "The farms above Corniglia sit on the watershed between the coastal slope and the Vara Valley behind. From many properties, you can watch sunrise over the mountains and sunset over the sea. This dual perspective explains why people settled here despite the difficulty—the land is productive in ways the steeper coastal slopes aren't.",
+          "giuliaComment": "The ridge properties have the best views in all of Cinque Terre. You can see all five villages on clear days, the islands beyond, and the mountains that protect us from northern weather. It's the view the farmers have always had.",
+          "signature": "Where land meets sky in every direction"
+        },
+        {
+          "id": 2,
+          "name": "Vineyard Work",
+          "category": "Participatory Experience",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The vendemmia here is legendary—Corniglia grapes have made wine since Roman times, and guests can join the tradition.",
+          "description": "Autumn brings the grape harvest to Corniglia's terraces. Unlike flatter wine regions where machines do the work, here everything is still done by hand—grapes cut carefully, carried in baskets down stone stairs, pressed using methods not much changed in centuries. Participating is physical work that connects you to millennia of tradition.",
+          "giuliaComment": "The harvest here is harder than other villages because the terraces are steeper. But the grapes are better—something about this particular exposure, this soil. The wine knows where it came from.",
+          "signature": "Where tradition requires participation"
+        },
+        {
+          "id": 3,
+          "name": "The Farm Table",
+          "category": "Culinary Immersion",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Dinner at an agriturismo features what the day provided—vegetables from the terrace garden, wine from the cellar, oil from the press.",
+          "description": "Farm dining near Corniglia reflects the agricultural honesty of the village itself. No elaborate presentations, no fusion experiments—just ingredients grown on the property, prepared simply, served with wine made from grapes you can see from the dining room. The freshness is incomparable.",
+          "giuliaComment": "My aunt runs an agriturismo above Corniglia. Her dinners are whatever she picked that day, cooked how her mother taught her. Guests sometimes expect more elaborate meals. They leave understanding why simplicity is harder and better.",
+          "signature": "Where the meal explains the landscape"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Sciacchetrà Secret",
+          "quote": "Corniglia's position produces exceptional Sciacchetrà grapes—the dessert wine requires long drying periods that the ridge-top air provides. The small quantities produced by local agriturismi rarely leave the property. A tasting where it was made, from barrels you can touch, is worth more than any bottle you'd buy in town."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Realities",
+      "quote": "Farm stays near Corniglia require commitment—you're already choosing the village farthest from the sea, and the farms are farther still. The rewards match the effort.",
+      "content": [
+        "**Transportation is essential**. The farms sit 10-20 minutes from Corniglia by car. Some offer pickup from La Spezia; others require you to drive. The village itself has no car access, so coordination matters.",
+        "**The 382 steps remain**. Even from an agriturismo, reaching Corniglia village means confronting the Lardarina—the famous stairway from the train station. You can avoid it by driving to the village access road, but eventually you'll climb.",
+        "**Reservations book early**. Corniglia agriturismi are smaller than those near other villages, with fewer rooms. The best ones book months ahead, especially during harvest season.",
+        "**Amenities are simple**. These are working farms that host guests, not hotels with gardens. Expect comfortable rooms but basic facilities. The authenticity is the amenity."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "season",
+      "items": [
+        {
+          "id": 4,
+          "name": "Spring Awakening",
+          "category": "Seasonal Guide",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the terraces turn green and the wildflowers carpet the hillsides—the land remembering its purpose.",
+          "description": "Spring above Corniglia is extraordinary. The vineyards leaf out, covering bare stone walls with green. Wildflowers fill every untended space. The farms are busy with planting, pruning, and preparation. Guests can participate or simply watch the landscape transform.",
+          "giuliaComment": "I love spring in the hills because you can see the terraces' structure—the walls visible through new growth, the patterns of cultivation clear. By summer, everything is green and hidden. Spring shows how the landscape was made.",
+          "signature": "When the land reveals its structure"
+        },
+        {
+          "id": 5,
+          "name": "Harvest Season",
+          "category": "Peak Experience",
+          "village": "Corniglia",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "September through November brings the grape and olive harvest—when the year's labor becomes the year's sustenance.",
+          "description": "Autumn is when Corniglia's agricultural heritage becomes visible. The vendemmia fills terraces with workers. The smell of fermenting grapes drifts from cellars. Olives are pressed in ancient mills. The entire village—and the farms above it—work toward the same purpose.",
+          "giuliaComment": "If you can only visit once, choose harvest season. The energy is different—focused, communal, celebratory. You understand why people built on these impossible slopes. The wine justifies everything.",
+          "signature": "When a year of work becomes meaning"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "Finding Real Farms",
+          "quote": "Not every place calling itself 'agriturismo' is genuine. Real farms near Corniglia have active vineyards, producing cellars, evidence of agricultural work. Ask about their wine, their oil, their harvest schedule. Authentic operations love explaining what they grow."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Higher and Deeper",
+      "content": [
+        "An agriturismo near Corniglia amplifies what the village already offers: distance from the tourist crush, immersion in agricultural heritage, connection to land that has been worked for a millennium.",
+        "You trade sea views for ridge views. You trade convenience for authenticity. You trade the bustle of the other villages for the quiet that Corniglia has always provided.",
+        "Come with patience. Come with curiosity. Leave understanding why people have farmed these impossible slopes for a thousand years."
+      ],
       "buttons": [
-        {
-          "text": "Explore Luxury Agriturismi",
-          "url": "#agriturismi",
-          "variant": "primary"
-        },
-        {
-          "text": "View Vineyard Tours",
-          "url": "#experiences",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Corniglia's Agricultural Legacy",
-      "stats": [
-        {
-          "number": "2000",
-          "label": "Years of Viticulture",
-          "description": "Roman-founded wine traditions"
-        },
-        {
-          "number": "377",
-          "label": "Steps to Village",
-          "description": "Iconic Lardarina stairway"
-        },
-        {
-          "number": "5",
-          "label": "Luxury Agriturismi",
-          "description": "Exclusive vineyard properties"
-        },
-        {
-          "number": "100%",
-          "label": "Organic Practices",
-          "description": "Traditional sustainable farming"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Why Choose Corniglia's Agriturismi Experience",
-      "subtitle": "Discover the authentic agricultural heart of Cinque Terre through carefully selected luxury farm stays",
-      "features": [
-        {
-          "icon": "🍇",
-          "title": "Vineyard Immersion",
-          "description": "Stay within working vineyards producing the famous Cinque Terre DOC wines. Participate in harvest, pruning, and traditional winemaking processes."
-        },
-        {
-          "icon": "🏛️",
-          "title": "Ancient Terraces",
-          "description": "Sleep surrounded by Roman-era agricultural terraces, the same dry stone walls that have supported vines for two millennia."
-        },
-        {
-          "icon": "🍽️",
-          "title": "Farm-to-Table Excellence",
-          "description": "Dine on ingredients grown steps from your room. Many agriturismi maintain kitchen gardens and produce their own olive oil."
-        },
-        {
-          "icon": "🌅",
-          "title": "Panoramic Serenity",
-          "description": "Enjoy unobstructed Mediterranean views from your terrace without the crowds. Corniglia's elevation offers privacy and perspective."
-        },
-        {
-          "icon": "🧑‍🌾",
-          "title": "Generational Knowledge",
-          "description": "Learn from families who've worked these lands for centuries. Discover secrets of terrace maintenance and traditional cultivation."
-        },
-        {
-          "icon": "🍯",
-          "title": "Artisan Products",
-          "description": "Take home estate-produced wines, honey, preserves, and olive oil. Many agriturismi offer exclusive products unavailable elsewhere."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://images.unsplash.com/photo-1596142332133-327afe4d4f03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxzY2lhY2NoZXRyYSUyMHdpbmV8ZW58MHwwfHx8MTc2NTg4MjQ2MHww&ixlib=rb-4.1.0&q=80&w=1200",
-      "title": "The Sciacchetrà Experience: Liquid Gold of the Terraces",
-      "content": "Your agriturismi stay opens doors to Corniglia's most precious secret: Sciacchetrà, the legendary dessert wine crafted from dried grapes on ancient terraces. This amber elixir, produced in quantities so small that most of the world never tastes it, represents the pinnacle of Cinque Terre winemaking.\n\nThe process begins in September when perfect grape clusters are hand-selected and laid on reed mats to dry slowly in ventilated rooms. Over three months, they transform into raisins, concentrating their sugars and developing complex flavors. The resulting wine, aged in small barrels, offers notes of honey, dried fruits, and herbs - a liquid embodiment of these sun-soaked terraces.\n\nMany agriturismi offer exclusive Sciacchetrà tastings paired with local cheeses and chestnuts, sometimes in the same cellars where the wine ages. These intimate experiences, often limited to just a few guests, provide access to vintages that never reach commercial markets."
-    },
-    {
-      "type": "content-section",
-      "variant": "text-only",
-      "title": "Your Agriturismi Journey Through the Seasons",
-      "content": "**Spring (March-May):** Witness the awakening of ancient vines as they burst with new growth. Help with pruning and terracing maintenance while enjoying mild temperatures and wildflower blooms across the hillsides.\n\n**Summer (June-August):** Experience the full intensity of Mediterranean agriculture. Morning harvests of vegetables and herbs, afternoon siestas in shaded terraces, and evenings dining al fresco with locally produced wines.\n\n**Autumn (September-November):** Join the harvest celebrations that have defined Corniglia for centuries. Participate in grape picking, wine pressing, and the magical process of preparing grapes for Sciacchetrà production.\n\n**Winter (December-February):** Discover Corniglia's quiet season when locals tend their olive groves and craft tools for the coming year. Cozy evenings by the fireplace with aged wines and preserved foods showcase winter's rustic pleasures.\n\nEach season offers unique agriturismi experiences, from hands-on agricultural work to seasonal cooking classes using ingredients that reflect nature's rhythm.",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1592908659732-bd3147d607e8-hero.jpg"
-    },
-    {
-      "type": "faq-section",
-      "title": "Planning Your Corniglia Agriturismo Stay",
-      "faqs": [
-        {
-          "question": "What makes Corniglia's agriturismi different from other Cinque Terre accommodations?",
-          "answer": "Corniglia's agriturismi offer authentic agricultural experiences impossible elsewhere. You'll stay within working vineyards and farms, participate in traditional activities like winemaking and olive harvesting, and learn from families who've worked these terraces for generations. The village's inland location means fewer tourists and more genuine cultural immersion."
-        },
-        {
-          "question": "Do I need to climb the famous 377 steps to reach the agriturismi?",
-          "answer": "Not necessarily. While the iconic Lardarina stairway connects the train station to the village, many agriturismi offer pickup services or are accessible by the shuttle bus that runs from the station. Some properties are located along the hillside paths with easier access routes."
-        },
-        {
-          "question": "What agricultural activities can I participate in during my stay?",
-          "answer": "Activities vary by season but may include grape harvesting, wine pressing, olive picking, terracing maintenance, pruning vines, tending kitchen gardens, and learning traditional preservation techniques. Most agriturismi also offer cooking classes using farm-grown ingredients and private wine tastings featuring their own productions."
-        },
-        {
-          "question": "Are meals included at Corniglia agriturismi?",
-          "answer": "Most luxury agriturismi offer half-board or full-board options featuring farm-to-table cuisine. Expect meals made with ingredients grown on the property - fresh vegetables, herbs, olive oil, wine, and sometimes cheese or preserved meats. Many properties can accommodate dietary restrictions with advance notice."
-        },
-        {
-          "question": "Can I purchase wine and products directly from the agriturismi?",
-          "answer": "Absolutely. This is one of the greatest advantages of staying at working farms. Most agriturismi sell their own wine, olive oil, honey, preserves, and other artisan products directly to guests. You'll often find exclusive vintages or limited productions not available in shops, including the rare Sciacchetrà dessert wine."
-        },
-        {
-          "question": "What's the best time to visit for the most authentic agricultural experience?",
-          "answer": "September through November offers the most active agricultural period with grape and olive harvests. Spring (April-May) is ideal for learning about vine cultivation and terracing maintenance. Each season provides different experiences - winter for olive pressing and wine aging, summer for vegetable gardening and grape tending."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "title": "Reserve Your Authentic Vineyard Experience",
-      "subtitle": "Limited spaces available at Corniglia's most exclusive agriturismi. Book your immersive farm stay and discover the agricultural soul of Cinque Terre.",
-      "buttons": [
-        {
-          "text": "View Available Properties",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Agritourism Journey",
-          "url": "/corniglia",
-          "variant": "secondary"
-        }
+        { "text": "Village Hotels", "url": "/en/corniglia/hotels", "variant": "primary" },
+        { "text": "Things to Do", "url": "/en/corniglia/things-to-do", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "corniglia",
+    "village_id": "corniglia",
     "page_type": "agriturismi"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T10:55:06.672Z"
+  "updated_at": "2026-01-07T15:00:00.000Z"
 }

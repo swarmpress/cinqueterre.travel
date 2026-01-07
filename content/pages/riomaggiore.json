@@ -10,6 +10,7 @@
     "en": "Riomaggiore: Gateway to Cinque Terre's Timeless Beauty"
   },
   "page_type": "city",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Riomaggiore Cinque Terre: Complete Village Guide | Cinqueterre.travel"
@@ -20,108 +21,111 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg",
-      "eyebrow": "Cinque Terre's Southern Gateway",
-      "title": "Riomaggiore: Where Ancient Stories Meet Azure Waters",
+      "type": "editorial-hero",
+      "title": "Where Ancient Stories<br/>Meet Azure Waters",
       "subtitle": "Step into the southernmost village of Cinque Terre, where medieval towers guard colorful houses and every cobblestone path leads to extraordinary discoveries. Founded by Greek refugees in 1239, this UNESCO World Heritage treasure offers unparalleled access to the famous Via dell'Amore and some of the region's finest dining.",
-      "buttons": [
+      "badge": "Cinque Terre's Southern Gateway",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Riomaggiore at a Glance",
+      "quote": "In 1239, Greek refugees fleeing barbarian invasions discovered this sheltered cove, establishing what they called 'Rivus Major'—the major river—after the stream flowing through the valley. Eight centuries later, their medieval streets remain, now guarding three Michelin-listed restaurants.",
+      "content": [
+        "**Founded by refugees, perfected by time**. Greek settlers built the first terraced vineyards and fishing harbors that form the foundation of today's village. By 1260, the growing community constructed the circular fortress that still dominates the skyline—protection from Saracen raids that remains dramatically photogenic.",
+        "**The most accessible village**. Just 300 meters from the train station through a short tunnel, Riomaggiore offers the easiest entry to Cinque Terre. This convenience doesn't diminish authenticity—1,500 residents maintain traditions their ancestors established eight centuries ago.",
+        "**Where the Via dell'Amore begins**. The world's most romantic coastal walk starts here, carved into cliffsides with breathtaking Mediterranean vistas. Even when sections close for restoration, the promise of this path draws travelers from around the world."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "highlight",
+      "items": [
         {
-          "text": "Explore Dining Experiences",
-          "url": "#dining",
-          "variant": "primary"
+          "id": 1,
+          "name": "Medieval Castle & Tower",
+          "category": "Historic Fortress",
+          "village": "Riomaggiore",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1682686580391-615b1f28e5ee-regular.jpg",
+          "intro": "Explore the 13th-century fortress that once protected villagers from Saracen raids, offering panoramic views over the Ligurian Sea.",
+          "description": "Built in 1260 as the community faced increasing Saracen threats, the circular fortress served as both watchtower and refuge. Families could shelter within these walls while guards scanned the horizon for approaching raiders. Today, the climb to the top rewards visitors with 360-degree panoramas over village, terraces, and endless sea.",
+          "signature": "Where protection became panorama"
         },
         {
-          "text": "Discover Village History",
-          "url": "#history",
-          "variant": "secondary"
+          "id": 2,
+          "name": "Exceptional Wine Terraces",
+          "category": "Wine Heritage",
+          "village": "Riomaggiore",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1682686581427-7c80ab60e3f3-regular.jpg",
+          "intro": "Discover the ancient terraced vineyards that produce Cinque Terre's renowned Sciacchetra dessert wine, cultivated since medieval times.",
+          "description": "The Greek refugees who founded Riomaggiore brought more than their culture—they brought viticulture. The terraces climbing the slopes behind the village produce Cinque Terre DOC whites and the precious Sciacchetra, an amber dessert wine made from grapes dried on traditional mats. Local producers offer tastings by appointment.",
+          "signature": "Where Greeks planted dreams"
+        },
+        {
+          "id": 3,
+          "name": "Gateway to Via dell'Amore",
+          "category": "Romantic Walks",
+          "village": "Riomaggiore",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg",
+          "intro": "Begin your journey on the world's most romantic coastal walk, carved into cliffsides with breathtaking Mediterranean vistas.",
+          "description": "The Via dell'Amore—Lover's Walk—connects Riomaggiore to Manarola along a path that has inspired proposals and honeymoons for generations. Carved into the cliffs above the sea, the walk offers constant drama: waves crashing below, villages appearing around corners, the Mediterranean stretching to infinity. Even during restoration periods, alternative trails reveal the same stunning coastline.",
+          "signature": "Where love stories unfold"
+        },
+        {
+          "id": 4,
+          "name": "Culinary Excellence",
+          "category": "Gastronomy",
+          "village": "Riomaggiore",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1682686580391-615b1f28e5ee-regular.jpg",
+          "intro": "From Michelin Guide Rio Bistrot to authentic local focaccerias, experience the full spectrum of Ligurian gastronomy in one village.",
+          "description": "Rio Bistrot brings Michelin recognition to creative contemporary cuisine—reserve a terrace table for marina views while savoring signature homemade pasta. Dau Cila offers the village's most enchanting setting, with stone-walled interiors and a coveted terrace overlooking the Mediterranean. Te la do io la merenda serves legendary focaccia col formaggio—arrive before 2 PM for the freshest selections.",
+          "signature": "Where tradition meets innovation"
+        },
+        {
+          "id": 5,
+          "name": "Perfect Accessibility",
+          "category": "Practical Advantage",
+          "village": "Riomaggiore",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg",
+          "intro": "As the most accessible Cinque Terre village, enjoy direct train connections while maintaining that secluded coastal village atmosphere.",
+          "description": "Just 300 meters through a tunnel connects Riomaggiore station to the village center—a 3-4 minute walk. Regional trains run every 30 minutes connecting to La Spezia and other villages. This accessibility makes Riomaggiore the natural starting point for exploring Cinque Terre, without sacrificing any of the medieval atmosphere.",
+          "signature": "Where easy meets authentic"
+        },
+        {
+          "id": 6,
+          "name": "Artist's Paradise",
+          "category": "Cultural Legacy",
+          "village": "Riomaggiore",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1682686581427-7c80ab60e3f3-regular.jpg",
+          "intro": "Follow in the footsteps of painter Telemaco Signorini through streets that have inspired artists for over a century.",
+          "description": "The Macchiaioli painter Telemaco Signorini (1835-1901) introduced Cinque Terre to international artistic circles through his landscapes capturing the interplay of light and color on these coastal cliffs. His work established the region's reputation for natural beauty. Today, artists still set up easels where Signorini once painted.",
+          "signature": "Where light becomes legend"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Eight Centuries of Heritage",
+          "title": "From Greek Refugees to UNESCO Recognition",
+          "quote": "In 1997, Riomaggiore achieved its greatest recognition when UNESCO designated the entire Cinque Terre as a World Heritage Site, acknowledging these villages as an outstanding example of harmonious interaction between people and the environment. The terraces, the villages, the traditions—all officially worthy of preservation for humanity."
         }
       ]
     },
     {
-      "type": "stats-section",
-      "title": "Riomaggiore at a Glance",
-      "stats": [
-        {
-          "number": "1239",
-          "label": "Year Founded",
-          "description": "Medieval origins"
-        },
-        {
-          "number": "1.5k",
-          "label": "Residents",
-          "description": "Authentic community"
-        },
-        {
-          "number": "3",
-          "label": "Michelin Listed",
-          "description": "Exceptional restaurants"
-        },
-        {
-          "number": "300m",
-          "label": "From Train Station",
-          "description": "Easy access"
-        }
+      "type": "editorial-intro",
+      "badge": "A Culinary Journey Through Time",
+      "quote": "Riomaggiore's dining scene spans from Michelin-recognized innovation to centuries-old traditions. Reserve terrace tables for marina views, arrive early for legendary focaccia, and let the village reveal its gastronomic depth.",
+      "content": [
+        "**Rio Bistrot sets the contemporary standard**. Michelin Guide recognition meets creative cuisine in a marina-view setting. Their signature homemade pasta with mussels showcases modern interpretations of traditional Ligurian flavors. The tasting menu rewards adventurous diners.",
+        "**Dau Cila offers timeless romance**. Stone-walled interiors and a coveted outdoor terrace overlooking the Mediterranean create the village's most enchanting dining experience. Their trofiette with pesto represents Ligurian cuisine at its most authentic.",
+        "**Te la do io la merenda delivers street food perfection**. The legendary focaccia col formaggio—cheese-filled flatbread—has achieved cult status among visitors. Arrive early for the freshest selections and enjoy while exploring medieval streets."
       ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Why Riomaggiore Captivates Discerning Travelers",
-      "subtitle": "Eight centuries of history have created a village that perfectly balances authenticity with sophistication.",
-      "features": [
-        {
-          "icon": "🏰",
-          "title": "Medieval Castle & Tower",
-          "description": "Explore the 13th-century fortress that once protected villagers from Saracen raids, offering panoramic views over the Ligurian Sea."
-        },
-        {
-          "icon": "🍷",
-          "title": "Exceptional Wine Terraces",
-          "description": "Discover the ancient terraced vineyards that produce Cinque Terre's renowned Sciacchetrà dessert wine, cultivated since medieval times."
-        },
-        {
-          "icon": "🌊",
-          "title": "Gateway to Via dell'Amore",
-          "description": "Begin your journey on the world's most romantic coastal walk, carved into cliffsides with breathtaking Mediterranean vistas."
-        },
-        {
-          "icon": "🦪",
-          "title": "Culinary Excellence",
-          "description": "From Michelin Guide Rio Bistrot to authentic local focaccerias, experience the full spectrum of Ligurian gastronomy in one village."
-        },
-        {
-          "icon": "🚂",
-          "title": "Perfect Accessibility",
-          "description": "As the most accessible Cinque Terre village, enjoy direct train connections while maintaining that secluded coastal village atmosphere."
-        },
-        {
-          "icon": "📸",
-          "title": "Artist's Paradise",
-          "description": "Follow in the footsteps of painter Telemaco Signorini through streets that have inspired artists for over a century."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image-right",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1682686580391-615b1f28e5ee-regular.jpg",
-      "title": "A Culinary Journey Through Time",
-      "subtitle": "Riomaggiore's dining scene spans from Michelin-recognized innovation to centuries-old traditions.",
-      "content": "Your culinary adventure begins at **Rio Bistrot**, where Michelin Guide recognition meets creative contemporary cuisine. Reserve a terrace table for marina views while savoring their signature homemade pasta with mussels and daily fresh fish selections. The restaurant's tasting menu showcases modern interpretations of traditional Ligurian flavors.\n\nFor romance with a view, **Dau Cila** offers the village's most enchanting dining experience. This intimate restaurant features both stone-walled indoor seating and a coveted outdoor terrace overlooking the Mediterranean. Their trofiette with pesto represents Ligurian cuisine at its most authentic, while the grilled fish of the day showcases the morning's best catch.\n\nDon't miss **Te la do io la merenda** for the village's most authentic street food experience. This beloved local spot serves the region's best focaccia col formaggio—a cheese-filled flatbread that's become legendary among visitors. Arrive early for the freshest selections and enjoy your meal while exploring the village's medieval streets.\n\n*Insider tip: Book outdoor seating well in advance, especially during sunset hours when the golden light transforms the harbor into pure magic.*"
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image-left",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1682686581427-7c80ab60e3f3-regular.jpg",
-      "title": "Eight Centuries of Maritime Heritage",
-      "subtitle": "From Greek refugees to UNESCO recognition, Riomaggiore's story spans empires and epochs.",
-      "content": "In 1239, Greek refugees fleeing barbarian invasions discovered this sheltered cove, establishing what they called 'Rivus Major'—the major river—after the stream flowing through the valley. These early settlers built the first terraced vineyards and fishing harbors that form the foundation of today's village.\n\nBy 1260, the growing community faced Saracen raids and constructed the circular fortress that still dominates the village skyline. This medieval castle served as both watchtower and refuge, protecting families and their precious stores of wine and grain during turbulent times.\n\nThe village's artistic legacy began with painter **Telemaco Signorini** (1835-1901), whose Macchiaioli movement landscapes introduced Cinque Terre to international artistic circles. His work capturing the interplay of light and color on these coastal cliffs helped establish the region's reputation for natural beauty.\n\nIn 1997, Riomaggiore achieved its greatest recognition when UNESCO designated the entire Cinque Terre as a World Heritage Site, acknowledging these villages as an outstanding example of a harmonious interaction between people and the environment.\n\n*Cultural note: The Feast of San Lorenzo each August maintains centuries-old traditions, with processions winding through the same medieval streets walked by the village's Greek founders.*"
     },
     {
       "type": "faq-section",
       "title": "Essential Riomaggiore Insights",
-      "subtitle": "Everything discerning travelers need to know about this remarkable village.",
+      "subtitle": "Everything discerning travelers need to know about this remarkable village",
       "faqs": [
         {
           "question": "How far is Riomaggiore from the train station?",
@@ -145,30 +149,36 @@
         },
         {
           "question": "What local products should I purchase in Riomaggiore?",
-          "answer": "Seek out bottles of Cinque Terre DOC white wine and the rare Sciacchetrà dessert wine from local producers. The village olive oil, made from terraced groves, makes an exceptional gift. Local honey infused with herbs from the hillsides captures the essence of the Mediterranean landscape."
+          "answer": "Seek out bottles of Cinque Terre DOC white wine and the rare Sciacchetra dessert wine from local producers. The village olive oil, made from terraced groves, makes an exceptional gift. Local honey infused with herbs from the hillsides captures the essence of the Mediterranean landscape."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
+      "type": "closing-note",
       "title": "Begin Your Riomaggiore Story",
-      "subtitle": "Eight centuries of history, world-class dining, and Mediterranean magic await in Cinque Terre's most accessible village.",
-      "primaryButton": {
-        "text": "Plan Your Visit",
-        "url": "/planning-guide"
-      },
-      "secondaryButton": {
-        "text": "Explore All Villages",
-        "url": "/villages"
-      }
+      "content": [
+        "Eight centuries of history, world-class dining, and Mediterranean magic await in Cinque Terre's most accessible village. Greek refugees chose this cove for shelter; UNESCO recognized it for humanity. Today, you can choose it for everything it offers—history without inconvenience, authenticity without pretension.",
+        "The medieval castle still guards the harbor. The terraces still produce wine. The cobblestones still lead to discoveries. Walk the same streets as Telemaco Signorini, dine where fishermen have gathered for centuries, and let Riomaggiore reveal why it became a gateway to Cinque Terre's timeless beauty."
+      ],
+      "buttons": [
+        {
+          "text": "Plan Your Visit",
+          "url": "/en/itinerary",
+          "variant": "primary"
+        },
+        {
+          "text": "Explore All Villages",
+          "url": "/en/cinque-terre",
+          "variant": "secondary"
+        }
+      ]
     }
   ],
   "metadata": {
     "city": "riomaggiore",
     "page_type": "city"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:28:17.462Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

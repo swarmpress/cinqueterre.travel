@@ -7,295 +7,217 @@
     "it": "/it/vernazza/restaurants"
   },
   "title": {
-    "en": "Vernazza Restaurants - Where Sea Meets Culinary Excellence"
+    "en": "Where to Eat in Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Best Restaurants in Vernazza | Cinque Terre Dining Guide"
+      "en": "Where to Eat in Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Vernazza's finest restaurants - from waterfront seafood to clifftop fine dining. Your guide to authentic Ligurian cuisine in Italy's most scenic village."
+      "en": "From clifftop towers with fifty years of history to harbor-side tables where fishing families serve the morning catch—a local's guide to Vernazza's tables."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544148103-0773bf10d330-hero.jpg",
-      "eyebrow": "Vernazza Dining",
-      "title": "Where Ancient Harbors Meet Modern Flavors",
-      "subtitle": "Dine where medieval sailors once anchored, enjoying the finest Ligurian seafood with views that have captivated travelers for over a thousand years. From waterfront trattorias to clifftop fine dining, Vernazza's restaurants offer more than meals—they serve memories.",
-      "buttons": [
-        {
-          "text": "Explore Featured Restaurants",
-          "url": "#featured",
-          "variant": "primary"
-        },
-        {
-          "text": "Local Dining Tips",
-          "url": "#dining-guide",
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Harbor Sets<br/>the Table",
+      "subtitle": "In Vernazza, the natural harbor isn't just scenery—it's the kitchen's supplier. Every restaurant here competes for the same small catch, the same narrow terraces, the same sunset view. What separates them is generations of knowledge about what to do when the fish arrives.",
+      "badge": "Dining Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544148103-0773bf10d330-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Vernazza Kitchen",
+      "quote": "Vernazza's restaurants have been watching each other for centuries. The harbor is small enough that every kitchen knows what its neighbors are serving. This mutual observation has raised everyone's standards—and lowered anyone's tolerance for mediocrity.",
+      "content": [
+        "**The harbor dictates everything**. Vernazza has the only natural harbor in the Cinque Terre, which means the fishing boats land here. The restaurants that thrive are those with the oldest relationships to the fishermen—families who've bought the same catch for generations.",
+        "**Elevation is destiny**. Some restaurants cling to the waterfront; others climb into towers and terraces. The higher you go, the more dramatic the view—but also the more stairs. Choose based on your appetite for both food and effort.",
+        "**Reservations are warfare**. This is the most visited village in the Cinque Terre. The best tables—sunset terraces, harbor views, medieval towers—require booking days ahead. Call by morning for dinner; call days ahead for weekends.",
+        "**Wine flows from the hills above**. The terraces you see climbing the slopes produce Cinque Terre DOC whites and the precious Sciacchetrà. Every serious restaurant pours what grows within sight of your table."
       ]
     },
     {
-      "type": "stats-section",
-      "eyebrow": "Culinary Heritage",
-      "title": "A Taste of Maritime Tradition",
-      "stats": [
-        {
-          "number": "20+",
-          "label": "Authentic Restaurants",
-          "description": "From family trattorias to Michelin-worthy establishments"
-        },
-        {
-          "number": "900+",
-          "label": "Years of History",
-          "description": "Culinary traditions passed down through maritime generations"
-        },
-        {
-          "number": "3",
-          "label": "Signature Dishes",
-          "description": "Pesto, focaccia, and fresh seafood define Vernazza's cuisine"
-        },
-        {
-          "number": "5★",
-          "label": "Scenic Dining",
-          "description": "Every restaurant offers breathtaking Mediterranean views"
-        }
-      ]
-    },
-    {
-      "type": "collection-embed",
-      "collectionType": "restaurants",
-      "heading": "Featured Restaurants",
-      "headingLevel": 2,
+      "type": "collection-with-interludes",
+      "itemType": "restaurant",
       "items": [
         {
-          "slug": "gambero-rosso-vernazza",
-          "title": "Gambero Rosso",
-          "summary": "Waterfront dining with the freshest seafood in Vernazza's most scenic setting",
-          "url": "/gambero-rosso-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": true
-          }
+          "id": 1,
+          "name": "Belforte",
+          "category": "Historic Seafood Tower",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+          "intro": "Fifty years of service from a medieval tower—where the Ligurian Sea crashes against your dining room.",
+          "description": "Belforte occupies a defensive tower that once watched for Saracen raiders; now it watches over sunset dinners with the same vigilance. The kitchen has served generations of visitors its mixed Monterosso anchovies, homemade pesto trofie, and daily mixed grills. The view alone would justify the prices, but the food earns them independently.",
+          "giuliaComment": "My grandfather proposed to my grandmother at Belforte in 1967. The tower hasn't changed, and neither has the commitment to quality. When I bring someone special to Vernazza, this is where we end up—fifty years of history in every bite.",
+          "signature": "Medieval walls, modern excellence",
+          "priceRange": "$$$",
+          "practicalInfo": "Book days ahead for terrace seating. The stairs are steep but worth every step. Closed Tuesdays in winter.",
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.6
         },
         {
-          "slug": "ristorante-belforte-vernazza",
-          "title": "Ristorante Belforte",
-          "summary": "Clifftop fine dining in a medieval tower with breathtaking Ligurian Sea views",
-          "url": "/ristorante-belforte-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": true
-          }
+          "id": 2,
+          "name": "La Torre",
+          "category": "Panoramic Terrace",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+          "intro": "Climb the steep stairs and earn a view that encompasses the entire coast—then let the fish reward your effort.",
+          "description": "La Torre demands commitment: a steep staircase climbs to a terrace that seems suspended between village and sky. The reward is one of the most stunning panoramic views in the Cinque Terre, paired with straightforward fish and vegetable preparations that let the ingredients speak. The staff are trained, attentive, and proud of their perch.",
+          "giuliaComment": "I tell visitors: if you can climb, climb to La Torre. The view at sunset will ruin all other restaurant views for you. The food is honest—fresh fish, local vegetables, nothing fancy—but at that altitude, with that light, it becomes something more.",
+          "signature": "Stairs to the sky",
+          "priceRange": "$$$",
+          "practicalInfo": "Arrive early for sunset. The climb discourages casual visitors—which is part of the appeal. They also rent rooms.",
+          "googleRating": 4.4,
+          "tripadvisorRating": 4.5
         },
         {
-          "slug": "nessun-dorma-vernazza",
-          "title": "Nessun Dorma",
-          "summary": "The most photogenic dining spot in Cinque Terre with unforgettable views",
-          "url": "/nessun-dorma-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": true
-          }
+          "id": 3,
+          "name": "Gianni Franzi",
+          "category": "Traditional Ligurian",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Since the 1960s, this family has been serving what Vernazza has always eaten—and they've never seen a reason to change.",
+          "description": "The Gianni Franzi name is everywhere in Vernazza—bar, hotel, restaurant—but it all started with the kitchen. The small terrace fills quickly with those who know to order the stuffed lemon anchovies, the pesto trofie made fresh each morning, and the signature tegame Vernazza—an anchovy preparation that exists nowhere else.",
+          "giuliaComment": "This is where locals eat when we want to remember what our grandmothers cooked. The recipes haven't changed since the 1960s because perfection doesn't need updating. The tegame Vernazza is worth the trip alone—anchovies layered with potatoes and tomatoes, baked until the edges crisp.",
+          "signature": "Six decades of the same excellence",
+          "priceRange": "$$",
+          "practicalInfo": "The terrace is small—reserve by midday. The hotel guests get priority, but the restaurant is worth the planning.",
+          "googleRating": 4.3,
+          "tripadvisorRating": 4.4
         },
         {
-          "slug": "antica-osteria-il-baretto-vernazza",
-          "title": "Antica Osteria Il Baretto",
-          "summary": "Authentic family recipes in a cozy medieval setting off the beaten path",
-          "url": "/antica-osteria-il-baretto-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "blue-marlin-bar-vernazza",
-          "title": "Blue Marlin Bar",
-          "summary": "The social hub of Vernazza - perfect for aperitivo and people-watching",
-          "url": "/blue-marlin-bar-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "ristorante-da-aristide-vernazza",
-          "title": "Ristorante da Aristide",
-          "summary": "Four decades of family tradition serving hearty Ligurian favorites",
-          "url": "/ristorante-da-aristide-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "trattoria-del-capitano-vernazza",
-          "title": "Trattoria del Capitano",
-          "summary": "Seafood stories and panoramic views from a real sea captain's kitchen",
-          "url": "/trattoria-del-capitano-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "pizzeria-vulnetia-vernazza",
-          "title": "Pizzeria Vulnetia",
-          "summary": "Authentic wood-fired pizzas with prime harbor square seating",
-          "url": "/pizzeria-vulnetia-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "la-torre-vernazza",
-          "title": "La Torre",
-          "summary": "Refined coastal cuisine with panoramic views from Vernazza's heights",
-          "url": "/la-torre-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "il-pirata-delle-cinque-terre-vernazza",
-          "title": "Il Pirata delle Cinque Terre",
-          "summary": "Authentic Sicilian breakfast and coffee culture in the heart of Vernazza",
-          "url": "/il-pirata-delle-cinque-terre-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "cantina-de-mananan-vernazza",
-          "title": "Cantina de Mananan",
-          "summary": "Hidden wine sanctuary celebrating local Cinque Terre vintages and flavors",
-          "url": "/cantina-de-mananan-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "lunch-box-vernazza",
-          "title": "Lunch Box",
-          "summary": "Fresh, portable meals perfect for Cinque Terre adventures and hiking",
-          "url": "/lunch-box-vernazza",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
+          "id": 4,
+          "name": "Ristorante Luca",
+          "category": "Harbor Seafood",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A historic fishing family serves their own catch—the shortest distance between sea and table.",
+          "description": "Luca's family has fished these waters for generations; now they serve what they catch. The preparations are deliberately simple: Ligurian-style octopus with olives and tomatoes, mussel and clam soups that taste of the morning sea, daily mixed fried fish that changes with what the nets brought in. This is harbor dining in its purest form.",
+          "giuliaComment": "I trust Luca because I've seen his family's boats come in at dawn. When he says the fish is fresh, I know the exact hour it left the water. The octopus here is tender because they know the old fisherman's tricks—and they're not telling anyone.",
+          "signature": "From their boats to your plate",
+          "priceRange": "$$",
+          "practicalInfo": "Harbor-side tables go first. Ask what came in that morning—that's what you should order.",
+          "googleRating": 4.4,
+          "tripadvisorRating": 4.3
         }
       ],
-      "display": {
-        "layout": "grid",
-        "columns": 3,
-        "showImage": true,
-        "showSummary": true,
-        "imageAspect": "landscape"
-      },
-      "showViewAll": true,
-      "viewAllUrl": "/restaurants"
-    },
-    {
-      "type": "content-section",
-      "id": "dining-guide",
-      "layout": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555396273-367ea4eb4db5-regular.jpg",
-      "imagePosition": "right",
-      "eyebrow": "Local Dining Wisdom",
-      "title": "Savoring Vernazza Like a Local",
-      "content": "Ah, *carissimi*, let me share the secrets that transform a simple meal into a culinary pilgrimage. In Vernazza, dining is theater—the stage set against terraced vineyards and the endless blue of the Ligurian Sea.\n\n**The Golden Hours of Flavor**\nArrive for lunch between 12:30 and 2:00 PM when the midday sun illuminates the harbor and the catch of the day is at its freshest. The evening *passeggiata* begins around 7:00 PM, when locals emerge for aperitivo and the air fills with the aroma of wood-fired ovens.\n\n**Essential Vernazza Flavors**\nNo visit is complete without tasting *trofie al pesto*—those hand-rolled pasta twists that capture every drop of basil-perfumed sauce. The *farinata* here, made from chickpea flour in ancient wood ovens, carries the smoky essence of centuries. And the *acciughe del Cantabrico*—anchovies so sweet and tender they melt on your tongue like sea-salted butter.\n\n**Wine Wisdom**\nPair your meal with a crisp Cinque Terre DOC white, its mineral notes echoing the salt spray that nourishes the terraced vineyards above. For something truly special, ask for *Sciacchetrà*—the amber dessert wine that locals call \"liquid gold.\"\n\n**Insider's Timing**\nBook reservations for sunset dining at least a day ahead, especially from May through September. The most coveted tables are those overlooking the harbor, where you can watch fishing boats return with the day's catch as you sip your wine."
-    },
-    {
-      "type": "feature-section",
-      "eyebrow": "Dining Experiences",
-      "title": "Every Meal, A Different Story",
-      "features": [
+      "interludes": [
         {
-          "icon": "🏰",
-          "title": "Medieval Tower Dining",
-          "description": "Feast in centuries-old stone towers where Genoese nobles once entertained, now transformed into intimate restaurants with panoramic sea views."
-        },
-        {
-          "icon": "🎣",
-          "title": "Harbor-to-Table Freshness",
-          "description": "Watch fishermen return with the day's catch, then taste it prepared with traditional Ligurian techniques passed down through maritime families."
-        },
-        {
-          "icon": "🍷",
-          "title": "Terraced Vineyard Views",
-          "description": "Dine on terraces carved into cliffsides, where every table offers dramatic views of the vineyards that produce Cinque Terre's legendary wines."
-        },
-        {
-          "icon": "👨‍🍳",
-          "title": "Generational Recipes",
-          "description": "Taste family recipes preserved for centuries, from hand-rolled pasta techniques to secret spice blends known only to local *nonnas*."
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Tower and the Harbor",
+          "quote": "Vernazza offers a choice: dine at water level, where the boats rock and the spray reaches your ankles, or climb to the towers where medieval families once watched for invaders. Both choices are right. The harbor gives you immediacy; the towers give you perspective. The fish is the same—the fishermen supply everyone."
         }
       ]
     },
     {
-      "type": "faq-section",
-      "eyebrow": "Dining Questions",
-      "title": "Your Vernazza Restaurant Guide",
-      "faqs": [
+      "type": "editorial-intro",
+      "badge": "Beyond the Terrace",
+      "quote": "Not every meal needs a reservation or a climb. Vernazza's casual spots feed the village between the formal hours—quick bites, standing aperitivos, the fuel that keeps you moving between beaches and trails.",
+      "content": [
+        "**Il Pirata delle Cinque Terre** has transformed breakfast in Vernazza. What started as a simple bar has become a destination—Sicilian twins serving espresso with theatrical flair, fresh pastries that draw lines, and a warmth that makes strangers feel like regulars.",
+        "**Pippo a Vernazza** operates from a chalkboard menu and a commitment to plastic-free packaging. The pesto trofie is excellent, the stuffed focaccias are perfect hiking fuel, and the wines are local and cold.",
+        "**The harbor bars** all serve essentially the same aperitivo—Spritz, olives, the view—but each has its rhythm. Some attract the sunset crowd; others fill with locals after the tourists have climbed to dinner. Find your spot and return.",
+        "**Lunch Box** feeds the practical: fresh-squeezed juices, substantial paninis, provisions for the trail. Not romantic, but exactly right when you need fuel without ceremony."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "restaurant",
+      "items": [
         {
-          "question": "Do I need reservations at Vernazza restaurants?",
-          "answer": "Absolutely, especially from April through October. Popular waterfront restaurants like Gambero Rosso and clifftop spots like Belforte book up days in advance. Call directly or ask your hotel concierge to secure the best tables with sea views."
+          "id": 5,
+          "name": "Il Pirata delle Cinque Terre",
+          "category": "Breakfast & Coffee",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Sicilian twins brought their island's coffee culture to Vernazza—and transformed how the village starts its day.",
+          "description": "The Pirata brothers arrived from Sicily and immediately understood what Vernazza lacked: proper breakfast theater. Their bar serves espresso with performance, pastries with pride, and a welcome that makes their tiny space feel like your neighborhood regular. The seafood later in the day is excellent, but breakfast is their masterpiece.",
+          "giuliaComment": "I don't drink coffee anywhere else in Vernazza. The twins remember how you take it, remember your name, make you feel like the morning matters. That's rare anywhere; in a tourist village, it's precious.",
+          "signature": "Where breakfast becomes belonging",
+          "priceRange": "$",
+          "practicalInfo": "Come early for the best pastries. The cappuccino to-go is Vernazza's best walking coffee.",
+          "googleRating": 4.7,
+          "tripadvisorRating": 4.6
         },
         {
-          "question": "What's the typical cost for dining in Vernazza?",
-          "answer": "Expect €25-40 per person for lunch at casual trattorias, and €45-80 for dinner at upscale restaurants. Fresh seafood and clifftop dining command premium prices, but the experience—dining with those views—is priceless. A good local wine starts around €20-25 per bottle."
+          "id": 6,
+          "name": "Pippo a Vernazza",
+          "category": "Casual Ligurian",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=2670&auto=format&fit=crop",
+          "intro": "A chalkboard menu, plastic-free packaging, and the kind of pesto trofie that makes you forget about fine dining entirely.",
+          "description": "Pippo runs a simple operation: excellent pesto trofie, properly stuffed focaccias, sandwiches that fuel hikes, and wines from the terraces above. What distinguishes them is commitment—completely plastic-free packaging, local ingredients, and preparations that prove casual doesn't mean careless.",
+          "giuliaComment": "When I'm hiking between villages, Pippo is where I stop. The stuffed focaccia is substantial enough for the trail, the wine is what the hills produce, and there's no pretension. Just good food served by people who care about doing it right.",
+          "signature": "Casual done consciously",
+          "priceRange": "$",
+          "practicalInfo": "Perfect for takeaway. The cod preparation is their secret weapon—ask for it.",
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.4
         },
         {
-          "question": "What are Vernazza's signature dishes I must try?",
-          "answer": "Start with *trofie al pesto*—hand-rolled pasta with basil pesto that originated in this region. The *fritto misto* (mixed fried seafood) showcases the day's catch, while *farinata* offers a taste of ancient maritime cuisine. Don't miss the local *focaccia col formaggio*—a cheese-filled flatbread that's pure comfort food."
+          "id": 7,
+          "name": "Hambu",
+          "category": "Creative Casual",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2574&auto=format&fit=crop",
+          "intro": "Proof that even Vernazza's nonconformists can thrive—creative burgers and vegetarian options in a village dominated by fish.",
+          "description": "Hambu arrived recently and found its niche: creatively filled hamburgers, substantial sandwiches, and—crucially—vegetarian and vegan options that actually satisfy. The focaccias and bruschettas nod to tradition while the menu acknowledges that not everyone wants fish every meal.",
+          "giuliaComment": "I send my vegetarian friends here and they return grateful. In a village where every menu leads with anchovies, Hambu offers alternatives without apology. The burgers are genuinely good—which in Italy is a real accomplishment.",
+          "signature": "Different is welcome",
+          "priceRange": "$",
+          "practicalInfo": "Good for groups with varied dietary needs. The harbor square location means easy access and people-watching.",
+          "googleRating": 4.3,
+          "tripadvisorRating": 4.2
         },
         {
-          "question": "When are the best times to dine for views and atmosphere?",
-          "answer": "Sunset dining (7:30-8:30 PM in summer) offers magical golden hour lighting over the harbor. For lunch, arrive by 1:00 PM to secure harbor-view tables. Early evening aperitivo (6:00-7:00 PM) is when locals gather—join them at Blue Marlin Bar for the authentic Vernazza social scene."
-        },
+          "id": 8,
+          "name": "Bar Al Castello",
+          "category": "Castle Viewpoint",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Inside Vernazza's castle walls, simple refreshments with views that once cost defenders their lives.",
+          "description": "The climb to the castle is steep, but the bar at the top rewards the effort with views over the entire village and coast. The menu is simple—drinks, light fare, nothing elaborate—because the view is the point. Come for sunset, stay for the photographs, and accept that the stairs are part of the experience.",
+          "giuliaComment": "This isn't about the food—it's about drinking something cold while looking down at where you've been, or where you're going. The castle has watched over Vernazza for centuries; for a few euros, you can join the watch.",
+          "signature": "History pours the drinks",
+          "priceRange": "$",
+          "practicalInfo": "Bring comfortable shoes. The climb is real. Stay for sunset—the light on the village below is extraordinary.",
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.4
+        }
+      ],
+      "interludes": [
         {
-          "question": "Are there vegetarian and dietary restriction options?",
-          "answer": "Yes, though seafood dominates most menus. Ligurian cuisine offers excellent vegetarian dishes: pesto pasta, *farinata*, vegetable tarts, and stuffed vegetables. Most restaurants accommodate dietary needs with advance notice, though options may be limited during peak season."
-        },
-        {
-          "question": "How do I choose between waterfront and hillside restaurants?",
-          "answer": "Waterfront restaurants offer intimate harbor views and the freshest seafood—perfect for romantic dinners and watching the daily life of the village. Hillside spots like Nessun Dorma provide panoramic photography opportunities and slightly cooler evening breezes. Both offer authentic experiences, just different perspectives on paradise."
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Aperitivo Imperative",
+          "quote": "Between afternoon and dinner lies the aperitivo hour—and Vernazza takes it seriously. Find a harbor-side seat around 6pm, order a Spritz or a glass of local white, and watch the village transition. Fishermen return, tourists climb to dinner, the light turns gold. This hour is not delay; it is the point."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Start Planning",
-      "title": "Your Vernazza Culinary Journey Awaits",
-      "content": "From medieval castle dining to harbor-fresh seafood, Vernazza's restaurants offer more than meals—they serve centuries of maritime tradition on plates overlooking one of Italy's most dramatic coastlines. Every bite tells the story of this ancient fishing village.",
+      "type": "closing-note",
+      "title": "The Harbor Provides",
+      "content": [
+        "Vernazza's restaurants share a kitchen staff of fishermen, a wine cellar of terraced hillsides, and a dining room of medieval architecture. What separates them is generations of knowledge about what to do with these gifts.",
+        "Climb to the towers or stay at the harbor. Reserve the sunset table or take your chances. Order the daily catch or trust the tegame. However you approach it, the harbor will provide.",
+        "The best meal in Vernazza is the one that matches your moment. Sometimes that's a fifty-year-old tower with tablecloths; sometimes it's focaccia on the rocks while the boats come in."
+      ],
       "buttons": [
-        {
-          "text": "Browse All Restaurants",
-          "url": "/vernazza/restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Visit",
-          "url": "/vernazza",
-          "variant": "secondary"
-        }
+        { "text": "Plan Your Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
+        { "text": "Explore the Village", "url": "/en/vernazza", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "restaurants"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:42:05.522Z"
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

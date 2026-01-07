@@ -7,166 +7,115 @@
     "it": "/it/vernazza/camping"
   },
   "title": {
-    "en": "Camping Near Vernazza: Your Gateway to Cinque Terre Adventures"
+    "en": "Camping Near Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "camping",
   "seo": {
     "title": {
-      "en": "Best Camping Near Vernazza | Cinque Terre Outdoor Stays"
+      "en": "Camping Near Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover authentic camping experiences near Vernazza. Wake up to Mediterranean views, explore ancient trails, and enjoy luxury amenities in Italy's most scenic coastline."
+      "en": "Sleeping above Vernazza's medieval harbor—where sunrise illuminates the Doria Castle, where terraced vineyards surround your tent, where the magic hours belong to those who stay."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504280390367-361c6d9f38f4-hero.jpg",
-      "eyebrow": "Vernazza Camping",
-      "title": "Sleep Under the Stars Above Italy's Most Romantic Village",
-      "subtitle": "Experience the magic of Cinque Terre through authentic camping adventures just minutes from Vernazza's medieval harbor. Wake to sunrise over the Ligurian Sea and fall asleep to the sound of waves against ancient cliffs.",
+      "type": "editorial-hero",
+      "title": "Stars Above<br/>the Castle",
+      "subtitle": "Camping near Vernazza means waking to sunrise over the Doria Castle, falling asleep to the distant sound of harbor waves, and experiencing the magic hours—dawn and dusk—when the village belongs to those who stayed.",
+      "badge": "Camping",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504280390367-361c6d9f38f4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Outdoor Advantage",
+      "quote": "The visitors who camp near Vernazza see a different village than hotel guests. They're awake when fishing boats launch at dawn. They're walking ancient trails as the first light hits the terraces. They understand the rhythm that tourism obscures.",
+      "content": [
+        "**The terraces tell stories**. For over a millennium, travelers have sought shelter in these hills above Vernazza. Every stone wall was placed by hand, every vine planted with hope for future generations. When you camp among these ancient agricultural terraces, you're sleeping in a living museum.",
+        "**The magic hours are yours**. Dawn when fishing boats return with their catch. Dusk when church bells echo across the valley. These hours belong to locals and those who stayed. Day-trippers never experience them. Campers do.",
+        "**Access changes everything**. Campsites sit directly on or near the famous trails. You'll have early morning access before day hikers arrive—perfect for sunrise photography and peaceful village exploration. The trails are yours.",
+        "**Dark skies reveal themselves**. Away from coastal light pollution, the hills above Vernazza offer some of Italy's clearest night skies. Romantic evenings under stars, the medieval village glowing below—this is what staying costs you nothing extra."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "camping-type",
+      "items": [
+        {
+          "id": 1,
+          "name": "Hillside Campsites",
+          "category": "Traditional",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1586276014137-3b58f0138bb6?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Established camping areas on the terraced slopes above Vernazza—modern amenities surrounded by ancient vineyards.",
+          "description": "The hillside campsites offer clean facilities, hot showers, electrical hookups, and WiFi. Most feature on-site restaurants, some have swimming pools. But the real amenity is the setting: terraced vineyards and olive groves surrounding your tent, the medieval village visible below, the Mediterranean stretching to the horizon.",
+          "giuliaComment": "These campsites book months ahead for summer. The facilities are modern, but the setting is ancient—you're sleeping where farmers have worked for over a thousand years. The combination of comfort and history is rare.",
+          "signature": "Where comfort meets heritage"
+        },
+        {
+          "id": 2,
+          "name": "Glamping Options",
+          "category": "Premium",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Furnished tents with comfortable beds and private bathrooms—the outdoor experience without the setup.",
+          "description": "Glamping near Vernazza offers the best of both worlds: you wake to the same views, but in a proper bed. Private bathrooms, quality linens, sometimes even air conditioning. The premium means you can arrive without gear and still experience the terraced hillside setting.",
+          "giuliaComment": "Glamping works for visitors who want the location without the logistics. You get the sunrise, the trails, the magic hours—but you don't carry equipment or wrestle with tent poles. For first-time campers or those traveling light, it's ideal.",
+          "signature": "When comfort enables adventure"
+        },
+        {
+          "id": 3,
+          "name": "Trail-Access Camping",
+          "category": "Adventure",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Campsites positioned directly on hiking trails—wake up and walk, no transportation required.",
+          "description": "Some camping areas sit directly on the Sentiero Azzurro or ancient mule paths connecting the villages. You can reach Vernazza's harbor in 10-20 minutes on foot through vineyards and olive groves. The proximity means you can dine in the village and walk home under stars.",
+          "giuliaComment": "The trail-access campsites transform how you experience Cinque Terre. No train schedules, no rush to catch last departures. You walk to the village when you want, return when you're ready. The trails become extensions of your accommodation.",
+          "signature": "Where the trail begins at your tent"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Rules Are Real",
+          "quote": "Wild camping is prohibited in the Cinque Terre National Park. This UNESCO site is protected, and enforcement is serious. Book established campsites in advance, especially May through October. The rules preserve what makes this place special."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Planning",
+      "quote": "Camping near Vernazza requires understanding the logistics that differ from traditional accommodation. The rewards justify the planning; the planning enables the rewards.",
+      "content": [
+        "**Season matters**. April through October offers ideal conditions. Peak season (July-August) requires booking months ahead but offers the warmest nights. Shoulder seasons provide perfect temperatures, fewer crowds, and spectacular wildflower blooms or harvest colors.",
+        "**Getting there and back**. Most campsites are 10-20 minutes from Vernazza via hiking trails. Some offer shuttle services during peak season. The train station connects you to all five villages for car-free exploration.",
+        "**Pack appropriately**. Light layers for variable mountain weather, comfortable hiking shoes, sun protection, light rain jacket. Many campsites rent equipment if you're traveling without gear. Don't forget camera chargers—sunrise and sunset views are spectacular.",
+        "**The village remains accessible**. Camping doesn't mean isolation. You're 10-15 minutes from Vernazza's harbor, perfect for morning cappuccini and evening aperitivi. The medieval village becomes your neighborhood, not just a destination."
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Magic Hours",
+      "content": [
+        "The best camping experiences happen during the magic hours—dawn when fishing boats return, dusk when church bells echo across the valley. This is when Vernazza reveals its authentic character, away from day-trip crowds.",
+        "The terraced landscapes surrounding your campsite tell stories of determination and ingenuity. Every stone wall placed by hand, every vine planted with hope. When you camp among these ancient agricultural terraces, you inherit that legacy temporarily.",
+        "Come for the stars above the castle. Stay for the sunrise that illuminates a thousand years of history. Let the magic hours teach you what day-trips cannot show."
+      ],
       "buttons": [
-        {
-          "text": "Find Perfect Campsite",
-          "url": "#campsites",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Vernazza",
-          "url": "/vernazza",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Camping Near Vernazza by the Numbers",
-      "stats": [
-        {
-          "number": "12",
-          "label": "Premium camping locations within 15km",
-          "icon": "🏕️"
-        },
-        {
-          "number": "850m",
-          "label": "Average elevation for panoramic sea views",
-          "icon": "⛰️"
-        },
-        {
-          "number": "5",
-          "label": "Historic villages accessible via hiking trails",
-          "icon": "🥾"
-        },
-        {
-          "number": "Apr-Oct",
-          "label": "Ideal camping season with mild Mediterranean climate",
-          "icon": "☀️"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Why Choose Camping Near Vernazza",
-      "subtitle": "Experience the authentic spirit of Cinque Terre while enjoying modern comfort and unparalleled access to this UNESCO World Heritage coastline.",
-      "features": [
-        {
-          "icon": "🌊",
-          "title": "Wake to Mediterranean Magic",
-          "description": "Start each morning with sunrise views over the Ligurian Sea, watching fishing boats return to Vernazza's ancient harbor as the village awakens."
-        },
-        {
-          "icon": "🥾",
-          "title": "Trailhead at Your Doorstep",
-          "description": "Access the legendary Sentiero Azzurro and ancient mule paths directly from your campsite, hiking between medieval villages without crowds."
-        },
-        {
-          "icon": "🏛️",
-          "title": "Medieval Village Proximity",
-          "description": "Camp just 10-15 minutes from Vernazza's Doria Castle and harbor square, perfect for morning cappuccini and evening aperitivi."
-        },
-        {
-          "icon": "🍇",
-          "title": "Vineyard & Olive Grove Setting",
-          "description": "Sleep surrounded by terraced vineyards and ancient olive groves, where local families have cultivated the land for over 1,000 years."
-        },
-        {
-          "icon": "⭐",
-          "title": "Dark Sky Stargazing",
-          "description": "Enjoy some of Italy's clearest night skies, away from coastal light pollution, perfect for romantic evenings under the stars."
-        },
-        {
-          "icon": "🚂",
-          "title": "Train Station Access",
-          "description": "Easy connection to Vernazza's train station for car-free exploration of all five villages along the dramatic coastline."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "image-right",
-      "image": "https://images.unsplash.com/photo-1586276014137-3b58f0138bb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHx0ZXJyYWNlZCUyMHZpbmV5YXJkcyUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4OTE3NDV8MA&ixlib=rb-4.1.0&q=80&w=800&q=80",
-      "eyebrow": "Lorenzo's Insider Guide",
-      "title": "The Sacred Rhythm of Vernazza's Camping Culture",
-      "content": "For over a millennium, travelers have sought shelter in these hills above Vernazza, from medieval pilgrims on the Via del Sale to modern adventurers discovering the soul of Cinque Terre. What makes camping here extraordinary isn't just the views—though watching sunrise illuminate the Doria Castle from your tent is unforgettable—it's the connection to centuries of human history.\n\nThe terraced landscapes surrounding your campsite tell stories of determination and ingenuity. Every stone wall was placed by hand, every vine planted with hope for future generations. When you camp among these ancient agricultural terraces, you're sleeping in a living museum where families still tend plots their ancestors carved from cliffsides.\n\nThe best camping experiences happen during the 'magic hours'—dawn when fishing boats return with their catch, and dusk when church bells echo across the valley. This is when Vernazza reveals its authentic character, away from day-trip crowds, showing you why locals call this coastline 'paradise on earth.'"
-    },
-    {
-      "type": "faq-section",
-      "title": "Essential Camping Information for Vernazza",
-      "subtitle": "Everything you need to know for an unforgettable outdoor adventure in Cinque Terre",
-      "faqs": [
-        {
-          "question": "What camping facilities are available near Vernazza?",
-          "answer": "Premium campsites offer modern amenities including clean restroom facilities, hot showers, electrical hookups, and Wi-Fi. Many feature on-site restaurants, swimming pools, and direct hiking trail access. Glamping options include furnished tents with comfortable beds and private bathrooms."
-        },
-        {
-          "question": "When is the best time for camping near Vernazza?",
-          "answer": "April through October offers ideal conditions with mild Mediterranean weather. Peak season (July-August) requires advance booking but offers the warmest nights. May-June and September-October provide perfect temperatures, fewer crowds, and spectacular wildflower blooms or harvest season colors."
-        },
-        {
-          "question": "How do I get from campsites to Vernazza village?",
-          "answer": "Most campsites are 10-20 minutes from Vernazza via scenic hiking trails through vineyards and olive groves. Some offer shuttle services during peak season. The train station connects you car-free to all five villages, and local buses provide additional transportation options."
-        },
-        {
-          "question": "Can I access hiking trails directly from camping areas?",
-          "answer": "Absolutely! Many campsites sit directly on or near the famous Sentiero Azzurro (Blue Trail) and ancient mule paths connecting the villages. You'll have exclusive early morning access before day hikers arrive, perfect for sunrise photography and peaceful village exploration."
-        },
-        {
-          "question": "What should I pack for camping in this Mediterranean climate?",
-          "answer": "Pack light layers for variable mountain weather, comfortable hiking shoes, sun protection, and a light rain jacket. Many campsites rent camping equipment if you're traveling without gear. Don't forget your camera—sunrise and sunset views are absolutely spectacular from elevated positions."
-        },
-        {
-          "question": "Are there restrictions on wild camping or do I need reservations?",
-          "answer": "Wild camping is prohibited in the Cinque Terre National Park to protect this UNESCO site. Book established campsites in advance, especially May-October. Many offer online reservations and package deals including meals at renowned local restaurants like Gambero Rosso or sunset dining at Nessun Dorma."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered-with-image",
-      "background": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1469474968028-56623f02e42e-hero.jpg",
-      "eyebrow": "Your Adventure Awaits",
-      "title": "Wake Up to Paradise Tomorrow",
-      "subtitle": "Join thousands of travelers who've discovered that camping near Vernazza offers the most authentic way to experience Cinque Terre's medieval magic and natural beauty.",
-      "buttons": [
-        {
-          "text": "Book Your Perfect Campsite",
-          "url": "/vernazza/accommodations",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Vernazza Visit",
-          "url": "/vernazza/guide",
-          "variant": "secondary"
-        }
+        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
+        { "text": "Where to Eat", "url": "/en/vernazza/restaurants", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "camping"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:34:12.989Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

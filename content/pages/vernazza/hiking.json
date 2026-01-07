@@ -7,177 +7,157 @@
     "it": "/it/vernazza/hiking"
   },
   "title": {
-    "en": "Vernazza Hiking Trails: Ancient Paths with Spectacular Views"
+    "en": "Hiking from Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "hiking",
   "seo": {
     "title": {
-      "en": "Best Vernazza Hiking Trails | Cinque Terre Adventures"
+      "en": "Hiking from Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Discover Vernazza's most stunning hiking trails. From clifftop walks to historic villages, find your perfect Cinque Terre adventure with expert guides."
+      "en": "The trails from Vernazza connect the harbor to the sky. To Monterosso, the path is dramatic. To Corniglia, gentler. Both reveal why this coast was worth building."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
-      "eyebrow": "Adventure Awaits",
-      "title": "Vernazza's Epic Hiking Trails",
-      "subtitle": "Walk the ancient mule paths that connect medieval villages, traverse dramatic clifftops, and discover secret viewpoints known only to locals. From sunrise coastal walks to challenging mountain ascents, Vernazza offers Italy's most spectacular hiking experiences.",
+      "type": "editorial-hero",
+      "title": "The Path<br/>Continues",
+      "subtitle": "From the harbor, trails climb in both directions—north to Monterosso along dramatic cliffs, south to Corniglia through gentler terrain. These were not scenic routes. They were how people lived before the railway changed everything.",
+      "badge": "Hiking Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Central Village",
+      "quote": "Vernazza sits in the middle of Cinque Terre, which means the trails from here lead everywhere. Choose your direction based on your energy, your time, and what the trail conditions allow.",
+      "content": [
+        "**The Monterosso trail is legendary**. Two hours of dramatic coastal hiking—cliffs, coves, viewpoints that stop you mid-step. This is the most spectacular section of the Sentiero Azzurro, and the most demanding.",
+        "**The Corniglia trail is gentler**. An hour and a half through terraced hillsides, with the sea always visible below. Less dramatic, but more accessible—and at the end, a village most tourists skip.",
+        "**The sanctuary trail** climbs to Reggio, where a small church has served mountain farmers for centuries. This is the hike locals take—away from the coast, into the agricultural heart of the territory.",
+        "**Trail closures are common**. Landslides happen. Repairs take years. Check the park office or app before committing to any route. Having alternatives is not pessimism—it's local wisdom."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "hike",
+      "items": [
+        {
+          "id": 1,
+          "name": "Sentiero Azzurro to Monterosso",
+          "category": "Challenging Coastal Trail",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The most dramatic section of Cinque Terre's coastal path—where the cliffs meet the sea.",
+          "description": "This two-hour trail is what many people imagine when they think of Cinque Terre hiking. Steep climbs, sudden descents, viewpoints that seem designed for photography. The path carves through cliff faces, crosses ravines, and reveals hidden coves inaccessible by any other means.",
+          "giuliaComment": "Start at sunrise if you can. By mid-morning in summer, the exposed sections become brutal. Bring twice the water you think you need, and remember: the views deserve attention. This is not a trail to rush.",
+          "signature": "Two hours of coastal revelation",
+          "practicalInfo": "2 hours. Challenging. 300m elevation gain. Cinque Terre Card required. Good shoes essential. Start early."
+        },
+        {
+          "id": 2,
+          "name": "Sentiero Azzurro to Corniglia",
+          "category": "Moderate Coastal Trail",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The gentler path south—through vineyards and terraces to the hilltop village.",
+          "description": "Less famous than the Monterosso route, but no less rewarding. The trail to Corniglia climbs through agricultural terraces, passes stone walls built by generations, and offers constant views of the coast below. At the end, Corniglia waits—the only village with no sea access, perched 100 meters above the water.",
+          "giuliaComment": "I prefer this trail for its quiet. The Monterosso path gets crowded; this one rewards those who don't need Instagram superlatives. And Corniglia itself is worth the destination—the least touristy village, the most authentic.",
+          "signature": "Ninety minutes to the quiet village",
+          "practicalInfo": "1.5 hours. Moderate. 200m elevation change. Cinque Terre Card required. Ends 382 steps above Corniglia station."
+        },
+        {
+          "id": 3,
+          "name": "Sanctuary of Nostra Signora di Reggio",
+          "category": "Inland Pilgrimage",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1590078756532-171c4a1ec067?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The trail locals walk—away from the sea, into the terraced hillsides where faith met farming.",
+          "description": "The path to the Sanctuary of Reggio climbs through the olive groves and vineyards above Vernazza. This is not coastal hiking—it's agricultural history. The small church at the top has served mountain farmers since the 11th century, and the views from its courtyard reveal the scale of human effort that built this landscape.",
+          "giuliaComment": "Tourists rarely take this trail, which is why I love it. The sanctuary is simple—a small church, a courtyard, a view. But the silence is different from coastal trails. This is where Vernazza's food comes from.",
+          "signature": "Where the village meets its fields",
+          "practicalInfo": "45 minutes up, 30 down. Moderate climb. Free access. Church hours limited. Bring water."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Cinque Terre Card",
+          "quote": "The coastal trails require a Cinque Terre Card—available at any station. This isn't bureaucracy; it's survival. The fees fund trail maintenance in terrain where repairs mean rebuilding entire cliff sections. Consider it a contribution to preservation."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Knowledge",
+      "quote": "The trails don't care about your schedule. They have their own logic—shaped by geology, weather, and centuries of use. Respect that logic, and they reward you. Ignore it, and they teach you physics.",
+      "content": [
+        "**Morning light, morning temperature**. Start early in summer. By 10am, the exposed coastal sections become punishing. The golden hours before 8am offer manageable heat and better photographs.",
+        "**Shoes matter more than fitness**. The stone steps become ice when wet. The rocky sections punish ankles. Proper hiking shoes are not optional—they're the difference between adventure and evacuation.",
+        "**Water is heavier than regret**. Bring more than you think you need. There are no refill points on most trails, and dehydration at altitude is dangerous. Two liters minimum for any significant hike.",
+        "**Check before you climb**. Trail conditions change with weather, landslides, and maintenance schedules. The park app shows current status. Having a backup plan is wisdom, not defeat."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "hike",
+      "items": [
+        {
+          "id": 4,
+          "name": "High Path to Monterosso",
+          "category": "Full Day Challenge",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The ridge route that serious hikers whisper about—longer, harder, and emptier than the coastal path.",
+          "description": "The Sentiero Alto runs along the ridgeline above the villages, connecting through forest and vineyard. It's longer than the coastal route, more demanding, and offers perspective impossible from below. From here, you understand how small the villages are against the scale of the mountains.",
+          "giuliaComment": "This is the trail I take when I want to think. The coastal path is beautiful but crowded; up here, you might not see another person for hours. The effort is real, but so is the solitude.",
+          "signature": "Where the coast becomes perspective",
+          "practicalInfo": "3-4 hours to Monterosso. Challenging. 500m+ elevation. Full day commitment. Pack lunch and water."
+        },
+        {
+          "id": 5,
+          "name": "Evening Harbor Circuit",
+          "category": "Easy Evening Walk",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the big trails are too much—a simple loop through the village as evening falls.",
+          "description": "From the piazza up through the caruggi, past the castle viewpoint, and back down to the harbor. This gentle circuit takes less than an hour but captures Vernazza's transition from day to night—the shops closing, the restaurants lighting, the village settling into its evening rhythm.",
+          "giuliaComment": "Not every walk needs to be epic. Sometimes the best trail is the one that ends at a harbor table, watching the fishing boats come home, with a glass of wine and nowhere else to be.",
+          "signature": "The walk that becomes a ritual",
+          "practicalInfo": "30-45 minutes. Easy. Good for any fitness level. Perfect before dinner."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Gift of Returning",
+          "quote": "The best way to experience Vernazza's trails is to return. Walk the same path at different hours, different seasons. Morning light reveals what evening hides. The trail you think you know becomes new with every walk."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Trail Rewards the Ready",
+      "content": [
+        "Every path from Vernazza tells a story—of farmers who needed to reach terraces, of pilgrims who climbed to pray, of fishermen who walked to neighboring harbors before trains existed.",
+        "You don't need to conquer every trail. One well-chosen hike, properly prepared for, teaches more than five rushed ones. Match the trail to your energy, check the conditions, bring enough water.",
+        "Then walk. The coast reveals itself to those who move through it on foot."
+      ],
       "buttons": [
-        {
-          "text": "Explore All Trails",
-          "url": "#trails",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Hike",
-          "url": "#planning",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "eyebrow": "Trail Statistics",
-      "title": "Vernazza by the Numbers",
-      "stats": [
-        {
-          "number": "12+",
-          "label": "Hiking Trails",
-          "description": "From easy coastal walks to challenging mountain routes"
-        },
-        {
-          "number": "600m",
-          "label": "Max Elevation",
-          "description": "Breathtaking views from Monte Vernazzola"
-        },
-        {
-          "number": "4.5km",
-          "label": "Village Connections",
-          "description": "Historic paths linking all five villages"
-        },
-        {
-          "number": "900+",
-          "label": "Years Old",
-          "description": "Ancient mule tracks still used today"
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "split-right",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551632436-cbf8dd35adfa-regular.jpg",
-      "eyebrow": "Why Vernazza",
-      "title": "Your Gateway to Cinque Terre's Most Dramatic Trails",
-      "content": "Vernazza isn't just another pretty village—it's the hiking heart of Cinque Terre. From this medieval fortress town, you can access every major trail, from the famous Sentiero Azzurro coastal path to challenging mountain routes that locals have walked for centuries.\n\nThe village's strategic position means you'll catch golden hour light on both morning and evening hikes, while its natural harbor provides the perfect recovery spot after your adventure. Whether you're seeking Instagram-worthy coastal views or authentic mountain village experiences, Vernazza's trail network delivers both.\n\n**Insider's tip:** Start your hikes at dawn from Vernazza's harbor. You'll have the trails to yourself for the first hour, and the morning light on the Mediterranean is absolutely magical—trust me, I've watched hundreds of these sunrises."
-    },
-    {
-      "type": "collection-embed",
-      "collection": "hikes",
-      "filters": {
-        "village": "vernazza"
-      },
-      "title": "Vernazza Hiking Trails",
-      "subtitle": "Hand-picked routes from easy coastal strolls to challenging mountain adventures"
-    },
-    {
-      "type": "feature-section",
-      "eyebrow": "Trail Features",
-      "title": "What Makes Vernazza Hiking Special",
-      "subtitle": "Every path tells a story, from ancient Roman routes to medieval mule tracks",
-      "features": [
-        {
-          "icon": "mountain",
-          "title": "Medieval Fortress Views",
-          "description": "Hike past 11th-century Doria Castle and defensive walls that have protected Vernazza for nearly a millennium"
-        },
-        {
-          "icon": "waves",
-          "title": "Dramatic Clifftop Paths",
-          "description": "Walk the famous Via dell'Amore and Sentiero Azzurro with 180-degree views of the Ligurian Sea"
-        },
-        {
-          "icon": "sunrise",
-          "title": "Perfect Light Timing",
-          "description": "Vernazza's east-facing harbor catches spectacular sunrise light, while western trails offer stunning sunsets"
-        },
-        {
-          "icon": "compass",
-          "title": "Trail Hub Access",
-          "description": "Central location connects to all five villages plus mountain sanctuaries and hidden swimming spots"
-        },
-        {
-          "icon": "grape",
-          "title": "Terraced Vineyards",
-          "description": "Walk through UNESCO-protected wine terraces where Sciacchetrà grapes grow on impossibly steep slopes"
-        },
-        {
-          "icon": "anchor",
-          "title": "Harbor Recovery",
-          "description": "End every hike with a refreshing swim in Vernazza's protected harbor or a well-earned aperitivo"
-        }
-      ]
-    },
-    {
-      "type": "faq-section",
-      "eyebrow": "Planning Your Hike",
-      "title": "Essential Vernazza Hiking Information",
-      "subtitle": "Everything you need to know before hitting the trails",
-      "faqs": [
-        {
-          "question": "When is the best time to hike from Vernazza?",
-          "answer": "Start at sunrise (around 6:30 AM in summer) to avoid crowds and heat. The Sentiero Azzurro gets busy after 10 AM. Evening hikes work well too—start by 4 PM for sunset views. Avoid hiking during midday heat (11 AM-3 PM) in summer."
-        },
-        {
-          "question": "Do I need hiking experience for Vernazza trails?",
-          "answer": "Vernazza offers trails for every level. The coastal Sentiero Azzurro is suitable for beginners, while mountain routes to Sanctuaries require moderate fitness. Most village-to-village connections are intermediate level with some steep sections and stone steps."
-        },
-        {
-          "question": "What should I bring for hiking from Vernazza?",
-          "answer": "Essential gear includes sturdy hiking shoes (trails can be slippery), plenty of water (2+ liters), sun protection, and a light jacket for elevation changes. Bring cash for train tickets back and a waterproof phone case if swimming after your hike."
-        },
-        {
-          "question": "Are the trails well-marked from Vernazza?",
-          "answer": "Major trails have good signage, but mountain paths can be tricky. Download offline maps and consider hiring a local guide for challenging routes. The Sentiero Azzurro coastal path is clearly marked, while sanctuary trails require more navigation skills."
-        },
-        {
-          "question": "Can I swim after hiking from Vernazza?",
-          "answer": "Absolutely! Vernazza's harbor offers calm, clear water perfect for post-hike recovery. There's also a small beach area, though it gets crowded. For more privacy, hike to hidden coves between villages—just bring water shoes for rocky entries."
-        },
-        {
-          "question": "How do I get back to Vernazza after hiking to other villages?",
-          "answer": "The regional train connects all five villages frequently (every 15-30 minutes). Tickets cost €4 between villages. Alternatively, seasonal boats run between villages—a scenic but pricier option. Always check train schedules before starting longer hikes."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Start Your Adventure",
-      "title": "Ready to Explore Vernazza's Trails?",
-      "subtitle": "Join thousands of adventurers who've discovered why Vernazza offers Italy's most spectacular coastal hiking. Your perfect trail awaits.",
-      "buttons": [
-        {
-          "text": "Browse All Vernazza Trails",
-          "url": "#trails",
-          "variant": "primary"
-        },
-        {
-          "text": "Get Hiking Guide",
-          "url": "/guides/hiking-vernazza",
-          "variant": "secondary"
-        }
+        { "text": "Where to Eat After", "url": "/en/vernazza/restaurants", "variant": "primary" },
+        { "text": "Recovery at the Beach", "url": "/en/vernazza/beaches", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "hiking"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:37:38.753Z"
+  "updated_at": "2026-01-07T11:15:00.000Z"
 }

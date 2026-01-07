@@ -7,161 +7,115 @@
     "it": "/it/vernazza/maps"
   },
   "title": {
-    "en": "Navigating Vernazza: Complete Maps & Village Layout Guide"
+    "en": "Navigating Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Vernazza Maps & Village Guide | Cinqueterre.travel"
+      "en": "Navigating Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Navigate Vernazza with detailed maps, restaurant locations, key landmarks, and insider walking routes. Your complete guide to this UNESCO village."
+      "en": "Understanding Vernazza's medieval layout—from the train station tunnel to the harbor square, from clifftop restaurants to the castle viewpoint, with the practical knowledge to navigate confidently."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551698618-1dfe5d97d256-hero.jpg",
-      "eyebrow": "Vernazza Navigation",
-      "title": "Master the Medieval Village Layout",
-      "subtitle": "Navigate Vernazza's ancient streets like a local with our detailed maps covering restaurants, viewpoints, and hidden corners of this UNESCO gem",
+      "type": "editorial-hero",
+      "title": "Finding Your<br/>Way",
+      "subtitle": "Vernazza's medieval layout makes sense once you understand it. The train station above, the harbor below, everything connected by the Via Roma tunnel. From there, the village unfolds: harbor square restaurants, clifftop terraces, castle viewpoints, hiking trail entrances.",
+      "badge": "Navigation Guide",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551698618-1dfe5d97d256-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Village Logic",
+      "quote": "Medieval villages weren't planned for tourists—they were planned for defense, commerce, and survival. Understanding that logic makes navigating Vernazza intuitive rather than confusing.",
+      "content": [
+        "**The tunnel is your entrance**. Exit the train and follow Via Roma through the pedestrian tunnel. It takes 3-4 minutes and emerges directly at Piazza Marconi—the harbor square. This is where Vernazza's public life concentrates.",
+        "**Elevation determines function**. Harbor level for fishing, commerce, and restaurants. Mid-level for housing and daily life. Upper level for defense—the castle and its sightlines. The village is organized vertically; navigation is about choosing your altitude.",
+        "**Streets lead to water**. The medieval caruggi (alleys) were designed to move goods and people efficiently between hillside and harbor. When lost, follow the slope downward—you'll reach the water eventually.",
+        "**Stairs are navigation**. Stone staircases connect the village's levels. The steepest lead to the best viewpoints. Comfortable shoes aren't optional; they're essential equipment for exploring Vernazza properly."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "location",
+      "items": [
+        {
+          "id": 1,
+          "name": "Piazza Marconi (Harbor Square)",
+          "category": "Village Heart",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73200?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Where the Via Roma tunnel exits, where Gambero Rosso overlooks the boats, where the village gathers.",
+          "description": "The harbor square is Vernazza's center of gravity. Gambero Rosso anchors the eastern side with prime waterfront dining. The medieval tower frames the western view. Fishing boats occupy the small harbor. Most visitors arrive here, orient themselves here, and return here throughout their visit. The square's eastern corner offers the most dramatic evening lighting for photography.",
+          "giuliaComment": "Think of Piazza Marconi as your basecamp. Everything in Vernazza is measured from here—3 minutes up to Belforte, 5 minutes to the castle entrance, 10 minutes to Nessun Dorma. Start here, explore outward, return when you need to reorient.",
+          "signature": "Where everything begins"
+        },
+        {
+          "id": 2,
+          "name": "The Clifftop Restaurants",
+          "category": "Dining Destinations",
+          "village": "Vernazza",
+          "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1414235077428-338989a2e8c0-hero.jpg",
+          "intro": "Belforte in its medieval tower, Nessun Dorma on its hillside terrace—accessed by climbing.",
+          "description": "**Belforte:** From the harbor, take stone steps up Via del Castello toward the Doria Castle. The restaurant appears after about 3 minutes of climbing, built into the ancient tower. Look for discrete signage. **Nessun Dorma:** From behind the church, follow the hillside steps up Via Discovolo. The terrace is about 10 minutes above the harbor—look for the signs and the crowds gathering for sunset.",
+          "giuliaComment": "Both clifftop destinations require climbing that some visitors underestimate. Belforte is steep but short. Nessun Dorma is longer but more gradual. Neither is accessible for those with mobility limitations. The views justify the effort—but only if you can make the effort.",
+          "signature": "Where altitude earns the view"
+        },
+        {
+          "id": 3,
+          "name": "Castle & Viewpoints",
+          "category": "Exploration",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1516747760143-a27c8ba887ae?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The Doria Castle tower, the cemetery viewpoint, the coastal path perspectives—where to find the iconic shots.",
+          "description": "**Doria Castle:** Continue past Belforte on Via del Castello. Entry costs €3 and rewards with 360-degree views from the cylindrical tower—the perspective Genoese admirals used to survey their domain. **Cemetery viewpoint:** Above the village, free and less crowded than Nessun Dorma. **Harbor breakwater:** Walk to the end for excellent sunrise shots and a water-level perspective of the village. **Coastal path to Monterosso:** The first 10 minutes offer spectacular views back toward Vernazza.",
+          "giuliaComment": "The castle viewpoint is less crowded than Nessun Dorma and offers different light—morning is better here, sunset better there. The cemetery viewpoint is where locals go when they want quiet and perspective. The breakwater at sunrise shows you a Vernazza that most visitors never photograph.",
+          "signature": "Where perspectives multiply"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "Trail Entrances",
+          "quote": "The Monterosso trail begins at the northern end past the harbor, marked with blue signs. The Corniglia route starts from the southern side near the cemetery. Both require Cinque Terre park cards, available at the train station. The trails are how this coast was navigated before the railway—ancient paths between ancient villages."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Navigation",
+      "quote": "The questions visitors ask most often have specific answers. Train station to harbor. Harbor to restaurants. Where to store luggage. When the last train leaves. These logistics make the difference between smooth experience and frustrating scramble.",
+      "content": [
+        "**Station to harbor:** Exit train, follow tunnel signs for 'Centro,' emerge at Piazza Marconi in 3-4 minutes. The path is downhill, well-lit, and wheelchair accessible via the main route.",
+        "**Luggage storage:** The train station offers official storage at €6/day. Some restaurants accommodate bags for dining customers. Book ahead during peak season—storage fills quickly.",
+        "**Accessibility reality:** Limited due to medieval construction. Harbor square and main Via Roma are relatively flat. Everything else requires stairs. The station has an elevator. Specific questions should be asked before booking.",
+        "**Last trains:** Typically 11:45 PM to La Spezia, 11:20 PM toward Monterosso. Times change seasonally—always verify before making evening plans."
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Village Reveals Itself",
+      "content": [
+        "Vernazza's layout made sense to medieval defenders, and it makes sense once you understand their logic. Down leads to water. Up leads to viewpoints. The tunnel connects modern transportation to ancient streets. The stairs connect different levels of village life.",
+        "Get lost once—deliberately. Follow alleys that seem to lead nowhere. Discover the courtyards and gardens hidden behind medieval walls. Find the viewpoints that aren't on any map. The village rewards wandering.",
+        "Then return to Piazza Marconi, reorient, and explore in a new direction. Vernazza is small enough to know in a day and deep enough to discover for weeks."
+      ],
       "buttons": [
-        {
-          "text": "Explore Interactive Map",
-          "url": "#village-map",
-          "variant": "primary"
-        },
-        {
-          "text": "Download Walking Route",
-          "url": "#walking-routes",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Vernazza by the Numbers",
-      "stats": [
-        {
-          "number": "5",
-          "label": "Main Dining Areas",
-          "description": "Harbor square to clifftop terraces"
-        },
-        {
-          "number": "15",
-          "label": "Minutes",
-          "description": "Walking time end-to-end"
-        },
-        {
-          "number": "3",
-          "label": "Levels",
-          "description": "Harbor to castle viewpoint"
-        },
-        {
-          "number": "800m",
-          "label": "Harbor Walk",
-          "description": "Scenic waterfront promenade"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Key Areas to Navigate",
-      "subtitle": "Master these essential zones to move through Vernazza with confidence",
-      "features": [
-        {
-          "title": "Piazza Marconi (Harbor Square)",
-          "description": "The beating heart of Vernazza where boats dock and restaurants like Gambero Rosso serve harbor-view dining",
-          "icon": "anchor"
-        },
-        {
-          "title": "Via Roma (Main Street)",
-          "description": "The village's primary artery connecting harbor to train station, lined with shops and gelaterias",
-          "icon": "map"
-        },
-        {
-          "title": "Castle Tower & Viewpoint",
-          "description": "Medieval Doria fortress offering 360-degree panoramas - accessed via steep stone steps from harbor",
-          "icon": "castle"
-        },
-        {
-          "title": "Cinque Terre Trail Access",
-          "description": "Northern path to Monterosso and southern route to Corniglia begin from opposite ends of the village",
-          "icon": "hiking"
-        },
-        {
-          "title": "Clifftop Dining Terraces",
-          "description": "Elevated restaurants like Belforte and Nessun Dorma perched on dramatic rocky outcrops",
-          "icon": "restaurant"
-        },
-        {
-          "title": "Train Station Area",
-          "description": "Modern transport hub with baggage storage, ticket office, and tunnel entrance to village center",
-          "icon": "train"
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "title": "Restaurant Locations & Reservation Strategy",
-      "subtitle": "Navigate Vernazza's dining scene like a connoisseur",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1414235077428-338989a2e8c0-hero.jpg",
-      "content": "**Harbor Square Dining**: Gambero Rosso anchors Piazza Marconi with prime waterfront tables - arrive by 11:30 AM to secure harbor-view seating for lunch, or book 2-3 weeks ahead for dinner. The square's eastern corner offers the most dramatic lighting for evening photography.\n\n**Clifftop Fine Dining**: Belforte occupies an ancient tower on Via Guidoni, accessible via steep stone steps from the harbor. This Michelin-recommended establishment requires advance reservations (minimum 2-3 weeks in peak season) and offers the most romantic sunset dining in Cinque Terre.\n\n**Scenic Sunset Spots**: Nessun Dorma perches on Via Discovolo, reached by climbing the hillside steps behind the church. No reservations accepted - arrive 90 minutes before sunset for prime Instagram-worthy tables overlooking the entire village.\n\n**Navigation Tip**: Restaurant addresses can be deceiving in Vernazza's medieval layout. Use landmarks: harbor square restaurants are obvious, clifftop venues require uphill climbs, and hillside spots like Nessun Dorma are reached via stone steps marked with small signs."
-    },
-    {
-      "type": "faq-section",
-      "title": "Navigation Questions Answered",
-      "faqs": [
-        {
-          "question": "How do I get from the train station to the harbor?",
-          "answer": "Exit the train and follow the pedestrian tunnel (Via Roma) that leads directly into the village center. The walk takes 3-4 minutes downhill and emerges at Piazza Marconi harbor square. Look for the bright daylight at the tunnel's end."
-        },
-        {
-          "question": "Where can I find the best viewpoint for photos?",
-          "answer": "The Doria Castle tower offers 360-degree views and costs €3 entry. For free viewpoints, climb to Nessun Dorma restaurant on the hillside or walk to the small cemetery above the village. The harbor breakwater also provides excellent sunrise shots."
-        },
-        {
-          "question": "Is Vernazza wheelchair accessible?",
-          "answer": "Limited accessibility due to medieval stone streets and steps. The harbor square and main Via Roma are relatively flat, but most restaurants and viewpoints require climbing stairs. The train station has an elevator, and some harbor-level dining is accessible."
-        },
-        {
-          "question": "How do I find hiking trail entrances?",
-          "answer": "The Monterosso trail begins at the northern end past the harbor, marked clearly with blue trail signs. The Corniglia route starts from the southern side near the cemetery. Both require purchasing Cinque Terre park cards available at the train station."
-        },
-        {
-          "question": "What's the best route for sunset viewing?",
-          "answer": "For dinner: book Belforte's corner tower table. For casual drinks: arrive at Nessun Dorma by 6 PM. For photography: climb to the castle or cemetery viewpoint. The harbor breakwater offers stunning western exposure for golden hour shots."
-        },
-        {
-          "question": "Where can I store luggage while exploring?",
-          "answer": "The train station offers official luggage storage (€6/day). Some restaurants store bags for customers, and several shops near the harbor provide informal storage services. Book ahead during peak season as storage fills quickly."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "title": "Ready to Explore Vernazza?",
-      "subtitle": "Plan your perfect village experience with our complete dining and accommodation guide",
-      "buttons": [
-        {
-          "text": "Browse Vernazza Restaurants",
-          "url": "/vernazza/restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "Find Places to Stay",
-          "url": "/vernazza/hotels",
-          "variant": "secondary"
-        }
+        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
+        { "text": "Where to Eat", "url": "/en/vernazza/restaurants", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "maps"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:40:15.356Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

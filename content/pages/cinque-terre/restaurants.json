@@ -10,6 +10,7 @@
     "en": "Cinque Terre Restaurants: Where Sea Meets Extraordinary Cuisine"
   },
   "page_type": "restaurants",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Best Cinque Terre Restaurants | Fine Dining Guide"
@@ -20,50 +21,19 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1748164795892-c85ed20da144-hero.jpg",
-      "eyebrow": "Culinary Excellence",
-      "title": "Taste the Soul of Cinque Terre",
+      "type": "editorial-hero",
+      "title": "Taste the Soul<br/>of Cinque Terre",
       "subtitle": "From clifftop fine dining to family-run trattorias, discover restaurants where centuries-old recipes meet the Mediterranean's daily bounty. Every meal here tells the story of Liguria's fishing villages.",
-      "buttons": [
-        {
-          "text": "Explore Restaurants",
-          "url": "#restaurants",
-          "variant": "primary"
-        },
-        {
-          "text": "Dining Guide",
-          "url": "#guide",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Culinary Excellence",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1748164795892-c85ed20da144-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "heading": "A Feast for the Senses",
-      "stats": [
-        {
-          "number": "100+",
-          "label": "Handpicked Restaurants",
-          "description": "From Michelin-starred establishments to beloved local gems"
-        },
-        {
-          "number": "5",
-          "label": "Historic Villages",
-          "description": "Each offering unique culinary traditions and coastal specialties"
-        },
-        {
-          "number": "800+",
-          "label": "Years of Tradition",
-          "description": "Recipes passed down through generations of Ligurian families"
-        },
-        {
-          "number": "Daily",
-          "label": "Fresh Catches",
-          "description": "Anchovies, sea bass, and prawns delivered straight from local boats"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "A Feast for the Senses",
+      "quote": "In Cinque Terre, every meal is a celebration of the sea's generosity and the land's ancient wisdom. The aroma of fresh basil mingles with salt air as you bite into handmade trofie pasta swirled with pesto.",
+      "leftContent": "<p>Over <strong>100+ handpicked restaurants</strong> across <strong>5 historic villages</strong>, each offering unique culinary traditions. <strong>800+ years of tradition</strong> inform recipes passed through generations.</p><p>From Michelin-starred establishments to beloved local gems.</p>",
+      "rightContent": "<p><strong>Daily fresh catches</strong> featuring Mediterranean anchovies and sea bass. Traditional <strong>pesto made with Genovese basil DOP</strong>, local <strong>Cinque Terre DOC wines</strong>.</p><p>From <strong>focaccia col formaggio</strong> to <strong>Sciacchetra dessert wine</strong> with canestrelli cookies.</p>"
     },
     {
       "type": "collection-embed",
@@ -167,19 +137,12 @@
       "id": "guide",
       "variant": "text-with-image",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1414235077428-338989a2e8c0-hero.jpg",
-      "heading": "The Art of Ligurian Dining",
-      "content": "In Cinque Terre, every meal is a celebration of the sea's generosity and the land's ancient wisdom. The aroma of fresh basil mingles with salt air as you bite into handmade trofie pasta swirled with pesto—the region's emerald gift to the world.\n\nHere, anchovies aren't just fish; they're liquid gold, hand-selected and salt-cured until they melt on your tongue. The local Vermentino wine, crisp as morning mist over the Mediterranean, pairs perfectly with plates of frutti di mare so fresh they taste of the tide pools.\n\nFrom Monterosso's elegant seafront establishments to Corniglia's intimate family kitchens, each restaurant tells its village's story through food. The best tables often require patience—book ahead or arrive early to secure your spot overlooking the endless blue.",
-      "features": [
-        "Traditional pesto made with Genovese basil DOP",
-        "Daily catch featuring Mediterranean anchovies and sea bass",
-        "Local Cinque Terre DOC wines paired with every meal",
-        "Focaccia col formaggio—the region's legendary cheese bread",
-        "Sciacchetrà dessert wine with traditional canestrelli cookies"
-      ]
+      "title": "The Art of Ligurian Dining",
+      "content": "In Cinque Terre, every meal is a celebration of the sea's generosity and the land's ancient wisdom. The aroma of fresh basil mingles with salt air as you bite into handmade trofie pasta swirled with pesto - the region's emerald gift to the world.\n\nHere, anchovies aren't just fish; they're liquid gold, hand-selected and salt-cured until they melt on your tongue. The local Vermentino wine, crisp as morning mist over the Mediterranean, pairs perfectly with plates of frutti di mare so fresh they taste of the tide pools.\n\nFrom Monterosso's elegant seafront establishments to Corniglia's intimate family kitchens, each restaurant tells its village's story through food. The best tables often require patience - book ahead or arrive early to secure your spot overlooking the endless blue.\n\n**Must-Try Specialties:**\n- Traditional pesto made with Genovese basil DOP\n- Daily catch featuring Mediterranean anchovies and sea bass\n- Local Cinque Terre DOC wines paired with every meal\n- Focaccia col formaggio - the region's legendary cheese bread\n- Sciacchetra dessert wine with traditional canestrelli cookies"
     },
     {
       "type": "faq-section",
-      "heading": "Dining in Cinque Terre",
+      "title": "Dining in Cinque Terre",
       "faqs": [
         {
           "question": "Do I need reservations for restaurants in Cinque Terre?",
@@ -191,11 +154,11 @@
         },
         {
           "question": "Which local specialties should I try?",
-          "answer": "Don't miss trofie al pesto (hand-rolled pasta with basil pesto), acciughe del mar Ligure (local anchovies), focaccia col formaggio from Recco, and farinata (chickpea pancake). Pair meals with Cinque Terre DOC white wine or the sweet Sciacchetrà dessert wine. Fresh seafood varies daily—ask your server for the catch of the day."
+          "answer": "Don't miss trofie al pesto (hand-rolled pasta with basil pesto), acciughe del mar Ligure (local anchovies), focaccia col formaggio from Recco, and farinata (chickpea pancake). Pair meals with Cinque Terre DOC white wine or the sweet Sciacchetra dessert wine. Fresh seafood varies daily - ask your server for the catch of the day."
         },
         {
           "question": "What's the price range for dining in Cinque Terre?",
-          "answer": "Expect to pay €15-25 for lunch at casual spots, €35-60 for dinner at mid-range restaurants, and €80-120+ per person at fine dining establishments. A glass of local wine costs €6-12, while full bottles range from €25-80. Tourist areas command premium prices, but the quality typically justifies the cost."
+          "answer": "Expect to pay EUR15-25 for lunch at casual spots, EUR35-60 for dinner at mid-range restaurants, and EUR80-120+ per person at fine dining establishments. A glass of local wine costs EUR6-12, while full bottles range from EUR25-80. Tourist areas command premium prices, but the quality typically justifies the cost."
         },
         {
           "question": "Are there vegetarian options available?",
@@ -208,22 +171,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Ready to Dine",
-      "heading": "Book Your Cinque Terre Culinary Adventure",
-      "description": "From sunrise aperitivos to candlelit dinners overlooking the Mediterranean, let us arrange unforgettable dining experiences at the region's most coveted tables.",
-      "buttons": [
-        {
-          "text": "Plan Your Dining Experience",
-          "url": "/contact",
-          "variant": "primary"
-        },
-        {
-          "text": "View All Restaurants",
-          "url": "/restaurants",
-          "variant": "secondary"
-        }
+      "type": "closing-note",
+      "badge": "Ready to Dine",
+      "title": "Book Your Cinque Terre Culinary Adventure",
+      "content": "<p>From sunrise aperitivos to candlelit dinners overlooking the Mediterranean, let us arrange unforgettable dining experiences at the region's most coveted tables.</p><p>Every meal in Cinque Terre becomes a memory - the taste of the sea, the warmth of family hospitality, and views that feed the soul.</p>",
+      "actions": [
+        { "label": "Plan Your Dining Experience", "href": "/en/team", "variant": "primary" },
+        { "label": "View All Restaurants", "href": "/restaurants", "variant": "secondary" }
       ]
     }
   ],
@@ -231,7 +185,7 @@
     "city": "cinque-terre",
     "page_type": "restaurants"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:51:05.920Z"
 }

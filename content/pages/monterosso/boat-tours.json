@@ -1,5 +1,5 @@
 {
-  "id": "8274cec2-b8ea-45bd-b206-5443269713f0",
+  "id": "m-boat-tours-001",
   "slug": {
     "en": "/en/monterosso/boat-tours",
     "de": "/de/monterosso/boat-tours",
@@ -7,158 +7,157 @@
     "it": "/it/monterosso/boat-tours"
   },
   "title": {
-    "en": "Monterosso Boat Tours: Discover Cinque Terre from the Sea"
+    "en": "Boat Tours from Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "boat-tours",
   "seo": {
     "title": {
-      "en": "Monterosso Boat Tours - Best Cinque Terre Sea Excursions"
+      "en": "Boat Tours from Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Explore all 5 villages from the water. Private sunset tours, group excursions, and swimming stops. Book your Monterosso boat adventure today."
+      "en": "Monterosso's protected harbor offers the most departure options, the calmest boarding conditions, and views of Il Gigante that can only be appreciated from the water."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg",
-      "eyebrow": "Monterosso Maritime Adventures",
-      "title": "Experience Cinque Terre's Ancient Maritime Soul from the Perfect Vantage Point",
-      "subtitle": "For centuries, these villages were only accessible by sea. Today, you'll understand why as you witness the dramatic coastline that shaped a thousand years of maritime heritage - from hidden coves where medieval merchants once traded to clifftop vineyards that tumble into azure waters.",
+      "type": "editorial-hero",
+      "title": "Where the<br/>Fleet Gathers",
+      "subtitle": "Monterosso's harbor has sheltered boats for a millennium. Today, the largest fleet in Cinque Terre departs from here—offering more tours, more schedules, and calmer conditions than anywhere else on this coast.",
+      "badge": "Boat Tours",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Monterosso Advantage",
+      "quote": "Every village offers boat tours. But Monterosso's larger harbor means more boats, more operators, more competition. The result: better options, better prices, and better odds of finding a departure that fits your schedule.",
+      "content": [
+        "**The harbor protects**. Monterosso's natural bay creates the calmest boarding conditions in Cinque Terre. While other villages cancel for chop, Monterosso boats often still run. The protection that attracted medieval traders now serves modern tourists.",
+        "**The Giant from the water**. Il Gigante's broken form makes most sense from the sea—you see the scale of the original villa, understand why someone would carve Neptune from cliff stone. Land views miss the drama.",
+        "**Southern perspective**. Departing from Monterosso means seeing the coastline as the first settlers did—approaching from the north, watching the villages reveal themselves in sequence. It's the natural direction.",
+        "**Return convenience**. When your boat returns to Monterosso, you return to beaches, restaurants, and facilities that other villages can't match. The post-tour gelato is better here."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "tour",
+      "items": [
+        {
+          "id": 1,
+          "name": "Five Villages Coastline",
+          "category": "Classic Tour",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The complete UNESCO coast from the best starting point—all five villages revealed in their maritime context.",
+          "description": "A 2-3 hour journey passing every village, with Monterosso's harbor providing the smoothest departure. You'll see Il Gigante from sea level, watch the terraces climb impossible hillsides, understand why these villages could only exist on this specific coast. Swimming stops at hidden coves break the journey.",
+          "giuliaComment": "Starting from Monterosso means you see the villages in proper sequence—from largest to smallest, from beach to cliff. The drama builds as you go south. By the time you reach Riomaggiore, you understand the whole coast.",
+          "signature": "The complete perspective",
+          "practicalInfo": "Daily departures 9am, 11am, 2pm. Book morning for calmer water. Swimming gear required. Duration 2.5-3 hours."
+        },
+        {
+          "id": 2,
+          "name": "Sunset from the Giant",
+          "category": "Evening Experience",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Watching the sun set behind Il Gigante's silhouette—the Mediterranean turning gold, the broken statue becoming shadow.",
+          "description": "A 2-hour evening cruise positioned specifically for Monterosso's unique sunset angles. Watch the Giant become silhouette as the sun descends behind the headland. Prosecco and local appetizers accompany the transition from golden hour to twilight. Return to Monterosso's harbor as the village lights awaken.",
+          "giuliaComment": "The Giant at sunset is otherworldly. That broken form against the gold sky—it's tragic and beautiful simultaneously. This tour exists because someone realized the unique angle Monterosso offers. It's worth every euro.",
+          "signature": "When ruins become romantic",
+          "practicalInfo": "Departure times vary with season (typically 6pm-7pm). Book 48 hours ahead in summer. Bring layers for evening coolness."
+        },
+        {
+          "id": 3,
+          "name": "Private Beach Hopping",
+          "category": "Exclusive Experience",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Your own captain, your own schedule, secret beaches that only locals know.",
+          "description": "Charter a boat from Monterosso's harbor with a skipper who grew up on this water. He knows beaches that don't appear on maps, coves where you'll be alone, the best swimming spots for different times of day. A full day on the water, shaped entirely by your preferences.",
+          "giuliaComment": "The private charter skippers are the real treasure. These are fishing families who know every rock, every current, every secret. Tell them what you want—quiet, adventure, swimming, photography—and they'll design the perfect day.",
+          "signature": "The sea on your terms",
+          "practicalInfo": "Half-day from €450, full-day from €800. Includes equipment, drinks, snacks. Book 1 week ahead for peak season."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Harbor Heritage",
+          "quote": "Monterosso's harbor has sheltered boats since before anyone wrote history. The same natural protection that made it a medieval trading port now makes it Cinque Terre's most reliable departure point. When seas are rough elsewhere, Monterosso boats often still sail."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Realities",
+      "quote": "Boat tours are weather-dependent, sun-intensive, and occasionally uncomfortable. Planning and preparation transform a potentially difficult experience into an unforgettable one.",
+      "content": [
+        "**Morning versus afternoon**. Morning departures encounter calmer seas and clearer visibility. Afternoon tours offer warmer water for swimming but choppier conditions. Evening tours trade swimming for atmosphere.",
+        "**The ferry alternative**. Regular ferries connect villages for a fraction of tour prices. No swimming stops, no commentary, but the sea perspective at budget rates. From Monterosso, ferries reach all other villages.",
+        "**Sea conditions check**. Look at the harbor before booking. If waves are breaking at the entrance, afternoon tours might cancel. The Mediterranean can shift from calm to rough in hours.",
+        "**Sun protection is serious**. Water reflects UV. Two hours on a boat delivers more sun exposure than a full beach day. Apply protection before boarding, reapply at stops, wear a hat that won't blow off."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "specialty",
+      "items": [
+        {
+          "id": 4,
+          "name": "Fishing with Locals",
+          "category": "Cultural Immersion",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Join working fishermen on their morning run—the Monterosso anchovy tradition experienced firsthand.",
+          "description": "Pre-dawn departure with a family that has fished these waters for generations. Learn traditional net techniques, understand why Monterosso anchovies carry protected status, participate in the catch that might appear in restaurants that evening. Ends with breakfast featuring what you helped catch.",
+          "giuliaComment": "This is the real Monterosso—the one that exists before tourists wake up. The fishermen who offer these experiences are sharing their heritage, not performing it. Come ready to work, ready to learn, ready to appreciate why this tradition matters.",
+          "signature": "Where tourism becomes participation",
+          "practicalInfo": "Departure 5am. Full morning commitment. Not for the seasick. Book through harbor contacts only—these aren't advertised."
+        },
+        {
+          "id": 5,
+          "name": "Snorkeling the Coves",
+          "category": "Active Experience",
+          "village": "Monterosso",
+          "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The Mediterranean below the surface—rock formations, marine life, clarity that reveals hidden worlds.",
+          "description": "A 3-hour tour focused on underwater exploration. Multiple stops at sites chosen for marine diversity and water clarity. Equipment provided, basic instruction included. The coastline that looks dramatic from above hides equally dramatic landscapes below.",
+          "giuliaComment": "People swim at the beach and think they've experienced the Mediterranean. They haven't. The real underwater world is away from harbors, at coves only boats can reach. The clarity at the right spots is almost Caribbean.",
+          "signature": "Where the surface is just the beginning",
+          "practicalInfo": "3-hour duration. Snorkel equipment included. Water confidence required. Best June-September for visibility."
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Return Timing",
+          "quote": "Book morning tours if you want afternoon on the beach. Book afternoon tours if you want evening in the village. The return time matters as much as the departure—plan your boat day within your overall Monterosso day, not separate from it."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "The Sea Reveals",
+      "content": [
+        "A boat tour from Monterosso does what no hiking trail can: it shows you the coast as nature designed it, villages clinging to cliffs that make no sense until you see them from below, terraces that climb to heights that seem impossible.",
+        "The Giant watching from his broken cliff. The morning light on colored facades. The coves that hide until you're almost upon them. These are Monterosso's gifts from the water—available to anyone willing to step off the shore.",
+        "Take the tour. Take the photos. But also take the time to simply look, without lens between you and the view. The memory of this coast from the sea will last longer than any image."
+      ],
       "buttons": [
-        {
-          "text": "Browse Tour Options",
-          "url": "#tours",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Day",
-          "url": "#planning",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "headline": "Monterosso: Gateway to Cinque Terre Waters",
-      "stats": [
-        {
-          "number": "12km",
-          "label": "Dramatic coastline covered"
-        },
-        {
-          "number": "5",
-          "label": "Villages accessible by boat"
-        },
-        {
-          "number": "45min",
-          "label": "Full coastal tour duration"
-        },
-        {
-          "number": "8am-8pm",
-          "label": "Daily departure window"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "headline": "Why Monterosso is Your Ideal Departure Point",
-      "subtitle": "As the largest village with the most protected harbor, Monterosso offers the widest selection of boat experiences and the smoothest departures.",
-      "features": [
-        {
-          "icon": "anchor",
-          "title": "Historic Harbor Heritage",
-          "description": "Depart from the same protected bay where medieval merchants anchored their vessels, now home to modern tour boats and traditional fishing craft."
-        },
-        {
-          "icon": "map",
-          "title": "Strategic Central Location",
-          "description": "Perfectly positioned to explore both directions - northward to Levanto's beaches or southward through all five Cinque Terre villages."
-        },
-        {
-          "icon": "waves",
-          "title": "Calmer Waters, Better Experience",
-          "description": "Monterosso's broad bay provides the most stable boarding conditions and comfortable starts to your maritime adventure."
-        },
-        {
-          "icon": "clock",
-          "title": "Flexible Timing Options",
-          "description": "More departure times available than any other village, from early morning exploration tours to romantic sunset excursions."
-        },
-        {
-          "icon": "users",
-          "title": "Largest Fleet Selection",
-          "description": "Choose from intimate 6-person boats to comfortable 50-passenger vessels, all operated by families with generations of local maritime knowledge."
-        },
-        {
-          "icon": "camera",
-          "title": "Best Photo Opportunities",
-          "description": "Capture the iconic Giant statue, medieval towers, and the dramatic transition from beach to cliff that makes Monterosso unique among the five villages."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://images.unsplash.com/photo-1571735652994-9b1b6eb76577?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHw4fHxjaW5xdWUlMjB0ZXJyZSUyMGJvYXQlMjB0b3VyfGVufDB8MHx8fDE3MzM5MTE5MTV8MA&ixlib=rb-4.1.0&q=80&w=800",
-      "headline": "The Maritime Perspective That Shaped These Ancient Villages",
-      "content": "For over a millennium, the sea was not just Monterosso's livelihood—it was its lifeline. From our harbor, medieval merchants carried local wine and olive oil to distant ports, while fishing families developed the techniques that still define Ligurian cuisine today.\n\nAs your boat glides past the 16th-century Aurora Tower, now home to one of Monterosso's most romantic restaurants, you'll see how each village was strategically positioned for both defense and trade. The dramatic coastline that challenges modern visitors once provided natural fortification against Saracen raiders.\n\nThe monastery bells that guided ancient mariners safely to shore still ring today, and the traditional fishing boats bobbing alongside modern tour vessels remind you that this is not just a scenic journey—it's a voyage through living history where the past and present merge as seamlessly as the horizon meets the Mediterranean."
-    },
-    {
-      "type": "faq-section",
-      "headline": "Essential Information for Your Monterosso Boat Adventure",
-      "faqs": [
-        {
-          "question": "What boat tour options are available from Monterosso?",
-          "answer": "Choose from shared group tours (€25-35 for 45-minute coastal tours), private boat charters (€300-600 for half-day), sunset aperitivo cruises (€45-55), and full-day excursions with swimming stops (€65-85). Tours run from March through October, with peak season offering the most frequent departures."
-        },
-        {
-          "question": "How far in advance should I book?",
-          "answer": "For peak season (June-August), book 3-5 days ahead for group tours, 1-2 weeks for private charters. Sunset tours are especially popular and fill quickly. Spring and fall offer more flexibility, with same-day bookings often possible."
-        },
-        {
-          "question": "Where exactly do boats depart from in Monterosso?",
-          "answer": "All tours depart from Monterosso's main harbor near the train station (Fegina beach area). Look for the boat ticket offices along Via Fegina. Departure points are clearly marked, and operators provide specific meeting instructions when booking."
-        },
-        {
-          "question": "What's included and what should I bring?",
-          "answer": "Most tours include life jackets and basic safety equipment. Bring sunscreen, hat, water, and comfortable clothing. Sunset tours often include aperitivo and snacks. Swimming tours provide time for ocean dips, so bring swimwear and towels."
-        },
-        {
-          "question": "Can I visit other villages during the boat tour?",
-          "answer": "Standard coastal tours pass all five villages for viewing and photos but don't typically include village stops. Full-day excursions may include 30-60 minute stops in Vernazza or other villages. Private charters can be customized for specific village visits."
-        },
-        {
-          "question": "What if weather conditions are poor?",
-          "answer": "Tours operate in most conditions, but rough seas may lead to cancellations for safety. Operators typically offer full refunds or rescheduling for weather-related cancellations. Check conditions the morning of your tour, especially during spring and fall months."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "headline": "Experience the Cinque Terre as Ancient Mariners Once Did",
-      "subtitle": "Join the maritime tradition that has connected these villages for over a thousand years. Book your departure from Monterosso's historic harbor.",
-      "buttons": [
-        {
-          "text": "Find Available Tours",
-          "url": "/monterosso/activities",
-          "variant": "primary"
-        },
-        {
-          "text": "Explore Monterosso",
-          "url": "/monterosso",
-          "variant": "secondary"
-        }
+        { "text": "Beach Guide", "url": "/en/monterosso/beaches", "variant": "primary" },
+        { "text": "Village Overview", "url": "/en/monterosso/overview", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "monterosso",
+    "village_id": "monterosso",
     "page_type": "boat-tours"
   },
-  "status": "generated",
-  "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T12:58:03.049Z"
+  "status": "published",
+  "created_at": "2026-01-07T10:00:00.000Z",
+  "updated_at": "2026-01-07T10:00:00.000Z"
 }

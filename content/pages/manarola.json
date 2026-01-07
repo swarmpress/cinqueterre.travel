@@ -10,140 +10,110 @@
     "en": "Manarola: The Wine Village of Cinque Terre"
   },
   "page_type": "city",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Manarola Cinque Terre - Historic Wine Village | Cinqueterre.travel"
     },
     "description": {
-      "en": "Discover Manarola, the oldest wine-producing village of Cinque Terre. Roman heritage, clifftop dining, and the famous Sciacchetrà wine await."
+      "en": "Discover Manarola, the oldest wine-producing village of Cinque Terre. Roman heritage, clifftop dining, and the famous Sciacchetra wine await."
     }
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg",
-      "eyebrow": "Cinque Terre's Wine Capital",
-      "title": "Manarola: Where Ancient Vines Meet Dramatic Cliffs",
+      "type": "editorial-hero",
+      "title": "Where Ancient Vines<br/>Meet Dramatic Cliffs",
       "subtitle": "Step into the oldest wine-producing village of Cinque Terre, where Roman terraces cascade down to turquoise waters and centuries-old traditions create Italy's most precious dessert wine.",
-      "buttons": [
-        {
-          "text": "Explore Dining",
-          "url": "#dining",
-          "variant": "primary"
-        },
-        {
-          "text": "Discover History",
-          "url": "#heritage",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "Cinque Terre's Wine Capital",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
     },
     {
-      "type": "stats-section",
-      "variant": "three-column",
-      "title": "Manarola by the Numbers",
-      "stats": [
-        {
-          "number": "2,000",
-          "label": "Years of Wine History",
-          "description": "Roman terraces still produce wine today"
-        },
-        {
-          "number": "1338",
-          "label": "First Written Record",
-          "description": "Earliest documented evidence of settlement"
-        },
-        {
-          "number": "300",
-          "label": "Residents",
-          "description": "Maintaining ancient traditions"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "variant": "three-column-grid",
-      "title": "What Makes Manarola Extraordinary",
-      "subtitle": "From ancient Roman vineyards to UNESCO-protected heritage, discover the elements that set this village apart.",
-      "features": [
-        {
-          "icon": "🍇",
-          "title": "Sciacchetrà Wine Heritage",
-          "description": "Taste the legendary dessert wine made from grapes dried on traditional mats, a process unchanged for centuries."
-        },
-        {
-          "icon": "🏛️",
-          "title": "Roman Terraced Vineyards",
-          "description": "Walk among stone terraces first built by Romans, still producing some of Italy's finest wines today."
-        },
-        {
-          "icon": "🌅",
-          "title": "Clifftop Dining",
-          "description": "Experience romantic sunset dinners at restaurants perched dramatically on the Mediterranean cliffs."
-        },
-        {
-          "icon": "⛪",
-          "title": "Gothic San Lorenzo Church",
-          "description": "Visit the 14th-century church with its distinctive rose window, a masterpiece of Ligurian Gothic architecture."
-        },
-        {
-          "icon": "🚶",
-          "title": "Via dell'Amore Starting Point",
-          "description": "Begin the famous Lover's Walk, the most romantic coastal path in all of Italy."
-        },
-        {
-          "icon": "📸",
-          "title": "Most Photographed Harbor",
-          "description": "Capture the iconic image of colorful houses reflected in the small marina, Cinque Terre's most famous view."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image-right",
-      "image": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMHdpbmUlMjB2aW5leWFyZCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODM1MTl8MA&ixlib=rb-4.1.0&q=80&w=1200",
-      "eyebrow": "Wine & Heritage",
-      "title": "A Living Museum of Wine-Making",
+      "type": "editorial-intro",
+      "badge": "Manarola by the Numbers",
+      "quote": "For over two thousand years, families have cultivated these terraces. The Romans recognized what made this location extraordinary—the perfect combination of maritime climate, well-draining limestone soil, and southern exposure. Today, just 300 residents maintain traditions that predate written history.",
       "content": [
-        {
-          "type": "paragraph",
-          "text": "Manarola stands as possibly the oldest settlement in Cinque Terre, its compact streets and stone houses telling the story of over two millennia of continuous wine production. What sets this village apart isn't just its dramatic beauty – though the sight of pastel houses tumbling down to a tiny harbor is undeniably spectacular – but its authentic preservation of ancient traditions."
-        },
-        {
-          "type": "paragraph",
-          "text": "The Romans recognized something special in these steep cliffs: the perfect combination of maritime climate, well-draining limestone soil, and southern exposure that creates ideal conditions for viticulture. Today, you can still walk among terraces they first carved from stone, where families continue to produce Sciacchetrà, the amber-colored dessert wine that has become synonymous with Cinque Terre excellence."
-        },
-        {
-          "type": "paragraph",
-          "text": "Beyond the vineyards, Manarola offers intimate encounters with living history. The Church of San Lorenzo, dating to 1338, showcases exquisite Gothic-Ligurian architecture with its famous rose window. Local families still maintain the dry stone walls that hold these impossibly steep vineyards in place, a skill passed down through generations without change."
-        }
+        "**Two millennia of wine history**. The first written record dates to 1338, but Roman terraces tell an older story. These same stone walls still produce wine today, maintained by families who've worked this land for generations.",
+        "**The birthplace of Sciacchetra**. This legendary amber dessert wine is made from grapes dried on traditional mats—a process unchanged for centuries. The result is precious: bottles measured in drops, not glasses.",
+        "**The most photographed harbor**. That iconic image of colorful houses reflected in the small marina? This is where it's taken. Every sunset transforms the scene into the postcard that defined Cinque Terre."
       ]
     },
     {
-      "type": "content-section",
-      "variant": "text-with-image-left",
-      "image": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMGhhcmJvciUyMHJlc3RhdXJhbnQlMjBjaW5xdWUlMjB0ZXJyZXxlbnwwfDB8fHwxNzY1ODgzNTY4fDA&ixlib=rb-4.1.0&q=80&w=1200",
-      "eyebrow": "Culinary Excellence",
-      "title": "Clifftop Dining at Its Most Sublime",
-      "content": [
+      "type": "collection-with-interludes",
+      "itemType": "highlight",
+      "items": [
         {
-          "type": "paragraph",
-          "text": "Manarola's restaurants offer something truly special: the chance to dine on dramatic clifftops where the Mediterranean stretches endlessly before you. At Il Porticciolo, positioned near the marina, you'll taste the freshest seafood while watching fishing boats return with the day's catch. The restaurant's harborfront terrace provides intimate views of the village's most photographed scene."
+          "id": 1,
+          "name": "Sciacchetra Wine Heritage",
+          "category": "Wine Culture",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMHdpbmUlMjB2aW5leWFyZCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODM1MTl8MA&ixlib=rb-4.1.0&q=80&w=1200",
+          "intro": "Taste the legendary dessert wine made from grapes dried on traditional mats, a process unchanged for centuries.",
+          "description": "Sciacchetra is not just wine—it's liquid history. Grapes are harvested in September, then dried on mats for months until concentrated to precious sweetness. The amber result is sipped, not drunk. Some bottles age for decades. The Cooperativa Agricola Cinque Terre offers tastings by appointment—essential for understanding what makes this terroir extraordinary.",
+          "signature": "Where tradition becomes treasure"
         },
         {
-          "type": "paragraph",
-          "text": "For romance, nothing compares to La Scogliera's clifftop setting. Perched on the rocks with unobstructed sea views, this intimate restaurant specializes in grilled octopus and seafood risottos that pair beautifully with local Cinque Terre white wines. Book the sunset seating for the most magical experience – watching the sun disappear into the Mediterranean while dining on perfectly prepared branzino is pure poetry."
+          "id": 2,
+          "name": "Roman Terraced Vineyards",
+          "category": "Ancient Heritage",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMHdpbmUlMjB2aW5leWFyZCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODM1MTl8MA&ixlib=rb-4.1.0&q=80&w=1200",
+          "intro": "Walk among stone terraces first built by Romans, still producing some of Italy's finest wines today.",
+          "description": "The terraces climbing Manarola's slopes represent over two thousand years of continuous cultivation. Roman vintners recognized the perfect conditions: southern exposure, maritime climate, limestone soil. Local families still maintain the dry stone walls by hand, a skill passed down through generations without change.",
+          "signature": "Where Romans planted first"
         },
         {
-          "type": "paragraph",
-          "text": "Terrazza del Borgo takes elevation to new heights, offering 270-degree panoramic views that encompass both the village below and the endless sea. Their seasonal tasting menus showcase the chef's creativity with local ingredients, while the wine pairings feature the best of Ligurian viticulture, including precious bottles of aged Sciacchetrà."
+          "id": 3,
+          "name": "Clifftop Dining",
+          "category": "Culinary Excellence",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMGhhcmJvciUyMHJlc3RhdXJhbnQlMjBjaW5xdWUlMjB0ZXJyZXxlbnwwfDB8fHwxNzY1ODgzNTY4fDA&ixlib=rb-4.1.0&q=80&w=1200",
+          "intro": "Experience romantic sunset dinners at restaurants perched dramatically on the Mediterranean cliffs.",
+          "description": "At Il Porticciolo, positioned near the marina, you'll taste the freshest seafood while watching fishing boats return with the day's catch. La Scogliera's clifftop setting offers unobstructed sea views—their grilled octopus pairs beautifully with local wines. Terrazza del Borgo takes elevation to new heights with 270-degree panoramic views and seasonal tasting menus featuring aged Sciacchetra.",
+          "signature": "Where sunset meets the sea"
+        },
+        {
+          "id": 4,
+          "name": "Gothic San Lorenzo Church",
+          "category": "Spiritual Heritage",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMHdpbmUlMjB2aW5leWFyZCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODM1MTl8MA&ixlib=rb-4.1.0&q=80&w=1200",
+          "intro": "Visit the 14th-century church with its distinctive rose window, a masterpiece of Ligurian Gothic architecture.",
+          "description": "The Church of San Lorenzo, dating to 1338, showcases exquisite Gothic-Ligurian architecture. Its famous rose window catches the afternoon light in ways that have inspired visitors for seven centuries. The church marks the earliest documented evidence of the settlement.",
+          "signature": "Where faith frames beauty"
+        },
+        {
+          "id": 5,
+          "name": "Via dell'Amore Starting Point",
+          "category": "Romantic Walks",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMHdpbmUlMjB2aW5leWFyZCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODM1MTl8MA&ixlib=rb-4.1.0&q=80&w=1200",
+          "intro": "Begin the famous Lover's Walk, the most romantic coastal path in all of Italy.",
+          "description": "The Via dell'Amore connects Manarola to Riomaggiore along a clifftop path that has inspired proposals and honeymoons for generations. The walk is gentle, the views are extraordinary, and the name tells you everything about the experience.",
+          "signature": "Where love stories begin"
+        },
+        {
+          "id": 6,
+          "name": "Most Photographed Harbor",
+          "category": "Iconic Views",
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMHdpbmUlMjB2aW5leWFyZCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODM1MTl8MA&ixlib=rb-4.1.0&q=80&w=1200",
+          "intro": "Capture the iconic image of colorful houses reflected in the small marina, Cinque Terre's most famous view.",
+          "description": "The classic shot is from the rocks on the harbor's south side, best during golden hour when the houses are illuminated against darker cliffs. Professional photographers recommend late afternoon for the most dramatic lighting. This is the image that defined Cinque Terre for the world.",
+          "signature": "Where the postcard was born"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 2,
+          "type": "primary",
+          "badge": "Wine & Heritage",
+          "title": "A Living Museum of Wine-Making",
+          "quote": "Manarola stands as possibly the oldest settlement in Cinque Terre. What sets this village apart isn't just its dramatic beauty—though the sight of pastel houses tumbling down to a tiny harbor is undeniably spectacular—but its authentic preservation of ancient traditions that predate written history."
         }
       ]
     },
     {
       "type": "faq-section",
-      "variant": "accordion",
       "title": "Essential Manarola Questions",
       "subtitle": "Everything you need to know for the perfect visit",
       "faqs": [
@@ -153,15 +123,15 @@
         },
         {
           "question": "When is the best time to experience Manarola's wine culture?",
-          "answer": "September through October during harvest season offers the most authentic experience. You can witness grape picking, participate in traditional wine-making activities, and taste the freshest Sciacchetrà. Spring (April-May) is also excellent with fewer crowds and beautiful weather for vineyard walks."
+          "answer": "September through October during harvest season offers the most authentic experience. You can witness grape picking, participate in traditional wine-making activities, and taste the freshest Sciacchetra. Spring (April-May) is also excellent with fewer crowds and beautiful weather for vineyard walks."
         },
         {
           "question": "How do I make reservations at the clifftop restaurants?",
           "answer": "Book well in advance, especially for sunset tables. Il Porticciolo requires reservations for harbor-view tables, La Scogliera books up quickly for sunset seatings, and Terrazza del Borgo is essential to reserve for panoramic terrace tables. Call directly or book online 2-4 weeks ahead during peak season."
         },
         {
-          "question": "Can I visit the vineyards and taste Sciacchetrà wine?",
-          "answer": "Yes, several local producers offer tastings by appointment. The Cooperativa Agricola Cinque Terre provides organized tours that include vineyard visits and Sciacchetrà tastings. Book through your concierge or contact them directly for authentic experiences with local wine masters."
+          "question": "Can I visit the vineyards and taste Sciacchetra wine?",
+          "answer": "Yes, several local producers offer tastings by appointment. The Cooperativa Agricola Cinque Terre provides organized tours that include vineyard visits and Sciacchetra tastings. Book through your concierge or contact them directly for authentic experiences with local wine masters."
         },
         {
           "question": "What's the best way to photograph Manarola's famous harbor scene?",
@@ -174,23 +144,31 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered-with-background",
-      "background": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMGNpbnF1ZSUyMHRlcnJlJTIwc3Vuc2V0JTIwaXRhbHl8ZW58MHwwfHx8MTc2NTg4MzYxNXww&ixlib=rb-4.1.0&q=80&w=1200",
+      "type": "closing-note",
       "title": "Experience Manarola's Timeless Beauty",
-      "subtitle": "From Roman wine traditions to clifftop dining, discover why this ancient village captivates every visitor. Let us create your perfect Cinque Terre experience.",
-      "button": {
-        "text": "Plan Your Manarola Visit",
-        "url": "/contact",
-        "variant": "primary"
-      }
+      "content": [
+        "From Roman wine traditions to clifftop dining, Manarola offers what no other village can match—the living heritage of two thousand years of cultivation. The terraces you walk were built by hands that predate written history. The wine you taste follows recipes unchanged for centuries.",
+        "Come for the harvest that still follows ancient rhythms. Stay for sunsets that transform pastel houses into gold. Watch the day-trippers leave and the village reveal its intimate character. This is Cinque Terre as it was meant to be experienced—slowly, with a glass of something precious in hand."
+      ],
+      "buttons": [
+        {
+          "text": "Plan Your Manarola Visit",
+          "url": "/en/team",
+          "variant": "primary"
+        },
+        {
+          "text": "Explore All Five Villages",
+          "url": "/en/cinque-terre",
+          "variant": "secondary"
+        }
+      ]
     }
   ],
   "metadata": {
     "city": "manarola",
     "page_type": "city"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T12:54:00.291Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

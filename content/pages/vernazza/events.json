@@ -7,267 +7,169 @@
     "it": "/it/vernazza/events"
   },
   "title": {
-    "en": "Vernazza Events & Festivals - Authentic Cultural Celebrations in Cinque Terre"
+    "en": "Village Rhythms in Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "events",
   "seo": {
     "title": {
-      "en": "Vernazza Events & Festivals | Cinque Terre Cultural Calendar"
+      "en": "Village Rhythms in Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Experience authentic Vernazza festivals, from Saint Margaret celebrations to underwater Christmas traditions. Your guide to cultural events in Cinque Terre."
+      "en": "Vernazza celebrates with fireworks over the harbor, divers retrieving baby Jesus from the sea, and jazz floating from ancient churches. The festivals here are not performances—they are how the village marks time."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533174072545-7a4b6ad7a6c3-hero.jpg",
-      "eyebrow": "Cultural Calendar",
-      "title": "Where Medieval Maritime Traditions Come Alive",
-      "subtitle": "From underwater Christmas processions to jazz concerts in ancient churches, Vernazza's festivals offer intimate glimpses into centuries-old traditions that have shaped this legendary fishing village.",
-      "buttons": [
-        {
-          "text": "View Featured Events",
-          "url": "#events",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Visit",
-          "url": "/vernazza",
-          "variant": "secondary"
-        }
+      "type": "editorial-hero",
+      "title": "The Harbor<br/>Celebrates",
+      "subtitle": "In Vernazza, festivals happen where they've always happened—on the piazza, on the breakwater, in the church at the water's edge. The celebrations are ancient, the setting spectacular, and the village still performs for itself first, visitors second.",
+      "badge": "Events & Festivals",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533174072545-7a4b6ad7a6c3-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Festival Village",
+      "quote": "Vernazza's festivals reflect its personality—social, photogenic, slightly theatrical. The harbor becomes a stage. The tower becomes a backdrop. The village that's been photographed a million times reveals why it was worth celebrating for a thousand years.",
+      "content": [
+        "**The patron saint sets the calendar**. Santa Margherita d'Antiochia, celebrated on July 20th, is Vernazza's heart. The procession, the blessing of the boats, the fireworks over the harbor—this is the day the village belongs entirely to itself.",
+        "**Music finds its venue**. The ancient church of Santa Margherita transforms into a concert hall for jazz and opera festivals. The acoustics are accidental, the intimacy intentional. Fifty people in a Gothic nave is all the audience the music needs.",
+        "**Christmas comes from the sea**. The Natale Subacqueo—Underwater Christmas—sees divers retrieve a statue of baby Jesus from the harbor floor and carry it in procession to midnight Mass. It's strange, moving, and completely Vernazza.",
+        "**The harvest closes the circle**. When the grapes come down from the terraces in autumn, the village celebrates what the land has given. The wine that follows is the village's year made liquid."
       ]
     },
     {
-      "type": "stats-section",
-      "stats": [
-        {
-          "number": "20+",
-          "label": "Annual Events",
-          "description": "From intimate concerts to village-wide celebrations"
-        },
-        {
-          "number": "900+",
-          "label": "Years of Tradition",
-          "description": "Festivals dating back to medieval maritime customs"
-        },
-        {
-          "number": "4",
-          "label": "UNESCO Recognized",
-          "description": "Cultural practices protected as intangible heritage"
-        },
-        {
-          "number": "365",
-          "label": "Days of Magic",
-          "description": "Something special happening throughout the year"
-        }
-      ]
-    },
-    {
-      "type": "collection-embed",
-      "collectionType": "events",
-      "heading": "Vernazza's Cultural Calendar",
-      "headingLevel": 2,
+      "type": "collection-with-interludes",
+      "itemType": "event",
       "items": [
         {
-          "slug": "festa-di-santa-margherita",
-          "title": "Saint Margaret Festival",
-          "summary": "Experience Vernazza's most beloved celebration honoring Saint Margaret with spectacular processions and fireworks.",
-          "url": "/festa-di-santa-margherita",
-          "category": "religious",
-          "village": "vernazza",
-          "data": {
-            "featured": true
-          }
+          "id": 1,
+          "name": "Feast of Santa Margherita",
+          "category": "Patron Saint Festival",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+          "intro": "July 20th—when Vernazza celebrates its patron saint with fireworks that turn the harbor into a mirror of fire.",
+          "description": "The Feast of Santa Margherita begins with morning Mass and culminates in an evening procession through streets hung with lights. The statue of the saint is carried from the church through the village, blessed at the harbor, and returned home as fireworks explode over the water. The entire village participates; the entire coast watches.",
+          "giuliaComment": "This is the day I schedule my year around. No matter where I am, I come home for Santa Margherita. The fireworks reflected in the harbor, the whole village together—it's the night that reminds us why we stayed.",
+          "signature": "When the harbor becomes a mirror of fire",
+          "practicalInfo": "July 20th annually. Procession at dusk, fireworks after dark. No reservations—just arrive and join."
         },
         {
-          "slug": "natale-subacqueo",
-          "title": "Underwater Christmas",
-          "summary": "Unique Christmas tradition where divers retrieve a statue of Baby Jesus from underwater and carry it in procession to the church for Christmas Mass.",
-          "url": "/natale-subacqueo",
-          "category": "religious",
-          "village": "vernazza",
-          "data": {
-            "featured": true
-          }
+          "id": 2,
+          "name": "Natale Subacqueo",
+          "category": "Christmas Tradition",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Underwater Christmas—when divers bring baby Jesus from the sea floor to midnight Mass.",
+          "description": "On Christmas Eve, divers descend to retrieve a statue of the infant Jesus from the harbor floor, where it has rested since the previous year. The statue is carried in procession through torchlit streets to the church, where it joins the nativity scene for midnight Mass. The tradition is unique, slightly surreal, and deeply moving.",
+          "giuliaComment": "I've watched this since I was a child, and it still feels miraculous. The divers emerging from black water, the torches reflected on the harbor, the whole village walking to Mass—Christmas in Vernazza is different from anywhere else.",
+          "signature": "Where Christmas emerges from the sea",
+          "practicalInfo": "December 24th. Diving ceremony mid-evening, procession follows. Dress warmly—it's cold."
         },
         {
-          "slug": "vernazza-jazz-festival",
-          "title": "Vernazza Jazz Festival",
-          "summary": "Intimate jazz festival featuring local and international musicians performing in a historic oratory behind the main church with stunning sea views.",
-          "url": "/vernazza-jazz-festival",
-          "category": "music",
-          "village": "vernazza",
-          "data": {
-            "featured": true
-          }
-        },
-        {
-          "slug": "vernazza-opera-festival",
-          "title": "Vernazza Opera Festival",
-          "summary": "Intimate opera performances in the historic seaside church transformed into a charming opera house with professional musicians and rich lyrical repertoire.",
-          "url": "/vernazza-opera-festival",
-          "category": "music",
-          "village": "vernazza",
-          "data": {
-            "featured": true
-          }
-        },
-        {
-          "slug": "mercato-settimanale",
-          "title": "Weekly Market",
-          "summary": "Traditional weekly market in the main square featuring fresh local produce, regional specialties, and authentic Ligurian products.",
-          "url": "/mercato-settimanale",
-          "category": "market",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "festa-dei-pirati",
-          "title": "Pirates Festival",
-          "summary": "Historical festival celebrating Vernazza's victory against Saracen pirates with reenactments, traditional music, and medieval atmosphere.",
-          "url": "/festa-dei-pirati",
-          "category": "cultural",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "sagra-delle-acciughe",
-          "title": "Anchovy Festival",
-          "summary": "Traditional gastronomic festival celebrating the famous Monterosso anchovies with tastings, cooking demonstrations, and local seafood specialties.",
-          "url": "/sagra-delle-acciughe",
-          "category": "food_wine",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
-        },
-        {
-          "slug": "vendemmia",
-          "title": "Grape Harvest",
-          "summary": "Traditional grape harvest experience in the historic terraced vineyards producing the famous Sciacchetrà wine with hands-on participation opportunities.",
-          "url": "/vendemmia",
-          "category": "food_wine",
-          "village": "vernazza",
-          "data": {
-            "featured": false
-          }
+          "id": 3,
+          "name": "Vernazza Jazz Festival",
+          "category": "Music Festival",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Intimate jazz in a 14th-century church—where the acoustics are medieval and the audience is fifty neighbors.",
+          "description": "The jazz festival transforms the oratory behind Santa Margherita into a concert venue. The space holds perhaps fifty people. The musicians are international; the setting is centuries old. The combination creates something impossible to replicate—jazz that sounds different because the walls remember seven hundred years of prayer.",
+          "giuliaComment": "I've seen world-class musicians play for rooms smaller than my apartment. The intimacy changes everything. You can see the sweat, hear the breathing, feel the improvisation happening in real time. This isn't a jazz festival. It's jazz in your living room.",
+          "signature": "Fifty people, one ancient room, pure music",
+          "practicalInfo": "Summer, dates vary. Tickets required—book early, capacity is tiny. Multiple nights usually available."
         }
       ],
-      "display": {
-        "layout": "grid",
-        "columns": 3,
-        "showImage": true,
-        "showSummary": true,
-        "imageAspect": "landscape"
-      },
-      "showViewAll": true,
-      "viewAllUrl": "/events"
-    },
-    {
-      "type": "content-section",
-      "variant": "text-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571896349842-33c89424de2d-regular.jpg",
-      "imagePosition": "right",
-      "title": "The Art of Celebration in Stone and Sea",
-      "content": "Vernazza's festivals aren't just events—they're living theater performed against a backdrop of medieval stone and endless blue. Each celebration tells the story of this remarkable village, from its days as a powerful naval stronghold to its present role as keeper of ancient maritime traditions.\n\nThe village's unique amphitheater setting transforms every gathering into something magical. Religious processions wind through narrow medieval streets before emerging onto the harbor square, where centuries-old traditions play out before an audience of colorful houses climbing the cliff face.\n\nWhat sets Vernazza's festivals apart is their intimate scale and authentic character. Unlike larger tourist-focused events, these celebrations remain true to their origins, with local families passing down responsibilities through generations. You'll witness the same rituals that have marked the changing seasons here for nearly a thousand years."
-    },
-    {
-      "type": "feature-section",
-      "title": "Your Festival Photography Guide",
-      "subtitle": "Capture the magic of Vernazza's celebrations with insider knowledge of the best vantage points and golden moments.",
-      "features": [
+      "interludes": [
         {
-          "icon": "camera",
-          "title": "Harbor Square Magic Hour",
-          "description": "Evening processions create stunning silhouettes against the illuminated harbor. Position yourself on the harbor steps for unobstructed views of ceremonies unfolding."
-        },
-        {
-          "icon": "clock",
-          "title": "Dawn Preparation Rituals",
-          "description": "Arrive early to capture locals setting up decorations and preparing ceremonial boats. The soft morning light creates ethereal images of ancient traditions in motion."
-        },
-        {
-          "icon": "mountain",
-          "title": "Castle Tower Perspective",
-          "description": "Climb to Doria Castle during festivals for aerial views of processions winding through the village streets. The elevated position reveals patterns invisible from street level."
-        },
-        {
-          "icon": "music",
-          "title": "Church Interior Concerts",
-          "description": "During jazz and opera festivals, the 14th-century church becomes an intimate concert hall. The interplay of ancient stone and modern performance creates compelling visual stories."
-        },
-        {
-          "icon": "star",
-          "title": "Fireworks Reflections",
-          "description": "Saint Margaret's festival fireworks reflect beautifully in the calm harbor waters. Set up along the harbor wall for perfect reflections and include the colorful houses for context."
-        },
-        {
-          "icon": "heart",
-          "title": "Local Participation Moments",
-          "description": "Focus on the faces and hands of locals participating in centuries-old rituals. These intimate portraits capture the living heritage that makes each festival authentic."
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Logic of Local Time",
+          "quote": "Vernazza's festival calendar doesn't optimize for visitors. The dates are fixed by saints, seasons, and traditions older than tourism. If you want to experience the real celebrations, you adjust your schedule to the village's rhythm, not the other way around."
         }
       ]
     },
     {
-      "type": "faq-section",
-      "title": "Festival Planning Essentials",
-      "faqs": [
+      "type": "editorial-intro",
+      "badge": "The Quieter Celebrations",
+      "quote": "Not every festival is a spectacle. Some of Vernazza's best moments happen at smaller scale—weekly markets, harvest days, evenings when music simply starts in the piazza.",
+      "content": [
+        "**The weekly market** fills the main street with stalls selling local produce, regional cheeses, and items you didn't know you needed. It's not tourist theater—it's where locals shop.",
+        "**Opera comes to the church** some summer evenings. Professional musicians perform in the same space where the jazz festival happens. The repertoire is classic; the intimacy is extraordinary.",
+        "**The grape harvest** in late September and October transforms the terraces above the village into work sites, then celebration sites. If you're here, ask if you can help. The answer might surprise you.",
+        "**Impromptu music** happens without announcement. An accordion in the piazza, a guitarist on the breakwater, someone's family celebration spilling into the street. These aren't events—they're the village being itself."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "event",
+      "items": [
         {
-          "question": "When are the most photogenic festivals in Vernazza?",
-          "answer": "July's Saint Margaret Festival offers spectacular evening processions and fireworks, while December's Underwater Christmas provides unique morning photography opportunities. The summer jazz festivals create intimate evening scenes in the historic church, and September's grape harvest offers golden hour vineyard celebrations."
+          "id": 4,
+          "name": "Vernazza Opera Festival",
+          "category": "Classical Music",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Opera in a Gothic church—where professional singers perform for audiences small enough to see their expressions.",
+          "description": "The opera festival uses the same intimate venue as the jazz series—the oratory behind Santa Margherita. The difference is repertoire: classic arias, scenes from famous operas, performances that feel like private recitals. The singers are professionals; the setting is unlike any opera house in the world.",
+          "giuliaComment": "You can hear everything. The breath, the vibrato, the moments between notes. The church was built for prayer; it turns out it was also built for Puccini. The combination is extraordinary.",
+          "signature": "Where arias fill a Gothic nave",
+          "practicalInfo": "Summer evenings, dates vary. Small venue—book early. Formal dress appreciated but not required."
         },
         {
-          "question": "How do I participate in traditional festivals as a visitor?",
-          "answer": "Most religious processions welcome respectful observers, while cultural festivals often include visitor participation. The weekly market is completely open to all, and harvest festivals typically offer hands-on experiences. Contact local event organizers in advance for special access to ceremonies and behind-the-scenes moments."
+          "id": 5,
+          "name": "Grape Harvest",
+          "category": "Agricultural Tradition",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": "When the terraces come alive with work, and work becomes celebration.",
+          "description": "The vendemmia—grape harvest—transforms Vernazza's hillsides in autumn. The terraced vineyards that seem decorative all year reveal their purpose: producing the grapes that become Cinque Terre DOC and Sciacchetrà. The harvest is labor; the celebration that follows is the village's thank-you to the land.",
+          "giuliaComment": "The harvest is hard work. The celebration is deserved. If you're here during vendemmia and you ask nicely, local winemakers might let you help. The wine you drink afterward will taste like earned reward.",
+          "signature": "Where the year becomes wine",
+          "practicalInfo": "Late September/October. Ask at local wineries about participation. Harvest times vary with weather."
         },
         {
-          "question": "What photography restrictions should I know about?",
-          "answer": "Religious ceremonies require respectful distance during sacred moments, though processions are generally photographable. Concert venues may restrict flash photography, and some private festival preparations are off-limits. Always ask permission before photographing local participants up close."
-        },
+          "id": 6,
+          "name": "Pirates Festival",
+          "category": "Historical Celebration",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1544394047-6f8b461ab0a0?q=80&w=2574&auto=format&fit=crop",
+          "intro": "Remembering the day Vernazza fought off Saracen raiders—with costumes, reenactments, and local pride.",
+          "description": "The Festa dei Pirati commemorates Vernazza's historical battles against Saracen pirates. The village dresses in medieval costume, reenactments recall the days when the Doria tower actually watched for raiders, and the celebration reminds everyone why these walls were built so thick.",
+          "giuliaComment": "It's a bit theatrical, but the history is real. The tower exists because pirates were a genuine threat. The festival lets the village remember when it had to defend itself—and succeeded.",
+          "signature": "Where history becomes costume drama",
+          "practicalInfo": "Summer, dates vary. Family-friendly. Medieval costumes welcome but not required."
+        }
+      ],
+      "interludes": [
         {
-          "question": "How crowded do festivals get in Vernazza?",
-          "answer": "Vernazza's festivals maintain an intimate village scale, with most events hosting 200-500 people. Saint Margaret's Festival is the largest but still feels personal. Religious ceremonies are the most crowded but also the most authentic. Weekday markets and seasonal harvests offer the most relaxed atmosphere."
-        },
-        {
-          "question": "Can I book festival experiences in advance?",
-          "answer": "Some festivals offer advance reservations for special access or dining experiences, particularly harvest festivals and concert events. Religious celebrations are free and open to all. Book accommodations well in advance for major festivals like Saint Margaret's, as the village has limited lodging."
-        },
-        {
-          "question": "What's the best way to experience multiple festivals?",
-          "answer": "Plan visits around seasonal clusters: summer brings religious festivals and concerts, autumn offers harvest celebrations, and winter features unique Christmas traditions. Staying 3-4 days during festival periods allows you to experience both the celebration and the village's return to peaceful daily life."
+          "afterIndex": 2,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Best Festivals Are Accidents",
+          "quote": "The planned festivals are wonderful. But some of Vernazza's best moments happen by chance—a birthday party on the breakwater, a wedding procession through the streets, a grandfather playing accordion for his grandchildren. Stay long enough, and the village will show you celebrations you couldn't have scheduled."
         }
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "title": "Capture Vernazza's Living Heritage",
-      "subtitle": "Join the centuries-old celebrations that transform this medieval village into an open-air theater of tradition, music, and maritime culture.",
+      "type": "closing-note",
+      "title": "The Village Marks Time",
+      "content": [
+        "Vernazza's festivals are not separate from village life—they are its structure. The patron saint's day, the grape harvest, the underwater Christmas: these mark the year the way they have for centuries.",
+        "You cannot experience all of them in one visit. But you can experience how celebration feels here—public, participatory, woven into daily life rather than separate from it.",
+        "Time your trip well, and the village will invite you into something older than your itinerary."
+      ],
       "buttons": [
-        {
-          "text": "Plan Your Festival Visit",
-          "url": "/vernazza",
-          "variant": "primary"
-        },
-        {
-          "text": "View All Cinque Terre Events",
-          "url": "/events",
-          "variant": "secondary"
-        }
+        { "text": "Plan Your Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
+        { "text": "Explore the Village", "url": "/en/vernazza", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "events"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:35:05.780Z"
+  "updated_at": "2026-01-07T11:45:00.000Z"
 }

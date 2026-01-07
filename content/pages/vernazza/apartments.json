@@ -7,166 +7,152 @@
     "it": "/it/vernazza/apartments"
   },
   "title": {
-    "en": "Luxury Apartments in Vernazza - Authentic Cinque Terre Living"
+    "en": "Apartments in Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "apartments",
   "seo": {
     "title": {
-      "en": "Vernazza Luxury Apartments | Authentic Cinque Terre | Italy"
+      "en": "Apartments in Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Stay in carefully curated luxury apartments in Vernazza's historic center. Sea views, authentic charm, and modern comfort in Cinque Terre's jewel."
+      "en": "Renting an apartment in Vernazza means living within medieval walls that have housed residents for a thousand years—waking to harbor views, walking to castle ruins, feeling history in the stone around you."
     }
   },
+  "template": "cinque-terre-editorial",
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://images.unsplash.com/photo-1520637836862-4d197d17c50a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHx2ZXJuYXp6YSUyMGFwYXJ0bWVudCUyMGNpbnF1ZSUyMHRlcnJlJTIwaXRhbHl8ZW58MHwwfHx8MTc2NTg5MTc0NXww&ixlib=rb-4.1.0&q=80&w=1200",
-      "eyebrow": "Medieval Maritime Heritage",
-      "title": "Live Like Nobility in Vernazza's Ancient Towers",
-      "subtitle": "Experience the romance of medieval fortress living in thoughtfully restored apartments where Genoese nobles once surveyed their maritime empire. Each residence tells a story spanning centuries.",
+      "type": "editorial-hero",
+      "title": "Living Within<br/>the Fortress",
+      "subtitle": "A hotel room is temporary. An apartment in Vernazza is residency—opening shutters to the same harbor view that Genoese nobles once surveyed, walking stone stairs worn smooth by centuries of feet, living inside history rather than just visiting it.",
+      "badge": "Apartments",
+      "image": "https://images.unsplash.com/photo-1520637836862-4d197d17c50a?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "The Medieval Advantage",
+      "quote": "Vernazza's apartments aren't renovated vacation rentals—they're residences that have housed families since the medieval period. The Doria family built this village as a fortress; living here means inheriting that legacy, even temporarily.",
+      "content": [
+        "**The walls remember**. These buildings have stood since the 11th century. Stone walls thick enough to withstand sieges now keep your apartment cool in summer. Windows positioned for harbor surveillance now frame your morning coffee view.",
+        "**Space here costs more**. Vernazza is the most visited village in Cinque Terre. Demand exceeds supply dramatically. Apartments command premium prices because they're rare and the alternative is fighting for last-minute hotel rooms.",
+        "**Location defines experience**. Harbor-facing apartments watch fishing boats and ferries. Upper village apartments escape the crowds but require climbing. Tower apartments offer panoramic views but narrow medieval stairs. Choose based on what matters most to you.",
+        "**Privacy enables immersion**. A door that closes, a kitchen that works, a terrace where you can decompress. The privacy of an apartment, paradoxically, allows deeper engagement with the public village when you venture out."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "apartment-type",
+      "items": [
+        {
+          "id": 1,
+          "name": "Harbor-View Apartments",
+          "category": "Premium",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73200?q=80&w=2670&auto=format&fit=crop",
+          "intro": "The apartments everyone wants—windows overlooking the only natural harbor in Cinque Terre, the medieval tower as your daily backdrop.",
+          "description": "Harbor-view apartments in Vernazza are among the most coveted accommodations on the Italian Riviera. You'll watch fishing boats launch at dawn, ferries arrive midday, sunset light the castle walls. Most include balconies or terraces facing the water. The best book six months in advance for summer.",
+          "giuliaComment": "The harbor view premium is significant, but consider: you'll spend hours on that balcony. Morning coffee watching the village wake. Evening wine as the day-trippers leave. The castle lit at night. This isn't a view—it's a relationship with the village's history.",
+          "signature": "Where medieval harbor life unfolds before you"
+        },
+        {
+          "id": 2,
+          "name": "Historic Tower Apartments",
+          "category": "Character",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1516747760143-a27c8ba887ae?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Living inside Vernazza's medieval architecture—apartments in the tower houses that define the village silhouette.",
+          "description": "The tower apartments occupy the vertical buildings that gave Vernazza its defensive advantage. Expect narrow stairs, thick walls, small windows that once served lookout purposes. Some retain original beams, stone fireplaces, architectural details from the Genoese period. Modern amenities are integrated carefully; the medieval character is preserved.",
+          "giuliaComment": "These buildings housed my ancestors. The stairs are narrow because defenders needed them that way. The walls are thick because they had to withstand attacks. Living here connects you to a thousand years of history. Just understand: the stairs are real, and there are many of them.",
+          "signature": "Where history shapes daily life"
+        },
+        {
+          "id": 3,
+          "name": "Upper Village Apartments",
+          "category": "Quieter Option",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Above the crowds, where Vernazza's residents actually live—trading harbor proximity for peace and panoramic views.",
+          "description": "Vernazza is the most crowded village in Cinque Terre. The upper village escapes that pressure. You'll climb significant stairs to reach home, but you'll arrive to quiet streets, local neighbors, and views that encompass the entire coast. Some upper apartments offer garden access, terraces overlooking the harbor, and the kind of peace the lower village can't provide.",
+          "giuliaComment": "I recommend upper village apartments to visitors who want to experience Vernazza without constant crowds. Yes, the climb is real. But when you're drinking morning coffee on a terrace above the tourist flow, watching the castle from a perspective most visitors never see, you'll understand the trade-off.",
+          "signature": "Where altitude creates sanctuary"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 1,
+          "type": "primary",
+          "badge": "Editorial Interlude",
+          "title": "The Stairs Are Real",
+          "quote": "Vernazza is vertical. Every apartment involves stairs—some a few flights, some many more. The village has no elevators, no porters, no vehicles. Whatever you bring, you carry. If stairs are genuinely impossible for you, Vernazza presents real challenges. Consider Monterosso for flatter options."
+        }
+      ]
+    },
+    {
+      "type": "editorial-intro",
+      "badge": "Practical Reality",
+      "quote": "Apartment living in Vernazza requires planning that hotel stays don't. You're not a guest anymore—you're a temporary resident in a medieval village. The rewards are significant; the preparation matters.",
+      "content": [
+        "**Book early or accept limitations**. Vernazza's apartment inventory is small. Summer fills by March. September and May fill by June. What remains last-minute is either overpriced or compromised. The best harbor views, the renovated historic spaces, the terraces—these go first.",
+        "**Understand check-in logistics**. Most apartments require meeting owners or managers at specific times. Late arrivals need coordination. The village has no central reception, no key lockboxes in convenient locations. Communicate your schedule precisely.",
+        "**Arrive prepared**. Unlike hotels, apartments don't provide toiletries, coffee, or cooking basics. Shop in La Spezia before arriving, or plan to find the alimentari immediately.",
+        "**Respect the community**. Your neighbors are locals who live here year-round. Noise after 10pm disturbs people who work tomorrow. Garbage sorting is mandatory. The village sustains itself through mutual consideration."
+      ]
+    },
+    {
+      "type": "collection-with-interludes",
+      "itemType": "consideration",
+      "items": [
+        {
+          "id": 4,
+          "name": "The Premium Reality",
+          "category": "Economics",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Vernazza apartments cost more than other villages. Understanding why helps set expectations.",
+          "description": "Supply and demand: Vernazza is the most photographed village in Cinque Terre, and apartment inventory is limited. Harbor views command extreme premiums. Even upper village apartments exceed comparable options in Corniglia or Manarola. The platforms are familiar (Airbnb, Booking, VRBO), but prices reflect Vernazza's unique position.",
+          "giuliaComment": "Visitors sometimes ask why Vernazza costs more. Look at the harbor, the castle, the composition that made this village famous. Everyone wants to be here. Not everyone can. The economics are simple: demand exceeds supply significantly.",
+          "signature": "Where desirability sets prices"
+        },
+        {
+          "id": 5,
+          "name": "The Kitchen Advantage",
+          "category": "Living Well",
+          "village": "Vernazza",
+          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+          "intro": "Having a kitchen in Vernazza isn't about avoiding restaurants—it's about expanding how you experience the village.",
+          "description": "The best approach: reserve restaurants for dinner, use your kitchen for everything else. Breakfast on your terrace with focaccia from the bakery and local fruit. Simple lunch from the alimentari. Then dinner at Gambero Rosso or Belforte—the experiences that make Vernazza's dining scene famous. You eat better, spend less, and engage with the village as a resident.",
+          "giuliaComment": "When friends visit, I tell them: buy good olive oil and fresh bread immediately. Use them for breakfast and lunch. Save restaurant budgets for one memorable dinner each night—Belforte's tower, Gambero Rosso's harbor terrace. The kitchen expands possibilities; it doesn't replace the restaurants.",
+          "signature": "When choice creates rhythm"
+        }
+      ],
+      "interludes": [
+        {
+          "afterIndex": 0,
+          "type": "secondary",
+          "badge": "Local Wisdom",
+          "title": "The Luggage Warning",
+          "quote": "Whatever you bring to Vernazza, you carry. From the train station, through narrow streets, up however many stairs your apartment requires. No wheels work on these stones. No porters exist. Pack half of what you think you need. Experience teaches this lesson the hard way."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "A Week Changes Everything",
+      "content": [
+        "The visitors who rent apartments tend to stay longer. A night or two doesn't justify the setup; a week makes it worthwhile. And a week in Vernazza is different from a weekend—you develop habits, you recognize faces, you start to understand the rhythms beneath the tourism.",
+        "Consider the apartment as an investment in experience rather than just accommodation. You're not buying a bed; you're buying temporary residency in a medieval fortress village that has captivated visitors for a thousand years.",
+        "Choose carefully. The right apartment becomes your Vernazza home—a place to decompress from the crowds, to watch the castle at night, to feel like you belong. The wrong one is just an expensive inconvenience. Read reviews, ask questions, understand exactly what you're booking. Then settle in and let the village reveal what tourism alone never shows."
+      ],
       "buttons": [
-        {
-          "text": "View Available Apartments",
-          "url": "#apartments",
-          "variant": "primary"
-        },
-        {
-          "text": "Discover Village History",
-          "url": "#heritage",
-          "variant": "secondary"
-        }
-      ]
-    },
-    {
-      "type": "stats-section",
-      "title": "Vernazza Living by the Numbers",
-      "stats": [
-        {
-          "number": "1080 AD",
-          "label": "First recorded in papal documents"
-        },
-        {
-          "number": "12",
-          "label": "Luxury apartments in historic center"
-        },
-        {
-          "number": "270°",
-          "label": "Panoramic sea views from towers"
-        },
-        {
-          "number": "500m",
-          "label": "Walk to harbor restaurants"
-        }
-      ]
-    },
-    {
-      "type": "feature-section",
-      "title": "Where Maritime History Meets Modern Luxury",
-      "subtitle": "Your apartment in Vernazza places you at the heart of a thousand-year maritime legacy",
-      "features": [
-        {
-          "icon": "🏰",
-          "title": "Medieval Castle Views",
-          "description": "Wake up to views of the 11th-century Doria fortress, where Genoese admirals once commanded Mediterranean naval operations."
-        },
-        {
-          "icon": "🌊",
-          "title": "Harbor Front Living",
-          "description": "Step from your door onto the harbor square where medieval merchants traded with ships from across Europe."
-        },
-        {
-          "icon": "🍷",
-          "title": "Gambero Rosso Proximity",
-          "description": "Dine at your leisure at Italy's finest waterfront restaurants, just steps from your medieval doorway."
-        },
-        {
-          "icon": "🎨",
-          "title": "Authentic Architecture",
-          "description": "Live within stone walls that witnessed centuries of maritime history, carefully restored with modern amenities."
-        },
-        {
-          "icon": "🚂",
-          "title": "UNESCO Heritage Access",
-          "description": "Your base for exploring all five villages via the coastal railway that transformed these ancient settlements."
-        },
-        {
-          "icon": "📸",
-          "title": "Nessun Dorma Sunsets",
-          "description": "Climb to the village's most famous viewpoint for Instagram-worthy sunsets over your temporary medieval home."
-        }
-      ]
-    },
-    {
-      "type": "content-section",
-      "variant": "image-right",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571003123894-1f0594d2b5d9-regular.jpg",
-      "title": "Living Within Centuries of Maritime Heritage",
-      "content": "As Lorenzo, who has spent decades preserving these stories, I must tell you that choosing an apartment in Vernazza means becoming part of a living medieval narrative. The Doria family chose this exact location for their fortress because of its exceptional natural harbor - the same harbor you'll see from your windows each morning.\n\nThese aren't merely vacation rentals; they're gateways into the daily rhythms that have sustained this maritime community for nearly a millennium. When you walk to Gambero Rosso for dinner, you're following the same stone paths where medieval merchants once negotiated with ship captains. The view from Belforte's clifftop terrace shows you precisely what Genoese naval commanders saw when they surveyed their maritime domain.\n\nEach apartment preserves architectural elements that tell these stories - from the thickness of fortress walls to the positioning of windows designed for harbor surveillance. Modern amenities are seamlessly integrated, but the soul of medieval Vernazza remains beautifully intact."
-    },
-    {
-      "type": "content-section",
-      "variant": "image-left",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1528114039593-4366cc08227d-regular.jpg",
-      "title": "The Curator's Selection Process",
-      "content": "After preserving these stories for decades, I personally select each apartment based on its historical significance and authentic character. Not every residence makes our collection - only those that genuinely embody Vernazza's maritime heritage while providing the luxury modern travelers expect.\n\nYour apartment might be situated within walls that once housed naval officers, or positioned where medieval merchants stored goods from Mediterranean trade routes. Some retain original architectural features like arched stone doorways or fortress-style windows that frame the harbor exactly as they did centuries ago.\n\nThe Feast of Santa Margherita, our most cherished tradition, transforms the harbor square visible from your windows into a celebration of maritime blessing ceremonies that date to the 12th century. You'll witness these living traditions from the privileged perspective of a temporary resident, not merely an observer."
-    },
-    {
-      "type": "faq-section",
-      "title": "Your Questions About Vernazza Apartment Living",
-      "faqs": [
-        {
-          "question": "How authentic are the historical features in these apartments?",
-          "answer": "Each apartment retains genuine medieval architectural elements - from fortress-thick stone walls to original arched doorways. Modern amenities are carefully integrated without compromising the historical integrity that makes these residences special."
-        },
-        {
-          "question": "Can I walk to the famous restaurants from my apartment?",
-          "answer": "Absolutely. Gambero Rosso and other harbor restaurants are typically 2-3 minutes on foot from our historic center apartments. Belforte requires a scenic 5-minute climb up ancient stone steps."
-        },
-        {
-          "question": "What views should I expect from different apartments?",
-          "answer": "Harbor-facing apartments offer direct views of the medieval port and fishing boats. Higher positioned units provide panoramic vistas across the Ligurian Sea, while some feature partial castle views of the 11th-century Doria fortress."
-        },
-        {
-          "question": "How does staying in an apartment compare to hotels in Vernazza?",
-          "answer": "Apartments offer authentic medieval living experiences within restored historic buildings. You'll have kitchen facilities, more space, and the feeling of being a temporary resident rather than a visitor in this ancient maritime community."
-        },
-        {
-          "question": "Are these apartments suitable for romantic occasions?",
-          "answer": "Exceptionally so. The medieval ambiance, harbor views, and proximity to Belforte (perfect for proposals) make these apartments ideal for anniversaries, honeymoons, or any romantic celebration in one of Italy's most photogenic settings."
-        },
-        {
-          "question": "What's the best way to experience Vernazza's maritime traditions during my stay?",
-          "answer": "Time your visit for the Feast of Santa Margherita or other harbor celebrations. Your apartment's location lets you experience these centuries-old traditions as a local participant, watching maritime blessing ceremonies from your medieval windows."
-        }
-      ]
-    },
-    {
-      "type": "cta-section",
-      "variant": "centered",
-      "eyebrow": "Medieval Living Awaits",
-      "title": "Reserve Your Place in Vernazza's Living History",
-      "subtitle": "Join the centuries of residents who have called these ancient walls home. Your apartment in this UNESCO World Heritage site offers more than accommodation - it's your gateway to experiencing authentic medieval maritime life.",
-      "buttons": [
-        {
-          "text": "View Available Apartments",
-          "url": "/vernazza/apartments/availability",
-          "variant": "primary"
-        },
-        {
-          "text": "Plan Your Vernazza Experience",
-          "url": "/contact",
-          "variant": "secondary"
-        }
+        { "text": "Hotels", "url": "/en/vernazza/hotels", "variant": "primary" },
+        { "text": "Restaurants", "url": "/en/vernazza/restaurants", "variant": "secondary" }
       ]
     }
   ],
   "metadata": {
-    "city": "vernazza",
+    "village_id": "vernazza",
     "page_type": "apartments"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T13:30:43.799Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

@@ -10,6 +10,7 @@
     "en": "Cinque Terre Boat Tours: Coastal Views & Village Hopping"
   },
   "page_type": "boat-tours",
+  "template": "cinque-terre-editorial",
   "seo": {
     "title": {
       "en": "Cinque Terre Boat Tours | Coastal Views | Cinqueterre.travel"
@@ -20,80 +21,61 @@
   },
   "body": [
     {
-      "type": "hero-section",
-      "variant": "split-with-image",
-      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
-      "eyebrow": "UNESCO Maritime Heritage",
-      "title": "Experience Cinque Terre from the Sea",
+      "type": "editorial-hero",
+      "title": "Experience Cinque Terre<br/>from the Sea",
       "subtitle": "Discover why medieval sailors called this coast 'paradise.' From private yacht charters to traditional fishing boat tours, witness centuries of vertical architecture cascading into azure waters.",
-      "buttons": [
-        {
-          "text": "Book Your Boat Tour",
-          "url": "#tours",
-          "variant": "primary"
-        },
-        {
-          "text": "View Tour Options",
-          "url": "#features",
-          "variant": "secondary"
-        }
-      ]
+      "badge": "UNESCO Maritime Heritage",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
+      "height": "70vh"
     },
     {
-      "type": "stats-section",
-      "title": "Your Maritime Journey",
-      "stats": [
-        {
-          "number": "15km",
-          "label": "of UNESCO coastline"
-        },
-        {
-          "number": "5",
-          "label": "historic fishing villages"
-        },
-        {
-          "number": "2-6",
-          "label": "hours tour duration"
-        },
-        {
-          "number": "600",
-          "label": "years of maritime tradition"
-        }
-      ]
+      "type": "editorial-intro",
+      "badge": "Your Maritime Journey",
+      "quote": "For over six centuries, these waters have been the lifeline of the Cinque Terre. Before the railway carved through the mountains in 1874, boats were the only connection between these cliff-hugging communities and the outside world.",
+      "leftContent": "<p>Cruise along <strong>15km of UNESCO coastline</strong> connecting <strong>5 historic fishing villages</strong>. Tours range from <strong>2-6 hours</strong>, following routes used by merchants for <strong>600+ years</strong>.</p><p>From April through October, daily departures offer intimate experiences.</p>",
+      "rightContent": "<p>Choose from <strong>private yacht charters</strong>, <strong>sunset aperitivo cruises</strong>, <strong>swimming & snorkeling tours</strong>, and <strong>photography expeditions</strong>.</p><p>Your captain shares stories passed down through generations of local fishermen, revealing the maritime soul of these villages.</p>"
     },
     {
-      "type": "feature-section",
-      "title": "Choose Your Perfect Voyage",
-      "subtitle": "From intimate sunset cruises to full-day adventures, each tour reveals different facets of this ancient maritime landscape",
-      "features": [
+      "type": "collection-with-interludes",
+      "itemType": "tour",
+      "items": [
         {
-          "icon": "⛵",
-          "title": "Private Yacht Charters",
-          "description": "Exclusive access to hidden coves and secluded beaches. Your captain shares stories passed down through generations of local fishermen."
+          "id": 1,
+          "name": "Private Yacht Charters",
+          "category": "Exclusive",
+          "description": "Exclusive access to hidden coves and secluded beaches. Your captain shares stories passed down through generations of local fishermen.",
+          "signature": "Your coast, your pace"
         },
         {
-          "icon": "🌅",
-          "title": "Sunset Aperitivo Cruises",
-          "description": "Golden hour magic with local Sciacchetrà wine and focaccia di Recco. Watch the villages glow as medieval church bells echo across the water."
+          "id": 2,
+          "name": "Sunset Aperitivo Cruises",
+          "category": "Romance",
+          "description": "Golden hour magic with local Sciacchetra wine and focaccia di Recco. Watch the villages glow as medieval church bells echo across the water.",
+          "signature": "The perfect end to any day"
         },
         {
-          "icon": "🏊‍♀️",
-          "title": "Swimming & Snorkeling Tours",
-          "description": "Dive into crystal-clear waters at Guvano Beach and explore underwater grottos accessible only by boat."
+          "id": 3,
+          "name": "Swimming & Snorkeling Tours",
+          "category": "Adventure",
+          "description": "Dive into crystal-clear waters at Guvano Beach and explore underwater grottos accessible only by boat.",
+          "signature": "Discover the hidden Mediterranean"
         },
         {
-          "icon": "📸",
-          "title": "Photography Expeditions",
-          "description": "Capture postcard-perfect angles impossible from land. Early morning departures avoid crowds for that perfect shot."
+          "id": 4,
+          "name": "Photography Expeditions",
+          "category": "Creative",
+          "description": "Capture postcard-perfect angles impossible from land. Early morning departures avoid crowds for that perfect shot.",
+          "signature": "Perspectives you can't get from shore"
         }
-      ]
+      ],
+      "interludes": []
     },
     {
       "type": "content-section",
       "variant": "image-right",
       "image": "https://images.unsplash.com/photo-1570737040404-cd52ed5543c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGJvYXR8ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=800",
       "title": "The Maritime Soul of Cinque Terre",
-      "content": "For over six centuries, these waters have been the lifeline of the Cinque Terre. Before the railway carved through the mountains in 1874, boats were the only connection between these cliff-hugging communities and the outside world.\n\nToday's tours follow the same ancient routes used by merchants carrying wine, olive oil, and the precious anchovy catch that built these villages. Your journey reveals architectural marvels impossible to appreciate from land – the ingenious engineering that allowed entire communities to flourish on seemingly impossible terrain.\n\nFrom April through October, the Battello del Golfo provides scheduled service between villages, while private operators offer intimate experiences year-round. Spring and early autumn offer the clearest waters and most comfortable temperatures for swimming stops."
+      "content": "For over six centuries, these waters have been the lifeline of the Cinque Terre. Before the railway carved through the mountains in 1874, boats were the only connection between these cliff-hugging communities and the outside world.\n\nToday's tours follow the same ancient routes used by merchants carrying wine, olive oil, and the precious anchovy catch that built these villages. Your journey reveals architectural marvels impossible to appreciate from land - the ingenious engineering that allowed entire communities to flourish on seemingly impossible terrain.\n\nFrom April through October, the Battello del Golfo provides scheduled service between villages, while private operators offer intimate experiences year-round. Spring and early autumn offer the clearest waters and most comfortable temperatures for swimming stops.\n\n**Insider Tip:** Book sunset cruises for the most magical experience - watching the villages glow golden as the sun descends behind the hills, with local wine in hand and the gentle sound of waves against the hull."
     },
     {
       "type": "faq-section",
@@ -105,7 +87,7 @@
         },
         {
           "question": "How much should I budget for a boat tour?",
-          "answer": "Shared tours start from €25 per person for basic village hopping, while sunset aperitivo cruises range €45-65. Private charters begin at €300 for up to 6 guests for half-day experiences, reaching €800-1200 for luxury full-day charters with swimming stops and gourmet lunch."
+          "answer": "Shared tours start from EUR25 per person for basic village hopping, while sunset aperitivo cruises range EUR45-65. Private charters begin at EUR300 for up to 6 guests for half-day experiences, reaching EUR800-1200 for luxury full-day charters with swimming stops and gourmet lunch."
         },
         {
           "question": "Can tours operate in rough weather?",
@@ -113,7 +95,7 @@
         },
         {
           "question": "What should I bring on board?",
-          "answer": "Sunscreen (marine reflection intensifies UV), hat, sunglasses, and water bottle are essential. Many boats lack shade. Bring swimwear for swimming stops and a light jacket for evening cruises – Mediterranean temperatures drop quickly after sunset."
+          "answer": "Sunscreen (marine reflection intensifies UV), hat, sunglasses, and water bottle are essential. Many boats lack shade. Bring swimwear for swimming stops and a light jacket for evening cruises - Mediterranean temperatures drop quickly after sunset."
         },
         {
           "question": "Are there age restrictions or accessibility considerations?",
@@ -126,21 +108,13 @@
       ]
     },
     {
-      "type": "cta-section",
-      "variant": "centered",
-      "title": "Ready to See Cinque Terre from Its True Perspective?",
-      "subtitle": "Join centuries of travelers who discovered that these villages reveal their greatest secrets from the sea. Book your maritime adventure and understand why poets called this coastline 'where earth meets heaven.'",
-      "buttons": [
-        {
-          "text": "Explore Boat Tours",
-          "url": "/tours",
-          "variant": "primary"
-        },
-        {
-          "text": "Contact Local Operators",
-          "url": "/contact",
-          "variant": "secondary"
-        }
+      "type": "closing-note",
+      "badge": "Ready to Set Sail",
+      "title": "See Cinque Terre from Its True Perspective",
+      "content": "<p>Join centuries of travelers who discovered that these villages reveal their greatest secrets from the sea.</p><p>Book your maritime adventure and understand why poets called this coastline 'where earth meets heaven.'</p>",
+      "actions": [
+        { "label": "Explore Boat Tours", "href": "/tours", "variant": "primary" },
+        { "label": "Contact Local Operators", "href": "/en/team", "variant": "secondary" }
       ]
     }
   ],
@@ -148,7 +122,7 @@
     "city": "cinque-terre",
     "page_type": "boat-tours"
   },
-  "status": "generated",
+  "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
   "updated_at": "2025-12-16T10:42:32.450Z"
 }
