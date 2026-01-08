@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Village Content Schema",
+  "description": "Schema for Cinque Terre village content data - editable by agents",
+  "version": "1.0.0",
+
+  "definitions": {
+    "LocalizedString": {
+      "type": "object",
+      "properties": {
+        "en": { "type": "string" },
+        "de": { "type": "string" },
+        "fr": { "type": "string" },
+        "it": { "type": "string" }
+      },
+      "required": ["en"]
+    },
+    "CTA": {
+      "type": "object",
+      "properties": {
+        "label": { "$ref": "#/definitions/LocalizedString" },
+        "href": { "type": "string" }
+      },
+      "required": ["label", "href"]
+    }
+  },
+
+  "type": "object",
+  "required": ["slug", "seo", "hero", "intro"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "enum": ["riomaggiore", "manarola", "corniglia", "vernazza", "monterosso"]
+    },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "title": { "$ref": "#/definitions/LocalizedString" },
+        "description": { "$ref": "#/definitions/LocalizedString" }
+      },
+      "required": ["title", "description"]
+    },
+    "hero": {
+      "type": "object",
+      "properties": {
+        "image": { "type": "string", "format": "uri" },
+        "imageAlt": { "$ref": "#/definitions/LocalizedString" },
+        "tagline": { "$ref": "#/definitions/LocalizedString" },
+        "title": { "$ref": "#/definitions/LocalizedString" },
+        "subtitle": { "$ref": "#/definitions/LocalizedString" },
+        "primaryCta": { "$ref": "#/definitions/CTA" },
+        "secondaryCta": { "$ref": "#/definitions/CTA" }
+      },
+      "required": ["image", "title", "subtitle"]
+    },
+    "intro": {
+      "type": "object",
+      "properties": {
+        "leadStory": {
+          "type": "object",
+          "properties": {
+            "title": { "$ref": "#/definitions/LocalizedString" },
+            "excerpt": { "$ref": "#/definitions/LocalizedString" },
+            "author": { "type": "string" },
+            "date": { "type": "string" },
+            "readTime": { "type": "string" },
+            "category": { "type": "string" },
+            "image": { "type": "string", "format": "uri" }
+          },
+          "required": ["title", "excerpt", "author", "category", "image"]
+        },
+        "essentials": {
+          "type": "object",
+          "properties": {
+            "title": { "$ref": "#/definitions/LocalizedString" },
+            "subtitle": { "$ref": "#/definitions/LocalizedString" },
+            "today": {
+              "type": "object",
+              "description": "Real-time/seasonal data - updated by agents",
+              "properties": {
+                "weather": { "type": "string" },
+                "seaTemp": { "type": "string" },
+                "seaConditions": { "type": "string" },
+                "sunset": { "type": "string" }
+              }
+            },
+            "experience": {
+              "type": "object",
+              "properties": {
+                "crowdRhythm": { "type": "string" },
+                "bestFelt": { "type": "string" },
+                "villageShape": { "type": "string" },
+                "foodWine": { "type": "string" }
+              }
+            },
+            "character": {
+              "type": "object",
+              "properties": {
+                "origins": { "type": "string" },
+                "shapedBy": { "type": "string" },
+                "rating": { "type": "string" },
+                "rememberedFor": { "type": "string" }
+              }
+            }
+          }
+        }
+      },
+      "required": ["leadStory", "essentials"]
+    }
+  }
+}

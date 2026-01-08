@@ -1,0 +1,230 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cinque Terre Collection Research Configuration",
+  "description": "Research prompts and settings for automated collection data gathering",
+  "version": "1.0.0",
+
+  "collections": {
+    "restaurants": {
+      "enabled": true,
+      "research_enabled": true,
+      "display_name": "Restaurants",
+      "search_prompt": "Research restaurants in Cinque Terre villages (Riomaggiore, Manarola, Corniglia, Vernazza, Monterosso). Focus on authentic local trattorias, seafood restaurants, wine bars, and family-run establishments. Include both popular tourist spots and hidden local favorites.",
+      "default_queries": [
+        "best restaurants Riomaggiore Cinque Terre 2024",
+        "best restaurants Manarola Cinque Terre TripAdvisor",
+        "Vernazza restaurants seafood local trattoria",
+        "Monterosso al Mare restaurants reviews",
+        "Corniglia restaurants traditional Ligurian cuisine",
+        "Cinque Terre authentic local restaurants not touristy",
+        "best pesto Cinque Terre restaurants",
+        "seafood restaurants Cinque Terre fresh catch",
+        "wine bars Cinque Terre Sciacchetrà"
+      ],
+      "extraction_hints": {
+        "name": "Official restaurant name",
+        "village": "Must be one of: Riomaggiore, Manarola, Corniglia, Vernazza, Monterosso",
+        "details.cuisine_type": "Array: Italian, Seafood, Ligurian, Mediterranean, etc.",
+        "details.price_range.level": "€ (budget) to €€€€ (fine dining)",
+        "ratings.google.rating": "Google Maps rating (0-5)",
+        "ratings.tripadvisor.rating": "TripAdvisor rating (0-5)",
+        "menu.specialties": "Signature dishes: pesto, anchovies, focaccia, etc.",
+        "opening_hours": "Typical Italian hours: lunch 12-14:30, dinner 19-22",
+        "tips": "Insider tips: best tables, reservation needed, what to order"
+      },
+      "max_results_per_village": 15,
+      "priority": 1
+    },
+
+    "accommodations": {
+      "enabled": true,
+      "research_enabled": true,
+      "display_name": "Accommodations",
+      "search_prompt": "Research accommodations in Cinque Terre villages. Include hotels, B&Bs, apartments, guesthouses, and agriturismi. Focus on properties with sea views, historic character, or unique locations. Note accessibility (stairs) and proximity to train stations.",
+      "default_queries": [
+        "best hotels Riomaggiore sea view 2024",
+        "Manarola B&B boutique accommodation reviews",
+        "Vernazza hotels near harbor TripAdvisor",
+        "Monterosso beach hotels booking",
+        "Corniglia guesthouse quiet accommodation",
+        "Cinque Terre romantic hotels couples",
+        "family apartments Cinque Terre kitchen",
+        "luxury accommodation Cinque Terre Booking.com",
+        "budget hostels Cinque Terre backpackers"
+      ],
+      "extraction_hints": {
+        "name": "Official property name",
+        "type.category": "Hotel, B&B, Apartment, Guesthouse, Hostel, Villa, Room Rental",
+        "type.property_class": "Luxury, Boutique, Mid-Range, Budget, Vacation Rental",
+        "pricing.price_level": "€ to €€€€",
+        "pricing.average_nightly_rate": "Average price in EUR",
+        "location.distance_to_landmarks.train_station_meters": "Distance to station in meters",
+        "amenities.general": "WiFi, AC, breakfast included, etc.",
+        "policies.check_in": "Check-in time (usually 14:00-20:00)",
+        "ratings.booking_com.rating": "Booking.com rating (0-10)",
+        "ratings.tripadvisor.rating": "TripAdvisor rating (0-5)",
+        "tips": "Insider info: best rooms, noise levels, stairs count"
+      },
+      "max_results_per_village": 20,
+      "priority": 2
+    },
+
+    "hikes": {
+      "enabled": true,
+      "research_enabled": true,
+      "display_name": "Hiking Trails",
+      "search_prompt": "Research hiking trails in Cinque Terre National Park. Include the famous Sentiero Azzurro (Blue Trail) segments, sanctuary trails, and high-altitude routes. Check current trail status (open/closed), difficulty, duration, and fees (Cinque Terre Card requirements).",
+      "default_queries": [
+        "Cinque Terre hiking trails open 2024 status",
+        "Sentiero Azzurro Blue Trail Cinque Terre conditions",
+        "Via dell'Amore path Riomaggiore Manarola status",
+        "Monterosso Vernazza hike difficulty time",
+        "Corniglia Vernazza coastal path reviews",
+        "Cinque Terre sanctuary trails Madonna di Soviore",
+        "high route Cinque Terre SVA trail",
+        "Cinque Terre Card hiking pass fee 2024",
+        "best viewpoints Cinque Terre hiking trails"
+      ],
+      "extraction_hints": {
+        "name": "Trail name (official and common names)",
+        "trail_number": "CAI trail number if applicable (e.g., SVA, 531)",
+        "category.primary": "Coastal Path, Mountain Trail, Sanctuary Trail, Village Connection, Ridge Walk",
+        "metrics.distance.km": "Trail length in kilometers",
+        "metrics.duration.average_hours": "Average hiking time in hours",
+        "metrics.elevation.gain_m": "Total elevation gain in meters",
+        "difficulty.overall_rating": "easy, moderate, difficult, very-difficult, expert",
+        "trail_conditions.current_status": "open, partially-open, closed, unknown",
+        "access_and_fees.cinque_terre_card_valid": "Whether Cinque Terre Card is required/valid",
+        "route.start_point": "Starting village/location with coordinates",
+        "route.end_point": "Ending village/location with coordinates",
+        "highlights.viewpoints": "Notable viewpoints along the trail"
+      },
+      "max_results": 30,
+      "priority": 1
+    },
+
+    "pois": {
+      "enabled": true,
+      "research_enabled": true,
+      "display_name": "Points of Interest",
+      "search_prompt": "Research points of interest in Cinque Terre villages. Include churches, viewpoints, historic sites, beaches, harbors, and landmarks. Note opening hours, entrance fees, and best times to visit.",
+      "default_queries": [
+        "Riomaggiore attractions things to see",
+        "Manarola viewpoint photography spots",
+        "Vernazza castle Doria Tower visit",
+        "Monterosso beaches Fegina old town",
+        "Corniglia Guvano beach access",
+        "Cinque Terre churches San Giovanni Battista",
+        "best sunset viewpoints Cinque Terre",
+        "swimming spots Cinque Terre rocks beaches",
+        "historic sites Cinque Terre landmarks"
+      ],
+      "extraction_hints": {
+        "name": "POI name (official and common)",
+        "category": "Church, Monument, Viewpoint, Beach, Historic Site, Harbor, Tower",
+        "village": "Which village it's in or nearest to",
+        "location.coordinates": "GPS coordinates for maps",
+        "opening_hours": "When accessible (some viewpoints are 24/7)",
+        "entrance_fee": "Free or paid (amount in EUR)",
+        "best_time_to_visit": "Morning, sunset, avoid midday, etc.",
+        "tips": "Photography tips, crowd avoidance, hidden gems"
+      },
+      "max_results_per_village": 10,
+      "priority": 3
+    },
+
+    "events": {
+      "enabled": true,
+      "research_enabled": true,
+      "display_name": "Events & Festivals",
+      "search_prompt": "Research annual events and festivals in Cinque Terre. Include religious festivals (patron saint days), food festivals, wine harvests, and cultural events. Note dates, locations, and what to expect.",
+      "default_queries": [
+        "Cinque Terre festivals events 2024 2025 calendar",
+        "patron saint festivals Cinque Terre villages",
+        "Sciacchetrà wine harvest festival Cinque Terre",
+        "Monterosso lemon festival anchovy festival",
+        "Riomaggiore nativity scene underwater",
+        "Manarola Christmas lights presepe",
+        "Cinque Terre food festivals sagra",
+        "summer concerts events Cinque Terre",
+        "religious processions Cinque Terre dates"
+      ],
+      "extraction_hints": {
+        "name": "Event/festival name",
+        "village": "Which village hosts it (or 'region' for multi-village)",
+        "date": "Specific date or typical month/season",
+        "category": "Festival, Religious, Cultural, Food & Wine, Music",
+        "description": "What happens during the event",
+        "tips": "Accommodation booking, crowd levels, what to bring"
+      },
+      "max_results": 30,
+      "priority": 4
+    }
+  },
+
+  "research_schedule": {
+    "description": "Recommended refresh intervals for collection data",
+    "restaurants": {
+      "full_refresh": "quarterly",
+      "ratings_update": "monthly",
+      "notes": "Restaurant openings/closings, seasonal changes"
+    },
+    "accommodations": {
+      "full_refresh": "quarterly",
+      "pricing_update": "monthly",
+      "notes": "Seasonal pricing varies significantly"
+    },
+    "hikes": {
+      "status_check": "weekly",
+      "full_refresh": "annually",
+      "notes": "Trail conditions change frequently, especially after storms"
+    },
+    "events": {
+      "full_refresh": "annually",
+      "date_verification": "monthly",
+      "notes": "Confirm dates 1-2 months before each event"
+    },
+    "pois": {
+      "full_refresh": "annually",
+      "notes": "Relatively stable, occasional hour/fee changes"
+    }
+  },
+
+  "data_quality": {
+    "required_sources": {
+      "restaurants": ["Google Maps", "TripAdvisor"],
+      "accommodations": ["Booking.com", "TripAdvisor", "Google Maps"],
+      "hikes": ["Official Park Website", "AllTrails", "Wikiloc"],
+      "events": ["Official Tourism Sites", "Local News"],
+      "pois": ["Google Maps", "Wikipedia", "Official Tourism Sites"]
+    },
+    "minimum_ratings": {
+      "restaurants": 10,
+      "accommodations": 5,
+      "hikes": 20
+    },
+    "freshness_requirements": {
+      "restaurants": "Data should be less than 3 months old",
+      "hikes": "Trail status should be verified within 1 week",
+      "events": "Dates should be confirmed for current/next year"
+    }
+  },
+
+  "agent_instructions": {
+    "general": [
+      "Always verify data from multiple sources when possible",
+      "Include source URLs for all data points",
+      "Note last_updated timestamp for time-sensitive info",
+      "Flag any inconsistencies found between sources",
+      "Prioritize official sources (park website, municipal sites) for factual data",
+      "Use TripAdvisor/Google for ratings and reviews"
+    ],
+    "village_specific": {
+      "Riomaggiore": "The easternmost village, known for dramatic cliffs and colorful houses",
+      "Manarola": "Famous for wine terraces and the Christmas nativity lights",
+      "Corniglia": "Only village not at sea level - 382 steps from station",
+      "Vernazza": "Natural harbor, considered most picturesque, Doria Castle",
+      "Monterosso": "Largest village with sandy beaches, split into old and new town"
+    }
+  }
+}

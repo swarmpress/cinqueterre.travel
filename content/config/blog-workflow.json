@@ -1,0 +1,248 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cinque Terre Blog Publishing Workflow",
+  "description": "Configuration for the blog article creation and publishing workflow",
+  "version": "1.0.0",
+
+  "workflow": {
+    "name": "blog-publishing",
+    "description": "Agent creates blog article JSON → Git commit → PR → Review → Merge → Deploy",
+    "steps": [
+      {
+        "step": 1,
+        "name": "create_brief",
+        "actor": "Human or EditorAgent",
+        "action": "Define blog article topic, target audience, key points",
+        "output": "ContentBrief with title, category, keywords, outline"
+      },
+      {
+        "step": 2,
+        "name": "write_draft",
+        "actor": "WriterAgent",
+        "action": "Research topic, write article using Cinque Terre blocks",
+        "tools": ["web_search", "write_draft", "search_stock_photos"],
+        "output": "Blog article JSON with editorial blocks"
+      },
+      {
+        "step": 3,
+        "name": "create_branch",
+        "actor": "System",
+        "action": "Create feature branch: content/blog-{slug}-{timestamp}",
+        "output": "Git branch ready for commit"
+      },
+      {
+        "step": 4,
+        "name": "commit_content",
+        "actor": "System",
+        "action": "Commit JSON file to cinqueterre.travel/content/blog/{slug}.json",
+        "output": "Git commit with blog article"
+      },
+      {
+        "step": 5,
+        "name": "create_pr",
+        "actor": "System",
+        "action": "Create Pull Request for editorial review",
+        "output": "GitHub PR with content-review label"
+      },
+      {
+        "step": 6,
+        "name": "editorial_review",
+        "actor": "EditorAgent or Human",
+        "action": "Review content quality, accuracy, brand voice",
+        "decisions": ["approve", "request_changes", "escalate_to_ceo"],
+        "output": "PR review with feedback"
+      },
+      {
+        "step": 7,
+        "name": "revise_if_needed",
+        "actor": "WriterAgent",
+        "conditional": true,
+        "action": "Address editorial feedback, update article",
+        "output": "Updated JSON committed to branch"
+      },
+      {
+        "step": 8,
+        "name": "merge_pr",
+        "actor": "EditorAgent or Human",
+        "action": "Merge PR to main branch",
+        "output": "Content merged to main"
+      },
+      {
+        "step": 9,
+        "name": "deploy",
+        "actor": "EngineeringAgent or CI/CD",
+        "action": "Build and deploy website",
+        "output": "Live blog article"
+      }
+    ]
+  },
+
+  "blog_article_schema": {
+    "description": "Required structure for blog article JSON files",
+    "file_path": "cinqueterre.travel/content/blog/{slug}.json",
+    "structure": {
+      "id": "UUID",
+      "slug": "url-friendly-slug",
+      "status": "draft | in_review | published",
+      "created_at": "ISO timestamp",
+      "updated_at": "ISO timestamp",
+      "metadata": {
+        "title": "LocalizedString",
+        "subtitle": "LocalizedString (optional)",
+        "category": "string",
+        "tags": "string[]",
+        "author": {
+          "name": "string",
+          "role": "string",
+          "avatar": "URL (optional)"
+        },
+        "featuredImage": {
+          "url": "string",
+          "alt": "string",
+          "caption": "string (optional)"
+        },
+        "seo": {
+          "title": "LocalizedString",
+          "description": "LocalizedString",
+          "keywords": "string[]"
+        },
+        "readTime": "string (e.g., '5 min read')",
+        "publishedAt": "ISO timestamp"
+      },
+      "body": {
+        "description": "Array of block objects",
+        "recommended_structure": [
+          { "type": "editorial-hero", "purpose": "Article header with image" },
+          { "type": "editorial-intro", "purpose": "Opening hook and context" },
+          { "type": "paragraph | heading | image | list", "purpose": "Main content" },
+          { "type": "editor-note", "purpose": "Giulia's perspective (optional)" },
+          { "type": "closing-note", "purpose": "Wrap-up with CTAs" }
+        ]
+      }
+    },
+    "example": {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "slug": "5-hidden-gelaterias-you-need-to-try",
+      "status": "published",
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-01-16T14:30:00Z",
+      "metadata": {
+        "title": {
+          "en": "5 Hidden Gelaterias You Need to Try",
+          "de": "5 versteckte Eisdielen, die Sie probieren müssen",
+          "fr": "5 glaciers cachés à découvrir",
+          "it": "5 gelaterie nascoste da provare"
+        },
+        "category": "Food & Drink",
+        "tags": ["Gelato", "Local Secrets", "Foodie"],
+        "author": {
+          "name": "Marco Bianchi",
+          "role": "Food Writer"
+        },
+        "readTime": "4 min read"
+      },
+      "body": [
+        {
+          "type": "editorial-hero",
+          "title": "5 Hidden Gelaterias You Need to Try",
+          "subtitle": "Skip the tourist traps and find the real deal",
+          "badge": "Local Secrets",
+          "image": "https://images.unsplash.com/photo-xxx"
+        },
+        {
+          "type": "editorial-intro",
+          "badge": "The Art of Gelato",
+          "quote": "The best gelato isn't in the shops with the longest lines.",
+          "leftContent": "In Italy, gelato is not just a dessert...",
+          "rightContent": "In the Cinque Terre, finding the right gelateria..."
+        }
+      ]
+    }
+  },
+
+  "categories": {
+    "description": "Standard blog categories for Cinque Terre Dispatch",
+    "list": [
+      {
+        "id": "food-drink",
+        "name": "Food & Drink",
+        "description": "Restaurants, wine, local cuisine, recipes"
+      },
+      {
+        "id": "hiking",
+        "name": "Hiking & Trails",
+        "description": "Trail guides, hiking tips, viewpoints"
+      },
+      {
+        "id": "local-life",
+        "name": "Local Life",
+        "description": "Village culture, traditions, people"
+      },
+      {
+        "id": "travel-tips",
+        "name": "Travel Tips",
+        "description": "Planning, logistics, practical advice"
+      },
+      {
+        "id": "history-culture",
+        "name": "History & Culture",
+        "description": "Historic sites, architecture, heritage"
+      },
+      {
+        "id": "seasonal",
+        "name": "Seasonal",
+        "description": "Season-specific content, events, festivals"
+      }
+    ]
+  },
+
+  "pr_template": {
+    "title": "📝 Blog: {article_title}",
+    "body": "## New Blog Article for Editorial Review\n\n**Title:** {title}\n**Category:** {category}\n**Author:** {author}\n**Read Time:** {readTime}\n\n### Summary\n{subtitle}\n\n### Content Blocks\n{block_list}\n\n### SEO\n- **Keywords:** {keywords}\n- **Description:** {seo_description}\n\n---\n\n**Review Checklist:**\n- [ ] Title is compelling and SEO-friendly\n- [ ] Content matches Cinque Terre Dispatch voice\n- [ ] Images have proper alt text\n- [ ] Links are valid\n- [ ] No factual errors\n- [ ] Call-to-action is clear\n\n**Labels:** `content-review`, `blog`, `{category}`",
+    "labels": ["content-review", "blog"]
+  },
+
+  "automation_config": {
+    "auto_assign_reviewer": true,
+    "default_reviewer": "editor-agent",
+    "require_human_approval_for": [
+      "sensitive_topics",
+      "pricing_information",
+      "safety_warnings"
+    ],
+    "auto_merge_on_approval": false,
+    "deploy_on_merge": true
+  },
+
+  "content_guidelines": {
+    "min_word_count": 500,
+    "max_word_count": 2500,
+    "required_blocks": ["editorial-hero", "editorial-intro", "closing-note"],
+    "recommended_images": 3,
+    "alt_text_required": true,
+    "localization_required": ["en"],
+    "localization_recommended": ["de", "fr", "it"]
+  },
+
+  "triggers": {
+    "description": "Events that can trigger blog workflow",
+    "manual": {
+      "description": "Human creates brief in admin dashboard",
+      "endpoint": "POST /api/content/blog/create"
+    },
+    "scheduled": {
+      "description": "Automated content calendar",
+      "cron": "0 9 * * 1",
+      "note": "Weekly content generation on Mondays at 9am"
+    },
+    "event_driven": {
+      "description": "Triggered by external events",
+      "examples": [
+        "New restaurant opens",
+        "Trail status changes",
+        "Festival announced",
+        "Seasonal change"
+      ]
+    }
+  }
+}
