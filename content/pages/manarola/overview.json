@@ -7,36 +7,90 @@
     "it": "/it/manarola/overview"
   },
   "title": {
-    "en": "Manarola Overview | Cinque Terre Dispatch"
+    "en": "Manarola Overview | Cinque Terre Dispatch",
+    "de": "Manarola Überblick | Cinque Terre Dispatch",
+    "fr": "Découvrir Manarola | Cinque Terre Dispatch",
+    "it": "Manarola Panoramica | Cinque Terre Dispatch"
   },
   "page_type": "overview",
   "seo": {
     "title": {
-      "en": "Manarola Overview | Cinque Terre Dispatch"
+      "en": "Manarola Overview | Cinque Terre Dispatch",
+      "de": "Manarola Überblick | Cinque Terre Dispatch",
+      "fr": "Découvrir Manarola | Cinque Terre Dispatch",
+      "it": "Manarola Panoramica | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Manarola is the wine village—where Roman terraces still produce grapes, where the sunset turns everything amber, where the scale is small enough to feel like a secret even when tourists crowd the harbor."
+      "en": "Manarola is the wine village—where Roman terraces still produce grapes, where the sunset turns everything amber, where the scale is small enough to feel like a secret even when tourists crowd the harbor.",
+      "de": "Manarola ist das Weindorf—wo römische Terrassen noch immer Trauben tragen, wo der Sonnenuntergang alles in Bernstein taucht, wo die menschliche Dimension selbst inmitten der Besucher ein Gefühl von Geheimnis bewahrt.",
+      "fr": "Manarola est le village viticole—où les terrasses romaines produisent encore du raisin, où le soleil couchant teinte tout d'ambre, où l'échelle humaine préserve une intimité même aux heures d'affluence.",
+      "it": "Manarola è il borgo del vino—dove le terrazze romane producono ancora uva, dove il tramonto tinge tutto d'ambra, dove la dimensione intima si conserva anche quando i visitatori affollano il porticciolo."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Wine<br/>Village",
-      "subtitle": "Manarola is what happens when Romans decide a vertical cliff is perfect for vineyards. Two thousand years later, the terraces remain—impossibly steep, stubbornly productive, and more photogenic than any village has a right to be.",
-      "badge": "Village Overview",
+      "title": {
+        "en": "The Wine<br/>Village",
+        "de": "Das Dorf<br/>des Weins",
+        "fr": "Le Village<br/>du Vin",
+        "it": "Il Borgo<br/>del Vino"
+      },
+      "subtitle": {
+        "en": "Manarola is what happens when Romans decide a vertical cliff is perfect for vineyards. Two thousand years later, the terraces remain—impossibly steep, stubbornly productive, and more photogenic than any village has a right to be.",
+        "de": "Manarola entstand, als die Römer beschlossen, dass eine senkrechte Klippe der perfekte Ort für Weinberge sei. Zweitausend Jahre später bestehen die Terrassen fort—unmöglich steil, hartnäckig produktiv und fotogener, als es sich ein Dorf erlauben dürfte.",
+        "fr": "Manarola est ce qui arrive quand les Romains décident qu'une falaise verticale est parfaite pour la vigne. Deux mille ans plus tard, les terrasses demeurent—impossiblement raides, obstinément productives, et plus photogéniques qu'aucun village n'en a le droit.",
+        "it": "Manarola è ciò che accade quando i Romani decidono che una scogliera verticale è perfetta per i vigneti. Duemila anni dopo, le terrazze resistono—impossibilmente ripide, ostinatamente produttive, e più fotogeniche di quanto qualsiasi borgo abbia il diritto di essere."
+      },
+      "badge": {
+        "en": "Village Overview",
+        "de": "Dorfportrait",
+        "fr": "Portrait du Village",
+        "it": "Ritratto del Borgo"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "Understanding Manarola",
-      "quote": "Every visitor to Cinque Terre knows the photo: pastel houses stacked on a cliff, reflected in still water, sunset turning everything gold. That photo is Manarola. What it doesn't show is a village that still produces some of Italy's rarest wine.",
-      "content": [
-        "**The Romans started this**. They recognized what the steep southern exposure and Mediterranean breeze could do for grapes. They carved the first terraces, built the first stone walls without mortar, planted the first vines. The wine village identity predates everything else.",
-        "**Three hundred people live here**. In a village you can cross in five minutes, that number feels correct. Everyone knows everyone. The baker knows your grandmother's maiden name. The priest knows whose boat had a good catch. Anonymity is impossible.",
-        "**The compactness creates intimacy**. Riomaggiore and Vernazza feel like small towns. Corniglia feels isolated. Monterosso feels like a resort. Manarola feels like a family gathering you weren't sure you were invited to—but they set a place for you anyway.",
-        "**The sunset reputation is earned**. The village faces west-northwest. The harbor creates a natural amphitheater. The pastel facades catch light in ways photography cannot quite capture. Whatever you've heard about Manarola sunsets—it's undersold."
-      ]
+      "badge": {
+        "en": "Understanding Manarola",
+        "de": "Manarola Verstehen",
+        "fr": "Comprendre Manarola",
+        "it": "Capire Manarola"
+      },
+      "quote": {
+        "en": "Every visitor to Cinque Terre knows the photo: pastel houses stacked on a cliff, reflected in still water, sunset turning everything gold. That photo is Manarola. What it doesn't show is a village that still produces some of Italy's rarest wine.",
+        "de": "Jeder Besucher der Cinque Terre kennt das Foto: pastellfarbene Häuser auf einer Klippe gestapelt, im stillen Wasser gespiegelt, der Sonnenuntergang taucht alles in Gold. Dieses Foto ist Manarola. Was es nicht zeigt: ein Dorf, das noch immer einige der seltensten Weine Italiens produziert.",
+        "fr": "Chaque visiteur des Cinque Terre connaît la photo : maisons pastel empilées sur une falaise, reflets dans l'eau calme, coucher de soleil dorant tout. Cette photo, c'est Manarola. Ce qu'elle ne montre pas : un village qui produit encore les vins les plus rares d'Italie.",
+        "it": "Ogni visitatore delle Cinque Terre conosce la foto: case color pastello accatastate sulla scogliera, riflesse nell'acqua ferma, il tramonto che trasforma tutto in oro. Quella foto è Manarola. Ciò che non mostra è un borgo che produce ancora alcuni dei vini più rari d'Italia."
+      },
+      "content": {
+        "en": [
+          "**The Romans started this**. They recognized what the steep southern exposure and Mediterranean breeze could do for grapes. They carved the first terraces, built the first stone walls without mortar, planted the first vines. The wine village identity predates everything else.",
+          "**Three hundred people live here**. In a village you can cross in five minutes, that number feels correct. Everyone knows everyone. The baker knows your grandmother's maiden name. The priest knows whose boat had a good catch. Anonymity is impossible.",
+          "**The compactness creates intimacy**. Riomaggiore and Vernazza feel like small towns. Corniglia feels isolated. Monterosso feels like a resort. Manarola feels like a family gathering you weren't sure you were invited to—but they set a place for you anyway.",
+          "**The sunset reputation is earned**. The village faces west-northwest. The harbor creates a natural amphitheater. The pastel facades catch light in ways photography cannot quite capture. Whatever you've heard about Manarola sunsets—it's undersold."
+        ],
+        "de": [
+          "**Die Römer haben das begonnen**. Sie erkannten, was die steile Südlage und die Mittelmeerbrise für Trauben bewirken konnten. Sie schufen die ersten Terrassen, bauten die ersten Trockensteinmauern, pflanzten die ersten Reben. Die Identität als Weindorf ist älter als alles andere.",
+          "**Dreihundert Menschen leben hier**. In einem Dorf, das man in fünf Minuten durchqueren kann, fühlt sich diese Zahl richtig an. Jeder kennt jeden. Der Bäcker kennt den Mädchennamen Ihrer Großmutter. Der Pfarrer weiß, wessen Boot einen guten Fang hatte. Anonymität ist unmöglich.",
+          "**Die Kompaktheit schafft Intimität**. Riomaggiore und Vernazza wirken wie Kleinstädte. Corniglia wirkt isoliert. Monterosso wirkt wie ein Badeort. Manarola fühlt sich an wie ein Familientreffen, zu dem Sie nicht sicher waren, eingeladen zu sein—aber man hat trotzdem einen Platz für Sie gedeckt.",
+          "**Der Ruf der Sonnenuntergänge ist verdient**. Das Dorf blickt nach Westnordwest. Der Hafen bildet ein natürliches Amphitheater. Die pastellfarbenen Fassaden fangen Licht auf eine Weise ein, die Fotografie nicht ganz erfassen kann. Was auch immer Sie über Manarolas Sonnenuntergänge gehört haben—es ist untertrieben."
+        ],
+        "fr": [
+          "**Les Romains ont commencé tout cela**. Ils ont reconnu ce que l'exposition sud abrupte et la brise méditerranéenne pouvaient faire pour le raisin. Ils ont sculpté les premières terrasses, construit les premiers murs de pierre sans mortier, planté les premières vignes. L'identité viticole précède tout le reste.",
+          "**Trois cents personnes vivent ici**. Dans un village qu'on traverse en cinq minutes, ce nombre semble juste. Tout le monde connaît tout le monde. Le boulanger connaît le nom de jeune fille de votre grand-mère. Le curé sait quel bateau a fait bonne pêche. L'anonymat est impossible.",
+          "**La compacité crée l'intimité**. Riomaggiore et Vernazza ressemblent à des petites villes. Corniglia semble isolée. Monterosso fait station balnéaire. Manarola ressemble à une réunion de famille où vous n'étiez pas sûr d'être invité—mais on vous a mis un couvert quand même.",
+          "**La réputation des couchers de soleil est méritée**. Le village fait face au nord-ouest. Le port crée un amphithéâtre naturel. Les façades pastel captent la lumière d'une manière que la photographie ne peut tout à fait saisir. Ce que vous avez entendu sur les couchers de soleil de Manarola—c'est en dessous de la vérité."
+        ],
+        "it": [
+          "**I Romani hanno iniziato tutto questo**. Riconobbero cosa l'esposizione sud ripida e la brezza mediterranea potessero fare per l'uva. Scolpirono le prime terrazze, costruirono i primi muri a secco, piantarono le prime viti. L'identità vinicola precede tutto il resto.",
+          "**Trecento persone vivono qui**. In un borgo che si attraversa in cinque minuti, quel numero sembra giusto. Tutti conoscono tutti. Il fornaio conosce il cognome da nubile di tua nonna. Il parroco sa quale barca ha fatto buona pesca. L'anonimato è impossibile.",
+          "**La compattezza crea intimità**. Riomaggiore e Vernazza sembrano piccole città. Corniglia sembra isolata. Monterosso sembra una località balneare. Manarola sembra una riunione di famiglia a cui non eri sicuro di essere invitato—ma ti hanno apparecchiato un posto comunque.",
+          "**La fama dei tramonti è meritata**. Il borgo guarda verso nord-ovest. Il porto crea un anfiteatro naturale. Le facciate color pastello catturano la luce in modi che la fotografia non riesce del tutto a rendere. Qualunque cosa abbiate sentito sui tramonti di Manarola—è sottostimata."
+        ]
+      }
     },
     {
       "type": "village-intro"
@@ -47,58 +101,193 @@
       "items": [
         {
           "id": 1,
-          "name": "The Terraces",
-          "category": "Cultural Landscape",
+          "name": {
+            "en": "The Terraces",
+            "de": "Die Terrassen",
+            "fr": "Les Terrasses",
+            "it": "Le Terrazze"
+          },
+          "category": {
+            "en": "Cultural Landscape",
+            "de": "Kulturlandschaft",
+            "fr": "Paysage Culturel",
+            "it": "Paesaggio Culturale"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Two thousand years of agricultural engineering—stone walls holding soil on slopes that shouldn't grow anything.",
-          "description": "The terraced vineyards above Manarola represent perhaps the most ambitious agricultural project per square meter in European history. Dry-stone walls, built without mortar, hold thin ribbons of soil on slopes exceeding 45 degrees. The grapes that grow here become Cinque Terre's DOC wines and the legendary Sciacchetrà.",
-          "giuliaComment": "My cousin tends terraces his family has worked since the 1600s. The documentation exists. That's over fifteen generations on the same strip of land. When he talks about the vines, he talks about his ancestors. They're the same thing to him.",
-          "signature": "Where stubbornness becomes heritage"
+          "intro": {
+            "en": "Two thousand years of agricultural engineering—stone walls holding soil on slopes that shouldn't grow anything.",
+            "de": "Zweitausend Jahre landwirtschaftliche Ingenieurskunst—Steinmauern, die Erde auf Hängen halten, auf denen nichts wachsen sollte.",
+            "fr": "Deux mille ans de génie agricole—murs de pierre retenant la terre sur des pentes où rien ne devrait pousser.",
+            "it": "Duemila anni di ingegneria agricola—muri di pietra che trattengono la terra su pendii dove non dovrebbe crescere nulla."
+          },
+          "description": {
+            "en": "The terraced vineyards above Manarola represent perhaps the most ambitious agricultural project per square meter in European history. Dry-stone walls, built without mortar, hold thin ribbons of soil on slopes exceeding 45 degrees. The grapes that grow here become Cinque Terre's DOC wines and the legendary Sciacchetrà.",
+            "de": "Die Weinbergterrassen über Manarola repräsentieren vielleicht das ehrgeizigste landwirtschaftliche Projekt pro Quadratmeter in der europäischen Geschichte. Trockensteinmauern, ohne Mörtel gebaut, halten schmale Erdstreifen auf Hängen von über 45 Grad. Die Trauben, die hier wachsen, werden zu den DOC-Weinen der Cinque Terre und dem legendären Sciacchetrà.",
+            "fr": "Les vignobles en terrasses au-dessus de Manarola représentent peut-être le projet agricole le plus ambitieux au mètre carré de l'histoire européenne. Des murs de pierres sèches, construits sans mortier, retiennent de minces rubans de terre sur des pentes dépassant 45 degrés. Le raisin qui y pousse devient les vins DOC des Cinque Terre et le légendaire Sciacchetrà.",
+            "it": "I vigneti terrazzati sopra Manarola rappresentano forse il progetto agricolo più ambizioso per metro quadrato della storia europea. Muri a secco, costruiti senza malta, trattengono sottili strisce di terra su pendii superiori ai 45 gradi. L'uva che cresce qui diventa i vini DOC delle Cinque Terre e il leggendario Sciacchetrà."
+          },
+          "giuliaComment": {
+            "en": "My cousin tends terraces his family has worked since the 1600s. The documentation exists. That's over fifteen generations on the same strip of land. When he talks about the vines, he talks about his ancestors. They're the same thing to him.",
+            "de": "Mein Cousin pflegt Terrassen, die seine Familie seit dem 17. Jahrhundert bewirtschaftet. Die Dokumente existieren. Das sind über fünfzehn Generationen auf demselben Stück Land. Wenn er über die Reben spricht, spricht er über seine Vorfahren. Für ihn sind sie dasselbe.",
+            "fr": "Mon cousin cultive des terrasses travaillées par sa famille depuis les années 1600. Les documents existent. Plus de quinze générations sur la même bande de terre. Quand il parle des vignes, il parle de ses ancêtres. Pour lui, c'est la même chose.",
+            "it": "Mio cugino coltiva terrazze che la sua famiglia lavora dal Seicento. I documenti esistono. Sono più di quindici generazioni sulla stessa striscia di terra. Quando parla delle viti, parla dei suoi antenati. Per lui sono la stessa cosa."
+          },
+          "signature": {
+            "en": "Where stubbornness becomes heritage",
+            "de": "Wo Sturheit zum Erbe wird",
+            "fr": "Où l'obstination devient patrimoine",
+            "it": "Dove la caparbietà diventa patrimonio"
+          }
         },
         {
           "id": 2,
-          "name": "The Harbor",
-          "category": "Village Heart",
+          "name": {
+            "en": "The Harbor",
+            "de": "Der Hafen",
+            "fr": "Le Port",
+            "it": "Il Porto"
+          },
+          "category": {
+            "en": "Village Heart",
+            "de": "Dorfzentrum",
+            "fr": "Cœur du Village",
+            "it": "Cuore del Borgo"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "A boat ramp carved into rock, fishing vessels in faded colors, and the viewing platform where everyone photographs the sunset.",
-          "description": "Manarola's harbor is smaller than Riomaggiore's—just a boat ramp and some rocks for swimming. But the angle is perfect: the village rises behind you, the sea spreads before you, and at sunset, the whole scene turns to gold. This is where the famous photo happens.",
-          "giuliaComment": "The swimming rocks get crowded by noon in summer. But at 7am, you'll share them with one old man who swims every morning, winter included. He's been doing it for sixty years. He doesn't talk much, but if you show up consistently, he'll nod at you.",
-          "signature": "Where the village meets the sea"
+          "intro": {
+            "en": "A boat ramp carved into rock, fishing vessels in faded colors, and the viewing platform where everyone photographs the sunset.",
+            "de": "Eine in den Felsen gehauene Bootsrampe, Fischerboote in verblassten Farben und die Aussichtsplattform, von der jeder den Sonnenuntergang fotografiert.",
+            "fr": "Une rampe de mise à l'eau taillée dans la roche, des bateaux de pêche aux couleurs passées, et la plateforme d'où tout le monde photographie le coucher de soleil.",
+            "it": "Una rampa per barche scavata nella roccia, pescherecci dai colori sbiaditi, e la piattaforma panoramica da cui tutti fotografano il tramonto."
+          },
+          "description": {
+            "en": "Manarola's harbor is smaller than Riomaggiore's—just a boat ramp and some rocks for swimming. But the angle is perfect: the village rises behind you, the sea spreads before you, and at sunset, the whole scene turns to gold. This is where the famous photo happens.",
+            "de": "Manarolas Hafen ist kleiner als der von Riomaggiore—nur eine Bootsrampe und einige Felsen zum Schwimmen. Aber der Winkel ist perfekt: das Dorf erhebt sich hinter dir, das Meer breitet sich vor dir aus, und bei Sonnenuntergang verwandelt sich die ganze Szene in Gold. Hier entsteht das berühmte Foto.",
+            "fr": "Le port de Manarola est plus petit que celui de Riomaggiore—juste une rampe et quelques rochers pour nager. Mais l'angle est parfait : le village s'élève derrière vous, la mer s'étend devant, et au coucher du soleil, toute la scène devient or. C'est là que la célèbre photo se prend.",
+            "it": "Il porto di Manarola è più piccolo di quello di Riomaggiore—solo una rampa per barche e qualche scoglio per nuotare. Ma l'angolazione è perfetta: il borgo si erge alle tue spalle, il mare si distende davanti a te, e al tramonto l'intera scena si trasforma in oro. È qui che nasce la foto famosa."
+          },
+          "giuliaComment": {
+            "en": "The swimming rocks get crowded by noon in summer. But at 7am, you'll share them with one old man who swims every morning, winter included. He's been doing it for sixty years. He doesn't talk much, but if you show up consistently, he'll nod at you.",
+            "de": "Die Badefelsen werden im Sommer bis Mittag überfüllt. Aber um 7 Uhr morgens teilst du sie mit einem alten Mann, der jeden Morgen schwimmt, auch im Winter. Er macht das seit sechzig Jahren. Er redet nicht viel, aber wenn du regelmäßig kommst, nickt er dir zu.",
+            "fr": "Les rochers de baignade sont bondés à midi en été. Mais à 7h du matin, vous les partagerez avec un vieil homme qui nage chaque matin, hiver compris. Il fait ça depuis soixante ans. Il ne parle pas beaucoup, mais si vous venez régulièrement, il vous fera un signe de tête.",
+            "it": "Gli scogli per nuotare si riempiono entro mezzogiorno d'estate. Ma alle 7 di mattina li condividerai con un vecchio che nuota ogni mattina, anche d'inverno. Lo fa da sessant'anni. Non parla molto, ma se ti presenti con costanza, ti farà un cenno col capo."
+          },
+          "signature": {
+            "en": "Where the village meets the sea",
+            "de": "Wo das Dorf das Meer trifft",
+            "fr": "Où le village rencontre la mer",
+            "it": "Dove il borgo incontra il mare"
+          }
         },
         {
           "id": 3,
-          "name": "The Nativita",
-          "category": "Christmas Tradition",
+          "name": {
+            "en": "The Nativity",
+            "de": "Die Krippe",
+            "fr": "La Crèche",
+            "it": "Il Presepe"
+          },
+          "category": {
+            "en": "Christmas Tradition",
+            "de": "Weihnachtstradition",
+            "fr": "Tradition de Noël",
+            "it": "Tradizione Natalizia"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The world's largest illuminated nativity scene—300 figures on a hillside, visible from the sea.",
-          "description": "Every December, a local retired railway worker named Mario Andreoli creates something impossible: 300 luminous figures spread across the terraced hillside above the village. It began in 1961 with a few lights. Now it draws visitors from across Europe. When Mario dies, no one knows if it will continue.",
-          "giuliaComment": "I grew up with Mario's nativity. It's just part of December—the lights go on, Christmas is coming. But visitors don't realize: one man does this. Every year. He's in his eighties now. Every figure is handmade. When he's gone, something irreplaceable leaves with him.",
-          "signature": "One man's gift to the world"
+          "intro": {
+            "en": "The world's largest illuminated nativity scene—300 figures on a hillside, visible from the sea.",
+            "de": "Die weltweit größte beleuchtete Weihnachtskrippe—300 Figuren an einem Hang, vom Meer aus sichtbar.",
+            "fr": "La plus grande crèche illuminée du monde—300 personnages sur une colline, visible depuis la mer.",
+            "it": "Il più grande presepe illuminato del mondo—300 figure su una collina, visibile dal mare."
+          },
+          "description": {
+            "en": "Every December, a local retired railway worker named Mario Andreoli creates something impossible: 300 luminous figures spread across the terraced hillside above the village. It began in 1961 with a few lights. Now it draws visitors from across Europe. When Mario dies, no one knows if it will continue.",
+            "de": "Jeden Dezember erschafft ein lokaler pensionierter Eisenbahner namens Mario Andreoli etwas Unmögliches: 300 leuchtende Figuren verteilt über den Terrassenhang oberhalb des Dorfes. Es begann 1961 mit ein paar Lichtern. Jetzt zieht es Besucher aus ganz Europa an. Wenn Mario stirbt, weiß niemand, ob es weitergehen wird.",
+            "fr": "Chaque décembre, un ancien cheminot local nommé Mario Andreoli crée l'impossible : 300 figures lumineuses dispersées sur la colline en terrasses au-dessus du village. Tout a commencé en 1961 avec quelques lumières. Maintenant ça attire des visiteurs de toute l'Europe. Quand Mario mourra, personne ne sait si ça continuera.",
+            "it": "Ogni dicembre, un ferroviere in pensione locale di nome Mario Andreoli crea qualcosa di impossibile: 300 figure luminose sparse sulla collina terrazzata sopra il borgo. È iniziato nel 1961 con poche luci. Ora attira visitatori da tutta Europa. Quando Mario morirà, nessuno sa se continuerà."
+          },
+          "giuliaComment": {
+            "en": "I grew up with Mario's nativity. It's just part of December—the lights go on, Christmas is coming. But visitors don't realize: one man does this. Every year. He's in his eighties now. Every figure is handmade. When he's gone, something irreplaceable leaves with him.",
+            "de": "Ich bin mit Marios Krippe aufgewachsen. Es ist einfach Teil des Dezembers—die Lichter gehen an, Weihnachten kommt. Aber Besucher verstehen nicht: Ein Mann macht das. Jedes Jahr. Er ist jetzt in den Achtzigern. Jede Figur ist handgemacht. Wenn er geht, geht etwas Unersetzliches mit ihm.",
+            "fr": "J'ai grandi avec la crèche de Mario. Ça fait partie de décembre—les lumières s'allument, Noël arrive. Mais les visiteurs ne réalisent pas : un seul homme fait ça. Chaque année. Il a plus de quatre-vingts ans maintenant. Chaque figure est faite main. Quand il partira, quelque chose d'irremplaçable partira avec lui.",
+            "it": "Sono cresciuta con il presepe di Mario. Fa semplicemente parte di dicembre—le luci si accendono, il Natale sta arrivando. Ma i visitatori non si rendono conto: lo fa un uomo solo. Ogni anno. Ha più di ottant'anni ora. Ogni figura è fatta a mano. Quando se ne andrà, qualcosa di insostituibile se ne andrà con lui."
+          },
+          "signature": {
+            "en": "One man's gift to the world",
+            "de": "Das Geschenk eines Mannes an die Welt",
+            "fr": "Le don d'un homme au monde",
+            "it": "Il dono di un uomo al mondo"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Wine You Cannot Buy",
-          "quote": "Sciacchetrà is Manarola's treasure—a dessert wine made from grapes dried for months, concentrated to sweetness, aged for years. Production is tiny. Most never leaves the valley. A bottle costs €50-100 and up. The ones served at local trattorias, from family cellars, are priceless."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelle Einlage",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Wine You Cannot Buy",
+            "de": "Der Wein, den man nicht kaufen kann",
+            "fr": "Le Vin Qu'on Ne Peut Acheter",
+            "it": "Il Vino Che Non Si Può Comprare"
+          },
+          "quote": {
+            "en": "Sciacchetrà is Manarola's treasure—a dessert wine made from grapes dried for months, concentrated to sweetness, aged for years. Production is tiny. Most never leaves the valley. A bottle costs €50-100 and up. The ones served at local trattorias, from family cellars, are priceless.",
+            "de": "Sciacchetrà ist Manarolas Schatz—ein Dessertwein aus monatelang getrockneten Trauben, zu Süße konzentriert, jahrelang gereift. Die Produktion ist winzig. Das meiste verlässt nie das Tal. Eine Flasche kostet 50-100€ und mehr. Die, die in lokalen Trattorien aus Familienkellern serviert werden, sind unbezahlbar.",
+            "fr": "Le Sciacchetrà est le trésor de Manarola—un vin de dessert fait de raisins séchés pendant des mois, concentrés en douceur, vieillis pendant des années. La production est minuscule. La plupart ne quitte jamais la vallée. Une bouteille coûte 50-100€ et plus. Celles servies dans les trattorias locales, des caves familiales, sont inestimables.",
+            "it": "Lo Sciacchetrà è il tesoro di Manarola—un vino da dessert fatto con uve essiccate per mesi, concentrate in dolcezza, invecchiate per anni. La produzione è minuscola. La maggior parte non lascia mai la valle. Una bottiglia costa 50-100€ e oltre. Quelle servite nelle trattorie locali, dalle cantine di famiglia, non hanno prezzo."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Village Day",
-      "quote": "Manarola has a rhythm. Fight it and you'll exhaust yourself. Follow it and you'll understand why people have chosen to live on this impossible cliff for two thousand years.",
-      "content": [
-        "**Morning belongs to locals**. Fishermen are out early. The bakery opens at 7. The first trains bring the first tourists around 9. Before that, the village is quiet, unhurried, itself.",
-        "**Midday brings the crowds**. From 10am to 5pm in summer, the harbor fills with day-trippers. The restaurants are busy. The swimming rocks are packed. This is when Manarola performs for visitors.",
-        "**Evening is the reward**. As the day-trippers leave, the village exhales. The restaurants get quieter, more intimate. The sunset crowd gathers on the viewing platform. The light turns golden, then amber, then rose.",
-        "**Night reveals the real village**. After 10pm, Manarola shrinks to its residents and overnight guests. Wine on a terrace. Quiet conversations. Stars over water. This is what you came for."
-      ]
+      "badge": {
+        "en": "The Village Day",
+        "de": "Der Dorftag",
+        "fr": "La Journée du Village",
+        "it": "La Giornata del Borgo"
+      },
+      "quote": {
+        "en": "Manarola has a rhythm. Fight it and you'll exhaust yourself. Follow it and you'll understand why people have chosen to live on this impossible cliff for two thousand years.",
+        "de": "Manarola hat einen Rhythmus. Kämpfe dagegen an und du erschöpfst dich. Folge ihm und du verstehst, warum Menschen seit zweitausend Jahren auf dieser unmöglichen Klippe leben wollen.",
+        "fr": "Manarola a un rythme. Luttez contre et vous vous épuiserez. Suivez-le et vous comprendrez pourquoi les gens ont choisi de vivre sur cette falaise impossible pendant deux mille ans.",
+        "it": "Manarola ha un ritmo. Combattilo e ti esaurirai. Seguilo e capirai perché la gente ha scelto di vivere su questa scogliera impossibile per duemila anni."
+      },
+      "content": {
+        "en": [
+          "**Morning belongs to locals**. Fishermen are out early. The bakery opens at 7. The first trains bring the first tourists around 9. Before that, the village is quiet, unhurried, itself.",
+          "**Midday brings the crowds**. From 10am to 5pm in summer, the harbor fills with day-trippers. The restaurants are busy. The swimming rocks are packed. This is when Manarola performs for visitors.",
+          "**Evening is the reward**. As the day-trippers leave, the village exhales. The restaurants get quieter, more intimate. The sunset crowd gathers on the viewing platform. The light turns golden, then amber, then rose.",
+          "**Night reveals the real village**. After 10pm, Manarola shrinks to its residents and overnight guests. Wine on a terrace. Quiet conversations. Stars over water. This is what you came for."
+        ],
+        "de": [
+          "**Der Morgen gehört den Einheimischen**. Fischer sind früh draußen. Die Bäckerei öffnet um 7. Die ersten Züge bringen die ersten Touristen gegen 9. Vorher ist das Dorf still, ungehetzt, es selbst.",
+          "**Der Mittag bringt die Massen**. Von 10 bis 17 Uhr im Sommer füllt sich der Hafen mit Tagesausflüglern. Die Restaurants sind voll. Die Badefelsen sind überfüllt. Dann führt Manarola für Besucher auf.",
+          "**Der Abend ist die Belohnung**. Wenn die Tagesausflügler gehen, atmet das Dorf auf. Die Restaurants werden ruhiger, intimer. Die Sonnenuntergangsmenge versammelt sich auf der Aussichtsplattform. Das Licht wird golden, dann bernsteinfarben, dann rosa.",
+          "**Die Nacht offenbart das wahre Dorf**. Nach 22 Uhr schrumpft Manarola auf seine Bewohner und Übernachtungsgäste. Wein auf einer Terrasse. Leise Gespräche. Sterne über dem Wasser. Dafür bist du gekommen."
+        ],
+        "fr": [
+          "**Le matin appartient aux locaux**. Les pêcheurs sortent tôt. La boulangerie ouvre à 7h. Les premiers trains amènent les premiers touristes vers 9h. Avant cela, le village est calme, sans hâte, lui-même.",
+          "**Le midi amène les foules**. De 10h à 17h en été, le port se remplit d'excursionnistes. Les restaurants sont bondés. Les rochers de baignade sont pleins. C'est quand Manarola joue pour les visiteurs.",
+          "**Le soir est la récompense**. Quand les excursionnistes partent, le village respire. Les restaurants deviennent plus calmes, plus intimes. La foule du coucher de soleil se rassemble sur la plateforme. La lumière devient dorée, puis ambrée, puis rose.",
+          "**La nuit révèle le vrai village**. Après 22h, Manarola se réduit à ses résidents et ses hôtes de la nuit. Du vin sur une terrasse. Des conversations douces. Des étoiles sur l'eau. C'est pour ça que vous êtes venus."
+        ],
+        "it": [
+          "**La mattina appartiene ai locali**. I pescatori escono presto. La panetteria apre alle 7. I primi treni portano i primi turisti verso le 9. Prima di allora, il borgo è tranquillo, senza fretta, se stesso.",
+          "**Il mezzogiorno porta le folle**. Dalle 10 alle 17 d'estate, il porto si riempie di escursionisti. I ristoranti sono affollati. Gli scogli per nuotare sono pieni. È quando Manarola si esibisce per i visitatori.",
+          "**La sera è la ricompensa**. Quando gli escursionisti se ne vanno, il borgo respira. I ristoranti diventano più tranquilli, più intimi. La folla del tramonto si raduna sulla piattaforma panoramica. La luce diventa dorata, poi ambra, poi rosa.",
+          "**La notte rivela il vero borgo**. Dopo le 22, Manarola si riduce ai suoi residenti e agli ospiti della notte. Vino su una terrazza. Conversazioni sommesse. Stelle sull'acqua. È per questo che siete venuti."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,48 +295,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Why Choose Manarola",
-          "category": "Village Character",
+          "name": {
+            "en": "Why Choose Manarola",
+            "de": "Warum Manarola wählen",
+            "fr": "Pourquoi Choisir Manarola",
+            "it": "Perché Scegliere Manarola"
+          },
+          "category": {
+            "en": "Village Character",
+            "de": "Dorfcharakter",
+            "fr": "Caractère du Village",
+            "it": "Carattere del Borgo"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Each village has its personality. Here's what Manarola offers that the others don't.",
-          "description": "Manarola is for wine lovers, sunset chasers, photographers, and those who want intimate scale. It lacks Monterosso's beach and Riomaggiore's convenience. It's more crowded than Corniglia. It's smaller than Vernazza. But its combination of wine culture, photogenic beauty, and perfect sunset views is unmatched.",
-          "giuliaComment": "If you want to swim, go to Monterosso. If you want the easiest logistics, stay in Riomaggiore. If you want hiking, base yourself in Corniglia. But if you want to understand why Cinque Terre became famous—that perfect image of colored houses on cliffs—you want Manarola.",
-          "signature": "The village that became the icon"
+          "intro": {
+            "en": "Each village has its personality. Here's what Manarola offers that the others don't.",
+            "de": "Jedes Dorf hat seine Persönlichkeit. Hier ist, was Manarola bietet, das die anderen nicht haben.",
+            "fr": "Chaque village a sa personnalité. Voici ce que Manarola offre que les autres n'ont pas.",
+            "it": "Ogni borgo ha la sua personalità. Ecco cosa offre Manarola che gli altri non hanno."
+          },
+          "description": {
+            "en": "Manarola is for wine lovers, sunset chasers, photographers, and those who want intimate scale. It lacks Monterosso's beach and Riomaggiore's convenience. It's more crowded than Corniglia. It's smaller than Vernazza. But its combination of wine culture, photogenic beauty, and perfect sunset views is unmatched.",
+            "de": "Manarola ist für Weinliebhaber, Sonnenuntergangsjäger, Fotografen und alle, die intime Dimensionen wollen. Es fehlt Monterossos Strand und Riomaggiores Bequemlichkeit. Es ist voller als Corniglia. Es ist kleiner als Vernazza. Aber seine Kombination aus Weinkultur, fotogener Schönheit und perfekten Sonnenuntergangsaussichten ist unübertroffen.",
+            "fr": "Manarola est pour les amateurs de vin, les chasseurs de couchers de soleil, les photographes, et ceux qui veulent une échelle intime. Il n'a pas la plage de Monterosso ni la commodité de Riomaggiore. Il est plus bondé que Corniglia. Il est plus petit que Vernazza. Mais sa combinaison de culture viticole, de beauté photogénique et de vues parfaites sur le coucher de soleil est inégalée.",
+            "it": "Manarola è per gli amanti del vino, i cacciatori di tramonti, i fotografi e chi vuole una scala intima. Manca la spiaggia di Monterosso e la comodità di Riomaggiore. È più affollata di Corniglia. È più piccola di Vernazza. Ma la sua combinazione di cultura del vino, bellezza fotogenica e viste perfette sul tramonto è ineguagliata."
+          },
+          "giuliaComment": {
+            "en": "If you want to swim, go to Monterosso. If you want the easiest logistics, stay in Riomaggiore. If you want hiking, base yourself in Corniglia. But if you want to understand why Cinque Terre became famous—that perfect image of colored houses on cliffs—you want Manarola.",
+            "de": "Wenn du schwimmen willst, geh nach Monterosso. Wenn du die einfachste Logistik willst, bleib in Riomaggiore. Wenn du wandern willst, nimm Corniglia als Basis. Aber wenn du verstehen willst, warum die Cinque Terre berühmt wurden—dieses perfekte Bild von bunten Häusern auf Klippen—willst du Manarola.",
+            "fr": "Si vous voulez nager, allez à Monterosso. Si vous voulez la logistique la plus facile, restez à Riomaggiore. Si vous voulez randonner, basez-vous à Corniglia. Mais si vous voulez comprendre pourquoi les Cinque Terre sont devenues célèbres—cette image parfaite de maisons colorées sur des falaises—vous voulez Manarola.",
+            "it": "Se vuoi nuotare, vai a Monterosso. Se vuoi la logistica più facile, stai a Riomaggiore. Se vuoi fare escursioni, basati a Corniglia. Ma se vuoi capire perché le Cinque Terre sono diventate famose—quell'immagine perfetta di case colorate sulle scogliere—vuoi Manarola."
+          },
+          "signature": {
+            "en": "The village that became the icon",
+            "de": "Das Dorf, das zur Ikone wurde",
+            "fr": "Le village devenu icône",
+            "it": "Il borgo diventato icona"
+          }
         },
         {
           "id": 5,
-          "name": "The Scale Advantage",
-          "category": "Practical Reality",
+          "name": {
+            "en": "The Scale Advantage",
+            "de": "Der Vorteil der Größe",
+            "fr": "L'Avantage de l'Échelle",
+            "it": "Il Vantaggio della Scala"
+          },
+          "category": {
+            "en": "Practical Reality",
+            "de": "Praktische Realität",
+            "fr": "Réalité Pratique",
+            "it": "Realtà Pratica"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "You can walk from one end of Manarola to the other in five minutes. That's not a limitation—it's a feature.",
-          "description": "Small means you can't get lost. It means every restaurant is walking distance. It means you'll recognize faces after a day. The limitation becomes intimacy becomes connection. By your second evening, the barista knows your order. By your third, you feel like you belong.",
-          "giuliaComment": "Visitors worry Manarola is 'too small.' They imagine running out of things to do. The opposite is true. Small means you can slow down. You don't need to rush between sights. You can spend an hour watching boats and not feel you're missing something.",
-          "signature": "Where small becomes sufficient"
+          "intro": {
+            "en": "You can walk from one end of Manarola to the other in five minutes. That's not a limitation—it's a feature.",
+            "de": "Du kannst Manarola von einem Ende zum anderen in fünf Minuten durchqueren. Das ist keine Einschränkung—es ist ein Vorteil.",
+            "fr": "On peut traverser Manarola d'un bout à l'autre en cinq minutes. Ce n'est pas une limitation—c'est un avantage.",
+            "it": "Puoi attraversare Manarola da un capo all'altro in cinque minuti. Non è un limite—è un vantaggio."
+          },
+          "description": {
+            "en": "Small means you can't get lost. It means every restaurant is walking distance. It means you'll recognize faces after a day. The limitation becomes intimacy becomes connection. By your second evening, the barista knows your order. By your third, you feel like you belong.",
+            "de": "Klein bedeutet, du kannst dich nicht verlaufen. Es bedeutet, jedes Restaurant ist zu Fuß erreichbar. Es bedeutet, du erkennst Gesichter nach einem Tag wieder. Die Einschränkung wird Intimität wird Verbindung. Am zweiten Abend kennt der Barista deine Bestellung. Am dritten fühlst du dich zugehörig.",
+            "fr": "Petit signifie qu'on ne peut pas se perdre. Ça signifie que chaque restaurant est à distance de marche. Ça signifie qu'on reconnaît des visages après une journée. La limitation devient intimité devient connexion. Dès le deuxième soir, le barista connaît votre commande. Au troisième, vous vous sentez chez vous.",
+            "it": "Piccolo significa che non puoi perderti. Significa che ogni ristorante è raggiungibile a piedi. Significa che riconoscerai i volti dopo un giorno. Il limite diventa intimità diventa connessione. La seconda sera, il barista conosce il tuo ordine. La terza, ti senti a casa."
+          },
+          "giuliaComment": {
+            "en": "Visitors worry Manarola is 'too small.' They imagine running out of things to do. The opposite is true. Small means you can slow down. You don't need to rush between sights. You can spend an hour watching boats and not feel you're missing something.",
+            "de": "Besucher sorgen sich, Manarola sei 'zu klein'. Sie stellen sich vor, dass ihnen die Dinge ausgehen, die sie tun können. Das Gegenteil ist wahr. Klein bedeutet, du kannst entschleunigen. Du musst nicht zwischen Sehenswürdigkeiten hetzen. Du kannst eine Stunde Boote beobachten, ohne das Gefühl zu haben, etwas zu verpassen.",
+            "fr": "Les visiteurs s'inquiètent que Manarola soit 'trop petit'. Ils imaginent manquer de choses à faire. C'est le contraire qui est vrai. Petit signifie qu'on peut ralentir. Pas besoin de courir entre les sites. On peut passer une heure à regarder les bateaux sans avoir l'impression de manquer quelque chose.",
+            "it": "I visitatori temono che Manarola sia 'troppo piccola'. Immaginano di rimanere senza cose da fare. È vero il contrario. Piccola significa che puoi rallentare. Non devi correre tra le attrazioni. Puoi passare un'ora a guardare le barche senza sentirti come se stessi perdendo qualcosa."
+          },
+          "signature": {
+            "en": "Where small becomes sufficient",
+            "de": "Wo klein genug wird",
+            "fr": "Où petit devient suffisant",
+            "it": "Dove piccolo diventa sufficiente"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Crowd Question",
-          "quote": "Yes, Manarola is crowded in summer. Yes, the harbor platform fills with photographers at sunset. Yes, you'll wait for tables. But at 7am, you'll have it to yourself. After 9pm, you'll feel like a local. The crowds exist. They can be avoided."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Crowd Question",
+            "de": "Die Frage der Menschenmengen",
+            "fr": "La Question des Foules",
+            "it": "La Questione della Folla"
+          },
+          "quote": {
+            "en": "Yes, Manarola is crowded in summer. Yes, the harbor platform fills with photographers at sunset. Yes, you'll wait for tables. But at 7am, you'll have it to yourself. After 9pm, you'll feel like a local. The crowds exist. They can be avoided.",
+            "de": "Ja, Manarola ist im Sommer überfüllt. Ja, die Hafenplattform füllt sich bei Sonnenuntergang mit Fotografen. Ja, du wirst auf Tische warten. Aber um 7 Uhr morgens hast du es für dich allein. Nach 21 Uhr fühlst du dich wie ein Einheimischer. Die Menschenmengen gibt es. Sie können vermieden werden.",
+            "fr": "Oui, Manarola est bondée en été. Oui, la plateforme du port se remplit de photographes au coucher du soleil. Oui, vous attendrez des tables. Mais à 7h du matin, vous l'aurez pour vous seul. Après 21h, vous vous sentirez local. Les foules existent. Elles peuvent être évitées.",
+            "it": "Sì, Manarola è affollata d'estate. Sì, la piattaforma del porto si riempie di fotografi al tramonto. Sì, aspetterai per i tavoli. Ma alle 7 di mattina, l'avrai per te. Dopo le 21, ti sentirai un locale. La folla esiste. Può essere evitata."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Wine Village Welcomes",
-      "content": [
-        "Manarola doesn't try to be everything. It doesn't have Monterosso's beach or Riomaggiore's easy access. It's not the hiking hub or the party village. It's the wine village—the one where sunset matters, where the scale is human, where the terraces tell a two-thousand-year story.",
-        "Come for the photograph everyone knows. Stay for the village behind it. Taste the wine that never leaves the valley. Watch the light change. Let the smallness become comfort.",
-        "The terraces have waited two thousand years. They can wait for you."
-      ],
+      "title": {
+        "en": "The Wine Village Welcomes",
+        "de": "Das Weindorf heißt willkommen",
+        "fr": "Le Village du Vin Vous Accueille",
+        "it": "Il Borgo del Vino Vi Accoglie"
+      },
+      "content": {
+        "en": [
+          "Manarola doesn't try to be everything. It doesn't have Monterosso's beach or Riomaggiore's easy access. It's not the hiking hub or the party village. It's the wine village—the one where sunset matters, where the scale is human, where the terraces tell a two-thousand-year story.",
+          "Come for the photograph everyone knows. Stay for the village behind it. Taste the wine that never leaves the valley. Watch the light change. Let the smallness become comfort.",
+          "The terraces have waited two thousand years. They can wait for you."
+        ],
+        "de": [
+          "Manarola versucht nicht, alles zu sein. Es hat nicht Monterossos Strand oder Riomaggiores einfachen Zugang. Es ist nicht das Wanderzentrum oder das Party-Dorf. Es ist das Weindorf—das, wo der Sonnenuntergang zählt, wo die Größe menschlich ist, wo die Terrassen eine zweitausendjährige Geschichte erzählen.",
+          "Komm für das Foto, das jeder kennt. Bleib für das Dorf dahinter. Koste den Wein, der nie das Tal verlässt. Beobachte, wie sich das Licht verändert. Lass die Kleinheit zum Komfort werden.",
+          "Die Terrassen haben zweitausend Jahre gewartet. Sie können auf dich warten."
+        ],
+        "fr": [
+          "Manarola n'essaie pas d'être tout. Il n'a pas la plage de Monterosso ni l'accès facile de Riomaggiore. Ce n'est pas le centre de randonnée ni le village de fête. C'est le village du vin—celui où le coucher de soleil compte, où l'échelle est humaine, où les terrasses racontent une histoire de deux mille ans.",
+          "Venez pour la photo que tout le monde connaît. Restez pour le village derrière. Goûtez le vin qui ne quitte jamais la vallée. Regardez la lumière changer. Laissez la petitesse devenir confort.",
+          "Les terrasses ont attendu deux mille ans. Elles peuvent vous attendre."
+        ],
+        "it": [
+          "Manarola non cerca di essere tutto. Non ha la spiaggia di Monterosso o l'accesso facile di Riomaggiore. Non è il centro escursionistico o il borgo delle feste. È il borgo del vino—quello dove il tramonto conta, dove la scala è umana, dove le terrazze raccontano una storia di duemila anni.",
+          "Venite per la foto che tutti conoscono. Restate per il borgo dietro di essa. Assaggiate il vino che non lascia mai la valle. Guardate la luce cambiare. Lasciate che la piccolezza diventi conforto.",
+          "Le terrazze hanno aspettato duemila anni. Possono aspettare voi."
+        ]
+      },
       "buttons": [
-        { "text": "Where to Stay", "url": "/en/manarola/hotels", "variant": "primary" },
-        { "text": "Where to Eat", "url": "/en/manarola/restaurants", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Unterkünfte",
+            "fr": "Hébergements",
+            "it": "Dove Alloggiare"
+          },
+          "url": {
+            "en": "/en/manarola/hotels",
+            "de": "/de/manarola/hotels",
+            "fr": "/fr/manarola/hotels",
+            "it": "/it/manarola/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Eat",
+            "de": "Restaurants",
+            "fr": "Restaurants",
+            "it": "Dove Mangiare"
+          },
+          "url": {
+            "en": "/en/manarola/restaurants",
+            "de": "/de/manarola/restaurants",
+            "fr": "/fr/manarola/restaurants",
+            "it": "/it/manarola/restaurants"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -157,5 +471,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:30:00.000Z"
+  "updated_at": "2026-01-07T14:00:00.000Z"
 }

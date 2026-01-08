@@ -7,36 +7,90 @@
     "it": "/it/corniglia/blog"
   },
   "title": {
-    "en": "Stories from Corniglia | Cinque Terre Dispatch"
+    "en": "Stories from Corniglia | Cinque Terre Dispatch",
+    "de": "Geschichten aus Corniglia | Cinque Terre Dispatch",
+    "fr": "Histoires de Corniglia | Cinque Terre Dispatch",
+    "it": "Storie da Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "blog",
   "seo": {
     "title": {
-      "en": "Stories from Corniglia | Cinque Terre Dispatch"
+      "en": "Stories from Corniglia | Cinque Terre Dispatch",
+      "de": "Geschichten aus Corniglia | Cinque Terre Dispatch",
+      "fr": "Histoires de Corniglia | Cinque Terre Dispatch",
+      "it": "Storie da Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The stories of Corniglia are quieter than those of the other villages—told not in harbor taverns but in vineyard conversations, not through fishing legends but through agricultural persistence."
+      "en": "The stories of Corniglia are quieter than those of the other villages—told not in harbor taverns but in vineyard conversations, not through fishing legends but through agricultural persistence.",
+      "de": "Die Geschichten von Corniglia sind leiser als die der anderen Doerfer—nicht in Hafentavernen erzaehlt, sondern in Weinberg-Gespraechen, nicht durch Fischerlegenden, sondern durch landwirtschaftliche Bestaendigkeit.",
+      "fr": "Les histoires de Corniglia sont plus discretes que celles des autres villages—racontees non pas dans les tavernes du port mais dans les conversations des vignobles, non pas a travers les legendes de pecheurs mais a travers la perseverance agricole.",
+      "it": "Le storie di Corniglia sono piu silenziose di quelle degli altri borghi—raccontate non nelle taverne del porto ma nelle conversazioni tra i vigneti, non attraverso leggende di pescatori ma attraverso la perseveranza agricola."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Stories<br/>From Above",
-      "subtitle": "Every Cinque Terre village has its stories. Corniglia's are different—not of the sea and its dangers, but of the land and its demands. The terrace walls hold centuries of labor. The wine cellars hold memories the stairs have protected.",
-      "badge": "Stories & Reflections",
+      "title": {
+        "en": "Stories<br/>From Above",
+        "de": "Geschichten<br/>von oben",
+        "fr": "Histoires<br/>d'en haut",
+        "it": "Storie<br/>dall'alto"
+      },
+      "subtitle": {
+        "en": "Every Cinque Terre village has its stories. Corniglia's are different—not of the sea and its dangers, but of the land and its demands. The terrace walls hold centuries of labor. The wine cellars hold memories the stairs have protected.",
+        "de": "Jedes Cinque Terre-Dorf hat seine Geschichten. Corniglias sind anders—nicht vom Meer und seinen Gefahren, sondern vom Land und seinen Anforderungen. Die Terrassenmauern bewahren Jahrhunderte der Arbeit. Die Weinkeller bewahren Erinnerungen, die die Treppen geschuetzt haben.",
+        "fr": "Chaque village des Cinque Terre a ses histoires. Celles de Corniglia sont differentes—non pas de la mer et de ses dangers, mais de la terre et de ses exigences. Les murs des terrasses contiennent des siecles de labeur. Les caves a vin contiennent des souvenirs que les escaliers ont proteges.",
+        "it": "Ogni borgo delle Cinque Terre ha le sue storie. Quelle di Corniglia sono diverse—non del mare e dei suoi pericoli, ma della terra e delle sue esigenze. I muri delle terrazze conservano secoli di lavoro. Le cantine conservano ricordi che le scale hanno protetto."
+      },
+      "badge": {
+        "en": "Stories & Reflections",
+        "de": "Geschichten & Betrachtungen",
+        "fr": "Recits & Reflexions",
+        "it": "Storie & Riflessioni"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Agricultural Memory",
-      "quote": "Corniglia remembers differently than its neighbors. While other villages tell fishing stories, Corniglia tells farming stories—the year the harvest failed, the family that built that terrace wall, the wine that won a prize no one expected.",
-      "content": [
-        "**The name carries ancient history**. Corniglia may derive from the Roman Gens Cornelia, suggesting settlement when Latin was still spoken. Unlike the medieval origins of other villages, this one reaches back further—into the time when these slopes first seemed worth cultivating.",
-        "**The land tells its own stories**. Walk the terraces above the village and you see layers of labor—walls built in different centuries, repair work from different disasters, the ongoing effort that has kept this landscape productive for a millennium.",
-        "**The isolation shaped character**. Without a harbor, Corniglia never had the maritime culture of its neighbors. No fishermen's tales here. The stories are of farmers, of vintners, of people who looked up at their vineyards rather than out at the sea.",
-        "**The stairs created privacy**. The 382 steps that now deter tourists once protected the village from casual intrusion. The stories that developed here stayed here, shared among families who had lived close together for generations."
-      ]
+      "badge": {
+        "en": "The Agricultural Memory",
+        "de": "Das landwirtschaftliche Gedaechtnis",
+        "fr": "La memoire agricole",
+        "it": "La memoria agricola"
+      },
+      "quote": {
+        "en": "Corniglia remembers differently than its neighbors. While other villages tell fishing stories, Corniglia tells farming stories—the year the harvest failed, the family that built that terrace wall, the wine that won a prize no one expected.",
+        "de": "Corniglia erinnert sich anders als seine Nachbarn. Waehrend andere Doerfer Fischergeschichten erzaehlen, erzaehlt Corniglia Bauerngeschichten—das Jahr, in dem die Ernte ausfiel, die Familie, die jene Terrassenmauer baute, der Wein, der einen Preis gewann, den niemand erwartet hatte.",
+        "fr": "Corniglia se souvient differemment de ses voisins. Tandis que d'autres villages racontent des histoires de peche, Corniglia raconte des histoires d'agriculture—l'annee ou la recolte a echoue, la famille qui a construit ce mur de terrasse, le vin qui a gagne un prix inattendu.",
+        "it": "Corniglia ricorda in modo diverso dai suoi vicini. Mentre altri borghi raccontano storie di pesca, Corniglia racconta storie di agricoltura—l'anno in cui il raccolto falli, la famiglia che costrui quel muro a secco, il vino che vinse un premio inaspettato."
+      },
+      "content": {
+        "en": [
+          "**The name carries ancient history**. Corniglia may derive from the Roman Gens Cornelia, suggesting settlement when Latin was still spoken. Unlike the medieval origins of other villages, this one reaches back further—into the time when these slopes first seemed worth cultivating.",
+          "**The land tells its own stories**. Walk the terraces above the village and you see layers of labor—walls built in different centuries, repair work from different disasters, the ongoing effort that has kept this landscape productive for a millennium.",
+          "**The isolation shaped character**. Without a harbor, Corniglia never had the maritime culture of its neighbors. No fishermen's tales here. The stories are of farmers, of vintners, of people who looked up at their vineyards rather than out at the sea.",
+          "**The stairs created privacy**. The 382 steps that now deter tourists once protected the village from casual intrusion. The stories that developed here stayed here, shared among families who had lived close together for generations."
+        ],
+        "de": [
+          "**Der Name traegt uralte Geschichte**. Corniglia koennte von der roemischen Gens Cornelia abstammen, was auf eine Besiedlung hindeutet, als noch Latein gesprochen wurde. Im Gegensatz zu den mittelalterlichen Urspruengen anderer Doerfer reicht dieses weiter zurueck—in die Zeit, als diese Haenge erstmals kultivierenswert erschienen.",
+          "**Das Land erzaehlt seine eigenen Geschichten**. Wandern Sie ueber die Terrassen oberhalb des Dorfes und Sie sehen Schichten der Arbeit—Mauern aus verschiedenen Jahrhunderten, Reparaturarbeiten nach verschiedenen Katastrophen, die fortdauernde Muehe, die diese Landschaft seit einem Jahrtausend produktiv gehalten hat.",
+          "**Die Isolation formte den Charakter**. Ohne Hafen hatte Corniglia nie die maritime Kultur seiner Nachbarn. Keine Fischergeschichten hier. Die Geschichten handeln von Bauern, von Winzern, von Menschen, die zu ihren Weinbergen hinaufschauten statt aufs Meer hinaus.",
+          "**Die Treppen schufen Privatsphaere**. Die 382 Stufen, die heute Touristen abschrecken, schuetzten einst das Dorf vor beilaeufigem Eindringen. Die Geschichten, die sich hier entwickelten, blieben hier, geteilt unter Familien, die seit Generationen eng zusammenlebten."
+        ],
+        "fr": [
+          "**Le nom porte une histoire ancienne**. Corniglia pourrait deriver de la Gens Cornelia romaine, suggerant une installation quand le latin etait encore parle. Contrairement aux origines medievales d'autres villages, celui-ci remonte plus loin—a l'epoque ou ces pentes semblerent d'abord dignes d'etre cultivees.",
+          "**La terre raconte ses propres histoires**. Parcourez les terrasses au-dessus du village et vous voyez des couches de labeur—des murs construits a differents siecles, des reparations apres differentes catastrophes, l'effort continu qui a garde ce paysage productif pendant un millenaire.",
+          "**L'isolement a faconne le caractere**. Sans port, Corniglia n'a jamais eu la culture maritime de ses voisins. Pas de contes de pecheurs ici. Les histoires sont celles d'agriculteurs, de vignerons, de gens qui regardaient leurs vignobles plutot que la mer.",
+          "**Les escaliers ont cree l'intimite**. Les 382 marches qui decouragent maintenant les touristes protegeaient autrefois le village des intrusions fortuites. Les histoires qui se sont developpees ici sont restees ici, partagees entre familles qui vivaient proches depuis des generations."
+        ],
+        "it": [
+          "**Il nome porta storia antica**. Corniglia potrebbe derivare dalla romana Gens Cornelia, suggerendo un insediamento quando si parlava ancora latino. A differenza delle origini medievali di altri borghi, questo risale piu indietro—al tempo in cui questi pendii sembrarono per la prima volta degni di essere coltivati.",
+          "**La terra racconta le sue storie**. Cammina sulle terrazze sopra il borgo e vedrai strati di lavoro—muri costruiti in secoli diversi, riparazioni dopo diversi disastri, lo sforzo continuo che ha mantenuto questo paesaggio produttivo per un millennio.",
+          "**L'isolamento ha plasmato il carattere**. Senza porto, Corniglia non ha mai avuto la cultura marittima dei suoi vicini. Niente racconti di pescatori qui. Le storie sono di contadini, di viticoltori, di persone che guardavano in su verso i loro vigneti piuttosto che fuori verso il mare.",
+          "**Le scale hanno creato riservatezza**. I 382 gradini che oggi scoraggiano i turisti una volta proteggevano il borgo dalle intrusioni casuali. Le storie che si svilupparono qui rimasero qui, condivise tra famiglie che avevano vissuto vicine per generazioni."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "The Roman Inheritance",
-          "category": "Origin Stories",
+          "name": {
+            "en": "The Roman Inheritance",
+            "de": "Das roemische Erbe",
+            "fr": "L'heritage romain",
+            "it": "L'eredita romana"
+          },
+          "category": {
+            "en": "Origin Stories",
+            "de": "Ursprungsgeschichten",
+            "fr": "Recits des origines",
+            "it": "Storie delle origini"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Before medieval towers, before Christian churches—Roman colonists saw these slopes and recognized their worth.",
-          "description": "The legend connects Corniglia to the Roman Gens Cornelia—perhaps a villa here, perhaps a farming estate. The evidence is thin but the possibility resonates: Romans understood south-facing slopes, maritime influence, the conditions that make good wine. The terraces may have begun under their supervision, the agricultural tradition they brought lasting longer than their empire.",
-          "giuliaComment": "Whether Romans actually settled here or just passed through, I like the story. It suggests that smart people recognized this land's value two thousand years ago. We're just the latest to work it.",
-          "signature": "Where ancient wisdom chose the site"
+          "intro": {
+            "en": "Before medieval towers, before Christian churches—Roman colonists saw these slopes and recognized their worth.",
+            "de": "Vor mittelalterlichen Tuermen, vor christlichen Kirchen—roemische Kolonisten sahen diese Haenge und erkannten ihren Wert.",
+            "fr": "Avant les tours medievales, avant les eglises chretiennes—les colons romains ont vu ces pentes et reconnu leur valeur.",
+            "it": "Prima delle torri medievali, prima delle chiese cristiane—i coloni romani videro questi pendii e ne riconobbero il valore."
+          },
+          "description": {
+            "en": "The legend connects Corniglia to the Roman Gens Cornelia—perhaps a villa here, perhaps a farming estate. The evidence is thin but the possibility resonates: Romans understood south-facing slopes, maritime influence, the conditions that make good wine. The terraces may have begun under their supervision, the agricultural tradition they brought lasting longer than their empire.",
+            "de": "Die Legende verbindet Corniglia mit der roemischen Gens Cornelia—vielleicht eine Villa hier, vielleicht ein Landgut. Die Beweise sind duenn, aber die Moeglichkeit hallt nach: Roemer verstanden suedliche Haenge, maritimen Einfluss, die Bedingungen, die guten Wein machen. Die Terrassen koennten unter ihrer Aufsicht begonnen haben, die landwirtschaftliche Tradition, die sie brachten, dauerte laenger als ihr Reich.",
+            "fr": "La legende relie Corniglia a la Gens Cornelia romaine—peut-etre une villa ici, peut-etre un domaine agricole. Les preuves sont minces mais la possibilite resonne: les Romains comprenaient les pentes orientees au sud, l'influence maritime, les conditions qui font le bon vin. Les terrasses ont peut-etre commence sous leur supervision, la tradition agricole qu'ils ont apportee durant plus longtemps que leur empire.",
+            "it": "La leggenda collega Corniglia alla romana Gens Cornelia—forse una villa qui, forse una tenuta agricola. Le prove sono scarse ma la possibilita risuona: i Romani capivano i pendii esposti a sud, l'influenza marittima, le condizioni che fanno il buon vino. Le terrazze potrebbero essere iniziate sotto la loro supervisione, la tradizione agricola che portarono duro piu a lungo del loro impero."
+          },
+          "giuliaComment": {
+            "en": "Whether Romans actually settled here or just passed through, I like the story. It suggests that smart people recognized this land's value two thousand years ago. We're just the latest to work it.",
+            "de": "Ob Roemer sich hier tatsaechlich ansiedelten oder nur durchreisten, mir gefaellt die Geschichte. Sie deutet an, dass kluge Menschen den Wert dieses Landes vor zweitausend Jahren erkannten. Wir sind nur die Neuesten, die es bearbeiten.",
+            "fr": "Que les Romains se soient reellement installes ici ou qu'ils soient simplement passes, j'aime cette histoire. Elle suggere que des gens intelligents ont reconnu la valeur de cette terre il y a deux mille ans. Nous sommes juste les derniers a la travailler.",
+            "it": "Che i Romani si siano effettivamente stabiliti qui o siano solo passati, mi piace la storia. Suggerisce che persone intelligenti riconobbero il valore di questa terra duemila anni fa. Noi siamo solo gli ultimi a lavorarla."
+          },
+          "signature": {
+            "en": "Where ancient wisdom chose the site",
+            "de": "Wo uralte Weisheit den Ort waehlte",
+            "fr": "Ou la sagesse antique a choisi le site",
+            "it": "Dove l'antica saggezza scelse il luogo"
+          }
         },
         {
           "id": 2,
-          "name": "The Terrace Builders",
-          "category": "Labor History",
+          "name": {
+            "en": "The Terrace Builders",
+            "de": "Die Terrassenbauer",
+            "fr": "Les batisseurs de terrasses",
+            "it": "I costruttori di terrazze"
+          },
+          "category": {
+            "en": "Labor History",
+            "de": "Arbeitsgeschichte",
+            "fr": "Histoire du travail",
+            "it": "Storia del lavoro"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "A thousand years of moving stones—the generations who created flat land where none existed.",
-          "description": "Every dry-stone wall around Corniglia represents someone's life work. Stones carried by hand. Walls built without mortar. Flat surfaces carved from vertical slopes. The labor was immense, the motivation simple: the wine from these slopes was worth the effort. The terraces are monuments to that calculus, to generations who bet their bodies on the harvest.",
-          "giuliaComment": "My great-uncle's wall collapsed in a storm twenty years ago. He rebuilt it at eighty, stone by stone. When I asked why, he said the wall had always been there—it needed to be there again. That's how we think about the terraces.",
-          "signature": "Where stubbornness shaped the mountain"
+          "intro": {
+            "en": "A thousand years of moving stones—the generations who created flat land where none existed.",
+            "de": "Tausend Jahre Steine bewegen—die Generationen, die flaches Land schufen, wo keines existierte.",
+            "fr": "Mille ans a deplacer des pierres—les generations qui ont cree des terres plates la ou il n'y en avait pas.",
+            "it": "Mille anni di spostare pietre—le generazioni che crearono terra piana dove non esisteva."
+          },
+          "description": {
+            "en": "Every dry-stone wall around Corniglia represents someone's life work. Stones carried by hand. Walls built without mortar. Flat surfaces carved from vertical slopes. The labor was immense, the motivation simple: the wine from these slopes was worth the effort. The terraces are monuments to that calculus, to generations who bet their bodies on the harvest.",
+            "de": "Jede Trockensteinmauer um Corniglia repraesentiert jemandes Lebenswerk. Steine, von Hand getragen. Mauern ohne Moertel gebaut. Flache Oberflaechen aus senkrechten Haengen gehauen. Die Arbeit war immens, die Motivation einfach: der Wein von diesen Haengen war die Muehe wert. Die Terrassen sind Denkmaeler dieser Kalkulation, fuer Generationen, die ihre Koerper auf die Ernte setzten.",
+            "fr": "Chaque mur en pierres seches autour de Corniglia represente l'oeuvre d'une vie. Des pierres portees a la main. Des murs construits sans mortier. Des surfaces plates taillees dans des pentes verticales. Le labeur etait immense, la motivation simple: le vin de ces pentes valait l'effort. Les terrasses sont des monuments a ce calcul, a des generations qui ont mise leur corps sur la recolte.",
+            "it": "Ogni muro a secco intorno a Corniglia rappresenta l'opera di una vita di qualcuno. Pietre portate a mano. Muri costruiti senza malta. Superfici piane ricavate da pendii verticali. Il lavoro era immenso, la motivazione semplice: il vino di questi pendii valeva lo sforzo. Le terrazze sono monumenti a quel calcolo, a generazioni che scommisero i loro corpi sul raccolto."
+          },
+          "giuliaComment": {
+            "en": "My great-uncle's wall collapsed in a storm twenty years ago. He rebuilt it at eighty, stone by stone. When I asked why, he said the wall had always been there—it needed to be there again. That's how we think about the terraces.",
+            "de": "Die Mauer meines Grossonkels stuertzte vor zwanzig Jahren in einem Sturm ein. Er baute sie mit achtzig wieder auf, Stein fuer Stein. Als ich fragte warum, sagte er, die Mauer sei immer da gewesen—sie musste wieder da sein. So denken wir ueber die Terrassen.",
+            "fr": "Le mur de mon grand-oncle s'est effondre dans une tempete il y a vingt ans. Il l'a reconstruit a quatre-vingts ans, pierre par pierre. Quand j'ai demande pourquoi, il a dit que le mur avait toujours ete la—il devait y etre a nouveau. C'est ainsi que nous pensons aux terrasses.",
+            "it": "Il muro del mio prozio crollo in una tempesta vent'anni fa. Lo ricostrui a ottant'anni, pietra per pietra. Quando chiesi perche, disse che il muro era sempre stato li—doveva esserci di nuovo. E cosi che pensiamo alle terrazze."
+          },
+          "signature": {
+            "en": "Where stubbornness shaped the mountain",
+            "de": "Wo Sturheit den Berg formte",
+            "fr": "Ou l'obstination a faconne la montagne",
+            "it": "Dove la testardaggine plasmo la montagna"
+          }
         },
         {
           "id": 3,
-          "name": "The Sciacchetrà Tradition",
-          "category": "Wine Heritage",
+          "name": {
+            "en": "The Sciacchetra Tradition",
+            "de": "Die Sciacchetra-Tradition",
+            "fr": "La tradition du Sciacchetra",
+            "it": "La tradizione dello Sciacchetra"
+          },
+          "category": {
+            "en": "Wine Heritage",
+            "de": "Weinerbe",
+            "fr": "Patrimoine viticole",
+            "it": "Patrimonio vinicolo"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The dessert wine that takes months to make—dried grapes, patient waiting, and the knowledge passed through generations.",
-          "description": "Sciacchetrà is Cinque Terre's famous dessert wine, but Corniglia claims special expertise. The grapes dry on mats for months, concentrating sweetness. The pressing happens in winter. The aging takes years. The process cannot be hurried. Corniglia families guard their methods—the exact drying time, the particular pressing technique, the barrels that have been used for generations.",
-          "giuliaComment": "Every family makes Sciacchetrà slightly differently. My grandmother's method died with her—she never quite explained the final steps. Some knowledge is lost, some passed on. The wine continues.",
-          "signature": "Where patience becomes tradition"
+          "intro": {
+            "en": "The dessert wine that takes months to make—dried grapes, patient waiting, and the knowledge passed through generations.",
+            "de": "Der Dessertwein, der Monate zur Herstellung braucht—getrocknete Trauben, geduldiges Warten und das Wissen, das durch Generationen weitergegeben wird.",
+            "fr": "Le vin de dessert qui prend des mois a faire—des raisins seches, une attente patiente et le savoir transmis de generation en generation.",
+            "it": "Il vino da dessert che richiede mesi per essere prodotto—uve essiccate, paziente attesa e la conoscenza tramandata di generazione in generazione."
+          },
+          "description": {
+            "en": "Sciacchetra is Cinque Terre's famous dessert wine, but Corniglia claims special expertise. The grapes dry on mats for months, concentrating sweetness. The pressing happens in winter. The aging takes years. The process cannot be hurried. Corniglia families guard their methods—the exact drying time, the particular pressing technique, the barrels that have been used for generations.",
+            "de": "Sciacchetra ist der beruehmte Dessertwein der Cinque Terre, aber Corniglia beansprucht besondere Expertise. Die Trauben trocknen monatelang auf Matten und konzentrieren die Suesse. Das Pressen geschieht im Winter. Die Reifung dauert Jahre. Der Prozess kann nicht beschleunigt werden. Corniglia-Familien hueten ihre Methoden—die genaue Trocknungszeit, die besondere Presstechnik, die Faesser, die seit Generationen verwendet werden.",
+            "fr": "Le Sciacchetra est le celebre vin de dessert des Cinque Terre, mais Corniglia revendique une expertise particuliere. Les raisins sechent sur des nattes pendant des mois, concentrant la douceur. Le pressurage a lieu en hiver. Le vieillissement prend des annees. Le processus ne peut pas etre presse. Les familles de Corniglia gardent leurs methodes—le temps de sechage exact, la technique de pressage particuliere, les tonneaux utilises depuis des generations.",
+            "it": "Lo Sciacchetra e il famoso vino da dessert delle Cinque Terre, ma Corniglia rivendica una competenza speciale. Le uve si asciugano su stuoie per mesi, concentrando la dolcezza. La pigiatura avviene in inverno. L'invecchiamento richiede anni. Il processo non puo essere affrettato. Le famiglie di Corniglia custodiscono i loro metodi—il tempo esatto di essiccazione, la particolare tecnica di pigiatura, le botti usate da generazioni."
+          },
+          "giuliaComment": {
+            "en": "Every family makes Sciacchetra slightly differently. My grandmother's method died with her—she never quite explained the final steps. Some knowledge is lost, some passed on. The wine continues.",
+            "de": "Jede Familie macht Sciacchetra ein bisschen anders. Die Methode meiner Grossmutter starb mit ihr—sie erklaerte nie ganz die letzten Schritte. Manches Wissen geht verloren, manches wird weitergegeben. Der Wein geht weiter.",
+            "fr": "Chaque famille fait le Sciacchetra un peu differemment. La methode de ma grand-mere est morte avec elle—elle n'a jamais vraiment explique les dernieres etapes. Certaines connaissances sont perdues, certaines transmises. Le vin continue.",
+            "it": "Ogni famiglia fa lo Sciacchetra in modo leggermente diverso. Il metodo di mia nonna e morto con lei—non ha mai spiegato del tutto i passaggi finali. Alcune conoscenze si perdono, alcune si tramandano. Il vino continua."
+          },
+          "signature": {
+            "en": "Where patience becomes tradition",
+            "de": "Wo Geduld zur Tradition wird",
+            "fr": "Ou la patience devient tradition",
+            "it": "Dove la pazienza diventa tradizione"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Quieter Stories",
-          "quote": "The other villages tell dramatic tales—pirates, storms, rescues at sea. Corniglia's stories are quieter: the harvest that saved a family, the wall that took thirty years to build, the vine that survived when others died. Drama is not required for meaning."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Quieter Stories",
+            "de": "Die leiseren Geschichten",
+            "fr": "Les histoires plus discretes",
+            "it": "Le storie piu silenziose"
+          },
+          "quote": {
+            "en": "The other villages tell dramatic tales—pirates, storms, rescues at sea. Corniglia's stories are quieter: the harvest that saved a family, the wall that took thirty years to build, the vine that survived when others died. Drama is not required for meaning.",
+            "de": "Die anderen Doerfer erzaehlen dramatische Geschichten—Piraten, Stuerme, Rettungen auf See. Corniglias Geschichten sind leiser: die Ernte, die eine Familie rettete, die Mauer, die dreissig Jahre zum Bauen brauchte, die Rebe, die ueberlebte, als andere starben. Drama ist nicht noetig fuer Bedeutung.",
+            "fr": "Les autres villages racontent des contes dramatiques—pirates, tempetes, sauvetages en mer. Les histoires de Corniglia sont plus discretes: la recolte qui a sauve une famille, le mur qui a pris trente ans a construire, la vigne qui a survecu quand d'autres sont mortes. Le drame n'est pas necessaire pour le sens.",
+            "it": "Gli altri borghi raccontano storie drammatiche—pirati, tempeste, salvataggi in mare. Le storie di Corniglia sono piu silenziose: il raccolto che salvo una famiglia, il muro che impiego trent'anni per essere costruito, la vite che sopravvisse quando altre morirono. Il dramma non e necessario per il significato."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Living Memory",
-      "quote": "Corniglia's stories continue being written—every harvest adds a chapter, every storm tests a wall, every generation decides whether to stay or leave. The village is not frozen; it's ongoing.",
-      "content": [
-        "**The young are returning**. After decades of exodus, some young people are coming back to Corniglia—taking over family vineyards, opening small businesses, betting on the village's quiet appeal. Their stories are just beginning.",
-        "**The terraces need constant work**. Every year brings repairs—walls that shifted, drainage that failed, the endless maintenance that keeps the landscape viable. The stories of collapse and rebuilding continue.",
-        "**The wine evolves**. Climate change is shifting what grows well. Winemakers are adapting—different varieties, different timing, the tradition modified to survive. The story of Corniglia wine continues being written.",
-        "**The tourists become characters**. The visitors who discover Corniglia and return year after year become part of the village story. Some have been coming for decades. Their persistence mirrors the village's own."
-      ]
+      "badge": {
+        "en": "Living Memory",
+        "de": "Lebendige Erinnerung",
+        "fr": "Memoire vivante",
+        "it": "Memoria vivente"
+      },
+      "quote": {
+        "en": "Corniglia's stories continue being written—every harvest adds a chapter, every storm tests a wall, every generation decides whether to stay or leave. The village is not frozen; it's ongoing.",
+        "de": "Corniglias Geschichten werden weiter geschrieben—jede Ernte fuegt ein Kapitel hinzu, jeder Sturm testet eine Mauer, jede Generation entscheidet, ob sie bleibt oder geht. Das Dorf ist nicht eingefroren; es geht weiter.",
+        "fr": "Les histoires de Corniglia continuent d'etre ecrites—chaque recolte ajoute un chapitre, chaque tempete teste un mur, chaque generation decide si elle reste ou part. Le village n'est pas fige; il continue.",
+        "it": "Le storie di Corniglia continuano a essere scritte—ogni raccolto aggiunge un capitolo, ogni tempesta mette alla prova un muro, ogni generazione decide se restare o partire. Il borgo non e congelato; e in corso."
+      },
+      "content": {
+        "en": [
+          "**The young are returning**. After decades of exodus, some young people are coming back to Corniglia—taking over family vineyards, opening small businesses, betting on the village's quiet appeal. Their stories are just beginning.",
+          "**The terraces need constant work**. Every year brings repairs—walls that shifted, drainage that failed, the endless maintenance that keeps the landscape viable. The stories of collapse and rebuilding continue.",
+          "**The wine evolves**. Climate change is shifting what grows well. Winemakers are adapting—different varieties, different timing, the tradition modified to survive. The story of Corniglia wine continues being written.",
+          "**The tourists become characters**. The visitors who discover Corniglia and return year after year become part of the village story. Some have been coming for decades. Their persistence mirrors the village's own."
+        ],
+        "de": [
+          "**Die Jungen kehren zurueck**. Nach Jahrzehnten des Exodus kommen einige junge Menschen nach Corniglia zurueck—uebernehmen Familienweinberge, eroeffnen kleine Geschaefte, setzen auf die ruhige Anziehungskraft des Dorfes. Ihre Geschichten beginnen gerade erst.",
+          "**Die Terrassen brauchen staendige Arbeit**. Jedes Jahr bringt Reparaturen—Mauern, die sich verschoben haben, Draenagen, die versagten, die endlose Wartung, die die Landschaft lebensfaehig haelt. Die Geschichten von Einsturz und Wiederaufbau gehen weiter.",
+          "**Der Wein entwickelt sich**. Der Klimawandel veraendert, was gut waechst. Winzer passen sich an—andere Sorten, anderes Timing, die Tradition modifiziert, um zu ueberleben. Die Geschichte des Corniglia-Weins wird weiter geschrieben.",
+          "**Die Touristen werden zu Figuren**. Die Besucher, die Corniglia entdecken und Jahr fuer Jahr zurueckkehren, werden Teil der Dorfgeschichte. Manche kommen seit Jahrzehnten. Ihre Beharrlichkeit spiegelt die des Dorfes."
+        ],
+        "fr": [
+          "**Les jeunes reviennent**. Apres des decennies d'exode, certains jeunes reviennent a Corniglia—reprenant les vignobles familiaux, ouvrant de petits commerces, pariant sur l'attrait tranquille du village. Leurs histoires ne font que commencer.",
+          "**Les terrasses necessitent un travail constant**. Chaque annee apporte des reparations—des murs qui ont bouge, des drainages qui ont echoue, l'entretien sans fin qui garde le paysage viable. Les histoires d'effondrement et de reconstruction continuent.",
+          "**Le vin evolue**. Le changement climatique modifie ce qui pousse bien. Les vignerons s'adaptent—differentes varietes, different timing, la tradition modifiee pour survivre. L'histoire du vin de Corniglia continue d'etre ecrite.",
+          "**Les touristes deviennent des personnages**. Les visiteurs qui decouvrent Corniglia et reviennent annee apres annee font partie de l'histoire du village. Certains viennent depuis des decennies. Leur perseverance reflete celle du village."
+        ],
+        "it": [
+          "**I giovani tornano**. Dopo decenni di esodo, alcuni giovani stanno tornando a Corniglia—rilevando vigneti di famiglia, aprendo piccole attivita, scommettendo sul fascino tranquillo del borgo. Le loro storie stanno appena iniziando.",
+          "**Le terrazze richiedono lavoro costante**. Ogni anno porta riparazioni—muri che si sono spostati, drenaggi che hanno ceduto, la manutenzione infinita che mantiene il paesaggio viabile. Le storie di crolli e ricostruzioni continuano.",
+          "**Il vino evolve**. Il cambiamento climatico sta modificando cosa cresce bene. I viticoltori si adattano—varieta diverse, tempistiche diverse, la tradizione modificata per sopravvivere. La storia del vino di Corniglia continua a essere scritta.",
+          "**I turisti diventano personaggi**. I visitatori che scoprono Corniglia e tornano anno dopo anno diventano parte della storia del borgo. Alcuni vengono da decenni. La loro perseveranza rispecchia quella del borgo."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "The Evening Terrace",
-          "category": "Daily Life",
+          "name": {
+            "en": "The Evening Terrace",
+            "de": "Die Abendterrasse",
+            "fr": "La terrasse du soir",
+            "it": "La terrazza serale"
+          },
+          "category": {
+            "en": "Daily Life",
+            "de": "Alltagsleben",
+            "fr": "Vie quotidienne",
+            "it": "Vita quotidiana"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the day-trippers descend the stairs and Corniglia belongs to its residents again.",
-          "description": "Around 5pm, the village transforms. The day-trippers—who arrived sweating from the stairs, photographed quickly, and left—are gone. The terraces fill with residents taking evening air. Wine appears. Conversations resume. The village becomes what it is when no one is watching.",
-          "giuliaComment": "I live for evenings in Corniglia. The peace isn't imposed—it's natural. We're not being quiet for anyone. We're just being ourselves, in a place the tourists have left for the day.",
-          "signature": "When the village exhales"
+          "intro": {
+            "en": "When the day-trippers descend the stairs and Corniglia belongs to its residents again.",
+            "de": "Wenn die Tagesausfluegler die Treppe hinuntersteigen und Corniglia wieder seinen Bewohnern gehoert.",
+            "fr": "Quand les excursionnistes descendent les escaliers et que Corniglia appartient a nouveau a ses residents.",
+            "it": "Quando i gitanti scendono le scale e Corniglia appartiene di nuovo ai suoi residenti."
+          },
+          "description": {
+            "en": "Around 5pm, the village transforms. The day-trippers—who arrived sweating from the stairs, photographed quickly, and left—are gone. The terraces fill with residents taking evening air. Wine appears. Conversations resume. The village becomes what it is when no one is watching.",
+            "de": "Gegen 17 Uhr verwandelt sich das Dorf. Die Tagesausfluegler—die schwitzend von den Treppen ankamen, schnell fotografierten und gingen—sind weg. Die Terrassen fuellen sich mit Bewohnern, die die Abendluft geniessen. Wein erscheint. Gespraeche werden fortgesetzt. Das Dorf wird, was es ist, wenn niemand zuschaut.",
+            "fr": "Vers 17h, le village se transforme. Les excursionnistes—qui sont arrives en sueur des escaliers, ont photographie rapidement et sont partis—ne sont plus la. Les terrasses se remplissent de residents qui prennent l'air du soir. Le vin apparait. Les conversations reprennent. Le village devient ce qu'il est quand personne ne regarde.",
+            "it": "Verso le 17, il borgo si trasforma. I gitanti—che erano arrivati sudati dalle scale, avevano fotografato rapidamente e se n'erano andati—non ci sono piu. Le terrazze si riempiono di residenti che prendono l'aria della sera. Appare il vino. Le conversazioni riprendono. Il borgo diventa cio che e quando nessuno guarda."
+          },
+          "giuliaComment": {
+            "en": "I live for evenings in Corniglia. The peace isn't imposed—it's natural. We're not being quiet for anyone. We're just being ourselves, in a place the tourists have left for the day.",
+            "de": "Ich lebe fuer die Abende in Corniglia. Die Ruhe ist nicht auferlegt—sie ist natuerlich. Wir sind nicht fuer irgendjemanden still. Wir sind einfach wir selbst, an einem Ort, den die Touristen fuer den Tag verlassen haben.",
+            "fr": "Je vis pour les soirs a Corniglia. La paix n'est pas imposee—elle est naturelle. Nous ne sommes pas silencieux pour quelqu'un. Nous sommes simplement nous-memes, dans un endroit que les touristes ont quitte pour la journee.",
+            "it": "Vivo per le sere a Corniglia. La pace non e imposta—e naturale. Non stiamo zitti per qualcuno. Siamo semplicemente noi stessi, in un posto che i turisti hanno lasciato per il giorno."
+          },
+          "signature": {
+            "en": "When the village exhales",
+            "de": "Wenn das Dorf ausatmet",
+            "fr": "Quand le village expire",
+            "it": "Quando il borgo respira"
+          }
         },
         {
           "id": 5,
-          "name": "The Harvest Table",
-          "category": "Seasonal Rhythm",
+          "name": {
+            "en": "The Harvest Table",
+            "de": "Der Erntetisch",
+            "fr": "La table de la vendange",
+            "it": "La tavola della vendemmia"
+          },
+          "category": {
+            "en": "Seasonal Rhythm",
+            "de": "Jahreszeitlicher Rhythmus",
+            "fr": "Rythme saisonnier",
+            "it": "Ritmo stagionale"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the work is done and everyone gathers—the meal that makes the labor worthwhile.",
-          "description": "After the vendemmia, Corniglia gathers. Long tables appear in courtyards. Food that was prepared during the harvest—when no one had time to eat properly—is finally served. Wine from the previous year is opened. The community that worked together now eats together.",
-          "giuliaComment": "The harvest dinner is when I understand why people stayed here all these centuries. The shared labor, the shared meal, the feeling that the land provided and we were wise enough to work it. That's Corniglia.",
-          "signature": "Where work becomes celebration"
+          "intro": {
+            "en": "When the work is done and everyone gathers—the meal that makes the labor worthwhile.",
+            "de": "Wenn die Arbeit getan ist und alle zusammenkommen—die Mahlzeit, die die Muehe lohnenswert macht.",
+            "fr": "Quand le travail est fini et que tout le monde se rassemble—le repas qui rend le labeur digne.",
+            "it": "Quando il lavoro e finito e tutti si riuniscono—il pasto che rende la fatica degna."
+          },
+          "description": {
+            "en": "After the vendemmia, Corniglia gathers. Long tables appear in courtyards. Food that was prepared during the harvest—when no one had time to eat properly—is finally served. Wine from the previous year is opened. The community that worked together now eats together.",
+            "de": "Nach der Vendemmia versammelt sich Corniglia. Lange Tische erscheinen in Hoefen. Essen, das waehrend der Ernte vorbereitet wurde—als niemand Zeit hatte, richtig zu essen—wird endlich serviert. Wein vom Vorjahr wird geoeffnet. Die Gemeinschaft, die zusammen arbeitete, isst jetzt zusammen.",
+            "fr": "Apres la vendemmia, Corniglia se rassemble. De longues tables apparaissent dans les cours. La nourriture preparee pendant la vendange—quand personne n'avait le temps de manger correctement—est enfin servie. Le vin de l'annee precedente est ouvert. La communaute qui a travaille ensemble mange maintenant ensemble.",
+            "it": "Dopo la vendemmia, Corniglia si riunisce. Lunghi tavoli appaiono nei cortili. Il cibo preparato durante la vendemmia—quando nessuno aveva tempo di mangiare come si deve—viene finalmente servito. Si apre il vino dell'anno precedente. La comunita che ha lavorato insieme ora mangia insieme."
+          },
+          "giuliaComment": {
+            "en": "The harvest dinner is when I understand why people stayed here all these centuries. The shared labor, the shared meal, the feeling that the land provided and we were wise enough to work it. That's Corniglia.",
+            "de": "Das Ernteessen ist, wenn ich verstehe, warum Menschen all diese Jahrhunderte hier geblieben sind. Die geteilte Arbeit, die geteilte Mahlzeit, das Gefuehl, dass das Land gab und wir weise genug waren, es zu bearbeiten. Das ist Corniglia.",
+            "fr": "Le diner de la vendange est quand je comprends pourquoi les gens sont restes ici tous ces siecles. Le travail partage, le repas partage, le sentiment que la terre a fourni et que nous avons ete assez sages pour la travailler. C'est ca Corniglia.",
+            "it": "La cena della vendemmia e quando capisco perche la gente e rimasta qui tutti questi secoli. Il lavoro condiviso, il pasto condiviso, la sensazione che la terra ha dato e noi siamo stati abbastanza saggi da lavorarla. Questo e Corniglia."
+          },
+          "signature": {
+            "en": "Where work becomes celebration",
+            "de": "Wo Arbeit zur Feier wird",
+            "fr": "Ou le travail devient celebration",
+            "it": "Dove il lavoro diventa festa"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Stories That Stay",
-          "quote": "Corniglia's stories don't reach guidebooks. They're told in dialect, over wine, in kitchens where outsiders rarely sit. The village protects its narratives not from secrecy but from scale—some stories are meant for small audiences."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Stories That Stay",
+            "de": "Die Geschichten, die bleiben",
+            "fr": "Les histoires qui restent",
+            "it": "Le storie che restano"
+          },
+          "quote": {
+            "en": "Corniglia's stories don't reach guidebooks. They're told in dialect, over wine, in kitchens where outsiders rarely sit. The village protects its narratives not from secrecy but from scale—some stories are meant for small audiences.",
+            "de": "Corniglias Geschichten erreichen keine Reisefuehrer. Sie werden im Dialekt erzaehlt, bei Wein, in Kuechen, wo Aussenseiter selten sitzen. Das Dorf schuetzt seine Erzaehlungen nicht aus Geheimhaltung, sondern vor Massstab—manche Geschichten sind fuer kleine Zuhoererschaften gedacht.",
+            "fr": "Les histoires de Corniglia n'atteignent pas les guides. Elles sont racontees en dialecte, autour du vin, dans des cuisines ou les etrangers s'assoient rarement. Le village protege ses recits non par secret mais par echelle—certaines histoires sont destinees a de petits publics.",
+            "it": "Le storie di Corniglia non raggiungono le guide. Sono raccontate in dialetto, davanti al vino, in cucine dove gli estranei raramente siedono. Il borgo protegge le sue narrazioni non per segretezza ma per scala—alcune storie sono destinate a piccoli pubblici."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Ongoing Story",
-      "content": [
-        "Corniglia's stories are not museum pieces—they're living narratives that continue with every harvest, every repair, every young person who decides to stay or leave.",
-        "The village that seems timeless is actually constantly adapting—to weather, to economics, to the tourism that has changed every Cinque Terre village. What remains constant is the land: the terraces, the vines, the stone walls that outlast the people who built them.",
-        "Come with patience. Listen more than you photograph. The stories here are quieter, but they're deeper."
-      ],
+      "title": {
+        "en": "The Ongoing Story",
+        "de": "Die fortlaufende Geschichte",
+        "fr": "L'histoire en cours",
+        "it": "La storia in corso"
+      },
+      "content": {
+        "en": [
+          "Corniglia's stories are not museum pieces—they're living narratives that continue with every harvest, every repair, every young person who decides to stay or leave.",
+          "The village that seems timeless is actually constantly adapting—to weather, to economics, to the tourism that has changed every Cinque Terre village. What remains constant is the land: the terraces, the vines, the stone walls that outlast the people who built them.",
+          "Come with patience. Listen more than you photograph. The stories here are quieter, but they're deeper."
+        ],
+        "de": [
+          "Corniglias Geschichten sind keine Museumsstuecke—sie sind lebendige Erzaehlungen, die mit jeder Ernte, jeder Reparatur, jedem jungen Menschen weitergehen, der entscheidet zu bleiben oder zu gehen.",
+          "Das Dorf, das zeitlos erscheint, passt sich tatsaechlich staendig an—an das Wetter, an die Wirtschaft, an den Tourismus, der jedes Cinque Terre-Dorf veraendert hat. Was konstant bleibt, ist das Land: die Terrassen, die Reben, die Steinmauern, die die Menschen ueberdauern, die sie gebaut haben.",
+          "Kommen Sie mit Geduld. Hoeren Sie mehr zu, als Sie fotografieren. Die Geschichten hier sind leiser, aber sie sind tiefer."
+        ],
+        "fr": [
+          "Les histoires de Corniglia ne sont pas des pieces de musee—ce sont des recits vivants qui continuent avec chaque recolte, chaque reparation, chaque jeune personne qui decide de rester ou de partir.",
+          "Le village qui semble intemporel s'adapte en fait constamment—au temps, a l'economie, au tourisme qui a change chaque village des Cinque Terre. Ce qui reste constant, c'est la terre: les terrasses, les vignes, les murs de pierre qui survivent aux gens qui les ont construits.",
+          "Venez avec patience. Ecoutez plus que vous ne photographiez. Les histoires ici sont plus discretes, mais elles sont plus profondes."
+        ],
+        "it": [
+          "Le storie di Corniglia non sono pezzi da museo—sono narrazioni viventi che continuano con ogni raccolto, ogni riparazione, ogni giovane persona che decide di restare o partire.",
+          "Il borgo che sembra senza tempo in realta si adatta costantemente—al clima, all'economia, al turismo che ha cambiato ogni borgo delle Cinque Terre. Cio che rimane costante e la terra: le terrazze, le viti, i muri di pietra che sopravvivono alle persone che li hanno costruiti.",
+          "Vieni con pazienza. Ascolta piu di quanto fotografi. Le storie qui sono piu silenziose, ma sono piu profonde."
+        ]
+      },
       "buttons": [
-        { "text": "Cultural Insights", "url": "/en/corniglia/insights", "variant": "primary" },
-        { "text": "Plan Your Stay", "url": "/en/corniglia/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Cultural Insights",
+            "de": "Kulturelle Einblicke",
+            "fr": "Apercu culturel",
+            "it": "Approfondimenti culturali"
+          },
+          "url": {
+            "en": "/en/corniglia/insights",
+            "de": "/de/corniglia/insights",
+            "fr": "/fr/corniglia/insights",
+            "it": "/it/corniglia/insights"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Plan Your Stay",
+            "de": "Planen Sie Ihren Aufenthalt",
+            "fr": "Planifiez votre sejour",
+            "it": "Pianifica il tuo soggiorno"
+          },
+          "url": {
+            "en": "/en/corniglia/hotels",
+            "de": "/de/corniglia/hotels",
+            "fr": "/fr/corniglia/hotels",
+            "it": "/it/corniglia/hotels"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T15:00:00.000Z"
+  "updated_at": "2026-01-07T16:00:00.000Z"
 }

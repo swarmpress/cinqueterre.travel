@@ -7,36 +7,90 @@
     "it": "/it/manarola/faq"
   },
   "title": {
-    "en": "Manarola FAQ | Cinque Terre Dispatch"
+    "en": "Manarola FAQ | Cinque Terre Dispatch",
+    "de": "Manarola FAQ | Cinque Terre Dispatch",
+    "fr": "FAQ Manarola | Cinque Terre Dispatch",
+    "it": "FAQ Manarola | Cinque Terre Dispatch"
   },
   "page_type": "faq",
   "seo": {
     "title": {
-      "en": "Manarola FAQ | Cinque Terre Dispatch"
+      "en": "Manarola FAQ | Cinque Terre Dispatch",
+      "de": "Manarola FAQ | Cinque Terre Dispatch",
+      "fr": "FAQ Manarola | Cinque Terre Dispatch",
+      "it": "FAQ Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The questions every visitor asks about Manarola, answered by someone who lives here. Practical advice, honest opinions, and the local perspective on what actually matters."
+      "en": "The questions every visitor asks about Manarola, answered by someone who lives here. Practical advice, honest opinions, and the local perspective on what actually matters.",
+      "de": "Die Fragen, die jeder Besucher uber Manarola stellt, beantwortet von jemandem, der hier lebt. Praktische Tipps, ehrliche Meinungen und die lokale Perspektive auf das, was wirklich zahlt.",
+      "fr": "Les questions que chaque visiteur pose sur Manarola, repondues par quelqu'un qui y vit. Conseils pratiques, opinions honnetes et perspective locale sur ce qui compte vraiment.",
+      "it": "Le domande che ogni visitatore fa su Manarola, risposte da chi ci vive. Consigli pratici, opinioni oneste e la prospettiva locale su cio che conta davvero."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Questions<br/>Everyone Asks",
-      "subtitle": "After years of answering the same questions from visitors, patterns emerge. Some questions have simple answers. Others require context. Here's what you need to know before—and during—your time in Manarola.",
-      "badge": "FAQ",
+      "title": {
+        "en": "The Questions<br/>Everyone Asks",
+        "de": "Die Fragen,<br/>die alle stellen",
+        "fr": "Les questions<br/>que tous posent",
+        "it": "Le domande<br/>che tutti fanno"
+      },
+      "subtitle": {
+        "en": "After years of answering the same questions from visitors, patterns emerge. Some questions have simple answers. Others require context. Here's what you need to know before—and during—your time in Manarola.",
+        "de": "Nach Jahren, in denen ich dieselben Fragen von Besuchern beantworte, zeigen sich Muster. Manche Fragen haben einfache Antworten. Andere erfordern Kontext. Hier ist, was Sie vor und wahrend Ihrer Zeit in Manarola wissen mussen.",
+        "fr": "Apres des annees a repondre aux memes questions des visiteurs, des schemas emergent. Certaines questions ont des reponses simples. D'autres necessitent du contexte. Voici ce que vous devez savoir avant et pendant votre sejour a Manarola.",
+        "it": "Dopo anni a rispondere alle stesse domande dei visitatori, emergono degli schemi. Alcune domande hanno risposte semplici. Altre richiedono contesto. Ecco cosa dovete sapere prima e durante il vostro soggiorno a Manarola."
+      },
+      "badge": {
+        "en": "FAQ",
+        "de": "FAQ",
+        "fr": "FAQ",
+        "it": "FAQ"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Honest Answers",
-      "quote": "Most FAQs tell you what you want to hear. This one tells you what I've learned from watching thousands of visitors succeed—or struggle—in Manarola. The truth serves you better than marketing.",
-      "content": [
-        "**The best time to visit?** Depends on what you want. Swimming: July-September. Hiking: April-June, September-October. Avoiding crowds: November-March. There's no universal 'best'—only what's best for your priorities.",
-        "**How long to stay?** One day is enough to see the village. Two days is enough to feel it. Longer is better if you want to slow down, which is the point.",
-        "**Is it expensive?** More expensive than inland Italy. Less expensive than Portofino or Positano. Budget €100-150/day minimum for accommodation, meals, and activities.",
-        "**Is it crowded?** Summer days, yes—overwhelmingly. Summer evenings, less so. Shoulder seasons, manageable. Winter, quiet. The crowds follow the cruise ships and day-trippers; they leave by sunset."
-      ]
+      "badge": {
+        "en": "The Honest Answers",
+        "de": "Die ehrlichen Antworten",
+        "fr": "Les reponses honnetes",
+        "it": "Le risposte oneste"
+      },
+      "quote": {
+        "en": "Most FAQs tell you what you want to hear. This one tells you what I've learned from watching thousands of visitors succeed—or struggle—in Manarola. The truth serves you better than marketing.",
+        "de": "Die meisten FAQs sagen Ihnen, was Sie horen wollen. Diese hier sagt Ihnen, was ich gelernt habe, als ich Tausende von Besuchern in Manarola erfolgreich oder kampfend erlebte. Die Wahrheit dient Ihnen besser als Marketing.",
+        "fr": "La plupart des FAQ vous disent ce que vous voulez entendre. Celle-ci vous dit ce que j'ai appris en observant des milliers de visiteurs reussir ou lutter a Manarola. La verite vous sert mieux que le marketing.",
+        "it": "La maggior parte delle FAQ vi dice quello che volete sentire. Questa vi dice cosa ho imparato osservando migliaia di visitatori avere successo o difficolta a Manarola. La verita vi serve meglio del marketing."
+      },
+      "content": {
+        "en": [
+          "**The best time to visit?** Depends on what you want. Swimming: July-September. Hiking: April-June, September-October. Avoiding crowds: November-March. There's no universal 'best'—only what's best for your priorities.",
+          "**How long to stay?** One day is enough to see the village. Two days is enough to feel it. Longer is better if you want to slow down, which is the point.",
+          "**Is it expensive?** More expensive than inland Italy. Less expensive than Portofino or Positano. Budget 100-150 euros/day minimum for accommodation, meals, and activities.",
+          "**Is it crowded?** Summer days, yes—overwhelmingly. Summer evenings, less so. Shoulder seasons, manageable. Winter, quiet. The crowds follow the cruise ships and day-trippers; they leave by sunset."
+        ],
+        "de": [
+          "**Die beste Reisezeit?** Hangt davon ab, was Sie wollen. Schwimmen: Juli-September. Wandern: April-Juni, September-Oktober. Menschenmengen vermeiden: November-Marz. Es gibt kein universelles 'am besten' - nur das Beste fur Ihre Prioritaten.",
+          "**Wie lange bleiben?** Ein Tag reicht, um das Dorf zu sehen. Zwei Tage reichen, um es zu fuhlen. Langer ist besser, wenn Sie entschleunigen wollen, und darum geht es.",
+          "**Ist es teuer?** Teurer als das italienische Binnenland. Gunstiger als Portofino oder Positano. Rechnen Sie mit mindestens 100-150 Euro/Tag fur Unterkunft, Mahlzeiten und Aktivitaten.",
+          "**Ist es voll?** Sommertage, ja - uberwaltigend. Sommerabende, weniger. Nebensaison, uberschaubar. Winter, ruhig. Die Menschenmassen folgen den Kreuzfahrtschiffen und Tagesausfloglern; sie verschwinden bei Sonnenuntergang."
+        ],
+        "fr": [
+          "**Le meilleur moment pour visiter ?** Cela depend de ce que vous voulez. Baignade : juillet-septembre. Randonnee : avril-juin, septembre-octobre. Eviter les foules : novembre-mars. Il n'y a pas de 'meilleur' universel - seulement ce qui convient a vos priorites.",
+          "**Combien de temps rester ?** Un jour suffit pour voir le village. Deux jours suffisent pour le ressentir. Plus long est preferable si vous voulez ralentir, et c'est bien le but.",
+          "**Est-ce cher ?** Plus cher que l'interieur de l'Italie. Moins cher que Portofino ou Positano. Prevoyez au minimum 100-150 euros/jour pour l'hebergement, les repas et les activites.",
+          "**Y a-t-il foule ?** En ete oui - enormement. Les soirs d'ete, moins. En moyenne saison, gerable. En hiver, calme. Les foules suivent les croisieres et les excursionnistes ; ils partent au coucher du soleil."
+        ],
+        "it": [
+          "**Il momento migliore per visitare?** Dipende da cosa volete. Nuoto: luglio-settembre. Escursioni: aprile-giugno, settembre-ottobre. Evitare la folla: novembre-marzo. Non esiste un 'migliore' universale - solo cio che e meglio per le vostre priorita.",
+          "**Quanto restare?** Un giorno basta per vedere il borgo. Due giorni bastano per sentirlo. Di piu e meglio se volete rallentare, che e proprio il punto.",
+          "**E costoso?** Piu costoso dell'entroterra italiano. Meno costoso di Portofino o Positano. Prevedete almeno 100-150 euro/giorno per alloggio, pasti e attivita.",
+          "**E affollato?** D'estate si - enormemente. Le sere d'estate, meno. Nelle mezze stagioni, gestibile. In inverno, tranquillo. La folla segue le navi da crociera e gli escursionisti giornalieri; se ne vanno al tramonto."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Can I drive to Manarola?",
-          "category": "Getting Here",
+          "name": {
+            "en": "Can I drive to Manarola?",
+            "de": "Kann ich mit dem Auto nach Manarola fahren?",
+            "fr": "Peut-on venir en voiture a Manarola ?",
+            "it": "Posso arrivare in auto a Manarola?"
+          },
+          "category": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Acces",
+            "it": "Come arrivare"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Technically yes. Practically, the train is better.",
-          "description": "You can drive to a parking lot above the village, but spaces are limited, expensive (€15-25/day), and fill early in summer. The village itself is pedestrian-only—no vehicles. From the parking lot, you still walk down steep paths. Most visitors find the train far more convenient.",
-          "giuliaComment": "Leave the car in La Spezia. The train takes 8 minutes, costs €4, and drops you directly in the village. The parking lot is a 15-minute walk from where you actually want to be. Save yourself the frustration.",
-          "signature": "When simplicity beats stubbornness"
+          "intro": {
+            "en": "Technically yes. Practically, the train is better.",
+            "de": "Technisch ja. Praktisch ist der Zug besser.",
+            "fr": "Techniquement oui. En pratique, le train est preferable.",
+            "it": "Tecnicamente si. In pratica, il treno e meglio."
+          },
+          "description": {
+            "en": "You can drive to a parking lot above the village, but spaces are limited, expensive (15-25 euros/day), and fill early in summer. The village itself is pedestrian-only—no vehicles. From the parking lot, you still walk down steep paths. Most visitors find the train far more convenient.",
+            "de": "Sie konnen zu einem Parkplatz oberhalb des Dorfes fahren, aber die Platze sind begrenzt, teuer (15-25 Euro/Tag) und im Sommer fruh belegt. Das Dorf selbst ist Fusgangerzone - keine Fahrzeuge. Vom Parkplatz gehen Sie trotzdem steile Wege hinunter. Die meisten Besucher finden den Zug viel bequemer.",
+            "fr": "Vous pouvez conduire jusqu'a un parking au-dessus du village, mais les places sont limitees, cheres (15-25 euros/jour) et se remplissent tot en ete. Le village lui-meme est pietonne - pas de vehicules. Depuis le parking, vous devez encore descendre des chemins raides. La plupart des visiteurs trouvent le train bien plus pratique.",
+            "it": "Potete guidare fino a un parcheggio sopra il borgo, ma i posti sono limitati, costosi (15-25 euro/giorno) e si riempiono presto in estate. Il borgo stesso e pedonale - niente veicoli. Dal parcheggio dovete comunque scendere per sentieri ripidi. La maggior parte dei visitatori trova il treno molto piu comodo."
+          },
+          "giuliaComment": {
+            "en": "Leave the car in La Spezia. The train takes 8 minutes, costs 4 euros, and drops you directly in the village. The parking lot is a 15-minute walk from where you actually want to be. Save yourself the frustration.",
+            "de": "Lassen Sie das Auto in La Spezia. Der Zug dauert 8 Minuten, kostet 4 Euro und bringt Sie direkt ins Dorf. Der Parkplatz ist 15 Gehminuten von dort entfernt, wo Sie eigentlich sein wollen. Ersparen Sie sich den Frust.",
+            "fr": "Laissez la voiture a La Spezia. Le train prend 8 minutes, coute 4 euros et vous depose directement dans le village. Le parking est a 15 minutes a pied de la ou vous voulez vraiment etre. Epargnez-vous la frustration.",
+            "it": "Lasciate l'auto a La Spezia. Il treno impiega 8 minuti, costa 4 euro e vi lascia direttamente nel borgo. Il parcheggio e a 15 minuti a piedi da dove volete effettivamente essere. Risparmiatevi la frustrazione."
+          },
+          "signature": {
+            "en": "When simplicity beats stubbornness",
+            "de": "Wenn Einfachheit Sturheit schlagt",
+            "fr": "Quand la simplicite l'emporte sur l'entetement",
+            "it": "Quando la semplicita batte la testardaggine"
+          }
         },
         {
           "id": 2,
-          "name": "Do I need reservations for restaurants?",
-          "category": "Dining",
+          "name": {
+            "en": "Do I need reservations for restaurants?",
+            "de": "Brauche ich Restaurantreservierungen?",
+            "fr": "Faut-il reserver les restaurants ?",
+            "it": "Devo prenotare i ristoranti?"
+          },
+          "category": {
+            "en": "Dining",
+            "de": "Restaurants",
+            "fr": "Restauration",
+            "it": "Ristoranti"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "For dinner in summer, absolutely. For lunch, usually not.",
-          "description": "The good restaurants have limited seating and fill quickly during peak season. Dinner reservations for sunset tables should be made 2-3 days ahead in summer. Lunch is more flexible—walk-ins usually find space. Off-season, reservations are helpful but not essential.",
-          "giuliaComment": "The sunset tables at Il Porticciolo and La Scogliera book up first. If you want that view, plan ahead. For a regular dinner at a normal hour, you can usually manage with a same-day call. But walking in without reservations in July is a gamble.",
-          "signature": "When planning enables spontaneity"
+          "intro": {
+            "en": "For dinner in summer, absolutely. For lunch, usually not.",
+            "de": "Fur das Abendessen im Sommer, unbedingt. Fur das Mittagessen, normalerweise nicht.",
+            "fr": "Pour le diner en ete, absolument. Pour le dejeuner, generalement non.",
+            "it": "Per cena in estate, assolutamente si. Per pranzo, di solito no."
+          },
+          "description": {
+            "en": "The good restaurants have limited seating and fill quickly during peak season. Dinner reservations for sunset tables should be made 2-3 days ahead in summer. Lunch is more flexible—walk-ins usually find space. Off-season, reservations are helpful but not essential.",
+            "de": "Die guten Restaurants haben begrenzte Platze und fullen sich schnell in der Hochsaison. Reservierungen fur Tische mit Sonnenuntergangsblick sollten im Sommer 2-3 Tage im Voraus gemacht werden. Mittags ist es flexibler - spontane Gaste finden meist Platz. Ausserhalb der Saison sind Reservierungen hilfreich, aber nicht unbedingt notwendig.",
+            "fr": "Les bons restaurants ont des places limitees et se remplissent vite en haute saison. Les reservations pour le diner avec vue sur le coucher de soleil doivent etre faites 2-3 jours a l'avance en ete. Le dejeuner est plus flexible - on trouve generalement de la place sans reservation. Hors saison, les reservations sont utiles mais pas indispensables.",
+            "it": "I buoni ristoranti hanno posti limitati e si riempiono velocemente in alta stagione. Le prenotazioni per cena con tavoli al tramonto dovrebbero essere fatte 2-3 giorni prima in estate. Il pranzo e piu flessibile - chi arriva senza prenotazione di solito trova posto. Fuori stagione, le prenotazioni sono utili ma non essenziali."
+          },
+          "giuliaComment": {
+            "en": "The sunset tables at Il Porticciolo and La Scogliera book up first. If you want that view, plan ahead. For a regular dinner at a normal hour, you can usually manage with a same-day call. But walking in without reservations in July is a gamble.",
+            "de": "Die Sonnenuntergangstische im Il Porticciolo und La Scogliera sind zuerst ausgebucht. Wenn Sie diese Aussicht wollen, planen Sie voraus. Fur ein normales Abendessen zu normaler Stunde reicht oft ein Anruf am selben Tag. Aber im Juli ohne Reservierung reinzugehen ist ein Glucksspiel.",
+            "fr": "Les tables avec vue sur le coucher de soleil a Il Porticciolo et La Scogliera sont reservees en premier. Si vous voulez cette vue, planifiez a l'avance. Pour un diner normal a une heure normale, un appel le jour meme suffit generalement. Mais entrer sans reservation en juillet est un pari.",
+            "it": "I tavoli al tramonto a Il Porticciolo e La Scogliera si prenotano per primi. Se volete quella vista, pianificate in anticipo. Per una cena normale a un'ora normale, di solito basta una chiamata il giorno stesso. Ma entrare senza prenotazione a luglio e un azzardo."
+          },
+          "signature": {
+            "en": "When planning enables spontaneity",
+            "de": "Wenn Planung Spontaneitat ermoglicht",
+            "fr": "Quand la planification permet la spontaneite",
+            "it": "Quando la pianificazione permette la spontaneita"
+          }
         },
         {
           "id": 3,
-          "name": "Is the Via dell'Amore open?",
-          "category": "Hiking",
+          "name": {
+            "en": "Is the Via dell'Amore open?",
+            "de": "Ist die Via dell'Amore geoeffnet?",
+            "fr": "La Via dell'Amore est-elle ouverte ?",
+            "it": "La Via dell'Amore e aperta?"
+          },
+          "category": {
+            "en": "Hiking",
+            "de": "Wandern",
+            "fr": "Randonnee",
+            "it": "Escursioni"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Check current conditions—it has been closed for years.",
-          "description": "The Via dell'Amore connecting Manarola to Riomaggiore has been closed since 2012 due to rockslide damage. Repairs have been ongoing. Sections have reopened partially, but full restoration keeps getting delayed. Check the Cinque Terre Park website for current status before assuming you can walk it.",
-          "giuliaComment": "I've stopped predicting when it will fully reopen. Every year there's a new target date, every year it slips. The alternative high trail (SVA 531) is harder but open. Plan for that instead and be pleasantly surprised if the Via dell'Amore happens to be accessible.",
-          "signature": "When reality trumps expectation"
+          "intro": {
+            "en": "Check current conditions—it has been closed for years.",
+            "de": "Prufen Sie die aktuellen Bedingungen - er war jahrelang geschlossen.",
+            "fr": "Verifiez les conditions actuelles - il est ferme depuis des annees.",
+            "it": "Controllate le condizioni attuali - e chiuso da anni."
+          },
+          "description": {
+            "en": "The Via dell'Amore connecting Manarola to Riomaggiore has been closed since 2012 due to rockslide damage. Repairs have been ongoing. Sections have reopened partially, but full restoration keeps getting delayed. Check the Cinque Terre Park website for current status before assuming you can walk it.",
+            "de": "Die Via dell'Amore, die Manarola mit Riomaggiore verbindet, ist seit 2012 wegen Felssturzschaden geschlossen. Reparaturen sind im Gange. Teilabschnitte wurden teilweise wiedereroeffnet, aber die vollstandige Restaurierung verzogert sich immer wieder. Prufen Sie die Website des Cinque Terre Parks fur den aktuellen Status, bevor Sie davon ausgehen, dass Sie ihn gehen konnen.",
+            "fr": "La Via dell'Amore reliant Manarola a Riomaggiore est fermee depuis 2012 en raison de glissements de terrain. Les reparations sont en cours. Des sections ont rouvert partiellement, mais la restauration complete est sans cesse reportee. Verifiez le site du Parc des Cinque Terre pour l'etat actuel avant de supposer que vous pouvez l'emprunter.",
+            "it": "La Via dell'Amore che collega Manarola a Riomaggiore e chiusa dal 2012 a causa di frane. I lavori di riparazione sono in corso. Alcune sezioni sono state parzialmente riaperte, ma il restauro completo continua a essere rimandato. Controllate il sito del Parco delle Cinque Terre per lo stato attuale prima di dare per scontato di poterla percorrere."
+          },
+          "giuliaComment": {
+            "en": "I've stopped predicting when it will fully reopen. Every year there's a new target date, every year it slips. The alternative high trail (SVA 531) is harder but open. Plan for that instead and be pleasantly surprised if the Via dell'Amore happens to be accessible.",
+            "de": "Ich habe aufgehort vorherzusagen, wann er vollstandig wiedereroeffnet wird. Jedes Jahr gibt es ein neues Zieldatum, jedes Jahr verschiebt es sich. Der alternative Hohenweg (SVA 531) ist schwieriger, aber offen. Planen Sie stattdessen damit und lassen Sie sich angenehm uberraschen, wenn die Via dell'Amore zufallig zuganglich ist.",
+            "fr": "J'ai arrete de predire quand il rouvrira completement. Chaque annee il y a une nouvelle date cible, chaque annee elle glisse. Le sentier alternatif en hauteur (SVA 531) est plus difficile mais ouvert. Prevoyez celui-la et soyez agreablement surpris si la Via dell'Amore est accessible.",
+            "it": "Ho smesso di prevedere quando riaprira completamente. Ogni anno c'e una nuova data prevista, ogni anno slitta. Il sentiero alternativo in alto (SVA 531) e piu difficile ma aperto. Pianificate quello e siate piacevolmente sorpresi se la Via dell'Amore dovesse essere accessibile."
+          },
+          "signature": {
+            "en": "When reality trumps expectation",
+            "de": "Wenn Realitat Erwartung ubertrifft",
+            "fr": "Quand la realite l'emporte sur l'attente",
+            "it": "Quando la realta supera l'aspettativa"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Tipping Question",
-          "quote": "Tipping in Italy is not expected like in America. Service charge is often included in the bill. For exceptional service, leave a few euros or round up. No one expects 20%. Pretending Italian customs are American customs helps no one."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Tipping Question",
+            "de": "Die Trinkgeldfrage",
+            "fr": "La question du pourboire",
+            "it": "La questione della mancia"
+          },
+          "quote": {
+            "en": "Tipping in Italy is not expected like in America. Service charge is often included in the bill. For exceptional service, leave a few euros or round up. No one expects 20%. Pretending Italian customs are American customs helps no one.",
+            "de": "Trinkgeld in Italien wird nicht wie in Amerika erwartet. Die Servicegebuhr ist oft in der Rechnung enthalten. Fur aussergewohnlichen Service hinterlassen Sie ein paar Euro oder runden auf. Niemand erwartet 20%. So zu tun, als waren italienische Gebrauche amerikanische, hilft niemandem.",
+            "fr": "Le pourboire en Italie n'est pas attendu comme en Amerique. Le service est souvent inclus dans l'addition. Pour un service exceptionnel, laissez quelques euros ou arrondissez. Personne n'attend 20%. Pretendre que les coutumes italiennes sont americaines n'aide personne.",
+            "it": "La mancia in Italia non e attesa come in America. Il servizio e spesso incluso nel conto. Per un servizio eccezionale, lasciate qualche euro o arrotondate. Nessuno si aspetta il 20%. Fingere che le usanze italiane siano americane non aiuta nessuno."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Questions",
-      "quote": "The questions that matter day-to-day: what to wear, where to swim, how to charge your phone when you realize you forgot your adapter.",
-      "content": [
-        "**What should I wear?** Comfortable walking shoes with grip—essential. The streets are steep and slippery when wet. Casual dress for dinner; no restaurant requires formal attire. Bring layers for temperature changes between day and evening.",
-        "**Where can I swim?** At the marina rocks, though there's no sand beach. The water is deep immediately—you jump in rather than wade. Rocky swimming requires water shoes and confidence.",
-        "**Is there ATM access?** One ATM in the village, occasionally out of cash in summer. Come with euros or backup plans. Credit cards work at most restaurants and shops but not everywhere.",
-        "**Is there WiFi?** Most accommodations and restaurants have WiFi. Coverage in the streets is spotty. Data roaming works if you have an appropriate plan. Don't count on constant connectivity."
-      ]
+      "badge": {
+        "en": "Practical Questions",
+        "de": "Praktische Fragen",
+        "fr": "Questions pratiques",
+        "it": "Domande pratiche"
+      },
+      "quote": {
+        "en": "The questions that matter day-to-day: what to wear, where to swim, how to charge your phone when you realize you forgot your adapter.",
+        "de": "Die Fragen, die im Alltag wichtig sind: was anziehen, wo schwimmen, wie das Handy aufladen, wenn Sie merken, dass Sie den Adapter vergessen haben.",
+        "fr": "Les questions qui comptent au quotidien : comment s'habiller, ou nager, comment charger son telephone quand on realise qu'on a oublie l'adaptateur.",
+        "it": "Le domande che contano giorno per giorno: come vestirsi, dove nuotare, come caricare il telefono quando vi rendete conto di aver dimenticato l'adattatore."
+      },
+      "content": {
+        "en": [
+          "**What should I wear?** Comfortable walking shoes with grip—essential. The streets are steep and slippery when wet. Casual dress for dinner; no restaurant requires formal attire. Bring layers for temperature changes between day and evening.",
+          "**Where can I swim?** At the marina rocks, though there's no sand beach. The water is deep immediately—you jump in rather than wade. Rocky swimming requires water shoes and confidence.",
+          "**Is there ATM access?** One ATM in the village, occasionally out of cash in summer. Come with euros or backup plans. Credit cards work at most restaurants and shops but not everywhere.",
+          "**Is there WiFi?** Most accommodations and restaurants have WiFi. Coverage in the streets is spotty. Data roaming works if you have an appropriate plan. Don't count on constant connectivity."
+        ],
+        "de": [
+          "**Was sollte ich anziehen?** Bequeme Laufschuhe mit Grip - unerlasslich. Die Strassen sind steil und rutschig bei Nasse. Legere Kleidung zum Abendessen; kein Restaurant verlangt formelle Kleidung. Bringen Sie Schichten fur Temperaturwechsel zwischen Tag und Abend mit.",
+          "**Wo kann ich schwimmen?** An den Felsen der Marina, obwohl es keinen Sandstrand gibt. Das Wasser ist sofort tief - Sie springen hinein statt zu waten. Felsschwimmen erfordert Wasserschuhe und Selbstvertrauen.",
+          "**Gibt es Geldautomaten?** Ein Geldautomat im Dorf, der im Sommer manchmal leer ist. Kommen Sie mit Euro oder Alternativplanen. Kreditkarten funktionieren in den meisten Restaurants und Geschaften, aber nicht uberall.",
+          "**Gibt es WLAN?** Die meisten Unterkunfte und Restaurants haben WLAN. Die Abdeckung auf den Strassen ist luckenhhaft. Datenroaming funktioniert mit entsprechendem Tarif. Rechnen Sie nicht mit standiger Konnektivitat."
+        ],
+        "fr": [
+          "**Comment s'habiller ?** Chaussures de marche confortables avec adherence - indispensable. Les rues sont raides et glissantes quand il pleut. Tenue decontractee pour le diner ; aucun restaurant n'exige de tenue formelle. Apportez des couches pour les changements de temperature entre jour et soir.",
+          "**Ou peut-on nager ?** Aux rochers de la marina, bien qu'il n'y ait pas de plage de sable. L'eau est immediatement profonde - on saute plutot qu'on ne patage. La baignade sur rochers necessite des chaussures d'eau et de la confiance.",
+          "**Y a-t-il des distributeurs ?** Un distributeur dans le village, parfois vide en ete. Venez avec des euros ou un plan B. Les cartes de credit fonctionnent dans la plupart des restaurants et boutiques mais pas partout.",
+          "**Y a-t-il du WiFi ?** La plupart des hebergements et restaurants ont le WiFi. La couverture dans les rues est inegale. L'itinerance de donnees fonctionne si vous avez un forfait adequat. Ne comptez pas sur une connectivite constante."
+        ],
+        "it": [
+          "**Come vestirsi?** Scarpe da camminata comode con grip - essenziali. Le strade sono ripide e scivolose quando piove. Abbigliamento casual per cena; nessun ristorante richiede abiti formali. Portate strati per i cambiamenti di temperatura tra giorno e sera.",
+          "**Dove si puo nuotare?** Agli scogli della marina, anche se non c'e spiaggia di sabbia. L'acqua e subito profonda - si salta dentro piuttosto che guadare. Nuotare tra gli scogli richiede scarpette da scoglio e sicurezza.",
+          "**C'e un bancomat?** Un bancomat nel borgo, occasionalmente senza contanti in estate. Venite con euro o piani alternativi. Le carte di credito funzionano nella maggior parte dei ristoranti e negozi ma non ovunque.",
+          "**C'e il WiFi?** La maggior parte degli alloggi e ristoranti ha WiFi. La copertura per le strade e discontinua. Il roaming dati funziona se avete un piano adeguato. Non contate su una connettivita costante."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,59 +292,214 @@
       "items": [
         {
           "id": 4,
-          "name": "Is Manarola accessible for wheelchairs or limited mobility?",
-          "category": "Accessibility",
+          "name": {
+            "en": "Is Manarola accessible for wheelchairs or limited mobility?",
+            "de": "Ist Manarola fur Rollstuhle oder eingeschrankte Mobilitat zuganglich?",
+            "fr": "Manarola est-il accessible aux fauteuils roulants ou a mobilite reduite ?",
+            "it": "Manarola e accessibile per sedie a rotelle o mobilita ridotta?"
+          },
+          "category": {
+            "en": "Accessibility",
+            "de": "Barrierefreiheit",
+            "fr": "Accessibilite",
+            "it": "Accessibilita"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Unfortunately, no. The village is challenging for anyone with mobility limitations.",
-          "description": "Manarola is steep stairs and uneven stones. There are no elevators, no flat paths, no wheelchair-accessible routes to most locations. The train station requires stairs. Some accommodations might have ground-floor access, but getting to them involves slopes. Monterosso offers better accessibility if that's a concern.",
-          "giuliaComment": "I wish I could say otherwise, but honesty matters more. This village was built on a cliff before accessibility was a concept. For visitors with serious mobility challenges, Manarola presents real obstacles. Monterosso is flatter and has better infrastructure.",
-          "signature": "When honesty prevents disappointment"
+          "intro": {
+            "en": "Unfortunately, no. The village is challenging for anyone with mobility limitations.",
+            "de": "Leider nein. Das Dorf ist eine Herausforderung fur jeden mit Mobilitatseinschrankungen.",
+            "fr": "Malheureusement, non. Le village est difficile pour quiconque a des limitations de mobilite.",
+            "it": "Purtroppo no. Il borgo e impegnativo per chiunque abbia limitazioni di mobilita."
+          },
+          "description": {
+            "en": "Manarola is steep stairs and uneven stones. There are no elevators, no flat paths, no wheelchair-accessible routes to most locations. The train station requires stairs. Some accommodations might have ground-floor access, but getting to them involves slopes. Monterosso offers better accessibility if that's a concern.",
+            "de": "Manarola besteht aus steilen Treppen und unebenen Steinen. Es gibt keine Aufzuge, keine flachen Wege, keine rollstuhlgerechten Routen zu den meisten Orten. Der Bahnhof erfordert Treppen. Einige Unterkunfte haben moglicherweise Erdgeschosszugang, aber der Weg dorthin fuhrt uber Steigungen. Monterosso bietet bessere Barrierefreiheit, falls das ein Anliegen ist.",
+            "fr": "Manarola est fait d'escaliers raides et de pierres inegales. Il n'y a pas d'ascenseurs, pas de chemins plats, pas d'itineraires accessibles en fauteuil roulant vers la plupart des endroits. La gare necessite des escaliers. Certains hebergements peuvent avoir un acces au rez-de-chaussee, mais y arriver implique des pentes. Monterosso offre une meilleure accessibilite si c'est une preoccupation.",
+            "it": "Manarola e fatta di scale ripide e pietre irregolari. Non ci sono ascensori, nessun percorso pianeggiante, nessun percorso accessibile in sedia a rotelle per la maggior parte dei luoghi. La stazione ferroviaria richiede scale. Alcuni alloggi potrebbero avere accesso al piano terra, ma raggiungerli comporta pendenze. Monterosso offre migliore accessibilita se e una preoccupazione."
+          },
+          "giuliaComment": {
+            "en": "I wish I could say otherwise, but honesty matters more. This village was built on a cliff before accessibility was a concept. For visitors with serious mobility challenges, Manarola presents real obstacles. Monterosso is flatter and has better infrastructure.",
+            "de": "Ich wunschte, ich konnte etwas anderes sagen, aber Ehrlichkeit ist wichtiger. Dieses Dorf wurde auf einer Klippe gebaut, bevor Barrierefreiheit ein Konzept war. Fur Besucher mit ernsthaften Mobilitatseinschrankungen stellt Manarola echte Hindernisse dar. Monterosso ist flacher und hat bessere Infrastruktur.",
+            "fr": "J'aimerais pouvoir dire le contraire, mais l'honnetete compte plus. Ce village a ete construit sur une falaise avant que l'accessibilite soit un concept. Pour les visiteurs avec de serieux problemes de mobilite, Manarola presente de vrais obstacles. Monterosso est plus plat et a une meilleure infrastructure.",
+            "it": "Vorrei poter dire diversamente, ma l'onesta conta di piu. Questo borgo e stato costruito su una scogliera prima che l'accessibilita fosse un concetto. Per i visitatori con serie difficolta di mobilita, Manarola presenta veri ostacoli. Monterosso e piu pianeggiante e ha infrastrutture migliori."
+          },
+          "signature": {
+            "en": "When honesty prevents disappointment",
+            "de": "Wenn Ehrlichkeit Enttauschung verhindert",
+            "fr": "Quand l'honnetete previent la deception",
+            "it": "Quando l'onesta previene la delusione"
+          }
         },
         {
           "id": 5,
-          "name": "What about the famous Manarola photo?",
-          "category": "Photography",
+          "name": {
+            "en": "What about the famous Manarola photo?",
+            "de": "Was ist mit dem beruhmten Manarola-Foto?",
+            "fr": "Et la celebre photo de Manarola ?",
+            "it": "E la famosa foto di Manarola?"
+          },
+          "category": {
+            "en": "Photography",
+            "de": "Fotografie",
+            "fr": "Photographie",
+            "it": "Fotografia"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The viewpoint is real, accessible, and crowded at sunset. Plan accordingly.",
-          "description": "The classic Manarola shot—colored houses stacked against the cliff—comes from a viewpoint near the harbor on the way to Corniglia. The spot is marked; you can't miss it. Sunset brings the best light and the biggest crowds. For fewer people, come at sunrise or accept a shoulder in your frame.",
-          "giuliaComment": "Everyone wants that shot. I understand—it's beautiful. But consider: the same view at 7am has no one blocking it. The light is softer, the mood is quieter, and you might see the village as it actually wakes up. Sometimes the unpopular choice is the better choice.",
-          "signature": "When timing changes everything"
+          "intro": {
+            "en": "The viewpoint is real, accessible, and crowded at sunset. Plan accordingly.",
+            "de": "Der Aussichtspunkt ist real, zuganglich und bei Sonnenuntergang uberlaufen. Planen Sie entsprechend.",
+            "fr": "Le point de vue est reel, accessible et bonde au coucher du soleil. Planifiez en consequence.",
+            "it": "Il punto panoramico e reale, accessibile e affollato al tramonto. Pianificate di conseguenza."
+          },
+          "description": {
+            "en": "The classic Manarola shot—colored houses stacked against the cliff—comes from a viewpoint near the harbor on the way to Corniglia. The spot is marked; you can't miss it. Sunset brings the best light and the biggest crowds. For fewer people, come at sunrise or accept a shoulder in your frame.",
+            "de": "Das klassische Manarola-Foto - farbige Hauser gestapelt gegen die Klippe - kommt von einem Aussichtspunkt in der Nahe des Hafens auf dem Weg nach Corniglia. Der Ort ist markiert; Sie konnen ihn nicht verfehlen. Der Sonnenuntergang bringt das beste Licht und die grossten Menschenmengen. Fur weniger Menschen kommen Sie bei Sonnenaufgang oder akzeptieren Sie eine Schulter im Bild.",
+            "fr": "La photo classique de Manarola - maisons colorees empilees contre la falaise - vient d'un point de vue pres du port sur le chemin de Corniglia. L'endroit est marque ; vous ne pouvez pas le manquer. Le coucher de soleil apporte la meilleure lumiere et les plus grandes foules. Pour moins de monde, venez au lever du soleil ou acceptez une epaule dans votre cadre.",
+            "it": "La classica foto di Manarola - case colorate impilate contro la scogliera - viene da un punto panoramico vicino al porto sulla strada per Corniglia. Il punto e segnalato; non potete mancarlo. Il tramonto porta la luce migliore e le folle piu grandi. Per meno gente, venite all'alba o accettate una spalla nella vostra inquadratura."
+          },
+          "giuliaComment": {
+            "en": "Everyone wants that shot. I understand—it's beautiful. But consider: the same view at 7am has no one blocking it. The light is softer, the mood is quieter, and you might see the village as it actually wakes up. Sometimes the unpopular choice is the better choice.",
+            "de": "Jeder will dieses Foto. Ich verstehe - es ist wunderschon. Aber bedenken Sie: dieselbe Aussicht um 7 Uhr morgens hat niemanden, der sie blockiert. Das Licht ist weicher, die Stimmung ruhiger, und Sie konnen das Dorf sehen, wie es tatsachlich aufwacht. Manchmal ist die unpopulare Wahl die bessere.",
+            "fr": "Tout le monde veut cette photo. Je comprends - c'est magnifique. Mais considerez : la meme vue a 7h n'a personne qui la bloque. La lumiere est plus douce, l'ambiance plus calme, et vous pourriez voir le village se reveiller vraiment. Parfois le choix impopulaire est le meilleur.",
+            "it": "Tutti vogliono quella foto. Capisco - e bellissima. Ma considerate: la stessa vista alle 7 di mattina non ha nessuno che la blocca. La luce e piu morbida, l'atmosfera piu tranquilla, e potreste vedere il borgo mentre si sveglia davvero. A volte la scelta impopolare e quella migliore."
+          },
+          "signature": {
+            "en": "When timing changes everything",
+            "de": "Wenn Timing alles verandert",
+            "fr": "Quand le timing change tout",
+            "it": "Quando il tempismo cambia tutto"
+          }
         },
         {
           "id": 6,
-          "name": "Should I do a day trip or stay overnight?",
-          "category": "Planning",
+          "name": {
+            "en": "Should I do a day trip or stay overnight?",
+            "de": "Sollte ich einen Tagesausflug machen oder ubernachten?",
+            "fr": "Faut-il faire une excursion d'une journee ou passer la nuit ?",
+            "it": "Dovrei fare una gita di un giorno o restare la notte?"
+          },
+          "category": {
+            "en": "Planning",
+            "de": "Planung",
+            "fr": "Planification",
+            "it": "Pianificazione"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Stay overnight if you can. The evening village is different from the daytime village.",
-          "description": "Day-trippers see crowded Manarola from 10am to 6pm. Overnight guests see the quiet village at sunset, after dark, at dawn. The difference is substantial—like visiting two different places. If you must day-trip, come early or stay late to catch the edges of the day.",
-          "giuliaComment": "Day-trippers often tell me they loved Manarola. Overnight guests tell me they fell in love with it. There's a difference. The village after the trains empty, when the locals take back their streets, when the sunset belongs to whoever stayed—that's the real Manarola.",
-          "signature": "When staying reveals what visiting hides"
+          "intro": {
+            "en": "Stay overnight if you can. The evening village is different from the daytime village.",
+            "de": "Ubernachten Sie, wenn Sie konnen. Das abendliche Dorf ist anders als das tagsuber.",
+            "fr": "Restez la nuit si vous le pouvez. Le village du soir est different du village de jour.",
+            "it": "Restate la notte se potete. Il borgo serale e diverso da quello diurno."
+          },
+          "description": {
+            "en": "Day-trippers see crowded Manarola from 10am to 6pm. Overnight guests see the quiet village at sunset, after dark, at dawn. The difference is substantial—like visiting two different places. If you must day-trip, come early or stay late to catch the edges of the day.",
+            "de": "Tagesausfluegler sehen das ueberfuellte Manarola von 10 bis 18 Uhr. Uebernachtungsgaeste sehen das ruhige Dorf bei Sonnenuntergang, nach Einbruch der Dunkelheit, bei Morgendaemmerung. Der Unterschied ist erheblich - wie zwei verschiedene Orte zu besuchen. Wenn Sie einen Tagesausflug machen muessen, kommen Sie frueh oder bleiben Sie spaet, um die Raender des Tages zu erleben.",
+            "fr": "Les excursionnistes voient Manarola bondee de 10h a 18h. Les clients qui passent la nuit voient le village calme au coucher du soleil, apres la tombee de la nuit, a l'aube. La difference est substantielle - comme visiter deux endroits differents. Si vous devez faire une excursion, venez tot ou restez tard pour saisir les bords de la journee.",
+            "it": "Gli escursionisti giornalieri vedono Manarola affollata dalle 10 alle 18. Gli ospiti che pernottano vedono il borgo tranquillo al tramonto, dopo il buio, all'alba. La differenza e sostanziale - come visitare due posti diversi. Se dovete fare una gita giornaliera, venite presto o restate tardi per cogliere i margini della giornata."
+          },
+          "giuliaComment": {
+            "en": "Day-trippers often tell me they loved Manarola. Overnight guests tell me they fell in love with it. There's a difference. The village after the trains empty, when the locals take back their streets, when the sunset belongs to whoever stayed—that's the real Manarola.",
+            "de": "Tagesausfluegler sagen mir oft, dass sie Manarola geliebt haben. Uebernachtungsgaeste sagen mir, dass sie sich verliebt haben. Es gibt einen Unterschied. Das Dorf nachdem die Zuege leer sind, wenn die Einheimischen ihre Strassen zuruecknehmen, wenn der Sonnenuntergang denen gehoert, die geblieben sind - das ist das echte Manarola.",
+            "fr": "Les excursionnistes me disent souvent qu'ils ont aime Manarola. Les clients qui passent la nuit me disent qu'ils en sont tombes amoureux. Il y a une difference. Le village apres que les trains se sont vides, quand les locaux reprennent leurs rues, quand le coucher de soleil appartient a ceux qui sont restes - c'est le vrai Manarola.",
+            "it": "Gli escursionisti giornalieri spesso mi dicono che hanno amato Manarola. Gli ospiti che pernottano mi dicono che se ne sono innamorati. C'e una differenza. Il borgo dopo che i treni si sono svuotati, quando i locali riprendono le loro strade, quando il tramonto appartiene a chi e rimasto - quella e la vera Manarola."
+          },
+          "signature": {
+            "en": "When staying reveals what visiting hides",
+            "de": "Wenn Bleiben offenbart, was Besuchen verbirgt",
+            "fr": "Quand rester revele ce que visiter cache",
+            "it": "Quando restare rivela cio che visitare nasconde"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Luggage Question",
-          "quote": "Pack light. Whatever you bring, you'll carry up and down steep streets and stairs. The village has no luggage service, no taxis, no elevators. Your rolling suitcase will become your enemy. A backpack is your friend."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Luggage Question",
+            "de": "Die Gepaeckfrage",
+            "fr": "La question des bagages",
+            "it": "La questione dei bagagli"
+          },
+          "quote": {
+            "en": "Pack light. Whatever you bring, you'll carry up and down steep streets and stairs. The village has no luggage service, no taxis, no elevators. Your rolling suitcase will become your enemy. A backpack is your friend.",
+            "de": "Packen Sie leicht. Was auch immer Sie mitbringen, Sie werden es steile Strassen und Treppen hinauf und hinunter tragen. Das Dorf hat keinen Gepaeckservice, keine Taxis, keine Aufzuege. Ihr Rollkoffer wird Ihr Feind. Ein Rucksack ist Ihr Freund.",
+            "fr": "Voyagez leger. Quoi que vous apportiez, vous le porterez dans des rues et escaliers raides. Le village n'a pas de service bagages, pas de taxis, pas d'ascenseurs. Votre valise a roulettes deviendra votre ennemie. Un sac a dos est votre ami.",
+            "it": "Fate bagagli leggeri. Qualunque cosa portiate, la porterete su e giu per strade e scale ripide. Il borgo non ha servizio bagagli, ne taxi, ne ascensori. Il vostro trolley diventera il vostro nemico. Uno zaino e il vostro amico."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "When Questions Lead to Understanding",
-      "content": [
-        "The best questions aren't the ones answered here—they're the ones you'll discover while walking the village. Why does this path exist? Who lived in this house? What made this terraced cliff become a village?",
-        "Some questions have factual answers: train schedules, restaurant hours, best viewpoints. Those answers are above.",
-        "The deeper questions—why this place matters, what it feels like to be here, how it changes you—those you'll answer for yourself."
-      ],
+      "title": {
+        "en": "When Questions Lead to Understanding",
+        "de": "Wenn Fragen zu Verstaendnis fuehren",
+        "fr": "Quand les questions menent a la comprehension",
+        "it": "Quando le domande portano alla comprensione"
+      },
+      "content": {
+        "en": [
+          "The best questions aren't the ones answered here—they're the ones you'll discover while walking the village. Why does this path exist? Who lived in this house? What made this terraced cliff become a village?",
+          "Some questions have factual answers: train schedules, restaurant hours, best viewpoints. Those answers are above.",
+          "The deeper questions—why this place matters, what it feels like to be here, how it changes you—those you'll answer for yourself."
+        ],
+        "de": [
+          "Die besten Fragen sind nicht die hier beantworteten - es sind die, die Sie entdecken werden, waehrend Sie durch das Dorf gehen. Warum existiert dieser Weg? Wer lebte in diesem Haus? Was hat diese terrassierte Klippe zu einem Dorf gemacht?",
+          "Manche Fragen haben faktische Antworten: Zugfahrplaene, Restaurantoeffnungszeiten, beste Aussichtspunkte. Diese Antworten stehen oben.",
+          "Die tieferen Fragen - warum dieser Ort wichtig ist, wie es sich anfuehlt hier zu sein, wie er Sie veraendert - die werden Sie selbst beantworten."
+        ],
+        "fr": [
+          "Les meilleures questions ne sont pas celles auxquelles on repond ici - ce sont celles que vous decouvrirez en marchant dans le village. Pourquoi ce chemin existe-t-il ? Qui vivait dans cette maison ? Qu'est-ce qui a fait de cette falaise en terrasses un village ?",
+          "Certaines questions ont des reponses factuelles : horaires des trains, heures des restaurants, meilleurs points de vue. Ces reponses sont ci-dessus.",
+          "Les questions plus profondes - pourquoi cet endroit compte, ce que ca fait d'etre ici, comment il vous change - celles-la, vous y repondrez vous-meme."
+        ],
+        "it": [
+          "Le domande migliori non sono quelle a cui si risponde qui - sono quelle che scoprirete camminando per il borgo. Perche esiste questo sentiero? Chi viveva in questa casa? Cosa ha fatto diventare questa scogliera terrazzata un borgo?",
+          "Alcune domande hanno risposte fattuali: orari dei treni, orari dei ristoranti, migliori punti panoramici. Quelle risposte sono sopra.",
+          "Le domande piu profonde - perche questo posto conta, cosa si prova a essere qui, come vi cambia - a quelle risponderete voi stessi."
+        ]
+      },
       "buttons": [
-        { "text": "Village Overview", "url": "/en/manarola/overview", "variant": "primary" },
-        { "text": "Getting Here", "url": "/en/manarola/getting-here", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Village Overview",
+            "de": "Dorfuebersicht",
+            "fr": "Apercu du village",
+            "it": "Panoramica del borgo"
+          },
+          "url": {
+            "en": "/en/manarola/overview",
+            "de": "/de/manarola/uebersicht",
+            "fr": "/fr/manarola/apercu",
+            "it": "/it/manarola/panoramica"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Comment y arriver",
+            "it": "Come arrivare"
+          },
+          "url": {
+            "en": "/en/manarola/getting-here",
+            "de": "/de/manarola/anreise",
+            "fr": "/fr/manarola/acces",
+            "it": "/it/manarola/come-arrivare"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -165,5 +509,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:45:00.000Z"
+  "updated_at": "2026-01-07T14:00:00.000Z"
 }

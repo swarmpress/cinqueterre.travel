@@ -7,36 +7,90 @@
     "it": "/it/vernazza/beaches"
   },
   "title": {
-    "en": "Swimming in Vernazza | Cinque Terre Dispatch"
+    "en": "Beaches and Swimming in Vernazza | Cinque Terre Dispatch",
+    "de": "Strande und Baden in Vernazza | Cinque Terre Dispatch",
+    "fr": "Plages et Baignade a Vernazza | Cinque Terre Dispatch",
+    "it": "Spiagge e Nuoto a Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Swimming in Vernazza | Cinque Terre Dispatch"
+      "en": "Beaches and Swimming in Vernazza | Cinque Terre Dispatch",
+      "de": "Strande und Baden in Vernazza | Cinque Terre Dispatch",
+      "fr": "Plages et Baignade a Vernazza | Cinque Terre Dispatch",
+      "it": "Spiagge e Nuoto a Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Vernazza's swimming is not about beaches—it's about the harbor. Rocky platforms, diving locals, clear water protected by ancient breakwaters. This is how the village has always entered the sea."
+      "en": "Vernazza's swimming is not about beaches—it's about the harbor. Rocky platforms, diving locals, clear water protected by ancient breakwaters. This is how the village has always entered the sea.",
+      "de": "Vernazzas Schwimmen handelt nicht von Stranden—es geht um den Hafen. Felsplattformen, tauchende Einheimische, klares Wasser, geschutzt von alten Wellenbrechern. So ist das Dorf schon immer ins Meer eingetreten.",
+      "fr": "La baignade a Vernazza ne concerne pas les plages—c'est le port qui compte. Plateformes rocheuses, locaux qui plongent, eau claire protegee par d'anciens brise-lames. C'est ainsi que le village a toujours entre dans la mer.",
+      "it": "Il nuoto a Vernazza non riguarda le spiagge—riguarda il porto. Piattaforme rocciose, locali che si tuffano, acqua limpida protetta da antichi frangiflutti. E cosi che il borgo e sempre entrato nel mare."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Harbor<br/>Is the Beach",
-      "subtitle": "Vernazza has a small pebble beach, often crowded. But the real swimming happens from the rocks—ancient platforms where locals dive, flat stone worn smooth by generations of swimmers. This is not Caribbean sand. This is Mediterranean entry.",
-      "badge": "Swimming Guide",
-      "image": "https://images.unsplash.com/photo-1558618047-3c8c76d99d4c?q=80&w=1200&auto=format&fit=crop"
+      "title": {
+        "en": "The Harbor<br/>Is the Beach",
+        "de": "Der Hafen<br/>Ist der Strand",
+        "fr": "Le Port<br/>Est la Plage",
+        "it": "Il Porto<br/>E la Spiaggia"
+      },
+      "subtitle": {
+        "en": "Vernazza has a small pebble beach, often crowded. But the real swimming happens from the rocks—ancient platforms where locals dive, flat stone worn smooth by generations of swimmers. This is not Caribbean sand. This is Mediterranean entry.",
+        "de": "Vernazza hat einen kleinen Kieselstrand, oft uberlaufen. Aber das echte Schwimmen findet von den Felsen statt—uralte Plattformen, von denen Einheimische tauchen, flacher Stein, glatt geworden durch Generationen von Schwimmern. Das ist kein karibischer Sand. Das ist mediterraner Einstieg.",
+        "fr": "Vernazza a une petite plage de galets, souvent bondee. Mais la vraie baignade se fait depuis les rochers—d'anciennes plateformes d'ou les locaux plongent, de la pierre plate polie par des generations de nageurs. Ce n'est pas du sable des Caraibes. C'est l'entree mediterraneenne.",
+        "it": "Vernazza ha una piccola spiaggia di ciottoli, spesso affollata. Ma il vero nuoto avviene dagli scogli—antiche piattaforme da cui i locali si tuffano, pietra piatta levigata da generazioni di nuotatori. Questa non e sabbia caraibica. Questo e l'ingresso mediterraneo."
+      },
+      "badge": {
+        "en": "Swimming Guide",
+        "de": "Bade-Guide",
+        "fr": "Guide de Baignade",
+        "it": "Guida al Nuoto"
+      },
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746959-ea81b2d10e0b-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Swimming Village",
-      "quote": "Cinque Terre was not built for sunbathing. It was built for fishing, farming, and survival. The swimming that evolved here reflects this—direct entry into deep water from rocks that have served this purpose for centuries.",
-      "content": [
-        "**The natural harbor is the key**. Vernazza's protected cove creates swimming conditions impossible elsewhere on this exposed coast. When neighboring villages face rough seas, Vernazza's harbor remains calm.",
-        "**The beach fills quickly**. The small pebble area near the piazza is convenient but crowded by mid-morning. This is where families gather, where tourists assume swimming must happen. It's fine, but not the best option.",
-        "**The rocks are where locals swim**. Past the church, on either side of the harbor, flat stone platforms offer space, diving opportunities, and water that's deeper and clearer. Follow the locals; they know.",
-        "**The breakwater extends everything**. The stone arm protecting the harbor doubles as swimming access—and as the village's evening gathering place. Sunset here, wine in hand, is Vernazza's daily ritual."
-      ]
+      "badge": {
+        "en": "The Swimming Village",
+        "de": "Das Schwimm-Dorf",
+        "fr": "Le Village Baignade",
+        "it": "Il Borgo del Nuoto"
+      },
+      "quote": {
+        "en": "Cinque Terre was not built for sunbathing. It was built for fishing, farming, and survival. The swimming that evolved here reflects this—direct entry into deep water from rocks that have served this purpose for centuries.",
+        "de": "Cinque Terre wurde nicht zum Sonnenbaden gebaut. Es wurde zum Fischen, Farmen und Uberleben gebaut. Das Schwimmen, das sich hier entwickelt hat, spiegelt dies wider—direkter Einstieg in tiefes Wasser von Felsen, die diesem Zweck seit Jahrhunderten dienen.",
+        "fr": "Les Cinque Terre n'ont pas ete construites pour les bains de soleil. Elles ont ete construites pour la peche, l'agriculture et la survie. La baignade qui s'y est developpee reflete cela—une entree directe dans une eau profonde depuis des rochers qui ont servi a cet effet pendant des siecles.",
+        "it": "Le Cinque Terre non sono state costruite per prendere il sole. Sono state costruite per la pesca, l'agricoltura e la sopravvivenza. Il nuoto che si e evoluto qui riflette questo—ingresso diretto in acqua profonda da scogli che hanno servito a questo scopo per secoli."
+      },
+      "content": {
+        "en": [
+          "**The natural harbor is the key**. Vernazza's protected cove creates swimming conditions impossible elsewhere on this exposed coast. When neighboring villages face rough seas, Vernazza's harbor remains calm.",
+          "**The beach fills quickly**. The small pebble area near the piazza is convenient but crowded by mid-morning. This is where families gather, where tourists assume swimming must happen. It's fine, but not the best option.",
+          "**The rocks are where locals swim**. Past the church, on either side of the harbor, flat stone platforms offer space, diving opportunities, and water that's deeper and clearer. Follow the locals; they know.",
+          "**The breakwater extends everything**. The stone arm protecting the harbor doubles as swimming access—and as the village's evening gathering place. Sunset here, wine in hand, is Vernazza's daily ritual."
+        ],
+        "de": [
+          "**Der naturliche Hafen ist der Schlussel**. Vernazzas geschutzte Bucht schafft Schwimmbedingungen, die anderswo an dieser exponierten Kuste unmoglich sind. Wenn Nachbardorfer rauer See gegenuber stehen, bleibt Vernazzas Hafen ruhig.",
+          "**Der Strand fullt sich schnell**. Der kleine Kieselbereich nahe der Piazza ist bequem, aber am spaten Vormittag uberlaufen. Hier versammeln sich Familien, hier gehen Touristen davon aus, dass Schwimmen stattfinden muss. Es ist in Ordnung, aber nicht die beste Option.",
+          "**Die Felsen sind, wo Einheimische schwimmen**. Hinter der Kirche, auf beiden Seiten des Hafens, bieten flache Steinplattformen Platz, Tauchmoglichkeiten und Wasser, das tiefer und klarer ist. Folgen Sie den Einheimischen; sie wissen Bescheid.",
+          "**Der Wellenbrecher erweitert alles**. Der Steinarm, der den Hafen schutzt, dient gleichzeitig als Schwimmzugang—und als abendlicher Treffpunkt des Dorfes. Sonnenuntergang hier, Wein in der Hand, ist Vernazzas tagliches Ritual."
+        ],
+        "fr": [
+          "**Le port naturel est la cle**. La crique protegee de Vernazza cree des conditions de baignade impossibles ailleurs sur cette cote exposee. Quand les villages voisins font face a des mers agitees, le port de Vernazza reste calme.",
+          "**La plage se remplit vite**. La petite zone de galets pres de la piazza est pratique mais bondee en milieu de matinee. C'est la que les familles se rassemblent, ou les touristes supposent que la baignade doit avoir lieu. C'est bien, mais pas la meilleure option.",
+          "**Les rochers sont la ou nagent les locaux**. Passe l'eglise, de chaque cote du port, des plateformes de pierre plate offrent de l'espace, des opportunites de plongee et une eau plus profonde et plus claire. Suivez les locaux ; ils savent.",
+          "**Le brise-lames etend tout**. Le bras de pierre protegeant le port sert aussi d'acces a la baignade—et de lieu de rassemblement du soir du village. Le coucher de soleil ici, verre de vin a la main, est le rituel quotidien de Vernazza."
+        ],
+        "it": [
+          "**Il porto naturale e la chiave**. La caletta protetta di Vernazza crea condizioni di nuoto impossibili altrove su questa costa esposta. Quando i borghi vicini affrontano mari agitati, il porto di Vernazza rimane calmo.",
+          "**La spiaggia si riempie velocemente**. La piccola area di ciottoli vicino alla piazza e comoda ma affollata a meta mattina. E qui che si radunano le famiglie, dove i turisti presumono che il nuoto debba avvenire. Va bene, ma non e l'opzione migliore.",
+          "**Gli scogli sono dove nuotano i locali**. Oltre la chiesa, su entrambi i lati del porto, piattaforme di pietra piatta offrono spazio, opportunita di tuffi e acqua piu profonda e limpida. Seguite i locali; loro sanno.",
+          "**Il frangiflutti estende tutto**. Il braccio di pietra che protegge il porto funge anche da accesso per nuotare—e da luogo di ritrovo serale del borgo. Il tramonto qui, vino in mano, e il rituale quotidiano di Vernazza."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,61 +98,211 @@
       "items": [
         {
           "id": 1,
-          "name": "Harbor Beach",
-          "category": "Main Swimming Area",
+          "name": {
+            "en": "Harbor Beach",
+            "de": "Hafenstrand",
+            "fr": "Plage du Port",
+            "it": "Spiaggia del Porto"
+          },
+          "category": {
+            "en": "Main Swimming Area",
+            "de": "Hauptbadebereich",
+            "fr": "Zone de Baignade Principale",
+            "it": "Area di Nuoto Principale"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The small pebble beach where the piazza meets the sea—convenient, crowded, quintessentially Vernazza.",
-          "description": "This is where most visitors swim, and it's easy to understand why. The beach opens directly from the village center, offers gradual entry into calm water, and provides constant views of the harbor and medieval tower. It's also small, fills quickly, and lacks the space for real sunbathing.",
-          "giuliaComment": "Fine for a quick dip after lunch, but not where I spend my time. The beach gets packed by 11am. If you want space, look elsewhere. If you want convenience and company, this works.",
-          "signature": "Where the village meets the water",
-          "practicalInfo": "Free access. Pebbles, not sand. Fills quickly in summer. Shallow entry, good for children."
+          "intro": {
+            "en": "The small pebble beach where the piazza meets the sea—convenient, crowded, quintessentially Vernazza.",
+            "de": "Der kleine Kieselstrand, wo die Piazza auf das Meer trifft—bequem, uberlaufen, typisch Vernazza.",
+            "fr": "La petite plage de galets ou la piazza rencontre la mer—pratique, bondee, typiquement Vernazza.",
+            "it": "La piccola spiaggia di ciottoli dove la piazza incontra il mare—comoda, affollata, quintessenzialmente Vernazza."
+          },
+          "description": {
+            "en": "This is where most visitors swim, and it's easy to understand why. The beach opens directly from the village center, offers gradual entry into calm water, and provides constant views of the harbor and medieval tower. It's also small, fills quickly, and lacks the space for real sunbathing.",
+            "de": "Hier schwimmen die meisten Besucher, und es ist leicht zu verstehen, warum. Der Strand offnet sich direkt vom Dorfzentrum, bietet allmahlichen Einstieg in ruhiges Wasser und standig Blick auf den Hafen und den mittelalterlichen Turm. Er ist auch klein, fullt sich schnell und bietet keinen Platz fur echtes Sonnenbaden.",
+            "fr": "C'est la que la plupart des visiteurs nagent, et c'est facile a comprendre pourquoi. La plage s'ouvre directement depuis le centre du village, offre une entree progressive dans une eau calme et des vues constantes sur le port et la tour medievale. Elle est aussi petite, se remplit vite et manque d'espace pour de vrais bains de soleil.",
+            "it": "E qui che la maggior parte dei visitatori nuota, ed e facile capire perche. La spiaggia si apre direttamente dal centro del borgo, offre un ingresso graduale in acqua calma e viste costanti sul porto e la torre medievale. E anche piccola, si riempie velocemente e manca lo spazio per prendere veramente il sole."
+          },
+          "giuliaComment": {
+            "en": "Fine for a quick dip after lunch, but not where I spend my time. The beach gets packed by 11am. If you want space, look elsewhere. If you want convenience and company, this works.",
+            "de": "Gut fur ein schnelles Bad nach dem Mittagessen, aber nicht wo ich meine Zeit verbringe. Der Strand ist um 11 Uhr voll. Wenn Sie Platz wollen, suchen Sie woanders. Wenn Sie Bequemlichkeit und Gesellschaft wollen, funktioniert das.",
+            "fr": "Bien pour une baignade rapide apres le dejeuner, mais pas ou je passe mon temps. La plage est bondee a 11h. Si vous voulez de l'espace, cherchez ailleurs. Si vous voulez de la commodite et de la compagnie, ca marche.",
+            "it": "Va bene per un tuffo veloce dopo pranzo, ma non dove passo il mio tempo. La spiaggia e piena alle 11. Se volete spazio, cercate altrove. Se volete comodita e compagnia, funziona."
+          },
+          "signature": {
+            "en": "Where the village meets the water",
+            "de": "Wo das Dorf das Wasser trifft",
+            "fr": "Ou le village rencontre l'eau",
+            "it": "Dove il borgo incontra l'acqua"
+          },
+          "practicalInfo": {
+            "en": "Free access. Pebbles, not sand. Fills quickly in summer. Shallow entry, good for children.",
+            "de": "Freier Zugang. Kiesel, kein Sand. Fullt sich im Sommer schnell. Flacher Einstieg, gut fur Kinder.",
+            "fr": "Acces gratuit. Galets, pas de sable. Se remplit vite en ete. Entree peu profonde, bon pour les enfants.",
+            "it": "Accesso libero. Ciottoli, non sabbia. Si riempie velocemente in estate. Ingresso basso, buono per i bambini."
+          }
         },
         {
           "id": 2,
-          "name": "Eastern Rock Platforms",
-          "category": "Local Swimming Spot",
+          "name": {
+            "en": "Eastern Rock Platforms",
+            "de": "Ostliche Felsplattformen",
+            "fr": "Plateformes Rocheuses Est",
+            "it": "Piattaforme Rocciose Orientali"
+          },
+          "category": {
+            "en": "Local Swimming Spot",
+            "de": "Lokaler Badeplatz",
+            "fr": "Spot de Baignade Local",
+            "it": "Punto di Nuoto Locale"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Past the church, the flat rocks where Vernazza's residents have swum for generations.",
-          "description": "The stone platforms east of the harbor offer what the beach cannot: space, diving, and deep water. Locals have used these rocks forever—the smooth surfaces worn by countless swimmers, the entry points tested by generations. The water is clearer here, the crowds thinner, the experience more authentic.",
-          "giuliaComment": "This is where I swim. The walk past the church takes two minutes, but it filters out most tourists. The rocks are perfect for reading, diving, and actual swimming—not just wading.",
-          "signature": "Where locals enter the sea",
-          "practicalInfo": "2-minute walk past church. Water shoes essential. Deep water—be confident. Best morning or late afternoon."
+          "intro": {
+            "en": "Past the church, the flat rocks where Vernazza's residents have swum for generations.",
+            "de": "Hinter der Kirche, die flachen Felsen, wo Vernazzas Einwohner seit Generationen schwimmen.",
+            "fr": "Passe l'eglise, les rochers plats ou les residents de Vernazza nagent depuis des generations.",
+            "it": "Oltre la chiesa, gli scogli piatti dove i residenti di Vernazza nuotano da generazioni."
+          },
+          "description": {
+            "en": "The stone platforms east of the harbor offer what the beach cannot: space, diving, and deep water. Locals have used these rocks forever—the smooth surfaces worn by countless swimmers, the entry points tested by generations. The water is clearer here, the crowds thinner, the experience more authentic.",
+            "de": "Die Steinplattformen ostlich des Hafens bieten, was der Strand nicht kann: Platz, Tauchen und tiefes Wasser. Einheimische haben diese Felsen schon immer benutzt—die glatten Oberflachen abgenutzt von unzahligen Schwimmern, die Einstiegspunkte von Generationen getestet. Das Wasser ist hier klarer, die Menschenmassen dunner, das Erlebnis authentischer.",
+            "fr": "Les plateformes de pierre a l'est du port offrent ce que la plage ne peut pas : espace, plongee et eau profonde. Les locaux ont utilise ces rochers depuis toujours—les surfaces lisses usees par d'innombrables nageurs, les points d'entree testes par des generations. L'eau est plus claire ici, les foules plus minces, l'experience plus authentique.",
+            "it": "Le piattaforme di pietra a est del porto offrono quello che la spiaggia non puo: spazio, tuffi e acqua profonda. I locali hanno usato questi scogli da sempre—le superfici lisce consumate da innumerevoli nuotatori, i punti d'ingresso testati da generazioni. L'acqua e piu limpida qui, le folle piu rade, l'esperienza piu autentica."
+          },
+          "giuliaComment": {
+            "en": "This is where I swim. The walk past the church takes two minutes, but it filters out most tourists. The rocks are perfect for reading, diving, and actual swimming—not just wading.",
+            "de": "Hier schwimme ich. Der Weg an der Kirche vorbei dauert zwei Minuten, aber er filtert die meisten Touristen heraus. Die Felsen sind perfekt zum Lesen, Tauchen und echtem Schwimmen—nicht nur Waten.",
+            "fr": "C'est la que je nage. La marche passe l'eglise prend deux minutes, mais elle filtre la plupart des touristes. Les rochers sont parfaits pour lire, plonger et vraiment nager—pas juste patauger.",
+            "it": "E qui che nuoto. La camminata oltre la chiesa richiede due minuti, ma filtra la maggior parte dei turisti. Gli scogli sono perfetti per leggere, tuffarsi e nuotare davvero—non solo guadare."
+          },
+          "signature": {
+            "en": "Where locals enter the sea",
+            "de": "Wo Einheimische ins Meer eintreten",
+            "fr": "Ou les locaux entrent dans la mer",
+            "it": "Dove i locali entrano nel mare"
+          },
+          "practicalInfo": {
+            "en": "2-minute walk past church. Water shoes essential. Deep water—be confident. Best morning or late afternoon.",
+            "de": "2 Minuten Fubweg hinter der Kirche. Badeschuhe unerlasslich. Tiefes Wasser—seien Sie sicher. Am besten morgens oder am spaten Nachmittag.",
+            "fr": "2 minutes de marche passe l'eglise. Chaussures d'eau essentielles. Eau profonde—soyez confiant. Meilleur le matin ou en fin d'apres-midi.",
+            "it": "2 minuti a piedi oltre la chiesa. Scarpette da scoglio essenziali. Acqua profonda—siate sicuri. Meglio mattina o tardo pomeriggio."
+          }
         },
         {
           "id": 3,
-          "name": "The Breakwater",
-          "category": "Sunset Gathering Place",
+          "name": {
+            "en": "The Breakwater",
+            "de": "Der Wellenbrecher",
+            "fr": "Le Brise-Lames",
+            "it": "Il Frangiflutti"
+          },
+          "category": {
+            "en": "Sunset Gathering Place",
+            "de": "Sonnenuntergangs-Treffpunkt",
+            "fr": "Lieu de Rassemblement au Coucher du Soleil",
+            "it": "Luogo di Ritrovo al Tramonto"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The stone arm that protects the harbor—and the village's unofficial evening living room.",
-          "description": "The breakwater extends into the harbor, offering swimming access on calm days and gathering space every evening. By 6pm in summer, every flat rock is occupied—locals and visitors alike, wine in hand, legs dangling over the water. The swimming here is secondary to the scene.",
-          "giuliaComment": "Come for the sunset, not the swimming. The breakwater is where Vernazza performs its evening ritual—strangers becoming temporary neighbors over shared views and local wine. Bring a bottle; you'll make friends.",
-          "signature": "Where the day ends together",
-          "practicalInfo": "Free access. Can be slippery. Best for sunset gathering rather than serious swimming. Bring drinks and snacks."
+          "intro": {
+            "en": "The stone arm that protects the harbor—and the village's unofficial evening living room.",
+            "de": "Der Steinarm, der den Hafen schutzt—und das inoffizielle abendliche Wohnzimmer des Dorfes.",
+            "fr": "Le bras de pierre qui protege le port—et le salon de soiree officieux du village.",
+            "it": "Il braccio di pietra che protegge il porto—e il soggiorno serale non ufficiale del borgo."
+          },
+          "description": {
+            "en": "The breakwater extends into the harbor, offering swimming access on calm days and gathering space every evening. By 6pm in summer, every flat rock is occupied—locals and visitors alike, wine in hand, legs dangling over the water. The swimming here is secondary to the scene.",
+            "de": "Der Wellenbrecher erstreckt sich in den Hafen und bietet an ruhigen Tagen Schwimmzugang und jeden Abend Versammlungsraum. Um 18 Uhr im Sommer ist jeder flache Felsen besetzt—Einheimische und Besucher gleichermafen, Wein in der Hand, Beine uber dem Wasser baumelnd. Das Schwimmen hier ist der Szene untergeordnet.",
+            "fr": "Le brise-lames s'etend dans le port, offrant un acces a la baignade les jours calmes et un espace de rassemblement chaque soir. A 18h en ete, chaque rocher plat est occupe—locaux et visiteurs, verre de vin a la main, jambes pendantes au-dessus de l'eau. La baignade ici est secondaire a la scene.",
+            "it": "Il frangiflutti si estende nel porto, offrendo accesso al nuoto nelle giornate calme e spazio di ritrovo ogni sera. Alle 18 d'estate, ogni scoglio piatto e occupato—locali e visitatori, vino in mano, gambe penzolanti sull'acqua. Il nuoto qui e secondario alla scena."
+          },
+          "giuliaComment": {
+            "en": "Come for the sunset, not the swimming. The breakwater is where Vernazza performs its evening ritual—strangers becoming temporary neighbors over shared views and local wine. Bring a bottle; you'll make friends.",
+            "de": "Kommen Sie fur den Sonnenuntergang, nicht zum Schwimmen. Der Wellenbrecher ist, wo Vernazza sein abendliches Ritual ausfuhrt—Fremde werden temporare Nachbarn uber gemeinsame Aussichten und lokalen Wein. Bringen Sie eine Flasche mit; Sie werden Freunde finden.",
+            "fr": "Venez pour le coucher du soleil, pas pour la baignade. Le brise-lames est ou Vernazza accomplit son rituel du soir—des inconnus devenant des voisins temporaires autour de vues partagees et de vin local. Apportez une bouteille ; vous vous ferez des amis.",
+            "it": "Venite per il tramonto, non per nuotare. Il frangiflutti e dove Vernazza compie il suo rituale serale—sconosciuti che diventano vicini temporanei su viste condivise e vino locale. Portate una bottiglia; farete amicizia."
+          },
+          "signature": {
+            "en": "Where the day ends together",
+            "de": "Wo der Tag gemeinsam endet",
+            "fr": "Ou la journee finit ensemble",
+            "it": "Dove il giorno finisce insieme"
+          },
+          "practicalInfo": {
+            "en": "Free access. Can be slippery. Best for sunset gathering rather than serious swimming. Bring drinks and snacks.",
+            "de": "Freier Zugang. Kann rutschig sein. Am besten fur Sonnenuntergangs-Treffen statt ernsthaftes Schwimmen. Bringen Sie Getranke und Snacks mit.",
+            "fr": "Acces gratuit. Peut etre glissant. Meilleur pour les rassemblements au coucher du soleil que pour la baignade serieuse. Apportez boissons et snacks.",
+            "it": "Accesso libero. Puo essere scivoloso. Meglio per ritrovi al tramonto che per nuoto serio. Portate bevande e snack."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Case for Water Shoes",
-          "quote": "Sea urchins live on these rocks. The smooth stone becomes slippery when wet. The entry points can be sharp. Water shoes are not optional equipment—they're the difference between a pleasant swim and a painful experience. Every local owns a pair. You should too."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Case for Water Shoes",
+            "de": "Das Pladoyer fur Badeschuhe",
+            "fr": "L'Argument pour les Chaussures d'Eau",
+            "it": "Il Caso delle Scarpette da Scoglio"
+          },
+          "quote": {
+            "en": "Sea urchins live on these rocks. The smooth stone becomes slippery when wet. The entry points can be sharp. Water shoes are not optional equipment—they're the difference between a pleasant swim and a painful experience. Every local owns a pair. You should too.",
+            "de": "Seeigel leben auf diesen Felsen. Der glatte Stein wird rutschig, wenn er nass ist. Die Einstiegspunkte konnen scharf sein. Badeschuhe sind keine optionale Ausrustung—sie sind der Unterschied zwischen einem angenehmen Schwimmen und einer schmerzhaften Erfahrung. Jeder Einheimische besitzt ein Paar. Sie sollten es auch.",
+            "fr": "Les oursins vivent sur ces rochers. La pierre lisse devient glissante quand elle est mouillee. Les points d'entree peuvent etre tranchants. Les chaussures d'eau ne sont pas un equipement optionnel—elles font la difference entre une baignade agreable et une experience douloureuse. Chaque local en possede une paire. Vous devriez aussi.",
+            "it": "I ricci di mare vivono su questi scogli. La pietra liscia diventa scivolosa quando e bagnata. I punti d'ingresso possono essere affilati. Le scarpette da scoglio non sono attrezzatura opzionale—sono la differenza tra una nuotata piacevole e un'esperienza dolorosa. Ogni locale ne possiede un paio. Dovreste anche voi."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Beyond the Harbor",
-      "quote": "The trails that connect Vernazza to neighboring villages also lead to hidden swimming spots—coves and platforms accessible only on foot, offering solitude impossible in the harbor.",
-      "content": [
-        "**The Monterosso trail reveals coves**. Ten to fifteen minutes along the coastal path, small inlets appear—rocky entrances to clear water, often empty even when the harbor is packed.",
-        "**The Corniglia direction is gentler**. The swimming spots along this trail are easier to access, with more gradual entries. Less dramatic than the Monterosso side, but more accessible.",
-        "**Morning is transformation time**. Before 8am, even the main harbor belongs to locals and early risers. The light is soft, the water is calm, and you'll feel like you've discovered something private.",
-        "**Bring everything you need**. The hidden coves have no facilities, no vendors, no shade. Pack water, snacks, sun protection, and the water shoes that will make entry possible."
-      ]
+      "badge": {
+        "en": "Beyond the Harbor",
+        "de": "Jenseits des Hafens",
+        "fr": "Au-Dela du Port",
+        "it": "Oltre il Porto"
+      },
+      "quote": {
+        "en": "The trails that connect Vernazza to neighboring villages also lead to hidden swimming spots—coves and platforms accessible only on foot, offering solitude impossible in the harbor.",
+        "de": "Die Wege, die Vernazza mit den Nachbardorfern verbinden, fuhren auch zu versteckten Badeplatzen—Buchten und Plattformen, die nur zu Fub erreichbar sind und Einsamkeit bieten, die im Hafen unmoglich ist.",
+        "fr": "Les sentiers qui relient Vernazza aux villages voisins menent aussi a des spots de baignade caches—des criques et plateformes accessibles uniquement a pied, offrant une solitude impossible dans le port.",
+        "it": "I sentieri che collegano Vernazza ai borghi vicini portano anche a posti nascosti per nuotare—calette e piattaforme accessibili solo a piedi, offrendo solitudine impossibile nel porto."
+      },
+      "content": {
+        "en": [
+          "**The Monterosso trail reveals coves**. Ten to fifteen minutes along the coastal path, small inlets appear—rocky entrances to clear water, often empty even when the harbor is packed.",
+          "**The Corniglia direction is gentler**. The swimming spots along this trail are easier to access, with more gradual entries. Less dramatic than the Monterosso side, but more accessible.",
+          "**Morning is transformation time**. Before 8am, even the main harbor belongs to locals and early risers. The light is soft, the water is calm, and you'll feel like you've discovered something private.",
+          "**Bring everything you need**. The hidden coves have no facilities, no vendors, no shade. Pack water, snacks, sun protection, and the water shoes that will make entry possible."
+        ],
+        "de": [
+          "**Der Monterosso-Weg enthullt Buchten**. Zehn bis funfzehn Minuten entlang des Kustenweges erscheinen kleine Buchten—felsige Eingange zu klarem Wasser, oft leer, selbst wenn der Hafen voll ist.",
+          "**Die Corniglia-Richtung ist sanfter**. Die Badeplatze entlang dieses Weges sind leichter zu erreichen, mit allmahlicheren Einstiegen. Weniger dramatisch als die Monterosso-Seite, aber zuganglicher.",
+          "**Der Morgen ist Transformationszeit**. Vor 8 Uhr gehort sogar der Haupthafen den Einheimischen und Fruhaufstehern. Das Licht ist weich, das Wasser ist ruhig, und Sie werden das Gefuhl haben, etwas Privates entdeckt zu haben.",
+          "**Bringen Sie alles mit, was Sie brauchen**. Die versteckten Buchten haben keine Einrichtungen, keine Verkaufer, keinen Schatten. Packen Sie Wasser, Snacks, Sonnenschutz und die Badeschuhe, die den Einstieg ermoglichen."
+        ],
+        "fr": [
+          "**Le sentier de Monterosso revele des criques**. Dix a quinze minutes le long du chemin cotier, de petites criques apparaissent—des entrees rocheuses vers une eau claire, souvent vides meme quand le port est bonde.",
+          "**La direction de Corniglia est plus douce**. Les spots de baignade le long de ce sentier sont plus faciles d'acces, avec des entrees plus progressives. Moins dramatique que le cote de Monterosso, mais plus accessible.",
+          "**Le matin est le moment de transformation**. Avant 8h, meme le port principal appartient aux locaux et aux leve-tot. La lumiere est douce, l'eau est calme, et vous aurez l'impression d'avoir decouvert quelque chose de prive.",
+          "**Apportez tout ce dont vous avez besoin**. Les criques cachees n'ont pas d'installations, pas de vendeurs, pas d'ombre. Emportez de l'eau, des snacks, de la protection solaire et les chaussures d'eau qui rendront l'entree possible."
+        ],
+        "it": [
+          "**Il sentiero di Monterosso rivela calette**. Dieci-quindici minuti lungo il sentiero costiero, appaiono piccole insenature—ingressi rocciosi verso acqua limpida, spesso vuote anche quando il porto e pieno.",
+          "**La direzione di Corniglia e piu dolce**. I punti di nuoto lungo questo sentiero sono piu facili da raggiungere, con ingressi piu graduali. Meno drammatico del lato di Monterosso, ma piu accessibile.",
+          "**La mattina e il momento della trasformazione**. Prima delle 8, anche il porto principale appartiene ai locali e a chi si alza presto. La luce e morbida, l'acqua e calma, e vi sentirete come se aveste scoperto qualcosa di privato.",
+          "**Portate tutto quello di cui avete bisogno**. Le calette nascoste non hanno strutture, venditori, ombra. Portate acqua, snack, protezione solare e le scarpette da scoglio che renderanno possibile l'ingresso."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,50 +310,175 @@
       "items": [
         {
           "id": 4,
-          "name": "Hidden Coves (Monterosso Direction)",
-          "category": "Trail-Access Swimming",
+          "name": {
+            "en": "Hidden Coves (Monterosso Direction)",
+            "de": "Versteckte Buchten (Richtung Monterosso)",
+            "fr": "Criques Cachees (Direction Monterosso)",
+            "it": "Calette Nascoste (Direzione Monterosso)"
+          },
+          "category": {
+            "en": "Trail-Access Swimming",
+            "de": "Wanderweg-Schwimmen",
+            "fr": "Baignade via Sentier",
+            "it": "Nuoto via Sentiero"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The secret spots that hiking rewards—rocky inlets with clear water and no crowds.",
-          "description": "The Sentiero Azzurro toward Monterosso passes several small coves inaccessible by any other means. Look for worn paths leading down from the trail—if you see locals' towels, you've found a good spot. The swimming here is excellent: clear water, dramatic cliffs, and the solitude that the harbor cannot provide.",
-          "giuliaComment": "These are the spots I share with friends who want real swimming. The entrance requires scrambling, the water is immediately deep, and there's nothing tourist-friendly about it. That's the point.",
-          "signature": "Where effort equals privacy",
-          "practicalInfo": "15-20 minutes along Monterosso trail. Rocky entry. Bring everything—no facilities. Strong swimmers only."
+          "intro": {
+            "en": "The secret spots that hiking rewards—rocky inlets with clear water and no crowds.",
+            "de": "Die geheimen Platze, die das Wandern belohnt—felsige Buchten mit klarem Wasser und ohne Menschenmassen.",
+            "fr": "Les spots secrets que la randonnee recompense—des criques rocheuses avec une eau claire et pas de foule.",
+            "it": "I posti segreti che l'escursionismo premia—insenature rocciose con acqua limpida e nessuna folla."
+          },
+          "description": {
+            "en": "The Sentiero Azzurro toward Monterosso passes several small coves inaccessible by any other means. Look for worn paths leading down from the trail—if you see locals' towels, you've found a good spot. The swimming here is excellent: clear water, dramatic cliffs, and the solitude that the harbor cannot provide.",
+            "de": "Der Sentiero Azzurro Richtung Monterosso passiert mehrere kleine Buchten, die auf andere Weise nicht zuganglich sind. Suchen Sie nach ausgetretenen Pfaden, die vom Wanderweg nach unten fuhren—wenn Sie Handtucher von Einheimischen sehen, haben Sie einen guten Platz gefunden. Das Schwimmen hier ist ausgezeichnet: klares Wasser, dramatische Klippen und die Einsamkeit, die der Hafen nicht bieten kann.",
+            "fr": "Le Sentiero Azzurro vers Monterosso passe par plusieurs petites criques inaccessibles autrement. Cherchez des sentiers uses descendant du chemin—si vous voyez des serviettes de locaux, vous avez trouve un bon spot. La baignade ici est excellente : eau claire, falaises dramatiques et la solitude que le port ne peut pas offrir.",
+            "it": "Il Sentiero Azzurro verso Monterosso passa accanto a diverse piccole calette inaccessibili in altro modo. Cercate sentieri consumati che scendono dal sentiero—se vedete asciugamani di locali, avete trovato un buon posto. Il nuoto qui e eccellente: acqua limpida, scogliere drammatiche e la solitudine che il porto non puo offrire."
+          },
+          "giuliaComment": {
+            "en": "These are the spots I share with friends who want real swimming. The entrance requires scrambling, the water is immediately deep, and there's nothing tourist-friendly about it. That's the point.",
+            "de": "Das sind die Platze, die ich mit Freunden teile, die echtes Schwimmen wollen. Der Eingang erfordert Klettern, das Wasser ist sofort tief, und es gibt nichts Touristenfreundliches daran. Das ist der Punkt.",
+            "fr": "Ce sont les spots que je partage avec des amis qui veulent vraiment nager. L'entree necessite de l'escalade, l'eau est immediatement profonde, et il n'y a rien de touristique. C'est ca l'idee.",
+            "it": "Questi sono i posti che condivido con amici che vogliono nuotare davvero. L'ingresso richiede arrampicata, l'acqua e subito profonda, e non c'e niente di turistico. Questo e il punto."
+          },
+          "signature": {
+            "en": "Where effort equals privacy",
+            "de": "Wo Anstrengung gleich Privatsphare ist",
+            "fr": "Ou l'effort egale l'intimite",
+            "it": "Dove lo sforzo equivale alla privacy"
+          },
+          "practicalInfo": {
+            "en": "15-20 minutes along Monterosso trail. Rocky entry. Bring everything—no facilities. Strong swimmers only.",
+            "de": "15-20 Minuten entlang des Monterosso-Weges. Felsiger Einstieg. Bringen Sie alles mit—keine Einrichtungen. Nur fur starke Schwimmer.",
+            "fr": "15-20 minutes le long du sentier de Monterosso. Entree rocheuse. Apportez tout—pas d'installations. Nageurs experimentes uniquement.",
+            "it": "15-20 minuti lungo il sentiero di Monterosso. Ingresso roccioso. Portate tutto—niente strutture. Solo nuotatori esperti."
+          }
         },
         {
           "id": 5,
-          "name": "Early Morning Harbor",
-          "category": "Timing Strategy",
+          "name": {
+            "en": "Early Morning Harbor",
+            "de": "Fruhmorgendlicher Hafen",
+            "fr": "Port du Petit Matin",
+            "it": "Porto all'Alba"
+          },
+          "category": {
+            "en": "Timing Strategy",
+            "de": "Timing-Strategie",
+            "fr": "Strategie de Timing",
+            "it": "Strategia di Tempismo"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1558618047-3c8c76d99d4c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The same harbor, transformed by the absence of crowds—Vernazza at 7am belongs to different people.",
-          "description": "Before 8am, the harbor you know becomes unrecognizable. The beach is empty. The rock platforms have space. The water is glassy. Fishermen are the only company, and they're focused on their work. This is when Vernazza reveals what it looks like without visitors.",
-          "giuliaComment": "This is my secret, and I'm giving it to you: wake up early. 7am at the harbor is a different village. By 10am it's gone. That three-hour window is worth the lost sleep.",
-          "signature": "Where timing changes everything",
-          "practicalInfo": "Before 8am. Same locations, empty. Coffee at Il Pirata opens early. Bring towel—nothing else needed."
+          "intro": {
+            "en": "The same harbor, transformed by the absence of crowds—Vernazza at 7am belongs to different people.",
+            "de": "Derselbe Hafen, verwandelt durch die Abwesenheit von Menschenmassen—Vernazza um 7 Uhr gehort anderen Menschen.",
+            "fr": "Le meme port, transforme par l'absence de foules—Vernazza a 7h appartient a d'autres personnes.",
+            "it": "Lo stesso porto, trasformato dall'assenza di folle—Vernazza alle 7 appartiene a persone diverse."
+          },
+          "description": {
+            "en": "Before 8am, the harbor you know becomes unrecognizable. The beach is empty. The rock platforms have space. The water is glassy. Fishermen are the only company, and they're focused on their work. This is when Vernazza reveals what it looks like without visitors.",
+            "de": "Vor 8 Uhr wird der Hafen, den Sie kennen, unkenntlich. Der Strand ist leer. Die Felsplattformen haben Platz. Das Wasser ist spiegelglatt. Fischer sind die einzige Gesellschaft, und sie konzentrieren sich auf ihre Arbeit. Das ist, wenn Vernazza zeigt, wie es ohne Besucher aussieht.",
+            "fr": "Avant 8h, le port que vous connaissez devient meconnaissable. La plage est vide. Les plateformes rocheuses ont de l'espace. L'eau est lisse comme du verre. Les pecheurs sont la seule compagnie, et ils se concentrent sur leur travail. C'est quand Vernazza revele a quoi elle ressemble sans visiteurs.",
+            "it": "Prima delle 8, il porto che conoscete diventa irriconoscibile. La spiaggia e vuota. Le piattaforme rocciose hanno spazio. L'acqua e liscia come vetro. I pescatori sono l'unica compagnia, e sono concentrati sul loro lavoro. E quando Vernazza rivela come appare senza visitatori."
+          },
+          "giuliaComment": {
+            "en": "This is my secret, and I'm giving it to you: wake up early. 7am at the harbor is a different village. By 10am it's gone. That three-hour window is worth the lost sleep.",
+            "de": "Das ist mein Geheimnis, und ich gebe es Ihnen: Stehen Sie fruh auf. 7 Uhr am Hafen ist ein anderes Dorf. Bis 10 Uhr ist es vorbei. Dieses Drei-Stunden-Fenster ist den verlorenen Schlaf wert.",
+            "fr": "C'est mon secret, et je vous le donne : levez-vous tot. 7h au port est un village different. A 10h c'est fini. Cette fenetre de trois heures vaut le sommeil perdu.",
+            "it": "Questo e il mio segreto, e ve lo do: svegliatevi presto. Le 7 al porto e un borgo diverso. Alle 10 e finito. Quella finestra di tre ore vale il sonno perso."
+          },
+          "signature": {
+            "en": "Where timing changes everything",
+            "de": "Wo Timing alles verandert",
+            "fr": "Ou le timing change tout",
+            "it": "Dove il tempismo cambia tutto"
+          },
+          "practicalInfo": {
+            "en": "Before 8am. Same locations, empty. Coffee at Il Pirata opens early. Bring towel—nothing else needed.",
+            "de": "Vor 8 Uhr. Dieselben Orte, leer. Kaffee bei Il Pirata offnet fruh. Bringen Sie ein Handtuch mit—nichts anderes notig.",
+            "fr": "Avant 8h. Memes endroits, vides. Le cafe chez Il Pirata ouvre tot. Apportez une serviette—rien d'autre necessaire.",
+            "it": "Prima delle 8. Stessi posti, vuoti. Il caffe da Il Pirata apre presto. Portate un asciugamano—nient'altro necessario."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Mediterranean Reality",
-          "quote": "This is not a sandy beach destination. The swimming here is about entering the sea, not lounging beside it. Bring a towel for the rocks, accept that comfort is relative, and let the water itself be the attraction. It's clearer, cleaner, and more refreshing than any beach resort."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Mediterranean Reality",
+            "de": "Die Mediterrane Realitat",
+            "fr": "La Realite Mediterraneenne",
+            "it": "La Realta Mediterranea"
+          },
+          "quote": {
+            "en": "This is not a sandy beach destination. The swimming here is about entering the sea, not lounging beside it. Bring a towel for the rocks, accept that comfort is relative, and let the water itself be the attraction. It's clearer, cleaner, and more refreshing than any beach resort.",
+            "de": "Dies ist kein Sandstrand-Ziel. Das Schwimmen hier geht darum, ins Meer einzutreten, nicht daneben zu faulenzen. Bringen Sie ein Handtuch fur die Felsen mit, akzeptieren Sie, dass Komfort relativ ist, und lassen Sie das Wasser selbst die Attraktion sein. Es ist klarer, sauberer und erfrischender als jedes Strandresort.",
+            "fr": "Ce n'est pas une destination de plage de sable. La baignade ici consiste a entrer dans la mer, pas a se prelasser a cote. Apportez une serviette pour les rochers, acceptez que le confort soit relatif, et laissez l'eau elle-meme etre l'attraction. Elle est plus claire, plus propre et plus rafraichissante que n'importe quelle station balneaire.",
+            "it": "Questa non e una destinazione di spiaggia sabbiosa. Il nuoto qui riguarda entrare nel mare, non oziare accanto. Portate un asciugamano per gli scogli, accettate che il comfort e relativo, e lasciate che l'acqua stessa sia l'attrazione. E piu limpida, pulita e rinfrescante di qualsiasi resort balneare."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Water Rewards the Willing",
-      "content": [
-        "Vernazza's swimming requires adaptation. Forget sandy beaches, lounge chairs, and gradual entries. This is Mediterranean swimming as it has always been—rocky, direct, and deeply satisfying.",
-        "Find your spot: the crowded beach, the local rocks, the hidden cove, the early morning harbor. Each offers something different. Each requires something of you.",
-        "The water is the same everywhere—clear, cool, and connected to a sea that has shaped this village for a thousand years. Enter it. That's enough."
-      ],
+      "title": {
+        "en": "The Water Rewards the Willing",
+        "de": "Das Wasser Belohnt die Willigen",
+        "fr": "L'Eau Recompense les Volontaires",
+        "it": "L'Acqua Premia i Volenterosi"
+      },
+      "content": {
+        "en": [
+          "Vernazza's swimming requires adaptation. Forget sandy beaches, lounge chairs, and gradual entries. This is Mediterranean swimming as it has always been—rocky, direct, and deeply satisfying.",
+          "Find your spot: the crowded beach, the local rocks, the hidden cove, the early morning harbor. Each offers something different. Each requires something of you.",
+          "The water is the same everywhere—clear, cool, and connected to a sea that has shaped this village for a thousand years. Enter it. That's enough."
+        ],
+        "de": [
+          "Vernazzas Schwimmen erfordert Anpassung. Vergessen Sie Sandstrande, Liegestuhle und allmahliche Einstiege. Das ist mediterranes Schwimmen, wie es immer war—felsig, direkt und tief befriedigend.",
+          "Finden Sie Ihren Platz: den uberfullten Strand, die lokalen Felsen, die versteckte Bucht, den fruhmorgendlichen Hafen. Jeder bietet etwas anderes. Jeder verlangt etwas von Ihnen.",
+          "Das Wasser ist uberall dasselbe—klar, kuhl und verbunden mit einem Meer, das dieses Dorf seit tausend Jahren geformt hat. Betreten Sie es. Das ist genug."
+        ],
+        "fr": [
+          "La baignade a Vernazza necessite de l'adaptation. Oubliez les plages de sable, les chaises longues et les entrees progressives. C'est la baignade mediterraneenne comme elle a toujours ete—rocheuse, directe et profondement satisfaisante.",
+          "Trouvez votre spot : la plage bondee, les rochers locaux, la crique cachee, le port du petit matin. Chacun offre quelque chose de different. Chacun exige quelque chose de vous.",
+          "L'eau est la meme partout—claire, fraiche et connectee a une mer qui a faconne ce village pendant mille ans. Entrez-y. C'est suffisant."
+        ],
+        "it": [
+          "Il nuoto a Vernazza richiede adattamento. Dimenticate spiagge sabbiose, sdraio e ingressi graduali. Questo e il nuoto mediterraneo come e sempre stato—roccioso, diretto e profondamente soddisfacente.",
+          "Trovate il vostro posto: la spiaggia affollata, gli scogli dei locali, la caletta nascosta, il porto al mattino presto. Ognuno offre qualcosa di diverso. Ognuno richiede qualcosa da voi.",
+          "L'acqua e la stessa ovunque—limpida, fresca e connessa a un mare che ha plasmato questo borgo per mille anni. Entrateci. E sufficiente."
+        ]
+      },
       "buttons": [
-        { "text": "After the Swim", "url": "/en/vernazza/restaurants", "variant": "primary" },
-        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "After the Swim",
+            "de": "Nach dem Schwimmen",
+            "fr": "Apres la Baignade",
+            "it": "Dopo la Nuotata"
+          },
+          "url": "/en/vernazza/restaurants",
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Unterkufte",
+            "fr": "Ou Sejourner",
+            "it": "Dove Alloggiare"
+          },
+          "url": "/en/vernazza/hotels",
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -159,5 +488,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T11:30:00.000Z"
+  "updated_at": "2026-01-07T19:45:00.000Z"
 }

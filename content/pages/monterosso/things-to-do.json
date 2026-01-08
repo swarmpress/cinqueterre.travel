@@ -7,35 +7,89 @@
     "it": "/it/monterosso/things-to-do"
   },
   "title": {
-    "en": "What to Do in Monterosso | Cinque Terre Dispatch"
+    "en": "What to Do in Monterosso | Cinque Terre Dispatch",
+    "de": "Aktivitaeten in Monterosso | Cinque Terre Dispatch",
+    "fr": "Que Faire a Monterosso | Cinque Terre Dispatch",
+    "it": "Cosa Fare a Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "things-to-do",
   "seo": {
     "title": {
-      "en": "What to Do in Monterosso | Cinque Terre Dispatch"
+      "en": "What to Do in Monterosso | Cinque Terre Dispatch",
+      "de": "Aktivitaeten in Monterosso | Cinque Terre Dispatch",
+      "fr": "Que Faire a Monterosso | Cinque Terre Dispatch",
+      "it": "Cosa Fare a Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Monterosso offers what other villages cannot: real beaches, real hotels, and the space to spread out. The question here is not what to do, but which pleasures to prioritize."
+      "en": "Monterosso offers what other villages cannot: real beaches, real hotels, and the space to spread out. The question here is not what to do, but which pleasures to prioritize.",
+      "de": "Monterosso bietet, was andere Doerfer nicht koennen: echte Sandstraende, echte Hotels und Platz zum Durchatmen. Die Frage ist nicht, was man tun soll, sondern welche Genuesse man bevorzugt.",
+      "fr": "Monterosso offre ce que les autres villages ne peuvent pas: de vraies plages, de vrais hotels, et l'espace pour s'etendre. La question n'est pas quoi faire, mais quels plaisirs privilegier.",
+      "it": "Monterosso offre cio che gli altri borghi non possono: vere spiagge di sabbia, veri hotel e lo spazio per distendersi. La domanda non e cosa fare, ma quali piaceri privilegiare."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Village<br/>of Options",
-      "subtitle": "Monterosso is Cinque Terre's largest village, and its generosity shows. Sandy beaches instead of rocky platforms. Hotels with actual lobbies. Restaurants with sea views and room for tables. Here, the choices are real—and that's both freedom and responsibility.",
-      "badge": "Things to Do",
+      "title": {
+        "en": "The Village<br/>of Options",
+        "de": "Das Dorf<br/>der Moeglichkeiten",
+        "fr": "Le Village<br/>des Possibles",
+        "it": "Il Borgo<br/>delle Scelte"
+      },
+      "subtitle": {
+        "en": "Monterosso is Cinque Terre's largest village, and its generosity shows. Sandy beaches instead of rocky platforms. Hotels with actual lobbies. Restaurants with sea views and room for tables. Here, the choices are real—and that's both freedom and responsibility.",
+        "de": "Monterosso ist das groesste Dorf der Cinque Terre, und seine Grosszuegigkeit zeigt sich ueberall. Sandstraende statt Felsplattformen. Hotels mit echten Lobbys. Restaurants mit Meerblick und Platz fuer Tische. Hier sind die Wahlmoeglichkeiten real—und das bedeutet Freiheit und Verantwortung zugleich.",
+        "fr": "Monterosso est le plus grand village des Cinque Terre, et sa generosite se manifeste partout. Des plages de sable au lieu de plateformes rocheuses. Des hotels avec de vrais halls d'entree. Des restaurants avec vue sur mer et de la place pour les tables. Ici, les choix sont reels—c'est a la fois liberte et responsabilite.",
+        "it": "Monterosso e il borgo piu grande delle Cinque Terre, e la sua generosita si vede ovunque. Spiagge di sabbia invece di piattaforme rocciose. Hotel con vere hall. Ristoranti con vista mare e spazio per i tavoli. Qui le scelte sono reali—e questo significa liberta e responsabilita insieme."
+      },
+      "badge": {
+        "en": "Things to Do",
+        "de": "Erlebnisse",
+        "fr": "A Decouvrir",
+        "it": "Da Fare"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "Two Villages in One",
-      "quote": "A tunnel connects old Monterosso to new. On one side, medieval streets where donkeys once carried lemons to market. On the other, Fegina—the beach, the station, the resort life. To know Monterosso is to walk between these worlds.",
+      "badge": {
+        "en": "Two Villages in One",
+        "de": "Zwei Doerfer in Einem",
+        "fr": "Deux Villages en Un",
+        "it": "Due Borghi in Uno"
+      },
+      "quote": {
+        "en": "A tunnel connects old Monterosso to new. On one side, medieval streets where donkeys once carried lemons to market. On the other, Fegina—the beach, the station, the resort life. To know Monterosso is to walk between these worlds.",
+        "de": "Ein Tunnel verbindet das alte Monterosso mit dem neuen. Auf der einen Seite mittelalterliche Gassen, in denen einst Esel Zitronen zum Markt trugen. Auf der anderen Fegina—der Strand, der Bahnhof, das Badeleben. Monterosso verstehen heisst, zwischen diesen Welten zu wandeln.",
+        "fr": "Un tunnel relie le vieux Monterosso au nouveau. D'un cote, des ruelles medievales ou les anes transportaient autrefois les citrons au marche. De l'autre, Fegina—la plage, la gare, la vie balneaire. Connaitre Monterosso, c'est marcher entre ces deux mondes.",
+        "it": "Un tunnel collega la Monterosso vecchia a quella nuova. Da un lato, vie medievali dove un tempo gli asini portavano i limoni al mercato. Dall'altro, Fegina—la spiaggia, la stazione, la vita balneare. Conoscere Monterosso significa camminare tra questi due mondi."
+      },
       "content": [
-        "**The old town offers history**. The striped church of San Giovanni Battista, the narrow caruggi, the sense of centuries compressed into stone. This is where locals worship, where grandmothers shop, where the village has always lived.",
-        "**Fegina offers the beach**. Sandy, accessible, lined with stabilimenti where you can rent umbrellas and order lunch without moving. This is why most visitors come—and why Monterosso can accommodate them.",
-        "**The two towns share lemons**. The terraced groves above produce the famous Monterosso lemons—fat, fragrant, turned into limoncello and lemon tarts and everything in between. The scent defines summer here.",
-        "**Anchovies connect everything**. The salted anchovies of Monterosso have IGP protection. They appear in every restaurant, on every menu. This is a village that still tastes of its fishing past."
+        {
+          "en": "**The old town offers history**. The striped church of San Giovanni Battista, the narrow caruggi, the sense of centuries compressed into stone. This is where locals worship, where grandmothers shop, where the village has always lived.",
+          "de": "**Die Altstadt bietet Geschichte**. Die gestreifte Kirche San Giovanni Battista, die engen Caruggi, das Gefuehl von Jahrhunderten, verdichtet in Stein. Hier beten die Einheimischen, hier kaufen die Grossmuetter ein, hier hat das Dorf immer gelebt.",
+          "fr": "**Le vieux village offre l'histoire**. L'eglise rayee de San Giovanni Battista, les etroits caruggi, le sentiment de siecles comprimes dans la pierre. C'est ici que les habitants prient, que les grands-meres font leurs courses, que le village a toujours vecu.",
+          "it": "**Il centro storico offre la storia**. La chiesa a strisce di San Giovanni Battista, gli stretti caruggi, la sensazione di secoli compressi nella pietra. Qui pregano i locali, qui fanno la spesa le nonne, qui il borgo ha sempre vissuto."
+        },
+        {
+          "en": "**Fegina offers the beach**. Sandy, accessible, lined with stabilimenti where you can rent umbrellas and order lunch without moving. This is why most visitors come—and why Monterosso can accommodate them.",
+          "de": "**Fegina bietet den Strand**. Sandig, zugaenglich, gesaeumt von Stabilimenti, wo man Sonnenschirme mieten und Mittagessen bestellen kann, ohne sich zu bewegen. Deshalb kommen die meisten Besucher—und deshalb kann Monterosso sie aufnehmen.",
+          "fr": "**Fegina offre la plage**. Sableuse, accessible, bordee de stabilimenti ou l'on peut louer des parasols et commander le dejeuner sans bouger. C'est pourquoi la plupart des visiteurs viennent—et pourquoi Monterosso peut les accueillir.",
+          "it": "**Fegina offre la spiaggia**. Sabbiosa, accessibile, fiancheggiata da stabilimenti dove si possono affittare ombrelloni e ordinare il pranzo senza muoversi. Ecco perche vengono la maggior parte dei visitatori—ed ecco perche Monterosso puo accoglierli."
+        },
+        {
+          "en": "**The two towns share lemons**. The terraced groves above produce the famous Monterosso lemons—fat, fragrant, turned into limoncello and lemon tarts and everything in between. The scent defines summer here.",
+          "de": "**Beide Ortsteile teilen sich die Zitronen**. Die terrassierten Haine oberhalb produzieren die beruehmten Monterosso-Zitronen—gross, duftend, verwandelt in Limoncello und Zitronentorten und alles dazwischen. Der Duft definiert den Sommer hier.",
+          "fr": "**Les deux quartiers partagent les citrons**. Les vergers en terrasses au-dessus produisent les fameux citrons de Monterosso—charnus, parfumes, transformes en limoncello, en tartes au citron et tout ce qui se trouve entre les deux. Le parfum definit l'ete ici.",
+          "it": "**Le due parti condividono i limoni**. I limoneti terrazzati sopra producono i famosi limoni di Monterosso—grossi, profumati, trasformati in limoncello e crostate di limone e tutto cio che sta in mezzo. Il profumo definisce l'estate qui."
+        },
+        {
+          "en": "**Anchovies connect everything**. The salted anchovies of Monterosso have IGP protection. They appear in every restaurant, on every menu. This is a village that still tastes of its fishing past.",
+          "de": "**Die Sardellen verbinden alles**. Die gesalzenen Sardellen von Monterosso tragen das IGP-Schutzsiegel. Sie erscheinen in jedem Restaurant, auf jeder Speisekarte. Dies ist ein Dorf, das noch immer nach seiner Fischervergangenheit schmeckt.",
+          "fr": "**Les anchois relient tout**. Les anchois sales de Monterosso ont la protection IGP. Ils apparaissent dans chaque restaurant, sur chaque menu. C'est un village qui a encore le gout de son passe de pecheurs.",
+          "it": "**Le acciughe collegano tutto**. Le acciughe salate di Monterosso hanno la protezione IGP. Appaiono in ogni ristorante, su ogni menu. Questo e un borgo che ha ancora il sapore del suo passato di pescatori."
+        }
       ]
     },
     {
@@ -44,60 +98,210 @@
       "items": [
         {
           "id": 1,
-          "name": "Spend a Day on the Beach",
-          "category": "Essential Experience",
+          "name": {
+            "en": "Spend a Day on the Beach",
+            "de": "Einen Tag am Strand verbringen",
+            "fr": "Passer une Journee a la Plage",
+            "it": "Trascorrere una Giornata in Spiaggia"
+          },
+          "category": {
+            "en": "Essential Experience",
+            "de": "Unverzichtbar",
+            "fr": "Incontournable",
+            "it": "Esperienza Essenziale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The only sandy beaches in Cinque Terre—where you can actually lay down a towel and settle in.",
-          "description": "Monterosso's beaches are why half the visitors come. Fegina Beach stretches long and accessible, with both free sections and stabilimenti offering umbrellas, loungers, and seaside service. This is Mediterranean beach life as it's meant to be—proper relaxation, not cliff perching.",
-          "giuliaComment": "I spent my childhood summers on this beach. The stabilimenti have changed hands, the prices have risen, but the feeling is the same. Arrive early, claim your spot, and let the hours dissolve.",
-          "signature": "Where beach day means beach day",
-          "practicalInfo": "Free sections available. Stabilimenti €20-40/day for umbrella and loungers. Best before 10am in summer."
+          "intro": {
+            "en": "The only sandy beaches in Cinque Terre—where you can actually lay down a towel and settle in.",
+            "de": "Die einzigen Sandstraende der Cinque Terre—wo man tatsaechlich ein Handtuch ausbreiten und es sich bequem machen kann.",
+            "fr": "Les seules plages de sable des Cinque Terre—ou l'on peut vraiment etendre sa serviette et s'installer.",
+            "it": "Le uniche spiagge di sabbia delle Cinque Terre—dove si puo davvero stendere un asciugamano e sistemarsi."
+          },
+          "description": {
+            "en": "Monterosso's beaches are why half the visitors come. Fegina Beach stretches long and accessible, with both free sections and stabilimenti offering umbrellas, loungers, and seaside service. This is Mediterranean beach life as it's meant to be—proper relaxation, not cliff perching.",
+            "de": "Die Straende von Monterosso sind der Grund, warum die Haelfte der Besucher kommt. Der Strand von Fegina erstreckt sich lang und zugaenglich, mit freien Abschnitten und Stabilimenti, die Sonnenschirme, Liegen und Service am Meer bieten. Das ist mediterranes Strandleben, wie es sein sollte—richtige Entspannung, kein Klettern auf Klippen.",
+            "fr": "Les plages de Monterosso sont la raison pour laquelle la moitie des visiteurs viennent. La plage de Fegina s'etend longue et accessible, avec des sections libres et des stabilimenti offrant parasols, transats et service en bord de mer. C'est la vie de plage mediterraneenne comme elle devrait etre—vraie detente, pas perchage sur les falaises.",
+            "it": "Le spiagge di Monterosso sono il motivo per cui viene meta dei visitatori. La spiaggia di Fegina si estende lunga e accessibile, con sezioni libere e stabilimenti che offrono ombrelloni, lettini e servizio in riva al mare. Questa e la vita da spiaggia mediterranea come dovrebbe essere—vero relax, non arrampicata sugli scogli."
+          },
+          "giuliaComment": {
+            "en": "I spent my childhood summers on this beach. The stabilimenti have changed hands, the prices have risen, but the feeling is the same. Arrive early, claim your spot, and let the hours dissolve.",
+            "de": "Ich habe meine Kindheitssommer an diesem Strand verbracht. Die Stabilimenti haben den Besitzer gewechselt, die Preise sind gestiegen, aber das Gefuehl ist dasselbe. Frueh ankommen, seinen Platz sichern und die Stunden dahinfliessen lassen.",
+            "fr": "J'ai passe les etes de mon enfance sur cette plage. Les stabilimenti ont change de mains, les prix ont augmente, mais le sentiment est le meme. Arrivez tot, reclamez votre place et laissez les heures se dissoudre.",
+            "it": "Ho passato le estati della mia infanzia su questa spiaggia. Gli stabilimenti hanno cambiato gestione, i prezzi sono saliti, ma la sensazione e la stessa. Arrivare presto, reclamare il proprio posto e lasciar dissolvere le ore."
+          },
+          "signature": {
+            "en": "Where beach day means beach day",
+            "de": "Wo Strandtag wirklich Strandtag bedeutet",
+            "fr": "Ou journee plage signifie vraiment journee plage",
+            "it": "Dove giornata al mare significa davvero giornata al mare"
+          },
+          "practicalInfo": {
+            "en": "Free sections available. Stabilimenti EUR 20-40/day for umbrella and loungers. Best before 10am in summer.",
+            "de": "Freie Abschnitte verfuegbar. Stabilimenti 20-40 EUR/Tag fuer Sonnenschirm und Liegen. Im Sommer am besten vor 10 Uhr.",
+            "fr": "Sections gratuites disponibles. Stabilimenti 20-40 EUR/jour pour parasol et transats. Ideal avant 10h en ete.",
+            "it": "Sezioni libere disponibili. Stabilimenti 20-40 EUR/giorno per ombrellone e lettini. Meglio prima delle 10 in estate."
+          }
         },
         {
           "id": 2,
-          "name": "Meet Il Gigante",
-          "category": "Icon",
+          "name": {
+            "en": "Meet Il Gigante",
+            "de": "Il Gigante begegnen",
+            "fr": "Rencontrer Il Gigante",
+            "it": "Incontrare Il Gigante"
+          },
+          "category": {
+            "en": "Icon",
+            "de": "Wahrzeichen",
+            "fr": "Icone",
+            "it": "Icona"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The 14-meter Neptune carved into the cliff—Art Nouveau ambition meeting Ligurian rock.",
-          "description": "Il Gigante once supported a terrace on his shoulders, part of a grand villa that World War II bombs destroyed. Now he stands damaged but defiant at the edge of Fegina Beach, a reminder that Monterosso has always attracted dreamers willing to build impossible things.",
-          "giuliaComment": "As a child, I thought he was ancient—a Roman god who had always been there. Learning he was built in 1910 somehow made him more impressive. Someone looked at that cliff and imagined him.",
-          "signature": "Where ambition became legend",
-          "practicalInfo": "Visible from Fegina Beach. Best photos from the water or eastern end of beach. Free to view."
+          "intro": {
+            "en": "The 14-meter Neptune carved into the cliff—Art Nouveau ambition meeting Ligurian rock.",
+            "de": "Der 14 Meter hohe Neptun, in die Klippe gemeisselt—Jugendstil-Ambition trifft ligurischen Fels.",
+            "fr": "Le Neptune de 14 metres sculpte dans la falaise—l'ambition Art nouveau rencontrant la roche ligure.",
+            "it": "Il Nettuno di 14 metri scolpito nella scogliera—l'ambizione Liberty che incontra la roccia ligure."
+          },
+          "description": {
+            "en": "Il Gigante once supported a terrace on his shoulders, part of a grand villa that World War II bombs destroyed. Now he stands damaged but defiant at the edge of Fegina Beach, a reminder that Monterosso has always attracted dreamers willing to build impossible things.",
+            "de": "Il Gigante trug einst eine Terrasse auf seinen Schultern, Teil einer praecht igen Villa, die Bomben des Zweiten Weltkriegs zerstoerten. Jetzt steht er beschaedigt aber trotzig am Rand des Strandes von Fegina, eine Erinnerung daran, dass Monterosso schon immer Traeumer anzog, die bereit waren, Unmoegliches zu bauen.",
+            "fr": "Il Gigante supportait autrefois une terrasse sur ses epaules, partie d'une grande villa que les bombes de la Seconde Guerre mondiale ont detruite. Maintenant il se dresse endommage mais defiant au bord de la plage de Fegina, un rappel que Monterosso a toujours attire les reveurs prets a construire l'impossible.",
+            "it": "Il Gigante un tempo sosteneva una terrazza sulle spalle, parte di una grande villa che le bombe della Seconda Guerra Mondiale distrussero. Ora sta in piedi, danneggiato ma fiero, ai margini della spiaggia di Fegina, un promemoria che Monterosso ha sempre attratto sognatori disposti a costruire l'impossibile."
+          },
+          "giuliaComment": {
+            "en": "As a child, I thought he was ancient—a Roman god who had always been there. Learning he was built in 1910 somehow made him more impressive. Someone looked at that cliff and imagined him.",
+            "de": "Als Kind dachte ich, er waere uralt—ein roemischer Gott, der schon immer dort gewesen war. Zu erfahren, dass er 1910 gebaut wurde, machte ihn irgendwie noch beeindruckender. Jemand schaute auf diese Klippe und stellte sich ihn vor.",
+            "fr": "Enfant, je pensais qu'il etait ancien—un dieu romain qui avait toujours ete la. Apprendre qu'il a ete construit en 1910 l'a en quelque sorte rendu plus impressionnant. Quelqu'un a regarde cette falaise et l'a imagine.",
+            "it": "Da bambina pensavo fosse antico—un dio romano che c'era sempre stato. Scoprire che fu costruito nel 1910 lo rese in qualche modo piu impressionante. Qualcuno guardo quella scogliera e lo immagino."
+          },
+          "signature": {
+            "en": "Where ambition became legend",
+            "de": "Wo Ehrgeiz zur Legende wurde",
+            "fr": "Ou l'ambition est devenue legende",
+            "it": "Dove l'ambizione divenne leggenda"
+          },
+          "practicalInfo": {
+            "en": "Visible from Fegina Beach. Best photos from the water or eastern end of beach. Free to view.",
+            "de": "Vom Strand Fegina aus sichtbar. Beste Fotos vom Wasser oder vom oestlichen Ende des Strandes. Kostenlos zu besichtigen.",
+            "fr": "Visible depuis la plage de Fegina. Meilleures photos depuis l'eau ou l'extremite est de la plage. Gratuit.",
+            "it": "Visibile dalla spiaggia di Fegina. Migliori foto dall'acqua o dall'estremita est della spiaggia. Gratuito."
+          }
         },
         {
           "id": 3,
-          "name": "Explore the Old Town",
-          "category": "History",
+          "name": {
+            "en": "Explore the Old Town",
+            "de": "Die Altstadt erkunden",
+            "fr": "Explorer le Vieux Village",
+            "it": "Esplorare il Centro Storico"
+          },
+          "category": {
+            "en": "History",
+            "de": "Geschichte",
+            "fr": "Histoire",
+            "it": "Storia"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1539650116574-75c0c6b73b5e?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Medieval streets that remember when this was the largest, most important village on the coast.",
-          "description": "The centro storico unfolds through narrow caruggi, past ancient doorways and small piazzas. The Church of San Giovanni Battista anchors everything with its Gothic-Ligurian stripes. The Oratorio dei Neri holds centuries of local faith. Every turn reveals another layer of the 1,400 years Monterosso has stood here.",
-          "giuliaComment": "Walk the old town in early morning when it belongs to residents. The rhythm is different—slower, quieter, more real. This is the Monterosso that existed before tourism.",
-          "signature": "Where centuries compress into stone",
-          "practicalInfo": "Church opens 9am. Morning best for photography. Free to explore."
+          "intro": {
+            "en": "Medieval streets that remember when this was the largest, most important village on the coast.",
+            "de": "Mittelalterliche Gassen, die sich erinnern, als dies das groesste und wichtigste Dorf an der Kueste war.",
+            "fr": "Des ruelles medievales qui se souviennent quand c'etait le plus grand et le plus important village de la cote.",
+            "it": "Vie medievali che ricordano quando questo era il borgo piu grande e importante della costa."
+          },
+          "description": {
+            "en": "The centro storico unfolds through narrow caruggi, past ancient doorways and small piazzas. The Church of San Giovanni Battista anchors everything with its Gothic-Ligurian stripes. The Oratorio dei Neri holds centuries of local faith. Every turn reveals another layer of the 1,400 years Monterosso has stood here.",
+            "de": "Das centro storico entfaltet sich durch enge Caruggi, vorbei an alten Tuerboegen und kleinen Piazzas. Die Kirche San Giovanni Battista verankert alles mit ihren gotisch-ligurischen Streifen. Das Oratorio dei Neri bewahrt Jahrhunderte lokalen Glaubens. Jede Biegung enthuellt eine weitere Schicht der 1.400 Jahre, die Monterosso hier gestanden hat.",
+            "fr": "Le centro storico se deroule a travers d'etroits caruggi, passant devant d'anciennes portes et de petites piazzas. L'eglise San Giovanni Battista ancre tout avec ses rayures gothico-liguriennes. L'Oratorio dei Neri garde des siecles de foi locale. Chaque tournant revele une autre couche des 1 400 ans que Monterosso s'est tenu ici.",
+            "it": "Il centro storico si svolge attraverso stretti caruggi, oltre antiche porte e piccole piazze. La Chiesa di San Giovanni Battista ancora tutto con le sue strisce gotico-liguri. L'Oratorio dei Neri custodisce secoli di fede locale. Ogni svolta rivela un altro strato dei 1.400 anni in cui Monterosso e rimasta qui."
+          },
+          "giuliaComment": {
+            "en": "Walk the old town in early morning when it belongs to residents. The rhythm is different—slower, quieter, more real. This is the Monterosso that existed before tourism.",
+            "de": "Durchstreifen Sie die Altstadt am fruehen Morgen, wenn sie den Bewohnern gehoert. Der Rhythmus ist anders—langsamer, ruhiger, echter. Das ist das Monterosso, das vor dem Tourismus existierte.",
+            "fr": "Parcourez le vieux village tot le matin quand il appartient aux residents. Le rythme est different—plus lent, plus calme, plus reel. C'est le Monterosso qui existait avant le tourisme.",
+            "it": "Camminate per il centro storico al mattino presto quando appartiene ai residenti. Il ritmo e diverso—piu lento, piu silenzioso, piu reale. Questa e la Monterosso che esisteva prima del turismo."
+          },
+          "signature": {
+            "en": "Where centuries compress into stone",
+            "de": "Wo sich Jahrhunderte in Stein verdichten",
+            "fr": "Ou les siecles se compriment dans la pierre",
+            "it": "Dove i secoli si comprimono nella pietra"
+          },
+          "practicalInfo": {
+            "en": "Church opens 9am. Morning best for photography. Free to explore.",
+            "de": "Kirche oeffnet um 9 Uhr. Morgens am besten fuer Fotografie. Kostenlos zu erkunden.",
+            "fr": "L'eglise ouvre a 9h. Le matin est ideal pour la photographie. Gratuit a explorer.",
+            "it": "Chiesa apre alle 9. La mattina e ideale per la fotografia. Libero da esplorare."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Lemon Question",
-          "quote": "Monterosso lemons are not just lemons. They're larger, more fragrant, less bitter—the product of terraced groves tended for centuries. You'll find them everywhere: in limoncello, in desserts, in the lemon granite that saves hot afternoons. The scent is Monterosso's signature perfume."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Lemon Question",
+            "de": "Die Zitronenfrage",
+            "fr": "La Question du Citron",
+            "it": "La Questione del Limone"
+          },
+          "quote": {
+            "en": "Monterosso lemons are not just lemons. They're larger, more fragrant, less bitter—the product of terraced groves tended for centuries. You'll find them everywhere: in limoncello, in desserts, in the lemon granite that saves hot afternoons. The scent is Monterosso's signature perfume.",
+            "de": "Die Zitronen von Monterosso sind nicht einfach nur Zitronen. Sie sind groesser, duftender, weniger bitter—das Produkt terrassierter Haine, die seit Jahrhunderten gepflegt werden. Sie finden sie ueberall: im Limoncello, in Desserts, in der Zitronengranita, die heisse Nachmittage rettet. Der Duft ist Monterossos unverwechselbares Parfum.",
+            "fr": "Les citrons de Monterosso ne sont pas de simples citrons. Ils sont plus gros, plus parfumes, moins amers—le produit de vergers en terrasses entretenus depuis des siecles. Vous les trouverez partout: dans le limoncello, dans les desserts, dans le granite au citron qui sauve les apres-midi chauds. Le parfum est la signature de Monterosso.",
+            "it": "I limoni di Monterosso non sono semplici limoni. Sono piu grandi, piu profumati, meno amari—il prodotto di limoneti terrazzati coltivati per secoli. Li troverete ovunque: nel limoncello, nei dolci, nella granita al limone che salva i pomeriggi caldi. Il profumo e la firma di Monterosso."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Beyond the Beach",
-      "quote": "The beach is the easy pleasure. But Monterosso rewards those who look up—to the terraces, the convents, the paths that climb toward views the beach cannot offer.",
+      "badge": {
+        "en": "Beyond the Beach",
+        "de": "Jenseits des Strandes",
+        "fr": "Au-dela de la Plage",
+        "it": "Oltre la Spiaggia"
+      },
+      "quote": {
+        "en": "The beach is the easy pleasure. But Monterosso rewards those who look up—to the terraces, the convents, the paths that climb toward views the beach cannot offer.",
+        "de": "Der Strand ist das leichte Vergnuegen. Aber Monterosso belohnt jene, die nach oben schauen—zu den Terrassen, den Kloestern, den Pfaden, die zu Aussichten fuehren, die der Strand nicht bieten kann.",
+        "fr": "La plage est le plaisir facile. Mais Monterosso recompense ceux qui regardent vers le haut—vers les terrasses, les couvents, les sentiers qui grimpent vers des vues que la plage ne peut offrir.",
+        "it": "La spiaggia e il piacere facile. Ma Monterosso premia chi guarda in alto—verso le terrazze, i conventi, i sentieri che salgono verso panorami che la spiaggia non puo offrire."
+      },
       "content": [
-        "**The Capuchin Convent** perches above the village, housing Van Dyck's 'Crucifixion' and gardens where monks have tended plants for four centuries. The views from here explain why they stayed.",
-        "**The terraced vineyards** climb impossible slopes. Walk among them on paths that farmers have used for a thousand years. The labor required to build and maintain these walls is almost inconceivable.",
-        "**Aurora Tower** offers the only 360-degree viewpoint in the village—and now houses one of the best restaurants. Dinner here means watching sunset from where guards once watched for raiders.",
-        "**The Punta Mesco trail** leads to the lighthouse at the end of the peninsula. It's the most dramatic hike starting from Monterosso, and the views encompass the entire coast."
+        {
+          "en": "**The Capuchin Convent** perches above the village, housing Van Dyck's 'Crucifixion' and gardens where monks have tended plants for four centuries. The views from here explain why they stayed.",
+          "de": "**Das Kapuzinerkloster** thront ueber dem Dorf, beherbergt Van Dycks 'Kreuzigung' und Gaerten, in denen Moenche seit vier Jahrhunderten Pflanzen pflegen. Die Aussicht von hier erklaert, warum sie blieben.",
+          "fr": "**Le Couvent des Capucins** se perche au-dessus du village, abritant la 'Crucifixion' de Van Dyck et des jardins ou les moines ont cultive des plantes pendant quatre siecles. Les vues d'ici expliquent pourquoi ils sont restes.",
+          "it": "**Il Convento dei Cappuccini** si erge sopra il borgo, ospitando la 'Crocifissione' di Van Dyck e giardini dove i monaci hanno coltivato piante per quattro secoli. Le viste da qui spiegano perche sono rimasti."
+        },
+        {
+          "en": "**The terraced vineyards** climb impossible slopes. Walk among them on paths that farmers have used for a thousand years. The labor required to build and maintain these walls is almost inconceivable.",
+          "de": "**Die terrassierten Weinberge** erklimmen unmoegliche Haenge. Wandern Sie auf Pfaden, die Bauern seit tausend Jahren benutzen. Die Arbeit, die erforderlich ist, um diese Mauern zu bauen und zu erhalten, ist kaum vorstellbar.",
+          "fr": "**Les vignobles en terrasses** escaladent des pentes impossibles. Marchez parmi eux sur des sentiers que les agriculteurs ont utilises pendant mille ans. Le travail necessaire pour construire et entretenir ces murs est presque inconcevable.",
+          "it": "**I vigneti terrazzati** scalano pendii impossibili. Camminate tra di loro su sentieri che gli agricoltori hanno usato per mille anni. Il lavoro necessario per costruire e mantenere questi muri e quasi inconcepibile."
+        },
+        {
+          "en": "**Aurora Tower** offers the only 360-degree viewpoint in the village—and now houses one of the best restaurants. Dinner here means watching sunset from where guards once watched for raiders.",
+          "de": "**Der Torre Aurora** bietet den einzigen 360-Grad-Aussichtspunkt im Dorf—und beherbergt heute eines der besten Restaurants. Hier zu Abend zu essen bedeutet, den Sonnenuntergang von dort zu beobachten, wo einst Wachen nach Raeubern Ausschau hielten.",
+          "fr": "**La Torre Aurora** offre le seul point de vue a 360 degres du village—et abrite maintenant l'un des meilleurs restaurants. Diner ici signifie regarder le coucher de soleil d'ou les gardes guettaient autrefois les pillards.",
+          "it": "**La Torre Aurora** offre l'unico punto panoramico a 360 gradi del borgo—e ora ospita uno dei migliori ristoranti. Cenare qui significa guardare il tramonto da dove le guardie un tempo sorvegliavano l'arrivo dei razziatori."
+        },
+        {
+          "en": "**The Punta Mesco trail** leads to the lighthouse at the end of the peninsula. It's the most dramatic hike starting from Monterosso, and the views encompass the entire coast.",
+          "de": "**Der Weg nach Punta Mesco** fuehrt zum Leuchtturm am Ende der Halbinsel. Es ist die dramatischste Wanderung von Monterosso aus, und die Aussichten umfassen die gesamte Kueste.",
+          "fr": "**Le sentier de Punta Mesco** mene au phare au bout de la peninsule. C'est la randonnee la plus spectaculaire au depart de Monterosso, et les vues englobent toute la cote.",
+          "it": "**Il sentiero di Punta Mesco** porta al faro alla fine della penisola. E l'escursione piu spettacolare che parte da Monterosso, e le viste abbracciano tutta la costa."
+        }
       ]
     },
     {
@@ -106,62 +310,230 @@
       "items": [
         {
           "id": 4,
-          "name": "Visit the Capuchin Convent",
-          "category": "Sacred Site",
+          "name": {
+            "en": "Visit the Capuchin Convent",
+            "de": "Das Kapuzinerkloster besuchen",
+            "fr": "Visiter le Couvent des Capucins",
+            "it": "Visitare il Convento dei Cappuccini"
+          },
+          "category": {
+            "en": "Sacred Site",
+            "de": "Sakrale Staette",
+            "fr": "Lieu Sacre",
+            "it": "Luogo Sacro"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Where Van Dyck's Crucifixion hangs and monks still tend gardens above the sea.",
-          "description": "The Convento dei Cappuccini sits between old town and Fegina, a 17th-century monastery that somehow survived time and war. The cloister is peaceful, the church holds genuine artistic treasure, and the views stretch across both halves of the village.",
-          "giuliaComment": "The convent is easy to miss—tourists rush between beach and train. But it's one of the most peaceful places in Cinque Terre. The monks who chose this spot understood something.",
-          "signature": "Where contemplation meets coast",
-          "practicalInfo": "Open daily, limited hours at noon. Modest dress required. Small donation appreciated. 10-minute walk from station."
+          "intro": {
+            "en": "Where Van Dyck's Crucifixion hangs and monks still tend gardens above the sea.",
+            "de": "Wo Van Dycks Kreuzigung haengt und Moenche noch immer Gaerten ueber dem Meer pflegen.",
+            "fr": "Ou la Crucifixion de Van Dyck est accroché et ou les moines cultivent encore des jardins au-dessus de la mer.",
+            "it": "Dove e appesa la Crocifissione di Van Dyck e i monaci coltivano ancora giardini sopra il mare."
+          },
+          "description": {
+            "en": "The Convento dei Cappuccini sits between old town and Fegina, a 17th-century monastery that somehow survived time and war. The cloister is peaceful, the church holds genuine artistic treasure, and the views stretch across both halves of the village.",
+            "de": "Das Convento dei Cappuccini liegt zwischen der Altstadt und Fegina, ein Kloster aus dem 17. Jahrhundert, das irgendwie Zeit und Krieg ueberstanden hat. Der Kreuzgang ist friedlich, die Kirche birgt echte kuenstlerische Schaetze, und die Aussicht erstreckt sich ueber beide Haelften des Dorfes.",
+            "fr": "Le Convento dei Cappuccini se situe entre le vieux village et Fegina, un monastere du XVIIe siecle qui a survécu au temps et à la guerre. Le cloître est paisible, l'église abrite de véritables trésors artistiques, et les vues s'étendent sur les deux moitiés du village.",
+            "it": "Il Convento dei Cappuccini si trova tra il centro storico e Fegina, un monastero del XVII secolo che in qualche modo è sopravvissuto al tempo e alla guerra. Il chiostro è tranquillo, la chiesa custodisce veri tesori artistici, e le viste si estendono su entrambe le metà del borgo."
+          },
+          "giuliaComment": {
+            "en": "The convent is easy to miss—tourists rush between beach and train. But it's one of the most peaceful places in Cinque Terre. The monks who chose this spot understood something.",
+            "de": "Das Kloster ist leicht zu uebersehen—Touristen eilen zwischen Strand und Zug. Aber es ist einer der friedlichsten Orte der Cinque Terre. Die Moenche, die diesen Ort waehlten, verstanden etwas.",
+            "fr": "Le couvent est facile a manquer—les touristes se precipitent entre la plage et le train. Mais c'est l'un des endroits les plus paisibles des Cinque Terre. Les moines qui ont choisi cet endroit comprenaient quelque chose.",
+            "it": "Il convento e facile da perdere—i turisti corrono tra spiaggia e treno. Ma e uno dei luoghi piu tranquilli delle Cinque Terre. I monaci che scelsero questo posto capivano qualcosa."
+          },
+          "signature": {
+            "en": "Where contemplation meets coast",
+            "de": "Wo Kontemplation auf Kueste trifft",
+            "fr": "Ou la contemplation rencontre la cote",
+            "it": "Dove la contemplazione incontra la costa"
+          },
+          "practicalInfo": {
+            "en": "Open daily, limited hours at noon. Modest dress required. Small donation appreciated. 10-minute walk from station.",
+            "de": "Taeglich geoeffnet, eingeschraenkte Oeffnungszeiten mittags. Angemessene Kleidung erforderlich. Kleine Spende willkommen. 10 Minuten zu Fuss vom Bahnhof.",
+            "fr": "Ouvert tous les jours, heures limitees a midi. Tenue correcte exigee. Petit don apprecie. 10 minutes a pied de la gare.",
+            "it": "Aperto tutti i giorni, orario limitato a mezzogiorno. Abbigliamento modesto richiesto. Piccola donazione gradita. 10 minuti a piedi dalla stazione."
+          }
         },
         {
           "id": 5,
-          "name": "Hike to Punta Mesco",
-          "category": "Trail",
+          "name": {
+            "en": "Hike to Punta Mesco",
+            "de": "Wanderung nach Punta Mesco",
+            "fr": "Randonnee vers Punta Mesco",
+            "it": "Escursione a Punta Mesco"
+          },
+          "category": {
+            "en": "Trail",
+            "de": "Wanderweg",
+            "fr": "Sentier",
+            "it": "Sentiero"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The lighthouse trail that reveals the coast from above—and demands effort in exchange.",
-          "description": "The path to Punta Mesco climbs from Monterosso's western edge to the lighthouse at the end of the peninsula. It's challenging—perhaps 2 hours each way—but the views are unmatched. On clear days, you can see from the French Riviera to Portofino.",
-          "giuliaComment": "This is my favorite hike from Monterosso. The lighthouse sits alone at the end of everything, and the silence up there is different from village silence. You've earned it.",
-          "signature": "Where the coast reveals its full sweep",
-          "practicalInfo": "4 hours round trip. Bring water. Best in morning. Challenging but rewarding."
+          "intro": {
+            "en": "The lighthouse trail that reveals the coast from above—and demands effort in exchange.",
+            "de": "Der Leuchtturmweg, der die Kueste von oben enthuellt—und Anstrengung als Gegenleistung verlangt.",
+            "fr": "Le sentier du phare qui revele la cote d'en haut—et exige un effort en echange.",
+            "it": "Il sentiero del faro che rivela la costa dall'alto—e richiede fatica in cambio."
+          },
+          "description": {
+            "en": "The path to Punta Mesco climbs from Monterosso's western edge to the lighthouse at the end of the peninsula. It's challenging—perhaps 2 hours each way—but the views are unmatched. On clear days, you can see from the French Riviera to Portofino.",
+            "de": "Der Weg nach Punta Mesco steigt vom westlichen Rand von Monterosso zum Leuchtturm am Ende der Halbinsel. Er ist anspruchsvoll—etwa 2 Stunden pro Weg—aber die Aussichten sind unuebertroffen. An klaren Tagen kann man von der Cote d'Azur bis Portofino sehen.",
+            "fr": "Le chemin vers Punta Mesco monte du bord ouest de Monterosso jusqu'au phare au bout de la peninsule. C'est difficile—environ 2 heures dans chaque sens—mais les vues sont incomparables. Par temps clair, on peut voir de la Cote d'Azur a Portofino.",
+            "it": "Il sentiero per Punta Mesco sale dal margine occidentale di Monterosso fino al faro alla fine della penisola. E impegnativo—circa 2 ore per tratta—ma le viste sono impareggiabili. Nelle giornate limpide si puo vedere dalla Costa Azzurra a Portofino."
+          },
+          "giuliaComment": {
+            "en": "This is my favorite hike from Monterosso. The lighthouse sits alone at the end of everything, and the silence up there is different from village silence. You've earned it.",
+            "de": "Das ist meine Lieblingswanderung von Monterosso. Der Leuchtturm steht allein am Ende von allem, und die Stille dort oben ist anders als die Stille im Dorf. Man hat sie sich verdient.",
+            "fr": "C'est ma randonnee preferee depuis Monterosso. Le phare se dresse seul au bout de tout, et le silence la-haut est different du silence du village. Vous l'avez merite.",
+            "it": "Questa e la mia escursione preferita da Monterosso. Il faro sta solo alla fine di tutto, e il silenzio lassu e diverso dal silenzio del borgo. Ve lo siete guadagnato."
+          },
+          "signature": {
+            "en": "Where the coast reveals its full sweep",
+            "de": "Wo die Kueste ihre ganze Weite offenbart",
+            "fr": "Ou la cote revele toute son etendue",
+            "it": "Dove la costa rivela tutta la sua ampiezza"
+          },
+          "practicalInfo": {
+            "en": "4 hours round trip. Bring water. Best in morning. Challenging but rewarding.",
+            "de": "4 Stunden hin und zurueck. Wasser mitnehmen. Am besten morgens. Anspruchsvoll aber lohnend.",
+            "fr": "4 heures aller-retour. Apportez de l'eau. Ideal le matin. Difficile mais gratifiant.",
+            "it": "4 ore andata e ritorno. Portare acqua. Meglio al mattino. Impegnativo ma gratificante."
+          }
         },
         {
           "id": 6,
-          "name": "Taste Monterosso Anchovies",
-          "category": "Culinary Heritage",
+          "name": {
+            "en": "Taste Monterosso Anchovies",
+            "de": "Monterosso-Sardellen probieren",
+            "fr": "Gouter les Anchois de Monterosso",
+            "it": "Assaggiare le Acciughe di Monterosso"
+          },
+          "category": {
+            "en": "Culinary Heritage",
+            "de": "Kulinarisches Erbe",
+            "fr": "Patrimoine Culinaire",
+            "it": "Patrimonio Culinario"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
-          "intro": "The IGP-protected anchovies that have defined this coast for centuries—salted, fried, marinated, perfect.",
-          "description": "Monterosso anchovies carry protected status because they're genuinely different—caught in these specific waters, processed using methods unchanged for generations. Every restaurant serves them, each preparation revealing another dimension of this small, essential fish.",
-          "giuliaComment": "Ask how the anchovies are prepared before you order. Salted raw with lemon. Fried until crisp. Stuffed and baked. Marinated in vinegar. Each version tells you something about the chef.",
-          "signature": "Where small fish carry large tradition",
-          "practicalInfo": "Available everywhere. Ask for local preparation. Pair with local white wine."
+          "intro": {
+            "en": "The IGP-protected anchovies that have defined this coast for centuries—salted, fried, marinated, perfect.",
+            "de": "Die IGP-geschuetzten Sardellen, die diese Kueste seit Jahrhunderten praegen—gesalzen, gebraten, mariniert, perfekt.",
+            "fr": "Les anchois proteges IGP qui definissent cette cote depuis des siecles—sales, frits, marines, parfaits.",
+            "it": "Le acciughe protette IGP che definiscono questa costa da secoli—salate, fritte, marinate, perfette."
+          },
+          "description": {
+            "en": "Monterosso anchovies carry protected status because they're genuinely different—caught in these specific waters, processed using methods unchanged for generations. Every restaurant serves them, each preparation revealing another dimension of this small, essential fish.",
+            "de": "Die Sardellen von Monterosso tragen einen geschuetzten Status, weil sie wirklich anders sind—in diesen bestimmten Gewaessern gefangen, mit seit Generationen unveraenderten Methoden verarbeitet. Jedes Restaurant serviert sie, jede Zubereitung enthuellt eine weitere Dimension dieses kleinen, wesentlichen Fisches.",
+            "fr": "Les anchois de Monterosso portent un statut protege parce qu'ils sont vraiment differents—peches dans ces eaux specifiques, transformes selon des methodes inchangees depuis des generations. Chaque restaurant les sert, chaque preparation revelant une autre dimension de ce petit poisson essentiel.",
+            "it": "Le acciughe di Monterosso hanno lo status protetto perche sono veramente diverse—pescate in queste acque specifiche, lavorate con metodi immutati da generazioni. Ogni ristorante le serve, ogni preparazione rivela un'altra dimensione di questo piccolo pesce essenziale."
+          },
+          "giuliaComment": {
+            "en": "Ask how the anchovies are prepared before you order. Salted raw with lemon. Fried until crisp. Stuffed and baked. Marinated in vinegar. Each version tells you something about the chef.",
+            "de": "Fragen Sie, wie die Sardellen zubereitet werden, bevor Sie bestellen. Roh gesalzen mit Zitrone. Knusprig gebraten. Gefuellt und gebacken. In Essig mariniert. Jede Version erzaehlt Ihnen etwas ueber den Koch.",
+            "fr": "Demandez comment les anchois sont prepares avant de commander. Sales crus au citron. Frits jusqu'a ce qu'ils soient croustillants. Farcis et cuits au four. Marines au vinaigre. Chaque version vous dit quelque chose sur le chef.",
+            "it": "Chiedete come sono preparate le acciughe prima di ordinare. Salate crude con limone. Fritte fino a essere croccanti. Ripiene e al forno. Marinate in aceto. Ogni versione vi dice qualcosa sullo chef."
+          },
+          "signature": {
+            "en": "Where small fish carry large tradition",
+            "de": "Wo kleine Fische grosse Tradition tragen",
+            "fr": "Ou les petits poissons portent une grande tradition",
+            "it": "Dove piccoli pesci portano grande tradizione"
+          },
+          "practicalInfo": {
+            "en": "Available everywhere. Ask for local preparation. Pair with local white wine.",
+            "de": "Ueberall erhaeltlich. Nach lokaler Zubereitung fragen. Mit lokalem Weisswein kombinieren.",
+            "fr": "Disponible partout. Demandez la preparation locale. Accompagnez d'un vin blanc local.",
+            "it": "Disponibile ovunque. Chiedete la preparazione locale. Abbinate con vino bianco locale."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 2,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Afternoon Truth",
-          "quote": "Monterosso is two villages at noon: the beach crowded with swimmers, the old town empty as locals eat and rest. By 4pm, the balance shifts—the beach empties toward showers and aperitivos, the old town wakes for evening passeggiata. Time your activities accordingly."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Afternoon Truth",
+            "de": "Die Wahrheit des Nachmittags",
+            "fr": "La Verite de l'Apres-midi",
+            "it": "La Verita del Pomeriggio"
+          },
+          "quote": {
+            "en": "Monterosso is two villages at noon: the beach crowded with swimmers, the old town empty as locals eat and rest. By 4pm, the balance shifts—the beach empties toward showers and aperitivos, the old town wakes for evening passeggiata. Time your activities accordingly.",
+            "de": "Monterosso ist mittags zwei Doerfer: der Strand voller Badegaeste, die Altstadt leer, waehrend die Einheimischen essen und ruhen. Um 16 Uhr verschiebt sich das Gleichgewicht—der Strand leert sich Richtung Duschen und Aperitivos, die Altstadt erwacht zur abendlichen Passeggiata. Planen Sie Ihre Aktivitaeten entsprechend.",
+            "fr": "Monterosso est deux villages a midi: la plage bondee de baigneurs, le vieux village vide pendant que les locaux mangent et se reposent. Vers 16h, l'equilibre change—la plage se vide vers les douches et les aperitifs, le vieux village s'eveille pour la passeggiata du soir. Planifiez vos activites en consequence.",
+            "it": "Monterosso e due borghi a mezzogiorno: la spiaggia affollata di bagnanti, il centro storico vuoto mentre i locali mangiano e riposano. Verso le 16 l'equilibrio si sposta—la spiaggia si svuota verso docce e aperitivi, il centro storico si sveglia per la passeggiata serale. Programmate le vostre attivita di conseguenza."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Gift of Choice",
+      "title": {
+        "en": "The Gift of Choice",
+        "de": "Das Geschenk der Wahl",
+        "fr": "Le Don du Choix",
+        "it": "Il Dono della Scelta"
+      },
       "content": [
-        "Monterosso gives you what the other villages cannot: options. You can spend your days entirely on the beach and miss nothing essential. Or you can climb to convents, hike to lighthouses, and taste your way through anchovy preparations.",
-        "The luxury here is freedom. The challenge is choosing. Either way, the village accommodates—with beaches wide enough, restaurants numerous enough, and experiences varied enough to fill whatever time you have.",
-        "Choose something. Then let Monterosso surprise you with what you didn't plan for."
+        {
+          "en": "Monterosso gives you what the other villages cannot: options. You can spend your days entirely on the beach and miss nothing essential. Or you can climb to convents, hike to lighthouses, and taste your way through anchovy preparations.",
+          "de": "Monterosso gibt Ihnen, was die anderen Doerfer nicht koennen: Wahlmoeglichkeiten. Sie koennen Ihre Tage ganz am Strand verbringen und nichts Wesentliches verpassen. Oder Sie koennen zu Kloestern steigen, zu Leuchttuerment wandern und sich durch Sardellenzubereitungen probieren.",
+          "fr": "Monterosso vous donne ce que les autres villages ne peuvent pas: des options. Vous pouvez passer vos journees entierement sur la plage et ne rien manquer d'essentiel. Ou vous pouvez monter aux couvents, randonner jusqu'aux phares et gouter les differentes preparations d'anchois.",
+          "it": "Monterosso vi da cio che gli altri borghi non possono: opzioni. Potete passare le vostre giornate interamente in spiaggia senza perdere nulla di essenziale. Oppure potete salire ai conventi, camminare fino ai fari e assaggiare le varie preparazioni di acciughe."
+        },
+        {
+          "en": "The luxury here is freedom. The challenge is choosing. Either way, the village accommodates—with beaches wide enough, restaurants numerous enough, and experiences varied enough to fill whatever time you have.",
+          "de": "Der Luxus hier ist die Freiheit. Die Herausforderung ist die Wahl. So oder so, das Dorf kommt entgegen—mit Straenden breit genug, Restaurants zahlreich genug und Erlebnissen vielfaeltig genug, um jede Zeit zu fuellen, die Sie haben.",
+          "fr": "Le luxe ici est la liberte. Le defi est de choisir. Dans tous les cas, le village s'adapte—avec des plages assez larges, des restaurants assez nombreux et des experiences assez variees pour remplir le temps dont vous disposez.",
+          "it": "Il lusso qui e la liberta. La sfida e scegliere. In ogni caso, il borgo si adatta—con spiagge abbastanza ampie, ristoranti abbastanza numerosi ed esperienze abbastanza varie da riempire qualsiasi tempo abbiate."
+        },
+        {
+          "en": "Choose something. Then let Monterosso surprise you with what you didn't plan for.",
+          "de": "Waehlen Sie etwas. Dann lassen Sie sich von Monterosso mit dem ueberraschen, was Sie nicht geplant haben.",
+          "fr": "Choisissez quelque chose. Puis laissez Monterosso vous surprendre avec ce que vous n'aviez pas prevu.",
+          "it": "Scegliete qualcosa. Poi lasciate che Monterosso vi sorprenda con cio che non avevate pianificato."
+        }
       ],
       "buttons": [
-        { "text": "Where to Eat", "url": "/en/monterosso/restaurants", "variant": "primary" },
-        { "text": "Where to Stay", "url": "/en/monterosso/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Eat",
+            "de": "Wo essen",
+            "fr": "Ou manger",
+            "it": "Dove mangiare"
+          },
+          "url": {
+            "en": "/en/monterosso/restaurants",
+            "de": "/de/monterosso/restaurants",
+            "fr": "/fr/monterosso/restaurants",
+            "it": "/it/monterosso/restaurants"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Wo uebernachten",
+            "fr": "Ou loger",
+            "it": "Dove dormire"
+          },
+          "url": {
+            "en": "/en/monterosso/hotels",
+            "de": "/de/monterosso/hotels",
+            "fr": "/fr/monterosso/hotels",
+            "it": "/it/monterosso/hotels"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -171,5 +543,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T13:00:00.000Z"
+  "updated_at": "2026-01-07T14:00:00.000Z"
 }

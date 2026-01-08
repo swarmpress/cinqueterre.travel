@@ -2,39 +2,87 @@
   "id": "sights-riomaggiore",
   "slug": {
     "en": "/en/sights",
-    "de": "/de/sights",
-    "fr": "/fr/sights",
-    "it": "/it/sights"
+    "de": "/de/sehenswuerdigkeiten",
+    "fr": "/fr/sites",
+    "it": "/it/luoghi"
   },
   "title": {
-    "en": "Sights of Riomaggiore | Cinque Terre Dispatch"
+    "en": "Sights of Riomaggiore | Cinque Terre Dispatch",
+    "de": "Sehenswuerdigkeiten von Riomaggiore | Cinque Terre Dispatch",
+    "fr": "Sites de Riomaggiore | Cinque Terre Dispatch",
+    "it": "Luoghi di Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "sights",
   "seo": {
     "title": {
-      "en": "Sights of Riomaggiore | Cinque Terre Dispatch"
+      "en": "Sights of Riomaggiore | Cinque Terre Dispatch",
+      "de": "Sehenswuerdigkeiten von Riomaggiore | Cinque Terre Dispatch",
+      "fr": "Sites de Riomaggiore | Cinque Terre Dispatch",
+      "it": "Luoghi di Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Not a catalog, but a quiet invitation to the places that define Riomaggiore—and why they matter."
+      "en": "Not a catalog, but a quiet invitation to the places that define Riomaggiore—and why they matter.",
+      "de": "Kein Katalog, sondern eine stille Einladung zu den Orten, die Riomaggiore ausmachen—und warum sie wichtig sind.",
+      "fr": "Pas un catalogue, mais une invitation discrète aux lieux qui définissent Riomaggiore—et pourquoi ils comptent.",
+      "it": "Non un catalogo, ma un invito discreto ai luoghi che definiscono Riomaggiore—e perche sono importanti."
     }
   },
   "template": "cinque-terre-sights",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Sights Worth<br/>Your Attention",
-      "subtitle": "Not a catalog, but a quiet invitation to the places that define Riomaggiore—and why they matter.",
-      "badge": "Editorial Guide",
+      "title": {
+        "en": "Sights Worth<br/>Your Attention",
+        "de": "Orte, die Ihre<br/>Aufmerksamkeit verdienen",
+        "fr": "Sites Dignes<br/>d'Attention",
+        "it": "Luoghi che Meritano<br/>la Vostra Attenzione"
+      },
+      "subtitle": {
+        "en": "Not a catalog, but a quiet invitation to the places that define Riomaggiore—and why they matter.",
+        "de": "Kein Katalog, sondern eine stille Einladung zu den Orten, die Riomaggiore ausmachen—und warum sie wichtig sind.",
+        "fr": "Pas un catalogue, mais une invitation discrète aux lieux qui définissent Riomaggiore—et pourquoi ils comptent.",
+        "it": "Non un catalogo, ma un invito discreto ai luoghi che definiscono Riomaggiore—e perche sono importanti."
+      },
+      "badge": {
+        "en": "Editorial Guide",
+        "de": "Redaktioneller Leitfaden",
+        "fr": "Guide Editorial",
+        "it": "Guida Editoriale"
+      },
       "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2670&auto=format&fit=crop"
     },
     {
       "type": "editorial-intro",
-      "badge": "Curated Selection",
-      "quote": "Each sight here has been chosen not for completeness, but for character. These are the places that reveal something essential about Riomaggiore—its rhythm, its light, its relationship with the sea.",
-      "content": [
-        "They are presented as they deserve to be: with care, context, and a human voice.",
-        "We invite you to look beyond the surface, to notice the small details that make these places more than just photo opportunities."
-      ]
+      "badge": {
+        "en": "Curated Selection",
+        "de": "Kuratierte Auswahl",
+        "fr": "Selection Curatee",
+        "it": "Selezione Curata"
+      },
+      "quote": {
+        "en": "Each sight here has been chosen not for completeness, but for character. These are the places that reveal something essential about Riomaggiore—its rhythm, its light, its relationship with the sea.",
+        "de": "Jeder Ort hier wurde nicht wegen Vollstaendigkeit, sondern wegen seines Charakters ausgewaehlt. Dies sind die Orte, die etwas Wesentliches ueber Riomaggiore verraten—seinen Rhythmus, sein Licht, seine Beziehung zum Meer.",
+        "fr": "Chaque site ici a ete choisi non pas pour l'exhaustivite, mais pour le caractere. Ce sont les lieux qui revelent quelque chose d'essentiel sur Riomaggiore—son rythme, sa lumiere, sa relation avec la mer.",
+        "it": "Ogni luogo qui e stato scelto non per completezza, ma per carattere. Questi sono i posti che rivelano qualcosa di essenziale su Riomaggiore—il suo ritmo, la sua luce, il suo rapporto con il mare."
+      },
+      "content": {
+        "en": [
+          "They are presented as they deserve to be: with care, context, and a human voice.",
+          "We invite you to look beyond the surface, to notice the small details that make these places more than just photo opportunities."
+        ],
+        "de": [
+          "Sie werden so praesentiert, wie sie es verdienen: mit Sorgfalt, Kontext und einer menschlichen Stimme.",
+          "Wir laden Sie ein, ueber die Oberflaeche hinauszuschauen, die kleinen Details zu bemerken, die diese Orte zu mehr als nur Fotogelegenheiten machen."
+        ],
+        "fr": [
+          "Ils sont presentes comme ils le meritent: avec soin, contexte et une voix humaine.",
+          "Nous vous invitons a regarder au-dela de la surface, a remarquer les petits details qui font de ces lieux plus que de simples opportunites photo."
+        ],
+        "it": [
+          "Sono presentati come meritano: con cura, contesto e una voce umana.",
+          "Vi invitiamo a guardare oltre la superficie, a notare i piccoli dettagli che rendono questi luoghi piu che semplici opportunita fotografiche."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -42,70 +90,280 @@
       "items": [
         {
           "id": 1,
-          "name": "The Harbor (Marina)",
-          "category": "Landmark",
+          "name": {
+            "en": "The Harbor (Marina)",
+            "de": "Der Hafen (Marina)",
+            "fr": "Le Port (Marina)",
+            "it": "Il Porto (Marina)"
+          },
+          "category": {
+            "en": "Landmark",
+            "de": "Wahrzeichen",
+            "fr": "Point de Repere",
+            "it": "Punto di Riferimento"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=2670&auto=format&fit=crop",
-          "signature": "Where the village meets the sea in a cascade of color",
-          "description": "The harbor of Riomaggiore is not a beach in the traditional sense—it is a slipway carved into the rock, where brightly painted fishing boats are winched up and down by hand. This is the village's living room, where locals gather to swim, fish, and watch the sunset.",
-          "orientation": "Best experienced in the late afternoon when the light turns golden and the day-trippers have left.",
-          "editorComment": "Sit on the flat rocks to the left of the boat ramp. Order a Spritz from the bar above and watch the boats come in.",
-          "bestTime": "Late afternoon / sunset",
-          "duration": "30 min – 2 hours",
-          "crowdLevel": "High midday, quieter at dusk",
-          "access": "Easy – flat path from main street",
+          "signature": {
+            "en": "Where the village meets the sea in a cascade of color",
+            "de": "Wo das Dorf in einer Farbkaskade auf das Meer trifft",
+            "fr": "Ou le village rencontre la mer dans une cascade de couleurs",
+            "it": "Dove il borgo incontra il mare in una cascata di colori"
+          },
+          "description": {
+            "en": "The harbor of Riomaggiore is not a beach in the traditional sense—it is a slipway carved into the rock, where brightly painted fishing boats are winched up and down by hand. This is the village's living room, where locals gather to swim, fish, and watch the sunset.",
+            "de": "Der Hafen von Riomaggiore ist kein Strand im traditionellen Sinne—er ist eine in den Felsen gehauene Rampe, wo bunt bemalte Fischerboote von Hand hoch- und runtergezogen werden. Dies ist das Wohnzimmer des Dorfes, wo Einheimische sich zum Schwimmen, Fischen und Sonnenuntergang beobachten treffen.",
+            "fr": "Le port de Riomaggiore n'est pas une plage au sens traditionnel—c'est une cale taillee dans la roche, ou des bateaux de peche aux couleurs vives sont hisses et descendus a la main. C'est le salon du village, ou les habitants se reunissent pour nager, pecher et regarder le coucher du soleil.",
+            "it": "Il porto di Riomaggiore non e una spiaggia nel senso tradizionale—e uno scivolo scavato nella roccia, dove barche da pesca dai colori vivaci vengono issate e calate a mano. Questo e il salotto del borgo, dove i locali si riuniscono per nuotare, pescare e guardare il tramonto."
+          },
+          "orientation": {
+            "en": "Best experienced in the late afternoon when the light turns golden and the day-trippers have left.",
+            "de": "Am besten am spaeten Nachmittag zu erleben, wenn das Licht golden wird und die Tagesausfluegler gegangen sind.",
+            "fr": "A vivre de preference en fin d'apres-midi quand la lumiere devient doree et les excursionnistes sont partis.",
+            "it": "Da vivere nel tardo pomeriggio quando la luce diventa dorata e i turisti giornalieri se ne sono andati."
+          },
+          "editorComment": {
+            "en": "Sit on the flat rocks to the left of the boat ramp. Order a Spritz from the bar above and watch the boats come in.",
+            "de": "Setzen Sie sich auf die flachen Felsen links von der Bootsrampe. Bestellen Sie einen Spritz von der Bar oben und beobachten Sie die einlaufenden Boote.",
+            "fr": "Asseyez-vous sur les rochers plats a gauche de la rampe de mise a l'eau. Commandez un Spritz au bar au-dessus et regardez les bateaux arriver.",
+            "it": "Sedetevi sugli scogli piatti a sinistra della rampa delle barche. Ordinate uno Spritz dal bar sopra e guardate le barche arrivare."
+          },
+          "bestTime": {
+            "en": "Late afternoon / sunset",
+            "de": "Spaeter Nachmittag / Sonnenuntergang",
+            "fr": "Fin d'apres-midi / coucher du soleil",
+            "it": "Tardo pomeriggio / tramonto"
+          },
+          "duration": {
+            "en": "30 min - 2 hours",
+            "de": "30 Min. - 2 Stunden",
+            "fr": "30 min - 2 heures",
+            "it": "30 min - 2 ore"
+          },
+          "crowdLevel": {
+            "en": "High midday, quieter at dusk",
+            "de": "Hoch mittags, ruhiger in der Daemmerung",
+            "fr": "Eleve a midi, plus calme au crepuscule",
+            "it": "Alto a mezzogiorno, piu tranquillo al crepuscolo"
+          },
+          "access": {
+            "en": "Easy - flat path from main street",
+            "de": "Einfach - flacher Weg von der Hauptstrasse",
+            "fr": "Facile - chemin plat depuis la rue principale",
+            "it": "Facile - percorso piano dalla via principale"
+          },
           "googleRating": 4.8,
           "tripadvisorRating": 4.7
         },
         {
           "id": 2,
-          "name": "Church of San Giovanni Battista",
-          "category": "Historic Site",
+          "name": {
+            "en": "Church of San Giovanni Battista",
+            "de": "Kirche San Giovanni Battista",
+            "fr": "Eglise San Giovanni Battista",
+            "it": "Chiesa di San Giovanni Battista"
+          },
+          "category": {
+            "en": "Historic Site",
+            "de": "Historische Staette",
+            "fr": "Site Historique",
+            "it": "Sito Storico"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?q=80&w=2670&auto=format&fit=crop",
-          "signature": "A Romanesque sentinel watching over the valley since 1340",
-          "description": "Perched at the top of the village, San Giovanni Battista is Riomaggiore's oldest standing structure. Its simple stone facade and rose window offer a counterpoint to the colorful chaos below.",
-          "orientation": "The interior is cool and dark—a welcome refuge on a hot day. Notice the wooden crucifix, carved by a local artist.",
-          "editorComment": "The churchyard offers one of the best views of the village rooftops. Come at midday when the light is directly overhead.",
-          "bestTime": "Midday for interior light",
-          "duration": "20 – 30 min",
-          "crowdLevel": "Moderate",
-          "access": "Moderate – uphill walk with stairs",
+          "signature": {
+            "en": "A Romanesque sentinel watching over the valley since 1340",
+            "de": "Eine romanische Wache, die seit 1340 ueber das Tal wacht",
+            "fr": "Une sentinelle romane veillant sur la vallee depuis 1340",
+            "it": "Una sentinella romanica che veglia sulla valle dal 1340"
+          },
+          "description": {
+            "en": "Perched at the top of the village, San Giovanni Battista is Riomaggiore's oldest standing structure. Its simple stone facade and rose window offer a counterpoint to the colorful chaos below.",
+            "de": "Auf der Spitze des Dorfes thronend, ist San Giovanni Battista das aelteste stehende Gebaeude Riomaggiores. Seine schlichte Steinfassade und das Rosettenfenster bieten einen Kontrapunkt zum bunten Chaos darunter.",
+            "fr": "Perchee au sommet du village, San Giovanni Battista est la plus ancienne structure debout de Riomaggiore. Sa simple facade de pierre et sa rosace offrent un contrepoint au chaos colore en contrebas.",
+            "it": "Arroccata in cima al borgo, San Giovanni Battista e la struttura piu antica di Riomaggiore. La sua semplice facciata in pietra e il rosone offrono un contrappunto al caos colorato sottostante."
+          },
+          "orientation": {
+            "en": "The interior is cool and dark—a welcome refuge on a hot day. Notice the wooden crucifix, carved by a local artist.",
+            "de": "Das Innere ist kuehl und dunkel—eine willkommene Zuflucht an einem heissen Tag. Beachten Sie das hoelzerne Kruzifix, das von einem lokalen Kuenstler geschnitzt wurde.",
+            "fr": "L'interieur est frais et sombre—un refuge bienvenu par temps chaud. Remarquez le crucifix en bois, sculpte par un artiste local.",
+            "it": "L'interno e fresco e buio—un rifugio gradito nelle giornate calde. Notate il crocifisso in legno, scolpito da un artista locale."
+          },
+          "editorComment": {
+            "en": "The churchyard offers one of the best views of the village rooftops. Come at midday when the light is directly overhead.",
+            "de": "Der Kirchhof bietet einen der besten Ausblicke auf die Dorfdaecher. Kommen Sie mittags, wenn das Licht direkt von oben kommt.",
+            "fr": "Le parvis de l'eglise offre l'une des meilleures vues sur les toits du village. Venez a midi quand la lumiere est directement au-dessus.",
+            "it": "Il sagrato offre una delle migliori viste sui tetti del borgo. Venite a mezzogiorno quando la luce e direttamente sopra."
+          },
+          "bestTime": {
+            "en": "Midday for interior light",
+            "de": "Mittags fuer das Innenlicht",
+            "fr": "Midi pour la lumiere interieure",
+            "it": "Mezzogiorno per la luce interna"
+          },
+          "duration": {
+            "en": "20 - 30 min",
+            "de": "20 - 30 Min.",
+            "fr": "20 - 30 min",
+            "it": "20 - 30 min"
+          },
+          "crowdLevel": {
+            "en": "Moderate",
+            "de": "Maessig",
+            "fr": "Modere",
+            "it": "Moderato"
+          },
+          "access": {
+            "en": "Moderate - uphill walk with stairs",
+            "de": "Maessig - Bergaufweg mit Treppen",
+            "fr": "Modere - montee avec escaliers",
+            "it": "Moderato - salita con scale"
+          },
           "googleRating": 4.6,
           "tripadvisorRating": 4.5
         },
         {
           "id": 3,
-          "name": "Castello di Riomaggiore",
-          "category": "Historic Site",
+          "name": {
+            "en": "Castello di Riomaggiore",
+            "de": "Castello di Riomaggiore",
+            "fr": "Castello di Riomaggiore",
+            "it": "Castello di Riomaggiore"
+          },
+          "category": {
+            "en": "Historic Site",
+            "de": "Historische Staette",
+            "fr": "Site Historique",
+            "it": "Sito Storico"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2574&auto=format&fit=crop",
-          "signature": "A 13th-century fortress with panoramic views over two coastlines",
-          "description": "The castle ruins sit at the highest point of the village, offering 360-degree views of the sea, the terraced hills, and the rooftops below. It was built to defend against Saracen pirates and now serves as a peaceful lookout.",
-          "orientation": "The climb is steep but short. Bring water and arrive before sunset for the best light.",
-          "editorComment": "This is where I bring visitors who want to understand the geography of the village. You can see how the houses climb the valley like steps.",
-          "bestTime": "Golden hour / sunset",
-          "duration": "30 min – 1 hour",
-          "crowdLevel": "Low to moderate",
-          "access": "Challenging – steep stairs from upper village",
+          "signature": {
+            "en": "A 13th-century fortress with panoramic views over two coastlines",
+            "de": "Eine Festung aus dem 13. Jahrhundert mit Panoramablick ueber zwei Kuestenlinien",
+            "fr": "Une forteresse du XIIIe siecle avec des vues panoramiques sur deux cotes",
+            "it": "Una fortezza del XIII secolo con viste panoramiche su due coste"
+          },
+          "description": {
+            "en": "The castle ruins sit at the highest point of the village, offering 360-degree views of the sea, the terraced hills, and the rooftops below. It was built to defend against Saracen pirates and now serves as a peaceful lookout.",
+            "de": "Die Burgruinen befinden sich am hoechsten Punkt des Dorfes und bieten 360-Grad-Ausblicke auf das Meer, die terrassierten Huegel und die Daecher darunter. Sie wurde gebaut, um sich gegen Sarazenen-Piraten zu verteidigen, und dient heute als friedlicher Aussichtspunkt.",
+            "fr": "Les ruines du chateau se trouvent au point le plus eleve du village, offrant des vues a 360 degres sur la mer, les collines en terrasses et les toits en contrebas. Il a ete construit pour se defendre contre les pirates sarrasins et sert aujourd'hui de point de vue paisible.",
+            "it": "Le rovine del castello si trovano nel punto piu alto del borgo, offrendo viste a 360 gradi sul mare, le colline terrazzate e i tetti sottostanti. Fu costruito per difendersi dai pirati saraceni e oggi serve come tranquillo punto panoramico."
+          },
+          "orientation": {
+            "en": "The climb is steep but short. Bring water and arrive before sunset for the best light.",
+            "de": "Der Aufstieg ist steil, aber kurz. Bringen Sie Wasser mit und kommen Sie vor Sonnenuntergang fuer das beste Licht.",
+            "fr": "La montee est raide mais courte. Apportez de l'eau et arrivez avant le coucher du soleil pour la meilleure lumiere.",
+            "it": "La salita e ripida ma breve. Portate acqua e arrivate prima del tramonto per la luce migliore."
+          },
+          "editorComment": {
+            "en": "This is where I bring visitors who want to understand the geography of the village. You can see how the houses climb the valley like steps.",
+            "de": "Hierher bringe ich Besucher, die die Geographie des Dorfes verstehen wollen. Man kann sehen, wie die Haeuser das Tal wie Stufen hinaufklettern.",
+            "fr": "C'est ici que j'amene les visiteurs qui veulent comprendre la geographie du village. On peut voir comment les maisons grimpent la vallee comme des marches.",
+            "it": "E qui che porto i visitatori che vogliono capire la geografia del borgo. Si puo vedere come le case salgono la valle come gradini."
+          },
+          "bestTime": {
+            "en": "Golden hour / sunset",
+            "de": "Goldene Stunde / Sonnenuntergang",
+            "fr": "Heure doree / coucher du soleil",
+            "it": "Ora dorata / tramonto"
+          },
+          "duration": {
+            "en": "30 min - 1 hour",
+            "de": "30 Min. - 1 Stunde",
+            "fr": "30 min - 1 heure",
+            "it": "30 min - 1 ora"
+          },
+          "crowdLevel": {
+            "en": "Low to moderate",
+            "de": "Gering bis maessig",
+            "fr": "Faible a modere",
+            "it": "Da basso a moderato"
+          },
+          "access": {
+            "en": "Challenging - steep stairs from upper village",
+            "de": "Anspruchsvoll - steile Treppen vom oberen Dorf",
+            "fr": "Difficile - escaliers raides depuis le village haut",
+            "it": "Impegnativo - ripide scale dal borgo alto"
+          },
           "googleRating": 4.7,
           "tripadvisorRating": 4.6
         },
         {
           "id": 4,
-          "name": "Via dell'Amore (Lovers' Lane)",
-          "category": "Coastal Path",
-          "village": "Riomaggiore to Manarola",
+          "name": {
+            "en": "Via dell'Amore (Lovers' Lane)",
+            "de": "Via dell'Amore (Liebesweg)",
+            "fr": "Via dell'Amore (Chemin des Amoureux)",
+            "it": "Via dell'Amore"
+          },
+          "category": {
+            "en": "Coastal Path",
+            "de": "Kuestenweg",
+            "fr": "Sentier Cotier",
+            "it": "Sentiero Costiero"
+          },
+          "village": {
+            "en": "Riomaggiore to Manarola",
+            "de": "Riomaggiore nach Manarola",
+            "fr": "Riomaggiore a Manarola",
+            "it": "Riomaggiore a Manarola"
+          },
           "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2670&auto=format&fit=crop",
-          "signature": "The world's most romantic cliff walk—when it's open",
-          "description": "This kilometer-long path carved into the cliffs connects Riomaggiore to Manarola. It has been closed for years due to rockfall damage, but portions may reopen. Check locally for current status.",
-          "orientation": "If open, walk it at dusk when the path is quietest and the light is soft.",
-          "editorComment": "Even when closed, the viewpoint at the Riomaggiore entrance is worth visiting. The tunnel entrance is a local gathering spot.",
-          "bestTime": "Dusk (if open)",
-          "duration": "20 min one-way",
-          "crowdLevel": "Variable",
-          "access": "Easy when open – flat, paved path",
-          "seasonalNote": "Check locally for current opening status",
+          "signature": {
+            "en": "The world's most romantic cliff walk—when it's open",
+            "de": "Der romantischste Klippenweg der Welt—wenn er geoeffnet ist",
+            "fr": "La promenade la plus romantique du monde sur les falaises—quand elle est ouverte",
+            "it": "La passeggiata sulla scogliera piu romantica del mondo—quando e aperta"
+          },
+          "description": {
+            "en": "This kilometer-long path carved into the cliffs connects Riomaggiore to Manarola. It has been closed for years due to rockfall damage, but portions may reopen. Check locally for current status.",
+            "de": "Dieser kilometerweite, in die Klippen gehauene Weg verbindet Riomaggiore mit Manarola. Er ist seit Jahren wegen Steinschlagschaeden geschlossen, aber Teile koennten wieder eroeffnet werden. Erkundigen Sie sich vor Ort nach dem aktuellen Status.",
+            "fr": "Ce chemin d'un kilometre taille dans les falaises relie Riomaggiore a Manarola. Il est ferme depuis des annees en raison de chutes de pierres, mais des portions pourraient rouvrir. Verifiez localement le statut actuel.",
+            "it": "Questo sentiero di un chilometro scavato nelle scogliere collega Riomaggiore a Manarola. E chiuso da anni a causa di danni da frana, ma alcune porzioni potrebbero riaprire. Verificate localmente lo stato attuale."
+          },
+          "orientation": {
+            "en": "If open, walk it at dusk when the path is quietest and the light is soft.",
+            "de": "Wenn geoeffnet, gehen Sie ihn in der Daemmerung, wenn der Weg am ruhigsten und das Licht sanft ist.",
+            "fr": "Si ouvert, parcourez-le au crepuscule quand le chemin est le plus calme et la lumiere douce.",
+            "it": "Se aperto, percorretelo al crepuscolo quando il sentiero e piu tranquillo e la luce e morbida."
+          },
+          "editorComment": {
+            "en": "Even when closed, the viewpoint at the Riomaggiore entrance is worth visiting. The tunnel entrance is a local gathering spot.",
+            "de": "Auch wenn geschlossen, ist der Aussichtspunkt am Eingang von Riomaggiore einen Besuch wert. Der Tunneleingang ist ein lokaler Treffpunkt.",
+            "fr": "Meme ferme, le point de vue a l'entree de Riomaggiore vaut la visite. L'entree du tunnel est un lieu de rencontre local.",
+            "it": "Anche quando e chiuso, il punto panoramico all'ingresso di Riomaggiore merita una visita. L'ingresso del tunnel e un punto di ritrovo locale."
+          },
+          "bestTime": {
+            "en": "Dusk (if open)",
+            "de": "Daemmerung (wenn geoeffnet)",
+            "fr": "Crepuscule (si ouvert)",
+            "it": "Crepuscolo (se aperto)"
+          },
+          "duration": {
+            "en": "20 min one-way",
+            "de": "20 Min. einfache Strecke",
+            "fr": "20 min aller simple",
+            "it": "20 min sola andata"
+          },
+          "crowdLevel": {
+            "en": "Variable",
+            "de": "Variabel",
+            "fr": "Variable",
+            "it": "Variabile"
+          },
+          "access": {
+            "en": "Easy when open - flat, paved path",
+            "de": "Einfach wenn geoeffnet - flacher, gepflasterter Weg",
+            "fr": "Facile quand ouvert - chemin plat et pave",
+            "it": "Facile quando aperto - sentiero piano e pavimentato"
+          },
+          "seasonalNote": {
+            "en": "Check locally for current opening status",
+            "de": "Erkundigen Sie sich vor Ort nach dem aktuellen Oeffnungsstatus",
+            "fr": "Verifiez localement le statut d'ouverture actuel",
+            "it": "Verificate localmente lo stato di apertura attuale"
+          },
           "googleRating": 4.5,
           "tripadvisorRating": 4.4
         }
@@ -114,12 +372,36 @@
     },
     {
       "type": "closing-note",
-      "title": "A Note on Exploration",
-      "content": [
-        "These sights are not meant to be checked off a list. They are invitations to slow down, to notice, to feel.",
-        "Visit them in the order that makes sense for your day, or skip the ones that don't speak to you. The best experiences in Riomaggiore are often the ones you didn't plan."
-      ],
-      "author": "The Editors"
+      "title": {
+        "en": "A Note on Exploration",
+        "de": "Ein Hinweis zur Erkundung",
+        "fr": "Une Note sur l'Exploration",
+        "it": "Una Nota sull'Esplorazione"
+      },
+      "content": {
+        "en": [
+          "These sights are not meant to be checked off a list. They are invitations to slow down, to notice, to feel.",
+          "Visit them in the order that makes sense for your day, or skip the ones that don't speak to you. The best experiences in Riomaggiore are often the ones you didn't plan."
+        ],
+        "de": [
+          "Diese Sehenswuerdigkeiten sind nicht dazu gedacht, von einer Liste abgehakt zu werden. Sie sind Einladungen, langsamer zu werden, zu bemerken, zu fuehlen.",
+          "Besuchen Sie sie in der Reihenfolge, die fuer Ihren Tag Sinn macht, oder ueberspringen Sie die, die Sie nicht ansprechen. Die besten Erfahrungen in Riomaggiore sind oft die, die Sie nicht geplant haben."
+        ],
+        "fr": [
+          "Ces sites ne sont pas destines a etre coches sur une liste. Ce sont des invitations a ralentir, a remarquer, a ressentir.",
+          "Visitez-les dans l'ordre qui a du sens pour votre journee, ou sautez ceux qui ne vous parlent pas. Les meilleures experiences a Riomaggiore sont souvent celles que vous n'avez pas planifiees."
+        ],
+        "it": [
+          "Questi luoghi non sono fatti per essere spuntati da una lista. Sono inviti a rallentare, a notare, a sentire.",
+          "Visitateli nell'ordine che ha senso per la vostra giornata, o saltate quelli che non vi parlano. Le migliori esperienze a Riomaggiore sono spesso quelle che non avete pianificato."
+        ]
+      },
+      "author": {
+        "en": "The Editors",
+        "de": "Die Redaktion",
+        "fr": "La Redaction",
+        "it": "La Redazione"
+      }
     }
   ],
   "metadata": {
@@ -127,5 +409,5 @@
   },
   "status": "published",
   "created_at": "2026-01-05T12:00:00.000Z",
-  "updated_at": "2026-01-05T12:00:00.000Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

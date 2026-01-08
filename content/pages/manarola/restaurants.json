@@ -7,36 +7,90 @@
     "it": "/it/manarola/restaurants"
   },
   "title": {
-    "en": "Dining in Manarola | Cinque Terre Dispatch"
+    "en": "Dining in Manarola | Cinque Terre Dispatch",
+    "de": "Essen in Manarola | Cinque Terre Dispatch",
+    "fr": "Ou manger a Manarola | Cinque Terre Dispatch",
+    "it": "Dove mangiare a Manarola | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Dining in Manarola | Cinque Terre Dispatch"
+      "en": "Dining in Manarola | Cinque Terre Dispatch",
+      "de": "Essen in Manarola | Cinque Terre Dispatch",
+      "fr": "Ou manger a Manarola | Cinque Terre Dispatch",
+      "it": "Dove mangiare a Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "In a village where you can see every restaurant from the harbor, quality matters more than quantity. Manarola's dining scene is small, focused, and—at its best—extraordinary."
+      "en": "In a village where you can see every restaurant from the harbor, quality matters more than quantity. Manarola's dining scene is small, focused, and—at its best—extraordinary.",
+      "de": "In einem Dorf, wo man jedes Restaurant vom Hafen aus sehen kann, zaehlt Qualitaet mehr als Quantitaet. Manarolas Gastronomieszene ist klein, fokussiert und—im besten Fall—aussergewoehnlich.",
+      "fr": "Dans un village ou l'on peut voir chaque restaurant depuis le port, la qualite compte plus que la quantite. La scene gastronomique de Manarola est petite, concentree et—a son meilleur—extraordinaire.",
+      "it": "In un paese dove si puo vedere ogni ristorante dal porto, la qualita conta piu della quantita. La scena gastronomica di Manarola e piccola, concentrata e—al suo meglio—straordinaria."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Every Meal<br/>With a View",
-      "subtitle": "Manarola has perhaps a dozen restaurants. You could eat at all of them in a week. This limitation is a gift: every place knows it competes with its neighbors, visible just across the narrow streets. Quality must earn return visits.",
-      "badge": "Dining Guide",
+      "title": {
+        "en": "Every Meal<br/>With a View",
+        "de": "Jede Mahlzeit<br/>mit Aussicht",
+        "fr": "Chaque repas<br/>avec vue",
+        "it": "Ogni pasto<br/>con vista"
+      },
+      "subtitle": {
+        "en": "Manarola has perhaps a dozen restaurants. You could eat at all of them in a week. This limitation is a gift: every place knows it competes with its neighbors, visible just across the narrow streets. Quality must earn return visits.",
+        "de": "Manarola hat vielleicht ein Dutzend Restaurants. Man koennte in einer Woche in allen essen. Diese Einschraenkung ist ein Geschenk: Jedes Lokal weiss, dass es mit seinen Nachbarn konkurriert, sichtbar gleich gegenueber in den engen Gassen. Qualitaet muss sich wiederkehrende Besuche verdienen.",
+        "fr": "Manarola compte peut-etre une douzaine de restaurants. On pourrait manger dans tous en une semaine. Cette limitation est un cadeau: chaque etablissement sait qu'il est en concurrence avec ses voisins, visibles juste en face dans les ruelles etroites. La qualite doit meriter les visites repetees.",
+        "it": "Manarola ha forse una dozzina di ristoranti. Si potrebbe mangiare in tutti in una settimana. Questa limitazione e un dono: ogni locale sa che compete con i suoi vicini, visibili appena oltre le stradine strette. La qualita deve guadagnarsi le visite di ritorno."
+      },
+      "badge": {
+        "en": "Dining Guide",
+        "de": "Restaurant-Guide",
+        "fr": "Guide Gastronomique",
+        "it": "Guida Ristoranti"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Dining Philosophy",
-      "quote": "In Manarola, the menu matters less than the moment. The best meals are not planned—they're discovered when the light is right, the wine is local, and the fish was swimming this morning.",
-      "content": [
-        "**Reservations define success**. The good tables—terraces at sunset, harbor views at dusk—book early. Call by noon for dinner. Call days ahead for prime weekend seating. This isn't bureaucracy; it's a village of 300 with restaurants everyone wants.",
-        "**The fish changes everything**. What the boats bring in determines what's best. The daily catch isn't a cliché here—it's the menu. Ask what came in. Order that. Trust the kitchen's relationship with the harbor.",
-        "**Wine is local**. Cinque Terre DOC white pairs with everything from the sea. Sciacchetrà after dinner is expensive and worth it. The restaurants here pour what the terraces above produce. Geography becomes flavor.",
-        "**Service is Mediterranean**. Meals take hours. No one rushes you. The rhythm assumes you have nowhere else to be. Fight this expectation and you'll frustrate yourself. Accept it and dinner becomes evening."
-      ]
+      "badge": {
+        "en": "The Dining Philosophy",
+        "de": "Die Philosophie des Essens",
+        "fr": "La philosophie gastronomique",
+        "it": "La filosofia del mangiare"
+      },
+      "quote": {
+        "en": "In Manarola, the menu matters less than the moment. The best meals are not planned—they're discovered when the light is right, the wine is local, and the fish was swimming this morning.",
+        "de": "In Manarola zaehlt die Speisekarte weniger als der Moment. Die besten Mahlzeiten sind nicht geplant—sie werden entdeckt, wenn das Licht stimmt, der Wein lokal ist und der Fisch heute Morgen noch schwamm.",
+        "fr": "A Manarola, le menu compte moins que le moment. Les meilleurs repas ne sont pas planifies—ils se decouvrent quand la lumiere est bonne, le vin est local et le poisson nageait ce matin.",
+        "it": "A Manarola, il menu conta meno del momento. I pasti migliori non sono pianificati—si scoprono quando la luce e giusta, il vino e locale e il pesce nuotava stamattina."
+      },
+      "content": {
+        "en": [
+          "**Reservations define success**. The good tables—terraces at sunset, harbor views at dusk—book early. Call by noon for dinner. Call days ahead for prime weekend seating. This isn't bureaucracy; it's a village of 300 with restaurants everyone wants.",
+          "**The fish changes everything**. What the boats bring in determines what's best. The daily catch isn't a cliche here—it's the menu. Ask what came in. Order that. Trust the kitchen's relationship with the harbor.",
+          "**Wine is local**. Cinque Terre DOC white pairs with everything from the sea. Sciacchetra after dinner is expensive and worth it. The restaurants here pour what the terraces above produce. Geography becomes flavor.",
+          "**Service is Mediterranean**. Meals take hours. No one rushes you. The rhythm assumes you have nowhere else to be. Fight this expectation and you'll frustrate yourself. Accept it and dinner becomes evening."
+        ],
+        "de": [
+          "**Reservierungen entscheiden ueber den Erfolg**. Die guten Tische—Terrassen zum Sonnenuntergang, Hafenblick in der Daemmerung—werden frueh gebucht. Rufen Sie bis mittags fuer das Abendessen an. Tage im Voraus fuer die besten Wochenend-Plaetze. Das ist keine Buerokratie; es ist ein Dorf mit 300 Einwohnern mit Restaurants, die alle wollen.",
+          "**Der Fisch veraendert alles**. Was die Boote bringen, bestimmt, was am besten ist. Der Tagesfang ist hier kein Klischee—er ist die Speisekarte. Fragen Sie, was reingekommen ist. Bestellen Sie das. Vertrauen Sie der Beziehung der Kueche zum Hafen.",
+          "**Wein ist lokal**. Cinque Terre DOC Weisswein passt zu allem aus dem Meer. Sciacchetra nach dem Abendessen ist teuer und lohnt sich. Die Restaurants hier schenken aus, was die Terrassen darueber produzieren. Geographie wird Geschmack.",
+          "**Service ist mediterran**. Mahlzeiten dauern Stunden. Niemand draengt Sie. Der Rhythmus geht davon aus, dass Sie nirgendwo anders sein muessen. Kaempfen Sie dagegen an und Sie werden sich selbst frustrieren. Akzeptieren Sie es und das Abendessen wird zum Abend."
+        ],
+        "fr": [
+          "**Les reservations definissent le succes**. Les bonnes tables—terrasses au coucher du soleil, vues sur le port au crepuscule—se reservent tot. Appelez avant midi pour le diner. Plusieurs jours a l'avance pour les meilleures places du week-end. Ce n'est pas de la bureaucratie; c'est un village de 300 habitants avec des restaurants que tout le monde veut.",
+          "**Le poisson change tout**. Ce que les bateaux rapportent determine ce qui est le meilleur. La peche du jour n'est pas un cliche ici—c'est le menu. Demandez ce qui est arrive. Commandez ca. Faites confiance a la relation de la cuisine avec le port.",
+          "**Le vin est local**. Le Cinque Terre DOC blanc accompagne tout ce qui vient de la mer. Le Sciacchetra apres le diner est cher et en vaut la peine. Les restaurants ici servent ce que les terrasses au-dessus produisent. La geographie devient saveur.",
+          "**Le service est mediterraneen**. Les repas prennent des heures. Personne ne vous presse. Le rythme suppose que vous n'avez nulle part ailleurs ou etre. Luttez contre cette attente et vous vous frustrerez. Acceptez-la et le diner devient la soiree."
+        ],
+        "it": [
+          "**Le prenotazioni definiscono il successo**. I tavoli buoni—terrazze al tramonto, vista sul porto al crepuscolo—si prenotano presto. Chiamate entro mezzogiorno per la cena. Giorni prima per i posti migliori del fine settimana. Non e burocrazia; e un paese di 300 abitanti con ristoranti che tutti vogliono.",
+          "**Il pesce cambia tutto**. Cio che le barche portano determina cosa sia meglio. Il pescato del giorno non e un cliche qui—e il menu. Chiedete cos'e arrivato. Ordinate quello. Fidatevi del rapporto della cucina con il porto.",
+          "**Il vino e locale**. Il Cinque Terre DOC bianco si abbina a tutto cio che viene dal mare. Lo Sciacchetra dopo cena e costoso e ne vale la pena. I ristoranti qui versano cio che le terrazze sopra producono. La geografia diventa sapore.",
+          "**Il servizio e mediterraneo**. I pasti durano ore. Nessuno vi mette fretta. Il ritmo presume che non abbiate altro posto dove essere. Combattete questa aspettativa e vi frustrerete. Accettatela e la cena diventa serata."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,113 +98,414 @@
       "items": [
         {
           "id": 1,
-          "name": "Il Porticciolo",
-          "category": "Harbor Dining",
+          "name": "Trattoria dal Billy",
+          "category": {
+            "en": "Hilltop Seafood",
+            "de": "Meeresfruechte auf dem Huegel",
+            "fr": "Fruits de mer sur la colline",
+            "it": "Pesce in collina"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Refined seafood on the harbor's edge—where the boats unload and the kitchen begins.",
-          "description": "Il Porticciolo occupies the prime harbor position: terrace tables look directly at the fishing boats and the cliffs beyond. The menu focuses on what arrives each morning. Preparations are clean, letting quality speak. Service is knowledgeable about wine pairings. This is Manarola's flagship dining room.",
-          "giuliaComment": "My aunt celebrates every birthday here. The owner knew her father. That's how Manarola works—restaurants are family history, not just places to eat. The branzino is always perfect, but ask what they're excited about that day. Their enthusiasm tells you what to order.",
-          "signature": "Where the harbor becomes the table",
+          "intro": {
+            "en": "Three generations of fishermen turned restaurateurs, perched above the village with views that justify the climb.",
+            "de": "Drei Generationen von Fischern wurden Gastronomen, thronend ueber dem Dorf mit Aussichten, die den Aufstieg rechtfertigen.",
+            "fr": "Trois generations de pecheurs devenus restaurateurs, perches au-dessus du village avec des vues qui justifient la montee.",
+            "it": "Tre generazioni di pescatori diventati ristoratori, arroccati sopra il paese con viste che giustificano la salita."
+          },
+          "description": {
+            "en": "Dal Billy sits in a slender pink palazzo at the top of Manarola, where the family has served seafood for three generations. The terrace—only seven tables—offers panoramic views of the village and sea. Lobster, stuffed mussels, and squid ink pasta arrive from a kitchen that knows these waters intimately.",
+            "de": "Dal Billy befindet sich in einem schlanken rosa Palazzo an der Spitze von Manarola, wo die Familie seit drei Generationen Meeresfruechte serviert. Die Terrasse—nur sieben Tische—bietet Panoramablick auf das Dorf und das Meer. Hummer, gefuellte Miesmuscheln und Tintenfisch-Pasta kommen aus einer Kueche, die diese Gewaesser genau kennt.",
+            "fr": "Dal Billy occupe un palazzo rose et etroit au sommet de Manarola, ou la famille sert des fruits de mer depuis trois generations. La terrasse—seulement sept tables—offre des vues panoramiques sur le village et la mer. Homard, moules farcies et pates a l'encre de seiche arrivent d'une cuisine qui connait intimement ces eaux.",
+            "it": "Dal Billy si trova in uno snello palazzo rosa in cima a Manarola, dove la famiglia serve frutti di mare da tre generazioni. La terrazza—solo sette tavoli—offre viste panoramiche sul paese e sul mare. Aragosta, cozze ripiene e pasta al nero di seppia arrivano da una cucina che conosce intimamente queste acque."
+          },
+          "giuliaComment": {
+            "en": "The climb is a pilgrimage. Head up past the church, through the back alleys, and earn your sunset. The family still fishes these waters—when they say the catch is fresh, they mean this morning. Reserve the terrace or don't bother coming.",
+            "de": "Der Aufstieg ist eine Pilgerreise. Gehen Sie an der Kirche vorbei, durch die Hintergassen, und verdienen Sie sich Ihren Sonnenuntergang. Die Familie fischt noch immer in diesen Gewaessern—wenn sie sagen, der Fang ist frisch, meinen sie heute Morgen. Reservieren Sie die Terrasse oder kommen Sie gar nicht erst.",
+            "fr": "La montee est un pelerinage. Montez au-dela de l'eglise, a travers les ruelles, et meritez votre coucher de soleil. La famille peche encore dans ces eaux—quand ils disent que la peche est fraiche, ils veulent dire ce matin. Reservez la terrasse ou ne venez pas.",
+            "it": "La salita e un pellegrinaggio. Salite oltre la chiesa, attraverso i vicoli, e guadagnatevi il vostro tramonto. La famiglia pesca ancora in queste acque—quando dicono che il pescato e fresco, intendono stamattina. Prenotate la terrazza o non venite affatto."
+          },
+          "signature": {
+            "en": "Sunset views earned by steep stairs",
+            "de": "Sonnenuntergangsblicke, verdient durch steile Treppen",
+            "fr": "Vues au coucher du soleil meritees par des escaliers raides",
+            "it": "Viste al tramonto guadagnate con ripide scale"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Reserve by noon for dinner. Request terrace for sunset. Closed Tuesdays."
+          "practicalInfo": {
+            "en": "Reserve days ahead for terrace. Steep climb required. Closed Wednesdays.",
+            "de": "Tage im Voraus fuer die Terrasse reservieren. Steiler Aufstieg erforderlich. Mittwochs geschlossen.",
+            "fr": "Reservez des jours a l'avance pour la terrasse. Montee raide necessaire. Ferme le mercredi.",
+            "it": "Prenotate giorni prima per la terrazza. Salita ripida richiesta. Chiuso il mercoledi."
+          },
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.4
         },
         {
           "id": 2,
-          "name": "La Scogliera",
-          "category": "Cliff-Side Dining",
+          "name": "Il Porticciolo",
+          "category": {
+            "en": "Harbor Dining",
+            "de": "Hafengastronomie",
+            "fr": "Restaurant du port",
+            "it": "Ristorante sul porto"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Carved into the cliff itself—dining where the rock meets the sea.",
-          "description": "La Scogliera's terrace extends from the cliff face, tables hovering above the water. The setting dominates: spray reaches diners on rough days, sunset light turns everything golden. The menu runs seafood-forward with some meat options. The view ensures full booking regardless of food quality—but the food is genuinely good.",
-          "giuliaComment": "This is where I bring visitors who need to understand why Manarola is special. Not the best food in the village—that's arguable—but the most dramatic setting. One dinner here creates memories that outlast better meals elsewhere.",
-          "signature": "Where drama meets dinner",
+          "intro": {
+            "en": "Central Manarola's anchor—where the harbor meets the kitchen and the squid ink pasta has earned legendary status.",
+            "de": "Der Anker im Zentrum von Manarola—wo der Hafen auf die Kueche trifft und die Tintenfisch-Pasta legendaeren Status erlangt hat.",
+            "fr": "L'ancre du centre de Manarola—ou le port rencontre la cuisine et les pates a l'encre de seiche ont acquis un statut legendaire.",
+            "it": "L'ancora del centro di Manarola—dove il porto incontra la cucina e la pasta al nero di seppia ha raggiunto uno status leggendario."
+          },
+          "description": {
+            "en": "Impossible to miss in central Manarola, Il Porticciolo serves what many call their favorite meal in all of Cinque Terre. The squid ink seafood spaghetti—jet black pasta with prawns, mussels, and clams—has become the dish visitors remember years later. Simple preparations, exceptional ingredients.",
+            "de": "Nicht zu uebersehen im Zentrum von Manarola serviert Il Porticciolo das, was viele ihr Lieblingsessen in den gesamten Cinque Terre nennen. Die Tintenfisch-Meeresfruechte-Spaghetti—pechschwarze Pasta mit Garnelen, Miesmuscheln und Venusmuscheln—ist das Gericht geworden, an das sich Besucher Jahre spaeter erinnern. Einfache Zubereitungen, aussergewoehnliche Zutaten.",
+            "fr": "Impossible a manquer au centre de Manarola, Il Porticciolo sert ce que beaucoup appellent leur repas prefere dans toutes les Cinque Terre. Les spaghetti aux fruits de mer a l'encre de seiche—pates noir de jais avec crevettes, moules et palourdes—est devenu le plat dont les visiteurs se souviennent des annees plus tard. Preparations simples, ingredients exceptionnels.",
+            "it": "Impossibile non notarlo nel centro di Manarola, Il Porticciolo serve quello che molti chiamano il loro pasto preferito in tutte le Cinque Terre. Gli spaghetti ai frutti di mare al nero di seppia—pasta nero pece con gamberi, cozze e vongole—e diventato il piatto che i visitatori ricordano anni dopo. Preparazioni semplici, ingredienti eccezionali."
+          },
+          "giuliaComment": {
+            "en": "Some visitors call this their favorite restaurant in Italy—not just Cinque Terre. The black pasta photographs beautifully, but it tastes even better. Order the house white wine. Don't overthink it.",
+            "de": "Einige Besucher nennen dies ihr Lieblingsrestaurant in Italien—nicht nur in den Cinque Terre. Die schwarze Pasta fotografiert wunderschoen, aber sie schmeckt noch besser. Bestellen Sie den Hauswein. Denken Sie nicht zu viel nach.",
+            "fr": "Certains visiteurs appellent ceci leur restaurant prefere en Italie—pas seulement aux Cinque Terre. Les pates noires se photographient magnifiquement, mais elles ont encore meilleur gout. Commandez le vin blanc de la maison. Ne reflechissez pas trop.",
+            "it": "Alcuni visitatori lo chiamano il loro ristorante preferito in Italia—non solo nelle Cinque Terre. La pasta nera e molto fotogenica, ma ha un sapore ancora migliore. Ordinate il vino bianco della casa. Non pensateci troppo."
+          },
+          "signature": {
+            "en": "The black pasta that became a legend",
+            "de": "Die schwarze Pasta, die zur Legende wurde",
+            "fr": "Les pates noires devenues legende",
+            "it": "La pasta nera diventata leggenda"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Book days ahead for sunset tables. No indoor seating. Closed in rough weather."
+          "practicalInfo": {
+            "en": "Central location means easy access. Reserve for dinner. The squid ink pasta is essential.",
+            "de": "Zentrale Lage bedeutet einfachen Zugang. Fuer das Abendessen reservieren. Die Tintenfisch-Pasta ist ein Muss.",
+            "fr": "L'emplacement central signifie un acces facile. Reservez pour le diner. Les pates a l'encre sont essentielles.",
+            "it": "La posizione centrale significa facile accesso. Prenotate per la cena. La pasta al nero e essenziale."
+          },
+          "googleRating": 4.4,
+          "tripadvisorRating": 4.5
         },
         {
           "id": 3,
-          "name": "Terrazza del Borgo",
-          "category": "Upper Village",
+          "name": "Trattoria La Scogliera",
+          "category": {
+            "en": "Cliffside Trattoria",
+            "de": "Trattoria an der Klippe",
+            "fr": "Trattoria sur la falaise",
+            "it": "Trattoria sulla scogliera"
+          },
           "village": "Manarola",
-          "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Above the crowds, looking down on the village—the local choice for special occasions.",
-          "description": "Set higher up the village, Terrazza del Borgo offers a different perspective: looking down on the pastel rooftops rather than out to sea. The climb discourages day-trippers, keeping tables available longer. The kitchen does traditional Ligurian food well—pesto, focaccia, local preparations unchanged for generations.",
-          "giuliaComment": "When I want dinner without tourists, I climb to Terrazza. The extra stairs are worth it. The pesto here is made the old way, with mortar and pestle, and you can taste the difference. Order it with trofie and don't modify anything.",
-          "signature": "Where locals escape",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
+          "intro": {
+            "en": "Across from Il Porticciolo, a perfect lunch spot where fresh anchovies arrive with non-salty authenticity.",
+            "de": "Gegenueber von Il Porticciolo, ein perfekter Lunch-Spot, wo frische Sardellen mit nicht-salziger Authentizitaet ankommen.",
+            "fr": "En face d'Il Porticciolo, un endroit parfait pour le dejeuner ou les anchois frais arrivent avec une authenticite non salee.",
+            "it": "Di fronte a Il Porticciolo, un posto perfetto per il pranzo dove le acciughe fresche arrivano con autenticita non salata."
+          },
+          "description": {
+            "en": "La Scogliera offers a more casual alternative to its famous neighbor. The spaghetti with fresh anchovies—non-salty, nothing like the preserved version—comes with juicy tomatoes and a delicious clear sauce. Good for a lighter lunch when the full seafood experience feels like too much.",
+            "de": "La Scogliera bietet eine legere Alternative zu seinem beruehmten Nachbarn. Die Spaghetti mit frischen Sardellen—nicht salzig, nichts wie die konservierte Version—kommen mit saftigen Tomaten und einer koestlichen klaren Sauce. Gut fuer ein leichteres Mittagessen, wenn das volle Meeresfruechte-Erlebnis zu viel erscheint.",
+            "fr": "La Scogliera offre une alternative plus decontractee a son voisin celebre. Les spaghetti aux anchois frais—non sales, rien a voir avec la version conservee—arrivent avec des tomates juteuses et une delicieuse sauce claire. Bon pour un dejeuner plus leger quand l'experience complete des fruits de mer semble trop.",
+            "it": "La Scogliera offre un'alternativa piu informale al suo famoso vicino. Gli spaghetti con acciughe fresche—non salate, niente a che vedere con la versione conservata—arrivano con pomodori succosi e una deliziosa salsa chiara. Buono per un pranzo piu leggero quando l'esperienza completa dei frutti di mare sembra troppo."
+          },
+          "giuliaComment": {
+            "en": "When tourists fill Il Porticciolo, locals slip across the street to La Scogliera. The anchovies here taught me what fresh really means. Order them with the clear sauce and understand why this coast is famous for its fish.",
+            "de": "Wenn Touristen Il Porticciolo fuellen, schluepfen die Einheimischen ueber die Strasse zu La Scogliera. Die Sardellen hier haben mir beigebracht, was frisch wirklich bedeutet. Bestellen Sie sie mit der klaren Sauce und verstehen Sie, warum diese Kueste fuer ihren Fisch beruehmt ist.",
+            "fr": "Quand les touristes remplissent Il Porticciolo, les locaux se glissent de l'autre cote de la rue vers La Scogliera. Les anchois ici m'ont appris ce que frais signifie vraiment. Commandez-les avec la sauce claire et comprenez pourquoi cette cote est celebre pour son poisson.",
+            "it": "Quando i turisti riempiono Il Porticciolo, i locali scivolano dall'altra parte della strada verso La Scogliera. Le acciughe qui mi hanno insegnato cosa significa veramente fresco. Ordinatele con la salsa chiara e capite perche questa costa e famosa per il suo pesce."
+          },
+          "signature": {
+            "en": "Fresh anchovies that redefine the fish",
+            "de": "Frische Sardellen, die den Fisch neu definieren",
+            "fr": "Anchois frais qui redefinissent le poisson",
+            "it": "Acciughe fresche che ridefiniscono il pesce"
+          },
           "priceRange": "$$",
-          "practicalInfo": "Easier reservations than harbor restaurants. Worth the climb. Cash preferred."
+          "practicalInfo": {
+            "en": "Good for lunch. Less formal than neighbors. The fresh anchovy dishes are the highlight.",
+            "de": "Gut fuer Mittagessen. Weniger formell als Nachbarn. Die frischen Sardellen-Gerichte sind das Highlight.",
+            "fr": "Bon pour le dejeuner. Moins formel que les voisins. Les plats d'anchois frais sont le point fort.",
+            "it": "Buono per pranzo. Meno formale dei vicini. I piatti di acciughe fresche sono il punto forte."
+          },
+          "googleRating": 4.3,
+          "tripadvisorRating": 4.2
+        },
+        {
+          "id": 4,
+          "name": "Marina Piccola",
+          "category": {
+            "en": "Harbor View Dining",
+            "de": "Essen mit Hafenblick",
+            "fr": "Restaurant vue sur le port",
+            "it": "Ristorante vista porto"
+          },
+          "village": "Manarola",
+          "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
+          "intro": {
+            "en": "Harbor views and a lemon mousse that visitors describe in dessert terms for years afterward.",
+            "de": "Hafenblick und ein Zitronen-Mousse, das Besucher noch Jahre spaeter in Dessert-Begriffen beschreiben.",
+            "fr": "Vues sur le port et une mousse au citron que les visiteurs decrivent en termes de dessert pendant des annees apres.",
+            "it": "Vista sul porto e una mousse al limone che i visitatori descrivono in termini di dessert per anni dopo."
+          },
+          "description": {
+            "en": "Marina Piccola offers a great harbor view and a dessert that has achieved its own fame: the lemon mousse, which is actually frozen lemon gelato blended and served in a chilled martini glass. It's the kind of finishing touch that turns a good meal into a memorable one.",
+            "de": "Marina Piccola bietet einen grossartigen Hafenblick und ein Dessert, das seinen eigenen Ruhm erlangt hat: das Zitronen-Mousse, das eigentlich gefrorenes Zitronen-Gelato ist, gemixt und in einem gekuehlten Martini-Glas serviert. Es ist die Art von Finishing Touch, die eine gute Mahlzeit zu einer unvergesslichen macht.",
+            "fr": "Marina Piccola offre une superbe vue sur le port et un dessert qui a acquis sa propre renommee: la mousse au citron, qui est en fait un gelato au citron congele mixe et servi dans un verre a martini glace. C'est le genre de touche finale qui transforme un bon repas en un moment memorable.",
+            "it": "Marina Piccola offre una splendida vista sul porto e un dessert che ha raggiunto la propria fama: la mousse al limone, che in realta e gelato al limone congelato frullato e servito in un bicchiere da martini ghiacciato. E il tipo di tocco finale che trasforma un buon pasto in uno memorabile."
+          },
+          "giuliaComment": {
+            "en": "Everyone talks about the main courses at the famous places. But Marina Piccola's lemon mousse is what I crave. Order it even if you're full. You'll understand.",
+            "de": "Alle reden ueber die Hauptgerichte in den beruehmten Lokalen. Aber Marina Piccolas Zitronen-Mousse ist das, wonach ich mich sehne. Bestellen Sie es, auch wenn Sie satt sind. Sie werden verstehen.",
+            "fr": "Tout le monde parle des plats principaux dans les endroits celebres. Mais la mousse au citron de Marina Piccola est ce dont j'ai envie. Commandez-la meme si vous etes rassasie. Vous comprendrez.",
+            "it": "Tutti parlano dei piatti principali nei posti famosi. Ma la mousse al limone di Marina Piccola e quello che desidero. Ordinatela anche se siete pieni. Capirete."
+          },
+          "signature": {
+            "en": "The lemon mousse that ends every meal perfectly",
+            "de": "Das Zitronen-Mousse, das jede Mahlzeit perfekt beendet",
+            "fr": "La mousse au citron qui termine parfaitement chaque repas",
+            "it": "La mousse al limone che conclude perfettamente ogni pasto"
+          },
+          "priceRange": "$$",
+          "practicalInfo": {
+            "en": "Great harbor position. Save room for the famous lemon dessert.",
+            "de": "Tolle Hafenlage. Sparen Sie Platz fuer das beruehmte Zitronen-Dessert.",
+            "fr": "Excellente position sur le port. Gardez de la place pour le fameux dessert au citron.",
+            "it": "Ottima posizione sul porto. Lasciate spazio per il famoso dessert al limone."
+          },
+          "googleRating": 4.3,
+          "tripadvisorRating": 4.3
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Sunset Table",
-          "quote": "Everyone wants the sunset table. In summer, that means calling before noon, specifying 'tramonto' (sunset), and accepting whatever they offer. The magic hour is brief—maybe an hour of golden light. Time your arrival for the beginning, linger through dessert, and the memory justifies the effort."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Sunset Table",
+            "de": "Der Sonnenuntergangstisch",
+            "fr": "La table au coucher du soleil",
+            "it": "Il tavolo al tramonto"
+          },
+          "quote": {
+            "en": "Everyone wants the sunset table. In summer, that means calling before noon, specifying 'tramonto' (sunset), and accepting whatever they offer. The magic hour is brief—maybe an hour of golden light. Time your arrival for the beginning, linger through dessert, and the memory justifies the effort.",
+            "de": "Jeder will den Sonnenuntergangstisch. Im Sommer bedeutet das, vor Mittag anzurufen, 'tramonto' (Sonnenuntergang) anzugeben und zu akzeptieren, was sie anbieten. Die magische Stunde ist kurz—vielleicht eine Stunde goldenes Licht. Timen Sie Ihre Ankunft auf den Beginn, verweilen Sie bis zum Dessert, und die Erinnerung rechtfertigt die Muehe.",
+            "fr": "Tout le monde veut la table au coucher du soleil. En ete, cela signifie appeler avant midi, specifier 'tramonto' (coucher du soleil), et accepter ce qu'ils offrent. L'heure magique est breve—peut-etre une heure de lumiere doree. Calculez votre arrivee pour le debut, attardez-vous jusqu'au dessert, et le souvenir justifie l'effort.",
+            "it": "Tutti vogliono il tavolo al tramonto. In estate, significa chiamare prima di mezzogiorno, specificare 'tramonto', e accettare qualsiasi cosa offrano. L'ora magica e breve—forse un'ora di luce dorata. Calcolate il vostro arrivo per l'inizio, indugiate fino al dessert, e il ricordo giustifica lo sforzo."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Beyond Fine Dining",
-      "quote": "Not every meal needs a reservation. Manarola's casual options—focaccia windows, wine bars, harbor-side aperitivo spots—offer their own pleasures.",
-      "content": [
-        "**Bar Aristide** anchors the main square with coffee, aperitivo, and people-watching. It's not exceptional; it's essential. The local crowd gathers here because location matters when you live in a village this small.",
-        "**The focaccia shops** serve what locals eat for lunch: simple bread, good olive oil, sometimes cheese or vegetables. Line up with workers and eat standing. It costs almost nothing and tastes like the place.",
-        "**Enoteca da Eliseo** pours serious wine in a serious setting. If Sciacchetrà interests you—and it should—this is where to taste without restaurant markup. The owner knows the terrace the grapes came from.",
-        "**Pizzeria da Enzo** does exactly what you expect: wood-fired pizza, simple preparations, family atmosphere. Not why you came to Manarola, but sometimes exactly what you need after days of seafood."
-      ]
+      "badge": {
+        "en": "The Aperitivo Scene",
+        "de": "Die Aperitivo-Szene",
+        "fr": "La scene aperitivo",
+        "it": "La scena dell'aperitivo"
+      },
+      "quote": {
+        "en": "Manarola's most famous terrace doesn't serve dinner. Nessun Dorma has become the aperitivo destination of Cinque Terre—and the view justifies every queued minute.",
+        "de": "Manarolas beruehmteste Terrasse serviert kein Abendessen. Nessun Dorma ist zur Aperitivo-Destination der Cinque Terre geworden—und die Aussicht rechtfertigt jede Minute in der Warteschlange.",
+        "fr": "La terrasse la plus celebre de Manarola ne sert pas de diner. Nessun Dorma est devenu la destination aperitivo des Cinque Terre—et la vue justifie chaque minute de file d'attente.",
+        "it": "La terrazza piu famosa di Manarola non serve cena. Nessun Dorma e diventata la destinazione aperitivo delle Cinque Terre—e la vista giustifica ogni minuto in coda."
+      },
+      "content": {
+        "en": [
+          "**Nessun Dorma** occupies a landscaped terrace on a promontory overlooking Manarola's iconic vista: pastel houses perched on cliffs, fishing boats in the harbor, teenagers diving into indigo sea. It's not a restaurant—it serves bruschetta, cheese boards, and drinks. But no visit to Manarola is complete without a sunset here.",
+          "**The tricolore bruschetta** has become the signature—pesto, tomatoes, and stracchino cheese on toasted bread. Paired with a limoncino spritz (local lemon liqueur, prosecco, and mint in a jam jar), it's the taste of Manarola distilled.",
+          "**No reservations accepted**. They use an app-based waitlist you can only join when physically in Manarola. The queue is always long. Arrive early, put your name in, explore the village, and return when called.",
+          "**The name** comes from Puccini's opera Turandot, as sung by Pavarotti—the owner's favorite aria. The sunset here creates its own drama worthy of the stage."
+        ],
+        "de": [
+          "**Nessun Dorma** besetzt eine angelegte Terrasse auf einem Vorgebirge mit Blick auf Manarolas ikonische Aussicht: pastellfarbene Haeuser auf Klippen, Fischerboote im Hafen, Teenager, die ins indigoblaue Meer springen. Es ist kein Restaurant—es serviert Bruschetta, Kaeseplatten und Getraenke. Aber kein Besuch in Manarola ist vollstaendig ohne einen Sonnenuntergang hier.",
+          "**Die Tricolore-Bruschetta** ist zur Signatur geworden—Pesto, Tomaten und Stracchino-Kaese auf getoastetem Brot. Gepaart mit einem Limoncino-Spritz (lokaler Zitronenlikoer, Prosecco und Minze im Einmachglas), ist es der destillierte Geschmack von Manarola.",
+          "**Keine Reservierungen moeglich**. Sie nutzen eine App-basierte Warteliste, der man nur beitreten kann, wenn man physisch in Manarola ist. Die Schlange ist immer lang. Kommen Sie frueh, tragen Sie Ihren Namen ein, erkunden Sie das Dorf und kehren Sie zurueck, wenn Sie aufgerufen werden.",
+          "**Der Name** stammt aus Puccinis Oper Turandot, wie von Pavarotti gesungen—die Lieblingsarie des Besitzers. Der Sonnenuntergang hier kreiert sein eigenes Drama, das der Buehne wuerdig ist."
+        ],
+        "fr": [
+          "**Nessun Dorma** occupe une terrasse amenagee sur un promontoire surplombant la vue iconique de Manarola: maisons pastel perchees sur les falaises, bateaux de peche dans le port, adolescents plongeant dans la mer indigo. Ce n'est pas un restaurant—il sert des bruschettas, des plateaux de fromages et des boissons. Mais aucune visite a Manarola n'est complete sans un coucher de soleil ici.",
+          "**La bruschetta tricolore** est devenue la signature—pesto, tomates et fromage stracchino sur pain grille. Accompagnee d'un spritz limoncino (liqueur de citron locale, prosecco et menthe dans un bocal), c'est le gout de Manarola distille.",
+          "**Pas de reservations acceptees**. Ils utilisent une liste d'attente sur application a laquelle vous ne pouvez vous inscrire que physiquement a Manarola. La file d'attente est toujours longue. Arrivez tot, inscrivez votre nom, explorez le village et revenez quand on vous appelle.",
+          "**Le nom** vient de l'opera Turandot de Puccini, chante par Pavarotti—l'aria preferee du proprietaire. Le coucher de soleil ici cree son propre drame digne de la scene."
+        ],
+        "it": [
+          "**Nessun Dorma** occupa una terrazza paesaggistica su un promontorio che domina la vista iconica di Manarola: case pastello arroccate sulle scogliere, barche da pesca nel porto, adolescenti che si tuffano nel mare indaco. Non e un ristorante—serve bruschette, taglieri di formaggi e bevande. Ma nessuna visita a Manarola e completa senza un tramonto qui.",
+          "**La bruschetta tricolore** e diventata la firma—pesto, pomodori e formaggio stracchino su pane tostato. Abbinata a uno spritz al limoncino (liquore al limone locale, prosecco e menta in un barattolo), e il sapore di Manarola distillato.",
+          "**Nessuna prenotazione accettata**. Usano una lista d'attesa su app a cui ci si puo iscrivere solo quando si e fisicamente a Manarola. La coda e sempre lunga. Arrivate presto, mettete il vostro nome, esplorate il paese e tornate quando vi chiamano.",
+          "**Il nome** viene dall'opera Turandot di Puccini, cantata da Pavarotti—l'aria preferita del proprietario. Il tramonto qui crea il suo dramma degno del palcoscenico."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
       "itemType": "experience",
       "items": [
         {
-          "id": 4,
-          "name": "The Aperitivo Hour",
-          "category": "Evening Ritual",
+          "id": 5,
+          "name": "Nessun Dorma",
+          "category": {
+            "en": "Aperitivo Bar",
+            "de": "Aperitivo-Bar",
+            "fr": "Bar a aperitivo",
+            "it": "Bar aperitivo"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Before dinner, Italians drink—and in Manarola, that ritual has perfect staging.",
-          "description": "Around 6pm, as the light softens, the bars fill with locals and visitors ordering Aperol spritzes, Negronis, or simple local wine. Small plates appear—olives, focaccia, cheese. No one intends this as dinner, but it often delays dinner until 9pm. The aperitivo hour is social preparation for the evening ahead.",
-          "giuliaComment": "Aperitivo isn't about the drink. It's about the transition—from day to evening, from rushing to relaxing, from tourist to guest. Find a spot with a view, order something local, and let the hour happen. Dinner will wait.",
-          "signature": "When time slows down"
+          "intro": {
+            "en": "The most photographed terrace in Cinque Terre—where aperitivo becomes a sunset ceremony.",
+            "de": "Die meistfotografierte Terrasse der Cinque Terre—wo Aperitivo zur Sonnenuntergangszeremonie wird.",
+            "fr": "La terrasse la plus photographiee des Cinque Terre—ou l'aperitivo devient une ceremonie au coucher du soleil.",
+            "it": "La terrazza piu fotografata delle Cinque Terre—dove l'aperitivo diventa una cerimonia al tramonto."
+          },
+          "description": {
+            "en": "Since 2014, Nessun Dorma has occupied this promontory position, offering what many consider the best view in Cinque Terre. The tricolore bruschetta and limoncino spritz have become the ritual. The pesto-making class offers an educational experience with singing, dancing, and that view.",
+            "de": "Seit 2014 besetzt Nessun Dorma diese Vorgebirgsposition und bietet das, was viele als die beste Aussicht der Cinque Terre betrachten. Die Tricolore-Bruschetta und der Limoncino-Spritz sind zum Ritual geworden. Der Pesto-Kurs bietet ein lehrreiches Erlebnis mit Gesang, Tanz und dieser Aussicht.",
+            "fr": "Depuis 2014, Nessun Dorma occupe cette position sur le promontoire, offrant ce que beaucoup considerent comme la plus belle vue des Cinque Terre. La bruschetta tricolore et le spritz limoncino sont devenus le rituel. Le cours de pesto offre une experience educative avec chant, danse et cette vue.",
+            "it": "Dal 2014, Nessun Dorma occupa questa posizione sul promontorio, offrendo quella che molti considerano la vista migliore delle Cinque Terre. La bruschetta tricolore e lo spritz al limoncino sono diventati il rituale. Il corso di pesto offre un'esperienza educativa con canto, ballo e quella vista."
+          },
+          "giuliaComment": {
+            "en": "Yes, the line is long. Yes, it's worth it. The view from this terrace—pastel Manarola cascading into the sea—is why postcards exist. Come for sunset, stay for the light show the village creates.",
+            "de": "Ja, die Schlange ist lang. Ja, es lohnt sich. Die Aussicht von dieser Terrasse—pastellfarbenes Manarola, das ins Meer kaskadiert—ist der Grund, warum Postkarten existieren. Kommen Sie zum Sonnenuntergang, bleiben Sie fuer die Lichtshow, die das Dorf kreiert.",
+            "fr": "Oui, la file est longue. Oui, ca en vaut la peine. La vue depuis cette terrasse—Manarola pastel cascadant dans la mer—est la raison pour laquelle les cartes postales existent. Venez pour le coucher du soleil, restez pour le spectacle de lumieres que le village cree.",
+            "it": "Si, la coda e lunga. Si, ne vale la pena. La vista da questa terrazza—Manarola pastello che precipita nel mare—e il motivo per cui esistono le cartoline. Venite per il tramonto, restate per lo spettacolo di luci che il paese crea."
+          },
+          "signature": {
+            "en": "The view that launched a million photographs",
+            "de": "Die Aussicht, die eine Million Fotos ausloeste",
+            "fr": "La vue qui a lance un million de photographies",
+            "it": "La vista che ha lanciato un milione di fotografie"
+          }
         },
         {
-          "id": 5,
-          "name": "The Lunch Question",
-          "category": "Midday Strategy",
+          "id": 6,
+          "name": "Cantina dello Zio Bramante",
+          "category": {
+            "en": "Wine Cellar",
+            "de": "Weinkeller",
+            "fr": "Cave a vin",
+            "it": "Cantina"
+          },
           "village": "Manarola",
-          "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Should you eat lunch in Manarola? The answer depends on your plans.",
-          "description": "Midday in Manarola means crowds, heat, and restaurants running at capacity. The food is fine but rushed. Locals avoid it, eating focaccia on the go or skipping lunch entirely. If you must eat at noon, keep it simple. Save the real meal for evening when the village calms and kitchens have time to care.",
-          "giuliaComment": "I never eat lunch at a sit-down restaurant here in summer. The experience suffers. Grab focaccia, find shade, rest. Then come back at 8pm when the cooks have attention to give and the waiters have patience to offer. That's the meal worth having.",
-          "signature": "When timing matters more than hunger"
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": {
+            "en": "A serious wine cellar for those who want to understand what the terraces above produce.",
+            "de": "Ein serioeser Weinkeller fuer diejenigen, die verstehen wollen, was die Terrassen darueber produzieren.",
+            "fr": "Une cave a vin serieuse pour ceux qui veulent comprendre ce que les terrasses au-dessus produisent.",
+            "it": "Una cantina seria per chi vuole capire cosa producono le terrazze sopra."
+          },
+          "description": {
+            "en": "For wine education beyond the aperitivo glass, this cellar offers proper tastings of Cinque Terre DOC and the precious Sciacchetra. The owner explains why different terraces produce different wines, why weather matters, and why this dessert wine costs what it does.",
+            "de": "Fuer Weinbildung jenseits des Aperitivo-Glases bietet dieser Keller richtige Verkostungen von Cinque Terre DOC und dem kostbaren Sciacchetra. Der Besitzer erklaert, warum verschiedene Terrassen verschiedene Weine produzieren, warum das Wetter wichtig ist und warum dieser Dessertwein kostet, was er kostet.",
+            "fr": "Pour une education au vin au-dela du verre d'aperitivo, cette cave offre de vraies degustations de Cinque Terre DOC et du precieux Sciacchetra. Le proprietaire explique pourquoi differentes terrasses produisent differents vins, pourquoi la meteo compte, et pourquoi ce vin de dessert coute ce qu'il coute.",
+            "it": "Per un'educazione al vino oltre il bicchiere dell'aperitivo, questa cantina offre degustazioni vere di Cinque Terre DOC e del prezioso Sciacchetra. Il proprietario spiega perche terrazze diverse producono vini diversi, perche il tempo conta, e perche questo vino da dessert costa quello che costa."
+          },
+          "giuliaComment": {
+            "en": "If you want to understand Ligurian wine—really understand it—this is where. The Sciacchetra tasting here taught me more than any book could.",
+            "de": "Wenn Sie ligurischen Wein verstehen wollen—wirklich verstehen—dann hier. Die Sciacchetra-Verkostung hier hat mir mehr beigebracht als jedes Buch koennte.",
+            "fr": "Si vous voulez comprendre le vin ligure—vraiment le comprendre—c'est ici. La degustation de Sciacchetra ici m'a appris plus que n'importe quel livre.",
+            "it": "Se volete capire il vino ligure—capirlo davvero—e qui. La degustazione di Sciacchetra qui mi ha insegnato piu di qualsiasi libro."
+          },
+          "signature": {
+            "en": "Wine education in a glass",
+            "de": "Weinbildung im Glas",
+            "fr": "Education au vin dans un verre",
+            "it": "Educazione al vino in un bicchiere"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Cash Reality",
-          "quote": "Manarola's smaller establishments prefer cash. ATMs exist but can run dry on busy weekends. The larger restaurants take cards, but smaller bars and wine shops often don't. Bring euros. Save the card for your hotel."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Cash Reality",
+            "de": "Die Bargeld-Realitaet",
+            "fr": "La realite des especes",
+            "it": "La realta dei contanti"
+          },
+          "quote": {
+            "en": "Manarola's smaller establishments prefer cash. ATMs exist but can run dry on busy weekends. The larger restaurants take cards, but smaller bars and wine shops often don't. Bring euros. Save the card for your hotel.",
+            "de": "Manarolas kleinere Lokale bevorzugen Bargeld. Geldautomaten existieren, koennen aber an geschaeftigen Wochenenden leer sein. Die groesseren Restaurants akzeptieren Karten, aber kleinere Bars und Weinlaeden oft nicht. Bringen Sie Euro mit. Sparen Sie die Karte fuer Ihr Hotel.",
+            "fr": "Les petits etablissements de Manarola preferent les especes. Les distributeurs existent mais peuvent etre vides les week-ends charges. Les plus grands restaurants acceptent les cartes, mais les petits bars et caves a vin souvent non. Apportez des euros. Gardez la carte pour votre hotel.",
+            "it": "I locali piu piccoli di Manarola preferiscono i contanti. I bancomat esistono ma possono esaurirsi nei fine settimana affollati. I ristoranti piu grandi accettano carte, ma i bar e le enoteche piu piccoli spesso no. Portate euro. Tenete la carta per l'hotel."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Meal That Matters",
-      "content": [
-        "In a village this small, every restaurant knows its neighbors, its competitors, its reputation. There's no hiding behind size or anonymity. Quality is survival.",
-        "Book the sunset table. Order what the boats brought. Drink what the terraces produce. Let the meal take hours. This is not just dinner—it's participation in a culture that has eaten this way, in this place, for centuries.",
-        "The best meal in Manarola isn't the most expensive or the most famous. It's the one where the light is right, the wine is cold, and you have nowhere else to be."
-      ],
+      "title": {
+        "en": "The Meal That Matters",
+        "de": "Die Mahlzeit, die zaehlt",
+        "fr": "Le repas qui compte",
+        "it": "Il pasto che conta"
+      },
+      "content": {
+        "en": [
+          "In a village this small, every restaurant knows its neighbors, its competitors, its reputation. There's no hiding behind size or anonymity. Quality is survival.",
+          "Book the sunset table. Order what the boats brought. Drink what the terraces produce. Let the meal take hours. This is not just dinner—it's participation in a culture that has eaten this way, in this place, for centuries.",
+          "The best meal in Manarola isn't the most expensive or the most famous. It's the one where the light is right, the wine is cold, and you have nowhere else to be."
+        ],
+        "de": [
+          "In einem so kleinen Dorf kennt jedes Restaurant seine Nachbarn, seine Konkurrenten, seinen Ruf. Es gibt kein Verstecken hinter Groesse oder Anonymitaet. Qualitaet ist Ueberleben.",
+          "Buchen Sie den Sonnenuntergangstisch. Bestellen Sie, was die Boote gebracht haben. Trinken Sie, was die Terrassen produzieren. Lassen Sie das Essen Stunden dauern. Das ist nicht nur Abendessen—es ist Teilnahme an einer Kultur, die so gegessen hat, an diesem Ort, seit Jahrhunderten.",
+          "Die beste Mahlzeit in Manarola ist nicht die teuerste oder die beruehmteste. Es ist die, bei der das Licht stimmt, der Wein kalt ist und Sie nirgendwo anders sein muessen."
+        ],
+        "fr": [
+          "Dans un village aussi petit, chaque restaurant connait ses voisins, ses concurrents, sa reputation. Il n'y a pas de cachette derriere la taille ou l'anonymat. La qualite, c'est la survie.",
+          "Reservez la table au coucher du soleil. Commandez ce que les bateaux ont ramene. Buvez ce que les terrasses produisent. Laissez le repas durer des heures. Ce n'est pas juste un diner—c'est participer a une culture qui a mange ainsi, a cet endroit, depuis des siecles.",
+          "Le meilleur repas a Manarola n'est pas le plus cher ou le plus celebre. C'est celui ou la lumiere est bonne, le vin est frais, et vous n'avez nulle part ailleurs ou etre."
+        ],
+        "it": [
+          "In un paese cosi piccolo, ogni ristorante conosce i suoi vicini, i suoi concorrenti, la sua reputazione. Non c'e modo di nascondersi dietro le dimensioni o l'anonimato. La qualita e sopravvivenza.",
+          "Prenotate il tavolo al tramonto. Ordinate quello che le barche hanno portato. Bevete quello che le terrazze producono. Lasciate che il pasto duri ore. Questa non e solo cena—e partecipazione a una cultura che ha mangiato cosi, in questo posto, per secoli.",
+          "Il pasto migliore a Manarola non e il piu costoso o il piu famoso. E quello in cui la luce e giusta, il vino e freddo, e non avete nessun altro posto dove essere."
+        ]
+      },
       "buttons": [
-        { "text": "Wine Culture", "url": "/en/culinary", "variant": "primary" },
-        { "text": "Plan Your Stay", "url": "/en/manarola/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Wine Culture",
+            "de": "Weinkultur",
+            "fr": "Culture du vin",
+            "it": "Cultura del vino"
+          },
+          "url": {
+            "en": "/en/culinary",
+            "de": "/de/culinary",
+            "fr": "/fr/culinary",
+            "it": "/it/culinary"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Plan Your Stay",
+            "de": "Planen Sie Ihren Aufenthalt",
+            "fr": "Planifiez votre sejour",
+            "it": "Pianifica il tuo soggiorno"
+          },
+          "url": {
+            "en": "/en/manarola/hotels",
+            "de": "/de/manarola/hotels",
+            "fr": "/fr/manarola/hotels",
+            "it": "/it/manarola/hotels"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -160,5 +515,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:30:00.000Z"
+  "updated_at": "2026-01-07T20:00:00.000Z"
 }

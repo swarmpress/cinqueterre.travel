@@ -7,36 +7,90 @@
     "it": "/it/vernazza/restaurants"
   },
   "title": {
-    "en": "Where to Eat in Vernazza | Cinque Terre Dispatch"
+    "en": "Where to Eat in Vernazza | Cinque Terre Dispatch",
+    "de": "Wo essen in Vernazza | Cinque Terre Dispatch",
+    "fr": "Où manger à Vernazza | Cinque Terre Dispatch",
+    "it": "Dove mangiare a Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Where to Eat in Vernazza | Cinque Terre Dispatch"
+      "en": "Where to Eat in Vernazza | Cinque Terre Dispatch",
+      "de": "Wo essen in Vernazza | Cinque Terre Dispatch",
+      "fr": "Où manger à Vernazza | Cinque Terre Dispatch",
+      "it": "Dove mangiare a Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "From clifftop towers with fifty years of history to harbor-side tables where fishing families serve the morning catch—a local's guide to Vernazza's tables."
+      "en": "From clifftop towers with fifty years of history to harbor-side tables where fishing families serve the morning catch—a local's guide to Vernazza's tables.",
+      "de": "Von Klippen-Türmen mit fünfzig Jahren Geschichte bis zu Hafentischen, wo Fischerfamilien den Morgenfang servieren—ein Einheimischen-Führer zu Vernazzas Tischen.",
+      "fr": "Des tours sur les falaises avec cinquante ans d'histoire aux tables du port où les familles de pêcheurs servent la prise du matin—un guide local des tables de Vernazza.",
+      "it": "Dalle torri sulla scogliera con cinquant'anni di storia ai tavoli sul porto dove le famiglie di pescatori servono il pescato del mattino—una guida locale ai tavoli di Vernazza."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Harbor Sets<br/>the Table",
-      "subtitle": "In Vernazza, the natural harbor isn't just scenery—it's the kitchen's supplier. Every restaurant here competes for the same small catch, the same narrow terraces, the same sunset view. What separates them is generations of knowledge about what to do when the fish arrives.",
-      "badge": "Dining Guide",
+      "title": {
+        "en": "The Harbor Sets<br/>the Table",
+        "de": "Der Hafen deckt<br/>den Tisch",
+        "fr": "Le Port Dresse<br/>la Table",
+        "it": "Il Porto Prepara<br/>la Tavola"
+      },
+      "subtitle": {
+        "en": "In Vernazza, the natural harbor isn't just scenery—it's the kitchen's supplier. Every restaurant here competes for the same small catch, the same narrow terraces, the same sunset view. What separates them is generations of knowledge about what to do when the fish arrives.",
+        "de": "In Vernazza ist der natürliche Hafen nicht nur Kulisse—er ist der Lieferant der Küche. Jedes Restaurant hier konkurriert um denselben kleinen Fang, dieselben schmalen Terrassen, dieselbe Sonnenuntergangsaussicht. Was sie unterscheidet, sind Generationen von Wissen darüber, was zu tun ist, wenn der Fisch ankommt.",
+        "fr": "À Vernazza, le port naturel n'est pas seulement un décor—c'est le fournisseur de la cuisine. Chaque restaurant ici se dispute la même petite prise, les mêmes terrasses étroites, la même vue sur le coucher de soleil. Ce qui les différencie, ce sont des générations de savoir sur ce qu'il faut faire quand le poisson arrive.",
+        "it": "A Vernazza, il porto naturale non è solo scenario—è il fornitore della cucina. Ogni ristorante qui compete per la stessa piccola pesca, le stesse terrazze strette, la stessa vista sul tramonto. Ciò che li distingue sono generazioni di sapere su cosa fare quando arriva il pesce."
+      },
+      "badge": {
+        "en": "Dining Guide",
+        "de": "Restaurant-Führer",
+        "fr": "Guide Gastronomique",
+        "it": "Guida Ristoranti"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544148103-0773bf10d330-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Vernazza Kitchen",
-      "quote": "Vernazza's restaurants have been watching each other for centuries. The harbor is small enough that every kitchen knows what its neighbors are serving. This mutual observation has raised everyone's standards—and lowered anyone's tolerance for mediocrity.",
-      "content": [
-        "**The harbor dictates everything**. Vernazza has the only natural harbor in the Cinque Terre, which means the fishing boats land here. The restaurants that thrive are those with the oldest relationships to the fishermen—families who've bought the same catch for generations.",
-        "**Elevation is destiny**. Some restaurants cling to the waterfront; others climb into towers and terraces. The higher you go, the more dramatic the view—but also the more stairs. Choose based on your appetite for both food and effort.",
-        "**Reservations are warfare**. This is the most visited village in the Cinque Terre. The best tables—sunset terraces, harbor views, medieval towers—require booking days ahead. Call by morning for dinner; call days ahead for weekends.",
-        "**Wine flows from the hills above**. The terraces you see climbing the slopes produce Cinque Terre DOC whites and the precious Sciacchetrà. Every serious restaurant pours what grows within sight of your table."
-      ]
+      "badge": {
+        "en": "The Vernazza Kitchen",
+        "de": "Die Küche von Vernazza",
+        "fr": "La Cuisine de Vernazza",
+        "it": "La Cucina di Vernazza"
+      },
+      "quote": {
+        "en": "Vernazza's restaurants have been watching each other for centuries. The harbor is small enough that every kitchen knows what its neighbors are serving. This mutual observation has raised everyone's standards—and lowered anyone's tolerance for mediocrity.",
+        "de": "Vernazzas Restaurants beobachten sich seit Jahrhunderten gegenseitig. Der Hafen ist klein genug, dass jede Küche weiß, was die Nachbarn servieren. Diese gegenseitige Beobachtung hat die Standards aller gehoben—und die Toleranz für Mittelmäßigkeit gesenkt.",
+        "fr": "Les restaurants de Vernazza s'observent depuis des siècles. Le port est assez petit pour que chaque cuisine sache ce que servent ses voisins. Cette observation mutuelle a élevé les standards de tous—et abaissé la tolérance de chacun pour la médiocrité.",
+        "it": "I ristoranti di Vernazza si osservano da secoli. Il porto è abbastanza piccolo perché ogni cucina sappia cosa servono i vicini. Questa osservazione reciproca ha alzato gli standard di tutti—e abbassato la tolleranza per la mediocrità."
+      },
+      "content": {
+        "en": [
+          "**The harbor dictates everything**. Vernazza has the only natural harbor in the Cinque Terre, which means the fishing boats land here. The restaurants that thrive are those with the oldest relationships to the fishermen—families who've bought the same catch for generations.",
+          "**Elevation is destiny**. Some restaurants cling to the waterfront; others climb into towers and terraces. The higher you go, the more dramatic the view—but also the more stairs. Choose based on your appetite for both food and effort.",
+          "**Reservations are warfare**. This is the most visited village in the Cinque Terre. The best tables—sunset terraces, harbor views, medieval towers—require booking days ahead. Call by morning for dinner; call days ahead for weekends.",
+          "**Wine flows from the hills above**. The terraces you see climbing the slopes produce Cinque Terre DOC whites and the precious Sciacchetrà. Every serious restaurant pours what grows within sight of your table."
+        ],
+        "de": [
+          "**Der Hafen bestimmt alles**. Vernazza hat den einzigen natürlichen Hafen der Cinque Terre, was bedeutet, dass die Fischerboote hier anlegen. Die Restaurants, die florieren, sind jene mit den ältesten Beziehungen zu den Fischern—Familien, die seit Generationen denselben Fang kaufen.",
+          "**Höhe ist Schicksal**. Einige Restaurants klammern sich an die Uferpromenade; andere klettern in Türme und auf Terrassen. Je höher Sie gehen, desto dramatischer die Aussicht—aber auch desto mehr Treppen. Wählen Sie nach Ihrem Appetit auf Essen und Anstrengung.",
+          "**Reservierungen sind Krieg**. Dies ist das meistbesuchte Dorf der Cinque Terre. Die besten Tische—Sonnenuntergangs-Terrassen, Hafenblick, mittelalterliche Türme—erfordern Buchung Tage im Voraus. Rufen Sie morgens für das Abendessen an; Tage vorher für Wochenenden.",
+          "**Wein fließt von den Hügeln darüber**. Die Terrassen, die Sie die Hänge hinaufklettern sehen, produzieren Cinque Terre DOC Weißweine und den kostbaren Sciacchetrà. Jedes seriöse Restaurant schenkt aus, was in Sichtweite Ihres Tisches wächst."
+        ],
+        "fr": [
+          "**Le port dicte tout**. Vernazza possède le seul port naturel des Cinque Terre, ce qui signifie que les bateaux de pêche accostent ici. Les restaurants qui prospèrent sont ceux ayant les relations les plus anciennes avec les pêcheurs—des familles qui achètent la même prise depuis des générations.",
+          "**L'altitude est le destin**. Certains restaurants s'accrochent au front de mer ; d'autres grimpent dans les tours et sur les terrasses. Plus vous montez, plus la vue est spectaculaire—mais plus il y a d'escaliers. Choisissez selon votre appétit pour la nourriture et l'effort.",
+          "**Les réservations sont une guerre**. C'est le village le plus visité des Cinque Terre. Les meilleures tables—terrasses au coucher du soleil, vues sur le port, tours médiévales—nécessitent une réservation plusieurs jours à l'avance. Appelez le matin pour le dîner ; plusieurs jours avant pour les week-ends.",
+          "**Le vin coule des collines au-dessus**. Les terrasses que vous voyez grimper les pentes produisent des blancs Cinque Terre DOC et le précieux Sciacchetrà. Tout restaurant sérieux sert ce qui pousse à portée de vue de votre table."
+        ],
+        "it": [
+          "**Il porto detta tutto**. Vernazza ha l'unico porto naturale delle Cinque Terre, il che significa che le barche da pesca attraccano qui. I ristoranti che prosperano sono quelli con i rapporti più antichi con i pescatori—famiglie che comprano lo stesso pescato da generazioni.",
+          "**L'altitudine è destino**. Alcuni ristoranti si aggrappano al lungomare; altri salgono in torri e su terrazze. Più salite, più la vista è spettacolare—ma anche più scale. Scegliete in base al vostro appetito per cibo e fatica.",
+          "**Le prenotazioni sono una guerra**. Questo è il borgo più visitato delle Cinque Terre. I tavoli migliori—terrazze al tramonto, vista porto, torri medievali—richiedono prenotazione giorni prima. Chiamate di mattina per la cena; giorni prima per i weekend.",
+          "**Il vino scorre dalle colline sopra**. Le terrazze che vedete salire i pendii producono bianchi Cinque Terre DOC e il prezioso Sciacchetrà. Ogni ristorante serio versa ciò che cresce a vista dal vostro tavolo."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,61 +98,201 @@
       "items": [
         {
           "id": 1,
-          "name": "Belforte",
-          "category": "Historic Seafood Tower",
+          "name": {
+            "en": "Belforte",
+            "de": "Belforte",
+            "fr": "Belforte",
+            "it": "Belforte"
+          },
+          "category": {
+            "en": "Historic Seafood Tower",
+            "de": "Historischer Fisch-Turm",
+            "fr": "Tour Historique de Fruits de Mer",
+            "it": "Torre Storica di Pesce"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Fifty years of service from a medieval tower—where the Ligurian Sea crashes against your dining room.",
-          "description": "Belforte occupies a defensive tower that once watched for Saracen raiders; now it watches over sunset dinners with the same vigilance. The kitchen has served generations of visitors its mixed Monterosso anchovies, homemade pesto trofie, and daily mixed grills. The view alone would justify the prices, but the food earns them independently.",
-          "giuliaComment": "My grandfather proposed to my grandmother at Belforte in 1967. The tower hasn't changed, and neither has the commitment to quality. When I bring someone special to Vernazza, this is where we end up—fifty years of history in every bite.",
-          "signature": "Medieval walls, modern excellence",
+          "intro": {
+            "en": "Fifty years of service from a medieval tower—where the Ligurian Sea crashes against your dining room.",
+            "de": "Fünfzig Jahre Service aus einem mittelalterlichen Turm—wo das Ligurische Meer gegen Ihren Speisesaal schlägt.",
+            "fr": "Cinquante ans de service depuis une tour médiévale—où la mer Ligure se brise contre votre salle à manger.",
+            "it": "Cinquant'anni di servizio da una torre medievale—dove il Mar Ligure si infrange contro la vostra sala da pranzo."
+          },
+          "description": {
+            "en": "Belforte occupies a defensive tower that once watched for Saracen raiders; now it watches over sunset dinners with the same vigilance. The kitchen has served generations of visitors its mixed Monterosso anchovies, homemade pesto trofie, and daily mixed grills. The view alone would justify the prices, but the food earns them independently.",
+            "de": "Belforte besetzt einen Verteidigungsturm, der einst nach sarazenischen Räubern Ausschau hielt; jetzt wacht er mit derselben Wachsamkeit über Sonnenuntergangs-Dinner. Die Küche serviert seit Generationen ihre gemischten Monterosso-Sardellen, hausgemachte Pesto-Trofie und tägliche gemischte Grillgerichte. Die Aussicht allein würde die Preise rechtfertigen, aber das Essen verdient sie unabhängig davon.",
+            "fr": "Belforte occupe une tour défensive qui surveillait autrefois les raids sarrasins ; maintenant elle surveille les dîners au coucher du soleil avec la même vigilance. La cuisine sert depuis des générations ses anchois mixtes de Monterosso, ses trofie au pesto maison et ses grillades mixtes du jour. La vue seule justifierait les prix, mais la nourriture les mérite indépendamment.",
+            "it": "Belforte occupa una torre difensiva che un tempo sorvegliava i predoni saraceni; ora sorveglia le cene al tramonto con la stessa vigilanza. La cucina serve da generazioni le sue acciughe miste di Monterosso, trofie al pesto fatte in casa e grigliate miste del giorno. La vista da sola giustificherebbe i prezzi, ma il cibo li merita indipendentemente."
+          },
+          "giuliaComment": {
+            "en": "My grandfather proposed to my grandmother at Belforte in 1967. The tower hasn't changed, and neither has the commitment to quality. When I bring someone special to Vernazza, this is where we end up—fifty years of history in every bite.",
+            "de": "Mein Großvater machte meiner Großmutter 1967 bei Belforte einen Heiratsantrag. Der Turm hat sich nicht verändert, und auch nicht das Engagement für Qualität. Wenn ich jemand Besonderen nach Vernazza bringe, landen wir hier—fünfzig Jahre Geschichte in jedem Bissen.",
+            "fr": "Mon grand-père a demandé ma grand-mère en mariage à Belforte en 1967. La tour n'a pas changé, ni l'engagement envers la qualité. Quand j'amène quelqu'un de spécial à Vernazza, c'est ici que nous finissons—cinquante ans d'histoire dans chaque bouchée.",
+            "it": "Mio nonno chiese la mano di mia nonna al Belforte nel 1967. La torre non è cambiata, e nemmeno l'impegno per la qualità. Quando porto qualcuno di speciale a Vernazza, finiamo qui—cinquant'anni di storia in ogni boccone."
+          },
+          "signature": {
+            "en": "Medieval walls, modern excellence",
+            "de": "Mittelalterliche Mauern, moderne Exzellenz",
+            "fr": "Murs médiévaux, excellence moderne",
+            "it": "Mura medievali, eccellenza moderna"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Book days ahead for terrace seating. The stairs are steep but worth every step. Closed Tuesdays in winter.",
+          "practicalInfo": {
+            "en": "Book days ahead for terrace seating. The stairs are steep but worth every step. Closed Tuesdays in winter.",
+            "de": "Buchen Sie Tage im Voraus für Terrassenplätze. Die Treppen sind steil, aber jeden Schritt wert. Im Winter dienstags geschlossen.",
+            "fr": "Réservez plusieurs jours à l'avance pour les places en terrasse. Les escaliers sont raides mais valent chaque marche. Fermé le mardi en hiver.",
+            "it": "Prenotate giorni prima per i posti in terrazza. Le scale sono ripide ma valgono ogni gradino. Chiuso il martedì in inverno."
+          },
           "googleRating": 4.5,
           "tripadvisorRating": 4.6
         },
         {
           "id": 2,
-          "name": "La Torre",
-          "category": "Panoramic Terrace",
+          "name": {
+            "en": "La Torre",
+            "de": "La Torre",
+            "fr": "La Torre",
+            "it": "La Torre"
+          },
+          "category": {
+            "en": "Panoramic Terrace",
+            "de": "Panorama-Terrasse",
+            "fr": "Terrasse Panoramique",
+            "it": "Terrazza Panoramica"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Climb the steep stairs and earn a view that encompasses the entire coast—then let the fish reward your effort.",
-          "description": "La Torre demands commitment: a steep staircase climbs to a terrace that seems suspended between village and sky. The reward is one of the most stunning panoramic views in the Cinque Terre, paired with straightforward fish and vegetable preparations that let the ingredients speak. The staff are trained, attentive, and proud of their perch.",
-          "giuliaComment": "I tell visitors: if you can climb, climb to La Torre. The view at sunset will ruin all other restaurant views for you. The food is honest—fresh fish, local vegetables, nothing fancy—but at that altitude, with that light, it becomes something more.",
-          "signature": "Stairs to the sky",
+          "intro": {
+            "en": "Climb the steep stairs and earn a view that encompasses the entire coast—then let the fish reward your effort.",
+            "de": "Erklimmen Sie die steilen Treppen und verdienen Sie eine Aussicht, die die gesamte Küste umfasst—dann lassen Sie den Fisch Ihre Mühe belohnen.",
+            "fr": "Grimpez les escaliers raides et gagnez une vue qui embrasse toute la côte—puis laissez le poisson récompenser votre effort.",
+            "it": "Salite le scale ripide e guadagnatevi una vista che abbraccia tutta la costa—poi lasciate che il pesce ricompensi il vostro sforzo."
+          },
+          "description": {
+            "en": "La Torre demands commitment: a steep staircase climbs to a terrace that seems suspended between village and sky. The reward is one of the most stunning panoramic views in the Cinque Terre, paired with straightforward fish and vegetable preparations that let the ingredients speak. The staff are trained, attentive, and proud of their perch.",
+            "de": "La Torre verlangt Engagement: eine steile Treppe führt zu einer Terrasse, die zwischen Dorf und Himmel zu schweben scheint. Die Belohnung ist eine der atemberaubendsten Panoramaaussichten der Cinque Terre, gepaart mit einfachen Fisch- und Gemüsezubereitungen, die die Zutaten sprechen lassen. Das Personal ist geschult, aufmerksam und stolz auf seinen Aussichtsplatz.",
+            "fr": "La Torre exige de l'engagement : un escalier raide monte vers une terrasse qui semble suspendue entre le village et le ciel. La récompense est l'une des vues panoramiques les plus époustouflantes des Cinque Terre, accompagnée de préparations de poisson et de légumes simples qui laissent parler les ingrédients. Le personnel est formé, attentif et fier de son perchoir.",
+            "it": "La Torre richiede impegno: una scala ripida sale verso una terrazza che sembra sospesa tra borgo e cielo. La ricompensa è una delle viste panoramiche più mozzafiato delle Cinque Terre, abbinata a preparazioni di pesce e verdure semplici che lasciano parlare gli ingredienti. Il personale è preparato, attento e orgoglioso della sua posizione."
+          },
+          "giuliaComment": {
+            "en": "I tell visitors: if you can climb, climb to La Torre. The view at sunset will ruin all other restaurant views for you. The food is honest—fresh fish, local vegetables, nothing fancy—but at that altitude, with that light, it becomes something more.",
+            "de": "Ich sage Besuchern: wenn Sie klettern können, klettern Sie zu La Torre. Die Aussicht bei Sonnenuntergang wird alle anderen Restaurant-Aussichten für Sie ruinieren. Das Essen ist ehrlich—frischer Fisch, lokales Gemüse, nichts Ausgefallenes—aber in dieser Höhe, mit diesem Licht, wird es zu etwas mehr.",
+            "fr": "Je dis aux visiteurs : si vous pouvez grimper, grimpez à La Torre. La vue au coucher du soleil ruinera toutes les autres vues de restaurant pour vous. La nourriture est honnête—poisson frais, légumes locaux, rien de fantaisiste—mais à cette altitude, avec cette lumière, cela devient quelque chose de plus.",
+            "it": "Dico ai visitatori: se potete salire, salite a La Torre. La vista al tramonto rovinerà tutte le altre viste da ristorante per voi. Il cibo è onesto—pesce fresco, verdure locali, niente di elaborato—ma a quell'altitudine, con quella luce, diventa qualcosa di più."
+          },
+          "signature": {
+            "en": "Stairs to the sky",
+            "de": "Treppen zum Himmel",
+            "fr": "Escaliers vers le ciel",
+            "it": "Scale verso il cielo"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Arrive early for sunset. The climb discourages casual visitors—which is part of the appeal. They also rent rooms.",
+          "practicalInfo": {
+            "en": "Arrive early for sunset. The climb discourages casual visitors—which is part of the appeal. They also rent rooms.",
+            "de": "Kommen Sie früh für den Sonnenuntergang. Der Aufstieg schreckt Gelegenheitsbesucher ab—was Teil des Reizes ist. Sie vermieten auch Zimmer.",
+            "fr": "Arrivez tôt pour le coucher du soleil. La montée décourage les visiteurs occasionnels—ce qui fait partie de l'attrait. Ils louent aussi des chambres.",
+            "it": "Arrivate presto per il tramonto. La salita scoraggia i visitatori occasionali—che è parte dell'attrattiva. Affittano anche camere."
+          },
           "googleRating": 4.4,
           "tripadvisorRating": 4.5
         },
         {
           "id": 3,
-          "name": "Gianni Franzi",
-          "category": "Traditional Ligurian",
+          "name": {
+            "en": "Gianni Franzi",
+            "de": "Gianni Franzi",
+            "fr": "Gianni Franzi",
+            "it": "Gianni Franzi"
+          },
+          "category": {
+            "en": "Traditional Ligurian",
+            "de": "Traditionell Ligurisch",
+            "fr": "Ligure Traditionnel",
+            "it": "Ligure Tradizionale"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Since the 1960s, this family has been serving what Vernazza has always eaten—and they've never seen a reason to change.",
-          "description": "The Gianni Franzi name is everywhere in Vernazza—bar, hotel, restaurant—but it all started with the kitchen. The small terrace fills quickly with those who know to order the stuffed lemon anchovies, the pesto trofie made fresh each morning, and the signature tegame Vernazza—an anchovy preparation that exists nowhere else.",
-          "giuliaComment": "This is where locals eat when we want to remember what our grandmothers cooked. The recipes haven't changed since the 1960s because perfection doesn't need updating. The tegame Vernazza is worth the trip alone—anchovies layered with potatoes and tomatoes, baked until the edges crisp.",
-          "signature": "Six decades of the same excellence",
+          "intro": {
+            "en": "Since the 1960s, this family has been serving what Vernazza has always eaten—and they've never seen a reason to change.",
+            "de": "Seit den 1960er Jahren serviert diese Familie, was Vernazza schon immer gegessen hat—und sie haben nie einen Grund gesehen, etwas zu ändern.",
+            "fr": "Depuis les années 1960, cette famille sert ce que Vernazza a toujours mangé—et ils n'ont jamais vu de raison de changer.",
+            "it": "Dagli anni '60, questa famiglia serve ciò che Vernazza ha sempre mangiato—e non hanno mai visto ragione di cambiare."
+          },
+          "description": {
+            "en": "The Gianni Franzi name is everywhere in Vernazza—bar, hotel, restaurant—but it all started with the kitchen. The small terrace fills quickly with those who know to order the stuffed lemon anchovies, the pesto trofie made fresh each morning, and the signature tegame Vernazza—an anchovy preparation that exists nowhere else.",
+            "de": "Der Name Gianni Franzi ist überall in Vernazza—Bar, Hotel, Restaurant—aber alles begann mit der Küche. Die kleine Terrasse füllt sich schnell mit jenen, die wissen, die gefüllten Zitronen-Sardellen zu bestellen, die jeden Morgen frisch gemachten Pesto-Trofie und das charakteristische Tegame Vernazza—eine Sardellen-Zubereitung, die nirgendwo sonst existiert.",
+            "fr": "Le nom Gianni Franzi est partout à Vernazza—bar, hôtel, restaurant—mais tout a commencé avec la cuisine. La petite terrasse se remplit vite de ceux qui savent commander les anchois farcis au citron, les trofie au pesto préparés frais chaque matin, et le tegame Vernazza signature—une préparation d'anchois qui n'existe nulle part ailleurs.",
+            "it": "Il nome Gianni Franzi è ovunque a Vernazza—bar, hotel, ristorante—ma tutto è iniziato con la cucina. La piccola terrazza si riempie velocemente di chi sa ordinare le acciughe ripiene al limone, le trofie al pesto preparate fresche ogni mattina, e il caratteristico tegame Vernazza—una preparazione di acciughe che non esiste in nessun altro posto."
+          },
+          "giuliaComment": {
+            "en": "This is where locals eat when we want to remember what our grandmothers cooked. The recipes haven't changed since the 1960s because perfection doesn't need updating. The tegame Vernazza is worth the trip alone—anchovies layered with potatoes and tomatoes, baked until the edges crisp.",
+            "de": "Hier essen Einheimische, wenn wir uns erinnern wollen, was unsere Großmütter gekocht haben. Die Rezepte haben sich seit den 1960ern nicht geändert, weil Perfektion keine Aktualisierung braucht. Das Tegame Vernazza allein ist die Reise wert—Sardellen geschichtet mit Kartoffeln und Tomaten, gebacken bis die Ränder knusprig sind.",
+            "fr": "C'est ici que les locaux mangent quand nous voulons nous souvenir de ce que nos grands-mères cuisinaient. Les recettes n'ont pas changé depuis les années 1960 parce que la perfection n'a pas besoin d'être mise à jour. Le tegame Vernazza vaut le voyage à lui seul—anchois superposés avec pommes de terre et tomates, cuits jusqu'à ce que les bords soient croustillants.",
+            "it": "Qui mangiano i locali quando vogliamo ricordare cosa cucinavano le nostre nonne. Le ricette non sono cambiate dagli anni '60 perché la perfezione non ha bisogno di aggiornamenti. Il tegame Vernazza vale il viaggio da solo—acciughe stratificate con patate e pomodori, cotte fino a quando i bordi sono croccanti."
+          },
+          "signature": {
+            "en": "Six decades of the same excellence",
+            "de": "Sechs Jahrzehnte derselben Exzellenz",
+            "fr": "Six décennies de la même excellence",
+            "it": "Sei decenni della stessa eccellenza"
+          },
           "priceRange": "$$",
-          "practicalInfo": "The terrace is small—reserve by midday. The hotel guests get priority, but the restaurant is worth the planning.",
+          "practicalInfo": {
+            "en": "The terrace is small—reserve by midday. The hotel guests get priority, but the restaurant is worth the planning.",
+            "de": "Die Terrasse ist klein—reservieren Sie bis Mittag. Hotelgäste haben Vorrang, aber das Restaurant ist die Planung wert.",
+            "fr": "La terrasse est petite—réservez avant midi. Les clients de l'hôtel ont la priorité, mais le restaurant vaut la planification.",
+            "it": "La terrazza è piccola—prenotate entro mezzogiorno. Gli ospiti dell'hotel hanno la priorità, ma il ristorante vale la pianificazione."
+          },
           "googleRating": 4.3,
           "tripadvisorRating": 4.4
         },
         {
           "id": 4,
-          "name": "Ristorante Luca",
-          "category": "Harbor Seafood",
+          "name": {
+            "en": "Ristorante Luca",
+            "de": "Ristorante Luca",
+            "fr": "Ristorante Luca",
+            "it": "Ristorante Luca"
+          },
+          "category": {
+            "en": "Harbor Seafood",
+            "de": "Hafen-Fischrestaurant",
+            "fr": "Fruits de Mer du Port",
+            "it": "Pesce del Porto"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "A historic fishing family serves their own catch—the shortest distance between sea and table.",
-          "description": "Luca's family has fished these waters for generations; now they serve what they catch. The preparations are deliberately simple: Ligurian-style octopus with olives and tomatoes, mussel and clam soups that taste of the morning sea, daily mixed fried fish that changes with what the nets brought in. This is harbor dining in its purest form.",
-          "giuliaComment": "I trust Luca because I've seen his family's boats come in at dawn. When he says the fish is fresh, I know the exact hour it left the water. The octopus here is tender because they know the old fisherman's tricks—and they're not telling anyone.",
-          "signature": "From their boats to your plate",
+          "intro": {
+            "en": "A historic fishing family serves their own catch—the shortest distance between sea and table.",
+            "de": "Eine historische Fischerfamilie serviert ihren eigenen Fang—die kürzeste Distanz zwischen Meer und Tisch.",
+            "fr": "Une famille de pêcheurs historique sert sa propre prise—la plus courte distance entre la mer et la table.",
+            "it": "Una storica famiglia di pescatori serve il proprio pescato—la distanza più breve tra mare e tavola."
+          },
+          "description": {
+            "en": "Luca's family has fished these waters for generations; now they serve what they catch. The preparations are deliberately simple: Ligurian-style octopus with olives and tomatoes, mussel and clam soups that taste of the morning sea, daily mixed fried fish that changes with what the nets brought in. This is harbor dining in its purest form.",
+            "de": "Lucas Familie fischt diese Gewässer seit Generationen; jetzt servieren sie, was sie fangen. Die Zubereitungen sind bewusst einfach: Tintenfisch auf ligurische Art mit Oliven und Tomaten, Muschel- und Venusmuschel-Suppen, die nach dem Morgenmeer schmecken, täglich wechselnder gemischter frittierter Fisch, je nachdem was die Netze einbrachten. Das ist Hafenessen in seiner reinsten Form.",
+            "fr": "La famille de Luca pêche ces eaux depuis des générations ; maintenant ils servent ce qu'ils pêchent. Les préparations sont délibérément simples : poulpe à la ligurienne avec olives et tomates, soupes de moules et palourdes qui ont le goût de la mer matinale, poisson frit mixte du jour qui change selon ce que les filets ont rapporté. C'est la cuisine du port dans sa forme la plus pure.",
+            "it": "La famiglia di Luca pesca queste acque da generazioni; ora servono ciò che pescano. Le preparazioni sono volutamente semplici: polpo alla ligure con olive e pomodori, zuppe di cozze e vongole che sanno di mare mattutino, frittura mista del giorno che cambia secondo cosa hanno portato le reti. Questa è cucina del porto nella sua forma più pura."
+          },
+          "giuliaComment": {
+            "en": "I trust Luca because I've seen his family's boats come in at dawn. When he says the fish is fresh, I know the exact hour it left the water. The octopus here is tender because they know the old fisherman's tricks—and they're not telling anyone.",
+            "de": "Ich vertraue Luca, weil ich die Boote seiner Familie bei Morgengrauen einlaufen sah. Wenn er sagt, der Fisch ist frisch, kenne ich die genaue Stunde, in der er das Wasser verließ. Der Tintenfisch hier ist zart, weil sie die alten Fischertricks kennen—und sie verraten es niemandem.",
+            "fr": "Je fais confiance à Luca parce que j'ai vu les bateaux de sa famille rentrer à l'aube. Quand il dit que le poisson est frais, je connais l'heure exacte où il a quitté l'eau. Le poulpe ici est tendre parce qu'ils connaissent les vieux trucs de pêcheur—et ils ne le disent à personne.",
+            "it": "Mi fido di Luca perché ho visto le barche della sua famiglia rientrare all'alba. Quando dice che il pesce è fresco, conosco l'ora esatta in cui ha lasciato l'acqua. Il polpo qui è tenero perché conoscono i vecchi trucchi dei pescatori—e non li dicono a nessuno."
+          },
+          "signature": {
+            "en": "From their boats to your plate",
+            "de": "Von ihren Booten auf Ihren Teller",
+            "fr": "De leurs bateaux à votre assiette",
+            "it": "Dalle loro barche al vostro piatto"
+          },
           "priceRange": "$$",
-          "practicalInfo": "Harbor-side tables go first. Ask what came in that morning—that's what you should order.",
+          "practicalInfo": {
+            "en": "Harbor-side tables go first. Ask what came in that morning—that's what you should order.",
+            "de": "Tische am Hafen gehen zuerst weg. Fragen Sie, was an diesem Morgen reinkam—das sollten Sie bestellen.",
+            "fr": "Les tables côté port partent en premier. Demandez ce qui est arrivé ce matin-là—c'est ce que vous devriez commander.",
+            "it": "I tavoli sul porto vanno via per primi. Chiedete cosa è arrivato quella mattina—è quello che dovreste ordinare."
+          },
           "googleRating": 4.4,
           "tripadvisorRating": 4.3
         }
@@ -107,22 +301,67 @@
         {
           "afterIndex": 2,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Tower and the Harbor",
-          "quote": "Vernazza offers a choice: dine at water level, where the boats rock and the spray reaches your ankles, or climb to the towers where medieval families once watched for invaders. Both choices are right. The harbor gives you immediacy; the towers give you perspective. The fish is the same—the fishermen supply everyone."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Tower and the Harbor",
+            "de": "Der Turm und der Hafen",
+            "fr": "La Tour et le Port",
+            "it": "La Torre e il Porto"
+          },
+          "quote": {
+            "en": "Vernazza offers a choice: dine at water level, where the boats rock and the spray reaches your ankles, or climb to the towers where medieval families once watched for invaders. Both choices are right. The harbor gives you immediacy; the towers give you perspective. The fish is the same—the fishermen supply everyone.",
+            "de": "Vernazza bietet eine Wahl: Essen auf Wasserniveau, wo die Boote schaukeln und die Gischt Ihre Knöchel erreicht, oder klettern zu den Türmen, wo mittelalterliche Familien einst nach Eindringlingen Ausschau hielten. Beide Entscheidungen sind richtig. Der Hafen gibt Ihnen Unmittelbarkeit; die Türme geben Ihnen Perspektive. Der Fisch ist derselbe—die Fischer beliefern alle.",
+            "fr": "Vernazza offre un choix : dîner au niveau de l'eau, où les bateaux se balancent et les embruns atteignent vos chevilles, ou grimper aux tours où les familles médiévales guettaient autrefois les envahisseurs. Les deux choix sont justes. Le port vous donne l'immédiateté ; les tours vous donnent la perspective. Le poisson est le même—les pêcheurs approvisionnent tout le monde.",
+            "it": "Vernazza offre una scelta: cenare al livello dell'acqua, dove le barche dondolano e gli spruzzi raggiungono le caviglie, o salire alle torri dove le famiglie medievali un tempo sorvegliavano gli invasori. Entrambe le scelte sono giuste. Il porto vi dà immediatezza; le torri vi danno prospettiva. Il pesce è lo stesso—i pescatori riforniscono tutti."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Beyond the Terrace",
-      "quote": "Not every meal needs a reservation or a climb. Vernazza's casual spots feed the village between the formal hours—quick bites, standing aperitivos, the fuel that keeps you moving between beaches and trails.",
-      "content": [
-        "**Il Pirata delle Cinque Terre** has transformed breakfast in Vernazza. What started as a simple bar has become a destination—Sicilian twins serving espresso with theatrical flair, fresh pastries that draw lines, and a warmth that makes strangers feel like regulars.",
-        "**Pippo a Vernazza** operates from a chalkboard menu and a commitment to plastic-free packaging. The pesto trofie is excellent, the stuffed focaccias are perfect hiking fuel, and the wines are local and cold.",
-        "**The harbor bars** all serve essentially the same aperitivo—Spritz, olives, the view—but each has its rhythm. Some attract the sunset crowd; others fill with locals after the tourists have climbed to dinner. Find your spot and return.",
-        "**Lunch Box** feeds the practical: fresh-squeezed juices, substantial paninis, provisions for the trail. Not romantic, but exactly right when you need fuel without ceremony."
-      ]
+      "badge": {
+        "en": "Beyond the Terrace",
+        "de": "Jenseits der Terrasse",
+        "fr": "Au-delà de la Terrasse",
+        "it": "Oltre la Terrazza"
+      },
+      "quote": {
+        "en": "Not every meal needs a reservation or a climb. Vernazza's casual spots feed the village between the formal hours—quick bites, standing aperitivos, the fuel that keeps you moving between beaches and trails.",
+        "de": "Nicht jede Mahlzeit braucht eine Reservierung oder einen Aufstieg. Vernazzas ungezwungene Lokale versorgen das Dorf zwischen den formellen Stunden—schnelle Happen, stehende Aperitivos, der Treibstoff, der Sie zwischen Stränden und Wanderwegen in Bewegung hält.",
+        "fr": "Chaque repas n'a pas besoin d'une réservation ou d'une montée. Les spots décontractés de Vernazza nourrissent le village entre les heures formelles—en-cas rapides, aperitivos debout, le carburant qui vous fait avancer entre plages et sentiers.",
+        "it": "Non ogni pasto ha bisogno di prenotazione o salita. I locali informali di Vernazza nutrono il borgo tra le ore formali—spuntini veloci, aperitivi in piedi, il carburante che vi tiene in movimento tra spiagge e sentieri."
+      },
+      "content": {
+        "en": [
+          "**Il Pirata delle Cinque Terre** has transformed breakfast in Vernazza. What started as a simple bar has become a destination—Sicilian twins serving espresso with theatrical flair, fresh pastries that draw lines, and a warmth that makes strangers feel like regulars.",
+          "**Pippo a Vernazza** operates from a chalkboard menu and a commitment to plastic-free packaging. The pesto trofie is excellent, the stuffed focaccias are perfect hiking fuel, and the wines are local and cold.",
+          "**The harbor bars** all serve essentially the same aperitivo—Spritz, olives, the view—but each has its rhythm. Some attract the sunset crowd; others fill with locals after the tourists have climbed to dinner. Find your spot and return.",
+          "**Lunch Box** feeds the practical: fresh-squeezed juices, substantial paninis, provisions for the trail. Not romantic, but exactly right when you need fuel without ceremony."
+        ],
+        "de": [
+          "**Il Pirata delle Cinque Terre** hat das Frühstück in Vernazza verwandelt. Was als einfache Bar begann, ist zu einem Ziel geworden—sizilianische Zwillinge servieren Espresso mit theatralischem Flair, frische Gebäcke, die Schlangen ziehen, und eine Wärme, die Fremde wie Stammgäste fühlen lässt.",
+          "**Pippo a Vernazza** arbeitet mit einer Tafel-Speisekarte und einem Engagement für plastikfreie Verpackung. Die Pesto-Trofie sind ausgezeichnet, die gefüllten Focaccias sind perfekter Wanderproviant, und die Weine sind lokal und kalt.",
+          "**Die Hafenbars** servieren alle im Wesentlichen denselben Aperitivo—Spritz, Oliven, die Aussicht—aber jede hat ihren Rhythmus. Einige ziehen die Sonnenuntergangsmenge an; andere füllen sich mit Einheimischen, nachdem die Touristen zum Abendessen hochgestiegen sind. Finden Sie Ihren Platz und kehren Sie zurück.",
+          "**Lunch Box** versorgt die Praktischen: frisch gepresste Säfte, substanzielle Paninis, Proviant für den Weg. Nicht romantisch, aber genau richtig, wenn Sie Treibstoff ohne Zeremonie brauchen."
+        ],
+        "fr": [
+          "**Il Pirata delle Cinque Terre** a transformé le petit-déjeuner à Vernazza. Ce qui a commencé comme un simple bar est devenu une destination—des jumeaux siciliens servant l'espresso avec un flair théâtral, des pâtisseries fraîches qui créent des files d'attente, et une chaleur qui fait sentir les étrangers comme des habitués.",
+          "**Pippo a Vernazza** fonctionne avec un menu sur tableau noir et un engagement pour l'emballage sans plastique. Les trofie au pesto sont excellentes, les focaccias farcies sont un carburant de randonnée parfait, et les vins sont locaux et froids.",
+          "**Les bars du port** servent tous essentiellement le même aperitivo—Spritz, olives, la vue—mais chacun a son rythme. Certains attirent la foule du coucher de soleil ; d'autres se remplissent de locaux après que les touristes soient montés dîner. Trouvez votre place et revenez.",
+          "**Lunch Box** nourrit les pratiques : jus fraîchement pressés, paninis consistants, provisions pour le sentier. Pas romantique, mais exactement bien quand vous avez besoin de carburant sans cérémonie."
+        ],
+        "it": [
+          "**Il Pirata delle Cinque Terre** ha trasformato la colazione a Vernazza. Quello che è iniziato come un semplice bar è diventato una destinazione—gemelli siciliani che servono espresso con flair teatrale, pasticcini freschi che creano code, e un calore che fa sentire gli sconosciuti come habitué.",
+          "**Pippo a Vernazza** opera con un menu sulla lavagna e un impegno per il packaging plastic-free. Le trofie al pesto sono eccellenti, le focacce farcite sono perfetto carburante da escursione, e i vini sono locali e freddi.",
+          "**I bar del porto** servono tutti essenzialmente lo stesso aperitivo—Spritz, olive, la vista—ma ognuno ha il suo ritmo. Alcuni attirano la folla del tramonto; altri si riempiono di locali dopo che i turisti sono saliti a cena. Trovate il vostro posto e tornate.",
+          "**Lunch Box** nutre i pratici: succhi appena spremuti, panini sostanziosi, provviste per il sentiero. Non romantico, ma esattamente giusto quando avete bisogno di carburante senza cerimonie."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -130,61 +369,201 @@
       "items": [
         {
           "id": 5,
-          "name": "Il Pirata delle Cinque Terre",
-          "category": "Breakfast & Coffee",
+          "name": {
+            "en": "Il Pirata delle Cinque Terre",
+            "de": "Il Pirata delle Cinque Terre",
+            "fr": "Il Pirata delle Cinque Terre",
+            "it": "Il Pirata delle Cinque Terre"
+          },
+          "category": {
+            "en": "Breakfast & Coffee",
+            "de": "Frühstück & Kaffee",
+            "fr": "Petit-déjeuner & Café",
+            "it": "Colazione & Caffè"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Sicilian twins brought their island's coffee culture to Vernazza—and transformed how the village starts its day.",
-          "description": "The Pirata brothers arrived from Sicily and immediately understood what Vernazza lacked: proper breakfast theater. Their bar serves espresso with performance, pastries with pride, and a welcome that makes their tiny space feel like your neighborhood regular. The seafood later in the day is excellent, but breakfast is their masterpiece.",
-          "giuliaComment": "I don't drink coffee anywhere else in Vernazza. The twins remember how you take it, remember your name, make you feel like the morning matters. That's rare anywhere; in a tourist village, it's precious.",
-          "signature": "Where breakfast becomes belonging",
+          "intro": {
+            "en": "Sicilian twins brought their island's coffee culture to Vernazza—and transformed how the village starts its day.",
+            "de": "Sizilianische Zwillinge brachten die Kaffeekultur ihrer Insel nach Vernazza—und veränderten, wie das Dorf seinen Tag beginnt.",
+            "fr": "Des jumeaux siciliens ont apporté la culture du café de leur île à Vernazza—et ont transformé la façon dont le village commence sa journée.",
+            "it": "Gemelli siciliani hanno portato la cultura del caffè della loro isola a Vernazza—e hanno trasformato il modo in cui il borgo inizia la giornata."
+          },
+          "description": {
+            "en": "The Pirata brothers arrived from Sicily and immediately understood what Vernazza lacked: proper breakfast theater. Their bar serves espresso with performance, pastries with pride, and a welcome that makes their tiny space feel like your neighborhood regular. The seafood later in the day is excellent, but breakfast is their masterpiece.",
+            "de": "Die Pirata-Brüder kamen aus Sizilien und verstanden sofort, was Vernazza fehlte: richtiges Frühstücks-Theater. Ihre Bar serviert Espresso mit Performance, Gebäck mit Stolz und einen Empfang, der ihren winzigen Raum wie Ihre Stammkneipe fühlen lässt. Die Meeresfrüchte später am Tag sind ausgezeichnet, aber das Frühstück ist ihr Meisterwerk.",
+            "fr": "Les frères Pirata sont arrivés de Sicile et ont immédiatement compris ce qui manquait à Vernazza : un vrai théâtre du petit-déjeuner. Leur bar sert l'espresso avec performance, les pâtisseries avec fierté, et un accueil qui fait que leur minuscule espace ressemble à votre bar de quartier. Les fruits de mer plus tard dans la journée sont excellents, mais le petit-déjeuner est leur chef-d'œuvre.",
+            "it": "I fratelli Pirata sono arrivati dalla Sicilia e hanno capito subito cosa mancava a Vernazza: un vero teatro della colazione. Il loro bar serve espresso con performance, pasticcini con orgoglio, e un benvenuto che fa sembrare il loro minuscolo spazio il vostro bar di quartiere. I frutti di mare più tardi nella giornata sono eccellenti, ma la colazione è il loro capolavoro."
+          },
+          "giuliaComment": {
+            "en": "I don't drink coffee anywhere else in Vernazza. The twins remember how you take it, remember your name, make you feel like the morning matters. That's rare anywhere; in a tourist village, it's precious.",
+            "de": "Ich trinke nirgendwo sonst in Vernazza Kaffee. Die Zwillinge erinnern sich, wie Sie ihn trinken, erinnern sich an Ihren Namen, geben Ihnen das Gefühl, dass der Morgen zählt. Das ist überall selten; in einem Touristendorf ist es kostbar.",
+            "fr": "Je ne bois de café nulle part ailleurs à Vernazza. Les jumeaux se souviennent comment vous le prenez, se souviennent de votre nom, vous font sentir que le matin compte. C'est rare partout ; dans un village touristique, c'est précieux.",
+            "it": "Non bevo caffè da nessun'altra parte a Vernazza. I gemelli ricordano come lo prendete, ricordano il vostro nome, vi fanno sentire che il mattino conta. È raro ovunque; in un borgo turistico, è prezioso."
+          },
+          "signature": {
+            "en": "Where breakfast becomes belonging",
+            "de": "Wo Frühstück Zugehörigkeit wird",
+            "fr": "Où le petit-déjeuner devient appartenance",
+            "it": "Dove la colazione diventa appartenenza"
+          },
           "priceRange": "$",
-          "practicalInfo": "Come early for the best pastries. The cappuccino to-go is Vernazza's best walking coffee.",
+          "practicalInfo": {
+            "en": "Come early for the best pastries. The cappuccino to-go is Vernazza's best walking coffee.",
+            "de": "Kommen Sie früh für die besten Gebäcke. Der Cappuccino zum Mitnehmen ist Vernazzas bester Kaffee für unterwegs.",
+            "fr": "Venez tôt pour les meilleures pâtisseries. Le cappuccino à emporter est le meilleur café de marche de Vernazza.",
+            "it": "Venite presto per i pasticcini migliori. Il cappuccino da asporto è il miglior caffè da passeggio di Vernazza."
+          },
           "googleRating": 4.7,
           "tripadvisorRating": 4.6
         },
         {
           "id": 6,
-          "name": "Pippo a Vernazza",
-          "category": "Casual Ligurian",
+          "name": {
+            "en": "Pippo a Vernazza",
+            "de": "Pippo a Vernazza",
+            "fr": "Pippo a Vernazza",
+            "it": "Pippo a Vernazza"
+          },
+          "category": {
+            "en": "Casual Ligurian",
+            "de": "Ungezwungen Ligurisch",
+            "fr": "Ligure Décontracté",
+            "it": "Ligure Informale"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=2670&auto=format&fit=crop",
-          "intro": "A chalkboard menu, plastic-free packaging, and the kind of pesto trofie that makes you forget about fine dining entirely.",
-          "description": "Pippo runs a simple operation: excellent pesto trofie, properly stuffed focaccias, sandwiches that fuel hikes, and wines from the terraces above. What distinguishes them is commitment—completely plastic-free packaging, local ingredients, and preparations that prove casual doesn't mean careless.",
-          "giuliaComment": "When I'm hiking between villages, Pippo is where I stop. The stuffed focaccia is substantial enough for the trail, the wine is what the hills produce, and there's no pretension. Just good food served by people who care about doing it right.",
-          "signature": "Casual done consciously",
+          "intro": {
+            "en": "A chalkboard menu, plastic-free packaging, and the kind of pesto trofie that makes you forget about fine dining entirely.",
+            "de": "Eine Tafel-Speisekarte, plastikfreie Verpackung und die Art von Pesto-Trofie, die Sie Fine Dining völlig vergessen lässt.",
+            "fr": "Un menu sur tableau noir, un emballage sans plastique, et le genre de trofie au pesto qui vous fait complètement oublier la gastronomie.",
+            "it": "Un menu sulla lavagna, packaging plastic-free, e il tipo di trofie al pesto che vi fa dimenticare completamente la cucina raffinata."
+          },
+          "description": {
+            "en": "Pippo runs a simple operation: excellent pesto trofie, properly stuffed focaccias, sandwiches that fuel hikes, and wines from the terraces above. What distinguishes them is commitment—completely plastic-free packaging, local ingredients, and preparations that prove casual doesn't mean careless.",
+            "de": "Pippo führt einen einfachen Betrieb: ausgezeichnete Pesto-Trofie, ordentlich gefüllte Focaccias, Sandwiches, die Wanderungen antreiben, und Weine von den Terrassen darüber. Was sie unterscheidet, ist Engagement—komplett plastikfreie Verpackung, lokale Zutaten und Zubereitungen, die beweisen, dass ungezwungen nicht nachlässig bedeutet.",
+            "fr": "Pippo gère une opération simple : d'excellents trofie au pesto, des focaccias bien farcies, des sandwichs qui alimentent les randonnées, et des vins des terrasses au-dessus. Ce qui les distingue, c'est l'engagement—emballage complètement sans plastique, ingrédients locaux, et préparations qui prouvent que décontracté ne signifie pas négligent.",
+            "it": "Pippo gestisce un'operazione semplice: eccellenti trofie al pesto, focacce farcite come si deve, panini che alimentano le escursioni, e vini dalle terrazze sopra. Ciò che li distingue è l'impegno—packaging completamente plastic-free, ingredienti locali, e preparazioni che dimostrano che informale non significa trascurato."
+          },
+          "giuliaComment": {
+            "en": "When I'm hiking between villages, Pippo is where I stop. The stuffed focaccia is substantial enough for the trail, the wine is what the hills produce, and there's no pretension. Just good food served by people who care about doing it right.",
+            "de": "Wenn ich zwischen den Dörfern wandere, ist Pippo, wo ich halte. Die gefüllte Focaccia ist substanziell genug für den Weg, der Wein ist, was die Hügel produzieren, und es gibt keine Prätention. Einfach gutes Essen, serviert von Menschen, denen es wichtig ist, es richtig zu machen.",
+            "fr": "Quand je randonne entre les villages, Pippo est où je m'arrête. La focaccia farcie est assez consistante pour le sentier, le vin est ce que les collines produisent, et il n'y a pas de prétention. Juste de la bonne nourriture servie par des gens qui se soucient de bien faire.",
+            "it": "Quando faccio escursioni tra i borghi, Pippo è dove mi fermo. La focaccia farcita è abbastanza sostanziosa per il sentiero, il vino è quello che producono le colline, e non c'è pretesa. Solo buon cibo servito da persone a cui importa farlo bene."
+          },
+          "signature": {
+            "en": "Casual done consciously",
+            "de": "Ungezwungen, aber bewusst",
+            "fr": "Décontracté fait consciemment",
+            "it": "Informale fatto consapevolmente"
+          },
           "priceRange": "$",
-          "practicalInfo": "Perfect for takeaway. The cod preparation is their secret weapon—ask for it.",
+          "practicalInfo": {
+            "en": "Perfect for takeaway. The cod preparation is their secret weapon—ask for it.",
+            "de": "Perfekt zum Mitnehmen. Die Kabeljau-Zubereitung ist ihre Geheimwaffe—fragen Sie danach.",
+            "fr": "Parfait pour l'emporter. La préparation de morue est leur arme secrète—demandez-la.",
+            "it": "Perfetto da asporto. La preparazione del baccalà è la loro arma segreta—chiedetela."
+          },
           "googleRating": 4.5,
           "tripadvisorRating": 4.4
         },
         {
           "id": 7,
-          "name": "Hambu",
-          "category": "Creative Casual",
+          "name": {
+            "en": "Hambu",
+            "de": "Hambu",
+            "fr": "Hambu",
+            "it": "Hambu"
+          },
+          "category": {
+            "en": "Creative Casual",
+            "de": "Kreativ Ungezwungen",
+            "fr": "Casual Créatif",
+            "it": "Casual Creativo"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Proof that even Vernazza's nonconformists can thrive—creative burgers and vegetarian options in a village dominated by fish.",
-          "description": "Hambu arrived recently and found its niche: creatively filled hamburgers, substantial sandwiches, and—crucially—vegetarian and vegan options that actually satisfy. The focaccias and bruschettas nod to tradition while the menu acknowledges that not everyone wants fish every meal.",
-          "giuliaComment": "I send my vegetarian friends here and they return grateful. In a village where every menu leads with anchovies, Hambu offers alternatives without apology. The burgers are genuinely good—which in Italy is a real accomplishment.",
-          "signature": "Different is welcome",
+          "intro": {
+            "en": "Proof that even Vernazza's nonconformists can thrive—creative burgers and vegetarian options in a village dominated by fish.",
+            "de": "Beweis, dass auch Vernazzas Nonkonformisten gedeihen können—kreative Burger und vegetarische Optionen in einem von Fisch dominierten Dorf.",
+            "fr": "La preuve que même les non-conformistes de Vernazza peuvent prospérer—burgers créatifs et options végétariennes dans un village dominé par le poisson.",
+            "it": "La prova che anche i non conformisti di Vernazza possono prosperare—burger creativi e opzioni vegetariane in un borgo dominato dal pesce."
+          },
+          "description": {
+            "en": "Hambu arrived recently and found its niche: creatively filled hamburgers, substantial sandwiches, and—crucially—vegetarian and vegan options that actually satisfy. The focaccias and bruschettas nod to tradition while the menu acknowledges that not everyone wants fish every meal.",
+            "de": "Hambu kam kürzlich an und fand seine Nische: kreativ gefüllte Hamburger, substanzielle Sandwiches und—entscheidend—vegetarische und vegane Optionen, die tatsächlich sättigen. Die Focaccias und Bruschettas verneigen sich vor der Tradition, während die Speisekarte anerkennt, dass nicht jeder bei jeder Mahlzeit Fisch möchte.",
+            "fr": "Hambu est arrivé récemment et a trouvé sa niche : hamburgers garnis de façon créative, sandwichs consistants, et—crucialement—options végétariennes et véganes qui satisfont vraiment. Les focaccias et bruschettas font un clin d'œil à la tradition tandis que le menu reconnaît que tout le monde ne veut pas du poisson à chaque repas.",
+            "it": "Hambu è arrivato di recente e ha trovato la sua nicchia: hamburger farciti creativamente, panini sostanziosi, e—crucialmente—opzioni vegetariane e vegane che soddisfano davvero. Le focacce e bruschette fanno un cenno alla tradizione mentre il menu riconosce che non tutti vogliono pesce ad ogni pasto."
+          },
+          "giuliaComment": {
+            "en": "I send my vegetarian friends here and they return grateful. In a village where every menu leads with anchovies, Hambu offers alternatives without apology. The burgers are genuinely good—which in Italy is a real accomplishment.",
+            "de": "Ich schicke meine vegetarischen Freunde hierher und sie kommen dankbar zurück. In einem Dorf, wo jede Speisekarte mit Sardellen beginnt, bietet Hambu Alternativen ohne Entschuldigung. Die Burger sind wirklich gut—was in Italien eine echte Leistung ist.",
+            "fr": "J'envoie mes amis végétariens ici et ils reviennent reconnaissants. Dans un village où chaque menu commence par des anchois, Hambu offre des alternatives sans excuses. Les burgers sont vraiment bons—ce qui en Italie est un vrai accomplissement.",
+            "it": "Mando i miei amici vegetariani qui e tornano grati. In un borgo dove ogni menu inizia con le acciughe, Hambu offre alternative senza scusarsi. I burger sono genuinamente buoni—che in Italia è un vero traguardo."
+          },
+          "signature": {
+            "en": "Different is welcome",
+            "de": "Anders sein ist willkommen",
+            "fr": "La différence est bienvenue",
+            "it": "Il diverso è benvenuto"
+          },
           "priceRange": "$",
-          "practicalInfo": "Good for groups with varied dietary needs. The harbor square location means easy access and people-watching.",
+          "practicalInfo": {
+            "en": "Good for groups with varied dietary needs. The harbor square location means easy access and people-watching.",
+            "de": "Gut für Gruppen mit unterschiedlichen Ernährungsbedürfnissen. Die Lage am Hafenplatz bedeutet einfachen Zugang und Leute-Beobachten.",
+            "fr": "Bon pour les groupes avec des besoins alimentaires variés. L'emplacement sur la place du port signifie accès facile et observation des passants.",
+            "it": "Buono per gruppi con esigenze alimentari varie. La posizione sulla piazza del porto significa accesso facile e osservazione della gente."
+          },
           "googleRating": 4.3,
           "tripadvisorRating": 4.2
         },
         {
           "id": 8,
-          "name": "Bar Al Castello",
-          "category": "Castle Viewpoint",
+          "name": {
+            "en": "Bar Al Castello",
+            "de": "Bar Al Castello",
+            "fr": "Bar Al Castello",
+            "it": "Bar Al Castello"
+          },
+          "category": {
+            "en": "Castle Viewpoint",
+            "de": "Burg-Aussichtspunkt",
+            "fr": "Point de Vue du Château",
+            "it": "Punto Panoramico del Castello"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Inside Vernazza's castle walls, simple refreshments with views that once cost defenders their lives.",
-          "description": "The climb to the castle is steep, but the bar at the top rewards the effort with views over the entire village and coast. The menu is simple—drinks, light fare, nothing elaborate—because the view is the point. Come for sunset, stay for the photographs, and accept that the stairs are part of the experience.",
-          "giuliaComment": "This isn't about the food—it's about drinking something cold while looking down at where you've been, or where you're going. The castle has watched over Vernazza for centuries; for a few euros, you can join the watch.",
-          "signature": "History pours the drinks",
+          "intro": {
+            "en": "Inside Vernazza's castle walls, simple refreshments with views that once cost defenders their lives.",
+            "de": "Innerhalb der Burgmauern von Vernazza, einfache Erfrischungen mit Aussichten, die Verteidiger einst das Leben kosteten.",
+            "fr": "À l'intérieur des murs du château de Vernazza, des rafraîchissements simples avec des vues qui ont autrefois coûté la vie aux défenseurs.",
+            "it": "Dentro le mura del castello di Vernazza, rinfreschi semplici con viste che un tempo costavano la vita ai difensori."
+          },
+          "description": {
+            "en": "The climb to the castle is steep, but the bar at the top rewards the effort with views over the entire village and coast. The menu is simple—drinks, light fare, nothing elaborate—because the view is the point. Come for sunset, stay for the photographs, and accept that the stairs are part of the experience.",
+            "de": "Der Aufstieg zur Burg ist steil, aber die Bar oben belohnt die Mühe mit Aussichten über das gesamte Dorf und die Küste. Die Speisekarte ist einfach—Getränke, leichte Kost, nichts Aufwendiges—weil die Aussicht der Sinn ist. Kommen Sie zum Sonnenuntergang, bleiben Sie für die Fotos und akzeptieren Sie, dass die Treppen Teil des Erlebnisses sind.",
+            "fr": "La montée au château est raide, mais le bar au sommet récompense l'effort avec des vues sur tout le village et la côte. Le menu est simple—boissons, cuisine légère, rien d'élaboré—parce que la vue est le but. Venez pour le coucher de soleil, restez pour les photos, et acceptez que les escaliers font partie de l'expérience.",
+            "it": "La salita al castello è ripida, ma il bar in cima ricompensa lo sforzo con viste su tutto il borgo e la costa. Il menu è semplice—bevande, piatti leggeri, niente di elaborato—perché la vista è il punto. Venite per il tramonto, restate per le foto, e accettate che le scale fanno parte dell'esperienza."
+          },
+          "giuliaComment": {
+            "en": "This isn't about the food—it's about drinking something cold while looking down at where you've been, or where you're going. The castle has watched over Vernazza for centuries; for a few euros, you can join the watch.",
+            "de": "Hier geht es nicht ums Essen—es geht darum, etwas Kaltes zu trinken, während Sie auf das hinunterblicken, wo Sie waren, oder wohin Sie gehen. Die Burg wacht seit Jahrhunderten über Vernazza; für ein paar Euro können Sie sich der Wache anschließen.",
+            "fr": "Ce n'est pas une question de nourriture—c'est boire quelque chose de froid en regardant d'où vous venez, ou où vous allez. Le château veille sur Vernazza depuis des siècles ; pour quelques euros, vous pouvez rejoindre la garde.",
+            "it": "Non si tratta del cibo—si tratta di bere qualcosa di freddo guardando giù dove siete stati, o dove state andando. Il castello sorveglia Vernazza da secoli; per pochi euro, potete unirvi alla guardia."
+          },
+          "signature": {
+            "en": "History pours the drinks",
+            "de": "Die Geschichte schenkt die Getränke ein",
+            "fr": "L'histoire sert les boissons",
+            "it": "La storia versa le bevande"
+          },
           "priceRange": "$",
-          "practicalInfo": "Bring comfortable shoes. The climb is real. Stay for sunset—the light on the village below is extraordinary.",
+          "practicalInfo": {
+            "en": "Bring comfortable shoes. The climb is real. Stay for sunset—the light on the village below is extraordinary.",
+            "de": "Bringen Sie bequeme Schuhe. Der Aufstieg ist real. Bleiben Sie zum Sonnenuntergang—das Licht auf dem Dorf unten ist außergewöhnlich.",
+            "fr": "Apportez des chaussures confortables. La montée est réelle. Restez pour le coucher de soleil—la lumière sur le village en contrebas est extraordinaire.",
+            "it": "Portate scarpe comode. La salita è reale. Restate per il tramonto—la luce sul borgo sotto è straordinaria."
+          },
           "googleRating": 4.5,
           "tripadvisorRating": 4.4
         }
@@ -193,23 +572,88 @@
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Aperitivo Imperative",
-          "quote": "Between afternoon and dinner lies the aperitivo hour—and Vernazza takes it seriously. Find a harbor-side seat around 6pm, order a Spritz or a glass of local white, and watch the village transition. Fishermen return, tourists climb to dinner, the light turns gold. This hour is not delay; it is the point."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Aperitivo Imperative",
+            "de": "Das Aperitivo-Gebot",
+            "fr": "L'Impératif de l'Aperitivo",
+            "it": "L'Imperativo dell'Aperitivo"
+          },
+          "quote": {
+            "en": "Between afternoon and dinner lies the aperitivo hour—and Vernazza takes it seriously. Find a harbor-side seat around 6pm, order a Spritz or a glass of local white, and watch the village transition. Fishermen return, tourists climb to dinner, the light turns gold. This hour is not delay; it is the point.",
+            "de": "Zwischen Nachmittag und Abendessen liegt die Aperitivo-Stunde—und Vernazza nimmt sie ernst. Finden Sie gegen 18 Uhr einen Platz am Hafen, bestellen Sie einen Spritz oder ein Glas lokalen Weißwein und beobachten Sie den Übergang des Dorfes. Fischer kehren zurück, Touristen steigen zum Abendessen hoch, das Licht wird golden. Diese Stunde ist keine Verzögerung; sie ist der Sinn.",
+            "fr": "Entre l'après-midi et le dîner se trouve l'heure de l'aperitivo—et Vernazza la prend au sérieux. Trouvez une place côté port vers 18h, commandez un Spritz ou un verre de blanc local, et regardez le village en transition. Les pêcheurs reviennent, les touristes montent dîner, la lumière devient dorée. Cette heure n'est pas un délai ; c'est le but.",
+            "it": "Tra il pomeriggio e la cena c'è l'ora dell'aperitivo—e Vernazza la prende sul serio. Trovate un posto sul porto verso le 18, ordinate uno Spritz o un bicchiere di bianco locale, e guardate il borgo in transizione. I pescatori tornano, i turisti salgono a cena, la luce diventa dorata. Quest'ora non è ritardo; è il punto."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Harbor Provides",
-      "content": [
-        "Vernazza's restaurants share a kitchen staff of fishermen, a wine cellar of terraced hillsides, and a dining room of medieval architecture. What separates them is generations of knowledge about what to do with these gifts.",
-        "Climb to the towers or stay at the harbor. Reserve the sunset table or take your chances. Order the daily catch or trust the tegame. However you approach it, the harbor will provide.",
-        "The best meal in Vernazza is the one that matches your moment. Sometimes that's a fifty-year-old tower with tablecloths; sometimes it's focaccia on the rocks while the boats come in."
-      ],
+      "title": {
+        "en": "The Harbor Provides",
+        "de": "Der Hafen versorgt",
+        "fr": "Le Port Pourvoit",
+        "it": "Il Porto Provvede"
+      },
+      "content": {
+        "en": [
+          "Vernazza's restaurants share a kitchen staff of fishermen, a wine cellar of terraced hillsides, and a dining room of medieval architecture. What separates them is generations of knowledge about what to do with these gifts.",
+          "Climb to the towers or stay at the harbor. Reserve the sunset table or take your chances. Order the daily catch or trust the tegame. However you approach it, the harbor will provide.",
+          "The best meal in Vernazza is the one that matches your moment. Sometimes that's a fifty-year-old tower with tablecloths; sometimes it's focaccia on the rocks while the boats come in."
+        ],
+        "de": [
+          "Vernazzas Restaurants teilen sich ein Küchenpersonal aus Fischern, einen Weinkeller aus terrassierten Hängen und einen Speisesaal aus mittelalterlicher Architektur. Was sie unterscheidet, sind Generationen von Wissen darüber, was mit diesen Gaben zu tun ist.",
+          "Steigen Sie zu den Türmen hinauf oder bleiben Sie am Hafen. Reservieren Sie den Sonnenuntergangstisch oder nehmen Sie Ihre Chancen wahr. Bestellen Sie den Tagesfang oder vertrauen Sie dem Tegame. Wie auch immer Sie es angehen, der Hafen wird versorgen.",
+          "Die beste Mahlzeit in Vernazza ist die, die zu Ihrem Moment passt. Manchmal ist das ein fünfzig Jahre alter Turm mit Tischdecken; manchmal ist es Focaccia auf den Felsen, während die Boote reinkommen."
+        ],
+        "fr": [
+          "Les restaurants de Vernazza partagent un personnel de cuisine composé de pêcheurs, une cave à vin de coteaux en terrasses, et une salle à manger d'architecture médiévale. Ce qui les sépare, ce sont des générations de savoir sur ce qu'il faut faire de ces dons.",
+          "Grimpez aux tours ou restez au port. Réservez la table du coucher de soleil ou tentez votre chance. Commandez la prise du jour ou faites confiance au tegame. Quelle que soit votre approche, le port pourvoira.",
+          "Le meilleur repas à Vernazza est celui qui correspond à votre moment. Parfois c'est une tour de cinquante ans avec des nappes ; parfois c'est une focaccia sur les rochers pendant que les bateaux rentrent."
+        ],
+        "it": [
+          "I ristoranti di Vernazza condividono uno staff di cucina di pescatori, una cantina di pendii terrazzati, e una sala da pranzo di architettura medievale. Ciò che li separa sono generazioni di sapere su cosa fare con questi doni.",
+          "Salite alle torri o restate al porto. Prenotate il tavolo del tramonto o tentate la fortuna. Ordinate il pescato del giorno o fidatevi del tegame. Comunque lo affrontiate, il porto provvederà.",
+          "Il miglior pasto a Vernazza è quello che corrisponde al vostro momento. A volte è una torre di cinquant'anni con tovaglie; a volte è focaccia sugli scogli mentre le barche rientrano."
+        ]
+      },
       "buttons": [
-        { "text": "Plan Your Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
-        { "text": "Explore the Village", "url": "/en/vernazza", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Plan Your Stay",
+            "de": "Planen Sie Ihren Aufenthalt",
+            "fr": "Planifiez Votre Séjour",
+            "it": "Pianifica il Tuo Soggiorno"
+          },
+          "url": {
+            "en": "/en/vernazza/hotels",
+            "de": "/de/vernazza/hotels",
+            "fr": "/fr/vernazza/hotels",
+            "it": "/it/vernazza/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Explore the Village",
+            "de": "Erkunden Sie das Dorf",
+            "fr": "Explorez le Village",
+            "it": "Esplora il Borgo"
+          },
+          "url": {
+            "en": "/en/vernazza",
+            "de": "/de/vernazza",
+            "fr": "/fr/vernazza",
+            "it": "/it/vernazza"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -219,5 +663,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T10:00:00.000Z"
+  "updated_at": "2026-01-07T21:30:00.000Z"
 }

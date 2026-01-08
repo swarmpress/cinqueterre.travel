@@ -7,36 +7,90 @@
     "it": "/it/vernazza/weather"
   },
   "title": {
-    "en": "Weather in Vernazza | Cinque Terre Dispatch"
+    "en": "Weather in Vernazza | Cinque Terre Dispatch",
+    "de": "Wetter in Vernazza | Cinque Terre Dispatch",
+    "fr": "Météo à Vernazza | Cinque Terre Dispatch",
+    "it": "Meteo a Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Weather in Vernazza | Cinque Terre Dispatch"
+      "en": "Weather in Vernazza | Cinque Terre Dispatch",
+      "de": "Wetter in Vernazza | Cinque Terre Dispatch",
+      "fr": "Météo à Vernazza | Cinque Terre Dispatch",
+      "it": "Meteo a Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Vernazza's weather shapes the harbor's mood: summer crowds and sunset gatherings, autumn harvests, winter storms crashing against medieval walls, spring wildflowers above. Each season brings a different village."
+      "en": "Vernazza's weather shapes the harbor's mood: summer crowds and sunset gatherings, autumn harvests, winter storms crashing against medieval walls, spring wildflowers above. Each season brings a different village.",
+      "de": "Vernazzas Wetter prägt die Stimmung des Hafens: Sommermengen und Sonnenuntergangs-Treffen, Herbsternten, Winterstürme, die gegen mittelalterliche Mauern schlagen, Frühlingsblumen darüber. Jede Jahreszeit bringt ein anderes Dorf.",
+      "fr": "Le temps de Vernazza façonne l'humeur du port : foules d'été et rassemblements au coucher du soleil, vendanges d'automne, tempêtes d'hiver s'écrasant contre les murs médiévaux, fleurs sauvages printanières au-dessus. Chaque saison apporte un village différent.",
+      "it": "Il meteo di Vernazza plasma l'umore del porto: folle estive e ritrovi al tramonto, vendemmie autunnali, tempeste invernali che si infrangono contro muri medievali, fiori di campo primaverili sopra. Ogni stagione porta un borgo diverso."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Harbor's<br/>Moods",
-      "subtitle": "Vernazza's natural harbor makes the village unique among the five. It also makes the weather more visible—you see it in the water's color, the boats' movements, the way people gather or scatter on the breakwater.",
-      "badge": "Weather & Seasons",
+      "title": {
+        "en": "The Harbor's<br/>Moods",
+        "de": "Die Stimmungen<br/>des Hafens",
+        "fr": "Les Humeurs<br/>du Port",
+        "it": "Gli Umori<br/>del Porto"
+      },
+      "subtitle": {
+        "en": "Vernazza's natural harbor makes the village unique among the five. It also makes the weather more visible—you see it in the water's color, the boats' movements, the way people gather or scatter on the breakwater.",
+        "de": "Vernazzas natürlicher Hafen macht das Dorf einzigartig unter den fünf. Er macht das Wetter auch sichtbarer—man sieht es in der Farbe des Wassers, den Bewegungen der Boote, der Art, wie Menschen sich auf der Mole versammeln oder zerstreuen.",
+        "fr": "Le port naturel de Vernazza rend le village unique parmi les cinq. Il rend aussi le temps plus visible—vous le voyez dans la couleur de l'eau, les mouvements des bateaux, la façon dont les gens se rassemblent ou se dispersent sur le brise-lames.",
+        "it": "Il porto naturale di Vernazza rende il borgo unico tra i cinque. Rende anche il tempo più visibile—lo vedete nel colore dell'acqua, nei movimenti delle barche, nel modo in cui le persone si radunano o si disperdono sul molo."
+      },
+      "badge": {
+        "en": "Weather & Seasons",
+        "de": "Wetter & Jahreszeiten",
+        "fr": "Météo & Saisons",
+        "it": "Meteo & Stagioni"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Mediterranean Rhythm",
-      "quote": "In Vernazza, weather isn't something you check on a phone. You read it in the harbor—in the color of the water, the direction of the wind, whether the fishermen are launching boats or keeping them beached.",
-      "content": [
-        "**The harbor reveals everything**. When the water is turquoise and glass-calm, the day will be hot and the breakwater will fill by evening. When it turns gray-green and choppy, weather is coming.",
-        "**Summer is the default season** for most visitors—and for good reason. Long days, warm water, crowded piazzas. But Vernazza has four seasons, each with its own character and rewards.",
-        "**The microclimate is real**. The natural harbor creates protection from wind that neighboring villages lack. The tower catches breezes the piazza misses. The terraces above are cooler than the waterfront below.",
-        "**Weather determines the village rhythm**. Summer heat empties the streets at noon; evening fills them again. Autumn rains send everyone indoors; the next clear morning feels like a gift. Understanding this rhythm is understanding Vernazza."
-      ]
+      "badge": {
+        "en": "The Mediterranean Rhythm",
+        "de": "Der mediterrane Rhythmus",
+        "fr": "Le Rythme Méditerranéen",
+        "it": "Il Ritmo Mediterraneo"
+      },
+      "quote": {
+        "en": "In Vernazza, weather isn't something you check on a phone. You read it in the harbor—in the color of the water, the direction of the wind, whether the fishermen are launching boats or keeping them beached.",
+        "de": "In Vernazza ist das Wetter nicht etwas, das man auf dem Handy überprüft. Man liest es im Hafen—in der Farbe des Wassers, der Windrichtung, ob die Fischer Boote auslaufen lassen oder sie am Strand halten.",
+        "fr": "À Vernazza, la météo n'est pas quelque chose qu'on consulte sur un téléphone. On la lit dans le port—dans la couleur de l'eau, la direction du vent, si les pêcheurs lancent leurs bateaux ou les gardent échoués.",
+        "it": "A Vernazza, il tempo non è qualcosa che si controlla sul telefono. Si legge nel porto—nel colore dell'acqua, nella direzione del vento, se i pescatori stanno lanciando le barche o le tengono in secca."
+      },
+      "content": {
+        "en": [
+          "**The harbor reveals everything**. When the water is turquoise and glass-calm, the day will be hot and the breakwater will fill by evening. When it turns gray-green and choppy, weather is coming.",
+          "**Summer is the default season** for most visitors—and for good reason. Long days, warm water, crowded piazzas. But Vernazza has four seasons, each with its own character and rewards.",
+          "**The microclimate is real**. The natural harbor creates protection from wind that neighboring villages lack. The tower catches breezes the piazza misses. The terraces above are cooler than the waterfront below.",
+          "**Weather determines the village rhythm**. Summer heat empties the streets at noon; evening fills them again. Autumn rains send everyone indoors; the next clear morning feels like a gift. Understanding this rhythm is understanding Vernazza."
+        ],
+        "de": [
+          "**Der Hafen enthüllt alles**. Wenn das Wasser türkis und spiegelglatt ist, wird der Tag heiß und die Mole füllt sich bis zum Abend. Wenn es graugrün und unruhig wird, kommt Wetter.",
+          "**Der Sommer ist die Standardsaison** für die meisten Besucher—und aus gutem Grund. Lange Tage, warmes Wasser, überfüllte Piazzas. Aber Vernazza hat vier Jahreszeiten, jede mit ihrem eigenen Charakter und Belohnungen.",
+          "**Das Mikroklima ist real**. Der natürliche Hafen schafft Schutz vor Wind, den die Nachbardörfer nicht haben. Der Turm fängt Brisen, die die Piazza verpasst. Die Terrassen oben sind kühler als die Uferpromenade unten.",
+          "**Das Wetter bestimmt den Dorfrhythmus**. Sommerhitze leert die Straßen mittags; der Abend füllt sie wieder. Herbstregen schickt alle nach drinnen; der nächste klare Morgen fühlt sich wie ein Geschenk an. Diesen Rhythmus zu verstehen bedeutet, Vernazza zu verstehen."
+        ],
+        "fr": [
+          "**Le port révèle tout**. Quand l'eau est turquoise et calme comme un miroir, la journée sera chaude et le brise-lames se remplira le soir. Quand elle devient gris-vert et agitée, le temps arrive.",
+          "**L'été est la saison par défaut** pour la plupart des visiteurs—et pour de bonnes raisons. Longues journées, eau chaude, piazzas bondées. Mais Vernazza a quatre saisons, chacune avec son propre caractère et ses récompenses.",
+          "**Le microclimat est réel**. Le port naturel crée une protection contre le vent que les villages voisins n'ont pas. La tour attrape les brises que la piazza manque. Les terrasses au-dessus sont plus fraîches que le front de mer en contrebas.",
+          "**Le temps détermine le rythme du village**. La chaleur estivale vide les rues à midi ; le soir les remplit à nouveau. Les pluies d'automne envoient tout le monde à l'intérieur ; le prochain matin clair ressemble à un cadeau. Comprendre ce rythme, c'est comprendre Vernazza."
+        ],
+        "it": [
+          "**Il porto rivela tutto**. Quando l'acqua è turchese e calma come uno specchio, la giornata sarà calda e il molo si riempirà entro sera. Quando diventa grigio-verde e agitata, sta arrivando il tempo.",
+          "**L'estate è la stagione predefinita** per la maggior parte dei visitatori—e per buone ragioni. Giornate lunghe, acqua calda, piazze affollate. Ma Vernazza ha quattro stagioni, ognuna con il proprio carattere e ricompense.",
+          "**Il microclima è reale**. Il porto naturale crea protezione dal vento che i borghi vicini non hanno. La torre cattura le brezze che la piazza perde. Le terrazze sopra sono più fresche del lungomare sotto.",
+          "**Il tempo determina il ritmo del borgo**. Il caldo estivo svuota le strade a mezzogiorno; la sera le riempie di nuovo. Le piogge autunnali mandano tutti dentro; la prossima mattina serena sembra un regalo. Capire questo ritmo è capire Vernazza."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,73 +98,258 @@
       "items": [
         {
           "id": 1,
-          "name": "Summer (June-August)",
-          "category": "Peak Season",
+          "name": {
+            "en": "Summer (June-August)",
+            "de": "Sommer (Juni-August)",
+            "fr": "Été (Juin-Août)",
+            "it": "Estate (Giugno-Agosto)"
+          },
+          "category": {
+            "en": "Peak Season",
+            "de": "Hochsaison",
+            "fr": "Haute Saison",
+            "it": "Alta Stagione"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When Vernazza becomes what the postcards promise—sun-drenched, crowded, spectacular.",
-          "description": "Temperatures stay between 25-28°C, moderated by sea breezes that make the heat bearable. Days stretch past 9pm, filling the breakwater with sunset gatherers. The water reaches swimming temperature by late June and stays warm through September.",
-          "giuliaComment": "Summer is when everyone comes. I understand—the weather is extraordinary. But the village is transformed. Come early, stay late, swim when the beach empties for lunch, and embrace the crowds as part of the experience.",
-          "signature": "The season that launched a thousand photographs",
-          "practicalInfo": "Book restaurants weeks ahead for dinner. Swim before 10am or after 5pm to avoid crowds. Carry water always. The church offers cool refuge at noon."
+          "intro": {
+            "en": "When Vernazza becomes what the postcards promise—sun-drenched, crowded, spectacular.",
+            "de": "Wenn Vernazza das wird, was die Postkarten versprechen—sonnendurchflutet, überfüllt, spektakulär.",
+            "fr": "Quand Vernazza devient ce que les cartes postales promettent—baigné de soleil, bondé, spectaculaire.",
+            "it": "Quando Vernazza diventa ciò che le cartoline promettono—baciata dal sole, affollata, spettacolare."
+          },
+          "description": {
+            "en": "Temperatures stay between 25-28°C, moderated by sea breezes that make the heat bearable. Days stretch past 9pm, filling the breakwater with sunset gatherers. The water reaches swimming temperature by late June and stays warm through September.",
+            "de": "Temperaturen bleiben zwischen 25-28°C, gemäßigt durch Meeresbrisen, die die Hitze erträglich machen. Die Tage reichen bis nach 21 Uhr und füllen die Mole mit Sonnenuntergangs-Versammlungen. Das Wasser erreicht Schwimmtemperatur Ende Juni und bleibt bis September warm.",
+            "fr": "Les températures restent entre 25-28°C, modérées par les brises marines qui rendent la chaleur supportable. Les journées s'étirent au-delà de 21h, remplissant le brise-lames de rassemblements au coucher du soleil. L'eau atteint la température de baignade fin juin et reste chaude jusqu'en septembre.",
+            "it": "Le temperature restano tra 25-28°C, moderate dalle brezze marine che rendono il caldo sopportabile. Le giornate si allungano oltre le 21, riempiendo il molo di ritrovi al tramonto. L'acqua raggiunge la temperatura per nuotare a fine giugno e resta calda fino a settembre."
+          },
+          "giuliaComment": {
+            "en": "Summer is when everyone comes. I understand—the weather is extraordinary. But the village is transformed. Come early, stay late, swim when the beach empties for lunch, and embrace the crowds as part of the experience.",
+            "de": "Der Sommer ist, wenn alle kommen. Ich verstehe—das Wetter ist außergewöhnlich. Aber das Dorf verwandelt sich. Kommen Sie früh, bleiben Sie lange, schwimmen Sie, wenn der Strand zum Mittagessen leer wird, und nehmen Sie die Menschenmassen als Teil des Erlebnisses an.",
+            "fr": "L'été c'est quand tout le monde vient. Je comprends—le temps est extraordinaire. Mais le village est transformé. Venez tôt, restez tard, nagez quand la plage se vide pour le déjeuner, et acceptez les foules comme partie de l'expérience.",
+            "it": "L'estate è quando vengono tutti. Capisco—il tempo è straordinario. Ma il borgo si trasforma. Venite presto, restate tardi, nuotate quando la spiaggia si svuota per pranzo, e abbracciate la folla come parte dell'esperienza."
+          },
+          "signature": {
+            "en": "The season that launched a thousand photographs",
+            "de": "Die Jahreszeit, die tausend Fotos hervorbrachte",
+            "fr": "La saison qui a lancé mille photographies",
+            "it": "La stagione che ha lanciato mille fotografie"
+          },
+          "practicalInfo": {
+            "en": "Book restaurants weeks ahead for dinner. Swim before 10am or after 5pm to avoid crowds. Carry water always. The church offers cool refuge at noon.",
+            "de": "Buchen Sie Restaurants Wochen im Voraus für das Abendessen. Schwimmen Sie vor 10 Uhr oder nach 17 Uhr, um Menschenmassen zu vermeiden. Tragen Sie immer Wasser bei sich. Die Kirche bietet kühle Zuflucht mittags.",
+            "fr": "Réservez les restaurants des semaines à l'avance pour le dîner. Nagez avant 10h ou après 17h pour éviter les foules. Portez toujours de l'eau. L'église offre un refuge frais à midi.",
+            "it": "Prenotate i ristoranti settimane prima per cena. Nuotate prima delle 10 o dopo le 17 per evitare la folla. Portate sempre acqua. La chiesa offre rifugio fresco a mezzogiorno."
+          }
         },
         {
           "id": 2,
-          "name": "Autumn (September-November)",
-          "category": "Harvest Season",
+          "name": {
+            "en": "Autumn (September-November)",
+            "de": "Herbst (September-November)",
+            "fr": "Automne (Septembre-Novembre)",
+            "it": "Autunno (Settembre-Novembre)"
+          },
+          "category": {
+            "en": "Harvest Season",
+            "de": "Erntezeit",
+            "fr": "Saison des Vendanges",
+            "it": "Stagione della Vendemmia"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the grapes come down from the terraces and the village breathes again.",
-          "description": "September holds summer's warmth (22-25°C) without summer's crowds. October brings the grape harvest, cooler mornings (18-22°C), and the light that photographers dream about. November can be rainy but rewards with dramatic skies and authentic village life.",
-          "giuliaComment": "September is my secret. The water is still warm, the trails are perfect for hiking, and you can actually get a restaurant table. By November, you'll have the village nearly to yourself.",
-          "signature": "The season Vernazza belongs to itself again",
-          "practicalInfo": "September: still summer, fewer crowds. October: bring layers, expect harvest festivals. November: pack rain gear, check restaurant hours."
+          "intro": {
+            "en": "When the grapes come down from the terraces and the village breathes again.",
+            "de": "Wenn die Trauben von den Terrassen kommen und das Dorf wieder atmet.",
+            "fr": "Quand les raisins descendent des terrasses et que le village respire à nouveau.",
+            "it": "Quando l'uva scende dalle terrazze e il borgo respira di nuovo."
+          },
+          "description": {
+            "en": "September holds summer's warmth (22-25°C) without summer's crowds. October brings the grape harvest, cooler mornings (18-22°C), and the light that photographers dream about. November can be rainy but rewards with dramatic skies and authentic village life.",
+            "de": "September hält die Sommerwärme (22-25°C) ohne die Sommermengen. Oktober bringt die Weinlese, kühlere Morgen (18-22°C) und das Licht, von dem Fotografen träumen. November kann regnerisch sein, belohnt aber mit dramatischen Himmeln und authentischem Dorfleben.",
+            "fr": "Septembre garde la chaleur de l'été (22-25°C) sans les foules estivales. Octobre apporte les vendanges, des matins plus frais (18-22°C), et la lumière dont rêvent les photographes. Novembre peut être pluvieux mais récompense avec des ciels dramatiques et la vie de village authentique.",
+            "it": "Settembre mantiene il calore estivo (22-25°C) senza le folle estive. Ottobre porta la vendemmia, mattine più fresche (18-22°C), e la luce che i fotografi sognano. Novembre può essere piovoso ma ricompensa con cieli drammatici e vita di borgo autentica."
+          },
+          "giuliaComment": {
+            "en": "September is my secret. The water is still warm, the trails are perfect for hiking, and you can actually get a restaurant table. By November, you'll have the village nearly to yourself.",
+            "de": "September ist mein Geheimnis. Das Wasser ist noch warm, die Wege sind perfekt zum Wandern, und Sie können tatsächlich einen Restauranttisch bekommen. Im November haben Sie das Dorf fast für sich.",
+            "fr": "Septembre est mon secret. L'eau est encore chaude, les sentiers sont parfaits pour la randonnée, et vous pouvez vraiment avoir une table au restaurant. En novembre, vous aurez le village presque pour vous.",
+            "it": "Settembre è il mio segreto. L'acqua è ancora calda, i sentieri sono perfetti per le escursioni, e potete davvero ottenere un tavolo al ristorante. A novembre, avrete il borgo quasi per voi."
+          },
+          "signature": {
+            "en": "The season Vernazza belongs to itself again",
+            "de": "Die Jahreszeit, in der Vernazza wieder sich selbst gehört",
+            "fr": "La saison où Vernazza s'appartient à nouveau",
+            "it": "La stagione in cui Vernazza appartiene di nuovo a se stessa"
+          },
+          "practicalInfo": {
+            "en": "September: still summer, fewer crowds. October: bring layers, expect harvest festivals. November: pack rain gear, check restaurant hours.",
+            "de": "September: noch Sommer, weniger Menschenmassen. Oktober: bringen Sie Schichten, erwarten Sie Erntefeste. November: packen Sie Regenausrüstung, prüfen Sie Restaurantzeiten.",
+            "fr": "Septembre : encore l'été, moins de foules. Octobre : apportez des couches, attendez-vous aux fêtes des vendanges. Novembre : emportez des vêtements de pluie, vérifiez les horaires des restaurants.",
+            "it": "Settembre: ancora estate, meno folla. Ottobre: portate strati, aspettatevi feste della vendemmia. Novembre: portate abbigliamento antipioggia, controllate gli orari dei ristoranti."
+          }
         },
         {
           "id": 3,
-          "name": "Winter (December-February)",
-          "category": "Quiet Season",
+          "name": {
+            "en": "Winter (December-February)",
+            "de": "Winter (Dezember-Februar)",
+            "fr": "Hiver (Décembre-Février)",
+            "it": "Inverno (Dicembre-Febbraio)"
+          },
+          "category": {
+            "en": "Quiet Season",
+            "de": "Ruhige Saison",
+            "fr": "Saison Tranquille",
+            "it": "Stagione Tranquilla"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When storms crash against the breakwater and the village shows its private face.",
-          "description": "Temperatures of 8-13°C feel colder in the damp sea air. Many restaurants and guesthouses close. But clear winter days bring extraordinary light, and the storms—when they come—create drama that summer never offers.",
-          "giuliaComment": "Winter Vernazza is for those who understand quiet. The Natale Subacqueo in December is extraordinary. The rest of winter is reading, cooking, watching the sea, and remembering why we live here.",
-          "signature": "The village without its audience",
-          "practicalInfo": "Check accommodation availability—many close. Underwater Christmas is December 24th. Bring waterproof layers. The train runs year-round."
+          "intro": {
+            "en": "When storms crash against the breakwater and the village shows its private face.",
+            "de": "Wenn Stürme gegen die Mole schlagen und das Dorf sein privates Gesicht zeigt.",
+            "fr": "Quand les tempêtes s'écrasent contre le brise-lames et que le village montre son visage privé.",
+            "it": "Quando le tempeste si infrangono contro il molo e il borgo mostra il suo volto privato."
+          },
+          "description": {
+            "en": "Temperatures of 8-13°C feel colder in the damp sea air. Many restaurants and guesthouses close. But clear winter days bring extraordinary light, and the storms—when they come—create drama that summer never offers.",
+            "de": "Temperaturen von 8-13°C fühlen sich in der feuchten Meeresluft kälter an. Viele Restaurants und Pensionen schließen. Aber klare Wintertage bringen außergewöhnliches Licht, und die Stürme—wenn sie kommen—schaffen Drama, das der Sommer nie bietet.",
+            "fr": "Des températures de 8-13°C semblent plus froides dans l'air marin humide. Beaucoup de restaurants et maisons d'hôtes ferment. Mais les journées d'hiver claires apportent une lumière extraordinaire, et les tempêtes—quand elles arrivent—créent un drame que l'été n'offre jamais.",
+            "it": "Temperature di 8-13°C sembrano più fredde nell'aria marina umida. Molti ristoranti e pensioni chiudono. Ma le giornate invernali serene portano luce straordinaria, e le tempeste—quando arrivano—creano dramma che l'estate non offre mai."
+          },
+          "giuliaComment": {
+            "en": "Winter Vernazza is for those who understand quiet. The Natale Subacqueo in December is extraordinary. The rest of winter is reading, cooking, watching the sea, and remembering why we live here.",
+            "de": "Winter-Vernazza ist für diejenigen, die Ruhe verstehen. Das Natale Subacqueo im Dezember ist außergewöhnlich. Der Rest des Winters ist Lesen, Kochen, aufs Meer schauen und sich erinnern, warum wir hier leben.",
+            "fr": "Vernazza en hiver est pour ceux qui comprennent le calme. Le Natale Subacqueo en décembre est extraordinaire. Le reste de l'hiver c'est lire, cuisiner, regarder la mer, et se souvenir pourquoi nous vivons ici.",
+            "it": "Vernazza d'inverno è per chi capisce la quiete. Il Natale Subacqueo a dicembre è straordinario. Il resto dell'inverno è leggere, cucinare, guardare il mare, e ricordare perché viviamo qui."
+          },
+          "signature": {
+            "en": "The village without its audience",
+            "de": "Das Dorf ohne sein Publikum",
+            "fr": "Le village sans son public",
+            "it": "Il borgo senza il suo pubblico"
+          },
+          "practicalInfo": {
+            "en": "Check accommodation availability—many close. Underwater Christmas is December 24th. Bring waterproof layers. The train runs year-round.",
+            "de": "Prüfen Sie die Verfügbarkeit von Unterkünften—viele schließen. Das Unterwasser-Weihnachten ist am 24. Dezember. Bringen Sie wasserfeste Schichten. Der Zug fährt ganzjährig.",
+            "fr": "Vérifiez la disponibilité des hébergements—beaucoup ferment. Le Noël sous-marin est le 24 décembre. Apportez des couches imperméables. Le train circule toute l'année.",
+            "it": "Controllate la disponibilità degli alloggi—molti chiudono. Il Natale Subacqueo è il 24 dicembre. Portate strati impermeabili. Il treno funziona tutto l'anno."
+          }
         },
         {
           "id": 4,
-          "name": "Spring (March-May)",
-          "category": "Awakening Season",
+          "name": {
+            "en": "Spring (March-May)",
+            "de": "Frühling (März-Mai)",
+            "fr": "Printemps (Mars-Mai)",
+            "it": "Primavera (Marzo-Maggio)"
+          },
+          "category": {
+            "en": "Awakening Season",
+            "de": "Erwachende Saison",
+            "fr": "Saison de l'Éveil",
+            "it": "Stagione del Risveglio"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the terraces bloom and the village shakes off winter's quiet.",
-          "description": "March begins cool (15°C) and sometimes rainy, but April and May bring ideal conditions: temperatures climbing to 20°C, wildflowers on the hiking trails, restaurants reopening, and the energy returning before the crowds arrive.",
-          "giuliaComment": "May is perfect. The weather is ideal for hiking, the harbor is calm, and you can eat dinner without a reservation made weeks ago. If you can choose your timing, choose late May.",
-          "signature": "When everything begins again",
-          "practicalInfo": "March-April: layers essential, rain possible. May: near-perfect conditions, book ahead for weekends. Easter can be crowded."
+          "intro": {
+            "en": "When the terraces bloom and the village shakes off winter's quiet.",
+            "de": "Wenn die Terrassen blühen und das Dorf die Winterruhe abschüttelt.",
+            "fr": "Quand les terrasses fleurissent et que le village secoue le calme de l'hiver.",
+            "it": "Quando le terrazze fioriscono e il borgo scuote la quiete invernale."
+          },
+          "description": {
+            "en": "March begins cool (15°C) and sometimes rainy, but April and May bring ideal conditions: temperatures climbing to 20°C, wildflowers on the hiking trails, restaurants reopening, and the energy returning before the crowds arrive.",
+            "de": "März beginnt kühl (15°C) und manchmal regnerisch, aber April und Mai bringen ideale Bedingungen: Temperaturen steigen auf 20°C, Wildblumen auf den Wanderwegen, Restaurants öffnen wieder, und die Energie kehrt zurück, bevor die Menschenmassen ankommen.",
+            "fr": "Mars commence frais (15°C) et parfois pluvieux, mais avril et mai apportent des conditions idéales : températures montant à 20°C, fleurs sauvages sur les sentiers de randonnée, restaurants qui rouvrent, et l'énergie qui revient avant l'arrivée des foules.",
+            "it": "Marzo inizia fresco (15°C) e a volte piovoso, ma aprile e maggio portano condizioni ideali: temperature che salgono a 20°C, fiori selvatici sui sentieri escursionistici, ristoranti che riaprono, e l'energia che torna prima che arrivino le folle."
+          },
+          "giuliaComment": {
+            "en": "May is perfect. The weather is ideal for hiking, the harbor is calm, and you can eat dinner without a reservation made weeks ago. If you can choose your timing, choose late May.",
+            "de": "Mai ist perfekt. Das Wetter ist ideal zum Wandern, der Hafen ist ruhig, und Sie können zu Abend essen, ohne eine Reservierung von vor Wochen. Wenn Sie Ihre Zeit wählen können, wählen Sie Ende Mai.",
+            "fr": "Mai est parfait. Le temps est idéal pour la randonnée, le port est calme, et vous pouvez dîner sans une réservation faite des semaines avant. Si vous pouvez choisir votre timing, choisissez fin mai.",
+            "it": "Maggio è perfetto. Il tempo è ideale per le escursioni, il porto è calmo, e potete cenare senza una prenotazione fatta settimane fa. Se potete scegliere il vostro momento, scegliete fine maggio."
+          },
+          "signature": {
+            "en": "When everything begins again",
+            "de": "Wenn alles wieder beginnt",
+            "fr": "Quand tout recommence",
+            "it": "Quando tutto ricomincia"
+          },
+          "practicalInfo": {
+            "en": "March-April: layers essential, rain possible. May: near-perfect conditions, book ahead for weekends. Easter can be crowded.",
+            "de": "März-April: Schichten unverzichtbar, Regen möglich. Mai: nahezu perfekte Bedingungen, buchen Sie für Wochenenden im Voraus. Ostern kann überfüllt sein.",
+            "fr": "Mars-Avril : couches essentielles, pluie possible. Mai : conditions quasi-parfaites, réservez à l'avance pour les week-ends. Pâques peut être bondé.",
+            "it": "Marzo-Aprile: strati essenziali, pioggia possibile. Maggio: condizioni quasi perfette, prenotate in anticipo per i weekend. Pasqua può essere affollata."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Photography Question",
-          "quote": "Vernazza is the most photographed village in Cinque Terre. The irony is that the best photography weather—golden autumn light, dramatic winter storms, spring wildflowers—comes when the fewest photographers are here. Summer's crowds chase a light that doesn't flatter."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Photography Question",
+            "de": "Die Fotografie-Frage",
+            "fr": "La Question de la Photographie",
+            "it": "La Questione della Fotografia"
+          },
+          "quote": {
+            "en": "Vernazza is the most photographed village in Cinque Terre. The irony is that the best photography weather—golden autumn light, dramatic winter storms, spring wildflowers—comes when the fewest photographers are here. Summer's crowds chase a light that doesn't flatter.",
+            "de": "Vernazza ist das meistfotografierte Dorf der Cinque Terre. Die Ironie ist, dass das beste Fotowetter—goldenes Herbstlicht, dramatische Winterstürme, Frühlingsblumen—kommt, wenn die wenigsten Fotografen hier sind. Die Sommermengen jagen einem Licht hinterher, das nicht schmeichelt.",
+            "fr": "Vernazza est le village le plus photographié des Cinque Terre. L'ironie est que le meilleur temps pour la photographie—lumière dorée d'automne, tempêtes dramatiques d'hiver, fleurs sauvages printanières—arrive quand il y a le moins de photographes. Les foules d'été chassent une lumière qui ne flatte pas.",
+            "it": "Vernazza è il borgo più fotografato delle Cinque Terre. L'ironia è che il tempo migliore per la fotografia—luce dorata autunnale, tempeste invernali drammatiche, fiori selvatici primaverili—arriva quando ci sono meno fotografi. Le folle estive inseguono una luce che non lusinga."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Weather",
-      "quote": "The forecast helps, but preparation matters more. Pack for the season, dress in layers, and let the weather become part of the experience rather than an obstacle to it.",
-      "content": [
-        "**The harbor is a thermometer**. Calm turquoise water means clear skies and heat. Gray-green chop means wind or weather approaching. Learn to read it and you'll know what's coming.",
-        "**Sea breezes save summer**. Even when inland Liguria swelters, Vernazza's harbor catches afternoon breezes. The temperature difference can be 3-5°C—noticeable relief.",
-        "**Rain is brief but real**. Summer storms are short and theatrical—shelter, wait, emerge into fresh air. Autumn and winter rain can last longer. A compact umbrella earns its space.",
-        "**Elevation changes everything**. The harbor is warmest; the castle catches wind; the terraces above are cooler. Moving through the village means moving through microclimates."
-      ]
+      "badge": {
+        "en": "Practical Weather",
+        "de": "Praktisches Wetter",
+        "fr": "Météo Pratique",
+        "it": "Meteo Pratico"
+      },
+      "quote": {
+        "en": "The forecast helps, but preparation matters more. Pack for the season, dress in layers, and let the weather become part of the experience rather than an obstacle to it.",
+        "de": "Die Vorhersage hilft, aber Vorbereitung zählt mehr. Packen Sie für die Jahreszeit, kleiden Sie sich in Schichten, und lassen Sie das Wetter Teil des Erlebnisses werden statt ein Hindernis.",
+        "fr": "Les prévisions aident, mais la préparation compte plus. Emballez pour la saison, habillez-vous en couches, et laissez le temps devenir partie de l'expérience plutôt qu'un obstacle.",
+        "it": "Le previsioni aiutano, ma la preparazione conta di più. Preparate i bagagli per la stagione, vestitevi a strati, e lasciate che il tempo diventi parte dell'esperienza piuttosto che un ostacolo."
+      },
+      "content": {
+        "en": [
+          "**The harbor is a thermometer**. Calm turquoise water means clear skies and heat. Gray-green chop means wind or weather approaching. Learn to read it and you'll know what's coming.",
+          "**Sea breezes save summer**. Even when inland Liguria swelters, Vernazza's harbor catches afternoon breezes. The temperature difference can be 3-5°C—noticeable relief.",
+          "**Rain is brief but real**. Summer storms are short and theatrical—shelter, wait, emerge into fresh air. Autumn and winter rain can last longer. A compact umbrella earns its space.",
+          "**Elevation changes everything**. The harbor is warmest; the castle catches wind; the terraces above are cooler. Moving through the village means moving through microclimates."
+        ],
+        "de": [
+          "**Der Hafen ist ein Thermometer**. Ruhiges türkises Wasser bedeutet klaren Himmel und Hitze. Graugrüne Wellen bedeuten Wind oder nahendes Wetter. Lernen Sie, es zu lesen, und Sie wissen, was kommt.",
+          "**Meeresbrisen retten den Sommer**. Selbst wenn das Landesinnere Liguriens schwitzt, fängt Vernazzas Hafen Nachmittagsbrisen. Der Temperaturunterschied kann 3-5°C betragen—spürbare Erleichterung.",
+          "**Regen ist kurz, aber real**. Sommergewitter sind kurz und theatralisch—Unterschlupf suchen, warten, in frische Luft auftauchen. Herbst- und Winterregen kann länger dauern. Ein kompakter Regenschirm verdient seinen Platz.",
+          "**Höhe verändert alles**. Der Hafen ist am wärmsten; die Burg fängt Wind; die Terrassen oben sind kühler. Sich durch das Dorf zu bewegen bedeutet, sich durch Mikroklimata zu bewegen."
+        ],
+        "fr": [
+          "**Le port est un thermomètre**. Une eau turquoise calme signifie ciel dégagé et chaleur. Des vagues gris-vert signifient vent ou temps qui approche. Apprenez à le lire et vous saurez ce qui arrive.",
+          "**Les brises marines sauvent l'été**. Même quand l'intérieur de la Ligurie étouffe, le port de Vernazza attrape les brises de l'après-midi. La différence de température peut être de 3-5°C—un soulagement notable.",
+          "**La pluie est brève mais réelle**. Les orages d'été sont courts et théâtraux—abritez-vous, attendez, émergez dans l'air frais. Les pluies d'automne et d'hiver peuvent durer plus longtemps. Un parapluie compact mérite sa place.",
+          "**L'altitude change tout**. Le port est le plus chaud ; le château attrape le vent ; les terrasses au-dessus sont plus fraîches. Se déplacer dans le village signifie traverser des microclimats."
+        ],
+        "it": [
+          "**Il porto è un termometro**. Acqua turchese calma significa cieli sereni e caldo. Onde grigio-verdi significano vento o tempo in arrivo. Imparate a leggerlo e saprete cosa arriva.",
+          "**Le brezze marine salvano l'estate**. Anche quando l'entroterra ligure soffoca, il porto di Vernazza cattura le brezze pomeridiane. La differenza di temperatura può essere di 3-5°C—sollievo notevole.",
+          "**La pioggia è breve ma reale**. I temporali estivi sono brevi e teatrali—riparatevi, aspettate, emergete nell'aria fresca. Le piogge autunnali e invernali possono durare di più. Un ombrello compatto merita il suo spazio.",
+          "**L'altitudine cambia tutto**. Il porto è il più caldo; il castello cattura il vento; le terrazze sopra sono più fresche. Muoversi attraverso il borgo significa muoversi attraverso microclimi."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -118,50 +357,185 @@
       "items": [
         {
           "id": 5,
-          "name": "Packing for Vernazza",
-          "category": "Practical Wisdom",
+          "name": {
+            "en": "Packing for Vernazza",
+            "de": "Packen für Vernazza",
+            "fr": "Faire ses Valises pour Vernazza",
+            "it": "Preparare i Bagagli per Vernazza"
+          },
+          "category": {
+            "en": "Practical Wisdom",
+            "de": "Praktische Weisheit",
+            "fr": "Sagesse Pratique",
+            "it": "Saggezza Pratica"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Pack less than you think you need—the stairs will punish excess.",
-          "description": "Every accommodation in Vernazza requires climbing stairs. Overpacking is a literal burden. Bring layers rather than bulk, good walking shoes regardless of season, and swimwear if there's any chance you'll want the water.",
-          "giuliaComment": "I watch people dragging rolling suitcases over cobblestones and up medieval stairs. The sound is painful—and so are their faces. Pack a small bag. Buy what you forgot. The village has what you need.",
-          "signature": "Where less is always more",
-          "practicalInfo": "Summer: swimwear, sunscreen, hat, light layers, walking shoes. Winter: waterproof layers, warm clothing, sturdy shoes. All seasons: comfortable footwear."
+          "intro": {
+            "en": "Pack less than you think you need—the stairs will punish excess.",
+            "de": "Packen Sie weniger, als Sie denken, dass Sie brauchen—die Treppen werden Überschuss bestrafen.",
+            "fr": "Emportez moins que ce que vous pensez avoir besoin—les escaliers puniront l'excès.",
+            "it": "Portate meno di quanto pensiate di aver bisogno—le scale puniranno l'eccesso."
+          },
+          "description": {
+            "en": "Every accommodation in Vernazza requires climbing stairs. Overpacking is a literal burden. Bring layers rather than bulk, good walking shoes regardless of season, and swimwear if there's any chance you'll want the water.",
+            "de": "Jede Unterkunft in Vernazza erfordert Treppensteigen. Überpacken ist eine buchstäbliche Last. Bringen Sie Schichten statt Masse, gute Wanderschuhe unabhängig von der Jahreszeit, und Badekleidung, wenn es irgendeine Chance gibt, dass Sie ins Wasser wollen.",
+            "fr": "Chaque hébergement à Vernazza nécessite de monter des escaliers. Trop emballer est un fardeau littéral. Apportez des couches plutôt que du volume, de bonnes chaussures de marche quelle que soit la saison, et des maillots de bain s'il y a une chance que vous vouliez l'eau.",
+            "it": "Ogni alloggio a Vernazza richiede di salire scale. Fare troppi bagagli è un peso letterale. Portate strati piuttosto che volume, buone scarpe da camminata indipendentemente dalla stagione, e costume da bagno se c'è qualche possibilità che vogliate l'acqua."
+          },
+          "giuliaComment": {
+            "en": "I watch people dragging rolling suitcases over cobblestones and up medieval stairs. The sound is painful—and so are their faces. Pack a small bag. Buy what you forgot. The village has what you need.",
+            "de": "Ich beobachte, wie Menschen Rollkoffer über Kopfsteinpflaster und mittelalterliche Treppen hinaufziehen. Der Klang ist schmerzhaft—und ihre Gesichter auch. Packen Sie eine kleine Tasche. Kaufen Sie, was Sie vergessen haben. Das Dorf hat, was Sie brauchen.",
+            "fr": "Je regarde les gens traîner des valises à roulettes sur les pavés et les escaliers médiévaux. Le son est douloureux—et leurs visages aussi. Prenez un petit sac. Achetez ce que vous avez oublié. Le village a ce dont vous avez besoin.",
+            "it": "Guardo le persone trascinare valigie con ruote sui ciottoli e su per le scale medievali. Il suono è doloroso—e anche le loro facce. Fate una borsa piccola. Comprate quello che avete dimenticato. Il borgo ha quello di cui avete bisogno."
+          },
+          "signature": {
+            "en": "Where less is always more",
+            "de": "Wo weniger immer mehr ist",
+            "fr": "Où moins est toujours plus",
+            "it": "Dove meno è sempre di più"
+          },
+          "practicalInfo": {
+            "en": "Summer: swimwear, sunscreen, hat, light layers, walking shoes. Winter: waterproof layers, warm clothing, sturdy shoes. All seasons: comfortable footwear.",
+            "de": "Sommer: Badekleidung, Sonnenschutz, Hut, leichte Schichten, Wanderschuhe. Winter: wasserfeste Schichten, warme Kleidung, robuste Schuhe. Alle Jahreszeiten: bequeme Schuhe.",
+            "fr": "Été : maillot de bain, crème solaire, chapeau, couches légères, chaussures de marche. Hiver : couches imperméables, vêtements chauds, chaussures robustes. Toutes saisons : chaussures confortables.",
+            "it": "Estate: costume da bagno, crema solare, cappello, strati leggeri, scarpe da camminata. Inverno: strati impermeabili, abbigliamento caldo, scarpe robuste. Tutte le stagioni: calzature comode."
+          }
         },
         {
           "id": 6,
-          "name": "Reading the Harbor",
-          "category": "Local Wisdom",
+          "name": {
+            "en": "Reading the Harbor",
+            "de": "Den Hafen lesen",
+            "fr": "Lire le Port",
+            "it": "Leggere il Porto"
+          },
+          "category": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The fishermen don't check apps. They read the water and the sky.",
-          "description": "When the fishing boats stay in the harbor, expect rough weather. When the morning haze burns off early, the day will be clear. When the wind shifts to the southwest, rain may follow. The village has been reading these signs for a millennium.",
-          "giuliaComment": "Watch what the boats do. If the fishermen are heading out at dawn, the weather will be fine. If they're staying in, trust their judgment over any forecast.",
-          "signature": "Where ancient wisdom meets modern weather",
-          "practicalInfo": "Boats launching = good weather expected. Boats staying in = caution. Southwest wind often brings rain. Morning haze clearing early usually means clear day."
+          "intro": {
+            "en": "The fishermen don't check apps. They read the water and the sky.",
+            "de": "Die Fischer überprüfen keine Apps. Sie lesen das Wasser und den Himmel.",
+            "fr": "Les pêcheurs ne consultent pas d'applications. Ils lisent l'eau et le ciel.",
+            "it": "I pescatori non controllano le app. Leggono l'acqua e il cielo."
+          },
+          "description": {
+            "en": "When the fishing boats stay in the harbor, expect rough weather. When the morning haze burns off early, the day will be clear. When the wind shifts to the southwest, rain may follow. The village has been reading these signs for a millennium.",
+            "de": "Wenn die Fischerboote im Hafen bleiben, erwarten Sie raues Wetter. Wenn der Morgendunst früh verbrennt, wird der Tag klar. Wenn der Wind nach Südwesten dreht, kann Regen folgen. Das Dorf liest diese Zeichen seit einem Jahrtausend.",
+            "fr": "Quand les bateaux de pêche restent au port, attendez-vous à du mauvais temps. Quand la brume matinale se dissipe tôt, la journée sera claire. Quand le vent tourne au sud-ouest, la pluie peut suivre. Le village lit ces signes depuis un millénaire.",
+            "it": "Quando le barche da pesca restano nel porto, aspettatevi tempo brutto. Quando la foschia mattutina si dissolve presto, la giornata sarà serena. Quando il vento gira a sud-ovest, potrebbe seguire pioggia. Il borgo legge questi segni da un millennio."
+          },
+          "giuliaComment": {
+            "en": "Watch what the boats do. If the fishermen are heading out at dawn, the weather will be fine. If they're staying in, trust their judgment over any forecast.",
+            "de": "Beobachten Sie, was die Boote tun. Wenn die Fischer bei Morgengrauen ausfahren, wird das Wetter gut. Wenn sie drinbleiben, vertrauen Sie ihrem Urteil über jede Vorhersage.",
+            "fr": "Regardez ce que font les bateaux. Si les pêcheurs partent à l'aube, le temps sera beau. S'ils restent, faites confiance à leur jugement plutôt qu'à n'importe quelle prévision.",
+            "it": "Guardate cosa fanno le barche. Se i pescatori escono all'alba, il tempo sarà bello. Se restano, fidatevi del loro giudizio più di qualsiasi previsione."
+          },
+          "signature": {
+            "en": "Where ancient wisdom meets modern weather",
+            "de": "Wo alte Weisheit modernes Wetter trifft",
+            "fr": "Où la sagesse ancienne rencontre la météo moderne",
+            "it": "Dove la saggezza antica incontra il meteo moderno"
+          },
+          "practicalInfo": {
+            "en": "Boats launching = good weather expected. Boats staying in = caution. Southwest wind often brings rain. Morning haze clearing early usually means clear day.",
+            "de": "Boote laufen aus = gutes Wetter erwartet. Boote bleiben drin = Vorsicht. Südwestwind bringt oft Regen. Morgendunst, der früh verschwindet, bedeutet meist klaren Tag.",
+            "fr": "Bateaux qui partent = beau temps attendu. Bateaux qui restent = prudence. Le vent du sud-ouest amène souvent la pluie. La brume matinale qui se lève tôt signifie généralement journée claire.",
+            "it": "Barche che escono = bel tempo previsto. Barche che restano = cautela. Il vento da sud-ovest spesso porta pioggia. La foschia mattutina che si alza presto di solito significa giornata serena."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Midday Retreat",
-          "quote": "The Italian afternoon rest exists for a reason. From 1pm to 4pm in summer, the sun is punishing and the village goes quiet. Swim in the morning, eat a long lunch, nap if you can, and emerge when the shadows lengthen. The evening will reward your patience."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Midday Retreat",
+            "de": "Der Mittagsrückzug",
+            "fr": "La Retraite de Midi",
+            "it": "Il Ritiro di Mezzogiorno"
+          },
+          "quote": {
+            "en": "The Italian afternoon rest exists for a reason. From 1pm to 4pm in summer, the sun is punishing and the village goes quiet. Swim in the morning, eat a long lunch, nap if you can, and emerge when the shadows lengthen. The evening will reward your patience.",
+            "de": "Die italienische Nachmittagsruhe existiert aus einem Grund. Von 13 bis 16 Uhr im Sommer ist die Sonne strafend und das Dorf wird still. Schwimmen Sie morgens, essen Sie ein langes Mittagessen, machen Sie ein Nickerchen, wenn Sie können, und kommen Sie hervor, wenn die Schatten länger werden. Der Abend wird Ihre Geduld belohnen.",
+            "fr": "Le repos italien de l'après-midi existe pour une raison. De 13h à 16h en été, le soleil est impitoyable et le village devient calme. Nagez le matin, prenez un long déjeuner, faites la sieste si vous pouvez, et ressortez quand les ombres s'allongent. La soirée récompensera votre patience.",
+            "it": "Il riposo pomeridiano italiano esiste per una ragione. Dalle 13 alle 16 in estate, il sole è implacabile e il borgo diventa silenzioso. Nuotate di mattina, fate un lungo pranzo, dormite se potete, e riemergete quando le ombre si allungano. La sera ricompenserà la vostra pazienza."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Weather You Meet",
-      "content": [
-        "There is no perfect weather in Vernazza. There is only the weather that arrives—and your willingness to meet it.",
-        "A cloudy morning can clear into brilliant afternoon. A rainy day makes the next sunshine sweeter. The visitors who insist on perfect conditions miss the variety that makes the village alive.",
-        "Come prepared for the season. Let the weather be part of the story. The harbor will show you moods you couldn't have planned for."
-      ],
+      "title": {
+        "en": "The Weather You Meet",
+        "de": "Das Wetter, das Sie treffen",
+        "fr": "Le Temps Que Vous Rencontrez",
+        "it": "Il Tempo Che Incontrate"
+      },
+      "content": {
+        "en": [
+          "There is no perfect weather in Vernazza. There is only the weather that arrives—and your willingness to meet it.",
+          "A cloudy morning can clear into brilliant afternoon. A rainy day makes the next sunshine sweeter. The visitors who insist on perfect conditions miss the variety that makes the village alive.",
+          "Come prepared for the season. Let the weather be part of the story. The harbor will show you moods you couldn't have planned for."
+        ],
+        "de": [
+          "Es gibt kein perfektes Wetter in Vernazza. Es gibt nur das Wetter, das kommt—und Ihre Bereitschaft, ihm zu begegnen.",
+          "Ein bewölkter Morgen kann sich in einen strahlenden Nachmittag verwandeln. Ein Regentag macht den nächsten Sonnenschein süßer. Die Besucher, die auf perfekte Bedingungen bestehen, verpassen die Vielfalt, die das Dorf lebendig macht.",
+          "Kommen Sie vorbereitet auf die Jahreszeit. Lassen Sie das Wetter Teil der Geschichte sein. Der Hafen wird Ihnen Stimmungen zeigen, die Sie nicht hätten planen können."
+        ],
+        "fr": [
+          "Il n'y a pas de temps parfait à Vernazza. Il n'y a que le temps qui arrive—et votre volonté de le rencontrer.",
+          "Une matinée nuageuse peut se dégager en un après-midi brillant. Un jour de pluie rend le prochain soleil plus doux. Les visiteurs qui insistent sur des conditions parfaites manquent la variété qui rend le village vivant.",
+          "Venez préparé pour la saison. Laissez le temps faire partie de l'histoire. Le port vous montrera des humeurs que vous n'auriez pas pu planifier."
+        ],
+        "it": [
+          "Non esiste tempo perfetto a Vernazza. Esiste solo il tempo che arriva—e la vostra disponibilità ad incontrarlo.",
+          "Una mattinata nuvolosa può schiarirsi in un pomeriggio brillante. Un giorno di pioggia rende il prossimo sole più dolce. I visitatori che insistono su condizioni perfette perdono la varietà che rende il borgo vivo.",
+          "Venite preparati per la stagione. Lasciate che il tempo faccia parte della storia. Il porto vi mostrerà umori che non avreste potuto pianificare."
+        ]
+      },
       "buttons": [
-        { "text": "Plan Your Visit", "url": "/en/vernazza/things-to-do", "variant": "primary" },
-        { "text": "Getting Here", "url": "/en/vernazza/getting-here", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Plan Your Visit",
+            "de": "Planen Sie Ihren Besuch",
+            "fr": "Planifiez Votre Visite",
+            "it": "Pianifica la Tua Visita"
+          },
+          "url": {
+            "en": "/en/vernazza/things-to-do",
+            "de": "/de/vernazza/things-to-do",
+            "fr": "/fr/vernazza/things-to-do",
+            "it": "/it/vernazza/things-to-do"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Comment Venir",
+            "it": "Come Arrivare"
+          },
+          "url": {
+            "en": "/en/vernazza/getting-here",
+            "de": "/de/vernazza/getting-here",
+            "fr": "/fr/vernazza/getting-here",
+            "it": "/it/vernazza/getting-here"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -171,5 +545,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T12:00:00.000Z"
+  "updated_at": "2026-01-07T21:40:00.000Z"
 }

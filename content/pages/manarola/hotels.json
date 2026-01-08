@@ -7,36 +7,90 @@
     "it": "/it/manarola/hotels"
   },
   "title": {
-    "en": "Where to Stay in Manarola | Cinque Terre Dispatch"
+    "en": "Where to Stay in Manarola | Cinque Terre Dispatch",
+    "de": "Unterkuenfte in Manarola | Cinque Terre Dispatch",
+    "fr": "Ou Dormir a Manarola | Cinque Terre Dispatch",
+    "it": "Dove Dormire a Manarola | Cinque Terre Dispatch"
   },
   "page_type": "hotels",
   "seo": {
     "title": {
-      "en": "Where to Stay in Manarola | Cinque Terre Dispatch"
+      "en": "Where to Stay in Manarola | Cinque Terre Dispatch",
+      "de": "Unterkuenfte in Manarola | Cinque Terre Dispatch",
+      "fr": "Ou Dormir a Manarola | Cinque Terre Dispatch",
+      "it": "Dove Dormire a Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Manarola's accommodations are as compact as the village itself. No chain hotels. No massive properties. Just family-run places where the owners live downstairs and breakfast comes from their gardens."
+      "en": "Manarola's accommodations are as compact as the village itself. No chain hotels. No massive properties. Just family-run places where the owners live downstairs and breakfast comes from their gardens.",
+      "de": "Manarolas Unterkuenfte sind so kompakt wie das Dorf selbst. Keine Hotelketten. Keine riesigen Anlagen. Nur familiegefuehrte Haeuser, wo die Besitzer unten wohnen und das Fruehstueck aus ihrem Garten kommt.",
+      "fr": "Les hebergements de Manarola sont aussi compacts que le village lui-meme. Pas de chaines hotelieres. Pas de grandes proprietes. Juste des etablissements familiaux ou les proprietaires vivent en bas et le petit-dejeuner vient de leur jardin.",
+      "it": "Gli alloggi di Manarola sono compatti come il borgo stesso. Nessuna catena alberghiera. Nessuna grande struttura. Solo posti a gestione familiare dove i proprietari vivono al piano di sotto e la colazione viene dal loro orto."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Sleep Above<br/>the Sea",
-      "subtitle": "In a village of 300 residents, every room matters. The properties here are small, family-run, and booked months ahead in summer. What you lose in amenities, you gain in authenticity—owners who know every sunrise viewpoint, every quiet restaurant, every secret swimming spot.",
-      "badge": "Accommodations",
+      "title": {
+        "en": "Sleep Above<br/>the Sea",
+        "de": "Schlafen<br/>ueber dem Meer",
+        "fr": "Dormir<br/>Au-dessus de la Mer",
+        "it": "Dormire<br/>Sopra il Mare"
+      },
+      "subtitle": {
+        "en": "In a village of 300 residents, every room matters. The properties here are small, family-run, and booked months ahead in summer. What you lose in amenities, you gain in authenticity--owners who know every sunrise viewpoint, every quiet restaurant, every secret swimming spot.",
+        "de": "In einem Dorf mit 300 Einwohnern zaehlt jedes Zimmer. Die Unterkuenfte hier sind klein, familiegefuehrt und im Sommer Monate im Voraus ausgebucht. Was Sie an Annehmlichkeiten verlieren, gewinnen Sie an Authentizitaet--Besitzer, die jeden Sonnenaufgangs-Aussichtspunkt kennen, jedes ruhige Restaurant, jeden geheimen Badeplatz.",
+        "fr": "Dans un village de 300 habitants, chaque chambre compte. Les proprietes ici sont petites, familiales, et reservees des mois a l'avance en ete. Ce que vous perdez en commodites, vous le gagnez en authenticite--des proprietaires qui connaissent chaque point de vue au lever du soleil, chaque restaurant tranquille, chaque spot de baignade secret.",
+        "it": "In un borgo di 300 abitanti, ogni stanza conta. Le strutture qui sono piccole, a gestione familiare, e prenotate mesi prima in estate. Quello che perdete in servizi lo guadagnate in autenticita--proprietari che conoscono ogni punto panoramico all'alba, ogni ristorante tranquillo, ogni posto segreto dove nuotare."
+      },
+      "badge": {
+        "en": "Accommodations",
+        "de": "Unterkuenfte",
+        "fr": "Hebergements",
+        "it": "Alloggi"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "Understanding Manarola Stays",
-      "quote": "There are no large hotels in Manarola. The village won't allow them—geography forbids it, preservation mandates prohibit it. What you'll find instead: converted fishermen's houses, family B&Bs, and apartments where the owner's grandmother was born.",
-      "content": [
-        "**Book months ahead for summer**. June through September fills by February. The best properties—those with views, terraces, or particular character—go first. Waiting until spring for summer dates means settling for what remains.",
-        "**Location is vertical**. 'Near the harbor' means easy access but tourist noise. 'Upper village' means views and quiet but steep climbs with luggage. 'Near the station' splits the difference. Choose based on priorities, not just price.",
-        "**Family-run means personal**. Your host will likely greet you, serve your breakfast, and know where you're eating dinner. This isn't intrusion; it's how small villages work. The relationship is part of the experience.",
-        "**Amenities are modest**. Air conditioning isn't universal. Elevators don't exist. WiFi can be unreliable. You're sleeping in buildings older than your country. Adjust expectations accordingly."
-      ]
+      "badge": {
+        "en": "Understanding Manarola Stays",
+        "de": "Manarola Verstehen",
+        "fr": "Comprendre les Sejours a Manarola",
+        "it": "Capire i Soggiorni a Manarola"
+      },
+      "quote": {
+        "en": "There are no large hotels in Manarola. The village won't allow them--geography forbids it, preservation mandates prohibit it. What you'll find instead: converted fishermen's houses, family B&Bs, and apartments where the owner's grandmother was born.",
+        "de": "Es gibt keine grossen Hotels in Manarola. Das Dorf erlaubt sie nicht--die Geografie verbietet es, Denkmalschutzvorschriften untersagen es. Was Sie stattdessen finden: umgebaute Fischerhaeuser, Familien-B&Bs und Apartments, in denen die Grossmutter der Besitzer geboren wurde.",
+        "fr": "Il n'y a pas de grands hotels a Manarola. Le village ne les permet pas--la geographie l'interdit, les mandats de preservation l'interdisent. Ce que vous trouverez a la place : des maisons de pecheurs reconverties, des chambres d'hotes familiales et des appartements ou la grand-mere du proprietaire est nee.",
+        "it": "Non ci sono grandi hotel a Manarola. Il borgo non li permette--la geografia lo vieta, i vincoli di tutela lo proibiscono. Quello che troverete invece: case di pescatori convertite, B&B familiari e appartamenti dove e nata la nonna del proprietario."
+      },
+      "content": {
+        "en": [
+          "**Book months ahead for summer**. June through September fills by February. The best properties--those with views, terraces, or particular character--go first. Waiting until spring for summer dates means settling for what remains.",
+          "**Location is vertical**. 'Near the harbor' means easy access but tourist noise. 'Upper village' means views and quiet but steep climbs with luggage. 'Near the station' splits the difference. Choose based on priorities, not just price.",
+          "**Family-run means personal**. Your host will likely greet you, serve your breakfast, and know where you're eating dinner. This isn't intrusion; it's how small villages work. The relationship is part of the experience.",
+          "**Amenities are modest**. Air conditioning isn't universal. Elevators don't exist. WiFi can be unreliable. You're sleeping in buildings older than your country. Adjust expectations accordingly."
+        ],
+        "de": [
+          "**Monate im Voraus fuer den Sommer buchen**. Juni bis September ist im Februar ausgebucht. Die besten Unterkuenfte--die mit Aussicht, Terrassen oder besonderem Charakter--gehen zuerst. Bis zum Fruehling auf Sommerdaten zu warten bedeutet, sich mit dem zu begnuegen, was uebrig bleibt.",
+          "**Lage ist vertikal**. 'Nahe am Hafen' bedeutet einfacher Zugang, aber Touristenlaerm. 'Oberes Dorf' bedeutet Aussicht und Ruhe, aber steile Aufstiege mit Gepaeck. 'Nahe am Bahnhof' ist der Kompromiss. Waehlen Sie nach Prioritaeten, nicht nur nach Preis.",
+          "**Familiegefuehrt bedeutet persoenlich**. Ihr Gastgeber wird Sie wahrscheinlich begruessen, Ihr Fruehstueck servieren und wissen, wo Sie zu Abend essen. Das ist kein Eindringen; so funktionieren kleine Doerfer. Die Beziehung ist Teil des Erlebnisses.",
+          "**Annehmlichkeiten sind bescheiden**. Klimaanlage ist nicht ueberall. Aufzuege gibt es nicht. WLAN kann unzuverlaessig sein. Sie schlafen in Gebaeuden, die aelter sind als Ihr Land. Passen Sie Ihre Erwartungen entsprechend an."
+        ],
+        "fr": [
+          "**Reservez des mois a l'avance pour l'ete**. Juin a septembre est complet des fevrier. Les meilleures proprietes--celles avec vue, terrasses ou caractere particulier--partent en premier. Attendre le printemps pour les dates d'ete signifie se contenter de ce qui reste.",
+          "**L'emplacement est vertical**. 'Pres du port' signifie acces facile mais bruit touristique. 'Village haut' signifie vues et calme mais montees raides avec les bagages. 'Pres de la gare' partage la difference. Choisissez selon vos priorites, pas seulement le prix.",
+          "**Familial signifie personnel**. Votre hote vous accueillera probablement, servira votre petit-dejeuner et saura ou vous dinez. Ce n'est pas une intrusion ; c'est ainsi que fonctionnent les petits villages. La relation fait partie de l'experience.",
+          "**Les commodites sont modestes**. La climatisation n'est pas universelle. Les ascenseurs n'existent pas. Le WiFi peut etre peu fiable. Vous dormez dans des batiments plus vieux que votre pays. Ajustez vos attentes en consequence."
+        ],
+        "it": [
+          "**Prenotate mesi prima per l'estate**. Da giugno a settembre si riempie entro febbraio. Le migliori strutture--quelle con vista, terrazze o carattere particolare--vanno per prime. Aspettare la primavera per le date estive significa accontentarsi di quello che resta.",
+          "**La posizione e verticale**. 'Vicino al porto' significa facile accesso ma rumore turistico. 'Borgo alto' significa viste e tranquillita ma salite ripide con i bagagli. 'Vicino alla stazione' e il compromesso. Scegliete in base alle priorita, non solo al prezzo.",
+          "**A gestione familiare significa personale**. Il vostro ospite probabilmente vi accogliera, servira la colazione e sapra dove cenerete. Non e invadenza; e come funzionano i piccoli borghi. La relazione e parte dell'esperienza.",
+          "**I servizi sono modesti**. L'aria condizionata non e universale. Gli ascensori non esistono. Il WiFi puo essere inaffidabile. Dormite in edifici piu vecchi del vostro paese. Adattate le aspettative di conseguenza."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,64 +98,214 @@
       "items": [
         {
           "id": 1,
-          "name": "La Torretta",
-          "category": "Boutique Luxury",
+          "name": {
+            "en": "La Torretta Lodge",
+            "de": "La Torretta Lodge",
+            "fr": "La Torretta Lodge",
+            "it": "La Torretta Lodge"
+          },
+          "category": {
+            "en": "Boutique Luxury",
+            "de": "Boutique-Luxus",
+            "fr": "Luxe Boutique",
+            "it": "Lusso Boutique"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The closest Manarola has to a boutique hotel—hot tub, sea views, and the village's most refined accommodations.",
-          "description": "La Torretta occupies a restored medieval tower with views across rooftops to the sea. The hot tub on the terrace has become Instagram-famous—guests come specifically for sunset soaks with Mediterranean panoramas. Rooms are individually designed, breakfast is generous, and the location balances accessibility with quiet.",
-          "giuliaComment": "This is where I send guests who want comfort without leaving Cinque Terre. The hot tub really is that good—especially at sunset when the light turns everything gold. Book the tower room if you can; the stairs are worth the view.",
-          "signature": "Where comfort meets character",
-          "priceRange": "€180-350/night",
-          "practicalInfo": "Book 3-4 months ahead for summer. Rooftop hot tub open to all guests. Breakfast included."
+          "intro": {
+            "en": "The closest Manarola has to a boutique hotel--rooftop hot tub, sea views, and the village's most refined accommodations.",
+            "de": "Das Naechste, was Manarola an einem Boutique-Hotel hat--Dachterrassen-Whirlpool, Meerblick und die raffiniertesten Unterkuenfte des Dorfes.",
+            "fr": "Ce qui se rapproche le plus d'un hotel boutique a Manarola--jacuzzi sur le toit, vue mer et les hebergements les plus raffines du village.",
+            "it": "Il piu vicino a un boutique hotel che Manarola ha da offrire--vasca idromassaggio sul tetto, vista mare e gli alloggi piu raffinati del borgo."
+          },
+          "description": {
+            "en": "La Torretta occupies a restored medieval tower with views across rooftops to the Ligurian Sea. The rooftop hot tub has become famous--guests come specifically for sunset soaks with Mediterranean panoramas. Rooms feature contemporary artwork, Nespresso machines, and individually designed interiors. With 13 rooms, it's intimate yet substantial.",
+            "de": "La Torretta befindet sich in einem restaurierten mittelalterlichen Turm mit Blick ueber die Daecher auf das Ligurische Meer. Der Dachterrassen-Whirlpool ist beruehmt geworden--Gaeste kommen speziell fuer Sonnenuntergangs-Baeder mit Mittelmeerpanorama. Die Zimmer haben zeitgenoessische Kunstwerke, Nespresso-Maschinen und individuell gestaltete Interieurs. Mit 13 Zimmern ist es intim und dennoch substantiell.",
+            "fr": "La Torretta occupe une tour medievale restauree avec vue sur les toits jusqu'a la mer Ligure. Le jacuzzi sur le toit est devenu celebre--les clients viennent specifiquement pour les bains au coucher du soleil avec panorama mediterraneen. Les chambres presentent des oeuvres d'art contemporaines, des machines Nespresso et des interieurs individuellement concus. Avec 13 chambres, c'est intime mais substantiel.",
+            "it": "La Torretta occupa una torre medievale restaurata con vista sui tetti fino al Mar Ligure. La vasca idromassaggio sul tetto e diventata famosa--gli ospiti vengono appositamente per i bagni al tramonto con panorama mediterraneo. Le camere hanno opere d'arte contemporanee, macchine Nespresso e interni progettati individualmente. Con 13 camere, e intimo ma sostanziale."
+          },
+          "giuliaComment": {
+            "en": "This is where I send guests who want comfort without leaving Cinque Terre. The hot tub really is that good--especially at sunset when the light turns everything gold. Book the tower room if you can; the stairs are worth the view.",
+            "de": "Hierhin schicke ich Gaeste, die Komfort wollen, ohne die Cinque Terre zu verlassen. Der Whirlpool ist wirklich so gut--besonders bei Sonnenuntergang, wenn das Licht alles golden faerbt. Buchen Sie das Turmzimmer, wenn Sie koennen; die Treppen sind die Aussicht wert.",
+            "fr": "C'est la que j'envoie les clients qui veulent du confort sans quitter les Cinque Terre. Le jacuzzi est vraiment aussi bien--surtout au coucher du soleil quand la lumiere dore tout. Reservez la chambre de la tour si vous pouvez; les escaliers valent la vue.",
+            "it": "E qui che mando gli ospiti che vogliono comfort senza lasciare le Cinque Terre. La vasca idromassaggio e davvero cosi bella--specialmente al tramonto quando la luce dora tutto. Prenotate la camera della torre se potete; le scale valgono la vista."
+          },
+          "signature": {
+            "en": "Where comfort meets character",
+            "de": "Wo Komfort auf Charakter trifft",
+            "fr": "Ou le confort rencontre le caractere",
+            "it": "Dove il comfort incontra il carattere"
+          },
+          "priceRange": "EUR180-350/night",
+          "practicalInfo": {
+            "en": "Book 3-4 months ahead for summer. Rooftop hot tub open to all guests. Free breakfast included. 24-hour front desk.",
+            "de": "3-4 Monate im Voraus fuer den Sommer buchen. Dachterrassen-Whirlpool fuer alle Gaeste zugaenglich. Kostenloses Fruehstueck inklusive. 24-Stunden-Rezeption.",
+            "fr": "Reservez 3-4 mois a l'avance pour l'ete. Jacuzzi sur le toit ouvert a tous les clients. Petit-dejeuner gratuit inclus. Reception 24h/24.",
+            "it": "Prenotate 3-4 mesi prima per l'estate. Vasca idromassaggio sul tetto aperta a tutti gli ospiti. Colazione gratuita inclusa. Reception 24 ore."
+          }
         },
         {
           "id": 2,
-          "name": "Ca' D'Andrean",
-          "category": "Village Hotel",
+          "name": {
+            "en": "Ca' D'Andrean",
+            "de": "Ca' D'Andrean",
+            "fr": "Ca' D'Andrean",
+            "it": "Ca' D'Andrean"
+          },
+          "category": {
+            "en": "Village Hotel",
+            "de": "Dorfhotel",
+            "fr": "Hotel de Village",
+            "it": "Hotel di Paese"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Family-run for generations—the reliable choice in the village center.",
-          "description": "Ca' D'Andrean represents Manarola hospitality at its most traditional. The family has operated this hotel for decades, knowing the village better than any guidebook. Rooms are comfortable without pretension. Location is central without being noisy. The experience is Italian village accommodation as it's meant to be.",
-          "giuliaComment": "The Andrean family knows everyone. Ask them for restaurant advice—they'll tell you where to go and where to avoid. Their recommendations have never steered me wrong. The breakfast is simple but includes local products they source themselves.",
-          "signature": "Where tradition meets hospitality",
-          "priceRange": "€120-205/night",
-          "practicalInfo": "Central location. Family-run since 1960s. Reserve directly for best rates."
+          "intro": {
+            "en": "Family-run for generations--the reliable choice in the village center with a rating of 9.2.",
+            "de": "Seit Generationen familiegefuehrt--die zuverlaessige Wahl im Dorfzentrum mit einer Bewertung von 9,2.",
+            "fr": "Familial depuis des generations--le choix fiable au centre du village avec une note de 9,2.",
+            "it": "A gestione familiare da generazioni--la scelta affidabile nel centro del borgo con una valutazione di 9,2."
+          },
+          "description": {
+            "en": "Ca' D'Andrean represents Manarola hospitality at its most traditional. The family has operated this 3-star hotel for decades, knowing the village better than any guidebook. Located at Via Discovolo 101, a short walk from both Dawn Tower (Torre Aurora) and Manarola Scenic Viewpoint, the location balances accessibility with authenticity.",
+            "de": "Ca' D'Andrean repraesentiert Manarola-Gastfreundschaft in ihrer traditionellsten Form. Die Familie betreibt dieses 3-Sterne-Hotel seit Jahrzehnten und kennt das Dorf besser als jeder Reisefuehrer. An der Via Discovolo 101 gelegen, einen kurzen Spaziergang sowohl vom Morgenturm (Torre Aurora) als auch vom Manarola Aussichtspunkt entfernt, verbindet die Lage Erreichbarkeit mit Authentizitaet.",
+            "fr": "Ca' D'Andrean represente l'hospitalite de Manarola a son plus traditionnel. La famille exploite cet hotel 3 etoiles depuis des decennies, connaissant le village mieux que n'importe quel guide. Situe Via Discovolo 101, a quelques pas de la Tour de l'Aurore (Torre Aurora) et du point de vue panoramique de Manarola, l'emplacement equilibre accessibilite et authenticite.",
+            "it": "Ca' D'Andrean rappresenta l'ospitalita di Manarola nella sua forma piu tradizionale. La famiglia gestisce questo hotel a 3 stelle da decenni, conoscendo il borgo meglio di qualsiasi guida. Situato in Via Discovolo 101, a pochi passi sia dalla Torre Aurora che dal Punto Panoramico di Manarola, la posizione bilancia accessibilita e autenticita."
+          },
+          "giuliaComment": {
+            "en": "The Andrean family knows everyone. Ask them for restaurant advice--they'll tell you where to go and where to avoid. Their recommendations have never steered me wrong. The breakfast is simple but includes local products they source themselves.",
+            "de": "Die Familie Andrean kennt jeden. Fragen Sie sie nach Restaurantempfehlungen--sie sagen Ihnen, wohin Sie gehen und was Sie meiden sollten. Ihre Empfehlungen haben mich nie in die Irre gefuehrt. Das Fruehstueck ist einfach, enthaelt aber lokale Produkte, die sie selbst beziehen.",
+            "fr": "La famille Andrean connait tout le monde. Demandez-leur des conseils de restaurants--ils vous diront ou aller et quoi eviter. Leurs recommandations ne m'ont jamais trompe. Le petit-dejeuner est simple mais comprend des produits locaux qu'ils se procurent eux-memes.",
+            "it": "La famiglia Andrean conosce tutti. Chiedete loro consigli sui ristoranti--vi diranno dove andare e cosa evitare. Le loro raccomandazioni non mi hanno mai deluso. La colazione e semplice ma include prodotti locali che procurano loro stessi."
+          },
+          "signature": {
+            "en": "Where tradition meets hospitality",
+            "de": "Wo Tradition auf Gastfreundschaft trifft",
+            "fr": "Ou la tradition rencontre l'hospitalite",
+            "it": "Dove la tradizione incontra l'ospitalita"
+          },
+          "priceRange": "EUR120-205/night",
+          "practicalInfo": {
+            "en": "Central location. Family-run since the 1960s. Reserve directly for best rates. Free WiFi throughout.",
+            "de": "Zentrale Lage. Familiegefuehrt seit den 1960ern. Direkt reservieren fuer beste Preise. Kostenloses WLAN ueberall.",
+            "fr": "Emplacement central. Familial depuis les annees 1960. Reservez directement pour les meilleurs tarifs. WiFi gratuit partout.",
+            "it": "Posizione centrale. A gestione familiare dagli anni '60. Prenotate direttamente per le tariffe migliori. WiFi gratuito ovunque."
+          }
         },
         {
           "id": 3,
-          "name": "Hotel Marina Piccola",
-          "category": "Harbor Adjacent",
+          "name": {
+            "en": "Hotel Marina Piccola",
+            "de": "Hotel Marina Piccola",
+            "fr": "Hotel Marina Piccola",
+            "it": "Hotel Marina Piccola"
+          },
+          "category": {
+            "en": "Harbor Adjacent",
+            "de": "Am Hafen",
+            "fr": "Proche du Port",
+            "it": "Vicino al Porto"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "A converted fisherman's cottage with the harbor at your doorstep.",
-          "description": "Marina Piccola occupies what was once a working fisherman's house, steps from the boat ramp. The location is unbeatable for harbor access—swimming, restaurants, and the famous sunset viewpoint are immediate. Rooms retain historic character with modern comfort. Sea views from upper floors.",
-          "giuliaComment": "The location is perfect if harbor life is your priority. You'll hear boats in the morning and restaurants at night—this is immersion, not retreat. The fisherman who built this house would recognize the bones, even if the rooms have WiFi now.",
-          "signature": "Where history meets the harbor",
-          "priceRange": "€152-284/night",
-          "practicalInfo": "Best for harbor access. Upper floor for views. Can be noisy in peak season."
+          "intro": {
+            "en": "A converted fisherman's cottage with 6 rooms, rated 9.6, just a 2-minute walk from Manarola's rocky beaches.",
+            "de": "Ein umgebautes Fischerhaus mit 6 Zimmern, Bewertung 9,6, nur 2 Minuten zu Fuss von Manarolas Felsstraenden.",
+            "fr": "Un ancien cottage de pecheur converti avec 6 chambres, note 9,6, a seulement 2 minutes a pied des plages rocheuses de Manarola.",
+            "it": "Un ex cottage di pescatore convertito con 6 camere, valutazione 9,6, a soli 2 minuti a piedi dalle spiagge rocciose di Manarola."
+          },
+          "description": {
+            "en": "Marina Piccola occupies what was once a working fisherman's house at Via Renato Birolli 120, steps from the boat ramp. Stone walls contrast beautifully with modern furnishings. Each room has air conditioning, free WiFi, flat-screen TV and safety deposit box. Some rooms offer sea views. The terrace overlooking the sea serves a sweet and savory buffet breakfast every morning.",
+            "de": "Marina Piccola befindet sich in einem ehemaligen Fischerhaus an der Via Renato Birolli 120, nur Schritte von der Bootsrampe entfernt. Steinwaende kontrastieren wunderbar mit modernen Moebeln. Jedes Zimmer hat Klimaanlage, kostenloses WLAN, Flachbild-TV und Safe. Einige Zimmer bieten Meerblick. Auf der Terrasse mit Meerblick wird jeden Morgen ein suesses und herzhaftes Fruehstuecksbuffet serviert.",
+            "fr": "Marina Piccola occupe ce qui etait autrefois une maison de pecheur en activite au Via Renato Birolli 120, a quelques pas de la rampe a bateaux. Les murs de pierre contrastent magnifiquement avec le mobilier moderne. Chaque chambre dispose de la climatisation, du WiFi gratuit, d'une TV a ecran plat et d'un coffre-fort. Certaines chambres offrent une vue mer. La terrasse surplombant la mer sert un petit-dejeuner buffet sucre et sale chaque matin.",
+            "it": "Marina Piccola occupa quella che un tempo era una casa di pescatori in attivita in Via Renato Birolli 120, a pochi passi dalla rampa delle barche. I muri in pietra contrastano magnificamente con gli arredi moderni. Ogni camera ha aria condizionata, WiFi gratuito, TV a schermo piatto e cassaforte. Alcune camere offrono vista mare. La terrazza con vista mare serve ogni mattina una colazione a buffet dolce e salata."
+          },
+          "giuliaComment": {
+            "en": "The location is perfect if harbor life is your priority. You'll hear boats in the morning and restaurants at night--this is immersion, not retreat. The fisherman who built this house would recognize the bones, even if the rooms have WiFi now.",
+            "de": "Die Lage ist perfekt, wenn das Hafenleben Ihre Prioritaet ist. Sie hoeren morgens Boote und abends Restaurants--das ist Eintauchen, nicht Rueckzug. Der Fischer, der dieses Haus baute, wuerde die Grundstruktur wiedererkennen, auch wenn die Zimmer jetzt WLAN haben.",
+            "fr": "L'emplacement est parfait si la vie du port est votre priorite. Vous entendrez les bateaux le matin et les restaurants le soir--c'est de l'immersion, pas une retraite. Le pecheur qui a construit cette maison reconnaitrait la structure, meme si les chambres ont le WiFi maintenant.",
+            "it": "La posizione e perfetta se la vita del porto e la vostra priorita. Sentirete le barche al mattino e i ristoranti la sera--questa e immersione, non ritiro. Il pescatore che ha costruito questa casa riconoscerebbe la struttura, anche se le camere ora hanno il WiFi."
+          },
+          "signature": {
+            "en": "Where history meets the harbor",
+            "de": "Wo Geschichte den Hafen trifft",
+            "fr": "Ou l'histoire rencontre le port",
+            "it": "Dove la storia incontra il porto"
+          },
+          "priceRange": "EUR152-284/night",
+          "practicalInfo": {
+            "en": "Best for harbor access. Upper floor for views. Can be noisy in peak season. Pet-friendly. Typically EUR135 cheaper than Manarola average.",
+            "de": "Am besten fuer Hafenzugang. Obere Etage fuer Aussicht. Kann in der Hochsaison laut sein. Haustierfreundlich. Typischerweise 135 EUR guenstiger als der Manarola-Durchschnitt.",
+            "fr": "Ideal pour l'acces au port. Etage superieur pour les vues. Peut etre bruyant en haute saison. Accepte les animaux. Typiquement 135 EUR moins cher que la moyenne de Manarola.",
+            "it": "Ideale per l'accesso al porto. Piano superiore per le viste. Puo essere rumoroso in alta stagione. Animali ammessi. Tipicamente 135 EUR piu economico della media di Manarola."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Luggage Reality",
-          "quote": "There are no elevators in Manarola. No flat streets. No bellhops. Your luggage goes where you carry it. Pack light or prepare for stairs. Some properties offer pickup from the station—ask when booking. This isn't a complaint; it's the reality of a vertical village."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Luggage Reality",
+            "de": "Die Gepaeck-Realitaet",
+            "fr": "La Realite des Bagages",
+            "it": "La Realta dei Bagagli"
+          },
+          "quote": {
+            "en": "There are no elevators in Manarola. No flat streets. No bellhops. Your luggage goes where you carry it. Pack light or prepare for stairs. Some properties offer pickup from the station--ask when booking. This isn't a complaint; it's the reality of a vertical village.",
+            "de": "Es gibt keine Aufzuege in Manarola. Keine flachen Strassen. Keine Gepaecktraeger. Ihr Gepaeck geht dorthin, wohin Sie es tragen. Packen Sie leicht oder bereiten Sie sich auf Treppen vor. Einige Unterkuenfte bieten Abholung vom Bahnhof--fragen Sie bei der Buchung. Das ist keine Beschwerde; es ist die Realitaet eines vertikalen Dorfes.",
+            "fr": "Il n'y a pas d'ascenseurs a Manarola. Pas de rues plates. Pas de grooms. Vos bagages vont la ou vous les portez. Voyagez leger ou preparez-vous aux escaliers. Certaines proprietes offrent un service de ramassage depuis la gare--demandez lors de la reservation. Ce n'est pas une plainte ; c'est la realite d'un village vertical.",
+            "it": "Non ci sono ascensori a Manarola. Niente strade pianeggianti. Niente facchini. I vostri bagagli vanno dove li portate voi. Viaggiate leggeri o preparatevi alle scale. Alcune strutture offrono il ritiro dalla stazione--chiedete al momento della prenotazione. Non e una lamentela; e la realta di un borgo verticale."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The B&B Alternative",
-      "quote": "Manarola's B&Bs often outperform its hotels. Smaller, more personal, and frequently better located, they offer what chain hospitality cannot: hosts who live the village daily.",
-      "content": [
-        "**Da Baranin** sits at the village's highest point, requiring a serious climb but rewarding guests with panoramic views and absolute quiet. The family produces their own honey, served at breakfast. Worth the stairs.",
-        "**Amanarola** represents the new generation of B&B: design-conscious rooms, careful attention to comfort, hosts who understand what modern travelers want. Consistently high ratings reflect genuine quality.",
-        "**Affittacamere Da Paulin** is hospitality as relationship. The family treats guests like visiting relatives—sometimes for better, sometimes for more than you expected. The personal touch either charms or overwhelms.",
-        "**Ca' del Monica** focuses on breakfast. The morning spread has become legendary—local products, family recipes, enough food for a morning hike. Stay here if mornings matter."
-      ]
+      "badge": {
+        "en": "The B&B Alternative",
+        "de": "Die B&B-Alternative",
+        "fr": "L'Alternative Chambre d'Hotes",
+        "it": "L'Alternativa B&B"
+      },
+      "quote": {
+        "en": "Manarola's B&Bs often outperform its hotels. Smaller, more personal, and frequently better located, they offer what chain hospitality cannot: hosts who live the village daily.",
+        "de": "Manarolas B&Bs uebertreffen oft seine Hotels. Kleiner, persoenlicher und oft besser gelegen, bieten sie, was Hotelketten nicht koennen: Gastgeber, die das Dorf taeglich leben.",
+        "fr": "Les chambres d'hotes de Manarola surpassent souvent ses hotels. Plus petites, plus personnelles et souvent mieux situees, elles offrent ce que l'hotellerie de chaine ne peut pas : des hotes qui vivent le village quotidiennement.",
+        "it": "I B&B di Manarola spesso superano i suoi hotel. Piu piccoli, piu personali e spesso meglio posizionati, offrono quello che l'ospitalita delle catene non puo: host che vivono il borgo ogni giorno."
+      },
+      "content": {
+        "en": [
+          "**Da Baranin** sits at the village's highest point, requiring a serious climb but rewarding guests with panoramic views and absolute quiet. The family produces their own honey, served at breakfast. Worth the stairs.",
+          "**Arbanella** is a highly-rated favorite among visitors. Each room offers a balcony with sea view (sometimes garden view), free WiFi, AC, TV, desk, and perks like an in-room kettle and helpful owner.",
+          "**Affittacamere Da Paulin** is hospitality as relationship. The family treats guests like visiting relatives--sometimes for better, sometimes for more than you expected. The personal touch either charms or overwhelms.",
+          "**Corte Del Gallo** and **Maduneta 5 Terre** focus on breakfast--morning spreads that have become legendary with local products and family recipes, enough fuel for a morning hike."
+        ],
+        "de": [
+          "**Da Baranin** liegt am hoechsten Punkt des Dorfes und erfordert einen ernsthaften Aufstieg, belohnt aber Gaeste mit Panoramablick und absoluter Ruhe. Die Familie produziert ihren eigenen Honig, der zum Fruehstueck serviert wird. Die Treppen wert.",
+          "**Arbanella** ist ein hochbewerteter Favorit unter Besuchern. Jedes Zimmer bietet einen Balkon mit Meerblick (manchmal Gartenblick), kostenloses WLAN, Klimaanlage, TV, Schreibtisch und Extras wie einen Wasserkocher im Zimmer und hilfsbereite Besitzer.",
+          "**Affittacamere Da Paulin** ist Gastfreundschaft als Beziehung. Die Familie behandelt Gaeste wie Verwandte zu Besuch--manchmal zum Besseren, manchmal mehr als erwartet. Die persoenliche Note bezaubert oder ueberwaeltigt.",
+          "**Corte Del Gallo** und **Maduneta 5 Terre** konzentrieren sich auf das Fruehstueck--Morgenbuffets, die mit lokalen Produkten und Familienrezepten legendaer geworden sind, genug Energie fuer eine Morgenwanderung."
+        ],
+        "fr": [
+          "**Da Baranin** se trouve au point le plus haut du village, necessitant une montee serieuse mais recompensant les clients avec des vues panoramiques et un calme absolu. La famille produit son propre miel, servi au petit-dejeuner. Vaut les escaliers.",
+          "**Arbanella** est un favori tres bien note parmi les visiteurs. Chaque chambre offre un balcon avec vue mer (parfois vue jardin), WiFi gratuit, climatisation, TV, bureau et des avantages comme une bouilloire en chambre et un proprietaire serviable.",
+          "**Affittacamere Da Paulin** est l'hospitalite comme relation. La famille traite les clients comme des parents en visite--parfois pour le meilleur, parfois plus que prevu. La touche personnelle charme ou submerge.",
+          "**Corte Del Gallo** et **Maduneta 5 Terre** se concentrent sur le petit-dejeuner--des buffets matinaux devenus legendaires avec des produits locaux et des recettes familiales, assez de carburant pour une randonnee matinale."
+        ],
+        "it": [
+          "**Da Baranin** si trova nel punto piu alto del borgo, richiede una salita seria ma ricompensa gli ospiti con viste panoramiche e quiete assoluta. La famiglia produce il proprio miele, servito a colazione. Vale le scale.",
+          "**Arbanella** e un favorito molto apprezzato tra i visitatori. Ogni camera offre un balcone con vista mare (a volte vista giardino), WiFi gratuito, aria condizionata, TV, scrivania e vantaggi come un bollitore in camera e proprietario disponibile.",
+          "**Affittacamere Da Paulin** e ospitalita come relazione. La famiglia tratta gli ospiti come parenti in visita--a volte in meglio, a volte piu di quanto vi aspettaste. Il tocco personale incanta o travolge.",
+          "**Corte Del Gallo** e **Maduneta 5 Terre** si concentrano sulla colazione--buffet mattutini diventati leggendari con prodotti locali e ricette di famiglia, abbastanza carburante per un'escursione mattutina."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -109,48 +313,163 @@
       "items": [
         {
           "id": 4,
-          "name": "The Apartment Option",
-          "category": "Self-Catering",
+          "name": {
+            "en": "The Apartment Option",
+            "de": "Die Apartment-Option",
+            "fr": "L'Option Appartement",
+            "it": "L'Opzione Appartamento"
+          },
+          "category": {
+            "en": "Self-Catering",
+            "de": "Selbstversorgung",
+            "fr": "Location Meublee",
+            "it": "Appartamento"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "For longer stays or those wanting kitchen access, Manarola's apartments offer independence.",
-          "description": "Rental apartments throughout the village provide what hotels and B&Bs don't: kitchen facilities, space to spread out, and freedom from breakfast schedules. Quality varies widely—some are renovated gems, others are tired tourist traps. Book through reputable platforms and read recent reviews carefully.",
-          "giuliaComment": "Apartments make sense for a week or more. You can shop at the market in La Spezia, cook with local ingredients, and live more like a resident than a tourist. But vet carefully—the bad ones are bad, and in a village this small, you'll feel it.",
-          "signature": "Where independence meets immersion"
+          "intro": {
+            "en": "For longer stays or those wanting kitchen access, Manarola's apartments offer independence.",
+            "de": "Fuer laengere Aufenthalte oder solche, die Kuechenzugang wuenschen, bieten Manarolas Apartments Unabhaengigkeit.",
+            "fr": "Pour les sejours plus longs ou ceux qui veulent une cuisine, les appartements de Manarola offrent l'independance.",
+            "it": "Per soggiorni piu lunghi o chi vuole accesso alla cucina, gli appartamenti di Manarola offrono indipendenza."
+          },
+          "description": {
+            "en": "Rental apartments throughout the village provide what hotels and B&Bs don't: kitchen facilities, space to spread out, and freedom from breakfast schedules. Quality varies widely--some are renovated gems, others are tired tourist traps. Book through reputable platforms and read recent reviews carefully. Airbnb and other platforms offer rentals from around EUR17/night with unique places to stay with local hosts.",
+            "de": "Mietwohnungen im ganzen Dorf bieten, was Hotels und B&Bs nicht haben: Kuecheneinrichtungen, Platz zum Ausbreiten und Freiheit von Fruehstueckszeitplaenen. Die Qualitaet variiert stark--einige sind renovierte Juwelen, andere sind muede Touristenfallen. Buchen Sie ueber serioese Plattformen und lesen Sie aktuelle Bewertungen sorgfaeltig. Airbnb und andere Plattformen bieten Vermietungen ab etwa 17 EUR/Nacht mit einzigartigen Unterkuenften bei lokalen Gastgebern.",
+            "fr": "Les appartements en location dans tout le village offrent ce que les hotels et chambres d'hotes n'ont pas : equipements de cuisine, espace pour s'etaler et liberte des horaires de petit-dejeuner. La qualite varie enormement--certains sont des joyaux renoves, d'autres sont des pieges a touristes fatigues. Reservez via des plateformes reputees et lisez attentivement les avis recents. Airbnb et autres plateformes proposent des locations a partir d'environ 17 EUR/nuit avec des endroits uniques chez des hotes locaux.",
+            "it": "Gli appartamenti in affitto in tutto il borgo offrono quello che hotel e B&B non hanno: cucina attrezzata, spazio per allargarsi e liberta dagli orari della colazione. La qualita varia molto--alcuni sono gioielli ristrutturati, altri sono trappole turistiche stanche. Prenotate attraverso piattaforme affidabili e leggete attentamente le recensioni recenti. Airbnb e altre piattaforme offrono affitti da circa 17 EUR/notte con posti unici presso host locali."
+          },
+          "giuliaComment": {
+            "en": "Apartments make sense for a week or more. You can shop at the market in La Spezia, cook with local ingredients, and live more like a resident than a tourist. But vet carefully--the bad ones are bad, and in a village this small, you'll feel it.",
+            "de": "Apartments sind sinnvoll fuer eine Woche oder mehr. Sie koennen auf dem Markt in La Spezia einkaufen, mit lokalen Zutaten kochen und mehr wie ein Bewohner als ein Tourist leben. Aber pruefen Sie sorgfaeltig--die schlechten sind schlecht, und in einem so kleinen Dorf werden Sie es spueren.",
+            "fr": "Les appartements ont du sens pour une semaine ou plus. Vous pouvez faire vos courses au marche de La Spezia, cuisiner avec des ingredients locaux et vivre plus comme un resident que comme un touriste. Mais verifiez soigneusement--les mauvais sont mauvais, et dans un village aussi petit, vous le sentirez.",
+            "it": "Gli appartamenti hanno senso per una settimana o piu. Potete fare la spesa al mercato di La Spezia, cucinare con ingredienti locali e vivere piu come residenti che come turisti. Ma verificate attentamente--quelli brutti sono brutti, e in un borgo cosi piccolo lo sentirete."
+          },
+          "signature": {
+            "en": "Where independence meets immersion",
+            "de": "Wo Unabhaengigkeit auf Eintauchen trifft",
+            "fr": "Ou l'independance rencontre l'immersion",
+            "it": "Dove l'indipendenza incontra l'immersione"
+          }
         },
         {
           "id": 5,
-          "name": "The Timing Question",
-          "category": "When to Book",
+          "name": {
+            "en": "The Timing Question",
+            "de": "Die Timing-Frage",
+            "fr": "La Question du Timing",
+            "it": "La Questione del Tempismo"
+          },
+          "category": {
+            "en": "When to Book",
+            "de": "Wann Buchen",
+            "fr": "Quand Reserver",
+            "it": "Quando Prenotare"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When you book determines what you can book. The calendar is not forgiving.",
-          "description": "Summer (June-September) books up 4-6 months ahead for the best properties. Shoulder seasons (April-May, October) offer 2-3 month windows. Winter brings last-minute availability but some properties close. The pattern is simple: the better the property, the earlier it fills.",
-          "giuliaComment": "I've seen visitors arrive in July hoping to find a room. They end up in La Spezia, commuting to a village they wanted to wake up in. Don't be that person. Decide when you're going, then book immediately. Manarola rewards the prepared.",
-          "signature": "Where timing is everything"
+          "intro": {
+            "en": "When you book determines what you can book. The calendar is not forgiving.",
+            "de": "Wann Sie buchen, bestimmt, was Sie buchen koennen. Der Kalender ist unversoehnlich.",
+            "fr": "Quand vous reservez determine ce que vous pouvez reserver. Le calendrier ne pardonne pas.",
+            "it": "Quando prenotate determina cosa potete prenotare. Il calendario non perdona."
+          },
+          "description": {
+            "en": "Summer (June-September) books up 4-6 months ahead for the best properties. Shoulder seasons (April-May, October) offer 2-3 month windows. Winter brings last-minute availability but some properties close. The pattern is simple: the better the property, the earlier it fills.",
+            "de": "Sommer (Juni-September) ist 4-6 Monate im Voraus fuer die besten Unterkuenfte ausgebucht. Nebensaisons (April-Mai, Oktober) bieten 2-3 Monate Vorlauf. Winter bringt Last-Minute-Verfuegbarkeit, aber einige Unterkuenfte schliessen. Das Muster ist einfach: je besser die Unterkunft, desto frueher ist sie ausgebucht.",
+            "fr": "L'ete (juin-septembre) se reserve 4-6 mois a l'avance pour les meilleures proprietes. Les saisons intermediaires (avril-mai, octobre) offrent des fenetres de 2-3 mois. L'hiver apporte des disponibilites de derniere minute mais certaines proprietes ferment. Le schema est simple : meilleure est la propriete, plus tot elle se remplit.",
+            "it": "L'estate (giugno-settembre) si prenota 4-6 mesi prima per le migliori strutture. Le mezze stagioni (aprile-maggio, ottobre) offrono finestre di 2-3 mesi. L'inverno porta disponibilita last-minute ma alcune strutture chiudono. Lo schema e semplice: migliore e la struttura, prima si riempie."
+          },
+          "giuliaComment": {
+            "en": "I've seen visitors arrive in July hoping to find a room. They end up in La Spezia, commuting to a village they wanted to wake up in. Don't be that person. Decide when you're going, then book immediately. Manarola rewards the prepared.",
+            "de": "Ich habe Besucher gesehen, die im Juli ankommen und hoffen, ein Zimmer zu finden. Sie landen in La Spezia und pendeln zu einem Dorf, in dem sie aufwachen wollten. Seien Sie nicht diese Person. Entscheiden Sie, wann Sie fahren, dann buchen Sie sofort. Manarola belohnt die Vorbereiteten.",
+            "fr": "J'ai vu des visiteurs arriver en juillet esperant trouver une chambre. Ils finissent a La Spezia, faisant la navette vers un village ou ils voulaient se reveiller. Ne soyez pas cette personne. Decidez quand vous partez, puis reservez immediatement. Manarola recompense les prepares.",
+            "it": "Ho visto visitatori arrivare a luglio sperando di trovare una stanza. Finiscono a La Spezia, facendo i pendolari verso un borgo in cui volevano svegliarsi. Non siate quella persona. Decidete quando andate, poi prenotate immediatamente. Manarola premia i preparati."
+          },
+          "signature": {
+            "en": "Where timing is everything",
+            "de": "Wo Timing alles ist",
+            "fr": "Ou le timing est tout",
+            "it": "Dove il tempismo e tutto"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Direct Booking Advantage",
-          "quote": "Many Manarola properties offer better rates when you book directly rather than through aggregators. Call or email the property. You'll often get a lower price, and you establish the relationship that makes small-town hospitality work. The personal connection isn't just charm—it's practical."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Direct Booking Advantage",
+            "de": "Der Direktbuchungs-Vorteil",
+            "fr": "L'Avantage de la Reservation Directe",
+            "it": "Il Vantaggio della Prenotazione Diretta"
+          },
+          "quote": {
+            "en": "Many Manarola properties offer better rates when you book directly rather than through aggregators. Call or email the property. You'll often get a lower price, and you establish the relationship that makes small-town hospitality work. The personal connection isn't just charm--it's practical.",
+            "de": "Viele Unterkuenfte in Manarola bieten bessere Preise, wenn Sie direkt buchen statt ueber Vermittler. Rufen Sie an oder mailen Sie der Unterkunft. Sie bekommen oft einen niedrigeren Preis und etablieren die Beziehung, die Kleinstadtgastfreundschaft ausmacht. Die persoenliche Verbindung ist nicht nur Charme--sie ist praktisch.",
+            "fr": "De nombreuses proprietes de Manarola offrent de meilleurs tarifs quand vous reservez directement plutot que via des agregateurs. Appelez ou envoyez un email a la propriete. Vous obtiendrez souvent un prix plus bas et vous etablissez la relation qui fait fonctionner l'hospitalite de petite ville. La connexion personnelle n'est pas que du charme--c'est pratique.",
+            "it": "Molte strutture di Manarola offrono tariffe migliori quando prenotate direttamente piuttosto che tramite aggregatori. Chiamate o inviate un'email alla struttura. Otterrete spesso un prezzo piu basso e stabilirete il rapporto che fa funzionare l'ospitalita di paese. La connessione personale non e solo fascino--e pratica."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "A Room in the Village",
-      "content": [
-        "Staying in Manarola means accepting that accommodation is part of the experience, not just logistics. Your host's recommendations matter. Your room's location shapes your days. The stairs you climb become part of the memory.",
-        "Don't choose by amenity list—choose by character. The best nights here happen in modest rooms with views that no five-star resort can match, with breakfasts served by families who've poured coffee in this kitchen for generations.",
-        "Book early. Pack light. Accept the stairs. The village rewards those who come prepared to meet it on its terms."
-      ],
+      "title": {
+        "en": "A Room in the Village",
+        "de": "Ein Zimmer im Dorf",
+        "fr": "Une Chambre au Village",
+        "it": "Una Stanza nel Borgo"
+      },
+      "content": {
+        "en": [
+          "Staying in Manarola means accepting that accommodation is part of the experience, not just logistics. Your host's recommendations matter. Your room's location shapes your days. The stairs you climb become part of the memory.",
+          "Don't choose by amenity list--choose by character. The best nights here happen in modest rooms with views that no five-star resort can match, with breakfasts served by families who've poured coffee in this kitchen for generations.",
+          "Book early. Pack light. Accept the stairs. The village rewards those who come prepared to meet it on its terms."
+        ],
+        "de": [
+          "In Manarola zu uebernachten bedeutet zu akzeptieren, dass die Unterkunft Teil des Erlebnisses ist, nicht nur Logistik. Die Empfehlungen Ihrer Gastgeber zaehlen. Die Lage Ihres Zimmers praegt Ihre Tage. Die Treppen, die Sie steigen, werden Teil der Erinnerung.",
+          "Waehlen Sie nicht nach Ausstattungsliste--waehlen Sie nach Charakter. Die besten Naechte hier verbringt man in bescheidenen Zimmern mit Aussichten, die kein Fuenf-Sterne-Resort bieten kann, mit Fruehstuecken, die von Familien serviert werden, die in dieser Kueche seit Generationen Kaffee ausschenken.",
+          "Buchen Sie frueh. Packen Sie leicht. Akzeptieren Sie die Treppen. Das Dorf belohnt jene, die bereit sind, es zu seinen Bedingungen zu treffen."
+        ],
+        "fr": [
+          "Sejourner a Manarola signifie accepter que l'hebergement fait partie de l'experience, pas seulement de la logistique. Les recommandations de votre hote comptent. L'emplacement de votre chambre faconne vos journees. Les escaliers que vous montez deviennent partie du souvenir.",
+          "Ne choisissez pas par liste d'equipements--choisissez par caractere. Les meilleures nuits ici se passent dans des chambres modestes avec des vues qu'aucun resort cinq etoiles ne peut egaler, avec des petits-dejeuners servis par des familles qui versent le cafe dans cette cuisine depuis des generations.",
+          "Reservez tot. Voyagez leger. Acceptez les escaliers. Le village recompense ceux qui viennent prets a le rencontrer selon ses termes."
+        ],
+        "it": [
+          "Soggiornare a Manarola significa accettare che l'alloggio e parte dell'esperienza, non solo logistica. I consigli del vostro host contano. La posizione della vostra stanza plasma le vostre giornate. Le scale che salite diventano parte del ricordo.",
+          "Non scegliete per lista di servizi--scegliete per carattere. Le notti migliori qui si passano in stanze modeste con viste che nessun resort a cinque stelle puo eguagliare, con colazioni servite da famiglie che versano caffe in questa cucina da generazioni.",
+          "Prenotate presto. Viaggiate leggeri. Accettate le scale. Il borgo premia chi viene preparato a incontrarlo alle sue condizioni."
+        ]
+      },
       "buttons": [
-        { "text": "Dining in Manarola", "url": "/en/manarola/restaurants", "variant": "primary" },
-        { "text": "Getting Here", "url": "/en/manarola/getting-here", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Dining in Manarola",
+            "de": "Essen in Manarola",
+            "fr": "Diner a Manarola",
+            "it": "Mangiare a Manarola"
+          },
+          "url": "/en/manarola/restaurants",
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Comment Arriver",
+            "it": "Come Arrivare"
+          },
+          "url": "/en/manarola/getting-here",
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -160,5 +479,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:30:00.000Z"
+  "updated_at": "2026-01-07T18:30:00.000Z"
 }

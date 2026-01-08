@@ -7,36 +7,90 @@
     "it": "/it/vernazza/hiking"
   },
   "title": {
-    "en": "Hiking from Vernazza | Cinque Terre Dispatch"
+    "en": "Hiking from Vernazza | Cinque Terre Dispatch",
+    "de": "Wandern von Vernazza | Cinque Terre Dispatch",
+    "fr": "Randonnée depuis Vernazza | Cinque Terre Dispatch",
+    "it": "Escursioni da Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "hiking",
   "seo": {
     "title": {
-      "en": "Hiking from Vernazza | Cinque Terre Dispatch"
+      "en": "Hiking from Vernazza | Cinque Terre Dispatch",
+      "de": "Wandern von Vernazza | Cinque Terre Dispatch",
+      "fr": "Randonnée depuis Vernazza | Cinque Terre Dispatch",
+      "it": "Escursioni da Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The trails from Vernazza connect the harbor to the sky. To Monterosso, the path is dramatic. To Corniglia, gentler. Both reveal why this coast was worth building."
+      "en": "The trails from Vernazza connect the harbor to the sky. To Monterosso, the path is dramatic. To Corniglia, gentler. Both reveal why this coast was worth building.",
+      "de": "Die Wege von Vernazza verbinden den Hafen mit dem Himmel. Nach Monterosso ist der Pfad dramatisch. Nach Corniglia sanfter. Beide zeigen, warum diese Küste es wert war, bebaut zu werden.",
+      "fr": "Les sentiers de Vernazza relient le port au ciel. Vers Monterosso, le chemin est dramatique. Vers Corniglia, plus doux. Les deux révèlent pourquoi cette côte valait la peine d'être construite.",
+      "it": "I sentieri da Vernazza collegano il porto al cielo. Verso Monterosso, il percorso è drammatico. Verso Corniglia, più dolce. Entrambi rivelano perché questa costa valeva la pena di essere costruita."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Path<br/>Continues",
-      "subtitle": "From the harbor, trails climb in both directions—north to Monterosso along dramatic cliffs, south to Corniglia through gentler terrain. These were not scenic routes. They were how people lived before the railway changed everything.",
-      "badge": "Hiking Guide",
+      "title": {
+        "en": "The Path<br/>Continues",
+        "de": "Der Weg<br/>führt weiter",
+        "fr": "Le Sentier<br/>Continue",
+        "it": "Il Sentiero<br/>Continua"
+      },
+      "subtitle": {
+        "en": "From the harbor, trails climb in both directions—north to Monterosso along dramatic cliffs, south to Corniglia through gentler terrain. These were not scenic routes. They were how people lived before the railway changed everything.",
+        "de": "Vom Hafen aus führen Wege in beide Richtungen—nördlich nach Monterosso entlang dramatischer Klippen, südlich nach Corniglia durch sanfteres Gelände. Das waren keine Panoramastraßen. So lebten die Menschen, bevor die Eisenbahn alles veränderte.",
+        "fr": "Depuis le port, les sentiers montent dans les deux directions—nord vers Monterosso le long de falaises dramatiques, sud vers Corniglia à travers un terrain plus doux. Ce n'étaient pas des routes panoramiques. C'est ainsi que les gens vivaient avant que le chemin de fer ne change tout.",
+        "it": "Dal porto, i sentieri salgono in entrambe le direzioni—a nord verso Monterosso lungo scogliere drammatiche, a sud verso Corniglia attraverso un terreno più dolce. Non erano percorsi panoramici. Era così che la gente viveva prima che la ferrovia cambiasse tutto."
+      },
+      "badge": {
+        "en": "Hiking Guide",
+        "de": "Wanderführer",
+        "fr": "Guide de Randonnée",
+        "it": "Guida Escursionistica"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Central Village",
-      "quote": "Vernazza sits in the middle of Cinque Terre, which means the trails from here lead everywhere. Choose your direction based on your energy, your time, and what the trail conditions allow.",
-      "content": [
-        "**The Monterosso trail is legendary**. Two hours of dramatic coastal hiking—cliffs, coves, viewpoints that stop you mid-step. This is the most spectacular section of the Sentiero Azzurro, and the most demanding.",
-        "**The Corniglia trail is gentler**. An hour and a half through terraced hillsides, with the sea always visible below. Less dramatic, but more accessible—and at the end, a village most tourists skip.",
-        "**The sanctuary trail** climbs to Reggio, where a small church has served mountain farmers for centuries. This is the hike locals take—away from the coast, into the agricultural heart of the territory.",
-        "**Trail closures are common**. Landslides happen. Repairs take years. Check the park office or app before committing to any route. Having alternatives is not pessimism—it's local wisdom."
-      ]
+      "badge": {
+        "en": "The Central Village",
+        "de": "Das zentrale Dorf",
+        "fr": "Le Village Central",
+        "it": "Il Borgo Centrale"
+      },
+      "quote": {
+        "en": "Vernazza sits in the middle of Cinque Terre, which means the trails from here lead everywhere. Choose your direction based on your energy, your time, and what the trail conditions allow.",
+        "de": "Vernazza liegt in der Mitte der Cinque Terre, was bedeutet, dass die Wege von hier überall hinführen. Wählen Sie Ihre Richtung basierend auf Ihrer Energie, Ihrer Zeit und dem, was die Wegbedingungen erlauben.",
+        "fr": "Vernazza se trouve au milieu des Cinque Terre, ce qui signifie que les sentiers d'ici mènent partout. Choisissez votre direction en fonction de votre énergie, de votre temps et de ce que les conditions du sentier permettent.",
+        "it": "Vernazza si trova nel mezzo delle Cinque Terre, il che significa che i sentieri da qui portano ovunque. Scegliete la vostra direzione in base alla vostra energia, al vostro tempo e a ciò che le condizioni del sentiero permettono."
+      },
+      "content": {
+        "en": [
+          "**The Monterosso trail is legendary**. Two hours of dramatic coastal hiking—cliffs, coves, viewpoints that stop you mid-step. This is the most spectacular section of the Sentiero Azzurro, and the most demanding.",
+          "**The Corniglia trail is gentler**. An hour and a half through terraced hillsides, with the sea always visible below. Less dramatic, but more accessible—and at the end, a village most tourists skip.",
+          "**The sanctuary trail** climbs to Reggio, where a small church has served mountain farmers for centuries. This is the hike locals take—away from the coast, into the agricultural heart of the territory.",
+          "**Trail closures are common**. Landslides happen. Repairs take years. Check the park office or app before committing to any route. Having alternatives is not pessimism—it's local wisdom."
+        ],
+        "de": [
+          "**Der Monterosso-Weg ist legendär**. Zwei Stunden dramatisches Küstenwandern—Klippen, Buchten, Aussichtspunkte, die Sie mitten im Schritt anhalten lassen. Das ist der spektakulärste Abschnitt des Sentiero Azzurro und der anspruchsvollste.",
+          "**Der Corniglia-Weg ist sanfter**. Eineinhalb Stunden durch terrassierte Hänge, mit dem Meer immer sichtbar unten. Weniger dramatisch, aber zugänglicher—und am Ende ein Dorf, das die meisten Touristen auslassen.",
+          "**Der Sanktuarium-Weg** führt hinauf nach Reggio, wo eine kleine Kirche seit Jahrhunderten Bergbauern dient. Das ist die Wanderung, die Einheimische machen—weg von der Küste, ins landwirtschaftliche Herz des Gebiets.",
+          "**Wegsperrungen sind häufig**. Erdrutsche passieren. Reparaturen dauern Jahre. Überprüfen Sie das Parkbüro oder die App, bevor Sie sich auf eine Route festlegen. Alternativen zu haben ist kein Pessimismus—es ist lokale Weisheit."
+        ],
+        "fr": [
+          "**Le sentier de Monterosso est légendaire**. Deux heures de randonnée côtière dramatique—falaises, criques, points de vue qui vous arrêtent net. C'est la section la plus spectaculaire du Sentiero Azzurro, et la plus exigeante.",
+          "**Le sentier de Corniglia est plus doux**. Une heure et demie à travers des collines en terrasses, avec la mer toujours visible en contrebas. Moins dramatique, mais plus accessible—et à la fin, un village que la plupart des touristes évitent.",
+          "**Le sentier du sanctuaire** monte jusqu'à Reggio, où une petite église sert les agriculteurs de montagne depuis des siècles. C'est la randonnée que les locaux font—loin de la côte, dans le cœur agricole du territoire.",
+          "**Les fermetures de sentiers sont fréquentes**. Les glissements de terrain arrivent. Les réparations prennent des années. Vérifiez au bureau du parc ou sur l'application avant de vous engager sur un itinéraire. Avoir des alternatives n'est pas du pessimisme—c'est de la sagesse locale."
+        ],
+        "it": [
+          "**Il sentiero per Monterosso è leggendario**. Due ore di escursionismo costiero drammatico—scogliere, calette, punti panoramici che vi fermano a metà passo. Questa è la sezione più spettacolare del Sentiero Azzurro, e la più impegnativa.",
+          "**Il sentiero per Corniglia è più dolce**. Un'ora e mezza attraverso colline terrazzate, con il mare sempre visibile sotto. Meno drammatico, ma più accessibile—e alla fine, un borgo che la maggior parte dei turisti salta.",
+          "**Il sentiero del santuario** sale a Reggio, dove una piccola chiesa serve i contadini di montagna da secoli. Questa è l'escursione che fanno i locali—lontano dalla costa, nel cuore agricolo del territorio.",
+          "**Le chiusure dei sentieri sono comuni**. Le frane accadono. Le riparazioni richiedono anni. Controllate l'ufficio del parco o l'app prima di impegnarvi su un percorso. Avere alternative non è pessimismo—è saggezza locale."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,61 +98,211 @@
       "items": [
         {
           "id": 1,
-          "name": "Sentiero Azzurro to Monterosso",
-          "category": "Challenging Coastal Trail",
+          "name": {
+            "en": "Sentiero Azzurro to Monterosso",
+            "de": "Sentiero Azzurro nach Monterosso",
+            "fr": "Sentiero Azzurro vers Monterosso",
+            "it": "Sentiero Azzurro verso Monterosso"
+          },
+          "category": {
+            "en": "Challenging Coastal Trail",
+            "de": "Anspruchsvoller Küstenweg",
+            "fr": "Sentier Côtier Difficile",
+            "it": "Sentiero Costiero Impegnativo"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The most dramatic section of Cinque Terre's coastal path—where the cliffs meet the sea.",
-          "description": "This two-hour trail is what many people imagine when they think of Cinque Terre hiking. Steep climbs, sudden descents, viewpoints that seem designed for photography. The path carves through cliff faces, crosses ravines, and reveals hidden coves inaccessible by any other means.",
-          "giuliaComment": "Start at sunrise if you can. By mid-morning in summer, the exposed sections become brutal. Bring twice the water you think you need, and remember: the views deserve attention. This is not a trail to rush.",
-          "signature": "Two hours of coastal revelation",
-          "practicalInfo": "2 hours. Challenging. 300m elevation gain. Cinque Terre Card required. Good shoes essential. Start early."
+          "intro": {
+            "en": "The most dramatic section of Cinque Terre's coastal path—where the cliffs meet the sea.",
+            "de": "Der dramatischste Abschnitt des Küstenwegs der Cinque Terre—wo die Klippen auf das Meer treffen.",
+            "fr": "La section la plus dramatique du sentier côtier des Cinque Terre—là où les falaises rencontrent la mer.",
+            "it": "La sezione più drammatica del sentiero costiero delle Cinque Terre—dove le scogliere incontrano il mare."
+          },
+          "description": {
+            "en": "This two-hour trail is what many people imagine when they think of Cinque Terre hiking. Steep climbs, sudden descents, viewpoints that seem designed for photography. The path carves through cliff faces, crosses ravines, and reveals hidden coves inaccessible by any other means.",
+            "de": "Dieser zweistündige Weg ist das, was sich viele Menschen vorstellen, wenn sie an Wandern in den Cinque Terre denken. Steile Anstiege, plötzliche Abstiege, Aussichtspunkte, die für Fotografie entworfen scheinen. Der Pfad schneidet sich durch Felswände, überquert Schluchten und enthüllt versteckte Buchten, die auf keinem anderen Weg erreichbar sind.",
+            "fr": "Ce sentier de deux heures est ce que beaucoup de gens imaginent quand ils pensent à la randonnée aux Cinque Terre. Des montées raides, des descentes soudaines, des points de vue qui semblent conçus pour la photographie. Le chemin traverse des falaises, franchit des ravins et révèle des criques cachées inaccessibles par tout autre moyen.",
+            "it": "Questo sentiero di due ore è ciò che molte persone immaginano quando pensano alle escursioni alle Cinque Terre. Salite ripide, discese improvvise, punti panoramici che sembrano progettati per la fotografia. Il percorso taglia attraverso pareti rocciose, attraversa burroni e rivela calette nascoste inaccessibili con qualsiasi altro mezzo."
+          },
+          "giuliaComment": {
+            "en": "Start at sunrise if you can. By mid-morning in summer, the exposed sections become brutal. Bring twice the water you think you need, and remember: the views deserve attention. This is not a trail to rush.",
+            "de": "Starten Sie bei Sonnenaufgang, wenn Sie können. Am späten Vormittag im Sommer werden die exponierten Abschnitte brutal. Bringen Sie doppelt so viel Wasser mit, wie Sie denken, dass Sie brauchen, und denken Sie daran: Die Aussichten verdienen Aufmerksamkeit. Das ist kein Weg zum Hetzen.",
+            "fr": "Partez au lever du soleil si vous le pouvez. En milieu de matinée en été, les sections exposées deviennent brutales. Apportez deux fois plus d'eau que vous pensez avoir besoin, et rappelez-vous : les vues méritent attention. Ce n'est pas un sentier à presser.",
+            "it": "Partite all'alba se potete. A metà mattina in estate, le sezioni esposte diventano brutali. Portate il doppio dell'acqua che pensate di aver bisogno, e ricordate: le viste meritano attenzione. Questo non è un sentiero da affrettare."
+          },
+          "signature": {
+            "en": "Two hours of coastal revelation",
+            "de": "Zwei Stunden Küstenoffenbarung",
+            "fr": "Deux heures de révélation côtière",
+            "it": "Due ore di rivelazione costiera"
+          },
+          "practicalInfo": {
+            "en": "2 hours. Challenging. 300m elevation gain. Cinque Terre Card required. Good shoes essential. Start early.",
+            "de": "2 Stunden. Anspruchsvoll. 300m Höhenunterschied. Cinque Terre Card erforderlich. Gute Schuhe unerlässlich. Früh starten.",
+            "fr": "2 heures. Difficile. 300m de dénivelé. Carte Cinque Terre requise. Bonnes chaussures essentielles. Partir tôt.",
+            "it": "2 ore. Impegnativo. 300m di dislivello. Cinque Terre Card richiesta. Scarpe buone essenziali. Partire presto."
+          }
         },
         {
           "id": 2,
-          "name": "Sentiero Azzurro to Corniglia",
-          "category": "Moderate Coastal Trail",
+          "name": {
+            "en": "Sentiero Azzurro to Corniglia",
+            "de": "Sentiero Azzurro nach Corniglia",
+            "fr": "Sentiero Azzurro vers Corniglia",
+            "it": "Sentiero Azzurro verso Corniglia"
+          },
+          "category": {
+            "en": "Moderate Coastal Trail",
+            "de": "Mittelschwerer Küstenweg",
+            "fr": "Sentier Côtier Modéré",
+            "it": "Sentiero Costiero Moderato"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The gentler path south—through vineyards and terraces to the hilltop village.",
-          "description": "Less famous than the Monterosso route, but no less rewarding. The trail to Corniglia climbs through agricultural terraces, passes stone walls built by generations, and offers constant views of the coast below. At the end, Corniglia waits—the only village with no sea access, perched 100 meters above the water.",
-          "giuliaComment": "I prefer this trail for its quiet. The Monterosso path gets crowded; this one rewards those who don't need Instagram superlatives. And Corniglia itself is worth the destination—the least touristy village, the most authentic.",
-          "signature": "Ninety minutes to the quiet village",
-          "practicalInfo": "1.5 hours. Moderate. 200m elevation change. Cinque Terre Card required. Ends 382 steps above Corniglia station."
+          "intro": {
+            "en": "The gentler path south—through vineyards and terraces to the hilltop village.",
+            "de": "Der sanftere Weg nach Süden—durch Weinberge und Terrassen zum Hügeldorf.",
+            "fr": "Le chemin plus doux vers le sud—à travers vignobles et terrasses vers le village perché.",
+            "it": "Il percorso più dolce verso sud—attraverso vigneti e terrazze verso il borgo in collina."
+          },
+          "description": {
+            "en": "Less famous than the Monterosso route, but no less rewarding. The trail to Corniglia climbs through agricultural terraces, passes stone walls built by generations, and offers constant views of the coast below. At the end, Corniglia waits—the only village with no sea access, perched 100 meters above the water.",
+            "de": "Weniger berühmt als die Monterosso-Route, aber nicht weniger lohnend. Der Weg nach Corniglia führt durch landwirtschaftliche Terrassen, vorbei an Steinmauern, die von Generationen gebaut wurden, und bietet konstante Ausblicke auf die Küste unten. Am Ende wartet Corniglia—das einzige Dorf ohne Meerzugang, 100 Meter über dem Wasser thronend.",
+            "fr": "Moins célèbre que l'itinéraire de Monterosso, mais tout aussi gratifiant. Le sentier vers Corniglia monte à travers des terrasses agricoles, passe devant des murs de pierre construits par des générations, et offre des vues constantes sur la côte en contrebas. À la fin, Corniglia attend—le seul village sans accès à la mer, perché à 100 mètres au-dessus de l'eau.",
+            "it": "Meno famoso del percorso per Monterosso, ma non meno gratificante. Il sentiero verso Corniglia sale attraverso terrazze agricole, passa davanti a muretti a secco costruiti da generazioni, e offre viste costanti sulla costa sottostante. Alla fine, Corniglia attende—l'unico borgo senza accesso al mare, arroccato a 100 metri sopra l'acqua."
+          },
+          "giuliaComment": {
+            "en": "I prefer this trail for its quiet. The Monterosso path gets crowded; this one rewards those who don't need Instagram superlatives. And Corniglia itself is worth the destination—the least touristy village, the most authentic.",
+            "de": "Ich bevorzuge diesen Weg wegen seiner Ruhe. Der Monterosso-Pfad wird überfüllt; dieser belohnt diejenigen, die keine Instagram-Superlative brauchen. Und Corniglia selbst ist das Ziel wert—das am wenigsten touristische Dorf, das authentischste.",
+            "fr": "Je préfère ce sentier pour son calme. Le chemin de Monterosso devient bondé ; celui-ci récompense ceux qui n'ont pas besoin de superlatifs Instagram. Et Corniglia elle-même vaut la destination—le village le moins touristique, le plus authentique.",
+            "it": "Preferisco questo sentiero per la sua quiete. Il percorso per Monterosso diventa affollato; questo premia chi non ha bisogno di superlativi da Instagram. E Corniglia stessa vale la destinazione—il borgo meno turistico, il più autentico."
+          },
+          "signature": {
+            "en": "Ninety minutes to the quiet village",
+            "de": "Neunzig Minuten zum ruhigen Dorf",
+            "fr": "Quatre-vingt-dix minutes vers le village tranquille",
+            "it": "Novanta minuti verso il borgo tranquillo"
+          },
+          "practicalInfo": {
+            "en": "1.5 hours. Moderate. 200m elevation change. Cinque Terre Card required. Ends 382 steps above Corniglia station.",
+            "de": "1,5 Stunden. Mittelschwer. 200m Höhenunterschied. Cinque Terre Card erforderlich. Endet 382 Stufen über dem Bahnhof Corniglia.",
+            "fr": "1h30. Modéré. 200m de dénivelé. Carte Cinque Terre requise. Se termine 382 marches au-dessus de la gare de Corniglia.",
+            "it": "1,5 ore. Moderato. 200m di dislivello. Cinque Terre Card richiesta. Termina 382 gradini sopra la stazione di Corniglia."
+          }
         },
         {
           "id": 3,
-          "name": "Sanctuary of Nostra Signora di Reggio",
-          "category": "Inland Pilgrimage",
+          "name": {
+            "en": "Sanctuary of Nostra Signora di Reggio",
+            "de": "Heiligtum Nostra Signora di Reggio",
+            "fr": "Sanctuaire de Nostra Signora di Reggio",
+            "it": "Santuario di Nostra Signora di Reggio"
+          },
+          "category": {
+            "en": "Inland Pilgrimage",
+            "de": "Binnenland-Pilgerweg",
+            "fr": "Pèlerinage Intérieur",
+            "it": "Pellegrinaggio nell'Entroterra"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1590078756532-171c4a1ec067?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The trail locals walk—away from the sea, into the terraced hillsides where faith met farming.",
-          "description": "The path to the Sanctuary of Reggio climbs through the olive groves and vineyards above Vernazza. This is not coastal hiking—it's agricultural history. The small church at the top has served mountain farmers since the 11th century, and the views from its courtyard reveal the scale of human effort that built this landscape.",
-          "giuliaComment": "Tourists rarely take this trail, which is why I love it. The sanctuary is simple—a small church, a courtyard, a view. But the silence is different from coastal trails. This is where Vernazza's food comes from.",
-          "signature": "Where the village meets its fields",
-          "practicalInfo": "45 minutes up, 30 down. Moderate climb. Free access. Church hours limited. Bring water."
+          "intro": {
+            "en": "The trail locals walk—away from the sea, into the terraced hillsides where faith met farming.",
+            "de": "Der Weg, den Einheimische gehen—weg vom Meer, in die terrassierten Hänge, wo Glaube auf Landwirtschaft traf.",
+            "fr": "Le sentier que les locaux empruntent—loin de la mer, dans les collines en terrasses où la foi rencontrait l'agriculture.",
+            "it": "Il sentiero che percorrono i locali—lontano dal mare, nelle colline terrazzate dove la fede incontrava l'agricoltura."
+          },
+          "description": {
+            "en": "The path to the Sanctuary of Reggio climbs through the olive groves and vineyards above Vernazza. This is not coastal hiking—it's agricultural history. The small church at the top has served mountain farmers since the 11th century, and the views from its courtyard reveal the scale of human effort that built this landscape.",
+            "de": "Der Weg zum Heiligtum von Reggio führt durch die Olivenhaine und Weinberge oberhalb von Vernazza. Das ist kein Küstenwandern—es ist landwirtschaftliche Geschichte. Die kleine Kirche oben dient Bergbauern seit dem 11. Jahrhundert, und die Aussicht von ihrem Hof enthüllt das Ausmaß menschlicher Anstrengung, die diese Landschaft geschaffen hat.",
+            "fr": "Le chemin vers le Sanctuaire de Reggio monte à travers les oliveraies et les vignobles au-dessus de Vernazza. Ce n'est pas de la randonnée côtière—c'est de l'histoire agricole. La petite église au sommet sert les agriculteurs de montagne depuis le 11e siècle, et les vues depuis sa cour révèlent l'ampleur de l'effort humain qui a construit ce paysage.",
+            "it": "Il sentiero verso il Santuario di Reggio sale attraverso gli oliveti e i vigneti sopra Vernazza. Questa non è escursionismo costiero—è storia agricola. La piccola chiesa in cima serve i contadini di montagna dall'XI secolo, e le viste dal suo cortile rivelano la scala dello sforzo umano che ha costruito questo paesaggio."
+          },
+          "giuliaComment": {
+            "en": "Tourists rarely take this trail, which is why I love it. The sanctuary is simple—a small church, a courtyard, a view. But the silence is different from coastal trails. This is where Vernazza's food comes from.",
+            "de": "Touristen nehmen diesen Weg selten, weshalb ich ihn liebe. Das Heiligtum ist einfach—eine kleine Kirche, ein Hof, eine Aussicht. Aber die Stille ist anders als auf Küstenwegen. Hier kommt Vernazzas Essen her.",
+            "fr": "Les touristes prennent rarement ce sentier, c'est pourquoi je l'aime. Le sanctuaire est simple—une petite église, une cour, une vue. Mais le silence est différent des sentiers côtiers. C'est d'ici que vient la nourriture de Vernazza.",
+            "it": "I turisti prendono raramente questo sentiero, ed è per questo che lo amo. Il santuario è semplice—una piccola chiesa, un cortile, una vista. Ma il silenzio è diverso dai sentieri costieri. È da qui che viene il cibo di Vernazza."
+          },
+          "signature": {
+            "en": "Where the village meets its fields",
+            "de": "Wo das Dorf auf seine Felder trifft",
+            "fr": "Où le village rencontre ses champs",
+            "it": "Dove il borgo incontra i suoi campi"
+          },
+          "practicalInfo": {
+            "en": "45 minutes up, 30 down. Moderate climb. Free access. Church hours limited. Bring water.",
+            "de": "45 Minuten hinauf, 30 hinunter. Mäßiger Anstieg. Freier Zugang. Kirchenöffnungszeiten begrenzt. Wasser mitnehmen.",
+            "fr": "45 minutes en montée, 30 en descente. Montée modérée. Accès gratuit. Heures d'église limitées. Apporter de l'eau.",
+            "it": "45 minuti in salita, 30 in discesa. Salita moderata. Accesso gratuito. Orari della chiesa limitati. Portare acqua."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Cinque Terre Card",
-          "quote": "The coastal trails require a Cinque Terre Card—available at any station. This isn't bureaucracy; it's survival. The fees fund trail maintenance in terrain where repairs mean rebuilding entire cliff sections. Consider it a contribution to preservation."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Cinque Terre Card",
+            "de": "Die Cinque Terre Card",
+            "fr": "La Carte Cinque Terre",
+            "it": "La Cinque Terre Card"
+          },
+          "quote": {
+            "en": "The coastal trails require a Cinque Terre Card—available at any station. This isn't bureaucracy; it's survival. The fees fund trail maintenance in terrain where repairs mean rebuilding entire cliff sections. Consider it a contribution to preservation.",
+            "de": "Die Küstenwege erfordern eine Cinque Terre Card—erhältlich an jedem Bahnhof. Das ist keine Bürokratie; es ist Überleben. Die Gebühren finanzieren die Wegpflege in einem Gelände, wo Reparaturen bedeuten, ganze Klippenabschnitte neu zu bauen. Betrachten Sie es als Beitrag zur Erhaltung.",
+            "fr": "Les sentiers côtiers nécessitent une Carte Cinque Terre—disponible à toute gare. Ce n'est pas de la bureaucratie ; c'est la survie. Les frais financent l'entretien des sentiers dans un terrain où les réparations signifient reconstruire des sections entières de falaise. Considérez-le comme une contribution à la préservation.",
+            "it": "I sentieri costieri richiedono una Cinque Terre Card—disponibile in qualsiasi stazione. Questa non è burocrazia; è sopravvivenza. Le tariffe finanziano la manutenzione dei sentieri in un terreno dove le riparazioni significano ricostruire intere sezioni di scogliera. Consideratelo un contributo alla conservazione."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Knowledge",
-      "quote": "The trails don't care about your schedule. They have their own logic—shaped by geology, weather, and centuries of use. Respect that logic, and they reward you. Ignore it, and they teach you physics.",
-      "content": [
-        "**Morning light, morning temperature**. Start early in summer. By 10am, the exposed coastal sections become punishing. The golden hours before 8am offer manageable heat and better photographs.",
-        "**Shoes matter more than fitness**. The stone steps become ice when wet. The rocky sections punish ankles. Proper hiking shoes are not optional—they're the difference between adventure and evacuation.",
-        "**Water is heavier than regret**. Bring more than you think you need. There are no refill points on most trails, and dehydration at altitude is dangerous. Two liters minimum for any significant hike.",
-        "**Check before you climb**. Trail conditions change with weather, landslides, and maintenance schedules. The park app shows current status. Having a backup plan is wisdom, not defeat."
-      ]
+      "badge": {
+        "en": "Practical Knowledge",
+        "de": "Praktisches Wissen",
+        "fr": "Connaissances Pratiques",
+        "it": "Conoscenze Pratiche"
+      },
+      "quote": {
+        "en": "The trails don't care about your schedule. They have their own logic—shaped by geology, weather, and centuries of use. Respect that logic, and they reward you. Ignore it, and they teach you physics.",
+        "de": "Den Wegen ist Ihr Zeitplan egal. Sie haben ihre eigene Logik—geformt von Geologie, Wetter und Jahrhunderten der Nutzung. Respektieren Sie diese Logik, und sie belohnen Sie. Ignorieren Sie sie, und sie lehren Sie Physik.",
+        "fr": "Les sentiers ne se soucient pas de votre emploi du temps. Ils ont leur propre logique—façonnée par la géologie, le temps et des siècles d'utilisation. Respectez cette logique, et ils vous récompensent. Ignorez-la, et ils vous enseignent la physique.",
+        "it": "Ai sentieri non importa del vostro programma. Hanno la loro logica—plasmata dalla geologia, dal tempo e da secoli di utilizzo. Rispettate quella logica, e vi ricompensano. Ignoratela, e vi insegnano fisica."
+      },
+      "content": {
+        "en": [
+          "**Morning light, morning temperature**. Start early in summer. By 10am, the exposed coastal sections become punishing. The golden hours before 8am offer manageable heat and better photographs.",
+          "**Shoes matter more than fitness**. The stone steps become ice when wet. The rocky sections punish ankles. Proper hiking shoes are not optional—they're the difference between adventure and evacuation.",
+          "**Water is heavier than regret**. Bring more than you think you need. There are no refill points on most trails, and dehydration at altitude is dangerous. Two liters minimum for any significant hike.",
+          "**Check before you climb**. Trail conditions change with weather, landslides, and maintenance schedules. The park app shows current status. Having a backup plan is wisdom, not defeat."
+        ],
+        "de": [
+          "**Morgenlicht, Morgentemperatur**. Starten Sie früh im Sommer. Um 10 Uhr werden die exponierten Küstenabschnitte strafend. Die goldenen Stunden vor 8 Uhr bieten erträgliche Hitze und bessere Fotos.",
+          "**Schuhe sind wichtiger als Fitness**. Die Steinstufen werden bei Nässe zu Eis. Die felsigen Abschnitte bestrafen Knöchel. Richtige Wanderschuhe sind nicht optional—sie sind der Unterschied zwischen Abenteuer und Evakuierung.",
+          "**Wasser ist schwerer als Bedauern**. Bringen Sie mehr mit, als Sie denken, dass Sie brauchen. Es gibt keine Nachfüllpunkte auf den meisten Wegen, und Dehydrierung in der Höhe ist gefährlich. Mindestens zwei Liter für jede bedeutende Wanderung.",
+          "**Prüfen Sie, bevor Sie klettern**. Wegbedingungen ändern sich mit Wetter, Erdrutschen und Wartungsplänen. Die Park-App zeigt den aktuellen Status. Einen Ersatzplan zu haben ist Weisheit, keine Niederlage."
+        ],
+        "fr": [
+          "**Lumière du matin, température du matin**. Partez tôt en été. À 10h, les sections côtières exposées deviennent punitives. Les heures dorées avant 8h offrent une chaleur gérable et de meilleures photographies.",
+          "**Les chaussures comptent plus que la forme physique**. Les marches en pierre deviennent de la glace quand elles sont mouillées. Les sections rocheuses punissent les chevilles. Des chaussures de randonnée appropriées ne sont pas optionnelles—elles font la différence entre l'aventure et l'évacuation.",
+          "**L'eau est plus lourde que le regret**. Apportez plus que vous pensez avoir besoin. Il n'y a pas de points de recharge sur la plupart des sentiers, et la déshydratation en altitude est dangereuse. Deux litres minimum pour toute randonnée significative.",
+          "**Vérifiez avant de grimper**. Les conditions des sentiers changent avec le temps, les glissements de terrain et les calendriers de maintenance. L'application du parc montre l'état actuel. Avoir un plan de secours est de la sagesse, pas une défaite."
+        ],
+        "it": [
+          "**Luce del mattino, temperatura del mattino**. Partite presto in estate. Alle 10, le sezioni costiere esposte diventano punitive. Le ore d'oro prima delle 8 offrono calore gestibile e fotografie migliori.",
+          "**Le scarpe contano più della forma fisica**. I gradini di pietra diventano ghiaccio quando sono bagnati. Le sezioni rocciose puniscono le caviglie. Le scarpe da trekking appropriate non sono opzionali—sono la differenza tra avventura ed evacuazione.",
+          "**L'acqua è più pesante del rimpianto**. Portate più di quanto pensate di aver bisogno. Non ci sono punti di ricarica sulla maggior parte dei sentieri, e la disidratazione in quota è pericolosa. Due litri minimo per qualsiasi escursione significativa.",
+          "**Controllate prima di salire**. Le condizioni dei sentieri cambiano con il tempo, le frane e i programmi di manutenzione. L'app del parco mostra lo stato attuale. Avere un piano di riserva è saggezza, non sconfitta."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,50 +310,185 @@
       "items": [
         {
           "id": 4,
-          "name": "High Path to Monterosso",
-          "category": "Full Day Challenge",
+          "name": {
+            "en": "High Path to Monterosso",
+            "de": "Hoher Weg nach Monterosso",
+            "fr": "Sentier Haut vers Monterosso",
+            "it": "Sentiero Alto verso Monterosso"
+          },
+          "category": {
+            "en": "Full Day Challenge",
+            "de": "Ganztages-Herausforderung",
+            "fr": "Défi d'une Journée Entière",
+            "it": "Sfida di una Giornata Intera"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The ridge route that serious hikers whisper about—longer, harder, and emptier than the coastal path.",
-          "description": "The Sentiero Alto runs along the ridgeline above the villages, connecting through forest and vineyard. It's longer than the coastal route, more demanding, and offers perspective impossible from below. From here, you understand how small the villages are against the scale of the mountains.",
-          "giuliaComment": "This is the trail I take when I want to think. The coastal path is beautiful but crowded; up here, you might not see another person for hours. The effort is real, but so is the solitude.",
-          "signature": "Where the coast becomes perspective",
-          "practicalInfo": "3-4 hours to Monterosso. Challenging. 500m+ elevation. Full day commitment. Pack lunch and water."
+          "intro": {
+            "en": "The ridge route that serious hikers whisper about—longer, harder, and emptier than the coastal path.",
+            "de": "Die Gratroute, über die ernsthafte Wanderer flüstern—länger, härter und leerer als der Küstenweg.",
+            "fr": "L'itinéraire de crête dont les randonneurs sérieux parlent à voix basse—plus long, plus difficile et plus vide que le sentier côtier.",
+            "it": "Il percorso di cresta di cui sussurrano gli escursionisti seri—più lungo, più duro e più vuoto del sentiero costiero."
+          },
+          "description": {
+            "en": "The Sentiero Alto runs along the ridgeline above the villages, connecting through forest and vineyard. It's longer than the coastal route, more demanding, and offers perspective impossible from below. From here, you understand how small the villages are against the scale of the mountains.",
+            "de": "Der Sentiero Alto verläuft entlang des Grats über den Dörfern und verbindet durch Wald und Weinberg. Er ist länger als die Küstenroute, anspruchsvoller und bietet eine Perspektive, die von unten unmöglich ist. Von hier verstehen Sie, wie klein die Dörfer im Vergleich zu den Bergen sind.",
+            "fr": "Le Sentiero Alto longe la ligne de crête au-dessus des villages, reliant à travers forêt et vignoble. Il est plus long que l'itinéraire côtier, plus exigeant, et offre une perspective impossible d'en bas. D'ici, vous comprenez combien les villages sont petits face à l'échelle des montagnes.",
+            "it": "Il Sentiero Alto corre lungo il crinale sopra i borghi, collegando attraverso bosco e vigneto. È più lungo del percorso costiero, più impegnativo, e offre una prospettiva impossibile dal basso. Da qui, capite quanto sono piccoli i borghi rispetto alla scala delle montagne."
+          },
+          "giuliaComment": {
+            "en": "This is the trail I take when I want to think. The coastal path is beautiful but crowded; up here, you might not see another person for hours. The effort is real, but so is the solitude.",
+            "de": "Das ist der Weg, den ich nehme, wenn ich nachdenken will. Der Küstenweg ist schön, aber überfüllt; hier oben sehen Sie vielleicht stundenlang keinen anderen Menschen. Die Anstrengung ist real, aber auch die Einsamkeit.",
+            "fr": "C'est le sentier que je prends quand je veux réfléchir. Le sentier côtier est beau mais bondé ; ici en haut, vous pourriez ne pas voir une autre personne pendant des heures. L'effort est réel, mais la solitude aussi.",
+            "it": "Questo è il sentiero che prendo quando voglio pensare. Il sentiero costiero è bello ma affollato; quassù, potreste non vedere un'altra persona per ore. Lo sforzo è reale, ma anche la solitudine."
+          },
+          "signature": {
+            "en": "Where the coast becomes perspective",
+            "de": "Wo die Küste zur Perspektive wird",
+            "fr": "Où la côte devient perspective",
+            "it": "Dove la costa diventa prospettiva"
+          },
+          "practicalInfo": {
+            "en": "3-4 hours to Monterosso. Challenging. 500m+ elevation. Full day commitment. Pack lunch and water.",
+            "de": "3-4 Stunden nach Monterosso. Anspruchsvoll. 500m+ Höhe. Ganztagesengagement. Mittagessen und Wasser einpacken.",
+            "fr": "3-4 heures jusqu'à Monterosso. Difficile. 500m+ de dénivelé. Engagement d'une journée entière. Emporter déjeuner et eau.",
+            "it": "3-4 ore per Monterosso. Impegnativo. 500m+ di dislivello. Impegno di una giornata intera. Portare pranzo e acqua."
+          }
         },
         {
           "id": 5,
-          "name": "Evening Harbor Circuit",
-          "category": "Easy Evening Walk",
+          "name": {
+            "en": "Evening Harbor Circuit",
+            "de": "Abendliche Hafenrunde",
+            "fr": "Circuit du Port en Soirée",
+            "it": "Circuito Serale del Porto"
+          },
+          "category": {
+            "en": "Easy Evening Walk",
+            "de": "Leichter Abendspaziergang",
+            "fr": "Promenade Facile en Soirée",
+            "it": "Passeggiata Serale Facile"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the big trails are too much—a simple loop through the village as evening falls.",
-          "description": "From the piazza up through the caruggi, past the castle viewpoint, and back down to the harbor. This gentle circuit takes less than an hour but captures Vernazza's transition from day to night—the shops closing, the restaurants lighting, the village settling into its evening rhythm.",
-          "giuliaComment": "Not every walk needs to be epic. Sometimes the best trail is the one that ends at a harbor table, watching the fishing boats come home, with a glass of wine and nowhere else to be.",
-          "signature": "The walk that becomes a ritual",
-          "practicalInfo": "30-45 minutes. Easy. Good for any fitness level. Perfect before dinner."
+          "intro": {
+            "en": "When the big trails are too much—a simple loop through the village as evening falls.",
+            "de": "Wenn die großen Wege zu viel sind—eine einfache Schleife durch das Dorf, wenn der Abend kommt.",
+            "fr": "Quand les grands sentiers sont trop—une simple boucle à travers le village à la tombée du soir.",
+            "it": "Quando i grandi sentieri sono troppo—un semplice giro attraverso il borgo al calar della sera."
+          },
+          "description": {
+            "en": "From the piazza up through the caruggi, past the castle viewpoint, and back down to the harbor. This gentle circuit takes less than an hour but captures Vernazza's transition from day to night—the shops closing, the restaurants lighting, the village settling into its evening rhythm.",
+            "de": "Von der Piazza hinauf durch die Caruggi, vorbei am Burg-Aussichtspunkt und wieder hinunter zum Hafen. Diese sanfte Runde dauert weniger als eine Stunde, aber fängt Vernazzas Übergang vom Tag zur Nacht ein—die Läden, die schließen, die Restaurants, die aufleuchten, das Dorf, das in seinen Abendrhythmus findet.",
+            "fr": "De la piazza en montant à travers les caruggi, passant le point de vue du château, et redescendant au port. Ce circuit doux prend moins d'une heure mais capture la transition de Vernazza du jour à la nuit—les boutiques qui ferment, les restaurants qui s'allument, le village qui s'installe dans son rythme du soir.",
+            "it": "Dalla piazza su attraverso i caruggi, oltre il punto panoramico del castello, e giù di nuovo al porto. Questo circuito dolce richiede meno di un'ora ma cattura la transizione di Vernazza dal giorno alla notte—i negozi che chiudono, i ristoranti che si illuminano, il borgo che si adagia nel suo ritmo serale."
+          },
+          "giuliaComment": {
+            "en": "Not every walk needs to be epic. Sometimes the best trail is the one that ends at a harbor table, watching the fishing boats come home, with a glass of wine and nowhere else to be.",
+            "de": "Nicht jeder Spaziergang muss episch sein. Manchmal ist der beste Weg der, der an einem Hafentisch endet, die Fischerboote beobachtend, die nach Hause kommen, mit einem Glas Wein und nirgendwo anders sein müssen.",
+            "fr": "Toutes les promenades n'ont pas besoin d'être épiques. Parfois le meilleur sentier est celui qui se termine à une table du port, regardant les bateaux de pêche rentrer, avec un verre de vin et nulle part ailleurs où aller.",
+            "it": "Non ogni passeggiata deve essere epica. A volte il sentiero migliore è quello che finisce a un tavolo del porto, guardando le barche da pesca tornare a casa, con un bicchiere di vino e nessun altro posto dove essere."
+          },
+          "signature": {
+            "en": "The walk that becomes a ritual",
+            "de": "Der Spaziergang, der zum Ritual wird",
+            "fr": "La promenade qui devient un rituel",
+            "it": "La passeggiata che diventa un rituale"
+          },
+          "practicalInfo": {
+            "en": "30-45 minutes. Easy. Good for any fitness level. Perfect before dinner.",
+            "de": "30-45 Minuten. Leicht. Gut für jedes Fitnessniveau. Perfekt vor dem Abendessen.",
+            "fr": "30-45 minutes. Facile. Bon pour tout niveau de forme. Parfait avant le dîner.",
+            "it": "30-45 minuti. Facile. Buono per qualsiasi livello di forma. Perfetto prima di cena."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Gift of Returning",
-          "quote": "The best way to experience Vernazza's trails is to return. Walk the same path at different hours, different seasons. Morning light reveals what evening hides. The trail you think you know becomes new with every walk."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Gift of Returning",
+            "de": "Das Geschenk der Rückkehr",
+            "fr": "Le Cadeau du Retour",
+            "it": "Il Dono del Ritorno"
+          },
+          "quote": {
+            "en": "The best way to experience Vernazza's trails is to return. Walk the same path at different hours, different seasons. Morning light reveals what evening hides. The trail you think you know becomes new with every walk.",
+            "de": "Der beste Weg, Vernazzas Wege zu erleben, ist zurückzukehren. Gehen Sie den gleichen Pfad zu verschiedenen Stunden, verschiedenen Jahreszeiten. Morgenlicht enthüllt, was der Abend verbirgt. Der Weg, den Sie zu kennen glauben, wird mit jedem Spaziergang neu.",
+            "fr": "La meilleure façon de vivre les sentiers de Vernazza est de revenir. Parcourez le même chemin à différentes heures, différentes saisons. La lumière du matin révèle ce que le soir cache. Le sentier que vous pensez connaître devient nouveau à chaque marche.",
+            "it": "Il modo migliore per vivere i sentieri di Vernazza è tornare. Percorrete lo stesso sentiero a ore diverse, stagioni diverse. La luce del mattino rivela ciò che la sera nasconde. Il sentiero che pensate di conoscere diventa nuovo ad ogni camminata."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Trail Rewards the Ready",
-      "content": [
-        "Every path from Vernazza tells a story—of farmers who needed to reach terraces, of pilgrims who climbed to pray, of fishermen who walked to neighboring harbors before trains existed.",
-        "You don't need to conquer every trail. One well-chosen hike, properly prepared for, teaches more than five rushed ones. Match the trail to your energy, check the conditions, bring enough water.",
-        "Then walk. The coast reveals itself to those who move through it on foot."
-      ],
+      "title": {
+        "en": "The Trail Rewards the Ready",
+        "de": "Der Weg belohnt die Vorbereiteten",
+        "fr": "Le Sentier Récompense les Préparés",
+        "it": "Il Sentiero Premia i Preparati"
+      },
+      "content": {
+        "en": [
+          "Every path from Vernazza tells a story—of farmers who needed to reach terraces, of pilgrims who climbed to pray, of fishermen who walked to neighboring harbors before trains existed.",
+          "You don't need to conquer every trail. One well-chosen hike, properly prepared for, teaches more than five rushed ones. Match the trail to your energy, check the conditions, bring enough water.",
+          "Then walk. The coast reveals itself to those who move through it on foot."
+        ],
+        "de": [
+          "Jeder Weg von Vernazza erzählt eine Geschichte—von Bauern, die Terrassen erreichen mussten, von Pilgern, die zum Beten aufstiegen, von Fischern, die zu Nachbarhäfen gingen, bevor es Züge gab.",
+          "Sie müssen nicht jeden Weg erobern. Eine gut gewählte Wanderung, richtig vorbereitet, lehrt mehr als fünf gehastete. Passen Sie den Weg an Ihre Energie an, prüfen Sie die Bedingungen, bringen Sie genug Wasser mit.",
+          "Dann gehen Sie. Die Küste offenbart sich denen, die sie zu Fuß durchqueren."
+        ],
+        "fr": [
+          "Chaque chemin depuis Vernazza raconte une histoire—de fermiers qui devaient atteindre des terrasses, de pèlerins qui montaient pour prier, de pêcheurs qui marchaient vers les ports voisins avant l'existence des trains.",
+          "Vous n'avez pas besoin de conquérir chaque sentier. Une randonnée bien choisie, correctement préparée, enseigne plus que cinq précipitées. Adaptez le sentier à votre énergie, vérifiez les conditions, apportez assez d'eau.",
+          "Puis marchez. La côte se révèle à ceux qui la traversent à pied."
+        ],
+        "it": [
+          "Ogni sentiero da Vernazza racconta una storia—di contadini che dovevano raggiungere le terrazze, di pellegrini che salivano per pregare, di pescatori che camminavano verso i porti vicini prima che esistessero i treni.",
+          "Non dovete conquistare ogni sentiero. Un'escursione ben scelta, adeguatamente preparata, insegna più di cinque affrettate. Adattate il sentiero alla vostra energia, controllate le condizioni, portate abbastanza acqua.",
+          "Poi camminate. La costa si rivela a chi la attraversa a piedi."
+        ]
+      },
       "buttons": [
-        { "text": "Where to Eat After", "url": "/en/vernazza/restaurants", "variant": "primary" },
-        { "text": "Recovery at the Beach", "url": "/en/vernazza/beaches", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Eat After",
+            "de": "Wo danach essen",
+            "fr": "Où Manger Après",
+            "it": "Dove Mangiare Dopo"
+          },
+          "url": {
+            "en": "/en/vernazza/restaurants",
+            "de": "/de/vernazza/restaurants",
+            "fr": "/fr/vernazza/restaurants",
+            "it": "/it/vernazza/restaurants"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Recovery at the Beach",
+            "de": "Erholung am Strand",
+            "fr": "Récupération à la Plage",
+            "it": "Recupero in Spiaggia"
+          },
+          "url": {
+            "en": "/en/vernazza/beaches",
+            "de": "/de/vernazza/beaches",
+            "fr": "/fr/vernazza/beaches",
+            "it": "/it/vernazza/beaches"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -159,5 +498,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T11:15:00.000Z"
+  "updated_at": "2026-01-07T19:55:00.000Z"
 }

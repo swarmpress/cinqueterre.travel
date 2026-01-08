@@ -7,36 +7,90 @@
     "it": "/it/corniglia/events"
   },
   "title": {
-    "en": "Events in Corniglia | Cinque Terre Dispatch"
+    "en": "Events in Corniglia | Cinque Terre Dispatch",
+    "de": "Feste in Corniglia | Cinque Terre Dispatch",
+    "fr": "Événements à Corniglia | Cinque Terre Dispatch",
+    "it": "Eventi a Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "events",
   "seo": {
     "title": {
-      "en": "Events in Corniglia | Cinque Terre Dispatch"
+      "en": "Events in Corniglia | Cinque Terre Dispatch",
+      "de": "Feste in Corniglia | Cinque Terre Dispatch",
+      "fr": "Événements à Corniglia | Cinque Terre Dispatch",
+      "it": "Eventi a Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The events of Corniglia aren't staged for tourists—they're the festivals and gatherings that have marked village time for centuries. Joining them means participating in living tradition."
+      "en": "The events of Corniglia aren't staged for tourists—they're the festivals and gatherings that have marked village time for centuries. Joining them means participating in living tradition.",
+      "de": "Die Feste von Corniglia sind nicht für Touristen inszeniert—es sind die Festivals und Zusammenkünfte, die seit Jahrhunderten die Dorfzeit markieren. Dabei sein bedeutet, an lebendiger Tradition teilzunehmen.",
+      "fr": "Les événements de Corniglia ne sont pas mis en scène pour les touristes—ce sont les fêtes et rassemblements qui marquent le temps du village depuis des siècles. Y participer signifie prendre part à une tradition vivante.",
+      "it": "Gli eventi di Corniglia non sono messi in scena per i turisti—sono le feste e i raduni che segnano il tempo del paese da secoli. Parteciparvi significa prendere parte a una tradizione viva."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "When<br/>Corniglia Celebrates",
-      "subtitle": "The village calendar follows rhythms older than tourism: religious feast days, agricultural milestones, the gatherings that have brought the community together for generations. These aren't events—they're the life of the village made visible.",
-      "badge": "Events Guide",
+      "title": {
+        "en": "When<br/>Corniglia Celebrates",
+        "de": "Wenn<br/>Corniglia feiert",
+        "fr": "Quand<br/>Corniglia Célèbre",
+        "it": "Quando<br/>Corniglia Festeggia"
+      },
+      "subtitle": {
+        "en": "The village calendar follows rhythms older than tourism: religious feast days, agricultural milestones, the gatherings that have brought the community together for generations. These aren't events—they're the life of the village made visible.",
+        "de": "Der Dorfkalender folgt Rhythmen, die älter sind als der Tourismus: religiöse Feiertage, landwirtschaftliche Meilensteine, die Zusammenkünfte, die die Gemeinschaft seit Generationen vereinen. Das sind keine Events—es ist das sichtbar gewordene Leben des Dorfes.",
+        "fr": "Le calendrier du village suit des rythmes plus anciens que le tourisme : jours de fêtes religieuses, étapes agricoles, les rassemblements qui réunissent la communauté depuis des générations. Ce ne sont pas des événements—c'est la vie du village rendue visible.",
+        "it": "Il calendario del paese segue ritmi più antichi del turismo: giorni di festa religiosi, tappe agricole, i raduni che riuniscono la comunità da generazioni. Non sono eventi—è la vita del paese resa visibile."
+      },
+      "badge": {
+        "en": "Events Guide",
+        "de": "Veranstaltungsführer",
+        "fr": "Guide des Événements",
+        "it": "Guida agli Eventi"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Village Calendar",
-      "quote": "Every festival in Corniglia exists for a reason older than any visitor. The patron saint celebrations, the harvest festivals, the religious processions—these mark time the way they always have, regardless of who happens to be watching.",
-      "content": [
-        "**The religious calendar shapes the year**. Feast days for San Pietro and the Madonna della Salute aren't tourist events—they're the spiritual heartbeat of the community, observed regardless of visitor presence.",
-        "**The agricultural calendar runs parallel**. Harvest in September, pruning in spring, the rhythms of wine-making that have organized village life for millennia. These aren't performances; they're necessary work that happens to be beautiful.",
-        "**Summer brings concerts and gatherings**. The village hosts small cultural events during peak season—acoustic concerts, poetry readings, art shows. These are newer traditions, but they fit the village's character.",
-        "**Participating requires respect**. These aren't events staged for you. When you attend a village festival, you're a guest in someone else's tradition. Observe before participating. Ask before photographing. Remember whose celebration it is."
-      ]
+      "badge": {
+        "en": "The Village Calendar",
+        "de": "Der Dorfkalender",
+        "fr": "Le Calendrier du Village",
+        "it": "Il Calendario del Borgo"
+      },
+      "quote": {
+        "en": "Every festival in Corniglia exists for a reason older than any visitor. The patron saint celebrations, the harvest festivals, the religious processions—these mark time the way they always have, regardless of who happens to be watching.",
+        "de": "Jedes Fest in Corniglia existiert aus einem Grund, der älter ist als jeder Besucher. Die Schutzpatronenfeiern, die Erntefeste, die religiösen Prozessionen—sie markieren die Zeit wie eh und je, unabhängig davon, wer gerade zuschaut.",
+        "fr": "Chaque fête à Corniglia existe pour une raison plus ancienne que tout visiteur. Les célébrations du saint patron, les fêtes des récoltes, les processions religieuses—elles marquent le temps comme toujours, peu importe qui regarde.",
+        "it": "Ogni festa a Corniglia esiste per una ragione più antica di qualsiasi visitatore. Le celebrazioni del santo patrono, le feste del raccolto, le processioni religiose—segnano il tempo come sempre, indipendentemente da chi sta guardando."
+      },
+      "content": {
+        "en": [
+          "**The religious calendar shapes the year**. Feast days for San Pietro and the Madonna della Salute aren't tourist events—they're the spiritual heartbeat of the community, observed regardless of visitor presence.",
+          "**The agricultural calendar runs parallel**. Harvest in September, pruning in spring, the rhythms of wine-making that have organized village life for millennia. These aren't performances; they're necessary work that happens to be beautiful.",
+          "**Summer brings concerts and gatherings**. The village hosts small cultural events during peak season—acoustic concerts, poetry readings, art shows. These are newer traditions, but they fit the village's character.",
+          "**Participating requires respect**. These aren't events staged for you. When you attend a village festival, you're a guest in someone else's tradition. Observe before participating. Ask before photographing. Remember whose celebration it is."
+        ],
+        "de": [
+          "**Der religiöse Kalender prägt das Jahr**. Festtage für San Pietro und die Madonna della Salute sind keine Touristenveranstaltungen—sie sind der spirituelle Herzschlag der Gemeinschaft, gefeiert unabhängig von der Anwesenheit von Besuchern.",
+          "**Der landwirtschaftliche Kalender läuft parallel**. Ernte im September, Beschneidung im Frühling, die Rhythmen der Weinherstellung, die das Dorfleben seit Jahrtausenden organisieren. Das sind keine Aufführungen; es ist notwendige Arbeit, die zufällig schön ist.",
+          "**Der Sommer bringt Konzerte und Zusammenkünfte**. Das Dorf veranstaltet während der Hochsaison kleine kulturelle Events—akustische Konzerte, Poesielessungen, Kunstausstellungen. Das sind neuere Traditionen, aber sie passen zum Charakter des Dorfes.",
+          "**Teilnahme erfordert Respekt**. Das sind keine Events, die für Sie inszeniert werden. Wenn Sie an einem Dorffest teilnehmen, sind Sie Gast in der Tradition anderer. Beobachten Sie, bevor Sie teilnehmen. Fragen Sie, bevor Sie fotografieren. Denken Sie daran, wessen Feier es ist."
+        ],
+        "fr": [
+          "**Le calendrier religieux façonne l'année**. Les jours de fête pour San Pietro et la Madonna della Salute ne sont pas des événements touristiques—ils sont le battement de cœur spirituel de la communauté, observés indépendamment de la présence des visiteurs.",
+          "**Le calendrier agricole fonctionne en parallèle**. Récolte en septembre, taille au printemps, les rythmes de la vinification qui organisent la vie du village depuis des millénaires. Ce ne sont pas des spectacles ; c'est un travail nécessaire qui se trouve être beau.",
+          "**L'été apporte concerts et rassemblements**. Le village accueille de petits événements culturels en haute saison—concerts acoustiques, lectures de poésie, expositions d'art. Ce sont des traditions plus récentes, mais elles correspondent au caractère du village.",
+          "**Participer nécessite du respect**. Ce ne sont pas des événements mis en scène pour vous. Quand vous assistez à une fête du village, vous êtes un invité dans la tradition de quelqu'un d'autre. Observez avant de participer. Demandez avant de photographier. Rappelez-vous à qui appartient la célébration."
+        ],
+        "it": [
+          "**Il calendario religioso plasma l'anno**. I giorni di festa per San Pietro e la Madonna della Salute non sono eventi turistici—sono il battito spirituale della comunità, osservati indipendentemente dalla presenza dei visitatori.",
+          "**Il calendario agricolo corre parallelo**. Raccolto a settembre, potatura in primavera, i ritmi della vinificazione che organizzano la vita del paese da millenni. Non sono spettacoli; è lavoro necessario che capita essere bello.",
+          "**L'estate porta concerti e raduni**. Il paese ospita piccoli eventi culturali durante l'alta stagione—concerti acustici, letture di poesia, mostre d'arte. Sono tradizioni più recenti, ma si adattano al carattere del paese.",
+          "**Partecipare richiede rispetto**. Non sono eventi messi in scena per voi. Quando partecipate a una festa del paese, siete ospiti nella tradizione di qualcun altro. Osservate prima di partecipare. Chiedete prima di fotografare. Ricordate di chi è la celebrazione."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Festa di San Pietro",
-          "category": "Patron Saint Festival",
+          "name": {
+            "en": "Festa di San Pietro",
+            "de": "Festa di San Pietro",
+            "fr": "Festa di San Pietro",
+            "it": "Festa di San Pietro"
+          },
+          "category": {
+            "en": "Patron Saint Festival",
+            "de": "Schutzpatronenfest",
+            "fr": "Fête du Saint Patron",
+            "it": "Festa del Santo Patrono"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The patron saint festival—processions through narrow streets, special masses, the village coming together to honor its protector.",
-          "description": "June 29 brings the feast of San Pietro, Corniglia's patron saint. The celebration includes special liturgy at the parish church, a procession through the village, and a community gathering with food and wine. The festival is religious but also social—a moment when the village reaffirms its identity.",
-          "giuliaComment": "San Pietro's day is when the village feels most itself. Everyone participates—believers and skeptics, old families and newcomers. The procession winds through streets my ancestors walked. The prayers are the same ones they prayed. Visitors are welcome, but understand: this is ours.",
-          "signature": "Where the village honors its saint"
+          "intro": {
+            "en": "The patron saint festival—processions through narrow streets, special masses, the village coming together to honor its protector.",
+            "de": "Das Schutzpatronenfest—Prozessionen durch enge Straßen, besondere Messen, das Dorf versammelt sich, um seinen Beschützer zu ehren.",
+            "fr": "La fête du saint patron—processions dans les rues étroites, messes spéciales, le village se rassemble pour honorer son protecteur.",
+            "it": "La festa del santo patrono—processioni per le vie strette, messe speciali, il paese si riunisce per onorare il suo protettore."
+          },
+          "description": {
+            "en": "June 29 brings the feast of San Pietro, Corniglia's patron saint. The celebration includes special liturgy at the parish church, a procession through the village, and a community gathering with food and wine. The festival is religious but also social—a moment when the village reaffirms its identity.",
+            "de": "Der 29. Juni bringt das Fest des San Pietro, Corniglias Schutzpatron. Die Feier umfasst besondere Liturgie in der Pfarrkirche, eine Prozession durch das Dorf und ein Gemeinschaftstreffen mit Essen und Wein. Das Fest ist religiös, aber auch gesellschaftlich—ein Moment, in dem das Dorf seine Identität bekräftigt.",
+            "fr": "Le 29 juin apporte la fête de San Pietro, le saint patron de Corniglia. La célébration comprend une liturgie spéciale à l'église paroissiale, une procession à travers le village, et un rassemblement communautaire avec nourriture et vin. La fête est religieuse mais aussi sociale—un moment où le village réaffirme son identité.",
+            "it": "Il 29 giugno porta la festa di San Pietro, il santo patrono di Corniglia. La celebrazione include una liturgia speciale nella chiesa parrocchiale, una processione attraverso il paese, e un raduno comunitario con cibo e vino. La festa è religiosa ma anche sociale—un momento in cui il paese riafferma la sua identità."
+          },
+          "giuliaComment": {
+            "en": "San Pietro's day is when the village feels most itself. Everyone participates—believers and skeptics, old families and newcomers. The procession winds through streets my ancestors walked. The prayers are the same ones they prayed. Visitors are welcome, but understand: this is ours.",
+            "de": "Am Tag des San Pietro fühlt sich das Dorf am meisten wie es selbst. Jeder nimmt teil—Gläubige und Skeptiker, alte Familien und Neuankömmlinge. Die Prozession schlängelt sich durch Straßen, die meine Vorfahren gingen. Die Gebete sind dieselben, die sie beteten. Besucher sind willkommen, aber verstehen Sie: das ist unseres.",
+            "fr": "Le jour de San Pietro est celui où le village se sent le plus lui-même. Tout le monde participe—croyants et sceptiques, vieilles familles et nouveaux venus. La procession serpente dans les rues que mes ancêtres ont parcourues. Les prières sont les mêmes qu'ils priaient. Les visiteurs sont les bienvenus, mais comprenez : c'est le nôtre.",
+            "it": "Il giorno di San Pietro è quando il paese si sente più se stesso. Tutti partecipano—credenti e scettici, vecchie famiglie e nuovi arrivati. La processione si snoda per le vie che i miei antenati percorrevano. Le preghiere sono le stesse che pregavano. I visitatori sono benvenuti, ma capite: questo è nostro."
+          },
+          "signature": {
+            "en": "Where the village honors its saint",
+            "de": "Wo das Dorf seinen Heiligen ehrt",
+            "fr": "Où le village honore son saint",
+            "it": "Dove il paese onora il suo santo"
+          }
         },
         {
           "id": 2,
-          "name": "The Grape Harvest",
-          "category": "Agricultural Milestone",
+          "name": {
+            "en": "The Grape Harvest",
+            "de": "Die Weinlese",
+            "fr": "Les Vendanges",
+            "it": "La Vendemmia"
+          },
+          "category": {
+            "en": "Agricultural Milestone",
+            "de": "Landwirtschaftlicher Meilenstein",
+            "fr": "Étape Agricole",
+            "it": "Tappa Agricola"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1571406251871-c4d4d64cd6d6?q=80&w=2670&auto=format&fit=crop",
-          "intro": "September's vendemmia transforms the village—families in the terraces, the smell of crushed grapes, the culmination of the year's work.",
-          "description": "Harvest isn't a festival in the traditional sense—it's work. But it's work that defines the village, concentrating its purpose and identity. For weeks in September, families pick grapes by hand, carrying baskets up impossible slopes. Some visitors can arrange to participate; all can witness the terraces coming alive.",
-          "giuliaComment": "Harvest is my favorite time. The village is exhausted but happy. We've worked all year for this—and now we see if the work paid off. The grapes tell us what kind of year it was. The wine will tell us what kind of year it will be. Everything depends on these weeks.",
-          "signature": "Where the year's work culminates"
+          "intro": {
+            "en": "September's vendemmia transforms the village—families in the terraces, the smell of crushed grapes, the culmination of the year's work.",
+            "de": "Die Vendemmia im September verwandelt das Dorf—Familien auf den Terrassen, der Duft von zerquetschten Trauben, der Höhepunkt der Jahresarbeit.",
+            "fr": "Les vendanges de septembre transforment le village—les familles dans les terrasses, l'odeur des raisins écrasés, l'aboutissement du travail de l'année.",
+            "it": "La vendemmia di settembre trasforma il paese—le famiglie nelle terrazze, l'odore dell'uva schiacciata, il culmine del lavoro dell'anno."
+          },
+          "description": {
+            "en": "Harvest isn't a festival in the traditional sense—it's work. But it's work that defines the village, concentrating its purpose and identity. For weeks in September, families pick grapes by hand, carrying baskets up impossible slopes. Some visitors can arrange to participate; all can witness the terraces coming alive.",
+            "de": "Die Ernte ist kein Fest im traditionellen Sinne—es ist Arbeit. Aber es ist Arbeit, die das Dorf definiert, seinen Zweck und seine Identität konzentriert. Wochenlang im September pflücken Familien Trauben von Hand und tragen Körbe unmögliche Hänge hinauf. Einige Besucher können sich arrangieren teilzunehmen; alle können die Terrassen zum Leben erwachen sehen.",
+            "fr": "Les vendanges ne sont pas une fête au sens traditionnel—c'est du travail. Mais c'est un travail qui définit le village, concentrant son but et son identité. Pendant des semaines en septembre, les familles cueillent le raisin à la main, portant des paniers sur des pentes impossibles. Certains visiteurs peuvent s'arranger pour participer ; tous peuvent voir les terrasses prendre vie.",
+            "it": "La vendemmia non è una festa nel senso tradizionale—è lavoro. Ma è un lavoro che definisce il paese, concentrando il suo scopo e la sua identità. Per settimane a settembre, le famiglie raccolgono l'uva a mano, portando ceste su pendii impossibili. Alcuni visitatori possono organizzarsi per partecipare; tutti possono vedere le terrazze prendere vita."
+          },
+          "giuliaComment": {
+            "en": "Harvest is my favorite time. The village is exhausted but happy. We've worked all year for this—and now we see if the work paid off. The grapes tell us what kind of year it was. The wine will tell us what kind of year it will be. Everything depends on these weeks.",
+            "de": "Die Ernte ist meine Lieblingszeit. Das Dorf ist erschöpft aber glücklich. Wir haben das ganze Jahr dafür gearbeitet—und jetzt sehen wir, ob sich die Arbeit gelohnt hat. Die Trauben sagen uns, was für ein Jahr es war. Der Wein wird uns sagen, was für ein Jahr es sein wird. Alles hängt von diesen Wochen ab.",
+            "fr": "Les vendanges sont ma période préférée. Le village est épuisé mais heureux. Nous avons travaillé toute l'année pour ça—et maintenant nous voyons si le travail a payé. Les raisins nous disent quel genre d'année c'était. Le vin nous dira quel genre d'année ce sera. Tout dépend de ces semaines.",
+            "it": "La vendemmia è il mio periodo preferito. Il paese è esausto ma felice. Abbiamo lavorato tutto l'anno per questo—e ora vediamo se il lavoro ha pagato. L'uva ci dice che tipo di anno è stato. Il vino ci dirà che tipo di anno sarà. Tutto dipende da queste settimane."
+          },
+          "signature": {
+            "en": "Where the year's work culminates",
+            "de": "Wo die Arbeit des Jahres gipfelt",
+            "fr": "Où le travail de l'année culmine",
+            "it": "Dove culmina il lavoro dell'anno"
+          }
         },
         {
           "id": 3,
-          "name": "Festa della Madonna della Salute",
-          "category": "Religious Pilgrimage",
+          "name": {
+            "en": "Festa della Madonna della Salute",
+            "de": "Festa della Madonna della Salute",
+            "fr": "Festa della Madonna della Salute",
+            "it": "Festa della Madonna della Salute"
+          },
+          "category": {
+            "en": "Religious Pilgrimage",
+            "de": "Religiöse Pilgerfahrt",
+            "fr": "Pèlerinage Religieux",
+            "it": "Pellegrinaggio Religioso"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The pilgrimage to Volastra's sanctuary—village families walking to pray for health and protection, as they have for centuries.",
-          "description": "The sanctuary above Corniglia draws pilgrims on feast days dedicated to the Madonna della Salute. Families walk the trail together, pray at the sanctuary, share a meal. It's not a spectacle; it's a community affirming its faith through movement and presence.",
-          "giuliaComment": "My grandmother walked this pilgrimage until she couldn't walk anymore. Then she prayed from home while we walked for her. The tradition connects generations—we walk the same path our ancestors walked, pray the same prayers, hope for the same things.",
-          "signature": "Where faith meets footsteps"
+          "intro": {
+            "en": "The pilgrimage to Volastra's sanctuary—village families walking to pray for health and protection, as they have for centuries.",
+            "de": "Die Pilgerfahrt zum Heiligtum von Volastra—Dorffamilien gehen beten für Gesundheit und Schutz, wie sie es seit Jahrhunderten tun.",
+            "fr": "Le pèlerinage au sanctuaire de Volastra—les familles du village marchent pour prier pour la santé et la protection, comme depuis des siècles.",
+            "it": "Il pellegrinaggio al santuario di Volastra—le famiglie del paese camminano per pregare per la salute e la protezione, come da secoli."
+          },
+          "description": {
+            "en": "The sanctuary above Corniglia draws pilgrims on feast days dedicated to the Madonna della Salute. Families walk the trail together, pray at the sanctuary, share a meal. It's not a spectacle; it's a community affirming its faith through movement and presence.",
+            "de": "Das Heiligtum über Corniglia zieht Pilger an Festtagen an, die der Madonna della Salute gewidmet sind. Familien gehen den Weg gemeinsam, beten im Heiligtum, teilen eine Mahlzeit. Es ist kein Spektakel; es ist eine Gemeinschaft, die ihren Glauben durch Bewegung und Präsenz bekräftigt.",
+            "fr": "Le sanctuaire au-dessus de Corniglia attire les pèlerins les jours de fête dédiés à la Madonna della Salute. Les familles parcourent le sentier ensemble, prient au sanctuaire, partagent un repas. Ce n'est pas un spectacle ; c'est une communauté qui affirme sa foi par le mouvement et la présence.",
+            "it": "Il santuario sopra Corniglia attira pellegrini nei giorni di festa dedicati alla Madonna della Salute. Le famiglie percorrono il sentiero insieme, pregano al santuario, condividono un pasto. Non è uno spettacolo; è una comunità che afferma la sua fede attraverso il movimento e la presenza."
+          },
+          "giuliaComment": {
+            "en": "My grandmother walked this pilgrimage until she couldn't walk anymore. Then she prayed from home while we walked for her. The tradition connects generations—we walk the same path our ancestors walked, pray the same prayers, hope for the same things.",
+            "de": "Meine Großmutter ging diese Pilgerfahrt, bis sie nicht mehr gehen konnte. Dann betete sie von zu Hause, während wir für sie gingen. Die Tradition verbindet Generationen—wir gehen denselben Weg, den unsere Vorfahren gingen, beten dieselben Gebete, hoffen auf dieselben Dinge.",
+            "fr": "Ma grand-mère a fait ce pèlerinage jusqu'à ce qu'elle ne puisse plus marcher. Puis elle priait de chez elle pendant que nous marchions pour elle. La tradition connecte les générations—nous marchons le même chemin que nos ancêtres, prions les mêmes prières, espérons les mêmes choses.",
+            "it": "Mia nonna ha fatto questo pellegrinaggio finché non poteva più camminare. Poi pregava da casa mentre noi camminavamo per lei. La tradizione connette le generazioni—camminiamo lo stesso sentiero dei nostri antenati, preghiamo le stesse preghiere, speriamo le stesse cose."
+          },
+          "signature": {
+            "en": "Where faith meets footsteps",
+            "de": "Wo Glaube auf Schritte trifft",
+            "fr": "Où la foi rencontre les pas",
+            "it": "Dove la fede incontra i passi"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Events That Aren't Events",
-          "quote": "The most important gatherings in Corniglia aren't on any calendar. Sunday mass. The morning at the bar. The evening passeggiata. These regular rhythms create community more than any festival. You can't attend them as events—you can only participate in them as life."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelle Zwischenbetrachtung",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Events That Aren't Events",
+            "de": "Die Ereignisse, die keine Ereignisse sind",
+            "fr": "Les Événements Qui Ne Sont Pas des Événements",
+            "it": "Gli Eventi Che Non Sono Eventi"
+          },
+          "quote": {
+            "en": "The most important gatherings in Corniglia aren't on any calendar. Sunday mass. The morning at the bar. The evening passeggiata. These regular rhythms create community more than any festival. You can't attend them as events—you can only participate in them as life.",
+            "de": "Die wichtigsten Zusammenkünfte in Corniglia stehen in keinem Kalender. Sonntagsmesse. Der Morgen an der Bar. Die abendliche Passeggiata. Diese regelmäßigen Rhythmen schaffen Gemeinschaft mehr als jedes Fest. Man kann ihnen nicht als Events beiwohnen—man kann nur als Leben an ihnen teilnehmen.",
+            "fr": "Les rassemblements les plus importants à Corniglia ne figurent sur aucun calendrier. La messe du dimanche. Le matin au bar. La passeggiata du soir. Ces rythmes réguliers créent la communauté plus que n'importe quelle fête. On ne peut pas y assister comme à des événements—on ne peut que y participer comme à la vie.",
+            "it": "I raduni più importanti a Corniglia non sono in nessun calendario. La messa domenicale. La mattina al bar. La passeggiata serale. Questi ritmi regolari creano comunità più di qualsiasi festa. Non potete assistervi come eventi—potete solo parteciparvi come vita."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Summer Cultural Events",
-      "quote": "During high season, the village hosts smaller cultural events—concerts, readings, exhibitions. These are newer traditions, but they honor the village's character by keeping things intimate and acoustic.",
-      "content": [
-        "**Sunset concerts** happen occasionally on the terraces. Local musicians play acoustic sets as the sun drops toward the sea. The audiences are small; the settings are spectacular.",
-        "**Art exhibitions** appear in village spaces during summer. Local artists, occasionally visitors, show work that responds to the landscape and light.",
-        "**Poetry readings** gather small audiences for Italian and sometimes international verse. The settings—a terrace at twilight, a cantina at night—matter as much as the words.",
-        "**Check locally for schedules**. These events aren't heavily promoted. Ask at bars and shops, check notices posted on walls. Part of the charm is discovering what's happening."
-      ]
+      "badge": {
+        "en": "Summer Cultural Events",
+        "de": "Sommer-Kulturveranstaltungen",
+        "fr": "Événements Culturels d'Été",
+        "it": "Eventi Culturali Estivi"
+      },
+      "quote": {
+        "en": "During high season, the village hosts smaller cultural events—concerts, readings, exhibitions. These are newer traditions, but they honor the village's character by keeping things intimate and acoustic.",
+        "de": "Während der Hochsaison veranstaltet das Dorf kleinere kulturelle Events—Konzerte, Lesungen, Ausstellungen. Das sind neuere Traditionen, aber sie ehren den Charakter des Dorfes, indem sie die Dinge intim und akustisch halten.",
+        "fr": "Pendant la haute saison, le village accueille de petits événements culturels—concerts, lectures, expositions. Ce sont des traditions plus récentes, mais elles honorent le caractère du village en gardant les choses intimes et acoustiques.",
+        "it": "Durante l'alta stagione, il paese ospita eventi culturali più piccoli—concerti, letture, mostre. Sono tradizioni più recenti, ma onorano il carattere del paese mantenendo le cose intime e acustiche."
+      },
+      "content": {
+        "en": [
+          "**Sunset concerts** happen occasionally on the terraces. Local musicians play acoustic sets as the sun drops toward the sea. The audiences are small; the settings are spectacular.",
+          "**Art exhibitions** appear in village spaces during summer. Local artists, occasionally visitors, show work that responds to the landscape and light.",
+          "**Poetry readings** gather small audiences for Italian and sometimes international verse. The settings—a terrace at twilight, a cantina at night—matter as much as the words.",
+          "**Check locally for schedules**. These events aren't heavily promoted. Ask at bars and shops, check notices posted on walls. Part of the charm is discovering what's happening."
+        ],
+        "de": [
+          "**Sonnenuntergangskonzerte** finden gelegentlich auf den Terrassen statt. Lokale Musiker spielen akustische Sets, während die Sonne zum Meer sinkt. Das Publikum ist klein; die Kulissen sind spektakulär.",
+          "**Kunstausstellungen** erscheinen im Sommer in Dorfräumen. Lokale Künstler, gelegentlich Besucher, zeigen Werke, die auf die Landschaft und das Licht reagieren.",
+          "**Poesielessungen** versammeln kleines Publikum für italienische und manchmal internationale Verse. Die Kulissen—eine Terrasse in der Dämmerung, eine Kantina bei Nacht—zählen so viel wie die Worte.",
+          "**Erkundigen Sie sich vor Ort nach Terminen**. Diese Events werden nicht stark beworben. Fragen Sie in Bars und Geschäften, schauen Sie auf Aushänge an Wänden. Teil des Charmes ist zu entdecken, was passiert."
+        ],
+        "fr": [
+          "**Les concerts au coucher du soleil** ont lieu occasionnellement sur les terrasses. Les musiciens locaux jouent des sets acoustiques tandis que le soleil descend vers la mer. Les audiences sont petites ; les cadres sont spectaculaires.",
+          "**Les expositions d'art** apparaissent dans les espaces du village pendant l'été. Les artistes locaux, parfois des visiteurs, montrent des œuvres qui répondent au paysage et à la lumière.",
+          "**Les lectures de poésie** rassemblent de petites audiences pour des vers italiens et parfois internationaux. Les cadres—une terrasse au crépuscule, une cave la nuit—comptent autant que les mots.",
+          "**Vérifiez localement les horaires**. Ces événements ne sont pas très promus. Demandez dans les bars et magasins, vérifiez les affiches sur les murs. Une partie du charme est de découvrir ce qui se passe."
+        ],
+        "it": [
+          "**I concerti al tramonto** avvengono occasionalmente sulle terrazze. I musicisti locali suonano set acustici mentre il sole scende verso il mare. Il pubblico è piccolo; le ambientazioni sono spettacolari.",
+          "**Le mostre d'arte** appaiono negli spazi del paese durante l'estate. Artisti locali, occasionalmente visitatori, mostrano lavori che rispondono al paesaggio e alla luce.",
+          "**Le letture di poesia** raccolgono piccolo pubblico per versi italiani e talvolta internazionali. Le ambientazioni—una terrazza al crepuscolo, una cantina di notte—contano tanto quanto le parole.",
+          "**Verificate localmente gli orari**. Questi eventi non sono molto pubblicizzati. Chiedete nei bar e nei negozi, controllate gli avvisi sui muri. Parte del fascino è scoprire cosa sta succedendo."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Sunset Concerts",
-          "category": "Summer Music",
+          "name": {
+            "en": "Sunset Concerts",
+            "de": "Sonnenuntergangskonzerte",
+            "fr": "Concerts au Coucher du Soleil",
+            "it": "Concerti al Tramonto"
+          },
+          "category": {
+            "en": "Summer Music",
+            "de": "Sommermusik",
+            "fr": "Musique d'Été",
+            "it": "Musica Estiva"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Acoustic performances as the light fades—local musicians, small audiences, the Mediterranean as backdrop.",
-          "description": "During July and August, occasional concerts happen on terraces and in piazzas. The music is typically acoustic—classical guitar, small ensembles, singer-songwriters. The audiences number dozens, not hundreds. The settings are intimate; the experience is unrepeatable.",
-          "giuliaComment": "These concerts fit the village. They're quiet enough that you can still hear the sea. They're small enough that you can meet the musicians afterward. They end early enough that the village can return to its evening rhythm. This is how we want cultural events—integrated, not imposed.",
-          "signature": "Where music meets the evening"
+          "intro": {
+            "en": "Acoustic performances as the light fades—local musicians, small audiences, the Mediterranean as backdrop.",
+            "de": "Akustische Auftritte während das Licht schwindet—lokale Musiker, kleines Publikum, das Mittelmeer als Kulisse.",
+            "fr": "Performances acoustiques alors que la lumière s'estompe—musiciens locaux, petites audiences, la Méditerranée en toile de fond.",
+            "it": "Performance acustiche mentre la luce sfuma—musicisti locali, piccolo pubblico, il Mediterraneo come sfondo."
+          },
+          "description": {
+            "en": "During July and August, occasional concerts happen on terraces and in piazzas. The music is typically acoustic—classical guitar, small ensembles, singer-songwriters. The audiences number dozens, not hundreds. The settings are intimate; the experience is unrepeatable.",
+            "de": "Im Juli und August finden gelegentlich Konzerte auf Terrassen und in Piazzas statt. Die Musik ist typischerweise akustisch—klassische Gitarre, kleine Ensembles, Singer-Songwriter. Das Publikum zählt Dutzende, nicht Hunderte. Die Kulissen sind intim; das Erlebnis ist unwiederholbar.",
+            "fr": "En juillet et août, des concerts occasionnels ont lieu sur les terrasses et dans les places. La musique est généralement acoustique—guitare classique, petits ensembles, auteurs-compositeurs-interprètes. Les audiences comptent des dizaines, pas des centaines. Les cadres sont intimes ; l'expérience est irremplaçable.",
+            "it": "Durante luglio e agosto, concerti occasionali avvengono su terrazze e in piazze. La musica è tipicamente acustica—chitarra classica, piccoli ensemble, cantautori. Il pubblico conta decine, non centinaia. Le ambientazioni sono intime; l'esperienza è irripetibile."
+          },
+          "giuliaComment": {
+            "en": "These concerts fit the village. They're quiet enough that you can still hear the sea. They're small enough that you can meet the musicians afterward. They end early enough that the village can return to its evening rhythm. This is how we want cultural events—integrated, not imposed.",
+            "de": "Diese Konzerte passen zum Dorf. Sie sind leise genug, dass man noch das Meer hören kann. Sie sind klein genug, dass man die Musiker danach treffen kann. Sie enden früh genug, dass das Dorf zu seinem Abendrhythmus zurückkehren kann. So wollen wir kulturelle Events—integriert, nicht aufgezwungen.",
+            "fr": "Ces concerts conviennent au village. Ils sont assez calmes pour encore entendre la mer. Ils sont assez petits pour rencontrer les musiciens après. Ils finissent assez tôt pour que le village puisse retourner à son rythme du soir. C'est ainsi que nous voulons les événements culturels—intégrés, pas imposés.",
+            "it": "Questi concerti si adattano al paese. Sono abbastanza silenziosi da sentire ancora il mare. Sono abbastanza piccoli da poter incontrare i musicisti dopo. Finiscono abbastanza presto perché il paese possa tornare al suo ritmo serale. È così che vogliamo gli eventi culturali—integrati, non imposti."
+          },
+          "signature": {
+            "en": "Where music meets the evening",
+            "de": "Wo Musik den Abend trifft",
+            "fr": "Où la musique rencontre le soir",
+            "it": "Dove la musica incontra la sera"
+          }
         },
         {
           "id": 5,
-          "name": "Cooking Demonstrations",
-          "category": "Culinary Culture",
+          "name": {
+            "en": "Cooking Demonstrations",
+            "de": "Kochvorführungen",
+            "fr": "Démonstrations Culinaires",
+            "it": "Dimostrazioni di Cucina"
+          },
+          "category": {
+            "en": "Culinary Culture",
+            "de": "Kulinarische Kultur",
+            "fr": "Culture Culinaire",
+            "it": "Cultura Culinaria"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Village cooks sharing techniques—pesto-making, pasta-rolling, the recipes that define Ligurian cuisine.",
-          "description": "Occasional demonstrations by local cooks show traditional techniques: grinding pesto in a marble mortar, rolling trofie pasta by hand, preparing vegetables from garden to plate. These aren't cooking schools—they're glimpses into how village kitchens work, shared by cooks who've been doing this since childhood.",
-          "giuliaComment": "When my aunt demonstrates pesto-making, she doesn't use recipes. She knows how it should look, how it should smell, how the pestle should sound against the marble. That knowledge can't be taught in a class—it can only be witnessed, absorbed, practiced over years.",
-          "signature": "Where teaching becomes sharing"
+          "intro": {
+            "en": "Village cooks sharing techniques—pesto-making, pasta-rolling, the recipes that define Ligurian cuisine.",
+            "de": "Dorfköche teilen Techniken—Pesto-Herstellung, Nudelrollen, die Rezepte, die die ligurische Küche definieren.",
+            "fr": "Les cuisiniers du village partagent des techniques—fabrication du pesto, roulage des pâtes, les recettes qui définissent la cuisine ligure.",
+            "it": "I cuochi del paese condividono tecniche—preparazione del pesto, tiratura della pasta, le ricette che definiscono la cucina ligure."
+          },
+          "description": {
+            "en": "Occasional demonstrations by local cooks show traditional techniques: grinding pesto in a marble mortar, rolling trofie pasta by hand, preparing vegetables from garden to plate. These aren't cooking schools—they're glimpses into how village kitchens work, shared by cooks who've been doing this since childhood.",
+            "de": "Gelegentliche Vorführungen von lokalen Köchen zeigen traditionelle Techniken: Pesto in einem Marmormörser mahlen, Trofie-Pasta von Hand rollen, Gemüse vom Garten zum Teller zubereiten. Das sind keine Kochschulen—es sind Einblicke, wie Dorfküchen funktionieren, geteilt von Köchen, die das seit ihrer Kindheit machen.",
+            "fr": "Des démonstrations occasionnelles par des cuisiniers locaux montrent des techniques traditionnelles : broyer le pesto dans un mortier de marbre, rouler les pâtes trofie à la main, préparer les légumes du jardin à l'assiette. Ce ne sont pas des écoles de cuisine—ce sont des aperçus du fonctionnement des cuisines du village, partagés par des cuisiniers qui font cela depuis l'enfance.",
+            "it": "Dimostrazioni occasionali di cuochi locali mostrano tecniche tradizionali: pestare il pesto in un mortaio di marmo, tirare le trofie a mano, preparare verdure dall'orto al piatto. Non sono scuole di cucina—sono scorci di come funzionano le cucine del paese, condivisi da cuochi che lo fanno dall'infanzia."
+          },
+          "giuliaComment": {
+            "en": "When my aunt demonstrates pesto-making, she doesn't use recipes. She knows how it should look, how it should smell, how the pestle should sound against the marble. That knowledge can't be taught in a class—it can only be witnessed, absorbed, practiced over years.",
+            "de": "Wenn meine Tante Pesto-Herstellung vorführt, benutzt sie keine Rezepte. Sie weiß, wie es aussehen soll, wie es riechen soll, wie der Stößel gegen den Marmor klingen soll. Dieses Wissen kann man nicht in einem Kurs lehren—es kann nur beobachtet, aufgenommen, über Jahre praktiziert werden.",
+            "fr": "Quand ma tante fait une démonstration de fabrication de pesto, elle n'utilise pas de recettes. Elle sait comment ça doit avoir l'air, comment ça doit sentir, comment le pilon doit sonner contre le marbre. Ce savoir ne peut pas s'enseigner dans un cours—il ne peut qu'être observé, absorbé, pratiqué au fil des années.",
+            "it": "Quando mia zia fa una dimostrazione di preparazione del pesto, non usa ricette. Sa come deve apparire, come deve profumare, come deve suonare il pestello contro il marmo. Quella conoscenza non può essere insegnata in un corso—può solo essere osservata, assorbita, praticata negli anni."
+          },
+          "signature": {
+            "en": "Where teaching becomes sharing",
+            "de": "Wo Lehren zu Teilen wird",
+            "fr": "Où enseigner devient partager",
+            "it": "Dove insegnare diventa condividere"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "Finding Events",
-          "quote": "Corniglia doesn't advertise its events on Instagram. Check the notices posted near the church, ask at the bar, watch for handwritten signs. Part of experiencing village life is learning how village information travels—not through apps, but through conversation and attention."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "Finding Events",
+            "de": "Events finden",
+            "fr": "Trouver les Événements",
+            "it": "Trovare gli Eventi"
+          },
+          "quote": {
+            "en": "Corniglia doesn't advertise its events on Instagram. Check the notices posted near the church, ask at the bar, watch for handwritten signs. Part of experiencing village life is learning how village information travels—not through apps, but through conversation and attention.",
+            "de": "Corniglia wirbt nicht auf Instagram für seine Events. Schauen Sie auf die Aushänge bei der Kirche, fragen Sie an der Bar, achten Sie auf handgeschriebene Schilder. Teil des Erlebens des Dorflebens ist zu lernen, wie Dorfinformationen reisen—nicht durch Apps, sondern durch Gespräche und Aufmerksamkeit.",
+            "fr": "Corniglia ne fait pas de publicité pour ses événements sur Instagram. Vérifiez les affiches près de l'église, demandez au bar, surveillez les panneaux manuscrits. Une partie de l'expérience de la vie du village est d'apprendre comment les informations du village circulent—pas par les applications, mais par la conversation et l'attention.",
+            "it": "Corniglia non pubblicizza i suoi eventi su Instagram. Controllate gli avvisi vicino alla chiesa, chiedete al bar, guardate i cartelli scritti a mano. Parte del vivere la vita del paese è imparare come viaggiano le informazioni del paese—non attraverso le app, ma attraverso la conversazione e l'attenzione."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Participating in Tradition",
-      "content": [
-        "The events of Corniglia aren't entertainment—they're the visible expressions of a community's ongoing life. The festivals that seem quaint to visitors are serious to residents: expressions of faith, celebrations of work, affirmations of identity.",
-        "When you attend a village event, you're being allowed into something that would happen whether you came or not. This requires humility. Watch before you photograph. Listen before you speak. Remember that your presence doesn't define the event—the event defines itself.",
-        "The best way to experience Corniglia's events is to stay long enough that they stop feeling like events and start feeling like rhythm. The weekly mass. The evening gathering. The seasonal change. This is how villages have always marked time. It continues with or without witnesses."
-      ],
+      "title": {
+        "en": "Participating in Tradition",
+        "de": "An Traditionen teilnehmen",
+        "fr": "Participer à la Tradition",
+        "it": "Partecipare alla Tradizione"
+      },
+      "content": {
+        "en": [
+          "The events of Corniglia aren't entertainment—they're the visible expressions of a community's ongoing life. The festivals that seem quaint to visitors are serious to residents: expressions of faith, celebrations of work, affirmations of identity.",
+          "When you attend a village event, you're being allowed into something that would happen whether you came or not. This requires humility. Watch before you photograph. Listen before you speak. Remember that your presence doesn't define the event—the event defines itself.",
+          "The best way to experience Corniglia's events is to stay long enough that they stop feeling like events and start feeling like rhythm. The weekly mass. The evening gathering. The seasonal change. This is how villages have always marked time. It continues with or without witnesses."
+        ],
+        "de": [
+          "Die Events von Corniglia sind keine Unterhaltung—sie sind die sichtbaren Ausdrucksformen des fortlaufenden Lebens einer Gemeinschaft. Die Feste, die Besuchern malerisch erscheinen, sind für Einwohner ernst: Ausdrucksformen des Glaubens, Feiern der Arbeit, Bekräftigungen der Identität.",
+          "Wenn Sie an einem Dorfevent teilnehmen, wird Ihnen erlaubt, Teil von etwas zu sein, das passieren würde, ob Sie gekommen wären oder nicht. Das erfordert Demut. Schauen Sie, bevor Sie fotografieren. Hören Sie zu, bevor Sie sprechen. Denken Sie daran, dass Ihre Anwesenheit das Event nicht definiert—das Event definiert sich selbst.",
+          "Der beste Weg, Corniglias Events zu erleben, ist lange genug zu bleiben, dass sie aufhören, sich wie Events anzufühlen, und anfangen, sich wie Rhythmus anzufühlen. Die wöchentliche Messe. Die abendliche Zusammenkunft. Der jahreszeitliche Wechsel. So haben Dörfer schon immer die Zeit markiert. Es geht weiter mit oder ohne Zeugen."
+        ],
+        "fr": [
+          "Les événements de Corniglia ne sont pas du divertissement—ils sont les expressions visibles de la vie continue d'une communauté. Les fêtes qui semblent pittoresques aux visiteurs sont sérieuses pour les résidents : expressions de foi, célébrations du travail, affirmations d'identité.",
+          "Quand vous assistez à un événement du village, on vous permet d'entrer dans quelque chose qui se passerait que vous soyez venu ou non. Cela nécessite de l'humilité. Regardez avant de photographier. Écoutez avant de parler. Rappelez-vous que votre présence ne définit pas l'événement—l'événement se définit lui-même.",
+          "La meilleure façon de vivre les événements de Corniglia est de rester assez longtemps pour qu'ils cessent de ressembler à des événements et commencent à ressembler à un rythme. La messe hebdomadaire. Le rassemblement du soir. Le changement de saison. C'est ainsi que les villages ont toujours marqué le temps. Cela continue avec ou sans témoins."
+        ],
+        "it": [
+          "Gli eventi di Corniglia non sono intrattenimento—sono le espressioni visibili della vita continua di una comunità. Le feste che sembrano pittoresche ai visitatori sono serie per i residenti: espressioni di fede, celebrazioni del lavoro, affermazioni di identità.",
+          "Quando partecipate a un evento del paese, vi viene permesso di entrare in qualcosa che avverrebbe che voi siate venuti o no. Questo richiede umiltà. Guardate prima di fotografare. Ascoltate prima di parlare. Ricordate che la vostra presenza non definisce l'evento—l'evento definisce se stesso.",
+          "Il modo migliore per vivere gli eventi di Corniglia è restare abbastanza a lungo perché smettano di sembrare eventi e inizino a sembrare ritmo. La messa settimanale. Il raduno serale. Il cambio stagionale. È così che i paesi hanno sempre segnato il tempo. Continua con o senza testimoni."
+        ]
+      },
       "buttons": [
-        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
-        { "text": "Things to Do", "url": "/en/corniglia/things-to-do", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Village Overview",
+            "de": "Dorfübersicht",
+            "fr": "Aperçu du Village",
+            "it": "Panoramica del Borgo"
+          },
+          "url": {
+            "en": "/en/corniglia/overview",
+            "de": "/de/corniglia/overview",
+            "fr": "/fr/corniglia/overview",
+            "it": "/it/corniglia/overview"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Things to Do",
+            "de": "Aktivitäten",
+            "fr": "À Faire",
+            "it": "Cosa Fare"
+          },
+          "url": {
+            "en": "/en/corniglia/things-to-do",
+            "de": "/de/corniglia/aktivitaeten",
+            "fr": "/fr/corniglia/activites",
+            "it": "/it/corniglia/cosa-fare"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T19:00:00.000Z"
+  "updated_at": "2026-01-07T17:00:00.000Z"
 }

@@ -7,36 +7,90 @@
     "it": "/it/vernazza/getting-here"
   },
   "title": {
-    "en": "Getting to Vernazza | Cinque Terre Dispatch"
+    "en": "Getting to Vernazza | Cinque Terre Dispatch",
+    "de": "Anreise nach Vernazza | Cinque Terre Dispatch",
+    "fr": "Comment rejoindre Vernazza | Cinque Terre Dispatch",
+    "it": "Come arrivare a Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "getting-here",
   "seo": {
     "title": {
-      "en": "Getting to Vernazza | Cinque Terre Dispatch"
+      "en": "Getting to Vernazza | Cinque Terre Dispatch",
+      "de": "Anreise nach Vernazza | Cinque Terre Dispatch",
+      "fr": "Comment rejoindre Vernazza | Cinque Terre Dispatch",
+      "it": "Come arrivare a Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Vernazza rewards the journey—by train through tunnels that open onto clifftop platforms, by ferry into the only natural harbor in Cinque Terre, by foot along paths that have connected villages for centuries."
+      "en": "Vernazza rewards the journey—by train through tunnels that open onto clifftop platforms, by ferry into the only natural harbor in Cinque Terre, by foot along paths that have connected villages for centuries.",
+      "de": "Vernazza belohnt die Reise - mit dem Zug durch Tunnel, die sich auf Klippenplattformen offnen, mit der Fahre in den einzigen naturlichen Hafen der Cinque Terre, zu Fuss auf Wegen, die die Dorfer seit Jahrhunderten verbinden.",
+      "fr": "Vernazza recompense le voyage - en train a travers des tunnels qui s'ouvrent sur des plateformes au sommet des falaises, en ferry dans le seul port naturel des Cinque Terre, a pied le long de sentiers qui relient les villages depuis des siecles.",
+      "it": "Vernazza premia il viaggio - in treno attraverso gallerie che si aprono su piattaforme in cima alle scogliere, in traghetto nell'unico porto naturale delle Cinque Terre, a piedi lungo sentieri che collegano i borghi da secoli."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Tunnel<br/>Opens",
-      "subtitle": "Every approach to Vernazza requires commitment. The train burrows through mountains before emerging above the harbor. The ferry crosses open water before gliding into the protected cove. The hiking trails climb before they descend. This village has always demanded effort.",
-      "badge": "Getting Here",
+      "title": {
+        "en": "The Tunnel<br/>Opens",
+        "de": "Der Tunnel<br/>offnet sich",
+        "fr": "Le Tunnel<br/>S'ouvre",
+        "it": "La Galleria<br/>Si Apre"
+      },
+      "subtitle": {
+        "en": "Every approach to Vernazza requires commitment. The train burrows through mountains before emerging above the harbor. The ferry crosses open water before gliding into the protected cove. The hiking trails climb before they descend. This village has always demanded effort.",
+        "de": "Jeder Weg nach Vernazza erfordert Engagement. Der Zug grabt sich durch Berge, bevor er uber dem Hafen auftaucht. Die Fahre uberquert offenes Wasser, bevor sie in die geschutzte Bucht gleitet. Die Wanderwege steigen, bevor sie abfallen. Dieses Dorf hat immer Anstrengung verlangt.",
+        "fr": "Chaque approche de Vernazza exige un engagement. Le train s'enfonce dans les montagnes avant d'emerger au-dessus du port. Le ferry traverse les eaux libres avant de glisser dans la crique protegee. Les sentiers de randonnee montent avant de descendre. Ce village a toujours exige des efforts.",
+        "it": "Ogni approccio a Vernazza richiede impegno. Il treno scava attraverso le montagne prima di emergere sopra il porto. Il traghetto attraversa le acque aperte prima di scivolare nella baia protetta. I sentieri escursionistici salgono prima di scendere. Questo borgo ha sempre richiesto sforzo."
+      },
+      "badge": {
+        "en": "Getting Here",
+        "de": "Anreise",
+        "fr": "Comment Venir",
+        "it": "Come Arrivare"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1462922905131-1a670ce6093c-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "Journey Philosophy",
-      "quote": "Vernazza is the middle village—between Monterosso and Corniglia, between the mountains and the sea, between accessibility and isolation. Getting here means choosing your path through geography that was never designed for convenience.",
-      "content": [
-        "The **train** delivers most visitors, emerging from darkness onto a platform carved into the cliff. One step from the station tunnel and the harbor appears below, the famous view suddenly real.",
-        "The **ferry** offers the arrival that Vernazza's geography makes possible—the only natural harbor in Cinque Terre means boats can dock where other villages only have rocky beaches. Seeing the tower and the church from the water is seeing them as sailors always have.",
-        "The **car** is complicated. You can drive close, but not into. Parking is limited, expensive, and above the village. The walk down is part of the price—or the first gift, depending on your perspective.",
-        "**Walking** remains the oldest option. The Sentiero Azzurro connects the five villages along paths that predate tourism by centuries. To arrive on foot, tired and earned, is to arrive as people always did."
-      ]
+      "badge": {
+        "en": "Journey Philosophy",
+        "de": "Reisephilosophie",
+        "fr": "Philosophie du Voyage",
+        "it": "Filosofia del Viaggio"
+      },
+      "quote": {
+        "en": "Vernazza is the middle village—between Monterosso and Corniglia, between the mountains and the sea, between accessibility and isolation. Getting here means choosing your path through geography that was never designed for convenience.",
+        "de": "Vernazza ist das mittlere Dorf - zwischen Monterosso und Corniglia, zwischen den Bergen und dem Meer, zwischen Zuganglichkeit und Isolation. Hierher zu kommen bedeutet, Ihren Weg durch eine Geografie zu wahlen, die nie fur Bequemlichkeit konzipiert wurde.",
+        "fr": "Vernazza est le village du milieu - entre Monterosso et Corniglia, entre les montagnes et la mer, entre accessibilite et isolement. Arriver ici signifie choisir votre chemin a travers une geographie qui n'a jamais ete concue pour la commodite.",
+        "it": "Vernazza e il borgo centrale - tra Monterosso e Corniglia, tra le montagne e il mare, tra accessibilita e isolamento. Arrivare qui significa scegliere il vostro percorso attraverso una geografia che non e mai stata progettata per la comodita."
+      },
+      "content": {
+        "en": [
+          "The **train** delivers most visitors, emerging from darkness onto a platform carved into the cliff. One step from the station tunnel and the harbor appears below, the famous view suddenly real.",
+          "The **ferry** offers the arrival that Vernazza's geography makes possible—the only natural harbor in Cinque Terre means boats can dock where other villages only have rocky beaches. Seeing the tower and the church from the water is seeing them as sailors always have.",
+          "The **car** is complicated. You can drive close, but not into. Parking is limited, expensive, and above the village. The walk down is part of the price—or the first gift, depending on your perspective.",
+          "**Walking** remains the oldest option. The Sentiero Azzurro connects the five villages along paths that predate tourism by centuries. To arrive on foot, tired and earned, is to arrive as people always did."
+        ],
+        "de": [
+          "Der **Zug** bringt die meisten Besucher, taucht aus der Dunkelheit auf einen in die Klippe gehauenen Bahnsteig auf. Ein Schritt vom Stationstunnel und der Hafen erscheint darunter, die beruhmte Aussicht plotzlich real.",
+          "Die **Fahre** bietet die Ankunft, die Vernazzas Geografie ermoglicht - der einzige naturliche Hafen der Cinque Terre bedeutet, dass Boote anlegen konnen, wo andere Dorfer nur felsige Strande haben. Den Turm und die Kirche vom Wasser aus zu sehen bedeutet, sie zu sehen wie Seeleute es immer getan haben.",
+          "Das **Auto** ist kompliziert. Sie konnen nah heranfahren, aber nicht hinein. Parkplatze sind begrenzt, teuer und uber dem Dorf. Der Weg hinunter ist Teil des Preises - oder das erste Geschenk, je nach Perspektive.",
+          "**Wandern** bleibt die alteste Option. Der Sentiero Azzurro verbindet die funf Dorfer auf Wegen, die dem Tourismus um Jahrhunderte vorausgehen. Zu Fuss anzukommen, mude und verdient, bedeutet so anzukommen wie Menschen es immer getan haben."
+        ],
+        "fr": [
+          "Le **train** amene la plupart des visiteurs, emergeant de l'obscurite sur un quai taille dans la falaise. Un pas du tunnel de la gare et le port apparait en dessous, la vue celebre soudain reelle.",
+          "Le **ferry** offre l'arrivee que la geographie de Vernazza rend possible - le seul port naturel des Cinque Terre signifie que les bateaux peuvent accoster la ou les autres villages n'ont que des plages rocheuses. Voir la tour et l'eglise depuis l'eau, c'est les voir comme les marins l'ont toujours fait.",
+          "La **voiture** est compliquee. Vous pouvez conduire pres, mais pas dedans. Le stationnement est limite, cher et au-dessus du village. La descente fait partie du prix - ou du premier cadeau, selon votre perspective.",
+          "**La marche** reste l'option la plus ancienne. Le Sentiero Azzurro relie les cinq villages le long de chemins anterieurs au tourisme de plusieurs siecles. Arriver a pied, fatigue et merite, c'est arriver comme les gens l'ont toujours fait."
+        ],
+        "it": [
+          "Il **treno** porta la maggior parte dei visitatori, emergendo dall'oscurita su una banchina scavata nella scogliera. Un passo dal tunnel della stazione e il porto appare sotto, la famosa vista improvvisamente reale.",
+          "Il **traghetto** offre l'arrivo che la geografia di Vernazza rende possibile - l'unico porto naturale delle Cinque Terre significa che le barche possono attraccare dove altri borghi hanno solo spiagge rocciose. Vedere la torre e la chiesa dall'acqua significa vederle come i marinai hanno sempre fatto.",
+          "L'**auto** e complicata. Potete guidare vicino, ma non dentro. Il parcheggio e limitato, costoso e sopra il borgo. La discesa fa parte del prezzo - o del primo regalo, a seconda della prospettiva.",
+          "**Camminare** rimane l'opzione piu antica. Il Sentiero Azzurro collega i cinque borghi lungo percorsi che precedono il turismo di secoli. Arrivare a piedi, stanchi e meritevoli, significa arrivare come le persone hanno sempre fatto."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,61 +98,211 @@
       "items": [
         {
           "id": 1,
-          "name": "By Train",
-          "category": "Primary Access",
+          "name": {
+            "en": "By Train",
+            "de": "Mit dem Zug",
+            "fr": "En Train",
+            "it": "In Treno"
+          },
+          "category": {
+            "en": "Primary Access",
+            "de": "Hauptzugang",
+            "fr": "Acces Principal",
+            "it": "Accesso Principale"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The railway that made Cinque Terre accessible—through tunnels that seem to end until suddenly they don't.",
-          "description": "The Genoa-La Spezia railway opened in 1874, boring through cliffs that had isolated these villages for centuries. Vernazza station sits mid-line, 8 minutes from Monterosso, 10 minutes from Corniglia. You exit through a tunnel onto a platform, and the harbor opens below.",
-          "giuliaComment": "That moment—stepping from the station tunnel and seeing the harbor for the first time—I've watched thousands of visitors experience it. The gasp never changes. That's when they understand.",
-          "signature": "Where the tunnel ends and Vernazza begins",
-          "practicalInfo": "Trains every 15-30 minutes in season. Cinque Terre Card includes unlimited travel. From La Spezia: 20 minutes."
+          "intro": {
+            "en": "The railway that made Cinque Terre accessible—through tunnels that seem to end until suddenly they don't.",
+            "de": "Die Eisenbahn, die die Cinque Terre zuganglich machte - durch Tunnel, die zu enden scheinen, bis sie es plotzlich nicht mehr tun.",
+            "fr": "Le chemin de fer qui a rendu les Cinque Terre accessibles - a travers des tunnels qui semblent se terminer jusqu'a ce qu'ils ne le fassent soudainement plus.",
+            "it": "La ferrovia che ha reso accessibili le Cinque Terre - attraverso gallerie che sembrano finire fino a quando improvvisamente non lo fanno piu."
+          },
+          "description": {
+            "en": "The Genoa-La Spezia railway opened in 1874, boring through cliffs that had isolated these villages for centuries. Vernazza station sits mid-line, 8 minutes from Monterosso, 10 minutes from Corniglia. You exit through a tunnel onto a platform, and the harbor opens below.",
+            "de": "Die Eisenbahnlinie Genua-La Spezia wurde 1874 eroffnet und bohrte sich durch Klippen, die diese Dorfer jahrhundertelang isoliert hatten. Der Bahnhof Vernazza liegt in der Mitte, 8 Minuten von Monterosso, 10 Minuten von Corniglia. Sie verlassen durch einen Tunnel einen Bahnsteig, und der Hafen offnet sich darunter.",
+            "fr": "La ligne de chemin de fer Genes-La Spezia a ouvert en 1874, percant les falaises qui avaient isole ces villages pendant des siecles. La gare de Vernazza se trouve au milieu de la ligne, a 8 minutes de Monterosso, 10 minutes de Corniglia. Vous sortez par un tunnel sur un quai, et le port s'ouvre en dessous.",
+            "it": "La linea ferroviaria Genova-La Spezia apri nel 1874, forando le scogliere che avevano isolato questi borghi per secoli. La stazione di Vernazza si trova a meta linea, 8 minuti da Monterosso, 10 minuti da Corniglia. Uscite attraverso una galleria su una banchina, e il porto si apre sotto."
+          },
+          "giuliaComment": {
+            "en": "That moment—stepping from the station tunnel and seeing the harbor for the first time—I've watched thousands of visitors experience it. The gasp never changes. That's when they understand.",
+            "de": "Dieser Moment - aus dem Stationstunnel zu treten und den Hafen zum ersten Mal zu sehen - ich habe Tausende von Besuchern dabei beobachtet. Das Luftholen andert sich nie. Das ist der Moment, in dem sie verstehen.",
+            "fr": "Ce moment - sortir du tunnel de la gare et voir le port pour la premiere fois - j'ai regarde des milliers de visiteurs le vivre. Le souffle coupe ne change jamais. C'est la qu'ils comprennent.",
+            "it": "Quel momento - uscire dal tunnel della stazione e vedere il porto per la prima volta - ho osservato migliaia di visitatori viverlo. Il sussulto non cambia mai. E li che capiscono."
+          },
+          "signature": {
+            "en": "Where the tunnel ends and Vernazza begins",
+            "de": "Wo der Tunnel endet und Vernazza beginnt",
+            "fr": "La ou le tunnel se termine et Vernazza commence",
+            "it": "Dove la galleria finisce e Vernazza inizia"
+          },
+          "practicalInfo": {
+            "en": "Trains every 15-30 minutes in season. Cinque Terre Card includes unlimited travel. From La Spezia: 20 minutes.",
+            "de": "Zuge alle 15-30 Minuten in der Saison. Die Cinque Terre Card beinhaltet unbegrenzte Fahrten. Von La Spezia: 20 Minuten.",
+            "fr": "Trains toutes les 15-30 minutes en saison. La Cinque Terre Card inclut des voyages illimites. De La Spezia : 20 minutes.",
+            "it": "Treni ogni 15-30 minuti in stagione. La Cinque Terre Card include viaggi illimitati. Da La Spezia: 20 minuti."
+          }
         },
         {
           "id": 2,
-          "name": "By Ferry",
-          "category": "Scenic Approach",
+          "name": {
+            "en": "By Ferry",
+            "de": "Mit der Fahre",
+            "fr": "En Ferry",
+            "it": "In Traghetto"
+          },
+          "category": {
+            "en": "Scenic Approach",
+            "de": "Malerische Route",
+            "fr": "Approche Panoramique",
+            "it": "Approccio Panoramico"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The only natural harbor in Cinque Terre means the only harbor arrival—boats gliding into the protected cove.",
-          "description": "Ferries connect Vernazza to Monterosso, La Spezia, and Portovenere from spring through autumn. The approach by sea reveals what makes Vernazza unique: a real harbor, protected by ancient breakwaters, where boats have docked for a thousand years. This is how the village wants to be seen.",
-          "giuliaComment": "The ferry costs more, takes longer, and depends on weather. It's also the most beautiful arrival in Cinque Terre. If the sea is calm and you have time, take the boat. You'll understand why.",
-          "signature": "Into the harbor that made the village",
-          "practicalInfo": "April-October only. Weather-dependent. From Monterosso: 15 minutes. From La Spezia: 90 minutes with stops."
+          "intro": {
+            "en": "The only natural harbor in Cinque Terre means the only harbor arrival—boats gliding into the protected cove.",
+            "de": "Der einzige naturliche Hafen der Cinque Terre bedeutet die einzige Hafenankunft - Boote gleiten in die geschutzte Bucht.",
+            "fr": "Le seul port naturel des Cinque Terre signifie la seule arrivee au port - des bateaux glissant dans la crique protegee.",
+            "it": "L'unico porto naturale delle Cinque Terre significa l'unico arrivo al porto - barche che scivolano nella baia protetta."
+          },
+          "description": {
+            "en": "Ferries connect Vernazza to Monterosso, La Spezia, and Portovenere from spring through autumn. The approach by sea reveals what makes Vernazza unique: a real harbor, protected by ancient breakwaters, where boats have docked for a thousand years. This is how the village wants to be seen.",
+            "de": "Fahren verbinden Vernazza von Fruhling bis Herbst mit Monterosso, La Spezia und Portovenere. Die Annaherung vom Meer enthullt, was Vernazza einzigartig macht: ein echter Hafen, geschutzt durch alte Wellenbrechder, wo Boote seit tausend Jahren angelegt haben. So will das Dorf gesehen werden.",
+            "fr": "Les ferries relient Vernazza a Monterosso, La Spezia et Portovenere du printemps a l'automne. L'approche par la mer revele ce qui rend Vernazza unique : un vrai port, protege par d'anciens brise-lames, ou les bateaux accostent depuis mille ans. C'est ainsi que le village veut etre vu.",
+            "it": "I traghetti collegano Vernazza a Monterosso, La Spezia e Portovenere dalla primavera all'autunno. L'approccio dal mare rivela cio che rende Vernazza unico: un vero porto, protetto da antichi frangiflutti, dove le barche attraccano da mille anni. E cosi che il borgo vuole essere visto."
+          },
+          "giuliaComment": {
+            "en": "The ferry costs more, takes longer, and depends on weather. It's also the most beautiful arrival in Cinque Terre. If the sea is calm and you have time, take the boat. You'll understand why.",
+            "de": "Die Fahre kostet mehr, dauert langer und hangt vom Wetter ab. Es ist auch die schonste Ankunft in den Cinque Terre. Wenn das Meer ruhig ist und Sie Zeit haben, nehmen Sie das Boot. Sie werden verstehen warum.",
+            "fr": "Le ferry coute plus cher, prend plus de temps et depend de la meteo. C'est aussi la plus belle arrivee aux Cinque Terre. Si la mer est calme et vous avez le temps, prenez le bateau. Vous comprendrez pourquoi.",
+            "it": "Il traghetto costa di piu, richiede piu tempo e dipende dal tempo. E anche l'arrivo piu bello delle Cinque Terre. Se il mare e calmo e avete tempo, prendete la barca. Capirete perche."
+          },
+          "signature": {
+            "en": "Into the harbor that made the village",
+            "de": "In den Hafen, der das Dorf schuf",
+            "fr": "Dans le port qui a fait le village",
+            "it": "Nel porto che ha creato il borgo"
+          },
+          "practicalInfo": {
+            "en": "April-October only. Weather-dependent. From Monterosso: 15 minutes. From La Spezia: 90 minutes with stops.",
+            "de": "Nur April-Oktober. Wetterabhangig. Von Monterosso: 15 Minuten. Von La Spezia: 90 Minuten mit Stopps.",
+            "fr": "Avril-octobre uniquement. Depend de la meteo. De Monterosso : 15 minutes. De La Spezia : 90 minutes avec arrets.",
+            "it": "Solo aprile-ottobre. Dipende dal tempo. Da Monterosso: 15 minuti. Da La Spezia: 90 minuti con fermate."
+          }
         },
         {
           "id": 3,
-          "name": "By Car",
-          "category": "Complicated Option",
+          "name": {
+            "en": "By Car",
+            "de": "Mit dem Auto",
+            "fr": "En Voiture",
+            "it": "In Auto"
+          },
+          "category": {
+            "en": "Complicated Option",
+            "de": "Komplizierte Option",
+            "fr": "Option Compliquee",
+            "it": "Opzione Complicata"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "You can drive to Vernazza. You cannot drive into Vernazza.",
-          "description": "Limited parking exists above the village—expensive, often full, and far from where you want to be. From there, you walk down through terraces and stairs into a village that has never known automobiles. The car-free existence isn't a policy; it's physics. The streets were built for donkeys.",
-          "giuliaComment": "I tell people to park in La Spezia and take the train unless they have a good reason. The parking here is stressful, expensive, and solves no problems. But if you're exploring the region, a car gives freedom the railway cannot.",
-          "signature": "Where driving ends and walking begins",
-          "practicalInfo": "Parking €2-5/hour. Limited spaces, often full by 10am in summer. 10-15 minute walk down to village."
+          "intro": {
+            "en": "You can drive to Vernazza. You cannot drive into Vernazza.",
+            "de": "Sie konnen nach Vernazza fahren. Sie konnen nicht in Vernazza hineinfahren.",
+            "fr": "Vous pouvez conduire jusqu'a Vernazza. Vous ne pouvez pas conduire dans Vernazza.",
+            "it": "Potete guidare fino a Vernazza. Non potete guidare dentro Vernazza."
+          },
+          "description": {
+            "en": "Limited parking exists above the village—expensive, often full, and far from where you want to be. From there, you walk down through terraces and stairs into a village that has never known automobiles. The car-free existence isn't a policy; it's physics. The streets were built for donkeys.",
+            "de": "Begrenzte Parkplatze gibt es oberhalb des Dorfes - teuer, oft voll und weit von dem entfernt, wo Sie sein mochten. Von dort gehen Sie durch Terrassen und Treppen hinunter in ein Dorf, das nie Autos kannte. Die autofreie Existenz ist keine Politik; es ist Physik. Die Strassen wurden fur Esel gebaut.",
+            "fr": "Un stationnement limite existe au-dessus du village - cher, souvent complet, et loin de la ou vous voulez etre. De la, vous descendez a travers les terrasses et les escaliers dans un village qui n'a jamais connu d'automobiles. L'existence sans voiture n'est pas une politique ; c'est la physique. Les rues ont ete construites pour les anes.",
+            "it": "Parcheggio limitato esiste sopra il borgo - costoso, spesso pieno, e lontano da dove volete essere. Da li, scendete attraverso terrazze e scale in un borgo che non ha mai conosciuto automobili. L'esistenza senza auto non e una politica; e fisica. Le strade sono state costruite per gli asini."
+          },
+          "giuliaComment": {
+            "en": "I tell people to park in La Spezia and take the train unless they have a good reason. The parking here is stressful, expensive, and solves no problems. But if you're exploring the region, a car gives freedom the railway cannot.",
+            "de": "Ich sage den Leuten, sie sollen in La Spezia parken und den Zug nehmen, es sei denn, sie haben einen guten Grund. Das Parken hier ist stressig, teuer und lost keine Probleme. Aber wenn Sie die Region erkunden, gibt ein Auto Freiheit, die die Bahn nicht bieten kann.",
+            "fr": "Je dis aux gens de se garer a La Spezia et de prendre le train sauf s'ils ont une bonne raison. Le stationnement ici est stressant, cher, et ne resout aucun probleme. Mais si vous explorez la region, une voiture donne une liberte que le train ne peut pas offrir.",
+            "it": "Dico alle persone di parcheggiare a La Spezia e prendere il treno a meno che non abbiano un buon motivo. Il parcheggio qui e stressante, costoso, e non risolve problemi. Ma se state esplorando la regione, un'auto da liberta che la ferrovia non puo offrire."
+          },
+          "signature": {
+            "en": "Where driving ends and walking begins",
+            "de": "Wo das Fahren endet und das Gehen beginnt",
+            "fr": "La ou la conduite se termine et la marche commence",
+            "it": "Dove la guida finisce e la camminata inizia"
+          },
+          "practicalInfo": {
+            "en": "Parking 2-5 euro/hour. Limited spaces, often full by 10am in summer. 10-15 minute walk down to village.",
+            "de": "Parken 2-5 Euro/Stunde. Begrenzte Platze, im Sommer oft um 10 Uhr voll. 10-15 Minuten Fussweg hinunter zum Dorf.",
+            "fr": "Parking 2-5 euros/heure. Places limitees, souvent complet a 10h en ete. 10-15 minutes de marche jusqu'au village.",
+            "it": "Parcheggio 2-5 euro/ora. Posti limitati, spesso pieno entro le 10 in estate. 10-15 minuti a piedi fino al borgo."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Cinque Terre Card",
-          "quote": "The card isn't optional—it's how you ride trains without buying individual tickets and how you access hiking trails. Buy it at La Spezia station before your first train, choose your duration (1, 2, or 3 days), and forget about transportation logistics."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Cinque Terre Card",
+            "de": "Die Cinque Terre Card",
+            "fr": "La Cinque Terre Card",
+            "it": "La Cinque Terre Card"
+          },
+          "quote": {
+            "en": "The card isn't optional—it's how you ride trains without buying individual tickets and how you access hiking trails. Buy it at La Spezia station before your first train, choose your duration (1, 2, or 3 days), and forget about transportation logistics.",
+            "de": "Die Karte ist nicht optional - sie ist, wie Sie Zuge fahren ohne Einzeltickets zu kaufen und wie Sie auf Wanderwege zugreifen. Kaufen Sie sie am Bahnhof La Spezia vor Ihrem ersten Zug, wahlen Sie Ihre Dauer (1, 2 oder 3 Tage) und vergessen Sie die Transportlogistik.",
+            "fr": "La carte n'est pas optionnelle - c'est ainsi que vous prenez des trains sans acheter de billets individuels et accedez aux sentiers de randonnee. Achetez-la a la gare de La Spezia avant votre premier train, choisissez votre duree (1, 2 ou 3 jours), et oubliez la logistique des transports.",
+            "it": "La carta non e opzionale - e come viaggiate in treno senza comprare biglietti singoli e come accedete ai sentieri escursionistici. Acquistatela alla stazione di La Spezia prima del vostro primo treno, scegliete la durata (1, 2 o 3 giorni), e dimenticate la logistica dei trasporti."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Practical Details",
-      "quote": "The infrastructure here was built for a fishing village of a few hundred residents. That it now handles millions of annual visitors is a miracle of adaptation—and a source of occasional frustration. Plan accordingly.",
-      "content": [
-        "**From Rome**: High-speed trains reach La Spezia in about 4 hours. Change there for the regional train to Vernazza. Book the first leg in advance; the second leg doesn't need reservations.",
-        "**From Florence**: About 3 hours with a change in La Spezia. Direct morning departures let you arrive before the midday crowds.",
-        "**From Milan**: 3-3.5 hours via La Spezia. The high-speed leg is comfortable; the regional connection is functional.",
-        "**From nearby airports**: Pisa is closest (90 minutes to La Spezia by train), followed by Genoa (2 hours). Florence and Milan airports work but add significant travel time."
-      ]
+      "badge": {
+        "en": "The Practical Details",
+        "de": "Praktische Details",
+        "fr": "Les Details Pratiques",
+        "it": "I Dettagli Pratici"
+      },
+      "quote": {
+        "en": "The infrastructure here was built for a fishing village of a few hundred residents. That it now handles millions of annual visitors is a miracle of adaptation—and a source of occasional frustration. Plan accordingly.",
+        "de": "Die Infrastruktur hier wurde fur ein Fischerdorf von ein paar hundert Einwohnern gebaut. Dass sie jetzt Millionen jahrlicher Besucher bewaltigt, ist ein Wunder der Anpassung - und eine Quelle gelegentlicher Frustration. Planen Sie entsprechend.",
+        "fr": "L'infrastructure ici a ete construite pour un village de pecheurs de quelques centaines d'habitants. Qu'elle gere maintenant des millions de visiteurs annuels est un miracle d'adaptation - et une source de frustration occasionnelle. Planifiez en consequence.",
+        "it": "L'infrastruttura qui e stata costruita per un villaggio di pescatori di poche centinaia di residenti. Che gestisca ora milioni di visitatori annuali e un miracolo di adattamento - e una fonte di frustrazione occasionale. Pianificate di conseguenza."
+      },
+      "content": {
+        "en": [
+          "**From Rome**: High-speed trains reach La Spezia in about 4 hours. Change there for the regional train to Vernazza. Book the first leg in advance; the second leg doesn't need reservations.",
+          "**From Florence**: About 3 hours with a change in La Spezia. Direct morning departures let you arrive before the midday crowds.",
+          "**From Milan**: 3-3.5 hours via La Spezia. The high-speed leg is comfortable; the regional connection is functional.",
+          "**From nearby airports**: Pisa is closest (90 minutes to La Spezia by train), followed by Genoa (2 hours). Florence and Milan airports work but add significant travel time."
+        ],
+        "de": [
+          "**Von Rom**: Hochgeschwindigkeitszuge erreichen La Spezia in etwa 4 Stunden. Dort umsteigen in den Regionalzug nach Vernazza. Buchen Sie den ersten Teil im Voraus; der zweite Teil braucht keine Reservierung.",
+          "**Von Florenz**: Etwa 3 Stunden mit Umstieg in La Spezia. Direkte Morgenabfahrten lassen Sie vor dem Mittagsandrang ankommen.",
+          "**Von Mailand**: 3-3,5 Stunden uber La Spezia. Der Hochgeschwindigkeitsteil ist komfortabel; die Regionalverbindung ist funktional.",
+          "**Von nahe gelegenen Flughafen**: Pisa ist am nachsten (90 Minuten nach La Spezia mit dem Zug), gefolgt von Genua (2 Stunden). Die Flughafen Florenz und Mailand funktionieren, aber erhohen die Reisezeit erheblich."
+        ],
+        "fr": [
+          "**De Rome** : Les trains a grande vitesse atteignent La Spezia en environ 4 heures. Changez la pour le train regional vers Vernazza. Reservez le premier trajet a l'avance ; le second n'a pas besoin de reservation.",
+          "**De Florence** : Environ 3 heures avec un changement a La Spezia. Les departs matinaux directs vous permettent d'arriver avant la foule de midi.",
+          "**De Milan** : 3-3,5 heures via La Spezia. Le trajet grande vitesse est confortable ; la correspondance regionale est fonctionnelle.",
+          "**Des aeroports proches** : Pise est le plus proche (90 minutes jusqu'a La Spezia en train), suivi de Genes (2 heures). Les aeroports de Florence et Milan fonctionnent mais ajoutent un temps de trajet significatif."
+        ],
+        "it": [
+          "**Da Roma**: I treni ad alta velocita raggiungono La Spezia in circa 4 ore. Cambiate li per il treno regionale per Vernazza. Prenotate la prima tratta in anticipo; la seconda non ha bisogno di prenotazione.",
+          "**Da Firenze**: Circa 3 ore con cambio a La Spezia. Le partenze mattutine dirette vi permettono di arrivare prima della folla di mezzogiorno.",
+          "**Da Milano**: 3-3,5 ore via La Spezia. La tratta ad alta velocita e confortevole; la coincidenza regionale e funzionale.",
+          "**Dagli aeroporti vicini**: Pisa e il piu vicino (90 minuti per La Spezia in treno), seguito da Genova (2 ore). Gli aeroporti di Firenze e Milano funzionano ma aggiungono tempo di viaggio significativo."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,62 +310,232 @@
       "items": [
         {
           "id": 4,
-          "name": "Timing Your Arrival",
-          "category": "Strategy",
+          "name": {
+            "en": "Timing Your Arrival",
+            "de": "Die richtige Ankunftszeit",
+            "fr": "Choisir le Moment de l'Arrivee",
+            "it": "Scegliere il Momento dell'Arrivo"
+          },
+          "category": {
+            "en": "Strategy",
+            "de": "Strategie",
+            "fr": "Strategie",
+            "it": "Strategia"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When you arrive shapes everything—the crowds, the light, the village you experience.",
-          "description": "Early morning (before 9am) delivers you to a village still waking up—locals opening shops, fishermen already working, the piazza still quiet. Mid-morning through mid-afternoon brings the day-trip crowds. Late afternoon brings golden light and departing visitors.",
-          "giuliaComment": "The first train of the day is my secret. The village belongs to residents until the crowds arrive. If you can get here early, you'll have Vernazza to yourself for an hour or two.",
-          "signature": "Earn the quiet hours",
-          "practicalInfo": "First trains around 6am, last around 11pm. Crowds peak 11am-3pm. Golden light after 5pm."
+          "intro": {
+            "en": "When you arrive shapes everything—the crowds, the light, the village you experience.",
+            "de": "Wann Sie ankommen, bestimmt alles - die Menschenmassen, das Licht, das Dorf, das Sie erleben.",
+            "fr": "Le moment de votre arrivee faconne tout - les foules, la lumiere, le village que vous decouvrez.",
+            "it": "Quando arrivate determina tutto - la folla, la luce, il borgo che vivete."
+          },
+          "description": {
+            "en": "Early morning (before 9am) delivers you to a village still waking up—locals opening shops, fishermen already working, the piazza still quiet. Mid-morning through mid-afternoon brings the day-trip crowds. Late afternoon brings golden light and departing visitors.",
+            "de": "Fruher Morgen (vor 9 Uhr) bringt Sie in ein Dorf, das noch aufwacht - Einheimische offnen Laden, Fischer arbeiten bereits, die Piazza ist noch ruhig. Spater Vormittag bis fruher Nachmittag bringt die Tagesausflugler. Spater Nachmittag bringt goldenes Licht und abreisende Besucher.",
+            "fr": "Tot le matin (avant 9h) vous amene dans un village qui se reveille encore - les habitants ouvrent les boutiques, les pecheurs travaillent deja, la place est encore calme. De la fin de matinee au milieu de l'apres-midi arrivent les foules d'excursionnistes. La fin d'apres-midi apporte la lumiere doree et les visiteurs qui partent.",
+            "it": "La mattina presto (prima delle 9) vi porta in un borgo che si sta ancora svegliando - gli abitanti aprono i negozi, i pescatori gia lavorano, la piazza e ancora tranquilla. Dalla tarda mattinata al primo pomeriggio arrivano le folle di escursionisti giornalieri. Il tardo pomeriggio porta la luce dorata e i visitatori che partono."
+          },
+          "giuliaComment": {
+            "en": "The first train of the day is my secret. The village belongs to residents until the crowds arrive. If you can get here early, you'll have Vernazza to yourself for an hour or two.",
+            "de": "Der erste Zug des Tages ist mein Geheimnis. Das Dorf gehort den Bewohnern, bis die Massen ankommen. Wenn Sie fruh hier sein konnen, haben Sie Vernazza fur ein oder zwei Stunden fur sich.",
+            "fr": "Le premier train de la journee est mon secret. Le village appartient aux residents jusqu'a l'arrivee des foules. Si vous pouvez arriver tot, vous aurez Vernazza pour vous pendant une heure ou deux.",
+            "it": "Il primo treno del giorno e il mio segreto. Il borgo appartiene ai residenti finche non arrivano le folle. Se potete arrivare presto, avrete Vernazza per voi per un'ora o due."
+          },
+          "signature": {
+            "en": "Earn the quiet hours",
+            "de": "Verdienen Sie sich die ruhigen Stunden",
+            "fr": "Meritez les heures calmes",
+            "it": "Guadagnatevi le ore tranquille"
+          },
+          "practicalInfo": {
+            "en": "First trains around 6am, last around 11pm. Crowds peak 11am-3pm. Golden light after 5pm.",
+            "de": "Erste Zuge gegen 6 Uhr, letzte gegen 23 Uhr. Hochstbelegung 11-15 Uhr. Goldenes Licht nach 17 Uhr.",
+            "fr": "Premiers trains vers 6h, derniers vers 23h. Affluence maximale 11h-15h. Lumiere doree apres 17h.",
+            "it": "Primi treni verso le 6, ultimi verso le 23. Picco di affluenza 11-15. Luce dorata dopo le 17."
+          }
         },
         {
           "id": 5,
-          "name": "Luggage Logistics",
-          "category": "Practical Reality",
+          "name": {
+            "en": "Luggage Logistics",
+            "de": "Gepacklogistik",
+            "fr": "Logistique des Bagages",
+            "it": "Logistica dei Bagagli"
+          },
+          "category": {
+            "en": "Practical Reality",
+            "de": "Praktische Realitat",
+            "fr": "Realite Pratique",
+            "it": "Realta Pratica"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Every accommodation in Vernazza requires stairs. There are no exceptions.",
-          "description": "The village was built vertically—stairs connect everything. Heavy luggage becomes torture. The wise traveler packs light, stores extra bags at La Spezia's left luggage service, and arrives with only what can be carried up medieval steps.",
-          "giuliaComment": "I watch people dragging rolling suitcases up our stairs, cursing and sweating. Then I see someone with a single backpack practically bouncing up the same steps. The choice seems obvious.",
-          "signature": "Light packing is not sacrifice—it's wisdom",
-          "practicalInfo": "Left luggage at La Spezia station (€6/day). Pack like a hiker even if you're not. Many guesthouses will store bags if you ask."
+          "intro": {
+            "en": "Every accommodation in Vernazza requires stairs. There are no exceptions.",
+            "de": "Jede Unterkunft in Vernazza erfordert Treppen. Es gibt keine Ausnahmen.",
+            "fr": "Chaque hebergement a Vernazza necessite des escaliers. Il n'y a pas d'exceptions.",
+            "it": "Ogni alloggio a Vernazza richiede scale. Non ci sono eccezioni."
+          },
+          "description": {
+            "en": "The village was built vertically—stairs connect everything. Heavy luggage becomes torture. The wise traveler packs light, stores extra bags at La Spezia's left luggage service, and arrives with only what can be carried up medieval steps.",
+            "de": "Das Dorf wurde vertikal gebaut - Treppen verbinden alles. Schweres Gepack wird zur Qual. Der kluge Reisende packt leicht, lagert zusatzliche Taschen im Gepackaufbewahrungsservice von La Spezia und kommt nur mit dem an, was die mittelalterlichen Stufen hochgetragen werden kann.",
+            "fr": "Le village a ete construit verticalement - des escaliers relient tout. Les bagages lourds deviennent torture. Le voyageur avise voyage leger, depose les sacs supplementaires a la consigne de La Spezia, et arrive avec seulement ce qui peut etre porte dans les escaliers medievaux.",
+            "it": "Il borgo e stato costruito verticalmente - le scale collegano tutto. I bagagli pesanti diventano una tortura. Il viaggiatore saggio viaggia leggero, deposita le borse extra al deposito bagagli di La Spezia, e arriva solo con cio che puo essere portato su per le scale medievali."
+          },
+          "giuliaComment": {
+            "en": "I watch people dragging rolling suitcases up our stairs, cursing and sweating. Then I see someone with a single backpack practically bouncing up the same steps. The choice seems obvious.",
+            "de": "Ich sehe Menschen, die Rollkoffer unsere Treppen hochziehen, fluchen und schwitzen. Dann sehe ich jemanden mit einem einzigen Rucksack, der praktisch die gleichen Stufen hochhupft. Die Wahl scheint offensichtlich.",
+            "fr": "Je regarde les gens trainer des valises a roulettes dans nos escaliers, jurant et transpirant. Puis je vois quelqu'un avec un simple sac a dos qui monte pratiquement en bondissant les memes marches. Le choix semble evident.",
+            "it": "Guardo persone trascinare valigie con le ruote su per le nostre scale, imprecando e sudando. Poi vedo qualcuno con un solo zaino che praticamente salta su per gli stessi gradini. La scelta sembra ovvia."
+          },
+          "signature": {
+            "en": "Light packing is not sacrifice—it's wisdom",
+            "de": "Leicht packen ist kein Verzicht - es ist Weisheit",
+            "fr": "Voyager leger n'est pas un sacrifice - c'est la sagesse",
+            "it": "Viaggiare leggeri non e un sacrificio - e saggezza"
+          },
+          "practicalInfo": {
+            "en": "Left luggage at La Spezia station (6 euro/day). Pack like a hiker even if you're not. Many guesthouses will store bags if you ask.",
+            "de": "Gepackaufbewahrung am Bahnhof La Spezia (6 Euro/Tag). Packen Sie wie ein Wanderer, auch wenn Sie keiner sind. Viele Pensionen bewahren Taschen auf, wenn Sie fragen.",
+            "fr": "Consigne a bagages a la gare de La Spezia (6 euros/jour). Faites vos bagages comme un randonneur meme si vous n'en etes pas un. Beaucoup de pensions stockeront les sacs si vous demandez.",
+            "it": "Deposito bagagli alla stazione di La Spezia (6 euro/giorno). Fate i bagagli come un escursionista anche se non lo siete. Molte pensioni conserveranno le borse se chiedete."
+          }
         },
         {
           "id": 6,
-          "name": "Walking In",
-          "category": "Ancient Option",
+          "name": {
+            "en": "Walking In",
+            "de": "Zu Fuss ankommen",
+            "fr": "Arriver a Pied",
+            "it": "Arrivare a Piedi"
+          },
+          "category": {
+            "en": "Ancient Option",
+            "de": "Alte Option",
+            "fr": "Option Ancienne",
+            "it": "Opzione Antica"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The hiking trails offer arrivals the train and ferry cannot match—earned, dramatic, unforgettable.",
-          "description": "From Monterosso, the trail takes about 2 hours through the most dramatic section of the Sentiero Azzurro. From Corniglia, about 90 minutes through gentler terrain. Both arrivals reveal Vernazza gradually, the village appearing around corners until suddenly you're above the harbor.",
-          "giuliaComment": "Walking in is how I'd choose to arrive if I could only arrive once. The moment Vernazza appears below you, after the climb and the effort—that's when you understand why this village exists.",
-          "signature": "The arrival you earn is the arrival you remember",
-          "practicalInfo": "Cinque Terre Card required for trails. From Monterosso: 2 hours, challenging. From Corniglia: 90 minutes, moderate."
+          "intro": {
+            "en": "The hiking trails offer arrivals the train and ferry cannot match—earned, dramatic, unforgettable.",
+            "de": "Die Wanderwege bieten Ankufte, die Zug und Fahre nicht bieten konnen - verdient, dramatisch, unvergesslich.",
+            "fr": "Les sentiers de randonnee offrent des arrivees que le train et le ferry ne peuvent egaler - meritees, spectaculaires, inoubliables.",
+            "it": "I sentieri escursionistici offrono arrivi che il treno e il traghetto non possono eguagliare - guadagnati, spettacolari, indimenticabili."
+          },
+          "description": {
+            "en": "From Monterosso, the trail takes about 2 hours through the most dramatic section of the Sentiero Azzurro. From Corniglia, about 90 minutes through gentler terrain. Both arrivals reveal Vernazza gradually, the village appearing around corners until suddenly you're above the harbor.",
+            "de": "Von Monterosso dauert der Weg etwa 2 Stunden durch den dramatischsten Abschnitt des Sentiero Azzurro. Von Corniglia etwa 90 Minuten durch sanfteres Gelande. Beide Ankufte enthullen Vernazza allmahlich, das Dorf erscheint um Ecken, bis Sie plotzlich uber dem Hafen sind.",
+            "fr": "Depuis Monterosso, le sentier prend environ 2 heures a travers la section la plus spectaculaire du Sentiero Azzurro. Depuis Corniglia, environ 90 minutes a travers un terrain plus doux. Les deux arrivees revelent Vernazza progressivement, le village apparaissant aux detours jusqu'a ce que soudain vous soyez au-dessus du port.",
+            "it": "Da Monterosso, il sentiero richiede circa 2 ore attraverso la sezione piu spettacolare del Sentiero Azzurro. Da Corniglia, circa 90 minuti attraverso un terreno piu dolce. Entrambi gli arrivi rivelano Vernazza gradualmente, il borgo appare dietro gli angoli finche improvvisamente siete sopra il porto."
+          },
+          "giuliaComment": {
+            "en": "Walking in is how I'd choose to arrive if I could only arrive once. The moment Vernazza appears below you, after the climb and the effort—that's when you understand why this village exists.",
+            "de": "Zu Fuss zu kommen ist, wie ich ankommen wurde, wenn ich nur einmal ankommen konnte. Der Moment, in dem Vernazza unter Ihnen erscheint, nach dem Aufstieg und der Anstrengung - das ist der Moment, in dem Sie verstehen, warum dieses Dorf existiert.",
+            "fr": "Arriver a pied est la facon dont je choisirais d'arriver si je ne pouvais arriver qu'une seule fois. Le moment ou Vernazza apparait en dessous de vous, apres la montee et l'effort - c'est la que vous comprenez pourquoi ce village existe.",
+            "it": "Arrivare a piedi e come sceglierei di arrivare se potessi arrivare solo una volta. Il momento in cui Vernazza appare sotto di voi, dopo la salita e lo sforzo - e li che capite perche questo borgo esiste."
+          },
+          "signature": {
+            "en": "The arrival you earn is the arrival you remember",
+            "de": "Die Ankunft, die Sie verdienen, ist die Ankunft, an die Sie sich erinnern",
+            "fr": "L'arrivee que vous meritez est celle dont vous vous souviendrez",
+            "it": "L'arrivo che guadagnate e l'arrivo che ricorderete"
+          },
+          "practicalInfo": {
+            "en": "Cinque Terre Card required for trails. From Monterosso: 2 hours, challenging. From Corniglia: 90 minutes, moderate.",
+            "de": "Cinque Terre Card fur Wanderwege erforderlich. Von Monterosso: 2 Stunden, anspruchsvoll. Von Corniglia: 90 Minuten, moderat.",
+            "fr": "Cinque Terre Card requise pour les sentiers. De Monterosso : 2 heures, difficile. De Corniglia : 90 minutes, modere.",
+            "it": "Cinque Terre Card richiesta per i sentieri. Da Monterosso: 2 ore, impegnativo. Da Corniglia: 90 minuti, moderato."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Off-Season Secret",
-          "quote": "November through March, Vernazza transforms. Fewer trains, no ferries, but also no crowds. The village becomes itself again—quieter, slower, more willing to welcome the visitors who came despite the season."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Off-Season Secret",
+            "de": "Das Geheimnis der Nebensaison",
+            "fr": "Le Secret de la Basse Saison",
+            "it": "Il Segreto della Bassa Stagione"
+          },
+          "quote": {
+            "en": "November through March, Vernazza transforms. Fewer trains, no ferries, but also no crowds. The village becomes itself again—quieter, slower, more willing to welcome the visitors who came despite the season.",
+            "de": "Von November bis Marz verwandelt sich Vernazza. Weniger Zuge, keine Fahren, aber auch keine Menschenmassen. Das Dorf wird wieder es selbst - ruhiger, langsamer, bereitwilliger, die Besucher willkommen zu heissen, die trotz der Jahreszeit gekommen sind.",
+            "fr": "De novembre a mars, Vernazza se transforme. Moins de trains, pas de ferries, mais aussi pas de foules. Le village redevient lui-meme - plus calme, plus lent, plus dispose a accueillir les visiteurs venus malgre la saison.",
+            "it": "Da novembre a marzo, Vernazza si trasforma. Meno treni, niente traghetti, ma anche niente folle. Il borgo torna a essere se stesso - piu tranquillo, piu lento, piu disposto ad accogliere i visitatori venuti nonostante la stagione."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Arrival is the First Gift",
-      "content": [
-        "However you reach Vernazza—by train through the tunnel, by ferry into the harbor, by foot along ancient paths—the arrival is only the beginning.",
-        "The journey here teaches patience. The geography teaches respect. The moment of arrival—stepping from the station, gliding past the breakwater, emerging onto the viewpoint above the village—teaches why people have been making this journey for a thousand years.",
-        "Choose your arrival thoughtfully. Then forget about logistics and start living here."
-      ],
+      "title": {
+        "en": "Arrival is the First Gift",
+        "de": "Die Ankunft ist das erste Geschenk",
+        "fr": "L'Arrivee est le Premier Cadeau",
+        "it": "L'Arrivo e il Primo Regalo"
+      },
+      "content": {
+        "en": [
+          "However you reach Vernazza—by train through the tunnel, by ferry into the harbor, by foot along ancient paths—the arrival is only the beginning.",
+          "The journey here teaches patience. The geography teaches respect. The moment of arrival—stepping from the station, gliding past the breakwater, emerging onto the viewpoint above the village—teaches why people have been making this journey for a thousand years.",
+          "Choose your arrival thoughtfully. Then forget about logistics and start living here."
+        ],
+        "de": [
+          "Wie auch immer Sie Vernazza erreichen - mit dem Zug durch den Tunnel, mit der Fahre in den Hafen, zu Fuss auf alten Pfaden - die Ankunft ist nur der Anfang.",
+          "Die Reise hierher lehrt Geduld. Die Geografie lehrt Respekt. Der Moment der Ankunft - aus dem Bahnhof zu treten, am Wellenbrecher vorbei zu gleiten, auf dem Aussichtspunkt uber dem Dorf aufzutauchen - lehrt, warum Menschen diese Reise seit tausend Jahren machen.",
+          "Wahlen Sie Ihre Ankunft mit Bedacht. Dann vergessen Sie die Logistik und beginnen Sie, hier zu leben."
+        ],
+        "fr": [
+          "Quelle que soit la facon dont vous atteignez Vernazza - en train a travers le tunnel, en ferry dans le port, a pied le long de sentiers anciens - l'arrivee n'est que le debut.",
+          "Le voyage ici enseigne la patience. La geographie enseigne le respect. Le moment de l'arrivee - sortir de la gare, glisser devant le brise-lames, emerger sur le point de vue au-dessus du village - enseigne pourquoi les gens font ce voyage depuis mille ans.",
+          "Choisissez votre arrivee avec reflexion. Puis oubliez la logistique et commencez a vivre ici."
+        ],
+        "it": [
+          "In qualunque modo raggiungiate Vernazza - in treno attraverso la galleria, in traghetto nel porto, a piedi lungo antichi sentieri - l'arrivo e solo l'inizio.",
+          "Il viaggio qui insegna pazienza. La geografia insegna rispetto. Il momento dell'arrivo - uscire dalla stazione, scivolare oltre il frangiflutti, emergere sul belvedere sopra il borgo - insegna perche le persone fanno questo viaggio da mille anni.",
+          "Scegliete il vostro arrivo con attenzione. Poi dimenticate la logistica e iniziate a vivere qui."
+        ]
+      },
       "buttons": [
-        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
-        { "text": "What to Do", "url": "/en/vernazza/things-to-do", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Ubernachtung",
+            "fr": "Ou Dormir",
+            "it": "Dove Alloggiare"
+          },
+          "url": {
+            "en": "/en/vernazza/hotels",
+            "de": "/de/vernazza/hotels",
+            "fr": "/fr/vernazza/hotels",
+            "it": "/it/vernazza/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "What to Do",
+            "de": "Aktivitaten",
+            "fr": "Que Faire",
+            "it": "Cosa Fare"
+          },
+          "url": {
+            "en": "/en/vernazza/things-to-do",
+            "de": "/de/vernazza/things-to-do",
+            "fr": "/fr/vernazza/things-to-do",
+            "it": "/it/vernazza/things-to-do"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -171,5 +545,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T12:15:00.000Z"
+  "updated_at": "2026-01-07T16:00:00.000Z"
 }

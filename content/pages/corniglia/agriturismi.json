@@ -7,36 +7,90 @@
     "it": "/it/corniglia/agriturismi"
   },
   "title": {
-    "en": "Farm Stays Near Corniglia | Cinque Terre Dispatch"
+    "en": "Farm Stays Near Corniglia | Cinque Terre Dispatch",
+    "de": "Bauernhofurlaub bei Corniglia | Cinque Terre Dispatch",
+    "fr": "Séjours à la Ferme près de Corniglia | Cinque Terre Dispatch",
+    "it": "Agriturismi vicino a Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "agriturismi",
   "seo": {
     "title": {
-      "en": "Farm Stays Near Corniglia | Cinque Terre Dispatch"
+      "en": "Farm Stays Near Corniglia | Cinque Terre Dispatch",
+      "de": "Bauernhofurlaub bei Corniglia | Cinque Terre Dispatch",
+      "fr": "Séjours à la Ferme près de Corniglia | Cinque Terre Dispatch",
+      "it": "Agriturismi vicino a Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Corniglia already sits above the sea—an agriturismo puts you even higher, among the terraced vineyards that have defined this village for a millennium. The agricultural heritage here isn't scenery; it's livelihood."
+      "en": "Corniglia already sits above the sea—an agriturismo puts you even higher, among the terraced vineyards that have defined this village for a millennium. The agricultural heritage here isn't scenery; it's livelihood.",
+      "de": "Corniglia thront bereits über dem Meer—ein Agriturismo bringt Sie noch höher, inmitten der Weinbergterrassen, die dieses Dorf seit einem Jahrtausend prägen. Das landwirtschaftliche Erbe hier ist keine Kulisse; es ist Lebensgrundlage.",
+      "fr": "Corniglia se trouve déjà au-dessus de la mer—un agriturismo vous élève encore plus haut, parmi les vignobles en terrasses qui définissent ce village depuis un millénaire. Le patrimoine agricole ici n'est pas un décor ; c'est un mode de vie.",
+      "it": "Corniglia è già sopra il mare—un agriturismo vi porta ancora più in alto, tra i vigneti terrazzati che hanno definito questo borgo per un millennio. Il patrimonio agricolo qui non è scenario; è sostentamento."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Among the<br/>Vineyards",
-      "subtitle": "Corniglia is already the agricultural village—perched above the sea, surrounded by terraces, more connected to the land than the water. An agriturismo stay deepens that connection, putting you inside the working landscape that has sustained this hillside for a thousand years.",
-      "badge": "Farm Stays",
+      "title": {
+        "en": "Among the<br/>Vineyards",
+        "de": "Inmitten der<br/>Weinberge",
+        "fr": "Parmi les<br/>Vignobles",
+        "it": "Tra i<br/>Vigneti"
+      },
+      "subtitle": {
+        "en": "Corniglia is already the agricultural village—perched above the sea, surrounded by terraces, more connected to the land than the water. An agriturismo stay deepens that connection, putting you inside the working landscape that has sustained this hillside for a thousand years.",
+        "de": "Corniglia ist bereits das landwirtschaftliche Dorf—über dem Meer thronend, von Terrassen umgeben, mehr mit dem Land verbunden als mit dem Wasser. Ein Aufenthalt im Agriturismo vertieft diese Verbindung und bringt Sie in die Kulturlandschaft, die diesen Hang seit tausend Jahren ernährt.",
+        "fr": "Corniglia est déjà le village agricole—perché au-dessus de la mer, entouré de terrasses, plus connecté à la terre qu'à l'eau. Un séjour en agriturismo approfondit cette connexion, vous plaçant au cœur du paysage cultivé qui a soutenu ce versant pendant mille ans.",
+        "it": "Corniglia è già il borgo agricolo—arroccato sopra il mare, circondato da terrazze, più legato alla terra che all'acqua. Un soggiorno in agriturismo approfondisce questo legame, immergendovi nel paesaggio lavorato che ha sostenuto questa collina per mille anni."
+      },
+      "badge": {
+        "en": "Farm Stays",
+        "de": "Bauernhofurlaub",
+        "fr": "Séjours à la Ferme",
+        "it": "Agriturismi"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Vineyard Village",
-      "quote": "If Corniglia is already the agricultural heart of Cinque Terre, then the farms above it are the soul. Here the terraces aren't backdrop—they're the entire point.",
-      "content": [
-        "**Corniglia makes agricultural sense**. Unlike its neighbors, this village never had a proper harbor. Its economy was always the land: grapes for wine, olives for oil, vegetables for the table. The agriturismi above carry this tradition forward.",
-        "**The terraces surround you**. From farm stays near Corniglia, you're immersed in the UNESCO landscape—stone walls, vine rows, olive groves stretching toward the sea. You see what the village sees, not what tourists photograph from below.",
-        "**Wine is the story**. Corniglia produces some of the finest grapes in Cinque Terre. The local wine—especially the Sciacchetrà—benefits from these south-facing slopes and maritime breezes. Staying at an agriturismo often means access to wines you cannot buy elsewhere.",
-        "**The quiet is different**. Corniglia is already quieter than other villages. The farms above are quieter still—the only sounds are wind, birds, and the distant church bells marking time as they have for centuries."
-      ]
+      "badge": {
+        "en": "The Vineyard Village",
+        "de": "Das Weinbergdorf",
+        "fr": "Le Village Viticole",
+        "it": "Il Borgo dei Vigneti"
+      },
+      "quote": {
+        "en": "If Corniglia is already the agricultural heart of Cinque Terre, then the farms above it are the soul. Here the terraces aren't backdrop—they're the entire point.",
+        "de": "Wenn Corniglia bereits das landwirtschaftliche Herz der Cinque Terre ist, dann sind die Höfe darüber die Seele. Hier sind die Terrassen nicht Kulisse—sie sind der ganze Sinn.",
+        "fr": "Si Corniglia est déjà le cœur agricole des Cinque Terre, alors les fermes au-dessus sont l'âme. Ici les terrasses ne sont pas un décor—elles sont tout l'essentiel.",
+        "it": "Se Corniglia è già il cuore agricolo delle Cinque Terre, allora le fattorie sopra sono l'anima. Qui le terrazze non sono sfondo—sono il punto centrale."
+      },
+      "content": {
+        "en": [
+          "**Corniglia makes agricultural sense**. Unlike its neighbors, this village never had a proper harbor. Its economy was always the land: grapes for wine, olives for oil, vegetables for the table. The agriturismi above carry this tradition forward.",
+          "**The terraces surround you**. From farm stays near Corniglia, you're immersed in the UNESCO landscape—stone walls, vine rows, olive groves stretching toward the sea. You see what the village sees, not what tourists photograph from below.",
+          "**Wine is the story**. Corniglia produces some of the finest grapes in Cinque Terre. The local wine—especially the Sciacchetrà—benefits from these south-facing slopes and maritime breezes. Staying at an agriturismo often means access to wines you cannot buy elsewhere.",
+          "**The quiet is different**. Corniglia is already quieter than other villages. The farms above are quieter still—the only sounds are wind, birds, and the distant church bells marking time as they have for centuries."
+        ],
+        "de": [
+          "**Corniglia ergibt landwirtschaftlich Sinn**. Anders als seine Nachbarn hatte dieses Dorf nie einen richtigen Hafen. Seine Wirtschaft war immer das Land: Trauben für Wein, Oliven für Öl, Gemüse für den Tisch. Die Agriturismi darüber führen diese Tradition fort.",
+          "**Die Terrassen umgeben Sie**. Von Bauernhöfen bei Corniglia aus sind Sie in die UNESCO-Landschaft eingetaucht—Steinmauern, Weinreben, Olivenhaine, die sich zum Meer erstrecken. Sie sehen, was das Dorf sieht, nicht was Touristen von unten fotografieren.",
+          "**Wein ist die Geschichte**. Corniglia produziert einige der besten Trauben der Cinque Terre. Der lokale Wein—besonders der Sciacchetrà—profitiert von diesen Südhängen und Meeresbrisen. Ein Aufenthalt im Agriturismo bedeutet oft Zugang zu Weinen, die man anderswo nicht kaufen kann.",
+          "**Die Stille ist anders**. Corniglia ist bereits ruhiger als andere Dörfer. Die Höfe darüber sind noch ruhiger—die einzigen Geräusche sind Wind, Vögel und die fernen Kirchenglocken, die die Zeit markieren wie seit Jahrhunderten."
+        ],
+        "fr": [
+          "**Corniglia a un sens agricole**. Contrairement à ses voisins, ce village n'a jamais eu de véritable port. Son économie a toujours été la terre : raisins pour le vin, olives pour l'huile, légumes pour la table. Les agriturismo au-dessus perpétuent cette tradition.",
+          "**Les terrasses vous entourent**. Depuis les fermes près de Corniglia, vous êtes immergé dans le paysage UNESCO—murs de pierre, rangées de vignes, oliveraies s'étendant vers la mer. Vous voyez ce que voit le village, pas ce que les touristes photographient d'en bas.",
+          "**Le vin est l'histoire**. Corniglia produit certains des meilleurs raisins des Cinque Terre. Le vin local—surtout le Sciacchetrà—bénéficie de ces pentes exposées sud et des brises marines. Séjourner dans un agriturismo signifie souvent accéder à des vins introuvables ailleurs.",
+          "**Le silence est différent**. Corniglia est déjà plus calme que les autres villages. Les fermes au-dessus sont encore plus calmes—les seuls sons sont le vent, les oiseaux et les cloches lointaines de l'église marquant le temps comme depuis des siècles."
+        ],
+        "it": [
+          "**Corniglia ha senso agricolo**. A differenza dei vicini, questo borgo non ha mai avuto un vero porto. La sua economia è sempre stata la terra: uva per il vino, olive per l'olio, verdure per la tavola. Gli agriturismi sopra portano avanti questa tradizione.",
+          "**Le terrazze vi circondano**. Dagli agriturismi vicino a Corniglia, siete immersi nel paesaggio UNESCO—muretti a secco, filari di viti, oliveti che si estendono verso il mare. Vedete ciò che vede il borgo, non ciò che i turisti fotografano dal basso.",
+          "**Il vino è la storia**. Corniglia produce alcune delle migliori uve delle Cinque Terre. Il vino locale—specialmente lo Sciacchetrà—beneficia di questi pendii esposti a sud e delle brezze marine. Soggiornare in un agriturismo significa spesso accesso a vini che non si possono comprare altrove.",
+          "**Il silenzio è diverso**. Corniglia è già più tranquilla degli altri borghi. Le fattorie sopra sono ancora più tranquille—gli unici suoni sono il vento, gli uccelli e le campane lontane della chiesa che scandiscono il tempo come da secoli."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "The Ridge Position",
-          "category": "Geographic Advantage",
+          "name": {
+            "en": "The Ridge Position",
+            "de": "Die Höhenlage",
+            "fr": "La Position en Crête",
+            "it": "La Posizione sul Crinale"
+          },
+          "category": {
+            "en": "Geographic Advantage",
+            "de": "Geografischer Vorteil",
+            "fr": "Avantage Géographique",
+            "it": "Vantaggio Geografico"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Agriturismi near Corniglia occupy ridgelines with views in multiple directions—coast, valley, and mountain all visible at once.",
-          "description": "The farms above Corniglia sit on the watershed between the coastal slope and the Vara Valley behind. From many properties, you can watch sunrise over the mountains and sunset over the sea. This dual perspective explains why people settled here despite the difficulty—the land is productive in ways the steeper coastal slopes aren't.",
-          "giuliaComment": "The ridge properties have the best views in all of Cinque Terre. You can see all five villages on clear days, the islands beyond, and the mountains that protect us from northern weather. It's the view the farmers have always had.",
-          "signature": "Where land meets sky in every direction"
+          "intro": {
+            "en": "Agriturismi near Corniglia occupy ridgelines with views in multiple directions—coast, valley, and mountain all visible at once.",
+            "de": "Agriturismi bei Corniglia besetzen Höhenlinien mit Blick in mehrere Richtungen—Küste, Tal und Berge sind gleichzeitig sichtbar.",
+            "fr": "Les agriturismo près de Corniglia occupent des lignes de crête avec des vues dans plusieurs directions—côte, vallée et montagne visibles en même temps.",
+            "it": "Gli agriturismi vicino a Corniglia occupano crinali con viste in più direzioni—costa, valle e montagna visibili contemporaneamente."
+          },
+          "description": {
+            "en": "The farms above Corniglia sit on the watershed between the coastal slope and the Vara Valley behind. From many properties, you can watch sunrise over the mountains and sunset over the sea. This dual perspective explains why people settled here despite the difficulty—the land is productive in ways the steeper coastal slopes aren't.",
+            "de": "Die Höfe über Corniglia liegen auf der Wasserscheide zwischen dem Küstenhang und dem Vara-Tal dahinter. Von vielen Anwesen aus können Sie den Sonnenaufgang über den Bergen und den Sonnenuntergang über dem Meer beobachten. Diese doppelte Perspektive erklärt, warum Menschen sich hier trotz der Schwierigkeiten ansiedelten—das Land ist auf Weisen produktiv, die die steileren Küstenhänge nicht sind.",
+            "fr": "Les fermes au-dessus de Corniglia se situent sur la ligne de partage des eaux entre le versant côtier et la vallée de la Vara derrière. Depuis de nombreuses propriétés, vous pouvez regarder le lever du soleil sur les montagnes et le coucher du soleil sur la mer. Cette double perspective explique pourquoi les gens se sont installés ici malgré la difficulté—la terre est productive d'une façon que les pentes côtières plus raides ne permettent pas.",
+            "it": "Le fattorie sopra Corniglia si trovano sullo spartiacque tra il versante costiero e la Val di Vara dietro. Da molte proprietà potete guardare l'alba sulle montagne e il tramonto sul mare. Questa doppia prospettiva spiega perché la gente si è insediata qui nonostante le difficoltà—la terra è produttiva in modi che i pendii costieri più ripidi non sono."
+          },
+          "giuliaComment": {
+            "en": "The ridge properties have the best views in all of Cinque Terre. You can see all five villages on clear days, the islands beyond, and the mountains that protect us from northern weather. It's the view the farmers have always had.",
+            "de": "Die Höfenanlagen auf dem Höhenzug haben die besten Aussichten in ganz Cinque Terre. An klaren Tagen können Sie alle fünf Dörfer sehen, die Inseln dahinter und die Berge, die uns vor Nordwetter schützen. Es ist die Aussicht, die die Bauern immer hatten.",
+            "fr": "Les propriétés sur la crête ont les plus belles vues de toutes les Cinque Terre. Par temps clair, vous pouvez voir les cinq villages, les îles au-delà et les montagnes qui nous protègent du temps du nord. C'est la vue que les agriculteurs ont toujours eue.",
+            "it": "Le proprietà sul crinale hanno le viste migliori di tutte le Cinque Terre. Nelle giornate limpide potete vedere tutti e cinque i borghi, le isole oltre e le montagne che ci proteggono dal tempo del nord. È la vista che i contadini hanno sempre avuto."
+          },
+          "signature": {
+            "en": "Where land meets sky in every direction",
+            "de": "Wo Land und Himmel sich in jede Richtung treffen",
+            "fr": "Où la terre rencontre le ciel dans toutes les directions",
+            "it": "Dove la terra incontra il cielo in ogni direzione"
+          }
         },
         {
           "id": 2,
-          "name": "Vineyard Work",
-          "category": "Participatory Experience",
+          "name": {
+            "en": "Vineyard Work",
+            "de": "Arbeit im Weinberg",
+            "fr": "Travail dans les Vignes",
+            "it": "Lavoro in Vigna"
+          },
+          "category": {
+            "en": "Participatory Experience",
+            "de": "Teilnahmeerlebnis",
+            "fr": "Expérience Participative",
+            "it": "Esperienza Partecipativa"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The vendemmia here is legendary—Corniglia grapes have made wine since Roman times, and guests can join the tradition.",
-          "description": "Autumn brings the grape harvest to Corniglia's terraces. Unlike flatter wine regions where machines do the work, here everything is still done by hand—grapes cut carefully, carried in baskets down stone stairs, pressed using methods not much changed in centuries. Participating is physical work that connects you to millennia of tradition.",
-          "giuliaComment": "The harvest here is harder than other villages because the terraces are steeper. But the grapes are better—something about this particular exposure, this soil. The wine knows where it came from.",
-          "signature": "Where tradition requires participation"
+          "intro": {
+            "en": "The vendemmia here is legendary—Corniglia grapes have made wine since Roman times, and guests can join the tradition.",
+            "de": "Die Vendemmia hier ist legendär—Corniglia-Trauben werden seit der Römerzeit zu Wein verarbeitet, und Gäste können an der Tradition teilnehmen.",
+            "fr": "Les vendanges ici sont légendaires—les raisins de Corniglia font du vin depuis l'époque romaine, et les hôtes peuvent participer à la tradition.",
+            "it": "La vendemmia qui è leggendaria—le uve di Corniglia producono vino dai tempi romani, e gli ospiti possono unirsi alla tradizione."
+          },
+          "description": {
+            "en": "Autumn brings the grape harvest to Corniglia's terraces. Unlike flatter wine regions where machines do the work, here everything is still done by hand—grapes cut carefully, carried in baskets down stone stairs, pressed using methods not much changed in centuries. Participating is physical work that connects you to millennia of tradition.",
+            "de": "Der Herbst bringt die Weinlese auf Corniglias Terrassen. Anders als in flacheren Weinregionen, wo Maschinen die Arbeit erledigen, wird hier noch alles von Hand gemacht—Trauben werden sorgfältig geschnitten, in Körben die Steintreppen hinuntergetragen, mit Methoden gepresst, die sich seit Jahrhunderten kaum verändert haben. Die Teilnahme ist körperliche Arbeit, die Sie mit Jahrtausenden von Tradition verbindet.",
+            "fr": "L'automne apporte les vendanges sur les terrasses de Corniglia. Contrairement aux régions viticoles plus plates où les machines font le travail, ici tout se fait encore à la main—raisins coupés avec soin, portés dans des paniers le long des escaliers de pierre, pressés selon des méthodes peu changées depuis des siècles. Participer est un travail physique qui vous connecte à des millénaires de tradition.",
+            "it": "L'autunno porta la vendemmia sulle terrazze di Corniglia. A differenza delle regioni vinicole più pianeggianti dove le macchine fanno il lavoro, qui tutto è ancora fatto a mano—uva tagliata con cura, trasportata in ceste giù per le scale di pietra, pressata con metodi poco cambiati nei secoli. Partecipare è un lavoro fisico che vi connette a millenni di tradizione."
+          },
+          "giuliaComment": {
+            "en": "The harvest here is harder than other villages because the terraces are steeper. But the grapes are better—something about this particular exposure, this soil. The wine knows where it came from.",
+            "de": "Die Ernte hier ist härter als in anderen Dörfern, weil die Terrassen steiler sind. Aber die Trauben sind besser—etwas an dieser besonderen Ausrichtung, diesem Boden. Der Wein weiß, woher er kommt.",
+            "fr": "La récolte ici est plus difficile que dans les autres villages parce que les terrasses sont plus raides. Mais les raisins sont meilleurs—quelque chose dans cette exposition particulière, ce sol. Le vin sait d'où il vient.",
+            "it": "La vendemmia qui è più dura che negli altri borghi perché le terrazze sono più ripide. Ma l'uva è migliore—qualcosa in questa particolare esposizione, questo terreno. Il vino sa da dove viene."
+          },
+          "signature": {
+            "en": "Where tradition requires participation",
+            "de": "Wo Tradition Teilnahme erfordert",
+            "fr": "Où la tradition exige la participation",
+            "it": "Dove la tradizione richiede partecipazione"
+          }
         },
         {
           "id": 3,
-          "name": "The Farm Table",
-          "category": "Culinary Immersion",
+          "name": {
+            "en": "The Farm Table",
+            "de": "Der Bauerntisch",
+            "fr": "La Table de Ferme",
+            "it": "La Tavola della Fattoria"
+          },
+          "category": {
+            "en": "Culinary Immersion",
+            "de": "Kulinarisches Eintauchen",
+            "fr": "Immersion Culinaire",
+            "it": "Immersione Culinaria"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Dinner at an agriturismo features what the day provided—vegetables from the terrace garden, wine from the cellar, oil from the press.",
-          "description": "Farm dining near Corniglia reflects the agricultural honesty of the village itself. No elaborate presentations, no fusion experiments—just ingredients grown on the property, prepared simply, served with wine made from grapes you can see from the dining room. The freshness is incomparable.",
-          "giuliaComment": "My aunt runs an agriturismo above Corniglia. Her dinners are whatever she picked that day, cooked how her mother taught her. Guests sometimes expect more elaborate meals. They leave understanding why simplicity is harder and better.",
-          "signature": "Where the meal explains the landscape"
+          "intro": {
+            "en": "Dinner at an agriturismo features what the day provided—vegetables from the terrace garden, wine from the cellar, oil from the press.",
+            "de": "Das Abendessen in einem Agriturismo bietet, was der Tag gebracht hat—Gemüse aus dem Terrassengarten, Wein aus dem Keller, Öl von der Presse.",
+            "fr": "Le dîner dans un agriturismo propose ce que la journée a fourni—légumes du jardin en terrasse, vin de la cave, huile du pressoir.",
+            "it": "La cena in un agriturismo offre ciò che il giorno ha fornito—verdure dall'orto terrazzato, vino dalla cantina, olio dal frantoio."
+          },
+          "description": {
+            "en": "Farm dining near Corniglia reflects the agricultural honesty of the village itself. No elaborate presentations, no fusion experiments—just ingredients grown on the property, prepared simply, served with wine made from grapes you can see from the dining room. The freshness is incomparable.",
+            "de": "Das Bauernessen bei Corniglia spiegelt die landwirtschaftliche Ehrlichkeit des Dorfes selbst wider. Keine aufwendigen Präsentationen, keine Fusionsexperimente—nur Zutaten, die auf dem Anwesen angebaut werden, einfach zubereitet, serviert mit Wein aus Trauben, die Sie vom Esszimmer aus sehen können. Die Frische ist unvergleichlich.",
+            "fr": "La cuisine de ferme près de Corniglia reflète l'honnêteté agricole du village lui-même. Pas de présentations élaborées, pas d'expériences de fusion—juste des ingrédients cultivés sur la propriété, préparés simplement, servis avec du vin fait de raisins que vous pouvez voir depuis la salle à manger. La fraîcheur est incomparable.",
+            "it": "La cucina della fattoria vicino a Corniglia riflette l'onestà agricola del borgo stesso. Nessuna presentazione elaborata, nessun esperimento fusion—solo ingredienti coltivati sulla proprietà, preparati semplicemente, serviti con vino fatto da uve che potete vedere dalla sala da pranzo. La freschezza è incomparabile."
+          },
+          "giuliaComment": {
+            "en": "My aunt runs an agriturismo above Corniglia. Her dinners are whatever she picked that day, cooked how her mother taught her. Guests sometimes expect more elaborate meals. They leave understanding why simplicity is harder and better.",
+            "de": "Meine Tante betreibt einen Agriturismo oberhalb von Corniglia. Ihre Abendessen bestehen aus dem, was sie an diesem Tag gepflückt hat, gekocht wie ihre Mutter es ihr beigebracht hat. Gäste erwarten manchmal aufwendigere Mahlzeiten. Sie gehen mit dem Verständnis, warum Einfachheit schwieriger und besser ist.",
+            "fr": "Ma tante tient un agriturismo au-dessus de Corniglia. Ses dîners sont ce qu'elle a cueilli ce jour-là, cuisiné comme sa mère le lui a appris. Les hôtes s'attendent parfois à des repas plus élaborés. Ils partent en comprenant pourquoi la simplicité est plus difficile et meilleure.",
+            "it": "Mia zia gestisce un agriturismo sopra Corniglia. Le sue cene sono qualsiasi cosa abbia raccolto quel giorno, cucinata come le ha insegnato sua madre. Gli ospiti a volte si aspettano pasti più elaborati. Se ne vanno capendo perché la semplicità è più difficile e migliore."
+          },
+          "signature": {
+            "en": "Where the meal explains the landscape",
+            "de": "Wo die Mahlzeit die Landschaft erklärt",
+            "fr": "Où le repas explique le paysage",
+            "it": "Dove il pasto spiega il paesaggio"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Sciacchetrà Secret",
-          "quote": "Corniglia's position produces exceptional Sciacchetrà grapes—the dessert wine requires long drying periods that the ridge-top air provides. The small quantities produced by local agriturismi rarely leave the property. A tasting where it was made, from barrels you can touch, is worth more than any bottle you'd buy in town."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Sciacchetrà Secret",
+            "de": "Das Sciacchetrà-Geheimnis",
+            "fr": "Le Secret du Sciacchetrà",
+            "it": "Il Segreto dello Sciacchetrà"
+          },
+          "quote": {
+            "en": "Corniglia's position produces exceptional Sciacchetrà grapes—the dessert wine requires long drying periods that the ridge-top air provides. The small quantities produced by local agriturismi rarely leave the property. A tasting where it was made, from barrels you can touch, is worth more than any bottle you'd buy in town.",
+            "de": "Corniglias Lage produziert außergewöhnliche Sciacchetrà-Trauben—der Dessertwein erfordert lange Trocknungsperioden, die die Höhenluft bietet. Die kleinen Mengen, die von lokalen Agriturismi produziert werden, verlassen selten das Anwesen. Eine Verkostung dort, wo er gemacht wurde, aus Fässern, die Sie berühren können, ist mehr wert als jede Flasche, die Sie in der Stadt kaufen würden.",
+            "fr": "La position de Corniglia produit des raisins Sciacchetrà exceptionnels—le vin de dessert nécessite de longues périodes de séchage que l'air de la crête fournit. Les petites quantités produites par les agriturismo locaux quittent rarement la propriété. Une dégustation là où il a été fait, depuis des tonneaux que vous pouvez toucher, vaut plus que n'importe quelle bouteille que vous achèteriez en ville.",
+            "it": "La posizione di Corniglia produce uve Sciacchetrà eccezionali—il vino dolce richiede lunghi periodi di essiccazione che l'aria del crinale fornisce. Le piccole quantità prodotte dagli agriturismi locali raramente lasciano la proprietà. Una degustazione dove è stato fatto, da botti che potete toccare, vale più di qualsiasi bottiglia comprereste in paese."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Realities",
-      "quote": "Farm stays near Corniglia require commitment—you're already choosing the village farthest from the sea, and the farms are farther still. The rewards match the effort.",
-      "content": [
-        "**Transportation is essential**. The farms sit 10-20 minutes from Corniglia by car. Some offer pickup from La Spezia; others require you to drive. The village itself has no car access, so coordination matters.",
-        "**The 382 steps remain**. Even from an agriturismo, reaching Corniglia village means confronting the Lardarina—the famous stairway from the train station. You can avoid it by driving to the village access road, but eventually you'll climb.",
-        "**Reservations book early**. Corniglia agriturismi are smaller than those near other villages, with fewer rooms. The best ones book months ahead, especially during harvest season.",
-        "**Amenities are simple**. These are working farms that host guests, not hotels with gardens. Expect comfortable rooms but basic facilities. The authenticity is the amenity."
-      ]
+      "badge": {
+        "en": "Practical Realities",
+        "de": "Praktische Realitäten",
+        "fr": "Réalités Pratiques",
+        "it": "Realtà Pratiche"
+      },
+      "quote": {
+        "en": "Farm stays near Corniglia require commitment—you're already choosing the village farthest from the sea, and the farms are farther still. The rewards match the effort.",
+        "de": "Bauernhofaufenthalte bei Corniglia erfordern Engagement—Sie wählen bereits das Dorf, das am weitesten vom Meer entfernt ist, und die Höfe sind noch weiter. Die Belohnungen entsprechen dem Aufwand.",
+        "fr": "Les séjours à la ferme près de Corniglia demandent un engagement—vous choisissez déjà le village le plus éloigné de la mer, et les fermes sont encore plus loin. Les récompenses sont à la hauteur de l'effort.",
+        "it": "I soggiorni in fattoria vicino a Corniglia richiedono impegno—state già scegliendo il borgo più lontano dal mare, e le fattorie sono ancora più lontane. Le ricompense sono all'altezza dello sforzo."
+      },
+      "content": {
+        "en": [
+          "**Transportation is essential**. The farms sit 10-20 minutes from Corniglia by car. Some offer pickup from La Spezia; others require you to drive. The village itself has no car access, so coordination matters.",
+          "**The 382 steps remain**. Even from an agriturismo, reaching Corniglia village means confronting the Lardarina—the famous stairway from the train station. You can avoid it by driving to the village access road, but eventually you'll climb.",
+          "**Reservations book early**. Corniglia agriturismi are smaller than those near other villages, with fewer rooms. The best ones book months ahead, especially during harvest season.",
+          "**Amenities are simple**. These are working farms that host guests, not hotels with gardens. Expect comfortable rooms but basic facilities. The authenticity is the amenity."
+        ],
+        "de": [
+          "**Transport ist essentiell**. Die Höfe liegen 10-20 Autominuten von Corniglia entfernt. Einige bieten Abholung von La Spezia an; andere erfordern, dass Sie selbst fahren. Das Dorf selbst hat keinen Autozugang, daher ist Koordination wichtig.",
+          "**Die 382 Stufen bleiben**. Selbst von einem Agriturismo aus bedeutet das Erreichen von Corniglia, sich der Lardarina zu stellen—der berühmten Treppe vom Bahnhof. Sie können sie vermeiden, indem Sie zur Dorfzufahrtsstraße fahren, aber irgendwann werden Sie klettern.",
+          "**Reservierungen sollten früh gebucht werden**. Corniglia-Agriturismi sind kleiner als die bei anderen Dörfern, mit weniger Zimmern. Die besten sind Monate im Voraus ausgebucht, besonders während der Erntezeit.",
+          "**Annehmlichkeiten sind einfach**. Dies sind arbeitende Bauernhöfe, die Gäste beherbergen, keine Hotels mit Gärten. Erwarten Sie komfortable Zimmer, aber einfache Einrichtungen. Die Authentizität ist die Annehmlichkeit."
+        ],
+        "fr": [
+          "**Le transport est essentiel**. Les fermes se trouvent à 10-20 minutes en voiture de Corniglia. Certaines offrent un ramassage depuis La Spezia ; d'autres nécessitent que vous conduisiez. Le village lui-même n'a pas d'accès voiture, donc la coordination compte.",
+          "**Les 382 marches restent**. Même depuis un agriturismo, atteindre le village de Corniglia signifie affronter la Lardarina—le fameux escalier depuis la gare. Vous pouvez l'éviter en conduisant jusqu'à la route d'accès au village, mais vous finirez par monter.",
+          "**Les réservations se font tôt**. Les agriturismo de Corniglia sont plus petits que ceux près d'autres villages, avec moins de chambres. Les meilleurs se réservent des mois à l'avance, surtout pendant la saison des vendanges.",
+          "**Les commodités sont simples**. Ce sont des fermes en activité qui accueillent des hôtes, pas des hôtels avec jardins. Attendez-vous à des chambres confortables mais des installations basiques. L'authenticité est le confort."
+        ],
+        "it": [
+          "**Il trasporto è essenziale**. Le fattorie si trovano a 10-20 minuti d'auto da Corniglia. Alcune offrono servizio navetta da La Spezia; altre richiedono che guidiate voi. Il borgo stesso non ha accesso auto, quindi la coordinazione è importante.",
+          "**I 382 gradini rimangono**. Anche da un agriturismo, raggiungere il borgo di Corniglia significa affrontare la Lardarina—la famosa scalinata dalla stazione ferroviaria. Potete evitarla guidando fino alla strada di accesso al borgo, ma prima o poi salirete.",
+          "**Le prenotazioni vanno fatte presto**. Gli agriturismi di Corniglia sono più piccoli di quelli vicino ad altri borghi, con meno stanze. I migliori si prenotano mesi in anticipo, specialmente durante la stagione della vendemmia.",
+          "**I comfort sono semplici**. Queste sono fattorie che lavorano e ospitano visitatori, non hotel con giardini. Aspettatevi stanze confortevoli ma strutture essenziali. L'autenticità è il comfort."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Spring Awakening",
-          "category": "Seasonal Guide",
+          "name": {
+            "en": "Spring Awakening",
+            "de": "Frühlingserwachen",
+            "fr": "Éveil Printanier",
+            "it": "Risveglio Primaverile"
+          },
+          "category": {
+            "en": "Seasonal Guide",
+            "de": "Saisonführer",
+            "fr": "Guide Saisonnier",
+            "it": "Guida Stagionale"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the terraces turn green and the wildflowers carpet the hillsides—the land remembering its purpose.",
-          "description": "Spring above Corniglia is extraordinary. The vineyards leaf out, covering bare stone walls with green. Wildflowers fill every untended space. The farms are busy with planting, pruning, and preparation. Guests can participate or simply watch the landscape transform.",
-          "giuliaComment": "I love spring in the hills because you can see the terraces' structure—the walls visible through new growth, the patterns of cultivation clear. By summer, everything is green and hidden. Spring shows how the landscape was made.",
-          "signature": "When the land reveals its structure"
+          "intro": {
+            "en": "When the terraces turn green and the wildflowers carpet the hillsides—the land remembering its purpose.",
+            "de": "Wenn die Terrassen grün werden und Wildblumen die Hänge bedecken—das Land erinnert sich an seinen Zweck.",
+            "fr": "Quand les terrasses verdissent et que les fleurs sauvages tapissent les collines—la terre se souvenant de son but.",
+            "it": "Quando le terrazze diventano verdi e i fiori selvatici tappezzano le colline—la terra che ricorda il suo scopo."
+          },
+          "description": {
+            "en": "Spring above Corniglia is extraordinary. The vineyards leaf out, covering bare stone walls with green. Wildflowers fill every untended space. The farms are busy with planting, pruning, and preparation. Guests can participate or simply watch the landscape transform.",
+            "de": "Der Frühling über Corniglia ist außergewöhnlich. Die Weinberge treiben aus und bedecken kahle Steinmauern mit Grün. Wildblumen füllen jeden ungepflegten Raum. Die Höfe sind mit Pflanzen, Beschneiden und Vorbereitung beschäftigt. Gäste können teilnehmen oder einfach die Landschaft beim Wandel beobachten.",
+            "fr": "Le printemps au-dessus de Corniglia est extraordinaire. Les vignobles bourgeonnent, couvrant les murs de pierre nus de vert. Les fleurs sauvages remplissent chaque espace non entretenu. Les fermes sont occupées avec la plantation, la taille et la préparation. Les hôtes peuvent participer ou simplement regarder le paysage se transformer.",
+            "it": "La primavera sopra Corniglia è straordinaria. I vigneti germogliano, coprendo i muretti a secco di verde. I fiori selvatici riempiono ogni spazio incoltivato. Le fattorie sono occupate con la semina, la potatura e la preparazione. Gli ospiti possono partecipare o semplicemente guardare il paesaggio trasformarsi."
+          },
+          "giuliaComment": {
+            "en": "I love spring in the hills because you can see the terraces' structure—the walls visible through new growth, the patterns of cultivation clear. By summer, everything is green and hidden. Spring shows how the landscape was made.",
+            "de": "Ich liebe den Frühling in den Hügeln, weil man die Struktur der Terrassen sehen kann—die Mauern durch neues Wachstum sichtbar, die Muster der Kultivierung klar. Im Sommer ist alles grün und versteckt. Der Frühling zeigt, wie die Landschaft gemacht wurde.",
+            "fr": "J'aime le printemps dans les collines parce qu'on peut voir la structure des terrasses—les murs visibles à travers la nouvelle végétation, les motifs de culture clairs. En été, tout est vert et caché. Le printemps montre comment le paysage a été fait.",
+            "it": "Amo la primavera sulle colline perché si può vedere la struttura delle terrazze—i muri visibili attraverso la nuova crescita, i modelli di coltivazione chiari. D'estate, tutto è verde e nascosto. La primavera mostra come è stato fatto il paesaggio."
+          },
+          "signature": {
+            "en": "When the land reveals its structure",
+            "de": "Wenn das Land seine Struktur offenbart",
+            "fr": "Quand la terre révèle sa structure",
+            "it": "Quando la terra rivela la sua struttura"
+          }
         },
         {
           "id": 5,
-          "name": "Harvest Season",
-          "category": "Peak Experience",
+          "name": {
+            "en": "Harvest Season",
+            "de": "Erntezeit",
+            "fr": "Saison des Vendanges",
+            "it": "Stagione della Vendemmia"
+          },
+          "category": {
+            "en": "Peak Experience",
+            "de": "Höhepunkt-Erlebnis",
+            "fr": "Expérience Culminante",
+            "it": "Esperienza Culminante"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "September through November brings the grape and olive harvest—when the year's labor becomes the year's sustenance.",
-          "description": "Autumn is when Corniglia's agricultural heritage becomes visible. The vendemmia fills terraces with workers. The smell of fermenting grapes drifts from cellars. Olives are pressed in ancient mills. The entire village—and the farms above it—work toward the same purpose.",
-          "giuliaComment": "If you can only visit once, choose harvest season. The energy is different—focused, communal, celebratory. You understand why people built on these impossible slopes. The wine justifies everything.",
-          "signature": "When a year of work becomes meaning"
+          "intro": {
+            "en": "September through November brings the grape and olive harvest—when the year's labor becomes the year's sustenance.",
+            "de": "September bis November bringt die Trauben- und Olivenernte—wenn die Arbeit des Jahres zur Nahrung des Jahres wird.",
+            "fr": "De septembre à novembre arrivent les vendanges et la récolte des olives—quand le labeur de l'année devient la subsistance de l'année.",
+            "it": "Da settembre a novembre arriva la vendemmia e la raccolta delle olive—quando il lavoro dell'anno diventa il sostentamento dell'anno."
+          },
+          "description": {
+            "en": "Autumn is when Corniglia's agricultural heritage becomes visible. The vendemmia fills terraces with workers. The smell of fermenting grapes drifts from cellars. Olives are pressed in ancient mills. The entire village—and the farms above it—work toward the same purpose.",
+            "de": "Der Herbst ist, wenn Corniglias landwirtschaftliches Erbe sichtbar wird. Die Vendemmia füllt die Terrassen mit Arbeitern. Der Geruch von gärenden Trauben weht aus den Kellern. Oliven werden in alten Mühlen gepresst. Das ganze Dorf—und die Höfe darüber—arbeiten auf dasselbe Ziel hin.",
+            "fr": "L'automne est le moment où le patrimoine agricole de Corniglia devient visible. Les vendanges remplissent les terrasses de travailleurs. L'odeur des raisins en fermentation flotte depuis les caves. Les olives sont pressées dans d'anciens moulins. Tout le village—et les fermes au-dessus—travaillent vers le même but.",
+            "it": "L'autunno è quando il patrimonio agricolo di Corniglia diventa visibile. La vendemmia riempie le terrazze di lavoratori. L'odore dell'uva che fermenta si diffonde dalle cantine. Le olive vengono pressate in antichi frantoi. L'intero borgo—e le fattorie sopra—lavorano verso lo stesso scopo."
+          },
+          "giuliaComment": {
+            "en": "If you can only visit once, choose harvest season. The energy is different—focused, communal, celebratory. You understand why people built on these impossible slopes. The wine justifies everything.",
+            "de": "Wenn Sie nur einmal besuchen können, wählen Sie die Erntezeit. Die Energie ist anders—fokussiert, gemeinschaftlich, feierlich. Sie verstehen, warum Menschen auf diesen unmöglichen Hängen gebaut haben. Der Wein rechtfertigt alles.",
+            "fr": "Si vous ne pouvez visiter qu'une fois, choisissez la saison des vendanges. L'énergie est différente—concentrée, communautaire, festive. Vous comprenez pourquoi les gens ont construit sur ces pentes impossibles. Le vin justifie tout.",
+            "it": "Se potete visitare solo una volta, scegliete la stagione della vendemmia. L'energia è diversa—concentrata, comunitaria, celebrativa. Capite perché la gente ha costruito su questi pendii impossibili. Il vino giustifica tutto."
+          },
+          "signature": {
+            "en": "When a year of work becomes meaning",
+            "de": "Wenn ein Jahr Arbeit zu Bedeutung wird",
+            "fr": "Quand une année de travail devient sens",
+            "it": "Quando un anno di lavoro diventa significato"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "Finding Real Farms",
-          "quote": "Not every place calling itself 'agriturismo' is genuine. Real farms near Corniglia have active vineyards, producing cellars, evidence of agricultural work. Ask about their wine, their oil, their harvest schedule. Authentic operations love explaining what they grow."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "Finding Real Farms",
+            "de": "Echte Bauernhöfe finden",
+            "fr": "Trouver de Vraies Fermes",
+            "it": "Trovare Vere Fattorie"
+          },
+          "quote": {
+            "en": "Not every place calling itself 'agriturismo' is genuine. Real farms near Corniglia have active vineyards, producing cellars, evidence of agricultural work. Ask about their wine, their oil, their harvest schedule. Authentic operations love explaining what they grow.",
+            "de": "Nicht jeder Ort, der sich 'Agriturismo' nennt, ist echt. Echte Bauernhöfe bei Corniglia haben aktive Weinberge, produzierende Keller, Anzeichen landwirtschaftlicher Arbeit. Fragen Sie nach ihrem Wein, ihrem Öl, ihrem Ernteplan. Authentische Betriebe erklären gerne, was sie anbauen.",
+            "fr": "Tous les endroits qui s'appellent 'agriturismo' ne sont pas authentiques. Les vraies fermes près de Corniglia ont des vignobles actifs, des caves productrices, des preuves de travail agricole. Demandez leur vin, leur huile, leur calendrier de récolte. Les exploitations authentiques aiment expliquer ce qu'elles cultivent.",
+            "it": "Non tutti i posti che si chiamano 'agriturismo' sono genuini. Le vere fattorie vicino a Corniglia hanno vigneti attivi, cantine produttive, prove di lavoro agricolo. Chiedete del loro vino, del loro olio, del loro calendario di raccolta. Le attività autentiche amano spiegare cosa coltivano."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Higher and Deeper",
-      "content": [
-        "An agriturismo near Corniglia amplifies what the village already offers: distance from the tourist crush, immersion in agricultural heritage, connection to land that has been worked for a millennium.",
-        "You trade sea views for ridge views. You trade convenience for authenticity. You trade the bustle of the other villages for the quiet that Corniglia has always provided.",
-        "Come with patience. Come with curiosity. Leave understanding why people have farmed these impossible slopes for a thousand years."
-      ],
+      "title": {
+        "en": "Higher and Deeper",
+        "de": "Höher und Tiefer",
+        "fr": "Plus Haut et Plus Profond",
+        "it": "Più in Alto e Più in Profondo"
+      },
+      "content": {
+        "en": [
+          "An agriturismo near Corniglia amplifies what the village already offers: distance from the tourist crush, immersion in agricultural heritage, connection to land that has been worked for a millennium.",
+          "You trade sea views for ridge views. You trade convenience for authenticity. You trade the bustle of the other villages for the quiet that Corniglia has always provided.",
+          "Come with patience. Come with curiosity. Leave understanding why people have farmed these impossible slopes for a thousand years."
+        ],
+        "de": [
+          "Ein Agriturismo bei Corniglia verstärkt, was das Dorf bereits bietet: Abstand vom Touristenansturm, Eintauchen in landwirtschaftliches Erbe, Verbindung zu Land, das seit einem Jahrtausend bewirtschaftet wird.",
+          "Sie tauschen Meerblick gegen Höhenblick. Sie tauschen Bequemlichkeit gegen Authentizität. Sie tauschen das Treiben der anderen Dörfer gegen die Ruhe, die Corniglia immer geboten hat.",
+          "Kommen Sie mit Geduld. Kommen Sie mit Neugier. Gehen Sie mit dem Verständnis, warum Menschen diese unmöglichen Hänge seit tausend Jahren bewirtschaften."
+        ],
+        "fr": [
+          "Un agriturismo près de Corniglia amplifie ce que le village offre déjà : distance de la cohue touristique, immersion dans le patrimoine agricole, connexion à une terre travaillée depuis un millénaire.",
+          "Vous échangez les vues sur mer contre les vues de crête. Vous échangez le confort contre l'authenticité. Vous échangez l'agitation des autres villages contre le calme que Corniglia a toujours offert.",
+          "Venez avec patience. Venez avec curiosité. Repartez en comprenant pourquoi les gens ont cultivé ces pentes impossibles pendant mille ans."
+        ],
+        "it": [
+          "Un agriturismo vicino a Corniglia amplifica ciò che il borgo già offre: distanza dalla ressa turistica, immersione nel patrimonio agricolo, connessione con una terra lavorata per un millennio.",
+          "Scambiate le viste sul mare con le viste sul crinale. Scambiate la comodità con l'autenticità. Scambiate il trambusto degli altri borghi con la quiete che Corniglia ha sempre offerto.",
+          "Venite con pazienza. Venite con curiosità. Andate via capendo perché la gente ha coltivato questi pendii impossibili per mille anni."
+        ]
+      },
       "buttons": [
-        { "text": "Village Hotels", "url": "/en/corniglia/hotels", "variant": "primary" },
-        { "text": "Things to Do", "url": "/en/corniglia/things-to-do", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Village Hotels",
+            "de": "Dorfhotels",
+            "fr": "Hôtels du Village",
+            "it": "Hotel del Borgo"
+          },
+          "url": {
+            "en": "/en/corniglia/hotels",
+            "de": "/de/corniglia/hotels",
+            "fr": "/fr/corniglia/hotels",
+            "it": "/it/corniglia/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Things to Do",
+            "de": "Aktivitäten",
+            "fr": "Choses à Faire",
+            "it": "Cose da Fare"
+          },
+          "url": {
+            "en": "/en/corniglia/things-to-do",
+            "de": "/de/corniglia/things-to-do",
+            "fr": "/fr/corniglia/things-to-do",
+            "it": "/it/corniglia/things-to-do"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T15:00:00.000Z"
+  "updated_at": "2026-01-07T19:45:00.000Z"
 }

@@ -7,36 +7,90 @@
     "it": "/it/manarola/weather"
   },
   "title": {
-    "en": "Weather in Manarola | Cinque Terre Dispatch"
+    "en": "Weather in Manarola | Cinque Terre Dispatch",
+    "de": "Wetter in Manarola | Cinque Terre Dispatch",
+    "fr": "Météo à Manarola | Cinque Terre Dispatch",
+    "it": "Meteo a Manarola | Cinque Terre Dispatch"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Weather in Manarola | Cinque Terre Dispatch"
+      "en": "Weather in Manarola | Cinque Terre Dispatch",
+      "de": "Wetter in Manarola | Cinque Terre Dispatch",
+      "fr": "Météo à Manarola | Cinque Terre Dispatch",
+      "it": "Meteo a Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The weather in Manarola is not something to plan around—it's something to live within. Each season reveals a different village, and the locals know which days belong to which activities."
+      "en": "The weather in Manarola is not something to plan around—it's something to live within. Each season reveals a different village, and the locals know which days belong to which activities.",
+      "de": "Das Wetter in Manarola ist nicht etwas, worum man plant—es ist etwas, in dem man lebt. Jede Jahreszeit enthüllt ein anderes Dorf, und die Einheimischen wissen, welche Tage zu welchen Aktivitäten gehören.",
+      "fr": "Le temps à Manarola n'est pas quelque chose autour duquel on planifie—c'est quelque chose dans lequel on vit. Chaque saison révèle un village différent, et les habitants savent quels jours appartiennent à quelles activités.",
+      "it": "Il tempo a Manarola non è qualcosa attorno a cui pianificare—è qualcosa in cui vivere. Ogni stagione rivela un borgo diverso, e i locali sanno quali giorni appartengono a quali attività."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Sky<br/>Decides",
-      "subtitle": "Manarola exists within the weather, not despite it. The Mediterranean climate shapes every activity—when to swim, when to hike, when to sit inside with wine and watch the sea turn grey. Understanding the seasons means understanding how to be here.",
-      "badge": "Weather Guide",
+      "title": {
+        "en": "The Sky<br/>Decides",
+        "de": "Der Himmel<br/>Entscheidet",
+        "fr": "Le Ciel<br/>Décide",
+        "it": "Il Cielo<br/>Decide"
+      },
+      "subtitle": {
+        "en": "Manarola exists within the weather, not despite it. The Mediterranean climate shapes every activity—when to swim, when to hike, when to sit inside with wine and watch the sea turn grey. Understanding the seasons means understanding how to be here.",
+        "de": "Manarola existiert im Wetter, nicht trotz ihm. Das mediterrane Klima prägt jede Aktivität—wann man schwimmt, wann man wandert, wann man drinnen mit Wein sitzt und zuschaut, wie das Meer grau wird. Die Jahreszeiten zu verstehen bedeutet zu verstehen, wie man hier sein kann.",
+        "fr": "Manarola existe dans le temps, pas malgré lui. Le climat méditerranéen façonne chaque activité—quand nager, quand randonner, quand s'asseoir à l'intérieur avec du vin et regarder la mer devenir grise. Comprendre les saisons signifie comprendre comment être ici.",
+        "it": "Manarola esiste nel tempo atmosferico, non nonostante esso. Il clima mediterraneo plasma ogni attività—quando nuotare, quando fare escursioni, quando sedersi dentro con il vino e guardare il mare diventare grigio. Capire le stagioni significa capire come stare qui."
+      },
+      "badge": {
+        "en": "Weather Guide",
+        "de": "Wetterführer",
+        "fr": "Guide Météo",
+        "it": "Guida Meteo"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Climate Reality",
-      "quote": "Visitors ask for the 'best weather' as if one answer exists. But ask what you want to do, and I'll tell you which weather makes that perfect. Swimming weather isn't hiking weather. Wine-tasting weather isn't beach weather. The Mediterranean offers variety, not perfection.",
-      "content": [
-        "**The mild baseline** holds year-round. Temperatures rarely drop below 5°C in winter or exceed 32°C in summer. The sea moderates everything. What changes dramatically is the light, the crowds, and which activities the weather enables.",
-        "**Microclimates matter**. Manarola faces southeast, catching morning sun while the western cliffs hold afternoon shade. The harbor is warmer than the upper village. The terraces above can be ten degrees cooler than the waterfront.",
-        "**The sea determines swimming**. Water temperature matters more than air temperature. The Mediterranean reaches 24°C by August, stays swimmable through October, and takes until June to warm again. Early swimmers know: the air can be warm while the water isn't.",
-        "**Rain concentrates in autumn**. October and November bring the most precipitation—short, intense bursts rather than all-day drizzle. These storms can be spectacular, watching from a warm café."
-      ]
+      "badge": {
+        "en": "The Climate Reality",
+        "de": "Die Klimarealität",
+        "fr": "La Réalité Climatique",
+        "it": "La Realtà Climatica"
+      },
+      "quote": {
+        "en": "Visitors ask for the 'best weather' as if one answer exists. But ask what you want to do, and I'll tell you which weather makes that perfect. Swimming weather isn't hiking weather. Wine-tasting weather isn't beach weather. The Mediterranean offers variety, not perfection.",
+        "de": "Besucher fragen nach dem 'besten Wetter', als ob es eine Antwort gäbe. Aber fragen Sie, was Sie tun möchten, und ich sage Ihnen, welches Wetter das perfekt macht. Schwimmwetter ist kein Wanderwetter. Weinverkostungswetter ist kein Strandwetter. Das Mittelmeer bietet Vielfalt, nicht Perfektion.",
+        "fr": "Les visiteurs demandent le 'meilleur temps' comme s'il n'y avait qu'une réponse. Mais demandez ce que vous voulez faire, et je vous dirai quel temps le rend parfait. Le temps de baignade n'est pas le temps de randonnée. Le temps de dégustation de vin n'est pas le temps de plage. La Méditerranée offre la variété, pas la perfection.",
+        "it": "I visitatori chiedono il 'tempo migliore' come se esistesse una sola risposta. Ma chiedete cosa volete fare, e vi dirò quale tempo lo rende perfetto. Il tempo per nuotare non è il tempo per le escursioni. Il tempo per degustare vino non è il tempo da spiaggia. Il Mediterraneo offre varietà, non perfezione."
+      },
+      "content": {
+        "en": [
+          "**The mild baseline** holds year-round. Temperatures rarely drop below 5°C in winter or exceed 32°C in summer. The sea moderates everything. What changes dramatically is the light, the crowds, and which activities the weather enables.",
+          "**Microclimates matter**. Manarola faces southeast, catching morning sun while the western cliffs hold afternoon shade. The harbor is warmer than the upper village. The terraces above can be ten degrees cooler than the waterfront.",
+          "**The sea determines swimming**. Water temperature matters more than air temperature. The Mediterranean reaches 24°C by August, stays swimmable through October, and takes until June to warm again. Early swimmers know: the air can be warm while the water isn't.",
+          "**Rain concentrates in autumn**. October and November bring the most precipitation—short, intense bursts rather than all-day drizzle. These storms can be spectacular, watching from a warm café."
+        ],
+        "de": [
+          "**Die milde Grundlage** hält das ganze Jahr. Temperaturen fallen selten unter 5°C im Winter oder übersteigen 32°C im Sommer. Das Meer mäßigt alles. Was sich dramatisch ändert, ist das Licht, die Menschenmassen und welche Aktivitäten das Wetter ermöglicht.",
+          "**Mikroklimata sind wichtig**. Manarola liegt nach Südosten, fängt Morgensonne, während die westlichen Klippen Nachmittagsschatten bieten. Der Hafen ist wärmer als das obere Dorf. Die Terrassen darüber können zehn Grad kühler sein als die Uferpromenade.",
+          "**Das Meer bestimmt das Schwimmen**. Wassertemperatur ist wichtiger als Lufttemperatur. Das Mittelmeer erreicht bis August 24°C, bleibt bis Oktober schwimmbar und braucht bis Juni, um sich wieder zu erwärmen. Frühe Schwimmer wissen: Die Luft kann warm sein, während das Wasser es nicht ist.",
+          "**Regen konzentriert sich im Herbst**. Oktober und November bringen die meisten Niederschläge—kurze, intensive Schauer statt ganztägigem Nieselregen. Diese Stürme können spektakulär sein, wenn man sie von einem warmen Café aus beobachtet."
+        ],
+        "fr": [
+          "**La base douce** tient toute l'année. Les températures descendent rarement sous 5°C en hiver ou dépassent 32°C en été. La mer modère tout. Ce qui change dramatiquement, c'est la lumière, les foules, et quelles activités le temps permet.",
+          "**Les microclimats comptent**. Manarola fait face au sud-est, captant le soleil du matin tandis que les falaises occidentales offrent l'ombre de l'après-midi. Le port est plus chaud que le village haut. Les terrasses au-dessus peuvent être dix degrés plus fraîches que le bord de mer.",
+          "**La mer détermine la baignade**. La température de l'eau compte plus que celle de l'air. La Méditerranée atteint 24°C en août, reste propice à la baignade jusqu'en octobre, et met jusqu'en juin pour se réchauffer. Les nageurs matinaux savent : l'air peut être chaud alors que l'eau ne l'est pas.",
+          "**La pluie se concentre en automne**. Octobre et novembre apportent le plus de précipitations—des averses courtes et intenses plutôt qu'une bruine toute la journée. Ces orages peuvent être spectaculaires, regardés depuis un café chaleureux."
+        ],
+        "it": [
+          "**La base mite** regge tutto l'anno. Le temperature raramente scendono sotto i 5°C in inverno o superano i 32°C in estate. Il mare modera tutto. Ciò che cambia drasticamente è la luce, le folle, e quali attività il tempo permette.",
+          "**I microclimi contano**. Manarola è esposta a sud-est, catturando il sole mattutino mentre le scogliere occidentali offrono ombra pomeridiana. Il porto è più caldo del borgo alto. I terrazzamenti sopra possono essere dieci gradi più freschi del lungomare.",
+          "**Il mare determina il nuoto**. La temperatura dell'acqua conta più di quella dell'aria. Il Mediterraneo raggiunge 24°C entro agosto, rimane balneabile fino a ottobre, e impiega fino a giugno per riscaldarsi. I nuotatori mattinieri sanno: l'aria può essere calda mentre l'acqua no.",
+          "**La pioggia si concentra in autunno**. Ottobre e novembre portano la maggior parte delle precipitazioni—brevi e intense piuttosto che pioggerellina tutto il giorno. Questi temporali possono essere spettacolari, guardati da un caffè caldo."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Spring (March-May)",
-          "category": "Hiking Season",
+          "name": {
+            "en": "Spring (March-May)",
+            "de": "Frühling (März-Mai)",
+            "fr": "Printemps (Mars-Mai)",
+            "it": "Primavera (Marzo-Maggio)"
+          },
+          "category": {
+            "en": "Hiking Season",
+            "de": "Wandersaison",
+            "fr": "Saison de Randonnée",
+            "it": "Stagione Escursionistica"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Wildflowers on terraces, perfect trail temperatures, and the village waking from winter quiet.",
-          "description": "Spring brings Manarola to life. The terraces bloom with wildflowers—poppies, broom, wild herbs. Temperatures hover between 15-20°C, ideal for hiking without summer's oppressive heat. The sea is still cold (16-19°C), but the trails are perfect. Restaurants reopen. The village emerges from its intimate winter mode.",
-          "giuliaComment": "March can still bring storms. April is unpredictable—pack layers. But May is golden: warm enough for afternoon swimming, cool enough for morning hikes, and the village isn't yet overwhelmed by summer visitors. This is my favorite month.",
-          "signature": "When the terraces come alive"
+          "intro": {
+            "en": "Wildflowers on terraces, perfect trail temperatures, and the village waking from winter quiet.",
+            "de": "Wildblumen auf den Terrassen, perfekte Temperaturen für Wanderwege und das Dorf, das aus der Winterruhe erwacht.",
+            "fr": "Fleurs sauvages sur les terrasses, températures parfaites pour les sentiers, et le village qui s'éveille du calme hivernal.",
+            "it": "Fiori selvatici sui terrazzamenti, temperature perfette per i sentieri, e il borgo che si sveglia dalla quiete invernale."
+          },
+          "description": {
+            "en": "Spring brings Manarola to life. The terraces bloom with wildflowers—poppies, broom, wild herbs. Temperatures hover between 15-20°C, ideal for hiking without summer's oppressive heat. The sea is still cold (16-19°C), but the trails are perfect. Restaurants reopen. The village emerges from its intimate winter mode.",
+            "de": "Der Frühling erweckt Manarola zum Leben. Die Terrassen blühen mit Wildblumen—Mohn, Ginster, wilde Kräuter. Temperaturen schwanken zwischen 15-20°C, ideal zum Wandern ohne die drückende Sommerhitze. Das Meer ist noch kalt (16-19°C), aber die Wege sind perfekt. Restaurants öffnen wieder. Das Dorf taucht aus seinem intimen Wintermodus auf.",
+            "fr": "Le printemps fait revivre Manarola. Les terrasses fleurissent de fleurs sauvages—coquelicots, genêts, herbes sauvages. Les températures oscillent entre 15-20°C, idéales pour la randonnée sans la chaleur oppressante de l'été. La mer est encore froide (16-19°C), mais les sentiers sont parfaits. Les restaurants rouvrent. Le village émerge de son mode hivernal intime.",
+            "it": "La primavera riporta Manarola in vita. I terrazzamenti fioriscono di fiori selvatici—papaveri, ginestre, erbe selvatiche. Le temperature oscillano tra 15-20°C, ideali per le escursioni senza il caldo opprimente dell'estate. Il mare è ancora freddo (16-19°C), ma i sentieri sono perfetti. I ristoranti riaprono. Il borgo emerge dalla sua modalità invernale intima."
+          },
+          "giuliaComment": {
+            "en": "March can still bring storms. April is unpredictable—pack layers. But May is golden: warm enough for afternoon swimming, cool enough for morning hikes, and the village isn't yet overwhelmed by summer visitors. This is my favorite month.",
+            "de": "März kann noch Stürme bringen. April ist unberechenbar—packen Sie Schichten ein. Aber Mai ist golden: warm genug zum Nachmittagsschwimmen, kühl genug für Morgenwanderungen, und das Dorf ist noch nicht von Sommerbesuchern überrollt. Das ist mein Lieblingsmonat.",
+            "fr": "Mars peut encore apporter des tempêtes. Avril est imprévisible—prévoyez des couches. Mais mai est doré : assez chaud pour nager l'après-midi, assez frais pour randonner le matin, et le village n'est pas encore submergé par les visiteurs estivaux. C'est mon mois préféré.",
+            "it": "Marzo può ancora portare tempeste. Aprile è imprevedibile—portate strati. Ma maggio è dorato: abbastanza caldo per nuotare il pomeriggio, abbastanza fresco per le escursioni mattutine, e il borgo non è ancora sommerso dai visitatori estivi. Questo è il mio mese preferito."
+          },
+          "signature": {
+            "en": "When the terraces come alive",
+            "de": "Wenn die Terrassen zum Leben erwachen",
+            "fr": "Quand les terrasses reprennent vie",
+            "it": "Quando i terrazzamenti prendono vita"
+          }
         },
         {
           "id": 2,
-          "name": "Summer (June-August)",
-          "category": "Swimming Season",
+          "name": {
+            "en": "Summer (June-August)",
+            "de": "Sommer (Juni-August)",
+            "fr": "Été (Juin-Août)",
+            "it": "Estate (Giugno-Agosto)"
+          },
+          "category": {
+            "en": "Swimming Season",
+            "de": "Badesaison",
+            "fr": "Saison de Baignade",
+            "it": "Stagione Balneare"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Hot days, warm water, long evenings—the Mediterranean summer that draws millions.",
-          "description": "Summer is why Cinque Terre became famous. Temperatures reach 26-30°C. The sea finally warms to swimming temperature (22-24°C). Days are longest—sunset after 9pm in late June. This is also peak season: maximum crowds, maximum prices, reservations essential everywhere.",
-          "giuliaComment": "July and August are beautiful but exhausting. The day-trippers start arriving at 10am and don't leave until sunset. If you must come in summer, stay overnight—mornings before 9am and evenings after 7pm are still ours. Those are the real summer hours.",
-          "signature": "When the sea finally invites"
+          "intro": {
+            "en": "Hot days, warm water, long evenings—the Mediterranean summer that draws millions.",
+            "de": "Heiße Tage, warmes Wasser, lange Abende—der mediterrane Sommer, der Millionen anzieht.",
+            "fr": "Journées chaudes, eau chaude, longues soirées—l'été méditerranéen qui attire des millions.",
+            "it": "Giorni caldi, acqua calda, lunghe serate—l'estate mediterranea che attrae milioni."
+          },
+          "description": {
+            "en": "Summer is why Cinque Terre became famous. Temperatures reach 26-30°C. The sea finally warms to swimming temperature (22-24°C). Days are longest—sunset after 9pm in late June. This is also peak season: maximum crowds, maximum prices, reservations essential everywhere.",
+            "de": "Der Sommer ist der Grund, warum die Cinque Terre berühmt wurden. Temperaturen erreichen 26-30°C. Das Meer erwärmt sich endlich auf Schwimmtemperatur (22-24°C). Die Tage sind am längsten—Sonnenuntergang nach 21 Uhr Ende Juni. Dies ist auch Hochsaison: maximale Menschenmassen, maximale Preise, Reservierungen überall unerlässlich.",
+            "fr": "L'été est la raison pour laquelle les Cinque Terre sont devenues célèbres. Les températures atteignent 26-30°C. La mer se réchauffe enfin à température de baignade (22-24°C). Les jours sont les plus longs—coucher de soleil après 21h fin juin. C'est aussi la haute saison : foules maximales, prix maximaux, réservations essentielles partout.",
+            "it": "L'estate è il motivo per cui le Cinque Terre sono diventate famose. Le temperature raggiungono 26-30°C. Il mare finalmente si riscalda alla temperatura per nuotare (22-24°C). Le giornate sono le più lunghe—tramonto dopo le 21 a fine giugno. Questa è anche alta stagione: folle al massimo, prezzi al massimo, prenotazioni essenziali ovunque."
+          },
+          "giuliaComment": {
+            "en": "July and August are beautiful but exhausting. The day-trippers start arriving at 10am and don't leave until sunset. If you must come in summer, stay overnight—mornings before 9am and evenings after 7pm are still ours. Those are the real summer hours.",
+            "de": "Juli und August sind schön, aber anstrengend. Die Tagesausflügler kommen ab 10 Uhr und gehen erst bei Sonnenuntergang. Wenn Sie im Sommer kommen müssen, übernachten Sie—Morgen vor 9 Uhr und Abende nach 19 Uhr gehören noch uns. Das sind die echten Sommerstunden.",
+            "fr": "Juillet et août sont beaux mais épuisants. Les excursionnistes commencent à arriver à 10h et ne partent qu'au coucher du soleil. Si vous devez venir en été, passez la nuit—les matins avant 9h et les soirées après 19h sont encore à nous. Ce sont les vraies heures d'été.",
+            "it": "Luglio e agosto sono belli ma estenuanti. I gitanti giornalieri iniziano ad arrivare alle 10 e non se ne vanno fino al tramonto. Se dovete venire in estate, pernottate—le mattine prima delle 9 e le sere dopo le 19 sono ancora nostre. Quelle sono le vere ore estive."
+          },
+          "signature": {
+            "en": "When the sea finally invites",
+            "de": "Wenn das Meer endlich einlädt",
+            "fr": "Quand la mer invite enfin",
+            "it": "Quando il mare finalmente invita"
+          }
         },
         {
           "id": 3,
-          "name": "Autumn (September-October)",
-          "category": "Harvest Season",
+          "name": {
+            "en": "Autumn (September-October)",
+            "de": "Herbst (September-Oktober)",
+            "fr": "Automne (Septembre-Octobre)",
+            "it": "Autunno (Settembre-Ottobre)"
+          },
+          "category": {
+            "en": "Harvest Season",
+            "de": "Erntezeit",
+            "fr": "Saison des Vendanges",
+            "it": "Stagione della Vendemmia"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Golden light, grape harvest, warm water, fewer crowds—what many consider the perfect season.",
-          "description": "Autumn is Manarola's secret best season. September holds summer's warmth without summer's crowds. The sea stays swimmable through October. The light turns golden, perfect for photography. And the vendemmia (grape harvest) brings the village together for its oldest tradition.",
-          "giuliaComment": "September and early October are paradise. Warm enough for swimming, cool enough for hiking, few enough visitors that you can get a restaurant table without booking a week ahead. Late October brings the first real storms—dramatic but unpredictable.",
-          "signature": "When the light turns gold"
+          "intro": {
+            "en": "Golden light, grape harvest, warm water, fewer crowds—what many consider the perfect season.",
+            "de": "Goldenes Licht, Weinlese, warmes Wasser, weniger Menschenmassen—was viele als die perfekte Jahreszeit betrachten.",
+            "fr": "Lumière dorée, vendanges, eau chaude, moins de foules—ce que beaucoup considèrent comme la saison parfaite.",
+            "it": "Luce dorata, vendemmia, acqua calda, meno folle—quella che molti considerano la stagione perfetta."
+          },
+          "description": {
+            "en": "Autumn is Manarola's secret best season. September holds summer's warmth without summer's crowds. The sea stays swimmable through October. The light turns golden, perfect for photography. And the vendemmia (grape harvest) brings the village together for its oldest tradition.",
+            "de": "Der Herbst ist Manarolas geheime beste Jahreszeit. September behält die Sommerwärme ohne die Sommermassen. Das Meer bleibt bis Oktober schwimmbar. Das Licht wird golden, perfekt für Fotografie. Und die Vendemmia (Weinlese) bringt das Dorf für seine älteste Tradition zusammen.",
+            "fr": "L'automne est la meilleure saison secrète de Manarola. Septembre garde la chaleur de l'été sans les foules estivales. La mer reste propice à la baignade jusqu'en octobre. La lumière devient dorée, parfaite pour la photographie. Et la vendemmia (vendanges) rassemble le village pour sa plus ancienne tradition.",
+            "it": "L'autunno è la migliore stagione segreta di Manarola. Settembre mantiene il caldo estivo senza le folle estive. Il mare resta balneabile fino a ottobre. La luce diventa dorata, perfetta per la fotografia. E la vendemmia riunisce il borgo per la sua tradizione più antica."
+          },
+          "giuliaComment": {
+            "en": "September and early October are paradise. Warm enough for swimming, cool enough for hiking, few enough visitors that you can actually get a restaurant table without booking a week ahead. Late October brings the first real storms—dramatic but unpredictable.",
+            "de": "September und Anfang Oktober sind das Paradies. Warm genug zum Schwimmen, kühl genug zum Wandern, wenig genug Besucher, dass man tatsächlich einen Restauranttisch bekommt, ohne eine Woche im Voraus zu buchen. Ende Oktober bringt die ersten echten Stürme—dramatisch, aber unvorhersehbar.",
+            "fr": "Septembre et début octobre sont un paradis. Assez chaud pour nager, assez frais pour randonner, assez peu de visiteurs pour pouvoir obtenir une table de restaurant sans réserver une semaine à l'avance. Fin octobre apporte les premières vraies tempêtes—dramatiques mais imprévisibles.",
+            "it": "Settembre e inizio ottobre sono il paradiso. Abbastanza caldo per nuotare, abbastanza fresco per le escursioni, abbastanza pochi visitatori da poter effettivamente ottenere un tavolo al ristorante senza prenotare una settimana prima. Fine ottobre porta le prime vere tempeste—drammatiche ma imprevedibili."
+          },
+          "signature": {
+            "en": "When the light turns gold",
+            "de": "Wenn das Licht golden wird",
+            "fr": "Quand la lumière devient dorée",
+            "it": "Quando la luce diventa dorata"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Afternoon Sea Breeze",
-          "quote": "Around 2pm, the thermal winds pick up. This is when locals know to come inside, when the sea gets choppy, when boat tours can get uncomfortable. Morning calm, afternoon wind—the Mediterranean's daily rhythm. Plan accordingly."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Afternoon Sea Breeze",
+            "de": "Die Nachmittags-Meeresbrise",
+            "fr": "La Brise Marine de l'Après-midi",
+            "it": "La Brezza Marina Pomeridiana"
+          },
+          "quote": {
+            "en": "Around 2pm, the thermal winds pick up. This is when locals know to come inside, when the sea gets choppy, when boat tours can get uncomfortable. Morning calm, afternoon wind—the Mediterranean's daily rhythm. Plan accordingly.",
+            "de": "Gegen 14 Uhr nehmen die thermischen Winde zu. Das ist der Moment, wenn Einheimische wissen, dass sie nach drinnen gehen sollten, wenn das Meer unruhig wird, wenn Bootstouren unbequem werden können. Morgendliche Ruhe, nachmittäglicher Wind—der tägliche Rhythmus des Mittelmeers. Planen Sie entsprechend.",
+            "fr": "Vers 14h, les vents thermiques se lèvent. C'est à ce moment que les habitants savent qu'il faut rentrer, quand la mer devient agitée, quand les excursions en bateau peuvent devenir inconfortables. Calme du matin, vent de l'après-midi—le rythme quotidien de la Méditerranée. Planifiez en conséquence.",
+            "it": "Verso le 14, i venti termici si alzano. Questo è quando i locali sanno che è ora di rientrare, quando il mare diventa mosso, quando i tour in barca possono diventare scomodi. Calma mattutina, vento pomeridiano—il ritmo quotidiano del Mediterraneo. Pianificate di conseguenza."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Off-Season",
-      "quote": "November through February is when Manarola becomes itself again. Many restaurants close, many visitors leave, and the village returns to the people who live here year-round.",
-      "content": [
-        "**Winter is real**. Not cold by continental standards—temperatures rarely drop below 5°C—but wet. November brings the heaviest rains. December through February can be grey for days. But between storms, winter sun is gentle and beautiful.",
-        "**The Natività lights up December**. Mario Andreoli's illuminated nativity scene on the terraces above the village draws visitors even in the cold season. From December 8 through late January, this is Manarola's winter attraction.",
-        "**Fewer restaurants, more intimacy**. Some establishments close entirely from November to March. Others operate reduced hours. What remains is authentic—the places that serve locals, not just tourists.",
-        "**Storm watching has its appeal**. Big waves crashing against the harbor walls, sea spray reaching the windows, sitting inside with wine and watching the Mediterranean's fury—this is a different kind of beauty."
-      ]
+      "badge": {
+        "en": "The Off-Season",
+        "de": "Die Nebensaison",
+        "fr": "La Basse Saison",
+        "it": "La Bassa Stagione"
+      },
+      "quote": {
+        "en": "November through February is when Manarola becomes itself again. Many restaurants close, many visitors leave, and the village returns to the people who live here year-round.",
+        "de": "Von November bis Februar wird Manarola wieder es selbst. Viele Restaurants schließen, viele Besucher gehen, und das Dorf kehrt zu den Menschen zurück, die hier das ganze Jahr leben.",
+        "fr": "De novembre à février, Manarola redevient elle-même. De nombreux restaurants ferment, de nombreux visiteurs partent, et le village retourne aux personnes qui y vivent toute l'année.",
+        "it": "Da novembre a febbraio Manarola torna se stessa. Molti ristoranti chiudono, molti visitatori partono, e il borgo torna alle persone che vivono qui tutto l'anno."
+      },
+      "content": {
+        "en": [
+          "**Winter is real**. Not cold by continental standards—temperatures rarely drop below 5°C—but wet. November brings the heaviest rains. December through February can be grey for days. But between storms, winter sun is gentle and beautiful.",
+          "**The Natività lights up December**. Mario Andreoli's illuminated nativity scene on the terraces above the village draws visitors even in the cold season. From December 8 through late January, this is Manarola's winter attraction.",
+          "**Fewer restaurants, more intimacy**. Some establishments close entirely from November to March. Others operate reduced hours. What remains is authentic—the places that serve locals, not just tourists.",
+          "**Storm watching has its appeal**. Big waves crashing against the harbor walls, sea spray reaching the windows, sitting inside with wine and watching the Mediterranean's fury—this is a different kind of beauty."
+        ],
+        "de": [
+          "**Der Winter ist echt**. Nicht kalt nach kontinentalen Maßstäben—Temperaturen fallen selten unter 5°C—aber nass. November bringt die stärksten Regenfälle. Dezember bis Februar können tagelang grau sein. Aber zwischen den Stürmen ist die Wintersonne sanft und schön.",
+          "**Die Natività erleuchtet den Dezember**. Mario Andreolis beleuchtete Krippe auf den Terrassen über dem Dorf zieht selbst in der kalten Jahreszeit Besucher an. Vom 8. Dezember bis Ende Januar ist dies Manarolas Winterattraktion.",
+          "**Weniger Restaurants, mehr Intimität**. Einige Lokale schließen von November bis März ganz. Andere haben reduzierte Öffnungszeiten. Was bleibt, ist authentisch—die Orte, die Einheimische bedienen, nicht nur Touristen.",
+          "**Sturmbeobachtung hat ihren Reiz**. Große Wellen, die gegen die Hafenmauern krachen, Gischt, die die Fenster erreicht, drinnen sitzen mit Wein und die Wut des Mittelmeers beobachten—das ist eine andere Art von Schönheit."
+        ],
+        "fr": [
+          "**L'hiver est réel**. Pas froid selon les standards continentaux—les températures descendent rarement sous 5°C—mais humide. Novembre apporte les pluies les plus fortes. De décembre à février, il peut faire gris pendant des jours. Mais entre les tempêtes, le soleil d'hiver est doux et beau.",
+          "**La Natività illumine décembre**. La crèche illuminée de Mario Andreoli sur les terrasses au-dessus du village attire des visiteurs même en saison froide. Du 8 décembre à fin janvier, c'est l'attraction hivernale de Manarola.",
+          "**Moins de restaurants, plus d'intimité**. Certains établissements ferment entièrement de novembre à mars. D'autres fonctionnent à horaires réduits. Ce qui reste est authentique—les endroits qui servent les locaux, pas seulement les touristes.",
+          "**Observer les tempêtes a son charme**. De grandes vagues s'écrasant contre les murs du port, les embruns atteignant les fenêtres, s'asseoir à l'intérieur avec du vin et regarder la fureur de la Méditerranée—c'est une beauté différente."
+        ],
+        "it": [
+          "**L'inverno è vero**. Non freddo secondo gli standard continentali—le temperature raramente scendono sotto i 5°C—ma umido. Novembre porta le piogge più intense. Da dicembre a febbraio può essere grigio per giorni. Ma tra le tempeste, il sole invernale è gentile e bello.",
+          "**La Natività illumina dicembre**. Il presepe illuminato di Mario Andreoli sui terrazzamenti sopra il borgo attira visitatori anche nella stagione fredda. Dall'8 dicembre a fine gennaio, questa è l'attrazione invernale di Manarola.",
+          "**Meno ristoranti, più intimità**. Alcuni locali chiudono completamente da novembre a marzo. Altri operano con orari ridotti. Ciò che rimane è autentico—i posti che servono i locali, non solo i turisti.",
+          "**Osservare le tempeste ha il suo fascino**. Grandi onde che si infrangono contro le mura del porto, spruzzi che raggiungono le finestre, sedersi dentro con il vino e guardare la furia del Mediterraneo—questa è una bellezza diversa."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,163 @@
       "items": [
         {
           "id": 4,
-          "name": "What to Pack",
-          "category": "Preparation",
+          "name": {
+            "en": "What to Pack",
+            "de": "Was Einpacken",
+            "fr": "Quoi Emporter",
+            "it": "Cosa Portare"
+          },
+          "category": {
+            "en": "Preparation",
+            "de": "Vorbereitung",
+            "fr": "Préparation",
+            "it": "Preparazione"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The essentials change by season, but some things are always necessary.",
-          "description": "Year-round: comfortable walking shoes with grip (the stones get slippery), layers for temperature variation between harbor and upper village, sun protection. Summer adds swimwear and water shoes for rocky swimming. Winter adds a waterproof layer and warm evening wear. Spring and fall need both—the weather can shift mid-day.",
-          "giuliaComment": "The most common mistake: bringing only sandals. Even in summer, you'll want proper shoes for the trails and the steep village paths. The second most common mistake: assuming evening will be as warm as afternoon. Bring a light jacket always.",
-          "signature": "Where preparation prevents problems"
+          "intro": {
+            "en": "The essentials change by season, but some things are always necessary.",
+            "de": "Die Essentials ändern sich je nach Jahreszeit, aber einige Dinge sind immer notwendig.",
+            "fr": "Les essentiels changent selon la saison, mais certaines choses sont toujours nécessaires.",
+            "it": "Gli essenziali cambiano a seconda della stagione, ma alcune cose sono sempre necessarie."
+          },
+          "description": {
+            "en": "Year-round: comfortable walking shoes with grip (the stones get slippery), layers for temperature variation between harbor and upper village, sun protection. Summer adds swimwear and water shoes for rocky swimming. Winter adds a waterproof layer and warm evening wear. Spring and fall need both—the weather can shift mid-day.",
+            "de": "Ganzjährig: bequeme Wanderschuhe mit Grip (die Steine werden rutschig), Schichten für Temperaturunterschiede zwischen Hafen und oberem Dorf, Sonnenschutz. Sommer fügt Badekleidung und Wasserschuhe für felsiges Schwimmen hinzu. Winter fügt eine wasserdichte Schicht und warme Abendkleidung hinzu. Frühling und Herbst brauchen beides—das Wetter kann sich mittags ändern.",
+            "fr": "Toute l'année : chaussures de marche confortables avec adhérence (les pierres deviennent glissantes), couches pour la variation de température entre le port et le village haut, protection solaire. L'été ajoute maillot de bain et chaussures d'eau pour la baignade rocheuse. L'hiver ajoute une couche imperméable et des vêtements chauds pour le soir. Le printemps et l'automne nécessitent les deux—le temps peut changer en milieu de journée.",
+            "it": "Tutto l'anno: scarpe da passeggio comode con grip (le pietre diventano scivolose), strati per la variazione di temperatura tra porto e borgo alto, protezione solare. L'estate aggiunge costume da bagno e scarpe da acqua per nuotare tra gli scogli. L'inverno aggiunge uno strato impermeabile e abbigliamento serale caldo. Primavera e autunno hanno bisogno di entrambi—il tempo può cambiare a metà giornata."
+          },
+          "giuliaComment": {
+            "en": "The most common mistake: bringing only sandals. Even in summer, you'll want proper shoes for the trails and the steep village paths. The second most common mistake: assuming evening will be as warm as afternoon. Bring a light jacket always.",
+            "de": "Der häufigste Fehler: nur Sandalen mitbringen. Selbst im Sommer werden Sie richtige Schuhe für die Wege und die steilen Dorfpfade wollen. Der zweithäufigste Fehler: annehmen, dass der Abend so warm ist wie der Nachmittag. Bringen Sie immer eine leichte Jacke mit.",
+            "fr": "L'erreur la plus courante : n'apporter que des sandales. Même en été, vous voudrez des chaussures appropriées pour les sentiers et les chemins escarpés du village. La deuxième erreur la plus courante : supposer que le soir sera aussi chaud que l'après-midi. Apportez toujours une veste légère.",
+            "it": "L'errore più comune: portare solo sandali. Anche in estate, vorrete scarpe adatte per i sentieri e i ripidi percorsi del borgo. Il secondo errore più comune: presumere che la sera sarà calda come il pomeriggio. Portate sempre una giacca leggera."
+          },
+          "signature": {
+            "en": "Where preparation prevents problems",
+            "de": "Wo Vorbereitung Probleme verhindert",
+            "fr": "Où la préparation prévient les problèmes",
+            "it": "Dove la preparazione previene i problemi"
+          }
         },
         {
           "id": 5,
-          "name": "Reading the Forecast",
-          "category": "Planning",
+          "name": {
+            "en": "Reading the Forecast",
+            "de": "Die Vorhersage Lesen",
+            "fr": "Lire les Prévisions",
+            "it": "Leggere le Previsioni"
+          },
+          "category": {
+            "en": "Planning",
+            "de": "Planung",
+            "fr": "Planification",
+            "it": "Pianificazione"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Mediterranean forecasts are reliable for 3 days, suggestive for 7, and fantasy beyond.",
-          "description": "Trust the short-term forecast. Plan hiking for clear mornings. Plan boat trips for calm days. Have backup options for everything. The weather apps work well for basic conditions, but local knowledge—asking at your accommodation or restaurant—gives better insight into what the numbers actually mean for activities.",
-          "giuliaComment": "I use Windy.com for the wind patterns—crucial for boat decisions and swimming comfort. But for whether to hike, I look at the sky in the morning. Clear morning usually means clear day. Hazy morning can go either way. Learn to read the village's weather, not just the app.",
-          "signature": "Where technology meets intuition"
+          "intro": {
+            "en": "Mediterranean forecasts are reliable for 3 days, suggestive for 7, and fantasy beyond.",
+            "de": "Mediterrane Vorhersagen sind für 3 Tage zuverlässig, für 7 Tage andeutend, und darüber hinaus Fantasie.",
+            "fr": "Les prévisions méditerranéennes sont fiables pour 3 jours, suggestives pour 7, et fantaisie au-delà.",
+            "it": "Le previsioni mediterranee sono affidabili per 3 giorni, indicative per 7, e fantasia oltre."
+          },
+          "description": {
+            "en": "Trust the short-term forecast. Plan hiking for clear mornings. Plan boat trips for calm days. Have backup options for everything. The weather apps work well for basic conditions, but local knowledge—asking at your accommodation or restaurant—gives better insight into what the numbers actually mean for activities.",
+            "de": "Vertrauen Sie der Kurzfristvorhersage. Planen Sie Wanderungen für klare Vormittage. Planen Sie Bootsausflüge für ruhige Tage. Haben Sie Backup-Optionen für alles. Die Wetter-Apps funktionieren gut für grundlegende Bedingungen, aber lokales Wissen—fragen Sie in Ihrer Unterkunft oder im Restaurant—gibt bessere Einblicke, was die Zahlen tatsächlich für Aktivitäten bedeuten.",
+            "fr": "Faites confiance aux prévisions à court terme. Planifiez les randonnées pour les matinées claires. Planifiez les excursions en bateau pour les jours calmes. Ayez des options de secours pour tout. Les applications météo fonctionnent bien pour les conditions de base, mais les connaissances locales—demander à votre hébergement ou restaurant—donnent une meilleure idée de ce que les chiffres signifient réellement pour les activités.",
+            "it": "Fidatevi delle previsioni a breve termine. Pianificate le escursioni per le mattine serene. Pianificate le gite in barca per i giorni calmi. Abbiate opzioni di riserva per tutto. Le app meteo funzionano bene per le condizioni di base, ma la conoscenza locale—chiedere al vostro alloggio o ristorante—dà una migliore idea di cosa i numeri significhino realmente per le attività."
+          },
+          "giuliaComment": {
+            "en": "I use Windy.com for the wind patterns—crucial for boat decisions and swimming comfort. But for whether to hike, I look at the sky in the morning. Clear morning usually means clear day. Hazy morning can go either way. Learn to read the village's weather, not just the app.",
+            "de": "Ich benutze Windy.com für die Windmuster—entscheidend für Bootsentscheidungen und Schwimmkomfort. Aber ob ich wandern soll, schaue ich morgens in den Himmel. Klarer Morgen bedeutet meist klarer Tag. Dunstiger Morgen kann beides werden. Lernen Sie, das Wetter des Dorfes zu lesen, nicht nur die App.",
+            "fr": "J'utilise Windy.com pour les schémas de vent—crucial pour les décisions de bateau et le confort de baignade. Mais pour savoir si je dois randonner, je regarde le ciel le matin. Un matin clair signifie généralement une journée claire. Un matin brumeux peut aller dans les deux sens. Apprenez à lire la météo du village, pas seulement l'appli.",
+            "it": "Uso Windy.com per i pattern del vento—cruciale per le decisioni sulle barche e il comfort del nuoto. Ma per decidere se fare escursioni, guardo il cielo al mattino. Mattina serena di solito significa giornata serena. Mattina nebbiosa può andare in entrambi i modi. Imparate a leggere il tempo del borgo, non solo l'app."
+          },
+          "signature": {
+            "en": "Where technology meets intuition",
+            "de": "Wo Technologie auf Intuition trifft",
+            "fr": "Où la technologie rencontre l'intuition",
+            "it": "Dove la tecnologia incontra l'intuizione"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Evening Layer",
-          "quote": "Even in August, the evening can cool quickly once the sun drops behind the mountains. Every local carries a light jacket or sweater to dinner. The tourists eating in shorts are easy to spot—they're the cold ones."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Evening Layer",
+            "de": "Die Abendschicht",
+            "fr": "La Couche du Soir",
+            "it": "Lo Strato Serale"
+          },
+          "quote": {
+            "en": "Even in August, the evening can cool quickly once the sun drops behind the mountains. Every local carries a light jacket or sweater to dinner. The tourists eating in shorts are easy to spot—they're the cold ones.",
+            "de": "Selbst im August kann es abends schnell abkühlen, sobald die Sonne hinter den Bergen verschwindet. Jeder Einheimische trägt eine leichte Jacke oder einen Pullover zum Abendessen. Die Touristen, die in Shorts essen, sind leicht zu erkennen—sie sind die frierenden.",
+            "fr": "Même en août, la soirée peut se rafraîchir rapidement une fois que le soleil descend derrière les montagnes. Chaque local emporte une veste légère ou un pull au dîner. Les touristes qui mangent en shorts sont faciles à repérer—ce sont ceux qui ont froid.",
+            "it": "Anche in agosto, la sera può rinfrescarsi rapidamente una volta che il sole scende dietro le montagne. Ogni locale porta una giacca leggera o un maglione a cena. I turisti che mangiano in pantaloncini sono facili da individuare—sono quelli che hanno freddo."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Weather as Opportunity",
-      "content": [
-        "Bad weather doesn't exist in Manarola—only inappropriate plans. Rain makes the perfect excuse for a long lunch. Wind cancels swimming but enhances wine tasting. Grey days reveal the village without the golden light that draws photographers.",
-        "Come when you can, stay flexible, and let the weather guide your activities rather than fighting it. The Mediterranean has been here for millions of years. It knows what it's doing.",
-        "Pack layers. Check forecasts. But mostly, trust that whatever weather arrives, Manarola will still be beautiful—just differently beautiful than the day before."
-      ],
+      "title": {
+        "en": "Weather as Opportunity",
+        "de": "Wetter als Gelegenheit",
+        "fr": "La Météo comme Opportunité",
+        "it": "Il Tempo come Opportunità"
+      },
+      "content": {
+        "en": [
+          "Bad weather doesn't exist in Manarola—only inappropriate plans. Rain makes the perfect excuse for a long lunch. Wind cancels swimming but enhances wine tasting. Grey days reveal the village without the golden light that draws photographers.",
+          "Come when you can, stay flexible, and let the weather guide your activities rather than fighting it. The Mediterranean has been here for millions of years. It knows what it's doing.",
+          "Pack layers. Check forecasts. But mostly, trust that whatever weather arrives, Manarola will still be beautiful—just differently beautiful than the day before."
+        ],
+        "de": [
+          "Schlechtes Wetter gibt es in Manarola nicht—nur unangemessene Pläne. Regen ist die perfekte Ausrede für ein langes Mittagessen. Wind verhindert Schwimmen, aber verbessert Weinverkostung. Graue Tage zeigen das Dorf ohne das goldene Licht, das Fotografen anzieht.",
+          "Kommen Sie, wann Sie können, bleiben Sie flexibel und lassen Sie das Wetter Ihre Aktivitäten leiten, anstatt dagegen zu kämpfen. Das Mittelmeer ist seit Millionen von Jahren hier. Es weiß, was es tut.",
+          "Packen Sie Schichten ein. Prüfen Sie Vorhersagen. Aber vor allem vertrauen Sie darauf, dass Manarola bei jedem Wetter schön sein wird—nur anders schön als am Tag zuvor."
+        ],
+        "fr": [
+          "Le mauvais temps n'existe pas à Manarola—seulement des plans inappropriés. La pluie fait l'excuse parfaite pour un long déjeuner. Le vent annule la baignade mais améliore la dégustation de vin. Les jours gris révèlent le village sans la lumière dorée qui attire les photographes.",
+          "Venez quand vous pouvez, restez flexible, et laissez la météo guider vos activités plutôt que de la combattre. La Méditerranée est là depuis des millions d'années. Elle sait ce qu'elle fait.",
+          "Prévoyez des couches. Vérifiez les prévisions. Mais surtout, faites confiance que quel que soit le temps, Manarola sera toujours belle—juste différemment belle que la veille."
+        ],
+        "it": [
+          "Il brutto tempo non esiste a Manarola—solo piani inappropriati. La pioggia è la scusa perfetta per un lungo pranzo. Il vento cancella il nuoto ma esalta la degustazione di vino. I giorni grigi rivelano il borgo senza la luce dorata che attrae i fotografi.",
+          "Venite quando potete, restate flessibili, e lasciate che il tempo guidi le vostre attività piuttosto che combatterlo. Il Mediterraneo è qui da milioni di anni. Sa cosa sta facendo.",
+          "Portate strati. Controllate le previsioni. Ma soprattutto, fidatevi che qualunque tempo arrivi, Manarola sarà ancora bella—solo diversamente bella rispetto al giorno prima."
+        ]
+      },
       "buttons": [
-        { "text": "Things to Do", "url": "/en/manarola/things-to-do", "variant": "primary" },
-        { "text": "Hiking Trails", "url": "/en/manarola/hiking", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Things to Do",
+            "de": "Aktivitäten",
+            "fr": "Que Faire",
+            "it": "Cosa Fare"
+          },
+          "url": "/en/manarola/things-to-do",
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Hiking Trails",
+            "de": "Wanderwege",
+            "fr": "Sentiers de Randonnée",
+            "it": "Sentieri Escursionistici"
+          },
+          "url": "/en/manarola/hiking",
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +458,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:45:00.000Z"
+  "updated_at": "2026-01-07T18:15:00.000Z"
 }

@@ -7,36 +7,90 @@
     "it": "/it/riomaggiore/restaurants"
   },
   "title": {
-    "en": "Where to Eat in Riomaggiore | Cinque Terre Dispatch"
+    "en": "Where to Eat in Riomaggiore | Cinque Terre Dispatch",
+    "de": "Essen in Riomaggiore | Cinque Terre Dispatch",
+    "fr": "Ou manger a Riomaggiore | Cinque Terre Dispatch",
+    "it": "Dove mangiare a Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Where to Eat in Riomaggiore | Cinque Terre Dispatch"
+      "en": "Where to Eat in Riomaggiore | Cinque Terre Dispatch",
+      "de": "Essen in Riomaggiore | Cinque Terre Dispatch",
+      "fr": "Ou manger a Riomaggiore | Cinque Terre Dispatch",
+      "it": "Dove mangiare a Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "From cliff-side trattorias to fried fish in paper cones—a local's guide to the tables where Riomaggiore feeds its soul."
+      "en": "From cliff-side trattorias to fried fish in paper cones—a local's guide to the tables where Riomaggiore feeds its soul.",
+      "de": "Von Trattorien an der Klippe bis zu frittiertem Fisch in Papiertueten—ein Insider-Guide zu den Tischen, an denen Riomaggiore seine Seele naehrt.",
+      "fr": "Des trattorias a flanc de falaise aux cornets de poissons frits—le guide d'une locale pour decouvrir les tables ou Riomaggiore nourrit son ame.",
+      "it": "Dalle trattorie sulla scogliera al pesce fritto nel cartoccio—la guida di una locale ai tavoli dove Riomaggiore nutre la sua anima."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Where the Village<br/>Feeds Its Soul",
-      "subtitle": "In Riomaggiore, eating is not tourism. It is participation—in the morning catch, in the afternoon lull, in the golden hour that makes every meal a ceremony.",
-      "badge": "Dining Guide",
+      "title": {
+        "en": "Where the Village<br/>Feeds Its Soul",
+        "de": "Wo das Dorf<br/>seine Seele naehrt",
+        "fr": "Ou le village<br/>nourrit son ame",
+        "it": "Dove il paese<br/>nutre la sua anima"
+      },
+      "subtitle": {
+        "en": "In Riomaggiore, eating is not tourism. It is participation—in the morning catch, in the afternoon lull, in the golden hour that makes every meal a ceremony.",
+        "de": "In Riomaggiore ist Essen kein Tourismus. Es ist Teilnahme—am morgendlichen Fang, an der Nachmittagsruhe, an der goldenen Stunde, die jede Mahlzeit zur Zeremonie macht.",
+        "fr": "A Riomaggiore, manger n'est pas du tourisme. C'est une participation—a la peche du matin, au calme de l'apres-midi, a l'heure doree qui transforme chaque repas en ceremonie.",
+        "it": "A Riomaggiore, mangiare non e turismo. E partecipazione—alla pesca del mattino, alla quiete del pomeriggio, all'ora dorata che trasforma ogni pasto in una cerimonia."
+      },
+      "badge": {
+        "en": "Dining Guide",
+        "de": "Restaurant-Guide",
+        "fr": "Guide Gastronomique",
+        "it": "Guida Ristoranti"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Dining Story",
-      "quote": "The best restaurants in Riomaggiore are not trying to impress you. They are trying to feed you what the sea offered this morning and what the hills have been perfecting for eight centuries.",
-      "content": [
-        "There is a **hierarchy** here, but it is not what you expect. A Michelin-recognized kitchen sits alongside a focaccia window, and the locals frequent both with equal reverence.",
-        "The **rhythm of meals** matters more than the venue. A quick standing lunch at noon—fried fish, paper cone, harbor view. A slow aperitivo as the light turns gold. And dinner only when the village has settled into evening.",
-        "You will notice **short menus**. This is integrity, not limitation. If the chef wasn't at the harbor this morning, the fish won't be on the plate tonight.",
-        "**Reservations** are not optional for dinner. These terraces are small, and the demand is not."
-      ]
+      "badge": {
+        "en": "The Dining Story",
+        "de": "Die kulinarische Geschichte",
+        "fr": "L'histoire gastronomique",
+        "it": "La storia gastronomica"
+      },
+      "quote": {
+        "en": "The best restaurants in Riomaggiore are not trying to impress you. They are trying to feed you what the sea offered this morning and what the hills have been perfecting for eight centuries.",
+        "de": "Die besten Restaurants in Riomaggiore versuchen nicht, Sie zu beeindrucken. Sie wollen Ihnen servieren, was das Meer heute Morgen geboten hat und was die Huegel seit acht Jahrhunderten perfektionieren.",
+        "fr": "Les meilleurs restaurants de Riomaggiore ne cherchent pas a vous impressionner. Ils veulent vous servir ce que la mer a offert ce matin et ce que les collines perfectionnent depuis huit siecles.",
+        "it": "I migliori ristoranti di Riomaggiore non cercano di impressionarti. Vogliono servirti cio che il mare ha offerto stamattina e cio che le colline perfezionano da otto secoli."
+      },
+      "content": {
+        "en": [
+          "There is a **hierarchy** here, but it is not what you expect. A Michelin-recognized kitchen sits alongside a focaccia window, and the locals frequent both with equal reverence.",
+          "The **rhythm of meals** matters more than the venue. A quick standing lunch at noon—fried fish, paper cone, harbor view. A slow aperitivo as the light turns gold. And dinner only when the village has settled into evening.",
+          "You will notice **short menus**. This is integrity, not limitation. If the chef wasn't at the harbor this morning, the fish won't be on the plate tonight.",
+          "**Reservations** are not optional for dinner. These terraces are small, and the demand is not."
+        ],
+        "de": [
+          "Es gibt hier eine **Hierarchie**, aber nicht die, die Sie erwarten. Eine Michelin-anerkannte Kueche existiert neben einem Focaccia-Fenster, und die Einheimischen frequentieren beide mit gleicher Ehrfurcht.",
+          "Der **Rhythmus der Mahlzeiten** zaehlt mehr als der Ort. Ein schnelles Mittagessen im Stehen—frittierter Fisch, Papiertuete, Hafenblick. Ein langsamer Aperitivo, wenn das Licht golden wird. Und Abendessen erst, wenn das Dorf in die Nacht eingetaucht ist.",
+          "Sie werden **kurze Speisekarten** bemerken. Das ist Integritaet, keine Einschraenkung. Wenn der Koch heute Morgen nicht am Hafen war, wird der Fisch heute Abend nicht auf dem Teller sein.",
+          "**Reservierungen** sind fuer das Abendessen obligatorisch. Diese Terrassen sind klein, die Nachfrage nicht."
+        ],
+        "fr": [
+          "Il y a une **hierarchie** ici, mais pas celle que vous attendez. Une cuisine reconnue par le Michelin coexiste avec un comptoir a focaccia, et les locaux frequentent les deux avec la meme reverence.",
+          "Le **rythme des repas** compte plus que l'endroit. Un dejeuner rapide debout a midi—poisson frit, cornet en papier, vue sur le port. Un aperitivo lent quand la lumiere devient doree. Et le diner seulement quand le village s'est installe dans la soiree.",
+          "Vous remarquerez des **menus courts**. C'est de l'integrite, pas une limitation. Si le chef n'etait pas au port ce matin, le poisson ne sera pas dans l'assiette ce soir.",
+          "Les **reservations** ne sont pas optionnelles pour le diner. Ces terrasses sont petites, la demande ne l'est pas."
+        ],
+        "it": [
+          "C'e una **gerarchia** qui, ma non quella che vi aspettate. Una cucina riconosciuta dalla Guida Michelin convive accanto a una finestra di focaccia, e i locali frequentano entrambe con uguale riverenza.",
+          "Il **ritmo dei pasti** conta piu del locale. Un pranzo veloce in piedi a mezzogiorno—pesce fritto, cartoccio, vista sul porto. Un aperitivo lento mentre la luce diventa dorata. E la cena solo quando il paese si e adagiato nella sera.",
+          "Noterete **menu brevi**. Questa e integrita, non limitazione. Se lo chef non era al porto stamattina, il pesce non sara nel piatto stasera.",
+          "Le **prenotazioni** non sono opzionali per la cena. Queste terrazze sono piccole, la domanda no."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -45,60 +99,180 @@
         {
           "id": 1,
           "name": "Dau Cila",
-          "category": "Seafood Restaurant",
+          "category": {
+            "en": "Seafood Restaurant",
+            "de": "Fischrestaurant",
+            "fr": "Restaurant de fruits de mer",
+            "it": "Ristorante di pesce"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
-          "intro": "A terrace carved into the cliff where the sea is closer than the kitchen.",
-          "description": "Dau Cila occupies one of the most dramatic positions in the village—a series of terraces that seem to hang directly over the water. The menu is dictated by the morning catch, and the wine list reads like a love letter to local Sciacchetrà.",
-          "giuliaComment": "This is where I bring visitors who want to understand the relationship between the village and the sea. The grilled octopus here is a conversation, not just a meal.",
-          "signature": "The sound of waves beneath your table",
+          "intro": {
+            "en": "A terrace carved into the cliff where the sea is closer than the kitchen.",
+            "de": "Eine in die Klippe gehauene Terrasse, wo das Meer naeher ist als die Kueche.",
+            "fr": "Une terrasse taillee dans la falaise ou la mer est plus proche que la cuisine.",
+            "it": "Una terrazza scavata nella scogliera dove il mare e piu vicino della cucina."
+          },
+          "description": {
+            "en": "Dau Cila occupies one of the most dramatic positions in the village—a series of terraces that seem to hang directly over the water. The menu is dictated by the morning catch, and the wine list reads like a love letter to local Sciacchetra.",
+            "de": "Dau Cila besetzt eine der dramatischsten Positionen im Dorf—eine Reihe von Terrassen, die direkt ueber dem Wasser zu schweben scheinen. Die Speisekarte wird vom morgendlichen Fang diktiert, und die Weinkarte liest sich wie ein Liebesbrief an den lokalen Sciacchetra.",
+            "fr": "Dau Cila occupe l'une des positions les plus spectaculaires du village—une serie de terrasses qui semblent suspendues directement au-dessus de l'eau. Le menu est dicte par la peche du matin, et la carte des vins se lit comme une lettre d'amour au Sciacchetra local.",
+            "it": "Dau Cila occupa una delle posizioni piu spettacolari del paese—una serie di terrazze che sembrano sospese direttamente sull'acqua. Il menu e dettato dalla pesca del mattino, e la carta dei vini si legge come una lettera d'amore allo Sciacchetra locale."
+          },
+          "giuliaComment": {
+            "en": "This is where I bring visitors who want to understand the relationship between the village and the sea. The grilled octopus here is a conversation, not just a meal.",
+            "de": "Hierher bringe ich Besucher, die die Beziehung zwischen dem Dorf und dem Meer verstehen wollen. Der gegrillte Oktopus hier ist ein Gespraech, nicht nur eine Mahlzeit.",
+            "fr": "C'est ici que j'amene les visiteurs qui veulent comprendre la relation entre le village et la mer. Le poulpe grille ici est une conversation, pas seulement un repas.",
+            "it": "E qui che porto i visitatori che vogliono capire il rapporto tra il paese e il mare. Il polpo alla griglia qui e una conversazione, non solo un pasto."
+          },
+          "signature": {
+            "en": "The sound of waves beneath your table",
+            "de": "Das Rauschen der Wellen unter Ihrem Tisch",
+            "fr": "Le bruit des vagues sous votre table",
+            "it": "Il suono delle onde sotto il tuo tavolo"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Reservations essential. Request a lower terrace for sunset.",
+          "practicalInfo": {
+            "en": "Reservations essential. Request a lower terrace for sunset.",
+            "de": "Reservierung erforderlich. Fragen Sie nach einer unteren Terrasse fuer den Sonnenuntergang.",
+            "fr": "Reservations indispensables. Demandez une terrasse inferieure pour le coucher du soleil.",
+            "it": "Prenotazione essenziale. Richiedete una terrazza inferiore per il tramonto."
+          },
           "googleRating": 4.5,
           "tripadvisorRating": 4.4
         },
         {
           "id": 2,
           "name": "Rio Bistrot",
-          "category": "Modern Ligurian",
+          "category": {
+            "en": "Modern Ligurian",
+            "de": "Moderne ligurische Kueche",
+            "fr": "Cuisine ligure moderne",
+            "it": "Cucina ligure moderna"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Where tradition meets a younger generation's confidence.",
-          "description": "Rio Bistrot represents a new voice in Riomaggiore—respectful of tradition but unafraid to experiment. The Michelin Guide recognizes what locals already knew: this is a kitchen with vision. The tasting menus are journeys through local ingredients presented with modern technique.",
-          "giuliaComment": "I love the energy here. The chef is from the village, but he's traveled. He brings the world back home without forgetting where he came from.",
-          "signature": "The pesto foam that started a hundred arguments",
+          "intro": {
+            "en": "Where tradition meets a younger generation's confidence.",
+            "de": "Wo Tradition auf das Selbstvertrauen einer juengeren Generation trifft.",
+            "fr": "Ou la tradition rencontre l'assurance d'une nouvelle generation.",
+            "it": "Dove la tradizione incontra la sicurezza di una nuova generazione."
+          },
+          "description": {
+            "en": "Rio Bistrot represents a new voice in Riomaggiore—respectful of tradition but unafraid to experiment. The Michelin Guide recognizes what locals already knew: this is a kitchen with vision. The tasting menus are journeys through local ingredients presented with modern technique.",
+            "de": "Rio Bistrot repraesentiert eine neue Stimme in Riomaggiore—respektvoll gegenueber der Tradition, aber ohne Angst vor Experimenten. Der Michelin-Fuehrer erkennt an, was die Einheimischen bereits wussten: Dies ist eine Kueche mit Vision. Die Degustationsmenues sind Reisen durch lokale Zutaten, praesentiert mit moderner Technik.",
+            "fr": "Rio Bistrot represente une nouvelle voix a Riomaggiore—respectueux de la tradition mais sans peur d'experimenter. Le Guide Michelin reconnait ce que les locaux savaient deja: c'est une cuisine avec une vision. Les menus degustation sont des voyages a travers les ingredients locaux presentes avec une technique moderne.",
+            "it": "Rio Bistrot rappresenta una nuova voce a Riomaggiore—rispettosa della tradizione ma senza paura di sperimentare. La Guida Michelin riconosce cio che i locali gia sapevano: questa e una cucina con visione. I menu degustazione sono viaggi attraverso ingredienti locali presentati con tecnica moderna."
+          },
+          "giuliaComment": {
+            "en": "I love the energy here. The chef is from the village, but he's traveled. He brings the world back home without forgetting where he came from.",
+            "de": "Ich liebe die Energie hier. Der Koch ist aus dem Dorf, aber er ist gereist. Er bringt die Welt nach Hause, ohne zu vergessen, woher er kommt.",
+            "fr": "J'adore l'energie ici. Le chef est du village, mais il a voyage. Il ramene le monde a la maison sans oublier d'ou il vient.",
+            "it": "Adoro l'energia qui. Lo chef e del paese, ma ha viaggiato. Porta il mondo a casa senza dimenticare da dove viene."
+          },
+          "signature": {
+            "en": "The pesto foam that started a hundred arguments",
+            "de": "Der Pesto-Schaum, der hundert Diskussionen ausloeste",
+            "fr": "La mousse de pesto qui a declenche cent debats",
+            "it": "La schiuma di pesto che ha scatenato cento discussioni"
+          },
           "priceRange": "$$$$",
-          "practicalInfo": "Tasting menu only. Book a week in advance during summer.",
+          "practicalInfo": {
+            "en": "Tasting menu only. Book a week in advance during summer.",
+            "de": "Nur Degustationsmenu. Im Sommer eine Woche im Voraus buchen.",
+            "fr": "Menu degustation uniquement. Reservez une semaine a l'avance en ete.",
+            "it": "Solo menu degustazione. Prenotate con una settimana di anticipo in estate."
+          },
           "googleRating": 4.7,
           "tripadvisorRating": 4.6
         },
         {
           "id": 3,
           "name": "Trattoria Dal Billy",
-          "category": "Panoramic Seafood",
+          "category": {
+            "en": "Panoramic Seafood",
+            "de": "Panorama-Fischrestaurant",
+            "fr": "Fruits de mer panoramique",
+            "it": "Pesce panoramico"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Climb for twenty minutes. Earn your view. Then eat like a king.",
-          "description": "Dal Billy sits at the top of the village, requiring a proper walk through winding alleys. The reward is a terrace with the entire coastline spread before you, and seafood that arrives daily from the harbor far below.",
-          "giuliaComment": "The climb is part of the experience. By the time you arrive, you're hungry enough to appreciate the generous portions. Their seafood risotto is legendary.",
-          "signature": "A view that makes you forget your aching legs",
+          "intro": {
+            "en": "Climb for twenty minutes. Earn your view. Then eat like a king.",
+            "de": "Zwanzig Minuten klettern. Verdienen Sie sich Ihre Aussicht. Dann essen Sie wie ein Koenig.",
+            "fr": "Grimpez pendant vingt minutes. Meritez votre vue. Puis mangez comme un roi.",
+            "it": "Salite per venti minuti. Guadagnatevi la vista. Poi mangiate come un re."
+          },
+          "description": {
+            "en": "Dal Billy sits at the top of the village, requiring a proper walk through winding alleys. The reward is a terrace with the entire coastline spread before you, and seafood that arrives daily from the harbor far below.",
+            "de": "Dal Billy thront an der Spitze des Dorfes und erfordert einen ordentlichen Spaziergang durch verwinkelte Gassen. Die Belohnung ist eine Terrasse mit der gesamten Kuestenlinie vor Ihnen und Meeresfruechte, die taeglich aus dem Hafen weit unten kommen.",
+            "fr": "Dal Billy se trouve au sommet du village, necessitant une vraie marche a travers des ruelles sinueuses. La recompense est une terrasse avec toute la cote devant vous, et des fruits de mer qui arrivent quotidiennement du port loin en bas.",
+            "it": "Dal Billy si trova in cima al paese, richiedendo una vera camminata attraverso vicoli tortuosi. La ricompensa e una terrazza con tutta la costa davanti a voi, e frutti di mare che arrivano quotidianamente dal porto molto piu in basso."
+          },
+          "giuliaComment": {
+            "en": "The climb is part of the experience. By the time you arrive, you're hungry enough to appreciate the generous portions. Their seafood risotto is legendary.",
+            "de": "Der Aufstieg ist Teil des Erlebnisses. Wenn Sie ankommen, sind Sie hungrig genug, um die grosszuegigen Portionen zu schaetzen. Ihr Meeresfruechte-Risotto ist legendaer.",
+            "fr": "La montee fait partie de l'experience. Quand vous arrivez, vous etes assez affame pour apprecier les portions genereuses. Leur risotto aux fruits de mer est legendaire.",
+            "it": "La salita fa parte dell'esperienza. Quando arrivate, siete abbastanza affamati per apprezzare le porzioni generose. Il loro risotto ai frutti di mare e leggendario."
+          },
+          "signature": {
+            "en": "A view that makes you forget your aching legs",
+            "de": "Eine Aussicht, die Sie Ihre schmerzenden Beine vergessen laesst",
+            "fr": "Une vue qui vous fait oublier vos jambes douloureuses",
+            "it": "Una vista che vi fa dimenticare le gambe doloranti"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Dinner reservations essential. Go before sunset to watch the light change.",
+          "practicalInfo": {
+            "en": "Dinner reservations essential. Go before sunset to watch the light change.",
+            "de": "Reservierung fuer das Abendessen erforderlich. Gehen Sie vor Sonnenuntergang, um das wechselnde Licht zu beobachten.",
+            "fr": "Reservations pour le diner indispensables. Allez-y avant le coucher du soleil pour voir la lumiere changer.",
+            "it": "Prenotazione per la cena essenziale. Andate prima del tramonto per vedere la luce che cambia."
+          },
           "googleRating": 4.6,
           "tripadvisorRating": 4.5
         },
         {
           "id": 4,
           "name": "A Pie' de Ma'",
-          "category": "Romantic Waterfront",
+          "category": {
+            "en": "Romantic Waterfront",
+            "de": "Romantisches Wasserrestaurant",
+            "fr": "Restaurant romantique au bord de l'eau",
+            "it": "Ristorante romantico sul mare"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "On the famous Via dell'Amore, where dinner becomes declaration.",
-          "description": "Perched at the start of the legendary Lovers' Walk, A Pie' de Ma' offers the most romantic setting in the village. The menu honors traditional Ligurian seafood, but the real specialty is the atmosphere—waves crashing below as the sun sets.",
-          "giuliaComment": "If you're proposing, do it here. If you're celebrating an anniversary, do it here. If you just want to feel the magic of this coast, do it here.",
-          "signature": "Romance that requires reservation",
+          "intro": {
+            "en": "On the famous Via dell'Amore, where dinner becomes declaration.",
+            "de": "An der beruehmten Via dell'Amore, wo das Abendessen zur Erklaerung wird.",
+            "fr": "Sur la celebre Via dell'Amore, ou le diner devient declaration.",
+            "it": "Sulla famosa Via dell'Amore, dove la cena diventa dichiarazione."
+          },
+          "description": {
+            "en": "Perched at the start of the legendary Lovers' Walk, A Pie' de Ma' offers the most romantic setting in the village. The menu honors traditional Ligurian seafood, but the real specialty is the atmosphere—waves crashing below as the sun sets.",
+            "de": "Am Anfang des legendaeren Liebeswegs gelegen, bietet A Pie' de Ma' das romantischste Ambiente im Dorf. Die Speisekarte ehrt traditionelle ligurische Meeresfruechte, aber die wahre Spezialitaet ist die Atmosphaere—Wellen, die unten brechen, waehrend die Sonne untergeht.",
+            "fr": "Perche au debut du legendaire chemin des Amoureux, A Pie' de Ma' offre le cadre le plus romantique du village. Le menu honore les fruits de mer traditionnels ligures, mais la vraie specialite est l'atmosphere—les vagues qui se brisent en bas tandis que le soleil se couche.",
+            "it": "Arroccato all'inizio della leggendaria Via dell'Amore, A Pie' de Ma' offre l'ambientazione piu romantica del paese. Il menu onora i frutti di mare tradizionali liguri, ma la vera specialita e l'atmosfera—le onde che si infrangono sotto mentre il sole tramonta."
+          },
+          "giuliaComment": {
+            "en": "If you're proposing, do it here. If you're celebrating an anniversary, do it here. If you just want to feel the magic of this coast, do it here.",
+            "de": "Wenn Sie einen Antrag machen wollen, tun Sie es hier. Wenn Sie einen Jahrestag feiern, tun Sie es hier. Wenn Sie einfach die Magie dieser Kueste spueren wollen, tun Sie es hier.",
+            "fr": "Si vous faites une demande en mariage, faites-le ici. Si vous celebrez un anniversaire, faites-le ici. Si vous voulez simplement ressentir la magie de cette cote, faites-le ici.",
+            "it": "Se volete fare una proposta, fatela qui. Se state celebrando un anniversario, fatelo qui. Se volete semplicemente sentire la magia di questa costa, fatelo qui."
+          },
+          "signature": {
+            "en": "Romance that requires reservation",
+            "de": "Romantik, die eine Reservierung erfordert",
+            "fr": "Romance qui necessite une reservation",
+            "it": "Romanticismo che richiede prenotazione"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Book well ahead for sunset tables. The path can be slippery—wear proper shoes.",
+          "practicalInfo": {
+            "en": "Book well ahead for sunset tables. The path can be slippery—wear proper shoes.",
+            "de": "Buchen Sie frueh fuer Sonnenuntergangstische. Der Weg kann rutschig sein—tragen Sie geeignete Schuhe.",
+            "fr": "Reservez bien a l'avance pour les tables au coucher du soleil. Le chemin peut etre glissant—portez des chaussures appropriees.",
+            "it": "Prenotate con largo anticipo per i tavoli al tramonto. Il sentiero puo essere scivoloso—indossate scarpe adeguate."
+          },
           "googleRating": 4.4,
           "tripadvisorRating": 4.3
         }
@@ -107,22 +281,67 @@
         {
           "afterIndex": 2,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Logic of the Climb",
-          "quote": "In Riomaggiore, the best views require effort. The restaurants at the top are not inconvenient—they are honest. They ask you to work for your dinner, and they reward you with perspectives that no waterfront table can offer."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Logic of the Climb",
+            "de": "Die Logik des Aufstiegs",
+            "fr": "La logique de la montee",
+            "it": "La logica della salita"
+          },
+          "quote": {
+            "en": "In Riomaggiore, the best views require effort. The restaurants at the top are not inconvenient—they are honest. They ask you to work for your dinner, and they reward you with perspectives that no waterfront table can offer.",
+            "de": "In Riomaggiore erfordern die besten Aussichten Anstrengung. Die Restaurants oben sind nicht unbequem—sie sind ehrlich. Sie bitten Sie, fuer Ihr Abendessen zu arbeiten, und belohnen Sie mit Perspektiven, die kein Tisch am Wasser bieten kann.",
+            "fr": "A Riomaggiore, les plus belles vues demandent un effort. Les restaurants en haut ne sont pas incommodes—ils sont honnetes. Ils vous demandent de travailler pour votre diner, et vous recompensent avec des perspectives qu'aucune table au bord de l'eau ne peut offrir.",
+            "it": "A Riomaggiore, le viste migliori richiedono sforzo. I ristoranti in cima non sono scomodi—sono onesti. Vi chiedono di lavorare per la vostra cena, e vi ricompensano con prospettive che nessun tavolo sul lungomare puo offrire."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Quick Bites",
-      "quote": "Not every meal needs a reservation. Some of the village's finest eating happens standing up, paper in hand, with the harbor as your dining room.",
-      "content": [
-        "**Te la do io la merenda** is a legend. The focaccia here—particularly the focaccia col formaggio—draws a line out the door every morning. Join it.",
-        "**Tutti Fritti** and **Il Pescato Cucinato** serve the same essential dish: the day's catch, battered, fried, and served in a paper cone. The argument about which is better has no resolution. Try both.",
-        "**Vertical Wine Bar** blurs the line between wine shop and neighborhood gathering. The selection is local and the advice is honest. A perfect aperitivo stop.",
-        "**Bar Centrale** is where the village's social life happens. Morning espresso, afternoon gossip, evening prosecco. The coffee is good, but the people-watching is better."
-      ]
+      "badge": {
+        "en": "The Quick Bites",
+        "de": "Schnelle Happen",
+        "fr": "Les petites faims",
+        "it": "Morsi veloci"
+      },
+      "quote": {
+        "en": "Not every meal needs a reservation. Some of the village's finest eating happens standing up, paper in hand, with the harbor as your dining room.",
+        "de": "Nicht jede Mahlzeit braucht eine Reservierung. Einige der besten Mahlzeiten des Dorfes finden im Stehen statt, Papier in der Hand, mit dem Hafen als Speisesaal.",
+        "fr": "Tous les repas n'ont pas besoin de reservation. Certains des meilleurs repas du village se prennent debout, papier en main, avec le port comme salle a manger.",
+        "it": "Non tutti i pasti hanno bisogno di prenotazione. Alcuni dei migliori pasti del paese si fanno in piedi, carta in mano, con il porto come sala da pranzo."
+      },
+      "content": {
+        "en": [
+          "**Te la do io la merenda** is a legend. The focaccia here—particularly the focaccia col formaggio—draws a line out the door every morning. Join it.",
+          "**Tutti Fritti** and **Il Pescato Cucinato** serve the same essential dish: the day's catch, battered, fried, and served in a paper cone. The argument about which is better has no resolution. Try both.",
+          "**Vertical Wine Bar** blurs the line between wine shop and neighborhood gathering. The selection is local and the advice is honest. A perfect aperitivo stop.",
+          "**Bar Centrale** is where the village's social life happens. Morning espresso, afternoon gossip, evening prosecco. The coffee is good, but the people-watching is better."
+        ],
+        "de": [
+          "**Te la do io la merenda** ist eine Legende. Die Focaccia hier—besonders die Focaccia col formaggio—zieht jeden Morgen eine Schlange vor die Tuer. Stellen Sie sich an.",
+          "**Tutti Fritti** und **Il Pescato Cucinato** servieren dasselbe wesentliche Gericht: den Tagesfang, paniert, frittiert und in einer Papiertuete serviert. Die Diskussion darueber, welches besser ist, hat keine Loesung. Probieren Sie beide.",
+          "**Vertical Wine Bar** verwischt die Grenze zwischen Weinladen und Nachbarschaftstreff. Die Auswahl ist lokal und die Beratung ehrlich. Ein perfekter Aperitivo-Stopp.",
+          "**Bar Centrale** ist der Ort, an dem das soziale Leben des Dorfes stattfindet. Morgens Espresso, nachmittags Klatsch, abends Prosecco. Der Kaffee ist gut, aber das Leute-Beobachten ist besser."
+        ],
+        "fr": [
+          "**Te la do io la merenda** est une legende. La focaccia ici—particulierement la focaccia col formaggio—attire une file chaque matin. Rejoignez-la.",
+          "**Tutti Fritti** et **Il Pescato Cucinato** servent le meme plat essentiel: la peche du jour, panee, frite et servie dans un cornet en papier. Le debat sur lequel est le meilleur n'a pas de resolution. Essayez les deux.",
+          "**Vertical Wine Bar** brouille la frontiere entre cave a vin et lieu de rassemblement du quartier. La selection est locale et les conseils sont honnetes. Un arret aperitivo parfait.",
+          "**Bar Centrale** est l'endroit ou se passe la vie sociale du village. Espresso le matin, potins l'apres-midi, prosecco le soir. Le cafe est bon, mais observer les gens est encore mieux."
+        ],
+        "it": [
+          "**Te la do io la merenda** e una leggenda. La focaccia qui—particolarmente la focaccia col formaggio—crea una fila fuori dalla porta ogni mattina. Mettetevi in coda.",
+          "**Tutti Fritti** e **Il Pescato Cucinato** servono lo stesso piatto essenziale: il pescato del giorno, impanato, fritto e servito in un cartoccio. La discussione su quale sia migliore non ha soluzione. Provateli entrambi.",
+          "**Vertical Wine Bar** sfuma il confine tra enoteca e ritrovo di quartiere. La selezione e locale e i consigli sono onesti. Una tappa perfetta per l'aperitivo.",
+          "**Bar Centrale** e dove si svolge la vita sociale del paese. Espresso al mattino, pettegolezzi nel pomeriggio, prosecco la sera. Il caffe e buono, ma osservare la gente e meglio."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -131,60 +350,180 @@
         {
           "id": 5,
           "name": "Te la do io la merenda",
-          "category": "Focaccia & Street Food",
+          "category": {
+            "en": "Focaccia & Street Food",
+            "de": "Focaccia & Strassenessen",
+            "fr": "Focaccia & Street Food",
+            "it": "Focaccia & Street Food"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The focaccia that makes locals line up before they even open.",
-          "description": "This tiny window serves what many consider the finest focaccia in the Cinque Terre. The focaccia col formaggio—that melting, cheese-filled perfection—disappears within hours of baking.",
-          "giuliaComment": "I've been coming here since childhood. The recipe hasn't changed, and neither has my order. Get there early or accept disappointment.",
-          "signature": "Focaccia col formaggio that disappears by noon",
+          "intro": {
+            "en": "The focaccia that makes locals line up before they even open.",
+            "de": "Die Focaccia, fuer die Einheimische schon vor der Oeffnung Schlange stehen.",
+            "fr": "La focaccia qui fait que les locaux font la queue avant meme l'ouverture.",
+            "it": "La focaccia per cui i locali fanno la fila prima ancora dell'apertura."
+          },
+          "description": {
+            "en": "This tiny window serves what many consider the finest focaccia in the Cinque Terre. The focaccia col formaggio—that melting, cheese-filled perfection—disappears within hours of baking.",
+            "de": "Dieses kleine Fenster serviert, was viele als die beste Focaccia der Cinque Terre betrachten. Die Focaccia col formaggio—diese schmelzende, kaesegefuellte Perfektion—verschwindet innerhalb von Stunden nach dem Backen.",
+            "fr": "Cette petite fenetre sert ce que beaucoup considerent comme la meilleure focaccia des Cinque Terre. La focaccia col formaggio—cette perfection fondante remplie de fromage—disparait en quelques heures apres la cuisson.",
+            "it": "Questa piccola finestra serve quella che molti considerano la migliore focaccia delle Cinque Terre. La focaccia col formaggio—quella perfezione fondente ripiena di formaggio—scompare entro poche ore dalla cottura."
+          },
+          "giuliaComment": {
+            "en": "I've been coming here since childhood. The recipe hasn't changed, and neither has my order. Get there early or accept disappointment.",
+            "de": "Ich komme hierher seit meiner Kindheit. Das Rezept hat sich nicht geaendert, und meine Bestellung auch nicht. Kommen Sie frueh oder akzeptieren Sie Enttaeuschung.",
+            "fr": "Je viens ici depuis mon enfance. La recette n'a pas change, et ma commande non plus. Arrivez tot ou acceptez la deception.",
+            "it": "Vengo qui dall'infanzia. La ricetta non e cambiata, e nemmeno il mio ordine. Arrivate presto o accettate la delusione."
+          },
+          "signature": {
+            "en": "Focaccia col formaggio that disappears by noon",
+            "de": "Focaccia col formaggio, die bis Mittag verschwunden ist",
+            "fr": "Focaccia col formaggio qui disparait a midi",
+            "it": "Focaccia col formaggio che scompare entro mezzogiorno"
+          },
           "priceRange": "$",
-          "practicalInfo": "Cash only. No seating. Open mornings until sold out.",
+          "practicalInfo": {
+            "en": "Cash only. No seating. Open mornings until sold out.",
+            "de": "Nur Bargeld. Keine Sitzplaetze. Morgens geoeffnet bis ausverkauft.",
+            "fr": "Especes uniquement. Pas de places assises. Ouvert le matin jusqu'a epuisement.",
+            "it": "Solo contanti. Nessun posto a sedere. Aperto la mattina fino a esaurimento."
+          },
           "googleRating": 4.8,
           "tripadvisorRating": 4.7
         },
         {
           "id": 6,
           "name": "Vertical Wine Bar",
-          "category": "Wine Bar & Aperitivo",
+          "category": {
+            "en": "Wine Bar & Aperitivo",
+            "de": "Weinbar & Aperitivo",
+            "fr": "Bar a vin & Aperitivo",
+            "it": "Enoteca & Aperitivo"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Where the village's wine education happens, one glass at a time.",
-          "description": "Vertical is equal parts wine shop, tasting room, and village living room. The owner knows every vineyard in the hills above, and he'll guide you through local varieties you've never heard of.",
-          "giuliaComment": "This is where I send people who want to understand Ligurian wine. Ask for the Sciacchetrà flight. It will change how you think about dessert wine.",
-          "signature": "A wine education that fits in a glass",
+          "intro": {
+            "en": "Where the village's wine education happens, one glass at a time.",
+            "de": "Wo die Weinbildung des Dorfes stattfindet, ein Glas nach dem anderen.",
+            "fr": "Ou l'education au vin du village se fait, un verre a la fois.",
+            "it": "Dove avviene l'educazione al vino del paese, un bicchiere alla volta."
+          },
+          "description": {
+            "en": "Vertical is equal parts wine shop, tasting room, and village living room. The owner knows every vineyard in the hills above, and he'll guide you through local varieties you've never heard of.",
+            "de": "Vertical ist zu gleichen Teilen Weinladen, Verkostungsraum und Dorfwohnzimmer. Der Besitzer kennt jeden Weinberg in den Huegeln darueber und fuehrt Sie durch lokale Sorten, von denen Sie noch nie gehoert haben.",
+            "fr": "Vertical est a parts egales cave a vin, salle de degustation et salon du village. Le proprietaire connait chaque vignoble dans les collines au-dessus, et il vous guidera a travers des cepages locaux dont vous n'avez jamais entendu parler.",
+            "it": "Vertical e in parti uguali enoteca, sala degustazione e salotto del paese. Il proprietario conosce ogni vigneto sulle colline sopra, e vi guidera attraverso varieta locali di cui non avete mai sentito parlare."
+          },
+          "giuliaComment": {
+            "en": "This is where I send people who want to understand Ligurian wine. Ask for the Sciacchetra flight. It will change how you think about dessert wine.",
+            "de": "Hierher schicke ich Leute, die ligurischen Wein verstehen wollen. Fragen Sie nach dem Sciacchetra-Tasting. Es wird Ihre Vorstellung von Dessertwein veraendern.",
+            "fr": "C'est ici que j'envoie les gens qui veulent comprendre le vin ligure. Demandez le vol de Sciacchetra. Cela changera votre vision du vin de dessert.",
+            "it": "E qui che mando le persone che vogliono capire il vino ligure. Chiedete il flight di Sciacchetra. Cambiera il vostro modo di pensare al vino da dessert."
+          },
+          "signature": {
+            "en": "A wine education that fits in a glass",
+            "de": "Eine Weinbildung, die in ein Glas passt",
+            "fr": "Une education au vin qui tient dans un verre",
+            "it": "Un'educazione al vino che sta in un bicchiere"
+          },
           "priceRange": "$$",
-          "practicalInfo": "Drop by for aperitivo or schedule a proper tasting. They ship bottles home.",
+          "practicalInfo": {
+            "en": "Drop by for aperitivo or schedule a proper tasting. They ship bottles home.",
+            "de": "Kommen Sie zum Aperitivo vorbei oder vereinbaren Sie eine richtige Verkostung. Sie versenden Flaschen nach Hause.",
+            "fr": "Passez pour l'aperitivo ou reservez une vraie degustation. Ils expedient les bouteilles chez vous.",
+            "it": "Passate per l'aperitivo o prenotate una degustazione vera e propria. Spediscono le bottiglie a casa."
+          },
           "googleRating": 4.6,
           "tripadvisorRating": 4.5
         },
         {
           "id": 7,
           "name": "Tutti Fritti",
-          "category": "Fried Seafood",
+          "category": {
+            "en": "Fried Seafood",
+            "de": "Frittierte Meeresfruechte",
+            "fr": "Fruits de mer frits",
+            "it": "Pesce fritto"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
-          "intro": "The paper cone that defines a Ligurian summer.",
-          "description": "Fried fish in a cone is not fast food here—it's an art form. Tutti Fritti has perfected the light, crispy batter that showcases rather than overwhelms the day's catch.",
-          "giuliaComment": "This is my guilty pleasure. The cone of mixed fried fish, eaten walking along the harbor, is summer distilled into a single experience.",
-          "signature": "The crunch that echoes off the harbor walls",
+          "intro": {
+            "en": "The paper cone that defines a Ligurian summer.",
+            "de": "Die Papiertuete, die einen ligurischen Sommer definiert.",
+            "fr": "Le cornet en papier qui definit un ete ligurien.",
+            "it": "Il cartoccio che definisce un'estate ligure."
+          },
+          "description": {
+            "en": "Fried fish in a cone is not fast food here—it's an art form. Tutti Fritti has perfected the light, crispy batter that showcases rather than overwhelms the day's catch.",
+            "de": "Frittierter Fisch in der Tuete ist hier kein Fast Food—es ist eine Kunstform. Tutti Fritti hat den leichten, knusprigen Teig perfektioniert, der den Tagesfang hervorhebt, anstatt ihn zu ueberwaeltigen.",
+            "fr": "Le poisson frit en cornet n'est pas de la restauration rapide ici—c'est une forme d'art. Tutti Fritti a perfectionne la pate legere et croustillante qui met en valeur plutot qu'elle ne submerge la peche du jour.",
+            "it": "Il pesce fritto nel cartoccio non e fast food qui—e una forma d'arte. Tutti Fritti ha perfezionato la pastella leggera e croccante che mette in risalto piuttosto che sopraffare il pescato del giorno."
+          },
+          "giuliaComment": {
+            "en": "This is my guilty pleasure. The cone of mixed fried fish, eaten walking along the harbor, is summer distilled into a single experience.",
+            "de": "Das ist mein heimliches Vergnuegen. Die Tuete mit gemischtem frittiertem Fisch, gegessen beim Spaziergang am Hafen, ist der Sommer in einer einzigen Erfahrung destilliert.",
+            "fr": "C'est mon plaisir coupable. Le cornet de poisson frit mixte, mange en marchant le long du port, c'est l'ete distille en une seule experience.",
+            "it": "Questo e il mio piacere proibito. Il cartoccio di fritto misto, mangiato camminando lungo il porto, e l'estate distillata in un'unica esperienza."
+          },
+          "signature": {
+            "en": "The crunch that echoes off the harbor walls",
+            "de": "Das Knuspern, das von den Hafenmauern widerhallt",
+            "fr": "Le croustillant qui resonne sur les murs du port",
+            "it": "La croccantezza che riecheggia sui muri del porto"
+          },
           "priceRange": "$",
-          "practicalInfo": "Perfect for a quick lunch. Take it to the rocks by the marina.",
+          "practicalInfo": {
+            "en": "Perfect for a quick lunch. Take it to the rocks by the marina.",
+            "de": "Perfekt fuer ein schnelles Mittagessen. Nehmen Sie es mit zu den Felsen am Yachthafen.",
+            "fr": "Parfait pour un dejeuner rapide. Emportez-le sur les rochers pres du port.",
+            "it": "Perfetto per un pranzo veloce. Portatelo sugli scogli vicino al porto."
+          },
           "googleRating": 4.4,
           "tripadvisorRating": 4.3
         },
         {
           "id": 8,
           "name": "Punta Bonfiglio Bar",
-          "category": "Viewpoint Bar",
+          "category": {
+            "en": "Viewpoint Bar",
+            "de": "Aussichtsbar",
+            "fr": "Bar panoramique",
+            "it": "Bar panoramico"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The view that makes everything taste better.",
-          "description": "At the famous Punta Bonfiglio viewpoint, this simple bar serves drinks and light fare to hikers and photographers who've found one of Italy's most spectacular outlooks.",
-          "giuliaComment": "I come here for the view, not the menu. But a cold beer at sunset, with the whole village spread below you? That's its own kind of cuisine.",
-          "signature": "The most Instagram-worthy drink you'll ever have",
+          "intro": {
+            "en": "The view that makes everything taste better.",
+            "de": "Die Aussicht, die alles besser schmecken laesst.",
+            "fr": "La vue qui rend tout meilleur.",
+            "it": "La vista che rende tutto piu buono."
+          },
+          "description": {
+            "en": "At the famous Punta Bonfiglio viewpoint, this simple bar serves drinks and light fare to hikers and photographers who've found one of Italy's most spectacular outlooks.",
+            "de": "Am beruehmten Aussichtspunkt Punta Bonfiglio serviert diese einfache Bar Getraenke und leichte Speisen an Wanderer und Fotografen, die einen der spektakulaersten Aussichtspunkte Italiens gefunden haben.",
+            "fr": "Au celebre point de vue de Punta Bonfiglio, ce bar simple sert des boissons et des en-cas legers aux randonneurs et photographes qui ont trouve l'un des panoramas les plus spectaculaires d'Italie.",
+            "it": "Al famoso punto panoramico di Punta Bonfiglio, questo semplice bar serve bevande e spuntini leggeri a escursionisti e fotografi che hanno trovato uno dei panorami piu spettacolari d'Italia."
+          },
+          "giuliaComment": {
+            "en": "I come here for the view, not the menu. But a cold beer at sunset, with the whole village spread below you? That's its own kind of cuisine.",
+            "de": "Ich komme hierher wegen der Aussicht, nicht wegen der Speisekarte. Aber ein kaltes Bier bei Sonnenuntergang, mit dem ganzen Dorf unter Ihnen? Das ist seine eigene Art von Kueche.",
+            "fr": "Je viens ici pour la vue, pas pour le menu. Mais une biere fraiche au coucher du soleil, avec tout le village etale en dessous? C'est sa propre forme de cuisine.",
+            "it": "Vengo qui per la vista, non per il menu. Ma una birra fredda al tramonto, con tutto il paese disteso sotto di voi? Questa e la sua forma di cucina."
+          },
+          "signature": {
+            "en": "The most Instagram-worthy drink you'll ever have",
+            "de": "Das Instagram-wuerdigste Getraenk, das Sie je haben werden",
+            "fr": "La boisson la plus instagrammable que vous aurez jamais",
+            "it": "La bevanda piu instagrammabile che avrete mai"
+          },
           "priceRange": "$",
-          "practicalInfo": "Simple refreshments only. The view is the main course.",
+          "practicalInfo": {
+            "en": "Simple refreshments only. The view is the main course.",
+            "de": "Nur einfache Erfrischungen. Die Aussicht ist der Hauptgang.",
+            "fr": "Rafraichissements simples uniquement. La vue est le plat principal.",
+            "it": "Solo rinfreschi semplici. La vista e il piatto principale."
+          },
           "googleRating": 4.5,
           "tripadvisorRating": 4.4
         }
@@ -193,23 +532,88 @@
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Case for Standing Up",
-          "quote": "Italians understand that some of the best eating happens on your feet. A focaccia tastes different when you're standing in morning sunlight. A cone of fried fish belongs in motion, not at a table. Trust the rhythm."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Case for Standing Up",
+            "de": "Das Argument fuers Stehen",
+            "fr": "L'argument pour manger debout",
+            "it": "L'argomento per mangiare in piedi"
+          },
+          "quote": {
+            "en": "Italians understand that some of the best eating happens on your feet. A focaccia tastes different when you're standing in morning sunlight. A cone of fried fish belongs in motion, not at a table. Trust the rhythm.",
+            "de": "Italiener verstehen, dass einige der besten Mahlzeiten im Stehen stattfinden. Eine Focaccia schmeckt anders, wenn Sie im Morgenlicht stehen. Eine Tuete frittierter Fisch gehoert in Bewegung, nicht an einen Tisch. Vertrauen Sie dem Rhythmus.",
+            "fr": "Les Italiens comprennent que certains des meilleurs repas se prennent debout. Une focaccia a un gout different quand on est debout dans la lumiere du matin. Un cornet de poisson frit appartient au mouvement, pas a une table. Faites confiance au rythme.",
+            "it": "Gli italiani capiscono che alcuni dei migliori pasti si fanno in piedi. Una focaccia ha un sapore diverso quando si sta in piedi nella luce del mattino. Un cartoccio di pesce fritto appartiene al movimento, non a un tavolo. Fidatevi del ritmo."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Table Will Find You",
-      "content": [
-        "Eating in Riomaggiore is not about finding the perfect restaurant. It's about matching your meal to your moment.",
-        "Some days demand a terrace with tablecloths and wine lists. Others call for nothing more than fried fish in paper, eaten on warm rocks while the harbor busies itself below.",
-        "Listen to the village. Follow your hunger. The table will find you."
-      ],
+      "title": {
+        "en": "The Table Will Find You",
+        "de": "Der Tisch wird Sie finden",
+        "fr": "La table vous trouvera",
+        "it": "Il tavolo vi trovera"
+      },
+      "content": {
+        "en": [
+          "Eating in Riomaggiore is not about finding the perfect restaurant. It's about matching your meal to your moment.",
+          "Some days demand a terrace with tablecloths and wine lists. Others call for nothing more than fried fish in paper, eaten on warm rocks while the harbor busies itself below.",
+          "Listen to the village. Follow your hunger. The table will find you."
+        ],
+        "de": [
+          "Essen in Riomaggiore geht nicht darum, das perfekte Restaurant zu finden. Es geht darum, Ihre Mahlzeit an Ihren Moment anzupassen.",
+          "Manche Tage verlangen eine Terrasse mit Tischtuchern und Weinkarten. Andere verlangen nichts mehr als frittierten Fisch im Papier, gegessen auf warmen Felsen, waehrend der Hafen sich darunter beschaeftigt.",
+          "Hoeren Sie auf das Dorf. Folgen Sie Ihrem Hunger. Der Tisch wird Sie finden."
+        ],
+        "fr": [
+          "Manger a Riomaggiore ne consiste pas a trouver le restaurant parfait. C'est faire correspondre votre repas a votre moment.",
+          "Certains jours demandent une terrasse avec nappes et cartes des vins. D'autres n'appellent rien de plus que du poisson frit dans du papier, mange sur des rochers chauds pendant que le port s'affaire en dessous.",
+          "Ecoutez le village. Suivez votre faim. La table vous trouvera."
+        ],
+        "it": [
+          "Mangiare a Riomaggiore non significa trovare il ristorante perfetto. Significa far corrispondere il pasto al vostro momento.",
+          "Alcuni giorni richiedono una terrazza con tovaglie e carte dei vini. Altri non chiedono nient'altro che pesce fritto nel cartoccio, mangiato su rocce calde mentre il porto si da da fare sotto.",
+          "Ascoltate il paese. Seguite la vostra fame. Il tavolo vi trovera."
+        ]
+      },
       "buttons": [
-        { "text": "Plan Your Itinerary", "url": "/en/itinerary", "variant": "primary" },
-        { "text": "Explore the Village", "url": "/en/riomaggiore", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Plan Your Itinerary",
+            "de": "Planen Sie Ihre Reiseroute",
+            "fr": "Planifiez votre itineraire",
+            "it": "Pianifica il tuo itinerario"
+          },
+          "url": {
+            "en": "/en/itinerary",
+            "de": "/de/itinerary",
+            "fr": "/fr/itinerary",
+            "it": "/it/itinerary"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Explore the Village",
+            "de": "Entdecken Sie das Dorf",
+            "fr": "Explorez le village",
+            "it": "Esplora il paese"
+          },
+          "url": {
+            "en": "/en/riomaggiore",
+            "de": "/de/riomaggiore",
+            "fr": "/fr/riomaggiore",
+            "it": "/it/riomaggiore"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -219,5 +623,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T16:00:00.000Z"
+  "updated_at": "2026-01-07T20:00:00.000Z"
 }

@@ -7,36 +7,90 @@
     "it": "/it/monterosso/restaurants"
   },
   "title": {
-    "en": "Where to Eat in Monterosso | Cinque Terre Dispatch"
+    "en": "Where to Eat in Monterosso | Cinque Terre Dispatch",
+    "de": "Wo essen in Monterosso | Cinque Terre Dispatch",
+    "fr": "Où manger à Monterosso | Cinque Terre Dispatch",
+    "it": "Dove mangiare a Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Where to Eat in Monterosso | Cinque Terre Dispatch"
+      "en": "Where to Eat in Monterosso | Cinque Terre Dispatch",
+      "de": "Wo essen in Monterosso | Cinque Terre Dispatch",
+      "fr": "Où manger à Monterosso | Cinque Terre Dispatch",
+      "it": "Dove mangiare a Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Monterosso is the largest village and the hungriest. From beachfront focaccia to sophisticated seafood, the dining scene here has more options—and more opinions about which is best."
+      "en": "Monterosso is the largest village and the hungriest. From beachfront focaccia to sophisticated seafood, the dining scene here has more options—and more opinions about which is best.",
+      "de": "Monterosso ist das größte Dorf und das hungrigste. Von Strandfocaccia bis zu raffiniertem Meeresfrüchten bietet die Gastronomieszene hier mehr Optionen—und mehr Meinungen darüber, welches das beste ist.",
+      "fr": "Monterosso est le plus grand village et le plus affamé. De la focaccia en bord de plage aux fruits de mer sophistiqués, la scène gastronomique offre plus d'options—et plus d'opinions sur ce qui est le meilleur.",
+      "it": "Monterosso è il borgo più grande e il più affamato. Dalla focaccia sulla spiaggia ai frutti di mare sofisticati, la scena gastronomica qui offre più opzioni—e più opinioni su quale sia il migliore."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Hungry<br/>Village",
-      "subtitle": "Monterosso is the largest village in Cinque Terre—and its most diverse dining scene reflects that scale. Beach bars, hidden trattorias, sophisticated restaurants, and the focaccerias that have fed workers for centuries. Here, you have choices.",
-      "badge": "Dining Guide",
+      "title": {
+        "en": "The Hungry<br/>Village",
+        "de": "Das hungrige<br/>Dorf",
+        "fr": "Le Village<br/>Affamé",
+        "it": "Il Borgo<br/>Affamato"
+      },
+      "subtitle": {
+        "en": "Monterosso is the largest village in Cinque Terre—and its most diverse dining scene reflects that scale. Beach bars, hidden trattorias, sophisticated restaurants, and the focaccerias that have fed workers for centuries. Here, you have choices.",
+        "de": "Monterosso ist das größte Dorf der Cinque Terre—und seine vielfältigste Gastronomieszene spiegelt diese Größe wider. Strandbars, versteckte Trattorien, gehobene Restaurants und die Focaccerias, die Arbeiter seit Jahrhunderten ernähren. Hier haben Sie die Wahl.",
+        "fr": "Monterosso est le plus grand village des Cinque Terre—et sa scène gastronomique la plus diverse reflète cette échelle. Bars de plage, trattorias cachées, restaurants sophistiqués, et les focaccerias qui nourrissent les travailleurs depuis des siècles. Ici, vous avez le choix.",
+        "it": "Monterosso è il borgo più grande delle Cinque Terre—e la sua scena gastronomica più diversificata riflette questa scala. Bar sulla spiaggia, trattorie nascoste, ristoranti sofisticati, e le focaccerie che nutrono i lavoratori da secoli. Qui, avete la scelta."
+      },
+      "badge": {
+        "en": "Dining Guide",
+        "de": "Restaurant-Führer",
+        "fr": "Guide Gastronomique",
+        "it": "Guida Ristoranti"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551218808-94e220e084d2-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Monterosso Kitchen",
-      "quote": "Other villages have a handful of restaurants fighting for attention. Monterosso has enough to form opinions, develop favorites, and argue about which is best. The competition keeps everyone sharp.",
-      "content": [
-        "**The village is divided**—and so is its food scene. The old town (centro storico) offers medieval streets and traditional trattorias. The new town (Fegina) has the beach, the hotels, and restaurants that cater to resort life. Both have their champions.",
-        "**The beach changes everything**. Monterosso has the only real sandy beach in Cinque Terre, which means beach bars, sun-struck lunches, and a relationship with food that the cliff-bound villages cannot offer.",
-        "**Anchovies are sacred here**. The Monterosso anchovies (acciughe di Monterosso) have their own protected status. Salted, fried, marinated, stuffed—the fish that sustained this coast has a hundred preparations.",
-        "**Lemons are everywhere**. The terraced groves above the village produce limoncello, lemon desserts, and the scent that defines Monterosso summer. The fruit finds its way onto menus in ways expected and surprising."
-      ]
+      "badge": {
+        "en": "The Monterosso Kitchen",
+        "de": "Die Küche von Monterosso",
+        "fr": "La Cuisine de Monterosso",
+        "it": "La Cucina di Monterosso"
+      },
+      "quote": {
+        "en": "Other villages have a handful of restaurants fighting for attention. Monterosso has enough to form opinions, develop favorites, and argue about which is best. The competition keeps everyone sharp.",
+        "de": "Andere Dörfer haben eine Handvoll Restaurants, die um Aufmerksamkeit kämpfen. Monterosso hat genug, um Meinungen zu bilden, Favoriten zu entwickeln und darüber zu streiten, welches das beste ist. Der Wettbewerb hält alle auf Trab.",
+        "fr": "Les autres villages ont une poignée de restaurants qui se disputent l'attention. Monterosso en a assez pour former des opinions, développer des favoris et débattre de quel est le meilleur. La compétition garde tout le monde alerte.",
+        "it": "Gli altri borghi hanno una manciata di ristoranti che lottano per l'attenzione. Monterosso ne ha abbastanza per formare opinioni, sviluppare preferiti e discutere su quale sia il migliore. La competizione tiene tutti sul chi vive."
+      },
+      "content": {
+        "en": [
+          "**The village is divided**—and so is its food scene. The old town (centro storico) offers medieval streets and traditional trattorias. The new town (Fegina) has the beach, the hotels, and restaurants that cater to resort life. Both have their champions.",
+          "**The beach changes everything**. Monterosso has the only real sandy beach in Cinque Terre, which means beach bars, sun-struck lunches, and a relationship with food that the cliff-bound villages cannot offer.",
+          "**Anchovies are sacred here**. The Monterosso anchovies (acciughe di Monterosso) have their own protected status. Salted, fried, marinated, stuffed—the fish that sustained this coast has a hundred preparations.",
+          "**Lemons are everywhere**. The terraced groves above the village produce limoncello, lemon desserts, and the scent that defines Monterosso summer. The fruit finds its way onto menus in ways expected and surprising."
+        ],
+        "de": [
+          "**Das Dorf ist geteilt**—und so auch seine Gastronomieszene. Die Altstadt (centro storico) bietet mittelalterliche Gassen und traditionelle Trattorien. Die Neustadt (Fegina) hat den Strand, die Hotels und Restaurants, die auf Urlaubsleben ausgerichtet sind. Beide haben ihre Verfechter.",
+          "**Der Strand verändert alles**. Monterosso hat den einzigen echten Sandstrand der Cinque Terre, was Strandbars, sonnendurchflutete Mittagessen und eine Beziehung zum Essen bedeutet, die die klippen-gebundenen Dörfer nicht bieten können.",
+          "**Sardellen sind hier heilig**. Die Monterosso-Sardellen (acciughe di Monterosso) haben ihren eigenen Schutzstatus. Gesalzen, gebraten, mariniert, gefüllt—der Fisch, der diese Küste ernährte, hat hundert Zubereitungen.",
+          "**Zitronen sind überall**. Die terrassierten Haine über dem Dorf produzieren Limoncello, Zitronendesserts und den Duft, der den Monterosso-Sommer definiert. Die Frucht findet ihren Weg auf Speisekarten in erwarteten und überraschenden Weisen."
+        ],
+        "fr": [
+          "**Le village est divisé**—et sa scène gastronomique aussi. La vieille ville (centro storico) offre des rues médiévales et des trattorias traditionnelles. La nouvelle ville (Fegina) a la plage, les hôtels et les restaurants qui s'adressent à la vie de station balnéaire. Les deux ont leurs champions.",
+          "**La plage change tout**. Monterosso a la seule vraie plage de sable des Cinque Terre, ce qui signifie bars de plage, déjeuners ensoleillés et une relation avec la nourriture que les villages accrochés aux falaises ne peuvent offrir.",
+          "**Les anchois sont sacrés ici**. Les anchois de Monterosso (acciughe di Monterosso) ont leur propre statut protégé. Salés, frits, marinés, farcis—le poisson qui a nourri cette côte a cent préparations.",
+          "**Les citrons sont partout**. Les vergers en terrasses au-dessus du village produisent du limoncello, des desserts au citron et le parfum qui définit l'été de Monterosso. Le fruit trouve son chemin sur les menus de façons attendues et surprenantes."
+        ],
+        "it": [
+          "**Il borgo è diviso**—e così la sua scena gastronomica. Il centro storico offre vie medievali e trattorie tradizionali. La città nuova (Fegina) ha la spiaggia, gli hotel e ristoranti orientati alla vita da resort. Entrambi hanno i loro sostenitori.",
+          "**La spiaggia cambia tutto**. Monterosso ha l'unica vera spiaggia di sabbia delle Cinque Terre, il che significa bar sulla spiaggia, pranzi assolati e un rapporto con il cibo che i borghi arroccati sulle scogliere non possono offrire.",
+          "**Le acciughe sono sacre qui**. Le acciughe di Monterosso hanno il loro stato protetto. Salate, fritte, marinate, ripiene—il pesce che ha sostenuto questa costa ha cento preparazioni.",
+          "**I limoni sono ovunque**. I limoneti terrazzati sopra il borgo producono limoncello, dolci al limone e il profumo che definisce l'estate di Monterosso. Il frutto trova la sua strada nei menu in modi attesi e sorprendenti."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,61 +98,201 @@
       "items": [
         {
           "id": 1,
-          "name": "Ristorante Miky",
-          "category": "Sophisticated Seafood",
+          "name": {
+            "en": "Ristorante Miky",
+            "de": "Ristorante Miky",
+            "fr": "Ristorante Miky",
+            "it": "Ristorante Miky"
+          },
+          "category": {
+            "en": "Sophisticated Seafood",
+            "de": "Raffinierte Meeresfrüchte",
+            "fr": "Fruits de Mer Sophistiqués",
+            "it": "Pesce Sofisticato"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Where Monterosso's seafood tradition meets contemporary technique—the village's most celebrated table.",
-          "description": "The Miky family has been feeding Monterosso for three generations. What started as a simple trattoria has evolved into the village's most acclaimed restaurant, where the freshest catch meets careful preparation. The tasting menus tell the story of this coast; the wine list tells the story of Liguria.",
-          "giuliaComment": "Miky is where I take people who want to understand what Ligurian seafood can be at its best. It's not cheap, but the quality justifies everything. Book weeks ahead in summer.",
-          "signature": "Three generations of coastal excellence",
+          "intro": {
+            "en": "Where Monterosso's seafood tradition meets contemporary technique—the village's most celebrated table.",
+            "de": "Wo Monterossos Meeresfrüchte-Tradition auf zeitgenössische Technik trifft—der gefeiertste Tisch des Dorfes.",
+            "fr": "Où la tradition des fruits de mer de Monterosso rencontre la technique contemporaine—la table la plus célébrée du village.",
+            "it": "Dove la tradizione del pesce di Monterosso incontra la tecnica contemporanea—il tavolo più celebrato del borgo."
+          },
+          "description": {
+            "en": "The Miky family has been feeding Monterosso for three generations. What started as a simple trattoria has evolved into the village's most acclaimed restaurant, where the freshest catch meets careful preparation. The tasting menus tell the story of this coast; the wine list tells the story of Liguria.",
+            "de": "Die Familie Miky ernährt Monterosso seit drei Generationen. Was als einfache Trattoria begann, hat sich zum gefeiertsten Restaurant des Dorfes entwickelt, wo der frischeste Fang auf sorgfältige Zubereitung trifft. Die Degustationsmenüs erzählen die Geschichte dieser Küste; die Weinkarte erzählt die Geschichte Liguriens.",
+            "fr": "La famille Miky nourrit Monterosso depuis trois générations. Ce qui a commencé comme une simple trattoria a évolué en le restaurant le plus acclamé du village, où la prise la plus fraîche rencontre une préparation soignée. Les menus dégustation racontent l'histoire de cette côte ; la carte des vins raconte l'histoire de la Ligurie.",
+            "it": "La famiglia Miky nutre Monterosso da tre generazioni. Quella che è iniziata come una semplice trattoria si è evoluta nel ristorante più acclamato del borgo, dove il pescato più fresco incontra una preparazione attenta. I menu degustazione raccontano la storia di questa costa; la carta dei vini racconta la storia della Liguria."
+          },
+          "giuliaComment": {
+            "en": "Miky is where I take people who want to understand what Ligurian seafood can be at its best. It's not cheap, but the quality justifies everything. Book weeks ahead in summer.",
+            "de": "Miky ist, wo ich Leute hinbringe, die verstehen wollen, was ligurische Meeresfrüchte im besten Fall sein können. Es ist nicht billig, aber die Qualität rechtfertigt alles. Buchen Sie im Sommer Wochen im Voraus.",
+            "fr": "Miky est où j'emmène les gens qui veulent comprendre ce que les fruits de mer ligures peuvent être à leur meilleur. Ce n'est pas bon marché, mais la qualité justifie tout. Réservez des semaines à l'avance en été.",
+            "it": "Miky è dove porto le persone che vogliono capire cosa possono essere i frutti di mare liguri al loro meglio. Non è economico, ma la qualità giustifica tutto. Prenotate settimane prima in estate."
+          },
+          "signature": {
+            "en": "Three generations of coastal excellence",
+            "de": "Drei Generationen küstennaher Exzellenz",
+            "fr": "Trois générations d'excellence côtière",
+            "it": "Tre generazioni di eccellenza costiera"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Reserve well in advance. Tasting menus available. Closed Tuesdays. The terrace is extraordinary.",
+          "practicalInfo": {
+            "en": "Reserve well in advance. Tasting menus available. Closed Tuesdays. The terrace is extraordinary.",
+            "de": "Reservieren Sie weit im Voraus. Degustationsmenüs verfügbar. Dienstags geschlossen. Die Terrasse ist außergewöhnlich.",
+            "fr": "Réservez bien à l'avance. Menus dégustation disponibles. Fermé le mardi. La terrasse est extraordinaire.",
+            "it": "Prenotate con largo anticipo. Menu degustazione disponibili. Chiuso il martedì. La terrazza è straordinaria."
+          },
           "googleRating": 4.6,
           "tripadvisorRating": 4.5
         },
         {
           "id": 2,
-          "name": "Torre Aurora",
-          "category": "Tower Dining",
+          "name": {
+            "en": "Torre Aurora",
+            "de": "Torre Aurora",
+            "fr": "Torre Aurora",
+            "it": "Torre Aurora"
+          },
+          "category": {
+            "en": "Tower Dining",
+            "de": "Turm-Restaurant",
+            "fr": "Dîner dans la Tour",
+            "it": "Ristorante nella Torre"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Dining in a medieval watchtower—where the view competes with the food and usually wins.",
-          "description": "Torre Aurora occupies one of Monterosso's historic towers, offering panoramic views that span the coastline. The kitchen serves refined interpretations of Ligurian classics, but the setting is the star. Sunset dinners here are theatrical—the food is excellent, but you'll remember the light.",
-          "giuliaComment": "Go for the view, stay for the food. The tower location is genuinely special—this is where Monterosso watched for raiders. Now you watch for sunset. Book the terrace or don't bother.",
-          "signature": "Where history frames the view",
+          "intro": {
+            "en": "Dining in a medieval watchtower—where the view competes with the food and usually wins.",
+            "de": "Essen in einem mittelalterlichen Wachturm—wo die Aussicht mit dem Essen konkurriert und meist gewinnt.",
+            "fr": "Dîner dans une tour de guet médiévale—où la vue rivalise avec la nourriture et gagne généralement.",
+            "it": "Cenare in una torre di guardia medievale—dove la vista compete con il cibo e di solito vince."
+          },
+          "description": {
+            "en": "Torre Aurora occupies one of Monterosso's historic towers, offering panoramic views that span the coastline. The kitchen serves refined interpretations of Ligurian classics, but the setting is the star. Sunset dinners here are theatrical—the food is excellent, but you'll remember the light.",
+            "de": "Torre Aurora besetzt einen der historischen Türme Monterossos und bietet Panoramablicke, die die Küste umspannen. Die Küche serviert verfeinerte Interpretationen ligurischer Klassiker, aber die Umgebung ist der Star. Sonnenuntergangs-Dinner hier sind theatralisch—das Essen ist ausgezeichnet, aber Sie werden sich an das Licht erinnern.",
+            "fr": "Torre Aurora occupe l'une des tours historiques de Monterosso, offrant des vues panoramiques qui s'étendent sur le littoral. La cuisine sert des interprétations raffinées des classiques ligures, mais le cadre est la star. Les dîners au coucher du soleil sont théâtraux—la nourriture est excellente, mais vous vous souviendrez de la lumière.",
+            "it": "Torre Aurora occupa una delle torri storiche di Monterosso, offrendo viste panoramiche che abbracciano la costa. La cucina serve interpretazioni raffinate dei classici liguri, ma l'ambientazione è la star. Le cene al tramonto qui sono teatrali—il cibo è eccellente, ma ricorderete la luce."
+          },
+          "giuliaComment": {
+            "en": "Go for the view, stay for the food. The tower location is genuinely special—this is where Monterosso watched for raiders. Now you watch for sunset. Book the terrace or don't bother.",
+            "de": "Gehen Sie wegen der Aussicht, bleiben Sie wegen des Essens. Die Turm-Lage ist wirklich besonders—hier hielt Monterosso nach Räubern Ausschau. Jetzt halten Sie nach dem Sonnenuntergang Ausschau. Buchen Sie die Terrasse oder lassen Sie es.",
+            "fr": "Allez pour la vue, restez pour la nourriture. L'emplacement dans la tour est vraiment spécial—c'est d'ici que Monterosso guettait les pillards. Maintenant vous guettez le coucher de soleil. Réservez la terrasse ou ne vous embêtez pas.",
+            "it": "Andate per la vista, restate per il cibo. La posizione nella torre è davvero speciale—è da qui che Monterosso sorvegliava i predoni. Ora sorvegliate il tramonto. Prenotate la terrazza o lasciate perdere."
+          },
+          "signature": {
+            "en": "Where history frames the view",
+            "de": "Wo Geschichte die Aussicht rahmt",
+            "fr": "Où l'histoire encadre la vue",
+            "it": "Dove la storia incornicia la vista"
+          },
           "priceRange": "$$$",
-          "practicalInfo": "Reserve for terrace seating. Closed Wednesdays. Best at sunset. Prices match the setting.",
+          "practicalInfo": {
+            "en": "Reserve for terrace seating. Closed Wednesdays. Best at sunset. Prices match the setting.",
+            "de": "Reservieren Sie für Terrassenplätze. Mittwochs geschlossen. Am besten bei Sonnenuntergang. Preise entsprechen der Umgebung.",
+            "fr": "Réservez pour les places en terrasse. Fermé le mercredi. Meilleur au coucher du soleil. Les prix correspondent au cadre.",
+            "it": "Prenotate per i posti in terrazza. Chiuso il mercoledì. Meglio al tramonto. I prezzi corrispondono all'ambientazione."
+          },
           "googleRating": 4.4,
           "tripadvisorRating": 4.5
         },
         {
           "id": 3,
-          "name": "L'Ancora della Tortuga",
-          "category": "Seaside Trattoria",
+          "name": {
+            "en": "L'Ancora della Tortuga",
+            "de": "L'Ancora della Tortuga",
+            "fr": "L'Ancora della Tortuga",
+            "it": "L'Ancora della Tortuga"
+          },
+          "category": {
+            "en": "Seaside Trattoria",
+            "de": "Trattoria am Meer",
+            "fr": "Trattoria en Bord de Mer",
+            "it": "Trattoria sul Mare"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The beach restaurant where Monterosso families have celebrated for decades—sophistication without pretension.",
-          "description": "Perched above the beach with views across the bay, L'Ancora serves seafood that arrives fresh each morning. The preparations are classic Ligurian—nothing revolutionary, but consistently excellent. This is where locals bring guests they want to impress.",
-          "giuliaComment": "For me, this is Monterosso's secret. Tourists find Miky first, but locals celebrate here. The octopus salad, the trofie with prawns—they've been doing it the same way for years because it works.",
-          "signature": "Where the bay becomes your dining room",
+          "intro": {
+            "en": "The beach restaurant where Monterosso families have celebrated for decades—sophistication without pretension.",
+            "de": "Das Strandrestaurant, in dem Monterosso-Familien seit Jahrzehnten feiern—Raffinesse ohne Prätention.",
+            "fr": "Le restaurant de plage où les familles de Monterosso célèbrent depuis des décennies—sophistication sans prétention.",
+            "it": "Il ristorante sulla spiaggia dove le famiglie di Monterosso festeggiano da decenni—sofisticatezza senza pretesa."
+          },
+          "description": {
+            "en": "Perched above the beach with views across the bay, L'Ancora serves seafood that arrives fresh each morning. The preparations are classic Ligurian—nothing revolutionary, but consistently excellent. This is where locals bring guests they want to impress.",
+            "de": "Über dem Strand thronend mit Blick über die Bucht serviert L'Ancora Meeresfrüchte, die jeden Morgen frisch ankommen. Die Zubereitungen sind klassisch ligurisch—nichts Revolutionäres, aber konstant ausgezeichnet. Hier bringen Einheimische Gäste hin, die sie beeindrucken wollen.",
+            "fr": "Perché au-dessus de la plage avec vue sur la baie, L'Ancora sert des fruits de mer qui arrivent frais chaque matin. Les préparations sont classiques liguriennes—rien de révolutionnaire, mais constamment excellent. C'est ici que les locaux amènent les invités qu'ils veulent impressionner.",
+            "it": "Arroccato sopra la spiaggia con vista sulla baia, L'Ancora serve frutti di mare che arrivano freschi ogni mattina. Le preparazioni sono classiche liguri—niente di rivoluzionario, ma costantemente eccellente. È qui che i locali portano gli ospiti che vogliono impressionare."
+          },
+          "giuliaComment": {
+            "en": "For me, this is Monterosso's secret. Tourists find Miky first, but locals celebrate here. The octopus salad, the trofie with prawns—they've been doing it the same way for years because it works.",
+            "de": "Für mich ist das Monterossos Geheimnis. Touristen finden zuerst Miky, aber Einheimische feiern hier. Der Tintenfischsalat, die Trofie mit Garnelen—sie machen es seit Jahren auf dieselbe Weise, weil es funktioniert.",
+            "fr": "Pour moi, c'est le secret de Monterosso. Les touristes trouvent Miky d'abord, mais les locaux célèbrent ici. La salade de poulpe, les trofie aux crevettes—ils le font de la même façon depuis des années parce que ça marche.",
+            "it": "Per me, questo è il segreto di Monterosso. I turisti trovano prima Miky, ma i locali festeggiano qui. L'insalata di polpo, le trofie con i gamberi—lo fanno allo stesso modo da anni perché funziona."
+          },
+          "signature": {
+            "en": "Where the bay becomes your dining room",
+            "de": "Wo die Bucht Ihr Speisesaal wird",
+            "fr": "Où la baie devient votre salle à manger",
+            "it": "Dove la baia diventa la vostra sala da pranzo"
+          },
           "priceRange": "$$",
-          "practicalInfo": "Lunch is less crowded than dinner. Reserve for sea-view tables. Cash preferred.",
+          "practicalInfo": {
+            "en": "Lunch is less crowded than dinner. Reserve for sea-view tables. Cash preferred.",
+            "de": "Mittagessen ist weniger überfüllt als Abendessen. Reservieren Sie für Tische mit Meerblick. Bargeld bevorzugt.",
+            "fr": "Le déjeuner est moins bondé que le dîner. Réservez pour les tables vue mer. Espèces préférées.",
+            "it": "Il pranzo è meno affollato della cena. Prenotate per tavoli vista mare. Contanti preferiti."
+          },
           "googleRating": 4.5,
           "tripadvisorRating": 4.4
         },
         {
           "id": 4,
-          "name": "Ristorante Ciak",
-          "category": "Farm-to-Table",
+          "name": {
+            "en": "Ristorante Ciak",
+            "de": "Ristorante Ciak",
+            "fr": "Ristorante Ciak",
+            "it": "Ristorante Ciak"
+          },
+          "category": {
+            "en": "Farm-to-Table",
+            "de": "Vom Bauernhof auf den Tisch",
+            "fr": "De la Ferme à la Table",
+            "it": "Dal Campo alla Tavola"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The chef grows his own vegetables in the terraces above—authenticity you can taste.",
-          "description": "Ciak's owner maintains gardens on the hillside above Monterosso, growing the vegetables that appear on his menu. This farm-to-table commitment shows in every dish—the basil for pesto, the tomatoes for sauces, the herbs that finish plates. The restaurant is small; the attention to ingredients is not.",
-          "giuliaComment": "When a chef grows his own food, you taste the difference. Ciak is where I send people who care about ingredients, not just preparation. Everything here has a story.",
-          "signature": "Where the terrace gardens meet the table",
+          "intro": {
+            "en": "The chef grows his own vegetables in the terraces above—authenticity you can taste.",
+            "de": "Der Koch baut sein eigenes Gemüse in den Terrassen darüber an—Authentizität, die Sie schmecken können.",
+            "fr": "Le chef cultive ses propres légumes dans les terrasses au-dessus—une authenticité que vous pouvez goûter.",
+            "it": "Lo chef coltiva le sue verdure nelle terrazze sopra—autenticità che potete assaggiare."
+          },
+          "description": {
+            "en": "Ciak's owner maintains gardens on the hillside above Monterosso, growing the vegetables that appear on his menu. This farm-to-table commitment shows in every dish—the basil for pesto, the tomatoes for sauces, the herbs that finish plates. The restaurant is small; the attention to ingredients is not.",
+            "de": "Ciaks Besitzer pflegt Gärten am Hang über Monterosso und baut das Gemüse an, das auf seiner Speisekarte erscheint. Dieses Farm-to-Table-Engagement zeigt sich in jedem Gericht—das Basilikum für Pesto, die Tomaten für Soßen, die Kräuter, die Gerichte vollenden. Das Restaurant ist klein; die Aufmerksamkeit für Zutaten nicht.",
+            "fr": "Le propriétaire de Ciak entretient des jardins sur la colline au-dessus de Monterosso, cultivant les légumes qui apparaissent sur son menu. Cet engagement de la ferme à la table se voit dans chaque plat—le basilic pour le pesto, les tomates pour les sauces, les herbes qui finissent les assiettes. Le restaurant est petit ; l'attention aux ingrédients ne l'est pas.",
+            "it": "Il proprietario di Ciak mantiene orti sulla collina sopra Monterosso, coltivando le verdure che appaiono nel suo menu. Questo impegno dal campo alla tavola si vede in ogni piatto—il basilico per il pesto, i pomodori per le salse, le erbe che finiscono i piatti. Il ristorante è piccolo; l'attenzione agli ingredienti no."
+          },
+          "giuliaComment": {
+            "en": "When a chef grows his own food, you taste the difference. Ciak is where I send people who care about ingredients, not just preparation. Everything here has a story.",
+            "de": "Wenn ein Koch sein eigenes Essen anbaut, schmecken Sie den Unterschied. Ciak ist, wo ich Leute hinschicke, denen Zutaten wichtig sind, nicht nur Zubereitung. Alles hier hat eine Geschichte.",
+            "fr": "Quand un chef cultive sa propre nourriture, vous goûtez la différence. Ciak est où j'envoie les gens qui se soucient des ingrédients, pas seulement de la préparation. Tout ici a une histoire.",
+            "it": "Quando uno chef coltiva il proprio cibo, assaggiate la differenza. Ciak è dove mando le persone a cui importano gli ingredienti, non solo la preparazione. Tutto qui ha una storia."
+          },
+          "signature": {
+            "en": "Where the terrace gardens meet the table",
+            "de": "Wo die Terrassengärten den Tisch treffen",
+            "fr": "Où les jardins en terrasses rencontrent la table",
+            "it": "Dove gli orti terrazzati incontrano il tavolo"
+          },
           "priceRange": "$$",
-          "practicalInfo": "Small restaurant—reserve ahead. Ask about daily specials from the garden. Closed Mondays.",
+          "practicalInfo": {
+            "en": "Small restaurant—reserve ahead. Ask about daily specials from the garden. Closed Mondays.",
+            "de": "Kleines Restaurant—reservieren Sie voraus. Fragen Sie nach Tagesgerichten aus dem Garten. Montags geschlossen.",
+            "fr": "Petit restaurant—réservez à l'avance. Demandez les plats du jour du jardin. Fermé le lundi.",
+            "it": "Piccolo ristorante—prenotate in anticipo. Chiedete dei piatti del giorno dall'orto. Chiuso il lunedì."
+          },
           "googleRating": 4.4,
           "tripadvisorRating": 4.3
         }
@@ -107,22 +301,67 @@
         {
           "afterIndex": 2,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Anchovy Question",
-          "quote": "Monterosso anchovies have IGP protection—a guarantee of origin and quality. Every serious restaurant here serves them, but preparation varies: salted raw with lemon, fried until crisp, marinated overnight, or stuffed and baked. Ask your server which preparation they recommend. The answer reveals everything."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Anchovy Question",
+            "de": "Die Sardellen-Frage",
+            "fr": "La Question des Anchois",
+            "it": "La Questione delle Acciughe"
+          },
+          "quote": {
+            "en": "Monterosso anchovies have IGP protection—a guarantee of origin and quality. Every serious restaurant here serves them, but preparation varies: salted raw with lemon, fried until crisp, marinated overnight, or stuffed and baked. Ask your server which preparation they recommend. The answer reveals everything.",
+            "de": "Monterosso-Sardellen haben IGP-Schutz—eine Garantie für Herkunft und Qualität. Jedes seriöse Restaurant hier serviert sie, aber die Zubereitung variiert: roh gesalzen mit Zitrone, knusprig gebraten, über Nacht mariniert oder gefüllt und gebacken. Fragen Sie Ihren Kellner, welche Zubereitung er empfiehlt. Die Antwort enthüllt alles.",
+            "fr": "Les anchois de Monterosso ont une protection IGP—une garantie d'origine et de qualité. Chaque restaurant sérieux ici les sert, mais la préparation varie : salés crus au citron, frits jusqu'à être croustillants, marinés toute la nuit, ou farcis et cuits. Demandez à votre serveur quelle préparation il recommande. La réponse révèle tout.",
+            "it": "Le acciughe di Monterosso hanno protezione IGP—una garanzia di origine e qualità. Ogni ristorante serio qui le serve, ma la preparazione varia: salate crude con limone, fritte fino a essere croccanti, marinate per una notte, o ripiene e cotte al forno. Chiedete al cameriere quale preparazione raccomanda. La risposta rivela tutto."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Casual Side",
-      "quote": "Not every meal needs tablecloths. Monterosso's beach bars, focaccerias, and casual spots feed the village between formal occasions—and sometimes they're the best meals of all.",
-      "content": [
-        "**Il Massimo della Focaccia** has fed beach-goers for decades. The focaccia comes warm from the oven, glistening with oil, ready for the beach or a bench. This is what workers ate before tourism arrived.",
-        "**La Cambusa** makes the farinata—chickpea flatbread—that defines Ligurian street food. Simple, golden, slightly crisp, impossibly satisfying. The pizza is good too, but farinata is why locals come.",
-        "**Gelateria Golosone** is where the gelato argument ends. Creamy, intense, made fresh daily—the line tells you everything. Come early or wait.",
-        "**Beach bars** line the Fegina shore with umbrella tables, cold drinks, and simple food. Not memorable cuisine, but memorable context. Sometimes that's enough."
-      ]
+      "badge": {
+        "en": "The Casual Side",
+        "de": "Die ungezwungene Seite",
+        "fr": "Le Côté Décontracté",
+        "it": "Il Lato Informale"
+      },
+      "quote": {
+        "en": "Not every meal needs tablecloths. Monterosso's beach bars, focaccerias, and casual spots feed the village between formal occasions—and sometimes they're the best meals of all.",
+        "de": "Nicht jede Mahlzeit braucht Tischdecken. Monterossos Strandbars, Focaccerias und ungezwungene Lokale ernähren das Dorf zwischen formellen Anlässen—und manchmal sind sie die besten Mahlzeiten überhaupt.",
+        "fr": "Chaque repas n'a pas besoin de nappes. Les bars de plage, focaccerias et spots décontractés de Monterosso nourrissent le village entre les occasions formelles—et parfois ce sont les meilleurs repas de tous.",
+        "it": "Non ogni pasto ha bisogno di tovaglie. I bar sulla spiaggia, le focaccerie e i locali informali di Monterosso nutrono il borgo tra le occasioni formali—e a volte sono i pasti migliori di tutti."
+      },
+      "content": {
+        "en": [
+          "**Il Massimo della Focaccia** has fed beach-goers for decades. The focaccia comes warm from the oven, glistening with oil, ready for the beach or a bench. This is what workers ate before tourism arrived.",
+          "**La Cambusa** makes the farinata—chickpea flatbread—that defines Ligurian street food. Simple, golden, slightly crisp, impossibly satisfying. The pizza is good too, but farinata is why locals come.",
+          "**Gelateria Golosone** is where the gelato argument ends. Creamy, intense, made fresh daily—the line tells you everything. Come early or wait.",
+          "**Beach bars** line the Fegina shore with umbrella tables, cold drinks, and simple food. Not memorable cuisine, but memorable context. Sometimes that's enough."
+        ],
+        "de": [
+          "**Il Massimo della Focaccia** ernährt Strandgänger seit Jahrzehnten. Die Focaccia kommt warm aus dem Ofen, glänzend vor Öl, bereit für den Strand oder eine Bank. Das haben Arbeiter gegessen, bevor der Tourismus kam.",
+          "**La Cambusa** macht die Farinata—Kichererbsen-Fladenbrot—das ligurisches Streetfood definiert. Einfach, golden, leicht knusprig, unglaublich befriedigend. Die Pizza ist auch gut, aber Farinata ist, warum Einheimische kommen.",
+          "**Gelateria Golosone** ist, wo das Gelato-Argument endet. Cremig, intensiv, täglich frisch gemacht—die Schlange sagt Ihnen alles. Kommen Sie früh oder warten Sie.",
+          "**Strandbars** säumen die Fegina-Küste mit Sonnenschirmtischen, kalten Getränken und einfachem Essen. Keine unvergessliche Küche, aber unvergesslicher Kontext. Manchmal reicht das."
+        ],
+        "fr": [
+          "**Il Massimo della Focaccia** nourrit les baigneurs depuis des décennies. La focaccia sort chaude du four, brillante d'huile, prête pour la plage ou un banc. C'est ce que les travailleurs mangeaient avant l'arrivée du tourisme.",
+          "**La Cambusa** fait la farinata—galette de pois chiches—qui définit la street food ligurienne. Simple, dorée, légèrement croustillante, incroyablement satisfaisante. La pizza est bonne aussi, mais la farinata est pourquoi les locaux viennent.",
+          "**Gelateria Golosone** est où l'argument du gelato prend fin. Crémeux, intense, fait frais chaque jour—la file vous dit tout. Venez tôt ou attendez.",
+          "**Les bars de plage** bordent le rivage de Fegina avec des tables parasol, des boissons fraîches et une nourriture simple. Pas une cuisine mémorable, mais un contexte mémorable. Parfois c'est suffisant."
+        ],
+        "it": [
+          "**Il Massimo della Focaccia** nutre i bagnanti da decenni. La focaccia esce calda dal forno, lucente d'olio, pronta per la spiaggia o una panchina. Questo è quello che mangiavano i lavoratori prima che arrivasse il turismo.",
+          "**La Cambusa** fa la farinata—focaccia di ceci—che definisce lo street food ligure. Semplice, dorata, leggermente croccante, incredibilmente soddisfacente. La pizza è buona anche, ma la farinata è perché i locali vengono.",
+          "**Gelateria Golosone** è dove la discussione sul gelato finisce. Cremoso, intenso, fatto fresco ogni giorno—la fila vi dice tutto. Venite presto o aspettate.",
+          "**I bar sulla spiaggia** costeggiano la riva di Fegina con tavoli sotto gli ombrelloni, bevande fredde e cibo semplice. Non cucina memorabile, ma contesto memorabile. A volte basta."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -130,61 +369,201 @@
       "items": [
         {
           "id": 5,
-          "name": "Il Massimo della Focaccia",
-          "category": "Focacceria",
+          "name": {
+            "en": "Il Massimo della Focaccia",
+            "de": "Il Massimo della Focaccia",
+            "fr": "Il Massimo della Focaccia",
+            "it": "Il Massimo della Focaccia"
+          },
+          "category": {
+            "en": "Focacceria",
+            "de": "Focacceria",
+            "fr": "Focacceria",
+            "it": "Focacceria"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The focaccia that has sustained Monterosso beach-goers for generations—warm, oily, perfect.",
-          "description": "This tiny shop produces focaccia that travels straight to the beach, carried in paper wrapping by visitors who've learned the local ritual. The dough is soft, the olive oil generous, the salt crystals properly distributed. It's simple, ancient, and exactly right.",
-          "giuliaComment": "This is my beach breakfast. Warm focaccia, coffee from the bar next door, and Monterosso's sand between my toes. I've been doing this since I was a child. The focaccia hasn't changed.",
-          "signature": "The beach ritual that never gets old",
+          "intro": {
+            "en": "The focaccia that has sustained Monterosso beach-goers for generations—warm, oily, perfect.",
+            "de": "Die Focaccia, die Monterossos Strandgänger seit Generationen ernährt—warm, ölig, perfekt.",
+            "fr": "La focaccia qui a nourri les baigneurs de Monterosso depuis des générations—chaude, huileuse, parfaite.",
+            "it": "La focaccia che ha sostenuto i bagnanti di Monterosso per generazioni—calda, unta, perfetta."
+          },
+          "description": {
+            "en": "This tiny shop produces focaccia that travels straight to the beach, carried in paper wrapping by visitors who've learned the local ritual. The dough is soft, the olive oil generous, the salt crystals properly distributed. It's simple, ancient, and exactly right.",
+            "de": "Dieser winzige Laden produziert Focaccia, die direkt zum Strand wandert, in Papier eingewickelt von Besuchern, die das lokale Ritual gelernt haben. Der Teig ist weich, das Olivenöl großzügig, die Salzkristalle richtig verteilt. Es ist einfach, uralt und genau richtig.",
+            "fr": "Cette minuscule boutique produit de la focaccia qui voyage directement vers la plage, emportée dans du papier par les visiteurs qui ont appris le rituel local. La pâte est molle, l'huile d'olive généreuse, les cristaux de sel correctement distribués. C'est simple, ancien et exactement juste.",
+            "it": "Questo minuscolo negozio produce focaccia che viaggia dritta verso la spiaggia, portata in carta dai visitatori che hanno imparato il rituale locale. L'impasto è morbido, l'olio d'oliva generoso, i cristalli di sale distribuiti correttamente. È semplice, antica e esattamente giusta."
+          },
+          "giuliaComment": {
+            "en": "This is my beach breakfast. Warm focaccia, coffee from the bar next door, and Monterosso's sand between my toes. I've been doing this since I was a child. The focaccia hasn't changed.",
+            "de": "Das ist mein Strandfrühstück. Warme Focaccia, Kaffee von der Bar nebenan und Monterossos Sand zwischen meinen Zehen. Ich mache das seit meiner Kindheit. Die Focaccia hat sich nicht verändert.",
+            "fr": "C'est mon petit-déjeuner de plage. Focaccia chaude, café du bar d'à côté, et le sable de Monterosso entre mes orteils. Je fais ça depuis mon enfance. La focaccia n'a pas changé.",
+            "it": "Questa è la mia colazione in spiaggia. Focaccia calda, caffè dal bar accanto, e la sabbia di Monterosso tra le dita dei piedi. Lo faccio da quando ero bambina. La focaccia non è cambiata."
+          },
+          "signature": {
+            "en": "The beach ritual that never gets old",
+            "de": "Das Strandritual, das nie alt wird",
+            "fr": "Le rituel de plage qui ne vieillit jamais",
+            "it": "Il rituale da spiaggia che non invecchia mai"
+          },
           "priceRange": "$",
-          "practicalInfo": "Takeaway only. Best in morning when fresh. Cash only. The classic plain focaccia is perfect.",
+          "practicalInfo": {
+            "en": "Takeaway only. Best in morning when fresh. Cash only. The classic plain focaccia is perfect.",
+            "de": "Nur zum Mitnehmen. Am besten morgens, wenn frisch. Nur Bargeld. Die klassische einfache Focaccia ist perfekt.",
+            "fr": "À emporter uniquement. Meilleur le matin quand c'est frais. Espèces uniquement. La focaccia nature classique est parfaite.",
+            "it": "Solo da asporto. Meglio di mattina quando è fresca. Solo contanti. La focaccia classica semplice è perfetta."
+          },
           "googleRating": 4.6,
           "tripadvisorRating": 4.5
         },
         {
           "id": 6,
-          "name": "Pizzeria La Cambusa",
-          "category": "Pizza & Farinata",
+          "name": {
+            "en": "Pizzeria La Cambusa",
+            "de": "Pizzeria La Cambusa",
+            "fr": "Pizzeria La Cambusa",
+            "it": "Pizzeria La Cambusa"
+          },
+          "category": {
+            "en": "Pizza & Farinata",
+            "de": "Pizza & Farinata",
+            "fr": "Pizza & Farinata",
+            "it": "Pizza & Farinata"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2574&auto=format&fit=crop",
-          "intro": "Home of Monterosso's best farinata—the chickpea flatbread that defines Ligurian street food.",
-          "description": "La Cambusa makes farinata the traditional way: chickpea flour, water, olive oil, salt, and a wood-fired oven that produces the slight char and creamy interior that distinguishes great farinata from ordinary. The pizzas are good, but farinata is the reason to come.",
-          "giuliaComment": "Farinata is what Ligurians eat when they want comfort without fuss. La Cambusa's version is textbook—crisp edges, soft center, enough oil to taste but not enough to drip. The pizza is secondary.",
-          "signature": "Where chickpea flour becomes gold",
+          "intro": {
+            "en": "Home of Monterosso's best farinata—the chickpea flatbread that defines Ligurian street food.",
+            "de": "Heimat von Monterossos bester Farinata—das Kichererbsen-Fladenbrot, das ligurisches Streetfood definiert.",
+            "fr": "Maison de la meilleure farinata de Monterosso—la galette de pois chiches qui définit la street food ligurienne.",
+            "it": "Casa della migliore farinata di Monterosso—la focaccia di ceci che definisce lo street food ligure."
+          },
+          "description": {
+            "en": "La Cambusa makes farinata the traditional way: chickpea flour, water, olive oil, salt, and a wood-fired oven that produces the slight char and creamy interior that distinguishes great farinata from ordinary. The pizzas are good, but farinata is the reason to come.",
+            "de": "La Cambusa macht Farinata auf traditionelle Weise: Kichererbsenmehl, Wasser, Olivenöl, Salz und ein Holzofen, der die leichte Verkohlung und das cremige Innere produziert, das großartige Farinata von gewöhnlicher unterscheidet. Die Pizzen sind gut, aber Farinata ist der Grund zu kommen.",
+            "fr": "La Cambusa fait la farinata de manière traditionnelle : farine de pois chiches, eau, huile d'olive, sel, et un four à bois qui produit la légère carbonisation et l'intérieur crémeux qui distingue une grande farinata d'une ordinaire. Les pizzas sont bonnes, mais la farinata est la raison de venir.",
+            "it": "La Cambusa fa la farinata nel modo tradizionale: farina di ceci, acqua, olio d'oliva, sale e un forno a legna che produce la leggera bruciatura e l'interno cremoso che distingue una grande farinata da una ordinaria. Le pizze sono buone, ma la farinata è il motivo per venire."
+          },
+          "giuliaComment": {
+            "en": "Farinata is what Ligurians eat when they want comfort without fuss. La Cambusa's version is textbook—crisp edges, soft center, enough oil to taste but not enough to drip. The pizza is secondary.",
+            "de": "Farinata ist, was Ligurer essen, wenn sie Komfort ohne Aufwand wollen. La Cambusas Version ist Lehrbuch—knusprige Ränder, weiche Mitte, genug Öl zum Schmecken, aber nicht genug zum Tropfen. Die Pizza ist sekundär.",
+            "fr": "La farinata est ce que les Ligures mangent quand ils veulent du réconfort sans chichis. La version de La Cambusa est un manuel—bords croustillants, centre mou, assez d'huile pour goûter mais pas assez pour couler. La pizza est secondaire.",
+            "it": "La farinata è quello che i liguri mangiano quando vogliono comfort senza fronzoli. La versione de La Cambusa è da manuale—bordi croccanti, centro morbido, abbastanza olio da gustare ma non abbastanza da gocciolare. La pizza è secondaria."
+          },
+          "signature": {
+            "en": "Where chickpea flour becomes gold",
+            "de": "Wo Kichererbsenmehl zu Gold wird",
+            "fr": "Où la farine de pois chiches devient or",
+            "it": "Dove la farina di ceci diventa oro"
+          },
           "priceRange": "$",
-          "practicalInfo": "Casual setting. Good for lunch or early dinner. Farinata often sells out by evening.",
+          "practicalInfo": {
+            "en": "Casual setting. Good for lunch or early dinner. Farinata often sells out by evening.",
+            "de": "Ungezwungene Umgebung. Gut für Mittagessen oder frühes Abendessen. Farinata ist oft abends ausverkauft.",
+            "fr": "Cadre décontracté. Bon pour le déjeuner ou un dîner tôt. La farinata est souvent épuisée le soir.",
+            "it": "Ambiente informale. Buono per pranzo o cena anticipata. La farinata spesso finisce entro sera."
+          },
           "googleRating": 4.3,
           "tripadvisorRating": 4.2
         },
         {
           "id": 7,
-          "name": "Antica Osteria Il Baretto",
-          "category": "Traditional Osteria",
+          "name": {
+            "en": "Antica Osteria Il Baretto",
+            "de": "Antica Osteria Il Baretto",
+            "fr": "Antica Osteria Il Baretto",
+            "it": "Antica Osteria Il Baretto"
+          },
+          "category": {
+            "en": "Traditional Osteria",
+            "de": "Traditionelle Osteria",
+            "fr": "Osteria Traditionnelle",
+            "it": "Osteria Tradizionale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The old-town osteria where recipes haven't changed because they didn't need to.",
-          "description": "Il Baretto has been serving the old town since before anyone counted. The space is small, the menu is traditional, and the preparations are what Monterosso grandmothers have always made. This is not innovation—it's preservation.",
-          "giuliaComment": "When I want to taste what Monterosso tasted like before the tourists came, I come here. The recipes are older than the building. The portions are generous. The pretension is zero.",
-          "signature": "Where tradition is the only innovation",
+          "intro": {
+            "en": "The old-town osteria where recipes haven't changed because they didn't need to.",
+            "de": "Die Altstadt-Osteria, wo Rezepte sich nicht geändert haben, weil sie es nicht mussten.",
+            "fr": "L'osteria de la vieille ville où les recettes n'ont pas changé parce qu'elles n'en avaient pas besoin.",
+            "it": "L'osteria del centro storico dove le ricette non sono cambiate perché non ne avevano bisogno."
+          },
+          "description": {
+            "en": "Il Baretto has been serving the old town since before anyone counted. The space is small, the menu is traditional, and the preparations are what Monterosso grandmothers have always made. This is not innovation—it's preservation.",
+            "de": "Il Baretto bedient die Altstadt, seit bevor jemand zählte. Der Raum ist klein, die Speisekarte ist traditionell, und die Zubereitungen sind das, was Monterossos Großmütter schon immer gemacht haben. Das ist keine Innovation—es ist Bewahrung.",
+            "fr": "Il Baretto sert la vieille ville depuis avant que quiconque compte. L'espace est petit, le menu est traditionnel, et les préparations sont ce que les grands-mères de Monterosso ont toujours fait. Ce n'est pas de l'innovation—c'est de la préservation.",
+            "it": "Il Baretto serve il centro storico da prima che qualcuno contasse. Lo spazio è piccolo, il menu è tradizionale, e le preparazioni sono quelle che le nonne di Monterosso hanno sempre fatto. Questa non è innovazione—è preservazione."
+          },
+          "giuliaComment": {
+            "en": "When I want to taste what Monterosso tasted like before the tourists came, I come here. The recipes are older than the building. The portions are generous. The pretension is zero.",
+            "de": "Wenn ich schmecken will, wie Monterosso schmeckte, bevor die Touristen kamen, komme ich hierher. Die Rezepte sind älter als das Gebäude. Die Portionen sind großzügig. Die Prätention ist null.",
+            "fr": "Quand je veux goûter ce que Monterosso goûtait avant l'arrivée des touristes, je viens ici. Les recettes sont plus anciennes que le bâtiment. Les portions sont généreuses. La prétention est zéro.",
+            "it": "Quando voglio assaggiare com'era Monterosso prima che arrivassero i turisti, vengo qui. Le ricette sono più vecchie dell'edificio. Le porzioni sono generose. La pretesa è zero."
+          },
+          "signature": {
+            "en": "Where tradition is the only innovation",
+            "de": "Wo Tradition die einzige Innovation ist",
+            "fr": "Où la tradition est la seule innovation",
+            "it": "Dove la tradizione è l'unica innovazione"
+          },
           "priceRange": "$$",
-          "practicalInfo": "Small, so reserve. In the old town. Cash preferred. The seafood stew is legendary.",
+          "practicalInfo": {
+            "en": "Small, so reserve. In the old town. Cash preferred. The seafood stew is legendary.",
+            "de": "Klein, also reservieren. In der Altstadt. Bargeld bevorzugt. Der Meeresfrüchte-Eintopf ist legendär.",
+            "fr": "Petit, donc réservez. Dans la vieille ville. Espèces préférées. La soupe de fruits de mer est légendaire.",
+            "it": "Piccolo, quindi prenotate. Nel centro storico. Contanti preferiti. La zuppa di pesce è leggendaria."
+          },
           "googleRating": 4.4,
           "tripadvisorRating": 4.3
         },
         {
           "id": 8,
-          "name": "Gelateria Golosone",
-          "category": "Gelato",
+          "name": {
+            "en": "Gelateria Golosone",
+            "de": "Gelateria Golosone",
+            "fr": "Gelateria Golosone",
+            "it": "Gelateria Golosone"
+          },
+          "category": {
+            "en": "Gelato",
+            "de": "Gelato",
+            "fr": "Gelato",
+            "it": "Gelato"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The gelato that ends all arguments—creamy, intense, worth the inevitable line.",
-          "description": "Golosone makes gelato the way it should be made: fresh each day, with visible fruit specks, and that particular density that separates artisanal from industrial. The lemon (limone) uses Monterosso lemons. The stracciatella is textbook. The line moves fast.",
-          "giuliaComment": "There are other gelaterias in Monterosso. I don't visit them. Golosone's lemon gelato tastes like the terraced groves above the village smell. That's not marketing—it's actual Monterosso lemons.",
-          "signature": "Where the lemon grove becomes dessert",
+          "intro": {
+            "en": "The gelato that ends all arguments—creamy, intense, worth the inevitable line.",
+            "de": "Das Gelato, das alle Argumente beendet—cremig, intensiv, die unvermeidliche Schlange wert.",
+            "fr": "Le gelato qui met fin à tous les arguments—crémeux, intense, valant la file d'attente inévitable.",
+            "it": "Il gelato che pone fine a tutte le discussioni—cremoso, intenso, che vale la fila inevitabile."
+          },
+          "description": {
+            "en": "Golosone makes gelato the way it should be made: fresh each day, with visible fruit specks, and that particular density that separates artisanal from industrial. The lemon (limone) uses Monterosso lemons. The stracciatella is textbook. The line moves fast.",
+            "de": "Golosone macht Gelato, wie es gemacht werden sollte: jeden Tag frisch, mit sichtbaren Fruchtstücken und dieser besonderen Dichte, die handwerklich von industriell trennt. Die Zitrone (limone) verwendet Monterosso-Zitronen. Das Stracciatella ist Lehrbuch. Die Schlange bewegt sich schnell.",
+            "fr": "Golosone fait le gelato comme il devrait être fait : frais chaque jour, avec des morceaux de fruits visibles, et cette densité particulière qui sépare l'artisanal de l'industriel. Le citron (limone) utilise les citrons de Monterosso. La stracciatella est un manuel. La file avance vite.",
+            "it": "Golosone fa il gelato come dovrebbe essere fatto: fresco ogni giorno, con pezzi di frutta visibili, e quella particolare densità che separa l'artigianale dall'industriale. Il limone usa i limoni di Monterosso. La stracciatella è da manuale. La fila scorre veloce."
+          },
+          "giuliaComment": {
+            "en": "There are other gelaterias in Monterosso. I don't visit them. Golosone's lemon gelato tastes like the terraced groves above the village smell. That's not marketing—it's actual Monterosso lemons.",
+            "de": "Es gibt andere Gelaterias in Monterosso. Ich besuche sie nicht. Golosones Zitronengelato schmeckt wie die terrassierten Haine über dem Dorf riechen. Das ist kein Marketing—das sind echte Monterosso-Zitronen.",
+            "fr": "Il y a d'autres gelaterias à Monterosso. Je ne les visite pas. Le gelato au citron de Golosone a le goût des vergers en terrasses au-dessus du village. Ce n'est pas du marketing—ce sont de vrais citrons de Monterosso.",
+            "it": "Ci sono altre gelaterie a Monterosso. Non le visito. Il gelato al limone di Golosone sa come profumano i limoneti terrazzati sopra il borgo. Non è marketing—sono veri limoni di Monterosso."
+          },
+          "signature": {
+            "en": "Where the lemon grove becomes dessert",
+            "de": "Wo der Zitronenhain zum Dessert wird",
+            "fr": "Où le verger de citrons devient dessert",
+            "it": "Dove il limoneto diventa dessert"
+          },
           "priceRange": "$",
-          "practicalInfo": "Expect a short line. Cash only. The lemon is essential. The stracciatella is excellent.",
+          "practicalInfo": {
+            "en": "Expect a short line. Cash only. The lemon is essential. The stracciatella is excellent.",
+            "de": "Erwarten Sie eine kurze Schlange. Nur Bargeld. Die Zitrone ist unverzichtbar. Das Stracciatella ist ausgezeichnet.",
+            "fr": "Attendez-vous à une courte file. Espèces uniquement. Le citron est essentiel. La stracciatella est excellente.",
+            "it": "Aspettatevi una breve fila. Solo contanti. Il limone è essenziale. La stracciatella è eccellente."
+          },
           "googleRating": 4.7,
           "tripadvisorRating": 4.6
         }
@@ -193,23 +572,88 @@
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Two Monterossos",
-          "quote": "The old town has history; the new town (Fegina) has the beach. Each has restaurants that reflect its character. Don't stay in one zone—the walk between them takes ten minutes and offers different dining worlds."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Two Monterossos",
+            "de": "Die zwei Monterossos",
+            "fr": "Les Deux Monterossos",
+            "it": "I Due Monterosso"
+          },
+          "quote": {
+            "en": "The old town has history; the new town (Fegina) has the beach. Each has restaurants that reflect its character. Don't stay in one zone—the walk between them takes ten minutes and offers different dining worlds.",
+            "de": "Die Altstadt hat Geschichte; die Neustadt (Fegina) hat den Strand. Jede hat Restaurants, die ihren Charakter widerspiegeln. Bleiben Sie nicht in einer Zone—der Spaziergang zwischen ihnen dauert zehn Minuten und bietet verschiedene gastronomische Welten.",
+            "fr": "La vieille ville a l'histoire ; la nouvelle ville (Fegina) a la plage. Chacune a des restaurants qui reflètent son caractère. Ne restez pas dans une zone—la marche entre elles prend dix minutes et offre des mondes gastronomiques différents.",
+            "it": "Il centro storico ha la storia; la città nuova (Fegina) ha la spiaggia. Ognuna ha ristoranti che riflettono il suo carattere. Non restate in una zona—la passeggiata tra le due dura dieci minuti e offre mondi gastronomici diversi."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Largest Village, The Most Choices",
-      "content": [
-        "Monterosso's size gives it options the other villages lack. You can eat beach-casual at lunch and sophisticated at dinner. You can alternate between old town tradition and Fegina resort style. You can spend a week here and not repeat restaurants.",
-        "This variety has its trade-offs—some places cater to tourists who'll never return, and quality varies more than in smaller villages. But the best restaurants here compete at the highest level.",
-        "Trust the lines, trust the locals, and trust the focaccia. Monterosso has been feeding visitors for longer than anyone remembers."
-      ],
+      "title": {
+        "en": "The Largest Village, The Most Choices",
+        "de": "Das größte Dorf, die meisten Möglichkeiten",
+        "fr": "Le Plus Grand Village, Le Plus de Choix",
+        "it": "Il Borgo Più Grande, Le Più Scelte"
+      },
+      "content": {
+        "en": [
+          "Monterosso's size gives it options the other villages lack. You can eat beach-casual at lunch and sophisticated at dinner. You can alternate between old town tradition and Fegina resort style. You can spend a week here and not repeat restaurants.",
+          "This variety has its trade-offs—some places cater to tourists who'll never return, and quality varies more than in smaller villages. But the best restaurants here compete at the highest level.",
+          "Trust the lines, trust the locals, and trust the focaccia. Monterosso has been feeding visitors for longer than anyone remembers."
+        ],
+        "de": [
+          "Monterossos Größe gibt ihm Optionen, die den anderen Dörfern fehlen. Sie können mittags strandlässig und abends raffiniert essen. Sie können zwischen Altstadttradition und Fegina-Resort-Stil wechseln. Sie können eine Woche hier verbringen und Restaurants nicht wiederholen.",
+          "Diese Vielfalt hat ihre Kompromisse—einige Orte bedienen Touristen, die nie wiederkommen, und die Qualität variiert mehr als in kleineren Dörfern. Aber die besten Restaurants hier konkurrieren auf höchstem Niveau.",
+          "Vertrauen Sie den Schlangen, vertrauen Sie den Einheimischen und vertrauen Sie der Focaccia. Monterosso ernährt Besucher schon länger, als sich irgendjemand erinnert."
+        ],
+        "fr": [
+          "La taille de Monterosso lui donne des options que les autres villages n'ont pas. Vous pouvez manger décontracté à la plage au déjeuner et sophistiqué au dîner. Vous pouvez alterner entre la tradition de la vieille ville et le style resort de Fegina. Vous pouvez passer une semaine ici sans répéter les restaurants.",
+          "Cette variété a ses compromis—certains endroits s'adressent aux touristes qui ne reviendront jamais, et la qualité varie plus que dans les petits villages. Mais les meilleurs restaurants ici rivalisent au plus haut niveau.",
+          "Faites confiance aux files, faites confiance aux locaux et faites confiance à la focaccia. Monterosso nourrit les visiteurs depuis plus longtemps que quiconque s'en souvient."
+        ],
+        "it": [
+          "La dimensione di Monterosso gli dà opzioni che gli altri borghi non hanno. Potete mangiare casual da spiaggia a pranzo e sofisticato a cena. Potete alternare tra tradizione del centro storico e stile resort di Fegina. Potete passare una settimana qui senza ripetere ristoranti.",
+          "Questa varietà ha i suoi compromessi—alcuni posti servono turisti che non torneranno mai, e la qualità varia più che nei borghi più piccoli. Ma i migliori ristoranti qui competono al massimo livello.",
+          "Fidatevi delle file, fidatevi dei locali e fidatevi della focaccia. Monterosso nutre i visitatori da più tempo di quanto chiunque ricordi."
+        ]
+      },
       "buttons": [
-        { "text": "Plan Your Stay", "url": "/en/monterosso/hotels", "variant": "primary" },
-        { "text": "Explore the Beach", "url": "/en/monterosso/beaches", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Plan Your Stay",
+            "de": "Planen Sie Ihren Aufenthalt",
+            "fr": "Planifiez Votre Séjour",
+            "it": "Pianifica il Tuo Soggiorno"
+          },
+          "url": {
+            "en": "/en/monterosso/hotels",
+            "de": "/de/monterosso/hotels",
+            "fr": "/fr/monterosso/hotels",
+            "it": "/it/monterosso/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Explore the Beach",
+            "de": "Entdecken Sie den Strand",
+            "fr": "Explorez la Plage",
+            "it": "Esplora la Spiaggia"
+          },
+          "url": {
+            "en": "/en/monterosso/beaches",
+            "de": "/de/monterosso/beaches",
+            "fr": "/fr/monterosso/beaches",
+            "it": "/it/monterosso/beaches"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -219,5 +663,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T12:30:00.000Z"
+  "updated_at": "2026-01-07T21:50:00.000Z"
 }

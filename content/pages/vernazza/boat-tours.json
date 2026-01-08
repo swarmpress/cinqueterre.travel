@@ -2,41 +2,95 @@
   "id": "fb5d06ad-4085-4c1c-8ce7-f97a236ef0df",
   "slug": {
     "en": "/en/vernazza/boat-tours",
-    "de": "/de/vernazza/boat-tours",
-    "fr": "/fr/vernazza/boat-tours",
-    "it": "/it/vernazza/boat-tours"
+    "de": "/de/vernazza/boot-touren",
+    "fr": "/fr/vernazza/excursions-bateau",
+    "it": "/it/vernazza/tour-barca"
   },
   "title": {
-    "en": "Boat Tours from Vernazza | Cinque Terre Dispatch"
+    "en": "Boat Tours from Vernazza | Cinque Terre Dispatch",
+    "de": "Bootstouren ab Vernazza | Cinque Terre Dispatch",
+    "fr": "Excursions en Bateau depuis Vernazza | Cinque Terre Dispatch",
+    "it": "Tour in Barca da Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "boat-tours",
   "seo": {
     "title": {
-      "en": "Boat Tours from Vernazza | Cinque Terre Dispatch"
+      "en": "Boat Tours from Vernazza | Cinque Terre Dispatch",
+      "de": "Bootstouren ab Vernazza | Cinque Terre Dispatch",
+      "fr": "Excursions en Bateau depuis Vernazza | Cinque Terre Dispatch",
+      "it": "Tour in Barca da Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Departing from Cinque Terre's only true natural harbor—where Genoese admirals once launched their fleets and where the coastline reveals itself from the perspective it was meant to be seen."
+      "en": "Departing from Cinque Terre's only true natural harbor—where Genoese admirals once launched their fleets and where the coastline reveals itself from the perspective it was meant to be seen.",
+      "de": "Abfahrt vom einzigen echten natürlichen Hafen der Cinque Terre—wo genuesische Admiräle einst ihre Flotten starteten und wo die Küste sich aus der Perspektive zeigt, aus der sie gesehen werden sollte.",
+      "fr": "Au départ du seul véritable port naturel des Cinque Terre—où les amiraux génois lançaient autrefois leurs flottes et où le littoral se révèle dans la perspective pour laquelle il était fait.",
+      "it": "Partenza dall'unico vero porto naturale delle Cinque Terre—dove gli ammiragli genovesi un tempo lanciavano le loro flotte e dove la costa si rivela dalla prospettiva per cui era fatta."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Sailing from<br/>the Only Harbor",
-      "subtitle": "Vernazza's natural harbor has welcomed sailors for nearly a millennium. Where Genoese galleys once anchored, where medieval breakwaters still protect the bay, where the coastline reveals secrets visible only from the water—this is where your maritime adventure begins.",
-      "badge": "Boat Tours",
+      "title": {
+        "en": "Sailing from<br/>the Only Harbor",
+        "de": "Segeln vom<br/>einzigen Hafen",
+        "fr": "Naviguer depuis<br/>le Seul Port",
+        "it": "Salpare dal<br/>Solo Porto"
+      },
+      "subtitle": {
+        "en": "Vernazza's natural harbor has welcomed sailors for nearly a millennium. Where Genoese galleys once anchored, where medieval breakwaters still protect the bay, where the coastline reveals secrets visible only from the water—this is where your maritime adventure begins.",
+        "de": "Vernazzas natürlicher Hafen hat Seeleute fast ein Jahrtausend lang willkommen geheißen. Wo genuesische Galeeren einst ankerten, wo mittelalterliche Wellenbrecher noch immer die Bucht schützen, wo die Küste Geheimnisse enthüllt, die nur vom Wasser aus sichtbar sind—hier beginnt Ihr maritimes Abenteuer.",
+        "fr": "Le port naturel de Vernazza accueille les marins depuis près d'un millénaire. Là où les galères génoises ancraient jadis, où les brise-lames médiévaux protègent encore la baie, où le littoral révèle des secrets visibles uniquement depuis l'eau—c'est ici que commence votre aventure maritime.",
+        "it": "Il porto naturale di Vernazza accoglie marinai da quasi un millennio. Dove le galere genovesi un tempo ancoravano, dove i frangiflutti medievali ancora proteggono la baia, dove la costa rivela segreti visibili solo dall'acqua—qui inizia la vostra avventura marittima."
+      },
+      "badge": {
+        "en": "Boat Tours",
+        "de": "Bootstouren",
+        "fr": "Excursions en Bateau",
+        "it": "Tour in Barca"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Maritime Advantage",
-      "quote": "Vernazza is the only village in Cinque Terre with a true natural harbor—protected, deep, and designed by nature for exactly this purpose. When you depart from here, you're following the same water routes that medieval sailors charted a thousand years ago.",
-      "content": [
-        "**The harbor changes everything**. While other villages launch boats from rocky beaches, Vernazza offers protected embarkation. The ancient breakwaters built by the Doria family still shelter the bay. Boarding is easier, departures smoother, and the dramatic backdrop of village and castle is unmatched.",
-        "**Strategic position matters**. Perfectly situated between Monterosso and Corniglia, Vernazza provides optimal access to the entire coastline. You can explore in either direction without backtracking. The Genoese recognized this advantage; so should you.",
-        "**The perspective transforms**. From the water, Vernazza's medieval architecture reveals its true purpose. The castle tower positioned for maximum surveillance. The village layout designed for naval operations. The coastline's hidden coves accessible only by boat.",
-        "**Local captains know these waters**. Generations of fishing families have charted every current, every sheltered cove, every swimming spot where crystal-clear water meets dramatic cliffs. Their knowledge comes with your tour."
-      ]
+      "badge": {
+        "en": "The Maritime Advantage",
+        "de": "Der maritime Vorteil",
+        "fr": "L'Avantage Maritime",
+        "it": "Il Vantaggio Marittimo"
+      },
+      "quote": {
+        "en": "Vernazza is the only village in Cinque Terre with a true natural harbor—protected, deep, and designed by nature for exactly this purpose. When you depart from here, you're following the same water routes that medieval sailors charted a thousand years ago.",
+        "de": "Vernazza ist das einzige Dorf in den Cinque Terre mit einem echten natürlichen Hafen—geschützt, tief und von der Natur genau für diesen Zweck geschaffen. Wenn Sie von hier abfahren, folgen Sie denselben Wasserwegen, die mittelalterliche Seeleute vor tausend Jahren kartiert haben.",
+        "fr": "Vernazza est le seul village des Cinque Terre avec un véritable port naturel—protégé, profond et conçu par la nature exactement pour cet usage. Quand vous partez d'ici, vous suivez les mêmes routes maritimes que les marins médiévaux ont tracées il y a mille ans.",
+        "it": "Vernazza è l'unico borgo delle Cinque Terre con un vero porto naturale—protetto, profondo e progettato dalla natura esattamente per questo scopo. Quando partite da qui, seguite le stesse rotte marittime che i marinai medievali tracciarono mille anni fa."
+      },
+      "content": {
+        "en": [
+          "**The harbor changes everything**. While other villages launch boats from rocky beaches, Vernazza offers protected embarkation. The ancient breakwaters built by the Doria family still shelter the bay. Boarding is easier, departures smoother, and the dramatic backdrop of village and castle is unmatched.",
+          "**Strategic position matters**. Perfectly situated between Monterosso and Corniglia, Vernazza provides optimal access to the entire coastline. You can explore in either direction without backtracking. The Genoese recognized this advantage; so should you.",
+          "**The perspective transforms**. From the water, Vernazza's medieval architecture reveals its true purpose. The castle tower positioned for maximum surveillance. The village layout designed for naval operations. The coastline's hidden coves accessible only by boat.",
+          "**Local captains know these waters**. Generations of fishing families have charted every current, every sheltered cove, every swimming spot where crystal-clear water meets dramatic cliffs. Their knowledge comes with your tour."
+        ],
+        "de": [
+          "**Der Hafen verändert alles**. Während andere Dörfer Boote von felsigen Stränden starten, bietet Vernazza geschützte Einschiffung. Die alten Wellenbrecher, gebaut von der Familie Doria, schützen noch immer die Bucht. Das Einsteigen ist einfacher, die Abfahrten reibungsloser, und die dramatische Kulisse von Dorf und Burg ist unübertroffen.",
+          "**Strategische Position zählt**. Perfekt gelegen zwischen Monterosso und Corniglia, bietet Vernazza optimalen Zugang zur gesamten Küste. Sie können in beide Richtungen erkunden, ohne zurückzufahren. Die Genuesen erkannten diesen Vorteil; Sie sollten es auch.",
+          "**Die Perspektive verändert sich**. Vom Wasser aus offenbart Vernazzas mittelalterliche Architektur ihren wahren Zweck. Der Burgturm positioniert für maximale Überwachung. Die Dorfanlage entworfen für Marineoperationen. Die versteckten Buchten der Küste nur per Boot erreichbar.",
+          "**Lokale Kapitäne kennen diese Gewässer**. Generationen von Fischerfamilien haben jede Strömung kartiert, jede geschützte Bucht, jeden Schwimmplatz, wo kristallklares Wasser auf dramatische Klippen trifft. Ihr Wissen kommt mit Ihrer Tour."
+        ],
+        "fr": [
+          "**Le port change tout**. Alors que les autres villages lancent des bateaux depuis des plages rocheuses, Vernazza offre un embarquement protégé. Les anciens brise-lames construits par la famille Doria abritent encore la baie. L'embarquement est plus facile, les départs plus fluides, et le décor dramatique du village et du château est inégalé.",
+          "**La position stratégique compte**. Parfaitement situé entre Monterosso et Corniglia, Vernazza offre un accès optimal à tout le littoral. Vous pouvez explorer dans les deux directions sans revenir en arrière. Les Génois ont reconnu cet avantage ; vous devriez aussi.",
+          "**La perspective se transforme**. Depuis l'eau, l'architecture médiévale de Vernazza révèle son vrai but. La tour du château positionnée pour une surveillance maximale. L'agencement du village conçu pour les opérations navales. Les criques cachées du littoral accessibles uniquement par bateau.",
+          "**Les capitaines locaux connaissent ces eaux**. Des générations de familles de pêcheurs ont cartographié chaque courant, chaque crique abritée, chaque spot de baignade où une eau cristalline rencontre des falaises spectaculaires. Leur connaissance vient avec votre tour."
+        ],
+        "it": [
+          "**Il porto cambia tutto**. Mentre altri borghi lanciano barche da spiagge rocciose, Vernazza offre un imbarco protetto. Gli antichi frangiflutti costruiti dalla famiglia Doria proteggono ancora la baia. L'imbarco è più facile, le partenze più fluide, e lo sfondo drammatico di borgo e castello è ineguagliabile.",
+          "**La posizione strategica conta**. Perfettamente situata tra Monterosso e Corniglia, Vernazza fornisce accesso ottimale a tutta la costa. Potete esplorare in entrambe le direzioni senza tornare indietro. I Genovesi riconobbero questo vantaggio; dovreste farlo anche voi.",
+          "**La prospettiva si trasforma**. Dall'acqua, l'architettura medievale di Vernazza rivela il suo vero scopo. La torre del castello posizionata per la massima sorveglianza. La disposizione del borgo progettata per operazioni navali. Le calette nascoste della costa accessibili solo in barca.",
+          "**I capitani locali conoscono queste acque**. Generazioni di famiglie di pescatori hanno mappato ogni corrente, ogni caletta riparata, ogni punto per nuotare dove acqua cristallina incontra scogliere drammatiche. La loro conoscenza viene con il vostro tour."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,70 +98,255 @@
       "items": [
         {
           "id": 1,
-          "name": "Sunset Sailing",
-          "category": "Signature Experience",
+          "name": {
+            "en": "Sunset Sailing",
+            "de": "Sonnenuntergangssegeln",
+            "fr": "Navigation au Coucher de Soleil",
+            "it": "Navigazione al Tramonto"
+          },
+          "category": {
+            "en": "Signature Experience",
+            "de": "Signatur-Erlebnis",
+            "fr": "Expérience Signature",
+            "it": "Esperienza Esclusiva"
+          },
           "village": "Vernazza",
           "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551698618-1dfe5d97d256-regular.jpg",
-          "intro": "Depart as golden light bathes Vernazza's ancient stones—traditional Ligurian gozzo gliding past medieval fortifications.",
-          "description": "The sunset tours depart 2-3 hours before dark, sailing past the coastline as the light shifts from afternoon brilliance to golden warmth. Most include local Sciacchetrà wine and focaccia from Vernazza's bakeries. You'll watch the castle silhouette darken against the sunset sky while the village lights begin to twinkle.",
-          "giuliaComment": "Sunset from the water is different from sunset on land. You see the entire coastline transform—five villages catching the light in sequence, the terraces turning gold, the Mediterranean becoming a mirror. It's the best two hours you'll spend in Cinque Terre.",
-          "signature": "When the light turns gold"
+          "intro": {
+            "en": "Depart as golden light bathes Vernazza's ancient stones—traditional Ligurian gozzo gliding past medieval fortifications.",
+            "de": "Abfahrt wenn goldenes Licht Vernazzas alte Steine badet—traditioneller ligurischer Gozzo gleitet an mittelalterlichen Befestigungen vorbei.",
+            "fr": "Partez alors que la lumière dorée baigne les pierres anciennes de Vernazza—le gozzo ligure traditionnel glissant devant les fortifications médiévales.",
+            "it": "Partite mentre la luce dorata bagna le antiche pietre di Vernazza—il tradizionale gozzo ligure che scivola oltre le fortificazioni medievali."
+          },
+          "description": {
+            "en": "The sunset tours depart 2-3 hours before dark, sailing past the coastline as the light shifts from afternoon brilliance to golden warmth. Most include local Sciacchetra wine and focaccia from Vernazza's bakeries. You'll watch the castle silhouette darken against the sunset sky while the village lights begin to twinkle.",
+            "de": "Die Sonnenuntergangstouren starten 2-3 Stunden vor Dunkelheit, segeln an der Küste entlang, während das Licht von Nachmittagsglanz zu goldener Wärme wechselt. Die meisten beinhalten lokalen Sciacchetra-Wein und Focaccia aus Vernazzas Bäckereien. Sie sehen, wie sich die Burgsillhouette gegen den Sonnenuntergangshimmel verdunkelt, während die Dorflichter zu funkeln beginnen.",
+            "fr": "Les tours au coucher de soleil partent 2-3 heures avant la nuit, naviguant le long du littoral alors que la lumière passe de l'éclat de l'après-midi à la chaleur dorée. La plupart incluent du vin Sciacchetra local et de la focaccia des boulangeries de Vernazza. Vous regarderez la silhouette du château s'assombrir contre le ciel du couchant tandis que les lumières du village commencent à scintiller.",
+            "it": "I tour al tramonto partono 2-3 ore prima del buio, navigando lungo la costa mentre la luce passa dallo splendore pomeridiano al calore dorato. La maggior parte include vino Sciacchetra locale e focaccia dalle panetterie di Vernazza. Guarderete la silhouette del castello scurirsi contro il cielo del tramonto mentre le luci del borgo iniziano a brillare."
+          },
+          "giuliaComment": {
+            "en": "Sunset from the water is different from sunset on land. You see the entire coastline transform—five villages catching the light in sequence, the terraces turning gold, the Mediterranean becoming a mirror. It's the best two hours you'll spend in Cinque Terre.",
+            "de": "Sonnenuntergang vom Wasser ist anders als Sonnenuntergang an Land. Sie sehen die gesamte Küste sich verwandeln—fünf Dörfer fangen das Licht nacheinander ein, die Terrassen werden golden, das Mittelmeer wird zum Spiegel. Es sind die besten zwei Stunden, die Sie in den Cinque Terre verbringen werden.",
+            "fr": "Le coucher de soleil depuis l'eau est différent du coucher de soleil sur terre. Vous voyez tout le littoral se transformer—cinq villages captant la lumière en séquence, les terrasses devenant dorées, la Méditerranée devenant un miroir. Ce sont les deux meilleures heures que vous passerez aux Cinque Terre.",
+            "it": "Il tramonto dal mare è diverso dal tramonto a terra. Vedete l'intera costa trasformarsi—cinque borghi che catturano la luce in sequenza, le terrazze che diventano dorate, il Mediterraneo che diventa uno specchio. Sono le due ore migliori che trascorrerete alle Cinque Terre."
+          },
+          "signature": {
+            "en": "When the light turns gold",
+            "de": "Wenn das Licht golden wird",
+            "fr": "Quand la lumière devient dorée",
+            "it": "Quando la luce diventa dorata"
+          }
         },
         {
           "id": 2,
-          "name": "Private Coastal Exploration",
-          "category": "Premium Charter",
+          "name": {
+            "en": "Private Coastal Exploration",
+            "de": "Private Küstenerkundung",
+            "fr": "Exploration Côtière Privée",
+            "it": "Esplorazione Costiera Privata"
+          },
+          "category": {
+            "en": "Premium Charter",
+            "de": "Premium-Charter",
+            "fr": "Location Premium",
+            "it": "Charter Premium"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Navigate hidden coves accessible only by boat—swimming stops at secluded beaches, complete privacy, your own captain.",
-          "description": "Private charters range from half-day explorations to full coastal journeys. Captains know the hidden swimming spots between Vernazza and Monterosso—crystal-clear waters, dramatic cliff backdrops, and complete isolation from the crowds. Some include onboard dining with fresh seafood and local wine.",
-          "giuliaComment": "The private charter is expensive, but consider what you're buying: access to beaches you can't reach by land, a captain who knows where the water is calmest, and the freedom to linger where others can only glimpse from cliffs above. For special occasions, it's worth every euro.",
-          "signature": "Where privacy meets paradise"
+          "intro": {
+            "en": "Navigate hidden coves accessible only by boat—swimming stops at secluded beaches, complete privacy, your own captain.",
+            "de": "Navigieren Sie versteckte Buchten, die nur per Boot erreichbar sind—Badestopps an abgelegenen Stränden, vollständige Privatsphäre, Ihr eigener Kapitän.",
+            "fr": "Naviguez vers des criques cachées accessibles uniquement par bateau—arrêts baignade sur des plages isolées, intimité totale, votre propre capitaine.",
+            "it": "Navigate calette nascoste accessibili solo in barca—soste per nuotare in spiagge appartate, completa privacy, il vostro capitano personale."
+          },
+          "description": {
+            "en": "Private charters range from half-day explorations to full coastal journeys. Captains know the hidden swimming spots between Vernazza and Monterosso—crystal-clear waters, dramatic cliff backdrops, and complete isolation from the crowds. Some include onboard dining with fresh seafood and local wine.",
+            "de": "Private Charter reichen von Halbtageserkundungen bis zu vollständigen Küstenreisen. Kapitäne kennen die versteckten Schwimmstellen zwischen Vernazza und Monterosso—kristallklares Wasser, dramatische Klippenkulissen und völlige Abgeschiedenheit von den Menschenmassen. Einige beinhalten Essen an Bord mit frischen Meeresfrüchten und lokalem Wein.",
+            "fr": "Les locations privées vont des explorations d'une demi-journée aux voyages côtiers complets. Les capitaines connaissent les spots de baignade cachés entre Vernazza et Monterosso—eaux cristallines, décors de falaises spectaculaires et isolement complet des foules. Certains incluent des repas à bord avec des fruits de mer frais et du vin local.",
+            "it": "I charter privati vanno dalle esplorazioni di mezza giornata ai viaggi costieri completi. I capitani conoscono i posti nascosti per nuotare tra Vernazza e Monterosso—acque cristalline, sfondi di scogliere drammatiche e completo isolamento dalla folla. Alcuni includono pranzi a bordo con pesce fresco e vino locale."
+          },
+          "giuliaComment": {
+            "en": "The private charter is expensive, but consider what you're buying: access to beaches you can't reach by land, a captain who knows where the water is calmest, and the freedom to linger where others can only glimpse from cliffs above. For special occasions, it's worth every euro.",
+            "de": "Der Privatcharter ist teuer, aber bedenken Sie, was Sie kaufen: Zugang zu Stränden, die Sie auf dem Landweg nicht erreichen können, einen Kapitän, der weiß, wo das Wasser am ruhigsten ist, und die Freiheit, dort zu verweilen, wo andere nur von den Klippen oben einen Blick erhaschen können. Für besondere Anlässe ist es jeden Euro wert.",
+            "fr": "La location privée est chère, mais considérez ce que vous achetez : l'accès à des plages que vous ne pouvez pas atteindre par voie terrestre, un capitaine qui sait où l'eau est la plus calme, et la liberté de s'attarder là où les autres ne peuvent qu'apercevoir depuis les falaises au-dessus. Pour les occasions spéciales, ça vaut chaque euro.",
+            "it": "Il charter privato è costoso, ma considerate cosa state comprando: accesso a spiagge che non potete raggiungere via terra, un capitano che sa dove l'acqua è più calma, e la libertà di indugiare dove altri possono solo intravedere dalle scogliere sopra. Per occasioni speciali, vale ogni euro."
+          },
+          "signature": {
+            "en": "Where privacy meets paradise",
+            "de": "Wo Privatsphäre auf Paradies trifft",
+            "fr": "Où l'intimité rencontre le paradis",
+            "it": "Dove la privacy incontra il paradiso"
+          }
         },
         {
           "id": 3,
-          "name": "Traditional Gozzo Experience",
-          "category": "Authentic",
+          "name": {
+            "en": "Traditional Gozzo Experience",
+            "de": "Traditionelles Gozzo-Erlebnis",
+            "fr": "Expérience Gozzo Traditionnelle",
+            "it": "Esperienza Gozzo Tradizionale"
+          },
+          "category": {
+            "en": "Authentic",
+            "de": "Authentisch",
+            "fr": "Authentique",
+            "it": "Autentico"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The traditional Ligurian wooden boats—the same style that has worked these waters for centuries.",
-          "description": "The gozzo boats hold 6-12 passengers, offering intimate group tours with authentic maritime character. These aren't luxury yachts; they're the traditional vessels of the Ligurian coast, maintained by families who have built and sailed them for generations. The experience is deliberately simple: the sound of water, the warmth of wood, the coast unfolding.",
-          "giuliaComment": "Modern yachts are available if you want them. But the gozzo experience connects you to something older—the way this coast has been navigated since before tourism existed. The boats are weathered, the captains are local, and the perspective is earned.",
-          "signature": "How the coast was meant to be seen"
+          "intro": {
+            "en": "The traditional Ligurian wooden boats—the same style that has worked these waters for centuries.",
+            "de": "Die traditionellen ligurischen Holzboote—der gleiche Stil, der diese Gewässer seit Jahrhunderten befährt.",
+            "fr": "Les bateaux en bois ligures traditionnels—le même style qui a travaillé ces eaux pendant des siècles.",
+            "it": "Le tradizionali barche in legno liguri—lo stesso stile che ha solcato queste acque per secoli."
+          },
+          "description": {
+            "en": "The gozzo boats hold 6-12 passengers, offering intimate group tours with authentic maritime character. These aren't luxury yachts; they're the traditional vessels of the Ligurian coast, maintained by families who have built and sailed them for generations. The experience is deliberately simple: the sound of water, the warmth of wood, the coast unfolding.",
+            "de": "Die Gozzo-Boote fassen 6-12 Passagiere und bieten intime Gruppentouren mit authentischem maritimen Charakter. Das sind keine Luxusyachten; es sind die traditionellen Schiffe der ligurischen Küste, gewartet von Familien, die sie seit Generationen bauen und segeln. Das Erlebnis ist bewusst schlicht: das Geräusch des Wassers, die Wärme des Holzes, die Küste, die sich entfaltet.",
+            "fr": "Les bateaux gozzo accueillent 6-12 passagers, offrant des tours de groupe intimes avec un caractère maritime authentique. Ce ne sont pas des yachts de luxe ; ce sont les navires traditionnels de la côte ligure, entretenus par des familles qui les construisent et les naviguent depuis des générations. L'expérience est délibérément simple : le son de l'eau, la chaleur du bois, la côte qui se déploie.",
+            "it": "Le barche gozzo ospitano 6-12 passeggeri, offrendo tour di gruppo intimi con carattere marittimo autentico. Non sono yacht di lusso; sono le imbarcazioni tradizionali della costa ligure, mantenute da famiglie che le costruiscono e le navigano da generazioni. L'esperienza è volutamente semplice: il suono dell'acqua, il calore del legno, la costa che si dispiega."
+          },
+          "giuliaComment": {
+            "en": "Modern yachts are available if you want them. But the gozzo experience connects you to something older—the way this coast has been navigated since before tourism existed. The boats are weathered, the captains are local, and the perspective is earned.",
+            "de": "Moderne Yachten sind verfügbar, wenn Sie sie wollen. Aber das Gozzo-Erlebnis verbindet Sie mit etwas Älterem—der Art, wie diese Küste navigiert wurde, bevor es Tourismus gab. Die Boote sind verwittert, die Kapitäne sind Einheimische, und die Perspektive ist verdient.",
+            "fr": "Les yachts modernes sont disponibles si vous les voulez. Mais l'expérience gozzo vous connecte à quelque chose de plus ancien—la façon dont cette côte a été naviguée avant que le tourisme n'existe. Les bateaux sont patinés, les capitaines sont locaux, et la perspective est méritée.",
+            "it": "Gli yacht moderni sono disponibili se li volete. Ma l'esperienza gozzo vi collega a qualcosa di più antico—il modo in cui questa costa è stata navigata prima che esistesse il turismo. Le barche sono stagionate, i capitani sono locali, e la prospettiva è guadagnata."
+          },
+          "signature": {
+            "en": "How the coast was meant to be seen",
+            "de": "Wie die Küste gesehen werden sollte",
+            "fr": "Comment la côte était faite pour être vue",
+            "it": "Come la costa era fatta per essere vista"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Swimming Stops",
-          "quote": "Most tours include stops at secluded beaches accessible only by boat. Guvano beach and the hidden coves between Vernazza and Corniglia offer crystal-clear waters and dramatic cliff backdrops. Water is typically warmest July through September. Bring water shoes for the rocky entries."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Swimming Stops",
+            "de": "Die Badestopps",
+            "fr": "Les Arrêts Baignade",
+            "it": "Le Soste per Nuotare"
+          },
+          "quote": {
+            "en": "Most tours include stops at secluded beaches accessible only by boat. Guvano beach and the hidden coves between Vernazza and Corniglia offer crystal-clear waters and dramatic cliff backdrops. Water is typically warmest July through September. Bring water shoes for the rocky entries.",
+            "de": "Die meisten Touren beinhalten Stopps an abgelegenen Stränden, die nur per Boot erreichbar sind. Der Guvano-Strand und die versteckten Buchten zwischen Vernazza und Corniglia bieten kristallklares Wasser und dramatische Klippenkulissen. Das Wasser ist typischerweise von Juli bis September am wärmsten. Bringen Sie Wasserschuhe für die felsigen Einstiege mit.",
+            "fr": "La plupart des tours incluent des arrêts sur des plages isolées accessibles uniquement par bateau. La plage de Guvano et les criques cachées entre Vernazza et Corniglia offrent des eaux cristallines et des décors de falaises spectaculaires. L'eau est généralement la plus chaude de juillet à septembre. Apportez des chaussures d'eau pour les entrées rocheuses.",
+            "it": "La maggior parte dei tour include soste in spiagge appartate accessibili solo in barca. La spiaggia di Guvano e le calette nascoste tra Vernazza e Corniglia offrono acque cristalline e sfondi di scogliere drammatiche. L'acqua è tipicamente più calda da luglio a settembre. Portate scarpe da scoglio per gli ingressi rocciosi."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Matters",
-      "quote": "Boat tours from Vernazza require planning, especially during peak season. The harbor's limited space means limited departures. Understanding the logistics makes the difference between magical and missed.",
-      "content": [
-        "**Book in advance**. Group sunset tours fill days ahead during summer. Private charters need weeks of lead time for peak dates. The platforms are familiar (local operators, hotel concierges, online booking), but capacity is limited by harbor space.",
-        "**Timing varies by season**. April through October offers ideal sailing conditions. Sunset tours shift with the seasons—7:30 PM departure in July, 5 PM in October. Early morning departures (9-11 AM) often have calmer seas.",
-        "**Prices reflect the experience**. Group tours start around €45 per person for 2-hour sunset cruises. Private charters range from €800-2,000 for half-day experiences depending on vessel and inclusions. Premium doesn't mean overpriced; the access and perspective justify the cost.",
-        "**Combine with dining**. Many operators coordinate with harbor-side restaurants for pre-departure aperitivos at Gambero Rosso or post-tour dinners at Belforte. The timing works naturally—boats return as the restaurants begin evening service."
-      ]
+      "badge": {
+        "en": "Practical Matters",
+        "de": "Praktische Angelegenheiten",
+        "fr": "Questions Pratiques",
+        "it": "Questioni Pratiche"
+      },
+      "quote": {
+        "en": "Boat tours from Vernazza require planning, especially during peak season. The harbor's limited space means limited departures. Understanding the logistics makes the difference between magical and missed.",
+        "de": "Bootstouren von Vernazza erfordern Planung, besonders in der Hochsaison. Der begrenzte Platz im Hafen bedeutet begrenzte Abfahrten. Das Verständnis der Logistik macht den Unterschied zwischen magisch und verpasst.",
+        "fr": "Les excursions en bateau depuis Vernazza nécessitent de la planification, surtout pendant la haute saison. L'espace limité du port signifie des départs limités. Comprendre la logistique fait la différence entre magique et manqué.",
+        "it": "I tour in barca da Vernazza richiedono pianificazione, specialmente durante l'alta stagione. Lo spazio limitato del porto significa partenze limitate. Capire la logistica fa la differenza tra magico e perso."
+      },
+      "content": {
+        "en": [
+          "**Book in advance**. Group sunset tours fill days ahead during summer. Private charters need weeks of lead time for peak dates. The platforms are familiar (local operators, hotel concierges, online booking), but capacity is limited by harbor space.",
+          "**Timing varies by season**. April through October offers ideal sailing conditions. Sunset tours shift with the seasons—7:30 PM departure in July, 5 PM in October. Early morning departures (9-11 AM) often have calmer seas.",
+          "**Prices reflect the experience**. Group tours start around €45 per person for 2-hour sunset cruises. Private charters range from €800-2,000 for half-day experiences depending on vessel and inclusions. Premium doesn't mean overpriced; the access and perspective justify the cost.",
+          "**Combine with dining**. Many operators coordinate with harbor-side restaurants for pre-departure aperitivos at Gambero Rosso or post-tour dinners at Belforte. The timing works naturally—boats return as the restaurants begin evening service."
+        ],
+        "de": [
+          "**Im Voraus buchen**. Gruppen-Sonnenuntergangstouren sind im Sommer Tage im Voraus ausgebucht. Private Charter brauchen Wochen Vorlaufzeit für Spitzentermine. Die Plattformen sind vertraut (lokale Anbieter, Hotelconcierges, Online-Buchung), aber die Kapazität ist durch den Hafenplatz begrenzt.",
+          "**Die Zeiten variieren je nach Saison**. April bis Oktober bietet ideale Segelbedingungen. Sonnenuntergangstouren verschieben sich mit den Jahreszeiten—19:30 Abfahrt im Juli, 17:00 im Oktober. Frühe Morgenabfahrten (9-11 Uhr) haben oft ruhigere See.",
+          "**Preise spiegeln das Erlebnis wider**. Gruppentouren beginnen bei etwa 45€ pro Person für 2-stündige Sonnenuntergangsfahrten. Private Charter reichen von 800-2.000€ für Halbtageserlebnisse je nach Schiff und Inklusionen. Premium bedeutet nicht überteuert; der Zugang und die Perspektive rechtfertigen die Kosten.",
+          "**Mit Essen kombinieren**. Viele Anbieter koordinieren mit Hafenrestaurants für Aperitivos vor der Abfahrt im Gambero Rosso oder Abendessen nach der Tour im Belforte. Das Timing funktioniert natürlich—Boote kehren zurück, wenn die Restaurants den Abendservice beginnen."
+        ],
+        "fr": [
+          "**Réservez à l'avance**. Les tours de groupe au coucher de soleil se remplissent des jours à l'avance en été. Les locations privées nécessitent des semaines de délai pour les dates de pointe. Les plateformes sont familières (opérateurs locaux, concierges d'hôtel, réservation en ligne), mais la capacité est limitée par l'espace du port.",
+          "**Les horaires varient selon la saison**. D'avril à octobre offre des conditions de navigation idéales. Les tours au coucher de soleil changent avec les saisons—départ 19h30 en juillet, 17h en octobre. Les départs tôt le matin (9-11h) ont souvent des mers plus calmes.",
+          "**Les prix reflètent l'expérience**. Les tours de groupe commencent autour de 45€ par personne pour des croisières de 2 heures au coucher de soleil. Les locations privées vont de 800 à 2 000€ pour des expériences d'une demi-journée selon le navire et les inclusions. Premium ne signifie pas trop cher ; l'accès et la perspective justifient le coût.",
+          "**Combinez avec la restauration**. De nombreux opérateurs se coordonnent avec les restaurants du port pour des aperitivos avant le départ au Gambero Rosso ou des dîners après le tour au Belforte. Le timing fonctionne naturellement—les bateaux reviennent quand les restaurants commencent le service du soir."
+        ],
+        "it": [
+          "**Prenotate in anticipo**. I tour di gruppo al tramonto si riempiono giorni prima durante l'estate. I charter privati richiedono settimane di anticipo per le date di punta. Le piattaforme sono familiari (operatori locali, concierge degli hotel, prenotazione online), ma la capacità è limitata dallo spazio del porto.",
+          "**Gli orari variano con la stagione**. Da aprile a ottobre offre condizioni di navigazione ideali. I tour al tramonto cambiano con le stagioni—partenza alle 19:30 in luglio, 17:00 in ottobre. Le partenze mattutine (9-11) hanno spesso mari più calmi.",
+          "**I prezzi riflettono l'esperienza**. I tour di gruppo partono da circa 45€ a persona per crociere di 2 ore al tramonto. I charter privati vanno da 800 a 2.000€ per esperienze di mezza giornata a seconda dell'imbarcazione e delle inclusioni. Premium non significa troppo caro; l'accesso e la prospettiva giustificano il costo.",
+          "**Combinate con la ristorazione**. Molti operatori si coordinano con i ristoranti del porto per aperitivi prima della partenza al Gambero Rosso o cene dopo il tour al Belforte. Il tempismo funziona naturalmente—le barche tornano quando i ristoranti iniziano il servizio serale."
+        ]
+      }
     },
     {
       "type": "closing-note",
-      "title": "The Water Knows",
-      "content": [
-        "The coastline reveals itself differently from the water. The terraces make sense from below—you see how impossible they are, how the stone walls hold soil against gravity. The villages appear as they were designed to appear: fortress positions, strategic harbors, settlements carved into defensive positions.",
-        "Vernazza's harbor has launched boats for a thousand years. The Doria family's breakwaters still protect the bay. The fishing families still know every current and cove. When you sail from here, you're following routes charted before the villages had names.",
-        "Come for the sunset. Stay for the perspective. Let the water show you what the trails cannot."
-      ],
+      "title": {
+        "en": "The Water Knows",
+        "de": "Das Wasser weiß es",
+        "fr": "L'Eau Sait",
+        "it": "L'Acqua Sa"
+      },
+      "content": {
+        "en": [
+          "The coastline reveals itself differently from the water. The terraces make sense from below—you see how impossible they are, how the stone walls hold soil against gravity. The villages appear as they were designed to appear: fortress positions, strategic harbors, settlements carved into defensive positions.",
+          "Vernazza's harbor has launched boats for a thousand years. The Doria family's breakwaters still protect the bay. The fishing families still know every current and cove. When you sail from here, you're following routes charted before the villages had names.",
+          "Come for the sunset. Stay for the perspective. Let the water show you what the trails cannot."
+        ],
+        "de": [
+          "Die Küste zeigt sich vom Wasser aus anders. Die Terrassen ergeben von unten Sinn—man sieht, wie unmöglich sie sind, wie die Steinmauern den Boden gegen die Schwerkraft halten. Die Dörfer erscheinen so, wie sie entworfen wurden: Festungspositionen, strategische Häfen, Siedlungen in Verteidigungspositionen gehauen.",
+          "Vernazzas Hafen hat seit tausend Jahren Boote gestartet. Die Wellenbrecher der Familie Doria schützen noch immer die Bucht. Die Fischerfamilien kennen noch immer jede Strömung und Bucht. Wenn Sie von hier segeln, folgen Sie Routen, die kartiert wurden, bevor die Dörfer Namen hatten.",
+          "Kommen Sie für den Sonnenuntergang. Bleiben Sie für die Perspektive. Lassen Sie das Wasser Ihnen zeigen, was die Wege nicht können."
+        ],
+        "fr": [
+          "Le littoral se révèle différemment depuis l'eau. Les terrasses ont du sens vues d'en bas—vous voyez combien elles sont impossibles, comment les murs de pierre retiennent la terre contre la gravité. Les villages apparaissent comme ils ont été conçus pour apparaître : positions de forteresse, ports stratégiques, établissements taillés dans des positions défensives.",
+          "Le port de Vernazza lance des bateaux depuis mille ans. Les brise-lames de la famille Doria protègent encore la baie. Les familles de pêcheurs connaissent encore chaque courant et chaque crique. Quand vous naviguez d'ici, vous suivez des routes tracées avant que les villages n'aient des noms.",
+          "Venez pour le coucher de soleil. Restez pour la perspective. Laissez l'eau vous montrer ce que les sentiers ne peuvent pas."
+        ],
+        "it": [
+          "La costa si rivela diversamente dall'acqua. Le terrazze hanno senso dal basso—vedete quanto sono impossibili, come i muri di pietra trattengono il suolo contro la gravità. I borghi appaiono come sono stati progettati per apparire: posizioni di fortezza, porti strategici, insediamenti scolpiti in posizioni difensive.",
+          "Il porto di Vernazza ha lanciato barche per mille anni. I frangiflutti della famiglia Doria proteggono ancora la baia. Le famiglie di pescatori conoscono ancora ogni corrente e caletta. Quando navigate da qui, seguite rotte tracciate prima che i borghi avessero nomi.",
+          "Venite per il tramonto. Restate per la prospettiva. Lasciate che l'acqua vi mostri ciò che i sentieri non possono."
+        ]
+      },
       "buttons": [
-        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
-        { "text": "Where to Eat", "url": "/en/vernazza/restaurants", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Wo übernachten",
+            "fr": "Où Séjourner",
+            "it": "Dove Alloggiare"
+          },
+          "url": {
+            "en": "/en/vernazza/hotels",
+            "de": "/de/vernazza/hotels",
+            "fr": "/fr/vernazza/hotels",
+            "it": "/it/vernazza/hotel"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Eat",
+            "de": "Wo essen",
+            "fr": "Où Manger",
+            "it": "Dove Mangiare"
+          },
+          "url": {
+            "en": "/en/vernazza/restaurants",
+            "de": "/de/vernazza/restaurants",
+            "fr": "/fr/vernazza/restaurants",
+            "it": "/it/vernazza/ristoranti"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -117,5 +356,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T12:00:00.000Z"
+  "updated_at": "2026-01-07T20:00:00.000Z"
 }

@@ -7,35 +7,89 @@
     "it": "/it/monterosso/hiking"
   },
   "title": {
-    "en": "Hiking from Monterosso | Cinque Terre Dispatch"
+    "en": "Hiking from Monterosso | Cinque Terre Dispatch",
+    "de": "Wandern ab Monterosso | Cinque Terre Dispatch",
+    "fr": "Randonnées depuis Monterosso | Cinque Terre Dispatch",
+    "it": "Escursioni da Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "hiking",
   "seo": {
     "title": {
-      "en": "Hiking from Monterosso | Cinque Terre Dispatch"
+      "en": "Hiking from Monterosso | Cinque Terre Dispatch",
+      "de": "Wandern ab Monterosso | Cinque Terre Dispatch",
+      "fr": "Randonnées depuis Monterosso | Cinque Terre Dispatch",
+      "it": "Escursioni da Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Monterosso sits at the end of the Cinque Terre trail system—from here, every path leads deeper into the terraced landscape. The Punta Mesco lighthouse, the Vernazza coast trail, the sanctuary routes: all begin where the beach ends."
+      "en": "Monterosso sits at the end of the Cinque Terre trail system—from here, every path leads deeper into the terraced landscape. The Punta Mesco lighthouse, the Vernazza coast trail, the sanctuary routes: all begin where the beach ends.",
+      "de": "Monterosso liegt am Ende des Cinque Terre Wandernetzes — von hier führt jeder Weg tiefer in die Terrassenlandschaft. Der Leuchtturm von Punta Mesco, der Küstenweg nach Vernazza, die Wallfahrtswege: alle beginnen, wo der Strand endet.",
+      "fr": "Monterosso se trouve au bout du réseau de sentiers des Cinque Terre — d'ici, chaque chemin mène plus profondément dans le paysage en terrasses. Le phare de Punta Mesco, le sentier côtier vers Vernazza, les chemins des sanctuaires : tous commencent où la plage se termine.",
+      "it": "Monterosso si trova alla fine del sistema sentieristico delle Cinque Terre — da qui, ogni sentiero porta più in profondità nel paesaggio terrazzato. Il faro di Punta Mesco, il sentiero costiero per Vernazza, i percorsi dei santuari: tutti iniziano dove finisce la spiaggia."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Where Trails<br/>Begin",
-      "subtitle": "Monterosso marks the northern end of Cinque Terre's trail network. From here, every path leads into the terraced wilderness—toward lighthouses, sanctuaries, and villages strung along the coast like a rosary. The beach is the easy pleasure; the trails are the earned ones.",
-      "badge": "Hiking Guide",
+      "title": {
+        "en": "Where Trails<br/>Begin",
+        "de": "Wo Wanderwege<br/>beginnen",
+        "fr": "Où les sentiers<br/>commencent",
+        "it": "Dove i sentieri<br/>iniziano"
+      },
+      "subtitle": {
+        "en": "Monterosso marks the northern end of Cinque Terre's trail network. From here, every path leads into the terraced wilderness—toward lighthouses, sanctuaries, and villages strung along the coast like a rosary. The beach is the easy pleasure; the trails are the earned ones.",
+        "de": "Monterosso markiert das nördliche Ende des Wandernetzes der Cinque Terre. Von hier führt jeder Weg in die terrassierte Wildnis — zu Leuchttürmen, Heiligtümern und Dörfern, die wie ein Rosenkranz an der Küste aufgereiht sind. Der Strand ist das einfache Vergnügen; die Wanderwege sind das verdiente.",
+        "fr": "Monterosso marque l'extrémité nord du réseau de sentiers des Cinque Terre. D'ici, chaque chemin mène dans la nature sauvage en terrasses — vers des phares, des sanctuaires et des villages égrenés le long de la côte comme un chapelet. La plage est le plaisir facile ; les sentiers sont les plaisirs mérités.",
+        "it": "Monterosso segna l'estremità settentrionale della rete sentieristica delle Cinque Terre. Da qui, ogni sentiero porta nella natura selvaggia terrazzata — verso fari, santuari e borghi disposti lungo la costa come un rosario. La spiaggia è il piacere facile; i sentieri sono quelli guadagnati."
+      },
+      "badge": {
+        "en": "Hiking Guide",
+        "de": "Wanderführer",
+        "fr": "Guide de randonnée",
+        "it": "Guida escursionistica"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Starting Point",
-      "quote": "Monterosso has the unusual advantage of being both a beach resort and a hiking base. You can spend the morning on the famous coastal trail to Vernazza, return for a beach afternoon, and never feel like you compromised on either.",
+      "badge": {
+        "en": "The Starting Point",
+        "de": "Der Ausgangspunkt",
+        "fr": "Le point de départ",
+        "it": "Il punto di partenza"
+      },
+      "quote": {
+        "en": "Monterosso has the unusual advantage of being both a beach resort and a hiking base. You can spend the morning on the famous coastal trail to Vernazza, return for a beach afternoon, and never feel like you compromised on either.",
+        "de": "Monterosso hat den ungewöhnlichen Vorteil, sowohl Badeort als auch Wanderbasis zu sein. Sie können den Morgen auf dem berühmten Küstenweg nach Vernazza verbringen, für einen Strandnachmittag zurückkehren und sich nie wie ein Kompromiss fühlen.",
+        "fr": "Monterosso a l'avantage inhabituel d'être à la fois station balnéaire et base de randonnée. Vous pouvez passer la matinée sur le célèbre sentier côtier vers Vernazza, revenir pour un après-midi plage, et ne jamais avoir l'impression d'avoir fait de compromis.",
+        "it": "Monterosso ha l'insolito vantaggio di essere sia località balneare che base escursionistica. Potete trascorrere la mattinata sul famoso sentiero costiero verso Vernazza, tornare per un pomeriggio in spiaggia, e non sentirvi mai come se aveste fatto compromessi."
+      },
       "content": [
-        "**The Sentiero Azzurro** (Blue Trail) begins here—or ends here, depending on your direction. The first section to Vernazza is widely considered the most beautiful coastal walk in Cinque Terre, and Monterosso makes an ideal starting point.",
-        "**Punta Mesco** juts into the sea northwest of the village. The lighthouse trail to its tip is challenging but rewards with views that encompass the entire coast and, on clear days, Corsica.",
-        "**The sanctuary trails** climb from the coast to churches that have drawn pilgrims for centuries. Santuario di Soviore above Monterosso offers one of the easier sanctuary hikes with exceptional views.",
-        "**The terrain is varied**. From paved coastal paths to rocky mountain trails, from vineyard walks to forest routes—Monterosso gives access to the full range of Cinque Terre hiking."
+        {
+          "en": "**The Sentiero Azzurro** (Blue Trail) begins here—or ends here, depending on your direction. The first section to Vernazza is widely considered the most beautiful coastal walk in Cinque Terre, and Monterosso makes an ideal starting point.",
+          "de": "**Der Sentiero Azzurro** (Blauer Weg) beginnt hier — oder endet hier, je nach Ihrer Richtung. Der erste Abschnitt nach Vernazza gilt weithin als die schönste Küstenwanderung in den Cinque Terre, und Monterosso ist ein idealer Ausgangspunkt.",
+          "fr": "**Le Sentiero Azzurro** (Sentier Bleu) commence ici — ou se termine ici, selon votre direction. La première section vers Vernazza est largement considérée comme la plus belle promenade côtière des Cinque Terre, et Monterosso constitue un point de départ idéal.",
+          "it": "**Il Sentiero Azzurro** inizia qui — o finisce qui, a seconda della vostra direzione. La prima sezione verso Vernazza è ampiamente considerata la passeggiata costiera più bella delle Cinque Terre, e Monterosso è un punto di partenza ideale."
+        },
+        {
+          "en": "**Punta Mesco** juts into the sea northwest of the village. The lighthouse trail to its tip is challenging but rewards with views that encompass the entire coast and, on clear days, Corsica.",
+          "de": "**Punta Mesco** ragt nordwestlich des Dorfes ins Meer. Der Leuchtturmweg zu seiner Spitze ist anspruchsvoll, belohnt aber mit Ausblicken, die die gesamte Küste umfassen und an klaren Tagen bis nach Korsika reichen.",
+          "fr": "**Punta Mesco** s'avance dans la mer au nord-ouest du village. Le sentier du phare jusqu'à son extrémité est exigeant mais récompense avec des vues englobant toute la côte et, par temps clair, la Corse.",
+          "it": "**Punta Mesco** si protende nel mare a nord-ovest del borgo. Il sentiero del faro fino alla sua punta è impegnativo ma ricompensa con viste che abbracciano l'intera costa e, nelle giornate limpide, la Corsica."
+        },
+        {
+          "en": "**The sanctuary trails** climb from the coast to churches that have drawn pilgrims for centuries. Santuario di Soviore above Monterosso offers one of the easier sanctuary hikes with exceptional views.",
+          "de": "**Die Wallfahrtswege** steigen von der Küste zu Kirchen, die seit Jahrhunderten Pilger anziehen. Das Santuario di Soviore oberhalb von Monterosso bietet eine der leichteren Wallfahrtswanderungen mit außergewöhnlichen Ausblicken.",
+          "fr": "**Les sentiers des sanctuaires** montent de la côte vers des églises qui attirent les pèlerins depuis des siècles. Le Santuario di Soviore au-dessus de Monterosso offre l'une des randonnées de sanctuaire les plus faciles avec des vues exceptionnelles.",
+          "it": "**I sentieri dei santuari** salgono dalla costa verso chiese che attirano pellegrini da secoli. Il Santuario di Soviore sopra Monterosso offre una delle escursioni ai santuari più facili con viste eccezionali."
+        },
+        {
+          "en": "**The terrain is varied**. From paved coastal paths to rocky mountain trails, from vineyard walks to forest routes—Monterosso gives access to the full range of Cinque Terre hiking.",
+          "de": "**Das Gelände ist vielfältig**. Von gepflasterten Küstenwegen zu felsigen Bergpfaden, von Weinbergwanderungen zu Waldrouten — Monterosso bietet Zugang zur gesamten Bandbreite des Cinque Terre Wanderns.",
+          "fr": "**Le terrain est varié**. Des chemins côtiers pavés aux sentiers de montagne rocheux, des promenades dans les vignobles aux routes forestières — Monterosso donne accès à toute la gamme de la randonnée des Cinque Terre.",
+          "it": "**Il terreno è vario**. Dai sentieri costieri lastricati ai percorsi di montagna rocciosi, dalle passeggiate nei vigneti ai percorsi boschivi — Monterosso offre accesso all'intera gamma delle escursioni delle Cinque Terre."
+        }
       ]
     },
     {
@@ -44,63 +98,228 @@
       "items": [
         {
           "id": 1,
-          "name": "Monterosso to Vernazza",
-          "category": "Coastal Classic",
+          "name": {
+            "en": "Monterosso to Vernazza",
+            "de": "Monterosso nach Vernazza",
+            "fr": "Monterosso à Vernazza",
+            "it": "Monterosso - Vernazza"
+          },
+          "category": {
+            "en": "Coastal Classic",
+            "de": "Küstenklassiker",
+            "fr": "Classique côtier",
+            "it": "Classico costiero"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The most photographed trail in Cinque Terre—cliff-hugging paths with constant Mediterranean views.",
-          "description": "The trail from Monterosso to Vernazza is 2 kilometers of coastal drama: steep climbs, stone stairs, terraced vineyards dropping to the sea, and that moment when Vernazza's harbor appears below like a revelation. This is the essential Cinque Terre hike.",
-          "giuliaComment": "Start early—by 10am the trail is crowded and hot. The views are best in morning light anyway. When Vernazza appears around that final bend, you'll understand why people keep coming back.",
-          "signature": "The walk that defines Cinque Terre",
-          "difficulty": "Moderate",
-          "practicalInfo": "2 km, 1.5-2 hours. Cinque Terre Card required. Start early. Bring water. Challenging sections with stairs."
+          "intro": {
+            "en": "The most photographed trail in Cinque Terre—cliff-hugging paths with constant Mediterranean views.",
+            "de": "Der meistfotografierte Weg in den Cinque Terre — Wege an Klippen entlang mit ständigem Mittelmeerblick.",
+            "fr": "Le sentier le plus photographié des Cinque Terre — des chemins accrochés aux falaises avec des vues constantes sur la Méditerranée.",
+            "it": "Il sentiero più fotografato delle Cinque Terre — percorsi aggrappati alle scogliere con viste costanti sul Mediterraneo."
+          },
+          "description": {
+            "en": "The trail from Monterosso to Vernazza is 2 kilometers of coastal drama: steep climbs, stone stairs, terraced vineyards dropping to the sea, and that moment when Vernazza's harbor appears below like a revelation. This is the essential Cinque Terre hike.",
+            "de": "Der Weg von Monterosso nach Vernazza sind 2 Kilometer Küstendrama: steile Aufstiege, Steintreppen, terrassierte Weinberge, die zum Meer abfallen, und der Moment, wenn Vernazzas Hafen unten wie eine Offenbarung erscheint. Das ist die wesentliche Cinque Terre Wanderung.",
+            "fr": "Le sentier de Monterosso à Vernazza est un drame côtier de 2 kilomètres : montées raides, escaliers de pierre, vignobles en terrasses descendant vers la mer, et ce moment où le port de Vernazza apparaît en contrebas comme une révélation. C'est la randonnée essentielle des Cinque Terre.",
+            "it": "Il sentiero da Monterosso a Vernazza sono 2 chilometri di drammaticità costiera: salite ripide, scale di pietra, vigneti terrazzati che scendono verso il mare, e quel momento in cui il porto di Vernazza appare sotto come una rivelazione. Questa è l'escursione essenziale delle Cinque Terre."
+          },
+          "giuliaComment": {
+            "en": "Start early—by 10am the trail is crowded and hot. The views are best in morning light anyway. When Vernazza appears around that final bend, you'll understand why people keep coming back.",
+            "de": "Starten Sie früh — um 10 Uhr ist der Weg überfüllt und heiß. Die Aussichten sind im Morgenlicht sowieso am besten. Wenn Vernazza um die letzte Kurve erscheint, werden Sie verstehen, warum die Leute immer wiederkommen.",
+            "fr": "Partez tôt — dès 10h le sentier est bondé et chaud. Les vues sont de toute façon meilleures à la lumière du matin. Quand Vernazza apparaît au dernier virage, vous comprendrez pourquoi les gens reviennent sans cesse.",
+            "it": "Partite presto — alle 10 il sentiero è affollato e caldo. Le viste sono comunque migliori con la luce del mattino. Quando Vernazza appare dietro l'ultima curva, capirete perché la gente continua a tornare."
+          },
+          "signature": {
+            "en": "The walk that defines Cinque Terre",
+            "de": "Die Wanderung, die die Cinque Terre definiert",
+            "fr": "La promenade qui définit les Cinque Terre",
+            "it": "La passeggiata che definisce le Cinque Terre"
+          },
+          "difficulty": {
+            "en": "Moderate",
+            "de": "Mittel",
+            "fr": "Modéré",
+            "it": "Moderata"
+          },
+          "practicalInfo": {
+            "en": "2 km, 1.5-2 hours. Cinque Terre Card required. Start early. Bring water. Challenging sections with stairs.",
+            "de": "2 km, 1,5-2 Stunden. Cinque Terre Karte erforderlich. Früh starten. Wasser mitnehmen. Anspruchsvolle Abschnitte mit Treppen.",
+            "fr": "2 km, 1h30-2h. Carte Cinque Terre requise. Partez tôt. Apportez de l'eau. Sections difficiles avec escaliers.",
+            "it": "2 km, 1,5-2 ore. Carta Cinque Terre richiesta. Partite presto. Portate acqua. Sezioni impegnative con scale."
+          }
         },
         {
           "id": 2,
-          "name": "Punta Mesco Lighthouse",
-          "category": "Challenging",
+          "name": {
+            "en": "Punta Mesco Lighthouse",
+            "de": "Leuchtturm Punta Mesco",
+            "fr": "Phare de Punta Mesco",
+            "it": "Faro di Punta Mesco"
+          },
+          "category": {
+            "en": "Challenging",
+            "de": "Anspruchsvoll",
+            "fr": "Difficile",
+            "it": "Impegnativo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The peninsula trail that leads to the lighthouse at the end of the world—effort rewarded with solitude.",
-          "description": "The path to Punta Mesco climbs from Monterosso's western edge to the lighthouse perched at the peninsula's tip. The trail is demanding—expect 2 hours each way through maquis shrubland with occasional steep sections. But the lighthouse sits in magnificent isolation, and the views encompass the coast from France to La Spezia.",
-          "giuliaComment": "This is my favorite hike from Monterosso. The lighthouse feels like the end of everything—just you, the keepers' ruins, and the Mediterranean stretching to the horizon. Bring plenty of water.",
-          "signature": "Where Monterosso ends and the sea begins",
-          "difficulty": "Challenging",
-          "practicalInfo": "8 km round trip, 4-5 hours. Bring 2L water. No facilities at lighthouse. Best in spring or autumn. Exposed sections."
+          "intro": {
+            "en": "The peninsula trail that leads to the lighthouse at the end of the world—effort rewarded with solitude.",
+            "de": "Der Halbinselweg, der zum Leuchtturm am Ende der Welt führt — Anstrengung belohnt mit Einsamkeit.",
+            "fr": "Le sentier de la péninsule qui mène au phare au bout du monde — l'effort récompensé par la solitude.",
+            "it": "Il sentiero della penisola che porta al faro alla fine del mondo — sforzo ricompensato con solitudine."
+          },
+          "description": {
+            "en": "The path to Punta Mesco climbs from Monterosso's western edge to the lighthouse perched at the peninsula's tip. The trail is demanding—expect 2 hours each way through maquis shrubland with occasional steep sections. But the lighthouse sits in magnificent isolation, and the views encompass the coast from France to La Spezia.",
+            "de": "Der Weg nach Punta Mesco steigt von Monterossos westlichem Rand zum Leuchtturm an der Spitze der Halbinsel. Der Weg ist anspruchsvoll — erwarten Sie 2 Stunden pro Richtung durch Macchia-Buschland mit gelegentlich steilen Abschnitten. Aber der Leuchtturm thront in herrlicher Abgeschiedenheit, und die Aussichten umfassen die Küste von Frankreich bis La Spezia.",
+            "fr": "Le chemin vers Punta Mesco monte du bord ouest de Monterosso au phare perché à l'extrémité de la péninsule. Le sentier est exigeant — comptez 2 heures dans chaque sens à travers le maquis avec des sections parfois raides. Mais le phare se dresse dans un isolement magnifique, et les vues englobent la côte de la France à La Spezia.",
+            "it": "Il sentiero per Punta Mesco sale dal margine occidentale di Monterosso al faro arroccato sulla punta della penisola. Il percorso è impegnativo — aspettatevi 2 ore per direzione attraverso la macchia mediterranea con tratti occasionalmente ripidi. Ma il faro si erge in magnifico isolamento, e le viste abbracciano la costa dalla Francia a La Spezia."
+          },
+          "giuliaComment": {
+            "en": "This is my favorite hike from Monterosso. The lighthouse feels like the end of everything—just you, the keepers' ruins, and the Mediterranean stretching to the horizon. Bring plenty of water.",
+            "de": "Das ist meine Lieblingswanderung von Monterosso. Der Leuchtturm fühlt sich wie das Ende von allem an — nur Sie, die Ruinen der Wärter und das Mittelmeer, das sich bis zum Horizont erstreckt. Bringen Sie reichlich Wasser mit.",
+            "fr": "C'est ma randonnée préférée depuis Monterosso. Le phare donne l'impression d'être au bout du monde — juste vous, les ruines des gardiens et la Méditerranée s'étendant jusqu'à l'horizon. Apportez beaucoup d'eau.",
+            "it": "Questa è la mia escursione preferita da Monterosso. Il faro sembra la fine di tutto — solo voi, le rovine dei guardiani e il Mediterraneo che si estende fino all'orizzonte. Portate molta acqua."
+          },
+          "signature": {
+            "en": "Where Monterosso ends and the sea begins",
+            "de": "Wo Monterosso endet und das Meer beginnt",
+            "fr": "Où Monterosso se termine et où la mer commence",
+            "it": "Dove Monterosso finisce e il mare inizia"
+          },
+          "difficulty": {
+            "en": "Challenging",
+            "de": "Anspruchsvoll",
+            "fr": "Difficile",
+            "it": "Impegnativo"
+          },
+          "practicalInfo": {
+            "en": "8 km round trip, 4-5 hours. Bring 2L water. No facilities at lighthouse. Best in spring or autumn. Exposed sections.",
+            "de": "8 km Rundweg, 4-5 Stunden. 2L Wasser mitbringen. Keine Einrichtungen am Leuchtturm. Am besten im Frühling oder Herbst. Exponierte Abschnitte.",
+            "fr": "8 km aller-retour, 4-5 heures. Apportez 2L d'eau. Pas d'installations au phare. Idéal au printemps ou en automne. Sections exposées.",
+            "it": "8 km andata e ritorno, 4-5 ore. Portate 2L di acqua. Nessun servizio al faro. Meglio in primavera o autunno. Tratti esposti."
+          }
         },
         {
           "id": 3,
-          "name": "Santuario di Soviore",
-          "category": "Sanctuary Trail",
+          "name": {
+            "en": "Santuario di Soviore",
+            "de": "Santuario di Soviore",
+            "fr": "Santuario di Soviore",
+            "it": "Santuario di Soviore"
+          },
+          "category": {
+            "en": "Sanctuary Trail",
+            "de": "Wallfahrtsweg",
+            "fr": "Sentier du sanctuaire",
+            "it": "Sentiero del santuario"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The pilgrim's path to Liguria's oldest sanctuary—where faith and views converge.",
-          "description": "Santuario di Soviore is the oldest Marian sanctuary in Liguria, documented since the 9th century. The trail climbs 450 meters through chestnut forest and terraced vineyards to a church that has drawn pilgrims for over a millennium. The bar at the sanctuary serves refreshments—a blessed reward after the ascent.",
-          "giuliaComment": "The sanctuary has been welcoming tired travelers since the Dark Ages. Stop for a coffee at the bar, look back at the coast, and understand why people have made this climb for a thousand years.",
-          "signature": "Where centuries of feet have worn the path",
-          "difficulty": "Moderate-Challenging",
-          "practicalInfo": "5 km round trip, 2-3 hours. Bar at sanctuary. Modest dress for church. Best in morning. Shaded forest sections."
+          "intro": {
+            "en": "The pilgrim's path to Liguria's oldest sanctuary—where faith and views converge.",
+            "de": "Der Pilgerweg zum ältesten Heiligtum Liguriens — wo Glaube und Aussicht zusammentreffen.",
+            "fr": "Le chemin des pèlerins vers le plus ancien sanctuaire de Ligurie — où foi et panoramas convergent.",
+            "it": "Il sentiero dei pellegrini verso il più antico santuario della Liguria — dove fede e panorami convergono."
+          },
+          "description": {
+            "en": "Santuario di Soviore is the oldest Marian sanctuary in Liguria, documented since the 9th century. The trail climbs 450 meters through chestnut forest and terraced vineyards to a church that has drawn pilgrims for over a millennium. The bar at the sanctuary serves refreshments—a blessed reward after the ascent.",
+            "de": "Das Santuario di Soviore ist das älteste Marienheiligtum Liguriens, dokumentiert seit dem 9. Jahrhundert. Der Weg steigt 450 Meter durch Kastanienwald und terrassierte Weinberge zu einer Kirche, die seit über einem Jahrtausend Pilger anzieht. Die Bar am Heiligtum serviert Erfrischungen — eine gesegnete Belohnung nach dem Aufstieg.",
+            "fr": "Le Santuario di Soviore est le plus ancien sanctuaire marial de Ligurie, documenté depuis le 9ème siècle. Le sentier monte de 450 mètres à travers la forêt de châtaigniers et les vignobles en terrasses vers une église qui attire les pèlerins depuis plus d'un millénaire. Le bar du sanctuaire sert des rafraîchissements — une récompense bénie après l'ascension.",
+            "it": "Il Santuario di Soviore è il più antico santuario mariano della Liguria, documentato dal IX secolo. Il sentiero sale 450 metri attraverso boschi di castagni e vigneti terrazzati verso una chiesa che attira pellegrini da oltre un millennio. Il bar del santuario serve rinfreschi — una benedetta ricompensa dopo la salita."
+          },
+          "giuliaComment": {
+            "en": "The sanctuary has been welcoming tired travelers since the Dark Ages. Stop for a coffee at the bar, look back at the coast, and understand why people have made this climb for a thousand years.",
+            "de": "Das Heiligtum heißt müde Reisende seit dem Mittelalter willkommen. Halten Sie für einen Kaffee an der Bar, schauen Sie zurück auf die Küste und verstehen Sie, warum Menschen diesen Aufstieg seit tausend Jahren machen.",
+            "fr": "Le sanctuaire accueille les voyageurs fatigués depuis le Moyen Âge. Arrêtez-vous pour un café au bar, regardez vers la côte et comprenez pourquoi les gens font cette montée depuis mille ans.",
+            "it": "Il santuario accoglie viaggiatori stanchi dal Medioevo. Fermatevi per un caffè al bar, guardate verso la costa e capite perché le persone fanno questa salita da mille anni."
+          },
+          "signature": {
+            "en": "Where centuries of feet have worn the path",
+            "de": "Wo Jahrhunderte von Füßen den Weg ausgetreten haben",
+            "fr": "Où des siècles de pas ont usé le chemin",
+            "it": "Dove secoli di passi hanno consumato il sentiero"
+          },
+          "difficulty": {
+            "en": "Moderate-Challenging",
+            "de": "Mittel-Anspruchsvoll",
+            "fr": "Modéré-Difficile",
+            "it": "Moderata-Impegnativa"
+          },
+          "practicalInfo": {
+            "en": "5 km round trip, 2-3 hours. Bar at sanctuary. Modest dress for church. Best in morning. Shaded forest sections.",
+            "de": "5 km Rundweg, 2-3 Stunden. Bar am Heiligtum. Dezente Kleidung für die Kirche. Am besten morgens. Schattige Waldabschnitte.",
+            "fr": "5 km aller-retour, 2-3 heures. Bar au sanctuaire. Tenue décente pour l'église. Idéal le matin. Sections forestières ombragées.",
+            "it": "5 km andata e ritorno, 2-3 ore. Bar al santuario. Abbigliamento decoroso per la chiesa. Meglio al mattino. Tratti boschivi ombreggiati."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Cinque Terre Card",
-          "quote": "The coastal trails require a Cinque Terre Card—€16 for a day, €29 for two days. Buy it at Monterosso station before you start. The card also includes unlimited train travel between villages, which transforms your hiking options. Return by train; hike the other direction tomorrow."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude éditorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Cinque Terre Card",
+            "de": "Die Cinque Terre Karte",
+            "fr": "La Carte Cinque Terre",
+            "it": "La Carta Cinque Terre"
+          },
+          "quote": {
+            "en": "The coastal trails require a Cinque Terre Card—€16 for a day, €29 for two days. Buy it at Monterosso station before you start. The card also includes unlimited train travel between villages, which transforms your hiking options. Return by train; hike the other direction tomorrow.",
+            "de": "Die Küstenwege erfordern eine Cinque Terre Karte — €16 für einen Tag, €29 für zwei Tage. Kaufen Sie sie am Bahnhof Monterosso, bevor Sie starten. Die Karte beinhaltet auch unbegrenzte Zugfahrten zwischen den Dörfern, was Ihre Wanderoptionen erweitert. Kehren Sie mit dem Zug zurück; wandern Sie morgen in die andere Richtung.",
+            "fr": "Les sentiers côtiers nécessitent une Carte Cinque Terre — 16€ pour une journée, 29€ pour deux jours. Achetez-la à la gare de Monterosso avant de partir. La carte inclut aussi les trajets en train illimités entre les villages, ce qui transforme vos options de randonnée. Revenez en train ; randonnez dans l'autre direction demain.",
+            "it": "I sentieri costieri richiedono una Carta Cinque Terre — €16 per un giorno, €29 per due giorni. Compratela alla stazione di Monterosso prima di partire. La carta include anche viaggi in treno illimitati tra i borghi, il che trasforma le vostre opzioni escursionistiche. Tornate in treno; fate escursione nell'altra direzione domani."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Beyond the Famous Trails",
-      "quote": "Everyone walks Monterosso-Vernazza. But the paths that climb inland—toward sanctuaries and ridge lines—offer solitude the coastal trails cannot match.",
+      "badge": {
+        "en": "Beyond the Famous Trails",
+        "de": "Jenseits der berühmten Wege",
+        "fr": "Au-delà des sentiers célèbres",
+        "it": "Oltre i sentieri famosi"
+      },
+      "quote": {
+        "en": "Everyone walks Monterosso-Vernazza. But the paths that climb inland—toward sanctuaries and ridge lines—offer solitude the coastal trails cannot match.",
+        "de": "Alle wandern Monterosso-Vernazza. Aber die Wege, die ins Landesinnere steigen — zu Heiligtümern und Bergkämmen — bieten Einsamkeit, die die Küstenwege nicht bieten können.",
+        "fr": "Tout le monde marche Monterosso-Vernazza. Mais les sentiers qui montent vers l'intérieur — vers les sanctuaires et les crêtes — offrent une solitude que les sentiers côtiers ne peuvent égaler.",
+        "it": "Tutti camminano Monterosso-Vernazza. Ma i sentieri che salgono verso l'interno — verso santuari e crinali — offrono solitudine che i sentieri costieri non possono eguagliare."
+      },
       "content": [
-        "**The high route to Levanto** crosses Punta Mesco on ridge paths with views in every direction. It's longer than the coastal option but far less crowded.",
-        "**Vineyard walks** wind through the terraces above Monterosso, following ancient paths that farmers still use. No official markers, but the views are extraordinary.",
-        "**The connection to SVA** (Alta Via delle Cinque Terre) links the coastal network to the ridge trail that runs the length of Liguria. For serious hikers, this opens multi-day possibilities.",
-        "**Evening walks** on the Soviore trail offer sunset views that the beach cannot match. Time your descent for the golden hour."
+        {
+          "en": "**The high route to Levanto** crosses Punta Mesco on ridge paths with views in every direction. It's longer than the coastal option but far less crowded.",
+          "de": "**Die Höhenroute nach Levanto** überquert Punta Mesco auf Kammwegen mit Aussichten in alle Richtungen. Sie ist länger als die Küstenoption, aber viel weniger überlaufen.",
+          "fr": "**La haute route vers Levanto** traverse Punta Mesco sur des chemins de crête avec des vues dans toutes les directions. C'est plus long que l'option côtière mais beaucoup moins fréquenté.",
+          "it": "**L'alta via per Levanto** attraversa Punta Mesco su sentieri di cresta con viste in ogni direzione. È più lunga dell'opzione costiera ma molto meno affollata."
+        },
+        {
+          "en": "**Vineyard walks** wind through the terraces above Monterosso, following ancient paths that farmers still use. No official markers, but the views are extraordinary.",
+          "de": "**Weinbergwanderungen** schlängeln sich durch die Terrassen oberhalb von Monterosso, entlang alter Wege, die Bauern noch heute nutzen. Keine offiziellen Markierungen, aber die Aussichten sind außergewöhnlich.",
+          "fr": "**Les promenades dans les vignobles** serpentent à travers les terrasses au-dessus de Monterosso, suivant d'anciens chemins encore utilisés par les agriculteurs. Pas de balisage officiel, mais les vues sont extraordinaires.",
+          "it": "**Le passeggiate nei vigneti** si snodano tra le terrazze sopra Monterosso, seguendo antichi sentieri che i contadini usano ancora. Nessuna segnaletica ufficiale, ma le viste sono straordinarie."
+        },
+        {
+          "en": "**The connection to SVA** (Alta Via delle Cinque Terre) links the coastal network to the ridge trail that runs the length of Liguria. For serious hikers, this opens multi-day possibilities.",
+          "de": "**Die Verbindung zur SVA** (Alta Via delle Cinque Terre) verbindet das Küstennetz mit dem Kammweg, der durch ganz Ligurien verläuft. Für ernsthafte Wanderer eröffnet dies mehrtägige Möglichkeiten.",
+          "fr": "**La connexion à la SVA** (Alta Via delle Cinque Terre) relie le réseau côtier au sentier de crête qui traverse toute la Ligurie. Pour les randonneurs sérieux, cela ouvre des possibilités sur plusieurs jours.",
+          "it": "**Il collegamento con la SVA** (Alta Via delle Cinque Terre) collega la rete costiera al sentiero di crinale che percorre tutta la Liguria. Per escursionisti seri, questo apre possibilità di più giorni."
+        },
+        {
+          "en": "**Evening walks** on the Soviore trail offer sunset views that the beach cannot match. Time your descent for the golden hour.",
+          "de": "**Abendwanderungen** auf dem Soviore-Weg bieten Sonnenuntergangsblicke, die der Strand nicht bieten kann. Planen Sie Ihren Abstieg für die goldene Stunde.",
+          "fr": "**Les promenades du soir** sur le sentier de Soviore offrent des vues au coucher de soleil que la plage ne peut égaler. Programmez votre descente pour l'heure dorée.",
+          "it": "**Le passeggiate serali** sul sentiero di Soviore offrono viste al tramonto che la spiaggia non può eguagliare. Programmate la vostra discesa per l'ora dorata."
+        }
       ]
     },
     {
@@ -109,65 +328,248 @@
       "items": [
         {
           "id": 4,
-          "name": "High Route to Levanto",
-          "category": "Alternative Path",
+          "name": {
+            "en": "High Route to Levanto",
+            "de": "Höhenweg nach Levanto",
+            "fr": "Haute route vers Levanto",
+            "it": "Alta via per Levanto"
+          },
+          "category": {
+            "en": "Alternative Path",
+            "de": "Alternativroute",
+            "fr": "Itinéraire alternatif",
+            "it": "Percorso alternativo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1555400943-00cd67af994d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The ridge trail that avoids the coastal crowds—Punta Mesco from above.",
-          "description": "Instead of taking the coastal path to Levanto, this high route crosses the Punta Mesco ridge with panoramic views in every direction. The trail is longer and more demanding but offers solitude that the coastal path cannot provide. You'll see the same coast from a completely different perspective.",
-          "giuliaComment": "When the coastal trail is packed, this route is empty. The views are different—more panoramic, less intimate—but the peace is worth the extra effort.",
-          "signature": "Where the ridge reveals what the coast conceals",
-          "difficulty": "Challenging",
-          "practicalInfo": "12 km to Levanto, 5-6 hours. Bring food and water. Limited shade. Return by train. Best in spring or autumn."
+          "intro": {
+            "en": "The ridge trail that avoids the coastal crowds—Punta Mesco from above.",
+            "de": "Der Kammweg, der die Küstenmassen umgeht — Punta Mesco von oben.",
+            "fr": "Le sentier de crête qui évite les foules côtières — Punta Mesco vu d'en haut.",
+            "it": "Il sentiero di cresta che evita la folla costiera — Punta Mesco dall'alto."
+          },
+          "description": {
+            "en": "Instead of taking the coastal path to Levanto, this high route crosses the Punta Mesco ridge with panoramic views in every direction. The trail is longer and more demanding but offers solitude that the coastal path cannot provide. You'll see the same coast from a completely different perspective.",
+            "de": "Anstatt den Küstenweg nach Levanto zu nehmen, überquert diese Höhenroute den Punta Mesco Kamm mit Panoramablicken in alle Richtungen. Der Weg ist länger und anspruchsvoller, bietet aber Einsamkeit, die der Küstenweg nicht bieten kann. Sie werden die gleiche Küste aus einer völlig anderen Perspektive sehen.",
+            "fr": "Au lieu de prendre le chemin côtier vers Levanto, cette haute route traverse la crête de Punta Mesco avec des vues panoramiques dans toutes les directions. Le sentier est plus long et plus exigeant mais offre une solitude que le chemin côtier ne peut offrir. Vous verrez la même côte d'une perspective complètement différente.",
+            "it": "Invece di prendere il sentiero costiero per Levanto, questa alta via attraversa la cresta di Punta Mesco con viste panoramiche in ogni direzione. Il sentiero è più lungo e impegnativo ma offre solitudine che il sentiero costiero non può offrire. Vedrete la stessa costa da una prospettiva completamente diversa."
+          },
+          "giuliaComment": {
+            "en": "When the coastal trail is packed, this route is empty. The views are different—more panoramic, less intimate—but the peace is worth the extra effort.",
+            "de": "Wenn der Küstenweg überfüllt ist, ist diese Route leer. Die Aussichten sind anders — panoramischer, weniger intim — aber die Ruhe ist die zusätzliche Anstrengung wert.",
+            "fr": "Quand le sentier côtier est bondé, cette route est vide. Les vues sont différentes — plus panoramiques, moins intimes — mais la paix vaut l'effort supplémentaire.",
+            "it": "Quando il sentiero costiero è affollato, questo percorso è vuoto. Le viste sono diverse — più panoramiche, meno intime — ma la pace vale lo sforzo extra."
+          },
+          "signature": {
+            "en": "Where the ridge reveals what the coast conceals",
+            "de": "Wo der Kamm enthüllt, was die Küste verbirgt",
+            "fr": "Où la crête révèle ce que la côte cache",
+            "it": "Dove il crinale rivela ciò che la costa nasconde"
+          },
+          "difficulty": {
+            "en": "Challenging",
+            "de": "Anspruchsvoll",
+            "fr": "Difficile",
+            "it": "Impegnativo"
+          },
+          "practicalInfo": {
+            "en": "12 km to Levanto, 5-6 hours. Bring food and water. Limited shade. Return by train. Best in spring or autumn.",
+            "de": "12 km nach Levanto, 5-6 Stunden. Essen und Wasser mitbringen. Wenig Schatten. Rückkehr mit dem Zug. Am besten im Frühling oder Herbst.",
+            "fr": "12 km jusqu'à Levanto, 5-6 heures. Apportez nourriture et eau. Peu d'ombre. Retour en train. Idéal au printemps ou en automne.",
+            "it": "12 km fino a Levanto, 5-6 ore. Portate cibo e acqua. Poca ombra. Ritorno in treno. Meglio in primavera o autunno."
+          }
         },
         {
           "id": 5,
-          "name": "Monterosso Vineyard Loop",
-          "category": "Agricultural Heritage",
+          "name": {
+            "en": "Monterosso Vineyard Loop",
+            "de": "Monterosso Weinberg-Rundweg",
+            "fr": "Boucle des vignobles de Monterosso",
+            "it": "Anello dei vigneti di Monterosso"
+          },
+          "category": {
+            "en": "Agricultural Heritage",
+            "de": "Landwirtschaftliches Erbe",
+            "fr": "Patrimoine agricole",
+            "it": "Patrimonio agricolo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1560840067-ddcaeb7831d2?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The terraced paths that farmers walk—where agriculture becomes architecture.",
-          "description": "Above Monterosso, vineyard trails wind through the terraces that produce the local wines. These are working paths, not tourist routes—you'll pass farmers tending vines, see the dry-stone walls up close, and understand the labor that created this UNESCO landscape. The views down to the village and beach are constantly surprising.",
-          "giuliaComment": "These terraces represent impossibility made real. Every stone wall was built by hand, every flat growing surface carved from slope. Walk slowly and appreciate what you're seeing.",
-          "signature": "Where human effort shaped the mountainside",
-          "difficulty": "Moderate",
-          "practicalInfo": "Variable distance, 1-3 hours. No markers—explore freely. Respect private property. Morning or late afternoon best."
+          "intro": {
+            "en": "The terraced paths that farmers walk—where agriculture becomes architecture.",
+            "de": "Die Terrassenwege, die Bauern gehen — wo Landwirtschaft zu Architektur wird.",
+            "fr": "Les chemins en terrasses que les agriculteurs empruntent — où l'agriculture devient architecture.",
+            "it": "I sentieri terrazzati che i contadini percorrono — dove l'agricoltura diventa architettura."
+          },
+          "description": {
+            "en": "Above Monterosso, vineyard trails wind through the terraces that produce the local wines. These are working paths, not tourist routes—you'll pass farmers tending vines, see the dry-stone walls up close, and understand the labor that created this UNESCO landscape. The views down to the village and beach are constantly surprising.",
+            "de": "Oberhalb von Monterosso schlängeln sich Weinbergpfade durch die Terrassen, die die lokalen Weine produzieren. Das sind Arbeitswege, keine Touristenrouten — Sie werden Bauern bei der Weinpflege passieren, die Trockenmauern aus der Nähe sehen und die Arbeit verstehen, die diese UNESCO-Landschaft geschaffen hat. Die Aussichten hinunter auf das Dorf und den Strand überraschen ständig.",
+            "fr": "Au-dessus de Monterosso, les sentiers viticoles serpentent à travers les terrasses qui produisent les vins locaux. Ce sont des chemins de travail, pas des itinéraires touristiques — vous passerez devant des agriculteurs soignant leurs vignes, verrez les murs de pierres sèches de près et comprendrez le travail qui a créé ce paysage UNESCO. Les vues sur le village et la plage sont constamment surprenantes.",
+            "it": "Sopra Monterosso, i sentieri dei vigneti si snodano attraverso le terrazze che producono i vini locali. Sono sentieri di lavoro, non percorsi turistici — passerete accanto a contadini che curano le vigne, vedrete i muretti a secco da vicino e capirete il lavoro che ha creato questo paesaggio UNESCO. Le viste sul borgo e la spiaggia sorprendono costantemente."
+          },
+          "giuliaComment": {
+            "en": "These terraces represent impossibility made real. Every stone wall was built by hand, every flat growing surface carved from slope. Walk slowly and appreciate what you're seeing.",
+            "de": "Diese Terrassen repräsentieren Unmöglichkeit, die real wurde. Jede Steinmauer wurde von Hand gebaut, jede flache Anbaufläche aus dem Hang geschnitzt. Gehen Sie langsam und schätzen Sie, was Sie sehen.",
+            "fr": "Ces terrasses représentent l'impossible rendu réel. Chaque mur de pierre a été construit à la main, chaque surface de culture plane taillée dans la pente. Marchez lentement et appréciez ce que vous voyez.",
+            "it": "Queste terrazze rappresentano l'impossibilità resa reale. Ogni muro di pietra è stato costruito a mano, ogni superficie di coltivazione piana ricavata dal pendio. Camminate lentamente e apprezzate ciò che vedete."
+          },
+          "signature": {
+            "en": "Where human effort shaped the mountainside",
+            "de": "Wo menschliche Anstrengung den Berghang formte",
+            "fr": "Où l'effort humain a façonné le flanc de la montagne",
+            "it": "Dove lo sforzo umano ha plasmato il fianco della montagna"
+          },
+          "difficulty": {
+            "en": "Moderate",
+            "de": "Mittel",
+            "fr": "Modéré",
+            "it": "Moderata"
+          },
+          "practicalInfo": {
+            "en": "Variable distance, 1-3 hours. No markers—explore freely. Respect private property. Morning or late afternoon best.",
+            "de": "Variable Distanz, 1-3 Stunden. Keine Markierungen — erkunden Sie frei. Respektieren Sie Privateigentum. Morgen oder später Nachmittag am besten.",
+            "fr": "Distance variable, 1-3 heures. Pas de balisage — explorez librement. Respectez la propriété privée. Matin ou fin d'après-midi idéal.",
+            "it": "Distanza variabile, 1-3 ore. Nessuna segnaletica — esplorate liberamente. Rispettate la proprietà privata. Mattina o tardo pomeriggio ideali."
+          }
         },
         {
           "id": 6,
-          "name": "Sunset Soviore Walk",
-          "category": "Evening Route",
+          "name": {
+            "en": "Sunset Soviore Walk",
+            "de": "Sonnenuntergangs-Wanderung Soviore",
+            "fr": "Promenade au coucher de soleil à Soviore",
+            "it": "Passeggiata al tramonto a Soviore"
+          },
+          "category": {
+            "en": "Evening Route",
+            "de": "Abendroute",
+            "fr": "Itinéraire du soir",
+            "it": "Percorso serale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The evening ascent that transforms a sanctuary hike into a sunset experience.",
-          "description": "Time your Soviore hike to arrive for sunset, and the experience transforms completely. The climb is cooler, the light is golden, and the views from the sanctuary terrace as the sun drops toward the sea are extraordinary. Descend in twilight with the village lights below.",
-          "giuliaComment": "This is my secret Monterosso experience. Everyone watches sunset from the beach; the sanctuary views are better and you'll have them nearly alone. Bring a headlamp for the descent.",
-          "signature": "Where sunset deserves the climb",
-          "difficulty": "Moderate",
-          "practicalInfo": "Same route as daytime. Time arrival for 30 minutes before sunset. Bring headlamp. Bar may be closed for descent."
+          "intro": {
+            "en": "The evening ascent that transforms a sanctuary hike into a sunset experience.",
+            "de": "Der Abendaufstieg, der eine Wallfahrtswanderung in ein Sonnenuntergangserlebnis verwandelt.",
+            "fr": "L'ascension du soir qui transforme une randonnée au sanctuaire en expérience de coucher de soleil.",
+            "it": "La salita serale che trasforma un'escursione al santuario in un'esperienza al tramonto."
+          },
+          "description": {
+            "en": "Time your Soviore hike to arrive for sunset, and the experience transforms completely. The climb is cooler, the light is golden, and the views from the sanctuary terrace as the sun drops toward the sea are extraordinary. Descend in twilight with the village lights below.",
+            "de": "Planen Sie Ihre Soviore-Wanderung so, dass Sie zum Sonnenuntergang ankommen, und das Erlebnis verwandelt sich komplett. Der Aufstieg ist kühler, das Licht ist golden, und die Aussichten von der Terrasse des Heiligtums, wenn die Sonne zum Meer sinkt, sind außergewöhnlich. Steigen Sie in der Dämmerung ab, mit den Dorflichtern unter Ihnen.",
+            "fr": "Programmez votre randonnée à Soviore pour arriver au coucher de soleil, et l'expérience se transforme complètement. La montée est plus fraîche, la lumière est dorée, et les vues depuis la terrasse du sanctuaire alors que le soleil descend vers la mer sont extraordinaires. Descendez au crépuscule avec les lumières du village en contrebas.",
+            "it": "Programmate la vostra escursione a Soviore per arrivare al tramonto, e l'esperienza si trasforma completamente. La salita è più fresca, la luce è dorata, e le viste dalla terrazza del santuario mentre il sole scende verso il mare sono straordinarie. Scendete al crepuscolo con le luci del borgo sotto di voi."
+          },
+          "giuliaComment": {
+            "en": "This is my secret Monterosso experience. Everyone watches sunset from the beach; the sanctuary views are better and you'll have them nearly alone. Bring a headlamp for the descent.",
+            "de": "Das ist mein geheimes Monterosso-Erlebnis. Alle schauen den Sonnenuntergang vom Strand; die Aussichten vom Heiligtum sind besser und Sie haben sie fast alleine. Bringen Sie eine Stirnlampe für den Abstieg mit.",
+            "fr": "C'est mon expérience secrète de Monterosso. Tout le monde regarde le coucher de soleil depuis la plage ; les vues du sanctuaire sont meilleures et vous les aurez presque seul. Apportez une lampe frontale pour la descente.",
+            "it": "Questa è la mia esperienza segreta di Monterosso. Tutti guardano il tramonto dalla spiaggia; le viste dal santuario sono migliori e le avrete quasi da soli. Portate una lampada frontale per la discesa."
+          },
+          "signature": {
+            "en": "Where sunset deserves the climb",
+            "de": "Wo der Sonnenuntergang den Aufstieg verdient",
+            "fr": "Où le coucher de soleil mérite la montée",
+            "it": "Dove il tramonto merita la salita"
+          },
+          "difficulty": {
+            "en": "Moderate",
+            "de": "Mittel",
+            "fr": "Modéré",
+            "it": "Moderata"
+          },
+          "practicalInfo": {
+            "en": "Same route as daytime. Time arrival for 30 minutes before sunset. Bring headlamp. Bar may be closed for descent.",
+            "de": "Gleiche Route wie tagsüber. Ankunft 30 Minuten vor Sonnenuntergang planen. Stirnlampe mitbringen. Bar kann beim Abstieg geschlossen sein.",
+            "fr": "Même itinéraire que de jour. Arrivée prévue 30 minutes avant le coucher de soleil. Apportez une lampe frontale. Le bar peut être fermé pour la descente.",
+            "it": "Stesso percorso del giorno. Arrivate 30 minuti prima del tramonto. Portate lampada frontale. Il bar potrebbe essere chiuso per la discesa."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 2,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Beach Recovery",
-          "quote": "Monterosso's unique gift to hikers: sandy beaches waiting at trail's end. No other village offers real sand for post-hike swimming. Plan your walks to end by mid-afternoon, shower off the dust, and spend the remaining hours floating in the Mediterranean. The contrast is medicinal."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Beach Recovery",
+            "de": "Die Strand-Erholung",
+            "fr": "La récupération à la plage",
+            "it": "Il recupero in spiaggia"
+          },
+          "quote": {
+            "en": "Monterosso's unique gift to hikers: sandy beaches waiting at trail's end. No other village offers real sand for post-hike swimming. Plan your walks to end by mid-afternoon, shower off the dust, and spend the remaining hours floating in the Mediterranean. The contrast is medicinal.",
+            "de": "Monterossos einzigartiges Geschenk an Wanderer: Sandstrände, die am Ende des Weges warten. Kein anderes Dorf bietet echten Sand zum Schwimmen nach der Wanderung. Planen Sie Ihre Wanderungen so, dass sie am frühen Nachmittag enden, duschen Sie den Staub ab und verbringen Sie die verbleibenden Stunden im Mittelmeer treibend. Der Kontrast ist heilsam.",
+            "fr": "Le cadeau unique de Monterosso aux randonneurs : des plages de sable qui attendent à la fin du sentier. Aucun autre village n'offre du vrai sable pour nager après la randonnée. Planifiez vos marches pour terminer en milieu d'après-midi, douchez-vous de la poussière et passez les heures restantes à flotter dans la Méditerranée. Le contraste est médicinal.",
+            "it": "Il regalo unico di Monterosso agli escursionisti: spiagge di sabbia che aspettano alla fine del sentiero. Nessun altro borgo offre vera sabbia per nuotare dopo l'escursione. Programmate le vostre camminate per finire a metà pomeriggio, lavatevi via la polvere e passate le ore rimanenti galleggiando nel Mediterraneo. Il contrasto è medicinale."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Trails Wait",
+      "title": {
+        "en": "The Trails Wait",
+        "de": "Die Wege warten",
+        "fr": "Les sentiers attendent",
+        "it": "I sentieri aspettano"
+      },
       "content": [
-        "Monterosso offers something rare: the full spectrum of Cinque Terre hiking from a base with proper beaches and infrastructure. Walk the famous coastal trail to Vernazza. Climb to lighthouses and sanctuaries. Explore the vineyard paths that tourists rarely find.",
-        "The trails have been here for centuries—pilgrims walked to Soviore, farmers walked to their terraces, fishermen walked to the coast. Now you walk them for pleasure, but the paths remember their original purposes.",
-        "Start early. Bring water. Let the trails show you what the beach cannot."
+        {
+          "en": "Monterosso offers something rare: the full spectrum of Cinque Terre hiking from a base with proper beaches and infrastructure. Walk the famous coastal trail to Vernazza. Climb to lighthouses and sanctuaries. Explore the vineyard paths that tourists rarely find.",
+          "de": "Monterosso bietet etwas Seltenes: das volle Spektrum des Cinque Terre Wanderns von einer Basis mit echten Stränden und Infrastruktur. Wandern Sie den berühmten Küstenweg nach Vernazza. Steigen Sie zu Leuchttürmen und Heiligtümern. Erkunden Sie die Weinbergpfade, die Touristen selten finden.",
+          "fr": "Monterosso offre quelque chose de rare : tout le spectre de la randonnée des Cinque Terre depuis une base avec de vraies plages et infrastructure. Parcourez le célèbre sentier côtier vers Vernazza. Montez aux phares et sanctuaires. Explorez les chemins viticoles que les touristes trouvent rarement.",
+          "it": "Monterosso offre qualcosa di raro: l'intero spettro delle escursioni delle Cinque Terre da una base con vere spiagge e infrastrutture. Percorrete il famoso sentiero costiero verso Vernazza. Salite ai fari e ai santuari. Esplorate i sentieri dei vigneti che i turisti trovano raramente."
+        },
+        {
+          "en": "The trails have been here for centuries—pilgrims walked to Soviore, farmers walked to their terraces, fishermen walked to the coast. Now you walk them for pleasure, but the paths remember their original purposes.",
+          "de": "Die Wege sind seit Jahrhunderten hier — Pilger gingen nach Soviore, Bauern gingen zu ihren Terrassen, Fischer gingen zur Küste. Jetzt gehen Sie sie zum Vergnügen, aber die Pfade erinnern sich an ihre ursprünglichen Zwecke.",
+          "fr": "Les sentiers sont là depuis des siècles — les pèlerins marchaient vers Soviore, les agriculteurs vers leurs terrasses, les pêcheurs vers la côte. Maintenant vous les parcourez pour le plaisir, mais les chemins se souviennent de leurs buts originaux.",
+          "it": "I sentieri sono qui da secoli — i pellegrini camminavano verso Soviore, i contadini verso le loro terrazze, i pescatori verso la costa. Ora li percorrete per piacere, ma i sentieri ricordano i loro scopi originali."
+        },
+        {
+          "en": "Start early. Bring water. Let the trails show you what the beach cannot.",
+          "de": "Starten Sie früh. Bringen Sie Wasser mit. Lassen Sie die Wege Ihnen zeigen, was der Strand nicht kann.",
+          "fr": "Partez tôt. Apportez de l'eau. Laissez les sentiers vous montrer ce que la plage ne peut pas.",
+          "it": "Partite presto. Portate acqua. Lasciate che i sentieri vi mostrino ciò che la spiaggia non può."
+        }
       ],
       "buttons": [
-        { "text": "Plan Your Visit", "url": "/en/monterosso/things-to-do", "variant": "primary" },
-        { "text": "Where to Stay", "url": "/en/monterosso/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Plan Your Visit",
+            "de": "Planen Sie Ihren Besuch",
+            "fr": "Planifiez votre visite",
+            "it": "Pianificate la visita"
+          },
+          "url": {
+            "en": "/en/monterosso/things-to-do",
+            "de": "/de/monterosso/things-to-do",
+            "fr": "/fr/monterosso/things-to-do",
+            "it": "/it/monterosso/things-to-do"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Unterkünfte",
+            "fr": "Où dormir",
+            "it": "Dove dormire"
+          },
+          "url": {
+            "en": "/en/monterosso/hotels",
+            "de": "/de/monterosso/hotels",
+            "fr": "/fr/monterosso/hotels",
+            "it": "/it/monterosso/hotels"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -177,5 +579,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T13:30:00.000Z"
+  "updated_at": "2026-01-08T10:15:00.000Z"
 }

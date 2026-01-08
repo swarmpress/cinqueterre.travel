@@ -7,36 +7,90 @@
     "it": "/it/corniglia/apartments"
   },
   "title": {
-    "en": "Apartments in Corniglia | Cinque Terre Dispatch"
+    "en": "Apartments in Corniglia | Cinque Terre Dispatch",
+    "de": "Ferienwohnungen in Corniglia | Cinque Terre Dispatch",
+    "fr": "Appartements a Corniglia | Cinque Terre Dispatch",
+    "it": "Appartamenti a Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "apartments",
   "seo": {
     "title": {
-      "en": "Apartments in Corniglia | Cinque Terre Dispatch"
+      "en": "Apartments in Corniglia | Cinque Terre Dispatch",
+      "de": "Ferienwohnungen in Corniglia | Cinque Terre Dispatch",
+      "fr": "Appartements a Corniglia | Cinque Terre Dispatch",
+      "it": "Appartamenti a Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Corniglia's apartments come with built-in advantages: quieter streets, more space, fewer tourists fighting for groceries. The 382 steps that deter day-trippers become your moat against the crowds."
+      "en": "Corniglia's apartments come with built-in advantages: quieter streets, more space, fewer tourists fighting for groceries. The 382 steps that deter day-trippers become your moat against the crowds.",
+      "de": "Corniglias Wohnungen bringen eingebaute Vorteile: ruhigere Strassen, mehr Platz, weniger Touristen, die um Lebensmittel kampfen. Die 382 Stufen, die Tagesausflugeler abschrecken, werden zu Ihrem Burggraben gegen die Menschenmassen.",
+      "fr": "Les appartements de Corniglia offrent des avantages integres: des rues plus calmes, plus d'espace, moins de touristes a se battre pour les courses. Les 382 marches qui decouragent les excursionnistes deviennent votre fosse contre les foules.",
+      "it": "Gli appartamenti di Corniglia offrono vantaggi integrati: strade piu tranquille, piu spazio, meno turisti a contendersi la spesa. I 382 gradini che scoraggiano gli escursionisti giornalieri diventano il vostro fossato contro la folla."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Living Above<br/>the Crowds",
-      "subtitle": "An apartment in Corniglia offers something the other villages cannot: genuine residential quiet. The famous 382 steps that visitors complain about become your filter—discouraging casual tourists and leaving the village to those who chose to climb.",
-      "badge": "Apartment Rentals",
+      "title": {
+        "en": "Living Above<br/>the Crowds",
+        "de": "Uber den<br/>Massen Leben",
+        "fr": "Vivre Au-dessus<br/>de la Foule",
+        "it": "Vivere Sopra<br/>la Folla"
+      },
+      "subtitle": {
+        "en": "An apartment in Corniglia offers something the other villages cannot: genuine residential quiet. The famous 382 steps that visitors complain about become your filter—discouraging casual tourists and leaving the village to those who chose to climb.",
+        "de": "Eine Ferienwohnung in Corniglia bietet etwas, das die anderen Dorfer nicht konnen: echte Wohnruhe. Die beruhmten 382 Stufen, uber die Besucher klagen, werden zu Ihrem Filter—schrecken Gelegenheitstouristen ab und uberlassen das Dorf denen, die sich entschieden haben zu steigen.",
+        "fr": "Un appartement a Corniglia offre quelque chose que les autres villages ne peuvent pas: une veritable tranquillite residentielle. Les fameux 382 marches dont les visiteurs se plaignent deviennent votre filtre—decourageant les touristes occasionnels et laissant le village a ceux qui ont choisi de monter.",
+        "it": "Un appartamento a Corniglia offre qualcosa che gli altri borghi non possono: vera quiete residenziale. I famosi 382 gradini di cui i visitatori si lamentano diventano il vostro filtro—scoraggiano i turisti occasionali e lasciano il borgo a chi ha scelto di salire."
+      },
+      "badge": {
+        "en": "Apartment Rentals",
+        "de": "Ferienwohnungen",
+        "fr": "Locations d'Appartements",
+        "it": "Affitto Appartamenti"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Quiet Advantage",
-      "quote": "Corniglia apartments attract a different visitor—one who values peace over convenience, authenticity over easy access. The self-selection works in everyone's favor.",
-      "content": [
-        "**Space is more available**. Without the cruise ship crowds and day-tripper masses, Corniglia apartments are easier to book and often larger than comparable options elsewhere. What other villages lack, this one provides.",
-        "**Cooking is practical**. The village has a small grocery, and you won't fight crowds to shop. Markets in La Spezia are accessible by train. Your apartment kitchen serves as actual kitchen, not decorative afterthought.",
-        "**The terrace views are standard**. Many Corniglia apartments include terraces with vineyard and sea views that would cost premium prices in other villages. Here they're simply what's available.",
-        "**Neighbors are real neighbors**. With fewer tourist accommodations overall, Corniglia apartments tend to be in actual residential buildings. Your neighbors are locals, not other tourists."
-      ]
+      "badge": {
+        "en": "The Quiet Advantage",
+        "de": "Der Ruhe-Vorteil",
+        "fr": "L'Avantage du Calme",
+        "it": "Il Vantaggio della Quiete"
+      },
+      "quote": {
+        "en": "Corniglia apartments attract a different visitor—one who values peace over convenience, authenticity over easy access. The self-selection works in everyone's favor.",
+        "de": "Corniglia-Wohnungen ziehen einen anderen Besucher an—einen, der Frieden uber Bequemlichkeit stellt, Authentizitat uber einfachen Zugang. Die Selbstselektion funktioniert zu aller Vorteil.",
+        "fr": "Les appartements de Corniglia attirent un visiteur different—un qui valorise la paix plutot que la commodite, l'authenticite plutot que l'acces facile. L'auto-selection fonctionne a l'avantage de tous.",
+        "it": "Gli appartamenti di Corniglia attraggono un visitatore diverso—uno che apprezza la pace alla comodita, l'autenticita all'accesso facile. L'auto-selezione funziona a favore di tutti."
+      },
+      "content": {
+        "en": [
+          "**Space is more available**. Without the cruise ship crowds and day-tripper masses, Corniglia apartments are easier to book and often larger than comparable options elsewhere. What other villages lack, this one provides.",
+          "**Cooking is practical**. The village has a small grocery, and you won't fight crowds to shop. Markets in La Spezia are accessible by train. Your apartment kitchen serves as actual kitchen, not decorative afterthought.",
+          "**The terrace views are standard**. Many Corniglia apartments include terraces with vineyard and sea views that would cost premium prices in other villages. Here they're simply what's available.",
+          "**Neighbors are real neighbors**. With fewer tourist accommodations overall, Corniglia apartments tend to be in actual residential buildings. Your neighbors are locals, not other tourists."
+        ],
+        "de": [
+          "**Platz ist verfugbarer**. Ohne die Kreuzfahrtschiff-Massen und Tagesausflugeler sind Corniglia-Wohnungen einfacher zu buchen und oft grosser als vergleichbare Optionen anderswo. Was anderen Dorfern fehlt, bietet dieses.",
+          "**Kochen ist praktisch**. Das Dorf hat einen kleinen Lebensmittelladen, und Sie mussen nicht gegen Menschenmassen ankampfen, um einzukaufen. Markte in La Spezia sind mit dem Zug erreichbar. Ihre Wohnungskuche dient als echte Kuche, nicht als dekorativer Nachgedanke.",
+          "**Die Terrassenaussichten sind Standard**. Viele Corniglia-Wohnungen beinhalten Terrassen mit Weinberg- und Meerblick, die in anderen Dorfern Premium-Preise kosten wurden. Hier sind sie einfach, was verfugbar ist.",
+          "**Nachbarn sind echte Nachbarn**. Mit insgesamt weniger touristischen Unterkunften befinden sich Corniglia-Wohnungen tendenziell in echten Wohngebauden. Ihre Nachbarn sind Einheimische, keine anderen Touristen."
+        ],
+        "fr": [
+          "**L'espace est plus disponible**. Sans les foules de croisieres et les masses d'excursionnistes, les appartements de Corniglia sont plus faciles a reserver et souvent plus grands que les options comparables ailleurs. Ce que les autres villages manquent, celui-ci le fournit.",
+          "**Cuisiner est pratique**. Le village a une petite epicerie, et vous n'aurez pas a vous battre contre les foules pour faire vos courses. Les marches de La Spezia sont accessibles en train. Votre cuisine d'appartement sert de vraie cuisine, pas d'ajout decoratif.",
+          "**Les vues de terrasse sont standard**. De nombreux appartements de Corniglia incluent des terrasses avec vue sur les vignobles et la mer qui couteraient des prix premium dans d'autres villages. Ici, c'est simplement ce qui est disponible.",
+          "**Les voisins sont de vrais voisins**. Avec moins d'hebergements touristiques dans l'ensemble, les appartements de Corniglia ont tendance a etre dans de vrais immeubles residentiels. Vos voisins sont des locaux, pas d'autres touristes."
+        ],
+        "it": [
+          "**Lo spazio e piu disponibile**. Senza le folle delle navi da crociera e le masse di escursionisti, gli appartamenti di Corniglia sono piu facili da prenotare e spesso piu grandi delle opzioni comparabili altrove. Quello che manca agli altri borghi, questo lo fornisce.",
+          "**Cucinare e pratico**. Il borgo ha un piccolo alimentari, e non dovrete lottare contro la folla per fare la spesa. I mercati di La Spezia sono accessibili in treno. La cucina del vostro appartamento serve come vera cucina, non come aggiunta decorativa.",
+          "**Le viste dalle terrazze sono standard**. Molti appartamenti di Corniglia includono terrazze con vista sui vigneti e sul mare che costerebbero prezzi premium in altri borghi. Qui sono semplicemente quello che c'e.",
+          "**I vicini sono veri vicini**. Con meno alloggi turistici in generale, gli appartamenti di Corniglia tendono ad essere in veri edifici residenziali. I vostri vicini sono locali, non altri turisti."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Village Center Apartments",
-          "category": "Location Guide",
+          "name": {
+            "en": "Village Center Apartments",
+            "de": "Wohnungen im Dorfzentrum",
+            "fr": "Appartements du Centre du Village",
+            "it": "Appartamenti nel Centro del Borgo"
+          },
+          "category": {
+            "en": "Location Guide",
+            "de": "Standortfuhrer",
+            "fr": "Guide des Emplacements",
+            "it": "Guida alle Posizioni"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Along Via Fieschi—the main street with shops, restaurants, and the village's daily rhythm.",
-          "description": "Apartments on Via Fieschi put you at Corniglia's social center—such as it is. The bakery, the wine bar, the small grocery, the church where bells mark time. You're steps from everything the village offers, yet still quieter than anywhere in the other villages.",
-          "giuliaComment": "Via Fieschi is 'busy' by Corniglia standards, which means you might see ten people walking by in an hour. For visitors used to other villages, this is remarkable. For Corniglia, it's the bustling main street.",
-          "signature": "Where center still means quiet"
+          "intro": {
+            "en": "Along Via Fieschi—the main street with shops, restaurants, and the village's daily rhythm.",
+            "de": "Entlang der Via Fieschi—der Hauptstrasse mit Geschaften, Restaurants und dem taglichen Rhythmus des Dorfes.",
+            "fr": "Le long de Via Fieschi—la rue principale avec ses boutiques, restaurants et le rythme quotidien du village.",
+            "it": "Lungo Via Fieschi—la via principale con negozi, ristoranti e il ritmo quotidiano del borgo."
+          },
+          "description": {
+            "en": "Apartments on Via Fieschi put you at Corniglia's social center—such as it is. The bakery, the wine bar, the small grocery, the church where bells mark time. You're steps from everything the village offers, yet still quieter than anywhere in the other villages.",
+            "de": "Wohnungen an der Via Fieschi bringen Sie ins soziale Zentrum von Corniglia—so wie es ist. Die Backerei, die Weinbar, der kleine Lebensmittelladen, die Kirche, deren Glocken die Zeit anzeigen. Sie sind Schritte von allem entfernt, was das Dorf bietet, und dennoch ruhiger als uberall sonst in den anderen Dorfern.",
+            "fr": "Les appartements sur Via Fieschi vous placent au centre social de Corniglia—tel qu'il est. La boulangerie, le bar a vin, la petite epicerie, l'eglise dont les cloches marquent le temps. Vous etes a quelques pas de tout ce que le village offre, et pourtant plus calme que n'importe ou dans les autres villages.",
+            "it": "Gli appartamenti su Via Fieschi vi mettono al centro sociale di Corniglia—cosi com'e. Il panificio, l'enoteca, il piccolo alimentari, la chiesa le cui campane segnano il tempo. Siete a pochi passi da tutto cio che il borgo offre, eppure piu tranquilli che ovunque negli altri borghi."
+          },
+          "giuliaComment": {
+            "en": "Via Fieschi is 'busy' by Corniglia standards, which means you might see ten people walking by in an hour. For visitors used to other villages, this is remarkable. For Corniglia, it's the bustling main street.",
+            "de": "Via Fieschi ist 'belebt' nach Corniglia-Standards, was bedeutet, dass Sie vielleicht zehn Leute in einer Stunde vorbeigehen sehen. Fur Besucher, die andere Dorfer gewohnt sind, ist das bemerkenswert. Fur Corniglia ist es die belebte Hauptstrasse.",
+            "fr": "Via Fieschi est 'animee' selon les standards de Corniglia, ce qui signifie que vous pourriez voir dix personnes passer en une heure. Pour les visiteurs habitues aux autres villages, c'est remarquable. Pour Corniglia, c'est la rue principale animee.",
+            "it": "Via Fieschi e 'trafficata' per gli standard di Corniglia, il che significa che potreste vedere dieci persone passare in un'ora. Per i visitatori abituati ad altri borghi, questo e notevole. Per Corniglia, e la via principale animata."
+          },
+          "signature": {
+            "en": "Where center still means quiet",
+            "de": "Wo Zentrum immer noch Ruhe bedeutet",
+            "fr": "Ou le centre signifie encore calme",
+            "it": "Dove centro significa ancora quiete"
+          }
         },
         {
           "id": 2,
-          "name": "Terrace-View Apartments",
-          "category": "Location Guide",
+          "name": {
+            "en": "Terrace-View Apartments",
+            "de": "Terrassen-Aussicht-Wohnungen",
+            "fr": "Appartements Vue Terrasse",
+            "it": "Appartamenti Vista Terrazza"
+          },
+          "category": {
+            "en": "Location Guide",
+            "de": "Standortfuhrer",
+            "fr": "Guide des Emplacements",
+            "it": "Guida alle Posizioni"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "On the village edges, facing the terraced hillsides—where the agricultural landscape becomes your view.",
-          "description": "Some Corniglia apartments face the vineyards rather than the sea. These positions offer something unique: the terraced landscape that defines Cinque Terre, visible at all hours, changing with the light. The UNESCO heritage isn't in the distance—it's right outside your window.",
-          "giuliaComment": "I actually prefer the vineyard-facing apartments. The sea view is beautiful, but you can see the sea from any terrace in minutes. The close view of working terraces, with farmers passing in the morning, connects you to what this village actually is.",
-          "signature": "Where heritage becomes daily view"
+          "intro": {
+            "en": "On the village edges, facing the terraced hillsides—where the agricultural landscape becomes your view.",
+            "de": "An den Dorfrandern, mit Blick auf die terrassierten Hangseiten—wo die landwirtschaftliche Landschaft zu Ihrer Aussicht wird.",
+            "fr": "Aux bords du village, face aux coteaux en terrasses—ou le paysage agricole devient votre vue.",
+            "it": "Ai bordi del borgo, di fronte ai pendii terrazzati—dove il paesaggio agricolo diventa la vostra vista."
+          },
+          "description": {
+            "en": "Some Corniglia apartments face the vineyards rather than the sea. These positions offer something unique: the terraced landscape that defines Cinque Terre, visible at all hours, changing with the light. The UNESCO heritage isn't in the distance—it's right outside your window.",
+            "de": "Einige Corniglia-Wohnungen blicken auf die Weinberge statt auf das Meer. Diese Positionen bieten etwas Einzigartiges: die terrassierte Landschaft, die die Cinque Terre definiert, zu allen Stunden sichtbar, sich mit dem Licht verandernd. Das UNESCO-Welterbe ist nicht in der Ferne—es ist direkt vor Ihrem Fenster.",
+            "fr": "Certains appartements de Corniglia font face aux vignobles plutot qu'a la mer. Ces positions offrent quelque chose d'unique: le paysage en terrasses qui definit les Cinque Terre, visible a toute heure, changeant avec la lumiere. Le patrimoine UNESCO n'est pas au loin—il est juste devant votre fenetre.",
+            "it": "Alcuni appartamenti di Corniglia guardano i vigneti piuttosto che il mare. Queste posizioni offrono qualcosa di unico: il paesaggio terrazzato che definisce le Cinque Terre, visibile a tutte le ore, che cambia con la luce. Il patrimonio UNESCO non e in lontananza—e proprio fuori dalla vostra finestra."
+          },
+          "giuliaComment": {
+            "en": "I actually prefer the vineyard-facing apartments. The sea view is beautiful, but you can see the sea from any terrace in minutes. The close view of working terraces, with farmers passing in the morning, connects you to what this village actually is.",
+            "de": "Ich bevorzuge tatsachlich die Wohnungen mit Blick auf die Weinberge. Der Meerblick ist wunderschon, aber Sie konnen das Meer von jeder Terrasse in Minuten sehen. Die Nahansicht der arbeitenden Terrassen, mit Bauern, die morgens vorbeikommen, verbindet Sie mit dem, was dieses Dorf wirklich ist.",
+            "fr": "En fait, je prefere les appartements face aux vignobles. La vue sur la mer est belle, mais vous pouvez voir la mer depuis n'importe quelle terrasse en quelques minutes. La vue rapprochee des terrasses en activite, avec les agriculteurs qui passent le matin, vous connecte a ce que ce village est vraiment.",
+            "it": "In realta preferisco gli appartamenti che guardano i vigneti. La vista mare e bella, ma potete vedere il mare da qualsiasi terrazza in pochi minuti. La vista ravvicinata dei terrazzamenti in funzione, con i contadini che passano la mattina, vi collega a quello che questo borgo e davvero."
+          },
+          "signature": {
+            "en": "Where heritage becomes daily view",
+            "de": "Wo Kulturerbe zur taglichen Aussicht wird",
+            "fr": "Ou le patrimoine devient vue quotidienne",
+            "it": "Dove il patrimonio diventa vista quotidiana"
+          }
         },
         {
           "id": 3,
-          "name": "Sea-View Apartments",
-          "category": "Location Guide",
+          "name": {
+            "en": "Sea-View Apartments",
+            "de": "Meerblick-Wohnungen",
+            "fr": "Appartements Vue Mer",
+            "it": "Appartamenti Vista Mare"
+          },
+          "category": {
+            "en": "Location Guide",
+            "de": "Standortfuhrer",
+            "fr": "Guide des Emplacements",
+            "it": "Guida alle Posizioni"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Perched on the cliff edge, looking down at the water 100 meters below—dramatic and distant.",
-          "description": "Corniglia's sea views are different from other villages—you're not at water level but high above it. The perspective is eagles' rather than fishermen's. You see the coast stretching in both directions, boats that look like toys, a relationship to the sea that's visual rather than immediate.",
-          "giuliaComment": "The sea-view apartments in Corniglia offer perspective the other villages can't match. You see the whole coast, the patterns of waves, the way weather approaches from the horizon. It's contemplative rather than interactive.",
-          "signature": "Where distance creates drama"
+          "intro": {
+            "en": "Perched on the cliff edge, looking down at the water 100 meters below—dramatic and distant.",
+            "de": "Auf der Klippenkante sitzend, auf das Wasser 100 Meter darunter blickend—dramatisch und distanziert.",
+            "fr": "Perche au bord de la falaise, regardant l'eau 100 metres en dessous—dramatique et distant.",
+            "it": "Appollaiati sul bordo della scogliera, guardando l'acqua 100 metri sotto—drammatico e distante."
+          },
+          "description": {
+            "en": "Corniglia's sea views are different from other villages—you're not at water level but high above it. The perspective is eagles' rather than fishermen's. You see the coast stretching in both directions, boats that look like toys, a relationship to the sea that's visual rather than immediate.",
+            "de": "Corniglias Meerblick unterscheidet sich von anderen Dorfern—Sie sind nicht auf Wasserhohe, sondern hoch daruber. Die Perspektive ist die eines Adlers, nicht die eines Fischers. Sie sehen die Kuste, die sich in beide Richtungen erstreckt, Boote, die wie Spielzeug aussehen, eine Beziehung zum Meer, die visuell statt unmittelbar ist.",
+            "fr": "Les vues sur la mer de Corniglia sont differentes des autres villages—vous n'etes pas au niveau de l'eau mais bien au-dessus. La perspective est celle des aigles plutot que des pecheurs. Vous voyez la cote s'etendant dans les deux directions, des bateaux qui ressemblent a des jouets, une relation a la mer qui est visuelle plutot qu'immediate.",
+            "it": "Le viste sul mare di Corniglia sono diverse dagli altri borghi—non siete a livello dell'acqua ma molto sopra. La prospettiva e quella delle aquile piuttosto che dei pescatori. Vedete la costa che si estende in entrambe le direzioni, barche che sembrano giocattoli, un rapporto con il mare che e visivo piuttosto che immediato."
+          },
+          "giuliaComment": {
+            "en": "The sea-view apartments in Corniglia offer perspective the other villages can't match. You see the whole coast, the patterns of waves, the way weather approaches from the horizon. It's contemplative rather than interactive.",
+            "de": "Die Meerblick-Wohnungen in Corniglia bieten eine Perspektive, die die anderen Dorfer nicht bieten konnen. Sie sehen die gesamte Kuste, die Wellenmuster, wie das Wetter vom Horizont herannaht. Es ist kontemplativ statt interaktiv.",
+            "fr": "Les appartements vue mer de Corniglia offrent une perspective que les autres villages ne peuvent pas egaler. Vous voyez toute la cote, les motifs des vagues, la facon dont le temps approche depuis l'horizon. C'est contemplatif plutot qu'interactif.",
+            "it": "Gli appartamenti vista mare di Corniglia offrono una prospettiva che gli altri borghi non possono eguagliare. Vedete tutta la costa, i motivi delle onde, il modo in cui il tempo si avvicina dall'orizzonte. E contemplativo piuttosto che interattivo."
+          },
+          "signature": {
+            "en": "Where distance creates drama",
+            "de": "Wo Distanz Dramatik schafft",
+            "fr": "Ou la distance cree le drame",
+            "it": "Dove la distanza crea dramma"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Stair Commitment",
-          "quote": "Every Corniglia apartment requires confronting the Lardarina—the 382 steps from the train station. Unless you arrive by car (limited parking) or via hiking trail, those stairs are your gateway. Most visitors find it easier than expected. All visitors remember it."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelles Zwischenspiel",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Stair Commitment",
+            "de": "Das Treppen-Commitment",
+            "fr": "L'Engagement des Escaliers",
+            "it": "L'Impegno delle Scale"
+          },
+          "quote": {
+            "en": "Every Corniglia apartment requires confronting the Lardarina—the 382 steps from the train station. Unless you arrive by car (limited parking) or via hiking trail, those stairs are your gateway. Most visitors find it easier than expected. All visitors remember it.",
+            "de": "Jede Corniglia-Wohnung erfordert die Konfrontation mit der Lardarina—den 382 Stufen vom Bahnhof. Es sei denn, Sie kommen mit dem Auto (begrenzte Parkplatze) oder uber den Wanderweg, sind diese Treppen Ihr Eingangstor. Die meisten Besucher finden es einfacher als erwartet. Alle Besucher erinnern sich daran.",
+            "fr": "Chaque appartement de Corniglia necessite d'affronter la Lardarina—les 382 marches depuis la gare. A moins d'arriver en voiture (parking limite) ou par le sentier de randonnee, ces escaliers sont votre portail. La plupart des visiteurs trouvent cela plus facile que prevu. Tous les visiteurs s'en souviennent.",
+            "it": "Ogni appartamento di Corniglia richiede di affrontare la Lardarina—i 382 gradini dalla stazione ferroviaria. A meno che non arriviate in auto (parcheggio limitato) o tramite sentiero escursionistico, quelle scale sono il vostro ingresso. La maggior parte dei visitatori lo trova piu facile del previsto. Tutti i visitatori lo ricordano."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Living",
-      "quote": "Apartment life in Corniglia rewards those who accept its terms: limited shopping options offset by genuine tranquility, climbing offset by views, inconvenience offset by authenticity.",
-      "content": [
-        "**Shopping requires planning**. The village grocery is small; serious shopping means La Spezia. Time your provisioning with train trips. Bring staples from elsewhere.",
-        "**The stairs become routine**. What feels daunting on day one becomes normal by day three. Your legs adjust. The climb becomes automatic. And the views from halfway up never stop being spectacular.",
-        "**Evening is yours**. When day-trippers leave (they all leave—Corniglia has no beach to hold them), the village empties. Your apartment becomes home base for an evening village that belongs to residents and overnight guests alone.",
-        "**Check-in logistics matter**. Coordinate carefully with hosts about arrival—carrying luggage up 382 steps after a long travel day requires planning. Many hosts offer to meet you at the station."
-      ]
+      "badge": {
+        "en": "Practical Living",
+        "de": "Praktisches Leben",
+        "fr": "Vie Pratique",
+        "it": "Vita Pratica"
+      },
+      "quote": {
+        "en": "Apartment life in Corniglia rewards those who accept its terms: limited shopping options offset by genuine tranquility, climbing offset by views, inconvenience offset by authenticity.",
+        "de": "Das Wohnungsleben in Corniglia belohnt diejenigen, die seine Bedingungen akzeptieren: begrenzte Einkaufsmoglichkeiten werden durch echte Ruhe ausgeglichen, Klettern durch Aussichten, Unannehmlichkeiten durch Authentizitat.",
+        "fr": "La vie en appartement a Corniglia recompense ceux qui acceptent ses conditions: des options d'achat limitees compensees par une veritable tranquillite, la montee compensee par les vues, l'inconvenient compense par l'authenticite.",
+        "it": "La vita in appartamento a Corniglia premia chi accetta le sue condizioni: opzioni di shopping limitate compensate da vera tranquillita, salire compensato dalle viste, scomodita compensata da autenticita."
+      },
+      "content": {
+        "en": [
+          "**Shopping requires planning**. The village grocery is small; serious shopping means La Spezia. Time your provisioning with train trips. Bring staples from elsewhere.",
+          "**The stairs become routine**. What feels daunting on day one becomes normal by day three. Your legs adjust. The climb becomes automatic. And the views from halfway up never stop being spectacular.",
+          "**Evening is yours**. When day-trippers leave (they all leave—Corniglia has no beach to hold them), the village empties. Your apartment becomes home base for an evening village that belongs to residents and overnight guests alone.",
+          "**Check-in logistics matter**. Coordinate carefully with hosts about arrival—carrying luggage up 382 steps after a long travel day requires planning. Many hosts offer to meet you at the station."
+        ],
+        "de": [
+          "**Einkaufen erfordert Planung**. Der Dorflebensmittelladen ist klein; ernsthaftes Einkaufen bedeutet La Spezia. Planen Sie Ihre Versorgung mit Zugfahrten. Bringen Sie Grundnahrungsmittel von woanders mit.",
+          "**Die Treppen werden zur Routine**. Was am ersten Tag entmutigend erscheint, wird am dritten Tag normal. Ihre Beine passen sich an. Der Aufstieg wird automatisch. Und die Aussichten von der Halfte des Weges horen nie auf, spektakular zu sein.",
+          "**Der Abend gehort Ihnen**. Wenn die Tagesausflugeler gehen (sie gehen alle—Corniglia hat keinen Strand, um sie zu halten), leert sich das Dorf. Ihre Wohnung wird zum Stutzpunkt fur ein Abenddorf, das nur den Bewohnern und Ubernachtungsgasten gehort.",
+          "**Check-in-Logistik ist wichtig**. Koordinieren Sie sorgfaltig mit Gastgebern uber die Ankunft—Gepack 382 Stufen nach einem langen Reisetag hochzutragen erfordert Planung. Viele Gastgeber bieten an, Sie am Bahnhof abzuholen."
+        ],
+        "fr": [
+          "**Les courses necessitent de la planification**. L'epicerie du village est petite; les courses serieuses signifient La Spezia. Synchronisez votre approvisionnement avec les trajets en train. Apportez les produits de base d'ailleurs.",
+          "**Les escaliers deviennent routine**. Ce qui semble decourageant le premier jour devient normal le troisieme jour. Vos jambes s'adaptent. La montee devient automatique. Et les vues a mi-chemin ne cessent jamais d'etre spectaculaires.",
+          "**La soiree est a vous**. Quand les excursionnistes partent (ils partent tous—Corniglia n'a pas de plage pour les retenir), le village se vide. Votre appartement devient la base pour un village du soir qui appartient aux residents et aux invites de nuit seuls.",
+          "**La logistique d'enregistrement compte**. Coordonnez soigneusement avec les hotes concernant l'arrivee—porter les bagages sur 382 marches apres une longue journee de voyage necessite de la planification. De nombreux hotes proposent de vous rencontrer a la gare."
+        ],
+        "it": [
+          "**Fare la spesa richiede pianificazione**. L'alimentari del borgo e piccolo; la spesa seria significa La Spezia. Sincronizzate il vostro approvvigionamento con i viaggi in treno. Portate i prodotti base da altrove.",
+          "**Le scale diventano routine**. Quello che sembra scoraggiante il primo giorno diventa normale il terzo giorno. Le vostre gambe si adattano. La salita diventa automatica. E le viste da meta strada non smettono mai di essere spettacolari.",
+          "**La sera e vostra**. Quando gli escursionisti partono (partono tutti—Corniglia non ha spiaggia per trattenerli), il borgo si svuota. Il vostro appartamento diventa la base per un borgo serale che appartiene solo ai residenti e agli ospiti che pernottano.",
+          "**La logistica del check-in conta**. Coordinate attentamente con i proprietari riguardo all'arrivo—portare i bagagli su 382 gradini dopo una lunga giornata di viaggio richiede pianificazione. Molti proprietari offrono di incontrarvi alla stazione."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "The Provisioning Strategy",
-          "category": "Living Local",
+          "name": {
+            "en": "The Provisioning Strategy",
+            "de": "Die Versorgungs-Strategie",
+            "fr": "La Strategie d'Approvisionnement",
+            "it": "La Strategia dell'Approvvigionamento"
+          },
+          "category": {
+            "en": "Living Local",
+            "de": "Wie ein Einheimischer Leben",
+            "fr": "Vivre Comme un Local",
+            "it": "Vivere Come un Locale"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "How to keep your Corniglia kitchen stocked without the stress.",
-          "description": "Shop in La Spezia before arriving—supermarkets there have everything at normal prices. Use the village grocery for daily needs: bread, milk, fresh vegetables. The wine shop has local bottles. Accept that some meals will be simple—focaccia, cheese, tomatoes, good wine. That's not compromise; that's Corniglia.",
-          "giuliaComment": "The village grocery has survived because residents actually use it. The selection is small but the vegetables are often from local gardens. Support the shop—it's the social center more than the commercial one.",
-          "signature": "Where limitation becomes simplicity"
+          "intro": {
+            "en": "How to keep your Corniglia kitchen stocked without the stress.",
+            "de": "Wie Sie Ihre Corniglia-Kuche ohne Stress befullt halten.",
+            "fr": "Comment garder votre cuisine de Corniglia approvisionnee sans stress.",
+            "it": "Come mantenere rifornita la vostra cucina di Corniglia senza stress."
+          },
+          "description": {
+            "en": "Shop in La Spezia before arriving—supermarkets there have everything at normal prices. Use the village grocery for daily needs: bread, milk, fresh vegetables. The wine shop has local bottles. Accept that some meals will be simple—focaccia, cheese, tomatoes, good wine. That's not compromise; that's Corniglia.",
+            "de": "Kaufen Sie in La Spezia ein, bevor Sie ankommen—Supermarkte dort haben alles zu normalen Preisen. Nutzen Sie den Dorflebensmittelladen fur den taglichen Bedarf: Brot, Milch, frisches Gemuse. Die Weinhandlung hat lokale Flaschen. Akzeptieren Sie, dass einige Mahlzeiten einfach sein werden—Focaccia, Kase, Tomaten, guter Wein. Das ist kein Kompromiss; das ist Corniglia.",
+            "fr": "Faites vos courses a La Spezia avant d'arriver—les supermarches la-bas ont tout a des prix normaux. Utilisez l'epicerie du village pour les besoins quotidiens: pain, lait, legumes frais. Le caviste a des bouteilles locales. Acceptez que certains repas seront simples—focaccia, fromage, tomates, bon vin. Ce n'est pas un compromis; c'est Corniglia.",
+            "it": "Fate la spesa a La Spezia prima di arrivare—i supermercati li hanno tutto a prezzi normali. Usate l'alimentari del borgo per le necessita quotidiane: pane, latte, verdure fresche. L'enoteca ha bottiglie locali. Accettate che alcuni pasti saranno semplici—focaccia, formaggio, pomodori, buon vino. Questo non e un compromesso; questo e Corniglia."
+          },
+          "giuliaComment": {
+            "en": "The village grocery has survived because residents actually use it. The selection is small but the vegetables are often from local gardens. Support the shop—it's the social center more than the commercial one.",
+            "de": "Der Dorflebensmittelladen hat uberlebt, weil die Einwohner ihn tatsachlich nutzen. Die Auswahl ist klein, aber das Gemuse stammt oft aus lokalen Garten. Unterstutzen Sie den Laden—er ist mehr das soziale Zentrum als das kommerzielle.",
+            "fr": "L'epicerie du village a survecu parce que les residents l'utilisent vraiment. La selection est petite mais les legumes viennent souvent des jardins locaux. Soutenez le magasin—c'est plus le centre social que commercial.",
+            "it": "L'alimentari del borgo e sopravvissuto perche i residenti lo usano davvero. La selezione e piccola ma le verdure vengono spesso dagli orti locali. Sostenete il negozio—e piu il centro sociale che quello commerciale."
+          },
+          "signature": {
+            "en": "Where limitation becomes simplicity",
+            "de": "Wo Beschrankung zur Einfachheit wird",
+            "fr": "Ou la limitation devient simplicite",
+            "it": "Dove la limitazione diventa semplicita"
+          }
         },
         {
           "id": 5,
-          "name": "The Long Stay",
-          "category": "Time Investment",
+          "name": {
+            "en": "The Long Stay",
+            "de": "Der Lange Aufenthalt",
+            "fr": "Le Long Sejour",
+            "it": "Il Soggiorno Lungo"
+          },
+          "category": {
+            "en": "Time Investment",
+            "de": "Zeit-Investition",
+            "fr": "Investissement en Temps",
+            "it": "Investimento di Tempo"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Corniglia apartments reward those who stay long enough to stop counting the stairs.",
-          "description": "A week in a Corniglia apartment transforms your relationship to the village. The stairs become unremarkable. You develop a favorite terrace, a preferred wine, a nodding acquaintance with the morning baker. The village reveals what hurried visitors miss.",
-          "giuliaComment": "Every long-stay guest tells me the same thing: by day three, they wondered why they'd worried about the stairs. By day seven, they were planning their return. Corniglia requires the time it takes to appreciate.",
-          "signature": "When routine becomes revelation"
+          "intro": {
+            "en": "Corniglia apartments reward those who stay long enough to stop counting the stairs.",
+            "de": "Corniglia-Wohnungen belohnen diejenigen, die lange genug bleiben, um aufzuhoren, die Treppen zu zahlen.",
+            "fr": "Les appartements de Corniglia recompensent ceux qui restent assez longtemps pour arreter de compter les marches.",
+            "it": "Gli appartamenti di Corniglia premiano chi rimane abbastanza a lungo da smettere di contare i gradini."
+          },
+          "description": {
+            "en": "A week in a Corniglia apartment transforms your relationship to the village. The stairs become unremarkable. You develop a favorite terrace, a preferred wine, a nodding acquaintance with the morning baker. The village reveals what hurried visitors miss.",
+            "de": "Eine Woche in einer Corniglia-Wohnung verandert Ihre Beziehung zum Dorf. Die Treppen werden unremarkabel. Sie entwickeln eine Lieblingsterrasse, einen bevorzugten Wein, eine nickende Bekanntschaft mit dem Morgenbacker. Das Dorf offenbart, was eilige Besucher verpassen.",
+            "fr": "Une semaine dans un appartement de Corniglia transforme votre relation au village. Les escaliers deviennent insignifiants. Vous developpez une terrasse preferee, un vin prefere, une connaissance de salutation avec le boulanger du matin. Le village revele ce que les visiteurs presses manquent.",
+            "it": "Una settimana in un appartamento di Corniglia trasforma il vostro rapporto con il borgo. Le scale diventano irrilevanti. Sviluppate una terrazza preferita, un vino preferito, una conoscenza di cenno con il panettiere del mattino. Il borgo rivela quello che i visitatori frettolosi perdono."
+          },
+          "giuliaComment": {
+            "en": "Every long-stay guest tells me the same thing: by day three, they wondered why they'd worried about the stairs. By day seven, they were planning their return. Corniglia requires the time it takes to appreciate.",
+            "de": "Jeder Langzeitgast sagt mir das Gleiche: am dritten Tag fragten sie sich, warum sie sich uber die Treppen Sorgen gemacht hatten. Am siebten Tag planten sie ihre Ruckkehr. Corniglia erfordert die Zeit, die es braucht, um es zu schatzen.",
+            "fr": "Chaque invite de long sejour me dit la meme chose: au troisieme jour, ils se demandaient pourquoi ils s'etaient inquietes des escaliers. Au septieme jour, ils planifiaient leur retour. Corniglia necessite le temps qu'il faut pour apprecier.",
+            "it": "Ogni ospite di lungo soggiorno mi dice la stessa cosa: al terzo giorno, si chiedevano perche si fossero preoccupati delle scale. Al settimo giorno, stavano pianificando il loro ritorno. Corniglia richiede il tempo che serve per apprezzare."
+          },
+          "signature": {
+            "en": "When routine becomes revelation",
+            "de": "Wenn Routine zur Offenbarung wird",
+            "fr": "Quand la routine devient revelation",
+            "it": "Quando la routine diventa rivelazione"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Shuttle Option",
-          "quote": "A shuttle bus connects the train station to the village during tourist season, bypassing the famous stairs. It runs infrequently but saves the climb when loaded with luggage. Check schedules—or accept that the stairs are part of the Corniglia experience."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Shuttle Option",
+            "de": "Die Shuttle-Option",
+            "fr": "L'Option Navette",
+            "it": "L'Opzione Navetta"
+          },
+          "quote": {
+            "en": "A shuttle bus connects the train station to the village during tourist season, bypassing the famous stairs. It runs infrequently but saves the climb when loaded with luggage. Check schedules—or accept that the stairs are part of the Corniglia experience.",
+            "de": "Ein Shuttlebus verbindet den Bahnhof mit dem Dorf wahrend der Touristensaison und umgeht die beruhmten Treppen. Er fahrt selten, spart aber den Aufstieg, wenn man mit Gepack beladen ist. Prufen Sie die Fahrplane—oder akzeptieren Sie, dass die Treppen Teil des Corniglia-Erlebnisses sind.",
+            "fr": "Une navette relie la gare au village pendant la saison touristique, en evitant les fameux escaliers. Elle circule peu frequemment mais evite la montee quand on est charge de bagages. Verifiez les horaires—ou acceptez que les escaliers font partie de l'experience Corniglia.",
+            "it": "Una navetta collega la stazione ferroviaria al borgo durante la stagione turistica, aggirando i famosi gradini. Passa di rado ma risparmia la salita quando siete carichi di bagagli. Controllate gli orari—o accettate che le scale sono parte dell'esperienza di Corniglia."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Village That Earns Its Peace",
-      "content": [
-        "Corniglia apartments are not for everyone. They require stairs, planning, and acceptance that convenience was traded for something else.",
-        "What you receive in exchange is a village that actually feels like a village—quiet streets, real neighbors, evenings without tourist crowds, and the satisfaction of living somewhere most visitors only pass through.",
-        "Choose Corniglia if peace matters more than beach access. Choose an apartment if independence matters more than service. The combination creates something worth the climb."
-      ],
+      "title": {
+        "en": "The Village That Earns Its Peace",
+        "de": "Das Dorf, das seinen Frieden verdient",
+        "fr": "Le Village Qui Merite Sa Paix",
+        "it": "Il Borgo Che Si Guadagna la Sua Pace"
+      },
+      "content": {
+        "en": [
+          "Corniglia apartments are not for everyone. They require stairs, planning, and acceptance that convenience was traded for something else.",
+          "What you receive in exchange is a village that actually feels like a village—quiet streets, real neighbors, evenings without tourist crowds, and the satisfaction of living somewhere most visitors only pass through.",
+          "Choose Corniglia if peace matters more than beach access. Choose an apartment if independence matters more than service. The combination creates something worth the climb."
+        ],
+        "de": [
+          "Corniglia-Wohnungen sind nicht fur jeden. Sie erfordern Treppen, Planung und die Akzeptanz, dass Bequemlichkeit gegen etwas anderes eingetauscht wurde.",
+          "Was Sie im Gegenzug erhalten, ist ein Dorf, das sich tatsachlich wie ein Dorf anfuhlt—ruhige Strassen, echte Nachbarn, Abende ohne Touristenmassen und die Zufriedenheit, irgendwo zu leben, wo die meisten Besucher nur durchfahren.",
+          "Wahlen Sie Corniglia, wenn Ruhe wichtiger ist als Strandzugang. Wahlen Sie eine Wohnung, wenn Unabhangigkeit wichtiger ist als Service. Die Kombination schafft etwas, das den Aufstieg wert ist."
+        ],
+        "fr": [
+          "Les appartements de Corniglia ne sont pas pour tout le monde. Ils necessitent des escaliers, de la planification et l'acceptation que la commodite a ete echangee contre autre chose.",
+          "Ce que vous recevez en echange est un village qui ressemble vraiment a un village—des rues calmes, de vrais voisins, des soirees sans foules de touristes et la satisfaction de vivre quelque part ou la plupart des visiteurs ne font que passer.",
+          "Choisissez Corniglia si la paix compte plus que l'acces a la plage. Choisissez un appartement si l'independance compte plus que le service. La combinaison cree quelque chose qui vaut la montee."
+        ],
+        "it": [
+          "Gli appartamenti di Corniglia non sono per tutti. Richiedono scale, pianificazione e accettazione che la comodita e stata scambiata per qualcos'altro.",
+          "Quello che ricevete in cambio e un borgo che sembra davvero un borgo—strade tranquille, veri vicini, sere senza folle di turisti e la soddisfazione di vivere in un posto dove la maggior parte dei visitatori passa soltanto.",
+          "Scegliete Corniglia se la pace conta piu dell'accesso alla spiaggia. Scegliete un appartamento se l'indipendenza conta piu del servizio. La combinazione crea qualcosa che vale la salita."
+        ]
+      },
       "buttons": [
-        { "text": "Hotels & B&Bs", "url": "/en/corniglia/hotels", "variant": "primary" },
-        { "text": "Things to Do", "url": "/en/corniglia/things-to-do", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Hotels & B&Bs",
+            "de": "Hotels & Pensionen",
+            "fr": "Hotels & Chambres d'Hotes",
+            "it": "Hotel & B&B"
+          },
+          "url": {
+            "en": "/en/corniglia/hotels",
+            "de": "/de/corniglia/hotels",
+            "fr": "/fr/corniglia/hotels",
+            "it": "/it/corniglia/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Things to Do",
+            "de": "Aktivitaten",
+            "fr": "A Faire",
+            "it": "Cosa Fare"
+          },
+          "url": {
+            "en": "/en/corniglia/things-to-do",
+            "de": "/de/corniglia/things-to-do",
+            "fr": "/fr/corniglia/things-to-do",
+            "it": "/it/corniglia/things-to-do"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T15:00:00.000Z"
+  "updated_at": "2026-01-07T19:00:00.000Z"
 }

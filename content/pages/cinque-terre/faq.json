@@ -7,33 +7,77 @@
     "it": "/it/cinque-terre/faq"
   },
   "title": {
-    "en": "Cinque Terre FAQ: Your Essential Questions Answered"
+    "en": "Cinque Terre FAQ: Your Essential Questions Answered",
+    "de": "Cinque Terre FAQ: Ihre wichtigsten Fragen beantwortet",
+    "fr": "FAQ Cinque Terre : Réponses à Vos Questions Essentielles",
+    "it": "FAQ Cinque Terre: Risposte alle Vostre Domande Essenziali"
   },
   "page_type": "faq",
   "template": "cinque-terre-editorial",
   "seo": {
     "title": {
-      "en": "Cinque Terre FAQ Guide | Expert Answers | Cinqueterre.travel"
+      "en": "Cinque Terre FAQ Guide | Expert Answers | Cinqueterre.travel",
+      "de": "Cinque Terre FAQ Ratgeber | Expertenantworten | Cinqueterre.travel",
+      "fr": "Guide FAQ Cinque Terre | Réponses d'Experts | Cinqueterre.travel",
+      "it": "Guida FAQ Cinque Terre | Risposte degli Esperti | Cinqueterre.travel"
     },
     "description": {
-      "en": "Get insider answers to the most common Cinque Terre questions. Train schedules, hiking permits, best villages, weather, and more expert travel advice."
+      "en": "Get insider answers to the most common Cinque Terre questions. Train schedules, hiking permits, best villages, weather, and more expert travel advice.",
+      "de": "Erhalten Sie Insider-Antworten auf die häufigsten Cinque-Terre-Fragen. Zugfahrpläne, Wandergenehmigungen, beste Dörfer, Wetter und weitere Expertentipps.",
+      "fr": "Obtenez des réponses d'initiés aux questions les plus courantes sur les Cinque Terre. Horaires des trains, permis de randonnée, meilleurs villages, météo et conseils d'experts.",
+      "it": "Ottenete risposte da insider alle domande più comuni sulle Cinque Terre. Orari dei treni, permessi per escursioni, borghi migliori, meteo e altri consigli esperti."
     }
   },
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Everything You Need<br/>to Know About Cinque Terre",
-      "subtitle": "From train schedules to hiking permits, weather patterns to village secrets - get authoritative answers to the questions every traveler asks about Italy's most spectacular coastal region.",
-      "badge": "Expert Guidance",
+      "title": {
+        "en": "Everything You Need<br/>to Know About Cinque Terre",
+        "de": "Alles, was Sie<br/>über die Cinque Terre wissen müssen",
+        "fr": "Tout Ce Que Vous Devez<br/>Savoir sur les Cinque Terre",
+        "it": "Tutto Quello Che Dovete<br/>Sapere sulle Cinque Terre"
+      },
+      "subtitle": {
+        "en": "From train schedules to hiking permits, weather patterns to village secrets - get authoritative answers to the questions every traveler asks about Italy's most spectacular coastal region.",
+        "de": "Von Zugfahrplänen bis zu Wandergenehmigungen, von Wettermustern bis zu Dorfgeheimnissen – erhalten Sie fundierte Antworten auf die Fragen, die jeder Reisende über Italiens spektakulärste Küstenregion stellt.",
+        "fr": "Des horaires de train aux permis de randonnée, des conditions météo aux secrets des villages – obtenez des réponses autorisées aux questions que tout voyageur se pose sur la région côtière la plus spectaculaire d'Italie.",
+        "it": "Dagli orari dei treni ai permessi per le escursioni, dalle condizioni meteo ai segreti dei borghi – ottenete risposte autorevoli alle domande che ogni viaggiatore si pone sulla regione costiera più spettacolare d'Italia."
+      },
+      "badge": {
+        "en": "Expert Guidance",
+        "de": "Expertenberatung",
+        "fr": "Conseils d'Experts",
+        "it": "Guida Esperta"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533105079780-92b9be482077-hero.jpg",
       "height": "70vh"
     },
     {
       "type": "editorial-intro",
-      "badge": "By the Numbers",
-      "quote": "The five UNESCO villages - Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore - stretch along 12km of dramatic coastline between Levanto and La Spezia.",
-      "leftContent": "<p>Trains connect villages every <strong>2-4 minutes</strong> during peak hours, with the <strong>Cinque Terre Card at EUR16 daily</strong> covering trains, hiking trails, and Wi-Fi.</p><p>Based on <strong>15 years of guiding travelers</strong> through these coastal villages, we've answered every question you might have.</p>",
-      "rightContent": "<p>Whether you're planning a day trip or an extended stay, understanding the <strong>practical realities</strong> transforms your experience from tourist routine to authentic discovery.</p><p>From booking strategies to local etiquette, these insights come from living and breathing this remarkable place.</p>"
+      "badge": {
+        "en": "By the Numbers",
+        "de": "In Zahlen",
+        "fr": "En Chiffres",
+        "it": "In Numeri"
+      },
+      "quote": {
+        "en": "The five UNESCO villages - Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore - stretch along 12km of dramatic coastline between Levanto and La Spezia.",
+        "de": "Die fünf UNESCO-Dörfer – Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore – erstrecken sich entlang von 12 km dramatischer Küste zwischen Levanto und La Spezia.",
+        "fr": "Les cinq villages UNESCO – Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore – s'étendent sur 12 km de littoral spectaculaire entre Levanto et La Spezia.",
+        "it": "I cinque borghi UNESCO – Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore – si estendono lungo 12 km di costa spettacolare tra Levanto e La Spezia."
+      },
+      "leftContent": {
+        "en": "<p>Trains connect villages every <strong>2-4 minutes</strong> during peak hours, with the <strong>Cinque Terre Card at EUR16 daily</strong> covering trains, hiking trails, and Wi-Fi.</p><p>Based on <strong>15 years of guiding travelers</strong> through these coastal villages, we've answered every question you might have.</p>",
+        "de": "<p>Züge verbinden die Dörfer alle <strong>2-4 Minuten</strong> zu Stoßzeiten, wobei die <strong>Cinque Terre Card für 16 EUR täglich</strong> Züge, Wanderwege und WLAN abdeckt.</p><p>Basierend auf <strong>15 Jahren Erfahrung</strong> als Reiseleiter durch diese Küstendörfer haben wir jede Frage beantwortet, die Sie haben könnten.</p>",
+        "fr": "<p>Les trains relient les villages toutes les <strong>2-4 minutes</strong> aux heures de pointe, avec la <strong>Cinque Terre Card à 16 EUR par jour</strong> couvrant trains, sentiers de randonnée et Wi-Fi.</p><p>Forts de <strong>15 ans d'expérience</strong> à guider des voyageurs à travers ces villages côtiers, nous avons répondu à toutes vos questions.</p>",
+        "it": "<p>I treni collegano i borghi ogni <strong>2-4 minuti</strong> nelle ore di punta, con la <strong>Cinque Terre Card a 16 EUR al giorno</strong> che copre treni, sentieri escursionistici e Wi-Fi.</p><p>Con <strong>15 anni di esperienza</strong> nel guidare viaggiatori attraverso questi borghi costieri, abbiamo risposto a ogni domanda possiate avere.</p>"
+      },
+      "rightContent": {
+        "en": "<p>Whether you're planning a day trip or an extended stay, understanding the <strong>practical realities</strong> transforms your experience from tourist routine to authentic discovery.</p><p>From booking strategies to local etiquette, these insights come from living and breathing this remarkable place.</p>",
+        "de": "<p>Ob Sie einen Tagesausflug oder einen längeren Aufenthalt planen, das Verständnis der <strong>praktischen Gegebenheiten</strong> verwandelt Ihr Erlebnis von touristischer Routine in authentische Entdeckung.</p><p>Von Buchungsstrategien bis zur lokalen Etikette – diese Einblicke stammen aus dem Leben und Atmen dieses bemerkenswerten Ortes.</p>",
+        "fr": "<p>Que vous planifiez une excursion d'une journée ou un séjour prolongé, comprendre les <strong>réalités pratiques</strong> transforme votre expérience d'une routine touristique en découverte authentique.</p><p>Des stratégies de réservation à l'étiquette locale, ces conseils viennent de notre immersion totale dans cet endroit remarquable.</p>",
+        "it": "<p>Che stiate pianificando una gita giornaliera o un soggiorno prolungato, comprendere le <strong>realtà pratiche</strong> trasforma la vostra esperienza da routine turistica a scoperta autentica.</p><p>Dalle strategie di prenotazione all'etichetta locale, questi consigli derivano dal vivere e respirare questo luogo straordinario.</p>"
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -41,54 +85,189 @@
       "items": [
         {
           "id": 1,
-          "name": "Train Connections",
-          "category": "Transportation",
-          "description": "Regional trains connect all five villages every 15-30 minutes in summer. No reservations needed - just validate your ticket before boarding.",
-          "signature": "The trains are your lifeline between villages"
+          "name": {
+            "en": "Train Connections",
+            "de": "Zugverbindungen",
+            "fr": "Connexions Ferroviaires",
+            "it": "Collegamenti Ferroviari"
+          },
+          "category": {
+            "en": "Transportation",
+            "de": "Transport",
+            "fr": "Transport",
+            "it": "Trasporti"
+          },
+          "description": {
+            "en": "Regional trains connect all five villages every 15-30 minutes in summer. No reservations needed - just validate your ticket before boarding.",
+            "de": "Regionalzüge verbinden alle fünf Dörfer im Sommer alle 15-30 Minuten. Keine Reservierung erforderlich – einfach vor dem Einsteigen das Ticket entwerten.",
+            "fr": "Les trains régionaux relient les cinq villages toutes les 15-30 minutes en été. Pas de réservation nécessaire – validez simplement votre billet avant d'embarquer.",
+            "it": "I treni regionali collegano tutti e cinque i borghi ogni 15-30 minuti in estate. Nessuna prenotazione necessaria – basta timbrare il biglietto prima di salire."
+          },
+          "signature": {
+            "en": "The trains are your lifeline between villages",
+            "de": "Die Züge sind Ihre Lebensader zwischen den Dörfern",
+            "fr": "Les trains sont votre ligne de vie entre les villages",
+            "it": "I treni sono la vostra linea vitale tra i borghi"
+          }
         },
         {
           "id": 2,
-          "name": "Hiking Requirements",
-          "category": "Trails",
-          "description": "The famous Sentiero Azzurro requires a Cinque Terre Card (EUR16/day). Blue Trail sections may close due to landslides - check current status.",
-          "signature": "Always verify trail conditions before setting out"
+          "name": {
+            "en": "Hiking Requirements",
+            "de": "Wanderanforderungen",
+            "fr": "Conditions de Randonnée",
+            "it": "Requisiti per le Escursioni"
+          },
+          "category": {
+            "en": "Trails",
+            "de": "Wege",
+            "fr": "Sentiers",
+            "it": "Sentieri"
+          },
+          "description": {
+            "en": "The famous Sentiero Azzurro requires a Cinque Terre Card (EUR16/day). Blue Trail sections may close due to landslides - check current status.",
+            "de": "Der berühmte Sentiero Azzurro erfordert eine Cinque Terre Card (16 EUR/Tag). Abschnitte des Blauen Weges können wegen Erdrutschen geschlossen sein – prüfen Sie den aktuellen Status.",
+            "fr": "Le célèbre Sentiero Azzurro nécessite une Cinque Terre Card (16 EUR/jour). Des sections du Sentier Bleu peuvent fermer en raison de glissements de terrain – vérifiez l'état actuel.",
+            "it": "Il famoso Sentiero Azzurro richiede la Cinque Terre Card (16 EUR/giorno). Tratti del Sentiero Blu potrebbero chiudere per frane – verificate lo stato attuale."
+          },
+          "signature": {
+            "en": "Always verify trail conditions before setting out",
+            "de": "Überprüfen Sie immer die Wegbedingungen vor dem Aufbruch",
+            "fr": "Vérifiez toujours l'état des sentiers avant de partir",
+            "it": "Verificate sempre le condizioni dei sentieri prima di partire"
+          }
         },
         {
           "id": 3,
-          "name": "Where to Stay",
-          "category": "Accommodation",
-          "description": "Monterosso offers beaches and luxury hotels. Vernazza provides classic charm. Riomaggiore has the best sunset views and nightlife options.",
-          "signature": "Each village offers a distinct experience"
+          "name": {
+            "en": "Where to Stay",
+            "de": "Wo übernachten",
+            "fr": "Où Séjourner",
+            "it": "Dove Alloggiare"
+          },
+          "category": {
+            "en": "Accommodation",
+            "de": "Unterkunft",
+            "fr": "Hébergement",
+            "it": "Alloggio"
+          },
+          "description": {
+            "en": "Monterosso offers beaches and luxury hotels. Vernazza provides classic charm. Riomaggiore has the best sunset views and nightlife options.",
+            "de": "Monterosso bietet Strände und Luxushotels. Vernazza besticht durch klassischen Charme. Riomaggiore hat die besten Sonnenuntergangsaussichten und Nachtlebenoptionen.",
+            "fr": "Monterosso offre des plages et des hôtels de luxe. Vernazza propose un charme classique. Riomaggiore a les plus belles vues sur le coucher de soleil et la vie nocturne.",
+            "it": "Monterosso offre spiagge e hotel di lusso. Vernazza regala fascino classico. Riomaggiore ha le migliori viste sul tramonto e opzioni per la vita notturna."
+          },
+          "signature": {
+            "en": "Each village offers a distinct experience",
+            "de": "Jedes Dorf bietet ein einzigartiges Erlebnis",
+            "fr": "Chaque village offre une expérience distincte",
+            "it": "Ogni borgo offre un'esperienza unica"
+          }
         },
         {
           "id": 4,
-          "name": "Booking & Tickets",
-          "category": "Planning",
-          "description": "Buy Cinque Terre Cards at any train station. Book accommodations 3-6 months ahead for summer. Ferry tickets can be purchased day-of at harbors.",
-          "signature": "Advance planning rewards the prepared traveler"
+          "name": {
+            "en": "Booking & Tickets",
+            "de": "Buchung & Tickets",
+            "fr": "Réservations & Billets",
+            "it": "Prenotazioni & Biglietti"
+          },
+          "category": {
+            "en": "Planning",
+            "de": "Planung",
+            "fr": "Planification",
+            "it": "Pianificazione"
+          },
+          "description": {
+            "en": "Buy Cinque Terre Cards at any train station. Book accommodations 3-6 months ahead for summer. Ferry tickets can be purchased day-of at harbors.",
+            "de": "Kaufen Sie Cinque Terre Cards an jedem Bahnhof. Buchen Sie Unterkünfte 3-6 Monate im Voraus für den Sommer. Fährtickets können am Tag in den Häfen gekauft werden.",
+            "fr": "Achetez les Cinque Terre Cards dans n'importe quelle gare. Réservez les hébergements 3-6 mois à l'avance pour l'été. Les billets de ferry s'achètent le jour même aux ports.",
+            "it": "Acquistate le Cinque Terre Card in qualsiasi stazione. Prenotate gli alloggi 3-6 mesi prima per l'estate. I biglietti del traghetto si possono acquistare il giorno stesso ai porti."
+          },
+          "signature": {
+            "en": "Advance planning rewards the prepared traveler",
+            "de": "Vorausplanung belohnt den vorbereiteten Reisenden",
+            "fr": "La planification à l'avance récompense le voyageur préparé",
+            "it": "La pianificazione anticipata premia il viaggiatore preparato"
+          }
         },
         {
           "id": 5,
-          "name": "Weather & Timing",
-          "category": "Seasons",
-          "description": "April-June and September-October offer ideal conditions. July-August brings crowds and heat. Winter sees restaurant closures and limited services.",
-          "signature": "Shoulder season is the local's secret"
+          "name": {
+            "en": "Weather & Timing",
+            "de": "Wetter & Timing",
+            "fr": "Météo & Timing",
+            "it": "Meteo & Tempistiche"
+          },
+          "category": {
+            "en": "Seasons",
+            "de": "Jahreszeiten",
+            "fr": "Saisons",
+            "it": "Stagioni"
+          },
+          "description": {
+            "en": "April-June and September-October offer ideal conditions. July-August brings crowds and heat. Winter sees restaurant closures and limited services.",
+            "de": "April-Juni und September-Oktober bieten ideale Bedingungen. Juli-August bringen Menschenmassen und Hitze. Im Winter schließen viele Restaurants und es gibt eingeschränkte Dienste.",
+            "fr": "Avril-juin et septembre-octobre offrent des conditions idéales. Juillet-août apportent foule et chaleur. L'hiver voit des fermetures de restaurants et des services limités.",
+            "it": "Aprile-giugno e settembre-ottobre offrono condizioni ideali. Luglio-agosto portano folle e caldo. In inverno ci sono chiusure di ristoranti e servizi limitati."
+          },
+          "signature": {
+            "en": "Shoulder season is the local's secret",
+            "de": "Die Nebensaison ist das Geheimnis der Einheimischen",
+            "fr": "L'intersaison est le secret des locaux",
+            "it": "La bassa stagione è il segreto dei locali"
+          }
         },
         {
           "id": 6,
-          "name": "Budget Planning",
-          "category": "Costs",
-          "description": "Expect EUR80-150 per person daily including meals, transport, and activities. Grocery shopping and picnics can significantly reduce costs.",
-          "signature": "Quality experiences at every budget level"
+          "name": {
+            "en": "Budget Planning",
+            "de": "Budgetplanung",
+            "fr": "Budget",
+            "it": "Pianificazione del Budget"
+          },
+          "category": {
+            "en": "Costs",
+            "de": "Kosten",
+            "fr": "Coûts",
+            "it": "Costi"
+          },
+          "description": {
+            "en": "Expect EUR80-150 per person daily including meals, transport, and activities. Grocery shopping and picnics can significantly reduce costs.",
+            "de": "Rechnen Sie mit 80-150 EUR pro Person täglich inklusive Mahlzeiten, Transport und Aktivitäten. Einkaufen im Supermarkt und Picknicks können die Kosten erheblich senken.",
+            "fr": "Prévoyez 80-150 EUR par personne et par jour, repas, transport et activités inclus. Les courses et les pique-niques peuvent réduire considérablement les coûts.",
+            "it": "Prevedete 80-150 EUR a persona al giorno inclusi pasti, trasporti e attività. Fare la spesa al supermercato e i picnic possono ridurre notevolmente i costi."
+          },
+          "signature": {
+            "en": "Quality experiences at every budget level",
+            "de": "Qualitätserlebnisse für jedes Budget",
+            "fr": "Des expériences de qualité à tous les budgets",
+            "it": "Esperienze di qualità per ogni budget"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 2,
           "type": "primary",
-          "badge": "Insider Tip",
-          "title": "The Art of Slow Travel",
-          "quote": "Three days minimum allows you to visit all five villages with time for hiking and relaxation. Two days feels rushed but covers the highlights. Five days lets you explore deeply, including nearby Portovenere and Levanto.",
+          "badge": {
+            "en": "Insider Tip",
+            "de": "Insider-Tipp",
+            "fr": "Conseil d'Initié",
+            "it": "Consiglio da Insider"
+          },
+          "title": {
+            "en": "The Art of Slow Travel",
+            "de": "Die Kunst des langsamen Reisens",
+            "fr": "L'Art du Voyage Lent",
+            "it": "L'Arte del Viaggio Lento"
+          },
+          "quote": {
+            "en": "Three days minimum allows you to visit all five villages with time for hiking and relaxation. Two days feels rushed but covers the highlights. Five days lets you explore deeply, including nearby Portovenere and Levanto.",
+            "de": "Mindestens drei Tage ermöglichen es Ihnen, alle fünf Dörfer mit Zeit zum Wandern und Entspannen zu besuchen. Zwei Tage fühlen sich gehetzt an, decken aber die Highlights ab. Fünf Tage erlauben tiefes Erkunden, einschließlich des nahen Portovenere und Levanto.",
+            "fr": "Trois jours minimum vous permettent de visiter les cinq villages avec du temps pour la randonnée et la détente. Deux jours semblent précipités mais couvrent les points forts. Cinq jours permettent une exploration approfondie, y compris Portovenere et Levanto à proximité.",
+            "it": "Tre giorni al minimo vi permettono di visitare tutti e cinque i borghi con tempo per escursioni e relax. Due giorni sembrano affrettati ma coprono i punti salienti. Cinque giorni permettono un'esplorazione approfondita, incluse le vicine Portovenere e Levanto."
+          },
           "align": "left"
         }
       ]
@@ -96,40 +275,130 @@
     {
       "type": "faq-section",
       "variant": "accordion",
-      "title": "Essential Cinque Terre Questions",
-      "subtitle": "Based on 15 years of guiding travelers through these coastal villages",
+      "title": {
+        "en": "Essential Cinque Terre Questions",
+        "de": "Wichtige Fragen zu den Cinque Terre",
+        "fr": "Questions Essentielles sur les Cinque Terre",
+        "it": "Domande Essenziali sulle Cinque Terre"
+      },
+      "subtitle": {
+        "en": "Based on 15 years of guiding travelers through these coastal villages",
+        "de": "Basierend auf 15 Jahren Erfahrung als Reiseleiter durch diese Küstendörfer",
+        "fr": "Basé sur 15 ans d'expérience à guider des voyageurs à travers ces villages côtiers",
+        "it": "Basato su 15 anni di esperienza nel guidare viaggiatori attraverso questi borghi costieri"
+      },
       "faqs": [
         {
-          "question": "How many days do I need for Cinque Terre?",
-          "answer": "Three days minimum allows you to visit all five villages with time for hiking and relaxation. Two days feels rushed but covers the highlights. Five days lets you explore deeply, including nearby Portovenere and Levanto. Most visitors find 3-4 days ideal for experiencing the region without feeling hurried."
+          "question": {
+            "en": "How many days do I need for Cinque Terre?",
+            "de": "Wie viele Tage brauche ich für die Cinque Terre?",
+            "fr": "Combien de jours faut-il pour les Cinque Terre ?",
+            "it": "Quanti giorni servono per le Cinque Terre?"
+          },
+          "answer": {
+            "en": "Three days minimum allows you to visit all five villages with time for hiking and relaxation. Two days feels rushed but covers the highlights. Five days lets you explore deeply, including nearby Portovenere and Levanto. Most visitors find 3-4 days ideal for experiencing the region without feeling hurried.",
+            "de": "Mindestens drei Tage ermöglichen es Ihnen, alle fünf Dörfer mit Zeit zum Wandern und Entspannen zu besuchen. Zwei Tage fühlen sich gehetzt an, decken aber die Highlights ab. Fünf Tage erlauben tiefes Erkunden, einschließlich des nahen Portovenere und Levanto. Die meisten Besucher finden 3-4 Tage ideal, um die Region ohne Hektik zu erleben.",
+            "fr": "Trois jours minimum vous permettent de visiter les cinq villages avec du temps pour la randonnée et la détente. Deux jours semblent précipités mais couvrent les points forts. Cinq jours permettent une exploration approfondie, y compris Portovenere et Levanto à proximité. La plupart des visiteurs trouvent 3-4 jours idéaux pour découvrir la région sans se presser.",
+            "it": "Tre giorni al minimo vi permettono di visitare tutti e cinque i borghi con tempo per escursioni e relax. Due giorni sembrano affrettati ma coprono i punti salienti. Cinque giorni permettono un'esplorazione approfondita, incluse le vicine Portovenere e Levanto. La maggior parte dei visitatori trova 3-4 giorni ideali per vivere la regione senza fretta."
+          }
         },
         {
-          "question": "Can I drive between the villages?",
-          "answer": "Cars are prohibited or severely restricted in all five villages. Monterosso has limited paid parking (EUR2/hour, EUR25/day) but fills quickly. The most practical approach is parking in La Spezia (EUR15-20/day) or Levanto (EUR18-25/day) and using trains exclusively. This eliminates stress and aligns with the region's sustainable tourism goals."
+          "question": {
+            "en": "Can I drive between the villages?",
+            "de": "Kann ich zwischen den Dörfern mit dem Auto fahren?",
+            "fr": "Puis-je conduire entre les villages ?",
+            "it": "Posso guidare tra i borghi?"
+          },
+          "answer": {
+            "en": "Cars are prohibited or severely restricted in all five villages. Monterosso has limited paid parking (EUR2/hour, EUR25/day) but fills quickly. The most practical approach is parking in La Spezia (EUR15-20/day) or Levanto (EUR18-25/day) and using trains exclusively. This eliminates stress and aligns with the region's sustainable tourism goals.",
+            "de": "Autos sind in allen fünf Dörfern verboten oder stark eingeschränkt. Monterosso hat begrenzte kostenpflichtige Parkplätze (2 EUR/Stunde, 25 EUR/Tag), die schnell voll sind. Der praktischste Ansatz ist das Parken in La Spezia (15-20 EUR/Tag) oder Levanto (18-25 EUR/Tag) und die ausschließliche Nutzung von Zügen. Das eliminiert Stress und entspricht den nachhaltigen Tourismuszielen der Region.",
+            "fr": "Les voitures sont interdites ou fortement restreintes dans les cinq villages. Monterosso dispose d'un parking payant limité (2 EUR/heure, 25 EUR/jour) mais se remplit vite. L'approche la plus pratique est de se garer à La Spezia (15-20 EUR/jour) ou Levanto (18-25 EUR/jour) et d'utiliser exclusivement le train. Cela élimine le stress et s'aligne sur les objectifs de tourisme durable de la région.",
+            "it": "Le auto sono vietate o fortemente limitate in tutti e cinque i borghi. Monterosso ha parcheggi a pagamento limitati (2 EUR/ora, 25 EUR/giorno) che si riempiono velocemente. L'approccio più pratico è parcheggiare a La Spezia (15-20 EUR/giorno) o Levanto (18-25 EUR/giorno) e usare esclusivamente i treni. Questo elimina lo stress ed è in linea con gli obiettivi di turismo sostenibile della regione."
+          }
         },
         {
-          "question": "Is the hiking difficult and are trails open?",
-          "answer": "The famous Blue Trail (Sentiero Azzurro) varies dramatically by section. Monterosso to Vernazza is moderate (90 minutes). Vernazza to Corniglia is challenging with steep climbs (90 minutes). The Corniglia to Manarola section has been closed since 2011 due to landslides. Manarola to Riomaggiore (Via dell'Amore) reopens in 2024 after decade-long restoration. Always check current trail status at park offices."
+          "question": {
+            "en": "Is the hiking difficult and are trails open?",
+            "de": "Ist das Wandern schwierig und sind die Wege geöffnet?",
+            "fr": "La randonnée est-elle difficile et les sentiers sont-ils ouverts ?",
+            "it": "Le escursioni sono difficili e i sentieri sono aperti?"
+          },
+          "answer": {
+            "en": "The famous Blue Trail (Sentiero Azzurro) varies dramatically by section. Monterosso to Vernazza is moderate (90 minutes). Vernazza to Corniglia is challenging with steep climbs (90 minutes). The Corniglia to Manarola section has been closed since 2011 due to landslides. Manarola to Riomaggiore (Via dell'Amore) reopens in 2024 after decade-long restoration. Always check current trail status at park offices.",
+            "de": "Der berühmte Blaue Weg (Sentiero Azzurro) variiert stark je nach Abschnitt. Monterosso nach Vernazza ist moderat (90 Minuten). Vernazza nach Corniglia ist anspruchsvoll mit steilen Anstiegen (90 Minuten). Der Abschnitt Corniglia nach Manarola ist seit 2011 wegen Erdrutschen geschlossen. Manarola nach Riomaggiore (Via dell'Amore) wurde 2024 nach jahrzehntelanger Restaurierung wiedereröffnet. Überprüfen Sie immer den aktuellen Wegstatus bei den Parkbüros.",
+            "fr": "Le célèbre Sentier Bleu (Sentiero Azzurro) varie considérablement selon les sections. Monterosso à Vernazza est modéré (90 minutes). Vernazza à Corniglia est difficile avec des montées raides (90 minutes). La section Corniglia à Manarola est fermée depuis 2011 en raison de glissements de terrain. Manarola à Riomaggiore (Via dell'Amore) a rouvert en 2024 après une décennie de restauration. Vérifiez toujours l'état actuel des sentiers aux bureaux du parc.",
+            "it": "Il famoso Sentiero Azzurro varia notevolmente per sezione. Monterosso-Vernazza è moderato (90 minuti). Vernazza-Corniglia è impegnativo con salite ripide (90 minuti). Il tratto Corniglia-Manarola è chiuso dal 2011 per frane. Manarola-Riomaggiore (Via dell'Amore) ha riaperto nel 2024 dopo un decennio di restauro. Verificate sempre lo stato attuale dei sentieri presso gli uffici del parco."
+          }
         },
         {
-          "question": "What's the best village to stay in?",
-          "answer": "Monterosso suits families and luxury travelers with sandy beaches and upscale hotels. Vernazza offers the most photogenic harbor and classic atmosphere but gets very crowded. Manarola provides stunning sunset views and fewer tourists. Corniglia sits high above the sea with vineyard views but requires a 377-step climb from the station. Riomaggiore has the best restaurant scene and nightlife options."
+          "question": {
+            "en": "What's the best village to stay in?",
+            "de": "Welches ist das beste Dorf zum Übernachten?",
+            "fr": "Quel est le meilleur village où séjourner ?",
+            "it": "Qual è il borgo migliore dove alloggiare?"
+          },
+          "answer": {
+            "en": "Monterosso suits families and luxury travelers with sandy beaches and upscale hotels. Vernazza offers the most photogenic harbor and classic atmosphere but gets very crowded. Manarola provides stunning sunset views and fewer tourists. Corniglia sits high above the sea with vineyard views but requires a 377-step climb from the station. Riomaggiore has the best restaurant scene and nightlife options.",
+            "de": "Monterosso eignet sich für Familien und Luxusreisende mit Sandstränden und gehobenen Hotels. Vernazza bietet den fotogensten Hafen und klassische Atmosphäre, wird aber sehr überfüllt. Manarola bietet atemberaubende Sonnenuntergangsaussichten und weniger Touristen. Corniglia liegt hoch über dem Meer mit Weinbergblick, erfordert aber 377 Stufen vom Bahnhof. Riomaggiore hat die beste Restaurantszene und Nachtlebenoptionen.",
+            "fr": "Monterosso convient aux familles et aux voyageurs de luxe avec ses plages de sable et ses hôtels haut de gamme. Vernazza offre le port le plus photogénique et une atmosphère classique mais devient très bondé. Manarola offre de superbes vues sur le coucher de soleil et moins de touristes. Corniglia est perché au-dessus de la mer avec vue sur les vignobles mais nécessite une montée de 377 marches depuis la gare. Riomaggiore a la meilleure scène de restaurants et vie nocturne.",
+            "it": "Monterosso è adatto a famiglie e viaggiatori di lusso con spiagge sabbiose e hotel di lusso. Vernazza offre il porto più fotogenico e un'atmosfera classica ma diventa molto affollata. Manarola offre viste mozzafiato sul tramonto e meno turisti. Corniglia si trova in alto sul mare con vista sui vigneti ma richiede 377 gradini dalla stazione. Riomaggiore ha la migliore scena di ristoranti e vita notturna."
+          }
         },
         {
-          "question": "How crowded does it get and when should I avoid?",
-          "answer": "July and August bring overwhelming crowds, especially on weekends. Easter through October sees heavy tourist traffic during midday (10am-4pm). Early morning (before 9am) and evening (after 5pm) offer more peaceful experiences. Shoulder seasons (April-May, September-October) provide the best balance of good weather and manageable crowds. Winter offers solitude but many restaurants and services close."
+          "question": {
+            "en": "How crowded does it get and when should I avoid?",
+            "de": "Wie überfüllt wird es und wann sollte ich es meiden?",
+            "fr": "À quel point c'est bondé et quand faut-il éviter ?",
+            "it": "Quanto è affollato e quando dovrei evitare?"
+          },
+          "answer": {
+            "en": "July and August bring overwhelming crowds, especially on weekends. Easter through October sees heavy tourist traffic during midday (10am-4pm). Early morning (before 9am) and evening (after 5pm) offer more peaceful experiences. Shoulder seasons (April-May, September-October) provide the best balance of good weather and manageable crowds. Winter offers solitude but many restaurants and services close.",
+            "de": "Juli und August bringen überwältigende Menschenmassen, besonders an Wochenenden. Von Ostern bis Oktober gibt es starken Touristenverkehr zur Mittagszeit (10-16 Uhr). Früher Morgen (vor 9 Uhr) und Abend (nach 17 Uhr) bieten friedlichere Erlebnisse. Die Nebensaison (April-Mai, September-Oktober) bietet die beste Balance aus gutem Wetter und überschaubaren Menschenmengen. Der Winter bietet Ruhe, aber viele Restaurants und Dienste schließen.",
+            "fr": "Juillet et août apportent des foules accablantes, surtout les week-ends. De Pâques à octobre, le trafic touristique est intense en milieu de journée (10h-16h). Le matin tôt (avant 9h) et le soir (après 17h) offrent des expériences plus paisibles. L'intersaison (avril-mai, septembre-octobre) offre le meilleur équilibre entre beau temps et foules gérables. L'hiver offre la solitude mais de nombreux restaurants et services ferment.",
+            "it": "Luglio e agosto portano folle travolgenti, specialmente nei fine settimana. Da Pasqua a ottobre c'è intenso traffico turistico a metà giornata (10-16). La mattina presto (prima delle 9) e la sera (dopo le 17) offrono esperienze più tranquille. La bassa stagione (aprile-maggio, settembre-ottobre) offre il miglior equilibrio tra bel tempo e folle gestibili. L'inverno offre solitudine ma molti ristoranti e servizi chiudono."
+          }
         },
         {
-          "question": "How much does everything cost?",
-          "answer": "Daily budget breakdown: Transportation (Cinque Terre Card EUR16), meals (EUR35-60 per person for lunch and dinner), accommodation (EUR80-250 per night depending on season and village), activities like boat tours (EUR25-35). Total daily cost ranges from EUR80 for budget travelers to EUR200+ for luxury experiences. Grocery shopping and avoiding tourist-trap restaurants near train stations can significantly reduce costs."
+          "question": {
+            "en": "How much does everything cost?",
+            "de": "Was kostet alles?",
+            "fr": "Combien coûte tout ?",
+            "it": "Quanto costa tutto?"
+          },
+          "answer": {
+            "en": "Daily budget breakdown: Transportation (Cinque Terre Card EUR16), meals (EUR35-60 per person for lunch and dinner), accommodation (EUR80-250 per night depending on season and village), activities like boat tours (EUR25-35). Total daily cost ranges from EUR80 for budget travelers to EUR200+ for luxury experiences. Grocery shopping and avoiding tourist-trap restaurants near train stations can significantly reduce costs.",
+            "de": "Tägliche Budgetaufschlüsselung: Transport (Cinque Terre Card 16 EUR), Mahlzeiten (35-60 EUR pro Person für Mittag- und Abendessen), Unterkunft (80-250 EUR pro Nacht je nach Saison und Dorf), Aktivitäten wie Bootstouren (25-35 EUR). Die täglichen Gesamtkosten reichen von 80 EUR für Budget-Reisende bis zu 200+ EUR für Luxuserlebnisse. Einkaufen im Supermarkt und das Vermeiden von Touristenfallen-Restaurants in Bahnhofsnähe können die Kosten erheblich senken.",
+            "fr": "Répartition du budget quotidien : Transport (Cinque Terre Card 16 EUR), repas (35-60 EUR par personne pour déjeuner et dîner), hébergement (80-250 EUR par nuit selon la saison et le village), activités comme les excursions en bateau (25-35 EUR). Le coût quotidien total va de 80 EUR pour les voyageurs à petit budget à 200+ EUR pour les expériences de luxe. Faire ses courses et éviter les restaurants attrape-touristes près des gares peut réduire considérablement les coûts.",
+            "it": "Ripartizione del budget giornaliero: Trasporti (Cinque Terre Card 16 EUR), pasti (35-60 EUR a persona per pranzo e cena), alloggio (80-250 EUR a notte a seconda della stagione e del borgo), attività come gite in barca (25-35 EUR). Il costo giornaliero totale va da 80 EUR per viaggiatori low-budget a 200+ EUR per esperienze di lusso. Fare la spesa al supermercato ed evitare i ristoranti per turisti vicino alle stazioni può ridurre notevolmente i costi."
+          }
         },
         {
-          "question": "What about accessibility and mobility issues?",
-          "answer": "Cinque Terre presents significant mobility challenges. All villages except Monterosso require extensive stair climbing from train stations to town centers. Corniglia demands a 377-step ascent. Wheelchairs and mobility scooters face serious limitations. Monterosso offers the most accessible experience with beach access and fewer stairs. The regional trains are accessible, but village navigation requires good mobility. Consider this carefully when planning your visit."
+          "question": {
+            "en": "What about accessibility and mobility issues?",
+            "de": "Was ist mit Barrierefreiheit und Mobilitätsproblemen?",
+            "fr": "Qu'en est-il de l'accessibilité et des problèmes de mobilité ?",
+            "it": "E per quanto riguarda l'accessibilità e i problemi di mobilità?"
+          },
+          "answer": {
+            "en": "Cinque Terre presents significant mobility challenges. All villages except Monterosso require extensive stair climbing from train stations to town centers. Corniglia demands a 377-step ascent. Wheelchairs and mobility scooters face serious limitations. Monterosso offers the most accessible experience with beach access and fewer stairs. The regional trains are accessible, but village navigation requires good mobility. Consider this carefully when planning your visit.",
+            "de": "Die Cinque Terre stellen erhebliche Mobilitätsherausforderungen dar. Alle Dörfer außer Monterosso erfordern umfangreiches Treppensteigen von den Bahnhöfen zu den Ortszentren. Corniglia erfordert einen Aufstieg von 377 Stufen. Rollstühle und Mobilitätsroller haben erhebliche Einschränkungen. Monterosso bietet die barrierefreieste Erfahrung mit Strandzugang und weniger Treppen. Die Regionalzüge sind barrierefrei, aber die Navigation in den Dörfern erfordert gute Mobilität. Berücksichtigen Sie dies sorgfältig bei Ihrer Planung.",
+            "fr": "Les Cinque Terre présentent des défis de mobilité importants. Tous les villages sauf Monterosso nécessitent de nombreux escaliers des gares aux centres-villes. Corniglia demande une ascension de 377 marches. Les fauteuils roulants et scooters de mobilité font face à de sérieuses limitations. Monterosso offre l'expérience la plus accessible avec accès à la plage et moins d'escaliers. Les trains régionaux sont accessibles, mais la navigation dans les villages nécessite une bonne mobilité. Considérez cela attentivement lors de la planification de votre visite.",
+            "it": "Le Cinque Terre presentano sfide significative per la mobilità. Tutti i borghi tranne Monterosso richiedono di salire molte scale dalle stazioni ai centri paese. Corniglia richiede un'ascesa di 377 gradini. Sedie a rotelle e scooter per la mobilità affrontano serie limitazioni. Monterosso offre l'esperienza più accessibile con accesso alla spiaggia e meno scale. I treni regionali sono accessibili, ma la navigazione nei borghi richiede buona mobilità. Considerate questo attentamente nella pianificazione della vostra visita."
+          }
         },
         {
-          "question": "Can I visit as a day trip from Florence or Rome?",
-          "answer": "From Florence: Yes, feasible but long. Departure by 7am allows 6-8 hours in Cinque Terre, returning by 10pm. High-speed train to La Spezia takes 2.5 hours each way. From Rome: Extremely challenging as a day trip. The 4+ hour journey each way leaves minimal time for exploration. Consider staying overnight in La Spezia or within Cinque Terre for a more enjoyable experience."
+          "question": {
+            "en": "Can I visit as a day trip from Florence or Rome?",
+            "de": "Kann ich als Tagesausflug von Florenz oder Rom kommen?",
+            "fr": "Puis-je visiter en excursion d'une journée depuis Florence ou Rome ?",
+            "it": "Posso visitare in giornata da Firenze o Roma?"
+          },
+          "answer": {
+            "en": "From Florence: Yes, feasible but long. Departure by 7am allows 6-8 hours in Cinque Terre, returning by 10pm. High-speed train to La Spezia takes 2.5 hours each way. From Rome: Extremely challenging as a day trip. The 4+ hour journey each way leaves minimal time for exploration. Consider staying overnight in La Spezia or within Cinque Terre for a more enjoyable experience.",
+            "de": "Von Florenz: Ja, machbar aber lang. Abfahrt um 7 Uhr ermöglicht 6-8 Stunden in den Cinque Terre, Rückkehr bis 22 Uhr. Der Schnellzug nach La Spezia dauert 2,5 Stunden pro Strecke. Von Rom: Extrem herausfordernd als Tagesausflug. Die 4+ Stunden Fahrt pro Richtung lassen minimal Zeit zum Erkunden. Erwägen Sie eine Übernachtung in La Spezia oder in den Cinque Terre für ein angenehmeres Erlebnis.",
+            "fr": "Depuis Florence : Oui, faisable mais long. Un départ à 7h permet 6-8 heures aux Cinque Terre, retour vers 22h. Le train à grande vitesse vers La Spezia prend 2,5 heures par trajet. Depuis Rome : Extrêmement difficile en excursion d'une journée. Le trajet de 4+ heures dans chaque sens laisse un temps minimal pour l'exploration. Envisagez de passer la nuit à La Spezia ou aux Cinque Terre pour une expérience plus agréable.",
+            "it": "Da Firenze: Sì, fattibile ma lungo. Partenza alle 7 permette 6-8 ore nelle Cinque Terre, rientro entro le 22. Il treno ad alta velocità per La Spezia impiega 2,5 ore per tratta. Da Roma: Estremamente impegnativo come gita giornaliera. Il viaggio di 4+ ore per tratta lascia tempo minimo per l'esplorazione. Considerate di pernottare a La Spezia o nelle Cinque Terre per un'esperienza più piacevole."
+          }
         }
       ]
     },
@@ -137,17 +406,60 @@
       "type": "content-section",
       "variant": "text-with-image-right",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1590846406792-0adc7f938f1d-regular.jpg",
-      "title": "Insider Tips for First-Time Visitors",
-      "content": "After guiding thousands of travelers through Cinque Terre, these details make the difference between a good trip and an unforgettable one.\n\n**Train Strategy**: Board trains from the middle cars - they're less crowded and closer to village center exits. Keep your validated ticket until you fully exit the final station; inspectors check frequently.\n\n**Timing Secrets**: Visit Vernazza's harbor before 9am or after 6pm for photos without crowds. Manarola's sunset viewpoint gets busy, but the walk to Punta Bonfiglio offers equally stunning views with fewer people.\n\n**Local Etiquette**: Restaurants don't rush you once seated - linger over wine and conversation. However, many kitchens close between 2:30-7pm, so plan accordingly. Always greet shopkeepers with 'Buongiorno' or 'Buonasera.'\n\n**Weather Wisdom**: Sea breezes keep temperatures comfortable even in summer, but pack layers. Sudden afternoon storms are common April through October - carry a light rain jacket.\n\n**Photography Note**: The famous postcard shots of Manarola are taken from Via Beccara, a 5-minute walk south of the village center. Arrive 30 minutes before sunset for the best positioning."
+      "title": {
+        "en": "Insider Tips for First-Time Visitors",
+        "de": "Insider-Tipps für Erstbesucher",
+        "fr": "Conseils d'Initiés pour les Nouveaux Visiteurs",
+        "it": "Consigli da Insider per i Visitatori alla Prima Visita"
+      },
+      "content": {
+        "en": "After guiding thousands of travelers through Cinque Terre, these details make the difference between a good trip and an unforgettable one.\n\n**Train Strategy**: Board trains from the middle cars - they're less crowded and closer to village center exits. Keep your validated ticket until you fully exit the final station; inspectors check frequently.\n\n**Timing Secrets**: Visit Vernazza's harbor before 9am or after 6pm for photos without crowds. Manarola's sunset viewpoint gets busy, but the walk to Punta Bonfiglio offers equally stunning views with fewer people.\n\n**Local Etiquette**: Restaurants don't rush you once seated - linger over wine and conversation. However, many kitchens close between 2:30-7pm, so plan accordingly. Always greet shopkeepers with 'Buongiorno' or 'Buonasera.'\n\n**Weather Wisdom**: Sea breezes keep temperatures comfortable even in summer, but pack layers. Sudden afternoon storms are common April through October - carry a light rain jacket.\n\n**Photography Note**: The famous postcard shots of Manarola are taken from Via Beccara, a 5-minute walk south of the village center. Arrive 30 minutes before sunset for the best positioning.",
+        "de": "Nach der Begleitung tausender Reisender durch die Cinque Terre machen diese Details den Unterschied zwischen einer guten Reise und einer unvergesslichen.\n\n**Zugstrategie**: Steigen Sie in die mittleren Waggons – sie sind weniger überfüllt und näher an den Ausgängen zum Ortszentrum. Behalten Sie Ihr entwertetes Ticket, bis Sie den letzten Bahnhof vollständig verlassen haben; Kontrolleure überprüfen häufig.\n\n**Timing-Geheimnisse**: Besuchen Sie Vernazzas Hafen vor 9 Uhr oder nach 18 Uhr für Fotos ohne Menschenmassen. Manarolas Sonnenuntergangspunkt wird voll, aber der Weg nach Punta Bonfiglio bietet ebenso atemberaubende Aussichten mit weniger Menschen.\n\n**Lokale Etikette**: Restaurants drängen Sie nicht, sobald Sie sitzen – verweilen Sie bei Wein und Gespräch. Allerdings schließen viele Küchen zwischen 14:30-19 Uhr, planen Sie entsprechend. Grüßen Sie Ladenbesitzer immer mit 'Buongiorno' oder 'Buonasera'.\n\n**Wetterwissen**: Meeresbrisen halten die Temperaturen auch im Sommer angenehm, aber packen Sie Schichten ein. Plötzliche Nachmittagsstürme sind von April bis Oktober häufig – tragen Sie eine leichte Regenjacke.\n\n**Fotografie-Hinweis**: Die berühmten Postkartenaufnahmen von Manarola werden von der Via Beccara gemacht, 5 Minuten südlich des Ortszentrums. Kommen Sie 30 Minuten vor Sonnenuntergang für die beste Positionierung.",
+        "fr": "Après avoir guidé des milliers de voyageurs à travers les Cinque Terre, ces détails font la différence entre un bon voyage et un voyage inoubliable.\n\n**Stratégie Train** : Montez dans les wagons du milieu – ils sont moins bondés et plus proches des sorties vers le centre du village. Gardez votre billet validé jusqu'à ce que vous sortiez complètement de la dernière gare ; les contrôleurs vérifient fréquemment.\n\n**Secrets de Timing** : Visitez le port de Vernazza avant 9h ou après 18h pour des photos sans foule. Le point de vue du coucher de soleil de Manarola est très fréquenté, mais la marche vers Punta Bonfiglio offre des vues tout aussi magnifiques avec moins de monde.\n\n**Étiquette Locale** : Les restaurants ne vous pressent pas une fois assis – attardez-vous autour d'un verre de vin et d'une conversation. Cependant, de nombreuses cuisines ferment entre 14h30-19h, planifiez en conséquence. Saluez toujours les commerçants avec 'Buongiorno' ou 'Buonasera'.\n\n**Sagesse Météo** : Les brises marines maintiennent des températures confortables même en été, mais emportez des couches. Les orages soudains l'après-midi sont courants d'avril à octobre – emportez une veste de pluie légère.\n\n**Note Photo** : Les célèbres photos carte postale de Manarola sont prises depuis Via Beccara, à 5 minutes à pied au sud du centre du village. Arrivez 30 minutes avant le coucher du soleil pour le meilleur positionnement.",
+        "it": "Dopo aver guidato migliaia di viaggiatori attraverso le Cinque Terre, questi dettagli fanno la differenza tra un buon viaggio e uno indimenticabile.\n\n**Strategia Treno**: Salite nei vagoni centrali – sono meno affollati e più vicini alle uscite verso il centro del borgo. Tenete il biglietto timbrato fino a quando non uscite completamente dall'ultima stazione; i controllori verificano frequentemente.\n\n**Segreti di Tempistiche**: Visitate il porto di Vernazza prima delle 9 o dopo le 18 per foto senza folla. Il punto panoramico del tramonto di Manarola è affollato, ma la passeggiata verso Punta Bonfiglio offre viste altrettanto mozzafiato con meno persone.\n\n**Etichetta Locale**: I ristoranti non vi mettono fretta una volta seduti – indugiate con vino e conversazione. Tuttavia, molte cucine chiudono tra le 14:30-19, pianificate di conseguenza. Salutate sempre i negozianti con 'Buongiorno' o 'Buonasera'.\n\n**Saggezza Meteo**: Le brezze marine mantengono temperature confortevoli anche in estate, ma portate vestiti a strati. Improvvisi temporali pomeridiani sono comuni da aprile a ottobre – portate una giacca impermeabile leggera.\n\n**Nota Fotografia**: Le famose foto da cartolina di Manarola sono scattate da Via Beccara, a 5 minuti a piedi a sud del centro del borgo. Arrivate 30 minuti prima del tramonto per il miglior posizionamento."
+      }
     },
     {
       "type": "closing-note",
-      "badge": "Ready to Experience Cinque Terre?",
-      "title": "Transform These Insights Into Your Perfect Adventure",
-      "content": "<p>Our detailed village guides and planning tools ensure you make the most of every moment along this extraordinary coastline.</p><p>Whether you have two days or two weeks, understanding these practical realities frees you to focus on what matters: the light on ancient stone, the taste of fresh pesto, the rhythm of waves against the harbor walls.</p>",
+      "badge": {
+        "en": "Ready to Experience Cinque Terre?",
+        "de": "Bereit, die Cinque Terre zu erleben?",
+        "fr": "Prêt à Découvrir les Cinque Terre ?",
+        "it": "Pronti a Vivere le Cinque Terre?"
+      },
+      "title": {
+        "en": "Transform These Insights Into Your Perfect Adventure",
+        "de": "Verwandeln Sie diese Einblicke in Ihr perfektes Abenteuer",
+        "fr": "Transformez Ces Conseils en Votre Aventure Parfaite",
+        "it": "Trasformate Questi Consigli nella Vostra Avventura Perfetta"
+      },
+      "content": {
+        "en": "<p>Our detailed village guides and planning tools ensure you make the most of every moment along this extraordinary coastline.</p><p>Whether you have two days or two weeks, understanding these practical realities frees you to focus on what matters: the light on ancient stone, the taste of fresh pesto, the rhythm of waves against the harbor walls.</p>",
+        "de": "<p>Unsere detaillierten Dorfführer und Planungstools stellen sicher, dass Sie jeden Moment an dieser außergewöhnlichen Küste optimal nutzen.</p><p>Ob Sie zwei Tage oder zwei Wochen haben, das Verständnis dieser praktischen Gegebenheiten befreit Sie, sich auf das Wesentliche zu konzentrieren: das Licht auf altem Stein, der Geschmack von frischem Pesto, der Rhythmus der Wellen gegen die Hafenmauern.</p>",
+        "fr": "<p>Nos guides détaillés des villages et nos outils de planification vous assurent de profiter au maximum de chaque moment le long de ce littoral extraordinaire.</p><p>Que vous ayez deux jours ou deux semaines, comprendre ces réalités pratiques vous libère pour vous concentrer sur l'essentiel : la lumière sur la pierre ancienne, le goût du pesto frais, le rythme des vagues contre les murs du port.</p>",
+        "it": "<p>Le nostre guide dettagliate dei borghi e gli strumenti di pianificazione vi assicurano di sfruttare al meglio ogni momento lungo questa straordinaria costa.</p><p>Che abbiate due giorni o due settimane, comprendere queste realtà pratiche vi libera per concentrarvi su ciò che conta: la luce sulla pietra antica, il gusto del pesto fresco, il ritmo delle onde contro i muri del porto.</p>"
+      },
       "actions": [
-        { "label": "Explore Village Guides", "href": "/cinque-terre", "variant": "primary" },
-        { "label": "Download Planning Checklist", "href": "/cinque-terre/planning", "variant": "secondary" }
+        {
+          "label": {
+            "en": "Explore Village Guides",
+            "de": "Dorfführer erkunden",
+            "fr": "Explorer les Guides des Villages",
+            "it": "Esplora le Guide dei Borghi"
+          },
+          "href": "/cinque-terre",
+          "variant": "primary"
+        },
+        {
+          "label": {
+            "en": "Download Planning Checklist",
+            "de": "Planungscheckliste herunterladen",
+            "fr": "Télécharger la Checklist de Planification",
+            "it": "Scarica la Checklist di Pianificazione"
+          },
+          "href": "/cinque-terre/planning",
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -157,5 +469,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T10:45:20.659Z"
+  "updated_at": "2026-01-08T00:00:00.000Z"
 }

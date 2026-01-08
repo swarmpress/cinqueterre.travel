@@ -7,36 +7,90 @@
     "it": "/it/monterosso/overview"
   },
   "title": {
-    "en": "Monterosso Overview | Cinque Terre Dispatch"
+    "en": "Monterosso Overview | Cinque Terre Dispatch",
+    "de": "Monterosso Überblick | Cinque Terre Dispatch",
+    "fr": "Découvrir Monterosso | Cinque Terre Dispatch",
+    "it": "Monterosso Panoramica | Cinque Terre Dispatch"
   },
   "page_type": "overview",
   "seo": {
     "title": {
-      "en": "Monterosso Overview | Cinque Terre Dispatch"
+      "en": "Monterosso Overview | Cinque Terre Dispatch",
+      "de": "Monterosso Überblick | Cinque Terre Dispatch",
+      "fr": "Découvrir Monterosso | Cinque Terre Dispatch",
+      "it": "Monterosso Panoramica | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Monterosso is the largest of the five villages, the one with sandy beaches, the one divided by a tunnel into two worlds. It offers what no other Cinque Terre village can—and that changes everything."
+      "en": "Monterosso is the largest of the five villages, the one with sandy beaches, the one divided by a tunnel into two worlds. It offers what no other Cinque Terre village can—and that changes everything.",
+      "de": "Monterosso ist das größte der fünf Dörfer, das mit Sandstränden, das durch einen Tunnel in zwei Welten geteilt ist. Es bietet, was kein anderes Cinque-Terre-Dorf kann—und das verändert alles.",
+      "fr": "Monterosso est le plus grand des cinq villages, celui avec des plages de sable, celui divisé par un tunnel en deux mondes. Il offre ce qu'aucun autre village des Cinque Terre ne peut offrir—et cela change tout.",
+      "it": "Monterosso è il più grande dei cinque borghi, quello con le spiagge di sabbia, quello diviso da un tunnel in due mondi. Offre ciò che nessun altro borgo delle Cinque Terre può offrire—e questo cambia tutto."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Village<br/>That Has Everything",
-      "subtitle": "Monterosso is Cinque Terre's exception—the village with beaches, with flat terrain, with infrastructure, with choices. It's the largest, the most accessible, and the most different. That difference is its gift.",
-      "badge": "Village Overview",
+      "title": {
+        "en": "The Village<br/>That Has Everything",
+        "de": "Das Dorf<br/>das alles hat",
+        "fr": "Le Village<br/>Qui a Tout",
+        "it": "Il Borgo<br/>Che Ha Tutto"
+      },
+      "subtitle": {
+        "en": "Monterosso is Cinque Terre's exception—the village with beaches, with flat terrain, with infrastructure, with choices. It's the largest, the most accessible, and the most different. That difference is its gift.",
+        "de": "Monterosso ist die Ausnahme der Cinque Terre—das Dorf mit Stränden, mit flachem Gelände, mit Infrastruktur, mit Wahlmöglichkeiten. Es ist das größte, das zugänglichste und das am meisten verschiedene. Diese Verschiedenheit ist sein Geschenk.",
+        "fr": "Monterosso est l'exception des Cinque Terre—le village avec des plages, un terrain plat, des infrastructures, des choix. C'est le plus grand, le plus accessible, et le plus différent. Cette différence est son don.",
+        "it": "Monterosso è l'eccezione delle Cinque Terre—il borgo con le spiagge, con il terreno pianeggiante, con le infrastrutture, con le scelte. È il più grande, il più accessibile, e il più diverso. Questa diversità è il suo dono."
+      },
+      "badge": {
+        "en": "Village Overview",
+        "de": "Dorfportrait",
+        "fr": "Portrait du Village",
+        "it": "Ritratto del Borgo"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "Understanding Monterosso",
-      "quote": "Monterosso is often dismissed as 'too touristy' by those who prefer their Cinque Terre more austere. But Monterosso isn't less authentic—it's differently authentic, shaped by geography that allowed development the other villages couldn't support.",
-      "content": [
-        "The village is **actually two villages**—medieval old town and beachfront Fegina, connected by a tunnel through Aurora Tower. Your choice of neighborhood shapes your entire experience. Both are valid. Both are Monterosso.",
-        "**The beaches are real**. Sandy shores, beach clubs, room to spread towels. This exists nowhere else in Cinque Terre. For some visitors, this is the entire point. For others, it's a bonus. Either way, it's unique.",
-        "**Flat terrain changes possibilities**. Via Fegina is level. The beach promenade is level. For those who struggle with stairs—the elderly, parents with strollers, anyone with mobility concerns—Monterosso offers what other villages cannot.",
-        "**The infrastructure supports choices**. More restaurants, more shops, more variety, longer hours. The practical comforts of a developed destination combined with the beauty of Cinque Terre. The tradeoff for some is worthwhile for others."
-      ]
+      "badge": {
+        "en": "Understanding Monterosso",
+        "de": "Monterosso Verstehen",
+        "fr": "Comprendre Monterosso",
+        "it": "Capire Monterosso"
+      },
+      "quote": {
+        "en": "Monterosso is often dismissed as 'too touristy' by those who prefer their Cinque Terre more austere. But Monterosso isn't less authentic—it's differently authentic, shaped by geography that allowed development the other villages couldn't support.",
+        "de": "Monterosso wird oft als 'zu touristisch' abgetan von denen, die ihre Cinque Terre strenger mögen. Aber Monterosso ist nicht weniger authentisch—es ist anders authentisch, geprägt von einer Geografie, die Entwicklung erlaubte, die die anderen Dörfer nicht tragen konnten.",
+        "fr": "Monterosso est souvent rejeté comme 'trop touristique' par ceux qui préfèrent leurs Cinque Terre plus austères. Mais Monterosso n'est pas moins authentique—il est différemment authentique, façonné par une géographie qui a permis un développement que les autres villages ne pouvaient pas supporter.",
+        "it": "Monterosso viene spesso liquidato come 'troppo turistico' da chi preferisce le proprie Cinque Terre più austere. Ma Monterosso non è meno autentico—è diversamente autentico, plasmato da una geografia che ha permesso uno sviluppo che gli altri borghi non potevano sostenere."
+      },
+      "content": {
+        "en": [
+          "The village is **actually two villages**—medieval old town and beachfront Fegina, connected by a tunnel through Aurora Tower. Your choice of neighborhood shapes your entire experience. Both are valid. Both are Monterosso.",
+          "**The beaches are real**. Sandy shores, beach clubs, room to spread towels. This exists nowhere else in Cinque Terre. For some visitors, this is the entire point. For others, it's a bonus. Either way, it's unique.",
+          "**Flat terrain changes possibilities**. Via Fegina is level. The beach promenade is level. For those who struggle with stairs—the elderly, parents with strollers, anyone with mobility concerns—Monterosso offers what other villages cannot.",
+          "**The infrastructure supports choices**. More restaurants, more shops, more variety, longer hours. The practical comforts of a developed destination combined with the beauty of Cinque Terre. The tradeoff for some is worthwhile for others."
+        ],
+        "de": [
+          "Das Dorf ist **eigentlich zwei Dörfer**—mittelalterliche Altstadt und Strandviertel Fegina, verbunden durch einen Tunnel durch den Aurora-Turm. Ihre Wahl des Viertels prägt Ihre gesamte Erfahrung. Beide sind berechtigt. Beide sind Monterosso.",
+          "**Die Strände sind echt**. Sandige Küsten, Strandclubs, Platz zum Ausbreiten von Handtüchern. Das gibt es nirgendwo sonst in den Cinque Terre. Für manche Besucher ist das der ganze Punkt. Für andere ist es ein Bonus. So oder so ist es einzigartig.",
+          "**Flaches Gelände verändert Möglichkeiten**. Die Via Fegina ist eben. Die Strandpromenade ist eben. Für diejenigen, die mit Treppen kämpfen—ältere Menschen, Eltern mit Kinderwagen, alle mit Mobilitätseinschränkungen—bietet Monterosso, was andere Dörfer nicht können.",
+          "**Die Infrastruktur unterstützt Wahlmöglichkeiten**. Mehr Restaurants, mehr Geschäfte, mehr Vielfalt, längere Öffnungszeiten. Die praktischen Annehmlichkeiten eines entwickelten Reiseziels kombiniert mit der Schönheit der Cinque Terre. Der Kompromiss für einige ist für andere lohnenswert."
+        ],
+        "fr": [
+          "Le village est **en fait deux villages**—la vieille ville médiévale et Fegina en front de mer, reliés par un tunnel à travers la Tour Aurora. Votre choix de quartier façonne toute votre expérience. Les deux sont valides. Les deux sont Monterosso.",
+          "**Les plages sont vraies**. Rivages de sable, clubs de plage, place pour étendre les serviettes. Cela n'existe nulle part ailleurs dans les Cinque Terre. Pour certains visiteurs, c'est tout l'intérêt. Pour d'autres, c'est un bonus. Dans tous les cas, c'est unique.",
+          "**Le terrain plat change les possibilités**. La Via Fegina est plate. La promenade de la plage est plate. Pour ceux qui peinent avec les escaliers—les personnes âgées, les parents avec poussettes, toute personne avec des problèmes de mobilité—Monterosso offre ce que les autres villages ne peuvent pas.",
+          "**L'infrastructure soutient les choix**. Plus de restaurants, plus de boutiques, plus de variété, plus d'heures d'ouverture. Les conforts pratiques d'une destination développée combinés avec la beauté des Cinque Terre. Le compromis pour certains en vaut la peine pour d'autres."
+        ],
+        "it": [
+          "Il borgo è **in realtà due borghi**—la città vecchia medievale e Fegina sul lungomare, collegate da un tunnel attraverso la Torre Aurora. La vostra scelta del quartiere plasma l'intera esperienza. Entrambi sono validi. Entrambi sono Monterosso.",
+          "**Le spiagge sono vere**. Rive sabbiose, stabilimenti balneari, spazio per stendere gli asciugamani. Questo non esiste in nessun altro posto nelle Cinque Terre. Per alcuni visitatori, questo è tutto il punto. Per altri, è un bonus. In ogni caso, è unico.",
+          "**Il terreno pianeggiante cambia le possibilità**. Via Fegina è in piano. Il lungomare è in piano. Per chi ha difficoltà con le scale—gli anziani, i genitori con passeggini, chiunque con problemi di mobilità—Monterosso offre ciò che gli altri borghi non possono.",
+          "**L'infrastruttura supporta le scelte**. Più ristoranti, più negozi, più varietà, orari più lunghi. I comfort pratici di una destinazione sviluppata combinati con la bellezza delle Cinque Terre. Il compromesso per alcuni vale la pena per altri."
+        ]
+      }
     },
     {
       "type": "village-intro"
@@ -47,58 +101,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Il Gigante",
-          "category": "Village Icon",
+          "name": {
+            "en": "Il Gigante",
+            "de": "Il Gigante",
+            "fr": "Il Gigante",
+            "it": "Il Gigante"
+          },
+          "category": {
+            "en": "Village Icon",
+            "de": "Dorfwahrzeichen",
+            "fr": "Icône du Village",
+            "it": "Icona del Borgo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The broken Neptune that guards Fegina beach—14 meters of tragedy and beauty carved into the cliff.",
-          "description": "Built in 1910 to support a luxury villa's terrace, Il Gigante (The Giant) once held a shell in his now-missing arms. WWII bombs and the 1966 flood destroyed the villa and broke the statue. What remains still watches over the beach—an unintentional monument to ambition, destruction, and persistence.",
-          "giuliaComment": "The Giant is better broken. A pristine Neptune statue would be forgettable. This damaged colossus, emerging from the cliff, speaks to everything Monterosso has endured—wars, floods, transformations. The damage is the meaning.",
-          "signature": "Where ruins become icons"
+          "intro": {
+            "en": "The broken Neptune that guards Fegina beach—14 meters of tragedy and beauty carved into the cliff.",
+            "de": "Der zerbrochene Neptun, der den Strand von Fegina bewacht—14 Meter Tragik und Schönheit, in die Klippe gemeißelt.",
+            "fr": "Le Neptune brisé qui garde la plage de Fegina—14 mètres de tragédie et de beauté sculptés dans la falaise.",
+            "it": "Il Nettuno spezzato che sorveglia la spiaggia di Fegina—14 metri di tragedia e bellezza scolpiti nella scogliera."
+          },
+          "description": {
+            "en": "Built in 1910 to support a luxury villa's terrace, Il Gigante (The Giant) once held a shell in his now-missing arms. WWII bombs and the 1966 flood destroyed the villa and broke the statue. What remains still watches over the beach—an unintentional monument to ambition, destruction, and persistence.",
+            "de": "Erbaut 1910, um die Terrasse einer Luxusvilla zu stützen, hielt Il Gigante (Der Riese) einst eine Muschel in seinen jetzt fehlenden Armen. Bomben des Zweiten Weltkriegs und die Flut von 1966 zerstörten die Villa und zerbrachen die Statue. Was bleibt, wacht noch immer über den Strand—ein unbeabsichtigtes Denkmal für Ehrgeiz, Zerstörung und Beharrlichkeit.",
+            "fr": "Construit en 1910 pour soutenir la terrasse d'une villa de luxe, Il Gigante (Le Géant) tenait autrefois un coquillage dans ses bras maintenant disparus. Les bombes de la Seconde Guerre mondiale et l'inondation de 1966 ont détruit la villa et brisé la statue. Ce qui reste veille encore sur la plage—un monument involontaire à l'ambition, la destruction et la persévérance.",
+            "it": "Costruito nel 1910 per sostenere la terrazza di una villa di lusso, Il Gigante teneva una conchiglia nelle sue braccia ora mancanti. Le bombe della Seconda Guerra Mondiale e l'alluvione del 1966 distrussero la villa e spezzarono la statua. Ciò che resta sorveglia ancora la spiaggia—un monumento involontario all'ambizione, alla distruzione e alla perseveranza."
+          },
+          "giuliaComment": {
+            "en": "The Giant is better broken. A pristine Neptune statue would be forgettable. This damaged colossus, emerging from the cliff, speaks to everything Monterosso has endured—wars, floods, transformations. The damage is the meaning.",
+            "de": "Der Riese ist besser zerbrochen. Eine makellose Neptunstatue wäre vergesslich. Dieser beschädigte Koloss, der aus der Klippe hervorkommt, spricht von allem, was Monterosso ertragen hat—Kriege, Überschwemmungen, Transformationen. Der Schaden ist die Bedeutung.",
+            "fr": "Le Géant est mieux brisé. Une statue de Neptune immaculée serait oubliable. Ce colosse endommagé, émergeant de la falaise, parle de tout ce que Monterosso a enduré—guerres, inondations, transformations. Les dommages sont le sens.",
+            "it": "Il Gigante è meglio spezzato. Una statua di Nettuno intatta sarebbe dimenticabile. Questo colosso danneggiato, che emerge dalla scogliera, parla di tutto ciò che Monterosso ha sopportato—guerre, alluvioni, trasformazioni. Il danno è il significato."
+          },
+          "signature": {
+            "en": "Where ruins become icons",
+            "de": "Wo Ruinen zu Ikonen werden",
+            "fr": "Où les ruines deviennent icônes",
+            "it": "Dove le rovine diventano icone"
+          }
         },
         {
           "id": 2,
-          "name": "The Beach",
-          "category": "Natural Gift",
+          "name": {
+            "en": "The Beach",
+            "de": "Der Strand",
+            "fr": "La Plage",
+            "it": "La Spiaggia"
+          },
+          "category": {
+            "en": "Natural Gift",
+            "de": "Natürliches Geschenk",
+            "fr": "Don Naturel",
+            "it": "Dono Naturale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The only proper sandy beach in Cinque Terre—what brings many visitors and keeps them longer.",
-          "description": "Fegina beach stretches along the promenade: beach clubs with umbrellas and service in the center, public beach at the edges. The water is the same Mediterranean blue as everywhere in Cinque Terre, but here you can actually spread a towel on sand, not rocks. A smaller beach exists in old town for those who prefer less scene.",
-          "giuliaComment": "I grew up taking this beach for granted. Then I visited the other villages and understood what we have. Sand. Room. Comfort. The other villages have their charms, but when I want to actually swim and relax, I stay home.",
-          "signature": "Where Cinque Terre meets the sand"
+          "intro": {
+            "en": "The only proper sandy beach in Cinque Terre—what brings many visitors and keeps them longer.",
+            "de": "Der einzige richtige Sandstrand in den Cinque Terre—was viele Besucher anzieht und sie länger hält.",
+            "fr": "La seule vraie plage de sable des Cinque Terre—ce qui attire beaucoup de visiteurs et les retient plus longtemps.",
+            "it": "L'unica vera spiaggia di sabbia delle Cinque Terre—ciò che attira molti visitatori e li trattiene più a lungo."
+          },
+          "description": {
+            "en": "Fegina beach stretches along the promenade: beach clubs with umbrellas and service in the center, public beach at the edges. The water is the same Mediterranean blue as everywhere in Cinque Terre, but here you can actually spread a towel on sand, not rocks. A smaller beach exists in old town for those who prefer less scene.",
+            "de": "Der Strand von Fegina erstreckt sich entlang der Promenade: Strandclubs mit Sonnenschirmen und Service in der Mitte, öffentlicher Strand an den Rändern. Das Wasser ist dasselbe Mittelmeerblau wie überall in den Cinque Terre, aber hier kann man tatsächlich ein Handtuch auf Sand ausbreiten, nicht auf Felsen. Ein kleinerer Strand existiert in der Altstadt für diejenigen, die weniger Trubel bevorzugen.",
+            "fr": "La plage de Fegina s'étend le long de la promenade : clubs de plage avec parasols et service au centre, plage publique aux extrémités. L'eau est du même bleu méditerranéen que partout dans les Cinque Terre, mais ici vous pouvez vraiment étendre une serviette sur le sable, pas sur des rochers. Une plage plus petite existe dans la vieille ville pour ceux qui préfèrent moins de scène.",
+            "it": "La spiaggia di Fegina si estende lungo il lungomare: stabilimenti balneari con ombrelloni e servizio al centro, spiaggia pubblica ai margini. L'acqua è dello stesso blu mediterraneo di ovunque nelle Cinque Terre, ma qui si può davvero stendere un asciugamano sulla sabbia, non sugli scogli. Una spiaggia più piccola esiste nella città vecchia per chi preferisce meno movimento."
+          },
+          "giuliaComment": {
+            "en": "I grew up taking this beach for granted. Then I visited the other villages and understood what we have. Sand. Room. Comfort. The other villages have their charms, but when I want to actually swim and relax, I stay home.",
+            "de": "Ich bin aufgewachsen und habe diesen Strand als selbstverständlich angesehen. Dann besuchte ich die anderen Dörfer und verstand, was wir haben. Sand. Platz. Komfort. Die anderen Dörfer haben ihren Charme, aber wenn ich wirklich schwimmen und entspannen will, bleibe ich zu Hause.",
+            "fr": "J'ai grandi en prenant cette plage pour acquise. Puis j'ai visité les autres villages et compris ce que nous avons. Du sable. De l'espace. Du confort. Les autres villages ont leur charme, mais quand je veux vraiment nager et me détendre, je reste chez moi.",
+            "it": "Sono cresciuta dando per scontata questa spiaggia. Poi ho visitato gli altri borghi e ho capito cosa abbiamo. Sabbia. Spazio. Comfort. Gli altri borghi hanno il loro fascino, ma quando voglio davvero nuotare e rilassarmi, resto a casa."
+          },
+          "signature": {
+            "en": "Where Cinque Terre meets the sand",
+            "de": "Wo die Cinque Terre auf Sand treffen",
+            "fr": "Où les Cinque Terre rencontrent le sable",
+            "it": "Dove le Cinque Terre incontrano la sabbia"
+          }
         },
         {
           "id": 3,
-          "name": "The Old Town",
-          "category": "Medieval Heritage",
+          "name": {
+            "en": "The Old Town",
+            "de": "Die Altstadt",
+            "fr": "La Vieille Ville",
+            "it": "Il Centro Storico"
+          },
+          "category": {
+            "en": "Medieval Heritage",
+            "de": "Mittelalterliches Erbe",
+            "fr": "Patrimoine Médiéval",
+            "it": "Patrimonio Medievale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Through the tunnel from Fegina lies medieval Monterosso—caruggi, the Gothic church, the working harbor.",
-          "description": "Old town is Monterosso as traditional Cinque Terre village: narrow caruggi (alleyways), stone buildings rising from harbor to hillside, the church of San Giovanni Battista with its Gothic facade, the working fishing harbor where boats still launch at dawn. This is where Monterosso's fishing heritage lives.",
-          "giuliaComment": "Old town is where I send visitors who worry Monterosso is 'too touristy.' Walk through the tunnel and the century changes. The caruggi. The church. The harbor where my grandfather fished. This is the Monterosso that existed before any resort.",
-          "signature": "Where history still breathes"
+          "intro": {
+            "en": "Through the tunnel from Fegina lies medieval Monterosso—caruggi, the Gothic church, the working harbor.",
+            "de": "Durch den Tunnel von Fegina liegt das mittelalterliche Monterosso—Caruggi, die gotische Kirche, der Arbeitshafen.",
+            "fr": "À travers le tunnel depuis Fegina se trouve le Monterosso médiéval—caruggi, l'église gothique, le port de travail.",
+            "it": "Attraverso il tunnel da Fegina si trova la Monterosso medievale—caruggi, la chiesa gotica, il porto peschereccio."
+          },
+          "description": {
+            "en": "Old town is Monterosso as traditional Cinque Terre village: narrow caruggi (alleyways), stone buildings rising from harbor to hillside, the church of San Giovanni Battista with its Gothic facade, the working fishing harbor where boats still launch at dawn. This is where Monterosso's fishing heritage lives.",
+            "de": "Die Altstadt ist Monterosso als traditionelles Cinque-Terre-Dorf: enge Caruggi (Gassen), Steingebäude, die vom Hafen bis zum Hang aufsteigen, die Kirche San Giovanni Battista mit ihrer gotischen Fassade, der Arbeitshafen, wo Boote noch immer bei Morgengrauen auslaufen. Hier lebt Monterossos Fischereierbe.",
+            "fr": "La vieille ville est Monterosso comme village traditionnel des Cinque Terre : caruggi étroits (ruelles), bâtiments de pierre s'élevant du port jusqu'à la colline, l'église de San Giovanni Battista avec sa façade gothique, le port de pêche actif où les bateaux partent encore à l'aube. C'est là que vit l'héritage de la pêche de Monterosso.",
+            "it": "Il centro storico è Monterosso come tradizionale borgo delle Cinque Terre: stretti caruggi (vicoli), edifici in pietra che salgono dal porto alla collina, la chiesa di San Giovanni Battista con la sua facciata gotica, il porto peschereccio dove le barche partono ancora all'alba. Qui vive l'eredità peschereccia di Monterosso."
+          },
+          "giuliaComment": {
+            "en": "Old town is where I send visitors who worry Monterosso is 'too touristy.' Walk through the tunnel and the century changes. The caruggi. The church. The harbor where my grandfather fished. This is the Monterosso that existed before any resort.",
+            "de": "Die Altstadt ist, wohin ich Besucher schicke, die sich sorgen, Monterosso sei 'zu touristisch'. Gehen Sie durch den Tunnel und das Jahrhundert ändert sich. Die Caruggi. Die Kirche. Der Hafen, wo mein Großvater fischte. Das ist das Monterosso, das vor jedem Badeort existierte.",
+            "fr": "La vieille ville est là où j'envoie les visiteurs qui s'inquiètent que Monterosso soit 'trop touristique'. Traversez le tunnel et le siècle change. Les caruggi. L'église. Le port où mon grand-père pêchait. C'est le Monterosso qui existait avant toute station balnéaire.",
+            "it": "Il centro storico è dove mando i visitatori che temono che Monterosso sia 'troppo turistica'. Attraversa il tunnel e il secolo cambia. I caruggi. La chiesa. Il porto dove pescava mio nonno. Questa è la Monterosso che esisteva prima di qualsiasi località balneare."
+          },
+          "signature": {
+            "en": "Where history still breathes",
+            "de": "Wo Geschichte noch atmet",
+            "fr": "Où l'histoire respire encore",
+            "it": "Dove la storia respira ancora"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The IGP Treasures",
-          "quote": "Monterosso has two products with protected geographic status: the lemons that grow on the terraced hillsides and the anchovies that fishermen still catch and salt by hand. Both carry legal protection. Both define Monterosso's culinary identity. Both reward seeking out authentic versions."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelle Einlage",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The IGP Treasures",
+            "de": "Die IGP-Schätze",
+            "fr": "Les Trésors IGP",
+            "it": "I Tesori IGP"
+          },
+          "quote": {
+            "en": "Monterosso has two products with protected geographic status: the lemons that grow on the terraced hillsides and the anchovies that fishermen still catch and salt by hand. Both carry legal protection. Both define Monterosso's culinary identity. Both reward seeking out authentic versions.",
+            "de": "Monterosso hat zwei Produkte mit geschütztem geografischen Status: die Zitronen, die auf den Terrassenhängen wachsen, und die Sardellen, die Fischer noch immer fangen und von Hand salzen. Beide tragen rechtlichen Schutz. Beide definieren Monterossos kulinarische Identität. Beide belohnen die Suche nach authentischen Versionen.",
+            "fr": "Monterosso a deux produits avec statut géographique protégé : les citrons qui poussent sur les coteaux en terrasses et les anchois que les pêcheurs attrapent et salent encore à la main. Les deux bénéficient d'une protection légale. Les deux définissent l'identité culinaire de Monterosso. Les deux récompensent la recherche de versions authentiques.",
+            "it": "Monterosso ha due prodotti con status geografico protetto: i limoni che crescono sui pendii terrazzati e le acciughe che i pescatori ancora pescano e salano a mano. Entrambi godono di protezione legale. Entrambi definiscono l'identità culinaria di Monterosso. Entrambi ripagano la ricerca di versioni autentiche."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Living Village",
-      "quote": "Monterosso is not a museum. It's a community of 1,500 people who happen to live in one of the world's most photographed places—and who navigate the daily tension between heritage and tourism, preservation and change.",
-      "content": [
-        "**The lemon terraces climb above both neighborhoods**. Families still tend IGP-protected groves, producing lemons that can legally call themselves 'Limoni di Monterosso.' The fruit shapes local cuisine; the terraces shape the landscape.",
-        "**The fishing boats still launch at dawn**. Old town's harbor remains working port, not just scenic backdrop. Anchovy season brings the traditional salting that earns IGP protection. The maritime heritage lives in daily practice.",
-        "**The church still marks time**. San Giovanni Battista's bells ring across both neighborhoods, connecting old town and Fegina in sound what the tunnel connects in passage. The sacred landscape overlays the scenic one.",
-        "**The rhythm is Mediterranean**. Morning activity, afternoon quiet, evening passeggiata. Fighting this rhythm exhausts you. Following it reveals how Monterosso actually works."
-      ]
+      "badge": {
+        "en": "The Living Village",
+        "de": "Das lebendige Dorf",
+        "fr": "Le Village Vivant",
+        "it": "Il Borgo Vivo"
+      },
+      "quote": {
+        "en": "Monterosso is not a museum. It's a community of 1,500 people who happen to live in one of the world's most photographed places—and who navigate the daily tension between heritage and tourism, preservation and change.",
+        "de": "Monterosso ist kein Museum. Es ist eine Gemeinschaft von 1.500 Menschen, die zufällig an einem der meistfotografierten Orte der Welt leben—und die täglich die Spannung zwischen Erbe und Tourismus, Erhaltung und Wandel navigieren.",
+        "fr": "Monterosso n'est pas un musée. C'est une communauté de 1 500 personnes qui vivent dans l'un des endroits les plus photographiés au monde—et qui naviguent quotidiennement la tension entre patrimoine et tourisme, préservation et changement.",
+        "it": "Monterosso non è un museo. È una comunità di 1.500 persone che vivono in uno dei luoghi più fotografati al mondo—e che navigano quotidianamente la tensione tra patrimonio e turismo, conservazione e cambiamento."
+      },
+      "content": {
+        "en": [
+          "**The lemon terraces climb above both neighborhoods**. Families still tend IGP-protected groves, producing lemons that can legally call themselves 'Limoni di Monterosso.' The fruit shapes local cuisine; the terraces shape the landscape.",
+          "**The fishing boats still launch at dawn**. Old town's harbor remains working port, not just scenic backdrop. Anchovy season brings the traditional salting that earns IGP protection. The maritime heritage lives in daily practice.",
+          "**The church still marks time**. San Giovanni Battista's bells ring across both neighborhoods, connecting old town and Fegina in sound what the tunnel connects in passage. The sacred landscape overlays the scenic one.",
+          "**The rhythm is Mediterranean**. Morning activity, afternoon quiet, evening passeggiata. Fighting this rhythm exhausts you. Following it reveals how Monterosso actually works."
+        ],
+        "de": [
+          "**Die Zitronenterrassen klettern über beide Viertel**. Familien pflegen noch immer IGP-geschützte Haine und produzieren Zitronen, die sich legal 'Limoni di Monterosso' nennen dürfen. Die Früchte prägen die lokale Küche; die Terrassen prägen die Landschaft.",
+          "**Die Fischerboote laufen noch immer bei Morgengrauen aus**. Der Hafen der Altstadt bleibt Arbeitshafen, nicht nur malerische Kulisse. Die Sardellensaison bringt das traditionelle Salzen, das IGP-Schutz verdient. Das maritime Erbe lebt in der täglichen Praxis.",
+          "**Die Kirche gibt noch immer die Zeit an**. Die Glocken von San Giovanni Battista läuten über beide Viertel und verbinden Altstadt und Fegina im Klang, was der Tunnel im Durchgang verbindet. Die sakrale Landschaft überlagert die malerische.",
+          "**Der Rhythmus ist mediterran**. Vormittagsaktivität, Nachmittagsruhe, Abendpasseggiata. Gegen diesen Rhythmus zu kämpfen erschöpft dich. Ihm zu folgen enthüllt, wie Monterosso wirklich funktioniert."
+        ],
+        "fr": [
+          "**Les terrasses de citronniers grimpent au-dessus des deux quartiers**. Les familles cultivent encore des vergers protégés IGP, produisant des citrons qui peuvent légalement s'appeler 'Limoni di Monterosso'. Le fruit façonne la cuisine locale ; les terrasses façonnent le paysage.",
+          "**Les bateaux de pêche partent encore à l'aube**. Le port de la vieille ville reste un port de travail, pas seulement un décor pittoresque. La saison des anchois apporte le salage traditionnel qui mérite la protection IGP. L'héritage maritime vit dans la pratique quotidienne.",
+          "**L'église marque encore le temps**. Les cloches de San Giovanni Battista sonnent dans les deux quartiers, reliant la vieille ville et Fegina par le son comme le tunnel les relie par le passage. Le paysage sacré recouvre le paysage pittoresque.",
+          "**Le rythme est méditerranéen**. Activité matinale, calme de l'après-midi, passeggiata du soir. Lutter contre ce rythme vous épuise. Le suivre révèle comment Monterosso fonctionne vraiment."
+        ],
+        "it": [
+          "**I limoneti terrazzati salgono sopra entrambi i quartieri**. Le famiglie coltivano ancora agrumeti protetti IGP, producendo limoni che possono legalmente chiamarsi 'Limoni di Monterosso'. Il frutto plasma la cucina locale; le terrazze plasmano il paesaggio.",
+          "**Le barche da pesca partono ancora all'alba**. Il porto della città vecchia resta porto di lavoro, non solo sfondo pittoresco. La stagione delle acciughe porta la salatura tradizionale che merita la protezione IGP. L'eredità marittima vive nella pratica quotidiana.",
+          "**La chiesa segna ancora il tempo**. Le campane di San Giovanni Battista suonano su entrambi i quartieri, collegando la città vecchia e Fegina nel suono come il tunnel le collega nel passaggio. Il paesaggio sacro si sovrappone a quello scenico.",
+          "**Il ritmo è mediterraneo**. Attività mattutina, quiete pomeridiana, passeggiata serale. Lottare contro questo ritmo ti esaurisce. Seguirlo rivela come funziona davvero Monterosso."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,48 +295,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Why Choose Monterosso",
-          "category": "The Case for This Village",
+          "name": {
+            "en": "Why Choose Monterosso",
+            "de": "Warum Monterosso wählen",
+            "fr": "Pourquoi Choisir Monterosso",
+            "it": "Perché Scegliere Monterosso"
+          },
+          "category": {
+            "en": "The Case for This Village",
+            "de": "Das Argument für dieses Dorf",
+            "fr": "L'Argument pour ce Village",
+            "it": "L'Argomento per Questo Borgo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Each village suits different travelers. Here's who Monterosso serves best.",
-          "description": "Choose Monterosso if: you want beach time, you prefer flat terrain, you value restaurant variety, you're traveling with mobility concerns, you want a base for exploring all villages, you appreciate both medieval charm and resort comfort. The village accommodates more preferences than its neighbors.",
-          "giuliaComment": "I tell visitors: choose based on what matters to you. Want dramatic cliffs and earned views? Go to Vernazza or Riomaggiore. Want beaches, accessibility, and options? Come here. Neither answer is wrong. They're just different.",
-          "signature": "The village that accommodates"
+          "intro": {
+            "en": "Each village suits different travelers. Here's who Monterosso serves best.",
+            "de": "Jedes Dorf passt zu verschiedenen Reisenden. Hier ist, wem Monterosso am besten dient.",
+            "fr": "Chaque village convient à différents voyageurs. Voici qui Monterosso sert le mieux.",
+            "it": "Ogni borgo si adatta a viaggiatori diversi. Ecco chi serve meglio Monterosso."
+          },
+          "description": {
+            "en": "Choose Monterosso if: you want beach time, you prefer flat terrain, you value restaurant variety, you're traveling with mobility concerns, you want a base for exploring all villages, you appreciate both medieval charm and resort comfort. The village accommodates more preferences than its neighbors.",
+            "de": "Wählen Sie Monterosso, wenn: Sie Strandzeit wollen, Sie flaches Gelände bevorzugen, Sie Restaurantvielfalt schätzen, Sie mit Mobilitätseinschränkungen reisen, Sie eine Basis zum Erkunden aller Dörfer wollen, Sie sowohl mittelalterlichen Charme als auch Badeortkomfort schätzen. Das Dorf berücksichtigt mehr Präferenzen als seine Nachbarn.",
+            "fr": "Choisissez Monterosso si : vous voulez du temps à la plage, vous préférez un terrain plat, vous appréciez la variété des restaurants, vous voyagez avec des problèmes de mobilité, vous voulez une base pour explorer tous les villages, vous appréciez à la fois le charme médiéval et le confort de station balnéaire. Le village accommode plus de préférences que ses voisins.",
+            "it": "Scegliete Monterosso se: volete tempo in spiaggia, preferite il terreno pianeggiante, apprezzate la varietà di ristoranti, viaggiate con problemi di mobilità, volete una base per esplorare tutti i borghi, apprezzate sia il fascino medievale che il comfort balneare. Il borgo soddisfa più preferenze dei suoi vicini."
+          },
+          "giuliaComment": {
+            "en": "I tell visitors: choose based on what matters to you. Want dramatic cliffs and earned views? Go to Vernazza or Riomaggiore. Want beaches, accessibility, and options? Come here. Neither answer is wrong. They're just different.",
+            "de": "Ich sage Besuchern: Wählen Sie basierend auf dem, was Ihnen wichtig ist. Wollen Sie dramatische Klippen und verdiente Ausblicke? Gehen Sie nach Vernazza oder Riomaggiore. Wollen Sie Strände, Zugänglichkeit und Optionen? Kommen Sie hierher. Keine Antwort ist falsch. Sie sind nur verschieden.",
+            "fr": "Je dis aux visiteurs : choisissez selon ce qui compte pour vous. Vous voulez des falaises dramatiques et des vues méritées ? Allez à Vernazza ou Riomaggiore. Vous voulez des plages, l'accessibilité et des options ? Venez ici. Aucune réponse n'est fausse. Elles sont juste différentes.",
+            "it": "Dico ai visitatori: scegliete in base a ciò che vi importa. Volete scogliere drammatiche e viste guadagnate? Andate a Vernazza o Riomaggiore. Volete spiagge, accessibilità e opzioni? Venite qui. Nessuna risposta è sbagliata. Sono solo diverse."
+          },
+          "signature": {
+            "en": "The village that accommodates",
+            "de": "Das Dorf, das entgegenkommt",
+            "fr": "Le village qui s'adapte",
+            "it": "Il borgo che si adatta"
+          }
         },
         {
           "id": 5,
-          "name": "The Honest Tradeoffs",
-          "category": "What to Know",
+          "name": {
+            "en": "The Honest Tradeoffs",
+            "de": "Die ehrlichen Kompromisse",
+            "fr": "Les Compromis Honnêtes",
+            "it": "I Compromessi Onesti"
+          },
+          "category": {
+            "en": "What to Know",
+            "de": "Was zu wissen ist",
+            "fr": "Ce Qu'il Faut Savoir",
+            "it": "Cosa Sapere"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Monterosso's advantages come with their mirror disadvantages—both worth understanding.",
-          "description": "More development means more crowds in summer. More infrastructure means less of the isolation other villages offer. More accessibility means more visitors who come only for the beach. The village handles millions of visitors annually. It's equipped for this—but the peak season crush is real.",
-          "giuliaComment": "I won't pretend August in Fegina is peaceful. It isn't. But I also know that 7am is quiet everywhere, that old town is calmer than Fegina, that the crowds follow patterns you can work around. The village is crowded—but manageable if you understand the rhythms.",
-          "signature": "The tradeoffs worth accepting"
+          "intro": {
+            "en": "Monterosso's advantages come with their mirror disadvantages—both worth understanding.",
+            "de": "Monterossos Vorteile kommen mit ihren Spiegelnachteilen—beide wert, verstanden zu werden.",
+            "fr": "Les avantages de Monterosso viennent avec leurs désavantages miroirs—les deux méritent d'être compris.",
+            "it": "I vantaggi di Monterosso vengono con i loro svantaggi speculari—entrambi meritano di essere compresi."
+          },
+          "description": {
+            "en": "More development means more crowds in summer. More infrastructure means less of the isolation other villages offer. More accessibility means more visitors who come only for the beach. The village handles millions of visitors annually. It's equipped for this—but the peak season crush is real.",
+            "de": "Mehr Entwicklung bedeutet mehr Menschenmassen im Sommer. Mehr Infrastruktur bedeutet weniger von der Isolation, die andere Dörfer bieten. Mehr Zugänglichkeit bedeutet mehr Besucher, die nur wegen des Strandes kommen. Das Dorf bewältigt jährlich Millionen von Besuchern. Es ist dafür ausgerüstet—aber der Andrang in der Hochsaison ist real.",
+            "fr": "Plus de développement signifie plus de foules en été. Plus d'infrastructure signifie moins de l'isolement que les autres villages offrent. Plus d'accessibilité signifie plus de visiteurs qui viennent uniquement pour la plage. Le village accueille des millions de visiteurs annuellement. Il est équipé pour cela—mais la ruée de haute saison est réelle.",
+            "it": "Più sviluppo significa più folla in estate. Più infrastrutture significa meno dell'isolamento che gli altri borghi offrono. Più accessibilità significa più visitatori che vengono solo per la spiaggia. Il borgo gestisce milioni di visitatori annualmente. È attrezzato per questo—ma l'affollamento dell'alta stagione è reale."
+          },
+          "giuliaComment": {
+            "en": "I won't pretend August in Fegina is peaceful. It isn't. But I also know that 7am is quiet everywhere, that old town is calmer than Fegina, that the crowds follow patterns you can work around. The village is crowded—but manageable if you understand the rhythms.",
+            "de": "Ich werde nicht so tun, als wäre der August in Fegina friedlich. Ist er nicht. Aber ich weiß auch, dass 7 Uhr morgens überall ruhig ist, dass die Altstadt ruhiger ist als Fegina, dass die Menschenmengen Mustern folgen, die man umgehen kann. Das Dorf ist überfüllt—aber handhabbar, wenn man die Rhythmen versteht.",
+            "fr": "Je ne prétendrai pas qu'août à Fegina est paisible. Ce n'est pas le cas. Mais je sais aussi que 7h du matin est calme partout, que la vieille ville est plus calme que Fegina, que les foules suivent des schémas qu'on peut contourner. Le village est bondé—mais gérable si vous comprenez les rythmes.",
+            "it": "Non fingerò che agosto a Fegina sia tranquillo. Non lo è. Ma so anche che le 7 di mattina sono tranquille ovunque, che la città vecchia è più calma di Fegina, che le folle seguono schemi che si possono aggirare. Il borgo è affollato—ma gestibile se capisci i ritmi."
+          },
+          "signature": {
+            "en": "The tradeoffs worth accepting",
+            "de": "Die Kompromisse, die es wert sind, akzeptiert zu werden",
+            "fr": "Les compromis qui valent la peine d'être acceptés",
+            "it": "I compromessi che vale la pena accettare"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Base Camp Approach",
-          "quote": "Many experienced Cinque Terre travelers use Monterosso as base camp—superior infrastructure for sleeping, eating, and recovering; easy train access to explore other villages by day. You get the best of both: Monterosso's comforts and every other village's charms. The strategy works."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Base Camp Approach",
+            "de": "Der Basislager-Ansatz",
+            "fr": "L'Approche Camp de Base",
+            "it": "L'Approccio Campo Base"
+          },
+          "quote": {
+            "en": "Many experienced Cinque Terre travelers use Monterosso as base camp—superior infrastructure for sleeping, eating, and recovering; easy train access to explore other villages by day. You get the best of both: Monterosso's comforts and every other village's charms. The strategy works.",
+            "de": "Viele erfahrene Cinque-Terre-Reisende nutzen Monterosso als Basislager—überlegene Infrastruktur zum Schlafen, Essen und Erholen; einfacher Zugang per Bahn, um tagsüber andere Dörfer zu erkunden. Sie bekommen das Beste aus beidem: Monterossos Komfort und den Charme jedes anderen Dorfes. Die Strategie funktioniert.",
+            "fr": "Beaucoup de voyageurs expérimentés des Cinque Terre utilisent Monterosso comme camp de base—infrastructure supérieure pour dormir, manger et récupérer ; accès facile en train pour explorer les autres villages de jour. Vous obtenez le meilleur des deux : les conforts de Monterosso et les charmes de chaque autre village. La stratégie fonctionne.",
+            "it": "Molti viaggiatori esperti delle Cinque Terre usano Monterosso come campo base—infrastruttura superiore per dormire, mangiare e riprendersi; facile accesso in treno per esplorare gli altri borghi di giorno. Ottenete il meglio di entrambi: i comfort di Monterosso e il fascino di ogni altro borgo. La strategia funziona."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Where Cinque Terre Meets the World",
-      "content": [
-        "Monterosso is Cinque Terre's most accessible village—in every sense of that word. It welcomes visitors with infrastructure other villages can't provide. It offers experiences other villages can't match. It accommodates travelers other villages might challenge.",
-        "The village is not Cinque Terre's prettiest (that might be Vernazza), its most dramatic (that's probably Riomaggiore), or its most isolated (Corniglia claims that). It's Cinque Terre's most hospitable—the village designed, by geography and history both, to welcome the world.",
-        "Come for the beach, the accessibility, the options. Stay for the lemon terraces, the medieval caruggi, the anchovy heritage. Leave understanding that 'most accessible' doesn't mean 'least interesting'—just 'most different.' And different has its own value."
-      ],
+      "title": {
+        "en": "Where Cinque Terre Meets the World",
+        "de": "Wo die Cinque Terre auf die Welt treffen",
+        "fr": "Où les Cinque Terre Rencontrent le Monde",
+        "it": "Dove le Cinque Terre Incontrano il Mondo"
+      },
+      "content": {
+        "en": [
+          "Monterosso is Cinque Terre's most accessible village—in every sense of that word. It welcomes visitors with infrastructure other villages can't provide. It offers experiences other villages can't match. It accommodates travelers other villages might challenge.",
+          "The village is not Cinque Terre's prettiest (that might be Vernazza), its most dramatic (that's probably Riomaggiore), or its most isolated (Corniglia claims that). It's Cinque Terre's most hospitable—the village designed, by geography and history both, to welcome the world.",
+          "Come for the beach, the accessibility, the options. Stay for the lemon terraces, the medieval caruggi, the anchovy heritage. Leave understanding that 'most accessible' doesn't mean 'least interesting'—just 'most different.' And different has its own value."
+        ],
+        "de": [
+          "Monterosso ist das zugänglichste Dorf der Cinque Terre—in jeder Bedeutung dieses Wortes. Es heißt Besucher mit Infrastruktur willkommen, die andere Dörfer nicht bieten können. Es bietet Erlebnisse, die andere Dörfer nicht erreichen können. Es nimmt Reisende auf, die andere Dörfer herausfordern könnten.",
+          "Das Dorf ist nicht das hübscheste der Cinque Terre (das könnte Vernazza sein), nicht das dramatischste (das ist wahrscheinlich Riomaggiore) oder das isolierteste (Corniglia beansprucht das). Es ist das gastfreundlichste der Cinque Terre—das Dorf, das durch Geografie und Geschichte gleichermaßen gestaltet wurde, um die Welt willkommen zu heißen.",
+          "Kommen Sie für den Strand, die Zugänglichkeit, die Optionen. Bleiben Sie für die Zitronenterrassen, die mittelalterlichen Caruggi, das Sardellenerbe. Gehen Sie mit dem Verständnis, dass 'am zugänglichsten' nicht 'am wenigsten interessant' bedeutet—nur 'am meisten verschieden'. Und Verschiedenheit hat ihren eigenen Wert."
+        ],
+        "fr": [
+          "Monterosso est le village le plus accessible des Cinque Terre—dans tous les sens du terme. Il accueille les visiteurs avec une infrastructure que les autres villages ne peuvent pas fournir. Il offre des expériences que les autres villages ne peuvent pas égaler. Il accommode des voyageurs que d'autres villages pourraient défier.",
+          "Le village n'est pas le plus joli des Cinque Terre (ce serait peut-être Vernazza), ni le plus dramatique (c'est probablement Riomaggiore), ni le plus isolé (Corniglia revendique cela). C'est le plus hospitalier des Cinque Terre—le village conçu, par la géographie et l'histoire, pour accueillir le monde.",
+          "Venez pour la plage, l'accessibilité, les options. Restez pour les terrasses de citronniers, les caruggi médiévaux, l'héritage des anchois. Repartez en comprenant que 'le plus accessible' ne signifie pas 'le moins intéressant'—juste 'le plus différent'. Et la différence a sa propre valeur."
+        ],
+        "it": [
+          "Monterosso è il borgo più accessibile delle Cinque Terre—in ogni senso della parola. Accoglie i visitatori con infrastrutture che gli altri borghi non possono fornire. Offre esperienze che gli altri borghi non possono eguagliare. Accoglie viaggiatori che altri borghi potrebbero mettere alla prova.",
+          "Il borgo non è il più bello delle Cinque Terre (quello potrebbe essere Vernazza), né il più drammatico (probabilmente è Riomaggiore), né il più isolato (Corniglia lo rivendica). È il più ospitale delle Cinque Terre—il borgo progettato, dalla geografia e dalla storia insieme, per accogliere il mondo.",
+          "Venite per la spiaggia, l'accessibilità, le opzioni. Restate per i limoneti terrazzati, i caruggi medievali, l'eredità delle acciughe. Andate via capendo che 'più accessibile' non significa 'meno interessante'—solo 'più diverso'. E la diversità ha il suo valore."
+        ]
+      },
       "buttons": [
-        { "text": "Things to Do", "url": "/en/monterosso/things-to-do", "variant": "primary" },
-        { "text": "Where to Eat", "url": "/en/monterosso/restaurants", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Things to Do",
+            "de": "Aktivitäten",
+            "fr": "Activités",
+            "it": "Cosa Fare"
+          },
+          "url": {
+            "en": "/en/monterosso/things-to-do",
+            "de": "/de/monterosso/things-to-do",
+            "fr": "/fr/monterosso/things-to-do",
+            "it": "/it/monterosso/things-to-do"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Eat",
+            "de": "Restaurants",
+            "fr": "Restaurants",
+            "it": "Dove Mangiare"
+          },
+          "url": {
+            "en": "/en/monterosso/restaurants",
+            "de": "/de/monterosso/restaurants",
+            "fr": "/fr/monterosso/restaurants",
+            "it": "/it/monterosso/restaurants"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -157,5 +471,5 @@
   },
   "status": "published",
   "created_at": "2026-01-07T10:00:00.000Z",
-  "updated_at": "2026-01-07T10:00:00.000Z"
+  "updated_at": "2026-01-07T14:45:00.000Z"
 }

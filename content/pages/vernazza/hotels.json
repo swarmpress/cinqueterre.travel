@@ -7,36 +7,90 @@
     "it": "/it/vernazza/hotels"
   },
   "title": {
-    "en": "Where to Stay in Vernazza | Cinque Terre Dispatch"
+    "en": "Where to Stay in Vernazza | Cinque Terre Dispatch",
+    "de": "Übernachten in Vernazza | Cinque Terre Dispatch",
+    "fr": "Où Séjourner à Vernazza | Cinque Terre Dispatch",
+    "it": "Dove Dormire a Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "hotels",
   "seo": {
     "title": {
-      "en": "Where to Stay in Vernazza | Cinque Terre Dispatch"
+      "en": "Where to Stay in Vernazza | Cinque Terre Dispatch",
+      "de": "Übernachten in Vernazza | Cinque Terre Dispatch",
+      "fr": "Où Séjourner à Vernazza | Cinque Terre Dispatch",
+      "it": "Dove Dormire a Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "There are no hotels in Vernazza—not in the traditional sense. What there is: guesthouses where families have hosted travelers for generations, rooms where the harbor is your morning view."
+      "en": "There are no hotels in Vernazza—not in the traditional sense. What there is: guesthouses where families have hosted travelers for generations, rooms where the harbor is your morning view.",
+      "de": "Es gibt keine Hotels in Vernazza—nicht im traditionellen Sinne. Was es gibt: Pensionen, in denen Familien seit Generationen Reisende beherbergen, Zimmer, in denen der Hafen Ihr Morgenblick ist.",
+      "fr": "Il n'y a pas d'hôtels à Vernazza—pas au sens traditionnel. Ce qu'il y a : des maisons d'hôtes où des familles accueillent des voyageurs depuis des générations, des chambres où le port est votre vue du matin.",
+      "it": "Non ci sono hotel a Vernazza—non nel senso tradizionale. Quello che c'è: pensioni dove le famiglie ospitano viaggiatori da generazioni, camere dove il porto è la vostra vista mattutina."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Where the Harbor<br/>Wakes You",
-      "subtitle": "Vernazza has no hotels. What it has instead: affittacamere—family-run guesthouses where you don't check in so much as arrive. The best properties put you inside the village rhythm: fishermen mending nets at dawn, church bells at noon, the sunset crowd gathering on the breakwater.",
-      "badge": "Where to Stay",
+      "title": {
+        "en": "Where the Harbor<br/>Wakes You",
+        "de": "Wo der Hafen<br/>Sie weckt",
+        "fr": "Où le Port<br/>Vous Réveille",
+        "it": "Dove il Porto<br/>Vi Sveglia"
+      },
+      "subtitle": {
+        "en": "Vernazza has no hotels. What it has instead: affittacamere—family-run guesthouses where you don't check in so much as arrive. The best properties put you inside the village rhythm: fishermen mending nets at dawn, church bells at noon, the sunset crowd gathering on the breakwater.",
+        "de": "Vernazza hat keine Hotels. Was es stattdessen hat: Affittacamere—familiengeführte Pensionen, wo man nicht so sehr eincheckt, sondern ankommt. Die besten Unterkünfte versetzen Sie in den Dorfrhythmus: Fischer, die bei Morgengrauen Netze flicken, Kirchenglocken um zwölf, die Sonnenuntergangs-Menge, die sich am Wellenbrecher versammelt.",
+        "fr": "Vernazza n'a pas d'hôtels. Ce qu'elle a à la place : des affittacamere—des maisons d'hôtes familiales où l'on n'enregistre pas tant qu'on arrive. Les meilleures propriétés vous plongent dans le rythme du village : pêcheurs réparant leurs filets à l'aube, cloches d'église à midi, la foule du coucher de soleil se rassemblant sur la digue.",
+        "it": "Vernazza non ha hotel. Quello che ha invece: affittacamere—pensioni a conduzione familiare dove non si fa tanto il check-in quanto si arriva. Le migliori proprietà vi mettono dentro il ritmo del borgo: pescatori che rammendano reti all'alba, campane della chiesa a mezzogiorno, la folla del tramonto che si raduna sul molo."
+      },
+      "badge": {
+        "en": "Where to Stay",
+        "de": "Übernachten",
+        "fr": "Où Séjourner",
+        "it": "Dove Dormire"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1507003211169-0a1dd7228f2d-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Guesthouse Philosophy",
-      "quote": "In Vernazza, there is no front desk, no concierge, no lobby. There is only a family who rents rooms, a key that opens a door, and a village that becomes your temporary home. This is not a limitation—it's the point.",
-      "content": [
-        "**There are no traditional hotels**. The accommodations here are affittacamere—guesthouses composed of individual rooms, often without on-site staff. You'll receive instructions, a key, and perhaps a phone number. Self-sufficiency is expected.",
-        "**Sea views command premium prices**. Vernazza's most coveted rooms look directly onto the harbor. These fill months ahead and justify their rates with morning light on medieval towers and sunset colors on the water.",
-        "**The stairs define your experience**. Harbor-level means convenience and noise; hillside means views and exercise. Choose based on your relationship with gravity and your tolerance for the village's social energy.",
-        "**Book absurdly early**. This is the most photographed village in Cinque Terre. The best properties fill six months ahead for summer. Spring and fall reward those who plan; winter rewards the spontaneous."
-      ]
+      "badge": {
+        "en": "The Guesthouse Philosophy",
+        "de": "Die Pensionsphilosophie",
+        "fr": "La Philosophie des Maisons d'Hôtes",
+        "it": "La Filosofia delle Pensioni"
+      },
+      "quote": {
+        "en": "In Vernazza, there is no front desk, no concierge, no lobby. There is only a family who rents rooms, a key that opens a door, and a village that becomes your temporary home. This is not a limitation—it's the point.",
+        "de": "In Vernazza gibt es keine Rezeption, keinen Concierge, keine Lobby. Es gibt nur eine Familie, die Zimmer vermietet, einen Schlüssel, der eine Tür öffnet, und ein Dorf, das Ihr vorübergehendes Zuhause wird. Das ist keine Einschränkung—das ist der Punkt.",
+        "fr": "À Vernazza, il n'y a pas de réception, pas de concierge, pas de hall. Il y a seulement une famille qui loue des chambres, une clé qui ouvre une porte, et un village qui devient votre maison temporaire. Ce n'est pas une limitation—c'est le point.",
+        "it": "A Vernazza non c'è reception, non c'è concierge, non c'è hall. C'è solo una famiglia che affitta stanze, una chiave che apre una porta, e un borgo che diventa la vostra casa temporanea. Questa non è una limitazione—è il punto."
+      },
+      "content": {
+        "en": [
+          "**There are no traditional hotels**. The accommodations here are affittacamere—guesthouses composed of individual rooms, often without on-site staff. You'll receive instructions, a key, and perhaps a phone number. Self-sufficiency is expected.",
+          "**Sea views command premium prices**. Vernazza's most coveted rooms look directly onto the harbor. These fill months ahead and justify their rates with morning light on medieval towers and sunset colors on the water.",
+          "**The stairs define your experience**. Harbor-level means convenience and noise; hillside means views and exercise. Choose based on your relationship with gravity and your tolerance for the village's social energy.",
+          "**Book absurdly early**. This is the most photographed village in Cinque Terre. The best properties fill six months ahead for summer. Spring and fall reward those who plan; winter rewards the spontaneous."
+        ],
+        "de": [
+          "**Es gibt keine traditionellen Hotels**. Die Unterkünfte hier sind Affittacamere—Pensionen, die aus einzelnen Zimmern bestehen, oft ohne Personal vor Ort. Sie erhalten Anweisungen, einen Schlüssel und vielleicht eine Telefonnummer. Selbstständigkeit wird erwartet.",
+          "**Meerblick verlangt Premium-Preise**. Vernazzas begehrteste Zimmer blicken direkt auf den Hafen. Diese füllen sich Monate im Voraus und rechtfertigen ihre Preise mit Morgenlicht auf mittelalterlichen Türmen und Sonnenuntergangsfarben auf dem Wasser.",
+          "**Die Treppen definieren Ihr Erlebnis**. Hafenniveau bedeutet Bequemlichkeit und Lärm; Hangseite bedeutet Aussicht und Bewegung. Wählen Sie basierend auf Ihrem Verhältnis zur Schwerkraft und Ihrer Toleranz für die soziale Energie des Dorfes.",
+          "**Buchen Sie absurd früh**. Das ist das meistfotografierte Dorf der Cinque Terre. Die besten Unterkünfte füllen sich sechs Monate im Voraus für den Sommer. Frühling und Herbst belohnen diejenigen, die planen; Winter belohnt die Spontanen."
+        ],
+        "fr": [
+          "**Il n'y a pas d'hôtels traditionnels**. Les hébergements ici sont des affittacamere—des maisons d'hôtes composées de chambres individuelles, souvent sans personnel sur place. Vous recevrez des instructions, une clé, et peut-être un numéro de téléphone. L'autonomie est attendue.",
+          "**La vue sur mer commande des prix premium**. Les chambres les plus convoitées de Vernazza donnent directement sur le port. Elles se remplissent des mois à l'avance et justifient leurs tarifs avec la lumière du matin sur les tours médiévales et les couleurs du coucher de soleil sur l'eau.",
+          "**Les escaliers définissent votre expérience**. Le niveau du port signifie commodité et bruit ; le flanc de colline signifie vues et exercice. Choisissez en fonction de votre relation avec la gravité et de votre tolérance à l'énergie sociale du village.",
+          "**Réservez absurdement tôt**. C'est le village le plus photographié des Cinque Terre. Les meilleures propriétés se remplissent six mois à l'avance pour l'été. Le printemps et l'automne récompensent ceux qui planifient ; l'hiver récompense les spontanés."
+        ],
+        "it": [
+          "**Non ci sono hotel tradizionali**. Gli alloggi qui sono affittacamere—pensioni composte da camere individuali, spesso senza personale in loco. Riceverete istruzioni, una chiave e forse un numero di telefono. L'autosufficienza è prevista.",
+          "**La vista mare richiede prezzi premium**. Le stanze più ambite di Vernazza guardano direttamente sul porto. Si riempiono con mesi di anticipo e giustificano le loro tariffe con la luce del mattino sulle torri medievali e i colori del tramonto sull'acqua.",
+          "**Le scale definiscono la vostra esperienza**. Il livello del porto significa comodità e rumore; la collina significa viste ed esercizio. Scegliete in base al vostro rapporto con la gravità e alla vostra tolleranza per l'energia sociale del borgo.",
+          "**Prenotate assurdamente presto**. Questo è il borgo più fotografato delle Cinque Terre. Le migliori proprietà si riempiono sei mesi prima per l'estate. Primavera e autunno premiano chi pianifica; l'inverno premia gli spontanei."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,64 +98,214 @@
       "items": [
         {
           "id": 1,
-          "name": "La Mala",
-          "category": "Premium Guesthouse",
+          "name": {
+            "en": "La Mala",
+            "de": "La Mala",
+            "fr": "La Mala",
+            "it": "La Mala"
+          },
+          "category": {
+            "en": "Premium Guesthouse",
+            "de": "Premium-Pension",
+            "fr": "Maison d'Hôtes Premium",
+            "it": "Pensione Premium"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Clifftop elegance where every room frames the harbor like a painting.",
-          "description": "La Mala occupies a privileged position above the harbor, with rooms designed to maximize the views that make Vernazza famous. The décor is refined without being fussy, the beds are excellent, and the terrace at sunset is worth whatever they charge.",
-          "giuliaComment": "This is where I send people who want Vernazza's beauty without the village's rough edges. The rooms are genuinely elegant, the views are extraordinary, and the climb—while real—is manageable.",
-          "signature": "Where the view is the room",
+          "intro": {
+            "en": "Clifftop elegance where every room frames the harbor like a painting.",
+            "de": "Eleganz auf der Klippe, wo jedes Zimmer den Hafen wie ein Gemälde einrahmt.",
+            "fr": "Élégance au sommet de la falaise où chaque chambre encadre le port comme un tableau.",
+            "it": "Eleganza sulla scogliera dove ogni stanza incornicia il porto come un dipinto."
+          },
+          "description": {
+            "en": "La Mala occupies a privileged position above the harbor, with rooms designed to maximize the views that make Vernazza famous. The décor is refined without being fussy, the beds are excellent, and the terrace at sunset is worth whatever they charge.",
+            "de": "La Mala nimmt eine privilegierte Position über dem Hafen ein, mit Zimmern, die darauf ausgelegt sind, die Aussichten zu maximieren, die Vernazza berühmt machen. Das Dekor ist raffiniert ohne übertrieben zu sein, die Betten sind ausgezeichnet, und die Terrasse bei Sonnenuntergang ist jeden Preis wert.",
+            "fr": "La Mala occupe une position privilégiée au-dessus du port, avec des chambres conçues pour maximiser les vues qui rendent Vernazza célèbre. Le décor est raffiné sans être pointilleux, les lits sont excellents, et la terrasse au coucher du soleil vaut tout ce qu'ils demandent.",
+            "it": "La Mala occupa una posizione privilegiata sopra il porto, con stanze progettate per massimizzare le viste che rendono Vernazza famosa. L'arredamento è raffinato senza essere puntiglioso, i letti sono eccellenti, e la terrazza al tramonto vale qualsiasi prezzo."
+          },
+          "giuliaComment": {
+            "en": "This is where I send people who want Vernazza's beauty without the village's rough edges. The rooms are genuinely elegant, the views are extraordinary, and the climb—while real—is manageable.",
+            "de": "Hierhin schicke ich Leute, die Vernazzas Schönheit ohne die rauen Ecken des Dorfes wollen. Die Zimmer sind wirklich elegant, die Aussichten sind außergewöhnlich, und der Aufstieg—obwohl real—ist machbar.",
+            "fr": "C'est là que j'envoie les gens qui veulent la beauté de Vernazza sans les aspérités du village. Les chambres sont vraiment élégantes, les vues sont extraordinaires, et la montée—bien que réelle—est gérable.",
+            "it": "Qui mando le persone che vogliono la bellezza di Vernazza senza gli spigoli del borgo. Le stanze sono genuinamente eleganti, le viste sono straordinarie, e la salita—anche se reale—è gestibile."
+          },
+          "signature": {
+            "en": "Where the view is the room",
+            "de": "Wo die Aussicht das Zimmer ist",
+            "fr": "Où la vue est la chambre",
+            "it": "Dove la vista è la stanza"
+          },
           "priceRange": "€€€",
-          "practicalInfo": "Book months ahead. Sea view rooms go first. The breakfast terrace is extraordinary."
+          "practicalInfo": {
+            "en": "Book months ahead. Sea view rooms go first. The breakfast terrace is extraordinary.",
+            "de": "Monate im Voraus buchen. Meerblick-Zimmer gehen zuerst. Die Frühstücksterrasse ist außergewöhnlich.",
+            "fr": "Réservez des mois à l'avance. Les chambres vue mer partent en premier. La terrasse du petit-déjeuner est extraordinaire.",
+            "it": "Prenotate con mesi di anticipo. Le stanze vista mare vanno per prime. La terrazza per la colazione è straordinaria."
+          }
         },
         {
           "id": 2,
-          "name": "Gianni Franzi Rooms",
-          "category": "Historic Guesthouse",
+          "name": {
+            "en": "Gianni Franzi Rooms",
+            "de": "Gianni Franzi Zimmer",
+            "fr": "Chambres Gianni Franzi",
+            "it": "Camere Gianni Franzi"
+          },
+          "category": {
+            "en": "Historic Guesthouse",
+            "de": "Historische Pension",
+            "fr": "Maison d'Hôtes Historique",
+            "it": "Pensione Storica"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The family that feeds the village also houses it—rooms above the restaurant that started it all.",
-          "description": "The Franzi family has been part of Vernazza since the 1960s. Their guesthouse rooms sit above their legendary restaurant, putting you at the heart of the village's social life. The accommodations are comfortable rather than luxurious—but the location and the family's hospitality are unmatched.",
-          "giuliaComment": "Staying at Gianni Franzi means becoming temporary family. They'll remember your name, recommend what to do, and probably invite you for a drink. The rooms are fine; the belonging is exceptional.",
-          "signature": "Where hospitality is hereditary",
+          "intro": {
+            "en": "The family that feeds the village also houses it—rooms above the restaurant that started it all.",
+            "de": "Die Familie, die das Dorf ernährt, beherbergt es auch—Zimmer über dem Restaurant, das alles begann.",
+            "fr": "La famille qui nourrit le village l'héberge aussi—chambres au-dessus du restaurant qui a tout commencé.",
+            "it": "La famiglia che nutre il borgo lo ospita anche—camere sopra il ristorante che ha iniziato tutto."
+          },
+          "description": {
+            "en": "The Franzi family has been part of Vernazza since the 1960s. Their guesthouse rooms sit above their legendary restaurant, putting you at the heart of the village's social life. The accommodations are comfortable rather than luxurious—but the location and the family's hospitality are unmatched.",
+            "de": "Die Familie Franzi ist seit den 1960er Jahren Teil von Vernazza. Ihre Pensionszimmer befinden sich über ihrem legendären Restaurant und bringen Sie ins Herz des gesellschaftlichen Lebens des Dorfes. Die Unterkünfte sind eher komfortabel als luxuriös—aber die Lage und die Gastfreundschaft der Familie sind unübertroffen.",
+            "fr": "La famille Franzi fait partie de Vernazza depuis les années 1960. Leurs chambres d'hôtes sont situées au-dessus de leur légendaire restaurant, vous plaçant au cœur de la vie sociale du village. Les hébergements sont confortables plutôt que luxueux—mais l'emplacement et l'hospitalité de la famille sont inégalés.",
+            "it": "La famiglia Franzi fa parte di Vernazza dagli anni '60. Le loro camere sono sopra il loro leggendario ristorante, mettendovi nel cuore della vita sociale del borgo. Gli alloggi sono confortevoli piuttosto che lussuosi—ma la posizione e l'ospitalità della famiglia sono impareggiabili."
+          },
+          "giuliaComment": {
+            "en": "Staying at Gianni Franzi means becoming temporary family. They'll remember your name, recommend what to do, and probably invite you for a drink. The rooms are fine; the belonging is exceptional.",
+            "de": "Bei Gianni Franzi zu übernachten bedeutet, vorübergehend Familie zu werden. Sie werden sich an Ihren Namen erinnern, empfehlen, was zu tun ist, und Sie wahrscheinlich auf einen Drink einladen. Die Zimmer sind gut; das Zugehörigkeitsgefühl ist außergewöhnlich.",
+            "fr": "Séjourner chez Gianni Franzi signifie devenir temporairement famille. Ils se souviendront de votre nom, recommanderont quoi faire, et vous inviteront probablement pour un verre. Les chambres sont bien ; l'appartenance est exceptionnelle.",
+            "it": "Soggiornare da Gianni Franzi significa diventare temporaneamente famiglia. Si ricorderanno il vostro nome, consiglieranno cosa fare, e probabilmente vi inviteranno per un drink. Le stanze sono buone; l'appartenenza è eccezionale."
+          },
+          "signature": {
+            "en": "Where hospitality is hereditary",
+            "de": "Wo Gastfreundschaft erblich ist",
+            "fr": "Où l'hospitalité est héréditaire",
+            "it": "Dove l'ospitalità è ereditaria"
+          },
           "priceRange": "€€",
-          "practicalInfo": "Restaurant guests get priority for rooms. Book early for peak season. Breakfast included."
+          "practicalInfo": {
+            "en": "Restaurant guests get priority for rooms. Book early for peak season. Breakfast included.",
+            "de": "Restaurantgäste haben Vorrang für Zimmer. Früh buchen für die Hochsaison. Frühstück inklusive.",
+            "fr": "Les clients du restaurant ont la priorité pour les chambres. Réservez tôt pour la haute saison. Petit-déjeuner inclus.",
+            "it": "Gli ospiti del ristorante hanno priorità per le stanze. Prenotate presto per l'alta stagione. Colazione inclusa."
+          }
         },
         {
           "id": 3,
-          "name": "Polena",
-          "category": "Intimate Guesthouse",
+          "name": {
+            "en": "Polena",
+            "de": "Polena",
+            "fr": "Polena",
+            "it": "Polena"
+          },
+          "category": {
+            "en": "Intimate Guesthouse",
+            "de": "Intime Pension",
+            "fr": "Maison d'Hôtes Intime",
+            "it": "Pensione Intima"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Small, intimate, and blessed with a panoramic terrace that makes other guesthouses jealous.",
-          "description": "Polena keeps it simple: a handful of rooms, all with sea views, and an extraordinary shared terrace that surveys the entire harbor and coast. Breakfast is included and served at a nearby restaurant—but most mornings, you'll want to linger on that terrace.",
-          "giuliaComment": "The terrace is why you book Polena. Sunrise coffee with the harbor spread below you, watching the boats come in—that's what you came for. The rooms are clean and comfortable; the terrace is extraordinary.",
-          "signature": "The terrace that justifies everything",
+          "intro": {
+            "en": "Small, intimate, and blessed with a panoramic terrace that makes other guesthouses jealous.",
+            "de": "Klein, intim und mit einer Panoramaterrasse gesegnet, die andere Pensionen neidisch macht.",
+            "fr": "Petit, intime, et béni d'une terrasse panoramique qui rend les autres maisons d'hôtes jalouses.",
+            "it": "Piccola, intima, e benedetta da una terrazza panoramica che fa invidia alle altre pensioni."
+          },
+          "description": {
+            "en": "Polena keeps it simple: a handful of rooms, all with sea views, and an extraordinary shared terrace that surveys the entire harbor and coast. Breakfast is included and served at a nearby restaurant—but most mornings, you'll want to linger on that terrace.",
+            "de": "Polena hält es einfach: eine Handvoll Zimmer, alle mit Meerblick, und eine außergewöhnliche gemeinsame Terrasse, die den gesamten Hafen und die Küste überblickt. Frühstück ist inklusive und wird in einem nahegelegenen Restaurant serviert—aber die meisten Morgen werden Sie auf dieser Terrasse verweilen wollen.",
+            "fr": "Polena garde les choses simples : une poignée de chambres, toutes avec vue sur mer, et une terrasse commune extraordinaire qui surplombe tout le port et la côte. Le petit-déjeuner est inclus et servi dans un restaurant voisin—mais la plupart des matins, vous voudrez vous attarder sur cette terrasse.",
+            "it": "Polena mantiene le cose semplici: una manciata di stanze, tutte con vista mare, e una straordinaria terrazza condivisa che domina l'intero porto e la costa. La colazione è inclusa e servita in un ristorante vicino—ma la maggior parte delle mattine vorrete indugiare su quella terrazza."
+          },
+          "giuliaComment": {
+            "en": "The terrace is why you book Polena. Sunrise coffee with the harbor spread below you, watching the boats come in—that's what you came for. The rooms are clean and comfortable; the terrace is extraordinary.",
+            "de": "Die Terrasse ist der Grund, warum Sie Polena buchen. Sonnenaufgangskaffee mit dem Hafen unter Ihnen, die Boote beobachtend, die hereinkommen—dafür sind Sie gekommen. Die Zimmer sind sauber und komfortabel; die Terrasse ist außergewöhnlich.",
+            "fr": "La terrasse est la raison pour laquelle vous réservez Polena. Café au lever du soleil avec le port étalé sous vous, regardant les bateaux arriver—c'est pour ça que vous êtes venu. Les chambres sont propres et confortables ; la terrasse est extraordinaire.",
+            "it": "La terrazza è il motivo per cui prenotate Polena. Caffè all'alba con il porto disteso sotto di voi, guardando le barche che arrivano—è per questo che siete venuti. Le stanze sono pulite e confortevoli; la terrazza è straordinaria."
+          },
+          "signature": {
+            "en": "The terrace that justifies everything",
+            "de": "Die Terrasse, die alles rechtfertigt",
+            "fr": "La terrasse qui justifie tout",
+            "it": "La terrazza che giustifica tutto"
+          },
           "priceRange": "€€€",
-          "practicalInfo": "Book well ahead for sea view rooms. Breakfast at nearby restaurant included. The terrace is shared but rarely crowded."
+          "practicalInfo": {
+            "en": "Book well ahead for sea view rooms. Breakfast at nearby restaurant included. The terrace is shared but rarely crowded.",
+            "de": "Weit im Voraus für Meerblick-Zimmer buchen. Frühstück in einem nahegelegenen Restaurant inklusive. Die Terrasse ist geteilt, aber selten überfüllt.",
+            "fr": "Réservez bien à l'avance pour les chambres vue mer. Petit-déjeuner au restaurant voisin inclus. La terrasse est partagée mais rarement bondée.",
+            "it": "Prenotate con largo anticipo per le stanze vista mare. Colazione al ristorante vicino inclusa. La terrazza è condivisa ma raramente affollata."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Luggage Question",
-          "quote": "Vernazza station deposits you at harbor level. From there, every accommodation requires stairs—some of them medieval, most of them steep, all of them charming in retrospect. Pack a single bag you can carry. Rolling suitcases are enemies here. Many hosts offer to meet you; take that offer."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Luggage Question",
+            "de": "Die Gepäckfrage",
+            "fr": "La Question des Bagages",
+            "it": "La Questione Bagagli"
+          },
+          "quote": {
+            "en": "Vernazza station deposits you at harbor level. From there, every accommodation requires stairs—some of them medieval, most of them steep, all of them charming in retrospect. Pack a single bag you can carry. Rolling suitcases are enemies here. Many hosts offer to meet you; take that offer.",
+            "de": "Der Bahnhof Vernazza setzt Sie auf Hafenniveau ab. Von dort erfordert jede Unterkunft Treppen—einige davon mittelalterlich, die meisten davon steil, alle im Nachhinein charmant. Packen Sie eine einzelne Tasche, die Sie tragen können. Rollkoffer sind hier Feinde. Viele Gastgeber bieten an, Sie abzuholen; nehmen Sie dieses Angebot an.",
+            "fr": "La gare de Vernazza vous dépose au niveau du port. De là, chaque hébergement nécessite des escaliers—certains médiévaux, la plupart raides, tous charmants rétrospectivement. Emportez un seul sac que vous pouvez porter. Les valises à roulettes sont des ennemies ici. De nombreux hôtes proposent de vous accueillir ; acceptez cette offre.",
+            "it": "La stazione di Vernazza vi deposita al livello del porto. Da lì, ogni alloggio richiede scale—alcune medievali, la maggior parte ripide, tutte affascinanti col senno di poi. Portate una singola borsa che potete trasportare. Le valigie con rotelle sono nemiche qui. Molti host offrono di venirvi a prendere; accettate quell'offerta."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Value and Character",
-      "quote": "The best accommodation in Vernazza might cost €80 or €300. Price correlates with views and location more than quality. Some of the warmest hospitality happens in the simplest rooms.",
-      "content": [
-        "**Affittacamere Elisabetta** proves that value exists. For less than €100, you get a private bathroom, a rooftop terrace with 360-degree views, and a location near everything. The catch? You're managing everything yourself.",
-        "**Casa Cato** offers bright, modern rooms near the beach and train station—practical for arrivals and departures, with sea views from the better rooms.",
-        "**The hillside properties** trade convenience for views and quiet. Cadè Ventu, perched between Corniglia and Vernazza, offers romance, free parking, and views of three villages—if you don't mind being removed from harbor life.",
-        "**Self-catering apartments** suit longer stays. A week in Vernazza benefits from a kitchen, laundry, and the feeling that you're living rather than visiting."
-      ]
+      "badge": {
+        "en": "Value and Character",
+        "de": "Wert und Charakter",
+        "fr": "Valeur et Caractère",
+        "it": "Valore e Carattere"
+      },
+      "quote": {
+        "en": "The best accommodation in Vernazza might cost €80 or €300. Price correlates with views and location more than quality. Some of the warmest hospitality happens in the simplest rooms.",
+        "de": "Die beste Unterkunft in Vernazza kann €80 oder €300 kosten. Der Preis korreliert mehr mit Aussicht und Lage als mit Qualität. Einige der herzlichsten Gastfreundschaften finden in den einfachsten Zimmern statt.",
+        "fr": "Le meilleur hébergement à Vernazza peut coûter 80€ ou 300€. Le prix est plus lié aux vues et à l'emplacement qu'à la qualité. Certaines des hospitalités les plus chaleureuses se trouvent dans les chambres les plus simples.",
+        "it": "Il miglior alloggio a Vernazza può costare €80 o €300. Il prezzo è correlato più alle viste e alla posizione che alla qualità. Alcune delle ospitalità più calorose avvengono nelle stanze più semplici."
+      },
+      "content": {
+        "en": [
+          "**Affittacamere Elisabetta** proves that value exists. For less than €100, you get a private bathroom, a rooftop terrace with 360-degree views, and a location near everything. The catch? You're managing everything yourself.",
+          "**Casa Cato** offers bright, modern rooms near the beach and train station—practical for arrivals and departures, with sea views from the better rooms.",
+          "**The hillside properties** trade convenience for views and quiet. Cadè Ventu, perched between Corniglia and Vernazza, offers romance, free parking, and views of three villages—if you don't mind being removed from harbor life.",
+          "**Self-catering apartments** suit longer stays. A week in Vernazza benefits from a kitchen, laundry, and the feeling that you're living rather than visiting."
+        ],
+        "de": [
+          "**Affittacamere Elisabetta** beweist, dass Wert existiert. Für weniger als €100 bekommen Sie ein eigenes Bad, eine Dachterrasse mit 360-Grad-Aussicht und eine Lage nahe allem. Der Haken? Sie managen alles selbst.",
+          "**Casa Cato** bietet helle, moderne Zimmer nahe Strand und Bahnhof—praktisch für An- und Abreise, mit Meerblick aus den besseren Zimmern.",
+          "**Die Hangunterkünfte** tauschen Bequemlichkeit gegen Aussicht und Ruhe. Cadè Ventu, zwischen Corniglia und Vernazza gelegen, bietet Romantik, kostenlose Parkplätze und Blick auf drei Dörfer—wenn es Ihnen nichts ausmacht, vom Hafenleben entfernt zu sein.",
+          "**Selbstversorger-Apartments** eignen sich für längere Aufenthalte. Eine Woche in Vernazza profitiert von einer Küche, Wäscherei und dem Gefühl, zu leben statt zu besuchen."
+        ],
+        "fr": [
+          "**Affittacamere Elisabetta** prouve que la valeur existe. Pour moins de 100€, vous obtenez une salle de bain privée, une terrasse sur le toit avec vue à 360 degrés, et un emplacement près de tout. Le piège ? Vous gérez tout vous-même.",
+          "**Casa Cato** offre des chambres lumineuses et modernes près de la plage et de la gare—pratique pour les arrivées et départs, avec vue mer depuis les meilleures chambres.",
+          "**Les propriétés sur la colline** échangent la commodité contre les vues et le calme. Cadè Ventu, perché entre Corniglia et Vernazza, offre romance, parking gratuit, et vues sur trois villages—si cela ne vous dérange pas d'être éloigné de la vie du port.",
+          "**Les appartements en self-catering** conviennent aux séjours plus longs. Une semaine à Vernazza bénéficie d'une cuisine, d'une buanderie, et du sentiment de vivre plutôt que de visiter."
+        ],
+        "it": [
+          "**Affittacamere Elisabetta** dimostra che il valore esiste. Per meno di €100, avete un bagno privato, una terrazza sul tetto con vista a 360 gradi, e una posizione vicino a tutto. Il problema? Gestite tutto da soli.",
+          "**Casa Cato** offre stanze luminose e moderne vicino alla spiaggia e alla stazione—pratiche per arrivi e partenze, con vista mare dalle stanze migliori.",
+          "**Le proprietà sulla collina** scambiano comodità per viste e quiete. Cadè Ventu, arroccato tra Corniglia e Vernazza, offre romanticismo, parcheggio gratuito, e viste su tre borghi—se non vi dispiace essere lontani dalla vita del porto.",
+          "**Gli appartamenti con cucina** sono adatti per soggiorni più lunghi. Una settimana a Vernazza beneficia di una cucina, lavanderia, e la sensazione di vivere piuttosto che visitare."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -109,65 +313,235 @@
       "items": [
         {
           "id": 4,
-          "name": "Affittacamere Elisabetta",
-          "category": "Value Guesthouse",
+          "name": {
+            "en": "Affittacamere Elisabetta",
+            "de": "Affittacamere Elisabetta",
+            "fr": "Affittacamere Elisabetta",
+            "it": "Affittacamere Elisabetta"
+          },
+          "category": {
+            "en": "Value Guesthouse",
+            "de": "Preiswerte Pension",
+            "fr": "Maison d'Hôtes Économique",
+            "it": "Pensione Conveniente"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Under €100 for a room with a 360-degree rooftop terrace—Vernazza's best-kept value secret.",
-          "description": "Elisabetta's guesthouse offers what expensive places charge triple for: a rooftop terrace with views in every direction, clean rooms with private bathrooms, and a central location. The trade-off is minimal service—you're on your own for check-in, information, and breakfast. But for self-sufficient travelers, this is exceptional value.",
-          "giuliaComment": "I send budget-conscious friends here and they return surprised. The terrace alone is worth twice the price. You just need to be comfortable with independence.",
-          "signature": "Where value meets views",
+          "intro": {
+            "en": "Under €100 for a room with a 360-degree rooftop terrace—Vernazza's best-kept value secret.",
+            "de": "Unter €100 für ein Zimmer mit 360-Grad-Dachterrasse—Vernazzas bestgehütetes Preis-Geheimnis.",
+            "fr": "Moins de 100€ pour une chambre avec terrasse sur le toit à 360 degrés—le secret le mieux gardé de Vernazza.",
+            "it": "Sotto €100 per una stanza con terrazza sul tetto a 360 gradi—il segreto meglio custodito di Vernazza."
+          },
+          "description": {
+            "en": "Elisabetta's guesthouse offers what expensive places charge triple for: a rooftop terrace with views in every direction, clean rooms with private bathrooms, and a central location. The trade-off is minimal service—you're on your own for check-in, information, and breakfast. But for self-sufficient travelers, this is exceptional value.",
+            "de": "Elisabettas Pension bietet, wofür teure Orte das Dreifache verlangen: eine Dachterrasse mit Aussicht in alle Richtungen, saubere Zimmer mit eigenen Bädern und eine zentrale Lage. Der Kompromiss ist minimaler Service—Sie sind auf sich gestellt beim Check-in, für Informationen und Frühstück. Aber für selbstständige Reisende ist das ein außergewöhnlicher Wert.",
+            "fr": "La maison d'hôtes d'Elisabetta offre ce que les endroits chers facturent trois fois plus : une terrasse sur le toit avec des vues dans toutes les directions, des chambres propres avec salles de bain privées, et un emplacement central. Le compromis est un service minimal—vous êtes seul pour l'enregistrement, les informations et le petit-déjeuner. Mais pour les voyageurs autonomes, c'est une valeur exceptionnelle.",
+            "it": "La pensione di Elisabetta offre quello per cui i posti costosi chiedono il triplo: una terrazza sul tetto con viste in ogni direzione, stanze pulite con bagni privati, e una posizione centrale. Il compromesso è un servizio minimo—siete da soli per il check-in, le informazioni e la colazione. Ma per i viaggiatori autonomi, questo è un valore eccezionale."
+          },
+          "giuliaComment": {
+            "en": "I send budget-conscious friends here and they return surprised. The terrace alone is worth twice the price. You just need to be comfortable with independence.",
+            "de": "Ich schicke preisbewusste Freunde hierher und sie kommen überrascht zurück. Die Terrasse allein ist das Doppelte des Preises wert. Sie müssen nur mit Unabhängigkeit vertraut sein.",
+            "fr": "J'envoie des amis soucieux de leur budget ici et ils reviennent surpris. La terrasse seule vaut deux fois le prix. Il faut juste être à l'aise avec l'indépendance.",
+            "it": "Mando qui amici attenti al budget e tornano sorpresi. La terrazza da sola vale il doppio del prezzo. Dovete solo essere a vostro agio con l'indipendenza."
+          },
+          "signature": {
+            "en": "Where value meets views",
+            "de": "Wo Wert auf Aussicht trifft",
+            "fr": "Où la valeur rencontre les vues",
+            "it": "Dove il valore incontra le viste"
+          },
           "priceRange": "€",
-          "practicalInfo": "Self-check-in. No breakfast. Exceptional rooftop terrace. Book early despite the price."
+          "practicalInfo": {
+            "en": "Self-check-in. No breakfast. Exceptional rooftop terrace. Book early despite the price.",
+            "de": "Selbst-Check-in. Kein Frühstück. Außergewöhnliche Dachterrasse. Früh buchen trotz des Preises.",
+            "fr": "Auto-enregistrement. Pas de petit-déjeuner. Terrasse sur le toit exceptionnelle. Réservez tôt malgré le prix.",
+            "it": "Self check-in. Nessuna colazione. Terrazza sul tetto eccezionale. Prenotate presto nonostante il prezzo."
+          }
         },
         {
           "id": 5,
-          "name": "Albergo Barbara",
-          "category": "Family-Run Classic",
+          "name": {
+            "en": "Albergo Barbara",
+            "de": "Albergo Barbara",
+            "fr": "Albergo Barbara",
+            "it": "Albergo Barbara"
+          },
+          "category": {
+            "en": "Family-Run Classic",
+            "de": "Familiengeführter Klassiker",
+            "fr": "Classique Familial",
+            "it": "Classico a Gestione Familiare"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Near the harbor with views, warmth, and the kind of hospitality that creates return visitors.",
-          "description": "The Barbara family has welcomed guests for decades. Their guesthouse sits near the harbor, close enough to feel the village pulse without drowning in it. Rooms feature modern amenities, some with terraces and panoramic views. But it's the hospitality—genuine, warm, informed—that distinguishes them.",
-          "giuliaComment": "Barbara treats every guest like family. She knows the village intimately and shares freely. The rooms are comfortable; the welcome is what you'll remember.",
-          "signature": "Where hospitality is personal",
+          "intro": {
+            "en": "Near the harbor with views, warmth, and the kind of hospitality that creates return visitors.",
+            "de": "Nahe am Hafen mit Aussicht, Wärme und der Art von Gastfreundschaft, die Wiederkommer schafft.",
+            "fr": "Près du port avec des vues, de la chaleur, et le genre d'hospitalité qui crée des visiteurs fidèles.",
+            "it": "Vicino al porto con viste, calore, e il tipo di ospitalità che crea visitatori abituali."
+          },
+          "description": {
+            "en": "The Barbara family has welcomed guests for decades. Their guesthouse sits near the harbor, close enough to feel the village pulse without drowning in it. Rooms feature modern amenities, some with terraces and panoramic views. But it's the hospitality—genuine, warm, informed—that distinguishes them.",
+            "de": "Die Familie Barbara empfängt seit Jahrzehnten Gäste. Ihre Pension liegt nahe am Hafen, nah genug, um den Puls des Dorfes zu spüren, ohne darin zu ertrinken. Zimmer bieten moderne Annehmlichkeiten, einige mit Terrassen und Panoramablick. Aber es ist die Gastfreundschaft—echt, warm, informiert—die sie auszeichnet.",
+            "fr": "La famille Barbara accueille des hôtes depuis des décennies. Leur maison d'hôtes est située près du port, assez proche pour sentir le pouls du village sans s'y noyer. Les chambres offrent des équipements modernes, certaines avec terrasses et vues panoramiques. Mais c'est l'hospitalité—authentique, chaleureuse, informée—qui les distingue.",
+            "it": "La famiglia Barbara accoglie ospiti da decenni. La loro pensione è vicino al porto, abbastanza vicino da sentire il battito del borgo senza annegarcisi. Le stanze offrono comfort moderni, alcune con terrazze e viste panoramiche. Ma è l'ospitalità—genuina, calorosa, informata—che li distingue."
+          },
+          "giuliaComment": {
+            "en": "Barbara treats every guest like family. She knows the village intimately and shares freely. The rooms are comfortable; the welcome is what you'll remember.",
+            "de": "Barbara behandelt jeden Gast wie Familie. Sie kennt das Dorf intimst und teilt gerne. Die Zimmer sind komfortabel; der Empfang ist, woran Sie sich erinnern werden.",
+            "fr": "Barbara traite chaque hôte comme de la famille. Elle connaît intimement le village et partage librement. Les chambres sont confortables ; l'accueil est ce dont vous vous souviendrez.",
+            "it": "Barbara tratta ogni ospite come famiglia. Conosce il borgo intimamente e condivide liberamente. Le stanze sono confortevoli; l'accoglienza è ciò che ricorderete."
+          },
+          "signature": {
+            "en": "Where hospitality is personal",
+            "de": "Wo Gastfreundschaft persönlich ist",
+            "fr": "Où l'hospitalité est personnelle",
+            "it": "Dove l'ospitalità è personale"
+          },
           "priceRange": "€€",
-          "practicalInfo": "Family-run with genuine warmth. Near harbor. Ask for sea view terrace."
+          "practicalInfo": {
+            "en": "Family-run with genuine warmth. Near harbor. Ask for sea view terrace.",
+            "de": "Familiengeführt mit echter Wärme. Nahe am Hafen. Fragen Sie nach der Meerblick-Terrasse.",
+            "fr": "Familial avec une chaleur authentique. Près du port. Demandez la terrasse vue mer.",
+            "it": "A gestione familiare con calore genuino. Vicino al porto. Chiedete la terrazza vista mare."
+          }
         },
         {
           "id": 6,
-          "name": "Santa Marta Rooms",
-          "category": "Central & Comfortable",
+          "name": {
+            "en": "Santa Marta Rooms",
+            "de": "Santa Marta Zimmer",
+            "fr": "Chambres Santa Marta",
+            "it": "Camere Santa Marta"
+          },
+          "category": {
+            "en": "Central & Comfortable",
+            "de": "Zentral & Komfortabel",
+            "fr": "Central & Confortable",
+            "it": "Centrale & Confortevole"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Steps from beach, station, and restaurants—Vernazza's most practical location.",
-          "description": "Santa Marta offers what practical travelers need: proximity to everything. The beach is close, the train station closer, restaurants within steps. Rooms are cozy and tastefully decorated; some have balconies. This is where you stay when logistics matter.",
-          "giuliaComment": "Not the most romantic option, but the most practical. If you're arriving late or leaving early, if you want the beach accessible, if convenience trumps charm—Santa Marta delivers.",
-          "signature": "Where location solves problems",
+          "intro": {
+            "en": "Steps from beach, station, and restaurants—Vernazza's most practical location.",
+            "de": "Schritte von Strand, Bahnhof und Restaurants entfernt—Vernazzas praktischste Lage.",
+            "fr": "À quelques pas de la plage, de la gare et des restaurants—l'emplacement le plus pratique de Vernazza.",
+            "it": "A passi dalla spiaggia, stazione e ristoranti—la posizione più pratica di Vernazza."
+          },
+          "description": {
+            "en": "Santa Marta offers what practical travelers need: proximity to everything. The beach is close, the train station closer, restaurants within steps. Rooms are cozy and tastefully decorated; some have balconies. This is where you stay when logistics matter.",
+            "de": "Santa Marta bietet, was praktische Reisende brauchen: Nähe zu allem. Der Strand ist nah, der Bahnhof näher, Restaurants in wenigen Schritten. Zimmer sind gemütlich und geschmackvoll eingerichtet; einige haben Balkone. Hier übernachten Sie, wenn Logistik zählt.",
+            "fr": "Santa Marta offre ce dont les voyageurs pratiques ont besoin : la proximité de tout. La plage est proche, la gare plus proche, les restaurants à quelques pas. Les chambres sont confortables et décorées avec goût ; certaines ont des balcons. C'est là que vous logez quand la logistique compte.",
+            "it": "Santa Marta offre ciò di cui i viaggiatori pratici hanno bisogno: vicinanza a tutto. La spiaggia è vicina, la stazione più vicina, ristoranti a pochi passi. Le stanze sono accoglienti e arredate con gusto; alcune hanno balconi. È qui che alloggiate quando la logistica conta."
+          },
+          "giuliaComment": {
+            "en": "Not the most romantic option, but the most practical. If you're arriving late or leaving early, if you want the beach accessible, if convenience trumps charm—Santa Marta delivers.",
+            "de": "Nicht die romantischste Option, aber die praktischste. Wenn Sie spät ankommen oder früh abreisen, wenn Sie den Strand zugänglich haben wollen, wenn Bequemlichkeit Charme übertrumpft—Santa Marta liefert.",
+            "fr": "Pas l'option la plus romantique, mais la plus pratique. Si vous arrivez tard ou partez tôt, si vous voulez la plage accessible, si la commodité l'emporte sur le charme—Santa Marta livre.",
+            "it": "Non l'opzione più romantica, ma la più pratica. Se arrivate tardi o partite presto, se volete la spiaggia accessibile, se la comodità batte il fascino—Santa Marta consegna."
+          },
+          "signature": {
+            "en": "Where location solves problems",
+            "de": "Wo Lage Probleme löst",
+            "fr": "Où l'emplacement résout les problèmes",
+            "it": "Dove la posizione risolve i problemi"
+          },
           "priceRange": "€€",
-          "practicalInfo": "Central location. Some rooms with balconies. Perfect for short stays or tight schedules."
+          "practicalInfo": {
+            "en": "Central location. Some rooms with balconies. Perfect for short stays or tight schedules.",
+            "de": "Zentrale Lage. Einige Zimmer mit Balkonen. Perfekt für Kurzaufenthalte oder enge Zeitpläne.",
+            "fr": "Emplacement central. Certaines chambres avec balcons. Parfait pour les courts séjours ou les emplois du temps serrés.",
+            "it": "Posizione centrale. Alcune stanze con balconi. Perfetto per soggiorni brevi o programmi serrati."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 2,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Seasonal Calculation",
-          "quote": "June through August demands booking six months ahead and paying premium rates. May and September offer better weather with better availability. October's harvest season brings festivals and wine. Winter brings quiet, rain, and the locals to themselves. Choose your Vernazza."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Seasonal Calculation",
+            "de": "Die saisonale Kalkulation",
+            "fr": "Le Calcul Saisonnier",
+            "it": "Il Calcolo Stagionale"
+          },
+          "quote": {
+            "en": "June through August demands booking six months ahead and paying premium rates. May and September offer better weather with better availability. October's harvest season brings festivals and wine. Winter brings quiet, rain, and the locals to themselves. Choose your Vernazza.",
+            "de": "Juni bis August erfordert Buchung sechs Monate im Voraus und Premium-Preise. Mai und September bieten besseres Wetter mit besserer Verfügbarkeit. Oktobers Erntezeit bringt Feste und Wein. Winter bringt Ruhe, Regen und die Einheimischen unter sich. Wählen Sie Ihr Vernazza.",
+            "fr": "Juin à août exige de réserver six mois à l'avance et de payer des tarifs premium. Mai et septembre offrent un meilleur temps avec une meilleure disponibilité. La saison des vendanges d'octobre apporte festivals et vin. L'hiver apporte le calme, la pluie, et les locaux entre eux. Choisissez votre Vernazza.",
+            "it": "Da giugno ad agosto richiede di prenotare sei mesi in anticipo e pagare tariffe premium. Maggio e settembre offrono tempo migliore con migliore disponibilità. La stagione della vendemmia di ottobre porta festival e vino. L'inverno porta quiete, pioggia, e i locali tra di loro. Scegliete la vostra Vernazza."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Room is Forgettable",
-      "content": [
-        "You will not remember your thread count or your showerhead. You will remember the harbor light at 6am, the bells that mark noon, the sunset colors on the tower, and the sound of the village settling into evening.",
-        "Book something that puts you where you want to be. Near the water for immersion. Up the hill for views. In the middle for convenience. Then stop thinking about lodging.",
-        "The room is where you sleep. The harbor is where you live."
-      ],
+      "title": {
+        "en": "The Room is Forgettable",
+        "de": "Das Zimmer ist vergesslich",
+        "fr": "La Chambre est Oubliable",
+        "it": "La Stanza è Dimenticabile"
+      },
+      "content": {
+        "en": [
+          "You will not remember your thread count or your showerhead. You will remember the harbor light at 6am, the bells that mark noon, the sunset colors on the tower, and the sound of the village settling into evening.",
+          "Book something that puts you where you want to be. Near the water for immersion. Up the hill for views. In the middle for convenience. Then stop thinking about lodging.",
+          "The room is where you sleep. The harbor is where you live."
+        ],
+        "de": [
+          "Sie werden sich nicht an Ihre Fadenzahl oder Ihren Duschkopf erinnern. Sie werden sich an das Hafenlicht um 6 Uhr erinnern, die Glocken, die Mittag markieren, die Sonnenuntergangsfarben auf dem Turm und den Klang des Dorfes, das sich in den Abend begibt.",
+          "Buchen Sie etwas, das Sie dorthin bringt, wo Sie sein wollen. Nahe am Wasser für Eintauchen. Hügelaufwärts für Aussicht. In der Mitte für Bequemlichkeit. Dann hören Sie auf, über Unterkunft nachzudenken.",
+          "Das Zimmer ist, wo Sie schlafen. Der Hafen ist, wo Sie leben."
+        ],
+        "fr": [
+          "Vous ne vous souviendrez pas de votre nombre de fils ou de votre pomme de douche. Vous vous souviendrez de la lumière du port à 6h, des cloches qui marquent midi, des couleurs du coucher de soleil sur la tour, et du son du village qui s'installe dans la soirée.",
+          "Réservez quelque chose qui vous met où vous voulez être. Près de l'eau pour l'immersion. En haut de la colline pour les vues. Au milieu pour la commodité. Puis arrêtez de penser au logement.",
+          "La chambre est où vous dormez. Le port est où vous vivez."
+        ],
+        "it": [
+          "Non ricorderete il numero di fili delle lenzuola o il vostro soffione. Ricorderete la luce del porto alle 6 del mattino, le campane che segnano mezzogiorno, i colori del tramonto sulla torre, e il suono del borgo che si adagia nella serata.",
+          "Prenotate qualcosa che vi metta dove volete essere. Vicino all'acqua per l'immersione. Su per la collina per le viste. Nel mezzo per la comodità. Poi smettete di pensare all'alloggio.",
+          "La stanza è dove dormite. Il porto è dove vivete."
+        ]
+      },
       "buttons": [
-        { "text": "Plan Your Dining", "url": "/en/vernazza/restaurants", "variant": "primary" },
-        { "text": "Explore the Village", "url": "/en/vernazza", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Plan Your Dining",
+            "de": "Planen Sie Ihr Essen",
+            "fr": "Planifiez vos Repas",
+            "it": "Pianificate i Vostri Pasti"
+          },
+          "url": {
+            "en": "/en/vernazza/restaurants",
+            "de": "/de/vernazza/restaurants",
+            "fr": "/fr/vernazza/restaurants",
+            "it": "/it/vernazza/restaurants"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Explore the Village",
+            "de": "Erkunden Sie das Dorf",
+            "fr": "Explorez le Village",
+            "it": "Esplorate il Borgo"
+          },
+          "url": {
+            "en": "/en/vernazza",
+            "de": "/de/vernazza",
+            "fr": "/fr/vernazza",
+            "it": "/it/vernazza"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -177,5 +551,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T10:30:00.000Z"
+  "updated_at": "2026-01-07T20:00:00.000Z"
 }

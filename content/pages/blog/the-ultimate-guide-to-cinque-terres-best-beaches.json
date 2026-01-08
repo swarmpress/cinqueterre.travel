@@ -2,138 +2,298 @@
   "id": "blog-article-beaches-01",
   "slug": {
     "en": "/en/blog/the-ultimate-guide-to-cinque-terres-best-beaches",
-    "de": "/de/blog/the-ultimate-guide-to-cinque-terres-best-beaches",
-    "fr": "/fr/blog/the-ultimate-guide-to-cinque-terres-best-beaches",
-    "it": "/it/blog/the-ultimate-guide-to-cinque-terres-best-beaches"
+    "de": "/de/blog/der-ultimative-guide-zu-den-besten-straenden-der-cinque-terre",
+    "fr": "/fr/blog/le-guide-ultime-des-plus-belles-plages-des-cinque-terre",
+    "it": "/it/blog/la-guida-definitiva-alle-migliori-spiagge-delle-cinque-terre"
   },
   "title": {
-    "en": "The Ultimate Guide to Cinque Terre's Best Beaches"
+    "en": "The Ultimate Guide to Cinque Terre's Best Beaches",
+    "de": "Der ultimative Guide zu den schoensten Straenden der Cinque Terre",
+    "fr": "Le guide ultime des plus belles plages des Cinque Terre",
+    "it": "La guida definitiva alle migliori spiagge delle Cinque Terre"
   },
   "page_type": "blog-article",
   "seo": {
     "title": {
-      "en": "The Ultimate Guide to Cinque Terre's Best Beaches | The Dispatch"
+      "en": "The Ultimate Guide to Cinque Terre's Best Beaches | The Dispatch",
+      "de": "Die schoensten Straende der Cinque Terre | The Dispatch",
+      "fr": "Les plus belles plages des Cinque Terre | The Dispatch",
+      "it": "Le migliori spiagge delle Cinque Terre | The Dispatch"
     },
     "description": {
-      "en": "From the sandy shores of Monterosso to the hidden rocky coves of Riomaggiore, we explore the most pristine swimming spots in the Italian Riviera."
+      "en": "From the sandy shores of Monterosso to the hidden rocky coves of Riomaggiore, we explore the most pristine swimming spots in the Italian Riviera.",
+      "de": "Von den Sandstraenden Monterossos bis zu den versteckten Felsbuchten von Riomaggiore - entdecken Sie die schoensten Badestellen der italienischen Riviera.",
+      "fr": "Des plages de sable de Monterosso aux criques rocheuses secretes de Riomaggiore, decouvrez les plus beaux endroits pour se baigner sur la Riviera italienne.",
+      "it": "Dalle spiagge sabbiose di Monterosso alle calette nascoste di Riomaggiore, esploriamo i luoghi piu belli per nuotare nella Riviera Ligure."
     }
   },
   "template": "cinque-terre",
   "body": [
     {
       "type": "blog-article",
-      "title": "The Ultimate Guide to Cinque Terre's Best Beaches",
-      "subtitle": "From the sandy shores of Monterosso to the hidden rocky coves of Riomaggiore, we explore the most pristine swimming spots in the Italian Riviera.",
+      "title": {
+        "en": "The Ultimate Guide to Cinque Terre's Best Beaches",
+        "de": "Der ultimative Guide zu den schoensten Straenden der Cinque Terre",
+        "fr": "Le guide ultime des plus belles plages des Cinque Terre",
+        "it": "La guida definitiva alle migliori spiagge delle Cinque Terre"
+      },
+      "subtitle": {
+        "en": "From the sandy shores of Monterosso to the hidden rocky coves of Riomaggiore, we explore the most pristine swimming spots in the Italian Riviera.",
+        "de": "Von den Sandstraenden Monterossos bis zu den versteckten Felsbuchten von Riomaggiore - eine Entdeckungsreise zu den schoensten Badestellen der italienischen Riviera.",
+        "fr": "Des plages de sable de Monterosso aux criques rocheuses secretes de Riomaggiore, partons a la decouverte des plus beaux endroits pour se baigner sur la Riviera italienne.",
+        "it": "Dalle spiagge sabbiose di Monterosso alle calette nascoste di Riomaggiore, un viaggio alla scoperta dei luoghi piu belli per nuotare nella Riviera Ligure."
+      },
       "author": {
         "name": "Giulia Rossi",
-        "bio": "Born and raised in Riomaggiore, Giulia has spent her life exploring the hidden corners of the Cinque Terre. She is the lead editor of The Dispatch and a certified local guide.",
+        "bio": {
+          "en": "Born and raised in Riomaggiore, Giulia has spent her life exploring the hidden corners of the Cinque Terre. She is the lead editor of The Dispatch and a certified local guide.",
+          "de": "In Riomaggiore geboren und aufgewachsen, hat Giulia ihr Leben der Erkundung der verborgenen Winkel der Cinque Terre gewidmet. Sie ist Chefredakteurin von The Dispatch und zertifizierte Ortsfuehrerin.",
+          "fr": "Nee et elevee a Riomaggiore, Giulia a consacre sa vie a explorer les recoins secrets des Cinque Terre. Elle est redactrice en chef de The Dispatch et guide locale certifiee.",
+          "it": "Nata e cresciuta a Riomaggiore, Giulia ha passato la vita ad esplorare gli angoli nascosti delle Cinque Terre. E la caporedattrice di The Dispatch e guida locale certificata."
+        },
         "image": "/giulia_rossi.png"
       },
-      "date": "October 15, 2023",
-      "readTime": "8 min read",
-      "category": "Guides",
+      "date": {
+        "en": "October 15, 2023",
+        "de": "15. Oktober 2023",
+        "fr": "15 octobre 2023",
+        "it": "15 ottobre 2023"
+      },
+      "readTime": {
+        "en": "8 min read",
+        "de": "8 Min. Lesezeit",
+        "fr": "8 min de lecture",
+        "it": "8 min di lettura"
+      },
+      "category": {
+        "en": "Guides",
+        "de": "Reisefuehrer",
+        "fr": "Guides",
+        "it": "Guide"
+      },
       "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-      "tags": [
-        "Swimming",
-        "Summer",
-        "Local Secrets",
-        "Monterosso",
-        "Riomaggiore"
-      ],
+      "tags": {
+        "en": ["Swimming", "Summer", "Local Secrets", "Monterosso", "Riomaggiore"],
+        "de": ["Schwimmen", "Sommer", "Geheimtipps", "Monterosso", "Riomaggiore"],
+        "fr": ["Baignade", "Ete", "Secrets locaux", "Monterosso", "Riomaggiore"],
+        "it": ["Nuoto", "Estate", "Segreti locali", "Monterosso", "Riomaggiore"]
+      },
       "content": [
         {
           "type": "lead",
-          "text": "The salt air in Cinque Terre is different. It carries the scent of wild thyme from the hills and the ancient stone of the villages. But most importantly, it carries the promise of the sea. For those who know where to look, the five villages offer some of the most spectacular swimming experiences in the Mediterranean."
+          "text": {
+            "en": "The salt air in Cinque Terre is different. It carries the scent of wild thyme from the hills and the ancient stone of the villages. But most importantly, it carries the promise of the sea. For those who know where to look, the five villages offer some of the most spectacular swimming experiences in the Mediterranean.",
+            "de": "Die salzige Luft der Cinque Terre ist anders. Sie traegt den Duft von wildem Thymian aus den Huegeln und den Geruch des uralten Steins der Doerfer. Doch vor allem traegt sie das Versprechen des Meeres. Wer weiss, wo man suchen muss, findet in den fuenf Doerfern einige der spektakulaersten Badeplaetze des Mittelmeers.",
+            "fr": "L'air sale des Cinque Terre est different. Il porte le parfum du thym sauvage des collines et la senteur de la pierre ancestrale des villages. Mais surtout, il porte la promesse de la mer. Pour ceux qui savent ou chercher, les cinq villages offrent certaines des experiences de baignade les plus spectaculaires de la Mediterranee.",
+            "it": "L'aria salmastra delle Cinque Terre e diversa. Porta con se il profumo del timo selvatico delle colline e quello della pietra antica dei borghi. Ma soprattutto, porta la promessa del mare. Per chi sa dove cercare, i cinque borghi offrono alcune delle esperienze di nuoto piu spettacolari del Mediterraneo."
+          }
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "The Sandy Sanctuary: Monterosso al Mare"
+          "text": {
+            "en": "The Sandy Sanctuary: Monterosso al Mare",
+            "de": "Das Sandparadies: Monterosso al Mare",
+            "fr": "Le sanctuaire de sable : Monterosso al Mare",
+            "it": "Il santuario di sabbia: Monterosso al Mare"
+          }
         },
         {
           "type": "paragraph",
-          "text": "Monterosso is the only village with a proper sandy beach. Fegina, the newer part of town, boasts a long stretch of golden sand and crystal-clear turquoise water. It's the perfect spot for families and those who prefer a more traditional beach experience with umbrellas and sunbeds."
+          "text": {
+            "en": "Monterosso is the only village with a proper sandy beach. Fegina, the newer part of town, boasts a long stretch of golden sand and crystal-clear turquoise water. It's the perfect spot for families and those who prefer a more traditional beach experience with umbrellas and sunbeds.",
+            "de": "Monterosso ist das einzige Dorf mit einem richtigen Sandstrand. Fegina, der neuere Teil des Ortes, begeistert mit einem langen Streifen goldenen Sandes und kristallklarem tuerkisfarbenem Wasser. Der perfekte Ort fuer Familien und alle, die ein klassisches Stranderlebnis mit Sonnenschirmen und Liegen bevorzugen.",
+            "fr": "Monterosso est le seul village disposant d'une veritable plage de sable. Fegina, la partie moderne de la ville, offre une longue etendue de sable dore et d'eau turquoise cristalline. C'est l'endroit ideal pour les familles et ceux qui preferent une experience balneaire traditionnelle avec parasols et transats.",
+            "it": "Monterosso e l'unico borgo con una vera spiaggia di sabbia. Fegina, la parte piu moderna del paese, vanta una lunga distesa di sabbia dorata e acqua turchese cristallina. E il luogo perfetto per le famiglie e per chi preferisce un'esperienza balneare tradizionale con ombrelloni e lettini."
+          }
         },
         {
           "type": "image",
           "src": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2574&auto=format&fit=crop",
-          "alt": "Monterosso Beach",
-          "caption": "The iconic orange and blue umbrellas of Monterosso."
+          "alt": {
+            "en": "Monterosso Beach",
+            "de": "Strand von Monterosso",
+            "fr": "Plage de Monterosso",
+            "it": "Spiaggia di Monterosso"
+          },
+          "caption": {
+            "en": "The iconic orange and blue umbrellas of Monterosso.",
+            "de": "Die ikonischen orangefarbenen und blauen Sonnenschirme von Monterosso.",
+            "fr": "Les parasols emblematiques orange et bleu de Monterosso.",
+            "it": "Gli iconici ombrelloni arancioni e blu di Monterosso."
+          }
         },
         {
           "type": "quote",
-          "text": "If you want to swim like a local, you have to embrace the rocks. The best water isn't where the sand is; it's where the cliffs meet the deep blue.",
-          "attribution": "Giulia Rossi, Local Expert"
+          "text": {
+            "en": "If you want to swim like a local, you have to embrace the rocks. The best water isn't where the sand is; it's where the cliffs meet the deep blue.",
+            "de": "Wer schwimmen will wie ein Einheimischer, muss die Felsen lieben lernen. Das beste Wasser ist nicht dort, wo der Sand ist - sondern wo die Klippen auf das tiefe Blau treffen.",
+            "fr": "Si vous voulez nager comme un local, il faut apprivoiser les rochers. La meilleure eau n'est pas la ou il y a du sable, mais la ou les falaises rencontrent le bleu profond.",
+            "it": "Se vuoi nuotare come un locale, devi abbracciare gli scogli. L'acqua migliore non e dove c'e la sabbia, ma dove le scogliere incontrano il blu profondo."
+          },
+          "attribution": {
+            "en": "Giulia Rossi, Local Expert",
+            "de": "Giulia Rossi, Ortskundige Expertin",
+            "fr": "Giulia Rossi, Experte locale",
+            "it": "Giulia Rossi, Esperta locale"
+          }
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "The Hidden Cove: Riomaggiore's Fossola"
+          "text": {
+            "en": "The Hidden Cove: Riomaggiore's Fossola",
+            "de": "Die versteckte Bucht: Fossola in Riomaggiore",
+            "fr": "La crique secrete : Fossola a Riomaggiore",
+            "it": "La caletta nascosta: Fossola a Riomaggiore"
+          }
         },
         {
           "type": "paragraph",
-          "text": "For those willing to walk a bit further, Fossola beach in Riomaggiore offers a wilder experience. This pebble beach is tucked behind the harbor and requires navigating a narrow path along the cliffside. The reward? Deep, emerald water and a sense of isolation that's hard to find in the peak of summer."
+          "text": {
+            "en": "For those willing to walk a bit further, Fossola beach in Riomaggiore offers a wilder experience. This pebble beach is tucked behind the harbor and requires navigating a narrow path along the cliffside. The reward? Deep, emerald water and a sense of isolation that's hard to find in the peak of summer.",
+            "de": "Fuer alle, die bereit sind, etwas weiter zu gehen, bietet der Strand Fossola in Riomaggiore ein wilderes Erlebnis. Dieser Kieselstrand liegt versteckt hinter dem Hafen und ist ueber einen schmalen Pfad entlang der Steilkueste zu erreichen. Die Belohnung? Tiefgruenes Wasser und ein Gefuehl der Abgeschiedenheit, das mitten im Sommer schwer zu finden ist.",
+            "fr": "Pour ceux qui acceptent de marcher un peu plus, la plage de Fossola a Riomaggiore offre une experience plus sauvage. Cette plage de galets est nichee derriere le port et necessite d'emprunter un etroit sentier le long de la falaise. La recompense ? Une eau emeraude profonde et un sentiment d'isolement rare en plein ete.",
+            "it": "Per chi e disposto a camminare un po' di piu, la spiaggia di Fossola a Riomaggiore offre un'esperienza piu selvaggia. Questa spiaggia di ciottoli e nascosta dietro il porto e richiede di percorrere un sentiero stretto lungo la scogliera. La ricompensa? Acqua smeraldo profonda e un senso di isolamento difficile da trovare nel pieno dell'estate."
+          }
         },
         {
           "type": "image-pair",
           "images": [
             {
               "src": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1000",
-              "alt": "Riomaggiore Harbor"
+              "alt": {
+                "en": "Riomaggiore Harbor",
+                "de": "Hafen von Riomaggiore",
+                "fr": "Port de Riomaggiore",
+                "it": "Porto di Riomaggiore"
+              }
             },
             {
               "src": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=1000",
-              "alt": "Coastal Rocks"
+              "alt": {
+                "en": "Coastal Rocks",
+                "de": "Kuestenfelsen",
+                "fr": "Rochers cotiers",
+                "it": "Scogli costieri"
+              }
             }
           ]
         },
         {
           "type": "heading",
           "level": 2,
-          "text": "Practical Tips for Swimmers"
+          "text": {
+            "en": "Practical Tips for Swimmers",
+            "de": "Praktische Tipps fuer Schwimmer",
+            "fr": "Conseils pratiques pour les baigneurs",
+            "it": "Consigli pratici per i nuotatori"
+          }
         },
         {
           "type": "tip-list",
           "items": [
             {
               "icon": "info",
-              "title": "Wear Water Shoes",
-              "text": "Most beaches are pebbly or rocky. Protect your feet from sharp stones and sea urchins."
+              "title": {
+                "en": "Wear Water Shoes",
+                "de": "Badeschuhe tragen",
+                "fr": "Portez des chaussures aquatiques",
+                "it": "Indossate le scarpette da scoglio"
+              },
+              "text": {
+                "en": "Most beaches are pebbly or rocky. Protect your feet from sharp stones and sea urchins.",
+                "de": "Die meisten Straende sind steinig oder felsig. Schuetzen Sie Ihre Fuesse vor scharfen Steinen und Seeigeln.",
+                "fr": "La plupart des plages sont de galets ou rocheuses. Protegez vos pieds des pierres coupantes et des oursins.",
+                "it": "La maggior parte delle spiagge e di ciottoli o scogli. Proteggete i piedi dalle pietre taglienti e dai ricci di mare."
+              }
             },
             {
               "icon": "clock",
-              "title": "Go Early",
-              "text": "The best swimming is before 10 AM when the water is calm and the crowds are still at breakfast."
+              "title": {
+                "en": "Go Early",
+                "de": "Frueh aufbrechen",
+                "fr": "Partez tot",
+                "it": "Andate presto"
+              },
+              "text": {
+                "en": "The best swimming is before 10 AM when the water is calm and the crowds are still at breakfast.",
+                "de": "Die besten Badebedingungen herrschen vor 10 Uhr morgens, wenn das Wasser ruhig ist und die Massen noch beim Fruehstueck sitzen.",
+                "fr": "La meilleure baignade est avant 10h, quand l'eau est calme et que la foule est encore au petit-dejeuner.",
+                "it": "Il momento migliore per nuotare e prima delle 10 del mattino, quando l'acqua e calma e la folla e ancora a colazione."
+              }
             },
             {
               "icon": "compass",
-              "title": "Check the Sea State",
-              "text": "Even a slight swell can make getting in and out of rocky coves dangerous. Always respect the sea."
+              "title": {
+                "en": "Check the Sea State",
+                "de": "Wellengang pruefen",
+                "fr": "Verifiez l'etat de la mer",
+                "it": "Controllate lo stato del mare"
+              },
+              "text": {
+                "en": "Even a slight swell can make getting in and out of rocky coves dangerous. Always respect the sea.",
+                "de": "Selbst leichter Wellengang kann den Ein- und Ausstieg in Felsbuchten gefaehrlich machen. Respektieren Sie immer das Meer.",
+                "fr": "Meme une legere houle peut rendre l'entree et la sortie des criques rocheuses dangereuses. Respectez toujours la mer.",
+                "it": "Anche un leggero moto ondoso puo rendere pericoloso entrare e uscire dalle calette rocciose. Rispettate sempre il mare."
+              }
             }
           ]
         }
       ],
       "sidebar": {
-        "keyTakeaways": [
-          "Monterosso is the only village with a sandy beach.",
-          "Water shoes are essential for rocky coves.",
-          "Early morning is the best time for calm water."
-        ],
+        "keyTakeaways": {
+          "en": [
+            "Monterosso is the only village with a sandy beach.",
+            "Water shoes are essential for rocky coves.",
+            "Early morning is the best time for calm water."
+          ],
+          "de": [
+            "Monterosso ist das einzige Dorf mit Sandstrand.",
+            "Badeschuhe sind fuer Felsbuchten unverzichtbar.",
+            "Der fruehe Morgen bietet die ruhigsten Badebedingungen."
+          ],
+          "fr": [
+            "Monterosso est le seul village avec une plage de sable.",
+            "Les chaussures aquatiques sont indispensables pour les criques rocheuses.",
+            "Le matin tot est le meilleur moment pour une eau calme."
+          ],
+          "it": [
+            "Monterosso e l'unico borgo con spiaggia di sabbia.",
+            "Le scarpette da scoglio sono essenziali per le calette rocciose.",
+            "La mattina presto e il momento migliore per l'acqua calma."
+          ]
+        },
         "relatedPosts": [
           {
-            "title": "5 Hidden Gelaterias You Need to Try",
+            "title": {
+              "en": "5 Hidden Gelaterias You Need to Try",
+              "de": "5 versteckte Gelaterias, die Sie probieren muessen",
+              "fr": "5 gelaterias cachees a decouvrir absolument",
+              "it": "5 gelaterie nascoste da provare assolutamente"
+            },
             "slug": "5-hidden-gelaterias-you-need-to-try",
             "image": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=2670&auto=format&fit=crop"
           },
           {
-            "title": "A Photographer's Guide to Manarola",
+            "title": {
+              "en": "A Photographer's Guide to Manarola",
+              "de": "Ein Fotografen-Guide fuer Manarola",
+              "fr": "Guide du photographe a Manarola",
+              "it": "Guida fotografica a Manarola"
+            },
             "slug": "a-photographers-guide-to-manarola-at-sunset",
             "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2574&auto=format&fit=crop"
           }
         ]
       },
       "nextPost": {
-        "title": "5 Hidden Gelaterias You Need to Try",
+        "title": {
+          "en": "5 Hidden Gelaterias You Need to Try",
+          "de": "5 versteckte Gelaterias, die Sie probieren muessen",
+          "fr": "5 gelaterias cachees a decouvrir absolument",
+          "it": "5 gelaterie nascoste da provare assolutamente"
+        },
         "slug": "5-hidden-gelaterias-you-need-to-try",
         "image": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=2670&auto=format&fit=crop"
       }

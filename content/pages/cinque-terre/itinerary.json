@@ -15,30 +15,81 @@
   "page_type": "itinerary",
   "seo": {
     "title": {
-      "en": "The Salt & Stone Path | Cinque Terre 4-Day Itinerary"
+      "en": "The Salt & Stone Path | Cinque Terre 4-Day Itinerary",
+      "de": "Der Salz & Stein Pfad | 4-Tage-Reiseroute Cinque Terre",
+      "fr": "Le Chemin du Sel & de la Pierre | Itinéraire 4 Jours Cinque Terre",
+      "it": "Il Sentiero del Sale e della Pietra | Itinerario 4 Giorni Cinque Terre"
     },
     "description": {
-      "en": "A four-day journey through the rhythm of the coast, designed for those who wish to see less, but feel everything."
+      "en": "A four-day journey through the rhythm of the coast, designed for those who wish to see less, but feel everything.",
+      "de": "Eine viertägige Reise durch den Rhythmus der Küste, für diejenigen, die weniger sehen, aber alles spüren wollen.",
+      "fr": "Un voyage de quatre jours au rythme de la côte, conçu pour ceux qui souhaitent voir moins, mais ressentir tout.",
+      "it": "Un viaggio di quattro giorni attraverso il ritmo della costa, pensato per chi desidera vedere meno, ma sentire tutto."
     }
   },
   "template": "cinque-terre",
   "body": [
     {
       "type": "itinerary-hero",
-      "name": "The Salt & Stone Path",
-      "subtitle": "A four-day journey through the rhythm of the coast, designed for those who wish to see less, but feel everything.",
-      "duration": "4 Days",
-      "pace": "Slow & Observant",
-      "effort": "Moderate",
-      "bestSeason": "April – June or September – October",
+      "name": {
+        "en": "The Salt & Stone Path",
+        "de": "Der Salz & Stein Pfad",
+        "fr": "Le Chemin du Sel & de la Pierre",
+        "it": "Il Sentiero del Sale e della Pietra"
+      },
+      "subtitle": {
+        "en": "A four-day journey through the rhythm of the coast, designed for those who wish to see less, but feel everything.",
+        "de": "Eine viertägige Reise durch den Rhythmus der Küste, für diejenigen, die weniger sehen, aber alles spüren wollen.",
+        "fr": "Un voyage de quatre jours au rythme de la côte, conçu pour ceux qui souhaitent voir moins, mais ressentir tout.",
+        "it": "Un viaggio di quattro giorni attraverso il ritmo della costa, pensato per chi desidera vedere meno, ma sentire tutto."
+      },
+      "duration": {
+        "en": "4 Days",
+        "de": "4 Tage",
+        "fr": "4 Jours",
+        "it": "4 Giorni"
+      },
+      "pace": {
+        "en": "Slow & Observant",
+        "de": "Langsam & Aufmerksam",
+        "fr": "Lent & Observateur",
+        "it": "Lento & Attento"
+      },
+      "effort": {
+        "en": "Moderate",
+        "de": "Mittel",
+        "fr": "Modéré",
+        "it": "Moderato"
+      },
+      "bestSeason": {
+        "en": "April – June or September – October",
+        "de": "April – Juni oder September – Oktober",
+        "fr": "Avril – Juin ou Septembre – Octobre",
+        "it": "Aprile – Giugno o Settembre – Ottobre"
+      },
       "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2574&auto=format&fit=crop",
-      "badge": "Signature Itinerary"
+      "badge": {
+        "en": "Signature Itinerary",
+        "de": "Exklusive Reiseroute",
+        "fr": "Itinéraire Signature",
+        "it": "Itinerario Esclusivo"
+      }
     },
     {
       "type": "editor-note",
-      "quote": "Most people come to the Cinque Terre with a list. They want to see five villages in one day, take five photos, and catch the last train out. But the coast doesn't reveal itself to the hurried. I built The Salt & Stone Path for the traveler who wants to feel the weight of the history here. It's for the person who would rather spend three hours watching the light change on a single cliffside than three minutes at every viewpoint.",
+      "quote": {
+        "en": "Most people come to the Cinque Terre with a list. They want to see five villages in one day, take five photos, and catch the last train out. But the coast doesn't reveal itself to the hurried. I built The Salt & Stone Path for the traveler who wants to feel the weight of the history here. It's for the person who would rather spend three hours watching the light change on a single cliffside than three minutes at every viewpoint.",
+        "de": "Die meisten Menschen kommen mit einer Liste in die Cinque Terre. Sie wollen fünf Dörfer an einem Tag sehen, fünf Fotos machen und den letzten Zug erwischen. Aber die Küste offenbart sich nicht den Eiligen. Ich habe den Salz & Stein Pfad für den Reisenden geschaffen, der das Gewicht der Geschichte hier spüren möchte. Er ist für die Person, die lieber drei Stunden damit verbringt, zu beobachten, wie sich das Licht an einer einzigen Klippe verändert, als drei Minuten an jedem Aussichtspunkt.",
+        "fr": "La plupart des gens viennent aux Cinque Terre avec une liste. Ils veulent voir cinq villages en un jour, prendre cinq photos, et attraper le dernier train. Mais la côte ne se révèle pas aux pressés. J'ai créé Le Chemin du Sel & de la Pierre pour le voyageur qui veut ressentir le poids de l'histoire ici. C'est pour celui qui préfère passer trois heures à regarder la lumière changer sur une seule falaise que trois minutes à chaque point de vue.",
+        "it": "La maggior parte delle persone viene alle Cinque Terre con una lista. Vogliono vedere cinque borghi in un giorno, scattare cinque foto e prendere l'ultimo treno. Ma la costa non si rivela ai frettolosi. Ho creato Il Sentiero del Sale e della Pietra per il viaggiatore che vuole sentire il peso della storia qui. È per chi preferisce passare tre ore a guardare la luce cambiare su una singola scogliera piuttosto che tre minuti in ogni punto panoramico."
+      },
       "author": "Giulia Rossi",
-      "role": "Local Expert",
+      "role": {
+        "en": "Local Expert",
+        "de": "Lokale Expertin",
+        "fr": "Experte Locale",
+        "it": "Esperta Locale"
+      },
       "image": "/giulia_rossi.png"
     },
     {
@@ -47,75 +98,253 @@
       "days": [
         {
           "number": 1,
-          "title": "The Gravity of Arrival",
+          "title": {
+            "en": "The Gravity of Arrival",
+            "de": "Die Schwerkraft der Ankunft",
+            "fr": "La Gravité de l'Arrivée",
+            "it": "La Gravità dell'Arrivo"
+          },
           "village": "Riomaggiore",
-          "rhythm": "Settling in",
-          "perspective": "The first day is not for doing. It is for arriving. Let the verticality of Riomaggiore sink in. Don't rush to the harbor; instead, find the quiet upper streets where the laundry hangs like flags of welcome. The sea is there, always, but today we just listen to it.",
-          "movement": "Arrival by train, followed by a slow ascent to the upper village.",
-          "moments": [
-            "A quiet coffee at a corner bar where the locals stand.",
-            "Watching the sunset from the rocks, not the bar.",
-            "The sound of the last train echoing through the valley."
-          ],
+          "rhythm": {
+            "en": "Settling in",
+            "de": "Ankommen",
+            "fr": "S'installer",
+            "it": "Ambientarsi"
+          },
+          "perspective": {
+            "en": "The first day is not for doing. It is for arriving. Let the verticality of Riomaggiore sink in. Don't rush to the harbor; instead, find the quiet upper streets where the laundry hangs like flags of welcome. The sea is there, always, but today we just listen to it.",
+            "de": "Der erste Tag ist nicht zum Tun. Er ist zum Ankommen. Lassen Sie die Vertikalität von Riomaggiore auf sich wirken. Eilen Sie nicht zum Hafen; finden Sie stattdessen die ruhigen oberen Straßen, wo die Wäsche wie Willkommensfahnen hängt. Das Meer ist da, immer, aber heute hören wir ihm nur zu.",
+            "fr": "Le premier jour n'est pas fait pour agir. Il est fait pour arriver. Laissez la verticalité de Riomaggiore s'imprégner en vous. Ne vous précipitez pas vers le port ; trouvez plutôt les rues calmes en hauteur où le linge pend comme des drapeaux de bienvenue. La mer est là, toujours, mais aujourd'hui nous l'écoutons seulement.",
+            "it": "Il primo giorno non è per fare. È per arrivare. Lasciate che la verticalità di Riomaggiore vi penetri. Non correte al porto; trovate invece le strade tranquille in alto dove il bucato pende come bandiere di benvenuto. Il mare è lì, sempre, ma oggi lo ascoltiamo soltanto."
+          },
+          "movement": {
+            "en": "Arrival by train, followed by a slow ascent to the upper village.",
+            "de": "Ankunft mit dem Zug, gefolgt von einem langsamen Aufstieg zum oberen Dorf.",
+            "fr": "Arrivée en train, suivie d'une lente ascension vers le village haut.",
+            "it": "Arrivo in treno, seguito da una lenta salita verso il borgo alto."
+          },
+          "moments": {
+            "en": [
+              "A quiet coffee at a corner bar where the locals stand.",
+              "Watching the sunset from the rocks, not the bar.",
+              "The sound of the last train echoing through the valley."
+            ],
+            "de": [
+              "Ein ruhiger Kaffee an einer Eckkneipe, wo die Einheimischen stehen.",
+              "Den Sonnenuntergang von den Felsen aus beobachten, nicht von der Bar.",
+              "Der Klang des letzten Zuges, der durch das Tal hallt."
+            ],
+            "fr": [
+              "Un café tranquille dans un bar d'angle où les locaux se tiennent debout.",
+              "Regarder le coucher de soleil depuis les rochers, pas depuis le bar.",
+              "Le son du dernier train qui résonne dans la vallée."
+            ],
+            "it": [
+              "Un caffè tranquillo in un bar all'angolo dove i locali stanno in piedi.",
+              "Guardare il tramonto dagli scogli, non dal bar.",
+              "Il suono dell'ultimo treno che riecheggia nella valle."
+            ]
+          },
           "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000"
         },
         {
           "number": 2,
-          "title": "The High Silence",
-          "village": "Manarola to Corniglia",
-          "rhythm": "Elevation & Observation",
-          "perspective": "We move between villages today, but not by the shore. We take the high path to Volastra. Here, the vineyards are ancient and the air is cooler. Corniglia awaits at the end—the village that doesn't touch the sea, but watches it from a throne of stone.",
-          "movement": "The stone steps to Volastra, then the winding vineyard paths to Corniglia.",
-          "moments": [
-            "The scent of wild thyme on the ridge.",
-            "A simple lunch of focaccia overlooking the terraces.",
-            "The 382 steps of the Lardarina—taken slowly, one breath at a time."
-          ],
+          "title": {
+            "en": "The High Silence",
+            "de": "Die Stille der Höhen",
+            "fr": "Le Silence des Hauteurs",
+            "it": "Il Silenzio delle Alture"
+          },
+          "village": {
+            "en": "Manarola to Corniglia",
+            "de": "Manarola nach Corniglia",
+            "fr": "Manarola à Corniglia",
+            "it": "Manarola a Corniglia"
+          },
+          "rhythm": {
+            "en": "Elevation & Observation",
+            "de": "Erhebung & Beobachtung",
+            "fr": "Élévation & Observation",
+            "it": "Elevazione & Osservazione"
+          },
+          "perspective": {
+            "en": "We move between villages today, but not by the shore. We take the high path to Volastra. Here, the vineyards are ancient and the air is cooler. Corniglia awaits at the end—the village that doesn't touch the sea, but watches it from a throne of stone.",
+            "de": "Heute bewegen wir uns zwischen den Dörfern, aber nicht am Ufer entlang. Wir nehmen den Höhenweg nach Volastra. Hier sind die Weinberge alt und die Luft ist kühler. Corniglia erwartet uns am Ende – das Dorf, das das Meer nicht berührt, aber es von einem Thron aus Stein beobachtet.",
+            "fr": "Nous nous déplaçons entre les villages aujourd'hui, mais pas par le rivage. Nous prenons le sentier haut vers Volastra. Ici, les vignobles sont anciens et l'air est plus frais. Corniglia nous attend au bout – le village qui ne touche pas la mer, mais l'observe depuis un trône de pierre.",
+            "it": "Oggi ci spostiamo tra i borghi, ma non lungo la riva. Prendiamo il sentiero alto verso Volastra. Qui i vigneti sono antichi e l'aria è più fresca. Corniglia ci aspetta alla fine – il borgo che non tocca il mare, ma lo osserva da un trono di pietra."
+          },
+          "movement": {
+            "en": "The stone steps to Volastra, then the winding vineyard paths to Corniglia.",
+            "de": "Die Steinstufen nach Volastra, dann die gewundenen Weinbergpfade nach Corniglia.",
+            "fr": "Les marches de pierre vers Volastra, puis les chemins sinueux des vignobles vers Corniglia.",
+            "it": "I gradini di pietra verso Volastra, poi i sentieri tortuosi dei vigneti verso Corniglia."
+          },
+          "moments": {
+            "en": [
+              "The scent of wild thyme on the ridge.",
+              "A simple lunch of focaccia overlooking the terraces.",
+              "The 382 steps of the Lardarina—taken slowly, one breath at a time."
+            ],
+            "de": [
+              "Der Duft von wildem Thymian auf dem Kamm.",
+              "Ein einfaches Mittagessen mit Focaccia mit Blick auf die Terrassen.",
+              "Die 382 Stufen der Lardarina – langsam genommen, ein Atemzug nach dem anderen."
+            ],
+            "fr": [
+              "Le parfum du thym sauvage sur la crête.",
+              "Un déjeuner simple de focaccia avec vue sur les terrasses.",
+              "Les 382 marches de la Lardarina – gravies lentement, un souffle à la fois."
+            ],
+            "it": [
+              "Il profumo del timo selvatico sul crinale.",
+              "Un pranzo semplice di focaccia con vista sui terrazzamenti.",
+              "I 382 gradini della Lardarina – affrontati lentamente, un respiro alla volta."
+            ]
+          },
           "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=2000"
         },
         {
           "number": 3,
-          "title": "The Vertical Heart",
+          "title": {
+            "en": "The Vertical Heart",
+            "de": "Das vertikale Herz",
+            "fr": "Le Cœur Vertical",
+            "it": "Il Cuore Verticale"
+          },
           "village": "Vernazza",
-          "rhythm": "Presence & Light",
-          "perspective": "Vernazza is the most famous, and for a reason. But we find its heart in the morning light, before the first boat arrives. We sit by the church of Santa Margherita, watching the water lap against the stone. It's a day for being still in a place that everyone else is rushing through.",
-          "movement": "A morning boat ride from Corniglia to see the cliffs from the water.",
-          "moments": [
-            "The cool interior of the Doria Castle at noon.",
-            "Gelato eaten on the harbor wall as the fishing boats return.",
-            "Finding the 'secret' beach through the rock tunnel."
-          ],
+          "rhythm": {
+            "en": "Presence & Light",
+            "de": "Präsenz & Licht",
+            "fr": "Présence & Lumière",
+            "it": "Presenza & Luce"
+          },
+          "perspective": {
+            "en": "Vernazza is the most famous, and for a reason. But we find its heart in the morning light, before the first boat arrives. We sit by the church of Santa Margherita, watching the water lap against the stone. It's a day for being still in a place that everyone else is rushing through.",
+            "de": "Vernazza ist das berühmteste, und das aus gutem Grund. Aber wir finden sein Herz im Morgenlicht, bevor das erste Boot ankommt. Wir sitzen bei der Kirche Santa Margherita und beobachten, wie das Wasser gegen den Stein schwappt. Es ist ein Tag, um still zu sein an einem Ort, durch den alle anderen hetzen.",
+            "fr": "Vernazza est le plus célèbre, et pour une bonne raison. Mais nous trouvons son cœur dans la lumière du matin, avant l'arrivée du premier bateau. Nous nous asseyons près de l'église de Santa Margherita, regardant l'eau clapoter contre la pierre. C'est une journée pour être immobile dans un endroit où tout le monde se précipite.",
+            "it": "Vernazza è il più famoso, e per una buona ragione. Ma troviamo il suo cuore nella luce del mattino, prima che arrivi la prima barca. Ci sediamo presso la chiesa di Santa Margherita, guardando l'acqua lambire la pietra. È un giorno per stare fermi in un luogo dove tutti gli altri corrono."
+          },
+          "movement": {
+            "en": "A morning boat ride from Corniglia to see the cliffs from the water.",
+            "de": "Eine morgendliche Bootsfahrt von Corniglia, um die Klippen vom Wasser aus zu sehen.",
+            "fr": "Une promenade en bateau le matin depuis Corniglia pour voir les falaises depuis l'eau.",
+            "it": "Una gita in barca mattutina da Corniglia per vedere le scogliere dall'acqua."
+          },
+          "moments": {
+            "en": [
+              "The cool interior of the Doria Castle at noon.",
+              "Gelato eaten on the harbor wall as the fishing boats return.",
+              "Finding the 'secret' beach through the rock tunnel."
+            ],
+            "de": [
+              "Das kühle Innere der Doria-Burg am Mittag.",
+              "Eis auf der Hafenmauer genießen, während die Fischerboote zurückkehren.",
+              "Den 'geheimen' Strand durch den Felstunnel finden."
+            ],
+            "fr": [
+              "L'intérieur frais du château Doria à midi.",
+              "Glace dégustée sur le mur du port alors que les bateaux de pêche reviennent.",
+              "Trouver la plage 'secrète' à travers le tunnel rocheux."
+            ],
+            "it": [
+              "L'interno fresco del Castello Doria a mezzogiorno.",
+              "Gelato mangiato sul molo mentre i pescherecci tornano.",
+              "Trovare la spiaggia 'segreta' attraverso il tunnel nella roccia."
+            ]
+          },
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&q=80&w=2000"
         },
         {
           "number": 4,
-          "title": "The Soft Horizon",
+          "title": {
+            "en": "The Soft Horizon",
+            "de": "Der weiche Horizont",
+            "fr": "L'Horizon Doux",
+            "it": "L'Orizzonte Morbido"
+          },
           "village": "Monterosso",
-          "rhythm": "Reflection & Release",
-          "perspective": "Our journey ends where the sand begins. Monterosso is wide, open, and generous. It's a place to wash the dust of the trails off in the surf. We look back at the four villages we've traversed and realize that the coast hasn't changed us—it has simply reminded us of who we are when we slow down.",
-          "movement": "The coastal path from Vernazza—the most iconic stretch of the Blue Trail.",
-          "moments": [
-            "The first sight of the orange umbrellas from the trail.",
-            "A long, final swim in the crystal waters of Fegina.",
-            "The quiet realization that you don't need to see everything to have seen it all."
-          ],
+          "rhythm": {
+            "en": "Reflection & Release",
+            "de": "Reflexion & Loslassen",
+            "fr": "Réflexion & Libération",
+            "it": "Riflessione & Rilascio"
+          },
+          "perspective": {
+            "en": "Our journey ends where the sand begins. Monterosso is wide, open, and generous. It's a place to wash the dust of the trails off in the surf. We look back at the four villages we've traversed and realize that the coast hasn't changed us—it has simply reminded us of who we are when we slow down.",
+            "de": "Unsere Reise endet, wo der Sand beginnt. Monterosso ist weit, offen und großzügig. Es ist ein Ort, um den Staub der Wege in der Brandung abzuwaschen. Wir blicken zurück auf die vier Dörfer, die wir durchquert haben, und erkennen, dass die Küste uns nicht verändert hat – sie hat uns einfach daran erinnert, wer wir sind, wenn wir langsamer werden.",
+            "fr": "Notre voyage se termine là où le sable commence. Monterosso est large, ouvert et généreux. C'est un endroit pour laver la poussière des sentiers dans les vagues. Nous regardons en arrière les quatre villages que nous avons traversés et réalisons que la côte ne nous a pas changés – elle nous a simplement rappelé qui nous sommes quand nous ralentissons.",
+            "it": "Il nostro viaggio finisce dove inizia la sabbia. Monterosso è ampio, aperto e generoso. È un posto per lavare la polvere dei sentieri tra le onde. Guardiamo indietro ai quattro borghi che abbiamo attraversato e ci rendiamo conto che la costa non ci ha cambiato – ci ha semplicemente ricordato chi siamo quando rallentiamo."
+          },
+          "movement": {
+            "en": "The coastal path from Vernazza—the most iconic stretch of the Blue Trail.",
+            "de": "Der Küstenweg von Vernazza – der ikonischste Abschnitt des Sentiero Azzurro.",
+            "fr": "Le sentier côtier depuis Vernazza – le tronçon le plus emblématique du Sentier Bleu.",
+            "it": "Il sentiero costiero da Vernazza – il tratto più iconico del Sentiero Azzurro."
+          },
+          "moments": {
+            "en": [
+              "The first sight of the orange umbrellas from the trail.",
+              "A long, final swim in the crystal waters of Fegina.",
+              "The quiet realization that you don't need to see everything to have seen it all."
+            ],
+            "de": [
+              "Der erste Blick auf die orangefarbenen Sonnenschirme vom Weg aus.",
+              "Ein langes, letztes Bad im kristallklaren Wasser von Fegina.",
+              "Die stille Erkenntnis, dass man nicht alles sehen muss, um alles gesehen zu haben."
+            ],
+            "fr": [
+              "La première vue des parasols orange depuis le sentier.",
+              "Une longue dernière baignade dans les eaux cristallines de Fegina.",
+              "La réalisation silencieuse qu'on n'a pas besoin de tout voir pour avoir tout vu."
+            ],
+            "it": [
+              "La prima vista degli ombrelloni arancioni dal sentiero.",
+              "Una lunga, ultima nuotata nelle acque cristalline di Fegina.",
+              "La silenziosa consapevolezza che non bisogna vedere tutto per aver visto tutto."
+            ]
+          },
           "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&q=80&w=2000"
         }
       ]
     },
     {
       "type": "closing-note",
-      "badge": "The Resolution",
-      "title": "What lingers is not the view, but the feeling of the salt on your skin.",
-      "content": "<p>When you leave the Cinque Terre, I hope you carry more than just photos. I hope you carry the rhythm of the sea and the quiet confidence of the stone. You didn't see everything, but you saw what mattered.</p>",
+      "badge": {
+        "en": "The Resolution",
+        "de": "Die Auflösung",
+        "fr": "La Résolution",
+        "it": "La Risoluzione"
+      },
+      "title": {
+        "en": "What lingers is not the view, but the feeling of the salt on your skin.",
+        "de": "Was bleibt, ist nicht der Ausblick, sondern das Gefühl des Salzes auf der Haut.",
+        "fr": "Ce qui reste n'est pas la vue, mais la sensation du sel sur votre peau.",
+        "it": "Ciò che resta non è la vista, ma la sensazione del sale sulla pelle."
+      },
+      "content": {
+        "en": "<p>When you leave the Cinque Terre, I hope you carry more than just photos. I hope you carry the rhythm of the sea and the quiet confidence of the stone. You didn't see everything, but you saw what mattered.</p>",
+        "de": "<p>Wenn Sie die Cinque Terre verlassen, hoffe ich, dass Sie mehr als nur Fotos mitnehmen. Ich hoffe, Sie tragen den Rhythmus des Meeres und die stille Zuversicht des Steins in sich. Sie haben nicht alles gesehen, aber Sie haben das Wesentliche gesehen.</p>",
+        "fr": "<p>Quand vous quitterez les Cinque Terre, j'espère que vous emporterez plus que des photos. J'espère que vous emporterez le rythme de la mer et la confiance tranquille de la pierre. Vous n'avez pas tout vu, mais vous avez vu ce qui comptait.</p>",
+        "it": "<p>Quando lascerete le Cinque Terre, spero che portiate con voi più di semplici foto. Spero che portiate il ritmo del mare e la silenziosa sicurezza della pietra. Non avete visto tutto, ma avete visto ciò che conta.</p>"
+      },
       "actions": [
         {
-          "label": "Explore Sights",
+          "label": {
+            "en": "Explore Sights",
+            "de": "Sehenswürdigkeiten erkunden",
+            "fr": "Explorer les Sites",
+            "it": "Esplora le Attrazioni"
+          },
           "href": "/sights",
           "variant": "primary"
         },
         {
-          "label": "Read Stories",
+          "label": {
+            "en": "Read Stories",
+            "de": "Geschichten lesen",
+            "fr": "Lire les Histoires",
+            "it": "Leggi le Storie"
+          },
           "href": "/blog",
           "variant": "secondary"
         }
@@ -127,5 +356,5 @@
   },
   "status": "published",
   "created_at": "2025-01-05T00:00:00.000Z",
-  "updated_at": "2025-01-05T00:00:00.000Z"
+  "updated_at": "2026-01-08T00:00:00.000Z"
 }

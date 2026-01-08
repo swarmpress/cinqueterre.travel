@@ -7,36 +7,90 @@
     "it": "/it/manarola/apartments"
   },
   "title": {
-    "en": "Apartments in Manarola | Cinque Terre Dispatch"
+    "en": "Apartments in Manarola | Cinque Terre Dispatch",
+    "de": "Ferienwohnungen in Manarola | Cinque Terre Dispatch",
+    "fr": "Appartements a Manarola | Cinque Terre Dispatch",
+    "it": "Appartamenti a Manarola | Cinque Terre Dispatch"
   },
   "page_type": "apartments",
   "seo": {
     "title": {
-      "en": "Apartments in Manarola | Cinque Terre Dispatch"
+      "en": "Apartments in Manarola | Cinque Terre Dispatch",
+      "de": "Ferienwohnungen in Manarola | Cinque Terre Dispatch",
+      "fr": "Appartements a Manarola | Cinque Terre Dispatch",
+      "it": "Appartamenti a Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Renting an apartment in Manarola means living as the village lives—shopping at the alimentari, cooking in a real kitchen, waking to bells and roosters rather than hotel corridors."
+      "en": "Renting an apartment in Manarola means living as the village lives—shopping at the alimentari, cooking in a real kitchen, waking to bells and roosters rather than hotel corridors.",
+      "de": "Eine Ferienwohnung in Manarola zu mieten bedeutet, so zu leben wie das Dorf lebt—im Alimentari einkaufen, in einer echten Kuche kochen, zu Glocken und Hahnen aufwachen statt zu Hotelfluren.",
+      "fr": "Louer un appartement a Manarola signifie vivre comme le village vit—faire ses courses a l'alimentari, cuisiner dans une vraie cuisine, se reveiller aux cloches et aux coqs plutot qu'aux couloirs d'hotel.",
+      "it": "Affittare un appartamento a Manarola significa vivere come vive il borgo—fare la spesa all'alimentari, cucinare in una vera cucina, svegliarsi alle campane e ai galli invece che ai corridoi d'albergo."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Living<br/>Not Staying",
-      "subtitle": "A hotel room is where you sleep. An apartment is where you live. In Manarola, that difference matters—cooking local ingredients, opening shutters to morning light, having a door that's yours for the week. The village reveals itself differently when you're not just visiting.",
-      "badge": "Apartments",
+      "title": {
+        "en": "Living<br/>Not Staying",
+        "de": "Leben,<br/>nicht nur Ubernachten",
+        "fr": "Vivre,<br/>pas Sejourner",
+        "it": "Vivere,<br/>non Soggiornare"
+      },
+      "subtitle": {
+        "en": "A hotel room is where you sleep. An apartment is where you live. In Manarola, that difference matters—cooking local ingredients, opening shutters to morning light, having a door that's yours for the week. The village reveals itself differently when you're not just visiting.",
+        "de": "Ein Hotelzimmer ist, wo Sie schlafen. Eine Ferienwohnung ist, wo Sie leben. In Manarola macht dieser Unterschied viel aus—lokale Zutaten kochen, Fensterladen zum Morgenlicht offnen, eine Tur haben, die eine Woche lang Ihnen gehort. Das Dorf offenbart sich anders, wenn Sie nicht nur zu Besuch sind.",
+        "fr": "Une chambre d'hotel est ou vous dormez. Un appartement est ou vous vivez. A Manarola, cette difference compte—cuisiner des ingredients locaux, ouvrir les volets a la lumiere du matin, avoir une porte qui est la votre pour la semaine. Le village se revele differemment quand vous n'etes pas juste de passage.",
+        "it": "Una camera d'albergo e dove dormite. Un appartamento e dove vivete. A Manarola, questa differenza conta—cucinare ingredienti locali, aprire le persiane alla luce del mattino, avere una porta che e vostra per la settimana. Il borgo si rivela diversamente quando non siete solo in visita."
+      },
+      "badge": {
+        "en": "Apartments",
+        "de": "Ferienwohnungen",
+        "fr": "Appartements",
+        "it": "Appartamenti"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Apartment Advantage",
-      "quote": "Visitors who stay in apartments see a different village than hotel guests. They learn which streets catch morning sun. They have favorite vendors at the alimentari. They know the rhythm of the church bells. A week in an apartment creates understanding that a weekend in a hotel cannot.",
-      "content": [
-        "**Space changes experience**. An apartment gives you a living room for evening wine, a kitchen for market discoveries, a terrace for sunrise coffee. You expand into the space rather than fitting into a room.",
-        "**Cooking is connection**. The alimentari sells local olive oil, the wine shop offers village-produced Sciacchetrà, the morning vendor has vegetables from inland farms. Cooking these ingredients creates a relationship with the place that restaurants alone cannot provide.",
-        "**The economics work differently**. Apartments cost less than hotels per square meter. Groups and families especially benefit—two bedrooms, a kitchen, a living room, often a terrace, for what two hotel rooms would cost.",
-        "**Privacy enables presence**. A door you close, a space that's yours, the freedom to be home without being public. This privacy, paradoxically, allows deeper engagement with the village when you do go out."
-      ]
+      "badge": {
+        "en": "The Apartment Advantage",
+        "de": "Der Ferienwohnungsvorteil",
+        "fr": "L'Avantage de l'Appartement",
+        "it": "Il Vantaggio dell'Appartamento"
+      },
+      "quote": {
+        "en": "Visitors who stay in apartments see a different village than hotel guests. They learn which streets catch morning sun. They have favorite vendors at the alimentari. They know the rhythm of the church bells. A week in an apartment creates understanding that a weekend in a hotel cannot.",
+        "de": "Besucher, die in Ferienwohnungen bleiben, sehen ein anderes Dorf als Hotelgaste. Sie lernen, welche Strassen die Morgensonne einfangen. Sie haben Lieblingsverkaufer im Alimentari. Sie kennen den Rhythmus der Kirchenglocken. Eine Woche in einer Ferienwohnung schafft Verstandnis, das ein Wochenende im Hotel nicht kann.",
+        "fr": "Les visiteurs qui sejournent en appartement voient un village different des clients d'hotel. Ils apprennent quelles rues captent le soleil du matin. Ils ont leurs vendeurs preferes a l'alimentari. Ils connaissent le rythme des cloches de l'eglise. Une semaine en appartement cree une comprehension qu'un week-end a l'hotel ne peut pas.",
+        "it": "I visitatori che soggiornano in appartamento vedono un borgo diverso dagli ospiti degli hotel. Imparano quali strade catturano il sole del mattino. Hanno venditori preferiti all'alimentari. Conoscono il ritmo delle campane della chiesa. Una settimana in appartamento crea comprensione che un weekend in hotel non puo."
+      },
+      "content": {
+        "en": [
+          "**Space changes experience**. An apartment gives you a living room for evening wine, a kitchen for market discoveries, a terrace for sunrise coffee. You expand into the space rather than fitting into a room.",
+          "**Cooking is connection**. The alimentari sells local olive oil, the wine shop offers village-produced Sciacchetra, the morning vendor has vegetables from inland farms. Cooking these ingredients creates a relationship with the place that restaurants alone cannot provide.",
+          "**The economics work differently**. Apartments cost less than hotels per square meter. Groups and families especially benefit—two bedrooms, a kitchen, a living room, often a terrace, for what two hotel rooms would cost.",
+          "**Privacy enables presence**. A door you close, a space that's yours, the freedom to be home without being public. This privacy, paradoxically, allows deeper engagement with the village when you do go out."
+        ],
+        "de": [
+          "**Raum verandert Erfahrung**. Eine Ferienwohnung gibt Ihnen ein Wohnzimmer fur Abendwein, eine Kuche fur Marktentdeckungen, eine Terrasse fur Sonnenaufgangskaffee. Sie breiten sich im Raum aus, anstatt sich in ein Zimmer einzupassen.",
+          "**Kochen ist Verbindung**. Der Alimentari verkauft lokales Olivenol, die Weinhandlung bietet im Dorf produzierten Sciacchetra, der Morgenverkaufer hat Gemuse von Bauernhofen im Landesinneren. Diese Zutaten zu kochen schafft eine Beziehung zum Ort, die Restaurants allein nicht bieten konnen.",
+          "**Die Wirtschaftlichkeit funktioniert anders**. Ferienwohnungen kosten weniger als Hotels pro Quadratmeter. Gruppen und Familien profitieren besonders—zwei Schlafzimmer, eine Kuche, ein Wohnzimmer, oft eine Terrasse, fur den Preis von zwei Hotelzimmern.",
+          "**Privatsphare ermoglicht Prasenz**. Eine Tur, die Sie schliessen, ein Raum, der Ihnen gehort, die Freiheit, zu Hause zu sein, ohne offentlich zu sein. Diese Privatsphare ermoglicht paradoxerweise tieferes Engagement mit dem Dorf, wenn Sie ausgehen."
+        ],
+        "fr": [
+          "**L'espace change l'experience**. Un appartement vous donne un salon pour le vin du soir, une cuisine pour les decouvertes du marche, une terrasse pour le cafe au lever du soleil. Vous vous expandez dans l'espace au lieu de vous adapter a une chambre.",
+          "**Cuisiner, c'est se connecter**. L'alimentari vend de l'huile d'olive locale, le caviste propose du Sciacchetra produit au village, le vendeur du matin a des legumes des fermes de l'interieur. Cuisiner ces ingredients cree une relation avec le lieu que les restaurants seuls ne peuvent pas fournir.",
+          "**L'economie fonctionne differemment**. Les appartements coutent moins que les hotels au metre carre. Les groupes et les familles en beneficient particulierement—deux chambres, une cuisine, un salon, souvent une terrasse, pour le prix de deux chambres d'hotel.",
+          "**L'intimite permet la presence**. Une porte que vous fermez, un espace qui est le votre, la liberte d'etre chez vous sans etre en public. Cette intimite, paradoxalement, permet un engagement plus profond avec le village quand vous sortez."
+        ],
+        "it": [
+          "**Lo spazio cambia l'esperienza**. Un appartamento vi da un soggiorno per il vino serale, una cucina per le scoperte del mercato, una terrazza per il caffe all'alba. Vi espandete nello spazio invece di adattarvi a una stanza.",
+          "**Cucinare e connessione**. L'alimentari vende olio d'oliva locale, l'enoteca offre Sciacchetra prodotto nel borgo, il venditore mattutino ha verdure dalle fattorie dell'entroterra. Cucinare questi ingredienti crea un rapporto con il luogo che i ristoranti da soli non possono fornire.",
+          "**L'economia funziona diversamente**. Gli appartamenti costano meno degli hotel per metro quadro. Gruppi e famiglie ne beneficiano particolarmente—due camere da letto, una cucina, un soggiorno, spesso una terrazza, per il prezzo di due camere d'hotel.",
+          "**La privacy permette la presenza**. Una porta che chiudete, uno spazio che e vostro, la liberta di essere a casa senza essere in pubblico. Questa privacy, paradossalmente, permette un coinvolgimento piu profondo con il borgo quando uscite."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Historic Village Apartments",
-          "category": "Traditional",
+          "name": {
+            "en": "Historic Village Apartments",
+            "de": "Historische Dorfwohnungen",
+            "fr": "Appartements du Village Historique",
+            "it": "Appartamenti del Borgo Storico"
+          },
+          "category": {
+            "en": "Traditional",
+            "de": "Traditionell",
+            "fr": "Traditionnel",
+            "it": "Tradizionale"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Stone walls, original details, centuries of history—apartments in buildings that have housed families since the medieval period.",
-          "description": "The historic apartments occupy the tower houses that define Manarola's silhouette. Expect thick walls, small windows, stone stairs. Some have original beams, traditional tile floors, fireplaces that once heated winter nights. The character is authentic; the amenities vary. Some have been modernized thoughtfully; others maintain their original simplicity.",
-          "giuliaComment": "These buildings have housed my family for generations. The walls hold stories. Yes, the stairs are steep and the ceilings low—that's how people built when they built to last. If you want history you can touch, choose an old building. If you need modern convenience above all else, look elsewhere.",
-          "signature": "Where the walls remember"
+          "intro": {
+            "en": "Stone walls, original details, centuries of history—apartments in buildings that have housed families since the medieval period.",
+            "de": "Steinmauern, originale Details, Jahrhunderte Geschichte—Wohnungen in Gebauden, die seit dem Mittelalter Familien beherbergt haben.",
+            "fr": "Murs de pierre, details d'origine, des siecles d'histoire—appartements dans des batiments qui ont heberge des familles depuis la periode medievale.",
+            "it": "Muri in pietra, dettagli originali, secoli di storia—appartamenti in edifici che hanno ospitato famiglie dal periodo medievale."
+          },
+          "description": {
+            "en": "The historic apartments occupy the tower houses that define Manarola's silhouette. Expect thick walls, small windows, stone stairs. Some have original beams, traditional tile floors, fireplaces that once heated winter nights. The character is authentic; the amenities vary. Some have been modernized thoughtfully; others maintain their original simplicity.",
+            "de": "Die historischen Wohnungen befinden sich in den Turmhausern, die Manarolas Silhouette definieren. Erwarten Sie dicke Mauern, kleine Fenster, Steintreppen. Einige haben originale Balken, traditionelle Fliesenbooden, Kamine, die einst Winternachte heizten. Der Charakter ist authentisch; die Ausstattung variiert. Einige wurden durchdacht modernisiert; andere bewahren ihre ursprungliche Schlichtheit.",
+            "fr": "Les appartements historiques occupent les maisons-tours qui definissent la silhouette de Manarola. Attendez-vous a des murs epais, de petites fenetres, des escaliers en pierre. Certains ont des poutres d'origine, des sols traditionnels en carrelage, des cheminees qui chauffaient autrefois les nuits d'hiver. Le caractere est authentique; les commodites varient. Certains ont ete modernises avec reflexion; d'autres conservent leur simplicite originale.",
+            "it": "Gli appartamenti storici occupano le case-torre che definiscono la silhouette di Manarola. Aspettatevi muri spessi, finestre piccole, scale in pietra. Alcuni hanno travi originali, pavimenti tradizionali in piastrelle, camini che un tempo riscaldavano le notti invernali. Il carattere e autentico; i servizi variano. Alcuni sono stati modernizzati con cura; altri mantengono la loro semplicita originale."
+          },
+          "giuliaComment": {
+            "en": "These buildings have housed my family for generations. The walls hold stories. Yes, the stairs are steep and the ceilings low—that's how people built when they built to last. If you want history you can touch, choose an old building. If you need modern convenience above all else, look elsewhere.",
+            "de": "Diese Gebaude haben meine Familie seit Generationen beherbergt. Die Mauern bewahren Geschichten. Ja, die Treppen sind steil und die Decken niedrig—so bauten die Menschen, wenn sie fur die Ewigkeit bauten. Wenn Sie Geschichte zum Anfassen wollen, wahlen Sie ein altes Gebaude. Wenn Sie vor allem modernen Komfort brauchen, suchen Sie woanders.",
+            "fr": "Ces batiments ont heberge ma famille depuis des generations. Les murs gardent des histoires. Oui, les escaliers sont raides et les plafonds bas—c'est ainsi que les gens construisaient quand ils construisaient pour durer. Si vous voulez une histoire que vous pouvez toucher, choisissez un vieux batiment. Si vous avez besoin de commodite moderne avant tout, cherchez ailleurs.",
+            "it": "Questi edifici hanno ospitato la mia famiglia per generazioni. I muri conservano storie. Si, le scale sono ripide e i soffitti bassi—cosi costruivano quando costruivano per durare. Se volete storia che potete toccare, scegliete un edificio antico. Se avete bisogno di comodita moderne sopra ogni altra cosa, cercate altrove."
+          },
+          "signature": {
+            "en": "Where the walls remember",
+            "de": "Wo die Mauern sich erinnern",
+            "fr": "Ou les murs se souviennent",
+            "it": "Dove i muri ricordano"
+          }
         },
         {
           "id": 2,
-          "name": "Sea-View Apartments",
-          "category": "Premium",
+          "name": {
+            "en": "Sea-View Apartments",
+            "de": "Meerblick-Wohnungen",
+            "fr": "Appartements Vue Mer",
+            "it": "Appartamenti Vista Mare"
+          },
+          "category": {
+            "en": "Premium",
+            "de": "Premium",
+            "fr": "Premium",
+            "it": "Premium"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The apartments everyone wants—terraces facing the Mediterranean, the view you came for visible from where you wake.",
-          "description": "Sea-view apartments command premium prices because the view never gets old. You'll watch fishing boats leave at dawn, ferries pass midday, sunset light the cliffs. Most include terraces or balconies where you can eat breakfast watching the harbor. The best book months in advance.",
-          "giuliaComment": "The sea view costs more, but consider: you'll spend hours on that terrace. Breakfast there. Aperitivo there. Reading there. The premium pays for itself in moments. Book early—these are the first to fill, and they fill fast.",
-          "signature": "When the view becomes the room"
+          "intro": {
+            "en": "The apartments everyone wants—terraces facing the Mediterranean, the view you came for visible from where you wake.",
+            "de": "Die Wohnungen, die alle wollen—Terrassen zum Mittelmeer, der Blick, fur den Sie gekommen sind, sichtbar von dort, wo Sie aufwachen.",
+            "fr": "Les appartements que tout le monde veut—terrasses face a la Mediterranee, la vue pour laquelle vous etes venu visible depuis ou vous vous reveillez.",
+            "it": "Gli appartamenti che tutti vogliono—terrazze verso il Mediterraneo, la vista per cui siete venuti visibile da dove vi svegliate."
+          },
+          "description": {
+            "en": "Sea-view apartments command premium prices because the view never gets old. You'll watch fishing boats leave at dawn, ferries pass midday, sunset light the cliffs. Most include terraces or balconies where you can eat breakfast watching the harbor. The best book months in advance.",
+            "de": "Meerblick-Wohnungen verlangen Premium-Preise, weil die Aussicht nie langweilig wird. Sie werden Fischerboote bei Morgendammerung losfahren sehen, Fahren zur Mittagszeit vorbeifahren, Sonnenuntergang die Klippen beleuchten. Die meisten haben Terrassen oder Balkone, wo Sie fruhstucken konnen und dabei den Hafen beobachten. Die besten werden Monate im Voraus gebucht.",
+            "fr": "Les appartements vue mer commandent des prix premium parce que la vue ne vieillit jamais. Vous regarderez les bateaux de peche partir a l'aube, les ferries passer a midi, le coucher de soleil eclairer les falaises. La plupart incluent des terrasses ou balcons ou vous pouvez prendre le petit-dejeuner en regardant le port. Les meilleurs se reservent des mois a l'avance.",
+            "it": "Gli appartamenti vista mare richiedono prezzi premium perche la vista non invecchia mai. Guarderete le barche da pesca partire all'alba, i traghetti passare a mezzogiorno, il tramonto illuminare le scogliere. La maggior parte include terrazze o balconi dove potete fare colazione guardando il porto. I migliori si prenotano mesi in anticipo."
+          },
+          "giuliaComment": {
+            "en": "The sea view costs more, but consider: you'll spend hours on that terrace. Breakfast there. Aperitivo there. Reading there. The premium pays for itself in moments. Book early—these are the first to fill, and they fill fast.",
+            "de": "Der Meerblick kostet mehr, aber bedenken Sie: Sie werden Stunden auf dieser Terrasse verbringen. Fruhstuck dort. Aperitivo dort. Lesen dort. Der Aufpreis zahlt sich in Momenten aus. Buchen Sie fruh—diese fullen sich zuerst, und sie fullen sich schnell.",
+            "fr": "La vue mer coute plus cher, mais considerez: vous passerez des heures sur cette terrasse. Petit-dejeuner la. Aperitif la. Lecture la. Le supplement se rentabilise en moments. Reservez tot—ce sont les premiers a se remplir, et ils se remplissent vite.",
+            "it": "La vista mare costa di piu, ma considerate: passerete ore su quella terrazza. Colazione li. Aperitivo li. Lettura li. Il sovrapprezzo si ripaga in momenti. Prenotate presto—questi sono i primi a riempirsi, e si riempiono velocemente."
+          },
+          "signature": {
+            "en": "When the view becomes the room",
+            "de": "Wenn die Aussicht zum Zimmer wird",
+            "fr": "Quand la vue devient la piece",
+            "it": "Quando la vista diventa la stanza"
+          }
         },
         {
           "id": 3,
-          "name": "Upper Village Apartments",
-          "category": "Quieter Option",
+          "name": {
+            "en": "Upper Village Apartments",
+            "de": "Wohnungen im oberen Dorf",
+            "fr": "Appartements du Village Superieur",
+            "it": "Appartamenti nel Borgo Alto"
+          },
+          "category": {
+            "en": "Quieter Option",
+            "de": "Ruhigere Option",
+            "fr": "Option Plus Calme",
+            "it": "Opzione Piu Tranquilla"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Above the tourist flow, where the streets are quieter and the gardens more abundant—residential Manarola.",
-          "description": "The upper village offers what the harbor area cannot: quiet. The tourists concentrate below; up here, locals live. Expect more space, often lower prices, definitely more stairs. The trade-off: you'll climb to reach home, but you'll arrive to peace. Some upper apartments have garden access, vineyard views, and morning birdsong.",
-          "giuliaComment": "I live in the upper village. The daily climb keeps me fit, and the quiet is worth every step. Visitors who choose these apartments often become regulars—they've discovered the village beyond the postcard. Just know what you're choosing: stairs, not convenience.",
-          "signature": "Where locals actually live"
+          "intro": {
+            "en": "Above the tourist flow, where the streets are quieter and the gardens more abundant—residential Manarola.",
+            "de": "Uber dem Touristenstrom, wo die Strassen ruhiger und die Garten uppiger sind—das Wohn-Manarola.",
+            "fr": "Au-dessus du flux touristique, ou les rues sont plus calmes et les jardins plus abondants—le Manarola residentiel.",
+            "it": "Sopra il flusso turistico, dove le strade sono piu tranquille e i giardini piu abbondanti—la Manarola residenziale."
+          },
+          "description": {
+            "en": "The upper village offers what the harbor area cannot: quiet. The tourists concentrate below; up here, locals live. Expect more space, often lower prices, definitely more stairs. The trade-off: you'll climb to reach home, but you'll arrive to peace. Some upper apartments have garden access, vineyard views, and morning birdsong.",
+            "de": "Das obere Dorf bietet, was der Hafenbereich nicht kann: Ruhe. Die Touristen konzentrieren sich unten; hier oben leben Einheimische. Erwarten Sie mehr Platz, oft niedrigere Preise, definitiv mehr Treppen. Der Kompromiss: Sie werden klettern, um nach Hause zu kommen, aber Sie werden in Frieden ankommen. Einige obere Wohnungen haben Gartenzugang, Weinbergblick und morgendliches Vogelgezwitscher.",
+            "fr": "Le village superieur offre ce que la zone du port ne peut pas: le calme. Les touristes se concentrent en bas; ici, les locaux vivent. Attendez-vous a plus d'espace, souvent des prix plus bas, definitivement plus d'escaliers. Le compromis: vous grimperez pour rentrer chez vous, mais vous arriverez a la paix. Certains appartements superieurs ont acces au jardin, vue sur les vignes et chants d'oiseaux matinaux.",
+            "it": "Il borgo alto offre cio che la zona del porto non puo: quiete. I turisti si concentrano sotto; qui sopra, vivono i locali. Aspettatevi piu spazio, spesso prezzi piu bassi, sicuramente piu scale. Il compromesso: salirete per tornare a casa, ma arriverete alla pace. Alcuni appartamenti superiori hanno accesso al giardino, vista sui vigneti e canto degli uccelli mattutini."
+          },
+          "giuliaComment": {
+            "en": "I live in the upper village. The daily climb keeps me fit, and the quiet is worth every step. Visitors who choose these apartments often become regulars—they've discovered the village beyond the postcard. Just know what you're choosing: stairs, not convenience.",
+            "de": "Ich lebe im oberen Dorf. Der tagliche Aufstieg halt mich fit, und die Ruhe ist jeden Schritt wert. Besucher, die diese Wohnungen wahlen, werden oft zu Stammgasten—sie haben das Dorf jenseits der Postkarte entdeckt. Wissen Sie nur, was Sie wahlen: Treppen, nicht Bequemlichkeit.",
+            "fr": "Je vis dans le village superieur. La montee quotidienne me garde en forme, et le calme vaut chaque pas. Les visiteurs qui choisissent ces appartements deviennent souvent des habitues—ils ont decouvert le village au-dela de la carte postale. Sachez juste ce que vous choisissez: des escaliers, pas la commodite.",
+            "it": "Vivo nel borgo alto. La salita quotidiana mi tiene in forma, e la quiete vale ogni passo. I visitatori che scelgono questi appartamenti spesso diventano habitue—hanno scoperto il borgo oltre la cartolina. Sappiate solo cosa state scegliendo: scale, non comodita."
+          },
+          "signature": {
+            "en": "Where locals actually live",
+            "de": "Wo die Einheimischen wirklich leben",
+            "fr": "Ou les locaux vivent vraiment",
+            "it": "Dove i locali vivono davvero"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Stair Reality",
-          "quote": "Every apartment in Manarola involves stairs. Some more than others, but there's no avoiding them. The village is vertical. If stairs are genuinely impossible for you, Manarola presents real challenges. Consider Monterosso, which offers flatter options. Here, stairs are simply how life works."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelles Zwischenspiel",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Stair Reality",
+            "de": "Die Treppen-Realitat",
+            "fr": "La Realite des Escaliers",
+            "it": "La Realta delle Scale"
+          },
+          "quote": {
+            "en": "Every apartment in Manarola involves stairs. Some more than others, but there's no avoiding them. The village is vertical. If stairs are genuinely impossible for you, Manarola presents real challenges. Consider Monterosso, which offers flatter options. Here, stairs are simply how life works.",
+            "de": "Jede Wohnung in Manarola beinhaltet Treppen. Einige mehr als andere, aber es gibt kein Entkommen. Das Dorf ist vertikal. Wenn Treppen fur Sie wirklich unmoglich sind, stellt Manarola echte Herausforderungen dar. Erwagen Sie Monterosso, das flachere Optionen bietet. Hier sind Treppen einfach, wie das Leben funktioniert.",
+            "fr": "Chaque appartement a Manarola implique des escaliers. Certains plus que d'autres, mais il n'y a pas moyen de les eviter. Le village est vertical. Si les escaliers sont vraiment impossibles pour vous, Manarola presente de vrais defis. Considerez Monterosso, qui offre des options plus plates. Ici, les escaliers sont simplement comment la vie fonctionne.",
+            "it": "Ogni appartamento a Manarola comporta scale. Alcuni piu di altri, ma non c'e modo di evitarle. Il borgo e verticale. Se le scale sono davvero impossibili per voi, Manarola presenta sfide reali. Considerate Monterosso, che offre opzioni piu pianeggianti. Qui, le scale sono semplicemente come funziona la vita."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Considerations",
-      "quote": "Apartment living requires preparation that hotel stays don't. You're not a guest anymore—you're a temporary resident. Plan accordingly.",
-      "content": [
-        "**Arrive with provisions**. Unlike hotels, apartments don't provide toiletries, coffee, cooking basics. Bring what you need for the first morning, or shop in La Spezia before arriving.",
-        "**Understand the check-in**. Most apartments have specific check-in windows—often meeting the owner or manager at a set time. Late arrivals require coordination. Communicate your schedule in advance.",
-        "**Learn the systems**. Water heaters, door locks, WiFi passwords, garbage sorting—each apartment has its own procedures. Pay attention to the walkthrough; ask questions before the owner leaves.",
-        "**Respect the neighbors**. Apartment buildings are shared spaces. The neighbors are locals who live here year-round. Noise after 10pm disturbs people who have to work tomorrow."
-      ]
+      "badge": {
+        "en": "Practical Considerations",
+        "de": "Praktische Uberlegungen",
+        "fr": "Considerations Pratiques",
+        "it": "Considerazioni Pratiche"
+      },
+      "quote": {
+        "en": "Apartment living requires preparation that hotel stays don't. You're not a guest anymore—you're a temporary resident. Plan accordingly.",
+        "de": "Wohnen in einer Ferienwohnung erfordert Vorbereitung, die Hotelaufenthalte nicht brauchen. Sie sind kein Gast mehr—Sie sind ein vorubergehender Bewohner. Planen Sie entsprechend.",
+        "fr": "Vivre en appartement necessite une preparation que les sejours a l'hotel ne demandent pas. Vous n'etes plus un invite—vous etes un resident temporaire. Planifiez en consequence.",
+        "it": "Vivere in appartamento richiede preparazione che i soggiorni in hotel non richiedono. Non siete piu ospiti—siete residenti temporanei. Pianificate di conseguenza."
+      },
+      "content": {
+        "en": [
+          "**Arrive with provisions**. Unlike hotels, apartments don't provide toiletries, coffee, cooking basics. Bring what you need for the first morning, or shop in La Spezia before arriving.",
+          "**Understand the check-in**. Most apartments have specific check-in windows—often meeting the owner or manager at a set time. Late arrivals require coordination. Communicate your schedule in advance.",
+          "**Learn the systems**. Water heaters, door locks, WiFi passwords, garbage sorting—each apartment has its own procedures. Pay attention to the walkthrough; ask questions before the owner leaves.",
+          "**Respect the neighbors**. Apartment buildings are shared spaces. The neighbors are locals who live here year-round. Noise after 10pm disturbs people who have to work tomorrow."
+        ],
+        "de": [
+          "**Kommen Sie mit Vorrat an**. Anders als Hotels stellen Ferienwohnungen keine Toilettenartikel, Kaffee oder Kochgrundlagen bereit. Bringen Sie mit, was Sie fur den ersten Morgen brauchen, oder kaufen Sie in La Spezia ein, bevor Sie ankommen.",
+          "**Verstehen Sie den Check-in**. Die meisten Wohnungen haben bestimmte Check-in-Fenster—oft Treffen mit dem Eigentumer oder Verwalter zu einer festgelegten Zeit. Spate Ankunfte erfordern Koordination. Kommunizieren Sie Ihren Zeitplan im Voraus.",
+          "**Lernen Sie die Systeme**. Warmwasserbereiter, Turschlosser, WLAN-Passworter, Mullsortierung—jede Wohnung hat ihre eigenen Verfahren. Achten Sie auf die Fuhrung; stellen Sie Fragen, bevor der Eigentumer geht.",
+          "**Respektieren Sie die Nachbarn**. Apartmentgebaude sind geteilte Raume. Die Nachbarn sind Einheimische, die hier das ganze Jahr uber leben. Larm nach 22 Uhr stort Menschen, die morgen arbeiten mussen."
+        ],
+        "fr": [
+          "**Arrivez avec des provisions**. Contrairement aux hotels, les appartements ne fournissent pas d'articles de toilette, cafe ou produits de base pour cuisiner. Apportez ce dont vous avez besoin pour le premier matin, ou faites vos courses a La Spezia avant d'arriver.",
+          "**Comprenez l'enregistrement**. La plupart des appartements ont des creneaux d'enregistrement specifiques—souvent rencontrer le proprietaire ou le gerant a une heure fixe. Les arrivees tardives necessitent coordination. Communiquez votre planning a l'avance.",
+          "**Apprenez les systemes**. Chauffe-eau, serrures de porte, mots de passe WiFi, tri des dechets—chaque appartement a ses propres procedures. Faites attention a la visite guidee; posez des questions avant que le proprietaire ne parte.",
+          "**Respectez les voisins**. Les immeubles d'appartements sont des espaces partages. Les voisins sont des locaux qui vivent ici toute l'annee. Le bruit apres 22h derange les gens qui doivent travailler demain."
+        ],
+        "it": [
+          "**Arrivate con provviste**. A differenza degli hotel, gli appartamenti non forniscono articoli da toeletta, caffe o basi per cucinare. Portate cio di cui avete bisogno per la prima mattina, o fate la spesa a La Spezia prima di arrivare.",
+          "**Capite il check-in**. La maggior parte degli appartamenti ha finestre di check-in specifiche—spesso incontrare il proprietario o gestore a un'ora stabilita. Gli arrivi tardivi richiedono coordinamento. Comunicate il vostro programma in anticipo.",
+          "**Imparate i sistemi**. Scaldabagni, serrature delle porte, password WiFi, raccolta differenziata—ogni appartamento ha le sue procedure. Fate attenzione alla visita guidata; fate domande prima che il proprietario se ne vada.",
+          "**Rispettate i vicini**. I condomini sono spazi condivisi. I vicini sono locali che vivono qui tutto l'anno. Il rumore dopo le 22 disturba le persone che devono lavorare domani."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Booking Reality",
-          "category": "Planning",
+          "name": {
+            "en": "Booking Reality",
+            "de": "Buchungs-Realitat",
+            "fr": "Realite de la Reservation",
+            "it": "Realta della Prenotazione"
+          },
+          "category": {
+            "en": "Planning",
+            "de": "Planung",
+            "fr": "Planification",
+            "it": "Pianificazione"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The best apartments book early, especially for summer. Know the rhythm of availability.",
-          "description": "July and August fill by March. September and May fill by June. Off-season has more flexibility but fewer options—some owners close for winter. The platforms are familiar (Airbnb, Booking, VRBO), but direct owner contact sometimes yields better prices and local knowledge. Minimum stays often apply during peak season.",
-          "giuliaComment": "If you want a specific apartment, book as early as you can commit. The good ones—the terraces, the views, the renovated historic spaces—go first. What remains last-minute tends to be either overpriced or compromised. Plan ahead or accept what's available.",
-          "signature": "When planning enables choice"
+          "intro": {
+            "en": "The best apartments book early, especially for summer. Know the rhythm of availability.",
+            "de": "Die besten Wohnungen werden fruh gebucht, besonders fur den Sommer. Kennen Sie den Rhythmus der Verfugbarkeit.",
+            "fr": "Les meilleurs appartements se reservent tot, surtout pour l'ete. Connaissez le rythme de la disponibilite.",
+            "it": "I migliori appartamenti si prenotano presto, specialmente per l'estate. Conoscete il ritmo della disponibilita."
+          },
+          "description": {
+            "en": "July and August fill by March. September and May fill by June. Off-season has more flexibility but fewer options—some owners close for winter. The platforms are familiar (Airbnb, Booking, VRBO), but direct owner contact sometimes yields better prices and local knowledge. Minimum stays often apply during peak season.",
+            "de": "Juli und August fullen sich bis Marz. September und Mai fullen sich bis Juni. Die Nebensaison hat mehr Flexibilitat, aber weniger Optionen—einige Eigentumer schliessen im Winter. Die Plattformen sind bekannt (Airbnb, Booking, VRBO), aber direkter Kontakt zum Eigentumer bringt manchmal bessere Preise und lokales Wissen. Mindestaufenthalte gelten oft wahrend der Hochsaison.",
+            "fr": "Juillet et aout se remplissent en mars. Septembre et mai se remplissent en juin. La basse saison a plus de flexibilite mais moins d'options—certains proprietaires ferment pour l'hiver. Les plateformes sont familieres (Airbnb, Booking, VRBO), mais le contact direct avec le proprietaire donne parfois de meilleurs prix et des connaissances locales. Des sejours minimums s'appliquent souvent pendant la haute saison.",
+            "it": "Luglio e agosto si riempiono entro marzo. Settembre e maggio si riempiono entro giugno. La bassa stagione ha piu flessibilita ma meno opzioni—alcuni proprietari chiudono per l'inverno. Le piattaforme sono familiari (Airbnb, Booking, VRBO), ma il contatto diretto con il proprietario a volte porta prezzi migliori e conoscenza locale. Soggiorni minimi spesso si applicano durante l'alta stagione."
+          },
+          "giuliaComment": {
+            "en": "If you want a specific apartment, book as early as you can commit. The good ones—the terraces, the views, the renovated historic spaces—go first. What remains last-minute tends to be either overpriced or compromised. Plan ahead or accept what's available.",
+            "de": "Wenn Sie eine bestimmte Wohnung wollen, buchen Sie so fruh wie moglich. Die guten—die Terrassen, die Aussichten, die renovierten historischen Raume—gehen zuerst. Was Last-Minute ubrig bleibt, ist tendenziell entweder uberpriced oder kompromittiert. Planen Sie voraus oder akzeptieren Sie, was verfugbar ist.",
+            "fr": "Si vous voulez un appartement specifique, reservez aussi tot que vous pouvez vous engager. Les bons—les terrasses, les vues, les espaces historiques renoves—partent en premier. Ce qui reste a la derniere minute a tendance a etre soit surprix soit compromis. Planifiez a l'avance ou acceptez ce qui est disponible.",
+            "it": "Se volete un appartamento specifico, prenotate il prima possibile. I buoni—le terrazze, le viste, gli spazi storici ristrutturati—vanno per primi. Quello che resta all'ultimo minuto tende a essere o troppo caro o compromesso. Pianificate in anticipo o accettate quello che c'e."
+          },
+          "signature": {
+            "en": "When planning enables choice",
+            "de": "Wenn Planung Wahl ermoglicht",
+            "fr": "Quand la planification permet le choix",
+            "it": "Quando la pianificazione permette la scelta"
+          }
         },
         {
           "id": 5,
-          "name": "The Kitchen Question",
-          "category": "Living Well",
+          "name": {
+            "en": "The Kitchen Question",
+            "de": "Die Kuchen-Frage",
+            "fr": "La Question de la Cuisine",
+            "it": "La Questione della Cucina"
+          },
+          "category": {
+            "en": "Living Well",
+            "de": "Gut Leben",
+            "fr": "Bien Vivre",
+            "it": "Vivere Bene"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Having a kitchen doesn't mean eating every meal at home—it means having the choice.",
-          "description": "The best approach: eat out for dinner, cook for everything else. Breakfast on your terrace with market fruit and local bread. Simple lunch from the alimentari's selection. Then dinner at the restaurants that make Manarola special. You save money, eat better, and experience the village as a resident rather than only as a restaurant customer.",
-          "giuliaComment": "When I have friends visiting, I tell them: buy olive oil and good bread immediately. Use them for breakfast and lunch. Save restaurant money for one memorable dinner each night. The kitchen isn't about avoiding restaurants—it's about expanding how you experience the village.",
-          "signature": "When choice creates rhythm"
+          "intro": {
+            "en": "Having a kitchen doesn't mean eating every meal at home—it means having the choice.",
+            "de": "Eine Kuche zu haben bedeutet nicht, jede Mahlzeit zu Hause zu essen—es bedeutet, die Wahl zu haben.",
+            "fr": "Avoir une cuisine ne signifie pas manger chaque repas a la maison—cela signifie avoir le choix.",
+            "it": "Avere una cucina non significa mangiare ogni pasto a casa—significa avere la scelta."
+          },
+          "description": {
+            "en": "The best approach: eat out for dinner, cook for everything else. Breakfast on your terrace with market fruit and local bread. Simple lunch from the alimentari's selection. Then dinner at the restaurants that make Manarola special. You save money, eat better, and experience the village as a resident rather than only as a restaurant customer.",
+            "de": "Der beste Ansatz: Gehen Sie zum Abendessen aus, kochen Sie fur alles andere. Fruhstuck auf Ihrer Terrasse mit Marktobst und lokalem Brot. Einfaches Mittagessen aus der Auswahl des Alimentari. Dann Abendessen in den Restaurants, die Manarola besonders machen. Sie sparen Geld, essen besser und erleben das Dorf als Bewohner, nicht nur als Restaurantgast.",
+            "fr": "La meilleure approche: sortir diner, cuisiner pour tout le reste. Petit-dejeuner sur votre terrasse avec des fruits du marche et du pain local. Dejeuner simple de la selection de l'alimentari. Puis diner dans les restaurants qui rendent Manarola special. Vous economisez de l'argent, mangez mieux et vivez le village en tant que resident plutot qu'uniquement comme client de restaurant.",
+            "it": "L'approccio migliore: uscite per cena, cucinate per tutto il resto. Colazione sulla vostra terrazza con frutta del mercato e pane locale. Pranzo semplice dalla selezione dell'alimentari. Poi cena nei ristoranti che rendono Manarola speciale. Risparmiate soldi, mangiate meglio e vivete il borgo come residenti piuttosto che solo come clienti di ristoranti."
+          },
+          "giuliaComment": {
+            "en": "When I have friends visiting, I tell them: buy olive oil and good bread immediately. Use them for breakfast and lunch. Save restaurant money for one memorable dinner each night. The kitchen isn't about avoiding restaurants—it's about expanding how you experience the village.",
+            "de": "Wenn Freunde zu Besuch kommen, sage ich ihnen: Kaufen Sie sofort Olivenol und gutes Brot. Verwenden Sie sie fur Fruhstuck und Mittagessen. Sparen Sie Restaurantgeld fur ein unvergessliches Abendessen jede Nacht. Die Kuche geht nicht darum, Restaurants zu meiden—es geht darum, zu erweitern, wie Sie das Dorf erleben.",
+            "fr": "Quand j'ai des amis en visite, je leur dis: achetez de l'huile d'olive et du bon pain immediatement. Utilisez-les pour le petit-dejeuner et le dejeuner. Gardez l'argent du restaurant pour un diner memorable chaque soir. La cuisine ne consiste pas a eviter les restaurants—il s'agit d'elargir la facon dont vous vivez le village.",
+            "it": "Quando ho amici in visita, dico loro: comprate olio d'oliva e buon pane immediatamente. Usateli per colazione e pranzo. Risparmiate i soldi del ristorante per una cena memorabile ogni sera. La cucina non riguarda evitare i ristoranti—riguarda espandere come vivete il borgo."
+          },
+          "signature": {
+            "en": "When choice creates rhythm",
+            "de": "Wenn Wahl Rhythmus schafft",
+            "fr": "Quand le choix cree le rythme",
+            "it": "Quando la scelta crea ritmo"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Luggage Problem",
-          "quote": "Whatever you bring to Manarola, you carry. From station to apartment, up however many stairs that requires. No porters, no elevators, no vehicles fit the streets. Pack half of what you think you need. Trust me on this one."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Luggage Problem",
+            "de": "Das Gepack-Problem",
+            "fr": "Le Probleme des Bagages",
+            "it": "Il Problema dei Bagagli"
+          },
+          "quote": {
+            "en": "Whatever you bring to Manarola, you carry. From station to apartment, up however many stairs that requires. No porters, no elevators, no vehicles fit the streets. Pack half of what you think you need. Trust me on this one.",
+            "de": "Was auch immer Sie nach Manarola bringen, Sie tragen es. Vom Bahnhof zur Wohnung, so viele Treppen hinauf, wie notig. Keine Trager, keine Aufzuge, keine Fahrzeuge passen auf die Strassen. Packen Sie die Halfte von dem, was Sie denken, dass Sie brauchen. Vertrauen Sie mir dabei.",
+            "fr": "Tout ce que vous apportez a Manarola, vous le portez. De la gare a l'appartement, en montant autant d'escaliers que necessaire. Pas de porteurs, pas d'ascenseurs, pas de vehicules dans les rues. Emportez la moitie de ce que vous pensez avoir besoin. Faites-moi confiance sur ce point.",
+            "it": "Qualunque cosa portiate a Manarola, la portate voi. Dalla stazione all'appartamento, su quante scale servono. Nessun facchino, nessun ascensore, nessun veicolo entra nelle strade. Portate meta di quello che pensate di aver bisogno. Fidatevi di me su questo."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "A Week Is Not Enough",
-      "content": [
-        "The visitors who rent apartments tend to stay longer. A night or two doesn't justify the setup; a week makes it worthwhile. And a week in Manarola is different from a weekend—you slow down, you develop habits, you start to feel like you belong.",
-        "Consider the apartment as an investment in experience rather than just accommodation. You're not buying a bed; you're buying a temporary life in one of the world's most beautiful villages.",
-        "Choose carefully. The right apartment becomes your Manarola home. The wrong one is just an expensive inconvenience. Read reviews, ask questions, understand exactly what you're booking. Then settle in and let the village teach you what it knows."
-      ],
+      "title": {
+        "en": "A Week Is Not Enough",
+        "de": "Eine Woche ist nicht genug",
+        "fr": "Une Semaine Ne Suffit Pas",
+        "it": "Una Settimana Non Basta"
+      },
+      "content": {
+        "en": [
+          "The visitors who rent apartments tend to stay longer. A night or two doesn't justify the setup; a week makes it worthwhile. And a week in Manarola is different from a weekend—you slow down, you develop habits, you start to feel like you belong.",
+          "Consider the apartment as an investment in experience rather than just accommodation. You're not buying a bed; you're buying a temporary life in one of the world's most beautiful villages.",
+          "Choose carefully. The right apartment becomes your Manarola home. The wrong one is just an expensive inconvenience. Read reviews, ask questions, understand exactly what you're booking. Then settle in and let the village teach you what it knows."
+        ],
+        "de": [
+          "Die Besucher, die Ferienwohnungen mieten, bleiben tendenziell langer. Ein oder zwei Nachte rechtfertigen das Setup nicht; eine Woche macht es lohnenswert. Und eine Woche in Manarola ist anders als ein Wochenende—Sie werden langsamer, Sie entwickeln Gewohnheiten, Sie beginnen sich zugehorig zu fuhlen.",
+          "Betrachten Sie die Wohnung als Investition in Erfahrung, nicht nur als Unterkunft. Sie kaufen kein Bett; Sie kaufen ein vorubergehendes Leben in einem der schonsten Dorfer der Welt.",
+          "Wahlen Sie sorgfaltig. Die richtige Wohnung wird zu Ihrem Manarola-Zuhause. Die falsche ist nur eine teure Unannehmlichkeit. Lesen Sie Bewertungen, stellen Sie Fragen, verstehen Sie genau, was Sie buchen. Dann machen Sie es sich bequem und lassen Sie das Dorf Sie lehren, was es weiss."
+        ],
+        "fr": [
+          "Les visiteurs qui louent des appartements ont tendance a rester plus longtemps. Une ou deux nuits ne justifient pas l'installation; une semaine en vaut la peine. Et une semaine a Manarola est differente d'un week-end—vous ralentissez, vous developpez des habitudes, vous commencez a vous sentir appartenir.",
+          "Considerez l'appartement comme un investissement dans l'experience plutot que juste un hebergement. Vous n'achetez pas un lit; vous achetez une vie temporaire dans l'un des plus beaux villages du monde.",
+          "Choisissez avec soin. Le bon appartement devient votre maison a Manarola. Le mauvais n'est qu'un inconvenient couteux. Lisez les avis, posez des questions, comprenez exactement ce que vous reservez. Puis installez-vous et laissez le village vous enseigner ce qu'il sait."
+        ],
+        "it": [
+          "I visitatori che affittano appartamenti tendono a restare piu a lungo. Una o due notti non giustificano la preparazione; una settimana lo rende utile. E una settimana a Manarola e diversa da un weekend—rallentate, sviluppate abitudini, cominciate a sentirvi appartenere.",
+          "Considerate l'appartamento come un investimento nell'esperienza piuttosto che solo come alloggio. Non state comprando un letto; state comprando una vita temporanea in uno dei borghi piu belli del mondo.",
+          "Scegliete con cura. L'appartamento giusto diventa la vostra casa a Manarola. Quello sbagliato e solo un inconveniente costoso. Leggete le recensioni, fate domande, capite esattamente cosa state prenotando. Poi sistematevi e lasciate che il borgo vi insegni quello che sa."
+        ]
+      },
       "buttons": [
-        { "text": "Hotels", "url": "/en/manarola/hotels", "variant": "primary" },
-        { "text": "Restaurants", "url": "/en/manarola/restaurants", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Hotels",
+            "de": "Hotels",
+            "fr": "Hotels",
+            "it": "Hotel"
+          },
+          "url": {
+            "en": "/en/manarola/hotels",
+            "de": "/de/manarola/hotels",
+            "fr": "/fr/manarola/hotels",
+            "it": "/it/manarola/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Restaurants",
+            "de": "Restaurants",
+            "fr": "Restaurants",
+            "it": "Ristoranti"
+          },
+          "url": {
+            "en": "/en/manarola/restaurants",
+            "de": "/de/manarola/restaurants",
+            "fr": "/fr/manarola/restaurants",
+            "it": "/it/manarola/restaurants"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:45:00.000Z"
+  "updated_at": "2026-01-07T18:30:00.000Z"
 }

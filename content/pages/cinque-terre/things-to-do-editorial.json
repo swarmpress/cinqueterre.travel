@@ -7,33 +7,77 @@
     "it": "/it/cosa-fare"
   },
   "title": {
-    "en": "The Art of Presence | Things to Do in Riomaggiore"
+    "en": "The Art of Presence | Things to Do in Riomaggiore",
+    "de": "Die Kunst der Präsenz | Aktivitäten in Riomaggiore",
+    "fr": "L'Art de la Présence | Activités à Riomaggiore",
+    "it": "L'Arte della Presenza | Cosa Fare a Riomaggiore"
   },
   "page_type": "things-to-do",
   "seo": {
     "title": {
-      "en": "The Art of Presence | Cinque Terre Dispatch"
+      "en": "The Art of Presence | Cinque Terre Dispatch",
+      "de": "Die Kunst der Präsenz | Cinque Terre Dispatch",
+      "fr": "L'Art de la Présence | Cinque Terre Dispatch",
+      "it": "L'Arte della Presenza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "In Riomaggiore, 'doing' is a matter of noticing. It is the shift from searching for highlights to paying attention to the rhythm of the stone and the sea."
+      "en": "In Riomaggiore, 'doing' is a matter of noticing. It is the shift from searching for highlights to paying attention to the rhythm of the stone and the sea.",
+      "de": "In Riomaggiore ist 'Tun' eine Frage der Wahrnehmung. Es ist der Wechsel vom Suchen nach Highlights hin zur Aufmerksamkeit für den Rhythmus von Stein und Meer.",
+      "fr": "À Riomaggiore, 'faire' est une question d'attention. C'est le passage de la recherche des points forts à l'attention portée au rythme de la pierre et de la mer.",
+      "it": "A Riomaggiore, 'fare' è una questione di attenzione. È il passaggio dalla ricerca dei punti salienti all'ascolto del ritmo della pietra e del mare."
     }
   },
   "template": "cinque-terre",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Art of<br/>Presence",
-      "subtitle": "In Riomaggiore, 'doing' is a matter of noticing. It is the shift from searching for highlights to paying attention to the rhythm of the stone and the sea.",
-      "badge": "Modes of Engagement",
+      "title": {
+        "en": "The Art of<br/>Presence",
+        "de": "Die Kunst der<br/>Präsenz",
+        "fr": "L'Art de la<br/>Présence",
+        "it": "L'Arte della<br/>Presenza"
+      },
+      "subtitle": {
+        "en": "In Riomaggiore, 'doing' is a matter of noticing. It is the shift from searching for highlights to paying attention to the rhythm of the stone and the sea.",
+        "de": "In Riomaggiore ist 'Tun' eine Frage der Wahrnehmung. Es ist der Wechsel vom Suchen nach Highlights hin zur Aufmerksamkeit für den Rhythmus von Stein und Meer.",
+        "fr": "À Riomaggiore, 'faire' est une question d'attention. C'est le passage de la recherche des points forts à l'attention portée au rythme de la pierre et de la mer.",
+        "it": "A Riomaggiore, 'fare' è una questione di attenzione. È il passaggio dalla ricerca dei punti salienti all'ascolto del ritmo della pietra e del mare."
+      },
+      "badge": {
+        "en": "Modes of Engagement",
+        "de": "Arten der Begegnung",
+        "fr": "Modes d'Engagement",
+        "it": "Modi di Vivere"
+      },
       "image": "https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?q=80&w=2669&auto=format&fit=crop",
       "height": "70vh"
     },
     {
       "type": "editorial-intro",
-      "badge": "Beyond the Checklist",
-      "quote": "Riomaggiore offers very few formal attractions, and that is precisely its strength. There are no museums to rush through, no monuments to check off a list.",
-      "leftContent": "<p>We invite you to <strong>challenge the idea of productivity</strong> in your travel. The most meaningful experiences in this village unfold slowly and often without signs. They are found in the gaps between the 'must-sees'—in the way the light enters a narrow alley, or the way the sound of the sea changes as you climb higher.</p><p>To 'do' something here is to <strong>engage with the village's spirit</strong>. It is a choice of how you spend your attention. Whether you are wandering without a route, sitting on a salt-worn rock, or sharing a simple meal, you are participating in a way of life that has remained remarkably consistent despite the world's acceleration.</p>",
-      "rightContent": "<p>This page is not a schedule to be filled, but a <strong>guide to different kinds of presence</strong>. It acknowledges that your energy, the season, and the light will dictate what feels right at any given moment. There is no 'correct' way to see Riomaggiore, only a more or less attentive one.</p><p>Slow down. <strong>Trust your senses</strong>. Allow the village to unfold at its own pace. You will find that when you stop searching for highlights, the entire place becomes one.</p>"
+      "badge": {
+        "en": "Beyond the Checklist",
+        "de": "Jenseits der Checkliste",
+        "fr": "Au-delà de la Liste",
+        "it": "Oltre la Lista"
+      },
+      "quote": {
+        "en": "Riomaggiore offers very few formal attractions, and that is precisely its strength. There are no museums to rush through, no monuments to check off a list.",
+        "de": "Riomaggiore bietet nur wenige formelle Attraktionen, und genau das ist seine Stärke. Es gibt keine Museen, durch die man hetzen muss, keine Denkmäler, die man von einer Liste abhaken muss.",
+        "fr": "Riomaggiore offre très peu d'attractions formelles, et c'est précisément sa force. Il n'y a pas de musées à traverser en courant, pas de monuments à cocher sur une liste.",
+        "it": "Riomaggiore offre pochissime attrazioni formali, e questa è precisamente la sua forza. Non ci sono musei da attraversare di fretta, né monumenti da spuntare da una lista."
+      },
+      "leftContent": {
+        "en": "<p>We invite you to <strong>challenge the idea of productivity</strong> in your travel. The most meaningful experiences in this village unfold slowly and often without signs. They are found in the gaps between the 'must-sees'—in the way the light enters a narrow alley, or the way the sound of the sea changes as you climb higher.</p><p>To 'do' something here is to <strong>engage with the village's spirit</strong>. It is a choice of how you spend your attention. Whether you are wandering without a route, sitting on a salt-worn rock, or sharing a simple meal, you are participating in a way of life that has remained remarkably consistent despite the world's acceleration.</p>",
+        "de": "<p>Wir laden Sie ein, <strong>die Idee der Produktivität beim Reisen zu hinterfragen</strong>. Die bedeutungsvollsten Erlebnisse in diesem Dorf entfalten sich langsam und oft ohne Hinweisschilder. Sie finden sich in den Lücken zwischen den 'Must-sees' – in der Art, wie das Licht in eine enge Gasse fällt, oder wie sich der Klang des Meeres verändert, wenn man höher steigt.</p><p>Hier etwas zu 'tun' bedeutet, <strong>sich auf den Geist des Dorfes einzulassen</strong>. Es ist eine Entscheidung darüber, worauf Sie Ihre Aufmerksamkeit richten. Ob Sie ziellos wandern, auf einem salzverwitterten Felsen sitzen oder eine einfache Mahlzeit teilen – Sie nehmen an einer Lebensweise teil, die trotz der Beschleunigung der Welt bemerkenswert beständig geblieben ist.</p>",
+        "fr": "<p>Nous vous invitons à <strong>remettre en question l'idée de productivité</strong> dans votre voyage. Les expériences les plus significatives dans ce village se déroulent lentement et souvent sans panneaux indicateurs. Elles se trouvent dans les interstices entre les 'incontournables' – dans la façon dont la lumière pénètre dans une ruelle étroite, ou dont le son de la mer change à mesure que vous montez.</p><p>'Faire' quelque chose ici, c'est <strong>s'engager avec l'esprit du village</strong>. C'est un choix de la façon dont vous dépensez votre attention. Que vous erriez sans itinéraire, que vous soyez assis sur un rocher usé par le sel, ou que vous partagiez un repas simple, vous participez à un mode de vie qui est resté remarquablement constant malgré l'accélération du monde.</p>",
+        "it": "<p>Vi invitiamo a <strong>mettere in discussione l'idea di produttività</strong> nel vostro viaggio. Le esperienze più significative in questo borgo si sviluppano lentamente e spesso senza indicazioni. Si trovano negli spazi tra le 'cose da vedere' – nel modo in cui la luce entra in un vicolo stretto, o nel modo in cui il suono del mare cambia mentre salite.</p><p>'Fare' qualcosa qui significa <strong>entrare in contatto con lo spirito del borgo</strong>. È una scelta su come spendete la vostra attenzione. Che stiate vagando senza una meta, seduti su uno scoglio consumato dal sale, o condividendo un pasto semplice, state partecipando a un modo di vivere che è rimasto notevolmente costante nonostante l'accelerazione del mondo.</p>"
+      },
+      "rightContent": {
+        "en": "<p>This page is not a schedule to be filled, but a <strong>guide to different kinds of presence</strong>. It acknowledges that your energy, the season, and the light will dictate what feels right at any given moment. There is no 'correct' way to see Riomaggiore, only a more or less attentive one.</p><p>Slow down. <strong>Trust your senses</strong>. Allow the village to unfold at its own pace. You will find that when you stop searching for highlights, the entire place becomes one.</p>",
+        "de": "<p>Diese Seite ist kein Terminkalender, der gefüllt werden muss, sondern ein <strong>Leitfaden für verschiedene Arten der Präsenz</strong>. Sie anerkennt, dass Ihre Energie, die Jahreszeit und das Licht bestimmen, was sich in jedem Moment richtig anfühlt. Es gibt keine 'richtige' Art, Riomaggiore zu sehen, nur eine mehr oder weniger aufmerksame.</p><p>Verlangsamen Sie. <strong>Vertrauen Sie Ihren Sinnen</strong>. Lassen Sie das Dorf sich in seinem eigenen Tempo entfalten. Sie werden feststellen, dass wenn Sie aufhören, nach Highlights zu suchen, der ganze Ort zu einem wird.</p>",
+        "fr": "<p>Cette page n'est pas un emploi du temps à remplir, mais un <strong>guide vers différents types de présence</strong>. Elle reconnaît que votre énergie, la saison et la lumière dicteront ce qui semble juste à tout moment. Il n'y a pas de façon 'correcte' de voir Riomaggiore, seulement une plus ou moins attentive.</p><p>Ralentissez. <strong>Faites confiance à vos sens</strong>. Laissez le village se dévoiler à son propre rythme. Vous constaterez que lorsque vous cessez de chercher des points forts, tout l'endroit en devient un.</p>",
+        "it": "<p>Questa pagina non è un programma da riempire, ma una <strong>guida a diversi tipi di presenza</strong>. Riconosce che la vostra energia, la stagione e la luce detteranno ciò che sembra giusto in ogni momento. Non c'è un modo 'corretto' di vedere Riomaggiore, solo uno più o meno attento.</p><p>Rallentate. <strong>Fidatevi dei vostri sensi</strong>. Lasciate che il borgo si sveli al proprio ritmo. Scoprirete che quando smettete di cercare i punti salienti, l'intero luogo diventa uno di essi.</p>"
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -41,97 +85,377 @@
       "items": [
         {
           "id": 1,
-          "name": "Walking Without Purpose",
-          "category": "Contemplative",
+          "name": {
+            "en": "Walking Without Purpose",
+            "de": "Zielloses Wandern",
+            "fr": "Marcher Sans But",
+            "it": "Camminare Senza Meta"
+          },
+          "category": {
+            "en": "Contemplative",
+            "de": "Kontemplativ",
+            "fr": "Contemplatif",
+            "it": "Contemplativo"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=1600",
-          "intro": "The oldest form of travel, and still the best.",
-          "description": "Put away the map. Ignore the recommended route. Simply walk, letting the village's natural geometry guide you. Climb when you feel like climbing, rest when you find a spot that invites you to stay. The narrow alleys (carruggi) will take you places no guidebook has ever mentioned.",
-          "giuliaComment": "This is how I rediscover my own village. Every time I walk without a destination, I notice something new—a doorway I've never seen, a cat I've never met, a view I'd forgotten. The village rewards those who aren't in a hurry.",
-          "signature": "The gift of getting lost in a place you can never truly lose yourself",
-          "mode": "Walking",
-          "intensity": "Low to moderate (depending on stairs)",
-          "practicalInfo": "Wear comfortable shoes. The stone gets slippery when wet. No equipment needed.",
+          "intro": {
+            "en": "The oldest form of travel, and still the best.",
+            "de": "Die älteste Form des Reisens, und immer noch die beste.",
+            "fr": "La plus ancienne forme de voyage, et toujours la meilleure.",
+            "it": "La forma di viaggio più antica, e ancora la migliore."
+          },
+          "description": {
+            "en": "Put away the map. Ignore the recommended route. Simply walk, letting the village's natural geometry guide you. Climb when you feel like climbing, rest when you find a spot that invites you to stay. The narrow alleys (carruggi) will take you places no guidebook has ever mentioned.",
+            "de": "Legen Sie die Karte weg. Ignorieren Sie die empfohlene Route. Gehen Sie einfach, und lassen Sie sich von der natürlichen Geometrie des Dorfes leiten. Steigen Sie, wenn Ihnen danach ist, ruhen Sie sich aus, wenn Sie einen Ort finden, der Sie zum Bleiben einlädt. Die engen Gassen (Carruggi) werden Sie an Orte führen, die kein Reiseführer je erwähnt hat.",
+            "fr": "Rangez la carte. Ignorez l'itinéraire recommandé. Marchez simplement, en laissant la géométrie naturelle du village vous guider. Montez quand vous en avez envie, reposez-vous quand vous trouvez un endroit qui vous invite à rester. Les ruelles étroites (carruggi) vous emmèneront dans des endroits qu'aucun guide n'a jamais mentionnés.",
+            "it": "Mettete via la mappa. Ignorate il percorso consigliato. Semplicemente camminate, lasciando che la geometria naturale del borgo vi guidi. Salite quando ne avete voglia, riposatevi quando trovate un posto che vi invita a restare. I vicoli stretti (carruggi) vi porteranno in luoghi che nessuna guida ha mai menzionato."
+          },
+          "giuliaComment": {
+            "en": "This is how I rediscover my own village. Every time I walk without a destination, I notice something new—a doorway I've never seen, a cat I've never met, a view I'd forgotten. The village rewards those who aren't in a hurry.",
+            "de": "So entdecke ich mein eigenes Dorf neu. Jedes Mal, wenn ich ohne Ziel gehe, bemerke ich etwas Neues – eine Tür, die ich nie gesehen habe, eine Katze, die ich nie getroffen habe, eine Aussicht, die ich vergessen hatte. Das Dorf belohnt diejenigen, die es nicht eilig haben.",
+            "fr": "C'est ainsi que je redécouvre mon propre village. Chaque fois que je marche sans destination, je remarque quelque chose de nouveau – une porte que je n'avais jamais vue, un chat que je n'avais jamais rencontré, une vue que j'avais oubliée. Le village récompense ceux qui ne sont pas pressés.",
+            "it": "È così che riscopro il mio borgo. Ogni volta che cammino senza una destinazione, noto qualcosa di nuovo – un portone che non avevo mai visto, un gatto che non avevo mai incontrato, una vista che avevo dimenticato. Il borgo premia chi non ha fretta."
+          },
+          "signature": {
+            "en": "The gift of getting lost in a place you can never truly lose yourself",
+            "de": "Das Geschenk, sich an einem Ort zu verirren, an dem man sich nie wirklich verlieren kann",
+            "fr": "Le don de se perdre dans un endroit où l'on ne peut jamais vraiment se perdre",
+            "it": "Il dono di perdersi in un luogo dove non ci si può mai davvero perdere"
+          },
+          "mode": {
+            "en": "Walking",
+            "de": "Zu Fuß",
+            "fr": "À pied",
+            "it": "A piedi"
+          },
+          "intensity": {
+            "en": "Low to moderate (depending on stairs)",
+            "de": "Niedrig bis mittel (je nach Treppen)",
+            "fr": "Faible à modéré (selon les escaliers)",
+            "it": "Da bassa a moderata (a seconda delle scale)"
+          },
+          "practicalInfo": {
+            "en": "Wear comfortable shoes. The stone gets slippery when wet. No equipment needed.",
+            "de": "Tragen Sie bequeme Schuhe. Der Stein wird bei Nässe rutschig. Keine Ausrüstung erforderlich.",
+            "fr": "Portez des chaussures confortables. La pierre devient glissante quand elle est mouillée. Aucun équipement nécessaire.",
+            "it": "Indossate scarpe comode. La pietra diventa scivolosa quando è bagnata. Nessuna attrezzatura necessaria."
+          },
           "googleRating": 4.9,
           "tripadvisorRating": 4.8
         },
         {
           "id": 2,
-          "name": "Swimming at the Rocks",
-          "category": "Active",
+          "name": {
+            "en": "Swimming at the Rocks",
+            "de": "Schwimmen an den Felsen",
+            "fr": "Baignade aux Rochers",
+            "it": "Nuotare agli Scogli"
+          },
+          "category": {
+            "en": "Active",
+            "de": "Aktiv",
+            "fr": "Actif",
+            "it": "Attivo"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600",
-          "intro": "No beach, no problem. The rocks are your invitation to the Mediterranean.",
-          "description": "Riomaggiore has no sandy beach, and that is part of its character. Instead, you climb down to the rocks by the harbor, find a flat spot, and slip into the clearest water you've ever seen. The entry is rough but the reward is immediate—a swim in the same sea that has defined this village for centuries.",
-          "giuliaComment": "Bring water shoes—the rocks can be sharp. The best swimming is in the morning before the afternoon winds pick up. And always check the sea conditions; the Mediterranean is usually calm, but she has her moods.",
-          "signature": "The shock of cold water and the warmth of the sun on ancient stone",
-          "mode": "Swimming",
-          "intensity": "Moderate (climbing on rocks)",
-          "practicalInfo": "Water shoes recommended. No lifeguards. Check sea conditions. Bring a towel and water.",
+          "intro": {
+            "en": "No beach, no problem. The rocks are your invitation to the Mediterranean.",
+            "de": "Kein Strand, kein Problem. Die Felsen sind Ihre Einladung ins Mittelmeer.",
+            "fr": "Pas de plage, pas de problème. Les rochers sont votre invitation à la Méditerranée.",
+            "it": "Niente spiaggia, nessun problema. Gli scogli sono il vostro invito al Mediterraneo."
+          },
+          "description": {
+            "en": "Riomaggiore has no sandy beach, and that is part of its character. Instead, you climb down to the rocks by the harbor, find a flat spot, and slip into the clearest water you've ever seen. The entry is rough but the reward is immediate—a swim in the same sea that has defined this village for centuries.",
+            "de": "Riomaggiore hat keinen Sandstrand, und das ist Teil seines Charakters. Stattdessen klettert man zu den Felsen am Hafen hinunter, findet einen flachen Platz und gleitet ins klarste Wasser, das man je gesehen hat. Der Einstieg ist rau, aber die Belohnung ist sofort da – ein Bad im selben Meer, das dieses Dorf seit Jahrhunderten prägt.",
+            "fr": "Riomaggiore n'a pas de plage de sable, et c'est une partie de son caractère. Au lieu de cela, vous descendez aux rochers près du port, trouvez un endroit plat, et vous glissez dans l'eau la plus claire que vous ayez jamais vue. L'entrée est rude mais la récompense est immédiate – une baignade dans la même mer qui a défini ce village pendant des siècles.",
+            "it": "Riomaggiore non ha spiaggia sabbiosa, e questo fa parte del suo carattere. Invece, si scende agli scogli vicino al porto, si trova un punto piatto, e ci si immerge nell'acqua più limpida che abbiate mai visto. L'ingresso è impervio ma la ricompensa è immediata – una nuotata nello stesso mare che ha definito questo borgo per secoli."
+          },
+          "giuliaComment": {
+            "en": "Bring water shoes—the rocks can be sharp. The best swimming is in the morning before the afternoon winds pick up. And always check the sea conditions; the Mediterranean is usually calm, but she has her moods.",
+            "de": "Bringen Sie Wasserschuhe mit – die Felsen können scharf sein. Am besten schwimmt man morgens, bevor der Nachmittagswind aufkommt. Und prüfen Sie immer die Seebedingungen; das Mittelmeer ist normalerweise ruhig, aber es hat seine Launen.",
+            "fr": "Apportez des chaussures d'eau – les rochers peuvent être coupants. La meilleure baignade est le matin avant que les vents de l'après-midi ne se lèvent. Et vérifiez toujours les conditions de la mer ; la Méditerranée est généralement calme, mais elle a ses humeurs.",
+            "it": "Portate le scarpette da scoglio – gli scogli possono essere taglienti. Il momento migliore per nuotare è la mattina prima che si alzi il vento pomeridiano. E controllate sempre le condizioni del mare; il Mediterraneo è solitamente calmo, ma ha i suoi umori."
+          },
+          "signature": {
+            "en": "The shock of cold water and the warmth of the sun on ancient stone",
+            "de": "Der Schock des kalten Wassers und die Wärme der Sonne auf uraltem Stein",
+            "fr": "Le choc de l'eau froide et la chaleur du soleil sur la pierre ancienne",
+            "it": "Lo shock dell'acqua fredda e il calore del sole sulla pietra antica"
+          },
+          "mode": {
+            "en": "Swimming",
+            "de": "Schwimmen",
+            "fr": "Natation",
+            "it": "Nuoto"
+          },
+          "intensity": {
+            "en": "Moderate (climbing on rocks)",
+            "de": "Mittel (Klettern auf Felsen)",
+            "fr": "Modéré (escalade sur les rochers)",
+            "it": "Moderata (arrampicata sugli scogli)"
+          },
+          "practicalInfo": {
+            "en": "Water shoes recommended. No lifeguards. Check sea conditions. Bring a towel and water.",
+            "de": "Wasserschuhe empfohlen. Keine Rettungsschwimmer. Seebedingungen prüfen. Handtuch und Wasser mitbringen.",
+            "fr": "Chaussures d'eau recommandées. Pas de sauveteurs. Vérifiez les conditions de la mer. Apportez une serviette et de l'eau.",
+            "it": "Scarpette da scoglio consigliate. Nessun bagnino. Controllare le condizioni del mare. Portare asciugamano e acqua."
+          },
           "googleRating": 4.7,
           "tripadvisorRating": 4.6
         },
         {
           "id": 3,
-          "name": "The Hike to Manarola",
-          "category": "Active",
-          "village": "Riomaggiore to Manarola",
+          "name": {
+            "en": "The Hike to Manarola",
+            "de": "Die Wanderung nach Manarola",
+            "fr": "La Randonnée vers Manarola",
+            "it": "L'Escursione a Manarola"
+          },
+          "category": {
+            "en": "Active",
+            "de": "Aktiv",
+            "fr": "Actif",
+            "it": "Attivo"
+          },
+          "village": {
+            "en": "Riomaggiore to Manarola",
+            "de": "Riomaggiore nach Manarola",
+            "fr": "Riomaggiore à Manarola",
+            "it": "Da Riomaggiore a Manarola"
+          },
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1600",
-          "intro": "The classic connection between two villages, through the terraces.",
-          "description": "While the famous Via dell'Amore remains closed, the high path between Riomaggiore and Manarola offers an even more rewarding experience. You climb up through the vineyards, walk along the ridge with the sea below on both sides, and descend into Manarola from above. It's not difficult, but it's real.",
-          "giuliaComment": "Start from Riomaggiore in the morning so the sun is behind you. Bring water and a snack. The views from the top are the best on the entire coast—you can see why these villages were built where they are.",
-          "signature": "The moment when both villages appear, and you understand their relationship to the sea",
-          "mode": "Hiking",
-          "intensity": "Moderate (some steep sections)",
-          "practicalInfo": "Cinque Terre Card required for trail access. 2-2.5 hours. Proper shoes essential.",
+          "intro": {
+            "en": "The classic connection between two villages, through the terraces.",
+            "de": "Die klassische Verbindung zwischen zwei Dörfern, durch die Terrassen.",
+            "fr": "La connexion classique entre deux villages, à travers les terrasses.",
+            "it": "Il collegamento classico tra due borghi, attraverso i terrazzamenti."
+          },
+          "description": {
+            "en": "While the famous Via dell'Amore remains closed, the high path between Riomaggiore and Manarola offers an even more rewarding experience. You climb up through the vineyards, walk along the ridge with the sea below on both sides, and descend into Manarola from above. It's not difficult, but it's real.",
+            "de": "Während die berühmte Via dell'Amore geschlossen bleibt, bietet der Höhenweg zwischen Riomaggiore und Manarola ein noch lohnenderes Erlebnis. Man steigt durch die Weinberge hinauf, wandert auf dem Kamm mit dem Meer zu beiden Seiten unter sich und steigt von oben nach Manarola hinab. Es ist nicht schwierig, aber es ist echt.",
+            "fr": "Alors que la célèbre Via dell'Amore reste fermée, le sentier haut entre Riomaggiore et Manarola offre une expérience encore plus enrichissante. Vous montez à travers les vignobles, marchez le long de la crête avec la mer en contrebas des deux côtés, et descendez sur Manarola d'en haut. Ce n'est pas difficile, mais c'est authentique.",
+            "it": "Mentre la famosa Via dell'Amore rimane chiusa, il sentiero alto tra Riomaggiore e Manarola offre un'esperienza ancora più gratificante. Si sale attraverso i vigneti, si cammina lungo il crinale con il mare sotto da entrambi i lati, e si scende a Manarola dall'alto. Non è difficile, ma è autentico."
+          },
+          "giuliaComment": {
+            "en": "Start from Riomaggiore in the morning so the sun is behind you. Bring water and a snack. The views from the top are the best on the entire coast—you can see why these villages were built where they are.",
+            "de": "Starten Sie morgens von Riomaggiore, damit die Sonne hinter Ihnen ist. Bringen Sie Wasser und einen Snack mit. Die Aussicht vom Gipfel ist die beste an der gesamten Küste – man versteht, warum diese Dörfer dort gebaut wurden, wo sie sind.",
+            "fr": "Partez de Riomaggiore le matin pour avoir le soleil dans le dos. Apportez de l'eau et un en-cas. Les vues du sommet sont les meilleures de toute la côte – on comprend pourquoi ces villages ont été construits là où ils sont.",
+            "it": "Partite da Riomaggiore la mattina così avrete il sole alle spalle. Portate acqua e uno spuntino. Le viste dalla cima sono le migliori di tutta la costa – si capisce perché questi borghi sono stati costruiti dove sono."
+          },
+          "signature": {
+            "en": "The moment when both villages appear, and you understand their relationship to the sea",
+            "de": "Der Moment, wenn beide Dörfer erscheinen und man ihre Beziehung zum Meer versteht",
+            "fr": "Le moment où les deux villages apparaissent, et vous comprenez leur relation avec la mer",
+            "it": "Il momento in cui entrambi i borghi appaiono, e capisci il loro rapporto con il mare"
+          },
+          "mode": {
+            "en": "Hiking",
+            "de": "Wandern",
+            "fr": "Randonnée",
+            "it": "Escursionismo"
+          },
+          "intensity": {
+            "en": "Moderate (some steep sections)",
+            "de": "Mittel (einige steile Abschnitte)",
+            "fr": "Modéré (quelques sections raides)",
+            "it": "Moderata (alcuni tratti ripidi)"
+          },
+          "practicalInfo": {
+            "en": "Cinque Terre Card required for trail access. 2-2.5 hours. Proper shoes essential.",
+            "de": "Cinque Terre Card für Wegzugang erforderlich. 2-2,5 Stunden. Geeignete Schuhe unerlässlich.",
+            "fr": "Cinque Terre Card requise pour l'accès au sentier. 2-2,5 heures. Chaussures appropriées indispensables.",
+            "it": "Cinque Terre Card necessaria per l'accesso al sentiero. 2-2,5 ore. Scarpe adeguate essenziali."
+          },
           "googleRating": 4.8,
           "tripadvisorRating": 4.7
         },
         {
           "id": 4,
-          "name": "Aperitivo at Sunset",
-          "category": "Social",
+          "name": {
+            "en": "Aperitivo at Sunset",
+            "de": "Aperitivo bei Sonnenuntergang",
+            "fr": "Aperitivo au Coucher du Soleil",
+            "it": "Aperitivo al Tramonto"
+          },
+          "category": {
+            "en": "Social",
+            "de": "Gesellig",
+            "fr": "Social",
+            "it": "Sociale"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1600",
-          "intro": "The Italian art of doing nothing, perfected.",
-          "description": "Find a seat at a bar with a view. Order an Aperol Spritz or a glass of local white wine. Watch the light change on the houses as the sun drops toward the horizon. This is not a prelude to dinner—it is an experience in itself, a ritual that marks the transition from day to evening.",
-          "giuliaComment": "The rocks by the harbor are my favorite spot, but if they're crowded, try Vertical wine bar or the terrace at Dau Cila. The important thing is not where you sit, but that you take the time to sit.",
-          "signature": "The moment when the village turns gold and the day finally slows down",
-          "mode": "Sitting",
-          "intensity": "None",
-          "practicalInfo": "Peak time is 6-8 PM. Some bars require ordering food with drinks. Cash is often preferred.",
+          "intro": {
+            "en": "The Italian art of doing nothing, perfected.",
+            "de": "Die italienische Kunst des Nichtstuns, perfektioniert.",
+            "fr": "L'art italien de ne rien faire, perfectionné.",
+            "it": "L'arte italiana del dolce far niente, perfezionata."
+          },
+          "description": {
+            "en": "Find a seat at a bar with a view. Order an Aperol Spritz or a glass of local white wine. Watch the light change on the houses as the sun drops toward the horizon. This is not a prelude to dinner—it is an experience in itself, a ritual that marks the transition from day to evening.",
+            "de": "Finden Sie einen Platz in einer Bar mit Aussicht. Bestellen Sie einen Aperol Spritz oder ein Glas lokalen Weißwein. Beobachten Sie, wie sich das Licht auf den Häusern verändert, während die Sonne dem Horizont entgegensinkt. Dies ist kein Vorspiel zum Abendessen – es ist ein Erlebnis für sich, ein Ritual, das den Übergang vom Tag zum Abend markiert.",
+            "fr": "Trouvez une place dans un bar avec vue. Commandez un Aperol Spritz ou un verre de vin blanc local. Regardez la lumière changer sur les maisons alors que le soleil descend vers l'horizon. Ce n'est pas un prélude au dîner – c'est une expérience en soi, un rituel qui marque la transition du jour au soir.",
+            "it": "Trovate un posto in un bar con vista. Ordinate un Aperol Spritz o un bicchiere di vino bianco locale. Guardate la luce cambiare sulle case mentre il sole scende verso l'orizzonte. Questo non è un preludio alla cena – è un'esperienza in sé, un rituale che segna il passaggio dal giorno alla sera."
+          },
+          "giuliaComment": {
+            "en": "The rocks by the harbor are my favorite spot, but if they're crowded, try Vertical wine bar or the terrace at Dau Cila. The important thing is not where you sit, but that you take the time to sit.",
+            "de": "Die Felsen am Hafen sind mein Lieblingsplatz, aber wenn sie überfüllt sind, probieren Sie die Vertical Weinbar oder die Terrasse im Dau Cila. Das Wichtige ist nicht, wo Sie sitzen, sondern dass Sie sich die Zeit nehmen zu sitzen.",
+            "fr": "Les rochers près du port sont mon endroit préféré, mais s'ils sont bondés, essayez le bar à vin Vertical ou la terrasse du Dau Cila. L'important n'est pas où vous vous asseyez, mais que vous preniez le temps de vous asseoir.",
+            "it": "Gli scogli vicino al porto sono il mio posto preferito, ma se sono affollati, provate il wine bar Vertical o la terrazza del Dau Cila. L'importante non è dove vi sedete, ma che vi prendiate il tempo di sedervi."
+          },
+          "signature": {
+            "en": "The moment when the village turns gold and the day finally slows down",
+            "de": "Der Moment, wenn das Dorf golden wird und der Tag endlich langsamer wird",
+            "fr": "Le moment où le village devient doré et où la journée ralentit enfin",
+            "it": "Il momento in cui il borgo diventa dorato e la giornata finalmente rallenta"
+          },
+          "mode": {
+            "en": "Sitting",
+            "de": "Sitzen",
+            "fr": "Assis",
+            "it": "Seduti"
+          },
+          "intensity": {
+            "en": "None",
+            "de": "Keine",
+            "fr": "Aucune",
+            "it": "Nessuna"
+          },
+          "practicalInfo": {
+            "en": "Peak time is 6-8 PM. Some bars require ordering food with drinks. Cash is often preferred.",
+            "de": "Hauptzeit ist 18-20 Uhr. Einige Bars verlangen eine Essensbestellung zum Getränk. Bargeld wird oft bevorzugt.",
+            "fr": "L'heure de pointe est de 18h à 20h. Certains bars exigent de commander de la nourriture avec les boissons. L'argent liquide est souvent préféré.",
+            "it": "L'orario di punta è dalle 18 alle 20. Alcuni bar richiedono di ordinare cibo con le bevande. Il contante è spesso preferito."
+          },
           "googleRating": 4.9,
           "tripadvisorRating": 4.8
         },
         {
           "id": 5,
-          "name": "Visiting the Sanctuary",
-          "category": "Contemplative",
-          "village": "Above Riomaggiore",
+          "name": {
+            "en": "Visiting the Sanctuary",
+            "de": "Besuch des Heiligtums",
+            "fr": "Visite du Sanctuaire",
+            "it": "Visita al Santuario"
+          },
+          "category": {
+            "en": "Contemplative",
+            "de": "Kontemplativ",
+            "fr": "Contemplatif",
+            "it": "Contemplativo"
+          },
+          "village": {
+            "en": "Above Riomaggiore",
+            "de": "Oberhalb von Riomaggiore",
+            "fr": "Au-dessus de Riomaggiore",
+            "it": "Sopra Riomaggiore"
+          },
           "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600",
-          "intro": "A pilgrimage that rewards both body and spirit.",
-          "description": "The hike to the Santuario di Montenero is the most meaningful walk you can take from Riomaggiore. It follows the ancient path that pilgrims have walked for over a thousand years, climbing through olive groves and vineyards to a small church perched above the world.",
-          "giuliaComment": "Go in the morning, before the heat. The sanctuary has a small bar where the coffee tastes better than anywhere in the village—partly because you've earned it. Light a candle if you're moved to. This place has that effect on people.",
-          "signature": "The quiet that comes from effort, and the view that makes it worthwhile",
-          "mode": "Hiking",
-          "intensity": "Challenging (340m elevation gain)",
-          "practicalInfo": "2-3 hours round trip. Bring water. The sanctuary bar has limited hours. Trail is steep in places.",
+          "intro": {
+            "en": "A pilgrimage that rewards both body and spirit.",
+            "de": "Eine Pilgerfahrt, die Körper und Geist belohnt.",
+            "fr": "Un pèlerinage qui récompense le corps et l'esprit.",
+            "it": "Un pellegrinaggio che premia corpo e spirito."
+          },
+          "description": {
+            "en": "The hike to the Santuario di Montenero is the most meaningful walk you can take from Riomaggiore. It follows the ancient path that pilgrims have walked for over a thousand years, climbing through olive groves and vineyards to a small church perched above the world.",
+            "de": "Die Wanderung zum Santuario di Montenero ist der bedeutungsvollste Spaziergang, den man von Riomaggiore aus unternehmen kann. Er folgt dem alten Pfad, den Pilger seit über tausend Jahren gehen, und führt durch Olivenhaine und Weinberge zu einer kleinen Kirche, die über der Welt thront.",
+            "fr": "La randonnée vers le Santuario di Montenero est la promenade la plus significative que vous puissiez faire depuis Riomaggiore. Elle suit l'ancien chemin que les pèlerins parcourent depuis plus de mille ans, grimpant à travers les oliveraies et les vignobles jusqu'à une petite église perchée au-dessus du monde.",
+            "it": "L'escursione al Santuario di Montenero è la passeggiata più significativa che possiate fare da Riomaggiore. Segue l'antico sentiero che i pellegrini percorrono da oltre mille anni, salendo attraverso oliveti e vigneti fino a una piccola chiesa arroccata sopra il mondo."
+          },
+          "giuliaComment": {
+            "en": "Go in the morning, before the heat. The sanctuary has a small bar where the coffee tastes better than anywhere in the village—partly because you've earned it. Light a candle if you're moved to. This place has that effect on people.",
+            "de": "Gehen Sie morgens, vor der Hitze. Das Heiligtum hat eine kleine Bar, wo der Kaffee besser schmeckt als irgendwo im Dorf – teilweise, weil Sie ihn sich verdient haben. Zünden Sie eine Kerze an, wenn Sie sich bewegt fühlen. Dieser Ort hat diese Wirkung auf Menschen.",
+            "fr": "Allez-y le matin, avant la chaleur. Le sanctuaire a un petit bar où le café a meilleur goût que n'importe où dans le village – en partie parce que vous l'avez mérité. Allumez une bougie si vous en êtes ému. Cet endroit a cet effet sur les gens.",
+            "it": "Andate la mattina, prima del caldo. Il santuario ha un piccolo bar dove il caffè è più buono che in qualsiasi altro posto del borgo – in parte perché ve lo siete guadagnato. Accendete una candela se ne sentite il bisogno. Questo luogo ha questo effetto sulle persone."
+          },
+          "signature": {
+            "en": "The quiet that comes from effort, and the view that makes it worthwhile",
+            "de": "Die Stille, die aus der Anstrengung kommt, und die Aussicht, die sie lohnenswert macht",
+            "fr": "Le calme qui vient de l'effort, et la vue qui en vaut la peine",
+            "it": "La quiete che viene dallo sforzo, e la vista che ne vale la pena"
+          },
+          "mode": {
+            "en": "Hiking",
+            "de": "Wandern",
+            "fr": "Randonnée",
+            "it": "Escursionismo"
+          },
+          "intensity": {
+            "en": "Challenging (340m elevation gain)",
+            "de": "Anspruchsvoll (340 m Höhenunterschied)",
+            "fr": "Difficile (340 m de dénivelé)",
+            "it": "Impegnativa (340 m di dislivello)"
+          },
+          "practicalInfo": {
+            "en": "2-3 hours round trip. Bring water. The sanctuary bar has limited hours. Trail is steep in places.",
+            "de": "2-3 Stunden hin und zurück. Wasser mitbringen. Die Bar des Heiligtums hat begrenzte Öffnungszeiten. Der Weg ist stellenweise steil.",
+            "fr": "2-3 heures aller-retour. Apportez de l'eau. Le bar du sanctuaire a des horaires limités. Le sentier est raide par endroits.",
+            "it": "2-3 ore andata e ritorno. Portare acqua. Il bar del santuario ha orari limitati. Il sentiero è ripido in alcuni punti."
+          },
           "googleRating": 4.9,
           "tripadvisorRating": 4.8
         },
         {
           "id": 6,
-          "name": "Simply Sitting",
-          "category": "Contemplative",
+          "name": {
+            "en": "Simply Sitting",
+            "de": "Einfach Sitzen",
+            "fr": "Simplement S'asseoir",
+            "it": "Semplicemente Sedersi"
+          },
+          "category": {
+            "en": "Contemplative",
+            "de": "Kontemplativ",
+            "fr": "Contemplatif",
+            "it": "Contemplativo"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1600",
-          "intro": "The most radical act in a world that values productivity.",
-          "description": "Find a bench, a rock, or a doorstep. Sit. Watch the village move around you. Notice the cats, the children, the old women with their shopping bags. Listen to the conversations you don't understand. Feel the stone beneath you, worn smooth by centuries of sitting.",
-          "giuliaComment": "This is what visitors often miss—the value of doing absolutely nothing. The village is not a stage set; it's a living place. The best way to understand it is to become part of the scenery for a while.",
-          "signature": "The realization that presence is its own reward",
-          "mode": "Sitting",
-          "intensity": "None",
-          "practicalInfo": "No equipment needed. Find shade in summer. The harbor rocks and upper village benches are best.",
+          "intro": {
+            "en": "The most radical act in a world that values productivity.",
+            "de": "Der radikalste Akt in einer Welt, die Produktivität schätzt.",
+            "fr": "L'acte le plus radical dans un monde qui valorise la productivité.",
+            "it": "L'atto più radicale in un mondo che valorizza la produttività."
+          },
+          "description": {
+            "en": "Find a bench, a rock, or a doorstep. Sit. Watch the village move around you. Notice the cats, the children, the old women with their shopping bags. Listen to the conversations you don't understand. Feel the stone beneath you, worn smooth by centuries of sitting.",
+            "de": "Finden Sie eine Bank, einen Felsen oder eine Türschwelle. Setzen Sie sich. Beobachten Sie, wie sich das Dorf um Sie herum bewegt. Beachten Sie die Katzen, die Kinder, die alten Frauen mit ihren Einkaufstaschen. Hören Sie den Gesprächen zu, die Sie nicht verstehen. Spüren Sie den Stein unter Ihnen, glatt geschliffen durch Jahrhunderte des Sitzens.",
+            "fr": "Trouvez un banc, un rocher ou un seuil de porte. Asseyez-vous. Regardez le village bouger autour de vous. Remarquez les chats, les enfants, les vieilles femmes avec leurs sacs de courses. Écoutez les conversations que vous ne comprenez pas. Sentez la pierre sous vous, usée et lissée par des siècles de personnes assises.",
+            "it": "Trovate una panchina, uno scoglio o un gradino. Sedetevi. Guardate il borgo muoversi intorno a voi. Notate i gatti, i bambini, le anziane con le loro borse della spesa. Ascoltate le conversazioni che non capite. Sentite la pietra sotto di voi, levigata da secoli di persone sedute."
+          },
+          "giuliaComment": {
+            "en": "This is what visitors often miss—the value of doing absolutely nothing. The village is not a stage set; it's a living place. The best way to understand it is to become part of the scenery for a while.",
+            "de": "Das ist es, was Besucher oft verpassen – den Wert, absolut nichts zu tun. Das Dorf ist keine Bühnenkulisse; es ist ein lebendiger Ort. Der beste Weg, es zu verstehen, ist, für eine Weile Teil der Szenerie zu werden.",
+            "fr": "C'est ce que les visiteurs manquent souvent – la valeur de ne rien faire du tout. Le village n'est pas un décor de théâtre ; c'est un lieu vivant. La meilleure façon de le comprendre est de faire partie du décor pendant un moment.",
+            "it": "Questo è ciò che i visitatori spesso perdono – il valore del non fare assolutamente nulla. Il borgo non è un set teatrale; è un luogo vivo. Il modo migliore per capirlo è diventare parte dello scenario per un po'."
+          },
+          "signature": {
+            "en": "The realization that presence is its own reward",
+            "de": "Die Erkenntnis, dass Präsenz ihre eigene Belohnung ist",
+            "fr": "La réalisation que la présence est sa propre récompense",
+            "it": "La consapevolezza che la presenza è la sua stessa ricompensa"
+          },
+          "mode": {
+            "en": "Sitting",
+            "de": "Sitzen",
+            "fr": "Assis",
+            "it": "Seduti"
+          },
+          "intensity": {
+            "en": "None",
+            "de": "Keine",
+            "fr": "Aucune",
+            "it": "Nessuna"
+          },
+          "practicalInfo": {
+            "en": "No equipment needed. Find shade in summer. The harbor rocks and upper village benches are best.",
+            "de": "Keine Ausrüstung erforderlich. Im Sommer Schatten suchen. Die Hafenfelsen und die Bänke im oberen Dorf sind am besten.",
+            "fr": "Aucun équipement nécessaire. Trouvez de l'ombre en été. Les rochers du port et les bancs du village haut sont les meilleurs.",
+            "it": "Nessuna attrezzatura necessaria. Trovate ombra d'estate. Gli scogli del porto e le panchine del borgo alto sono i migliori."
+          },
           "googleRating": 4.8,
           "tripadvisorRating": 4.7
         }
@@ -140,34 +464,89 @@
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Value of Getting Lost",
-          "quote": "In a village built on a cliff, 'lost' is a relative term. You will always eventually find the main street or the sea. The time you spend in between—in the quiet carruggi where no one else is walking—is where you truly meet Riomaggiore. Don't fight the stairs; let them lead you to a view you weren't looking for.",
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelles Intermezzo",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Value of Getting Lost",
+            "de": "Der Wert des Sich-Verirrens",
+            "fr": "La Valeur de Se Perdre",
+            "it": "Il Valore del Perdersi"
+          },
+          "quote": {
+            "en": "In a village built on a cliff, 'lost' is a relative term. You will always eventually find the main street or the sea. The time you spend in between—in the quiet carruggi where no one else is walking—is where you truly meet Riomaggiore. Don't fight the stairs; let them lead you to a view you weren't looking for.",
+            "de": "In einem Dorf, das auf einer Klippe gebaut ist, ist 'verloren' ein relativer Begriff. Sie werden immer irgendwann die Hauptstraße oder das Meer finden. Die Zeit, die Sie dazwischen verbringen – in den ruhigen Carruggi, wo niemand sonst geht – ist dort, wo Sie Riomaggiore wirklich treffen. Kämpfen Sie nicht gegen die Treppen; lassen Sie sich von ihnen zu einer Aussicht führen, die Sie nicht gesucht haben.",
+            "fr": "Dans un village construit sur une falaise, 'perdu' est un terme relatif. Vous trouverez toujours finalement la rue principale ou la mer. Le temps que vous passez entre les deux – dans les carruggi silencieux où personne d'autre ne marche – c'est là que vous rencontrez vraiment Riomaggiore. Ne combattez pas les escaliers ; laissez-les vous mener à une vue que vous ne cherchiez pas.",
+            "it": "In un borgo costruito su una scogliera, 'perso' è un termine relativo. Alla fine troverete sempre la via principale o il mare. Il tempo che passate nel mezzo – nei carruggi silenziosi dove nessun altro cammina – è dove incontrate veramente Riomaggiore. Non lottate contro le scale; lasciate che vi portino a una vista che non stavate cercando."
+          },
           "align": "left"
         },
         {
           "afterIndex": 3,
           "type": "secondary",
-          "badge": "Editorial Interlude",
-          "title": "The Unrecorded Moment",
-          "quote": "We are often so busy recording our travels that we forget to experience them. Try leaving your phone in your pocket for an hour. Sit at the harbor and just watch the water. The memory of how the salt felt on your skin and how the light looked on the houses is far more powerful than any photograph. Some things are meant to be felt, not captured.",
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelles Intermezzo",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Unrecorded Moment",
+            "de": "Der Unaufgezeichnete Moment",
+            "fr": "Le Moment Non Enregistré",
+            "it": "Il Momento Non Registrato"
+          },
+          "quote": {
+            "en": "We are often so busy recording our travels that we forget to experience them. Try leaving your phone in your pocket for an hour. Sit at the harbor and just watch the water. The memory of how the salt felt on your skin and how the light looked on the houses is far more powerful than any photograph. Some things are meant to be felt, not captured.",
+            "de": "Wir sind oft so damit beschäftigt, unsere Reisen aufzuzeichnen, dass wir vergessen, sie zu erleben. Versuchen Sie, Ihr Handy eine Stunde lang in der Tasche zu lassen. Setzen Sie sich an den Hafen und schauen Sie einfach auf das Wasser. Die Erinnerung daran, wie sich das Salz auf Ihrer Haut anfühlte und wie das Licht auf den Häusern aussah, ist viel kraftvoller als jedes Foto. Manche Dinge sind dazu bestimmt, gefühlt zu werden, nicht eingefangen.",
+            "fr": "Nous sommes souvent tellement occupés à enregistrer nos voyages que nous oublions de les vivre. Essayez de laisser votre téléphone dans votre poche pendant une heure. Asseyez-vous au port et regardez simplement l'eau. Le souvenir de la sensation du sel sur votre peau et de la lumière sur les maisons est bien plus puissant que n'importe quelle photographie. Certaines choses sont faites pour être ressenties, pas capturées.",
+            "it": "Siamo spesso così impegnati a registrare i nostri viaggi che dimentichiamo di viverli. Provate a lasciare il telefono in tasca per un'ora. Sedetevi al porto e guardate semplicemente l'acqua. Il ricordo di come il sale si sentiva sulla pelle e di come la luce appariva sulle case è molto più potente di qualsiasi fotografia. Alcune cose sono fatte per essere sentite, non catturate."
+          },
           "align": "right"
         }
       ]
     },
     {
       "type": "closing-note",
-      "badge": "Doing as Being",
-      "title": "The Memory of Presence",
-      "content": "<p>In the end, the most meaningful moments in Riomaggiore are often the ones that were unplanned and unrecorded.</p><p>It is the way the salt felt on your skin after a swim, the sound of a neighbor's shutters opening in the morning, or the silence of the high paths at dusk. These are the moments that stay with you, long after the photos have been forgotten.</p><p>Give yourself permission to slow down. Trust your senses. The village is not a task to be completed, but a rhythm to be joined.</p>",
+      "badge": {
+        "en": "Doing as Being",
+        "de": "Tun als Sein",
+        "fr": "Faire comme Être",
+        "it": "Fare come Essere"
+      },
+      "title": {
+        "en": "The Memory of Presence",
+        "de": "Die Erinnerung an Präsenz",
+        "fr": "Le Souvenir de la Présence",
+        "it": "Il Ricordo della Presenza"
+      },
+      "content": {
+        "en": "<p>In the end, the most meaningful moments in Riomaggiore are often the ones that were unplanned and unrecorded.</p><p>It is the way the salt felt on your skin after a swim, the sound of a neighbor's shutters opening in the morning, or the silence of the high paths at dusk. These are the moments that stay with you, long after the photos have been forgotten.</p><p>Give yourself permission to slow down. Trust your senses. The village is not a task to be completed, but a rhythm to be joined.</p>",
+        "de": "<p>Am Ende sind die bedeutungsvollsten Momente in Riomaggiore oft die, die ungeplant und unaufgezeichnet waren.</p><p>Es ist die Art, wie sich das Salz auf Ihrer Haut nach dem Schwimmen anfühlte, der Klang der Fensterläden eines Nachbarn, die sich morgens öffnen, oder die Stille der Höhenwege in der Dämmerung. Das sind die Momente, die bei Ihnen bleiben, lange nachdem die Fotos vergessen sind.</p><p>Erlauben Sie sich, langsamer zu werden. Vertrauen Sie Ihren Sinnen. Das Dorf ist keine Aufgabe, die erledigt werden muss, sondern ein Rhythmus, dem man sich anschließt.</p>",
+        "fr": "<p>En fin de compte, les moments les plus significatifs à Riomaggiore sont souvent ceux qui n'étaient pas prévus et non enregistrés.</p><p>C'est la façon dont le sel se sentait sur votre peau après une baignade, le son des volets d'un voisin s'ouvrant le matin, ou le silence des sentiers hauts au crépuscule. Ce sont les moments qui restent avec vous, longtemps après que les photos ont été oubliées.</p><p>Permettez-vous de ralentir. Faites confiance à vos sens. Le village n'est pas une tâche à accomplir, mais un rythme auquel se joindre.</p>",
+        "it": "<p>Alla fine, i momenti più significativi a Riomaggiore sono spesso quelli non pianificati e non registrati.</p><p>È il modo in cui il sale si sentiva sulla pelle dopo una nuotata, il suono delle persiane di un vicino che si aprono la mattina, o il silenzio dei sentieri alti al crepuscolo. Questi sono i momenti che restano con voi, molto tempo dopo che le foto sono state dimenticate.</p><p>Datevi il permesso di rallentare. Fidatevi dei vostri sensi. Il borgo non è un compito da completare, ma un ritmo a cui unirsi.</p>"
+      },
       "actions": [
         {
-          "label": "Plan Your Journey",
+          "label": {
+            "en": "Plan Your Journey",
+            "de": "Planen Sie Ihre Reise",
+            "fr": "Planifiez Votre Voyage",
+            "it": "Pianifica il Tuo Viaggio"
+          },
           "href": "/itinerary",
           "variant": "primary"
         },
         {
-          "label": "Explore the Village",
+          "label": {
+            "en": "Explore the Village",
+            "de": "Das Dorf erkunden",
+            "fr": "Explorer le Village",
+            "it": "Esplora il Borgo"
+          },
           "href": "/village",
           "variant": "secondary"
         }
@@ -179,5 +558,5 @@
   },
   "status": "published",
   "created_at": "2025-01-05T00:00:00.000Z",
-  "updated_at": "2025-01-05T00:00:00.000Z"
+  "updated_at": "2026-01-08T00:00:00.000Z"
 }

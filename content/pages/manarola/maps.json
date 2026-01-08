@@ -2,41 +2,95 @@
   "id": "721b26ee-3c0d-49f4-9b15-32163a33ff9a",
   "slug": {
     "en": "/en/manarola/maps",
-    "de": "/de/manarola/maps",
-    "fr": "/fr/manarola/maps",
-    "it": "/it/manarola/maps"
+    "de": "/de/manarola/karte",
+    "fr": "/fr/manarola/carte",
+    "it": "/it/manarola/mappa"
   },
   "title": {
-    "en": "Navigating Manarola | Cinque Terre Dispatch"
+    "en": "Navigating Manarola | Cinque Terre Dispatch",
+    "de": "Manarola Entdecken | Cinque Terre Dispatch",
+    "fr": "Se Reperer a Manarola | Cinque Terre Dispatch",
+    "it": "Orientarsi a Manarola | Cinque Terre Dispatch"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Navigating Manarola | Cinque Terre Dispatch"
+      "en": "Navigating Manarola | Cinque Terre Dispatch",
+      "de": "Manarola Entdecken | Cinque Terre Dispatch",
+      "fr": "Se Reperer a Manarola | Cinque Terre Dispatch",
+      "it": "Orientarsi a Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The village of Manarola defies maps—a vertical maze of stairs, alleys, and passages that rewards exploration over navigation. Here's what you need to know to find your way."
+      "en": "The village of Manarola defies maps—a vertical maze of stairs, alleys, and passages that rewards exploration over navigation. Here's what you need to know to find your way.",
+      "de": "Das Dorf Manarola trotzt Karten—ein vertikales Labyrinth aus Treppen, Gassen und Durchgangen, das Erkundung uber Navigation belohnt. Hier ist, was Sie wissen mussen, um sich zurechtzufinden.",
+      "fr": "Le village de Manarola defie les cartes—un labyrinthe vertical d'escaliers, de ruelles et de passages qui recompense l'exploration plus que la navigation. Voici ce que vous devez savoir pour vous orienter.",
+      "it": "Il borgo di Manarola sfida le mappe—un labirinto verticale di scale, vicoli e passaggi che premia l'esplorazione piu della navigazione. Ecco cosa dovete sapere per orientarvi."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "A Village<br/>Without Streets",
-      "subtitle": "Manarola wasn't designed to be navigated—it was designed to be lived in. The medieval builders didn't think about tourists with maps. They thought about wine, fish, and defense. Understanding how to move through the village means understanding why it's shaped the way it is.",
-      "badge": "Navigation Guide",
+      "title": {
+        "en": "A Village<br/>Without Streets",
+        "de": "Ein Dorf<br/>Ohne Strassen",
+        "fr": "Un Village<br/>Sans Rues",
+        "it": "Un Borgo<br/>Senza Strade"
+      },
+      "subtitle": {
+        "en": "Manarola wasn't designed to be navigated—it was designed to be lived in. The medieval builders didn't think about tourists with maps. They thought about wine, fish, and defense. Understanding how to move through the village means understanding why it's shaped the way it is.",
+        "de": "Manarola wurde nicht fur die Navigation entworfen—es wurde zum Leben entworfen. Die mittelalterlichen Erbauer dachten nicht an Touristen mit Karten. Sie dachten an Wein, Fisch und Verteidigung. Zu verstehen, wie man sich durch das Dorf bewegt, bedeutet zu verstehen, warum es so geformt ist.",
+        "fr": "Manarola n'a pas ete concu pour etre parcouru—il a ete concu pour y vivre. Les batisseurs medievaux ne pensaient pas aux touristes avec des cartes. Ils pensaient au vin, au poisson et a la defense. Comprendre comment se deplacer dans le village signifie comprendre pourquoi il est forme ainsi.",
+        "it": "Manarola non e stata progettata per essere navigata—e stata progettata per viverci. I costruttori medievali non pensavano ai turisti con le mappe. Pensavano al vino, al pesce e alla difesa. Capire come muoversi nel borgo significa capire perche ha questa forma."
+      },
+      "badge": {
+        "en": "Navigation Guide",
+        "de": "Orientierungsguide",
+        "fr": "Guide d'Orientation",
+        "it": "Guida all'Orientamento"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Vertical Logic",
-      "quote": "GPS will fail you in Manarola. The narrow alleys confuse satellites. The vertical relationships defeat two-dimensional thinking. But if you understand the village's logic—how it was built and why—finding your way becomes intuitive.",
-      "content": [
-        "**The village is vertical, not horizontal**. Distances mean nothing here; elevation changes mean everything. What looks close on a map might be fifty stairs away. What looks far might be a quick descent. Think up and down, not left and right.",
-        "**There are three main levels**. The station sits at the top. The village center—church, main street, shops—sits in the middle. The harbor sits at the bottom. Everything connects through stairs and sloping passages.",
-        "**The main street is Via Birolli**. This road runs from the station area down through the village to the harbor. It's the spine that everything else connects to. If you're lost, find Via Birolli.",
-        "**The alleys have logic**. The narrow passages between buildings weren't random—they channel sea breezes upward, provide shade, and create defensible spaces. Follow them and you'll understand medieval urban design."
-      ]
+      "badge": {
+        "en": "The Vertical Logic",
+        "de": "Die Vertikale Logik",
+        "fr": "La Logique Verticale",
+        "it": "La Logica Verticale"
+      },
+      "quote": {
+        "en": "GPS will fail you in Manarola. The narrow alleys confuse satellites. The vertical relationships defeat two-dimensional thinking. But if you understand the village's logic—how it was built and why—finding your way becomes intuitive.",
+        "de": "GPS wird Sie in Manarola im Stich lassen. Die engen Gassen verwirren Satelliten. Die vertikalen Beziehungen besiegen zweidimensionales Denken. Aber wenn Sie die Logik des Dorfes verstehen—wie und warum es gebaut wurde—wird die Orientierung intuitiv.",
+        "fr": "Le GPS vous decevra a Manarola. Les ruelles etroites confondent les satellites. Les relations verticales defient la pensee bidimensionnelle. Mais si vous comprenez la logique du village—comment et pourquoi il a ete construit—trouver votre chemin devient intuitif.",
+        "it": "Il GPS vi deludera a Manarola. I vicoli stretti confondono i satelliti. Le relazioni verticali sconfiggono il pensiero bidimensionale. Ma se capite la logica del borgo—come e perche e stato costruito—orientarsi diventa intuitivo."
+      },
+      "content": {
+        "en": [
+          "**The village is vertical, not horizontal**. Distances mean nothing here; elevation changes mean everything. What looks close on a map might be fifty stairs away. What looks far might be a quick descent. Think up and down, not left and right.",
+          "**There are three main levels**. The station sits at the top. The village center—church, main street, shops—sits in the middle. The harbor sits at the bottom. Everything connects through stairs and sloping passages.",
+          "**The main street is Via Birolli**. This road runs from the station area down through the village to the harbor. It's the spine that everything else connects to. If you're lost, find Via Birolli.",
+          "**The alleys have logic**. The narrow passages between buildings weren't random—they channel sea breezes upward, provide shade, and create defensible spaces. Follow them and you'll understand medieval urban design."
+        ],
+        "de": [
+          "**Das Dorf ist vertikal, nicht horizontal**. Entfernungen bedeuten hier nichts; Hohenunterschiede bedeuten alles. Was auf einer Karte nah aussieht, konnte funfzig Stufen entfernt sein. Was weit aussieht, konnte ein schneller Abstieg sein. Denken Sie auf und ab, nicht links und rechts.",
+          "**Es gibt drei Hauptebenen**. Der Bahnhof liegt oben. Das Dorfzentrum—Kirche, Hauptstrasse, Geschafte—liegt in der Mitte. Der Hafen liegt unten. Alles verbindet sich durch Treppen und geneigte Durchgange.",
+          "**Die Hauptstrasse ist Via Birolli**. Diese Strasse verlauft vom Bahnhofsbereich durch das Dorf hinunter zum Hafen. Sie ist die Wirbelsaule, mit der alles andere verbunden ist. Wenn Sie sich verirrt haben, finden Sie die Via Birolli.",
+          "**Die Gassen haben Logik**. Die engen Durchgange zwischen Gebauden waren nicht zufallig—sie kanalisieren Meeresbrisen nach oben, spenden Schatten und schaffen verteidigungsfahige Raume. Folgen Sie ihnen und Sie werden mittelalterlichen Stadtebau verstehen."
+        ],
+        "fr": [
+          "**Le village est vertical, pas horizontal**. Les distances ne signifient rien ici ; les changements d'altitude signifient tout. Ce qui semble proche sur une carte peut etre a cinquante marches. Ce qui semble loin peut etre une descente rapide. Pensez haut et bas, pas gauche et droite.",
+          "**Il y a trois niveaux principaux**. La gare est en haut. Le centre du village—eglise, rue principale, boutiques—est au milieu. Le port est en bas. Tout se connecte par des escaliers et des passages en pente.",
+          "**La rue principale est Via Birolli**. Cette route va de la zone de la gare a travers le village jusqu'au port. C'est la colonne vertebrale a laquelle tout le reste se connecte. Si vous etes perdu, trouvez la Via Birolli.",
+          "**Les ruelles ont une logique**. Les passages etroits entre les batiments n'etaient pas aleatoires—ils canalisent les brises marines vers le haut, fournissent de l'ombre et creent des espaces defensifs. Suivez-les et vous comprendrez l'urbanisme medieval."
+        ],
+        "it": [
+          "**Il borgo e verticale, non orizzontale**. Le distanze non significano nulla qui; i cambiamenti di quota significano tutto. Quello che sembra vicino sulla mappa potrebbe essere a cinquanta gradini di distanza. Quello che sembra lontano potrebbe essere una rapida discesa. Pensate su e giu, non sinistra e destra.",
+          "**Ci sono tre livelli principali**. La stazione sta in alto. Il centro del borgo—chiesa, via principale, negozi—sta nel mezzo. Il porto sta in basso. Tutto si collega attraverso scale e passaggi in pendenza.",
+          "**La via principale e Via Birolli**. Questa strada va dalla zona della stazione attraverso il borgo fino al porto. E la spina dorsale a cui tutto il resto si collega. Se vi siete persi, trovate Via Birolli.",
+          "**I vicoli hanno una logica**. I passaggi stretti tra gli edifici non erano casuali—incanalano le brezze marine verso l'alto, forniscono ombra e creano spazi difendibili. Seguiteli e capirete l'urbanistica medievale."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "The Station Area",
-          "category": "Upper Village",
+          "name": {
+            "en": "The Station Area",
+            "de": "Der Bahnhofsbereich",
+            "fr": "La Zone de la Gare",
+            "it": "La Zona della Stazione"
+          },
+          "category": {
+            "en": "Upper Village",
+            "de": "Oberes Dorf",
+            "fr": "Village Haut",
+            "it": "Borgo Alto"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Where the train spits you out—the starting point for most visitors, connected to the village by tunnel and steps.",
-          "description": "The station platform sits inside the cliff. You exit through a tunnel that opens onto a small piazza. From here, you descend into the village proper via stairs or the main path. This area has a few accommodations and the start of the trail to Corniglia, but most village life happens below.",
-          "giuliaComment": "The station was carved into the mountain when the railway came. It's practical, not beautiful. Get through it quickly—the real village is down the hill. But note the departure board; you'll need it later.",
-          "signature": "Where arrival begins descent"
+          "intro": {
+            "en": "Where the train spits you out—the starting point for most visitors, connected to the village by tunnel and steps.",
+            "de": "Wo der Zug Sie ausspuckt—der Ausgangspunkt fur die meisten Besucher, durch Tunnel und Treppen mit dem Dorf verbunden.",
+            "fr": "Ou le train vous depose—le point de depart pour la plupart des visiteurs, relie au village par un tunnel et des marches.",
+            "it": "Dove il treno vi scarica—il punto di partenza per la maggior parte dei visitatori, collegato al borgo da tunnel e gradini."
+          },
+          "description": {
+            "en": "The station platform sits inside the cliff. You exit through a tunnel that opens onto a small piazza. From here, you descend into the village proper via stairs or the main path. This area has a few accommodations and the start of the trail to Corniglia, but most village life happens below.",
+            "de": "Der Bahnsteig liegt in der Klippe. Sie gehen durch einen Tunnel, der sich zu einer kleinen Piazza offnet. Von hier steigen Sie uber Treppen oder den Hauptweg ins eigentliche Dorf hinab. Dieser Bereich hat einige Unterkunfte und den Beginn des Weges nach Corniglia, aber das meiste Dorfleben findet unten statt.",
+            "fr": "Le quai de la gare se trouve dans la falaise. Vous sortez par un tunnel qui debouche sur une petite piazza. De la, vous descendez dans le village proprement dit par des escaliers ou le chemin principal. Cette zone a quelques hebergements et le debut du sentier vers Corniglia, mais la plupart de la vie du village se passe en bas.",
+            "it": "La banchina della stazione si trova dentro la scogliera. Uscite attraverso un tunnel che si apre su una piccola piazza. Da qui, scendete nel borgo vero e proprio tramite scale o il sentiero principale. Questa zona ha alcuni alloggi e l'inizio del sentiero per Corniglia, ma la maggior parte della vita del borgo avviene sotto."
+          },
+          "giuliaComment": {
+            "en": "The station was carved into the mountain when the railway came. It's practical, not beautiful. Get through it quickly—the real village is down the hill. But note the departure board; you'll need it later.",
+            "de": "Der Bahnhof wurde in den Berg gehauen, als die Eisenbahn kam. Er ist praktisch, nicht schon. Gehen Sie schnell durch—das echte Dorf ist den Hugel hinunter. Aber merken Sie sich die Abfahrtstafel; Sie werden sie spater brauchen.",
+            "fr": "La gare a ete creusee dans la montagne quand le chemin de fer est arrive. C'est pratique, pas beau. Passez rapidement—le vrai village est en bas de la colline. Mais notez le tableau des departs ; vous en aurez besoin plus tard.",
+            "it": "La stazione e stata scavata nella montagna quando e arrivata la ferrovia. E pratica, non bella. Passateci velocemente—il vero borgo e giu per la collina. Ma notate il tabellone delle partenze; vi servira dopo."
+          },
+          "signature": {
+            "en": "Where arrival begins descent",
+            "de": "Wo Ankunft den Abstieg beginnt",
+            "fr": "Ou l'arrivee commence la descente",
+            "it": "Dove l'arrivo inizia la discesa"
+          }
         },
         {
           "id": 2,
-          "name": "The Village Center",
-          "category": "Heart of Manarola",
+          "name": {
+            "en": "The Village Center",
+            "de": "Das Dorfzentrum",
+            "fr": "Le Centre du Village",
+            "it": "Il Centro del Borgo"
+          },
+          "category": {
+            "en": "Heart of Manarola",
+            "de": "Herz von Manarola",
+            "fr": "Coeur de Manarola",
+            "it": "Cuore di Manarola"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "San Lorenzo church, the main shops, the small piazza—where village life concentrates and visitors pass through.",
-          "description": "The church of San Lorenzo marks the center. Around it cluster the alimentari, the wine shops, the cafés where locals have morning coffee. Via Birolli runs through here, lined with small businesses serving both tourists and residents. The piazza offers the only flat ground in the village.",
-          "giuliaComment": "This is where I run into everyone I know. Morning coffee at the bar, quick shopping at the alimentari, checking in with neighbors. It's the village's living room. Tourists pass through; locals linger.",
-          "signature": "Where the village gathers"
+          "intro": {
+            "en": "San Lorenzo church, the main shops, the small piazza—where village life concentrates and visitors pass through.",
+            "de": "Die Kirche San Lorenzo, die Hauptgeschafte, die kleine Piazza—wo sich das Dorfleben konzentriert und Besucher durchkommen.",
+            "fr": "L'eglise San Lorenzo, les boutiques principales, la petite piazza—ou la vie du village se concentre et les visiteurs passent.",
+            "it": "La chiesa di San Lorenzo, i negozi principali, la piccola piazza—dove la vita del borgo si concentra e i visitatori passano."
+          },
+          "description": {
+            "en": "The church of San Lorenzo marks the center. Around it cluster the alimentari, the wine shops, the cafes where locals have morning coffee. Via Birolli runs through here, lined with small businesses serving both tourists and residents. The piazza offers the only flat ground in the village.",
+            "de": "Die Kirche San Lorenzo markiert das Zentrum. Um sie herum gruppieren sich der Alimentari, die Weingeschafte, die Cafes, wo Einheimische ihren Morgenkaffee trinken. Die Via Birolli verlauft hier durch, gesaumt von kleinen Geschaften, die sowohl Touristen als auch Einwohner bedienen. Die Piazza bietet den einzigen flachen Boden im Dorf.",
+            "fr": "L'eglise de San Lorenzo marque le centre. Autour d'elle se regroupent l'alimentari, les magasins de vin, les cafes ou les locaux prennent leur cafe du matin. La Via Birolli traverse ici, bordee de petits commerces servant touristes et residents. La piazza offre le seul terrain plat du village.",
+            "it": "La chiesa di San Lorenzo segna il centro. Intorno ad essa si raggruppano l'alimentari, le enoteche, i caffe dove i locali prendono il caffe mattutino. Via Birolli passa di qui, fiancheggiata da piccoli negozi che servono sia turisti che residenti. La piazza offre l'unico terreno pianeggiante del borgo."
+          },
+          "giuliaComment": {
+            "en": "This is where I run into everyone I know. Morning coffee at the bar, quick shopping at the alimentari, checking in with neighbors. It's the village's living room. Tourists pass through; locals linger.",
+            "de": "Hier treffe ich alle, die ich kenne. Morgenkaffee an der Bar, schnelles Einkaufen im Alimentari, Nachbarn treffen. Es ist das Wohnzimmer des Dorfes. Touristen gehen durch; Einheimische verweilen.",
+            "fr": "C'est la que je croise tout le monde que je connais. Cafe du matin au bar, courses rapides a l'alimentari, nouvelles des voisins. C'est le salon du village. Les touristes passent ; les locaux s'attardent.",
+            "it": "E qui che incontro tutti quelli che conosco. Caffe mattutino al bar, spesa veloce all'alimentari, salutare i vicini. E il salotto del borgo. I turisti passano; i locali si fermano."
+          },
+          "signature": {
+            "en": "Where the village gathers",
+            "de": "Wo das Dorf sich trifft",
+            "fr": "Ou le village se rassemble",
+            "it": "Dove il borgo si riunisce"
+          }
         },
         {
           "id": 3,
-          "name": "The Harbor",
-          "category": "The Waterfront",
+          "name": {
+            "en": "The Harbor",
+            "de": "Der Hafen",
+            "fr": "Le Port",
+            "it": "Il Porto"
+          },
+          "category": {
+            "en": "The Waterfront",
+            "de": "Die Hafenfront",
+            "fr": "Le Front de Mer",
+            "it": "Il Lungomare"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The famous view, the swimming rocks, the boat ramp—where the village meets the sea and photographers congregate.",
-          "description": "The harbor is tiny—a concrete ramp, some rocks, a few moored boats. This is where the famous photograph happens, where people swim, where boats depart for tours. It gets extremely crowded at sunset. The rocks around the harbor provide swimming access and sunning spots.",
-          "giuliaComment": "The harbor was working infrastructure for centuries—boats launched here, fish landed here. Now it's mostly a stage for photographs. I still swim here at 7am when it's empty, which is how the harbor should be experienced.",
-          "signature": "Where the village ends"
+          "intro": {
+            "en": "The famous view, the swimming rocks, the boat ramp—where the village meets the sea and photographers congregate.",
+            "de": "Die beruhmte Aussicht, die Schwimmfelsen, die Bootsrampe—wo das Dorf auf das Meer trifft und Fotografen sich versammeln.",
+            "fr": "La vue celebre, les rochers pour nager, la rampe a bateaux—ou le village rencontre la mer et les photographes se rassemblent.",
+            "it": "La vista famosa, le rocce per nuotare, la rampa per le barche—dove il borgo incontra il mare e i fotografi si radunano."
+          },
+          "description": {
+            "en": "The harbor is tiny—a concrete ramp, some rocks, a few moored boats. This is where the famous photograph happens, where people swim, where boats depart for tours. It gets extremely crowded at sunset. The rocks around the harbor provide swimming access and sunning spots.",
+            "de": "Der Hafen ist winzig—eine Betonrampe, einige Felsen, ein paar vertaute Boote. Hier entsteht das beruhmte Foto, hier schwimmen die Leute, hier starten Boote zu Touren. Bei Sonnenuntergang wird es extrem uberlaufen. Die Felsen um den Hafen bieten Schwimmzugang und Sonnenplatze.",
+            "fr": "Le port est minuscule—une rampe en beton, quelques rochers, quelques bateaux amarres. C'est la que la photo celebre se prend, ou les gens nagent, ou les bateaux partent pour des excursions. Il devient extremement bonde au coucher du soleil. Les rochers autour du port offrent un acces a la baignade et des coins pour bronzer.",
+            "it": "Il porto e minuscolo—una rampa di cemento, alcune rocce, poche barche ormeggiate. E qui che si scatta la foto famosa, dove la gente nuota, dove le barche partono per i tour. Diventa estremamente affollato al tramonto. Le rocce intorno al porto offrono accesso per nuotare e posti per prendere il sole."
+          },
+          "giuliaComment": {
+            "en": "The harbor was working infrastructure for centuries—boats launched here, fish landed here. Now it's mostly a stage for photographs. I still swim here at 7am when it's empty, which is how the harbor should be experienced.",
+            "de": "Der Hafen war jahrhundertelang Arbeitsinfrastruktur—hier wurden Boote zu Wasser gelassen, hier landete Fisch. Jetzt ist es hauptsachlich eine Buhne fur Fotografien. Ich schwimme immer noch um 7 Uhr morgens hier, wenn er leer ist, und so sollte der Hafen erlebt werden.",
+            "fr": "Le port a ete une infrastructure de travail pendant des siecles—les bateaux etaient lances ici, le poisson debarquait ici. Maintenant c'est surtout une scene pour les photos. Je nage encore ici a 7h du matin quand c'est vide, ce qui est la facon dont le port devrait etre vecu.",
+            "it": "Il porto e stato un'infrastruttura di lavoro per secoli—qui si varavano le barche, qui sbarcava il pesce. Ora e principalmente un palcoscenico per le fotografie. Nuoto ancora qui alle 7 del mattino quando e vuoto, ed e cosi che il porto dovrebbe essere vissuto."
+          },
+          "signature": {
+            "en": "Where the village ends",
+            "de": "Wo das Dorf endet",
+            "fr": "Ou le village finit",
+            "it": "Dove il borgo finisce"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Upper Village Secret",
-          "quote": "Most tourists descend from the station and never climb back up beyond Via Birolli. But above the main street, the village continues—quieter streets, gardens with views, the cemetery that overlooks the sea. This upper village is where residents actually live. It rewards exploration."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Upper Village Secret",
+            "de": "Das Geheimnis des Oberen Dorfes",
+            "fr": "Le Secret du Village Haut",
+            "it": "Il Segreto del Borgo Alto"
+          },
+          "quote": {
+            "en": "Most tourists descend from the station and never climb back up beyond Via Birolli. But above the main street, the village continues—quieter streets, gardens with views, the cemetery that overlooks the sea. This upper village is where residents actually live. It rewards exploration.",
+            "de": "Die meisten Touristen steigen vom Bahnhof ab und klettern nie uber die Via Birolli hinaus. Aber uber der Hauptstrasse geht das Dorf weiter—ruhigere Strassen, Garten mit Aussicht, der Friedhof, der aufs Meer blickt. Dieses obere Dorf ist, wo die Einwohner tatsachlich leben. Es belohnt Erkundung.",
+            "fr": "La plupart des touristes descendent de la gare et ne remontent jamais au-dela de la Via Birolli. Mais au-dessus de la rue principale, le village continue—des rues plus calmes, des jardins avec vue, le cimetiere qui domine la mer. Ce village haut est ou les residents vivent vraiment. Il recompense l'exploration.",
+            "it": "La maggior parte dei turisti scende dalla stazione e non risale mai oltre Via Birolli. Ma sopra la via principale, il borgo continua—strade piu tranquille, giardini con vista, il cimitero che domina il mare. Questo borgo alto e dove i residenti vivono davvero. Ricompensa l'esplorazione."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Key Routes",
-      "quote": "You don't need a detailed map of Manarola—you need to understand the main routes and let the village reveal itself from there.",
-      "content": [
-        "**Station to Harbor**: Via Birolli, the main descent. Five minutes without luggage, ten with. The most direct route, the most crowded.",
-        "**Station to Trail (Corniglia)**: Turn right from the station area, follow signs. The Sentiero Azzurro departs toward Corniglia from here.",
-        "**Harbor to Viewpoint**: Follow the path past the swimming rocks toward the promontory. This is where the famous photograph is taken.",
-        "**Via dell'Amore start**: From the harbor area, follow signs toward Riomaggiore. Note: this trail remains mostly closed due to ongoing repairs."
-      ]
+      "badge": {
+        "en": "Key Routes",
+        "de": "Wichtige Routen",
+        "fr": "Itineraires Cles",
+        "it": "Percorsi Chiave"
+      },
+      "quote": {
+        "en": "You don't need a detailed map of Manarola—you need to understand the main routes and let the village reveal itself from there.",
+        "de": "Sie brauchen keine detaillierte Karte von Manarola—Sie mussen die Hauptrouten verstehen und das Dorf sich von dort aus enthullen lassen.",
+        "fr": "Vous n'avez pas besoin d'une carte detaillee de Manarola—vous devez comprendre les itineraires principaux et laisser le village se reveler a partir de la.",
+        "it": "Non avete bisogno di una mappa dettagliata di Manarola—dovete capire i percorsi principali e lasciare che il borgo si riveli da li."
+      },
+      "content": {
+        "en": [
+          "**Station to Harbor**: Via Birolli, the main descent. Five minutes without luggage, ten with. The most direct route, the most crowded.",
+          "**Station to Trail (Corniglia)**: Turn right from the station area, follow signs. The Sentiero Azzurro departs toward Corniglia from here.",
+          "**Harbor to Viewpoint**: Follow the path past the swimming rocks toward the promontory. This is where the famous photograph is taken.",
+          "**Via dell'Amore start**: From the harbor area, follow signs toward Riomaggiore. Note: this trail remains mostly closed due to ongoing repairs."
+        ],
+        "de": [
+          "**Bahnhof zum Hafen**: Via Birolli, der Hauptabstieg. Funf Minuten ohne Gepack, zehn mit. Die direkteste Route, die uberlaufenste.",
+          "**Bahnhof zum Wanderweg (Corniglia)**: Rechts vom Bahnhofsbereich abbiegen, Schildern folgen. Der Sentiero Azzurro startet hier Richtung Corniglia.",
+          "**Hafen zum Aussichtspunkt**: Dem Weg an den Schwimmfelsen vorbei zum Vorgebirge folgen. Hier wird das beruhmte Foto gemacht.",
+          "**Start der Via dell'Amore**: Vom Hafenbereich den Schildern Richtung Riomaggiore folgen. Hinweis: Dieser Weg ist wegen laufender Reparaturen grosstenteils geschlossen."
+        ],
+        "fr": [
+          "**Gare au Port**: Via Birolli, la descente principale. Cinq minutes sans bagages, dix avec. L'itineraire le plus direct, le plus frequente.",
+          "**Gare au Sentier (Corniglia)**: Tournez a droite depuis la zone de la gare, suivez les panneaux. Le Sentiero Azzurro part vers Corniglia d'ici.",
+          "**Port au Point de Vue**: Suivez le chemin apres les rochers de baignade vers le promontoire. C'est la que la photo celebre est prise.",
+          "**Depart de la Via dell'Amore**: Depuis la zone du port, suivez les panneaux vers Riomaggiore. Note : ce sentier reste principalement ferme en raison de reparations en cours."
+        ],
+        "it": [
+          "**Stazione al Porto**: Via Birolli, la discesa principale. Cinque minuti senza bagagli, dieci con. Il percorso piu diretto, il piu affollato.",
+          "**Stazione al Sentiero (Corniglia)**: Girare a destra dalla zona della stazione, seguire i cartelli. Il Sentiero Azzurro parte verso Corniglia da qui.",
+          "**Porto al Punto Panoramico**: Seguire il sentiero oltre le rocce per nuotare verso il promontorio. E qui che si scatta la famosa fotografia.",
+          "**Inizio della Via dell'Amore**: Dalla zona del porto, seguire i cartelli verso Riomaggiore. Nota: questo sentiero rimane per lo piu chiuso per lavori di riparazione in corso."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "The Stairs Reality",
-          "category": "Practical Navigation",
+          "name": {
+            "en": "The Stairs Reality",
+            "de": "Die Treppen-Realitat",
+            "fr": "La Realite des Escaliers",
+            "it": "La Realta delle Scale"
+          },
+          "category": {
+            "en": "Practical Navigation",
+            "de": "Praktische Orientierung",
+            "fr": "Navigation Pratique",
+            "it": "Navigazione Pratica"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Stairs are how the village moves. Accept them or struggle against them—but you cannot avoid them.",
-          "description": "Shortcuts in Manarola usually mean more stairs, not fewer. The narrow passages between buildings often involve steps. Reaching accommodations almost always means climbing. Coming and going with luggage will involve wrestling bags up and down stone steps. This is the reality.",
-          "giuliaComment": "I've lived here my whole life, and I climb stairs dozens of times daily. My legs are strong; visitors' legs are usually not. Allow more time than you think, rest when needed, and accept that elevation is part of being here.",
-          "signature": "When steps become life"
+          "intro": {
+            "en": "Stairs are how the village moves. Accept them or struggle against them—but you cannot avoid them.",
+            "de": "Treppen sind, wie sich das Dorf bewegt. Akzeptieren Sie sie oder kampfen Sie dagegen—aber Sie konnen sie nicht vermeiden.",
+            "fr": "Les escaliers sont la facon dont le village se deplace. Acceptez-les ou luttez contre eux—mais vous ne pouvez pas les eviter.",
+            "it": "Le scale sono come si muove il borgo. Accettatele o lottateci contro—ma non potete evitarle."
+          },
+          "description": {
+            "en": "Shortcuts in Manarola usually mean more stairs, not fewer. The narrow passages between buildings often involve steps. Reaching accommodations almost always means climbing. Coming and going with luggage will involve wrestling bags up and down stone steps. This is the reality.",
+            "de": "Abkurzungen in Manarola bedeuten normalerweise mehr Treppen, nicht weniger. Die engen Durchgange zwischen Gebauden beinhalten oft Stufen. Unterkunfte zu erreichen bedeutet fast immer Klettern. An- und Abreise mit Gepack bedeutet, Taschen uber Steinstufen hoch und runter zu schleppen. Das ist die Realitat.",
+            "fr": "Les raccourcis a Manarola signifient generalement plus d'escaliers, pas moins. Les passages etroits entre les batiments impliquent souvent des marches. Atteindre les hebergements signifie presque toujours grimper. Aller et venir avec des bagages impliquera de trainer des sacs sur des marches en pierre. C'est la realite.",
+            "it": "Le scorciatoie a Manarola di solito significano piu scale, non meno. I passaggi stretti tra gli edifici spesso comportano gradini. Raggiungere gli alloggi significa quasi sempre arrampicarsi. Andare e venire con i bagagli comportera trascinare valigie su e giu per gradini di pietra. Questa e la realta."
+          },
+          "giuliaComment": {
+            "en": "I've lived here my whole life, and I climb stairs dozens of times daily. My legs are strong; visitors' legs are usually not. Allow more time than you think, rest when needed, and accept that elevation is part of being here.",
+            "de": "Ich habe mein ganzes Leben hier verbracht und steige taglich Dutzende Male Treppen. Meine Beine sind stark; die der Besucher normalerweise nicht. Planen Sie mehr Zeit ein als Sie denken, ruhen Sie sich bei Bedarf aus und akzeptieren Sie, dass Hohenunterschied Teil des Hierseins ist.",
+            "fr": "J'ai vecu ici toute ma vie, et je monte des escaliers des dizaines de fois par jour. Mes jambes sont fortes ; celles des visiteurs ne le sont generalement pas. Prevoyez plus de temps que vous ne pensez, reposez-vous si necessaire, et acceptez que l'elevation fait partie d'etre ici.",
+            "it": "Ho vissuto qui tutta la mia vita, e salgo le scale decine di volte al giorno. Le mie gambe sono forti; quelle dei visitatori di solito no. Prevedete piu tempo di quanto pensiate, riposatevi quando necessario, e accettate che il dislivello fa parte dell'essere qui."
+          },
+          "signature": {
+            "en": "When steps become life",
+            "de": "Wenn Stufen zum Leben werden",
+            "fr": "Quand les marches deviennent la vie",
+            "it": "Quando i gradini diventano vita"
+          }
         },
         {
           "id": 5,
-          "name": "Getting Lost Intentionally",
-          "category": "Exploration Strategy",
+          "name": {
+            "en": "Getting Lost Intentionally",
+            "de": "Sich Absichtlich Verirren",
+            "fr": "Se Perdre Intentionnellement",
+            "it": "Perdersi Intenzionalmente"
+          },
+          "category": {
+            "en": "Exploration Strategy",
+            "de": "Erkundungsstrategie",
+            "fr": "Strategie d'Exploration",
+            "it": "Strategia di Esplorazione"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The best way to know Manarola is to wander without purpose—every alley leads somewhere interesting.",
-          "description": "Put away the phone. Choose an alley and follow it. Climb stairs that look promising. The village is small enough that you cannot get truly lost—Via Birolli is always findable, the sea is always visible below. The alleys reveal details that planned routes miss: carved doorways, garden glimpses, unexpected views.",
-          "giuliaComment": "When friends visit, I tell them: wander first, map later. The village reveals itself to those who explore without destination. You'll find the main sites eventually. But you'll only find the hidden corners if you let yourself discover them.",
-          "signature": "When wandering becomes discovery"
+          "intro": {
+            "en": "The best way to know Manarola is to wander without purpose—every alley leads somewhere interesting.",
+            "de": "Der beste Weg, Manarola kennenzulernen, ist, ziellos zu wandern—jede Gasse fuhrt irgendwo Interessantes hin.",
+            "fr": "La meilleure facon de connaitre Manarola est de flaner sans but—chaque ruelle mene quelque part d'interessant.",
+            "it": "Il modo migliore per conoscere Manarola e vagare senza scopo—ogni vicolo porta da qualche parte di interessante."
+          },
+          "description": {
+            "en": "Put away the phone. Choose an alley and follow it. Climb stairs that look promising. The village is small enough that you cannot get truly lost—Via Birolli is always findable, the sea is always visible below. The alleys reveal details that planned routes miss: carved doorways, garden glimpses, unexpected views.",
+            "de": "Legen Sie das Handy weg. Wahlen Sie eine Gasse und folgen Sie ihr. Steigen Sie vielversprechende Treppen hinauf. Das Dorf ist klein genug, dass Sie sich nicht wirklich verirren konnen—die Via Birolli ist immer zu finden, das Meer ist unten immer sichtbar. Die Gassen enthullen Details, die geplante Routen verpassen: geschnitzte Turrahmen, Gartenblicke, unerwartete Aussichten.",
+            "fr": "Rangez le telephone. Choisissez une ruelle et suivez-la. Montez des escaliers qui semblent prometteurs. Le village est assez petit pour que vous ne puissiez pas vraiment vous perdre—la Via Birolli est toujours trouvable, la mer est toujours visible en bas. Les ruelles revelent des details que les itineraires planifies manquent : des encadrements de porte sculptes, des aperçus de jardins, des vues inattendues.",
+            "it": "Mettete via il telefono. Scegliete un vicolo e seguitelo. Salite scale che sembrano promettenti. Il borgo e abbastanza piccolo che non potete perdervi veramente—Via Birolli e sempre trovabile, il mare e sempre visibile sotto. I vicoli rivelano dettagli che i percorsi pianificati perdono: portali scolpiti, scorci di giardini, viste inaspettate."
+          },
+          "giuliaComment": {
+            "en": "When friends visit, I tell them: wander first, map later. The village reveals itself to those who explore without destination. You'll find the main sites eventually. But you'll only find the hidden corners if you let yourself discover them.",
+            "de": "Wenn Freunde zu Besuch kommen, sage ich ihnen: erst wandern, dann Karte. Das Dorf enthullt sich denen, die ohne Ziel erkunden. Die Hauptsehenswurdigkeiten finden Sie schliesslich. Aber die versteckten Ecken finden Sie nur, wenn Sie sich erlauben, sie zu entdecken.",
+            "fr": "Quand des amis visitent, je leur dis : flanez d'abord, carte apres. Le village se revele a ceux qui explorent sans destination. Vous trouverez les sites principaux eventuellement. Mais vous ne trouverez les coins caches que si vous vous laissez les decouvrir.",
+            "it": "Quando gli amici vengono a trovarmi, dico loro: vagate prima, mappa dopo. Il borgo si rivela a chi esplora senza destinazione. Troverete i siti principali alla fine. Ma troverete gli angoli nascosti solo se vi permetterete di scoprirli."
+          },
+          "signature": {
+            "en": "When wandering becomes discovery",
+            "de": "Wenn Wandern zur Entdeckung wird",
+            "fr": "Quand flaner devient decouverte",
+            "it": "Quando vagare diventa scoperta"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Timing Navigation",
-          "quote": "Where you can go depends on when you go. The harbor is packed at sunset but empty at dawn. The main street is a bottleneck at midday but peaceful at 7am. Navigation in Manarola is as much about timing as about routes."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Timing Navigation",
+            "de": "Die Zeitliche Navigation",
+            "fr": "La Navigation Temporelle",
+            "it": "La Navigazione Temporale"
+          },
+          "quote": {
+            "en": "Where you can go depends on when you go. The harbor is packed at sunset but empty at dawn. The main street is a bottleneck at midday but peaceful at 7am. Navigation in Manarola is as much about timing as about routes.",
+            "de": "Wohin Sie gehen konnen, hangt davon ab, wann Sie gehen. Der Hafen ist bei Sonnenuntergang uberlaufen, aber bei Morgengrauen leer. Die Hauptstrasse ist mittags ein Engpass, aber um 7 Uhr morgens friedlich. Navigation in Manarola geht genauso um Timing wie um Routen.",
+            "fr": "Ou vous pouvez aller depend de quand vous y allez. Le port est bonde au coucher du soleil mais vide a l'aube. La rue principale est un goulot d'etranglement a midi mais paisible a 7h. La navigation a Manarola est autant une question de timing que d'itineraires.",
+            "it": "Dove potete andare dipende da quando andate. Il porto e affollato al tramonto ma vuoto all'alba. La via principale e un collo di bottiglia a mezzogiorno ma tranquilla alle 7 di mattina. La navigazione a Manarola riguarda tanto il tempismo quanto i percorsi."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Map Is Not the Territory",
-      "content": [
-        "No map captures Manarola accurately. The two-dimensional representation cannot convey the vertical relationships, the narrow passages, the way light and crowd patterns change through the day.",
-        "The best navigation tool is attention. Notice where locals walk. Notice which paths are crowded and which are empty. Notice the stairs that seem to lead nowhere interesting—they often lead somewhere wonderful.",
-        "Learn three things: how to get from station to harbor, how to find your accommodation, and how to return to the station. Everything else will reveal itself through exploration."
-      ],
+      "title": {
+        "en": "The Map Is Not the Territory",
+        "de": "Die Karte Ist Nicht das Gebiet",
+        "fr": "La Carte N'est Pas le Territoire",
+        "it": "La Mappa Non e il Territorio"
+      },
+      "content": {
+        "en": [
+          "No map captures Manarola accurately. The two-dimensional representation cannot convey the vertical relationships, the narrow passages, the way light and crowd patterns change through the day.",
+          "The best navigation tool is attention. Notice where locals walk. Notice which paths are crowded and which are empty. Notice the stairs that seem to lead nowhere interesting—they often lead somewhere wonderful.",
+          "Learn three things: how to get from station to harbor, how to find your accommodation, and how to return to the station. Everything else will reveal itself through exploration."
+        ],
+        "de": [
+          "Keine Karte erfasst Manarola genau. Die zweidimensionale Darstellung kann die vertikalen Beziehungen, die engen Durchgange, die Art, wie Licht und Menschenmengen sich im Laufe des Tages andern, nicht vermitteln.",
+          "Das beste Navigationswerkzeug ist Aufmerksamkeit. Beachten Sie, wo Einheimische gehen. Beachten Sie, welche Wege uberlaufen und welche leer sind. Beachten Sie die Treppen, die nirgendwo Interessantes hinzufuhren scheinen—sie fuhren oft irgendwo Wunderbares hin.",
+          "Lernen Sie drei Dinge: wie Sie vom Bahnhof zum Hafen kommen, wie Sie Ihre Unterkunft finden und wie Sie zum Bahnhof zuruckkehren. Alles andere wird sich durch Erkundung enthullen."
+        ],
+        "fr": [
+          "Aucune carte ne capture Manarola avec precision. La representation bidimensionnelle ne peut pas transmettre les relations verticales, les passages etroits, la facon dont la lumiere et les schemas de foule changent au cours de la journee.",
+          "Le meilleur outil de navigation est l'attention. Remarquez ou les locaux marchent. Remarquez quels chemins sont bondes et lesquels sont vides. Remarquez les escaliers qui semblent ne mener nulle part d'interessant—ils menent souvent quelque part de merveilleux.",
+          "Apprenez trois choses : comment aller de la gare au port, comment trouver votre hebergement, et comment retourner a la gare. Tout le reste se revelera par l'exploration."
+        ],
+        "it": [
+          "Nessuna mappa cattura Manarola con precisione. La rappresentazione bidimensionale non puo trasmettere le relazioni verticali, i passaggi stretti, il modo in cui la luce e i flussi di folla cambiano durante il giorno.",
+          "Il miglior strumento di navigazione e l'attenzione. Notate dove camminano i locali. Notate quali sentieri sono affollati e quali sono vuoti. Notate le scale che sembrano non portare da nessuna parte di interessante—spesso portano da qualche parte di meraviglioso.",
+          "Imparate tre cose: come arrivare dalla stazione al porto, come trovare il vostro alloggio e come tornare alla stazione. Tutto il resto si rivelera attraverso l'esplorazione."
+        ]
+      },
       "buttons": [
-        { "text": "Getting Here", "url": "/en/manarola/getting-here", "variant": "primary" },
-        { "text": "Things to Do", "url": "/en/manarola/things-to-do", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Comment Venir",
+            "it": "Come Arrivare"
+          },
+          "url": {
+            "en": "/en/manarola/getting-here",
+            "de": "/de/manarola/anreise",
+            "fr": "/fr/manarola/comment-venir",
+            "it": "/it/manarola/come-arrivare"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Things to Do",
+            "de": "Aktivitaten",
+            "fr": "Que Faire",
+            "it": "Cosa Fare"
+          },
+          "url": {
+            "en": "/en/manarola/things-to-do",
+            "de": "/de/manarola/aktivitaeten",
+            "fr": "/fr/manarola/que-faire",
+            "it": "/it/manarola/cosa-fare"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:45:00.000Z"
+  "updated_at": "2026-01-07T19:00:00.000Z"
 }

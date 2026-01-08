@@ -7,36 +7,90 @@
     "it": "/it/riomaggiore/apartments"
   },
   "title": {
-    "en": "Apartments in Riomaggiore | Cinque Terre Dispatch"
+    "en": "Apartments in Riomaggiore | Cinque Terre Dispatch",
+    "de": "Ferienwohnungen in Riomaggiore | Cinque Terre Dispatch",
+    "fr": "Appartements a Riomaggiore | Cinque Terre Dispatch",
+    "it": "Appartamenti a Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "apartments",
   "seo": {
     "title": {
-      "en": "Apartments in Riomaggiore | Cinque Terre Dispatch"
+      "en": "Apartments in Riomaggiore | Cinque Terre Dispatch",
+      "de": "Ferienwohnungen in Riomaggiore | Cinque Terre Dispatch",
+      "fr": "Appartements a Riomaggiore | Cinque Terre Dispatch",
+      "it": "Appartamenti a Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "An apartment in Riomaggiore is not a hotel room with a kitchen. It's a chance to live inside the village—to shop at the local market, cook with Ligurian ingredients, and feel the rhythm of a place."
+      "en": "An apartment in Riomaggiore is not a hotel room with a kitchen. It's a chance to live inside the village—to shop at the local market, cook with Ligurian ingredients, and feel the rhythm of a place.",
+      "de": "Eine Ferienwohnung in Riomaggiore ist kein Hotelzimmer mit Kuche. Es ist die Chance, im Dorf zu leben—auf dem lokalen Markt einzukaufen, mit ligurischen Zutaten zu kochen und den Rhythmus eines Ortes zu spuren.",
+      "fr": "Un appartement a Riomaggiore n'est pas une chambre d'hotel avec cuisine. C'est l'occasion de vivre dans le village—faire ses courses au marche local, cuisiner avec des ingredients liguriens et ressentir le rythme d'un lieu.",
+      "it": "Un appartamento a Riomaggiore non e una camera d'albergo con cucina. E l'opportunita di vivere nel borgo—fare la spesa al mercato locale, cucinare con ingredienti liguri e sentire il ritmo di un luogo."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Living Here,<br/>Not Visiting",
-      "subtitle": "An apartment in Riomaggiore transforms your trip from tourism to temporary residency. You stop being a visitor and start being a neighbor—shopping at the market, nodding at familiar faces, cooking dinner while the light changes on the harbor.",
-      "badge": "Apartment Rentals",
+      "title": {
+        "en": "Living Here,<br/>Not Visiting",
+        "de": "Hier leben,<br/>nicht besuchen",
+        "fr": "Vivre ici,<br/>pas visiter",
+        "it": "Vivere qui,<br/>non visitare"
+      },
+      "subtitle": {
+        "en": "An apartment in Riomaggiore transforms your trip from tourism to temporary residency. You stop being a visitor and start being a neighbor—shopping at the market, nodding at familiar faces, cooking dinner while the light changes on the harbor.",
+        "de": "Eine Ferienwohnung in Riomaggiore verwandelt Ihre Reise vom Tourismus zur vorubergehenden Residenz. Sie horen auf, Besucher zu sein und werden zum Nachbarn—einkaufen auf dem Markt, bekannten Gesichtern zunicken, Abendessen kochen, wahrend das Licht uber dem Hafen wechselt.",
+        "fr": "Un appartement a Riomaggiore transforme votre voyage du tourisme en residence temporaire. Vous cessez d'etre un visiteur et devenez un voisin—faire ses courses au marche, saluer les visages familiers, preparer le diner tandis que la lumiere change sur le port.",
+        "it": "Un appartamento a Riomaggiore trasforma il vostro viaggio da turismo a residenza temporanea. Smettete di essere visitatori e diventate vicini—fare la spesa al mercato, salutare i volti familiari, preparare la cena mentre la luce cambia sul porto."
+      },
+      "badge": {
+        "en": "Apartment Rentals",
+        "de": "Ferienwohnungen",
+        "fr": "Locations d'Appartements",
+        "it": "Affitto Appartamenti"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Case for Apartments",
-      "quote": "Hotels exist to serve you. Apartments exist to house you. The difference matters. In an apartment, you become responsible for yourself—and that responsibility is freedom.",
-      "content": [
-        "**Space changes experience**. A separate bedroom, a kitchen, a table for morning coffee—these aren't luxuries, they're the infrastructure of comfortable extended stays. You can retreat. You can spread out. You can be at home.",
-        "**Cooking is connection**. The village market sells vegetables from the terraces above, fish from the morning catch, wine from local cellars. Cooking these ingredients in a Riomaggiore kitchen is not just eating—it's participation.",
-        "**Cost structures differ**. Apartments often cost less per night than hotels, especially for longer stays. But the real savings come from meals at home, from coffee on your terrace instead of at a café, from the freedom to decide what each day requires.",
-        "**Independence has value**. No hotel breakfast schedule. No cleaning service interruptions. No lobby to navigate. Just your keys, your space, and your time."
-      ]
+      "badge": {
+        "en": "The Case for Apartments",
+        "de": "Argumente fur Ferienwohnungen",
+        "fr": "L'Argument pour les Appartements",
+        "it": "A Favore degli Appartamenti"
+      },
+      "quote": {
+        "en": "Hotels exist to serve you. Apartments exist to house you. The difference matters. In an apartment, you become responsible for yourself—and that responsibility is freedom.",
+        "de": "Hotels existieren, um Sie zu bedienen. Ferienwohnungen existieren, um Sie zu beherbergen. Der Unterschied ist wichtig. In einer Wohnung werden Sie fur sich selbst verantwortlich—und diese Verantwortung ist Freiheit.",
+        "fr": "Les hotels existent pour vous servir. Les appartements existent pour vous loger. La difference compte. Dans un appartement, vous devenez responsable de vous-meme—et cette responsabilite est la liberte.",
+        "it": "Gli hotel esistono per servirvi. Gli appartamenti esistono per ospitarvi. La differenza conta. In un appartamento, diventate responsabili di voi stessi—e quella responsabilita e liberta."
+      },
+      "content": {
+        "en": [
+          "**Space changes experience**. A separate bedroom, a kitchen, a table for morning coffee—these aren't luxuries, they're the infrastructure of comfortable extended stays. You can retreat. You can spread out. You can be at home.",
+          "**Cooking is connection**. The village market sells vegetables from the terraces above, fish from the morning catch, wine from local cellars. Cooking these ingredients in a Riomaggiore kitchen is not just eating—it's participation.",
+          "**Cost structures differ**. Apartments often cost less per night than hotels, especially for longer stays. But the real savings come from meals at home, from coffee on your terrace instead of at a cafe, from the freedom to decide what each day requires.",
+          "**Independence has value**. No hotel breakfast schedule. No cleaning service interruptions. No lobby to navigate. Just your keys, your space, and your time."
+        ],
+        "de": [
+          "**Raum verandert Erfahrung**. Ein separates Schlafzimmer, eine Kuche, ein Tisch fur den Morgenkaffee—das sind keine Luxusguter, sondern die Infrastruktur fur komfortable langere Aufenthalte. Sie konnen sich zuruckziehen. Sie konnen sich ausbreiten. Sie konnen zu Hause sein.",
+          "**Kochen ist Verbindung**. Der Dorfmarkt verkauft Gemuse von den Terrassen daruber, Fisch vom Morgenfang, Wein aus lokalen Kellern. Diese Zutaten in einer Riomaggiore-Kuche zu kochen ist nicht nur Essen—es ist Teilnahme.",
+          "**Kostenstrukturen unterscheiden sich**. Ferienwohnungen kosten oft weniger pro Nacht als Hotels, besonders bei langeren Aufenthalten. Aber die echten Ersparnisse kommen von Mahlzeiten zu Hause, vom Kaffee auf Ihrer Terrasse statt im Cafe, von der Freiheit zu entscheiden, was jeder Tag erfordert.",
+          "**Unabhangigkeit hat Wert**. Kein Hotel-Fruhstuckszeitplan. Keine Unterbrechungen durch den Reinigungsservice. Keine Lobby zum Durchqueren. Nur Ihre Schlussel, Ihr Raum und Ihre Zeit."
+        ],
+        "fr": [
+          "**L'espace change l'experience**. Une chambre separee, une cuisine, une table pour le cafe du matin—ce ne sont pas des luxes, c'est l'infrastructure des sejours prolonges confortables. Vous pouvez vous retirer. Vous pouvez vous etaler. Vous pouvez etre chez vous.",
+          "**Cuisiner, c'est se connecter**. Le marche du village vend des legumes des terrasses au-dessus, du poisson de la peche du matin, du vin des caves locales. Cuisiner ces ingredients dans une cuisine de Riomaggiore, ce n'est pas seulement manger—c'est participer.",
+          "**Les structures de couts different**. Les appartements coutent souvent moins cher par nuit que les hotels, surtout pour les sejours prolonges. Mais les vraies economies viennent des repas a la maison, du cafe sur votre terrasse au lieu du cafe, de la liberte de decider ce que chaque jour necessite.",
+          "**L'independance a de la valeur**. Pas d'horaire de petit-dejeuner d'hotel. Pas d'interruptions du service de menage. Pas de hall a traverser. Juste vos cles, votre espace et votre temps."
+        ],
+        "it": [
+          "**Lo spazio cambia l'esperienza**. Una camera da letto separata, una cucina, un tavolo per il caffe del mattino—questi non sono lussi, sono l'infrastruttura di soggiorni prolungati confortevoli. Potete ritirarvi. Potete allargarvi. Potete essere a casa.",
+          "**Cucinare e connessione**. Il mercato del borgo vende verdure dai terrazzamenti sopra, pesce della pesca mattutina, vino dalle cantine locali. Cucinare questi ingredienti in una cucina di Riomaggiore non e solo mangiare—e partecipazione.",
+          "**Le strutture dei costi differiscono**. Gli appartamenti spesso costano meno a notte degli hotel, specialmente per soggiorni piu lunghi. Ma i veri risparmi vengono dai pasti a casa, dal caffe sulla vostra terrazza invece che al bar, dalla liberta di decidere cosa richiede ogni giorno.",
+          "**L'indipendenza ha valore**. Nessun orario di colazione dell'hotel. Nessuna interruzione del servizio di pulizia. Nessuna hall da attraversare. Solo le vostre chiavi, il vostro spazio e il vostro tempo."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Harbor Level Apartments",
-          "category": "Location Guide",
+          "name": {
+            "en": "Harbor Level Apartments",
+            "de": "Wohnungen auf Hafenniveau",
+            "fr": "Appartements au Niveau du Port",
+            "it": "Appartamenti a Livello del Porto"
+          },
+          "category": {
+            "en": "Location Guide",
+            "de": "Standortfuhrer",
+            "fr": "Guide des Emplacements",
+            "it": "Guida alle Posizioni"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Where the action is—fishing boats at dawn, swimmers all day, restaurants at night.",
-          "description": "Apartments near the marina put you at the heart of village life. You'll hear boats scraping stone, smell salt and fish, watch the harbor's daily drama from your window. The trade-off is activity and noise—this is not a retreat, it's an immersion.",
-          "giuliaComment": "I send young travelers and first-timers here. The energy is addictive. You step outside and you're immediately in the village. But if you need quiet to sleep, look elsewhere.",
-          "signature": "Where the village happens"
+          "intro": {
+            "en": "Where the action is—fishing boats at dawn, swimmers all day, restaurants at night.",
+            "de": "Wo das Geschehen ist—Fischerboote im Morgengrauen, Schwimmer den ganzen Tag, Restaurants am Abend.",
+            "fr": "Ou se passe l'action—bateaux de peche a l'aube, nageurs toute la journee, restaurants le soir.",
+            "it": "Dove c'e l'azione—barche da pesca all'alba, nuotatori tutto il giorno, ristoranti la sera."
+          },
+          "description": {
+            "en": "Apartments near the marina put you at the heart of village life. You'll hear boats scraping stone, smell salt and fish, watch the harbor's daily drama from your window. The trade-off is activity and noise—this is not a retreat, it's an immersion.",
+            "de": "Wohnungen in der Nahe des Yachthafens bringen Sie ins Herz des Dorflebens. Sie werden Boote horen, die uber Stein kratzen, Salz und Fisch riechen, das tagliche Drama des Hafens von Ihrem Fenster aus beobachten. Der Kompromiss ist Aktivitat und Larm—das ist kein Ruckzugsort, es ist ein Eintauchen.",
+            "fr": "Les appartements pres du port vous placent au coeur de la vie du village. Vous entendrez les bateaux racler la pierre, sentirez le sel et le poisson, regarderez le drame quotidien du port depuis votre fenetre. Le compromis est l'activite et le bruit—ce n'est pas une retraite, c'est une immersion.",
+            "it": "Gli appartamenti vicino al porto vi mettono nel cuore della vita del borgo. Sentirete le barche raschiare la pietra, odorerete sale e pesce, guarderete il dramma quotidiano del porto dalla vostra finestra. Il compromesso e attivita e rumore—questo non e un ritiro, e un'immersione."
+          },
+          "giuliaComment": {
+            "en": "I send young travelers and first-timers here. The energy is addictive. You step outside and you're immediately in the village. But if you need quiet to sleep, look elsewhere.",
+            "de": "Ich schicke junge Reisende und Erstbesucher hierher. Die Energie macht suchtig. Sie treten nach draussen und sind sofort im Dorf. Aber wenn Sie Ruhe zum Schlafen brauchen, suchen Sie woanders.",
+            "fr": "J'envoie les jeunes voyageurs et les nouveaux venus ici. L'energie est addictive. Vous sortez et vous etes immediatement dans le village. Mais si vous avez besoin de calme pour dormir, cherchez ailleurs.",
+            "it": "Mando qui i giovani viaggiatori e i principianti. L'energia crea dipendenza. Esci e sei immediatamente nel borgo. Ma se hai bisogno di silenzio per dormire, cerca altrove."
+          },
+          "signature": {
+            "en": "Where the village happens",
+            "de": "Wo das Dorfleben stattfindet",
+            "fr": "Ou le village se passe",
+            "it": "Dove succede il borgo"
+          }
         },
         {
           "id": 2,
-          "name": "Mid-Village Apartments",
-          "category": "Location Guide",
+          "name": {
+            "en": "Mid-Village Apartments",
+            "de": "Wohnungen in der Dorfmitte",
+            "fr": "Appartements au Centre du Village",
+            "it": "Appartamenti nel Centro del Borgo"
+          },
+          "category": {
+            "en": "Location Guide",
+            "de": "Standortfuhrer",
+            "fr": "Guide des Emplacements",
+            "it": "Guida alle Posizioni"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The sweet spot—close enough to walk everywhere, quiet enough to rest.",
-          "description": "Via Colombo and the streets branching from it offer apartments that balance convenience with calm. You're a few minutes from the harbor, a few minutes from the station, surrounded by the working village rather than its tourist face.",
-          "giuliaComment": "This is where I'd stay. Not too far from anything, not overwhelmed by crowds, surrounded by neighbors rather than tourists. The authentic village is right outside your door.",
-          "signature": "Where convenience meets character"
+          "intro": {
+            "en": "The sweet spot—close enough to walk everywhere, quiet enough to rest.",
+            "de": "Der ideale Punkt—nah genug, um uberall hinzulaufen, ruhig genug zum Ausruhen.",
+            "fr": "Le point ideal—assez pres pour aller partout a pied, assez calme pour se reposer.",
+            "it": "Il punto ideale—abbastanza vicino per camminare ovunque, abbastanza tranquillo per riposare."
+          },
+          "description": {
+            "en": "Via Colombo and the streets branching from it offer apartments that balance convenience with calm. You're a few minutes from the harbor, a few minutes from the station, surrounded by the working village rather than its tourist face.",
+            "de": "Die Via Colombo und die von ihr abzweigenden Strassen bieten Wohnungen, die Bequemlichkeit mit Ruhe verbinden. Sie sind wenige Minuten vom Hafen entfernt, wenige Minuten vom Bahnhof, umgeben vom arbeitenden Dorf statt von seinem touristischen Gesicht.",
+            "fr": "Via Colombo et les rues qui en partent offrent des appartements qui equilibrent commodite et calme. Vous etes a quelques minutes du port, a quelques minutes de la gare, entoure du village qui travaille plutot que de sa facade touristique.",
+            "it": "Via Colombo e le strade che ne diramano offrono appartamenti che bilanciano comodita e calma. Siete a pochi minuti dal porto, a pochi minuti dalla stazione, circondati dal borgo che lavora piuttosto che dal suo volto turistico."
+          },
+          "giuliaComment": {
+            "en": "This is where I'd stay. Not too far from anything, not overwhelmed by crowds, surrounded by neighbors rather than tourists. The authentic village is right outside your door.",
+            "de": "Hier wurde ich wohnen. Nicht zu weit von allem entfernt, nicht uberwaltigt von Menschenmassen, umgeben von Nachbarn statt von Touristen. Das authentische Dorf ist direkt vor Ihrer Tur.",
+            "fr": "C'est la que je resterais. Pas trop loin de quoi que ce soit, pas submerge par les foules, entoure de voisins plutot que de touristes. Le village authentique est juste devant votre porte.",
+            "it": "E qui che starei io. Non troppo lontano da nulla, non sopraffatto dalla folla, circondato da vicini piuttosto che da turisti. Il borgo autentico e proprio fuori dalla vostra porta."
+          },
+          "signature": {
+            "en": "Where convenience meets character",
+            "de": "Wo Bequemlichkeit auf Charakter trifft",
+            "fr": "Ou la commodite rencontre le caractere",
+            "it": "Dove la comodita incontra il carattere"
+          }
         },
         {
           "id": 3,
-          "name": "Upper Village Apartments",
-          "category": "Location Guide",
+          "name": {
+            "en": "Upper Village Apartments",
+            "de": "Wohnungen im oberen Dorf",
+            "fr": "Appartements du Village Superieur",
+            "it": "Appartamenti nel Borgo Alto"
+          },
+          "category": {
+            "en": "Location Guide",
+            "de": "Standortfuhrer",
+            "fr": "Guide des Emplacements",
+            "it": "Guida alle Posizioni"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The views come with stairs—but what views they are.",
-          "description": "Apartments higher up the hillside offer panoramic perspectives that lower locations cannot match. The coast stretches before you, the village drops away below, and the light at sunset turns everything gold. But every trip to the harbor means a climb back.",
-          "giuliaComment": "These apartments suit fit travelers who don't mind stairs. The views reward the effort. And there's something about living above the village, watching it from your terrace, that changes your relationship to the place.",
-          "signature": "Where effort earns panoramas"
+          "intro": {
+            "en": "The views come with stairs—but what views they are.",
+            "de": "Die Aussichten kommen mit Treppen—aber was fur Aussichten.",
+            "fr": "Les vues viennent avec des escaliers—mais quelles vues.",
+            "it": "Le viste vengono con le scale—ma che viste."
+          },
+          "description": {
+            "en": "Apartments higher up the hillside offer panoramic perspectives that lower locations cannot match. The coast stretches before you, the village drops away below, and the light at sunset turns everything gold. But every trip to the harbor means a climb back.",
+            "de": "Wohnungen weiter oben am Hang bieten Panoramaperspektiven, die tiefere Lagen nicht bieten konnen. Die Kuste erstreckt sich vor Ihnen, das Dorf fallt unter Ihnen ab, und das Licht bei Sonnenuntergang taucht alles in Gold. Aber jeder Ausflug zum Hafen bedeutet einen Aufstieg zuruck.",
+            "fr": "Les appartements plus haut sur la colline offrent des perspectives panoramiques que les emplacements plus bas ne peuvent pas egaler. La cote s'etend devant vous, le village descend en dessous, et la lumiere au coucher du soleil teinte tout en or. Mais chaque voyage au port signifie une montee pour revenir.",
+            "it": "Gli appartamenti piu in alto sulla collina offrono prospettive panoramiche che le posizioni piu basse non possono eguagliare. La costa si estende davanti a voi, il borgo scende sotto, e la luce al tramonto trasforma tutto in oro. Ma ogni viaggio al porto significa una salita per tornare."
+          },
+          "giuliaComment": {
+            "en": "These apartments suit fit travelers who don't mind stairs. The views reward the effort. And there's something about living above the village, watching it from your terrace, that changes your relationship to the place.",
+            "de": "Diese Wohnungen passen zu fitten Reisenden, denen Treppen nichts ausmachen. Die Aussichten belohnen die Muhe. Und es ist etwas daran, uber dem Dorf zu leben, es von Ihrer Terrasse aus zu beobachten, das Ihre Beziehung zum Ort verandert.",
+            "fr": "Ces appartements conviennent aux voyageurs en forme qui ne craignent pas les escaliers. Les vues recompensent l'effort. Et il y a quelque chose a vivre au-dessus du village, a le regarder depuis votre terrasse, qui change votre relation avec le lieu.",
+            "it": "Questi appartamenti sono adatti a viaggiatori in forma a cui non importano le scale. Le viste ricompensano lo sforzo. E c'e qualcosa nel vivere sopra il borgo, guardandolo dalla vostra terrazza, che cambia il vostro rapporto con il luogo."
+          },
+          "signature": {
+            "en": "Where effort earns panoramas",
+            "de": "Wo Anstrengung Panoramen verdient",
+            "fr": "Ou l'effort merite des panoramas",
+            "it": "Dove lo sforzo guadagna panorami"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Stair Reality",
-          "quote": "Every apartment in Riomaggiore involves stairs. Every one. There are no elevators, no level access, no exceptions. The question is not whether you'll climb stairs, but how many and how steep. Plan accordingly."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelles Zwischenspiel",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Stair Reality",
+            "de": "Die Treppen-Realitat",
+            "fr": "La Realite des Escaliers",
+            "it": "La Realta delle Scale"
+          },
+          "quote": {
+            "en": "Every apartment in Riomaggiore involves stairs. Every one. There are no elevators, no level access, no exceptions. The question is not whether you'll climb stairs, but how many and how steep. Plan accordingly.",
+            "de": "Jede Wohnung in Riomaggiore beinhaltet Treppen. Jede einzelne. Es gibt keine Aufzuge, keinen ebenerdigen Zugang, keine Ausnahmen. Die Frage ist nicht, ob Sie Treppen steigen werden, sondern wie viele und wie steil. Planen Sie entsprechend.",
+            "fr": "Chaque appartement a Riomaggiore implique des escaliers. Chacun d'eux. Il n'y a pas d'ascenseurs, pas d'acces de plain-pied, pas d'exceptions. La question n'est pas de savoir si vous monterez des escaliers, mais combien et a quel point ils sont raides. Planifiez en consequence.",
+            "it": "Ogni appartamento a Riomaggiore comporta scale. Ognuno. Non ci sono ascensori, nessun accesso a livello, nessuna eccezione. La domanda non e se salirete le scale, ma quante e quanto ripide. Pianificate di conseguenza."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Considerations",
-      "quote": "Apartment rentals require different planning than hotel stays. The extra effort pays off in experience, but only if you understand what you're committing to.",
-      "content": [
-        "**Booking timing matters**. Summer and September require months of advance booking. Spring and autumn offer more flexibility. Winter brings availability and lower prices, but fewer operating restaurants.",
-        "**Communication is key**. Apartment hosts vary in responsiveness. Confirm arrival procedures, key pickup, and contact information well before your trip. The personal connection often becomes the trip's highlight.",
-        "**Amenities vary widely**. Some apartments have full kitchens, washing machines, air conditioning. Others have minimal facilities. Read descriptions carefully and ask questions before booking.",
-        "**Check-in logistics require planning**. Many apartments don't have 24-hour reception. Coordinate arrival times. Understand key pickup procedures. Have a phone number that works in Italy."
-      ]
+      "badge": {
+        "en": "Practical Considerations",
+        "de": "Praktische Uberlegungen",
+        "fr": "Considerations Pratiques",
+        "it": "Considerazioni Pratiche"
+      },
+      "quote": {
+        "en": "Apartment rentals require different planning than hotel stays. The extra effort pays off in experience, but only if you understand what you're committing to.",
+        "de": "Ferienwohnungen erfordern eine andere Planung als Hotelaufenthalte. Der zusatzliche Aufwand zahlt sich in der Erfahrung aus, aber nur, wenn Sie verstehen, wozu Sie sich verpflichten.",
+        "fr": "Les locations d'appartements necessitent une planification differente des sejours a l'hotel. L'effort supplementaire se rentabilise en experience, mais seulement si vous comprenez a quoi vous vous engagez.",
+        "it": "Gli affitti di appartamenti richiedono una pianificazione diversa dai soggiorni in hotel. Lo sforzo extra ripaga in esperienza, ma solo se capite a cosa vi state impegnando."
+      },
+      "content": {
+        "en": [
+          "**Booking timing matters**. Summer and September require months of advance booking. Spring and autumn offer more flexibility. Winter brings availability and lower prices, but fewer operating restaurants.",
+          "**Communication is key**. Apartment hosts vary in responsiveness. Confirm arrival procedures, key pickup, and contact information well before your trip. The personal connection often becomes the trip's highlight.",
+          "**Amenities vary widely**. Some apartments have full kitchens, washing machines, air conditioning. Others have minimal facilities. Read descriptions carefully and ask questions before booking.",
+          "**Check-in logistics require planning**. Many apartments don't have 24-hour reception. Coordinate arrival times. Understand key pickup procedures. Have a phone number that works in Italy."
+        ],
+        "de": [
+          "**Der Buchungszeitpunkt ist wichtig**. Sommer und September erfordern Monate im Voraus zu buchen. Fruhling und Herbst bieten mehr Flexibilitat. Winter bringt Verfugbarkeit und niedrigere Preise, aber weniger geoffnete Restaurants.",
+          "**Kommunikation ist der Schlussel**. Wohnungsvermieter variieren in ihrer Reaktionsfahigkeit. Bestatigen Sie Ankunftsverfahren, Schlusselubergabe und Kontaktinformationen rechtzeitig vor Ihrer Reise. Die personliche Verbindung wird oft zum Hohepunkt der Reise.",
+          "**Ausstattung variiert stark**. Einige Wohnungen haben vollstandige Kuchen, Waschmaschinen, Klimaanlage. Andere haben minimale Ausstattung. Lesen Sie Beschreibungen sorgfaltig und stellen Sie Fragen vor der Buchung.",
+          "**Check-in-Logistik erfordert Planung**. Viele Wohnungen haben keine 24-Stunden-Rezeption. Koordinieren Sie Ankunftszeiten. Verstehen Sie die Schlusselubergabeverfahren. Haben Sie eine Telefonnummer, die in Italien funktioniert."
+        ],
+        "fr": [
+          "**Le timing de reservation compte**. L'ete et septembre necessitent des mois de reservation a l'avance. Le printemps et l'automne offrent plus de flexibilite. L'hiver apporte la disponibilite et des prix plus bas, mais moins de restaurants ouverts.",
+          "**La communication est cle**. Les hotes d'appartements varient en reactivite. Confirmez les procedures d'arrivee, la remise des cles et les coordonnees bien avant votre voyage. La connexion personnelle devient souvent le point fort du voyage.",
+          "**Les equipements varient considerablement**. Certains appartements ont des cuisines completes, des machines a laver, la climatisation. D'autres ont des installations minimales. Lisez les descriptions attentivement et posez des questions avant de reserver.",
+          "**La logistique d'enregistrement necessite de la planification**. De nombreux appartements n'ont pas de reception 24h/24. Coordonnez les heures d'arrivee. Comprenez les procedures de remise des cles. Ayez un numero de telephone qui fonctionne en Italie."
+        ],
+        "it": [
+          "**Il tempismo della prenotazione conta**. L'estate e settembre richiedono mesi di prenotazione anticipata. Primavera e autunno offrono piu flessibilita. L'inverno porta disponibilita e prezzi piu bassi, ma meno ristoranti aperti.",
+          "**La comunicazione e fondamentale**. I proprietari degli appartamenti variano nella reattivita. Confermate le procedure di arrivo, il ritiro delle chiavi e le informazioni di contatto ben prima del vostro viaggio. Il legame personale spesso diventa il punto forte del viaggio.",
+          "**I servizi variano ampiamente**. Alcuni appartamenti hanno cucine complete, lavatrici, aria condizionata. Altri hanno strutture minime. Leggete le descrizioni attentamente e fate domande prima di prenotare.",
+          "**La logistica del check-in richiede pianificazione**. Molti appartamenti non hanno reception 24 ore su 24. Coordinate gli orari di arrivo. Capite le procedure di ritiro chiavi. Abbiate un numero di telefono che funziona in Italia."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "The Kitchen Advantage",
-          "category": "Living Local",
+          "name": {
+            "en": "The Kitchen Advantage",
+            "de": "Der Kuchen-Vorteil",
+            "fr": "L'Avantage de la Cuisine",
+            "it": "Il Vantaggio della Cucina"
+          },
+          "category": {
+            "en": "Living Local",
+            "de": "Wie ein Einheimischer Leben",
+            "fr": "Vivre Comme un Local",
+            "it": "Vivere Come un Locale"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "A kitchen isn't just for cooking—it's your entry point into local food culture.",
-          "description": "The village market, the harbor fish sellers, the wine shops—these become your sources. You buy what looks good, ask vendors how to prepare it, bring the harvest back to your kitchen. Dinner becomes an event you create, not consume.",
-          "giuliaComment": "The first time you cook Ligurian pesto with basil from the local market, in an apartment with windows open to the sea breeze—that's when you understand why apartments are different from hotels.",
-          "signature": "Where ingredients become experience"
+          "intro": {
+            "en": "A kitchen isn't just for cooking—it's your entry point into local food culture.",
+            "de": "Eine Kuche ist nicht nur zum Kochen—sie ist Ihr Einstiegspunkt in die lokale Esskultur.",
+            "fr": "Une cuisine n'est pas seulement pour cuisiner—c'est votre point d'entree dans la culture alimentaire locale.",
+            "it": "Una cucina non e solo per cucinare—e il vostro punto d'ingresso nella cultura alimentare locale."
+          },
+          "description": {
+            "en": "The village market, the harbor fish sellers, the wine shops—these become your sources. You buy what looks good, ask vendors how to prepare it, bring the harvest back to your kitchen. Dinner becomes an event you create, not consume.",
+            "de": "Der Dorfmarkt, die Fischverkaufer am Hafen, die Weinladen—diese werden zu Ihren Quellen. Sie kaufen, was gut aussieht, fragen Verkaufer, wie man es zubereitet, bringen die Ernte zuruck in Ihre Kuche. Das Abendessen wird zu einem Ereignis, das Sie schaffen, nicht konsumieren.",
+            "fr": "Le marche du village, les vendeurs de poisson du port, les caves a vin—ceux-ci deviennent vos sources. Vous achetez ce qui a l'air bon, demandez aux vendeurs comment le preparer, ramenez la recolte dans votre cuisine. Le diner devient un evenement que vous creez, pas que vous consommez.",
+            "it": "Il mercato del borgo, i venditori di pesce del porto, le enoteche—questi diventano le vostre fonti. Comprate cio che sembra buono, chiedete ai venditori come prepararlo, portate il raccolto nella vostra cucina. La cena diventa un evento che create, non che consumate."
+          },
+          "giuliaComment": {
+            "en": "The first time you cook Ligurian pesto with basil from the local market, in an apartment with windows open to the sea breeze—that's when you understand why apartments are different from hotels.",
+            "de": "Das erste Mal, wenn Sie ligurisches Pesto mit Basilikum vom lokalen Markt kochen, in einer Wohnung mit offenen Fenstern zur Meeresbrise—dann verstehen Sie, warum Wohnungen anders sind als Hotels.",
+            "fr": "La premiere fois que vous cuisinez du pesto ligurien avec du basilic du marche local, dans un appartement avec les fenetres ouvertes a la brise marine—c'est la que vous comprenez pourquoi les appartements sont differents des hotels.",
+            "it": "La prima volta che cucinate pesto ligure con basilico del mercato locale, in un appartamento con le finestre aperte alla brezza marina—e allora che capite perche gli appartamenti sono diversi dagli hotel."
+          },
+          "signature": {
+            "en": "Where ingredients become experience",
+            "de": "Wo Zutaten zu Erfahrung werden",
+            "fr": "Ou les ingredients deviennent experience",
+            "it": "Dove gli ingredienti diventano esperienza"
+          }
         },
         {
           "id": 5,
-          "name": "The Longer Stay",
-          "category": "Time Investment",
+          "name": {
+            "en": "The Longer Stay",
+            "de": "Der langere Aufenthalt",
+            "fr": "Le Sejour Prolonge",
+            "it": "Il Soggiorno Prolungato"
+          },
+          "category": {
+            "en": "Time Investment",
+            "de": "Zeit-Investition",
+            "fr": "Investissement en Temps",
+            "it": "Investimento di Tempo"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Apartments make economic sense for longer visits—and Riomaggiore rewards those who stay.",
-          "description": "A week in an apartment costs roughly what three hotel nights might. But more importantly, a week teaches you the village in ways a weekend cannot. You develop routines, favorite spots, familiar faces. Tourism becomes something else.",
-          "giuliaComment": "Every guest who stays a week tells me they wish they'd stayed longer. The village reveals itself slowly. The first few days are discovery. The rest become something closer to belonging.",
-          "signature": "When time becomes the luxury"
+          "intro": {
+            "en": "Apartments make economic sense for longer visits—and Riomaggiore rewards those who stay.",
+            "de": "Wohnungen sind wirtschaftlich sinnvoll fur langere Besuche—und Riomaggiore belohnt diejenigen, die bleiben.",
+            "fr": "Les appartements ont un sens economique pour les visites plus longues—et Riomaggiore recompense ceux qui restent.",
+            "it": "Gli appartamenti hanno senso economico per visite piu lunghe—e Riomaggiore premia chi rimane."
+          },
+          "description": {
+            "en": "A week in an apartment costs roughly what three hotel nights might. But more importantly, a week teaches you the village in ways a weekend cannot. You develop routines, favorite spots, familiar faces. Tourism becomes something else.",
+            "de": "Eine Woche in einer Wohnung kostet ungefahr so viel wie drei Hotelnachte. Aber wichtiger noch, eine Woche lehrt Sie das Dorf auf Weisen, die ein Wochenende nicht kann. Sie entwickeln Routinen, Lieblingsorte, vertraute Gesichter. Tourismus wird zu etwas anderem.",
+            "fr": "Une semaine dans un appartement coute a peu pres ce que couteraient trois nuits d'hotel. Mais plus important encore, une semaine vous apprend le village d'une facon qu'un week-end ne peut pas. Vous developpez des routines, des endroits preferes, des visages familiers. Le tourisme devient autre chose.",
+            "it": "Una settimana in un appartamento costa circa quanto tre notti in hotel. Ma piu importante, una settimana vi insegna il borgo in modi che un weekend non puo. Sviluppate routine, posti preferiti, volti familiari. Il turismo diventa qualcos'altro."
+          },
+          "giuliaComment": {
+            "en": "Every guest who stays a week tells me they wish they'd stayed longer. The village reveals itself slowly. The first few days are discovery. The rest become something closer to belonging.",
+            "de": "Jeder Gast, der eine Woche bleibt, sagt mir, dass er sich wunscht, langer geblieben zu sein. Das Dorf offenbart sich langsam. Die ersten paar Tage sind Entdeckung. Der Rest wird zu etwas, das dem Dazugehoren naher kommt.",
+            "fr": "Chaque invite qui reste une semaine me dit qu'il aurait aime rester plus longtemps. Le village se revele lentement. Les premiers jours sont de la decouverte. Le reste devient quelque chose de plus proche de l'appartenance.",
+            "it": "Ogni ospite che rimane una settimana mi dice che avrebbe voluto restare piu a lungo. Il borgo si rivela lentamente. I primi giorni sono scoperta. Il resto diventa qualcosa di piu vicino all'appartenenza."
+          },
+          "signature": {
+            "en": "When time becomes the luxury",
+            "de": "Wenn Zeit zum Luxus wird",
+            "fr": "Quand le temps devient le luxe",
+            "it": "Quando il tempo diventa il lusso"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Shopping Strategy",
-          "quote": "Shop for groceries in La Spezia before arriving—the selection is better and prices are lower. Bring your staples. Then use Riomaggiore's small shops for daily needs, fresh produce, and local specialties. This is how residents manage."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Shopping Strategy",
+            "de": "Die Einkaufsstrategie",
+            "fr": "La Strategie d'Achat",
+            "it": "La Strategia della Spesa"
+          },
+          "quote": {
+            "en": "Shop for groceries in La Spezia before arriving—the selection is better and prices are lower. Bring your staples. Then use Riomaggiore's small shops for daily needs, fresh produce, and local specialties. This is how residents manage.",
+            "de": "Kaufen Sie Lebensmittel in La Spezia ein, bevor Sie ankommen—die Auswahl ist besser und die Preise niedriger. Bringen Sie Ihre Grundnahrungsmittel mit. Nutzen Sie dann die kleinen Laden von Riomaggiore fur den taglichen Bedarf, frische Produkte und lokale Spezialitaten. So machen es die Einwohner.",
+            "fr": "Faites vos courses a La Spezia avant d'arriver—la selection est meilleure et les prix sont plus bas. Apportez vos produits de base. Puis utilisez les petites boutiques de Riomaggiore pour les besoins quotidiens, les produits frais et les specialites locales. C'est ainsi que font les residents.",
+            "it": "Fate la spesa a La Spezia prima di arrivare—la selezione e migliore e i prezzi sono piu bassi. Portate i vostri prodotti di base. Poi usate i piccoli negozi di Riomaggiore per le necessita quotidiane, i prodotti freschi e le specialita locali. E cosi che fanno i residenti."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Home Away From Home",
-      "content": [
-        "An apartment doesn't just house you—it locates you. You have an address, a neighborhood, a place where the shopkeeper starts to recognize you.",
-        "The best apartment experiences aren't about the apartment at all. They're about what the apartment enables: the freedom to live at your own pace, the chance to participate in local life, the opportunity to stop being a tourist and start being present.",
-        "Choose your apartment for location, convenience, and practical needs. Then let it fade into the background as the village becomes foreground."
-      ],
+      "title": {
+        "en": "Home Away From Home",
+        "de": "Zuhause in der Ferne",
+        "fr": "Chez Soi Loin de Chez Soi",
+        "it": "Casa Lontano da Casa"
+      },
+      "content": {
+        "en": [
+          "An apartment doesn't just house you—it locates you. You have an address, a neighborhood, a place where the shopkeeper starts to recognize you.",
+          "The best apartment experiences aren't about the apartment at all. They're about what the apartment enables: the freedom to live at your own pace, the chance to participate in local life, the opportunity to stop being a tourist and start being present.",
+          "Choose your apartment for location, convenience, and practical needs. Then let it fade into the background as the village becomes foreground."
+        ],
+        "de": [
+          "Eine Wohnung beherbergt Sie nicht nur—sie verortet Sie. Sie haben eine Adresse, eine Nachbarschaft, einen Ort, an dem der Ladenbesitzer beginnt, Sie zu erkennen.",
+          "Die besten Wohnungserfahrungen handeln gar nicht von der Wohnung. Sie handeln davon, was die Wohnung ermoglicht: die Freiheit, in Ihrem eigenen Tempo zu leben, die Chance, am lokalen Leben teilzunehmen, die Gelegenheit, aufzuhoren, Tourist zu sein und anzufangen, prasent zu sein.",
+          "Wahlen Sie Ihre Wohnung nach Lage, Bequemlichkeit und praktischen Bedurfnissen. Dann lassen Sie sie in den Hintergrund treten, wahrend das Dorf in den Vordergrund ruckt."
+        ],
+        "fr": [
+          "Un appartement ne vous loge pas seulement—il vous situe. Vous avez une adresse, un quartier, un endroit ou le commercant commence a vous reconnaitre.",
+          "Les meilleures experiences d'appartement ne concernent pas du tout l'appartement. Elles concernent ce que l'appartement permet: la liberte de vivre a votre propre rythme, la chance de participer a la vie locale, l'opportunite d'arreter d'etre un touriste et de commencer a etre present.",
+          "Choisissez votre appartement pour l'emplacement, la commodite et les besoins pratiques. Puis laissez-le s'effacer en arriere-plan tandis que le village devient premier plan."
+        ],
+        "it": [
+          "Un appartamento non vi ospita soltanto—vi colloca. Avete un indirizzo, un quartiere, un posto dove il negoziante comincia a riconoscervi.",
+          "Le migliori esperienze in appartamento non riguardano affatto l'appartamento. Riguardano cio che l'appartamento permette: la liberta di vivere al vostro ritmo, la possibilita di partecipare alla vita locale, l'opportunita di smettere di essere turisti e iniziare a essere presenti.",
+          "Scegliete il vostro appartamento per posizione, comodita e necessita pratiche. Poi lasciate che sfumi sullo sfondo mentre il borgo diventa primo piano."
+        ]
+      },
       "buttons": [
-        { "text": "Hotels & B&Bs", "url": "/en/riomaggiore/hotels", "variant": "primary" },
-        { "text": "Plan Your Stay", "url": "/en/riomaggiore/things-to-do", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Hotels & B&Bs",
+            "de": "Hotels & Pensionen",
+            "fr": "Hotels & Chambres d'Hotes",
+            "it": "Hotel & B&B"
+          },
+          "url": {
+            "en": "/en/riomaggiore/hotels",
+            "de": "/de/riomaggiore/hotels",
+            "fr": "/fr/riomaggiore/hotels",
+            "it": "/it/riomaggiore/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Plan Your Stay",
+            "de": "Planen Sie Ihren Aufenthalt",
+            "fr": "Planifiez Votre Sejour",
+            "it": "Pianifica il Tuo Soggiorno"
+          },
+          "url": {
+            "en": "/en/riomaggiore/things-to-do",
+            "de": "/de/riomaggiore/things-to-do",
+            "fr": "/fr/riomaggiore/things-to-do",
+            "it": "/it/riomaggiore/things-to-do"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:00:00.000Z"
+  "updated_at": "2026-01-07T18:00:00.000Z"
 }

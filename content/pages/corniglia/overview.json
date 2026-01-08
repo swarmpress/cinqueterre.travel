@@ -7,36 +7,90 @@
     "it": "/it/corniglia/overview"
   },
   "title": {
-    "en": "Discovering Corniglia | Cinque Terre Dispatch"
+    "en": "Discovering Corniglia | Cinque Terre Dispatch",
+    "de": "Corniglia Entdecken | Cinque Terre Dispatch",
+    "fr": "Découvrir Corniglia | Cinque Terre Dispatch",
+    "it": "Scoprire Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "overview",
   "seo": {
     "title": {
-      "en": "Discovering Corniglia | Cinque Terre Dispatch"
+      "en": "Discovering Corniglia | Cinque Terre Dispatch",
+      "de": "Corniglia Entdecken | Cinque Terre Dispatch",
+      "fr": "Découvrir Corniglia | Cinque Terre Dispatch",
+      "it": "Scoprire Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The village that makes you earn it—377 steps separate Corniglia from the casual visitor, and those steps create a threshold between tourism and something more authentic."
+      "en": "The village that makes you earn it—377 steps separate Corniglia from the casual visitor, and those steps create a threshold between tourism and something more authentic.",
+      "de": "Das Dorf, das man sich verdienen muss—377 Stufen trennen Corniglia vom Gelegenheitsbesucher, und diese Stufen schaffen eine Schwelle zwischen Tourismus und etwas Authentischerem.",
+      "fr": "Le village qui se mérite—377 marches séparent Corniglia du visiteur occasionnel, et ces marches créent un seuil entre le tourisme et quelque chose de plus authentique.",
+      "it": "Il borgo che va conquistato—377 gradini separano Corniglia dal visitatore occasionale, e quei gradini creano una soglia tra il turismo e qualcosa di più autentico."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Village<br/>Above the Sea",
-      "subtitle": "Corniglia doesn't greet you at sea level like its neighbors. It sits 100 meters above the waves, connected to the train station by 377 steps that have sorted visitors since 1876. Those who climb discover what the others miss: a village that kept its agricultural soul.",
-      "badge": "Village Overview",
+      "title": {
+        "en": "The Village<br/>Above the Sea",
+        "de": "Das Dorf<br/>über dem Meer",
+        "fr": "Le Village<br/>au-dessus de la Mer",
+        "it": "Il Borgo<br/>sopra il Mare"
+      },
+      "subtitle": {
+        "en": "Corniglia doesn't greet you at sea level like its neighbors. It sits 100 meters above the waves, connected to the train station by 377 steps that have sorted visitors since 1876. Those who climb discover what the others miss: a village that kept its agricultural soul.",
+        "de": "Corniglia begrüßt Sie nicht auf Meereshöhe wie seine Nachbarn. Es thront 100 Meter über den Wellen, verbunden mit dem Bahnhof durch 377 Stufen, die seit 1876 die Besucher sortieren. Wer hinaufsteigt, entdeckt, was die anderen verpassen: ein Dorf, das seine landwirtschaftliche Seele bewahrt hat.",
+        "fr": "Corniglia ne vous accueille pas au niveau de la mer comme ses voisins. Il trône à 100 mètres au-dessus des vagues, relié à la gare par 377 marches qui trient les visiteurs depuis 1876. Ceux qui grimpent découvrent ce que les autres manquent : un village qui a gardé son âme agricole.",
+        "it": "Corniglia non vi accoglie a livello del mare come i suoi vicini. Si erge 100 metri sopra le onde, collegata alla stazione da 377 gradini che selezionano i visitatori dal 1876. Chi sale scopre ciò che gli altri perdono: un borgo che ha conservato la sua anima agricola."
+      },
+      "badge": {
+        "en": "Village Overview",
+        "de": "Dorfportrait",
+        "fr": "Portrait du Village",
+        "it": "Ritratto del Borgo"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Elevated Village",
-      "quote": "Corniglia is the only village of the five without a harbor—and that fact shaped everything. While the others looked to the sea, Corniglia looked to the terraces. Wine, not fish, built this village. The elevation that isolates it also protected it.",
-      "content": [
-        "**The stairs change everything**. The 377 steps of the Lardarina stairway aren't just transportation—they're a filter. Cruise ship passengers with tight schedules skip Corniglia. Day-trippers in a hurry move on to easier villages. What remains is quieter, more intentional, more authentic.",
-        "**The terraces define the landscape**. Roman settlers recognized this promontory's perfect southern exposure and built the first terraces for wine. Two millennia later, those terraces still produce grapes—and walking among them feels like walking through history.",
-        "**The village is compact**. Via Fieschi runs through the center, connecting piazza to terrace overlook. Everything important happens along this spine: morning coffee, afternoon gelato, evening aperitivo, the small exchanges that make village life.",
-        "**The views reward the climb**. From Largo Taragio, you can see north to Vernazza, south toward Manarola, and across the water toward places that feel impossibly far from this quiet hilltop."
-      ]
+      "badge": {
+        "en": "The Elevated Village",
+        "de": "Das erhöhte Dorf",
+        "fr": "Le Village Perché",
+        "it": "Il Borgo Elevato"
+      },
+      "quote": {
+        "en": "Corniglia is the only village of the five without a harbor—and that fact shaped everything. While the others looked to the sea, Corniglia looked to the terraces. Wine, not fish, built this village. The elevation that isolates it also protected it.",
+        "de": "Corniglia ist das einzige der fünf Dörfer ohne Hafen—und diese Tatsache hat alles geprägt. Während die anderen aufs Meer schauten, blickte Corniglia auf die Terrassen. Wein, nicht Fisch, hat dieses Dorf gebaut. Die Höhenlage, die es isoliert, hat es auch geschützt.",
+        "fr": "Corniglia est le seul village des cinq sans port—et ce fait a tout façonné. Tandis que les autres regardaient vers la mer, Corniglia regardait vers les terrasses. C'est le vin, pas le poisson, qui a construit ce village. L'altitude qui l'isole l'a aussi protégé.",
+        "it": "Corniglia è l'unico dei cinque borghi senza porto—e questo fatto ha plasmato tutto. Mentre gli altri guardavano al mare, Corniglia guardava alle terrazze. Il vino, non il pesce, ha costruito questo borgo. L'altitudine che lo isola lo ha anche protetto."
+      },
+      "content": {
+        "en": [
+          "**The stairs change everything**. The 377 steps of the Lardarina stairway aren't just transportation—they're a filter. Cruise ship passengers with tight schedules skip Corniglia. Day-trippers in a hurry move on to easier villages. What remains is quieter, more intentional, more authentic.",
+          "**The terraces define the landscape**. Roman settlers recognized this promontory's perfect southern exposure and built the first terraces for wine. Two millennia later, those terraces still produce grapes—and walking among them feels like walking through history.",
+          "**The village is compact**. Via Fieschi runs through the center, connecting piazza to terrace overlook. Everything important happens along this spine: morning coffee, afternoon gelato, evening aperitivo, the small exchanges that make village life.",
+          "**The views reward the climb**. From Largo Taragio, you can see north to Vernazza, south toward Manarola, and across the water toward places that feel impossibly far from this quiet hilltop."
+        ],
+        "de": [
+          "**Die Treppen verändern alles**. Die 377 Stufen der Lardarina-Treppe sind nicht nur Fortbewegung—sie sind ein Filter. Kreuzfahrtpassagiere mit engem Zeitplan lassen Corniglia aus. Eilige Tagesausflügler ziehen zu leichteren Dörfern weiter. Was bleibt, ist ruhiger, absichtsvoller, authentischer.",
+          "**Die Terrassen definieren die Landschaft**. Römische Siedler erkannten die perfekte Südlage dieses Vorgebirges und legten die ersten Weinterrassen an. Zwei Jahrtausende später produzieren diese Terrassen immer noch Trauben—und zwischen ihnen zu wandern fühlt sich an wie ein Gang durch die Geschichte.",
+          "**Das Dorf ist kompakt**. Die Via Fieschi verläuft durch das Zentrum und verbindet die Piazza mit dem Terrassenausblick. Alles Wichtige geschieht entlang dieser Achse: Morgenkaffee, Nachmittagsgelato, Abendaperitivo, die kleinen Begegnungen, die das Dorfleben ausmachen.",
+          "**Die Aussichten belohnen den Aufstieg**. Von Largo Taragio aus sieht man nach Norden bis Vernazza, nach Süden Richtung Manarola und übers Wasser zu Orten, die von dieser stillen Anhöhe unendlich weit entfernt scheinen."
+        ],
+        "fr": [
+          "**Les escaliers changent tout**. Les 377 marches de l'escalier Lardarina ne sont pas qu'un moyen de transport—c'est un filtre. Les passagers de croisière aux horaires serrés sautent Corniglia. Les excursionnistes pressés passent aux villages plus faciles. Ce qui reste est plus calme, plus intentionnel, plus authentique.",
+          "**Les terrasses définissent le paysage**. Les colons romains ont reconnu l'exposition sud parfaite de ce promontoire et ont construit les premières terrasses viticoles. Deux millénaires plus tard, ces terrasses produisent encore du raisin—et marcher parmi elles, c'est marcher à travers l'histoire.",
+          "**Le village est compact**. La Via Fieschi traverse le centre, reliant la piazza à la vue sur les terrasses. Tout l'important se passe le long de cet axe : café du matin, glace de l'après-midi, apéritif du soir, les petits échanges qui font la vie de village.",
+          "**Les vues récompensent la montée**. Depuis Largo Taragio, on voit au nord jusqu'à Vernazza, au sud vers Manarola, et à travers l'eau vers des lieux qui semblent impossiblement loin de cette colline paisible."
+        ],
+        "it": [
+          "**Le scale cambiano tutto**. I 377 gradini della scalinata Lardarina non sono solo un mezzo di trasporto—sono un filtro. I passeggeri delle crociere con orari stretti saltano Corniglia. Gli escursionisti frettolosi passano ai borghi più facili. Ciò che resta è più tranquillo, più intenzionale, più autentico.",
+          "**Le terrazze definiscono il paesaggio**. I coloni romani riconobbero la perfetta esposizione a sud di questo promontorio e costruirono le prime terrazze per il vino. Due millenni dopo, quelle terrazze producono ancora uva—e camminare tra di esse è come camminare attraverso la storia.",
+          "**Il borgo è compatto**. Via Fieschi attraversa il centro, collegando la piazza al belvedere sulle terrazze. Tutto ciò che è importante accade lungo questo asse: caffè mattutino, gelato pomeridiano, aperitivo serale, i piccoli scambi che fanno la vita di paese.",
+          "**Le viste ripagano la salita**. Da Largo Taragio si può vedere a nord fino a Vernazza, a sud verso Manarola, e attraverso l'acqua verso luoghi che sembrano impossibilmente lontani da questa quieta altura."
+        ]
+      }
     },
     {
       "type": "village-intro"
@@ -47,58 +101,193 @@
       "items": [
         {
           "id": 1,
-          "name": "The Lardarina Climb",
-          "category": "Arrival Experience",
+          "name": {
+            "en": "The Lardarina Climb",
+            "de": "Die Lardarina-Besteigung",
+            "fr": "L'Ascension de la Lardarina",
+            "it": "La Salita della Lardarina"
+          },
+          "category": {
+            "en": "Arrival Experience",
+            "de": "Ankunftserlebnis",
+            "fr": "Expérience d'Arrivée",
+            "it": "Esperienza di Arrivo"
+          },
           "village": "Corniglia",
           "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1605540436563-5bca919ae766-regular.jpg",
-          "intro": "377 steps zigzag up from the station—each switchback revealing more of the coastline until you emerge at the village gates.",
-          "description": "Built in 1876 when the railway arrived, the Lardarina transforms arrival into ritual. There are benches at intervals for catching your breath and appreciating how far you've come. Fifteen minutes of effort earns entrance to a village that tourist buses can't reach.",
-          "giuliaComment": "I've climbed these stairs thousands of times, and I still pause at the top to appreciate the view. Tourists ask if there's an easier way—there's a small shuttle bus, but it runs irregularly and misses the point. The climb is how Corniglia wants to be entered.",
-          "signature": "Where the climb becomes the welcome"
+          "intro": {
+            "en": "377 steps zigzag up from the station—each switchback revealing more of the coastline until you emerge at the village gates.",
+            "de": "377 Stufen schlängeln sich vom Bahnhof hinauf—jede Kehre enthüllt mehr der Küste, bis man am Dorfeingang ankommt.",
+            "fr": "377 marches zigzaguent depuis la gare—chaque lacet révélant plus du littoral jusqu'à ce que vous émergez aux portes du village.",
+            "it": "377 gradini salgono a zigzag dalla stazione—ogni tornante rivela più della costa finché non si emerge alle porte del borgo."
+          },
+          "description": {
+            "en": "Built in 1876 when the railway arrived, the Lardarina transforms arrival into ritual. There are benches at intervals for catching your breath and appreciating how far you've come. Fifteen minutes of effort earns entrance to a village that tourist buses can't reach.",
+            "de": "Die 1876 mit der Ankunft der Eisenbahn erbaute Lardarina verwandelt die Ankunft in ein Ritual. In Abständen gibt es Bänke zum Verschnaufen und Wertschätzen, wie weit man gekommen ist. Fünfzehn Minuten Anstrengung verdienen den Zugang zu einem Dorf, das Touristenbusse nicht erreichen können.",
+            "fr": "Construite en 1876 à l'arrivée du chemin de fer, la Lardarina transforme l'arrivée en rituel. Des bancs à intervalles permettent de reprendre son souffle et d'apprécier le chemin parcouru. Quinze minutes d'effort donnent accès à un village que les bus touristiques ne peuvent atteindre.",
+            "it": "Costruita nel 1876 con l'arrivo della ferrovia, la Lardarina trasforma l'arrivo in un rituale. Ci sono panchine a intervalli per riprendere fiato e apprezzare quanto si è percorso. Quindici minuti di sforzo guadagnano l'ingresso a un borgo che i bus turistici non possono raggiungere."
+          },
+          "giuliaComment": {
+            "en": "I've climbed these stairs thousands of times, and I still pause at the top to appreciate the view. Tourists ask if there's an easier way—there's a small shuttle bus, but it runs irregularly and misses the point. The climb is how Corniglia wants to be entered.",
+            "de": "Ich bin diese Treppen tausende Male gestiegen, und ich halte immer noch oben an, um die Aussicht zu würdigen. Touristen fragen, ob es einen leichteren Weg gibt—es gibt einen kleinen Shuttlebus, aber er fährt unregelmäßig und verfehlt den Sinn. Der Aufstieg ist, wie Corniglia betreten werden will.",
+            "fr": "J'ai monté ces escaliers des milliers de fois, et je m'arrête encore au sommet pour apprécier la vue. Les touristes demandent s'il y a un moyen plus facile—il y a une petite navette, mais elle passe irrégulièrement et manque l'essentiel. La montée est la façon dont Corniglia veut être abordée.",
+            "it": "Ho salito queste scale migliaia di volte, e mi fermo ancora in cima per apprezzare la vista. I turisti chiedono se c'è un modo più facile—c'è una piccola navetta, ma passa irregolarmente e perde il senso. La salita è il modo in cui Corniglia vuole essere raggiunta."
+          },
+          "signature": {
+            "en": "Where the climb becomes the welcome",
+            "de": "Wo der Aufstieg zum Willkommen wird",
+            "fr": "Où la montée devient l'accueil",
+            "it": "Dove la salita diventa il benvenuto"
+          }
         },
         {
           "id": 2,
-          "name": "Via Fieschi",
-          "category": "Village Heart",
+          "name": {
+            "en": "Via Fieschi",
+            "de": "Via Fieschi",
+            "fr": "Via Fieschi",
+            "it": "Via Fieschi"
+          },
+          "category": {
+            "en": "Village Heart",
+            "de": "Dorfzentrum",
+            "fr": "Cœur du Village",
+            "it": "Cuore del Borgo"
+          },
           "village": "Corniglia",
           "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-regular.jpg",
-          "intro": "The main street threads through the village—alimentari, bars, and the quiet rhythm of daily life happening in the narrowest of spaces.",
-          "description": "Via Fieschi isn't scenic in the postcard sense. It's a working street where locals shop, children play, and life happens. The alimentari stocks what families need, the bars serve morning coffee to the same faces, and the afternoon quiet is real, not staged.",
-          "giuliaComment": "My grandmother knew everyone on Via Fieschi. I still know most of them. The village is small enough that anonymity doesn't exist—a blessing when you need help, a constraint when you want privacy. This is how villages work.",
-          "signature": "Where the village lives"
+          "intro": {
+            "en": "The main street threads through the village—alimentari, bars, and the quiet rhythm of daily life happening in the narrowest of spaces.",
+            "de": "Die Hauptstraße zieht sich durch das Dorf—Lebensmittelläden, Bars und der ruhige Rhythmus des täglichen Lebens in den engsten Räumen.",
+            "fr": "La rue principale traverse le village—alimentari, bars, et le rythme tranquille de la vie quotidienne dans les espaces les plus étroits.",
+            "it": "La via principale attraversa il borgo—alimentari, bar, e il ritmo tranquillo della vita quotidiana negli spazi più stretti."
+          },
+          "description": {
+            "en": "Via Fieschi isn't scenic in the postcard sense. It's a working street where locals shop, children play, and life happens. The alimentari stocks what families need, the bars serve morning coffee to the same faces, and the afternoon quiet is real, not staged.",
+            "de": "Die Via Fieschi ist nicht malerisch im Postkartensinne. Es ist eine Arbeitsstraße, wo Einheimische einkaufen, Kinder spielen und das Leben stattfindet. Der Alimentari führt, was Familien brauchen, die Bars servieren den gleichen Gesichtern Morgenkaffee, und die Nachmittagsstille ist echt, nicht inszeniert.",
+            "fr": "La Via Fieschi n'est pas pittoresque au sens carte postale. C'est une rue de travail où les locaux font leurs courses, les enfants jouent, et la vie se déroule. L'alimentari vend ce dont les familles ont besoin, les bars servent le café du matin aux mêmes visages, et le calme de l'après-midi est réel, pas mis en scène.",
+            "it": "Via Fieschi non è scenografica nel senso da cartolina. È una via di lavoro dove i locali fanno la spesa, i bambini giocano, e la vita accade. L'alimentari vende ciò che le famiglie hanno bisogno, i bar servono il caffè mattutino alle stesse facce, e la quiete pomeridiana è vera, non messa in scena."
+          },
+          "giuliaComment": {
+            "en": "My grandmother knew everyone on Via Fieschi. I still know most of them. The village is small enough that anonymity doesn't exist—a blessing when you need help, a constraint when you want privacy. This is how villages work.",
+            "de": "Meine Großmutter kannte jeden auf der Via Fieschi. Ich kenne die meisten noch. Das Dorf ist klein genug, dass Anonymität nicht existiert—ein Segen, wenn man Hilfe braucht, eine Einschränkung, wenn man Privatsphäre will. So funktionieren Dörfer.",
+            "fr": "Ma grand-mère connaissait tout le monde sur la Via Fieschi. Je connais encore la plupart d'entre eux. Le village est assez petit pour que l'anonymat n'existe pas—une bénédiction quand on a besoin d'aide, une contrainte quand on veut de l'intimité. C'est ainsi que fonctionnent les villages.",
+            "it": "Mia nonna conosceva tutti su Via Fieschi. Io conosco ancora la maggior parte di loro. Il borgo è abbastanza piccolo che l'anonimato non esiste—una benedizione quando hai bisogno di aiuto, un vincolo quando vuoi privacy. È così che funzionano i borghi."
+          },
+          "signature": {
+            "en": "Where the village lives",
+            "de": "Wo das Dorf lebt",
+            "fr": "Où le village vit",
+            "it": "Dove vive il borgo"
+          }
         },
         {
           "id": 3,
-          "name": "Largo Taragio",
-          "category": "Panoramic Terrace",
+          "name": {
+            "en": "Largo Taragio",
+            "de": "Largo Taragio",
+            "fr": "Largo Taragio",
+            "it": "Largo Taragio"
+          },
+          "category": {
+            "en": "Panoramic Terrace",
+            "de": "Panoramaterrasse",
+            "fr": "Terrasse Panoramique",
+            "it": "Terrazza Panoramica"
+          },
           "village": "Corniglia",
           "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1578662996442-48f60103fc96-regular.jpg",
-          "intro": "The main terrace opens to 360-degree views—north to Vernazza, south toward the sea, and across terraces that seem to cascade into infinity.",
-          "description": "This is where visitors end up, cameras in hand, trying to capture what cameras can't. The light changes constantly—morning mist, midday brilliance, golden sunset, moonlit silver. Each visit to the same spot reveals a different coastline.",
-          "giuliaComment": "I come here at different hours just to see how the view changes. Dawn is spectacular but requires commitment. Sunset is crowded but worth sharing. The best hour is the one after sunset, when visitors leave and locals reclaim the terrace.",
-          "signature": "Where horizons extend forever"
+          "intro": {
+            "en": "The main terrace opens to 360-degree views—north to Vernazza, south toward the sea, and across terraces that seem to cascade into infinity.",
+            "de": "Die Hauptterrasse öffnet sich zu 360-Grad-Aussichten—nördlich nach Vernazza, südlich zum Meer und über Terrassen, die ins Unendliche zu fallen scheinen.",
+            "fr": "La terrasse principale s'ouvre sur des vues à 360 degrés—au nord vers Vernazza, au sud vers la mer, et sur des terrasses qui semblent cascader à l'infini.",
+            "it": "La terrazza principale si apre su viste a 360 gradi—a nord verso Vernazza, a sud verso il mare, e su terrazze che sembrano precipitare all'infinito."
+          },
+          "description": {
+            "en": "This is where visitors end up, cameras in hand, trying to capture what cameras can't. The light changes constantly—morning mist, midday brilliance, golden sunset, moonlit silver. Each visit to the same spot reveals a different coastline.",
+            "de": "Hier landen die Besucher, Kameras in der Hand, und versuchen einzufangen, was Kameras nicht können. Das Licht ändert sich ständig—Morgennebel, Mittagsglanz, goldener Sonnenuntergang, mondsilbern. Jeder Besuch am gleichen Ort enthüllt eine andere Küste.",
+            "fr": "C'est là que les visiteurs finissent, appareil photo en main, essayant de capturer ce que les appareils ne peuvent pas. La lumière change constamment—brume matinale, éclat de midi, coucher de soleil doré, argent au clair de lune. Chaque visite au même endroit révèle un littoral différent.",
+            "it": "È qui che i visitatori finiscono, macchina fotografica in mano, cercando di catturare ciò che le macchine non possono. La luce cambia costantemente—nebbia mattutina, brillantezza di mezzogiorno, tramonto dorato, argento al chiaro di luna. Ogni visita allo stesso punto rivela una costa diversa."
+          },
+          "giuliaComment": {
+            "en": "I come here at different hours just to see how the view changes. Dawn is spectacular but requires commitment. Sunset is crowded but worth sharing. The best hour is the one after sunset, when visitors leave and locals reclaim the terrace.",
+            "de": "Ich komme zu verschiedenen Stunden hierher, nur um zu sehen, wie sich die Aussicht verändert. Die Morgendämmerung ist spektakulär, aber erfordert Engagement. Der Sonnenuntergang ist überfüllt, aber es lohnt sich, ihn zu teilen. Die beste Stunde ist die nach Sonnenuntergang, wenn Besucher gehen und Einheimische die Terrasse zurückgewinnen.",
+            "fr": "Je viens ici à différentes heures juste pour voir comment la vue change. L'aube est spectaculaire mais demande de l'engagement. Le coucher de soleil est bondé mais vaut la peine d'être partagé. La meilleure heure est celle après le coucher du soleil, quand les visiteurs partent et que les locaux reprennent la terrasse.",
+            "it": "Vengo qui a diverse ore solo per vedere come cambia la vista. L'alba è spettacolare ma richiede impegno. Il tramonto è affollato ma vale la pena condividerlo. L'ora migliore è quella dopo il tramonto, quando i visitatori se ne vanno e i locali riconquistano la terrazza."
+          },
+          "signature": {
+            "en": "Where horizons extend forever",
+            "de": "Wo Horizonte ins Unendliche reichen",
+            "fr": "Où les horizons s'étendent à l'infini",
+            "it": "Dove gli orizzonti si estendono all'infinito"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Village Without a Harbor",
-          "quote": "Every other Cinque Terre village has a harbor—boats, swimming, the constant presence of the sea at close range. Corniglia's relationship with the water is different: visible but distant, admired but not touched. This creates a different rhythm, one focused on land rather than sea."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelle Einlage",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Village Without a Harbor",
+            "de": "Das Dorf ohne Hafen",
+            "fr": "Le Village Sans Port",
+            "it": "Il Borgo Senza Porto"
+          },
+          "quote": {
+            "en": "Every other Cinque Terre village has a harbor—boats, swimming, the constant presence of the sea at close range. Corniglia's relationship with the water is different: visible but distant, admired but not touched. This creates a different rhythm, one focused on land rather than sea.",
+            "de": "Jedes andere Dorf der Cinque Terre hat einen Hafen—Boote, Schwimmen, die ständige Präsenz des Meeres in Reichweite. Corniglias Beziehung zum Wasser ist anders: sichtbar, aber entfernt, bewundert, aber nicht berührt. Das schafft einen anderen Rhythmus, einen, der auf das Land fokussiert ist, nicht auf das Meer.",
+            "fr": "Chaque autre village des Cinque Terre a un port—bateaux, baignade, la présence constante de la mer à portée de main. La relation de Corniglia avec l'eau est différente : visible mais distante, admirée mais pas touchée. Cela crée un rythme différent, centré sur la terre plutôt que sur la mer.",
+            "it": "Ogni altro borgo delle Cinque Terre ha un porto—barche, nuoto, la presenza costante del mare a portata di mano. Il rapporto di Corniglia con l'acqua è diverso: visibile ma distante, ammirato ma non toccato. Questo crea un ritmo diverso, concentrato sulla terra piuttosto che sul mare."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Wine Heritage",
-      "quote": "The Romans called this wine 'cornelia' and shipped it across the empire. Two thousand years later, the terraces they built still produce grapes, and Corniglia still defines itself by viticulture more than any other village.",
-      "content": [
-        "**Sciacchetrà is the treasure**. This dessert wine, made from grapes dried on the terraces, represents centuries of accumulated knowledge. Production is tiny—a few hundred bottles per family—and tasting it here means understanding what the landscape produces.",
-        "**The terraces require constant work**. Every dry-stone wall needs maintenance. Every storm damages something. The families who maintain these terraces do work that machines can't do, on slopes that defy logic.",
-        "**Wine shapes the calendar**. Pruning in spring, watching in summer, harvest in September. The village's rhythm follows the vines, not the tourist season. Visiting during harvest means seeing Corniglia as it's always been.",
-        "**Local wine is everywhere**. The bars pour wine from families who live in the village. The restaurants serve bottles made on the terraces visible through their windows. The connection between glass and land is immediate."
-      ]
+      "badge": {
+        "en": "The Wine Heritage",
+        "de": "Das Weinerbe",
+        "fr": "L'Héritage Viticole",
+        "it": "L'Eredità del Vino"
+      },
+      "quote": {
+        "en": "The Romans called this wine 'cornelia' and shipped it across the empire. Two thousand years later, the terraces they built still produce grapes, and Corniglia still defines itself by viticulture more than any other village.",
+        "de": "Die Römer nannten diesen Wein 'Cornelia' und verschifften ihn durch das ganze Reich. Zweitausend Jahre später produzieren die Terrassen, die sie bauten, immer noch Trauben, und Corniglia definiert sich mehr durch den Weinbau als jedes andere Dorf.",
+        "fr": "Les Romains appelaient ce vin 'cornelia' et l'expédiaient à travers l'empire. Deux mille ans plus tard, les terrasses qu'ils ont construites produisent encore du raisin, et Corniglia se définit encore par la viticulture plus que tout autre village.",
+        "it": "I Romani chiamavano questo vino 'cornelia' e lo spedivano in tutto l'impero. Duemila anni dopo, le terrazze che costruirono producono ancora uva, e Corniglia si definisce ancora attraverso la viticoltura più di qualsiasi altro borgo."
+      },
+      "content": {
+        "en": [
+          "**Sciacchetrà is the treasure**. This dessert wine, made from grapes dried on the terraces, represents centuries of accumulated knowledge. Production is tiny—a few hundred bottles per family—and tasting it here means understanding what the landscape produces.",
+          "**The terraces require constant work**. Every dry-stone wall needs maintenance. Every storm damages something. The families who maintain these terraces do work that machines can't do, on slopes that defy logic.",
+          "**Wine shapes the calendar**. Pruning in spring, watching in summer, harvest in September. The village's rhythm follows the vines, not the tourist season. Visiting during harvest means seeing Corniglia as it's always been.",
+          "**Local wine is everywhere**. The bars pour wine from families who live in the village. The restaurants serve bottles made on the terraces visible through their windows. The connection between glass and land is immediate."
+        ],
+        "de": [
+          "**Sciacchetrà ist der Schatz**. Dieser Dessertwein, hergestellt aus auf den Terrassen getrockneten Trauben, repräsentiert Jahrhunderte angesammelten Wissens. Die Produktion ist winzig—ein paar hundert Flaschen pro Familie—und ihn hier zu probieren bedeutet zu verstehen, was die Landschaft hervorbringt.",
+          "**Die Terrassen erfordern ständige Arbeit**. Jede Trockenmauer braucht Pflege. Jeder Sturm beschädigt etwas. Die Familien, die diese Terrassen pflegen, tun Arbeit, die Maschinen nicht können, auf Hängen, die der Logik trotzen.",
+          "**Wein prägt den Kalender**. Beschneiden im Frühling, Beobachten im Sommer, Ernte im September. Der Rhythmus des Dorfes folgt den Reben, nicht der Touristensaison. Während der Ernte zu besuchen bedeutet, Corniglia zu sehen, wie es immer war.",
+          "**Lokaler Wein ist überall**. Die Bars schenken Wein von Familien aus, die im Dorf leben. Die Restaurants servieren Flaschen, die auf den Terrassen hergestellt wurden, die durch ihre Fenster sichtbar sind. Die Verbindung zwischen Glas und Land ist unmittelbar."
+        ],
+        "fr": [
+          "**Le Sciacchetrà est le trésor**. Ce vin de dessert, fait de raisins séchés sur les terrasses, représente des siècles de savoir accumulé. La production est minuscule—quelques centaines de bouteilles par famille—et le déguster ici signifie comprendre ce que le paysage produit.",
+          "**Les terrasses demandent un travail constant**. Chaque mur de pierre sèche a besoin d'entretien. Chaque tempête endommage quelque chose. Les familles qui entretiennent ces terrasses font un travail que les machines ne peuvent pas faire, sur des pentes qui défient la logique.",
+          "**Le vin façonne le calendrier**. Taille au printemps, surveillance en été, vendange en septembre. Le rythme du village suit les vignes, pas la saison touristique. Visiter pendant les vendanges, c'est voir Corniglia comme il a toujours été.",
+          "**Le vin local est partout**. Les bars servent du vin de familles qui vivent dans le village. Les restaurants servent des bouteilles faites sur les terrasses visibles de leurs fenêtres. Le lien entre le verre et la terre est immédiat."
+        ],
+        "it": [
+          "**Lo Sciacchetrà è il tesoro**. Questo vino da dessert, fatto con uve essiccate sulle terrazze, rappresenta secoli di conoscenza accumulata. La produzione è minuscola—qualche centinaio di bottiglie per famiglia—e assaggiarlo qui significa capire cosa produce il paesaggio.",
+          "**Le terrazze richiedono lavoro costante**. Ogni muro a secco ha bisogno di manutenzione. Ogni tempesta danneggia qualcosa. Le famiglie che mantengono queste terrazze fanno un lavoro che le macchine non possono fare, su pendii che sfidano la logica.",
+          "**Il vino plasma il calendario**. Potatura in primavera, sorveglianza in estate, vendemmia a settembre. Il ritmo del borgo segue le viti, non la stagione turistica. Visitare durante la vendemmia significa vedere Corniglia com'è sempre stata.",
+          "**Il vino locale è ovunque**. I bar versano vino di famiglie che vivono nel borgo. I ristoranti servono bottiglie fatte sulle terrazze visibili dalle loro finestre. Il legame tra bicchiere e terra è immediato."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,48 +295,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Wine Tasting",
-          "category": "Local Experience",
+          "name": {
+            "en": "Wine Tasting",
+            "de": "Weinverkostung",
+            "fr": "Dégustation de Vin",
+            "it": "Degustazione di Vino"
+          },
+          "category": {
+            "en": "Local Experience",
+            "de": "Lokale Erfahrung",
+            "fr": "Expérience Locale",
+            "it": "Esperienza Locale"
+          },
           "village": "Corniglia",
           "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506377247377-2a5b3b417ebb-regular.jpg",
-          "intro": "Stone cellars carved into the hillside hold the village's liquid heritage—wines you can't find elsewhere, made by families you might meet.",
-          "description": "Cantina de Mananan offers tastings in a cellar that's been storing wine for centuries. The Cinque Terre DOC whites are crisp and mineral; the rare Sciacchetrà is golden, complex, worth the splurge. The explanations connect each glass to specific terraces visible outside.",
-          "giuliaComment": "I grew up thinking everyone had a cantina full of wine. It wasn't until I left that I understood how unusual this is—families making their own wine from their own terraces, as they've done for generations. The tastings here share something precious.",
-          "signature": "Where terraces become wine"
+          "intro": {
+            "en": "Stone cellars carved into the hillside hold the village's liquid heritage—wines you can't find elsewhere, made by families you might meet.",
+            "de": "In den Hang gehauene Steinkeller bergen das flüssige Erbe des Dorfes—Weine, die man anderswo nicht findet, von Familien gemacht, denen man begegnen könnte.",
+            "fr": "Des caves de pierre creusées dans la colline abritent l'héritage liquide du village—des vins introuvables ailleurs, faits par des familles que vous pourriez rencontrer.",
+            "it": "Cantine di pietra scavate nella collina custodiscono l'eredità liquida del borgo—vini che non si trovano altrove, fatti da famiglie che potreste incontrare."
+          },
+          "description": {
+            "en": "Cantina de Mananan offers tastings in a cellar that's been storing wine for centuries. The Cinque Terre DOC whites are crisp and mineral; the rare Sciacchetrà is golden, complex, worth the splurge. The explanations connect each glass to specific terraces visible outside.",
+            "de": "Die Cantina de Mananan bietet Verkostungen in einem Keller, der seit Jahrhunderten Wein lagert. Die Cinque Terre DOC-Weißweine sind knackig und mineralisch; der seltene Sciacchetrà ist golden, komplex, die Ausgabe wert. Die Erklärungen verbinden jedes Glas mit bestimmten draußen sichtbaren Terrassen.",
+            "fr": "La Cantina de Mananan propose des dégustations dans une cave qui stocke du vin depuis des siècles. Les blancs DOC des Cinque Terre sont vifs et minéraux ; le rare Sciacchetrà est doré, complexe, vaut la dépense. Les explications relient chaque verre à des terrasses spécifiques visibles dehors.",
+            "it": "La Cantina de Mananan offre degustazioni in una cantina che conserva vino da secoli. I bianchi DOC delle Cinque Terre sono freschi e minerali; il raro Sciacchetrà è dorato, complesso, vale la spesa. Le spiegazioni collegano ogni bicchiere a terrazze specifiche visibili fuori."
+          },
+          "giuliaComment": {
+            "en": "I grew up thinking everyone had a cantina full of wine. It wasn't until I left that I understood how unusual this is—families making their own wine from their own terraces, as they've done for generations. The tastings here share something precious.",
+            "de": "Ich bin aufgewachsen in dem Glauben, jeder hätte einen Keller voller Wein. Erst als ich wegging, verstand ich, wie ungewöhnlich das ist—Familien, die ihren eigenen Wein von ihren eigenen Terrassen machen, wie sie es seit Generationen tun. Die Verkostungen hier teilen etwas Kostbares.",
+            "fr": "J'ai grandi en pensant que tout le monde avait une cave pleine de vin. Ce n'est qu'en partant que j'ai compris à quel point c'est inhabituel—des familles faisant leur propre vin de leurs propres terrasses, comme ils le font depuis des générations. Les dégustations ici partagent quelque chose de précieux.",
+            "it": "Sono cresciuta pensando che tutti avessero una cantina piena di vino. Solo quando me ne sono andata ho capito quanto questo sia insolito—famiglie che fanno il proprio vino dalle proprie terrazze, come fanno da generazioni. Le degustazioni qui condividono qualcosa di prezioso."
+          },
+          "signature": {
+            "en": "Where terraces become wine",
+            "de": "Wo Terrassen zu Wein werden",
+            "fr": "Où les terrasses deviennent vin",
+            "it": "Dove le terrazze diventano vino"
+          }
         },
         {
           "id": 5,
-          "name": "Terrace Walking",
-          "category": "Landscape Immersion",
+          "name": {
+            "en": "Terrace Walking",
+            "de": "Terrassenwanderung",
+            "fr": "Marche sur les Terrasses",
+            "it": "Passeggiata tra le Terrazze"
+          },
+          "category": {
+            "en": "Landscape Immersion",
+            "de": "Landschaftseintauchen",
+            "fr": "Immersion Paysagère",
+            "it": "Immersione nel Paesaggio"
+          },
           "village": "Corniglia",
           "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1474224017046-182ece80b263-regular.jpg",
-          "intro": "The paths between terraces offer perspectives the main trails miss—intimate encounters with dry-stone walls, vines, and the engineering genius of centuries.",
-          "description": "You can walk the main Sentiero Azzurro or explore the secondary paths that wind through active vineyards. The secondary paths are quieter, steeper, and more revealing. You'll pass farmers at work, encounter tools unchanged since Roman times, and understand why UNESCO protected this landscape.",
-          "giuliaComment": "The tourist trail is beautiful but sanitized. The real landscape is the working one—the terraces where my neighbors still grow grapes, the walls they repair every winter, the paths worn by generations of farmers. Ask permission before entering private terraces, and most families will let you explore.",
-          "signature": "Where history is still being worked"
+          "intro": {
+            "en": "The paths between terraces offer perspectives the main trails miss—intimate encounters with dry-stone walls, vines, and the engineering genius of centuries.",
+            "de": "Die Pfade zwischen den Terrassen bieten Perspektiven, die die Hauptwege verpassen—intime Begegnungen mit Trockenmauern, Reben und dem Ingenieursgeist von Jahrhunderten.",
+            "fr": "Les chemins entre les terrasses offrent des perspectives que les sentiers principaux manquent—des rencontres intimes avec les murs de pierres sèches, les vignes, et le génie d'ingénierie de siècles.",
+            "it": "I sentieri tra le terrazze offrono prospettive che i percorsi principali perdono—incontri intimi con muri a secco, viti, e il genio ingegneristico di secoli."
+          },
+          "description": {
+            "en": "You can walk the main Sentiero Azzurro or explore the secondary paths that wind through active vineyards. The secondary paths are quieter, steeper, and more revealing. You'll pass farmers at work, encounter tools unchanged since Roman times, and understand why UNESCO protected this landscape.",
+            "de": "Sie können den Haupt-Sentiero Azzurro wandern oder die Nebenpfade erkunden, die sich durch aktive Weinberge winden. Die Nebenpfade sind ruhiger, steiler und aufschlussreicher. Sie passieren arbeitende Bauern, begegnen Werkzeugen, die seit der Römerzeit unverändert sind, und verstehen, warum die UNESCO diese Landschaft geschützt hat.",
+            "fr": "Vous pouvez marcher sur le Sentiero Azzurro principal ou explorer les chemins secondaires qui serpentent à travers les vignobles actifs. Les chemins secondaires sont plus calmes, plus raides, et plus révélateurs. Vous passerez devant des fermiers au travail, rencontrerez des outils inchangés depuis l'époque romaine, et comprendrez pourquoi l'UNESCO a protégé ce paysage.",
+            "it": "Si può percorrere il Sentiero Azzurro principale o esplorare i sentieri secondari che si snodano attraverso i vigneti attivi. I sentieri secondari sono più tranquilli, più ripidi, e più rivelatori. Passerete accanto a contadini al lavoro, incontrerete attrezzi immutati dai tempi romani, e capirete perché l'UNESCO ha protetto questo paesaggio."
+          },
+          "giuliaComment": {
+            "en": "The tourist trail is beautiful but sanitized. The real landscape is the working one—the terraces where my neighbors still grow grapes, the walls they repair every winter, the paths worn by generations of farmers. Ask permission before entering private terraces, and most families will let you explore.",
+            "de": "Der Touristenpfad ist schön, aber bereinigt. Die echte Landschaft ist die arbeitende—die Terrassen, wo meine Nachbarn noch Trauben anbauen, die Mauern, die sie jeden Winter reparieren, die Pfade, die von Generationen von Bauern ausgetreten wurden. Fragen Sie um Erlaubnis, bevor Sie private Terrassen betreten, und die meisten Familien werden Sie erkunden lassen.",
+            "fr": "Le sentier touristique est beau mais aseptisé. Le vrai paysage est celui qui travaille—les terrasses où mes voisins cultivent encore du raisin, les murs qu'ils réparent chaque hiver, les chemins usés par des générations de fermiers. Demandez la permission avant d'entrer sur les terrasses privées, et la plupart des familles vous laisseront explorer.",
+            "it": "Il sentiero turistico è bello ma sterilizzato. Il vero paesaggio è quello che lavora—le terrazze dove i miei vicini coltivano ancora uva, i muri che riparano ogni inverno, i sentieri consumati da generazioni di contadini. Chiedete il permesso prima di entrare nelle terrazze private, e la maggior parte delle famiglie vi lascerà esplorare."
+          },
+          "signature": {
+            "en": "Where history is still being worked",
+            "de": "Wo Geschichte noch bearbeitet wird",
+            "fr": "Où l'histoire est encore travaillée",
+            "it": "Dove la storia è ancora lavorata"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Quiet Village Secret",
-          "quote": "Corniglia's visitors tend to be different—less hurried, more curious, willing to climb. The stairs filter out the cruise ship crowds. What remains is calmer, more conversational, more like what the village was before tourism."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Quiet Village Secret",
+            "de": "Das Geheimnis des stillen Dorfes",
+            "fr": "Le Secret du Village Tranquille",
+            "it": "Il Segreto del Borgo Silenzioso"
+          },
+          "quote": {
+            "en": "Corniglia's visitors tend to be different—less hurried, more curious, willing to climb. The stairs filter out the cruise ship crowds. What remains is calmer, more conversational, more like what the village was before tourism.",
+            "de": "Corniglias Besucher sind tendenziell anders—weniger gehetzt, neugieriger, bereit zu steigen. Die Treppen filtern die Kreuzfahrtmassen heraus. Was bleibt, ist ruhiger, gesprächiger, mehr wie das Dorf vor dem Tourismus war.",
+            "fr": "Les visiteurs de Corniglia ont tendance à être différents—moins pressés, plus curieux, prêts à grimper. Les escaliers filtrent les foules des croisières. Ce qui reste est plus calme, plus conversationnel, plus comme ce que le village était avant le tourisme.",
+            "it": "I visitatori di Corniglia tendono ad essere diversi—meno frettolosi, più curiosi, disposti a salire. Le scale filtrano le folle delle crociere. Ciò che resta è più calmo, più conversazionale, più simile a com'era il borgo prima del turismo."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Village That Makes You Earn It",
-      "content": [
-        "Corniglia isn't for everyone, and it knows this. The stairs, the elevation, the lack of a beach—these aren't flaws to be overcome but characteristics to be appreciated. The village has chosen what kind of visitors it wants.",
-        "Come prepared to climb. Come prepared to slow down. Come prepared to taste wines from terraces you can see, to eat food from gardens you can visit, to experience a village that still works the way villages worked for centuries.",
-        "The 377 steps are an invitation, not an obstacle. Those who accept discover Corniglia's secret: that the hardest village to reach is often the most rewarding to find."
-      ],
+      "title": {
+        "en": "The Village That Makes You Earn It",
+        "de": "Das Dorf, das man sich verdienen muss",
+        "fr": "Le Village Qui Se Mérite",
+        "it": "Il Borgo Che Va Conquistato"
+      },
+      "content": {
+        "en": [
+          "Corniglia isn't for everyone, and it knows this. The stairs, the elevation, the lack of a beach—these aren't flaws to be overcome but characteristics to be appreciated. The village has chosen what kind of visitors it wants.",
+          "Come prepared to climb. Come prepared to slow down. Come prepared to taste wines from terraces you can see, to eat food from gardens you can visit, to experience a village that still works the way villages worked for centuries.",
+          "The 377 steps are an invitation, not an obstacle. Those who accept discover Corniglia's secret: that the hardest village to reach is often the most rewarding to find."
+        ],
+        "de": [
+          "Corniglia ist nicht für jeden, und es weiß das. Die Treppen, die Höhenlage, das Fehlen eines Strandes—das sind keine Mängel, die überwunden werden müssen, sondern Eigenschaften, die geschätzt werden sollten. Das Dorf hat gewählt, welche Art von Besuchern es will.",
+          "Komme bereit zu steigen. Komme bereit, langsamer zu werden. Komme bereit, Weine von Terrassen zu probieren, die du sehen kannst, Essen aus Gärten zu essen, die du besuchen kannst, ein Dorf zu erleben, das noch so funktioniert, wie Dörfer seit Jahrhunderten funktionieren.",
+          "Die 377 Stufen sind eine Einladung, kein Hindernis. Wer sie annimmt, entdeckt Corniglias Geheimnis: dass das am schwersten zu erreichende Dorf oft das lohnendste zu finden ist."
+        ],
+        "fr": [
+          "Corniglia n'est pas pour tout le monde, et il le sait. Les escaliers, l'altitude, l'absence de plage—ce ne sont pas des défauts à surmonter mais des caractéristiques à apprécier. Le village a choisi quel type de visiteurs il veut.",
+          "Venez prêt à grimper. Venez prêt à ralentir. Venez prêt à goûter des vins de terrasses que vous pouvez voir, à manger de la nourriture de jardins que vous pouvez visiter, à vivre un village qui fonctionne encore comme les villages fonctionnaient depuis des siècles.",
+          "Les 377 marches sont une invitation, pas un obstacle. Ceux qui l'acceptent découvrent le secret de Corniglia : que le village le plus difficile à atteindre est souvent le plus gratifiant à trouver."
+        ],
+        "it": [
+          "Corniglia non è per tutti, e lo sa. Le scale, l'altitudine, la mancanza di una spiaggia—questi non sono difetti da superare ma caratteristiche da apprezzare. Il borgo ha scelto che tipo di visitatori vuole.",
+          "Venite pronti a salire. Venite pronti a rallentare. Venite pronti ad assaggiare vini da terrazze che potete vedere, a mangiare cibo da orti che potete visitare, a vivere un borgo che funziona ancora come i borghi funzionavano da secoli.",
+          "I 377 gradini sono un invito, non un ostacolo. Chi lo accetta scopre il segreto di Corniglia: che il borgo più difficile da raggiungere è spesso il più gratificante da trovare."
+        ]
+      },
       "buttons": [
-        { "text": "Where to Stay", "url": "/en/corniglia/hotels", "variant": "primary" },
-        { "text": "Getting Here", "url": "/en/corniglia/getting-here", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Unterkünfte",
+            "fr": "Hébergements",
+            "it": "Dove Alloggiare"
+          },
+          "url": {
+            "en": "/en/corniglia/hotels",
+            "de": "/de/corniglia/hotels",
+            "fr": "/fr/corniglia/hotels",
+            "it": "/it/corniglia/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Comment Venir",
+            "it": "Come Arrivare"
+          },
+          "url": {
+            "en": "/en/corniglia/getting-here",
+            "de": "/de/corniglia/getting-here",
+            "fr": "/fr/corniglia/getting-here",
+            "it": "/it/corniglia/getting-here"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -157,5 +471,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T19:00:00.000Z"
+  "updated_at": "2026-01-07T14:15:00.000Z"
 }

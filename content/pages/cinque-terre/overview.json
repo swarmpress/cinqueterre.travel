@@ -7,40 +7,94 @@
     "it": "/it/cinque-terre/overview"
   },
   "title": {
-    "en": "Cinque Terre: Where Ancient Villages Meet the Modern Soul"
+    "en": "Cinque Terre: Where Ancient Villages Meet the Modern Soul",
+    "de": "Cinque Terre: Wo uralte Dörfer auf die moderne Seele treffen",
+    "fr": "Cinque Terre : Quand les villages ancestraux rencontrent l'âme moderne",
+    "it": "Cinque Terre: Dove i borghi antichi incontrano l'anima moderna"
   },
   "page_type": "overview",
   "template": "cinque-terre-editorial",
   "seo": {
     "title": {
-      "en": "Cinque Terre Italy Travel Guide | Cinqueterre.travel"
+      "en": "Cinque Terre Italy Travel Guide | Cinqueterre.travel",
+      "de": "Cinque Terre Italien Reiseführer | Cinqueterre.travel",
+      "fr": "Guide de Voyage Cinque Terre Italie | Cinqueterre.travel",
+      "it": "Guida Turistica Cinque Terre Italia | Cinqueterre.travel"
     },
     "description": {
-      "en": "Discover the UNESCO villages of Cinque Terre. Expert guide to luxury stays, authentic experiences, and timeless Italian coastal culture."
+      "en": "Discover the UNESCO villages of Cinque Terre. Expert guide to luxury stays, authentic experiences, and timeless Italian coastal culture.",
+      "de": "Entdecken Sie die UNESCO-Dörfer der Cinque Terre. Expertenführer für exklusive Unterkünfte, authentische Erlebnisse und zeitlose italienische Küstenkultur.",
+      "fr": "Découvrez les villages UNESCO des Cinque Terre. Guide expert pour séjours de luxe, expériences authentiques et culture côtière italienne intemporelle.",
+      "it": "Scopri i borghi UNESCO delle Cinque Terre. Guida esperta per soggiorni di lusso, esperienze autentiche e cultura costiera italiana senza tempo."
     }
   },
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Five Villages,<br/>One Timeless Story",
-      "subtitle": "For over a millennium, these clifftop sanctuaries have defied time itself. Here, where medieval stone meets azure sea, you'll discover why the Cinque Terre remains Italy's most poetic coastline - and how to experience it like the discerning traveler you are.",
-      "badge": "UNESCO World Heritage",
+      "title": {
+        "en": "Five Villages,<br/>One Timeless Story",
+        "de": "Fünf Dörfer,<br/>Eine zeitlose Geschichte",
+        "fr": "Cinq villages,<br/>Une histoire éternelle",
+        "it": "Cinque borghi,<br/>Una storia senza tempo"
+      },
+      "subtitle": {
+        "en": "For over a millennium, these clifftop sanctuaries have defied time itself. Here, where medieval stone meets azure sea, you'll discover why the Cinque Terre remains Italy's most poetic coastline - and how to experience it like the discerning traveler you are.",
+        "de": "Seit über einem Jahrtausend trotzen diese Felsenheiligtümer der Zeit selbst. Hier, wo mittelalterlicher Stein auf azurblaues Meer trifft, entdecken Sie, warum die Cinque Terre Italiens poetischste Küste bleibt - und wie Sie sie als anspruchsvoller Reisender erleben können.",
+        "fr": "Depuis plus d'un millénaire, ces sanctuaires perchés défient le temps. Ici, où la pierre médiévale rencontre la mer azur, vous découvrirez pourquoi les Cinque Terre restent la côte la plus poétique d'Italie - et comment la vivre en voyageur averti.",
+        "it": "Da oltre un millennio, questi santuari arroccati sfidano il tempo stesso. Qui, dove la pietra medievale incontra il mare azzurro, scoprirai perché le Cinque Terre rimangono la costa più poetica d'Italia - e come viverla da viaggiatore esigente."
+      },
+      "badge": {
+        "en": "UNESCO World Heritage",
+        "de": "UNESCO-Welterbe",
+        "fr": "Patrimoine Mondial UNESCO",
+        "it": "Patrimonio UNESCO"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
       "height": "70vh"
     },
     {
       "type": "editorial-intro",
-      "badge": "A Living Heritage",
-      "quote": "Today's UNESCO designation honors not just the visual splendor, but the living culture within. When you hear the evening church bells of San Lorenzo in Manarola, you're experiencing the same call to prayer that has echoed for nearly a thousand years.",
-      "leftContent": "<p><strong>1000+ years of history</strong> have shaped these five villages - Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore. Continuous settlement since medieval times created an extraordinary cultural landscape.</p><p>Over <strong>3,000 stone terraces</strong> cling to the dramatic <strong>12km of coastline</strong>, hand-built by generations defying gravity.</p>",
-      "rightContent": "<p>These aren't just pretty villages; they're <strong>architectural marvels</strong>. Each colored house represents a family's ancestral claim, painted in specific hues that fishermen could recognize from the sea.</p><p>The narrow <strong>carruggi</strong> (medieval alleyways) weren't designed for tourists - they were fortress-like passages protecting communities from Saracen raids.</p>"
+      "badge": {
+        "en": "A Living Heritage",
+        "de": "Ein lebendiges Erbe",
+        "fr": "Un patrimoine vivant",
+        "it": "Un patrimonio vivo"
+      },
+      "quote": {
+        "en": "Today's UNESCO designation honors not just the visual splendor, but the living culture within. When you hear the evening church bells of San Lorenzo in Manarola, you're experiencing the same call to prayer that has echoed for nearly a thousand years.",
+        "de": "Die heutige UNESCO-Auszeichnung würdigt nicht nur die visuelle Pracht, sondern die lebendige Kultur darin. Wenn Sie die Abendglocken von San Lorenzo in Manarola hören, erleben Sie denselben Gebetsruf, der seit fast tausend Jahren erklingt.",
+        "fr": "La désignation UNESCO d'aujourd'hui honore non seulement la splendeur visuelle, mais la culture vivante qu'elle abrite. Quand vous entendez les cloches du soir de San Lorenzo à Manarola, vous vivez le même appel à la prière qui résonne depuis près de mille ans.",
+        "it": "La designazione UNESCO di oggi onora non solo lo splendore visivo, ma la cultura viva al suo interno. Quando senti le campane serali di San Lorenzo a Manarola, stai vivendo la stessa chiamata alla preghiera che risuona da quasi mille anni."
+      },
+      "leftContent": {
+        "en": "<p><strong>1000+ years of history</strong> have shaped these five villages - Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore. Continuous settlement since medieval times created an extraordinary cultural landscape.</p><p>Over <strong>3,000 stone terraces</strong> cling to the dramatic <strong>12km of coastline</strong>, hand-built by generations defying gravity.</p>",
+        "de": "<p><strong>Über 1000 Jahre Geschichte</strong> haben diese fünf Dörfer geprägt - Monterosso, Vernazza, Corniglia, Manarola und Riomaggiore. Die kontinuierliche Besiedlung seit dem Mittelalter schuf eine außergewöhnliche Kulturlandschaft.</p><p>Über <strong>3.000 Steinterrassen</strong> klammern sich an die dramatischen <strong>12 km Küstenlinie</strong>, von Generationen handgebaut, die der Schwerkraft trotzten.</p>",
+        "fr": "<p><strong>Plus de 1000 ans d'histoire</strong> ont façonné ces cinq villages - Monterosso, Vernazza, Corniglia, Manarola et Riomaggiore. L'occupation continue depuis l'époque médiévale a créé un paysage culturel extraordinaire.</p><p>Plus de <strong>3 000 terrasses de pierre</strong> s'accrochent aux <strong>12 km de côte</strong> spectaculaire, construites à la main par des générations défiant la gravité.</p>",
+        "it": "<p><strong>Oltre 1000 anni di storia</strong> hanno plasmato questi cinque borghi - Monterosso, Vernazza, Corniglia, Manarola e Riomaggiore. L'insediamento continuo dal Medioevo ha creato un paesaggio culturale straordinario.</p><p>Oltre <strong>3.000 terrazze di pietra</strong> si aggrappano ai drammatici <strong>12 km di costa</strong>, costruite a mano da generazioni che hanno sfidato la gravità.</p>"
+      },
+      "rightContent": {
+        "en": "<p>These aren't just pretty villages; they're <strong>architectural marvels</strong>. Each colored house represents a family's ancestral claim, painted in specific hues that fishermen could recognize from the sea.</p><p>The narrow <strong>carruggi</strong> (medieval alleyways) weren't designed for tourists - they were fortress-like passages protecting communities from Saracen raids.</p>",
+        "de": "<p>Das sind nicht nur hübsche Dörfer; es sind <strong>architektonische Wunderwerke</strong>. Jedes farbige Haus repräsentiert den Ahnenanspruch einer Familie, in spezifischen Farbtönen gestrichen, die Fischer vom Meer aus erkennen konnten.</p><p>Die engen <strong>Carruggi</strong> (mittelalterliche Gassen) wurden nicht für Touristen entworfen - es waren festungsartige Durchgänge, die die Gemeinschaften vor Sarazenenüberfällen schützten.</p>",
+        "fr": "<p>Ce ne sont pas seulement de jolis villages ; ce sont des <strong>merveilles architecturales</strong>. Chaque maison colorée représente la revendication ancestrale d'une famille, peinte dans des teintes spécifiques que les pêcheurs pouvaient reconnaître depuis la mer.</p><p>Les étroits <strong>carruggi</strong> (ruelles médiévales) n'ont pas été conçus pour les touristes - c'étaient des passages fortifiés protégeant les communautés des raids sarrasins.</p>",
+        "it": "<p>Non sono solo bei borghi; sono <strong>meraviglie architettoniche</strong>. Ogni casa colorata rappresenta la rivendicazione ancestrale di una famiglia, dipinta in tonalità specifiche che i pescatori potevano riconoscere dal mare.</p><p>Gli stretti <strong>carruggi</strong> (vicoli medievali) non furono progettati per i turisti - erano passaggi fortificati che proteggevano le comunità dalle incursioni saracene.</p>"
+      }
     },
     {
       "type": "content-section",
       "variant": "text-with-image-right",
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551698618-1dfe5d97d256-hero.jpg",
-      "title": "Where Time Carved Beauty from Stone",
-      "content": "The story of the Cinque Terre begins in the 11th century, when Benedictine monks first carved terraces into these impossible cliffs. What followed was an extraordinary act of human determination - generation after generation building a vertical civilization that would defy both gravity and time.\n\nThese aren't just pretty villages; they're architectural marvels. Each colored house represents a family's ancestral claim, painted in specific hues that fishermen could recognize from the sea. The narrow *carruggi* (medieval alleyways) weren't designed for tourists - they were fortress-like passages protecting communities from Saracen raids.\n\nToday's UNESCO designation honors not just the visual splendor, but the living culture within. When you hear the evening church bells of San Lorenzo in Manarola, you're experiencing the same call to prayer that has echoed for nearly a thousand years."
+      "title": {
+        "en": "Where Time Carved Beauty from Stone",
+        "de": "Wo die Zeit Schönheit aus Stein meißelte",
+        "fr": "Là où le temps a sculpté la beauté dans la pierre",
+        "it": "Dove il tempo ha scolpito la bellezza dalla pietra"
+      },
+      "content": {
+        "en": "The story of the Cinque Terre begins in the 11th century, when Benedictine monks first carved terraces into these impossible cliffs. What followed was an extraordinary act of human determination - generation after generation building a vertical civilization that would defy both gravity and time.\n\nThese aren't just pretty villages; they're architectural marvels. Each colored house represents a family's ancestral claim, painted in specific hues that fishermen could recognize from the sea. The narrow *carruggi* (medieval alleyways) weren't designed for tourists - they were fortress-like passages protecting communities from Saracen raids.\n\nToday's UNESCO designation honors not just the visual splendor, but the living culture within. When you hear the evening church bells of San Lorenzo in Manarola, you're experiencing the same call to prayer that has echoed for nearly a thousand years.",
+        "de": "Die Geschichte der Cinque Terre beginnt im 11. Jahrhundert, als Benediktinermönche erstmals Terrassen in diese unmöglichen Klippen schlugen. Was folgte, war ein außergewöhnlicher Akt menschlicher Entschlossenheit - Generation um Generation baute eine vertikale Zivilisation, die sowohl der Schwerkraft als auch der Zeit trotzen würde.\n\nDas sind nicht nur hübsche Dörfer; es sind architektonische Wunderwerke. Jedes farbige Haus repräsentiert den Ahnenanspruch einer Familie, in spezifischen Farbtönen gestrichen, die Fischer vom Meer aus erkennen konnten. Die engen *Carruggi* (mittelalterliche Gassen) wurden nicht für Touristen entworfen - es waren festungsartige Durchgänge, die die Gemeinschaften vor Sarazenenüberfällen schützten.\n\nDie heutige UNESCO-Auszeichnung würdigt nicht nur die visuelle Pracht, sondern die lebendige Kultur darin. Wenn Sie die Abendglocken von San Lorenzo in Manarola hören, erleben Sie denselben Gebetsruf, der seit fast tausend Jahren erklingt.",
+        "fr": "L'histoire des Cinque Terre commence au XIe siècle, quand les moines bénédictins ont taillé les premières terrasses dans ces falaises impossibles. Ce qui a suivi fut un acte extraordinaire de détermination humaine - génération après génération construisant une civilisation verticale qui défierait à la fois la gravité et le temps.\n\nCe ne sont pas seulement de jolis villages ; ce sont des merveilles architecturales. Chaque maison colorée représente la revendication ancestrale d'une famille, peinte dans des teintes spécifiques que les pêcheurs pouvaient reconnaître depuis la mer. Les étroits *carruggi* (ruelles médiévales) n'ont pas été conçus pour les touristes - c'étaient des passages fortifiés protégeant les communautés des raids sarrasins.\n\nLa désignation UNESCO d'aujourd'hui honore non seulement la splendeur visuelle, mais la culture vivante qu'elle abrite. Quand vous entendez les cloches du soir de San Lorenzo à Manarola, vous vivez le même appel à la prière qui résonne depuis près de mille ans.",
+        "it": "La storia delle Cinque Terre inizia nell'XI secolo, quando i monaci benedettini scolpirono le prime terrazze in queste scogliere impossibili. Quello che seguì fu uno straordinario atto di determinazione umana - generazione dopo generazione costruendo una civiltà verticale che avrebbe sfidato sia la gravità che il tempo.\n\nNon sono solo bei borghi; sono meraviglie architettoniche. Ogni casa colorata rappresenta la rivendicazione ancestrale di una famiglia, dipinta in tonalità specifiche che i pescatori potevano riconoscere dal mare. Gli stretti *carruggi* (vicoli medievali) non furono progettati per i turisti - erano passaggi fortificati che proteggevano le comunità dalle incursioni saracene.\n\nLa designazione UNESCO di oggi onora non solo lo splendore visivo, ma la cultura viva al suo interno. Quando senti le campane serali di San Lorenzo a Manarola, stai vivendo la stessa chiamata alla preghiera che risuona da quasi mille anni."
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -48,87 +102,305 @@
       "items": [
         {
           "id": 1,
-          "name": "The Coastal Railway",
-          "category": "Transport",
-          "description": "Your lifeline between villages. Travel like locals on Italy's most scenic train route - just remember to validate your ticket before boarding.",
-          "signature": "The journey that connects five worlds"
+          "name": {
+            "en": "The Coastal Railway",
+            "de": "Die Küstenbahn",
+            "fr": "Le chemin de fer côtier",
+            "it": "La ferrovia costiera"
+          },
+          "category": {
+            "en": "Transport",
+            "de": "Verkehr",
+            "fr": "Transport",
+            "it": "Trasporti"
+          },
+          "description": {
+            "en": "Your lifeline between villages. Travel like locals on Italy's most scenic train route - just remember to validate your ticket before boarding.",
+            "de": "Ihre Lebensader zwischen den Dörfern. Reisen Sie wie Einheimische auf Italiens malerischster Zugstrecke - vergessen Sie nicht, Ihr Ticket vor dem Einsteigen zu entwerten.",
+            "fr": "Votre lien vital entre les villages. Voyagez comme les locaux sur la ligne de train la plus pittoresque d'Italie - n'oubliez pas de composter votre billet avant d'embarquer.",
+            "it": "La vostra ancora di salvezza tra i borghi. Viaggiate come i locali sulla tratta ferroviaria più panoramica d'Italia - ricordatevi di convalidare il biglietto prima di salire."
+          },
+          "signature": {
+            "en": "The journey that connects five worlds",
+            "de": "Die Reise, die fünf Welten verbindet",
+            "fr": "Le voyage qui relie cinq mondes",
+            "it": "Il viaggio che collega cinque mondi"
+          }
         },
         {
           "id": 2,
-          "name": "Ancient Pathways",
-          "category": "Hiking",
-          "description": "Walk the Sentiero Azzurro (Blue Trail) that connected these villages for centuries. Each section reveals different perspectives on this vertical world.",
-          "signature": "Footsteps echoing through millennia"
+          "name": {
+            "en": "Ancient Pathways",
+            "de": "Alte Pfade",
+            "fr": "Sentiers ancestraux",
+            "it": "Antichi sentieri"
+          },
+          "category": {
+            "en": "Hiking",
+            "de": "Wandern",
+            "fr": "Randonnée",
+            "it": "Escursionismo"
+          },
+          "description": {
+            "en": "Walk the Sentiero Azzurro (Blue Trail) that connected these villages for centuries. Each section reveals different perspectives on this vertical world.",
+            "de": "Wandern Sie den Sentiero Azzurro (Blauen Weg), der diese Dörfer seit Jahrhunderten verbindet. Jeder Abschnitt enthüllt verschiedene Perspektiven auf diese vertikale Welt.",
+            "fr": "Parcourez le Sentiero Azzurro (Sentier Bleu) qui relie ces villages depuis des siècles. Chaque section révèle différentes perspectives sur ce monde vertical.",
+            "it": "Percorri il Sentiero Azzurro che collega questi borghi da secoli. Ogni tratto rivela prospettive diverse su questo mondo verticale."
+          },
+          "signature": {
+            "en": "Footsteps echoing through millennia",
+            "de": "Schritte, die durch Jahrtausende hallen",
+            "fr": "Des pas qui résonnent à travers les millénaires",
+            "it": "Passi che echeggiano attraverso i millenni"
+          }
         },
         {
           "id": 3,
-          "name": "Heroic Viticulture",
-          "category": "Wine",
-          "description": "Taste Sciacchetra, the golden dessert wine that requires hand-harvesting grapes from impossible terraces. Each bottle represents human triumph over terrain.",
-          "signature": "Wine born from determination"
+          "name": {
+            "en": "Heroic Viticulture",
+            "de": "Heroischer Weinbau",
+            "fr": "Viticulture héroïque",
+            "it": "Viticoltura eroica"
+          },
+          "category": {
+            "en": "Wine",
+            "de": "Wein",
+            "fr": "Vin",
+            "it": "Vino"
+          },
+          "description": {
+            "en": "Taste Sciacchetra, the golden dessert wine that requires hand-harvesting grapes from impossible terraces. Each bottle represents human triumph over terrain.",
+            "de": "Kosten Sie Sciacchetra, den goldenen Dessertwein, der die Handlese von Trauben auf unmöglichen Terrassen erfordert. Jede Flasche repräsentiert den menschlichen Triumph über das Gelände.",
+            "fr": "Goûtez au Sciacchetra, le vin de dessert doré qui nécessite la vendange manuelle de raisins sur des terrasses impossibles. Chaque bouteille représente le triomphe humain sur le terrain.",
+            "it": "Assaggia lo Sciacchetrà, il vino da dessert dorato che richiede la vendemmia manuale delle uve da terrazze impossibili. Ogni bottiglia rappresenta il trionfo umano sul territorio."
+          },
+          "signature": {
+            "en": "Wine born from determination",
+            "de": "Wein geboren aus Entschlossenheit",
+            "fr": "Un vin né de la détermination",
+            "it": "Vino nato dalla determinazione"
+          }
         },
         {
           "id": 4,
-          "name": "Sacred Traditions",
-          "category": "Culture",
-          "description": "Experience centuries-old festivals like Monterosso's Lemon Festival or Vernazza's Santa Margherita procession, where entire villages become participants in living history.",
-          "signature": "Faith that moves through generations"
+          "name": {
+            "en": "Sacred Traditions",
+            "de": "Heilige Traditionen",
+            "fr": "Traditions sacrées",
+            "it": "Tradizioni sacre"
+          },
+          "category": {
+            "en": "Culture",
+            "de": "Kultur",
+            "fr": "Culture",
+            "it": "Cultura"
+          },
+          "description": {
+            "en": "Experience centuries-old festivals like Monterosso's Lemon Festival or Vernazza's Santa Margherita procession, where entire villages become participants in living history.",
+            "de": "Erleben Sie jahrhundertealte Feste wie Monterossos Zitronenfest oder Vernazzas Santa Margherita-Prozession, bei denen ganze Dörfer zu Teilnehmern lebendiger Geschichte werden.",
+            "fr": "Vivez des festivals séculaires comme la Fête du Citron de Monterosso ou la procession de Santa Margherita à Vernazza, où des villages entiers deviennent acteurs de l'histoire vivante.",
+            "it": "Vivi feste secolari come la Sagra del Limone di Monterosso o la processione di Santa Margherita a Vernazza, dove interi borghi diventano protagonisti della storia vivente."
+          },
+          "signature": {
+            "en": "Faith that moves through generations",
+            "de": "Glaube, der durch Generationen wirkt",
+            "fr": "Une foi qui traverse les générations",
+            "it": "Fede che attraversa le generazioni"
+          }
         },
         {
           "id": 5,
-          "name": "Medieval Architecture",
-          "category": "Heritage",
-          "description": "Discover defensive towers, Romanesque churches, and loggia that have stood sentinel over the Mediterranean for nearly a millennium.",
-          "signature": "Stone witnesses to centuries"
+          "name": {
+            "en": "Medieval Architecture",
+            "de": "Mittelalterliche Architektur",
+            "fr": "Architecture médiévale",
+            "it": "Architettura medievale"
+          },
+          "category": {
+            "en": "Heritage",
+            "de": "Kulturerbe",
+            "fr": "Patrimoine",
+            "it": "Patrimonio"
+          },
+          "description": {
+            "en": "Discover defensive towers, Romanesque churches, and loggia that have stood sentinel over the Mediterranean for nearly a millennium.",
+            "de": "Entdecken Sie Wehrtürme, romanische Kirchen und Loggien, die seit fast einem Jahrtausend Wache über das Mittelmeer halten.",
+            "fr": "Découvrez des tours défensives, des églises romanes et des loggias qui montent la garde sur la Méditerranée depuis près d'un millénaire.",
+            "it": "Scopri torri difensive, chiese romaniche e logge che vegliano sul Mediterraneo da quasi un millennio."
+          },
+          "signature": {
+            "en": "Stone witnesses to centuries",
+            "de": "Steinzeugen der Jahrhunderte",
+            "fr": "Témoins de pierre à travers les siècles",
+            "it": "Testimoni di pietra attraverso i secoli"
+          }
         },
         {
           "id": 6,
-          "name": "Maritime Heritage",
-          "category": "Tradition",
-          "description": "Join fishermen at dawn in Monterosso or learn traditional anchovy preservation techniques that have sustained these communities for generations.",
-          "signature": "The sea has always provided"
+          "name": {
+            "en": "Maritime Heritage",
+            "de": "Maritimes Erbe",
+            "fr": "Patrimoine maritime",
+            "it": "Patrimonio marittimo"
+          },
+          "category": {
+            "en": "Tradition",
+            "de": "Tradition",
+            "fr": "Tradition",
+            "it": "Tradizione"
+          },
+          "description": {
+            "en": "Join fishermen at dawn in Monterosso or learn traditional anchovy preservation techniques that have sustained these communities for generations.",
+            "de": "Begleiten Sie Fischer im Morgengrauen in Monterosso oder lernen Sie traditionelle Sardellen-Konservierungstechniken, die diese Gemeinschaften seit Generationen ernähren.",
+            "fr": "Rejoignez les pêcheurs à l'aube à Monterosso ou apprenez les techniques traditionnelles de conservation des anchois qui ont nourri ces communautés pendant des générations.",
+            "it": "Unisciti ai pescatori all'alba a Monterosso o impara le tecniche tradizionali di conservazione delle acciughe che hanno sostenuto queste comunità per generazioni."
+          },
+          "signature": {
+            "en": "The sea has always provided",
+            "de": "Das Meer hat immer gegeben",
+            "fr": "La mer a toujours pourvu",
+            "it": "Il mare ha sempre provveduto"
+          }
         }
       ],
       "interludes": []
     },
     {
       "type": "faq-section",
-      "title": "Navigating the Cinque Terre Wisely",
+      "title": {
+        "en": "Navigating the Cinque Terre Wisely",
+        "de": "Die Cinque Terre klug erkunden",
+        "fr": "Naviguer sagement aux Cinque Terre",
+        "it": "Navigare saggiamente le Cinque Terre"
+      },
       "faqs": [
         {
-          "question": "When is the best time to visit for a more intimate experience?",
-          "answer": "Late September through October offers the perfect balance - warm swimming weather, harvest season in the vineyards, and significantly fewer crowds. The light during golden hour is particularly magical for photography, and restaurants return to serving locals alongside visitors."
+          "question": {
+            "en": "When is the best time to visit for a more intimate experience?",
+            "de": "Wann ist die beste Zeit für ein intimeres Erlebnis?",
+            "fr": "Quelle est la meilleure période pour une expérience plus intime ?",
+            "it": "Qual è il periodo migliore per un'esperienza più intima?"
+          },
+          "answer": {
+            "en": "Late September through October offers the perfect balance - warm swimming weather, harvest season in the vineyards, and significantly fewer crowds. The light during golden hour is particularly magical for photography, and restaurants return to serving locals alongside visitors.",
+            "de": "Ende September bis Oktober bietet die perfekte Balance - warmes Badewetter, Erntezeit in den Weinbergen und deutlich weniger Menschenmengen. Das Licht zur goldenen Stunde ist besonders magisch für Fotografie, und die Restaurants bedienen wieder Einheimische neben den Besuchern.",
+            "fr": "De fin septembre à octobre, c'est l'équilibre parfait - temps de baignade agréable, saison des vendanges et nettement moins de monde. La lumière de l'heure dorée est particulièrement magique pour la photographie, et les restaurants retrouvent leur clientèle locale aux côtés des visiteurs.",
+            "it": "Da fine settembre a ottobre offre l'equilibrio perfetto - tempo caldo per nuotare, stagione della vendemmia e significativamente meno folla. La luce dell'ora dorata è particolarmente magica per la fotografia, e i ristoranti tornano a servire i locali accanto ai visitatori."
+          }
         },
         {
-          "question": "How should I plan my time across the five villages?",
-          "answer": "Allow at least three full days to truly absorb the character of each village. Monterosso and Vernazza deserve full afternoons, while Corniglia's elevated position makes it perfect for sunset. Manarola and Riomaggiore are best experienced in the early morning when the light illuminates their colorful facades."
+          "question": {
+            "en": "How should I plan my time across the five villages?",
+            "de": "Wie sollte ich meine Zeit auf die fünf Dörfer verteilen?",
+            "fr": "Comment organiser mon temps entre les cinq villages ?",
+            "it": "Come dovrei pianificare il mio tempo tra i cinque borghi?"
+          },
+          "answer": {
+            "en": "Allow at least three full days to truly absorb the character of each village. Monterosso and Vernazza deserve full afternoons, while Corniglia's elevated position makes it perfect for sunset. Manarola and Riomaggiore are best experienced in the early morning when the light illuminates their colorful facades.",
+            "de": "Planen Sie mindestens drei volle Tage ein, um den Charakter jedes Dorfes wirklich aufzunehmen. Monterosso und Vernazza verdienen volle Nachmittage, während Corniglias erhöhte Lage es perfekt für den Sonnenuntergang macht. Manarola und Riomaggiore erlebt man am besten am frühen Morgen, wenn das Licht ihre bunten Fassaden beleuchtet.",
+            "fr": "Prévoyez au moins trois jours complets pour vraiment absorber le caractère de chaque village. Monterosso et Vernazza méritent des après-midis entiers, tandis que la position élevée de Corniglia en fait l'endroit parfait pour le coucher de soleil. Manarola et Riomaggiore se découvrent mieux tôt le matin quand la lumière illumine leurs façades colorées.",
+            "it": "Concediti almeno tre giorni interi per assorbire veramente il carattere di ogni borgo. Monterosso e Vernazza meritano pomeriggi interi, mentre la posizione elevata di Corniglia la rende perfetta per il tramonto. Manarola e Riomaggiore si vivono meglio al mattino presto quando la luce illumina le loro facciate colorate."
+          }
         },
         {
-          "question": "What's the most authentic way to experience local culture?",
-          "answer": "Time your visit with local festivals - Vernazza's Santa Margherita celebration in July or Monterosso's Anchovy Festival in September. Book cooking classes with nonne (grandmothers) who still make pesto by hand, and shop at the morning markets where vendors have served the same families for decades."
+          "question": {
+            "en": "What's the most authentic way to experience local culture?",
+            "de": "Was ist der authentischste Weg, die lokale Kultur zu erleben?",
+            "fr": "Quelle est la façon la plus authentique de vivre la culture locale ?",
+            "it": "Qual è il modo più autentico per vivere la cultura locale?"
+          },
+          "answer": {
+            "en": "Time your visit with local festivals - Vernazza's Santa Margherita celebration in July or Monterosso's Anchovy Festival in September. Book cooking classes with nonne (grandmothers) who still make pesto by hand, and shop at the morning markets where vendors have served the same families for decades.",
+            "de": "Planen Sie Ihren Besuch mit lokalen Festen - Vernazzas Santa Margherita-Feier im Juli oder Monterossos Sardellenfest im September. Buchen Sie Kochkurse bei Nonne (Großmüttern), die noch immer Pesto von Hand machen, und kaufen Sie auf den Morgenmärkten ein, wo Händler seit Jahrzehnten dieselben Familien bedienen.",
+            "fr": "Planifiez votre visite avec les fêtes locales - la célébration de Santa Margherita à Vernazza en juillet ou la Fête des Anchois à Monterosso en septembre. Réservez des cours de cuisine avec des nonne (grands-mères) qui font encore le pesto à la main, et faites vos courses aux marchés du matin où les vendeurs servent les mêmes familles depuis des décennies.",
+            "it": "Programma la tua visita con le feste locali - la celebrazione di Santa Margherita a Vernazza in luglio o la Sagra delle Acciughe a Monterosso in settembre. Prenota corsi di cucina con le nonne che fanno ancora il pesto a mano, e fai acquisti ai mercati mattutini dove i venditori servono le stesse famiglie da decenni."
+          }
         },
         {
-          "question": "Are the famous hiking trails suitable for all fitness levels?",
-          "answer": "The coastal trails range from moderate to challenging, with significant elevation changes. The Monterosso to Vernazza section is the most demanding but rewarding. For a gentler introduction, try the high trail from Corniglia to Volastra, which offers spectacular vineyard views without coastal exposure."
+          "question": {
+            "en": "Are the famous hiking trails suitable for all fitness levels?",
+            "de": "Sind die berühmten Wanderwege für alle Fitnessstufen geeignet?",
+            "fr": "Les célèbres sentiers de randonnée conviennent-ils à tous les niveaux de forme physique ?",
+            "it": "I famosi sentieri escursionistici sono adatti a tutti i livelli di forma fisica?"
+          },
+          "answer": {
+            "en": "The coastal trails range from moderate to challenging, with significant elevation changes. The Monterosso to Vernazza section is the most demanding but rewarding. For a gentler introduction, try the high trail from Corniglia to Volastra, which offers spectacular vineyard views without coastal exposure.",
+            "de": "Die Küstenwege reichen von moderat bis anspruchsvoll, mit erheblichen Höhenunterschieden. Der Abschnitt von Monterosso nach Vernazza ist der anspruchsvollste, aber lohnendste. Für einen sanfteren Einstieg probieren Sie den Höhenweg von Corniglia nach Volastra, der spektakuläre Weinbergblicke ohne Küstenexposition bietet.",
+            "fr": "Les sentiers côtiers vont de modérés à difficiles, avec des dénivelés importants. Le tronçon de Monterosso à Vernazza est le plus exigeant mais le plus gratifiant. Pour une introduction plus douce, essayez le sentier haut de Corniglia à Volastra, qui offre des vues spectaculaires sur les vignobles sans exposition côtière.",
+            "it": "I sentieri costieri vanno da moderati a impegnativi, con notevoli dislivelli. Il tratto da Monterosso a Vernazza è il più impegnativo ma gratificante. Per un'introduzione più dolce, prova il sentiero alto da Corniglia a Volastra, che offre spettacolari viste sui vigneti senza esposizione costiera."
+          }
         },
         {
-          "question": "How do I respectfully photograph in these small communities?",
-          "answer": "Remember these are people's homes, not theme parks. Ask permission before photographing residents, avoid blocking narrow passages during busy times, and consider that the most respectful shots often capture the landscape and architecture rather than private moments of daily life."
+          "question": {
+            "en": "How do I respectfully photograph in these small communities?",
+            "de": "Wie fotografiere ich respektvoll in diesen kleinen Gemeinschaften?",
+            "fr": "Comment photographier respectueusement dans ces petites communautés ?",
+            "it": "Come fotografare rispettosamente in queste piccole comunità?"
+          },
+          "answer": {
+            "en": "Remember these are people's homes, not theme parks. Ask permission before photographing residents, avoid blocking narrow passages during busy times, and consider that the most respectful shots often capture the landscape and architecture rather than private moments of daily life.",
+            "de": "Denken Sie daran, dies sind Wohnhäuser, keine Freizeitparks. Fragen Sie um Erlaubnis, bevor Sie Einwohner fotografieren, vermeiden Sie es, enge Durchgänge zu blockieren, und bedenken Sie, dass die respektvollsten Aufnahmen oft Landschaft und Architektur einfangen statt privater Momente des Alltags.",
+            "fr": "N'oubliez pas que ce sont des maisons de gens, pas des parcs d'attractions. Demandez la permission avant de photographier les résidents, évitez de bloquer les passages étroits aux heures de pointe, et considérez que les photos les plus respectueuses capturent souvent le paysage et l'architecture plutôt que les moments privés de la vie quotidienne.",
+            "it": "Ricorda che queste sono le case delle persone, non parchi a tema. Chiedi il permesso prima di fotografare i residenti, evita di bloccare i passaggi stretti durante i momenti di punta, e considera che gli scatti più rispettosi spesso catturano il paesaggio e l'architettura piuttosto che momenti privati della vita quotidiana."
+          }
         },
         {
-          "question": "What should I know about dining reservations and local customs?",
-          "answer": "Book dinner reservations by noon for the same evening, especially March through October. Lunch is typically served 12:30-2:30pm, dinner starts at 7:30pm. Tipping 10% is appreciated but not mandatory. Try to learn a few Italian phrases - locals deeply appreciate the effort, even if imperfect."
+          "question": {
+            "en": "What should I know about dining reservations and local customs?",
+            "de": "Was sollte ich über Restaurantreservierungen und lokale Bräuche wissen?",
+            "fr": "Que dois-je savoir sur les réservations de restaurants et les coutumes locales ?",
+            "it": "Cosa devo sapere sulle prenotazioni ai ristoranti e le usanze locali?"
+          },
+          "answer": {
+            "en": "Book dinner reservations by noon for the same evening, especially March through October. Lunch is typically served 12:30-2:30pm, dinner starts at 7:30pm. Tipping 10% is appreciated but not mandatory. Try to learn a few Italian phrases - locals deeply appreciate the effort, even if imperfect.",
+            "de": "Buchen Sie Abendessen-Reservierungen bis mittags für denselben Abend, besonders von März bis Oktober. Das Mittagessen wird typischerweise von 12:30-14:30 Uhr serviert, das Abendessen beginnt um 19:30 Uhr. 10% Trinkgeld wird geschätzt, ist aber nicht obligatorisch. Versuchen Sie, ein paar italienische Phrasen zu lernen - die Einheimischen schätzen die Mühe sehr, auch wenn sie nicht perfekt sind.",
+            "fr": "Réservez pour le dîner avant midi pour le soir même, surtout de mars à octobre. Le déjeuner est généralement servi de 12h30 à 14h30, le dîner commence à 19h30. Un pourboire de 10% est apprécié mais pas obligatoire. Essayez d'apprendre quelques phrases italiennes - les locaux apprécient vraiment l'effort, même imparfait.",
+            "it": "Prenota la cena entro mezzogiorno per la stessa sera, specialmente da marzo a ottobre. Il pranzo è tipicamente servito dalle 12:30 alle 14:30, la cena inizia alle 19:30. Una mancia del 10% è apprezzata ma non obbligatoria. Cerca di imparare qualche frase italiana - i locali apprezzano profondamente lo sforzo, anche se imperfetto."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "badge": "Begin Your Cinque Terre Story",
-      "title": "Every Great Journey Starts with Understanding",
-      "content": "<p>Where you're going - and why it matters. Let us help you craft an experience worthy of these thousand-year-old villages.</p><p>From intimate accommodations to exclusive experiences, we ensure your Cinque Terre journey becomes a story you'll tell for a lifetime.</p>",
+      "badge": {
+        "en": "Begin Your Cinque Terre Story",
+        "de": "Beginnen Sie Ihre Cinque Terre Geschichte",
+        "fr": "Commencez votre histoire aux Cinque Terre",
+        "it": "Inizia la tua storia alle Cinque Terre"
+      },
+      "title": {
+        "en": "Every Great Journey Starts with Understanding",
+        "de": "Jede große Reise beginnt mit Verständnis",
+        "fr": "Chaque grand voyage commence par la compréhension",
+        "it": "Ogni grande viaggio inizia con la comprensione"
+      },
+      "content": {
+        "en": "<p>Where you're going - and why it matters. Let us help you craft an experience worthy of these thousand-year-old villages.</p><p>From intimate accommodations to exclusive experiences, we ensure your Cinque Terre journey becomes a story you'll tell for a lifetime.</p>",
+        "de": "<p>Wohin Sie gehen - und warum es wichtig ist. Lassen Sie uns Ihnen helfen, ein Erlebnis zu gestalten, das dieser tausendjährigen Dörfer würdig ist.</p><p>Von intimen Unterkünften bis hin zu exklusiven Erlebnissen - wir sorgen dafür, dass Ihre Cinque Terre Reise zu einer Geschichte wird, die Sie ein Leben lang erzählen werden.</p>",
+        "fr": "<p>Où vous allez - et pourquoi c'est important. Laissez-nous vous aider à créer une expérience digne de ces villages millénaires.</p><p>Des hébergements intimistes aux expériences exclusives, nous faisons de votre voyage aux Cinque Terre une histoire que vous raconterez toute votre vie.</p>",
+        "it": "<p>Dove stai andando - e perché è importante. Lascia che ti aiutiamo a creare un'esperienza degna di questi borghi millenari.</p><p>Da alloggi intimi a esperienze esclusive, assicuriamo che il tuo viaggio alle Cinque Terre diventi una storia che racconterai per tutta la vita.</p>"
+      },
       "actions": [
-        { "label": "Discover Each Village", "href": "/cinque-terre/villages", "variant": "primary" },
-        { "label": "Plan Your Journey", "href": "/cinque-terre/planning", "variant": "secondary" }
+        {
+          "label": {
+            "en": "Discover Each Village",
+            "de": "Entdecken Sie jedes Dorf",
+            "fr": "Découvrir chaque village",
+            "it": "Scopri ogni borgo"
+          },
+          "href": "/cinque-terre/villages",
+          "variant": "primary"
+        },
+        {
+          "label": {
+            "en": "Plan Your Journey",
+            "de": "Planen Sie Ihre Reise",
+            "fr": "Planifier votre voyage",
+            "it": "Pianifica il tuo viaggio"
+          },
+          "href": "/cinque-terre/planning",
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -138,5 +410,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T10:50:22.211Z"
+  "updated_at": "2026-01-08T00:00:00.000Z"
 }

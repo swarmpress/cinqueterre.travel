@@ -2,51 +2,115 @@
   "id": "transportation-riomaggiore",
   "slug": {
     "en": "/en/transportation",
-    "de": "/de/transportation",
-    "fr": "/fr/transportation",
-    "it": "/it/transportation"
+    "de": "/de/anreise",
+    "fr": "/fr/transport",
+    "it": "/it/trasporti"
   },
   "title": {
-    "en": "Arrival & Orientation: Getting to Riomaggiore | Cinque Terre Dispatch"
+    "en": "Arrival & Orientation: Getting to Riomaggiore | Cinque Terre Dispatch",
+    "de": "Ankunft & Orientierung: So erreichen Sie Riomaggiore | Cinque Terre Dispatch",
+    "fr": "Arrivee & Orientation: Comment Rejoindre Riomaggiore | Cinque Terre Dispatch",
+    "it": "Arrivo & Orientamento: Come Raggiungere Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "transportation",
   "seo": {
     "title": {
-      "en": "Arrival & Orientation: Getting to Riomaggiore | Cinque Terre Dispatch"
+      "en": "Arrival & Orientation: Getting to Riomaggiore | Cinque Terre Dispatch",
+      "de": "Ankunft & Orientierung: So erreichen Sie Riomaggiore | Cinque Terre Dispatch",
+      "fr": "Arrivee & Orientation: Comment Rejoindre Riomaggiore | Cinque Terre Dispatch",
+      "it": "Arrivo & Orientamento: Come Raggiungere Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Riomaggiore is not reached instantly. The tunnels, the winding roads, and the sudden shift in light are all part of the transition into the village's rhythm."
+      "en": "Riomaggiore is not reached instantly. The tunnels, the winding roads, and the sudden shift in light are all part of the transition into the village's rhythm.",
+      "de": "Riomaggiore erreicht man nicht sofort. Die Tunnel, die kurvigen Strassen und der ploetzliche Lichtwechsel sind Teil des Uebergangs in den Rhythmus des Dorfes.",
+      "fr": "On n'arrive pas a Riomaggiore instantanement. Les tunnels, les routes sinueuses et le changement soudain de lumiere font partie de la transition vers le rythme du village.",
+      "it": "Riomaggiore non si raggiunge all'istante. I tunnel, le strade tortuose e il cambio improvviso di luce fanno tutti parte della transizione nel ritmo del borgo."
     }
   },
   "template": "cinque-terre-transportation",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Art of<br/>Arrival",
-      "subtitle": "Riomaggiore is not reached instantly. The tunnels, the winding roads, and the sudden shift in light are all part of the transition into the village's rhythm.",
-      "badge": "The First Step",
+      "title": {
+        "en": "The Art of<br/>Arrival",
+        "de": "Die Kunst des<br/>Ankommens",
+        "fr": "L'Art de<br/>l'Arrivee",
+        "it": "L'Arte<br/>dell'Arrivo"
+      },
+      "subtitle": {
+        "en": "Riomaggiore is not reached instantly. The tunnels, the winding roads, and the sudden shift in light are all part of the transition into the village's rhythm.",
+        "de": "Riomaggiore erreicht man nicht sofort. Die Tunnel, die kurvigen Strassen und der ploetzliche Lichtwechsel sind Teil des Uebergangs in den Rhythmus des Dorfes.",
+        "fr": "On n'arrive pas a Riomaggiore instantanement. Les tunnels, les routes sinueuses et le changement soudain de lumiere font partie de la transition vers le rythme du village.",
+        "it": "Riomaggiore non si raggiunge all'istante. I tunnel, le strade tortuose e il cambio improvviso di luce fanno tutti parte della transizione nel ritmo del borgo."
+      },
+      "badge": {
+        "en": "The First Step",
+        "de": "Der erste Schritt",
+        "fr": "Le Premier Pas",
+        "it": "Il Primo Passo"
+      },
       "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2572&auto=format&fit=crop"
     },
     {
       "type": "editorial-intro",
-      "badge": "A Gradual Approach",
-      "quote": "To arrive in Riomaggiore is to shed the speed of the modern world. Whether you come by rail, road, or sea, the village requires you to slow down before it reveals itself.",
-      "content": [
-        "The geography of the Cinque Terre is **defiant**. For centuries, these villages were accessible only by boat or by the narrow mule tracks that crisscross the hills.",
-        "Knowing this in advance **changes your arrival**. It transforms a long tunnel or a steep parking lot from a frustration into a threshold.",
-        "We encourage you to **arrive with patience**. The train may be crowded, the parking may be distant, and the boat may be at the mercy of the waves.",
-        "Once you reach the station or the parking garage, **the village begins**. There is no 'lobby' here—only the street, the stairs, and the immediate presence of the houses."
-      ]
+      "badge": {
+        "en": "A Gradual Approach",
+        "de": "Eine langsame Annaeherung",
+        "fr": "Une Approche Graduelle",
+        "it": "Un Approccio Graduale"
+      },
+      "quote": {
+        "en": "To arrive in Riomaggiore is to shed the speed of the modern world. Whether you come by rail, road, or sea, the village requires you to slow down before it reveals itself.",
+        "de": "In Riomaggiore anzukommen bedeutet, die Geschwindigkeit der modernen Welt abzulegen. Ob Sie mit der Bahn, dem Auto oder dem Schiff kommen—das Dorf verlangt, dass Sie langsamer werden, bevor es sich zeigt.",
+        "fr": "Arriver a Riomaggiore, c'est abandonner la vitesse du monde moderne. Que vous veniez en train, en voiture ou par la mer, le village exige que vous ralentissiez avant de se reveler.",
+        "it": "Arrivare a Riomaggiore significa abbandonare la velocita del mondo moderno. Che arriviate in treno, in auto o via mare, il borgo richiede che rallentiate prima di rivelarsi."
+      },
+      "content": {
+        "en": [
+          "The geography of the Cinque Terre is **defiant**. For centuries, these villages were accessible only by boat or by the narrow mule tracks that crisscross the hills.",
+          "Knowing this in advance **changes your arrival**. It transforms a long tunnel or a steep parking lot from a frustration into a threshold.",
+          "We encourage you to **arrive with patience**. The train may be crowded, the parking may be distant, and the boat may be at the mercy of the waves.",
+          "Once you reach the station or the parking garage, **the village begins**. There is no 'lobby' here—only the street, the stairs, and the immediate presence of the houses."
+        ],
+        "de": [
+          "Die Geographie der Cinque Terre ist **trotzig**. Jahrhundertelang waren diese Doerfer nur per Boot oder ueber die schmalen Maultierpfade erreichbar, die die Huegel durchkreuzen.",
+          "Dies im Voraus zu wissen **veraendert Ihre Ankunft**. Es verwandelt einen langen Tunnel oder einen steilen Parkplatz von einer Frustration in eine Schwelle.",
+          "Wir ermutigen Sie, **mit Geduld anzukommen**. Der Zug mag ueberfuellt sein, der Parkplatz mag entfernt sein, und das Boot mag den Wellen ausgeliefert sein.",
+          "Sobald Sie die Station oder das Parkhaus erreichen, **beginnt das Dorf**. Es gibt hier keine 'Lobby'—nur die Strasse, die Treppen und die unmittelbare Praesenz der Haeuser."
+        ],
+        "fr": [
+          "La geographie des Cinque Terre est **rebelle**. Pendant des siecles, ces villages n'etaient accessibles que par bateau ou par les etroits chemins muletiers qui sillonnent les collines.",
+          "Le savoir a l'avance **change votre arrivee**. Cela transforme un long tunnel ou un parking en pente d'une frustration en un seuil.",
+          "Nous vous encourageons a **arriver avec patience**. Le train peut etre bonde, le parking peut etre eloigne, et le bateau peut etre a la merci des vagues.",
+          "Une fois que vous atteignez la gare ou le parking, **le village commence**. Il n'y a pas de 'hall' ici—seulement la rue, les escaliers et la presence immediate des maisons."
+        ],
+        "it": [
+          "La geografia delle Cinque Terre e **ribelle**. Per secoli, questi borghi erano raggiungibili solo via mare o attraverso gli stretti sentieri mulattieri che attraversano le colline.",
+          "Saperlo in anticipo **cambia il vostro arrivo**. Trasforma un lungo tunnel o un parcheggio ripido da una frustrazione in una soglia.",
+          "Vi incoraggiamo ad **arrivare con pazienza**. Il treno potrebbe essere affollato, il parcheggio potrebbe essere distante, e la barca potrebbe essere in balia delle onde.",
+          "Una volta raggiunta la stazione o il parcheggio, **il borgo inizia**. Non c'e 'hall' qui—solo la strada, le scale e la presenza immediata delle case."
+        ]
+      }
     },
     {
       "type": "airports-overview",
-      "title": "Geographical Orientation",
-      "description": "Riomaggiore is the easternmost of the five villages, situated on the Ligurian coast in northern Italy, between the port city of La Spezia and the historic city of Genoa.",
+      "title": {
+        "en": "Geographical Orientation",
+        "de": "Geographische Orientierung",
+        "fr": "Orientation Geographique",
+        "it": "Orientamento Geografico"
+      },
+      "description": {
+        "en": "Riomaggiore is the easternmost of the five villages, situated on the Ligurian coast in northern Italy, between the port city of La Spezia and the historic city of Genoa.",
+        "de": "Riomaggiore ist das oestlichste der fuenf Doerfer, gelegen an der Ligurischen Kueste in Norditalien, zwischen der Hafenstadt La Spezia und der historischen Stadt Genua.",
+        "fr": "Riomaggiore est le plus oriental des cinq villages, situe sur la cote ligure dans le nord de l'Italie, entre la ville portuaire de La Spezia et la ville historique de Genes.",
+        "it": "Riomaggiore e il piu orientale dei cinque borghi, situato sulla costa ligure nel nord Italia, tra la citta portuale di La Spezia e la storica citta di Genova."
+      },
       "airports": [
-        { "name": "Pisa (PSA)", "distance": "100 km", "time": "1.5 hours" },
-        { "name": "Genoa (GOA)", "distance": "115 km", "time": "2 hours" },
-        { "name": "Florence (FLR)", "distance": "170 km", "time": "2.5 hours" },
-        { "name": "Milan (MXP/LIN)", "distance": "250-280 km", "time": "3-4 hours" }
+        { "name": "Pisa (PSA)", "distance": "100 km", "time": { "en": "1.5 hours", "de": "1,5 Stunden", "fr": "1,5 heures", "it": "1,5 ore" } },
+        { "name": "Genoa (GOA)", "distance": "115 km", "time": { "en": "2 hours", "de": "2 Stunden", "fr": "2 heures", "it": "2 ore" } },
+        { "name": "Florence (FLR)", "distance": "170 km", "time": { "en": "2.5 hours", "de": "2,5 Stunden", "fr": "2,5 heures", "it": "2,5 ore" } },
+        { "name": "Milan (MXP/LIN)", "distance": "250-280 km", "time": { "en": "3-4 hours", "de": "3-4 Stunden", "fr": "3-4 heures", "it": "3-4 ore" } }
       ]
     },
     {
@@ -55,49 +119,184 @@
       "items": [
         {
           "id": 1,
-          "name": "By Train",
-          "category": "Recommended",
+          "name": {
+            "en": "By Train",
+            "de": "Mit dem Zug",
+            "fr": "En Train",
+            "it": "In Treno"
+          },
+          "category": {
+            "en": "Recommended",
+            "de": "Empfohlen",
+            "fr": "Recommande",
+            "it": "Consigliato"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The most practical and atmospheric way to arrive—through the mountain, into the heart of the village.",
-          "description": "The regional train from La Spezia Centrale takes just 8 minutes, emerging from a long tunnel directly into the village. Trains run every 15-30 minutes throughout the day. This is how most visitors arrive, and for good reason.",
-          "giuliaComment": "Take the train. It's not just practical—it's part of the experience. The moment you exit the tunnel and see the sea is always a revelation.",
-          "signature": "The sudden light of the Mediterranean after minutes in darkness",
-          "duration": "8 min from La Spezia",
-          "frequency": "Every 15-30 minutes",
-          "practicalInfo": "Buy a Cinque Terre Card for unlimited train travel between villages.",
+          "intro": {
+            "en": "The most practical and atmospheric way to arrive—through the mountain, into the heart of the village.",
+            "de": "Die praktischste und atmosphaerischste Art anzukommen—durch den Berg, ins Herz des Dorfes.",
+            "fr": "La facon la plus pratique et atmospherique d'arriver—a travers la montagne, au coeur du village.",
+            "it": "Il modo piu pratico e suggestivo per arrivare—attraverso la montagna, nel cuore del borgo."
+          },
+          "description": {
+            "en": "The regional train from La Spezia Centrale takes just 8 minutes, emerging from a long tunnel directly into the village. Trains run every 15-30 minutes throughout the day. This is how most visitors arrive, and for good reason.",
+            "de": "Der Regionalzug von La Spezia Centrale braucht nur 8 Minuten und taucht aus einem langen Tunnel direkt ins Dorf auf. Zuege fahren alle 15-30 Minuten den ganzen Tag. So kommen die meisten Besucher an, und das aus gutem Grund.",
+            "fr": "Le train regional de La Spezia Centrale prend seulement 8 minutes, emergeant d'un long tunnel directement dans le village. Les trains circulent toutes les 15-30 minutes tout au long de la journee. C'est ainsi que la plupart des visiteurs arrivent, et pour de bonnes raisons.",
+            "it": "Il treno regionale da La Spezia Centrale impiega solo 8 minuti, emergendo da una lunga galleria direttamente nel borgo. I treni passano ogni 15-30 minuti durante tutto il giorno. E cosi che arrivano la maggior parte dei visitatori, e per buone ragioni."
+          },
+          "giuliaComment": {
+            "en": "Take the train. It's not just practical—it's part of the experience. The moment you exit the tunnel and see the sea is always a revelation.",
+            "de": "Nehmen Sie den Zug. Es ist nicht nur praktisch—es ist Teil des Erlebnisses. Der Moment, wenn Sie den Tunnel verlassen und das Meer sehen, ist immer eine Offenbarung.",
+            "fr": "Prenez le train. Ce n'est pas seulement pratique—c'est une partie de l'experience. Le moment ou vous sortez du tunnel et voyez la mer est toujours une revelation.",
+            "it": "Prendete il treno. Non e solo pratico—fa parte dell'esperienza. Il momento in cui uscite dalla galleria e vedete il mare e sempre una rivelazione."
+          },
+          "signature": {
+            "en": "The sudden light of the Mediterranean after minutes in darkness",
+            "de": "Das ploetzliche Licht des Mittelmeers nach Minuten in der Dunkelheit",
+            "fr": "La lumiere soudaine de la Mediterranee apres des minutes dans l'obscurite",
+            "it": "La luce improvvisa del Mediterraneo dopo minuti nell'oscurita"
+          },
+          "duration": {
+            "en": "8 min from La Spezia",
+            "de": "8 Min. von La Spezia",
+            "fr": "8 min depuis La Spezia",
+            "it": "8 min da La Spezia"
+          },
+          "frequency": {
+            "en": "Every 15-30 minutes",
+            "de": "Alle 15-30 Minuten",
+            "fr": "Toutes les 15-30 minutes",
+            "it": "Ogni 15-30 minuti"
+          },
+          "practicalInfo": {
+            "en": "Buy a Cinque Terre Card for unlimited train travel between villages.",
+            "de": "Kaufen Sie eine Cinque Terre Card fuer unbegrenzte Zugfahrten zwischen den Doerfern.",
+            "fr": "Achetez une Cinque Terre Card pour des trajets en train illimites entre les villages.",
+            "it": "Acquistate una Cinque Terre Card per viaggi in treno illimitati tra i borghi."
+          },
           "googleRating": 4.7,
           "tripadvisorRating": 4.6
         },
         {
           "id": 2,
-          "name": "By Car",
-          "category": "Limited Access",
+          "name": {
+            "en": "By Car",
+            "de": "Mit dem Auto",
+            "fr": "En Voiture",
+            "it": "In Auto"
+          },
+          "category": {
+            "en": "Limited Access",
+            "de": "Eingeschraenkter Zugang",
+            "fr": "Acces Limite",
+            "it": "Accesso Limitato"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Possible, but the village itself is car-free. Prepare for a walk from the parking garage.",
-          "description": "Cars are not allowed in the village center. There is a small parking garage at the top of the hill, but spaces are limited and expensive (€25-35/day in summer). The walk down takes 10-15 minutes on steep stairs.",
-          "giuliaComment": "If you must bring a car, park in La Spezia and take the train. The stress of parking is not worth it.",
-          "signature": "The relief of leaving the car behind and entering a world built for feet",
-          "duration": "Variable (from La Spezia: 20 min)",
-          "frequency": "On demand",
-          "practicalInfo": "Limited spaces. No parking in the village itself. Consider park-and-ride at La Spezia.",
+          "intro": {
+            "en": "Possible, but the village itself is car-free. Prepare for a walk from the parking garage.",
+            "de": "Moeglich, aber das Dorf selbst ist autofrei. Bereiten Sie sich auf einen Fussweg vom Parkhaus vor.",
+            "fr": "Possible, mais le village lui-meme est sans voiture. Preparez-vous a marcher depuis le parking.",
+            "it": "Possibile, ma il borgo stesso e senza auto. Preparatevi a camminare dal parcheggio."
+          },
+          "description": {
+            "en": "Cars are not allowed in the village center. There is a small parking garage at the top of the hill, but spaces are limited and expensive (25-35 EUR/day in summer). The walk down takes 10-15 minutes on steep stairs.",
+            "de": "Autos sind im Dorfzentrum nicht erlaubt. Es gibt ein kleines Parkhaus am Huegel, aber die Plaetze sind begrenzt und teuer (25-35 EUR/Tag im Sommer). Der Abstieg dauert 10-15 Minuten auf steilen Treppen.",
+            "fr": "Les voitures ne sont pas autorisees dans le centre du village. Il y a un petit parking au sommet de la colline, mais les places sont limitees et cheres (25-35 EUR/jour en ete). La descente prend 10-15 minutes sur des escaliers raides.",
+            "it": "Le auto non sono ammesse nel centro del borgo. C'e un piccolo parcheggio in cima alla collina, ma i posti sono limitati e costosi (25-35 EUR/giorno in estate). La discesa richiede 10-15 minuti su scale ripide."
+          },
+          "giuliaComment": {
+            "en": "If you must bring a car, park in La Spezia and take the train. The stress of parking is not worth it.",
+            "de": "Wenn Sie ein Auto mitbringen muessen, parken Sie in La Spezia und nehmen Sie den Zug. Der Stress des Parkens lohnt sich nicht.",
+            "fr": "Si vous devez amener une voiture, garez-vous a La Spezia et prenez le train. Le stress du stationnement n'en vaut pas la peine.",
+            "it": "Se dovete portare l'auto, parcheggiate a La Spezia e prendete il treno. Lo stress del parcheggio non ne vale la pena."
+          },
+          "signature": {
+            "en": "The relief of leaving the car behind and entering a world built for feet",
+            "de": "Die Erleichterung, das Auto hinter sich zu lassen und eine fuer Fuesse gebaute Welt zu betreten",
+            "fr": "Le soulagement de laisser la voiture derriere et d'entrer dans un monde construit pour les pieds",
+            "it": "Il sollievo di lasciare l'auto e entrare in un mondo costruito per i piedi"
+          },
+          "duration": {
+            "en": "Variable (from La Spezia: 20 min)",
+            "de": "Variabel (von La Spezia: 20 Min.)",
+            "fr": "Variable (depuis La Spezia: 20 min)",
+            "it": "Variabile (da La Spezia: 20 min)"
+          },
+          "frequency": {
+            "en": "On demand",
+            "de": "Nach Bedarf",
+            "fr": "A la demande",
+            "it": "Su richiesta"
+          },
+          "practicalInfo": {
+            "en": "Limited spaces. No parking in the village itself. Consider park-and-ride at La Spezia.",
+            "de": "Begrenzte Plaetze. Kein Parken im Dorf selbst. Erwaegen Sie Park-and-Ride in La Spezia.",
+            "fr": "Places limitees. Pas de parking dans le village lui-meme. Considerez le park-and-ride a La Spezia.",
+            "it": "Posti limitati. Nessun parcheggio nel borgo stesso. Considerate il park-and-ride a La Spezia."
+          },
           "googleRating": 3.5,
           "tripadvisorRating": 3.4
         },
         {
           "id": 3,
-          "name": "By Ferry",
-          "category": "Scenic Option",
+          "name": {
+            "en": "By Ferry",
+            "de": "Mit der Faehre",
+            "fr": "En Ferry",
+            "it": "In Traghetto"
+          },
+          "category": {
+            "en": "Scenic Option",
+            "de": "Panorama-Option",
+            "fr": "Option Panoramique",
+            "it": "Opzione Panoramica"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1500514966906-fe245eea9344?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The most beautiful approach—arriving by sea, seeing the village as the fishermen saw it for centuries.",
-          "description": "Ferries operate between the five villages and to/from La Spezia and Portovenere in the warmer months. The service is weather-dependent and can be cancelled in rough seas. When running, it offers unmatched views of the coastline.",
-          "giuliaComment": "If the sea is calm and you have time, take the ferry at least once. The view of the villages from the water is unforgettable.",
-          "signature": "The colorful houses of the village rising from the cliffs as you approach",
-          "duration": "15-45 min depending on route",
-          "frequency": "Hourly in summer, less frequent off-season",
-          "practicalInfo": "Weather-dependent. No service in rough seas. Check Consorzio Marittimo schedule.",
+          "intro": {
+            "en": "The most beautiful approach—arriving by sea, seeing the village as the fishermen saw it for centuries.",
+            "de": "Die schoenste Ankunft—ueber das Meer ankommen und das Dorf sehen wie die Fischer es jahrhundertelang sahen.",
+            "fr": "L'approche la plus belle—arriver par la mer, voir le village comme les pecheurs l'ont vu pendant des siecles.",
+            "it": "L'approccio piu bello—arrivare via mare, vedere il borgo come lo vedevano i pescatori per secoli."
+          },
+          "description": {
+            "en": "Ferries operate between the five villages and to/from La Spezia and Portovenere in the warmer months. The service is weather-dependent and can be cancelled in rough seas. When running, it offers unmatched views of the coastline.",
+            "de": "Faehren verkehren zwischen den fuenf Doerfern und von/nach La Spezia und Portovenere in den waermeren Monaten. Der Service ist wetterabhaengig und kann bei rauem Seegang ausfallen. Wenn sie faehrt, bietet sie unvergleichliche Ausblicke auf die Kueste.",
+            "fr": "Les ferries operent entre les cinq villages et vers/depuis La Spezia et Portovenere pendant les mois plus chauds. Le service depend de la meteo et peut etre annule par mer agitee. Quand il fonctionne, il offre des vues incomparables sur le littoral.",
+            "it": "I traghetti operano tra i cinque borghi e da/per La Spezia e Portovenere nei mesi piu caldi. Il servizio dipende dal tempo e puo essere cancellato in caso di mare mosso. Quando funziona, offre viste impareggiabili sulla costa."
+          },
+          "giuliaComment": {
+            "en": "If the sea is calm and you have time, take the ferry at least once. The view of the villages from the water is unforgettable.",
+            "de": "Wenn das Meer ruhig ist und Sie Zeit haben, nehmen Sie mindestens einmal die Faehre. Der Blick auf die Doerfer vom Wasser aus ist unvergesslich.",
+            "fr": "Si la mer est calme et vous avez le temps, prenez le ferry au moins une fois. La vue des villages depuis l'eau est inoubliable.",
+            "it": "Se il mare e calmo e avete tempo, prendete il traghetto almeno una volta. La vista dei borghi dall'acqua e indimenticabile."
+          },
+          "signature": {
+            "en": "The colorful houses of the village rising from the cliffs as you approach",
+            "de": "Die bunten Haeuser des Dorfes, die sich von den Klippen erheben, waehrend Sie sich naehern",
+            "fr": "Les maisons colorees du village s'elevant des falaises a mesure que vous approchez",
+            "it": "Le case colorate del borgo che si innalzano dalle scogliere mentre vi avvicinate"
+          },
+          "duration": {
+            "en": "15-45 min depending on route",
+            "de": "15-45 Min. je nach Route",
+            "fr": "15-45 min selon l'itineraire",
+            "it": "15-45 min a seconda del percorso"
+          },
+          "frequency": {
+            "en": "Hourly in summer, less frequent off-season",
+            "de": "Stuendlich im Sommer, seltener ausserhalb der Saison",
+            "fr": "Toutes les heures en ete, moins frequent hors saison",
+            "it": "Ogni ora in estate, meno frequente fuori stagione"
+          },
+          "practicalInfo": {
+            "en": "Weather-dependent. No service in rough seas. Check Consorzio Marittimo schedule.",
+            "de": "Wetterabhaengig. Kein Service bei rauem Seegang. Pruefen Sie den Fahrplan von Consorzio Marittimo.",
+            "fr": "Dependant de la meteo. Pas de service par mer agitee. Consultez l'horaire du Consorzio Marittimo.",
+            "it": "Dipende dal tempo. Nessun servizio con mare mosso. Controllate l'orario del Consorzio Marittimo."
+          },
           "googleRating": 4.6,
           "tripadvisorRating": 4.5
         }
@@ -106,23 +305,78 @@
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Weight of the Journey",
-          "quote": "In Riomaggiore, your luggage is your first lesson in local physics. Wheeled suitcases, designed for flat airport terminals, are the natural enemies of our stone stairs. If you can, pack light. If you can't, consider a backpack."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelles Intermezzo",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Weight of the Journey",
+            "de": "Das Gewicht der Reise",
+            "fr": "Le Poids du Voyage",
+            "it": "Il Peso del Viaggio"
+          },
+          "quote": {
+            "en": "In Riomaggiore, your luggage is your first lesson in local physics. Wheeled suitcases, designed for flat airport terminals, are the natural enemies of our stone stairs. If you can, pack light. If you can't, consider a backpack.",
+            "de": "In Riomaggiore ist Ihr Gepaeck Ihre erste Lektion in lokaler Physik. Rollkoffer, fuer flache Flughafenterminals konzipiert, sind die natuerlichen Feinde unserer Steintreppen. Wenn moeglich, packen Sie leicht. Wenn nicht, erwaegen Sie einen Rucksack.",
+            "fr": "A Riomaggiore, vos bagages sont votre premiere lecon de physique locale. Les valises a roulettes, concues pour les terminaux d'aeroport plats, sont les ennemis naturels de nos escaliers en pierre. Si vous pouvez, voyagez leger. Sinon, considerez un sac a dos.",
+            "it": "A Riomaggiore, il vostro bagaglio e la vostra prima lezione di fisica locale. I trolley, progettati per i terminal aeroportuali piatti, sono i nemici naturali delle nostre scale di pietra. Se potete, viaggiate leggeri. Se non potete, considerate uno zaino."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Slow Down. You've Arrived.",
-      "content": [
-        "Arrival is not just the end of a journey; it is the first moment of your presence in Riomaggiore.",
-        "Resist the urge to orient yourself immediately. Don't look at the map just yet. Allow the village to unfold gradually—the way the light enters the narrow streets, the sound of the sea at the harbor.",
-        "You are here. The village is ready for you."
-      ],
+      "title": {
+        "en": "Slow Down. You've Arrived.",
+        "de": "Verlangsamen. Sie sind angekommen.",
+        "fr": "Ralentissez. Vous Etes Arrive.",
+        "it": "Rallentate. Siete Arrivati."
+      },
+      "content": {
+        "en": [
+          "Arrival is not just the end of a journey; it is the first moment of your presence in Riomaggiore.",
+          "Resist the urge to orient yourself immediately. Don't look at the map just yet. Allow the village to unfold gradually—the way the light enters the narrow streets, the sound of the sea at the harbor.",
+          "You are here. The village is ready for you."
+        ],
+        "de": [
+          "Die Ankunft ist nicht nur das Ende einer Reise; es ist der erste Moment Ihrer Praesenz in Riomaggiore.",
+          "Widerstehen Sie dem Drang, sich sofort zu orientieren. Schauen Sie noch nicht auf die Karte. Lassen Sie das Dorf sich langsam entfalten—die Art, wie das Licht in die engen Strassen faellt, das Gerausch des Meeres am Hafen.",
+          "Sie sind hier. Das Dorf ist bereit fuer Sie."
+        ],
+        "fr": [
+          "L'arrivee n'est pas seulement la fin d'un voyage; c'est le premier moment de votre presence a Riomaggiore.",
+          "Resistez a l'envie de vous orienter immediatement. Ne regardez pas encore la carte. Laissez le village se deployer progressivement—la facon dont la lumiere entre dans les rues etroites, le bruit de la mer au port.",
+          "Vous etes la. Le village est pret pour vous."
+        ],
+        "it": [
+          "L'arrivo non e solo la fine di un viaggio; e il primo momento della vostra presenza a Riomaggiore.",
+          "Resistete all'impulso di orientarvi subito. Non guardate ancora la mappa. Lasciate che il borgo si sveli gradualmente—il modo in cui la luce entra nelle strade strette, il suono del mare al porto.",
+          "Siete qui. Il borgo e pronto per voi."
+        ]
+      },
       "buttons": [
-        { "text": "Plan Your Journey", "url": "/itinerary", "variant": "primary" },
-        { "text": "Where to Rest", "url": "/accommodations", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Plan Your Journey",
+            "de": "Planen Sie Ihre Reise",
+            "fr": "Planifiez Votre Voyage",
+            "it": "Pianifica il Tuo Viaggio"
+          },
+          "url": "/itinerary",
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Rest",
+            "de": "Wo Sie ruhen koennen",
+            "fr": "Ou Se Reposer",
+            "it": "Dove Riposare"
+          },
+          "url": "/accommodations",
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -131,5 +385,5 @@
   },
   "status": "published",
   "created_at": "2026-01-05T12:00:00.000Z",
-  "updated_at": "2026-01-05T12:00:00.000Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

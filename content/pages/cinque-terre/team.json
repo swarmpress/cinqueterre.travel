@@ -15,92 +15,218 @@
   "page_type": "team",
   "seo": {
     "title": {
-      "en": "Meet Our Team | Cinque Terre Dispatch"
+      "en": "Meet Our Team | Cinque Terre Dispatch",
+      "de": "Unser Team | Cinque Terre Dispatch",
+      "fr": "Notre Équipe | Cinque Terre Dispatch",
+      "it": "Il Nostro Team | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Meet the voices behind Cinque Terre Dispatch. Not anonymous authors, but attentive guides sharing a lived experience of the coast."
+      "en": "Meet the voices behind Cinque Terre Dispatch. Not anonymous authors, but attentive guides sharing a lived experience of the coast.",
+      "de": "Lernen Sie die Stimmen hinter Cinque Terre Dispatch kennen. Keine anonymen Autoren, sondern aufmerksame Begleiter, die gelebte Erfahrungen der Küste teilen.",
+      "fr": "Découvrez les voix derrière Cinque Terre Dispatch. Pas des auteurs anonymes, mais des guides attentifs partageant une expérience vécue de la côte.",
+      "it": "Scoprite le voci dietro Cinque Terre Dispatch. Non autori anonimi, ma guide attente che condividono un'esperienza vissuta della costa."
     }
   },
   "template": "cinque-terre",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Voices of<br/>the Dispatch",
-      "subtitle": "Not anonymous authors, but attentive guides sharing a lived experience of the coast.",
-      "badge": "The People Behind the Perspective",
+      "title": {
+        "en": "The Voices of<br/>the Dispatch",
+        "de": "Die Stimmen<br/>des Dispatch",
+        "fr": "Les Voix<br/>du Dispatch",
+        "it": "Le Voci<br/>del Dispatch"
+      },
+      "subtitle": {
+        "en": "Not anonymous authors, but attentive guides sharing a lived experience of the coast.",
+        "de": "Keine anonymen Autoren, sondern aufmerksame Begleiter, die gelebte Erfahrungen der Küste teilen.",
+        "fr": "Pas des auteurs anonymes, mais des guides attentifs partageant une expérience vécue de la côte.",
+        "it": "Non autori anonimi, ma guide attente che condividono un'esperienza vissuta della costa."
+      },
+      "badge": {
+        "en": "The People Behind the Perspective",
+        "de": "Die Menschen hinter der Perspektive",
+        "fr": "Les Personnes Derrière la Perspective",
+        "it": "Le Persone Dietro la Prospettiva"
+      },
       "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1600",
       "height": "70vh"
     },
     {
       "type": "editorial-intro",
-      "badge": "Human Perspective",
-      "quote": "Cinque Terre deserves to be shown by people who listen more than they promote. Every recommendation on this site is filtered through human perspective.",
-      "leftContent": "<p>We are not experts claiming authority, but attentive guides offering context. We believe that what you read should be shaped by lived experience, attention, and care.</p>",
-      "rightContent": "<p>Our team brings decades of combined experience exploring and documenting this extraordinary coastline, each with their own unique relationship to the five villages.</p>"
+      "badge": {
+        "en": "Human Perspective",
+        "de": "Menschliche Perspektive",
+        "fr": "Perspective Humaine",
+        "it": "Prospettiva Umana"
+      },
+      "quote": {
+        "en": "Cinque Terre deserves to be shown by people who listen more than they promote. Every recommendation on this site is filtered through human perspective.",
+        "de": "Die Cinque Terre verdient es, von Menschen gezeigt zu werden, die mehr zuhören als bewerben. Jede Empfehlung auf dieser Seite wird durch menschliche Perspektive gefiltert.",
+        "fr": "Les Cinque Terre méritent d'être présentées par des personnes qui écoutent plus qu'elles ne promeuvent. Chaque recommandation sur ce site est filtrée à travers une perspective humaine.",
+        "it": "Le Cinque Terre meritano di essere mostrate da persone che ascoltano più di quanto promuovano. Ogni raccomandazione su questo sito è filtrata attraverso una prospettiva umana."
+      },
+      "leftContent": {
+        "en": "<p>We are not experts claiming authority, but attentive guides offering context. We believe that what you read should be shaped by lived experience, attention, and care.</p>",
+        "de": "<p>Wir sind keine Experten, die Autorität beanspruchen, sondern aufmerksame Begleiter, die Kontext bieten. Wir glauben, dass das, was Sie lesen, durch gelebte Erfahrung, Aufmerksamkeit und Sorgfalt geprägt sein sollte.</p>",
+        "fr": "<p>Nous ne sommes pas des experts revendiquant l'autorité, mais des guides attentifs offrant du contexte. Nous croyons que ce que vous lisez devrait être façonné par l'expérience vécue, l'attention et le soin.</p>",
+        "it": "<p>Non siamo esperti che rivendicano autorità, ma guide attente che offrono contesto. Crediamo che ciò che leggete debba essere plasmato dall'esperienza vissuta, dall'attenzione e dalla cura.</p>"
+      },
+      "rightContent": {
+        "en": "<p>Our team brings decades of combined experience exploring and documenting this extraordinary coastline, each with their own unique relationship to the five villages.</p>",
+        "de": "<p>Unser Team bringt jahrzehntelange gemeinsame Erfahrung in der Erkundung und Dokumentation dieser außergewöhnlichen Küste mit, jeder mit seiner eigenen einzigartigen Beziehung zu den fünf Dörfern.</p>",
+        "fr": "<p>Notre équipe apporte des décennies d'expérience combinée dans l'exploration et la documentation de cette côte extraordinaire, chacun avec sa propre relation unique aux cinq villages.</p>",
+        "it": "<p>Il nostro team porta decenni di esperienza combinata nell'esplorazione e documentazione di questa straordinaria costa, ognuno con la propria relazione unica con i cinque borghi.</p>"
+      }
     },
     {
       "type": "team-grid",
       "editors": [
         {
           "name": "Giulia Rossi",
-          "role": "Riomaggiore Expert",
-          "bio": "Born in the shadow of the church of San Giovanni Battista, Giulia has watched Riomaggiore evolve from a quiet fishing village to an international destination. Her perspective is rooted in a lifetime of mornings spent on the harbor wall, watching the light change across the water. She writes to preserve what words can hold of a place that is always shifting.",
+          "role": {
+            "en": "Riomaggiore Expert",
+            "de": "Riomaggiore-Expertin",
+            "fr": "Experte de Riomaggiore",
+            "it": "Esperta di Riomaggiore"
+          },
+          "bio": {
+            "en": "Born in the shadow of the church of San Giovanni Battista, Giulia has watched Riomaggiore evolve from a quiet fishing village to an international destination. Her perspective is rooted in a lifetime of mornings spent on the harbor wall, watching the light change across the water. She writes to preserve what words can hold of a place that is always shifting.",
+            "de": "Im Schatten der Kirche San Giovanni Battista geboren, hat Giulia beobachtet, wie sich Riomaggiore von einem ruhigen Fischerdorf zu einem internationalen Reiseziel entwickelt hat. Ihre Perspektive ist verwurzelt in einem Leben voller Morgen auf der Hafenmauer, in denen sie beobachtete, wie sich das Licht über dem Wasser veränderte. Sie schreibt, um zu bewahren, was Worte von einem Ort festhalten können, der sich ständig wandelt.",
+            "fr": "Née à l'ombre de l'église de San Giovanni Battista, Giulia a vu Riomaggiore évoluer d'un paisible village de pêcheurs à une destination internationale. Sa perspective est enracinée dans une vie de matins passés sur le mur du port, à regarder la lumière changer sur l'eau. Elle écrit pour préserver ce que les mots peuvent retenir d'un lieu qui ne cesse de changer.",
+            "it": "Nata all'ombra della chiesa di San Giovanni Battista, Giulia ha visto Riomaggiore evolversi da tranquillo villaggio di pescatori a destinazione internazionale. La sua prospettiva è radicata in una vita di mattine trascorse sul molo del porto, osservando la luce cambiare sull'acqua. Scrive per preservare ciò che le parole possono trattenere di un luogo in continuo mutamento."
+          },
           "image": "/giulia_rossi.png",
-          "persona": "Prefers to walk the upper streets at dawn, before the first train arrives. Carries a small notebook for observations. Knows every shortcut and secret path.",
-          "love": "The way the church bells echo off the cliffs at noon. The smell of the harbor after a storm. The quiet conversations of the elderly at Bar Centrale.",
-          "hobbies": [
-            "Morning swims",
-            "Traditional cooking",
-            "Oral history collection",
-            "Vineyard walks"
-          ],
+          "persona": {
+            "en": "Prefers to walk the upper streets at dawn, before the first train arrives. Carries a small notebook for observations. Knows every shortcut and secret path.",
+            "de": "Geht am liebsten bei Morgengrauen durch die oberen Straßen, bevor der erste Zug ankommt. Trägt immer ein kleines Notizbuch für Beobachtungen bei sich. Kennt jede Abkürzung und jeden geheimen Pfad.",
+            "fr": "Préfère marcher dans les rues hautes à l'aube, avant l'arrivée du premier train. Porte un petit carnet pour ses observations. Connaît chaque raccourci et sentier secret.",
+            "it": "Preferisce camminare per le vie alte all'alba, prima che arrivi il primo treno. Porta sempre un piccolo quaderno per le osservazioni. Conosce ogni scorciatoia e sentiero segreto."
+          },
+          "love": {
+            "en": "The way the church bells echo off the cliffs at noon. The smell of the harbor after a storm. The quiet conversations of the elderly at Bar Centrale.",
+            "de": "Die Art, wie die Kirchenglocken mittags von den Klippen widerhallen. Der Geruch des Hafens nach einem Sturm. Die ruhigen Gespräche der Älteren im Bar Centrale.",
+            "fr": "La façon dont les cloches de l'église résonnent sur les falaises à midi. L'odeur du port après une tempête. Les conversations tranquilles des anciens au Bar Centrale.",
+            "it": "Il modo in cui le campane della chiesa echeggiano dalle scogliere a mezzogiorno. L'odore del porto dopo una tempesta. Le conversazioni tranquille degli anziani al Bar Centrale."
+          },
+          "hobbies": {
+            "en": ["Morning swims", "Traditional cooking", "Oral history collection", "Vineyard walks"],
+            "de": ["Morgenschwimmen", "Traditionelle Küche", "Mündliche Geschichtssammlung", "Weinbergwanderungen"],
+            "fr": ["Baignades matinales", "Cuisine traditionnelle", "Collection d'histoire orale", "Promenades dans les vignes"],
+            "it": ["Nuotate mattutine", "Cucina tradizionale", "Raccolta di storia orale", "Passeggiate tra i vigneti"]
+          },
           "accent": "border-primary/20"
         },
         {
           "name": "Marco Bianchi",
-          "role": "Adventure & Trails Editor",
-          "bio": "Marco arrived in Cinque Terre twenty years ago as a hiking guide and never left. He has walked every trail countless times, in every season and weather. His writing focuses on the physical experience of the landscape—the way the body learns a place through effort and movement.",
+          "role": {
+            "en": "Adventure & Trails Editor",
+            "de": "Redakteur für Abenteuer & Wanderwege",
+            "fr": "Rédacteur Aventure & Sentiers",
+            "it": "Redattore Avventura & Sentieri"
+          },
+          "bio": {
+            "en": "Marco arrived in Cinque Terre twenty years ago as a hiking guide and never left. He has walked every trail countless times, in every season and weather. His writing focuses on the physical experience of the landscape—the way the body learns a place through effort and movement.",
+            "de": "Marco kam vor zwanzig Jahren als Wanderführer in die Cinque Terre und blieb für immer. Er ist jeden Weg unzählige Male gegangen, zu jeder Jahreszeit und bei jedem Wetter. Sein Schreiben konzentriert sich auf die körperliche Erfahrung der Landschaft – wie der Körper einen Ort durch Anstrengung und Bewegung kennenlernt.",
+            "fr": "Marco est arrivé aux Cinque Terre il y a vingt ans comme guide de randonnée et n'est jamais reparti. Il a parcouru chaque sentier d'innombrables fois, en toute saison et par tous les temps. Son écriture se concentre sur l'expérience physique du paysage – la façon dont le corps apprend un lieu par l'effort et le mouvement.",
+            "it": "Marco è arrivato alle Cinque Terre vent'anni fa come guida escursionistica e non se n'è più andato. Ha percorso ogni sentiero innumerevoli volte, in ogni stagione e con ogni tempo. La sua scrittura si concentra sull'esperienza fisica del paesaggio – il modo in cui il corpo impara un luogo attraverso lo sforzo e il movimento."
+          },
           "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
-          "persona": "Always on the move, rarely sits still. Speaks with his hands, points at things in the distance. Has a scar on his left knee from a trail incident in 2008.",
-          "love": "The view from the top of the Beccara trail. The taste of water from the mountain spring above Corniglia. The first light on Vernazza from the path to Monterosso.",
-          "hobbies": [
-            "Trail maintenance",
-            "Rock climbing",
-            "Photography",
-            "Wild swimming"
-          ],
+          "persona": {
+            "en": "Always on the move, rarely sits still. Speaks with his hands, points at things in the distance. Has a scar on his left knee from a trail incident in 2008.",
+            "de": "Immer in Bewegung, sitzt selten still. Spricht mit den Händen, zeigt auf Dinge in der Ferne. Hat eine Narbe am linken Knie von einem Wegvorfall 2008.",
+            "fr": "Toujours en mouvement, rarement assis. Parle avec ses mains, pointe les choses au loin. A une cicatrice au genou gauche suite à un incident sur un sentier en 2008.",
+            "it": "Sempre in movimento, raramente sta fermo. Parla con le mani, indica cose in lontananza. Ha una cicatrice sul ginocchio sinistro da un incidente su un sentiero nel 2008."
+          },
+          "love": {
+            "en": "The view from the top of the Beccara trail. The taste of water from the mountain spring above Corniglia. The first light on Vernazza from the path to Monterosso.",
+            "de": "Die Aussicht von der Spitze des Beccara-Weges. Der Geschmack des Wassers aus der Bergquelle oberhalb von Corniglia. Das erste Licht auf Vernazza vom Weg nach Monterosso.",
+            "fr": "La vue depuis le sommet du sentier Beccara. Le goût de l'eau de la source de montagne au-dessus de Corniglia. La première lumière sur Vernazza depuis le chemin vers Monterosso.",
+            "it": "La vista dalla cima del sentiero Beccara. Il sapore dell'acqua dalla sorgente di montagna sopra Corniglia. La prima luce su Vernazza dal sentiero per Monterosso."
+          },
+          "hobbies": {
+            "en": ["Trail maintenance", "Rock climbing", "Photography", "Wild swimming"],
+            "de": ["Wegpflege", "Klettern", "Fotografie", "Wildschwimmen"],
+            "fr": ["Entretien des sentiers", "Escalade", "Photographie", "Baignade sauvage"],
+            "it": ["Manutenzione sentieri", "Arrampicata", "Fotografia", "Nuoto in acque libere"]
+          },
           "accent": "border-amber-500/20"
         },
         {
           "name": "Elena Moretti",
-          "role": "Culinary & Wine Editor",
-          "bio": "Elena's family has been making Sciacchetrà wine in Manarola for five generations. She left to study hospitality in Milan, then returned to help preserve and share the food traditions that define this coast. Her writing is sensory and precise, focused on the connection between what we eat and where it comes from.",
+          "role": {
+            "en": "Culinary & Wine Editor",
+            "de": "Redakteurin für Kulinarik & Wein",
+            "fr": "Rédactrice Gastronomie & Vin",
+            "it": "Redattrice Gastronomia & Vino"
+          },
+          "bio": {
+            "en": "Elena's family has been making Sciacchetrà wine in Manarola for five generations. She left to study hospitality in Milan, then returned to help preserve and share the food traditions that define this coast. Her writing is sensory and precise, focused on the connection between what we eat and where it comes from.",
+            "de": "Elenas Familie stellt seit fünf Generationen Sciacchetrà-Wein in Manarola her. Sie ging nach Mailand, um Gastgewerbe zu studieren, und kehrte dann zurück, um die Essenstraditionen zu bewahren und zu teilen, die diese Küste definieren. Ihr Schreiben ist sinnlich und präzise, fokussiert auf die Verbindung zwischen dem, was wir essen, und wo es herkommt.",
+            "fr": "La famille d'Elena produit du vin Sciacchetrà à Manarola depuis cinq générations. Elle est partie étudier l'hôtellerie à Milan, puis est revenue pour aider à préserver et partager les traditions culinaires qui définissent cette côte. Son écriture est sensorielle et précise, axée sur le lien entre ce que nous mangeons et d'où cela vient.",
+            "it": "La famiglia di Elena produce vino Sciacchetrà a Manarola da cinque generazioni. È partita per studiare ospitalità a Milano, poi è tornata per aiutare a preservare e condividere le tradizioni gastronomiche che definiscono questa costa. La sua scrittura è sensoriale e precisa, focalizzata sulla connessione tra ciò che mangiamo e da dove viene."
+          },
           "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800",
-          "persona": "Greets everyone she knows in the street (which is everyone). Always carries something edible in her bag. Has strong opinions about pesto.",
-          "love": "The harvest season, when the whole village smells of grapes. Sunday lunch at her grandmother's table. The sound of corks being pulled at aperitivo hour.",
-          "hobbies": [
-            "Winemaking",
-            "Recipe preservation",
-            "Foraging",
-            "Fermenting"
-          ],
+          "persona": {
+            "en": "Greets everyone she knows in the street (which is everyone). Always carries something edible in her bag. Has strong opinions about pesto.",
+            "de": "Grüßt jeden, den sie auf der Straße kennt (und das sind alle). Trägt immer etwas Essbares in ihrer Tasche. Hat starke Meinungen über Pesto.",
+            "fr": "Salue tous ceux qu'elle connaît dans la rue (c'est-à-dire tout le monde). Porte toujours quelque chose de comestible dans son sac. A des opinions très arrêtées sur le pesto.",
+            "it": "Saluta tutti quelli che conosce per strada (che sono tutti). Porta sempre qualcosa di commestibile nella borsa. Ha opinioni decise sul pesto."
+          },
+          "love": {
+            "en": "The harvest season, when the whole village smells of grapes. Sunday lunch at her grandmother's table. The sound of corks being pulled at aperitivo hour.",
+            "de": "Die Erntezeit, wenn das ganze Dorf nach Trauben riecht. Das Sonntagsessen am Tisch ihrer Großmutter. Das Geräusch, wenn zur Aperitivo-Stunde die Korken gezogen werden.",
+            "fr": "La saison des vendanges, quand tout le village sent le raisin. Le déjeuner du dimanche à la table de sa grand-mère. Le bruit des bouchons qu'on tire à l'heure de l'apéritif.",
+            "it": "La stagione della vendemmia, quando tutto il borgo profuma d'uva. Il pranzo della domenica a casa della nonna. Il suono dei tappi che si aprono all'ora dell'aperitivo."
+          },
+          "hobbies": {
+            "en": ["Winemaking", "Recipe preservation", "Foraging", "Fermenting"],
+            "de": ["Weinherstellung", "Rezeptbewahrung", "Sammeln von Wildkräutern", "Fermentieren"],
+            "fr": ["Vinification", "Préservation de recettes", "Cueillette sauvage", "Fermentation"],
+            "it": ["Vinificazione", "Conservazione ricette", "Raccolta erbe selvatiche", "Fermentazione"]
+          },
           "accent": "border-rose-500/20"
         }
       ]
     },
     {
       "type": "closing-note",
-      "badge": "Our Commitment",
-      "title": "Attentive Guides, Not Experts",
-      "content": "<p>We do not claim to know everything about Cinque Terre. We simply pay attention, and we share what we notice.</p><p>Our commitment is to honesty, to care, and to the ongoing relationship between these villages and the people who visit them. We hope you find something useful in our observations.</p>",
+      "badge": {
+        "en": "Our Commitment",
+        "de": "Unser Versprechen",
+        "fr": "Notre Engagement",
+        "it": "Il Nostro Impegno"
+      },
+      "title": {
+        "en": "Attentive Guides, Not Experts",
+        "de": "Aufmerksame Begleiter, keine Experten",
+        "fr": "Des Guides Attentifs, Pas des Experts",
+        "it": "Guide Attente, Non Esperti"
+      },
+      "content": {
+        "en": "<p>We do not claim to know everything about Cinque Terre. We simply pay attention, and we share what we notice.</p><p>Our commitment is to honesty, to care, and to the ongoing relationship between these villages and the people who visit them. We hope you find something useful in our observations.</p>",
+        "de": "<p>Wir behaupten nicht, alles über die Cinque Terre zu wissen. Wir achten einfach aufmerksam auf das, was uns umgibt, und teilen, was wir bemerken.</p><p>Unser Versprechen gilt der Ehrlichkeit, der Sorgfalt und der fortdauernden Beziehung zwischen diesen Dörfern und den Menschen, die sie besuchen. Wir hoffen, dass Sie in unseren Beobachtungen etwas Nützliches finden.</p>",
+        "fr": "<p>Nous ne prétendons pas tout savoir sur les Cinque Terre. Nous faisons simplement attention, et nous partageons ce que nous remarquons.</p><p>Notre engagement est envers l'honnêteté, le soin, et la relation continue entre ces villages et les personnes qui les visitent. Nous espérons que vous trouverez quelque chose d'utile dans nos observations.</p>",
+        "it": "<p>Non pretendiamo di sapere tutto sulle Cinque Terre. Prestiamo semplicemente attenzione e condividiamo ciò che notiamo.</p><p>Il nostro impegno è verso l'onestà, la cura e il rapporto continuo tra questi borghi e le persone che li visitano. Speriamo che troviate qualcosa di utile nelle nostre osservazioni.</p>"
+      },
       "actions": [
         {
-          "label": "Start Exploring",
+          "label": {
+            "en": "Start Exploring",
+            "de": "Erkunden Sie",
+            "fr": "Commencer l'Exploration",
+            "it": "Inizia ad Esplorare"
+          },
           "href": "/",
           "variant": "primary"
         },
         {
-          "label": "Contact Us",
+          "label": {
+            "en": "Contact Us",
+            "de": "Kontakt",
+            "fr": "Contactez-nous",
+            "it": "Contattaci"
+          },
           "href": "/en/team",
           "variant": "secondary"
         }
@@ -112,5 +238,5 @@
   },
   "status": "published",
   "created_at": "2025-01-05T00:00:00.000Z",
-  "updated_at": "2025-01-05T00:00:00.000Z"
+  "updated_at": "2026-01-08T00:00:00.000Z"
 }

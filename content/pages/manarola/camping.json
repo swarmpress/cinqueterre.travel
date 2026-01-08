@@ -7,36 +7,90 @@
     "it": "/it/manarola/camping"
   },
   "title": {
-    "en": "Camping Near Manarola | Cinque Terre Dispatch"
+    "en": "Camping Near Manarola | Cinque Terre Dispatch",
+    "de": "Camping bei Manarola | Cinque Terre Dispatch",
+    "fr": "Camping pres de Manarola | Cinque Terre Dispatch",
+    "it": "Campeggio vicino a Manarola | Cinque Terre Dispatch"
   },
   "page_type": "camping",
   "seo": {
     "title": {
-      "en": "Camping Near Manarola | Cinque Terre Dispatch"
+      "en": "Camping Near Manarola | Cinque Terre Dispatch",
+      "de": "Camping bei Manarola | Cinque Terre Dispatch",
+      "fr": "Camping pres de Manarola | Cinque Terre Dispatch",
+      "it": "Campeggio vicino a Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Wild camping is illegal in Cinque Terre, but organized options exist nearby—a different way to experience this coast, with the challenges and rewards that camping brings."
+      "en": "Wild camping is illegal in Cinque Terre, but organized options exist nearby--a different way to experience this coast, with the challenges and rewards that camping brings.",
+      "de": "Wildcampen ist in den Cinque Terre illegal, aber organisierte Optionen gibt es in der Nahe--ein anderer Weg, diese Kuste zu erleben, mit den Herausforderungen und Belohnungen, die Camping mit sich bringt.",
+      "fr": "Le camping sauvage est illegal aux Cinque Terre, mais des options organisees existent a proximite--une facon differente de decouvrir cette cote, avec les defis et les recompenses que le camping apporte.",
+      "it": "Il campeggio libero e illegale alle Cinque Terre, ma esistono opzioni organizzate nelle vicinanze--un modo diverso di vivere questa costa, con le sfide e le ricompense che il campeggio comporta."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Under<br/>Different Stars",
-      "subtitle": "You cannot pitch a tent in Manarola—the village is protected, the land is private, and wild camping is prohibited throughout Cinque Terre. But organized camping exists nearby for those who want to experience this coast without walls around them.",
-      "badge": "Camping Guide",
+      "title": {
+        "en": "Under<br/>Different Stars",
+        "de": "Unter<br/>anderen Sternen",
+        "fr": "Sous<br/>d'autres etoiles",
+        "it": "Sotto<br/>stelle diverse"
+      },
+      "subtitle": {
+        "en": "You cannot pitch a tent in Manarola--the village is protected, the land is private, and wild camping is prohibited throughout Cinque Terre. But organized camping exists nearby for those who want to experience this coast without walls around them.",
+        "de": "Sie konnen in Manarola kein Zelt aufschlagen--das Dorf ist geschutzt, das Land ist privat, und Wildcampen ist in den gesamten Cinque Terre verboten. Aber organisiertes Camping gibt es in der Nahe fur alle, die diese Kuste ohne Wande um sich herum erleben wollen.",
+        "fr": "Vous ne pouvez pas planter une tente a Manarola--le village est protege, le terrain est prive, et le camping sauvage est interdit dans toutes les Cinque Terre. Mais le camping organise existe a proximite pour ceux qui veulent decouvrir cette cote sans murs autour d'eux.",
+        "it": "Non potete piantare una tenda a Manarola--il borgo e protetto, il terreno e privato, e il campeggio libero e vietato in tutte le Cinque Terre. Ma il campeggio organizzato esiste nelle vicinanze per chi vuole vivere questa costa senza pareti intorno."
+      },
+      "badge": {
+        "en": "Camping Guide",
+        "de": "Camping-Fuhrer",
+        "fr": "Guide du camping",
+        "it": "Guida al campeggio"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504851149312-7a075b496cc7-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Camping Reality",
-      "quote": "Every summer, someone decides to sleep on the terraces or the rocks. Every summer, the carabinieri explain why that's illegal. The fines are substantial, the embarrassment is worse, and the damage to fragile terraces is real. Don't be that person.",
-      "content": [
-        "**Wild camping is prohibited**. The entire Cinque Terre National Park prohibits camping outside designated areas. This isn't bureaucracy—it's protection of fragile landscapes, private property, and fire risk in a region that burns easily.",
-        "**Organized options exist**. Several campsites operate within reach of Manarola—not in the village, but accessible by car, bus, or hiking trail. These provide legitimate camping with proper facilities.",
-        "**The experience is different**. Camping near Cinque Terre means trading village ambiance for natural immersion. You're outside the medieval streets, closer to the landscape that frames them.",
-        "**Budget travelers find value**. Campsites cost €15-35 per night—far less than village accommodations. For those who prioritize experience over comfort, camping stretches travel budgets significantly."
-      ]
+      "badge": {
+        "en": "The Camping Reality",
+        "de": "Die Camping-Realitat",
+        "fr": "La realite du camping",
+        "it": "La realta del campeggio"
+      },
+      "quote": {
+        "en": "Every summer, someone decides to sleep on the terraces or the rocks. Every summer, the carabinieri explain why that's illegal. The fines are substantial, the embarrassment is worse, and the damage to fragile terraces is real. Don't be that person.",
+        "de": "Jeden Sommer beschliesst jemand, auf den Terrassen oder den Felsen zu schlafen. Jeden Sommer erklaren die Carabinieri, warum das illegal ist. Die Geldstrafen sind erheblich, die Peinlichkeit ist schlimmer, und der Schaden an den empfindlichen Terrassen ist real. Seien Sie nicht diese Person.",
+        "fr": "Chaque ete, quelqu'un decide de dormir sur les terrasses ou les rochers. Chaque ete, les carabiniers expliquent pourquoi c'est illegal. Les amendes sont substantielles, l'embarras est pire, et les dommages aux terrasses fragiles sont reels. Ne soyez pas cette personne.",
+        "it": "Ogni estate, qualcuno decide di dormire sui terrazzamenti o sugli scogli. Ogni estate, i carabinieri spiegano perche e illegale. Le multe sono sostanziose, l'imbarazzo e peggio, e i danni ai terrazzamenti fragili sono reali. Non siate quella persona."
+      },
+      "content": {
+        "en": [
+          "**Wild camping is prohibited**. The entire Cinque Terre National Park prohibits camping outside designated areas. This isn't bureaucracy--it's protection of fragile landscapes, private property, and fire risk in a region that burns easily.",
+          "**Organized options exist**. Several campsites operate within reach of Manarola--not in the village, but accessible by car, bus, or hiking trail. These provide legitimate camping with proper facilities.",
+          "**The experience is different**. Camping near Cinque Terre means trading village ambiance for natural immersion. You're outside the medieval streets, closer to the landscape that frames them.",
+          "**Budget travelers find value**. Campsites cost EUR15-35 per night--far less than village accommodations. For those who prioritize experience over comfort, camping stretches travel budgets significantly."
+        ],
+        "de": [
+          "**Wildcampen ist verboten**. Der gesamte Nationalpark Cinque Terre verbietet Camping ausserhalb ausgewiesener Bereiche. Das ist keine Burokratie--es ist Schutz fragiler Landschaften, Privateigentum und Brandrisiko in einer Region, die leicht brennt.",
+          "**Organisierte Optionen existieren**. Mehrere Campingplatze sind von Manarola aus erreichbar--nicht im Dorf, aber mit Auto, Bus oder Wanderweg zuganglich. Diese bieten legitimes Camping mit ordentlichen Einrichtungen.",
+          "**Das Erlebnis ist anders**. Camping nahe den Cinque Terre bedeutet, Dorfambiente gegen Naturimmersion zu tauschen. Sie sind ausserhalb der mittelalterlichen Gassen, naher an der Landschaft, die sie umrahmt.",
+          "**Budget-Reisende finden Wert**. Campingplatze kosten 15-35 EUR pro Nacht--weit weniger als Dorfunterkunfte. Fur alle, die Erlebnis uber Komfort stellen, streckt Camping Reisebudgets erheblich."
+        ],
+        "fr": [
+          "**Le camping sauvage est interdit**. L'ensemble du Parc National des Cinque Terre interdit le camping en dehors des zones designees. Ce n'est pas de la bureaucratie--c'est la protection de paysages fragiles, de proprietes privees et du risque d'incendie dans une region qui brule facilement.",
+          "**Des options organisees existent**. Plusieurs campings operent a portee de Manarola--pas dans le village, mais accessibles en voiture, bus ou sentier de randonnee. Ils offrent un camping legitime avec des installations adequates.",
+          "**L'experience est differente**. Camper pres des Cinque Terre signifie echanger l'ambiance du village contre l'immersion dans la nature. Vous etes en dehors des ruelles medievales, plus proche du paysage qui les encadre.",
+          "**Les voyageurs a petit budget y trouvent leur compte**. Les campings coutent 15-35 EUR par nuit--bien moins que les hebergements du village. Pour ceux qui privilegient l'experience au confort, le camping etire considerablement les budgets de voyage."
+        ],
+        "it": [
+          "**Il campeggio libero e vietato**. L'intero Parco Nazionale delle Cinque Terre vieta il campeggio fuori dalle aree designate. Non e burocrazia--e protezione di paesaggi fragili, proprieta privata e rischio incendio in una regione che brucia facilmente.",
+          "**Opzioni organizzate esistono**. Diversi campeggi operano a portata di Manarola--non nel borgo, ma accessibili in auto, bus o sentiero escursionistico. Questi offrono campeggio legittimo con strutture adeguate.",
+          "**L'esperienza e diversa**. Campeggiare vicino alle Cinque Terre significa scambiare l'atmosfera del borgo per l'immersione nella natura. Siete fuori dalle viuzze medievali, piu vicini al paesaggio che le incornicia.",
+          "**I viaggiatori con budget limitato trovano valore**. I campeggi costano 15-35 EUR a notte--molto meno degli alloggi nel borgo. Per chi privilegia l'esperienza al comfort, il campeggio allunga notevolmente i budget di viaggio."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,208 @@
       "items": [
         {
           "id": 1,
-          "name": "Campeggio Acqua Dolce",
-          "category": "Closest Option",
-          "village": "Manarola",
+          "name": {
+            "en": "Campeggio Acqua Dolce",
+            "de": "Campeggio Acqua Dolce",
+            "fr": "Campeggio Acqua Dolce",
+            "it": "Campeggio Acqua Dolce"
+          },
+          "category": {
+            "en": "Closest Option",
+            "de": "Nachste Option",
+            "fr": "Option la plus proche",
+            "it": "Opzione piu vicina"
+          },
+          "village": {
+            "en": "Manarola",
+            "de": "Manarola",
+            "fr": "Manarola",
+            "it": "Manarola"
+          },
           "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The nearest proper campsite—inland from Manarola, accessible by bus, with basic facilities and terraced pitches.",
-          "description": "Located in the hills above the coast, Acqua Dolce offers tent and camper pitches with hot showers, a small shop, and restaurant. The bus connection to Manarola takes about 20 minutes. The site gets warm in summer—the sea breeze doesn't reach this far inland. But the views of the mountains compensate.",
-          "giuliaComment": "This is where I send people who insist on camping. It's not glamorous, but it's legitimate. You can hike down to the village, spend the day, and return to your tent. Just understand: it's camping. Expect camping conditions, not hotel comfort with a tent label.",
-          "signature": "Where budget meets legality"
+          "intro": {
+            "en": "The nearest proper campsite--inland from Manarola, accessible by bus, with basic facilities and terraced pitches.",
+            "de": "Der nachste richtige Campingplatz--landeinwarts von Manarola, mit Bus erreichbar, mit einfachen Einrichtungen und terrassierten Stellplatzen.",
+            "fr": "Le camping le plus proche--a l'interieur des terres depuis Manarola, accessible en bus, avec des installations basiques et des emplacements en terrasses.",
+            "it": "Il campeggio piu vicino--nell'entroterra da Manarola, accessibile in bus, con servizi base e piazzole terrazzate."
+          },
+          "description": {
+            "en": "Located in the hills above the coast, Acqua Dolce offers tent and camper pitches with hot showers, a small shop, and restaurant. The bus connection to Manarola takes about 20 minutes. The site gets warm in summer--the sea breeze doesn't reach this far inland. But the views of the mountains compensate.",
+            "de": "In den Hugeln uber der Kuste gelegen, bietet Acqua Dolce Zelt- und Wohnmobilstellplatze mit heissen Duschen, einem kleinen Laden und Restaurant. Die Busverbindung nach Manarola dauert etwa 20 Minuten. Der Platz wird im Sommer warm--die Meeresbrise reicht nicht so weit ins Landesinnere. Aber die Bergaussichten entschadigen.",
+            "fr": "Situe dans les collines au-dessus de la cote, Acqua Dolce propose des emplacements pour tentes et camping-cars avec douches chaudes, une petite boutique et un restaurant. La connexion en bus vers Manarola prend environ 20 minutes. Le site devient chaud en ete--la brise marine n'atteint pas si loin a l'interieur des terres. Mais les vues sur les montagnes compensent.",
+            "it": "Situato sulle colline sopra la costa, Acqua Dolce offre piazzole per tende e camper con docce calde, un piccolo negozio e ristorante. Il collegamento in bus con Manarola richiede circa 20 minuti. Il sito diventa caldo in estate--la brezza marina non arriva cosi nell'entroterra. Ma le viste sulle montagne compensano."
+          },
+          "giuliaComment": {
+            "en": "This is where I send people who insist on camping. It's not glamorous, but it's legitimate. You can hike down to the village, spend the day, and return to your tent. Just understand: it's camping. Expect camping conditions, not hotel comfort with a tent label.",
+            "de": "Hierhin schicke ich Leute, die auf Camping bestehen. Es ist nicht glamouros, aber legitim. Sie konnen ins Dorf hinunterwandern, den Tag verbringen und zu Ihrem Zelt zuruckkehren. Verstehen Sie nur: Es ist Camping. Erwarten Sie Camping-Bedingungen, nicht Hotelkomfort mit Zeltetikett.",
+            "fr": "C'est la que j'envoie les gens qui insistent pour camper. Ce n'est pas glamour, mais c'est legitime. Vous pouvez descendre a pied jusqu'au village, passer la journee et revenir a votre tente. Comprenez juste : c'est du camping. Attendez-vous a des conditions de camping, pas au confort d'un hotel avec une etiquette tente.",
+            "it": "E qui che mando le persone che insistono per campeggiare. Non e glamour, ma e legittimo. Potete scendere a piedi fino al borgo, passare la giornata e tornare alla vostra tenda. Capite solo: e campeggio. Aspettatevi condizioni da campeggio, non comfort d'albergo con etichetta tenda."
+          },
+          "signature": {
+            "en": "Where budget meets legality",
+            "de": "Wo Budget auf Legalitat trifft",
+            "fr": "Ou le budget rencontre la legalite",
+            "it": "Dove il budget incontra la legalita"
+          }
         },
         {
           "id": 2,
-          "name": "Glamping Options",
-          "category": "Comfortable Alternative",
-          "village": "Manarola",
+          "name": {
+            "en": "Glamping Options",
+            "de": "Glamping-Optionen",
+            "fr": "Options de glamping",
+            "it": "Opzioni glamping"
+          },
+          "category": {
+            "en": "Comfortable Alternative",
+            "de": "Komfortable Alternative",
+            "fr": "Alternative confortable",
+            "it": "Alternativa comoda"
+          },
+          "village": {
+            "en": "Manarola",
+            "de": "Manarola",
+            "fr": "Manarola",
+            "it": "Manarola"
+          },
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "For those who want nature without roughing it—furnished tents with beds, sometimes bathrooms, occasionally air conditioning.",
-          "description": "Several properties in the Vara Valley (20-30 minutes inland) offer glamping: permanent tents with real beds, sometimes private bathrooms, often restaurant service. Prices range €100-200/night—more than camping, less than village hotels, different from both.",
-          "giuliaComment": "Glamping is a compromise I understand. You want to feel connected to nature without sleeping on the ground. Fine. But know what you're choosing: you're not camping and you're not in Cinque Terre. You're comfortable in the countryside, visiting the coast by day.",
-          "signature": "When comfort meets nature"
+          "intro": {
+            "en": "For those who want nature without roughing it--furnished tents with beds, sometimes bathrooms, occasionally air conditioning.",
+            "de": "Fur alle, die Natur ohne Entbehrungen wollen--moblierte Zelte mit Betten, manchmal Badezimmer, gelegentlich Klimaanlage.",
+            "fr": "Pour ceux qui veulent la nature sans la durete--tentes meublees avec lits, parfois salles de bain, occasionnellement climatisation.",
+            "it": "Per chi vuole la natura senza le difficolta--tende arredate con letti, a volte bagni, occasionalmente aria condizionata."
+          },
+          "description": {
+            "en": "Several properties in the Vara Valley (20-30 minutes inland) offer glamping: permanent tents with real beds, sometimes private bathrooms, often restaurant service. Prices range EUR100-200/night--more than camping, less than village hotels, different from both.",
+            "de": "Mehrere Anwesen im Vara-Tal (20-30 Minuten landeinwarts) bieten Glamping: permanente Zelte mit richtigen Betten, manchmal private Badezimmer, oft Restaurantservice. Preise liegen bei 100-200 EUR/Nacht--mehr als Camping, weniger als Dorfhotels, anders als beides.",
+            "fr": "Plusieurs proprietes dans la vallee de la Vara (20-30 minutes a l'interieur des terres) proposent du glamping : tentes permanentes avec vrais lits, parfois salles de bain privees, souvent service de restaurant. Les prix vont de 100 a 200 EUR/nuit--plus que le camping, moins que les hotels du village, different des deux.",
+            "it": "Diverse strutture nella Val di Vara (20-30 minuti nell'entroterra) offrono glamping: tende permanenti con veri letti, a volte bagni privati, spesso servizio ristorante. I prezzi vanno da 100 a 200 EUR/notte--piu del campeggio, meno degli hotel del borgo, diverso da entrambi."
+          },
+          "giuliaComment": {
+            "en": "Glamping is a compromise I understand. You want to feel connected to nature without sleeping on the ground. Fine. But know what you're choosing: you're not camping and you're not in Cinque Terre. You're comfortable in the countryside, visiting the coast by day.",
+            "de": "Glamping ist ein Kompromiss, den ich verstehe. Sie wollen sich mit der Natur verbunden fuhlen, ohne auf dem Boden zu schlafen. In Ordnung. Aber wissen Sie, was Sie wahlen: Sie campen nicht und Sie sind nicht in den Cinque Terre. Sie sind komfortabel auf dem Land und besuchen tagsuber die Kuste.",
+            "fr": "Le glamping est un compromis que je comprends. Vous voulez vous sentir connecte a la nature sans dormir par terre. Tres bien. Mais sachez ce que vous choisissez : vous ne campez pas et vous n'etes pas aux Cinque Terre. Vous etes confortablement a la campagne, visitant la cote de jour.",
+            "it": "Il glamping e un compromesso che capisco. Volete sentirvi connessi alla natura senza dormire per terra. Va bene. Ma sappiate cosa state scegliendo: non state campeggiando e non siete alle Cinque Terre. Siete comodi in campagna, visitando la costa di giorno."
+          },
+          "signature": {
+            "en": "When comfort meets nature",
+            "de": "Wenn Komfort auf Natur trifft",
+            "fr": "Quand le confort rencontre la nature",
+            "it": "Quando il comfort incontra la natura"
+          }
         },
         {
           "id": 3,
-          "name": "Mountain Refuges",
-          "category": "Hiker Option",
-          "village": "Manarola",
+          "name": {
+            "en": "Mountain Refuges",
+            "de": "Berghütten",
+            "fr": "Refuges de montagne",
+            "it": "Rifugi di montagna"
+          },
+          "category": {
+            "en": "Hiker Option",
+            "de": "Wanderer-Option",
+            "fr": "Option randonneur",
+            "it": "Opzione escursionisti"
+          },
+          "village": {
+            "en": "Manarola",
+            "de": "Manarola",
+            "fr": "Manarola",
+            "it": "Manarola"
+          },
           "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Rifugi along the high trails offer dormitory accommodation for hikers—rustic, communal, and tied to the trail network.",
-          "description": "The trails above Cinque Terre connect several mountain refuges offering dormitory beds, simple meals, and the camaraderie of other hikers. These aren't campsites—you're indoors—but the experience is closer to camping than to hotels. Expect shared rooms, shared bathrooms, and trail-focused company.",
-          "giuliaComment": "The rifugi are for serious hikers who want to walk the high routes. You'll share a room with strangers, eat whatever's cooking, and wake early for the trail. Not for everyone, but for the right person, it's the best way to experience the landscape above the villages.",
-          "signature": "Where trails determine lodging"
+          "intro": {
+            "en": "Rifugi along the high trails offer dormitory accommodation for hikers--rustic, communal, and tied to the trail network.",
+            "de": "Rifugi entlang der Hohenwege bieten Schlafsaalunterkunft fur Wanderer--rustikal, gemeinschaftlich und mit dem Wanderwegnetz verbunden.",
+            "fr": "Les refuges le long des sentiers en altitude offrent un hebergement en dortoir pour les randonneurs--rustique, communautaire et lie au reseau de sentiers.",
+            "it": "I rifugi lungo i sentieri in quota offrono alloggio in dormitorio per escursionisti--rustico, comunitario e legato alla rete sentieristica."
+          },
+          "description": {
+            "en": "The trails above Cinque Terre connect several mountain refuges offering dormitory beds, simple meals, and the camaraderie of other hikers. These aren't campsites--you're indoors--but the experience is closer to camping than to hotels. Expect shared rooms, shared bathrooms, and trail-focused company.",
+            "de": "Die Wege uber den Cinque Terre verbinden mehrere Berghütten, die Schlafplatze in Schlafsalen, einfache Mahlzeiten und die Kameradschaft anderer Wanderer bieten. Das sind keine Campingplatze--Sie sind drinnen--aber das Erlebnis ist naher am Camping als an Hotels. Erwarten Sie geteilte Zimmer, geteilte Bader und wanderorientierte Gesellschaft.",
+            "fr": "Les sentiers au-dessus des Cinque Terre relient plusieurs refuges de montagne offrant des lits en dortoir, des repas simples et la camaraderie d'autres randonneurs. Ce ne sont pas des campings--vous etes a l'interieur--mais l'experience est plus proche du camping que des hotels. Attendez-vous a des chambres partagees, des salles de bain partagees et une compagnie axee sur la randonnee.",
+            "it": "I sentieri sopra le Cinque Terre collegano diversi rifugi di montagna che offrono letti in dormitorio, pasti semplici e la camerateria di altri escursionisti. Non sono campeggi--siete al coperto--ma l'esperienza e piu vicina al campeggio che agli hotel. Aspettatevi camere condivise, bagni condivisi e compagnia orientata ai sentieri."
+          },
+          "giuliaComment": {
+            "en": "The rifugi are for serious hikers who want to walk the high routes. You'll share a room with strangers, eat whatever's cooking, and wake early for the trail. Not for everyone, but for the right person, it's the best way to experience the landscape above the villages.",
+            "de": "Die Rifugi sind fur ernsthafte Wanderer, die die Hohenwege gehen wollen. Sie teilen ein Zimmer mit Fremden, essen was gekocht wird und wachen fruh fur den Weg auf. Nicht fur jeden, aber fur die richtige Person ist es der beste Weg, die Landschaft uber den Dorfern zu erleben.",
+            "fr": "Les refuges sont pour les randonneurs serieux qui veulent parcourir les hautes routes. Vous partagerez une chambre avec des inconnus, mangerez ce qui cuit et vous leverez tot pour le sentier. Pas pour tout le monde, mais pour la bonne personne, c'est la meilleure facon de decouvrir le paysage au-dessus des villages.",
+            "it": "I rifugi sono per escursionisti seri che vogliono percorrere le alte vie. Condividerete una stanza con sconosciuti, mangerete quello che c'e, e vi sveglierete presto per il sentiero. Non per tutti, ma per la persona giusta, e il modo migliore di vivere il paesaggio sopra i borghi."
+          },
+          "signature": {
+            "en": "Where trails determine lodging",
+            "de": "Wo Wege die Unterkunft bestimmen",
+            "fr": "Ou les sentiers determinent l'hebergement",
+            "it": "Dove i sentieri determinano l'alloggio"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "Why Wild Camping Is Prohibited",
-          "quote": "The terraces are private property—they belong to families who've maintained them for generations. The fire risk in Mediterranean summer is severe. The damage from even one tent on fragile ground is real. The prohibition isn't about being unfriendly; it's about protecting a landscape that barely survives as it is."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "Why Wild Camping Is Prohibited",
+            "de": "Warum Wildcampen verboten ist",
+            "fr": "Pourquoi le camping sauvage est interdit",
+            "it": "Perche il campeggio libero e vietato"
+          },
+          "quote": {
+            "en": "The terraces are private property--they belong to families who've maintained them for generations. The fire risk in Mediterranean summer is severe. The damage from even one tent on fragile ground is real. The prohibition isn't about being unfriendly; it's about protecting a landscape that barely survives as it is.",
+            "de": "Die Terrassen sind Privateigentum--sie gehoren Familien, die sie seit Generationen pflegen. Das Brandrisiko im mediterranen Sommer ist schwerwiegend. Der Schaden durch auch nur ein Zelt auf fragilem Boden ist real. Das Verbot geht nicht darum, unfreundlich zu sein; es geht darum, eine Landschaft zu schutzen, die kaum uberlebt, wie sie ist.",
+            "fr": "Les terrasses sont des proprietes privees--elles appartiennent a des familles qui les entretiennent depuis des generations. Le risque d'incendie en ete mediterraneen est severe. Les dommages meme d'une seule tente sur un sol fragile sont reels. L'interdiction ne vise pas a etre hostile; il s'agit de proteger un paysage qui survit a peine tel qu'il est.",
+            "it": "I terrazzamenti sono proprieta privata--appartengono a famiglie che li mantengono da generazioni. Il rischio incendio nell'estate mediterranea e grave. Il danno anche di una sola tenda su terreno fragile e reale. Il divieto non riguarda l'essere ostili; riguarda proteggere un paesaggio che sopravvive a malapena cosi com'e."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Making It Work",
-      "quote": "Camping near Manarola requires planning that village stays don't. You're farther from everything, dependent on transportation, and dealing with weather without walls.",
-      "content": [
-        "**Transportation is essential**. Without a car, you're dependent on buses that don't run frequently. Plan your connection carefully—the last bus back to the campsite determines when your day in Manarola ends.",
-        "**Weather affects everything**. Rain at a campsite is different from rain at a hotel. Heat without sea breeze is oppressive. Check forecasts and pack accordingly.",
-        "**Supplies require trips**. The nearest real grocery is in La Spezia. Campsite shops carry basics at premium prices. Stock up before arriving.",
-        "**The beach-day problem**. Returning to a campsite after swimming means carrying wet suits on public transport. Plan your logistics or accept damp tents."
-      ]
+      "badge": {
+        "en": "Making It Work",
+        "de": "So funktioniert es",
+        "fr": "Faire fonctionner les choses",
+        "it": "Far funzionare il tutto"
+      },
+      "quote": {
+        "en": "Camping near Manarola requires planning that village stays don't. You're farther from everything, dependent on transportation, and dealing with weather without walls.",
+        "de": "Camping nahe Manarola erfordert Planung, die Dorfaufenthalte nicht brauchen. Sie sind weiter von allem entfernt, von Transport abhangig und haben mit dem Wetter ohne Wande zu tun.",
+        "fr": "Camper pres de Manarola necessite une planification que les sejours au village n'exigent pas. Vous etes plus loin de tout, dependant des transports et confronte a la meteo sans murs.",
+        "it": "Campeggiare vicino a Manarola richiede una pianificazione che i soggiorni nel borgo non richiedono. Siete piu lontani da tutto, dipendenti dai trasporti e alle prese con il meteo senza pareti."
+      },
+      "content": {
+        "en": [
+          "**Transportation is essential**. Without a car, you're dependent on buses that don't run frequently. Plan your connection carefully--the last bus back to the campsite determines when your day in Manarola ends.",
+          "**Weather affects everything**. Rain at a campsite is different from rain at a hotel. Heat without sea breeze is oppressive. Check forecasts and pack accordingly.",
+          "**Supplies require trips**. The nearest real grocery is in La Spezia. Campsite shops carry basics at premium prices. Stock up before arriving.",
+          "**The beach-day problem**. Returning to a campsite after swimming means carrying wet suits on public transport. Plan your logistics or accept damp tents."
+        ],
+        "de": [
+          "**Transport ist wesentlich**. Ohne Auto sind Sie von Bussen abhangig, die nicht haufig fahren. Planen Sie Ihre Verbindung sorgfaltig--der letzte Bus zum Campingplatz bestimmt, wann Ihr Tag in Manarola endet.",
+          "**Wetter beeinflusst alles**. Regen auf einem Campingplatz ist anders als Regen in einem Hotel. Hitze ohne Meeresbrise ist druckend. Prufen Sie Vorhersagen und packen Sie entsprechend.",
+          "**Versorgung erfordert Ausfluege**. Der nachste richtige Supermarkt ist in La Spezia. Campingplatzladen fuhren Grundlagen zu Premiumpreisen. Decken Sie sich vor der Ankunft ein.",
+          "**Das Strandtag-Problem**. Zum Campingplatz nach dem Schwimmen zuruckzukehren bedeutet, nasse Badesachen im offentlichen Verkehr zu tragen. Planen Sie Ihre Logistik oder akzeptieren Sie feuchte Zelte."
+        ],
+        "fr": [
+          "**Le transport est essentiel**. Sans voiture, vous dependez de bus qui ne circulent pas frequemment. Planifiez votre connexion soigneusement--le dernier bus vers le camping determine quand votre journee a Manarola se termine.",
+          "**La meteo affecte tout**. La pluie sur un camping est differente de la pluie a l'hotel. La chaleur sans brise marine est oppressante. Consultez les previsions et equipez-vous en consequence.",
+          "**L'approvisionnement necessite des deplacements**. Le supermarche le plus proche est a La Spezia. Les boutiques du camping proposent des produits de base a prix majores. Faites vos courses avant d'arriver.",
+          "**Le probleme du jour de plage**. Retourner au camping apres avoir nage signifie transporter des maillots mouilles dans les transports en commun. Planifiez votre logistique ou acceptez les tentes humides."
+        ],
+        "it": [
+          "**Il trasporto e essenziale**. Senza auto, dipendete da autobus che non passano frequentemente. Pianificate la vostra connessione attentamente--l'ultimo bus per il campeggio determina quando finisce la vostra giornata a Manarola.",
+          "**Il meteo influenza tutto**. La pioggia in un campeggio e diversa dalla pioggia in hotel. Il caldo senza brezza marina e opprimente. Controllate le previsioni e preparatevi di conseguenza.",
+          "**I rifornimenti richiedono spostamenti**. Il supermercato vero piu vicino e a La Spezia. I negozi del campeggio hanno prodotti base a prezzi maggiorati. Fate scorta prima di arrivare.",
+          "**Il problema del giorno in spiaggia**. Tornare al campeggio dopo aver nuotato significa portare costumi bagnati sui mezzi pubblici. Pianificate la vostra logistica o accettate tende umide."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +307,183 @@
       "items": [
         {
           "id": 4,
-          "name": "The Seasonal Question",
-          "category": "Timing",
-          "village": "Manarola",
+          "name": {
+            "en": "The Seasonal Question",
+            "de": "Die Saisonfrage",
+            "fr": "La question saisonniere",
+            "it": "La questione stagionale"
+          },
+          "category": {
+            "en": "Timing",
+            "de": "Zeitplanung",
+            "fr": "Timing",
+            "it": "Tempistica"
+          },
+          "village": {
+            "en": "Manarola",
+            "de": "Manarola",
+            "fr": "Manarola",
+            "it": "Manarola"
+          },
           "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "May-September offers campable weather, with July-August bringing both crowds and heat.",
-          "description": "Most campsites operate May through September. June and September offer the best balance: warm enough to camp, cool enough to sleep, fewer crowds than high summer. July and August are hot—the inland sites especially suffer without sea breeze. April and October are shoulder months with unpredictable weather.",
-          "giuliaComment": "If you're camping, come in June or September. July and August are brutal at the inland sites—you're cooking in your tent while the coast catches the breeze you can't reach. Early and late season camping is pleasant; peak season camping is endurance.",
-          "signature": "When timing determines comfort"
+          "intro": {
+            "en": "May-September offers campable weather, with July-August bringing both crowds and heat.",
+            "de": "Mai-September bietet campingfahiges Wetter, wobei Juli-August sowohl Menschenmassen als auch Hitze bringt.",
+            "fr": "Mai-septembre offre un temps propice au camping, avec juillet-aout apportant foules et chaleur.",
+            "it": "Maggio-settembre offre clima adatto al campeggio, con luglio-agosto che porta sia folle che caldo."
+          },
+          "description": {
+            "en": "Most campsites operate May through September. June and September offer the best balance: warm enough to camp, cool enough to sleep, fewer crowds than high summer. July and August are hot--the inland sites especially suffer without sea breeze. April and October are shoulder months with unpredictable weather.",
+            "de": "Die meisten Campingplatze sind von Mai bis September geoffnet. Juni und September bieten die beste Balance: warm genug zum Campen, kuhl genug zum Schlafen, weniger Menschenmassen als im Hochsommer. Juli und August sind heiss--die Inlandsplatze leiden besonders ohne Meeresbrise. April und Oktober sind Ubergangsmonate mit unvorhersehbarem Wetter.",
+            "fr": "La plupart des campings fonctionnent de mai a septembre. Juin et septembre offrent le meilleur equilibre : assez chaud pour camper, assez frais pour dormir, moins de foules qu'en plein ete. Juillet et aout sont chauds--les sites interieurs souffrent particulierement sans brise marine. Avril et octobre sont des mois de transition avec une meteo imprevisible.",
+            "it": "La maggior parte dei campeggi opera da maggio a settembre. Giugno e settembre offrono il miglior equilibrio: abbastanza caldo per campeggiare, abbastanza fresco per dormire, meno folle rispetto alla piena estate. Luglio e agosto sono caldi--i siti nell'entroterra soffrono particolarmente senza brezza marina. Aprile e ottobre sono mesi di transizione con meteo imprevedibile."
+          },
+          "giuliaComment": {
+            "en": "If you're camping, come in June or September. July and August are brutal at the inland sites--you're cooking in your tent while the coast catches the breeze you can't reach. Early and late season camping is pleasant; peak season camping is endurance.",
+            "de": "Wenn Sie campen, kommen Sie im Juni oder September. Juli und August sind brutal an den Inlandsplatzen--Sie kochen in Ihrem Zelt, wahrend die Kuste die Brise fangt, die Sie nicht erreichen konnen. Fruh- und Spatsaison-Camping ist angenehm; Hochsaison-Camping ist Ausdauer.",
+            "fr": "Si vous campez, venez en juin ou septembre. Juillet et aout sont brutaux sur les sites interieurs--vous cuisez dans votre tente pendant que la cote attrape la brise que vous ne pouvez atteindre. Le camping en debut et fin de saison est agreable; le camping en haute saison est de l'endurance.",
+            "it": "Se campegiate, venite a giugno o settembre. Luglio e agosto sono brutali nei siti nell'entroterra--state cuocendo nella vostra tenda mentre la costa prende la brezza che non potete raggiungere. Il campeggio a inizio e fine stagione e piacevole; il campeggio in alta stagione e resistenza."
+          },
+          "signature": {
+            "en": "When timing determines comfort",
+            "de": "Wenn Zeitplanung Komfort bestimmt",
+            "fr": "Quand le timing determine le confort",
+            "it": "Quando la tempistica determina il comfort"
+          }
         },
         {
           "id": 5,
-          "name": "The Hybrid Approach",
-          "category": "Strategy",
-          "village": "Manarola",
+          "name": {
+            "en": "The Hybrid Approach",
+            "de": "Der Hybrid-Ansatz",
+            "fr": "L'approche hybride",
+            "it": "L'approccio ibrido"
+          },
+          "category": {
+            "en": "Strategy",
+            "de": "Strategie",
+            "fr": "Strategie",
+            "it": "Strategia"
+          },
+          "village": {
+            "en": "Manarola",
+            "de": "Manarola",
+            "fr": "Manarola",
+            "it": "Manarola"
+          },
           "image": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Camp some nights, stay in the village others—a compromise that combines budget and experience.",
-          "description": "Some travelers camp during the week when campsites are quieter and cheaper, then move to village accommodation for a weekend night or two. This provides both the camping experience and the evening village atmosphere that camping misses.",
-          "giuliaComment": "This is actually smart. Camp for the budget nights, splurge on one night in Manarola to experience the village after dark. You get both experiences without committing fully to either. Flexibility serves travelers well here.",
-          "signature": "When flexibility creates options"
+          "intro": {
+            "en": "Camp some nights, stay in the village others--a compromise that combines budget and experience.",
+            "de": "An manchen Nachten campen, an anderen im Dorf ubernachten--ein Kompromiss, der Budget und Erlebnis kombiniert.",
+            "fr": "Campez certaines nuits, sejournez au village d'autres--un compromis qui combine budget et experience.",
+            "it": "Campeggiare alcune notti, soggiornare nel borgo altre--un compromesso che combina budget ed esperienza."
+          },
+          "description": {
+            "en": "Some travelers camp during the week when campsites are quieter and cheaper, then move to village accommodation for a weekend night or two. This provides both the camping experience and the evening village atmosphere that camping misses.",
+            "de": "Einige Reisende campen unter der Woche, wenn Campingplatze ruhiger und gunstiger sind, und wechseln dann fur eine oder zwei Wochenendnachte in eine Dorfunterkunft. Das bietet sowohl das Camping-Erlebnis als auch die abendliche Dorfatmosphare, die beim Camping fehlt.",
+            "fr": "Certains voyageurs campent en semaine quand les campings sont plus calmes et moins chers, puis passent a un hebergement au village pour une ou deux nuits de week-end. Cela offre a la fois l'experience du camping et l'atmosphere du village le soir que le camping manque.",
+            "it": "Alcuni viaggiatori campegiano durante la settimana quando i campeggi sono piu tranquilli e economici, poi si spostano in un alloggio nel borgo per una o due notti nel weekend. Questo offre sia l'esperienza del campeggio che l'atmosfera serale del borgo che il campeggio non offre."
+          },
+          "giuliaComment": {
+            "en": "This is actually smart. Camp for the budget nights, splurge on one night in Manarola to experience the village after dark. You get both experiences without committing fully to either. Flexibility serves travelers well here.",
+            "de": "Das ist tatsachlich clever. Campen Sie fur die Budget-Nachte, gonnen Sie sich eine Nacht in Manarola, um das Dorf nach Einbruch der Dunkelheit zu erleben. Sie bekommen beide Erfahrungen, ohne sich voll auf eine festzulegen. Flexibilitat dient Reisenden hier gut.",
+            "fr": "C'est en fait intelligent. Campez pour les nuits budget, offrez-vous une nuit a Manarola pour decouvrir le village apres la tombee de la nuit. Vous obtenez les deux experiences sans vous engager pleinement dans l'une ou l'autre. La flexibilite sert bien les voyageurs ici.",
+            "it": "Questo e in realta intelligente. Campeggiare per le notti economiche, concedervi una notte a Manarola per vivere il borgo dopo il tramonto. Ottenete entrambe le esperienze senza impegnarvi completamente per nessuna delle due. La flessibilita serve bene i viaggiatori qui."
+          },
+          "signature": {
+            "en": "When flexibility creates options",
+            "de": "Wenn Flexibilitat Optionen schafft",
+            "fr": "Quand la flexibilite cree des options",
+            "it": "Quando la flessibilita crea opzioni"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Evening Problem",
-          "quote": "The evening is when Manarola is most magical—the light, the quiet, the locals taking back their village. Campers miss this unless they arrange late transport. Consider what you're trading for cheaper accommodation."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Evening Problem",
+            "de": "Das Abendproblem",
+            "fr": "Le probleme du soir",
+            "it": "Il problema della sera"
+          },
+          "quote": {
+            "en": "The evening is when Manarola is most magical--the light, the quiet, the locals taking back their village. Campers miss this unless they arrange late transport. Consider what you're trading for cheaper accommodation.",
+            "de": "Der Abend ist, wenn Manarola am magischsten ist--das Licht, die Stille, die Einheimischen, die ihr Dorf zuruckerobern. Camper verpassen das, es sei denn, sie organisieren spaten Transport. Bedenken Sie, was Sie fur gunstigere Unterkunft eintauschen.",
+            "fr": "Le soir est le moment ou Manarola est le plus magique--la lumiere, le calme, les locaux reprenant leur village. Les campeurs manquent cela a moins d'organiser un transport tardif. Considerez ce que vous echangez contre un hebergement moins cher.",
+            "it": "La sera e quando Manarola e piu magica--la luce, la quiete, i locali che si riprendono il loro borgo. I campeggiatori perdono questo a meno che non organizzino un trasporto tardivo. Considerate cosa state scambiando per un alloggio piu economico."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Camping Compromise",
-      "content": [
-        "Camping near Manarola is not camping in Manarola. You'll be inland, away from the sea, dependent on transportation, experiencing a different version of this coast than village guests experience.",
-        "For budget travelers, the savings are real. For nature lovers, the immersion is authentic. For those seeking village atmosphere and evening magic, camping trades away the best parts of the experience.",
-        "Know what you're choosing. The legal camping options exist and work well for the right traveler. But don't confuse camping near Cinque Terre with being in Cinque Terre. They're different experiences with different rewards."
-      ],
+      "title": {
+        "en": "The Camping Compromise",
+        "de": "Der Camping-Kompromiss",
+        "fr": "Le compromis du camping",
+        "it": "Il compromesso del campeggio"
+      },
+      "content": {
+        "en": [
+          "Camping near Manarola is not camping in Manarola. You'll be inland, away from the sea, dependent on transportation, experiencing a different version of this coast than village guests experience.",
+          "For budget travelers, the savings are real. For nature lovers, the immersion is authentic. For those seeking village atmosphere and evening magic, camping trades away the best parts of the experience.",
+          "Know what you're choosing. The legal camping options exist and work well for the right traveler. But don't confuse camping near Cinque Terre with being in Cinque Terre. They're different experiences with different rewards."
+        ],
+        "de": [
+          "Camping nahe Manarola ist nicht Camping in Manarola. Sie sind im Landesinneren, weg vom Meer, von Transport abhangig, erleben eine andere Version dieser Kuste als Dorfgaste.",
+          "Fur Budget-Reisende sind die Ersparnisse real. Fur Naturliebhaber ist die Immersion authentisch. Fur alle, die Dorfatmosphare und Abendmagie suchen, tauscht Camping die besten Teile der Erfahrung ein.",
+          "Wissen Sie, was Sie wahlen. Die legalen Camping-Optionen existieren und funktionieren gut fur den richtigen Reisenden. Aber verwechseln Sie Camping nahe den Cinque Terre nicht mit Sein in den Cinque Terre. Es sind verschiedene Erfahrungen mit verschiedenen Belohnungen."
+        ],
+        "fr": [
+          "Camper pres de Manarola n'est pas camper a Manarola. Vous serez a l'interieur des terres, loin de la mer, dependant des transports, vivant une version differente de cette cote que les clients du village.",
+          "Pour les voyageurs a petit budget, les economies sont reelles. Pour les amoureux de la nature, l'immersion est authentique. Pour ceux qui recherchent l'atmosphere du village et la magie du soir, le camping echange les meilleures parties de l'experience.",
+          "Sachez ce que vous choisissez. Les options de camping legales existent et fonctionnent bien pour le bon voyageur. Mais ne confondez pas camper pres des Cinque Terre avec etre aux Cinque Terre. Ce sont des experiences differentes avec des recompenses differentes."
+        ],
+        "it": [
+          "Campeggiare vicino a Manarola non e campeggiare a Manarola. Sarete nell'entroterra, lontani dal mare, dipendenti dai trasporti, vivendo una versione diversa di questa costa rispetto agli ospiti del borgo.",
+          "Per i viaggiatori con budget limitato, i risparmi sono reali. Per gli amanti della natura, l'immersione e autentica. Per chi cerca l'atmosfera del borgo e la magia della sera, il campeggio scambia le parti migliori dell'esperienza.",
+          "Sappiate cosa state scegliendo. Le opzioni di campeggio legali esistono e funzionano bene per il viaggiatore giusto. Ma non confondete campeggiare vicino alle Cinque Terre con essere alle Cinque Terre. Sono esperienze diverse con ricompense diverse."
+        ]
+      },
       "buttons": [
-        { "text": "Hotels", "url": "/en/manarola/hotels", "variant": "primary" },
-        { "text": "Apartments", "url": "/en/manarola/apartments", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Hotels",
+            "de": "Hotels",
+            "fr": "Hotels",
+            "it": "Hotel"
+          },
+          "url": {
+            "en": "/en/manarola/hotels",
+            "de": "/de/manarola/hotels",
+            "fr": "/fr/manarola/hotels",
+            "it": "/it/manarola/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Apartments",
+            "de": "Apartments",
+            "fr": "Appartements",
+            "it": "Appartamenti"
+          },
+          "url": {
+            "en": "/en/manarola/apartments",
+            "de": "/de/manarola/apartments",
+            "fr": "/fr/manarola/apartments",
+            "it": "/it/manarola/apartments"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +493,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:45:00.000Z"
+  "updated_at": "2026-01-07T20:00:00.000Z"
 }

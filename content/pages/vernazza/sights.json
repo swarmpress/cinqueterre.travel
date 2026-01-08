@@ -7,36 +7,90 @@
     "it": "/it/vernazza/sights"
   },
   "title": {
-    "en": "What to See in Vernazza | Cinque Terre Dispatch"
+    "en": "What to See in Vernazza | Cinque Terre Dispatch",
+    "de": "Sehenswürdigkeiten in Vernazza | Cinque Terre Dispatch",
+    "fr": "Que voir à Vernazza | Cinque Terre Dispatch",
+    "it": "Cosa vedere a Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "sights",
   "seo": {
     "title": {
-      "en": "What to See in Vernazza | Cinque Terre Dispatch"
+      "en": "What to See in Vernazza | Cinque Terre Dispatch",
+      "de": "Sehenswürdigkeiten in Vernazza | Cinque Terre Dispatch",
+      "fr": "Que voir à Vernazza | Cinque Terre Dispatch",
+      "it": "Cosa vedere a Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The most photographed village in Cinque Terre reveals its secrets slowly: the Doria tower, the harbor church, the medieval passages. A guide to seeing what the cameras miss."
+      "en": "The most photographed village in Cinque Terre reveals its secrets slowly: the Doria tower, the harbor church, the medieval passages. A guide to seeing what the cameras miss.",
+      "de": "Das meistfotografierte Dorf der Cinque Terre enthüllt seine Geheimnisse langsam: der Doria-Turm, die Hafenkirche, die mittelalterlichen Gassen. Ein Führer zu dem, was die Kameras verpassen.",
+      "fr": "Le village le plus photographié des Cinque Terre révèle ses secrets lentement : la tour Doria, l'église du port, les passages médiévaux. Un guide pour voir ce que les appareils photo manquent.",
+      "it": "Il borgo più fotografato delle Cinque Terre rivela i suoi segreti lentamente: la torre Doria, la chiesa del porto, i passaggi medievali. Una guida per vedere ciò che le fotocamere perdono."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The View<br/>Everyone Takes",
-      "subtitle": "You've already seen Vernazza—in photographs, in films, on book covers. That iconic harbor framed by tower and church appears a million times a year. What you haven't seen is what the cameras miss: the details, the stories, the village behind the postcard.",
-      "badge": "What to See",
+      "title": {
+        "en": "The View<br/>Everyone Takes",
+        "de": "Die Aussicht,<br/>die alle machen",
+        "fr": "La Vue<br/>Que Tout Le Monde Prend",
+        "it": "La Vista<br/>Che Tutti Fanno"
+      },
+      "subtitle": {
+        "en": "You've already seen Vernazza—in photographs, in films, on book covers. That iconic harbor framed by tower and church appears a million times a year. What you haven't seen is what the cameras miss: the details, the stories, the village behind the postcard.",
+        "de": "Sie haben Vernazza bereits gesehen—auf Fotos, in Filmen, auf Buchcovern. Dieser ikonische Hafen, eingerahmt von Turm und Kirche, erscheint millionenfach im Jahr. Was Sie nicht gesehen haben, ist das, was die Kameras verpassen: die Details, die Geschichten, das Dorf hinter der Postkarte.",
+        "fr": "Vous avez déjà vu Vernazza—en photos, dans des films, sur des couvertures de livres. Ce port emblématique encadré par la tour et l'église apparaît un million de fois par an. Ce que vous n'avez pas vu, c'est ce que les appareils photo manquent : les détails, les histoires, le village derrière la carte postale.",
+        "it": "Avete già visto Vernazza—nelle fotografie, nei film, sulle copertine dei libri. Quel porto iconico incorniciato da torre e chiesa appare un milione di volte all'anno. Quello che non avete visto è ciò che le fotocamere perdono: i dettagli, le storie, il borgo dietro la cartolina."
+      },
+      "badge": {
+        "en": "What to See",
+        "de": "Sehenswürdigkeiten",
+        "fr": "À Voir",
+        "it": "Cosa Vedere"
+      },
       "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d0379b?q=80&w=1200&auto=format&fit=crop"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Photographed Village",
-      "quote": "Every visitor takes the same photograph: the harbor view from above, with the tower, the church, and the pastel houses cascading down to the sea. This is fine. The view is extraordinary. But Vernazza offers more to those who look past the obvious frame.",
-      "content": [
-        "**The harbor is the difference**. Vernazza has the only natural harbor in Cinque Terre—a protected inlet that made this village the coast's commercial center for a thousand years. Everything you see flows from this geographic accident.",
-        "**The tower is older than it looks**. The Doria Castle was built in the 11th century, when Vernazza belonged to Genoa's ruling family. What remains is a cylindrical watchtower that has guarded these waters for a millennium.",
-        "**The church breaks the rules**. Santa Margherita d'Antiochia sits at the water's edge, not above the village like most medieval churches. This placement reflects Vernazza's identity—a town built for the sea, not defended against it.",
-        "**The streets hide in plain sight**. The caruggi—narrow medieval passages—climb the hillside away from the tourist flow. Here the village lives its private life, visible to anyone willing to climb past the piazza."
-      ]
+      "badge": {
+        "en": "The Photographed Village",
+        "de": "Das fotografierte Dorf",
+        "fr": "Le Village Photographié",
+        "it": "Il Borgo Fotografato"
+      },
+      "quote": {
+        "en": "Every visitor takes the same photograph: the harbor view from above, with the tower, the church, and the pastel houses cascading down to the sea. This is fine. The view is extraordinary. But Vernazza offers more to those who look past the obvious frame.",
+        "de": "Jeder Besucher macht dasselbe Foto: die Hafenansicht von oben, mit dem Turm, der Kirche und den pastellfarbenen Häusern, die zum Meer hinunterkaskadieren. Das ist in Ordnung. Die Aussicht ist außergewöhnlich. Aber Vernazza bietet mehr für diejenigen, die über den offensichtlichen Rahmen hinausblicken.",
+        "fr": "Chaque visiteur prend la même photo : la vue du port d'en haut, avec la tour, l'église et les maisons pastel qui descendent en cascade vers la mer. C'est bien. La vue est extraordinaire. Mais Vernazza offre plus à ceux qui regardent au-delà du cadre évident.",
+        "it": "Ogni visitatore fa la stessa fotografia: la vista del porto dall'alto, con la torre, la chiesa e le case color pastello che scendono a cascata verso il mare. Va bene così. La vista è straordinaria. Ma Vernazza offre di più a chi guarda oltre l'inquadratura ovvia."
+      },
+      "content": {
+        "en": [
+          "**The harbor is the difference**. Vernazza has the only natural harbor in Cinque Terre—a protected inlet that made this village the coast's commercial center for a thousand years. Everything you see flows from this geographic accident.",
+          "**The tower is older than it looks**. The Doria Castle was built in the 11th century, when Vernazza belonged to Genoa's ruling family. What remains is a cylindrical watchtower that has guarded these waters for a millennium.",
+          "**The church breaks the rules**. Santa Margherita d'Antiochia sits at the water's edge, not above the village like most medieval churches. This placement reflects Vernazza's identity—a town built for the sea, not defended against it.",
+          "**The streets hide in plain sight**. The caruggi—narrow medieval passages—climb the hillside away from the tourist flow. Here the village lives its private life, visible to anyone willing to climb past the piazza."
+        ],
+        "de": [
+          "**Der Hafen macht den Unterschied**. Vernazza hat den einzigen natürlichen Hafen der Cinque Terre—eine geschützte Bucht, die dieses Dorf tausend Jahre lang zum Handelszentrum der Küste machte. Alles, was Sie sehen, entspringt diesem geografischen Zufall.",
+          "**Der Turm ist älter, als er aussieht**. Die Burg Doria wurde im 11. Jahrhundert erbaut, als Vernazza der herrschenden Familie Genuas gehörte. Was bleibt, ist ein zylindrischer Wachturm, der diese Gewässer seit einem Jahrtausend bewacht.",
+          "**Die Kirche bricht die Regeln**. Santa Margherita d'Antiochia liegt am Wasserrand, nicht über dem Dorf wie die meisten mittelalterlichen Kirchen. Diese Platzierung spiegelt Vernazzas Identität wider—eine Stadt, die für das Meer gebaut wurde, nicht gegen es verteidigt.",
+          "**Die Straßen verstecken sich vor aller Augen**. Die Caruggi—enge mittelalterliche Gassen—klettern den Hang hinauf, weg vom Touristenstrom. Hier lebt das Dorf sein privates Leben, sichtbar für jeden, der bereit ist, über die Piazza hinaus zu klettern."
+        ],
+        "fr": [
+          "**Le port fait la différence**. Vernazza possède le seul port naturel des Cinque Terre—une crique protégée qui a fait de ce village le centre commercial de la côte pendant mille ans. Tout ce que vous voyez découle de cet accident géographique.",
+          "**La tour est plus ancienne qu'elle n'en a l'air**. Le château Doria a été construit au XIe siècle, quand Vernazza appartenait à la famille régnante de Gênes. Ce qui reste est une tour de guet cylindrique qui garde ces eaux depuis un millénaire.",
+          "**L'église enfreint les règles**. Santa Margherita d'Antiochia se trouve au bord de l'eau, pas au-dessus du village comme la plupart des églises médiévales. Ce placement reflète l'identité de Vernazza—une ville construite pour la mer, pas défendue contre elle.",
+          "**Les rues se cachent en pleine vue**. Les caruggi—passages médiévaux étroits—grimpent la colline loin du flux touristique. Ici le village vit sa vie privée, visible pour quiconque est prêt à grimper au-delà de la piazza."
+        ],
+        "it": [
+          "**Il porto fa la differenza**. Vernazza ha l'unico porto naturale delle Cinque Terre—un'insenatura protetta che ha reso questo borgo il centro commerciale della costa per mille anni. Tutto ciò che vedete deriva da questo incidente geografico.",
+          "**La torre è più antica di quanto sembri**. Il Castello Doria fu costruito nell'XI secolo, quando Vernazza apparteneva alla famiglia regnante di Genova. Ciò che rimane è una torre di guardia cilindrica che sorveglia queste acque da un millennio.",
+          "**La chiesa infrange le regole**. Santa Margherita d'Antiochia si trova sul bordo dell'acqua, non sopra il borgo come la maggior parte delle chiese medievali. Questa collocazione riflette l'identità di Vernazza—un paese costruito per il mare, non difeso contro di esso.",
+          "**Le strade si nascondono in bella vista**. I caruggi—stretti passaggi medievali—salgono la collina lontano dal flusso turistico. Qui il borgo vive la sua vita privata, visibile a chiunque sia disposto a salire oltre la piazza."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,61 +98,211 @@
       "items": [
         {
           "id": 1,
-          "name": "Doria Castle & Tower",
-          "category": "Medieval Fortress",
+          "name": {
+            "en": "Doria Castle & Tower",
+            "de": "Burg und Turm Doria",
+            "fr": "Château et Tour Doria",
+            "it": "Castello e Torre Doria"
+          },
+          "category": {
+            "en": "Medieval Fortress",
+            "de": "Mittelalterliche Festung",
+            "fr": "Forteresse Médiévale",
+            "it": "Fortezza Medievale"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The cylindrical tower that has defined Vernazza's silhouette for a thousand years.",
-          "description": "Built by Genoa's Doria family in the 11th century, this castle anchored the republic's control of the Ligurian coast. The cylindrical tower was designed to deflect projectiles; the position offered clear sightlines to approaching ships. Today it offers the village's finest panorama—the same view that watchmen scanned for Saracen raiders.",
-          "giuliaComment": "The entrance fee is almost nothing, and most tourists skip it. Their loss. From the tower platform, you understand why Vernazza mattered—it controlled this entire coast. The view explains a thousand years of history.",
-          "signature": "Where power looked out to sea",
-          "practicalInfo": "Small entrance fee (€1.50). Open daily. 15-minute climb from piazza. Best at sunset or early morning."
+          "intro": {
+            "en": "The cylindrical tower that has defined Vernazza's silhouette for a thousand years.",
+            "de": "Der zylindrische Turm, der Vernazzas Silhouette seit tausend Jahren prägt.",
+            "fr": "La tour cylindrique qui définit la silhouette de Vernazza depuis mille ans.",
+            "it": "La torre cilindrica che definisce il profilo di Vernazza da mille anni."
+          },
+          "description": {
+            "en": "Built by Genoa's Doria family in the 11th century, this castle anchored the republic's control of the Ligurian coast. The cylindrical tower was designed to deflect projectiles; the position offered clear sightlines to approaching ships. Today it offers the village's finest panorama—the same view that watchmen scanned for Saracen raiders.",
+            "de": "Von Genuas Familie Doria im 11. Jahrhundert erbaut, verankerte diese Burg die Kontrolle der Republik über die Ligurische Küste. Der zylindrische Turm wurde entworfen, um Geschosse abzulenken; die Position bot klare Sichtlinien zu sich nähernden Schiffen. Heute bietet er das feinste Panorama des Dorfes—dieselbe Aussicht, die Wächter nach sarazenischen Räubern absuchten.",
+            "fr": "Construit par la famille Doria de Gênes au XIe siècle, ce château ancrait le contrôle de la république sur la côte ligure. La tour cylindrique a été conçue pour dévier les projectiles ; la position offrait des lignes de vue claires vers les navires qui approchaient. Aujourd'hui, elle offre le plus beau panorama du village—la même vue que les guetteurs scrutaient pour repérer les raids sarrasins.",
+            "it": "Costruito dalla famiglia Doria di Genova nell'XI secolo, questo castello ancorò il controllo della repubblica sulla costa ligure. La torre cilindrica fu progettata per deviare i proiettili; la posizione offriva linee di vista chiare verso le navi in avvicinamento. Oggi offre il più bel panorama del borgo—la stessa vista che le sentinelle scrutavano in cerca di predoni saraceni."
+          },
+          "giuliaComment": {
+            "en": "The entrance fee is almost nothing, and most tourists skip it. Their loss. From the tower platform, you understand why Vernazza mattered—it controlled this entire coast. The view explains a thousand years of history.",
+            "de": "Der Eintrittspreis ist fast nichts, und die meisten Touristen überspringen ihn. Ihr Verlust. Von der Turmplattform verstehen Sie, warum Vernazza wichtig war—es kontrollierte diese gesamte Küste. Die Aussicht erklärt tausend Jahre Geschichte.",
+            "fr": "Le droit d'entrée n'est presque rien, et la plupart des touristes le sautent. Leur perte. Depuis la plateforme de la tour, vous comprenez pourquoi Vernazza comptait—elle contrôlait toute cette côte. La vue explique mille ans d'histoire.",
+            "it": "Il biglietto d'ingresso è quasi nulla, e la maggior parte dei turisti lo salta. Persi loro. Dalla piattaforma della torre, capite perché Vernazza era importante—controllava tutta questa costa. La vista spiega mille anni di storia."
+          },
+          "signature": {
+            "en": "Where power looked out to sea",
+            "de": "Wo die Macht aufs Meer blickte",
+            "fr": "Où le pouvoir regardait vers la mer",
+            "it": "Dove il potere guardava verso il mare"
+          },
+          "practicalInfo": {
+            "en": "Small entrance fee (€1.50). Open daily. 15-minute climb from piazza. Best at sunset or early morning.",
+            "de": "Kleiner Eintrittspreis (1,50€). Täglich geöffnet. 15 Minuten Aufstieg von der Piazza. Am besten bei Sonnenuntergang oder am frühen Morgen.",
+            "fr": "Petit droit d'entrée (1,50€). Ouvert tous les jours. 15 minutes de montée depuis la piazza. Meilleur au coucher du soleil ou tôt le matin.",
+            "it": "Piccolo biglietto d'ingresso (1,50€). Aperto tutti i giorni. 15 minuti di salita dalla piazza. Meglio al tramonto o al mattino presto."
+          }
         },
         {
           "id": 2,
-          "name": "Church of Santa Margherita d'Antiochia",
-          "category": "Gothic Church",
+          "name": {
+            "en": "Church of Santa Margherita d'Antiochia",
+            "de": "Kirche Santa Margherita d'Antiochia",
+            "fr": "Église de Santa Margherita d'Antiochia",
+            "it": "Chiesa di Santa Margherita d'Antiochia"
+          },
+          "category": {
+            "en": "Gothic Church",
+            "de": "Gotische Kirche",
+            "fr": "Église Gothique",
+            "it": "Chiesa Gotica"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The waterfront church that anchors Vernazza's spiritual life—built where the boats come in.",
-          "description": "Dating to 1318, Santa Margherita d'Antiochia breaks with medieval convention by sitting at the water's edge rather than the village's highest point. Its octagonal bell tower has guided fishermen home for seven centuries. Inside, maritime ex-votos hang alongside Gothic frescoes—tangible evidence of faith that has asked the sea to be merciful.",
-          "giuliaComment": "Enter in the afternoon when the tour groups have gone. Let your eyes adjust to the darkness. The wooden crucifix above the altar survived Saracen raids and two world wars. That's Vernazza's faith—stubborn, survived, still here.",
-          "signature": "Where the sea meets salvation",
-          "practicalInfo": "Free entry. Respectful dress required. Open 9am-12pm, 3pm-6pm. No photography during services."
+          "intro": {
+            "en": "The waterfront church that anchors Vernazza's spiritual life—built where the boats come in.",
+            "de": "Die Uferkirche, die Vernazzas geistliches Leben verankert—gebaut, wo die Boote anlegen.",
+            "fr": "L'église au bord de l'eau qui ancre la vie spirituelle de Vernazza—construite là où arrivent les bateaux.",
+            "it": "La chiesa sul lungomare che ancora la vita spirituale di Vernazza—costruita dove arrivano le barche."
+          },
+          "description": {
+            "en": "Dating to 1318, Santa Margherita d'Antiochia breaks with medieval convention by sitting at the water's edge rather than the village's highest point. Its octagonal bell tower has guided fishermen home for seven centuries. Inside, maritime ex-votos hang alongside Gothic frescoes—tangible evidence of faith that has asked the sea to be merciful.",
+            "de": "Mit Ursprung im Jahr 1318 bricht Santa Margherita d'Antiochia mit der mittelalterlichen Konvention, indem sie am Wasserrand sitzt statt am höchsten Punkt des Dorfes. Ihr achteckiger Glockenturm hat Fischer seit sieben Jahrhunderten nach Hause geleitet. Drinnen hängen maritime Ex-Votos neben gotischen Fresken—greifbare Beweise eines Glaubens, der das Meer um Gnade gebeten hat.",
+            "fr": "Datant de 1318, Santa Margherita d'Antiochia rompt avec la convention médiévale en se situant au bord de l'eau plutôt qu'au point le plus élevé du village. Son clocher octogonal guide les pêcheurs vers leur foyer depuis sept siècles. À l'intérieur, des ex-voto maritimes côtoient des fresques gothiques—preuves tangibles d'une foi qui a demandé à la mer d'être clémente.",
+            "it": "Risalente al 1318, Santa Margherita d'Antiochia rompe con la convenzione medievale sedendo sul bordo dell'acqua piuttosto che nel punto più alto del borgo. Il suo campanile ottagonale guida i pescatori a casa da sette secoli. All'interno, ex-voto marittimi pendono accanto a affreschi gotici—prove tangibili di una fede che ha chiesto al mare di essere clemente."
+          },
+          "giuliaComment": {
+            "en": "Enter in the afternoon when the tour groups have gone. Let your eyes adjust to the darkness. The wooden crucifix above the altar survived Saracen raids and two world wars. That's Vernazza's faith—stubborn, survived, still here.",
+            "de": "Treten Sie am Nachmittag ein, wenn die Reisegruppen gegangen sind. Lassen Sie Ihre Augen sich an die Dunkelheit gewöhnen. Das hölzerne Kruzifix über dem Altar überlebte sarazenische Überfälle und zwei Weltkriege. Das ist Vernazzas Glaube—stur, überlebt, immer noch da.",
+            "fr": "Entrez l'après-midi quand les groupes de touristes sont partis. Laissez vos yeux s'adapter à l'obscurité. Le crucifix en bois au-dessus de l'autel a survécu aux raids sarrasins et à deux guerres mondiales. C'est la foi de Vernazza—têtue, survivante, toujours là.",
+            "it": "Entrate nel pomeriggio quando i gruppi turistici se ne sono andati. Lasciate che i vostri occhi si adattino al buio. Il crocifisso di legno sopra l'altare è sopravvissuto alle incursioni saracene e a due guerre mondiali. Questa è la fede di Vernazza—ostinata, sopravvissuta, ancora qui."
+          },
+          "signature": {
+            "en": "Where the sea meets salvation",
+            "de": "Wo das Meer die Erlösung trifft",
+            "fr": "Où la mer rencontre le salut",
+            "it": "Dove il mare incontra la salvezza"
+          },
+          "practicalInfo": {
+            "en": "Free entry. Respectful dress required. Open 9am-12pm, 3pm-6pm. No photography during services.",
+            "de": "Freier Eintritt. Respektvolle Kleidung erforderlich. Geöffnet 9-12 Uhr, 15-18 Uhr. Keine Fotografie während der Gottesdienste.",
+            "fr": "Entrée gratuite. Tenue respectueuse requise. Ouvert 9h-12h, 15h-18h. Pas de photographie pendant les services.",
+            "it": "Ingresso gratuito. Abbigliamento rispettoso richiesto. Aperto 9-12, 15-18. Niente fotografie durante le funzioni."
+          }
         },
         {
           "id": 3,
-          "name": "The Natural Harbor",
-          "category": "Geographic Wonder",
+          "name": {
+            "en": "The Natural Harbor",
+            "de": "Der natürliche Hafen",
+            "fr": "Le Port Naturel",
+            "it": "Il Porto Naturale"
+          },
+          "category": {
+            "en": "Geographic Wonder",
+            "de": "Geografisches Wunder",
+            "fr": "Merveille Géographique",
+            "it": "Meraviglia Geografica"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The only natural harbor in Cinque Terre—the reason Vernazza exists and prospers.",
-          "description": "Vernazza's harbor is not man-made. The cove formed naturally, offering protection that the other villages—clinging to open coastline—could never match. This accident of geography made Vernazza the coast's commercial hub, its boats able to work when neighbors were storm-bound. The breakwater extends the protection; the piazza opens directly onto the water.",
-          "giuliaComment": "Watch how the boats move here compared to Riomaggiore or Manarola. Here they float peacefully. There they must be pulled up ramps and stored. This single difference shaped everything—the wealth, the architecture, the attitude.",
-          "signature": "Where geography became destiny",
-          "practicalInfo": "Always accessible. Best in morning light or at sunset from the breakwater."
+          "intro": {
+            "en": "The only natural harbor in Cinque Terre—the reason Vernazza exists and prospers.",
+            "de": "Der einzige natürliche Hafen der Cinque Terre—der Grund, warum Vernazza existiert und gedeiht.",
+            "fr": "Le seul port naturel des Cinque Terre—la raison pour laquelle Vernazza existe et prospère.",
+            "it": "L'unico porto naturale delle Cinque Terre—il motivo per cui Vernazza esiste e prospera."
+          },
+          "description": {
+            "en": "Vernazza's harbor is not man-made. The cove formed naturally, offering protection that the other villages—clinging to open coastline—could never match. This accident of geography made Vernazza the coast's commercial hub, its boats able to work when neighbors were storm-bound. The breakwater extends the protection; the piazza opens directly onto the water.",
+            "de": "Vernazzas Hafen ist nicht von Menschenhand gemacht. Die Bucht bildete sich natürlich und bot Schutz, den die anderen Dörfer—die sich an die offene Küste klammern—nie erreichen konnten. Dieser geografische Zufall machte Vernazza zum Handelszentrum der Küste, seine Boote konnten arbeiten, wenn die Nachbarn sturmgebunden waren. Die Mole erweitert den Schutz; die Piazza öffnet sich direkt zum Wasser.",
+            "fr": "Le port de Vernazza n'est pas artificiel. La crique s'est formée naturellement, offrant une protection que les autres villages—accrochés à la côte ouverte—n'ont jamais pu égaler. Cet accident de géographie a fait de Vernazza le centre commercial de la côte, ses bateaux pouvant travailler quand les voisins étaient bloqués par la tempête. Le brise-lames étend la protection ; la piazza s'ouvre directement sur l'eau.",
+            "it": "Il porto di Vernazza non è artificiale. L'insenatura si è formata naturalmente, offrendo protezione che gli altri borghi—aggrappati alla costa aperta—non hanno mai potuto eguagliare. Questo incidente geografico ha reso Vernazza il centro commerciale della costa, le sue barche potevano lavorare quando i vicini erano bloccati dalle tempeste. Il molo estende la protezione; la piazza si apre direttamente sull'acqua."
+          },
+          "giuliaComment": {
+            "en": "Watch how the boats move here compared to Riomaggiore or Manarola. Here they float peacefully. There they must be pulled up ramps and stored. This single difference shaped everything—the wealth, the architecture, the attitude.",
+            "de": "Beobachten Sie, wie sich die Boote hier im Vergleich zu Riomaggiore oder Manarola bewegen. Hier schwimmen sie friedlich. Dort müssen sie Rampen hinaufgezogen und gelagert werden. Dieser einzelne Unterschied prägte alles—den Reichtum, die Architektur, die Einstellung.",
+            "fr": "Regardez comment les bateaux bougent ici comparé à Riomaggiore ou Manarola. Ici ils flottent paisiblement. Là-bas ils doivent être tirés sur des rampes et stockés. Cette seule différence a façonné tout—la richesse, l'architecture, l'attitude.",
+            "it": "Guardate come si muovono le barche qui rispetto a Riomaggiore o Manarola. Qui galleggiano pacificamente. Là devono essere tirate su rampe e riposte. Questa sola differenza ha plasmato tutto—la ricchezza, l'architettura, l'atteggiamento."
+          },
+          "signature": {
+            "en": "Where geography became destiny",
+            "de": "Wo Geografie zum Schicksal wurde",
+            "fr": "Où la géographie est devenue destin",
+            "it": "Dove la geografia è diventata destino"
+          },
+          "practicalInfo": {
+            "en": "Always accessible. Best in morning light or at sunset from the breakwater.",
+            "de": "Immer zugänglich. Am besten im Morgenlicht oder bei Sonnenuntergang von der Mole.",
+            "fr": "Toujours accessible. Meilleur en lumière matinale ou au coucher du soleil depuis le brise-lames.",
+            "it": "Sempre accessibile. Meglio alla luce del mattino o al tramonto dal molo."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Problem of Beauty",
-          "quote": "Vernazza is so photogenic that visitors sometimes forget to experience it. They arrive, take the photograph, and leave—having captured the view but missed the village. Resist this. The photograph will look like everyone else's. The memory of sitting in the piazza as evening falls will be yours alone."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Problem of Beauty",
+            "de": "Das Problem der Schönheit",
+            "fr": "Le Problème de la Beauté",
+            "it": "Il Problema della Bellezza"
+          },
+          "quote": {
+            "en": "Vernazza is so photogenic that visitors sometimes forget to experience it. They arrive, take the photograph, and leave—having captured the view but missed the village. Resist this. The photograph will look like everyone else's. The memory of sitting in the piazza as evening falls will be yours alone.",
+            "de": "Vernazza ist so fotogen, dass Besucher manchmal vergessen, es zu erleben. Sie kommen an, machen das Foto und gehen—haben die Aussicht eingefangen, aber das Dorf verpasst. Widerstehen Sie dem. Das Foto wird wie das aller anderen aussehen. Die Erinnerung, auf der Piazza zu sitzen, während der Abend hereinbricht, wird Ihre allein sein.",
+            "fr": "Vernazza est si photogénique que les visiteurs oublient parfois de l'expérimenter. Ils arrivent, prennent la photo et partent—ayant capturé la vue mais manqué le village. Résistez. La photo ressemblera à celle de tout le monde. Le souvenir d'être assis sur la piazza au crépuscule sera le vôtre seul.",
+            "it": "Vernazza è così fotogenica che i visitatori a volte dimenticano di viverla. Arrivano, fanno la foto e vanno via—avendo catturato la vista ma perso il borgo. Resistete. La foto sarà come quella di tutti gli altri. Il ricordo di sedersi in piazza mentre scende la sera sarà solo vostro."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Beyond the Piazza",
-      "quote": "The famous view from above is earned by climbing—but the views keep coming as you ascend. Each turn reveals a new frame, a different angle, a fresh composition.",
-      "content": [
-        "**The viewpoint trail to Corniglia** starts just past the train station. Within ten minutes, you'll have the classic aerial view of the harbor. Keep climbing for perspective the postcard-hunters miss.",
-        "**The upper caruggi** wind above the tourist path, connecting houses where families have lived for generations. The view from these narrow passages is private, domestic, real—laundry lines, kitchen gardens, cats in windows.",
-        "**Belforte's perch** is best appreciated from below. The restaurant occupies a medieval defensive position; from the breakwater, look up to understand how this village was fortified.",
-        "**The breakwater at night** offers something no photograph can capture: the harbor in darkness, lit only by restaurant glow and stars, the water lapping against ancient stone."
-      ]
+      "badge": {
+        "en": "Beyond the Piazza",
+        "de": "Jenseits der Piazza",
+        "fr": "Au-delà de la Piazza",
+        "it": "Oltre la Piazza"
+      },
+      "quote": {
+        "en": "The famous view from above is earned by climbing—but the views keep coming as you ascend. Each turn reveals a new frame, a different angle, a fresh composition.",
+        "de": "Die berühmte Aussicht von oben wird durch Klettern verdient—aber die Aussichten kommen weiter, während Sie aufsteigen. Jede Kurve enthüllt einen neuen Rahmen, einen anderen Winkel, eine frische Komposition.",
+        "fr": "La vue célèbre d'en haut se mérite en grimpant—mais les vues continuent d'arriver pendant que vous montez. Chaque virage révèle un nouveau cadre, un angle différent, une composition fraîche.",
+        "it": "La famosa vista dall'alto si guadagna salendo—ma le viste continuano ad arrivare mentre salite. Ogni curva rivela un nuovo inquadramento, un angolo diverso, una composizione fresca."
+      },
+      "content": {
+        "en": [
+          "**The viewpoint trail to Corniglia** starts just past the train station. Within ten minutes, you'll have the classic aerial view of the harbor. Keep climbing for perspective the postcard-hunters miss.",
+          "**The upper caruggi** wind above the tourist path, connecting houses where families have lived for generations. The view from these narrow passages is private, domestic, real—laundry lines, kitchen gardens, cats in windows.",
+          "**Belforte's perch** is best appreciated from below. The restaurant occupies a medieval defensive position; from the breakwater, look up to understand how this village was fortified.",
+          "**The breakwater at night** offers something no photograph can capture: the harbor in darkness, lit only by restaurant glow and stars, the water lapping against ancient stone."
+        ],
+        "de": [
+          "**Der Aussichtswanderweg nach Corniglia** beginnt direkt hinter dem Bahnhof. Innerhalb von zehn Minuten haben Sie die klassische Luftaufnahme des Hafens. Klettern Sie weiter für eine Perspektive, die die Postkartenjäger verpassen.",
+          "**Die oberen Caruggi** winden sich über dem Touristenpfad und verbinden Häuser, in denen Familien seit Generationen leben. Die Aussicht aus diesen engen Gassen ist privat, häuslich, echt—Wäscheleinen, Küchengärten, Katzen in Fenstern.",
+          "**Belfortes Aussichtspunkt** wird am besten von unten gewürdigt. Das Restaurant besetzt eine mittelalterliche Verteidigungsposition; von der Mole aus schauen Sie hinauf, um zu verstehen, wie dieses Dorf befestigt war.",
+          "**Die Mole bei Nacht** bietet etwas, das kein Foto einfangen kann: den Hafen in der Dunkelheit, nur beleuchtet vom Restaurantschein und Sternen, das Wasser, das gegen alten Stein plätschert."
+        ],
+        "fr": [
+          "**Le sentier panoramique vers Corniglia** commence juste après la gare. En dix minutes, vous aurez la vue aérienne classique du port. Continuez à grimper pour une perspective que les chasseurs de cartes postales manquent.",
+          "**Les caruggi supérieurs** serpentent au-dessus du chemin touristique, reliant des maisons où des familles vivent depuis des générations. La vue depuis ces passages étroits est privée, domestique, réelle—lignes de linge, jardins potagers, chats aux fenêtres.",
+          "**Le perchoir de Belforte** s'apprécie mieux d'en bas. Le restaurant occupe une position défensive médiévale ; depuis le brise-lames, regardez vers le haut pour comprendre comment ce village était fortifié.",
+          "**Le brise-lames la nuit** offre quelque chose qu'aucune photo ne peut capturer : le port dans l'obscurité, éclairé seulement par la lueur des restaurants et les étoiles, l'eau clapotant contre la pierre ancienne."
+        ],
+        "it": [
+          "**Il sentiero panoramico verso Corniglia** inizia appena oltre la stazione. In dieci minuti, avrete la classica vista aerea del porto. Continuate a salire per una prospettiva che i cacciatori di cartoline perdono.",
+          "**I caruggi superiori** serpeggiano sopra il percorso turistico, collegando case dove le famiglie vivono da generazioni. La vista da questi passaggi stretti è privata, domestica, reale—stendibiancheria, orti, gatti alle finestre.",
+          "**Il punto panoramico di Belforte** si apprezza meglio dal basso. Il ristorante occupa una posizione difensiva medievale; dal molo, guardate in alto per capire come questo borgo era fortificato.",
+          "**Il molo di notte** offre qualcosa che nessuna foto può catturare: il porto nel buio, illuminato solo dal bagliore dei ristoranti e dalle stelle, l'acqua che lambisce l'antica pietra."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,62 +310,232 @@
       "items": [
         {
           "id": 4,
-          "name": "The Medieval Caruggi",
-          "category": "Village Architecture",
+          "name": {
+            "en": "The Medieval Caruggi",
+            "de": "Die mittelalterlichen Caruggi",
+            "fr": "Les Caruggi Médiévaux",
+            "it": "I Caruggi Medievali"
+          },
+          "category": {
+            "en": "Village Architecture",
+            "de": "Dorfarchitektur",
+            "fr": "Architecture du Village",
+            "it": "Architettura del Borgo"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
-          "intro": "The narrow passages where Vernazza lives its private life—invisible from the piazza below.",
-          "description": "Above the tourist flow, stone passages climb the hillside in a maze that served defense as well as circulation. These caruggi are too narrow for vehicles, too steep for casual wandering. Here you'll find doorway shrines, chatting neighbors, children playing—the village that continues regardless of visitors.",
-          "giuliaComment": "Get lost. Seriously. The caruggi are designed for confusion—that was the point when raiders came. But now it just means that wandering reveals surprises: a hidden courtyard, a grandmother's vegetable garden, a cat who decides you're trustworthy.",
-          "signature": "Where the village hides in plain sight",
-          "practicalInfo": "Always accessible. Wear good shoes. Climb uphill from the main street and explore."
+          "intro": {
+            "en": "The narrow passages where Vernazza lives its private life—invisible from the piazza below.",
+            "de": "Die engen Gassen, wo Vernazza sein privates Leben lebt—unsichtbar von der Piazza unten.",
+            "fr": "Les passages étroits où Vernazza vit sa vie privée—invisibles depuis la piazza en contrebas.",
+            "it": "I passaggi stretti dove Vernazza vive la sua vita privata—invisibili dalla piazza sotto."
+          },
+          "description": {
+            "en": "Above the tourist flow, stone passages climb the hillside in a maze that served defense as well as circulation. These caruggi are too narrow for vehicles, too steep for casual wandering. Here you'll find doorway shrines, chatting neighbors, children playing—the village that continues regardless of visitors.",
+            "de": "Über dem Touristenstrom klettern Steingassen den Hang hinauf in einem Labyrinth, das sowohl der Verteidigung als auch der Zirkulation diente. Diese Caruggi sind zu eng für Fahrzeuge, zu steil für beiläufiges Wandern. Hier finden Sie Türschreine, plaudernde Nachbarn, spielende Kinder—das Dorf, das unabhängig von Besuchern weiterlebt.",
+            "fr": "Au-dessus du flux touristique, des passages en pierre grimpent la colline dans un labyrinthe qui servait à la défense autant qu'à la circulation. Ces caruggi sont trop étroits pour les véhicules, trop raides pour une promenade décontractée. Ici vous trouverez des sanctuaires de porte, des voisins qui bavardent, des enfants qui jouent—le village qui continue indépendamment des visiteurs.",
+            "it": "Sopra il flusso turistico, passaggi di pietra salgono la collina in un labirinto che serviva sia alla difesa che alla circolazione. Questi caruggi sono troppo stretti per i veicoli, troppo ripidi per passeggiare casualmente. Qui troverete edicole sulle porte, vicini che chiacchierano, bambini che giocano—il borgo che continua indipendentemente dai visitatori."
+          },
+          "giuliaComment": {
+            "en": "Get lost. Seriously. The caruggi are designed for confusion—that was the point when raiders came. But now it just means that wandering reveals surprises: a hidden courtyard, a grandmother's vegetable garden, a cat who decides you're trustworthy.",
+            "de": "Verlieren Sie sich. Ernsthaft. Die Caruggi sind für Verwirrung konzipiert—das war der Sinn, wenn Räuber kamen. Aber jetzt bedeutet es nur, dass Wandern Überraschungen enthüllt: ein versteckter Innenhof, der Gemüsegarten einer Großmutter, eine Katze, die entscheidet, dass Sie vertrauenswürdig sind.",
+            "fr": "Perdez-vous. Sérieusement. Les caruggi sont conçus pour la confusion—c'était le but quand les pillards arrivaient. Mais maintenant cela signifie juste que vagabonder révèle des surprises : une cour cachée, le potager d'une grand-mère, un chat qui décide que vous êtes digne de confiance.",
+            "it": "Perdetevi. Sul serio. I caruggi sono progettati per la confusione—era il punto quando arrivavano i predoni. Ma ora significa solo che vagabondare rivela sorprese: un cortile nascosto, l'orto di una nonna, un gatto che decide che siete affidabili."
+          },
+          "signature": {
+            "en": "Where the village hides in plain sight",
+            "de": "Wo das Dorf sich vor aller Augen versteckt",
+            "fr": "Où le village se cache en pleine vue",
+            "it": "Dove il borgo si nasconde in bella vista"
+          },
+          "practicalInfo": {
+            "en": "Always accessible. Wear good shoes. Climb uphill from the main street and explore.",
+            "de": "Immer zugänglich. Tragen Sie gute Schuhe. Klettern Sie von der Hauptstraße bergauf und erkunden Sie.",
+            "fr": "Toujours accessible. Portez de bonnes chaussures. Montez depuis la rue principale et explorez.",
+            "it": "Sempre accessibile. Indossate scarpe comode. Salite dalla via principale ed esplorate."
+          }
         },
         {
           "id": 5,
-          "name": "The Piazza and Breakwater",
-          "category": "Public Space",
+          "name": {
+            "en": "The Piazza and Breakwater",
+            "de": "Die Piazza und die Mole",
+            "fr": "La Piazza et le Brise-lames",
+            "it": "La Piazza e il Molo"
+          },
+          "category": {
+            "en": "Public Space",
+            "de": "Öffentlicher Raum",
+            "fr": "Espace Public",
+            "it": "Spazio Pubblico"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The stage where Vernazza performs itself—and the breakwater where the audience gathers.",
-          "description": "Unlike other Cinque Terre villages, Vernazza's piazza opens directly onto the water. There is no separation between village and sea. The breakwater extends this public space into the harbor, creating an informal gathering place that fills at sunset with locals and visitors sharing wine and views.",
-          "giuliaComment": "The piazza is for passing through. The breakwater is for staying. By evening, every flat rock is occupied—strangers becoming friends over shared bottles and the same extraordinary view. This is where Vernazza happens.",
-          "signature": "Where the village meets the sea",
-          "practicalInfo": "Always accessible. Bring drinks and snacks for the breakwater. Best at sunset. Careful on wet rocks."
+          "intro": {
+            "en": "The stage where Vernazza performs itself—and the breakwater where the audience gathers.",
+            "de": "Die Bühne, auf der Vernazza sich selbst aufführt—und die Mole, wo sich das Publikum versammelt.",
+            "fr": "La scène où Vernazza se joue elle-même—et le brise-lames où le public se rassemble.",
+            "it": "Il palcoscenico dove Vernazza si esibisce—e il molo dove si raduna il pubblico."
+          },
+          "description": {
+            "en": "Unlike other Cinque Terre villages, Vernazza's piazza opens directly onto the water. There is no separation between village and sea. The breakwater extends this public space into the harbor, creating an informal gathering place that fills at sunset with locals and visitors sharing wine and views.",
+            "de": "Im Gegensatz zu anderen Cinque Terre-Dörfern öffnet sich Vernazzas Piazza direkt zum Wasser. Es gibt keine Trennung zwischen Dorf und Meer. Die Mole erweitert diesen öffentlichen Raum in den Hafen und schafft einen informellen Treffpunkt, der sich bei Sonnenuntergang mit Einheimischen und Besuchern füllt, die Wein und Aussichten teilen.",
+            "fr": "Contrairement aux autres villages des Cinque Terre, la piazza de Vernazza s'ouvre directement sur l'eau. Il n'y a pas de séparation entre le village et la mer. Le brise-lames étend cet espace public dans le port, créant un lieu de rassemblement informel qui se remplit au coucher du soleil de locaux et de visiteurs partageant vin et vues.",
+            "it": "A differenza degli altri borghi delle Cinque Terre, la piazza di Vernazza si apre direttamente sull'acqua. Non c'è separazione tra borgo e mare. Il molo estende questo spazio pubblico nel porto, creando un luogo di ritrovo informale che si riempie al tramonto di locali e visitatori che condividono vino e panorami."
+          },
+          "giuliaComment": {
+            "en": "The piazza is for passing through. The breakwater is for staying. By evening, every flat rock is occupied—strangers becoming friends over shared bottles and the same extraordinary view. This is where Vernazza happens.",
+            "de": "Die Piazza ist zum Durchgehen. Die Mole ist zum Bleiben. Am Abend ist jeder flache Felsen besetzt—Fremde werden Freunde bei geteilten Flaschen und derselben außergewöhnlichen Aussicht. Hier passiert Vernazza.",
+            "fr": "La piazza est pour passer. Le brise-lames est pour rester. Le soir, chaque rocher plat est occupé—des étrangers devenant amis autour de bouteilles partagées et de la même vue extraordinaire. C'est ici que Vernazza se passe.",
+            "it": "La piazza è per passare. Il molo è per restare. La sera, ogni roccia piatta è occupata—sconosciuti che diventano amici condividendo bottiglie e la stessa vista straordinaria. È qui che succede Vernazza."
+          },
+          "signature": {
+            "en": "Where the village meets the sea",
+            "de": "Wo das Dorf das Meer trifft",
+            "fr": "Où le village rencontre la mer",
+            "it": "Dove il borgo incontra il mare"
+          },
+          "practicalInfo": {
+            "en": "Always accessible. Bring drinks and snacks for the breakwater. Best at sunset. Careful on wet rocks.",
+            "de": "Immer zugänglich. Bringen Sie Getränke und Snacks für die Mole mit. Am besten bei Sonnenuntergang. Vorsicht auf nassen Felsen.",
+            "fr": "Toujours accessible. Apportez des boissons et des en-cas pour le brise-lames. Meilleur au coucher du soleil. Attention aux rochers mouillés.",
+            "it": "Sempre accessibile. Portate bevande e spuntini per il molo. Meglio al tramonto. Attenzione alle rocce bagnate."
+          }
         },
         {
           "id": 6,
-          "name": "The Terraced Vineyards",
-          "category": "Cultural Landscape",
+          "name": {
+            "en": "The Terraced Vineyards",
+            "de": "Die Weinbergterrassen",
+            "fr": "Les Vignobles en Terrasses",
+            "it": "I Vigneti Terrazzati"
+          },
+          "category": {
+            "en": "Cultural Landscape",
+            "de": "Kulturlandschaft",
+            "fr": "Paysage Culturel",
+            "it": "Paesaggio Culturale"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The dry-stone walls that climb above the village—a thousand years of defying gravity.",
-          "description": "The terraces above Vernazza represent millennia of agricultural determination. Stone walls hold back hillsides that should be too steep for farming. The grapes that produce Cinque Terre DOC and Sciacchetrà grow here because generations refused to accept impossibility. Walking the vineyard paths reveals the scale of this effort.",
-          "giuliaComment": "Every stone in those walls was carried by hand. Every vine is pruned by someone who climbs for hours to reach it. When you taste the wine here, you're tasting labor that most people cannot imagine. That's what makes it precious.",
-          "signature": "Where stubbornness became beauty",
-          "practicalInfo": "Accessible via hiking trails. Best in late afternoon light. Respect active agricultural areas."
+          "intro": {
+            "en": "The dry-stone walls that climb above the village—a thousand years of defying gravity.",
+            "de": "Die Trockenmauern, die über dem Dorf aufsteigen—tausend Jahre der Schwerkraft trotzend.",
+            "fr": "Les murs en pierres sèches qui grimpent au-dessus du village—mille ans de défi à la gravité.",
+            "it": "I muri a secco che salgono sopra il borgo—mille anni di sfida alla gravità."
+          },
+          "description": {
+            "en": "The terraces above Vernazza represent millennia of agricultural determination. Stone walls hold back hillsides that should be too steep for farming. The grapes that produce Cinque Terre DOC and Sciacchetrà grow here because generations refused to accept impossibility. Walking the vineyard paths reveals the scale of this effort.",
+            "de": "Die Terrassen über Vernazza repräsentieren Jahrtausende landwirtschaftlicher Entschlossenheit. Steinmauern halten Hänge zurück, die zu steil für den Anbau sein sollten. Die Trauben, die Cinque Terre DOC und Sciacchetrà produzieren, wachsen hier, weil Generationen sich weigerten, Unmöglichkeit zu akzeptieren. Das Wandern auf den Weinbergpfaden enthüllt das Ausmaß dieser Anstrengung.",
+            "fr": "Les terrasses au-dessus de Vernazza représentent des millénaires de détermination agricole. Des murs de pierre retiennent des coteaux qui devraient être trop raides pour l'agriculture. Les raisins qui produisent le Cinque Terre DOC et le Sciacchetrà poussent ici parce que des générations ont refusé d'accepter l'impossibilité. Marcher sur les chemins des vignobles révèle l'ampleur de cet effort.",
+            "it": "Le terrazze sopra Vernazza rappresentano millenni di determinazione agricola. Muri di pietra trattengono pendii che dovrebbero essere troppo ripidi per l'agricoltura. L'uva che produce Cinque Terre DOC e Sciacchetrà cresce qui perché generazioni si sono rifiutate di accettare l'impossibilità. Camminare sui sentieri dei vigneti rivela la scala di questo sforzo."
+          },
+          "giuliaComment": {
+            "en": "Every stone in those walls was carried by hand. Every vine is pruned by someone who climbs for hours to reach it. When you taste the wine here, you're tasting labor that most people cannot imagine. That's what makes it precious.",
+            "de": "Jeder Stein in diesen Mauern wurde von Hand getragen. Jede Rebe wird von jemandem beschnitten, der stundenlang klettert, um sie zu erreichen. Wenn Sie hier den Wein probieren, schmecken Sie Arbeit, die sich die meisten Menschen nicht vorstellen können. Das macht ihn kostbar.",
+            "fr": "Chaque pierre de ces murs a été portée à la main. Chaque vigne est taillée par quelqu'un qui grimpe pendant des heures pour l'atteindre. Quand vous goûtez le vin ici, vous goûtez un labeur que la plupart des gens ne peuvent imaginer. C'est ce qui le rend précieux.",
+            "it": "Ogni pietra in quei muri è stata portata a mano. Ogni vite è potata da qualcuno che sale per ore per raggiungerla. Quando assaggiate il vino qui, state assaggiando lavoro che la maggior parte delle persone non può immaginare. È questo che lo rende prezioso."
+          },
+          "signature": {
+            "en": "Where stubbornness became beauty",
+            "de": "Wo Sturheit Schönheit wurde",
+            "fr": "Où l'obstination est devenue beauté",
+            "it": "Dove l'ostinazione è diventata bellezza"
+          },
+          "practicalInfo": {
+            "en": "Accessible via hiking trails. Best in late afternoon light. Respect active agricultural areas.",
+            "de": "Erreichbar über Wanderwege. Am besten im späten Nachmittagslicht. Respektieren Sie aktive landwirtschaftliche Gebiete.",
+            "fr": "Accessible via les sentiers de randonnée. Meilleur en fin d'après-midi. Respectez les zones agricoles actives.",
+            "it": "Accessibile tramite sentieri escursionistici. Meglio nella luce del tardo pomeriggio. Rispettate le aree agricole attive."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 2,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Changing Light",
-          "quote": "Vernazza looks different every hour. Morning light is soft and flat; midday is harsh but clear; late afternoon turns the stone warm; sunset paints everything gold and pink. If you're staying overnight, see the same view at different times. The village transforms itself constantly."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Changing Light",
+            "de": "Das wechselnde Licht",
+            "fr": "La Lumière Changeante",
+            "it": "La Luce che Cambia"
+          },
+          "quote": {
+            "en": "Vernazza looks different every hour. Morning light is soft and flat; midday is harsh but clear; late afternoon turns the stone warm; sunset paints everything gold and pink. If you're staying overnight, see the same view at different times. The village transforms itself constantly.",
+            "de": "Vernazza sieht jede Stunde anders aus. Morgenlicht ist weich und flach; Mittag ist hart, aber klar; später Nachmittag macht den Stein warm; Sonnenuntergang malt alles gold und rosa. Wenn Sie über Nacht bleiben, sehen Sie dieselbe Aussicht zu verschiedenen Zeiten. Das Dorf verwandelt sich ständig.",
+            "fr": "Vernazza a l'air différent à chaque heure. La lumière du matin est douce et plate ; midi est dur mais clair ; la fin d'après-midi rend la pierre chaude ; le coucher de soleil peint tout en or et rose. Si vous restez la nuit, voyez la même vue à différents moments. Le village se transforme constamment.",
+            "it": "Vernazza appare diversa ogni ora. La luce del mattino è morbida e piatta; mezzogiorno è duro ma chiaro; il tardo pomeriggio rende la pietra calda; il tramonto dipinge tutto d'oro e rosa. Se restate la notte, guardate la stessa vista a orari diversi. Il borgo si trasforma costantemente."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "See Past the Photograph",
-      "content": [
-        "You will take the photograph. Everyone does. The view from above the village, framed by tower and sea, is irresistible—and it should be. That image has drawn visitors here for a century.",
-        "But the photograph is not the village. The village is in the details: the fisherman mending nets, the grandmother watering geraniums, the sound of bells marking noon, the smell of pesto from an invisible kitchen.",
-        "Take your picture. Then put the camera away and see what else Vernazza offers."
-      ],
+      "title": {
+        "en": "See Past the Photograph",
+        "de": "Über das Foto hinausschauen",
+        "fr": "Voir Au-delà de la Photo",
+        "it": "Guardare Oltre la Foto"
+      },
+      "content": {
+        "en": [
+          "You will take the photograph. Everyone does. The view from above the village, framed by tower and sea, is irresistible—and it should be. That image has drawn visitors here for a century.",
+          "But the photograph is not the village. The village is in the details: the fisherman mending nets, the grandmother watering geraniums, the sound of bells marking noon, the smell of pesto from an invisible kitchen.",
+          "Take your picture. Then put the camera away and see what else Vernazza offers."
+        ],
+        "de": [
+          "Sie werden das Foto machen. Jeder tut es. Die Aussicht von über dem Dorf, eingerahmt von Turm und Meer, ist unwiderstehlich—und sollte es auch sein. Dieses Bild zieht seit einem Jahrhundert Besucher hierher.",
+          "Aber das Foto ist nicht das Dorf. Das Dorf liegt in den Details: der Fischer, der Netze flickt, die Großmutter, die Geranien gießt, der Klang der Glocken, die Mittag markieren, der Duft von Pesto aus einer unsichtbaren Küche.",
+          "Machen Sie Ihr Bild. Dann legen Sie die Kamera weg und sehen Sie, was Vernazza sonst noch bietet."
+        ],
+        "fr": [
+          "Vous prendrez la photo. Tout le monde le fait. La vue d'au-dessus du village, encadrée par la tour et la mer, est irrésistible—et elle devrait l'être. Cette image attire les visiteurs ici depuis un siècle.",
+          "Mais la photo n'est pas le village. Le village est dans les détails : le pêcheur qui répare ses filets, la grand-mère qui arrose les géraniums, le son des cloches marquant midi, l'odeur du pesto venant d'une cuisine invisible.",
+          "Prenez votre photo. Puis rangez l'appareil et voyez ce que Vernazza offre d'autre."
+        ],
+        "it": [
+          "Farete la foto. Tutti lo fanno. La vista da sopra il borgo, incorniciata da torre e mare, è irresistibile—e dovrebbe esserlo. Quell'immagine attira visitatori qui da un secolo.",
+          "Ma la foto non è il borgo. Il borgo è nei dettagli: il pescatore che rammenda le reti, la nonna che annaffia i gerani, il suono delle campane che segnano mezzogiorno, il profumo di pesto da una cucina invisibile.",
+          "Fate la vostra foto. Poi mettete via la macchina fotografica e vedete cos'altro offre Vernazza."
+        ]
+      },
       "buttons": [
-        { "text": "Things to Do", "url": "/en/vernazza/things-to-do", "variant": "primary" },
-        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Things to Do",
+            "de": "Aktivitäten",
+            "fr": "Choses à Faire",
+            "it": "Cosa Fare"
+          },
+          "url": {
+            "en": "/en/vernazza/things-to-do",
+            "de": "/de/vernazza/things-to-do",
+            "fr": "/fr/vernazza/things-to-do",
+            "it": "/it/vernazza/things-to-do"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Wo übernachten",
+            "fr": "Où Séjourner",
+            "it": "Dove Dormire"
+          },
+          "url": {
+            "en": "/en/vernazza/hotels",
+            "de": "/de/vernazza/hotels",
+            "fr": "/fr/vernazza/hotels",
+            "it": "/it/vernazza/hotels"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -171,5 +545,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T11:00:00.000Z"
+  "updated_at": "2026-01-07T21:35:00.000Z"
 }

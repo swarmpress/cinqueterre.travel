@@ -7,36 +7,90 @@
     "it": "/it/manarola/sights"
   },
   "title": {
-    "en": "What to See in Manarola | Cinque Terre Dispatch"
+    "en": "What to See in Manarola | Cinque Terre Dispatch",
+    "de": "Sehenswuerdigkeiten in Manarola | Cinque Terre Dispatch",
+    "fr": "Que voir a Manarola | Cinque Terre Dispatch",
+    "it": "Cosa vedere a Manarola | Cinque Terre Dispatch"
   },
   "page_type": "sights",
   "seo": {
     "title": {
-      "en": "What to See in Manarola | Cinque Terre Dispatch"
+      "en": "What to See in Manarola | Cinque Terre Dispatch",
+      "de": "Sehenswuerdigkeiten in Manarola | Cinque Terre Dispatch",
+      "fr": "Que voir a Manarola | Cinque Terre Dispatch",
+      "it": "Cosa vedere a Manarola | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "In a village you can cross in five minutes, every building is a sight, every view is a postcard, and the real attraction is the whole—not its parts."
+      "en": "In a village you can cross in five minutes, every building is a sight, every view is a postcard, and the real attraction is the whole—not its parts.",
+      "de": "In einem Dorf, das Sie in fuenf Minuten durchqueren koennen, ist jedes Gebaeude eine Sehenswuerdigkeit, jede Aussicht eine Postkarte, und die wahre Attraktion ist das Ganze—nicht seine Teile.",
+      "fr": "Dans un village que vous pouvez traverser en cinq minutes, chaque batiment est un site, chaque vue est une carte postale, et la veritable attraction est l'ensemble—pas ses parties.",
+      "it": "In un villaggio che si attraversa in cinque minuti, ogni edificio e un'attrazione, ogni vista e una cartolina, e la vera attrazione e l'insieme—non le sue parti."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Everything<br/>is the Sight",
-      "subtitle": "Most villages have sights—specific buildings to visit, monuments to photograph. Manarola is different. The village itself is the sight. Every corner offers something worth seeing. The challenge is not finding attractions—it's slowing down enough to see what's everywhere.",
-      "badge": "Village Sights",
+      "title": {
+        "en": "Everything<br/>is the Sight",
+        "de": "Alles<br/>ist Sehenswert",
+        "fr": "Tout<br/>est a voir",
+        "it": "Tutto<br/>e da vedere"
+      },
+      "subtitle": {
+        "en": "Most villages have sights—specific buildings to visit, monuments to photograph. Manarola is different. The village itself is the sight. Every corner offers something worth seeing. The challenge is not finding attractions—it's slowing down enough to see what's everywhere.",
+        "de": "Die meisten Doerfer haben Sehenswuerdigkeiten—bestimmte Gebaeude zu besuchen, Denkmaeler zu fotografieren. Manarola ist anders. Das Dorf selbst ist die Sehenswuerdigkeit. Jede Ecke bietet etwas Sehenswertes. Die Herausforderung liegt nicht darin, Attraktionen zu finden—sondern langsam genug zu werden, um das zu sehen, was ueberall ist.",
+        "fr": "La plupart des villages ont des sites—des batiments specifiques a visiter, des monuments a photographier. Manarola est different. Le village lui-meme est le site. Chaque coin offre quelque chose qui vaut la peine d'etre vu. Le defi n'est pas de trouver des attractions—c'est de ralentir suffisamment pour voir ce qui est partout.",
+        "it": "La maggior parte dei villaggi ha attrazioni—edifici specifici da visitare, monumenti da fotografare. Manarola e diversa. Il villaggio stesso e l'attrazione. Ogni angolo offre qualcosa che vale la pena vedere. La sfida non e trovare attrazioni—e rallentare abbastanza per vedere cio che e ovunque."
+      },
+      "badge": {
+        "en": "Village Sights",
+        "de": "Dorfansichten",
+        "fr": "Sites du village",
+        "it": "Attrazioni del villaggio"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Sight Philosophy",
-      "quote": "Tourists arrive with lists: visit this church, see that viewpoint, photograph this angle. Locals have no such lists. Everything is familiar, and therefore everything is worth seeing. Try to see like a local—where nothing is a sight because everything is.",
-      "content": [
-        "**The village is the monument**. UNESCO didn't protect specific buildings—they protected the relationship between settlement, terraces, and sea. The sight is the system: stone walls enabling vineyards, vineyards producing wine, wine sustaining families who maintain walls.",
-        "**Scale creates intimacy**. You can see the entire village from multiple points. This compression means details reward attention: a carved doorway, a laundry line between windows, the way morning light hits a particular facade.",
-        "**The colors are functional**. Those Instagram-famous pastel houses weren't painted for aesthetics. Fishermen needed to identify their homes from the sea. Beauty emerged from necessity. The prettiest village in Cinque Terre is also the most practical.",
-        "**The layers reveal themselves slowly**. First visit, you see the obvious: harbor, church, viewpoint. Second visit, you notice the alleys between buildings. Third visit, you start to see how water, stone, and human persistence created this place."
-      ]
+      "badge": {
+        "en": "The Sight Philosophy",
+        "de": "Die Philosophie des Sehens",
+        "fr": "La philosophie de la vue",
+        "it": "La filosofia del vedere"
+      },
+      "quote": {
+        "en": "Tourists arrive with lists: visit this church, see that viewpoint, photograph this angle. Locals have no such lists. Everything is familiar, and therefore everything is worth seeing. Try to see like a local—where nothing is a sight because everything is.",
+        "de": "Touristen kommen mit Listen: diese Kirche besuchen, jenen Aussichtspunkt sehen, diesen Winkel fotografieren. Einheimische haben keine solchen Listen. Alles ist vertraut, und deshalb ist alles sehenswert. Versuchen Sie, wie ein Einheimischer zu sehen—wo nichts eine Sehenswuerdigkeit ist, weil alles eine ist.",
+        "fr": "Les touristes arrivent avec des listes : visiter cette eglise, voir ce point de vue, photographier cet angle. Les habitants n'ont pas de telles listes. Tout est familier, et donc tout vaut la peine d'etre vu. Essayez de voir comme un local—ou rien n'est un site parce que tout l'est.",
+        "it": "I turisti arrivano con liste: visitare questa chiesa, vedere quel punto panoramico, fotografare quest'angolo. I locali non hanno liste del genere. Tutto e familiare, e quindi tutto vale la pena di essere visto. Provate a vedere come un locale—dove nulla e un'attrazione perche tutto lo e."
+      },
+      "content": {
+        "en": [
+          "**The village is the monument**. UNESCO didn't protect specific buildings—they protected the relationship between settlement, terraces, and sea. The sight is the system: stone walls enabling vineyards, vineyards producing wine, wine sustaining families who maintain walls.",
+          "**Scale creates intimacy**. You can see the entire village from multiple points. This compression means details reward attention: a carved doorway, a laundry line between windows, the way morning light hits a particular facade.",
+          "**The colors are functional**. Those Instagram-famous pastel houses weren't painted for aesthetics. Fishermen needed to identify their homes from the sea. Beauty emerged from necessity. The prettiest village in Cinque Terre is also the most practical.",
+          "**The layers reveal themselves slowly**. First visit, you see the obvious: harbor, church, viewpoint. Second visit, you notice the alleys between buildings. Third visit, you start to see how water, stone, and human persistence created this place."
+        ],
+        "de": [
+          "**Das Dorf ist das Denkmal**. Die UNESCO hat nicht bestimmte Gebaeude geschuetzt—sie hat die Beziehung zwischen Siedlung, Terrassen und Meer geschuetzt. Die Sehenswuerdigkeit ist das System: Steinmauern, die Weinberge ermoeglichen, Weinberge, die Wein produzieren, Wein, der Familien ernaehrt, die Mauern instand halten.",
+          "**Massstab schafft Intimitaet**. Sie koennen das gesamte Dorf von mehreren Punkten aus sehen. Diese Verdichtung bedeutet, dass Details Aufmerksamkeit belohnen: ein geschnitzter Tuerrahmen, eine Waescheleine zwischen Fenstern, die Art, wie Morgenlicht eine bestimmte Fassade trifft.",
+          "**Die Farben sind funktional**. Diese Instagram-beruehmten Pastelhaeuser wurden nicht aus aesthetischen Gruenden gestrichen. Fischer mussten ihre Haeuser vom Meer aus erkennen. Schoenheit entstand aus Notwendigkeit. Das huebscheste Dorf der Cinque Terre ist auch das praktischste.",
+          "**Die Schichten offenbaren sich langsam**. Beim ersten Besuch sehen Sie das Offensichtliche: Hafen, Kirche, Aussichtspunkt. Beim zweiten Besuch bemerken Sie die Gassen zwischen den Gebaeuden. Beim dritten Besuch beginnen Sie zu sehen, wie Wasser, Stein und menschliche Beharrlichkeit diesen Ort geschaffen haben."
+        ],
+        "fr": [
+          "**Le village est le monument**. L'UNESCO n'a pas protege des batiments specifiques—elle a protege la relation entre l'habitat, les terrasses et la mer. Le site est le systeme : des murs de pierre permettant des vignobles, des vignobles produisant du vin, du vin nourrissant des familles qui entretiennent les murs.",
+          "**L'echelle cree l'intimite**. Vous pouvez voir tout le village depuis plusieurs points. Cette compression signifie que les details recompensent l'attention : une porte sculptee, une corde a linge entre les fenetres, la facon dont la lumiere du matin frappe une facade particuliere.",
+          "**Les couleurs sont fonctionnelles**. Ces maisons pastel celebres sur Instagram n'ont pas ete peintes pour l'esthetique. Les pecheurs devaient identifier leurs maisons depuis la mer. La beaute est nee de la necessite. Le plus joli village des Cinque Terre est aussi le plus pratique.",
+          "**Les couches se revelent lentement**. Premiere visite, vous voyez l'evident : le port, l'eglise, le point de vue. Deuxieme visite, vous remarquez les ruelles entre les batiments. Troisieme visite, vous commencez a voir comment l'eau, la pierre et la perseverance humaine ont cree cet endroit."
+        ],
+        "it": [
+          "**Il villaggio e il monumento**. L'UNESCO non ha protetto edifici specifici—ha protetto la relazione tra insediamento, terrazzamenti e mare. L'attrazione e il sistema: muri di pietra che permettono i vigneti, vigneti che producono vino, vino che sostiene famiglie che mantengono i muri.",
+          "**La scala crea intimita**. Potete vedere l'intero villaggio da piu punti. Questa compressione significa che i dettagli premiano l'attenzione: un portone scolpito, una corda per il bucato tra le finestre, il modo in cui la luce del mattino colpisce una particolare facciata.",
+          "**I colori sono funzionali**. Quelle case pastello famose su Instagram non sono state dipinte per estetica. I pescatori dovevano identificare le loro case dal mare. La bellezza e emersa dalla necessita. Il villaggio piu grazioso delle Cinque Terre e anche il piu pratico.",
+          "**Gli strati si rivelano lentamente**. Prima visita, vedete l'ovvio: porto, chiesa, punto panoramico. Seconda visita, notate i vicoli tra gli edifici. Terza visita, cominciate a vedere come acqua, pietra e perseveranza umana hanno creato questo posto."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Chiesa di San Lorenzo",
-          "category": "Sacred Architecture",
+          "name": {
+            "en": "Chiesa di San Lorenzo",
+            "de": "Chiesa di San Lorenzo",
+            "fr": "Eglise San Lorenzo",
+            "it": "Chiesa di San Lorenzo"
+          },
+          "category": {
+            "en": "Sacred Architecture",
+            "de": "Sakrale Architektur",
+            "fr": "Architecture sacree",
+            "it": "Architettura sacra"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Gothic parish church from 1338—the spiritual center where village life has gathered for seven centuries.",
-          "description": "San Lorenzo sits elevated above the harbor, its bell tower visible from anywhere in the village. The rose window catches afternoon light. Inside, marble columns from Carrara support a space that has witnessed baptisms, weddings, and funerals of families who've lived here for generations. Not a museum—a working church.",
-          "giuliaComment": "My family has been baptized, married, and buried here for as long as records exist. When you visit San Lorenzo, you're not touring—you're standing where village life has happened for centuries. The building matters less than what it holds.",
-          "signature": "Where faith meets persistence"
+          "intro": {
+            "en": "Gothic parish church from 1338—the spiritual center where village life has gathered for seven centuries.",
+            "de": "Gotische Pfarrkirche von 1338—das geistliche Zentrum, wo sich das Dorfleben seit sieben Jahrhunderten versammelt.",
+            "fr": "Eglise paroissiale gothique de 1338—le centre spirituel ou la vie du village se rassemble depuis sept siecles.",
+            "it": "Chiesa parrocchiale gotica del 1338—il centro spirituale dove la vita del villaggio si riunisce da sette secoli."
+          },
+          "description": {
+            "en": "San Lorenzo sits elevated above the harbor, its bell tower visible from anywhere in the village. The rose window catches afternoon light. Inside, marble columns from Carrara support a space that has witnessed baptisms, weddings, and funerals of families who've lived here for generations. Not a museum—a working church.",
+            "de": "San Lorenzo thront erhoeht ueber dem Hafen, sein Glockenturm von ueberall im Dorf sichtbar. Das Rosettenfenster faengt Nachmittagslicht ein. Im Inneren stuetzen Marmorsaeulen aus Carrara einen Raum, der Taufen, Hochzeiten und Beerdigungen von Familien erlebt hat, die hier seit Generationen leben. Kein Museum—eine arbeitende Kirche.",
+            "fr": "San Lorenzo est perchee au-dessus du port, son clocher visible de n'importe ou dans le village. La rosace capte la lumiere de l'apres-midi. A l'interieur, des colonnes de marbre de Carrare soutiennent un espace qui a ete temoin de baptemes, mariages et funerailles de familles qui vivent ici depuis des generations. Pas un musee—une eglise vivante.",
+            "it": "San Lorenzo si erge sopra il porto, il suo campanile visibile da qualsiasi punto del villaggio. Il rosone cattura la luce del pomeriggio. All'interno, colonne di marmo di Carrara sostengono uno spazio che ha assistito a battesimi, matrimoni e funerali di famiglie che vivono qui da generazioni. Non un museo—una chiesa attiva."
+          },
+          "giuliaComment": {
+            "en": "My family has been baptized, married, and buried here for as long as records exist. When you visit San Lorenzo, you're not touring—you're standing where village life has happened for centuries. The building matters less than what it holds.",
+            "de": "Meine Familie wurde hier getauft, verheiratet und begraben, solange es Aufzeichnungen gibt. Wenn Sie San Lorenzo besuchen, machen Sie keine Tour—Sie stehen dort, wo das Dorfleben seit Jahrhunderten stattfindet. Das Gebaeude zaehlt weniger als das, was es beherbergt.",
+            "fr": "Ma famille a ete baptisee, mariee et enterree ici depuis que les registres existent. Quand vous visitez San Lorenzo, vous ne faites pas de visite—vous vous tenez la ou la vie du village s'est deroulee pendant des siecles. Le batiment compte moins que ce qu'il renferme.",
+            "it": "La mia famiglia e stata battezzata, sposata e sepolta qui da quando esistono i registri. Quando visitate San Lorenzo, non state facendo un tour—state in piedi dove la vita del villaggio si e svolta per secoli. L'edificio conta meno di cio che contiene."
+          },
+          "signature": {
+            "en": "Where faith meets persistence",
+            "de": "Wo Glaube auf Beharrlichkeit trifft",
+            "fr": "Ou la foi rencontre la perseverance",
+            "it": "Dove la fede incontra la perseveranza"
+          }
         },
         {
           "id": 2,
-          "name": "Punta Bonfiglio Viewpoint",
-          "category": "The Photograph",
+          "name": {
+            "en": "Punta Bonfiglio Viewpoint",
+            "de": "Aussichtspunkt Punta Bonfiglio",
+            "fr": "Point de vue Punta Bonfiglio",
+            "it": "Belvedere di Punta Bonfiglio"
+          },
+          "category": {
+            "en": "The Photograph",
+            "de": "Das Foto",
+            "fr": "La photographie",
+            "it": "La fotografia"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The spot that launched a thousand postcards—where the entire village becomes composition.",
-          "description": "From this rocky promontory, Manarola's colored houses stack in perfect arrangement against sea and sky. This is where the famous photo happens—the one everyone recognizes, the one that sells calendars and fills Instagram feeds. Arrive at golden hour for the light that makes the image.",
-          "giuliaComment": "I don't photograph from here anymore—I've taken that shot too many times. But I still go to watch others discover it. The moment when visitors see the full village for the first time, laid out like a painting—that wonder never gets old, even secondhand.",
-          "signature": "Where the village becomes art"
+          "intro": {
+            "en": "The spot that launched a thousand postcards—where the entire village becomes composition.",
+            "de": "Der Ort, der tausend Postkarten inspirierte—wo das gesamte Dorf zur Komposition wird.",
+            "fr": "L'endroit qui a lance mille cartes postales—ou tout le village devient composition.",
+            "it": "Il punto che ha lanciato mille cartoline—dove l'intero villaggio diventa composizione."
+          },
+          "description": {
+            "en": "From this rocky promontory, Manarola's colored houses stack in perfect arrangement against sea and sky. This is where the famous photo happens—the one everyone recognizes, the one that sells calendars and fills Instagram feeds. Arrive at golden hour for the light that makes the image.",
+            "de": "Von diesem felsigen Vorgebirge aus stapeln sich Manarolas farbige Haeuser in perfekter Anordnung vor Meer und Himmel. Hier passiert das beruehmte Foto—dasjenige, das jeder erkennt, das Kalender verkauft und Instagram-Feeds fuellt. Kommen Sie zur goldenen Stunde fuer das Licht, das das Bild macht.",
+            "fr": "Depuis ce promontoire rocheux, les maisons colorees de Manarola s'empilent en arrangement parfait contre la mer et le ciel. C'est ici que la photo celebre se fait—celle que tout le monde reconnait, celle qui vend des calendriers et remplit les fils Instagram. Arrivez a l'heure doree pour la lumiere qui fait l'image.",
+            "it": "Da questo promontorio roccioso, le case colorate di Manarola si impilano in perfetta disposizione contro mare e cielo. E qui che si scatta la foto famosa—quella che tutti riconoscono, quella che vende calendari e riempie i feed di Instagram. Arrivate all'ora d'oro per la luce che crea l'immagine."
+          },
+          "giuliaComment": {
+            "en": "I don't photograph from here anymore—I've taken that shot too many times. But I still go to watch others discover it. The moment when visitors see the full village for the first time, laid out like a painting—that wonder never gets old, even secondhand.",
+            "de": "Ich fotografiere nicht mehr von hier—ich habe dieses Foto zu oft gemacht. Aber ich gehe immer noch hin, um andere dabei zu beobachten, wie sie es entdecken. Der Moment, wenn Besucher das ganze Dorf zum ersten Mal sehen, ausgebreitet wie ein Gemaelde—dieses Staunen wird nie alt, auch nicht aus zweiter Hand.",
+            "fr": "Je ne photographie plus d'ici—j'ai pris cette photo trop de fois. Mais j'y vais encore pour regarder les autres la decouvrir. Le moment ou les visiteurs voient le village entier pour la premiere fois, etale comme une peinture—cette emerveillement ne vieillit jamais, meme de seconde main.",
+            "it": "Non fotografo piu da qui—ho scattato quella foto troppe volte. Ma ci vado ancora per guardare gli altri scoprirla. Il momento in cui i visitatori vedono l'intero villaggio per la prima volta, disteso come un dipinto—quella meraviglia non invecchia mai, anche di seconda mano."
+          },
+          "signature": {
+            "en": "Where the village becomes art",
+            "de": "Wo das Dorf zur Kunst wird",
+            "fr": "Ou le village devient art",
+            "it": "Dove il villaggio diventa arte"
+          }
         },
         {
           "id": 3,
-          "name": "The Terraced Vineyards",
-          "category": "Living Landscape",
+          "name": {
+            "en": "The Terraced Vineyards",
+            "de": "Die Terrassenweingaerten",
+            "fr": "Les vignobles en terrasses",
+            "it": "I vigneti terrazzati"
+          },
+          "category": {
+            "en": "Living Landscape",
+            "de": "Lebendige Landschaft",
+            "fr": "Paysage vivant",
+            "it": "Paesaggio vivente"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Two thousand years of stone walls holding soil on impossible slopes—the engineering that made this village possible.",
-          "description": "Above Manarola, terraces climb toward the ridge. Dry-stone walls, built without mortar, create narrow flat surfaces where grapes can grow. This is the UNESCO heritage: not just the village, but the agricultural system that sustains it. Walking these paths reveals the scale of human labor accumulated over millennia.",
-          "giuliaComment": "Every visitor should walk through the terraces at least once. From below, they look picturesque. From within, they reveal the work—the constant repair, the backbreaking maintenance, the stubbornness required to farm vertical cliffs. That understanding changes how you see the village.",
-          "signature": "Where labor becomes landscape"
+          "intro": {
+            "en": "Two thousand years of stone walls holding soil on impossible slopes—the engineering that made this village possible.",
+            "de": "Zweitausend Jahre Steinmauern, die Erde auf unmoeglichen Haengen halten—die Ingenieurskunst, die dieses Dorf moeglich machte.",
+            "fr": "Deux mille ans de murs de pierre retenant la terre sur des pentes impossibles—l'ingenierie qui a rendu ce village possible.",
+            "it": "Duemila anni di muri di pietra che trattengono la terra su pendii impossibili—l'ingegneria che ha reso possibile questo villaggio."
+          },
+          "description": {
+            "en": "Above Manarola, terraces climb toward the ridge. Dry-stone walls, built without mortar, create narrow flat surfaces where grapes can grow. This is the UNESCO heritage: not just the village, but the agricultural system that sustains it. Walking these paths reveals the scale of human labor accumulated over millennia.",
+            "de": "Ueber Manarola steigen Terrassen zum Grat hinauf. Trockenmauern, ohne Moertel gebaut, schaffen schmale flache Oberflaechen, wo Trauben wachsen koennen. Das ist das UNESCO-Erbe: nicht nur das Dorf, sondern das landwirtschaftliche System, das es erhaelt. Diese Wege zu gehen offenbart das Ausmass menschlicher Arbeit, die sich ueber Jahrtausende angesammelt hat.",
+            "fr": "Au-dessus de Manarola, les terrasses grimpent vers la crete. Des murs de pierre seche, construits sans mortier, creent d'etroites surfaces planes ou les raisins peuvent pousser. C'est le patrimoine de l'UNESCO : pas seulement le village, mais le systeme agricole qui le soutient. Parcourir ces sentiers revele l'ampleur du travail humain accumule sur des millenaires.",
+            "it": "Sopra Manarola, i terrazzamenti salgono verso il crinale. Muri a secco, costruiti senza malta, creano strette superfici piane dove le uve possono crescere. Questo e il patrimonio UNESCO: non solo il villaggio, ma il sistema agricolo che lo sostiene. Camminare su questi sentieri rivela la scala del lavoro umano accumulato in millenni."
+          },
+          "giuliaComment": {
+            "en": "Every visitor should walk through the terraces at least once. From below, they look picturesque. From within, they reveal the work—the constant repair, the backbreaking maintenance, the stubbornness required to farm vertical cliffs. That understanding changes how you see the village.",
+            "de": "Jeder Besucher sollte mindestens einmal durch die Terrassen gehen. Von unten sehen sie malerisch aus. Von innen offenbaren sie die Arbeit—die staendige Reparatur, die rueckenbrechende Wartung, die Sturheit, die erforderlich ist, um vertikale Klippen zu bewirtschaften. Dieses Verstaendnis veraendert, wie Sie das Dorf sehen.",
+            "fr": "Chaque visiteur devrait parcourir les terrasses au moins une fois. D'en bas, elles semblent pittoresques. De l'interieur, elles revelent le travail—la reparation constante, l'entretien ereintant, l'obstination necessaire pour cultiver des falaises verticales. Cette comprehension change la facon dont vous voyez le village.",
+            "it": "Ogni visitatore dovrebbe camminare attraverso i terrazzamenti almeno una volta. Dal basso, sembrano pittoreschi. Dall'interno, rivelano il lavoro—la riparazione costante, la manutenzione spossante, la testardaggine necessaria per coltivare scogliere verticali. Quella comprensione cambia come vedete il villaggio."
+          },
+          "signature": {
+            "en": "Where labor becomes landscape",
+            "de": "Wo Arbeit zur Landschaft wird",
+            "fr": "Ou le travail devient paysage",
+            "it": "Dove il lavoro diventa paesaggio"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Photography Crowd",
-          "quote": "At sunset, the viewpoint fills with photographers fighting for position. This is understandable—the light is extraordinary. But consider: the village looks beautiful all day. Morning light reveals different colors. Midday creates different shadows. The golden hour is special, but it's not the only hour."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Photography Crowd",
+            "de": "Die Fotografenmenge",
+            "fr": "La foule des photographes",
+            "it": "La folla dei fotografi"
+          },
+          "quote": {
+            "en": "At sunset, the viewpoint fills with photographers fighting for position. This is understandable—the light is extraordinary. But consider: the village looks beautiful all day. Morning light reveals different colors. Midday creates different shadows. The golden hour is special, but it's not the only hour.",
+            "de": "Bei Sonnenuntergang fuellt sich der Aussichtspunkt mit Fotografen, die um Position kaempfen. Das ist verstaendlich—das Licht ist aussergewoehnlich. Aber bedenken Sie: Das Dorf sieht den ganzen Tag schoen aus. Morgenlicht enthuellt andere Farben. Mittag schafft andere Schatten. Die goldene Stunde ist besonders, aber sie ist nicht die einzige Stunde.",
+            "fr": "Au coucher du soleil, le point de vue se remplit de photographes se battant pour une position. C'est comprehensible—la lumiere est extraordinaire. Mais considerez : le village est beau toute la journee. La lumiere du matin revele des couleurs differentes. Midi cree des ombres differentes. L'heure doree est speciale, mais ce n'est pas la seule heure.",
+            "it": "Al tramonto, il punto panoramico si riempie di fotografi che lottano per la posizione. E comprensibile—la luce e straordinaria. Ma considerate: il villaggio e bello tutto il giorno. La luce del mattino rivela colori diversi. Mezzogiorno crea ombre diverse. L'ora d'oro e speciale, ma non e l'unica ora."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Hidden Village",
-      "quote": "The obvious sights draw crowds. The hidden ones reward exploration. In a village this small, hidden doesn't mean far—it means off the obvious path.",
-      "content": [
-        "**The upper village** climbs above the tourist zone. Narrower streets, fewer shops, more laundry lines, more actual life. The higher you go, the less visited the views become—and the better they often are.",
-        "**The oratorio dei Disciplinanti** hides a few steps from San Lorenzo. This 15th-century chapel contains frescoes most visitors never see. Ask at the church for access.",
-        "**The fishing infrastructure** around the marina—winches, ramps, storage areas—represents working heritage that predates tourism. Watch where and how boats are handled to understand the village's oldest purpose.",
-        "**The cemetery** sits above the village with views across the coast. It's quiet, respectful, and offers perspectives on village history that no guidebook captures. The names on stones are the names on storefronts."
-      ]
+      "badge": {
+        "en": "The Hidden Village",
+        "de": "Das verborgene Dorf",
+        "fr": "Le village cache",
+        "it": "Il villaggio nascosto"
+      },
+      "quote": {
+        "en": "The obvious sights draw crowds. The hidden ones reward exploration. In a village this small, hidden doesn't mean far—it means off the obvious path.",
+        "de": "Die offensichtlichen Sehenswuerdigkeiten ziehen Menschenmengen an. Die verborgenen belohnen Erkundung. In einem Dorf dieser Groesse bedeutet verborgen nicht weit—es bedeutet abseits des offensichtlichen Weges.",
+        "fr": "Les sites evidents attirent les foules. Les caches recompensent l'exploration. Dans un village aussi petit, cache ne signifie pas loin—cela signifie hors du chemin evident.",
+        "it": "Le attrazioni ovvie attirano folle. Quelle nascoste premiano l'esplorazione. In un villaggio cosi piccolo, nascosto non significa lontano—significa fuori dal percorso ovvio."
+      },
+      "content": {
+        "en": [
+          "**The upper village** climbs above the tourist zone. Narrower streets, fewer shops, more laundry lines, more actual life. The higher you go, the less visited the views become—and the better they often are.",
+          "**The oratorio dei Disciplinanti** hides a few steps from San Lorenzo. This 15th-century chapel contains frescoes most visitors never see. Ask at the church for access.",
+          "**The fishing infrastructure** around the marina—winches, ramps, storage areas—represents working heritage that predates tourism. Watch where and how boats are handled to understand the village's oldest purpose.",
+          "**The cemetery** sits above the village with views across the coast. It's quiet, respectful, and offers perspectives on village history that no guidebook captures. The names on stones are the names on storefronts."
+        ],
+        "de": [
+          "**Das obere Dorf** steigt ueber die Touristenzone hinauf. Engere Strassen, weniger Geschaefte, mehr Waescheleinen, mehr echtes Leben. Je hoeher Sie gehen, desto weniger besucht werden die Aussichten—und desto besser sind sie oft.",
+          "**Das Oratorio dei Disciplinanti** verbirgt sich ein paar Schritte von San Lorenzo entfernt. Diese Kapelle aus dem 15. Jahrhundert enthaelt Fresken, die die meisten Besucher nie sehen. Fragen Sie in der Kirche nach Zugang.",
+          "**Die Fischereiinfrastruktur** rund um den Yachthafen—Winden, Rampen, Lagerflaechen—repraesentiert Arbeitserbe, das dem Tourismus vorausgeht. Beobachten Sie, wo und wie Boote gehandhabt werden, um den aeltesten Zweck des Dorfes zu verstehen.",
+          "**Der Friedhof** liegt oberhalb des Dorfes mit Aussicht ueber die Kueste. Er ist ruhig, respektvoll und bietet Perspektiven auf die Dorfgeschichte, die kein Reisefuehrer erfasst. Die Namen auf den Steinen sind die Namen auf den Ladenfronten."
+        ],
+        "fr": [
+          "**Le village haut** grimpe au-dessus de la zone touristique. Des rues plus etroites, moins de boutiques, plus de cordes a linge, plus de vraie vie. Plus vous montez, moins les vues sont visitees—et souvent meilleures elles sont.",
+          "**L'oratorio dei Disciplinanti** se cache a quelques pas de San Lorenzo. Cette chapelle du XVe siecle contient des fresques que la plupart des visiteurs ne voient jamais. Demandez l'acces a l'eglise.",
+          "**L'infrastructure de peche** autour du port—treuils, rampes, zones de stockage—represente un patrimoine de travail qui precede le tourisme. Regardez ou et comment les bateaux sont manipules pour comprendre le but le plus ancien du village.",
+          "**Le cimetiere** se trouve au-dessus du village avec des vues sur la cote. C'est calme, respectueux, et offre des perspectives sur l'histoire du village qu'aucun guide ne capture. Les noms sur les pierres sont les noms sur les devantures."
+        ],
+        "it": [
+          "**Il villaggio alto** sale sopra la zona turistica. Strade piu strette, meno negozi, piu fili per il bucato, piu vita reale. Piu salite, meno visitate diventano le viste—e spesso migliori sono.",
+          "**L'oratorio dei Disciplinanti** si nasconde a pochi passi da San Lorenzo. Questa cappella del XV secolo contiene affreschi che la maggior parte dei visitatori non vede mai. Chiedete l'accesso in chiesa.",
+          "**L'infrastruttura di pesca** intorno al porto—argani, rampe, aree di stoccaggio—rappresenta un patrimonio lavorativo che precede il turismo. Osservate dove e come le barche vengono manovrate per capire lo scopo piu antico del villaggio.",
+          "**Il cimitero** si trova sopra il villaggio con vista sulla costa. E tranquillo, rispettoso, e offre prospettive sulla storia del villaggio che nessuna guida cattura. I nomi sulle pietre sono i nomi sulle vetrine."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "The Light Changes",
-          "category": "Temporal Sight",
+          "name": {
+            "en": "The Light Changes",
+            "de": "Das Licht veraendert sich",
+            "fr": "La lumiere change",
+            "it": "La luce cambia"
+          },
+          "category": {
+            "en": "Temporal Sight",
+            "de": "Zeitliche Sehenswuerdigkeit",
+            "fr": "Site temporel",
+            "it": "Attrazione temporale"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The village looks different every hour—same buildings, different light, completely new experience.",
-          "description": "Morning sun lights the eastern facades while western ones stay shadowed. Midday flattens everything. Afternoon sun reverses the pattern. Sunset turns everything amber. After dark, lights create new compositions. The same walk, taken at different times, reveals different villages.",
-          "giuliaComment": "When visitors ask what to see, I tell them to see the same thing twice—once in morning, once at evening. The building doesn't change. The light changes everything. This is the real sight: not the village, but how the village transforms across the day.",
-          "signature": "When time becomes the attraction"
+          "intro": {
+            "en": "The village looks different every hour—same buildings, different light, completely new experience.",
+            "de": "Das Dorf sieht jede Stunde anders aus—gleiche Gebaeude, anderes Licht, voellig neue Erfahrung.",
+            "fr": "Le village a un aspect different chaque heure—memes batiments, lumiere differente, experience completement nouvelle.",
+            "it": "Il villaggio sembra diverso ogni ora—stessi edifici, luce diversa, esperienza completamente nuova."
+          },
+          "description": {
+            "en": "Morning sun lights the eastern facades while western ones stay shadowed. Midday flattens everything. Afternoon sun reverses the pattern. Sunset turns everything amber. After dark, lights create new compositions. The same walk, taken at different times, reveals different villages.",
+            "de": "Morgensonne beleuchtet die oestlichen Fassaden, waehrend die westlichen im Schatten bleiben. Mittag macht alles flach. Nachmittagssonne kehrt das Muster um. Sonnenuntergang taucht alles in Bernstein. Nach Einbruch der Dunkelheit schaffen Lichter neue Kompositionen. Der gleiche Spaziergang, zu verschiedenen Zeiten unternommen, enthuellt verschiedene Doerfer.",
+            "fr": "Le soleil du matin eclaire les facades est tandis que celles de l'ouest restent dans l'ombre. Midi aplatit tout. Le soleil de l'apres-midi inverse le schema. Le coucher de soleil transforme tout en ambre. Apres la tombee de la nuit, les lumieres creent de nouvelles compositions. La meme promenade, a differentes heures, revele differents villages.",
+            "it": "Il sole del mattino illumina le facciate orientali mentre quelle occidentali restano in ombra. Mezzogiorno appiattisce tutto. Il sole del pomeriggio inverte lo schema. Il tramonto trasforma tutto in ambra. Dopo il buio, le luci creano nuove composizioni. La stessa passeggiata, fatta in momenti diversi, rivela villaggi diversi."
+          },
+          "giuliaComment": {
+            "en": "When visitors ask what to see, I tell them to see the same thing twice—once in morning, once at evening. The building doesn't change. The light changes everything. This is the real sight: not the village, but how the village transforms across the day.",
+            "de": "Wenn Besucher fragen, was es zu sehen gibt, sage ich ihnen, sie sollen dasselbe zweimal sehen—einmal morgens, einmal abends. Das Gebaeude aendert sich nicht. Das Licht aendert alles. Das ist die eigentliche Sehenswuerdigkeit: nicht das Dorf, sondern wie sich das Dorf im Laufe des Tages verwandelt.",
+            "fr": "Quand les visiteurs demandent quoi voir, je leur dis de voir la meme chose deux fois—une fois le matin, une fois le soir. Le batiment ne change pas. La lumiere change tout. C'est le vrai site : pas le village, mais comment le village se transforme au cours de la journee.",
+            "it": "Quando i visitatori chiedono cosa vedere, dico loro di vedere la stessa cosa due volte—una volta al mattino, una volta alla sera. L'edificio non cambia. La luce cambia tutto. Questa e la vera attrazione: non il villaggio, ma come il villaggio si trasforma durante il giorno."
+          },
+          "signature": {
+            "en": "When time becomes the attraction",
+            "de": "Wenn Zeit zur Attraktion wird",
+            "fr": "Quand le temps devient l'attraction",
+            "it": "Quando il tempo diventa l'attrazione"
+          }
         },
         {
           "id": 5,
-          "name": "The Detail View",
-          "category": "Looking Close",
+          "name": {
+            "en": "The Detail View",
+            "de": "Die Detailansicht",
+            "fr": "La vue de detail",
+            "it": "La vista dei dettagli"
+          },
+          "category": {
+            "en": "Looking Close",
+            "de": "Nahes Hinsehen",
+            "fr": "Regarder de pres",
+            "it": "Guardare da vicino"
+          },
           "village": "Manarola",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The grand views draw eyes outward. The details reward those who look close.",
-          "description": "Carved lintels above doorways. Iron hardware rusted by centuries of salt air. Worn stairs shaped by thousands of climbing feet. Plants growing from cracks in stone walls. The village is made of details, and seeing them requires slowing down from the pace that photographs viewpoints.",
-          "giuliaComment": "My grandmother could tell family histories from doorway carvings. This family had a son who was a mason. That family was wealthy in the 1800s. She read the village like a text. I can't read it that well, but I try to see what she saw.",
-          "signature": "Where attention finds stories"
+          "intro": {
+            "en": "The grand views draw eyes outward. The details reward those who look close.",
+            "de": "Die grossen Aussichten ziehen Blicke nach aussen. Die Details belohnen diejenigen, die genau hinsehen.",
+            "fr": "Les grandes vues attirent les yeux vers l'exterieur. Les details recompensent ceux qui regardent de pres.",
+            "it": "Le grandi viste attirano lo sguardo verso l'esterno. I dettagli premiano chi guarda da vicino."
+          },
+          "description": {
+            "en": "Carved lintels above doorways. Iron hardware rusted by centuries of salt air. Worn stairs shaped by thousands of climbing feet. Plants growing from cracks in stone walls. The village is made of details, and seeing them requires slowing down from the pace that photographs viewpoints.",
+            "de": "Geschnitzte Stuerzbalken ueber Tueroeffnungen. Eisenbeschlaege, verrostet von Jahrhunderten Salzluft. Abgenutzte Treppen, geformt von tausenden kletternden Fuessen. Pflanzen, die aus Rissen in Steinmauern wachsen. Das Dorf besteht aus Details, und sie zu sehen erfordert, vom Tempo abzubremsen, das Aussichtspunkte fotografiert.",
+            "fr": "Des linteaux sculptes au-dessus des portes. Des ferrures rouillees par des siecles d'air sale. Des escaliers uses facades par des milliers de pieds grimpants. Des plantes poussant dans les fissures des murs de pierre. Le village est fait de details, et les voir necessite de ralentir par rapport au rythme qui photographie les points de vue.",
+            "it": "Architravi scolpiti sopra le porte. Ferramenta arrugginita da secoli di aria salata. Scale consumate plasmate da migliaia di piedi che salgono. Piante che crescono dalle fessure dei muri di pietra. Il villaggio e fatto di dettagli, e vederli richiede rallentare dal ritmo che fotografa i punti panoramici."
+          },
+          "giuliaComment": {
+            "en": "My grandmother could tell family histories from doorway carvings. This family had a son who was a mason. That family was wealthy in the 1800s. She read the village like a text. I can't read it that well, but I try to see what she saw.",
+            "de": "Meine Grossmutter konnte Familiengeschichten von Tuerschnitzereien erzaehlen. Diese Familie hatte einen Sohn, der Maurer war. Jene Familie war im 19. Jahrhundert wohlhabend. Sie las das Dorf wie einen Text. Ich kann es nicht so gut lesen, aber ich versuche zu sehen, was sie sah.",
+            "fr": "Ma grand-mere pouvait raconter des histoires de famille d'apres les sculptures des portes. Cette famille avait un fils qui etait macon. Cette famille etait riche dans les annees 1800. Elle lisait le village comme un texte. Je ne peux pas le lire aussi bien, mais j'essaie de voir ce qu'elle voyait.",
+            "it": "Mia nonna poteva raccontare storie di famiglia dalle sculture delle porte. Questa famiglia aveva un figlio che era muratore. Quella famiglia era ricca nell'Ottocento. Leggeva il villaggio come un testo. Non riesco a leggerlo cosi bene, ma cerco di vedere quello che vedeva lei."
+          },
+          "signature": {
+            "en": "Where attention finds stories",
+            "de": "Wo Aufmerksamkeit Geschichten findet",
+            "fr": "Ou l'attention trouve des histoires",
+            "it": "Dove l'attenzione trova storie"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Checklist Trap",
-          "quote": "The tourists who rush through—church, viewpoint, harbor, done—miss everything. They saw the sights without seeing the village. Take less time with your checklist. Take more time with your eyes. The village reveals itself to those who linger, not those who hurry."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Checklist Trap",
+            "de": "Die Checklistenfalle",
+            "fr": "Le piege de la liste",
+            "it": "La trappola della lista"
+          },
+          "quote": {
+            "en": "The tourists who rush through—church, viewpoint, harbor, done—miss everything. They saw the sights without seeing the village. Take less time with your checklist. Take more time with your eyes. The village reveals itself to those who linger, not those who hurry.",
+            "de": "Die Touristen, die durchhetzen—Kirche, Aussichtspunkt, Hafen, fertig—verpassen alles. Sie sahen die Sehenswuerdigkeiten, ohne das Dorf zu sehen. Verbringen Sie weniger Zeit mit Ihrer Checkliste. Verbringen Sie mehr Zeit mit Ihren Augen. Das Dorf offenbart sich denen, die verweilen, nicht denen, die eilen.",
+            "fr": "Les touristes qui se depechent—eglise, point de vue, port, fini—ratent tout. Ils ont vu les sites sans voir le village. Passez moins de temps avec votre liste. Passez plus de temps avec vos yeux. Le village se revele a ceux qui s'attardent, pas a ceux qui se precipitent.",
+            "it": "I turisti che corrono—chiesa, punto panoramico, porto, fatto—perdono tutto. Hanno visto le attrazioni senza vedere il villaggio. Passate meno tempo con la vostra lista. Passate piu tempo con i vostri occhi. Il villaggio si rivela a chi indugia, non a chi ha fretta."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Seeing What's There",
-      "content": [
-        "The best sight in Manarola is the one you're standing in front of right now. Not the famous viewpoint you're walking toward. Not the church you'll visit later. The alley, the doorway, the window you're passing—that's the sight.",
-        "A village this old and this beautiful cannot be adequately captured by a list of attractions. It can only be seen by those who slow down enough to actually look.",
-        "Leave time for aimless walking. Follow alleys that lead nowhere. Stand in one spot for longer than seems necessary. The village rewards patience with details that rushing visitors never see."
-      ],
+      "title": {
+        "en": "Seeing What's There",
+        "de": "Sehen, was da ist",
+        "fr": "Voir ce qui est la",
+        "it": "Vedere cio che c'e"
+      },
+      "content": {
+        "en": [
+          "The best sight in Manarola is the one you're standing in front of right now. Not the famous viewpoint you're walking toward. Not the church you'll visit later. The alley, the doorway, the window you're passing—that's the sight.",
+          "A village this old and this beautiful cannot be adequately captured by a list of attractions. It can only be seen by those who slow down enough to actually look.",
+          "Leave time for aimless walking. Follow alleys that lead nowhere. Stand in one spot for longer than seems necessary. The village rewards patience with details that rushing visitors never see."
+        ],
+        "de": [
+          "Die beste Sehenswuerdigkeit in Manarola ist die, vor der Sie gerade stehen. Nicht der beruehmte Aussichtspunkt, zu dem Sie gehen. Nicht die Kirche, die Sie spaeter besuchen werden. Die Gasse, der Eingang, das Fenster, an dem Sie vorbeigehen—das ist die Sehenswuerdigkeit.",
+          "Ein Dorf, das so alt und so schoen ist, kann nicht angemessen durch eine Liste von Attraktionen erfasst werden. Es kann nur von denen gesehen werden, die langsam genug werden, um wirklich hinzusehen.",
+          "Lassen Sie Zeit fuer zielloses Umherlaufen. Folgen Sie Gassen, die nirgendwo hinfuehren. Stehen Sie laenger an einem Ort, als noetig erscheint. Das Dorf belohnt Geduld mit Details, die eilige Besucher nie sehen."
+        ],
+        "fr": [
+          "Le meilleur site de Manarola est celui devant lequel vous vous tenez en ce moment. Pas le point de vue celebre vers lequel vous marchez. Pas l'eglise que vous visiterez plus tard. La ruelle, la porte, la fenetre que vous passez—c'est le site.",
+          "Un village aussi vieux et aussi beau ne peut pas etre adequatement capture par une liste d'attractions. Il ne peut etre vu que par ceux qui ralentissent suffisamment pour vraiment regarder.",
+          "Laissez du temps pour la marche sans but. Suivez les ruelles qui ne menent nulle part. Restez a un endroit plus longtemps que necessaire. Le village recompense la patience avec des details que les visiteurs presses ne voient jamais."
+        ],
+        "it": [
+          "La migliore attrazione di Manarola e quella davanti a cui vi trovate in questo momento. Non il famoso punto panoramico verso cui state camminando. Non la chiesa che visiterete dopo. Il vicolo, la porta, la finestra che state passando—questa e l'attrazione.",
+          "Un villaggio cosi antico e cosi bello non puo essere adeguatamente catturato da una lista di attrazioni. Puo essere visto solo da chi rallenta abbastanza per guardare davvero.",
+          "Lasciate tempo per camminare senza meta. Seguite vicoli che non portano da nessuna parte. State in un posto piu a lungo di quanto sembri necessario. Il villaggio premia la pazienza con dettagli che i visitatori frettolosi non vedono mai."
+        ]
+      },
       "buttons": [
-        { "text": "Village Overview", "url": "/en/manarola/overview", "variant": "primary" },
-        { "text": "Dining Guide", "url": "/en/manarola/restaurants", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Village Overview",
+            "de": "Dorfuebersicht",
+            "fr": "Apercu du village",
+            "it": "Panoramica del villaggio"
+          },
+          "url": {
+            "en": "/en/manarola/overview",
+            "de": "/de/manarola/overview",
+            "fr": "/fr/manarola/overview",
+            "it": "/it/manarola/overview"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Dining Guide",
+            "de": "Restaurantfuehrer",
+            "fr": "Guide des restaurants",
+            "it": "Guida ai ristoranti"
+          },
+          "url": {
+            "en": "/en/manarola/restaurants",
+            "de": "/de/manarola/restaurants",
+            "fr": "/fr/manarola/restaurants",
+            "it": "/it/manarola/restaurants"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:45:00.000Z"
+  "updated_at": "2026-01-07T15:15:00.000Z"
 }

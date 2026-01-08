@@ -7,36 +7,90 @@
     "it": "/it/monterosso/agriturismi"
   },
   "title": {
-    "en": "Farm Stays Near Monterosso | Cinque Terre Dispatch"
+    "en": "Farm Stays Near Monterosso | Cinque Terre Dispatch",
+    "de": "Agriturismo bei Monterosso | Cinque Terre Dispatch",
+    "fr": "Agritourisme près de Monterosso | Cinque Terre Dispatch",
+    "it": "Agriturismi a Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "agriturismi",
   "seo": {
     "title": {
-      "en": "Farm Stays Near Monterosso | Cinque Terre Dispatch"
+      "en": "Farm Stays Near Monterosso | Cinque Terre Dispatch",
+      "de": "Agriturismo bei Monterosso | Cinque Terre Dispatch",
+      "fr": "Agritourisme près de Monterosso | Cinque Terre Dispatch",
+      "it": "Agriturismi a Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The lemon groves and vineyards above Monterosso offer something the beach cannot: the agricultural heart of Cinque Terre, where families still tend terraces that have produced wine for a millennium."
+      "en": "The lemon groves and vineyards above Monterosso offer something the beach cannot: the agricultural heart of Cinque Terre, where families still tend terraces that have produced wine for a millennium.",
+      "de": "Die Zitronenhaine und Weinberge oberhalb von Monterosso bieten etwas, das der Strand nicht kann: das landwirtschaftliche Herz der Cinque Terre, wo Familien noch immer Terrassen pflegen, die seit einem Jahrtausend Wein hervorbringen.",
+      "fr": "Les citronniers et les vignobles au-dessus de Monterosso offrent ce que la plage ne peut offrir : le cœur agricole des Cinque Terre, où des familles cultivent encore des terrasses qui produisent du vin depuis un millénaire.",
+      "it": "I limoneti e i vigneti sopra Monterosso offrono qualcosa che la spiaggia non può dare: il cuore agricolo delle Cinque Terre, dove le famiglie coltivano ancora terrazzamenti che producono vino da un millennio."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Among the<br/>Lemon Groves",
-      "subtitle": "The terraces above Monterosso are famous for their lemons—fruit so prized it carries protected status. An agriturismo stay puts you inside the working landscape that produces Cinque Terre's most celebrated citrus and wines.",
-      "badge": "Farm Stays",
+      "title": {
+        "en": "Among the<br/>Lemon Groves",
+        "de": "Zwischen den<br/>Zitronenhainen",
+        "fr": "Au cœur des<br/>citronniers",
+        "it": "Tra i<br/>limoneti"
+      },
+      "subtitle": {
+        "en": "The terraces above Monterosso are famous for their lemons—fruit so prized it carries protected status. An agriturismo stay puts you inside the working landscape that produces Cinque Terre's most celebrated citrus and wines.",
+        "de": "Die Terrassen oberhalb von Monterosso sind berühmt für ihre Zitronen – Früchte so geschätzt, dass sie einen Schutzstatus tragen. Ein Aufenthalt im Agriturismo bringt Sie mitten in die Kulturlandschaft, die die berühmtesten Zitrusfrüchte und Weine der Cinque Terre hervorbringt.",
+        "fr": "Les terrasses au-dessus de Monterosso sont célèbres pour leurs citrons — des fruits si prisés qu'ils bénéficient d'une appellation protégée. Un séjour en agritourisme vous plonge au cœur du paysage agricole qui produit les agrumes et les vins les plus réputés des Cinque Terre.",
+        "it": "Le terrazze sopra Monterosso sono famose per i loro limoni — frutti così pregiati da avere una denominazione protetta. Un soggiorno in agriturismo vi porta nel cuore del paesaggio agricolo che produce gli agrumi e i vini più celebri delle Cinque Terre."
+      },
+      "badge": {
+        "en": "Farm Stays",
+        "de": "Agriturismo",
+        "fr": "Agritourisme",
+        "it": "Agriturismi"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Monterosso Difference",
-      "quote": "Monterosso's agriturismi are different from those above other villages. Here, the lemons define the landscape—their fragrance, their terraces, their role in local cuisine. The farms that welcome guests often combine citrus with wine production.",
-      "content": [
-        "**Lemons are the signature**. The limoni di Monterosso have IGP protection—like champagne, the name means something legal. The farms above the village have grown these specific lemons for centuries, and the fruit shapes every meal.",
-        "**The terrain is gentler**. Monterosso has more flat land than the other villages, which means some agriturismi are more accessible. The terraces still climb, but the base is broader, the roads slightly easier.",
-        "**Anchovies meet agriculture**. The unique pairing of Monterosso's famous anchovies with lemon creates dishes you'll find nowhere else. Farm stays often feature this combination—the sea and the hillside on one plate.",
-        "**The experience is complete**. Stay at an agriturismo above Monterosso and you can still reach the beach easily—this village has the infrastructure the others lack."
-      ]
+      "badge": {
+        "en": "The Monterosso Difference",
+        "de": "Der Monterosso-Unterschied",
+        "fr": "La différence Monterosso",
+        "it": "La differenza di Monterosso"
+      },
+      "quote": {
+        "en": "Monterosso's agriturismi are different from those above other villages. Here, the lemons define the landscape—their fragrance, their terraces, their role in local cuisine. The farms that welcome guests often combine citrus with wine production.",
+        "de": "Die Agriturismi von Monterosso unterscheiden sich von denen über anderen Dörfern. Hier prägen die Zitronen die Landschaft – ihr Duft, ihre Terrassen, ihre Rolle in der lokalen Küche. Die Bauernhöfe, die Gäste empfangen, kombinieren oft Zitrusanbau mit Weinproduktion.",
+        "fr": "Les agritourismes de Monterosso sont différents de ceux des autres villages. Ici, les citrons définissent le paysage — leur parfum, leurs terrasses, leur rôle dans la cuisine locale. Les fermes qui accueillent des visiteurs combinent souvent agrumes et production viticole.",
+        "it": "Gli agriturismi di Monterosso sono diversi da quelli sopra gli altri borghi. Qui i limoni definiscono il paesaggio — il loro profumo, le loro terrazze, il loro ruolo nella cucina locale. Le aziende agricole che accolgono ospiti spesso combinano agrumi e produzione vinicola."
+      },
+      "content": {
+        "en": [
+          "**Lemons are the signature**. The limoni di Monterosso have IGP protection—like champagne, the name means something legal. The farms above the village have grown these specific lemons for centuries, and the fruit shapes every meal.",
+          "**The terrain is gentler**. Monterosso has more flat land than the other villages, which means some agriturismi are more accessible. The terraces still climb, but the base is broader, the roads slightly easier.",
+          "**Anchovies meet agriculture**. The unique pairing of Monterosso's famous anchovies with lemon creates dishes you'll find nowhere else. Farm stays often feature this combination—the sea and the hillside on one plate.",
+          "**The experience is complete**. Stay at an agriturismo above Monterosso and you can still reach the beach easily—this village has the infrastructure the others lack."
+        ],
+        "de": [
+          "**Zitronen sind das Markenzeichen**. Die Limoni di Monterosso haben IGP-Schutz – wie Champagner bedeutet der Name etwas Rechtliches. Die Höfe oberhalb des Dorfes bauen diese besonderen Zitronen seit Jahrhunderten an, und die Früchte prägen jede Mahlzeit.",
+          "**Das Gelände ist sanfter**. Monterosso hat mehr ebene Flächen als die anderen Dörfer, was bedeutet, dass einige Agriturismi leichter zugänglich sind. Die Terrassen steigen noch immer an, aber die Basis ist breiter, die Wege etwas einfacher.",
+          "**Sardellen treffen auf Landwirtschaft**. Die einzigartige Kombination von Monterossos berühmten Sardellen mit Zitrone schafft Gerichte, die Sie nirgendwo sonst finden. Agriturismi bieten oft diese Kombination – das Meer und die Hügel auf einem Teller.",
+          "**Das Erlebnis ist vollständig**. Übernachten Sie in einem Agriturismo oberhalb von Monterosso und Sie erreichen trotzdem leicht den Strand – dieses Dorf hat die Infrastruktur, die den anderen fehlt."
+        ],
+        "fr": [
+          "**Les citrons sont la signature**. Les limoni di Monterosso bénéficient d'une IGP — comme le champagne, le nom a une valeur juridique. Les fermes au-dessus du village cultivent ces citrons particuliers depuis des siècles, et le fruit façonne chaque repas.",
+          "**Le terrain est plus doux**. Monterosso a plus de terrain plat que les autres villages, ce qui rend certains agritourismes plus accessibles. Les terrasses grimpent toujours, mais la base est plus large, les routes un peu plus faciles.",
+          "**Les anchois rencontrent l'agriculture**. L'association unique des fameux anchois de Monterosso avec le citron crée des plats introuvables ailleurs. Les séjours à la ferme proposent souvent cette combinaison — la mer et la colline dans une même assiette.",
+          "**L'expérience est complète**. Séjournez dans un agritourisme au-dessus de Monterosso et vous pouvez toujours rejoindre la plage facilement — ce village a l'infrastructure que les autres n'ont pas."
+        ],
+        "it": [
+          "**I limoni sono il simbolo**. I limoni di Monterosso hanno la protezione IGP — come lo champagne, il nome ha un valore legale. Le aziende agricole sopra il borgo coltivano questi limoni particolari da secoli, e il frutto caratterizza ogni pasto.",
+          "**Il terreno è più dolce**. Monterosso ha più terreno pianeggiante degli altri borghi, il che significa che alcuni agriturismi sono più accessibili. Le terrazze salgono ancora, ma la base è più ampia, le strade un po' più facili.",
+          "**Le acciughe incontrano l'agricoltura**. L'abbinamento unico delle famose acciughe di Monterosso con il limone crea piatti che non troverete altrove. Gli agriturismi spesso propongono questa combinazione — il mare e la collina in un unico piatto.",
+          "**L'esperienza è completa**. Soggiornate in un agriturismo sopra Monterosso e potrete comunque raggiungere facilmente la spiaggia — questo borgo ha le infrastrutture che agli altri mancano."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "The Lemon Terraces",
-          "category": "Agricultural Heritage",
+          "name": {
+            "en": "The Lemon Terraces",
+            "de": "Die Zitronenterrassen",
+            "fr": "Les terrasses de citronniers",
+            "it": "Le terrazze dei limoni"
+          },
+          "category": {
+            "en": "Agricultural Heritage",
+            "de": "Landwirtschaftliches Erbe",
+            "fr": "Patrimoine agricole",
+            "it": "Patrimonio agricolo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Protected groves producing fruit that carries legal geographic designation—the agricultural treasure of Monterosso.",
-          "description": "The lemon terraces above Monterosso are not ordinary citrus farms. The limoni di Monterosso have IGP status, meaning they can only be called that if grown here, following traditional methods. The trees are often centuries old, the varieties specific to this microclimate, the flavor distinct from any lemon you've tasted elsewhere.",
-          "giuliaComment": "The first time I tasted a Monterosso lemon, I understood why people protect them legally. The flavor is different—sweeter, more complex, less acidic. Once you've had limoncello made from these lemons, the supermarket version tastes like chemicals.",
-          "signature": "Where geography becomes flavor"
+          "intro": {
+            "en": "Protected groves producing fruit that carries legal geographic designation—the agricultural treasure of Monterosso.",
+            "de": "Geschützte Haine, die Früchte mit rechtlicher geografischer Bezeichnung produzieren – der landwirtschaftliche Schatz von Monterosso.",
+            "fr": "Des vergers protégés produisant des fruits bénéficiant d'une appellation géographique — le trésor agricole de Monterosso.",
+            "it": "Limoneti protetti che producono frutti con denominazione geografica — il tesoro agricolo di Monterosso."
+          },
+          "description": {
+            "en": "The lemon terraces above Monterosso are not ordinary citrus farms. The limoni di Monterosso have IGP status, meaning they can only be called that if grown here, following traditional methods. The trees are often centuries old, the varieties specific to this microclimate, the flavor distinct from any lemon you've tasted elsewhere.",
+            "de": "Die Zitronenterrassen oberhalb von Monterosso sind keine gewöhnlichen Zitrusgärten. Die Limoni di Monterosso haben IGP-Status, was bedeutet, dass sie nur so genannt werden dürfen, wenn sie hier nach traditionellen Methoden angebaut werden. Die Bäume sind oft jahrhundertealt, die Sorten spezifisch für dieses Mikroklima, der Geschmack anders als jede Zitrone, die Sie anderswo probiert haben.",
+            "fr": "Les terrasses de citronniers au-dessus de Monterosso ne sont pas des vergers ordinaires. Les limoni di Monterosso ont le statut IGP, ce qui signifie qu'ils ne peuvent porter ce nom que s'ils sont cultivés ici, selon les méthodes traditionnelles. Les arbres ont souvent des siècles, les variétés sont propres à ce microclimat, la saveur distincte de tout citron goûté ailleurs.",
+            "it": "Le terrazze di limoni sopra Monterosso non sono comuni agrumeti. I limoni di Monterosso hanno lo status IGP, il che significa che possono essere chiamati così solo se coltivati qui, seguendo metodi tradizionali. Gli alberi hanno spesso secoli di vita, le varietà sono specifiche di questo microclima, il sapore è diverso da qualsiasi limone abbiate mai assaggiato altrove."
+          },
+          "giuliaComment": {
+            "en": "The first time I tasted a Monterosso lemon, I understood why people protect them legally. The flavor is different—sweeter, more complex, less acidic. Once you've had limoncello made from these lemons, the supermarket version tastes like chemicals.",
+            "de": "Als ich zum ersten Mal eine Monterosso-Zitrone kostete, verstand ich, warum man sie rechtlich schützt. Der Geschmack ist anders – süßer, komplexer, weniger sauer. Wenn man einmal Limoncello aus diesen Zitronen getrunken hat, schmeckt die Supermarktversion wie Chemie.",
+            "fr": "La première fois que j'ai goûté un citron de Monterosso, j'ai compris pourquoi on les protège juridiquement. La saveur est différente — plus douce, plus complexe, moins acide. Une fois que vous avez goûté le limoncello fait avec ces citrons, la version du supermarché a un goût de chimie.",
+            "it": "La prima volta che ho assaggiato un limone di Monterosso, ho capito perché li proteggono legalmente. Il sapore è diverso — più dolce, più complesso, meno acido. Una volta provato il limoncello fatto con questi limoni, quello del supermercato sa di artificiale."
+          },
+          "signature": {
+            "en": "Where geography becomes flavor",
+            "de": "Wo Geografie zum Geschmack wird",
+            "fr": "Où la géographie devient saveur",
+            "it": "Dove la geografia diventa sapore"
+          }
         },
         {
           "id": 2,
-          "name": "Wine and Citrus Together",
-          "category": "Combined Production",
+          "name": {
+            "en": "Wine and Citrus Together",
+            "de": "Wein und Zitrus vereint",
+            "fr": "Vin et agrumes ensemble",
+            "it": "Vino e agrumi insieme"
+          },
+          "category": {
+            "en": "Combined Production",
+            "de": "Kombinierte Produktion",
+            "fr": "Production combinée",
+            "it": "Produzione combinata"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Many Monterosso farms produce both wine and lemons—the complete terraced agriculture of Cinque Terre.",
-          "description": "Unlike farms above other villages that focus primarily on wine, Monterosso's agriturismi often maintain both vineyards and lemon groves. The combination creates varied landscapes and diverse farm products. Guests can participate in both grape harvest and lemon picking, depending on season.",
-          "giuliaComment": "The farms that do both are the interesting ones. Wine families and lemon families used to be separate, but the best properties now combine both traditions. You get Sciacchetra with your dinner and limoncello after.",
-          "signature": "Where two traditions merge"
+          "intro": {
+            "en": "Many Monterosso farms produce both wine and lemons—the complete terraced agriculture of Cinque Terre.",
+            "de": "Viele Höfe in Monterosso produzieren sowohl Wein als auch Zitronen – die vollständige Terrassenlandwirtschaft der Cinque Terre.",
+            "fr": "De nombreuses fermes de Monterosso produisent à la fois du vin et des citrons — l'agriculture en terrasses complète des Cinque Terre.",
+            "it": "Molte aziende agricole di Monterosso producono sia vino che limoni — l'agricoltura terrazzata completa delle Cinque Terre."
+          },
+          "description": {
+            "en": "Unlike farms above other villages that focus primarily on wine, Monterosso's agriturismi often maintain both vineyards and lemon groves. The combination creates varied landscapes and diverse farm products. Guests can participate in both grape harvest and lemon picking, depending on season.",
+            "de": "Anders als die Höfe über anderen Dörfern, die sich hauptsächlich auf Wein konzentrieren, unterhalten Monterossos Agriturismi oft sowohl Weinberge als auch Zitronenhaine. Die Kombination schafft abwechslungsreiche Landschaften und vielfältige Hofprodukte. Gäste können je nach Saison sowohl an der Weinlese als auch an der Zitronenernte teilnehmen.",
+            "fr": "Contrairement aux fermes au-dessus d'autres villages qui se concentrent principalement sur le vin, les agritourismes de Monterosso entretiennent souvent vignobles et citronniers. Cette combinaison crée des paysages variés et des produits fermiers diversifiés. Les visiteurs peuvent participer aux vendanges et à la cueillette des citrons, selon la saison.",
+            "it": "A differenza delle aziende agricole sopra altri borghi che si concentrano principalmente sul vino, gli agriturismi di Monterosso mantengono spesso sia vigneti che limoneti. La combinazione crea paesaggi variegati e prodotti agricoli diversificati. Gli ospiti possono partecipare sia alla vendemmia che alla raccolta dei limoni, a seconda della stagione."
+          },
+          "giuliaComment": {
+            "en": "The farms that do both are the interesting ones. Wine families and lemon families used to be separate, but the best properties now combine both traditions. You get Sciacchetra with your dinner and limoncello after.",
+            "de": "Die Höfe, die beides machen, sind die interessanten. Weinfamilien und Zitronenfamilien waren früher getrennt, aber die besten Betriebe vereinen heute beide Traditionen. Sie bekommen Sciacchetrà zum Abendessen und Limoncello danach.",
+            "fr": "Les fermes qui font les deux sont les plus intéressantes. Les familles du vin et les familles du citron étaient autrefois séparées, mais les meilleures propriétés combinent maintenant les deux traditions. Vous avez le Sciacchetrà avec le dîner et le limoncello après.",
+            "it": "Le aziende che fanno entrambe le cose sono quelle interessanti. Le famiglie del vino e quelle dei limoni erano separate, ma le migliori proprietà oggi combinano entrambe le tradizioni. Avete lo Sciacchetrà a cena e il limoncello dopo."
+          },
+          "signature": {
+            "en": "Where two traditions merge",
+            "de": "Wo zwei Traditionen verschmelzen",
+            "fr": "Où deux traditions fusionnent",
+            "it": "Dove due tradizioni si fondono"
+          }
         },
         {
           "id": 3,
-          "name": "Farm Kitchen Dining",
-          "category": "Culinary Experience",
+          "name": {
+            "en": "Farm Kitchen Dining",
+            "de": "Essen in der Hofküche",
+            "fr": "La cuisine de la ferme",
+            "it": "La cucina contadina"
+          },
+          "category": {
+            "en": "Culinary Experience",
+            "de": "Kulinarisches Erlebnis",
+            "fr": "Expérience culinaire",
+            "it": "Esperienza culinaria"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When anchovies from the morning catch meet lemons from the terrace above your table.",
-          "description": "Monterosso's farm kitchens serve a unique cuisine: anchovies preserved in the traditional Monterosso method, combined with lemons from the property's groves, accompanied by wine from their own vines. The famous acciughe al limone—anchovies with lemon—exists in its purest form at these tables.",
-          "giuliaComment": "The combination sounds simple, but getting fresh Monterosso anchovies with real Monterosso lemons, prepared by someone whose grandmother taught them—that's not something restaurants can replicate. It's the farm kitchen or nothing.",
-          "signature": "Where sea and hillside unite on one plate"
+          "intro": {
+            "en": "When anchovies from the morning catch meet lemons from the terrace above your table.",
+            "de": "Wenn Sardellen vom Morgenfang auf Zitronen von der Terrasse über Ihrem Tisch treffen.",
+            "fr": "Quand les anchois de la pêche du matin rencontrent les citrons de la terrasse au-dessus de votre table.",
+            "it": "Quando le acciughe della pesca mattutina incontrano i limoni della terrazza sopra il vostro tavolo."
+          },
+          "description": {
+            "en": "Monterosso's farm kitchens serve a unique cuisine: anchovies preserved in the traditional Monterosso method, combined with lemons from the property's groves, accompanied by wine from their own vines. The famous acciughe al limone—anchovies with lemon—exists in its purest form at these tables.",
+            "de": "Die Hofküchen von Monterosso servieren eine einzigartige Küche: Sardellen, nach traditioneller Monterosso-Methode eingelegt, kombiniert mit Zitronen aus den eigenen Hainen, begleitet von Wein aus eigenen Reben. Die berühmten Acciughe al Limone – Sardellen mit Zitrone – existieren in ihrer reinsten Form an diesen Tischen.",
+            "fr": "Les cuisines des fermes de Monterosso servent une cuisine unique : des anchois conservés selon la méthode traditionnelle de Monterosso, combinés aux citrons des vergers de la propriété, accompagnés du vin de leurs propres vignes. Les fameuses acciughe al limone — anchois au citron — existent dans leur forme la plus pure à ces tables.",
+            "it": "Le cucine degli agriturismi di Monterosso servono una cucina unica: acciughe conservate secondo il metodo tradizionale di Monterosso, abbinate ai limoni dei limoneti della proprietà, accompagnate dal vino delle proprie vigne. Le famose acciughe al limone esistono nella loro forma più pura a queste tavole."
+          },
+          "giuliaComment": {
+            "en": "The combination sounds simple, but getting fresh Monterosso anchovies with real Monterosso lemons, prepared by someone whose grandmother taught them—that's not something restaurants can replicate. It's the farm kitchen or nothing.",
+            "de": "Die Kombination klingt einfach, aber frische Monterosso-Sardellen mit echten Monterosso-Zitronen zu bekommen, zubereitet von jemandem, dessen Großmutter es ihm beigebracht hat – das können Restaurants nicht nachahmen. Es ist die Hofküche oder nichts.",
+            "fr": "La combinaison semble simple, mais obtenir des anchois frais de Monterosso avec de vrais citrons de Monterosso, préparés par quelqu'un dont la grand-mère lui a appris — c'est quelque chose que les restaurants ne peuvent pas reproduire. C'est la cuisine de la ferme ou rien.",
+            "it": "La combinazione sembra semplice, ma avere acciughe fresche di Monterosso con veri limoni di Monterosso, preparate da qualcuno a cui la nonna ha insegnato — questo i ristoranti non possono replicarlo. È la cucina contadina o niente."
+          },
+          "signature": {
+            "en": "Where sea and hillside unite on one plate",
+            "de": "Wo Meer und Hügel sich auf einem Teller vereinen",
+            "fr": "Où la mer et la colline s'unissent dans une assiette",
+            "it": "Dove mare e collina si uniscono in un piatto"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Anchovy Connection",
-          "quote": "Monterosso's anchovies are also protected—IGP status, traditional salting methods passed through generations. The farms above the village often have family connections to the fishing boats below. Stay at an agriturismo and you might eat anchovies caught by your host's cousin that morning."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude éditorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Anchovy Connection",
+            "de": "Die Sardellen-Verbindung",
+            "fr": "Le lien avec les anchois",
+            "it": "Il legame con le acciughe"
+          },
+          "quote": {
+            "en": "Monterosso's anchovies are also protected—IGP status, traditional salting methods passed through generations. The farms above the village often have family connections to the fishing boats below. Stay at an agriturismo and you might eat anchovies caught by your host's cousin that morning.",
+            "de": "Auch die Sardellen von Monterosso sind geschützt – IGP-Status, traditionelle Salzmethoden, die über Generationen weitergegeben wurden. Die Höfe oberhalb des Dorfes haben oft familiäre Verbindungen zu den Fischerbooten unten. Übernachten Sie in einem Agriturismo und Sie essen vielleicht Sardellen, die der Cousin Ihres Gastgebers an diesem Morgen gefangen hat.",
+            "fr": "Les anchois de Monterosso sont également protégés — statut IGP, méthodes de salage traditionnelles transmises de génération en génération. Les fermes au-dessus du village ont souvent des liens familiaux avec les bateaux de pêche en contrebas. Séjournez dans un agritourisme et vous pourriez manger des anchois pêchés par le cousin de votre hôte le matin même.",
+            "it": "Anche le acciughe di Monterosso sono protette — status IGP, metodi tradizionali di salatura tramandati di generazione in generazione. Le aziende agricole sopra il borgo hanno spesso legami familiari con i pescherecci in basso. Soggiornate in un agriturismo e potreste mangiare acciughe pescate dal cugino del vostro ospite quella mattina stessa."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Realities",
-      "quote": "Monterosso's agriturismi are more accessible than those above other villages—but they still require planning. The beach may be close, but you're staying in the hills for a reason.",
-      "content": [
-        "**Beach access is easier**. Unlike other villages, Monterosso has roads that connect the hills to the town center. Some agriturismi offer shuttle services to the beach, making it possible to combine farm stays with beach days.",
-        "**The new town option**. Some farms are positioned above Fegina (the new town) rather than the old town. These often have easier road access but put you farther from the historic center.",
-        "**Summer heat rises**. The terraces above Monterosso can be hot in July and August. Air conditioning isn't guaranteed at traditional farms. Spring and early autumn are more comfortable for agricultural immersion.",
-        "**Harvest seasons differ**. Lemon harvests happen in spring (main crop) and autumn (secondary). Grape harvests happen in September-October. Plan your visit around what you want to participate in."
-      ]
+      "badge": {
+        "en": "Practical Realities",
+        "de": "Praktische Aspekte",
+        "fr": "Réalités pratiques",
+        "it": "Aspetti pratici"
+      },
+      "quote": {
+        "en": "Monterosso's agriturismi are more accessible than those above other villages—but they still require planning. The beach may be close, but you're staying in the hills for a reason.",
+        "de": "Die Agriturismi von Monterosso sind leichter zugänglich als die über anderen Dörfern – aber sie erfordern trotzdem Planung. Der Strand mag nah sein, aber Sie übernachten aus gutem Grund in den Hügeln.",
+        "fr": "Les agritourismes de Monterosso sont plus accessibles que ceux des autres villages — mais ils nécessitent quand même de la planification. La plage est peut-être proche, mais vous séjournez dans les collines pour une bonne raison.",
+        "it": "Gli agriturismi di Monterosso sono più accessibili di quelli sopra altri borghi — ma richiedono comunque pianificazione. La spiaggia può essere vicina, ma soggiornate in collina per un motivo."
+      },
+      "content": {
+        "en": [
+          "**Beach access is easier**. Unlike other villages, Monterosso has roads that connect the hills to the town center. Some agriturismi offer shuttle services to the beach, making it possible to combine farm stays with beach days.",
+          "**The new town option**. Some farms are positioned above Fegina (the new town) rather than the old town. These often have easier road access but put you farther from the historic center.",
+          "**Summer heat rises**. The terraces above Monterosso can be hot in July and August. Air conditioning isn't guaranteed at traditional farms. Spring and early autumn are more comfortable for agricultural immersion.",
+          "**Harvest seasons differ**. Lemon harvests happen in spring (main crop) and autumn (secondary). Grape harvests happen in September-October. Plan your visit around what you want to participate in."
+        ],
+        "de": [
+          "**Der Strandzugang ist einfacher**. Anders als bei anderen Dörfern hat Monterosso Straßen, die die Hügel mit dem Ortszentrum verbinden. Einige Agriturismi bieten Shuttle-Services zum Strand und ermöglichen so die Kombination von Hofaufenthalt und Strandtagen.",
+          "**Die Option Neustadt**. Einige Höfe liegen oberhalb von Fegina (der Neustadt) statt der Altstadt. Diese haben oft einen leichteren Straßenzugang, liegen aber weiter vom historischen Zentrum entfernt.",
+          "**Im Sommer steigt die Hitze**. Die Terrassen oberhalb von Monterosso können im Juli und August heiß sein. Klimaanlage ist bei traditionellen Höfen nicht garantiert. Frühling und Frühherbst sind angenehmer für landwirtschaftliches Eintauchen.",
+          "**Die Erntezeiten unterscheiden sich**. Zitronenernte findet im Frühling (Haupternte) und Herbst (Nebenernte) statt. Weinlese ist im September-Oktober. Planen Sie Ihren Besuch danach, woran Sie teilnehmen möchten."
+        ],
+        "fr": [
+          "**L'accès à la plage est plus facile**. Contrairement aux autres villages, Monterosso a des routes qui relient les collines au centre-ville. Certains agritourismes proposent des navettes vers la plage, permettant de combiner séjour à la ferme et journées plage.",
+          "**L'option ville nouvelle**. Certaines fermes sont situées au-dessus de Fegina (la ville nouvelle) plutôt que de la vieille ville. Elles ont souvent un accès routier plus facile mais vous éloignent du centre historique.",
+          "**La chaleur estivale monte**. Les terrasses au-dessus de Monterosso peuvent être chaudes en juillet et août. La climatisation n'est pas garantie dans les fermes traditionnelles. Le printemps et le début de l'automne sont plus confortables pour une immersion agricole.",
+          "**Les saisons de récolte diffèrent**. La récolte des citrons a lieu au printemps (récolte principale) et en automne (secondaire). Les vendanges ont lieu en septembre-octobre. Planifiez votre visite en fonction de ce à quoi vous voulez participer."
+        ],
+        "it": [
+          "**L'accesso alla spiaggia è più facile**. A differenza di altri borghi, Monterosso ha strade che collegano le colline al centro del paese. Alcuni agriturismi offrono servizio navetta per la spiaggia, rendendo possibile combinare soggiorno in campagna e giornate al mare.",
+          "**L'opzione città nuova**. Alcune aziende agricole si trovano sopra Fegina (la città nuova) anziché sopra il centro storico. Queste hanno spesso un accesso stradale più facile ma vi allontanano dal centro storico.",
+          "**D'estate il caldo sale**. Le terrazze sopra Monterosso possono essere calde in luglio e agosto. L'aria condizionata non è garantita nelle aziende tradizionali. Primavera e inizio autunno sono più confortevoli per un'immersione agricola.",
+          "**Le stagioni di raccolta sono diverse**. La raccolta dei limoni avviene in primavera (raccolto principale) e in autunno (secondario). La vendemmia avviene in settembre-ottobre. Pianificate la vostra visita in base a cosa volete partecipare."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Spring Lemon Harvest",
-          "category": "Peak Citrus Season",
+          "name": {
+            "en": "Spring Lemon Harvest",
+            "de": "Frühlings-Zitronenernte",
+            "fr": "Récolte printanière des citrons",
+            "it": "Raccolta primaverile dei limoni"
+          },
+          "category": {
+            "en": "Peak Citrus Season",
+            "de": "Hochsaison der Zitrusfrüchte",
+            "fr": "Haute saison des agrumes",
+            "it": "Alta stagione degli agrumi"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the main lemon crop comes in—fragrance filling the terraces, hands sticky with juice, limoncello in the making.",
-          "description": "March through May brings the primary lemon harvest to Monterosso's terraces. The groves are heavy with fruit, the air smells of citrus, and every meal features fresh lemons. Guests can participate in picking, learn about traditional preservation methods, and watch as the fruit transforms into limoncello.",
-          "giuliaComment": "Spring above Monterosso is intoxicating—literally, the lemon fragrance is everywhere. The farms work long hours during harvest. If you want to help, be prepared for actual labor. But the reward is taking home limoncello you helped make.",
-          "signature": "When the groves come alive"
+          "intro": {
+            "en": "When the main lemon crop comes in—fragrance filling the terraces, hands sticky with juice, limoncello in the making.",
+            "de": "Wenn die Haupternte der Zitronen kommt – Duft erfüllt die Terrassen, Hände klebrig vom Saft, Limoncello in der Herstellung.",
+            "fr": "Quand la récolte principale de citrons arrive — le parfum emplit les terrasses, les mains collantes de jus, le limoncello en préparation.",
+            "it": "Quando arriva il raccolto principale dei limoni — il profumo riempie le terrazze, le mani appiccicose di succo, il limoncello in preparazione."
+          },
+          "description": {
+            "en": "March through May brings the primary lemon harvest to Monterosso's terraces. The groves are heavy with fruit, the air smells of citrus, and every meal features fresh lemons. Guests can participate in picking, learn about traditional preservation methods, and watch as the fruit transforms into limoncello.",
+            "de": "Von März bis Mai kommt die Haupternte der Zitronen auf die Terrassen von Monterosso. Die Haine hängen voller Früchte, die Luft duftet nach Zitrus, und jede Mahlzeit enthält frische Zitronen. Gäste können beim Pflücken mitmachen, traditionelle Konservierungsmethoden kennenlernen und zusehen, wie die Früchte zu Limoncello werden.",
+            "fr": "De mars à mai, la récolte principale des citrons arrive sur les terrasses de Monterosso. Les vergers croulent sous les fruits, l'air sent les agrumes, et chaque repas met en vedette des citrons frais. Les visiteurs peuvent participer à la cueillette, découvrir les méthodes de conservation traditionnelles et observer la transformation des fruits en limoncello.",
+            "it": "Da marzo a maggio arriva la raccolta principale dei limoni sulle terrazze di Monterosso. I limoneti sono carichi di frutti, l'aria profuma di agrumi e ogni pasto presenta limoni freschi. Gli ospiti possono partecipare alla raccolta, conoscere i metodi tradizionali di conservazione e osservare la trasformazione dei frutti in limoncello."
+          },
+          "giuliaComment": {
+            "en": "Spring above Monterosso is intoxicating—literally, the lemon fragrance is everywhere. The farms work long hours during harvest. If you want to help, be prepared for actual labor. But the reward is taking home limoncello you helped make.",
+            "de": "Der Frühling oberhalb von Monterosso ist berauschend – buchstäblich, der Zitronenduft ist überall. Die Höfe arbeiten während der Ernte lange Stunden. Wenn Sie helfen wollen, seien Sie auf echte Arbeit vorbereitet. Aber die Belohnung ist, Limoncello mit nach Hause zu nehmen, den Sie mitgemacht haben.",
+            "fr": "Le printemps au-dessus de Monterosso est enivrant — littéralement, le parfum des citrons est partout. Les fermes travaillent de longues heures pendant la récolte. Si vous voulez aider, préparez-vous à un vrai travail. Mais la récompense est de rapporter chez vous un limoncello que vous avez aidé à faire.",
+            "it": "La primavera sopra Monterosso è inebriante — letteralmente, il profumo dei limoni è ovunque. Le aziende agricole lavorano molte ore durante la raccolta. Se volete aiutare, preparatevi a lavorare davvero. Ma la ricompensa è portare a casa limoncello che avete contribuito a fare."
+          },
+          "signature": {
+            "en": "When the groves come alive",
+            "de": "Wenn die Haine erwachen",
+            "fr": "Quand les vergers s'animent",
+            "it": "Quando i limoneti prendono vita"
+          }
         },
         {
           "id": 5,
-          "name": "Autumn Double Harvest",
-          "category": "Wine and Citrus Season",
+          "name": {
+            "en": "Autumn Double Harvest",
+            "de": "Herbstliche Doppelernte",
+            "fr": "Double récolte d'automne",
+            "it": "Doppia raccolta autunnale"
+          },
+          "category": {
+            "en": "Wine and Citrus Season",
+            "de": "Wein- und Zitrussaison",
+            "fr": "Saison du vin et des agrumes",
+            "it": "Stagione del vino e degli agrumi"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "September through November—grape harvest overlaps with the secondary lemon crop, creating the busiest time in the terraces.",
-          "description": "Autumn brings the vendemmia (grape harvest) while a smaller lemon crop also ripens. Farms that produce both are intensely busy. Guests can help with both harvests, experiencing the full range of Monterosso's agricultural traditions in a single visit.",
-          "giuliaComment": "The farms that do both wine and lemons are exhausted in autumn—but it's the best time to understand how everything connects. You see the whole system working at once. And the meals after a day's harvest are the best meals of the year.",
-          "signature": "When everything ripens at once"
+          "intro": {
+            "en": "September through November—grape harvest overlaps with the secondary lemon crop, creating the busiest time in the terraces.",
+            "de": "September bis November – die Weinlese überschneidet sich mit der sekundären Zitronenernte und schafft die geschäftigste Zeit auf den Terrassen.",
+            "fr": "De septembre à novembre — les vendanges coïncident avec la récolte secondaire des citrons, créant la période la plus chargée sur les terrasses.",
+            "it": "Da settembre a novembre — la vendemmia si sovrappone alla raccolta secondaria dei limoni, creando il periodo più intenso sulle terrazze."
+          },
+          "description": {
+            "en": "Autumn brings the vendemmia (grape harvest) while a smaller lemon crop also ripens. Farms that produce both are intensely busy. Guests can help with both harvests, experiencing the full range of Monterosso's agricultural traditions in a single visit.",
+            "de": "Der Herbst bringt die Vendemmia (Weinlese), während auch eine kleinere Zitronenernte reift. Höfe, die beides produzieren, sind intensiv beschäftigt. Gäste können bei beiden Ernten helfen und so die ganze Bandbreite der landwirtschaftlichen Traditionen von Monterosso in einem einzigen Besuch erleben.",
+            "fr": "L'automne apporte les vendanges tandis qu'une petite récolte de citrons mûrit également. Les fermes qui produisent les deux sont extrêmement occupées. Les visiteurs peuvent aider aux deux récoltes, vivant toute la gamme des traditions agricoles de Monterosso en une seule visite.",
+            "it": "L'autunno porta la vendemmia mentre matura anche una raccolta minore di limoni. Le aziende che producono entrambi sono intensamente impegnate. Gli ospiti possono aiutare in entrambe le raccolte, vivendo l'intera gamma delle tradizioni agricole di Monterosso in un'unica visita."
+          },
+          "giuliaComment": {
+            "en": "The farms that do both wine and lemons are exhausted in autumn—but it's the best time to understand how everything connects. You see the whole system working at once. And the meals after a day's harvest are the best meals of the year.",
+            "de": "Die Höfe, die sowohl Wein als auch Zitronen machen, sind im Herbst erschöpft – aber es ist die beste Zeit zu verstehen, wie alles zusammenhängt. Man sieht das ganze System gleichzeitig arbeiten. Und die Mahlzeiten nach einem Erntetag sind die besten des Jahres.",
+            "fr": "Les fermes qui font à la fois le vin et les citrons sont épuisées en automne — mais c'est le meilleur moment pour comprendre comment tout s'articule. Vous voyez tout le système fonctionner en même temps. Et les repas après une journée de récolte sont les meilleurs de l'année.",
+            "it": "Le aziende che fanno sia vino che limoni sono esauste in autunno — ma è il momento migliore per capire come tutto sia collegato. Vedete l'intero sistema funzionare contemporaneamente. E i pasti dopo una giornata di raccolta sono i migliori dell'anno."
+          },
+          "signature": {
+            "en": "When everything ripens at once",
+            "de": "Wenn alles gleichzeitig reift",
+            "fr": "Quand tout mûrit en même temps",
+            "it": "Quando tutto matura insieme"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Beach Balance",
-          "quote": "Monterosso is the only Cinque Terre village where you can realistically combine a farm stay with beach days. The distance is manageable, the infrastructure exists. But don't try to do everything—either commit to the agricultural experience or stay in town. The magic is in immersion, not rushing between."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokales Wissen",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Beach Balance",
+            "de": "Das Strand-Gleichgewicht",
+            "fr": "L'équilibre plage",
+            "it": "L'equilibrio con la spiaggia"
+          },
+          "quote": {
+            "en": "Monterosso is the only Cinque Terre village where you can realistically combine a farm stay with beach days. The distance is manageable, the infrastructure exists. But don't try to do everything—either commit to the agricultural experience or stay in town. The magic is in immersion, not rushing between.",
+            "de": "Monterosso ist das einzige Dorf der Cinque Terre, wo man realistisch einen Hofaufenthalt mit Strandtagen kombinieren kann. Die Entfernung ist überschaubar, die Infrastruktur vorhanden. Aber versuchen Sie nicht, alles zu machen – entscheiden Sie sich entweder für das landwirtschaftliche Erlebnis oder bleiben Sie im Ort. Die Magie liegt im Eintauchen, nicht im Hetzen.",
+            "fr": "Monterosso est le seul village des Cinque Terre où vous pouvez réalistement combiner un séjour à la ferme avec des journées plage. La distance est gérable, l'infrastructure existe. Mais n'essayez pas de tout faire — engagez-vous soit dans l'expérience agricole, soit restez en ville. La magie est dans l'immersion, pas dans la précipitation.",
+            "it": "Monterosso è l'unico borgo delle Cinque Terre dove potete realisticamente combinare un soggiorno in agriturismo con giornate al mare. La distanza è gestibile, le infrastrutture ci sono. Ma non cercate di fare tutto — o vi dedicate all'esperienza agricola o restate in paese. La magia sta nell'immersione, non nella fretta."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Where Beach Meets Grove",
-      "content": [
-        "An agriturismo above Monterosso offers something unique in Cinque Terre: the agricultural heritage combined with actual beach access. You can wake to lemon fragrance, spend your morning in the terraces, and reach the sand by afternoon.",
-        "But the farms reward commitment. The guests who get the most are those who choose the hills over the beach, who stay for meals, who help with whatever work the season demands.",
-        "Come for the lemons. Stay for the complete experience. Leave understanding why this fruit carries legal protection—and why the families who grow it have done so for centuries."
-      ],
+      "title": {
+        "en": "Where Beach Meets Grove",
+        "de": "Wo Strand auf Hain trifft",
+        "fr": "Là où la plage rencontre les vergers",
+        "it": "Dove la spiaggia incontra i limoneti"
+      },
+      "content": {
+        "en": [
+          "An agriturismo above Monterosso offers something unique in Cinque Terre: the agricultural heritage combined with actual beach access. You can wake to lemon fragrance, spend your morning in the terraces, and reach the sand by afternoon.",
+          "But the farms reward commitment. The guests who get the most are those who choose the hills over the beach, who stay for meals, who help with whatever work the season demands.",
+          "Come for the lemons. Stay for the complete experience. Leave understanding why this fruit carries legal protection—and why the families who grow it have done so for centuries."
+        ],
+        "de": [
+          "Ein Agriturismo oberhalb von Monterosso bietet etwas Einzigartiges in den Cinque Terre: das landwirtschaftliche Erbe kombiniert mit echtem Strandzugang. Sie können mit Zitronenduft aufwachen, den Vormittag auf den Terrassen verbringen und nachmittags am Strand sein.",
+          "Aber die Höfe belohnen Hingabe. Die Gäste, die am meisten mitnehmen, sind diejenigen, die die Hügel dem Strand vorziehen, die zu den Mahlzeiten bleiben, die bei der Arbeit helfen, die die Saison erfordert.",
+          "Kommen Sie wegen der Zitronen. Bleiben Sie für das vollständige Erlebnis. Gehen Sie mit dem Verständnis, warum diese Frucht rechtlich geschützt ist – und warum die Familien, die sie anbauen, dies seit Jahrhunderten tun."
+        ],
+        "fr": [
+          "Un agritourisme au-dessus de Monterosso offre quelque chose d'unique dans les Cinque Terre : le patrimoine agricole combiné à un véritable accès à la plage. Vous pouvez vous réveiller avec le parfum des citrons, passer votre matinée sur les terrasses et atteindre le sable l'après-midi.",
+          "Mais les fermes récompensent l'engagement. Les visiteurs qui en tirent le plus sont ceux qui choisissent les collines plutôt que la plage, qui restent pour les repas, qui aident aux travaux que la saison exige.",
+          "Venez pour les citrons. Restez pour l'expérience complète. Repartez en comprenant pourquoi ce fruit bénéficie d'une protection légale — et pourquoi les familles qui le cultivent le font depuis des siècles."
+        ],
+        "it": [
+          "Un agriturismo sopra Monterosso offre qualcosa di unico nelle Cinque Terre: il patrimonio agricolo combinato con un vero accesso alla spiaggia. Potete svegliarvi con il profumo dei limoni, passare la mattinata sulle terrazze e raggiungere la sabbia nel pomeriggio.",
+          "Ma le aziende agricole premiano l'impegno. Gli ospiti che ottengono di più sono quelli che scelgono le colline invece della spiaggia, che restano per i pasti, che aiutano in qualsiasi lavoro la stagione richieda.",
+          "Venite per i limoni. Restate per l'esperienza completa. Ripartite capendo perché questo frutto ha una protezione legale — e perché le famiglie che lo coltivano lo fanno da secoli."
+        ]
+      },
       "buttons": [
-        { "text": "Beach Guide", "url": "/en/monterosso/beaches", "variant": "primary" },
-        { "text": "Village Overview", "url": "/en/monterosso/overview", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Beach Guide",
+            "de": "Strandführer",
+            "fr": "Guide des plages",
+            "it": "Guida alle spiagge"
+          },
+          "url": {
+            "en": "/en/monterosso/beaches",
+            "de": "/de/monterosso/beaches",
+            "fr": "/fr/monterosso/beaches",
+            "it": "/it/monterosso/beaches"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Village Overview",
+            "de": "Dorfübersicht",
+            "fr": "Aperçu du village",
+            "it": "Panoramica del borgo"
+          },
+          "url": {
+            "en": "/en/monterosso/overview",
+            "de": "/de/monterosso/overview",
+            "fr": "/fr/monterosso/overview",
+            "it": "/it/monterosso/overview"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],

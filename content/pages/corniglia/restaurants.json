@@ -7,36 +7,90 @@
     "it": "/it/corniglia/restaurants"
   },
   "title": {
-    "en": "Where to Eat in Corniglia | Cinque Terre Dispatch"
+    "en": "Where to Eat in Corniglia | Cinque Terre Dispatch",
+    "de": "Essen in Corniglia | Cinque Terre Dispatch",
+    "fr": "Ou manger a Corniglia | Cinque Terre Dispatch",
+    "it": "Dove mangiare a Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "restaurants",
   "seo": {
     "title": {
-      "en": "Where to Eat in Corniglia | Cinque Terre Dispatch"
+      "en": "Where to Eat in Corniglia | Cinque Terre Dispatch",
+      "de": "Essen in Corniglia | Cinque Terre Dispatch",
+      "fr": "Ou manger a Corniglia | Cinque Terre Dispatch",
+      "it": "Dove mangiare a Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "In a village of 150 residents, every restaurant is family-run, every cook knows their suppliers by name, and the wine comes from terraces you can see from your table."
+      "en": "In a village of 150 residents, every restaurant is family-run, every cook knows their suppliers by name, and the wine comes from terraces you can see from your table.",
+      "de": "In einem Dorf mit 150 Einwohnern ist jedes Restaurant familiaer gefuehrt, jeder Koch kennt seine Lieferanten beim Namen, und der Wein kommt von Terrassen, die man vom Tisch aus sehen kann.",
+      "fr": "Dans un village de 150 habitants, chaque restaurant est familial, chaque cuisinier connait ses fournisseurs par leur nom, et le vin vient des terrasses que l'on peut voir depuis sa table.",
+      "it": "In un paese di 150 abitanti, ogni ristorante e a conduzione familiare, ogni cuoco conosce i propri fornitori per nome, e il vino viene dalle terrazze che si possono vedere dal tavolo."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Eating<br/>Above the Clouds",
-      "subtitle": "Corniglia's restaurants exist in a world apart—clifftop terraces where meals unfold with the Mediterranean far below, kitchens where the same families have cooked for generations, and wine lists that read like an atlas of the surrounding slopes.",
-      "badge": "Dining Guide",
+      "title": {
+        "en": "Eating<br/>Above the Clouds",
+        "de": "Essen<br/>ueber den Wolken",
+        "fr": "Manger<br/>au-dessus des nuages",
+        "it": "Mangiare<br/>sopra le nuvole"
+      },
+      "subtitle": {
+        "en": "Corniglia's restaurants exist in a world apart—clifftop terraces where meals unfold with the Mediterranean far below, kitchens where the same families have cooked for generations, and wine lists that read like an atlas of the surrounding slopes.",
+        "de": "Cornelias Restaurants existieren in einer Welt fuer sich—Terrassen auf Klippen, wo Mahlzeiten mit dem Mittelmeer weit unten stattfinden, Kuechen, in denen dieselben Familien seit Generationen kochen, und Weinkarten, die sich wie ein Atlas der umliegenden Haenge lesen.",
+        "fr": "Les restaurants de Corniglia existent dans un monde a part—des terrasses au sommet des falaises ou les repas se deroulent avec la Mediterranee loin en dessous, des cuisines ou les memes familles cuisinent depuis des generations, et des cartes des vins qui se lisent comme un atlas des pentes environnantes.",
+        "it": "I ristoranti di Corniglia esistono in un mondo a parte—terrazze in cima alle scogliere dove i pasti si svolgono con il Mediterraneo lontano sotto, cucine dove le stesse famiglie cucinano da generazioni, e carte dei vini che si leggono come un atlante dei pendii circostanti."
+      },
+      "badge": {
+        "en": "Dining Guide",
+        "de": "Restaurant-Guide",
+        "fr": "Guide Gastronomique",
+        "it": "Guida Ristoranti"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555396273-367ea4eb4db5-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Corniglia Kitchen",
-      "quote": "There are maybe a dozen places to eat in Corniglia, and most have been run by the same families for decades. The menus don't change much because the recipes work. The ingredients come from terraces visible through the windows. The pace is slow because rushing would miss the point.",
-      "content": [
-        "**The elevation changes everything**. You're not eating at sea level with the noise and bustle of harbor villages. The air is different up here—cleaner, quieter, scented with wild herbs that grow on the terraces. Dining feels removed from the tourist machine below.",
-        "**The specialties are agricultural**. While coastal villages emphasize seafood, Corniglia's kitchens lean into what the terraces produce: exceptional pesto from local basil, trofie pasta made by hand, vegetables from family gardens, and always the wine.",
-        "**The wine is local**. Every restaurant pours wines from producers you could walk to visit. The Cinque Terre DOC whites are mineral and crisp; the rare Sciacchetrà appears on dessert menus as a treasure. The connection between table and vineyard is immediate.",
-        "**Reservations matter more here**. With fewer restaurants than the coastal villages and the same number of visitors at peak times, tables fill quickly. Book ahead or arrive early, especially for dinner."
-      ]
+      "badge": {
+        "en": "The Corniglia Kitchen",
+        "de": "Die Kueche von Corniglia",
+        "fr": "La cuisine de Corniglia",
+        "it": "La cucina di Corniglia"
+      },
+      "quote": {
+        "en": "There are maybe a dozen places to eat in Corniglia, and most have been run by the same families for decades. The menus don't change much because the recipes work. The ingredients come from terraces visible through the windows. The pace is slow because rushing would miss the point.",
+        "de": "Es gibt vielleicht ein Dutzend Orte zum Essen in Corniglia, und die meisten werden seit Jahrzehnten von denselben Familien gefuehrt. Die Speisekarten aendern sich nicht viel, weil die Rezepte funktionieren. Die Zutaten kommen von Terrassen, die durch die Fenster sichtbar sind. Das Tempo ist langsam, weil Eile den Sinn verfehlen wuerde.",
+        "fr": "Il y a peut-etre une douzaine d'endroits ou manger a Corniglia, et la plupart sont geres par les memes familles depuis des decennies. Les menus ne changent pas beaucoup car les recettes fonctionnent. Les ingredients viennent des terrasses visibles par les fenetres. Le rythme est lent car se presser manquerait l'essentiel.",
+        "it": "Ci sono forse una dozzina di posti dove mangiare a Corniglia, e la maggior parte sono gestiti dalle stesse famiglie da decenni. I menu non cambiano molto perche le ricette funzionano. Gli ingredienti vengono dalle terrazze visibili dalle finestre. Il ritmo e lento perche affrettarsi significherebbe perdere il senso."
+      },
+      "content": {
+        "en": [
+          "**The elevation changes everything**. You're not eating at sea level with the noise and bustle of harbor villages. The air is different up here—cleaner, quieter, scented with wild herbs that grow on the terraces. Dining feels removed from the tourist machine below.",
+          "**The specialties are agricultural**. While coastal villages emphasize seafood, Corniglia's kitchens lean into what the terraces produce: exceptional pesto from local basil, trofie pasta made by hand, pansotti with walnut sauce, and Ligurian-style rabbit.",
+          "**The wine is immediate**. Every restaurant pours wines from producers you could walk to visit. The Cinque Terre DOC whites are mineral and crisp; the rare Sciacchetra appears on dessert menus as a treasure. The connection between table and vineyard is direct.",
+          "**Reservations matter more here**. With fewer restaurants than the coastal villages and the same number of visitors at peak times, tables fill quickly. Book ahead or arrive early, especially for dinner."
+        ],
+        "de": [
+          "**Die Hoehe veraendert alles**. Sie essen nicht auf Meereshoehe mit dem Laerm und der Geschaeftigkeit der Hafendoerfer. Die Luft ist hier oben anders—sauberer, ruhiger, duftend nach wilden Kraeutern, die auf den Terrassen wachsen. Essen fuehlt sich entfernt von der Touristenmaschine unten an.",
+          "**Die Spezialitaeten sind landwirtschaftlich**. Waehrend Kuestendoerfer Meeresfruechte betonen, lehnen sich Cornelias Kuechen in das, was die Terrassen produzieren: aussergewoehnliches Pesto aus lokalem Basilikum, handgemachte Trofie-Pasta, Pansotti mit Walnusssauce und Kaninchen nach ligurischer Art.",
+          "**Der Wein ist unmittelbar**. Jedes Restaurant schenkt Weine von Produzenten aus, die man zu Fuss besuchen koennte. Die Cinque Terre DOC Weissweine sind mineralisch und frisch; der seltene Sciacchetra erscheint auf Dessertkarten als Schatz. Die Verbindung zwischen Tisch und Weinberg ist direkt.",
+          "**Reservierungen zaehlen hier mehr**. Mit weniger Restaurants als in den Kuestendoerfern und der gleichen Anzahl von Besuchern zu Spitzenzeiten fuellen sich die Tische schnell. Buchen Sie im Voraus oder kommen Sie frueh, besonders zum Abendessen."
+        ],
+        "fr": [
+          "**L'altitude change tout**. Vous ne mangez pas au niveau de la mer avec le bruit et l'agitation des villages portuaires. L'air est different ici—plus pur, plus calme, parfume d'herbes sauvages qui poussent sur les terrasses. Manger semble eloigne de la machine touristique en bas.",
+          "**Les specialites sont agricoles**. Alors que les villages cotiers mettent l'accent sur les fruits de mer, les cuisines de Corniglia s'appuient sur ce que les terrasses produisent: un pesto exceptionnel de basilic local, des trofie faites a la main, des pansotti a la sauce aux noix, et du lapin a la ligure.",
+          "**Le vin est immediat**. Chaque restaurant sert des vins de producteurs que l'on pourrait visiter a pied. Les blancs Cinque Terre DOC sont mineraux et vifs; le rare Sciacchetra apparait sur les menus de desserts comme un tresor. La connexion entre table et vignoble est directe.",
+          "**Les reservations comptent plus ici**. Avec moins de restaurants que les villages cotiers et le meme nombre de visiteurs aux heures de pointe, les tables se remplissent vite. Reservez a l'avance ou arrivez tot, surtout pour le diner."
+        ],
+        "it": [
+          "**L'altitudine cambia tutto**. Non mangiate a livello del mare con il rumore e il trambusto dei paesi portuali. L'aria e diversa quassu—piu pulita, piu silenziosa, profumata di erbe selvatiche che crescono sulle terrazze. Mangiare sembra lontano dalla macchina turistica sotto.",
+          "**Le specialita sono agricole**. Mentre i paesi costieri enfatizzano i frutti di mare, le cucine di Corniglia si appoggiano a cio che le terrazze producono: pesto eccezionale dal basilico locale, trofie fatte a mano, pansotti con salsa di noci, e coniglio alla ligure.",
+          "**Il vino e immediato**. Ogni ristorante versa vini da produttori che si potrebbero visitare a piedi. I bianchi Cinque Terre DOC sono minerali e freschi; il raro Sciacchetra appare nei menu dei dessert come un tesoro. La connessione tra tavolo e vigneto e diretta.",
+          "**Le prenotazioni contano di piu qui**. Con meno ristoranti dei paesi costieri e lo stesso numero di visitatori nelle ore di punta, i tavoli si riempiono velocemente. Prenotate in anticipo o arrivate presto, specialmente per la cena."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,69 +98,250 @@
       "items": [
         {
           "id": 1,
-          "name": "Cecio",
-          "category": "Traditional Trattoria",
+          "name": "Osteria A Cantina de Mananan",
+          "category": {
+            "en": "Traditional Osteria",
+            "de": "Traditionelle Osteria",
+            "fr": "Osteria traditionnelle",
+            "it": "Osteria tradizionale"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Four generations of the same family, recipes unchanged, ingredients from their own garden—this is what a Ligurian trattoria should be.",
-          "description": "Cecio sits above the village with views that would justify any meal, but the food stands on its own merit. The trofie al pesto uses basil from their garden; the anchovies come from Monterosso's fleet; the vegetables grew steps away. Fourth-generation hospitality that feels genuine, not performed.",
-          "giuliaComment": "My family has eaten at Cecio for decades. The grandmother who started it made my mother's wedding cake. The grandson who runs it now went to school with my brother. This is what Cinque Terre hospitality used to mean before the crowds—you know the family, they know you.",
-          "signature": "Where tradition serves dinner"
+          "intro": {
+            "en": "Twenty seats, cash only, recipes unchanged for generations—the tiny osteria that justifies the 377-step climb.",
+            "de": "Zwanzig Sitzplaetze, nur Bargeld, Rezepte seit Generationen unveraendert—die winzige Osteria, die den Aufstieg von 377 Stufen rechtfertigt.",
+            "fr": "Vingt places, especes uniquement, recettes inchangees depuis des generations—la petite osteria qui justifie les 377 marches.",
+            "it": "Venti posti, solo contanti, ricette immutate da generazioni—la piccola osteria che giustifica i 377 gradini."
+          },
+          "description": {
+            "en": "A Cantina de Mananan is the reason locals tell you Corniglia is worth the climb. This charming 20-seat osteria on Via Fieschi serves what Ligurian grandmothers have always made: pansotti with creamy walnut sauce, testaroli al pesto, rabbit cooked with olives, and fresh fish from the coast below. The atmosphere is intimate, the service personal, and the recipes are family secrets kept for generations.",
+            "de": "A Cantina de Mananan ist der Grund, warum Einheimische Ihnen sagen, dass Corniglia den Aufstieg wert ist. Diese charmante Osteria mit 20 Sitzplaetzen an der Via Fieschi serviert, was ligurische Grossmuetter schon immer gemacht haben: Pansotti mit cremiger Walnusssauce, Testaroli al Pesto, Kaninchen mit Oliven gekocht, und frischen Fisch von der Kueste unten. Die Atmosphaere ist intim, der Service persoenlich, und die Rezepte sind Familiengeheimnisse seit Generationen.",
+            "fr": "A Cantina de Mananan est la raison pour laquelle les locaux vous disent que Corniglia vaut la montee. Cette charmante osteria de 20 places sur Via Fieschi sert ce que les grands-meres liguriennes ont toujours fait: pansotti avec sauce cremee aux noix, testaroli al pesto, lapin cuit aux olives, et poisson frais de la cote en dessous. L'atmosphere est intime, le service personnel, et les recettes sont des secrets de famille gardes depuis des generations.",
+            "it": "A Cantina de Mananan e il motivo per cui i locali vi dicono che Corniglia vale la salita. Questa affascinante osteria da 20 posti su Via Fieschi serve quello che le nonne liguri hanno sempre fatto: pansotti con cremosa salsa di noci, testaroli al pesto, coniglio cotto con olive, e pesce fresco dalla costa sotto. L'atmosfera e intima, il servizio personale, e le ricette sono segreti di famiglia custoditi per generazioni."
+          },
+          "giuliaComment": {
+            "en": "Book ahead and bring cash—Corniglia's ATM runs dry on weekends. The pansotti here taught me what this dish should taste like. Rich walnut sauce over pillowy pasta filled with ricotta and greens. Order the rabbit if you want to taste the inland Ligurian tradition.",
+            "de": "Buchen Sie im Voraus und bringen Sie Bargeld—Cornelias Geldautomat ist an Wochenenden leer. Die Pansotti hier haben mir beigebracht, wie dieses Gericht schmecken sollte. Reichhaltige Walnusssauce ueber kissenartige Pasta gefuellt mit Ricotta und Gruenzug. Bestellen Sie das Kaninchen, wenn Sie die ligurische Hinterland-Tradition schmecken wollen.",
+            "fr": "Reservez a l'avance et apportez des especes—le distributeur de Corniglia est vide le week-end. Les pansotti ici m'ont appris ce que ce plat devrait gouter. Sauce aux noix riche sur des pates moelleuses remplies de ricotta et de verdure. Commandez le lapin si vous voulez gouter la tradition ligure de l'interieur.",
+            "it": "Prenotate in anticipo e portate contanti—il bancomat di Corniglia si svuota nei fine settimana. I pansotti qui mi hanno insegnato come dovrebbe essere questo piatto. Ricca salsa di noci su pasta soffice ripiena di ricotta e verdure. Ordinate il coniglio se volete assaggiare la tradizione ligure dell'entroterra."
+          },
+          "signature": {
+            "en": "Pansotti with walnut sauce that defines the tradition",
+            "de": "Pansotti mit Walnusssauce, die die Tradition definiert",
+            "fr": "Pansotti a la sauce aux noix qui definit la tradition",
+            "it": "Pansotti con salsa di noci che definisce la tradizione"
+          },
+          "priceRange": "$$",
+          "practicalInfo": {
+            "en": "Cash only. Book ahead. Only 20 seats. Via Fieschi 117.",
+            "de": "Nur Bargeld. Im Voraus buchen. Nur 20 Sitzplaetze. Via Fieschi 117.",
+            "fr": "Especes uniquement. Reservez a l'avance. Seulement 20 places. Via Fieschi 117.",
+            "it": "Solo contanti. Prenotate in anticipo. Solo 20 posti. Via Fieschi 117."
+          },
+          "googleRating": 4.5,
+          "tripadvisorRating": 4.4
         },
         {
           "id": 2,
-          "name": "Osteria a Mananan",
-          "category": "Elevated Ligurian",
+          "name": "Ristorante Cecio",
+          "category": {
+            "en": "Panoramic Trattoria",
+            "de": "Panorama-Trattoria",
+            "fr": "Trattoria panoramique",
+            "it": "Trattoria panoramica"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Sophisticated interpretations of regional classics in stone-walled rooms that have hosted meals for centuries.",
-          "description": "The Mananan family runs both the osteria and the cantina below. The cooking takes traditional recipes and applies careful technique—not fusion, not modern, just Ligurian food made with exceptional attention. The wine pairings draw from the cantina's deep cellar. Book the sunset terrace if you can.",
-          "giuliaComment": "This is where I bring visitors I want to impress. The setting is elegant without being stiff, the food is serious without being pretentious, and the wine knowledge is deep. They'll guide you through local varieties you've never heard of and remember your preferences if you return.",
-          "signature": "Where tradition meets refinement"
+          "intro": {
+            "en": "Four generations of the same family, a terrace with coastal views, and vegetables from their own garden.",
+            "de": "Vier Generationen derselben Familie, eine Terrasse mit Kuestenblick und Gemuese aus dem eigenen Garten.",
+            "fr": "Quatre generations de la meme famille, une terrasse avec vue sur la cote, et des legumes de leur propre jardin.",
+            "it": "Quattro generazioni della stessa famiglia, una terrazza con vista sulla costa, e verdure dal loro orto."
+          },
+          "description": {
+            "en": "Cecio sits above the village with views that would justify any meal, but the food stands on its own merit. The family has run this trattoria for four generations, growing vegetables steps from the kitchen and sourcing anchovies from Monterosso's fleet. The trofie al pesto uses basil from their garden. The hospitality feels genuine, not performed.",
+            "de": "Cecio thront ueber dem Dorf mit Aussichten, die jede Mahlzeit rechtfertigen wuerden, aber das Essen steht fuer sich selbst. Die Familie fuehrt diese Trattoria seit vier Generationen, baut Gemuese Schritte von der Kueche entfernt an und bezieht Sardellen von Monterossos Flotte. Die Trofie al Pesto verwendet Basilikum aus ihrem Garten. Die Gastfreundschaft fuehlt sich echt an, nicht gespielt.",
+            "fr": "Cecio se trouve au-dessus du village avec des vues qui justifieraient n'importe quel repas, mais la nourriture se suffit a elle-meme. La famille gere cette trattoria depuis quatre generations, cultivant des legumes a quelques pas de la cuisine et s'approvisionnant en anchois aupres de la flotte de Monterosso. Les trofie al pesto utilisent du basilic de leur jardin. L'hospitalite semble authentique, pas jouee.",
+            "it": "Cecio si trova sopra il paese con viste che giustificherebbero qualsiasi pasto, ma il cibo si sostiene da solo. La famiglia gestisce questa trattoria da quattro generazioni, coltivando verdure a pochi passi dalla cucina e procurandosi le acciughe dalla flotta di Monterosso. Le trofie al pesto usano basilico del loro orto. L'ospitalita sembra genuina, non recitata."
+          },
+          "giuliaComment": {
+            "en": "My family has eaten at Cecio for decades. The grandmother who started it made my mother's wedding cake. The grandson who runs it now went to school with my brother. This is what Cinque Terre hospitality used to mean—you know the family, they know you.",
+            "de": "Meine Familie isst seit Jahrzehnten bei Cecio. Die Grossmutter, die es gegruendet hat, hat die Hochzeitstorte meiner Mutter gemacht. Der Enkel, der es jetzt fuehrt, ging mit meinem Bruder zur Schule. Das ist, was Cinque Terre Gastfreundschaft frueher bedeutete—Sie kennen die Familie, sie kennen Sie.",
+            "fr": "Ma famille mange chez Cecio depuis des decennies. La grand-mere qui l'a fonde a fait le gateau de mariage de ma mere. Le petit-fils qui le dirige maintenant est alle a l'ecole avec mon frere. C'est ce que l'hospitalite des Cinque Terre signifiait avant—vous connaissez la famille, ils vous connaissent.",
+            "it": "La mia famiglia mangia da Cecio da decenni. La nonna che l'ha fondato ha fatto la torta nuziale di mia madre. Il nipote che lo gestisce ora andava a scuola con mio fratello. Questo e quello che l'ospitalita delle Cinque Terre significava—conoscete la famiglia, loro vi conoscono."
+          },
+          "signature": {
+            "en": "Garden-to-table in the truest sense",
+            "de": "Vom Garten auf den Tisch im wahrsten Sinne",
+            "fr": "Du jardin a la table dans le sens le plus vrai",
+            "it": "Dall'orto alla tavola nel senso piu vero"
+          },
+          "priceRange": "$$",
+          "practicalInfo": {
+            "en": "Book for the terrace view. Family atmosphere. Local wine list.",
+            "de": "Buchen Sie fuer die Terrassenaussicht. Familiaeere Atmosphaere. Lokale Weinkarte.",
+            "fr": "Reservez pour la vue sur la terrasse. Atmosphere familiale. Carte des vins locaux.",
+            "it": "Prenotate per la vista dalla terrazza. Atmosfera familiare. Carta dei vini locali."
+          },
+          "googleRating": 4.4,
+          "tripadvisorRating": 4.3
         },
         {
           "id": 3,
-          "name": "Cantina de Mananan",
-          "category": "Wine Bar & Cellar",
+          "name": "La Posada",
+          "category": {
+            "en": "Casual Dining",
+            "de": "Zwanglose Gastronomie",
+            "fr": "Restauration decontractee",
+            "it": "Ristorazione informale"
+          },
           "village": "Corniglia",
-          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Stone cellars carved into the hillside where wine tasting becomes education and small plates complement serious bottles.",
-          "description": "More than a restaurant—a tasting room where the wines of Cinque Terre reveal themselves properly. The cellar holds vintages you won't find elsewhere; the staff explains what makes each vineyard different. Small plates of local cheeses and cured meats accompany the glasses. This is where wine becomes the point.",
-          "giuliaComment": "I learned about wine here. Not from books or courses, but from sitting in the cellar while the owner explained why this terrace's grapes taste different from that one, why the weather in 2019 made such unusual wine. It's education disguised as pleasure.",
-          "signature": "Where wine tells its story"
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=2670&auto=format&fit=crop",
+          "intro": {
+            "en": "Good pizza, honest pasta, the kind of place that feeds hungry hikers without pretension.",
+            "de": "Gute Pizza, ehrliche Pasta, die Art von Ort, der hungrige Wanderer ohne Praetention fuettert.",
+            "fr": "Bonne pizza, pates honnetes, le genre d'endroit qui nourrit les randonneurs affames sans pretention.",
+            "it": "Buona pizza, pasta onesta, il tipo di posto che nutre escursionisti affamati senza pretese."
+          },
+          "description": {
+            "en": "Not every meal needs to be an experience. Sometimes you've climbed 377 steps, hiked from Vernazza, and want solid food at reasonable prices. La Posada delivers: pizza from a proper oven, pasta done correctly, cold beer and local wine. No reservations needed for lunch; dinner fills faster.",
+            "de": "Nicht jede Mahlzeit muss ein Erlebnis sein. Manchmal sind Sie 377 Stufen hochgeklettert, von Vernazza gewandert, und wollen solides Essen zu vernuenftigen Preisen. La Posada liefert: Pizza aus einem richtigen Ofen, korrekt zubereitete Pasta, kaltes Bier und lokaler Wein. Keine Reservierung noetig zum Mittagessen; das Abendessen fuellt sich schneller.",
+            "fr": "Tous les repas n'ont pas besoin d'etre une experience. Parfois vous avez grimpe 377 marches, randonne depuis Vernazza, et voulez de la nourriture solide a des prix raisonnables. La Posada livre: pizza d'un vrai four, pates bien faites, biere froide et vin local. Pas de reservations necessaires pour le dejeuner; le diner se remplit plus vite.",
+            "it": "Non tutti i pasti devono essere un'esperienza. A volte avete salito 377 gradini, camminato da Vernazza, e volete cibo solido a prezzi ragionevoli. La Posada consegna: pizza da un vero forno, pasta fatta correttamente, birra fredda e vino locale. Nessuna prenotazione necessaria per pranzo; la cena si riempie piu velocemente."
+          },
+          "giuliaComment": {
+            "en": "This is where locals eat when we don't feel like cooking but don't want a special occasion. The pizza is better than it needs to be for a village this small. The terrace catches afternoon sun. It's uncomplicated in the best way.",
+            "de": "Hier essen die Einheimischen, wenn wir keine Lust zum Kochen haben, aber keinen besonderen Anlass wollen. Die Pizza ist besser als sie fuer ein so kleines Dorf sein muesste. Die Terrasse faengt die Nachmittagssonne ein. Es ist unkompliziert auf die beste Art.",
+            "fr": "C'est ou les locaux mangent quand on n'a pas envie de cuisiner mais qu'on ne veut pas d'occasion speciale. La pizza est meilleure qu'elle n'a besoin de l'etre pour un village aussi petit. La terrasse attrape le soleil de l'apres-midi. C'est simple de la meilleure facon.",
+            "it": "E dove i locali mangiano quando non abbiamo voglia di cucinare ma non vogliamo un'occasione speciale. La pizza e migliore di quanto debba essere per un paese cosi piccolo. La terrazza cattura il sole del pomeriggio. E semplice nel modo migliore."
+          },
+          "signature": {
+            "en": "Honest fuel after an honest climb",
+            "de": "Ehrliches Essen nach einem ehrlichen Aufstieg",
+            "fr": "Carburant honnete apres une montee honnete",
+            "it": "Carburante onesto dopo una salita onesta"
+          },
+          "priceRange": "$",
+          "practicalInfo": {
+            "en": "No reservations for lunch. Good for families. Wood-fired pizza.",
+            "de": "Keine Reservierung fuer Mittagessen. Gut fuer Familien. Holzofenpizza.",
+            "fr": "Pas de reservations pour le dejeuner. Bon pour les familles. Pizza au feu de bois.",
+            "it": "Nessuna prenotazione per pranzo. Buono per famiglie. Pizza al forno a legna."
+          },
+          "googleRating": 4.2,
+          "tripadvisorRating": 4.1
         },
         {
           "id": 4,
-          "name": "La Posada",
-          "category": "Casual Dining",
+          "name": "Bar Pan e Vin",
+          "category": {
+            "en": "Wine Bar & Cafe",
+            "de": "Weinbar & Cafe",
+            "fr": "Bar a vin & Cafe",
+            "it": "Enoteca & Caffe"
+          },
           "village": "Corniglia",
-          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Good pizza, honest pasta, the kind of place that feeds hungry hikers without pretension or inflated prices.",
-          "description": "Not every meal needs to be an experience. Sometimes you've climbed 377 steps, hiked from Vernazza, and want solid food at reasonable prices. La Posada delivers: pizza from a proper oven, pasta done correctly, beer cold and wine local. No reservations needed for lunch; dinner fills faster.",
-          "giuliaComment": "This is where locals eat when we don't feel like cooking but don't want a special occasion. The pizza is better than it needs to be for a village this small. The terrace catches afternoon sun. It's uncomplicated in the best way.",
-          "signature": "Where hungry becomes satisfied"
+          "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+          "intro": {
+            "en": "A tiny wine bar in the heart of the village—three tables inside, three outside, and bruschetta worth the stop.",
+            "de": "Eine winzige Weinbar im Herzen des Dorfes—drei Tische drinnen, drei draussen, und Bruschetta, die den Stopp wert ist.",
+            "fr": "Un petit bar a vin au coeur du village—trois tables a l'interieur, trois a l'exterieur, et des bruschettas qui valent l'arret.",
+            "it": "Un piccolo wine bar nel cuore del paese—tre tavoli dentro, tre fuori, e bruschetta che vale la sosta."
+          },
+          "description": {
+            "en": "Bar Pan e Vin is a charming eatery in the heart of Corniglia, offering a cozy atmosphere whether you want breakfast, wine tasting, or a light dinner. The menu features espresso, cappuccino, fresh-squeezed juice, croissants, vegan sandwiches, and their famous bruschetta. It's the kind of place where an afternoon glass becomes evening.",
+            "de": "Bar Pan e Vin ist ein charmantes Lokal im Herzen von Corniglia, das eine gemuetliche Atmosphaere bietet, egal ob Sie fruehstuecken, Wein verkosten oder leicht zu Abend essen wollen. Die Speisekarte bietet Espresso, Cappuccino, frisch gepressten Saft, Croissants, vegane Sandwiches und ihre beruehmte Bruschetta. Es ist die Art von Ort, an dem ein Nachmittagsglas zum Abend wird.",
+            "fr": "Bar Pan e Vin est un charmant etablissement au coeur de Corniglia, offrant une atmosphere douillette que vous vouliez un petit dejeuner, une degustation de vin, ou un diner leger. Le menu propose espresso, cappuccino, jus frais presse, croissants, sandwichs vegans, et leur fameuse bruschetta. C'est le genre d'endroit ou un verre d'apres-midi devient soiree.",
+            "it": "Bar Pan e Vin e un locale affascinante nel cuore di Corniglia, che offre un'atmosfera accogliente che vogliate colazione, degustazione di vini, o una cena leggera. Il menu offre espresso, cappuccino, succo appena spremuto, croissant, panini vegani, e la loro famosa bruschetta. E il tipo di posto dove un bicchiere pomeridiano diventa sera."
+          },
+          "giuliaComment": {
+            "en": "When I want to watch the village pass by, I sit outside Pan e Vin with a glass of local white. The bruschetta is simple but perfect. The owner knows everyone. It's Corniglia's living room.",
+            "de": "Wenn ich das Dorf vorbeiziehen sehen will, sitze ich draussen bei Pan e Vin mit einem Glas lokalen Weisswein. Die Bruschetta ist einfach, aber perfekt. Der Besitzer kennt jeden. Es ist Cornelias Wohnzimmer.",
+            "fr": "Quand je veux regarder le village passer, je m'assieds dehors au Pan e Vin avec un verre de blanc local. La bruschetta est simple mais parfaite. Le proprietaire connait tout le monde. C'est le salon de Corniglia.",
+            "it": "Quando voglio guardare il paese passare, mi siedo fuori da Pan e Vin con un bicchiere di bianco locale. La bruschetta e semplice ma perfetta. Il proprietario conosce tutti. E il salotto di Corniglia."
+          },
+          "signature": {
+            "en": "The village's social center in a glass",
+            "de": "Das soziale Zentrum des Dorfes in einem Glas",
+            "fr": "Le centre social du village dans un verre",
+            "it": "Il centro sociale del paese in un bicchiere"
+          },
+          "priceRange": "$",
+          "practicalInfo": {
+            "en": "No reservations. Good for breakfast or aperitivo. Vegan options available.",
+            "de": "Keine Reservierung. Gut fuer Fruehstueck oder Aperitivo. Vegane Optionen verfuegbar.",
+            "fr": "Pas de reservations. Bon pour petit dejeuner ou aperitivo. Options veganes disponibles.",
+            "it": "Nessuna prenotazione. Buono per colazione o aperitivo. Opzioni vegane disponibili."
+          },
+          "googleRating": 4.3,
+          "tripadvisorRating": 4.2
         }
       ],
       "interludes": [
         {
-          "afterIndex": 2,
+          "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Sciacchetrà Question",
-          "quote": "Every restaurant offers Sciacchetrà, and every visitor wonders if it's worth the price. It is. This dessert wine—made from grapes dried on the terraces for months—represents centuries of knowledge in every golden sip. Order a glass with almond biscotti and understand why Romans shipped this wine across their empire."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Sciacchetra Question",
+            "de": "Die Sciacchetra-Frage",
+            "fr": "La question du Sciacchetra",
+            "it": "La questione dello Sciacchetra"
+          },
+          "quote": {
+            "en": "Every restaurant offers Sciacchetra, and every visitor wonders if it's worth the price. It is. This dessert wine—made from grapes dried on the terraces for months—represents centuries of knowledge in every golden sip. Order a glass with almond biscotti and understand why Romans shipped this wine across their empire.",
+            "de": "Jedes Restaurant bietet Sciacchetra an, und jeder Besucher fragt sich, ob er den Preis wert ist. Ja. Dieser Dessertwein—hergestellt aus Trauben, die monatelang auf den Terrassen getrocknet wurden—repraesentiert Jahrhunderte von Wissen in jedem goldenen Schluck. Bestellen Sie ein Glas mit Mandel-Biscotti und verstehen Sie, warum die Roemer diesen Wein durch ihr ganzes Reich verschickten.",
+            "fr": "Chaque restaurant propose du Sciacchetra, et chaque visiteur se demande s'il vaut le prix. Oui. Ce vin de dessert—fait de raisins seches sur les terrasses pendant des mois—represente des siecles de savoir dans chaque gorgee doree. Commandez un verre avec des biscotti aux amandes et comprenez pourquoi les Romains expediaient ce vin a travers leur empire.",
+            "it": "Ogni ristorante offre Sciacchetra, e ogni visitatore si chiede se vale il prezzo. Si. Questo vino da dessert—fatto con uve essiccate sulle terrazze per mesi—rappresenta secoli di conoscenza in ogni sorso dorato. Ordinate un bicchiere con biscotti alle mandorle e capite perche i Romani spedivano questo vino in tutto il loro impero."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Matters",
-      "quote": "Dining in Corniglia requires adjustment to the rhythms of a village that doesn't cater to tourist schedules. Kitchens open and close at traditional hours. The best tables go to those who plan ahead. Patience is rewarded.",
-      "content": [
-        "**Lunch runs 12:30-2:30pm**. Arrive at opening for the best terrace seats. The afternoon gap (3-7pm) sees most restaurants closed—plan accordingly.",
-        "**Dinner starts at 7:30pm**. Earlier seatings aren't common. Sunset tables require advance requests. Most kitchens close by 10pm.",
-        "**Reservations are essential for dinner**. Call or stop by in person during afternoon hours. Last-minute walk-ins work for lunch but rarely for dinner during high season.",
-        "**Budget €30-50 per person**. This includes wine, which you should order—drinking local wine in Corniglia isn't optional, it's participation. The house wines are often excellent."
-      ]
+      "badge": {
+        "en": "Practical Matters",
+        "de": "Praktische Angelegenheiten",
+        "fr": "Questions pratiques",
+        "it": "Questioni pratiche"
+      },
+      "quote": {
+        "en": "Dining in Corniglia requires adjustment to the rhythms of a village that doesn't cater to tourist schedules. Kitchens open and close at traditional hours. The best tables go to those who plan ahead.",
+        "de": "Essen in Corniglia erfordert Anpassung an die Rhythmen eines Dorfes, das sich nicht nach Touristenplaenen richtet. Kuechen oeffnen und schliessen zu traditionellen Zeiten. Die besten Tische gehen an diejenigen, die vorausplanen.",
+        "fr": "Manger a Corniglia necessite un ajustement aux rythmes d'un village qui ne s'adapte pas aux horaires touristiques. Les cuisines ouvrent et ferment aux heures traditionnelles. Les meilleures tables vont a ceux qui planifient.",
+        "it": "Mangiare a Corniglia richiede adattamento ai ritmi di un paese che non si adegua agli orari turistici. Le cucine aprono e chiudono agli orari tradizionali. I tavoli migliori vanno a chi pianifica in anticipo."
+      },
+      "content": {
+        "en": [
+          "**Lunch runs 12:30-2:30pm**. Arrive at opening for the best terrace seats. The afternoon gap (3-7pm) sees most restaurants closed—plan accordingly.",
+          "**Dinner starts at 7:30pm**. Earlier seatings aren't common. Sunset tables require advance requests. Most kitchens close by 10pm.",
+          "**Reservations are essential for dinner**. Call or stop by in person during afternoon hours. Last-minute walk-ins work for lunch but rarely for dinner during high season.",
+          "**Budget 30-50 euros per person**. This includes wine, which you should order—drinking local wine in Corniglia isn't optional, it's participation. The house wines are often excellent."
+        ],
+        "de": [
+          "**Mittagessen von 12:30-14:30 Uhr**. Kommen Sie zur Oeffnung fuer die besten Terrassenplaetze. In der Nachmittagspause (15-19 Uhr) sind die meisten Restaurants geschlossen—planen Sie entsprechend.",
+          "**Abendessen beginnt um 19:30 Uhr**. Fruehere Zeiten sind nicht ueblich. Sonnenuntergangstische erfordern Voranmeldung. Die meisten Kuechen schliessen um 22 Uhr.",
+          "**Reservierungen sind fuer das Abendessen unerlasslich**. Rufen Sie an oder kommen Sie nachmittags persoenlich vorbei. Spontane Besuche funktionieren zum Mittagessen, aber selten zum Abendessen in der Hochsaison.",
+          "**Rechnen Sie mit 30-50 Euro pro Person**. Das beinhaltet Wein, den Sie bestellen sollten—lokalen Wein in Corniglia zu trinken ist keine Option, es ist Teilnahme. Die Hausweine sind oft ausgezeichnet."
+        ],
+        "fr": [
+          "**Le dejeuner est de 12h30 a 14h30**. Arrivez a l'ouverture pour les meilleures places en terrasse. La pause de l'apres-midi (15h-19h) voit la plupart des restaurants fermes—planifiez en consequence.",
+          "**Le diner commence a 19h30**. Les services plus tot ne sont pas courants. Les tables au coucher du soleil necessitent des demandes a l'avance. La plupart des cuisines ferment vers 22h.",
+          "**Les reservations sont essentielles pour le diner**. Appelez ou passez en personne l'apres-midi. Les arrivees de derniere minute fonctionnent pour le dejeuner mais rarement pour le diner en haute saison.",
+          "**Prevoyez 30-50 euros par personne**. Cela inclut le vin, que vous devriez commander—boire du vin local a Corniglia n'est pas optionnel, c'est participer. Les vins de la maison sont souvent excellents."
+        ],
+        "it": [
+          "**Il pranzo va dalle 12:30 alle 14:30**. Arrivate all'apertura per i migliori posti in terrazza. La pausa pomeridiana (15-19) vede la maggior parte dei ristoranti chiusi—pianificate di conseguenza.",
+          "**La cena inizia alle 19:30**. Servizi anticipati non sono comuni. I tavoli al tramonto richiedono richieste in anticipo. La maggior parte delle cucine chiude alle 22.",
+          "**Le prenotazioni sono essenziali per la cena**. Chiamate o passate di persona nel pomeriggio. Gli arrivi dell'ultimo minuto funzionano per pranzo ma raramente per cena in alta stagione.",
+          "**Prevedete 30-50 euro a persona**. Questo include il vino, che dovreste ordinare—bere vino locale a Corniglia non e opzionale, e partecipazione. I vini della casa sono spesso eccellenti."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -115,47 +350,162 @@
         {
           "id": 5,
           "name": "Bar Matteo",
-          "category": "Morning Coffee",
+          "category": {
+            "en": "Morning Coffee",
+            "de": "Morgenkaffee",
+            "fr": "Cafe du matin",
+            "it": "Caffe del mattino"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The morning gathering spot where locals start their day—espresso at the bar, brief conversations, the ritual that makes the village function.",
-          "description": "This isn't a café designed for tourists lingering over laptops. It's a bar in the Italian sense: stand at the counter, drink your espresso in three sips, exchange words with whoever's beside you. The pastries are fresh, the coffee is strong, and the ritual is ancient.",
-          "giuliaComment": "I know who's in the village by who's at Matteo's in the morning. It's information central, the place where news travels. If something happened overnight, you'll hear about it here before anywhere else.",
-          "signature": "Where mornings begin"
+          "intro": {
+            "en": "The morning gathering spot where locals start their day—espresso at the bar, brief conversations, the ritual that makes the village function.",
+            "de": "Der morgendliche Treffpunkt, an dem Einheimische ihren Tag beginnen—Espresso an der Bar, kurze Gespraeche, das Ritual, das das Dorf funktionieren laesst.",
+            "fr": "Le lieu de rassemblement matinal ou les locaux commencent leur journee—espresso au bar, breves conversations, le rituel qui fait fonctionner le village.",
+            "it": "Il punto di ritrovo mattutino dove i locali iniziano la giornata—espresso al bar, brevi conversazioni, il rituale che fa funzionare il paese."
+          },
+          "description": {
+            "en": "This isn't a cafe designed for tourists lingering over laptops. It's a bar in the Italian sense: stand at the counter, drink your espresso in three sips, exchange words with whoever's beside you. The pastries are fresh, the coffee is strong, and the ritual is ancient.",
+            "de": "Das ist kein Cafe fuer Touristen, die ueber Laptops verweilen. Es ist eine Bar im italienischen Sinne: Stehen Sie an der Theke, trinken Sie Ihren Espresso in drei Schlucken, tauschen Sie Worte mit wem auch immer neben Ihnen steht. Die Gebaeckstuecke sind frisch, der Kaffee ist stark, und das Ritual ist uralt.",
+            "fr": "Ce n'est pas un cafe concu pour les touristes qui s'attardent sur leurs ordinateurs portables. C'est un bar au sens italien: tenez-vous au comptoir, buvez votre espresso en trois gorgees, echangez quelques mots avec celui qui est a cote de vous. Les patisseries sont fraiches, le cafe est fort, et le rituel est ancien.",
+            "it": "Questo non e un caffe progettato per turisti che indugiano sui portatili. E un bar nel senso italiano: state al bancone, bevete il vostro espresso in tre sorsi, scambiate parole con chiunque sia accanto a voi. Le paste sono fresche, il caffe e forte, e il rituale e antico."
+          },
+          "giuliaComment": {
+            "en": "I know who's in the village by who's at Matteo's in the morning. It's information central, the place where news travels. If something happened overnight, you'll hear about it here before anywhere else.",
+            "de": "Ich weiss, wer im Dorf ist, indem ich sehe, wer morgens bei Matteo ist. Es ist die Informationszentrale, der Ort, an dem Neuigkeiten reisen. Wenn ueber Nacht etwas passiert ist, hoeren Sie es hier zuerst.",
+            "fr": "Je sais qui est au village en voyant qui est chez Matteo le matin. C'est le centre d'information, l'endroit ou les nouvelles circulent. S'il s'est passe quelque chose pendant la nuit, vous l'entendrez ici avant partout ailleurs.",
+            "it": "So chi c'e in paese da chi c'e da Matteo la mattina. E il centro informazioni, il posto dove viaggiano le notizie. Se e successo qualcosa durante la notte, lo sentirete qui prima che altrove."
+          },
+          "signature": {
+            "en": "Where mornings begin",
+            "de": "Wo Morgen beginnen",
+            "fr": "Ou les matins commencent",
+            "it": "Dove iniziano le mattine"
+          }
         },
         {
           "id": 6,
           "name": "Alberto Gelateria",
-          "category": "Gelato",
+          "category": {
+            "en": "Gelato",
+            "de": "Gelato",
+            "fr": "Gelato",
+            "it": "Gelateria"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The gelato here has earned regional fame—creative flavors that reflect the terraces and the sea.",
-          "description": "Alberto makes gelato the way it should be made: small batches, real ingredients, flavors that taste like what they claim to be. The local favorites include limoncino (local lemons), Sciacchetrà (the dessert wine), and fior di latte (pure milk). The line justifies itself.",
-          "giuliaComment": "We're unreasonably proud of Alberto's gelato. When friends visit from other villages, we make them try it—it's become a point of local pride. The Sciacchetrà flavor captures the wine perfectly, which sounds impossible until you taste it.",
-          "signature": "Where sweetness rewards the climb"
+          "intro": {
+            "en": "The gelato that has earned regional fame—creative flavors that reflect the terraces and the sea.",
+            "de": "Das Gelato, das regionalen Ruhm erlangt hat—kreative Geschmacksrichtungen, die die Terrassen und das Meer widerspiegeln.",
+            "fr": "Le gelato qui a acquis une renommee regionale—des saveurs creatives qui refletent les terrasses et la mer.",
+            "it": "Il gelato che ha guadagnato fama regionale—gusti creativi che riflettono le terrazze e il mare."
+          },
+          "description": {
+            "en": "Alberto makes gelato the way it should be made: small batches, real ingredients, flavors that taste like what they claim to be. The local favorites include limoncino (local lemons), Sciacchetra (the dessert wine), and fior di latte (pure milk). The line justifies itself.",
+            "de": "Alberto macht Gelato so, wie es gemacht werden sollte: kleine Chargen, echte Zutaten, Geschmacksrichtungen, die schmecken wie das, was sie behaupten zu sein. Lokale Favoriten sind Limoncino (lokale Zitronen), Sciacchetra (der Dessertwein) und Fior di Latte (reine Milch). Die Schlange rechtfertigt sich selbst.",
+            "fr": "Alberto fait le gelato comme il devrait etre fait: petits lots, vrais ingredients, saveurs qui ont le gout de ce qu'elles pretendent etre. Les favoris locaux incluent le limoncino (citrons locaux), le Sciacchetra (le vin de dessert), et le fior di latte (lait pur). La file se justifie d'elle-meme.",
+            "it": "Alberto fa il gelato come dovrebbe essere fatto: piccoli lotti, ingredienti veri, gusti che sanno di quello che dicono di essere. I preferiti locali includono limoncino (limoni locali), Sciacchetra (il vino da dessert), e fior di latte (latte puro). La coda si giustifica da sola."
+          },
+          "giuliaComment": {
+            "en": "We're unreasonably proud of Alberto's gelato. When friends visit from other villages, we make them try it—it's become a point of local pride. The Sciacchetra flavor captures the wine perfectly, which sounds impossible until you taste it.",
+            "de": "Wir sind unvernuenftig stolz auf Albertos Gelato. Wenn Freunde aus anderen Doerfern zu Besuch kommen, lassen wir sie es probieren—es ist ein Punkt des lokalen Stolzes geworden. Der Sciacchetra-Geschmack erfasst den Wein perfekt, was unmoegich klingt, bis man es probiert.",
+            "fr": "Nous sommes deraisonnablement fiers du gelato d'Alberto. Quand des amis viennent d'autres villages, nous leur faisons gouter—c'est devenu un point de fierte locale. La saveur Sciacchetra capture le vin parfaitement, ce qui semble impossible jusqu'a ce que vous le goutiez.",
+            "it": "Siamo irragionevolmente orgogliosi del gelato di Alberto. Quando gli amici vengono da altri paesi, glielo facciamo provare—e diventato un punto di orgoglio locale. Il gusto Sciacchetra cattura il vino perfettamente, il che sembra impossibile finche non lo assaggiate."
+          },
+          "signature": {
+            "en": "Where sweetness rewards the climb",
+            "de": "Wo Suesse den Aufstieg belohnt",
+            "fr": "Ou la douceur recompense la montee",
+            "it": "Dove la dolcezza ricompensa la salita"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Evening Aperitivo",
-          "quote": "The hour before dinner is sacred. Find a terrace, order a spritz or a glass of local white, watch the light change over the sea. This isn't killing time; it's the point. The meal comes later. Right now, the aperitivo is enough."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Evening Aperitivo",
+            "de": "Der Abend-Aperitivo",
+            "fr": "L'aperitivo du soir",
+            "it": "L'aperitivo serale"
+          },
+          "quote": {
+            "en": "The hour before dinner is sacred. Find a terrace, order a spritz or a glass of local white, watch the light change over the sea. This isn't killing time; it's the point. The meal comes later. Right now, the aperitivo is enough.",
+            "de": "Die Stunde vor dem Abendessen ist heilig. Finden Sie eine Terrasse, bestellen Sie einen Spritz oder ein Glas lokalen Weisswein, beobachten Sie, wie sich das Licht ueber dem Meer veraendert. Das ist kein Zeitvertreib; es ist der Sinn. Das Essen kommt spaeter. Im Moment reicht der Aperitivo.",
+            "fr": "L'heure avant le diner est sacree. Trouvez une terrasse, commandez un spritz ou un verre de blanc local, regardez la lumiere changer sur la mer. Ce n'est pas tuer le temps; c'est l'essentiel. Le repas vient plus tard. Pour l'instant, l'aperitivo suffit.",
+            "it": "L'ora prima di cena e sacra. Trovate una terrazza, ordinate uno spritz o un bicchiere di bianco locale, guardate la luce cambiare sul mare. Questo non e ammazzare il tempo; e il punto. Il pasto viene dopo. Per ora, l'aperitivo e abbastanza."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Dining at Elevation",
-      "content": [
-        "Corniglia's restaurants don't compete with the harbor-side dining of other villages. They offer something different: meals where the elevation creates distance from the tourist rush, where the terraces outside grow what appears on your plate, where the families cooking have been doing so for generations.",
-        "The climb is part of the meal. The 377 steps build appetite. The view from the terrace rewards the effort. The wine tastes better when you can see where it grew.",
-        "Reserve ahead. Arrive hungry. Order the local wine. Let the meal unfold at Corniglia's pace, which is slower than you're used to, and better for it."
-      ],
+      "title": {
+        "en": "Dining at Elevation",
+        "de": "Essen in der Hoehe",
+        "fr": "Manger en altitude",
+        "it": "Mangiare in quota"
+      },
+      "content": {
+        "en": [
+          "Corniglia's restaurants don't compete with the harbor-side dining of other villages. They offer something different: meals where the elevation creates distance from the tourist rush, where the terraces outside grow what appears on your plate, where the families cooking have been doing so for generations.",
+          "The climb is part of the meal. The 377 steps build appetite. The view from the terrace rewards the effort. The wine tastes better when you can see where it grew.",
+          "Reserve ahead. Arrive hungry. Order the local wine. Let the meal unfold at Corniglia's pace, which is slower than you're used to, and better for it."
+        ],
+        "de": [
+          "Cornelias Restaurants konkurrieren nicht mit dem Hafenessen anderer Doerfer. Sie bieten etwas anderes: Mahlzeiten, bei denen die Hoehe Abstand vom Touristenansturm schafft, wo die Terrassen draussen das anbauen, was auf Ihrem Teller erscheint, wo die Familien, die kochen, dies seit Generationen tun.",
+          "Der Aufstieg ist Teil der Mahlzeit. Die 377 Stufen bauen Appetit auf. Die Aussicht von der Terrasse belohnt die Anstrengung. Der Wein schmeckt besser, wenn man sehen kann, wo er gewachsen ist.",
+          "Reservieren Sie im Voraus. Kommen Sie hungrig an. Bestellen Sie den lokalen Wein. Lassen Sie die Mahlzeit sich in Cornelias Tempo entfalten, das langsamer ist als Sie gewohnt sind, und besser dafuer."
+        ],
+        "fr": [
+          "Les restaurants de Corniglia ne rivalisent pas avec les restaurants au bord du port des autres villages. Ils offrent quelque chose de different: des repas ou l'altitude cree une distance avec la ruee touristique, ou les terrasses a l'exterieur cultivent ce qui apparait dans votre assiette, ou les familles qui cuisinent le font depuis des generations.",
+          "La montee fait partie du repas. Les 377 marches construisent l'appetit. La vue depuis la terrasse recompense l'effort. Le vin a meilleur gout quand on peut voir ou il a pousse.",
+          "Reservez a l'avance. Arrivez affame. Commandez le vin local. Laissez le repas se derouler au rythme de Corniglia, qui est plus lent que ce a quoi vous etes habitue, et meilleur pour cela."
+        ],
+        "it": [
+          "I ristoranti di Corniglia non competono con la ristorazione portuale degli altri paesi. Offrono qualcosa di diverso: pasti dove l'altitudine crea distanza dalla frenesia turistica, dove le terrazze fuori coltivano quello che appare nel vostro piatto, dove le famiglie che cucinano lo fanno da generazioni.",
+          "La salita fa parte del pasto. I 377 gradini costruiscono l'appetito. La vista dalla terrazza ricompensa lo sforzo. Il vino ha un sapore migliore quando potete vedere dove e cresciuto.",
+          "Prenotate in anticipo. Arrivate affamati. Ordinate il vino locale. Lasciate che il pasto si svolga al ritmo di Corniglia, che e piu lento di quello a cui siete abituati, e migliore per questo."
+        ]
+      },
       "buttons": [
-        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "primary" },
-        { "text": "Where to Stay", "url": "/en/corniglia/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Village Overview",
+            "de": "Dorfuebersicht",
+            "fr": "Apercu du village",
+            "it": "Panoramica del paese"
+          },
+          "url": {
+            "en": "/en/corniglia/overview",
+            "de": "/de/corniglia/overview",
+            "fr": "/fr/corniglia/overview",
+            "it": "/it/corniglia/overview"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Unterkunft",
+            "fr": "Ou dormir",
+            "it": "Dove dormire"
+          },
+          "url": {
+            "en": "/en/corniglia/hotels",
+            "de": "/de/corniglia/hotels",
+            "fr": "/fr/corniglia/hotels",
+            "it": "/it/corniglia/hotels"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -165,5 +515,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T19:00:00.000Z"
+  "updated_at": "2026-01-07T20:00:00.000Z"
 }

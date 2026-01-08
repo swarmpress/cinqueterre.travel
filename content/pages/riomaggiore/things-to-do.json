@@ -7,36 +7,90 @@
     "it": "/it/riomaggiore/things-to-do"
   },
   "title": {
-    "en": "What to Do in Riomaggiore | Cinque Terre Dispatch"
+    "en": "What to Do in Riomaggiore | Cinque Terre Dispatch",
+    "de": "Aktivitäten in Riomaggiore | Cinque Terre Magazin",
+    "fr": "Que faire à Riomaggiore | Cinque Terre Magazine",
+    "it": "Cosa fare a Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "things-to-do",
   "seo": {
     "title": {
-      "en": "What to Do in Riomaggiore | Cinque Terre Dispatch"
+      "en": "What to Do in Riomaggiore | Cinque Terre Dispatch",
+      "de": "Aktivitäten in Riomaggiore | Cinque Terre Magazin",
+      "fr": "Que faire à Riomaggiore | Cinque Terre Magazine",
+      "it": "Cosa fare a Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The question is not what to do in Riomaggiore—it's what to let go of. The village offers more than any itinerary can hold. The art is choosing what matters to you."
+      "en": "The question is not what to do in Riomaggiore—it's what to let go of. The village offers more than any itinerary can hold. The art is choosing what matters to you.",
+      "de": "Die Frage ist nicht, was man in Riomaggiore tun soll – sondern was man loslassen kann. Das Dorf bietet mehr, als jeder Reiseplan fassen kann. Die Kunst liegt darin, das zu wählen, was Ihnen wichtig ist.",
+      "fr": "La question n'est pas ce qu'il y a à faire à Riomaggiore, mais ce à quoi renoncer. Le village offre plus qu'aucun itinéraire ne peut contenir. L'art consiste à choisir ce qui compte pour vous.",
+      "it": "La domanda non è cosa fare a Riomaggiore, ma cosa lasciar perdere. Il borgo offre più di quanto qualsiasi itinerario possa contenere. L'arte sta nello scegliere ciò che conta per te."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Art of<br/>Being Here",
-      "subtitle": "Riomaggiore does not need your activities. It offers presence—the chance to exist in a place where eight centuries of human effort have shaped every wall, every terrace, every path. The doing follows naturally.",
-      "badge": "Things to Do",
+      "title": {
+        "en": "The Art of<br/>Being Here",
+        "de": "Die Kunst des<br/>Hierseins",
+        "fr": "L'Art d'<br/>Être Ici",
+        "it": "L'Arte di<br/>Essere Qui"
+      },
+      "subtitle": {
+        "en": "Riomaggiore does not need your activities. It offers presence—the chance to exist in a place where eight centuries of human effort have shaped every wall, every terrace, every path. The doing follows naturally.",
+        "de": "Riomaggiore braucht Ihre Aktivitäten nicht. Es bietet Präsenz – die Chance, an einem Ort zu existieren, wo acht Jahrhunderte menschlicher Arbeit jede Mauer, jede Terrasse, jeden Pfad geformt haben. Das Tun folgt von selbst.",
+        "fr": "Riomaggiore n'a pas besoin de vos activités. Il offre la présence – la chance d'exister dans un lieu où huit siècles d'efforts humains ont façonné chaque mur, chaque terrasse, chaque sentier. L'action suit naturellement.",
+        "it": "Riomaggiore non ha bisogno delle tue attività. Offre presenza – la possibilità di esistere in un luogo dove otto secoli di lavoro umano hanno plasmato ogni muro, ogni terrazza, ogni sentiero. Il fare viene da sé."
+      },
+      "badge": {
+        "en": "Things to Do",
+        "de": "Aktivitäten",
+        "fr": "À Faire",
+        "it": "Cosa Fare"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "Philosophy of Experience",
-      "quote": "The visitors who leave Riomaggiore most satisfied are rarely the ones who checked the most boxes. They are the ones who sat in the same piazza twice, returned to the harbor when the light changed, let the village reveal itself on its own terms.",
-      "content": [
-        "There is a **rhythm here** that resists rushing. The fishermen work at dawn, the village naps at noon, the aperitivo hour stretches until dinner becomes possible. Fighting this rhythm is exhausting. Following it is freedom.",
-        "**Not everything requires a destination**. Walking the main street without purpose, sitting on harbor rocks watching the water, standing in the church while your eyes adjust to darkness—these are not breaks between activities. They are the activities.",
-        "The **best experiences are free**: sunrise from the castle viewpoint, swimming in the harbor, wandering the terraces as evening approaches. The paid experiences—meals, tastings, tours—are punctuation, not the sentence.",
-        "**Seasons change everything**. Summer offers swimming and crowds. Spring brings wildflowers and hiking weather. Autumn means grape harvest and wine festivals. Winter reveals a village that belongs to itself again."
-      ]
+      "badge": {
+        "en": "Philosophy of Experience",
+        "de": "Philosophie des Erlebens",
+        "fr": "Philosophie de l'Expérience",
+        "it": "Filosofia dell'Esperienza"
+      },
+      "quote": {
+        "en": "The visitors who leave Riomaggiore most satisfied are rarely the ones who checked the most boxes. They are the ones who sat in the same piazza twice, returned to the harbor when the light changed, let the village reveal itself on its own terms.",
+        "de": "Die Besucher, die Riomaggiore am zufriedensten verlassen, sind selten diejenigen, die die meisten Punkte abgehakt haben. Es sind jene, die zweimal auf derselben Piazza saßen, zum Hafen zurückkehrten, als sich das Licht änderte, und das Dorf sich in seinem eigenen Tempo offenbaren ließen.",
+        "fr": "Les visiteurs qui quittent Riomaggiore les plus satisfaits sont rarement ceux qui ont coché le plus de cases. Ce sont ceux qui se sont assis deux fois sur la même place, sont retournés au port quand la lumière a changé, ont laissé le village se révéler à son rythme.",
+        "it": "I visitatori che lasciano Riomaggiore più soddisfatti raramente sono quelli che hanno spuntato più voci. Sono quelli che si sono seduti due volte nella stessa piazza, sono tornati al porto quando la luce è cambiata, hanno lasciato che il borgo si rivelasse secondo i propri tempi."
+      },
+      "content": {
+        "en": [
+          "There is a **rhythm here** that resists rushing. The fishermen work at dawn, the village naps at noon, the aperitivo hour stretches until dinner becomes possible. Fighting this rhythm is exhausting. Following it is freedom.",
+          "**Not everything requires a destination**. Walking the main street without purpose, sitting on harbor rocks watching the water, standing in the church while your eyes adjust to darkness—these are not breaks between activities. They are the activities.",
+          "The **best experiences are free**: sunrise from the castle viewpoint, swimming in the harbor, wandering the terraces as evening approaches. The paid experiences—meals, tastings, tours—are punctuation, not the sentence.",
+          "**Seasons change everything**. Summer offers swimming and crowds. Spring brings wildflowers and hiking weather. Autumn means grape harvest and wine festivals. Winter reveals a village that belongs to itself again."
+        ],
+        "de": [
+          "Es gibt hier einen **Rhythmus**, der sich gegen Eile sträubt. Die Fischer arbeiten im Morgengrauen, das Dorf macht mittags Siesta, die Aperitivo-Stunde dehnt sich aus, bis das Abendessen möglich wird. Gegen diesen Rhythmus anzukämpfen ist erschöpfend. Ihm zu folgen ist Freiheit.",
+          "**Nicht alles braucht ein Ziel**. Die Hauptstraße ohne Zweck entlangzugehen, auf den Hafenfelsen zu sitzen und das Wasser zu beobachten, in der Kirche zu stehen, während sich die Augen an die Dunkelheit gewöhnen – das sind keine Pausen zwischen Aktivitäten. Sie sind die Aktivitäten.",
+          "Die **besten Erlebnisse sind kostenlos**: Sonnenaufgang vom Aussichtspunkt der Burg, Schwimmen im Hafen, durch die Terrassen wandern, wenn der Abend naht. Die kostenpflichtigen Erlebnisse – Mahlzeiten, Verkostungen, Touren – sind Satzzeichen, nicht der Satz.",
+          "**Die Jahreszeiten verändern alles**. Der Sommer bietet Schwimmen und Menschenmengen. Der Frühling bringt Wildblumen und Wanderwetter. Der Herbst bedeutet Weinlese und Weinfeste. Der Winter enthüllt ein Dorf, das wieder sich selbst gehört."
+        ],
+        "fr": [
+          "Il y a ici un **rythme** qui résiste à la précipitation. Les pêcheurs travaillent à l'aube, le village fait la sieste à midi, l'heure de l'apéritif s'étire jusqu'à ce que le dîner devienne possible. Lutter contre ce rythme est épuisant. Le suivre est liberté.",
+          "**Tout ne nécessite pas une destination**. Marcher dans la rue principale sans but, s'asseoir sur les rochers du port en regardant l'eau, se tenir dans l'église pendant que vos yeux s'habituent à l'obscurité – ce ne sont pas des pauses entre les activités. Ce sont les activités.",
+          "Les **meilleures expériences sont gratuites** : le lever du soleil depuis le point de vue du château, la baignade dans le port, la promenade dans les terrasses à l'approche du soir. Les expériences payantes – repas, dégustations, visites – sont la ponctuation, pas la phrase.",
+          "**Les saisons changent tout**. L'été offre baignade et foules. Le printemps apporte fleurs sauvages et temps de randonnée. L'automne signifie vendanges et fêtes du vin. L'hiver révèle un village qui s'appartient à nouveau."
+        ],
+        "it": [
+          "C'è un **ritmo qui** che resiste alla fretta. I pescatori lavorano all'alba, il borgo fa la siesta a mezzogiorno, l'ora dell'aperitivo si allunga finché la cena diventa possibile. Combattere questo ritmo è estenuante. Seguirlo è libertà.",
+          "**Non tutto richiede una destinazione**. Camminare per la via principale senza scopo, sedersi sugli scogli del porto guardando l'acqua, stare in chiesa mentre gli occhi si abituano al buio – queste non sono pause tra le attività. Sono le attività.",
+          "Le **migliori esperienze sono gratuite**: l'alba dal punto panoramico del castello, nuotare nel porto, vagare per le terrazze mentre la sera si avvicina. Le esperienze a pagamento – pasti, degustazioni, tour – sono la punteggiatura, non la frase.",
+          "**Le stagioni cambiano tutto**. L'estate offre nuotate e folla. La primavera porta fiori selvatici e tempo da escursione. L'autunno significa vendemmia e sagre del vino. L'inverno rivela un borgo che torna ad appartenere a se stesso."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,61 +98,211 @@
       "items": [
         {
           "id": 1,
-          "name": "Walk the Via dell'Amore",
-          "category": "Iconic Experience",
+          "name": {
+            "en": "Walk the Via dell'Amore",
+            "de": "Die Via dell'Amore wandern",
+            "fr": "Parcourir la Via dell'Amore",
+            "it": "Percorrere la Via dell'Amore"
+          },
+          "category": {
+            "en": "Iconic Experience",
+            "de": "Legendäres Erlebnis",
+            "fr": "Expérience Emblématique",
+            "it": "Esperienza Iconica"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The path that made Cinque Terre famous—carved into cliffs, suspended over the sea.",
-          "description": "The Via dell'Amore connects Riomaggiore to Manarola along a cliff-hugging path that offers constant Mediterranean views. It's easy, paved, and accessible to most fitness levels. When open, it's the essential walk.",
-          "giuliaComment": "Check if it's open before planning around it—closures are common. But when it's accessible, walk it at sunset. The light on the water is extraordinary.",
-          "signature": "The walk that put this coast on the map",
-          "practicalInfo": "Check current status. 20 minutes when open. Cinque Terre Card required. Best at sunset."
+          "intro": {
+            "en": "The path that made Cinque Terre famous—carved into cliffs, suspended over the sea.",
+            "de": "Der Weg, der die Cinque Terre berühmt machte – in Klippen gehauen, über dem Meer schwebend.",
+            "fr": "Le sentier qui a rendu les Cinque Terre célèbres – taillé dans les falaises, suspendu au-dessus de la mer.",
+            "it": "Il sentiero che ha reso famose le Cinque Terre – scavato nelle scogliere, sospeso sul mare."
+          },
+          "description": {
+            "en": "The Via dell'Amore connects Riomaggiore to Manarola along a cliff-hugging path that offers constant Mediterranean views. It's easy, paved, and accessible to most fitness levels. When open, it's the essential walk.",
+            "de": "Die Via dell'Amore verbindet Riomaggiore mit Manarola entlang eines Weges, der sich an die Klippen schmiegt und ständig Mittelmeerblicke bietet. Er ist einfach, gepflastert und für die meisten Fitnesslevel zugänglich. Wenn er geöffnet ist, ist er der unverzichtbare Spaziergang.",
+            "fr": "La Via dell'Amore relie Riomaggiore à Manarola le long d'un sentier accroché aux falaises qui offre des vues constantes sur la Méditerranée. C'est facile, pavé et accessible à la plupart des niveaux de forme physique. Quand il est ouvert, c'est la promenade essentielle.",
+            "it": "La Via dell'Amore collega Riomaggiore a Manarola lungo un sentiero aggrappato alle scogliere che offre viste costanti sul Mediterraneo. È facile, lastricato e accessibile alla maggior parte dei livelli di forma fisica. Quando è aperta, è la passeggiata essenziale."
+          },
+          "giuliaComment": {
+            "en": "Check if it's open before planning around it—closures are common. But when it's accessible, walk it at sunset. The light on the water is extraordinary.",
+            "de": "Prüfen Sie, ob er geöffnet ist, bevor Sie Ihren Plan darauf aufbauen – Schließungen sind häufig. Aber wenn er zugänglich ist, gehen Sie ihn bei Sonnenuntergang. Das Licht auf dem Wasser ist außergewöhnlich.",
+            "fr": "Vérifiez s'il est ouvert avant de planifier autour – les fermetures sont fréquentes. Mais quand il est accessible, parcourez-le au coucher du soleil. La lumière sur l'eau est extraordinaire.",
+            "it": "Verificate se è aperta prima di pianificare intorno ad essa – le chiusure sono frequenti. Ma quando è accessibile, percorretela al tramonto. La luce sull'acqua è straordinaria."
+          },
+          "signature": {
+            "en": "The walk that put this coast on the map",
+            "de": "Der Spaziergang, der diese Küste berühmt machte",
+            "fr": "La promenade qui a mis cette côte sur la carte",
+            "it": "La passeggiata che ha reso famosa questa costa"
+          },
+          "practicalInfo": {
+            "en": "Check current status. 20 minutes when open. Cinque Terre Card required. Best at sunset.",
+            "de": "Aktuellen Status prüfen. 20 Minuten wenn geöffnet. Cinque Terre Card erforderlich. Am besten bei Sonnenuntergang.",
+            "fr": "Vérifiez le statut actuel. 20 minutes quand ouvert. Carte Cinque Terre requise. Idéal au coucher du soleil.",
+            "it": "Verificare lo stato attuale. 20 minuti quando aperta. Cinque Terre Card necessaria. Ideale al tramonto."
+          }
         },
         {
           "id": 2,
-          "name": "Swim in the Harbor",
-          "category": "Essential Experience",
+          "name": {
+            "en": "Swim in the Harbor",
+            "de": "Im Hafen schwimmen",
+            "fr": "Se baigner dans le port",
+            "it": "Nuotare nel porto"
+          },
+          "category": {
+            "en": "Essential Experience",
+            "de": "Unverzichtbares Erlebnis",
+            "fr": "Expérience Essentielle",
+            "it": "Esperienza Essenziale"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Where the village meets the sea—no sand, just rocks, ladders, and crystal water.",
-          "description": "The small harbor offers the village's primary swimming access: rocky platforms, metal ladders, and water clear enough to see the bottom. This is how Riomaggiore has always swum—direct entry into the Mediterranean from sun-warmed stone.",
-          "giuliaComment": "Bring water shoes. The rocks are unforgiving. But the swimming is extraordinary—the water temperature, the clarity, the feeling of entering the sea where generations have entered before you.",
-          "signature": "Swimming the way the village has always swum",
-          "practicalInfo": "Free access. Water shoes recommended. Best in morning or late afternoon. No lifeguards."
+          "intro": {
+            "en": "Where the village meets the sea—no sand, just rocks, ladders, and crystal water.",
+            "de": "Wo das Dorf auf das Meer trifft – kein Sand, nur Felsen, Leitern und kristallklares Wasser.",
+            "fr": "Là où le village rencontre la mer – pas de sable, juste des rochers, des échelles et une eau cristalline.",
+            "it": "Dove il borgo incontra il mare – niente sabbia, solo scogli, scalette e acqua cristallina."
+          },
+          "description": {
+            "en": "The small harbor offers the village's primary swimming access: rocky platforms, metal ladders, and water clear enough to see the bottom. This is how Riomaggiore has always swum—direct entry into the Mediterranean from sun-warmed stone.",
+            "de": "Der kleine Hafen bietet den Hauptzugang zum Schwimmen im Dorf: Felsplattformen, Metallleitern und Wasser, das klar genug ist, um den Grund zu sehen. So hat Riomaggiore schon immer gebadet – direkter Einstieg ins Mittelmeer von sonnengewärmtem Stein.",
+            "fr": "Le petit port offre l'accès principal à la baignade du village : plateformes rocheuses, échelles métalliques et eau assez claire pour voir le fond. C'est ainsi que Riomaggiore s'est toujours baigné – entrée directe dans la Méditerranée depuis la pierre chauffée par le soleil.",
+            "it": "Il piccolo porto offre l'accesso principale alla balneazione del borgo: piattaforme rocciose, scalette metalliche e acqua abbastanza limpida da vedere il fondo. Così Riomaggiore ha sempre nuotato – ingresso diretto nel Mediterraneo dalla pietra scaldata dal sole."
+          },
+          "giuliaComment": {
+            "en": "Bring water shoes. The rocks are unforgiving. But the swimming is extraordinary—the water temperature, the clarity, the feeling of entering the sea where generations have entered before you.",
+            "de": "Bringen Sie Wasserschuhe mit. Die Felsen sind unbarmherzig. Aber das Schwimmen ist außergewöhnlich – die Wassertemperatur, die Klarheit, das Gefühl, dort ins Meer zu gehen, wo Generationen vor Ihnen eingetaucht sind.",
+            "fr": "Apportez des chaussures d'eau. Les rochers sont impitoyables. Mais la baignade est extraordinaire – la température de l'eau, la clarté, le sentiment d'entrer dans la mer où des générations sont entrées avant vous.",
+            "it": "Portate scarpe da scoglio. Gli scogli sono spietati. Ma nuotare è straordinario – la temperatura dell'acqua, la limpidezza, la sensazione di entrare nel mare dove generazioni sono entrate prima di voi."
+          },
+          "signature": {
+            "en": "Swimming the way the village has always swum",
+            "de": "Schwimmen, wie das Dorf schon immer geschwommen ist",
+            "fr": "Nager comme le village l'a toujours fait",
+            "it": "Nuotare come il borgo ha sempre nuotato"
+          },
+          "practicalInfo": {
+            "en": "Free access. Water shoes recommended. Best in morning or late afternoon. No lifeguards.",
+            "de": "Freier Zugang. Wasserschuhe empfohlen. Am besten morgens oder am späten Nachmittag. Keine Rettungsschwimmer.",
+            "fr": "Accès libre. Chaussures d'eau recommandées. Idéal le matin ou en fin d'après-midi. Pas de sauveteurs.",
+            "it": "Accesso libero. Scarpe da scoglio consigliate. Ideale al mattino o nel tardo pomeriggio. Nessun bagnino."
+          }
         },
         {
           "id": 3,
-          "name": "Watch Sunset from the Castle",
-          "category": "Daily Ritual",
+          "name": {
+            "en": "Watch Sunset from the Castle",
+            "de": "Sonnenuntergang von der Burg",
+            "fr": "Admirer le coucher de soleil depuis le château",
+            "it": "Ammirare il tramonto dal castello"
+          },
+          "category": {
+            "en": "Daily Ritual",
+            "de": "Tägliches Ritual",
+            "fr": "Rituel Quotidien",
+            "it": "Rituale Quotidiano"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The viewpoint that makes the climb worthwhile—where the whole village spreads below and the sun drops toward the horizon.",
-          "description": "The medieval castle above the village offers the best sunset viewpoint in Riomaggiore. The climb takes 10-15 minutes up steep stairs, but the reward is a panorama that encompasses the harbor, the terraces, and the western horizon.",
-          "giuliaComment": "This is my daily ritual when I'm in the village. The sunset is never the same twice. The company changes—tourists, locals, photographers—but the view remains extraordinary.",
-          "signature": "Where the day ends and the memory begins",
-          "practicalInfo": "Free access. 10-15 minute climb. Bring water. Arrive 30 minutes before sunset for good spots."
+          "intro": {
+            "en": "The viewpoint that makes the climb worthwhile—where the whole village spreads below and the sun drops toward the horizon.",
+            "de": "Der Aussichtspunkt, der den Aufstieg lohnenswert macht – wo sich das ganze Dorf unten ausbreitet und die Sonne zum Horizont sinkt.",
+            "fr": "Le point de vue qui vaut la montée – où tout le village s'étend en contrebas et le soleil descend vers l'horizon.",
+            "it": "Il punto panoramico che rende la salita degna – dove tutto il borgo si estende sotto e il sole scende verso l'orizzonte."
+          },
+          "description": {
+            "en": "The medieval castle above the village offers the best sunset viewpoint in Riomaggiore. The climb takes 10-15 minutes up steep stairs, but the reward is a panorama that encompasses the harbor, the terraces, and the western horizon.",
+            "de": "Die mittelalterliche Burg oberhalb des Dorfes bietet den besten Aussichtspunkt für den Sonnenuntergang in Riomaggiore. Der Aufstieg dauert 10-15 Minuten über steile Treppen, aber die Belohnung ist ein Panorama, das den Hafen, die Terrassen und den westlichen Horizont umfasst.",
+            "fr": "Le château médiéval au-dessus du village offre le meilleur point de vue pour le coucher de soleil à Riomaggiore. La montée prend 10-15 minutes par des escaliers raides, mais la récompense est un panorama qui englobe le port, les terrasses et l'horizon occidental.",
+            "it": "Il castello medievale sopra il borgo offre il miglior punto panoramico per il tramonto a Riomaggiore. La salita richiede 10-15 minuti su scale ripide, ma la ricompensa è un panorama che abbraccia il porto, le terrazze e l'orizzonte occidentale."
+          },
+          "giuliaComment": {
+            "en": "This is my daily ritual when I'm in the village. The sunset is never the same twice. The company changes—tourists, locals, photographers—but the view remains extraordinary.",
+            "de": "Das ist mein tägliches Ritual, wenn ich im Dorf bin. Der Sonnenuntergang ist nie zweimal derselbe. Die Gesellschaft wechselt – Touristen, Einheimische, Fotografen – aber die Aussicht bleibt außergewöhnlich.",
+            "fr": "C'est mon rituel quotidien quand je suis au village. Le coucher de soleil n'est jamais le même deux fois. La compagnie change – touristes, locaux, photographes – mais la vue reste extraordinaire.",
+            "it": "Questo è il mio rituale quotidiano quando sono nel borgo. Il tramonto non è mai uguale due volte. La compagnia cambia – turisti, locali, fotografi – ma la vista resta straordinaria."
+          },
+          "signature": {
+            "en": "Where the day ends and the memory begins",
+            "de": "Wo der Tag endet und die Erinnerung beginnt",
+            "fr": "Là où le jour finit et le souvenir commence",
+            "it": "Dove il giorno finisce e il ricordo inizia"
+          },
+          "practicalInfo": {
+            "en": "Free access. 10-15 minute climb. Bring water. Arrive 30 minutes before sunset for good spots.",
+            "de": "Freier Zugang. 10-15 Minuten Aufstieg. Wasser mitnehmen. 30 Minuten vor Sonnenuntergang für gute Plätze ankommen.",
+            "fr": "Accès gratuit. 10-15 minutes de montée. Apportez de l'eau. Arrivez 30 minutes avant le coucher du soleil pour les bonnes places.",
+            "it": "Accesso gratuito. 10-15 minuti di salita. Portare acqua. Arrivare 30 minuti prima del tramonto per i posti migliori."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Value of Repetition",
-          "quote": "The visitors who understand Riomaggiore best are the ones who do the same thing twice. Walk the same path at different hours. Sit in the same piazza for morning coffee and evening wine. Watch the same view as the light changes. Repetition reveals what novelty hides."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Value of Repetition",
+            "de": "Der Wert der Wiederholung",
+            "fr": "La Valeur de la Répétition",
+            "it": "Il Valore della Ripetizione"
+          },
+          "quote": {
+            "en": "The visitors who understand Riomaggiore best are the ones who do the same thing twice. Walk the same path at different hours. Sit in the same piazza for morning coffee and evening wine. Watch the same view as the light changes. Repetition reveals what novelty hides.",
+            "de": "Die Besucher, die Riomaggiore am besten verstehen, sind diejenigen, die dasselbe zweimal tun. Denselben Weg zu verschiedenen Uhrzeiten gehen. Auf derselben Piazza für den Morgenkaffee und den Abendwein sitzen. Dieselbe Aussicht beobachten, während sich das Licht ändert. Wiederholung enthüllt, was Neuheit verbirgt.",
+            "fr": "Les visiteurs qui comprennent le mieux Riomaggiore sont ceux qui font la même chose deux fois. Parcourir le même chemin à différentes heures. S'asseoir sur la même place pour le café du matin et le vin du soir. Regarder la même vue tandis que la lumière change. La répétition révèle ce que la nouveauté cache.",
+            "it": "I visitatori che capiscono meglio Riomaggiore sono quelli che fanno la stessa cosa due volte. Percorrere lo stesso sentiero in ore diverse. Sedersi nella stessa piazza per il caffè mattutino e il vino serale. Guardare la stessa vista mentre la luce cambia. La ripetizione rivela ciò che la novità nasconde."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Beyond the Obvious",
-      "quote": "The activities everyone knows about are worth doing. But Riomaggiore offers more to those who look past the guidebook.",
-      "content": [
-        "**The terraced vineyards** above the village are not just scenery—they're accessible by hiking paths that reveal the scale of human effort that created this landscape. Walk among them in late afternoon light.",
-        "**The church of San Giovanni Battista** offers cool darkness and centuries of accumulated prayer. Enter without expectations. Let your eyes adjust. Notice the details that emerge from shadow.",
-        "**The wine bar at Vertical** is where locals actually drink. The selection is local, the advice is honest, and the conversation is real. This is not a tourist tasting room.",
-        "**The morning harbor** belongs to fishermen before it belongs to swimmers. Arrive at 7am and watch the boats return. This is the working village that tourism sometimes obscures."
-      ]
+      "badge": {
+        "en": "Beyond the Obvious",
+        "de": "Jenseits des Offensichtlichen",
+        "fr": "Au-delà de l'Évident",
+        "it": "Oltre l'Ovvio"
+      },
+      "quote": {
+        "en": "The activities everyone knows about are worth doing. But Riomaggiore offers more to those who look past the guidebook.",
+        "de": "Die Aktivitäten, die jeder kennt, lohnen sich. Aber Riomaggiore bietet mehr für diejenigen, die über den Reiseführer hinausschauen.",
+        "fr": "Les activités que tout le monde connaît valent la peine d'être faites. Mais Riomaggiore offre plus à ceux qui regardent au-delà du guide.",
+        "it": "Le attività che tutti conoscono valgono la pena. Ma Riomaggiore offre di più a chi guarda oltre la guida turistica."
+      },
+      "content": {
+        "en": [
+          "**The terraced vineyards** above the village are not just scenery—they're accessible by hiking paths that reveal the scale of human effort that created this landscape. Walk among them in late afternoon light.",
+          "**The church of San Giovanni Battista** offers cool darkness and centuries of accumulated prayer. Enter without expectations. Let your eyes adjust. Notice the details that emerge from shadow.",
+          "**The wine bar at Vertical** is where locals actually drink. The selection is local, the advice is honest, and the conversation is real. This is not a tourist tasting room.",
+          "**The morning harbor** belongs to fishermen before it belongs to swimmers. Arrive at 7am and watch the boats return. This is the working village that tourism sometimes obscures."
+        ],
+        "de": [
+          "**Die Weinbergterrassen** oberhalb des Dorfes sind nicht nur Landschaft – sie sind über Wanderwege zugänglich, die das Ausmaß menschlicher Arbeit offenbaren, die diese Landschaft geschaffen hat. Wandern Sie am späten Nachmittag durch sie hindurch.",
+          "**Die Kirche San Giovanni Battista** bietet kühle Dunkelheit und Jahrhunderte angesammelten Gebets. Betreten Sie sie ohne Erwartungen. Lassen Sie Ihre Augen sich anpassen. Beachten Sie die Details, die aus dem Schatten auftauchen.",
+          "**Die Weinbar Vertical** ist der Ort, wo die Einheimischen wirklich trinken. Die Auswahl ist lokal, die Beratung ehrlich und das Gespräch echt. Dies ist kein touristischer Verkostungsraum.",
+          "**Der morgendliche Hafen** gehört den Fischern, bevor er den Schwimmern gehört. Kommen Sie um 7 Uhr morgens und beobachten Sie die Boote bei der Rückkehr. Das ist das arbeitende Dorf, das der Tourismus manchmal verdeckt."
+        ],
+        "fr": [
+          "**Les vignobles en terrasses** au-dessus du village ne sont pas qu'un décor – ils sont accessibles par des sentiers de randonnée qui révèlent l'ampleur de l'effort humain qui a créé ce paysage. Promenez-vous parmi eux à la lumière de fin d'après-midi.",
+          "**L'église de San Giovanni Battista** offre une obscurité fraîche et des siècles de prières accumulées. Entrez sans attentes. Laissez vos yeux s'adapter. Remarquez les détails qui émergent de l'ombre.",
+          "**Le bar à vin Vertical** est là où les locaux boivent vraiment. La sélection est locale, les conseils sont honnêtes et la conversation est vraie. Ce n'est pas une salle de dégustation touristique.",
+          "**Le port du matin** appartient aux pêcheurs avant d'appartenir aux nageurs. Arrivez à 7h et regardez les bateaux revenir. C'est le village travailleur que le tourisme obscurcit parfois."
+        ],
+        "it": [
+          "**I vigneti terrazzati** sopra il borgo non sono solo paesaggio – sono accessibili da sentieri che rivelano la scala dello sforzo umano che ha creato questo paesaggio. Camminate tra loro nella luce del tardo pomeriggio.",
+          "**La chiesa di San Giovanni Battista** offre oscurità fresca e secoli di preghiere accumulate. Entrate senza aspettative. Lasciate che i vostri occhi si adattino. Notate i dettagli che emergono dall'ombra.",
+          "**L'enoteca Vertical** è dove i locali bevono davvero. La selezione è locale, i consigli sono onesti e la conversazione è vera. Questa non è una sala degustazione turistica.",
+          "**Il porto mattutino** appartiene ai pescatori prima di appartenere ai bagnanti. Arrivate alle 7 e guardate le barche tornare. Questo è il borgo lavoratore che il turismo a volte oscura."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,62 +310,232 @@
       "items": [
         {
           "id": 4,
-          "name": "Hike to the Sanctuary",
-          "category": "Pilgrimage",
+          "name": {
+            "en": "Hike to the Sanctuary",
+            "de": "Wanderung zum Heiligtum",
+            "fr": "Randonnée au Sanctuaire",
+            "it": "Escursione al Santuario"
+          },
+          "category": {
+            "en": "Pilgrimage",
+            "de": "Pilgerreise",
+            "fr": "Pèlerinage",
+            "it": "Pellegrinaggio"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The climb that locals have made for six centuries—to pray, to give thanks, to see their village from above.",
-          "description": "The path to Santuario della Madonna di Montenero climbs 400 meters through vineyard and forest to a small church with views that stretch along the entire coast. This is not an easy hike, but it's deeply rewarding.",
-          "giuliaComment": "My grandmother walked this path every Sunday of her life. For her, it was faith. For me, it's memory. For visitors, it's perspective—literal and otherwise.",
-          "signature": "Where effort becomes insight",
-          "practicalInfo": "45-60 minutes up. Bring water. Church hours limited. Views worth every step."
+          "intro": {
+            "en": "The climb that locals have made for six centuries—to pray, to give thanks, to see their village from above.",
+            "de": "Der Aufstieg, den die Einheimischen seit sechs Jahrhunderten machen – um zu beten, zu danken, ihr Dorf von oben zu sehen.",
+            "fr": "La montée que les habitants font depuis six siècles – pour prier, pour remercier, pour voir leur village d'en haut.",
+            "it": "La salita che i locali fanno da sei secoli – per pregare, per ringraziare, per vedere il loro borgo dall'alto."
+          },
+          "description": {
+            "en": "The path to Santuario della Madonna di Montenero climbs 400 meters through vineyard and forest to a small church with views that stretch along the entire coast. This is not an easy hike, but it's deeply rewarding.",
+            "de": "Der Weg zum Santuario della Madonna di Montenero steigt 400 Meter durch Weinberge und Wald zu einer kleinen Kirche mit Ausblicken, die sich entlang der gesamten Küste erstrecken. Das ist keine leichte Wanderung, aber sie ist zutiefst lohnend.",
+            "fr": "Le sentier vers le Santuario della Madonna di Montenero monte de 400 mètres à travers vignobles et forêt jusqu'à une petite église avec des vues qui s'étendent le long de toute la côte. Ce n'est pas une randonnée facile, mais elle est profondément gratifiante.",
+            "it": "Il sentiero per il Santuario della Madonna di Montenero sale di 400 metri attraverso vigneti e bosco fino a una piccola chiesa con viste che si estendono lungo tutta la costa. Non è un'escursione facile, ma è profondamente gratificante."
+          },
+          "giuliaComment": {
+            "en": "My grandmother walked this path every Sunday of her life. For her, it was faith. For me, it's memory. For visitors, it's perspective—literal and otherwise.",
+            "de": "Meine Großmutter ist diesen Weg jeden Sonntag ihres Lebens gegangen. Für sie war es Glaube. Für mich ist es Erinnerung. Für Besucher ist es Perspektive – im wörtlichen und übertragenen Sinne.",
+            "fr": "Ma grand-mère a parcouru ce chemin chaque dimanche de sa vie. Pour elle, c'était la foi. Pour moi, c'est la mémoire. Pour les visiteurs, c'est la perspective – littérale et autre.",
+            "it": "Mia nonna ha percorso questo sentiero ogni domenica della sua vita. Per lei era fede. Per me è memoria. Per i visitatori è prospettiva – letterale e non."
+          },
+          "signature": {
+            "en": "Where effort becomes insight",
+            "de": "Wo Anstrengung zu Erkenntnis wird",
+            "fr": "Là où l'effort devient compréhension",
+            "it": "Dove lo sforzo diventa comprensione"
+          },
+          "practicalInfo": {
+            "en": "45-60 minutes up. Bring water. Church hours limited. Views worth every step.",
+            "de": "45-60 Minuten bergauf. Wasser mitnehmen. Kirchenöffnungszeiten begrenzt. Die Aussichten sind jeden Schritt wert.",
+            "fr": "45-60 minutes de montée. Apportez de l'eau. Heures d'ouverture de l'église limitées. Les vues valent chaque pas.",
+            "it": "45-60 minuti in salita. Portare acqua. Orari della chiesa limitati. Le viste valgono ogni passo."
+          }
         },
         {
           "id": 5,
-          "name": "Taste Sciacchetrà Wine",
-          "category": "Cultural Experience",
+          "name": {
+            "en": "Taste Sciacchetrà Wine",
+            "de": "Sciacchetrà-Wein verkosten",
+            "fr": "Déguster le vin Sciacchetrà",
+            "it": "Degustare lo Sciacchetrà"
+          },
+          "category": {
+            "en": "Cultural Experience",
+            "de": "Kulturelles Erlebnis",
+            "fr": "Expérience Culturelle",
+            "it": "Esperienza Culturale"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The dessert wine that explains why the terraces exist—rare, sweet, and made from grapes dried for months.",
-          "description": "Sciacchetrà is the wine that made these hillsides worth cultivating for a thousand years. It's made from grapes left to dry until concentrated, then fermented slowly into something amber and sweet. Tastings are available at local bars and wineries.",
-          "giuliaComment": "This wine is expensive because it's nearly impossible to make. The labor is absurd. But one sip explains everything—why the walls were built, why people stayed, why the landscape looks the way it does.",
-          "signature": "A thousand years in a glass",
-          "practicalInfo": "Available at Vertical wine bar and local cantinas. Small pours—it's meant to be savored. Pairs with local cheese."
+          "intro": {
+            "en": "The dessert wine that explains why the terraces exist—rare, sweet, and made from grapes dried for months.",
+            "de": "Der Dessertwein, der erklärt, warum die Terrassen existieren – selten, süß und aus monatelang getrockneten Trauben hergestellt.",
+            "fr": "Le vin de dessert qui explique pourquoi les terrasses existent – rare, doux et fait de raisins séchés pendant des mois.",
+            "it": "Il vino passito che spiega perché le terrazze esistono – raro, dolce e fatto da uve essiccate per mesi."
+          },
+          "description": {
+            "en": "Sciacchetrà is the wine that made these hillsides worth cultivating for a thousand years. It's made from grapes left to dry until concentrated, then fermented slowly into something amber and sweet. Tastings are available at local bars and wineries.",
+            "de": "Sciacchetrà ist der Wein, der diese Hänge tausend Jahre lang kultivierenswert machte. Er wird aus Trauben hergestellt, die getrocknet werden, bis sie konzentriert sind, dann langsam zu etwas Bernsteinfarbenem und Süßem vergoren. Verkostungen sind in lokalen Bars und Weingütern möglich.",
+            "fr": "Le Sciacchetrà est le vin qui a rendu ces collines dignes d'être cultivées pendant mille ans. Il est fait de raisins laissés à sécher jusqu'à concentration, puis fermentés lentement en quelque chose d'ambré et de doux. Des dégustations sont disponibles dans les bars et caves locaux.",
+            "it": "Lo Sciacchetrà è il vino che ha reso queste colline degne di essere coltivate per mille anni. È fatto da uve lasciate appassire fino a concentrarsi, poi fermentate lentamente in qualcosa di ambrato e dolce. Le degustazioni sono disponibili nei bar e nelle cantine locali."
+          },
+          "giuliaComment": {
+            "en": "This wine is expensive because it's nearly impossible to make. The labor is absurd. But one sip explains everything—why the walls were built, why people stayed, why the landscape looks the way it does.",
+            "de": "Dieser Wein ist teuer, weil er fast unmöglich herzustellen ist. Die Arbeit ist absurd. Aber ein Schluck erklärt alles – warum die Mauern gebaut wurden, warum die Menschen blieben, warum die Landschaft so aussieht, wie sie aussieht.",
+            "fr": "Ce vin est cher parce qu'il est presque impossible à faire. Le travail est absurde. Mais une gorgée explique tout – pourquoi les murs ont été construits, pourquoi les gens sont restés, pourquoi le paysage a cette apparence.",
+            "it": "Questo vino è costoso perché è quasi impossibile da fare. Il lavoro è assurdo. Ma un sorso spiega tutto – perché i muri sono stati costruiti, perché la gente è rimasta, perché il paesaggio appare così."
+          },
+          "signature": {
+            "en": "A thousand years in a glass",
+            "de": "Tausend Jahre in einem Glas",
+            "fr": "Mille ans dans un verre",
+            "it": "Mille anni in un bicchiere"
+          },
+          "practicalInfo": {
+            "en": "Available at Vertical wine bar and local cantinas. Small pours—it's meant to be savored. Pairs with local cheese.",
+            "de": "Erhältlich in der Weinbar Vertical und lokalen Cantinas. Kleine Portionen – er ist zum Genießen gedacht. Passt zu lokalem Käse.",
+            "fr": "Disponible au bar à vin Vertical et dans les caves locales. Petites portions – il est fait pour être savouré. Se marie avec le fromage local.",
+            "it": "Disponibile all'enoteca Vertical e nelle cantine locali. Piccole porzioni – è fatto per essere assaporato. Si abbina al formaggio locale."
+          }
         },
         {
           "id": 6,
-          "name": "Eat Fried Fish from Paper",
-          "category": "Street Food Ritual",
+          "name": {
+            "en": "Eat Fried Fish from Paper",
+            "de": "Frittierten Fisch aus Papier essen",
+            "fr": "Manger du poisson frit dans du papier",
+            "it": "Mangiare pesce fritto nel cartoccio"
+          },
+          "category": {
+            "en": "Street Food Ritual",
+            "de": "Straßenessen-Ritual",
+            "fr": "Rituel de Street Food",
+            "it": "Rituale dello Street Food"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
-          "intro": "The midday meal that locals have eaten for generations—simple, portable, perfect.",
-          "description": "A paper cone of mixed fried fish, eaten while walking or sitting on harbor rocks, is not just street food. It's the traditional Ligurian lunch—quick, fresh, and connected to the fishing boats that brought the catch ashore that morning.",
-          "giuliaComment": "This is my favorite meal in the village. Standing by the water, paper cone in hand, watching the harbor. It's not fancy. It's perfect.",
-          "signature": "Where the catch meets the cone",
-          "practicalInfo": "Available at Tutti Fritti and Il Pescato Cucinato. Perfect for lunch. Take it to the harbor rocks."
+          "intro": {
+            "en": "The midday meal that locals have eaten for generations—simple, portable, perfect.",
+            "de": "Die Mittagsmahlzeit, die Einheimische seit Generationen essen – einfach, tragbar, perfekt.",
+            "fr": "Le repas de midi que les locaux mangent depuis des générations – simple, portable, parfait.",
+            "it": "Il pasto di mezzogiorno che i locali mangiano da generazioni – semplice, portatile, perfetto."
+          },
+          "description": {
+            "en": "A paper cone of mixed fried fish, eaten while walking or sitting on harbor rocks, is not just street food. It's the traditional Ligurian lunch—quick, fresh, and connected to the fishing boats that brought the catch ashore that morning.",
+            "de": "Eine Papiertüte mit gemischtem frittiertem Fisch, gegessen beim Gehen oder auf den Hafenfelsen sitzend, ist nicht nur Straßenessen. Es ist das traditionelle ligurische Mittagessen – schnell, frisch und verbunden mit den Fischerbooten, die den Fang an diesem Morgen an Land brachten.",
+            "fr": "Un cornet de papier de poisson frit mixte, mangé en marchant ou assis sur les rochers du port, n'est pas juste de la street food. C'est le déjeuner ligure traditionnel – rapide, frais et lié aux bateaux de pêche qui ont ramené la prise ce matin-là.",
+            "it": "Un cartoccio di fritto misto di pesce, mangiato camminando o seduti sugli scogli del porto, non è solo street food. È il pranzo ligure tradizionale – veloce, fresco e legato alle barche da pesca che hanno portato il pescato a riva quella mattina."
+          },
+          "giuliaComment": {
+            "en": "This is my favorite meal in the village. Standing by the water, paper cone in hand, watching the harbor. It's not fancy. It's perfect.",
+            "de": "Das ist mein Lieblingsessen im Dorf. Am Wasser stehen, Papiertüte in der Hand, den Hafen beobachten. Es ist nicht schick. Es ist perfekt.",
+            "fr": "C'est mon repas préféré au village. Debout près de l'eau, cornet de papier en main, regardant le port. Ce n'est pas chic. C'est parfait.",
+            "it": "Questo è il mio pasto preferito nel borgo. In piedi vicino all'acqua, cartoccio in mano, guardando il porto. Non è sofisticato. È perfetto."
+          },
+          "signature": {
+            "en": "Where the catch meets the cone",
+            "de": "Wo der Fang auf die Tüte trifft",
+            "fr": "Là où la prise rencontre le cornet",
+            "it": "Dove il pescato incontra il cartoccio"
+          },
+          "practicalInfo": {
+            "en": "Available at Tutti Fritti and Il Pescato Cucinato. Perfect for lunch. Take it to the harbor rocks.",
+            "de": "Erhältlich bei Tutti Fritti und Il Pescato Cucinato. Perfekt zum Mittagessen. Nehmen Sie es mit zu den Hafenfelsen.",
+            "fr": "Disponible chez Tutti Fritti et Il Pescato Cucinato. Parfait pour le déjeuner. Emportez-le sur les rochers du port.",
+            "it": "Disponibile da Tutti Fritti e Il Pescato Cucinato. Perfetto per pranzo. Portatelo sugli scogli del porto."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 2,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Permission to Rest",
-          "quote": "Italian villages shut down in the afternoon for a reason. The heat is real, the food is heavy, and the evening requires energy. Give yourself permission to nap, read, or simply sit. Activity is not the point. Presence is."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "The Permission to Rest",
+            "de": "Die Erlaubnis zu ruhen",
+            "fr": "La Permission de Se Reposer",
+            "it": "Il Permesso di Riposare"
+          },
+          "quote": {
+            "en": "Italian villages shut down in the afternoon for a reason. The heat is real, the food is heavy, and the evening requires energy. Give yourself permission to nap, read, or simply sit. Activity is not the point. Presence is.",
+            "de": "Italienische Dörfer schließen nachmittags aus gutem Grund. Die Hitze ist real, das Essen ist schwer, und der Abend erfordert Energie. Geben Sie sich die Erlaubnis, ein Nickerchen zu machen, zu lesen oder einfach zu sitzen. Aktivität ist nicht der Punkt. Präsenz ist es.",
+            "fr": "Les villages italiens ferment l'après-midi pour une raison. La chaleur est réelle, la nourriture est lourde, et la soirée demande de l'énergie. Donnez-vous la permission de faire la sieste, de lire ou simplement de vous asseoir. L'activité n'est pas le but. La présence l'est.",
+            "it": "I borghi italiani chiudono il pomeriggio per una ragione. Il caldo è reale, il cibo è pesante e la sera richiede energia. Datevi il permesso di fare un pisolino, leggere o semplicemente sedervi. L'attività non è il punto. La presenza lo è."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Village is the Activity",
-      "content": [
-        "You could fill a week in Riomaggiore with organized activities and still miss the point. The village is not a collection of experiences to accumulate—it's a place to exist in.",
-        "Walk without purpose. Sit without distraction. Let the hours pass in a way they cannot pass at home. This is what Riomaggiore offers that no checklist can capture.",
-        "Do less. See more. The village will reward your patience."
-      ],
+      "title": {
+        "en": "The Village is the Activity",
+        "de": "Das Dorf ist die Aktivität",
+        "fr": "Le Village est l'Activité",
+        "it": "Il Borgo è l'Attività"
+      },
+      "content": {
+        "en": [
+          "You could fill a week in Riomaggiore with organized activities and still miss the point. The village is not a collection of experiences to accumulate—it's a place to exist in.",
+          "Walk without purpose. Sit without distraction. Let the hours pass in a way they cannot pass at home. This is what Riomaggiore offers that no checklist can capture.",
+          "Do less. See more. The village will reward your patience."
+        ],
+        "de": [
+          "Sie könnten eine Woche in Riomaggiore mit organisierten Aktivitäten füllen und trotzdem den Punkt verfehlen. Das Dorf ist keine Sammlung von Erlebnissen zum Anhäufen – es ist ein Ort zum Existieren.",
+          "Gehen Sie ohne Ziel. Sitzen Sie ohne Ablenkung. Lassen Sie die Stunden auf eine Weise vergehen, wie sie zu Hause nicht vergehen können. Das ist es, was Riomaggiore bietet, was keine Checkliste erfassen kann.",
+          "Tun Sie weniger. Sehen Sie mehr. Das Dorf wird Ihre Geduld belohnen."
+        ],
+        "fr": [
+          "Vous pourriez remplir une semaine à Riomaggiore avec des activités organisées et toujours manquer l'essentiel. Le village n'est pas une collection d'expériences à accumuler – c'est un endroit où exister.",
+          "Marchez sans but. Asseyez-vous sans distraction. Laissez les heures passer d'une façon qu'elles ne peuvent pas passer chez vous. C'est ce que Riomaggiore offre qu'aucune liste ne peut capturer.",
+          "Faites moins. Voyez plus. Le village récompensera votre patience."
+        ],
+        "it": [
+          "Potreste riempire una settimana a Riomaggiore con attività organizzate e comunque perdere il punto. Il borgo non è una collezione di esperienze da accumulare – è un luogo in cui esistere.",
+          "Camminate senza scopo. Sedetevi senza distrazioni. Lasciate che le ore passino in un modo in cui non possono passare a casa. Questo è ciò che Riomaggiore offre che nessuna lista può catturare.",
+          "Fate meno. Vedete di più. Il borgo ricompenserà la vostra pazienza."
+        ]
+      },
       "buttons": [
-        { "text": "Where to Eat", "url": "/en/riomaggiore/restaurants", "variant": "primary" },
-        { "text": "Where to Stay", "url": "/en/riomaggiore/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Eat",
+            "de": "Wo essen",
+            "fr": "Où manger",
+            "it": "Dove mangiare"
+          },
+          "url": {
+            "en": "/en/riomaggiore/restaurants",
+            "de": "/de/riomaggiore/restaurants",
+            "fr": "/fr/riomaggiore/restaurants",
+            "it": "/it/riomaggiore/restaurants"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Wo übernachten",
+            "fr": "Où séjourner",
+            "it": "Dove dormire"
+          },
+          "url": {
+            "en": "/en/riomaggiore/hotels",
+            "de": "/de/riomaggiore/hotels",
+            "fr": "/fr/riomaggiore/hotels",
+            "it": "/it/riomaggiore/hotels"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -171,5 +545,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T17:00:00.000Z"
+  "updated_at": "2026-01-07T19:00:00.000Z"
 }

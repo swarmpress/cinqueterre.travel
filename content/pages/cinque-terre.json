@@ -2,136 +2,359 @@
   "id": "fb28e1c2-fecd-4c1c-a42c-e5c23bca0d6c",
   "slug": {
     "en": "/en/cinque-terre",
+    "de": "/de/cinque-terre",
+    "fr": "/fr/cinque-terre",
     "it": "/it/cinque-terre"
   },
   "title": {
-    "en": "Cinque Terre: Italy's Most Enchanting Coastal Villages"
+    "en": "Cinque Terre: Italy's Most Enchanting Coastal Villages",
+    "de": "Cinque Terre: Italiens bezauberndste Küstendörfer",
+    "fr": "Cinque Terre : Les Villages Côtiers les Plus Enchanteurs d'Italie",
+    "it": "Cinque Terre: I Borghi Costieri Più Incantevoli d'Italia"
   },
   "page_type": "landing",
   "template": "cinque-terre-editorial",
   "seo": {
     "title": {
-      "en": "Cinque Terre Italy - Luxury Travel Guide | Cinqueterre.travel"
+      "en": "Cinque Terre Italy - Luxury Travel Guide | Cinqueterre.travel",
+      "de": "Cinque Terre Italien - Luxus-Reiseführer | Cinqueterre.travel",
+      "fr": "Cinque Terre Italie - Guide de Voyage de Luxe | Cinqueterre.travel",
+      "it": "Cinque Terre Italia - Guida di Viaggio di Lusso | Cinqueterre.travel"
     },
     "description": {
-      "en": "Discover the authentic magic of Cinque Terre's five medieval villages. Luxury accommodations, private experiences, and insider access await."
+      "en": "Discover the authentic magic of Cinque Terre's five medieval villages. Luxury accommodations, private experiences, and insider access await.",
+      "de": "Entdecken Sie die authentische Magie der fünf mittelalterlichen Dörfer der Cinque Terre. Luxusunterkünfte, private Erlebnisse und exklusiver Zugang erwarten Sie.",
+      "fr": "Découvrez la magie authentique des cinq villages médiévaux des Cinque Terre. Hébergements de luxe, expériences privées et accès privilégié vous attendent.",
+      "it": "Scoprite la magia autentica dei cinque borghi medievali delle Cinque Terre. Alloggi di lusso, esperienze private e accesso esclusivo vi attendono."
     }
   },
   "body": [
     {
       "type": "editorial-hero",
-      "badge": "UNESCO World Heritage",
-      "title": "Where Medieval Villages<br/>Meet the Mediterranean",
-      "subtitle": "Five impossibly beautiful coastal towns where terraced vineyards tumble into azure waters, and centuries-old traditions continue to flourish against one of Europe's most dramatic coastlines.",
+      "badge": {
+        "en": "UNESCO World Heritage",
+        "de": "UNESCO-Weltkulturerbe",
+        "fr": "Patrimoine Mondial UNESCO",
+        "it": "Patrimonio Mondiale UNESCO"
+      },
+      "title": {
+        "en": "Where Medieval Villages<br/>Meet the Mediterranean",
+        "de": "Wo mittelalterliche Dörfer<br/>auf das Mittelmeer treffen",
+        "fr": "Où les Villages Médiévaux<br/>Rencontrent la Méditerranée",
+        "it": "Dove i Borghi Medievali<br/>Incontrano il Mediterraneo"
+      },
+      "subtitle": {
+        "en": "Five impossibly beautiful coastal towns where terraced vineyards tumble into azure waters, and centuries-old traditions continue to flourish against one of Europe's most dramatic coastlines.",
+        "de": "Fünf unglaublich schöne Küstenorte, wo terrassierte Weinberge ins azurblaue Wasser stürzen und jahrhundertealte Traditionen an einer der dramatischsten Küsten Europas weiter gedeihen.",
+        "fr": "Cinq villes côtières d'une beauté impossible où les vignobles en terrasses plongent dans les eaux azur, et où les traditions séculaires continuent de s'épanouir le long de l'un des littoraux les plus spectaculaires d'Europe.",
+        "it": "Cinque borghi costieri di impossibile bellezza dove i vigneti terrazzati precipitano nelle acque azzurre, e tradizioni secolari continuano a fiorire lungo una delle coste più spettacolari d'Europa."
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "content": "Five ancient villages. A thousand years of history. Eighteen kilometers of protected coastline and seven thousand hand-built stone terraces. This is Cinque Terre—where the impossible becomes reality and every view demands to be remembered."
+      "content": {
+        "en": "Five ancient villages. A thousand years of history. Eighteen kilometers of protected coastline and seven thousand hand-built stone terraces. This is Cinque Terre—where the impossible becomes reality and every view demands to be remembered.",
+        "de": "Fünf alte Dörfer. Tausend Jahre Geschichte. Achtzehn Kilometer geschützte Küste und siebentausend handgebaute Steinterrassen. Das sind die Cinque Terre – wo das Unmögliche Wirklichkeit wird und jede Aussicht unvergessen bleiben will.",
+        "fr": "Cinq villages anciens. Mille ans d'histoire. Dix-huit kilomètres de côte protégée et sept mille terrasses de pierre construites à la main. Ce sont les Cinque Terre – où l'impossible devient réalité et chaque vue mérite d'être mémorisée.",
+        "it": "Cinque borghi antichi. Mille anni di storia. Diciotto chilometri di costa protetta e settemila terrazze di pietra costruite a mano. Queste sono le Cinque Terre – dove l'impossibile diventa realtà e ogni vista merita di essere ricordata."
+      }
     },
     {
       "type": "collection-with-interludes",
-      "heading": "Your Cinque Terre Experience",
+      "heading": {
+        "en": "Your Cinque Terre Experience",
+        "de": "Ihr Cinque Terre Erlebnis",
+        "fr": "Votre Expérience Cinque Terre",
+        "it": "La Vostra Esperienza Cinque Terre"
+      },
       "headingLevel": 2,
-      "intro": "Immerse yourself in authentic Italian coastal culture with experiences crafted for discerning travelers.",
+      "intro": {
+        "en": "Immerse yourself in authentic Italian coastal culture with experiences crafted for discerning travelers.",
+        "de": "Tauchen Sie ein in die authentische italienische Küstenkultur mit Erlebnissen, die für anspruchsvolle Reisende gestaltet wurden.",
+        "fr": "Plongez dans la culture côtière italienne authentique avec des expériences conçues pour les voyageurs exigeants.",
+        "it": "Immergetevi nella cultura costiera italiana autentica con esperienze create per viaggiatori esigenti."
+      },
       "items": [
         {
           "type": "experience",
           "icon": "wine",
-          "title": "Private Vineyard Tastings",
-          "description": "Sip Sciacchetra dessert wine on ancient terraces while local vintners share generations of winemaking wisdom."
+          "title": {
+            "en": "Private Vineyard Tastings",
+            "de": "Private Weinverkostungen",
+            "fr": "Dégustations Privées dans les Vignobles",
+            "it": "Degustazioni Private nei Vigneti"
+          },
+          "description": {
+            "en": "Sip Sciacchetra dessert wine on ancient terraces while local vintners share generations of winemaking wisdom.",
+            "de": "Genießen Sie Sciacchetrà-Dessertwein auf uralten Terrassen, während lokale Winzer Generationen von Weinbauweisheit teilen.",
+            "fr": "Dégustez le vin de dessert Sciacchetrà sur des terrasses anciennes tandis que les vignerons locaux partagent des générations de savoir-faire viticole.",
+            "it": "Sorseggiate Sciacchetrà sulle antiche terrazze mentre i viticoltori locali condividono generazioni di sapienza enologica."
+          }
         },
         {
           "type": "experience",
           "icon": "boat",
-          "title": "Exclusive Boat Experiences",
-          "description": "Witness the villages from the sea aboard private vessels, accessing hidden coves and swimming spots known only to locals."
+          "title": {
+            "en": "Exclusive Boat Experiences",
+            "de": "Exklusive Bootsausflüge",
+            "fr": "Expériences en Bateau Exclusives",
+            "it": "Esperienze in Barca Esclusive"
+          },
+          "description": {
+            "en": "Witness the villages from the sea aboard private vessels, accessing hidden coves and swimming spots known only to locals.",
+            "de": "Erleben Sie die Dörfer vom Meer aus an Bord privater Boote und entdecken Sie versteckte Buchten und Badestellen, die nur Einheimische kennen.",
+            "fr": "Admirez les villages depuis la mer à bord de bateaux privés, accédant à des criques cachées et des spots de baignade connus seulement des locaux.",
+            "it": "Ammirate i borghi dal mare a bordo di imbarcazioni private, raggiungendo calette nascoste e punti per nuotare noti solo ai locali."
+          }
         },
         {
           "type": "interlude",
-          "content": "The magic of Cinque Terre reveals itself slowly—in the rhythm of waves against painted boats, the scent of basil drifting from kitchen windows, the golden light that transforms ancient stone into something almost alive."
+          "content": {
+            "en": "The magic of Cinque Terre reveals itself slowly—in the rhythm of waves against painted boats, the scent of basil drifting from kitchen windows, the golden light that transforms ancient stone into something almost alive.",
+            "de": "Die Magie der Cinque Terre offenbart sich langsam – im Rhythmus der Wellen gegen bemalte Boote, im Duft von Basilikum, der aus Küchenfenstern weht, im goldenen Licht, das uralten Stein in etwas fast Lebendiges verwandelt.",
+            "fr": "La magie des Cinque Terre se révèle lentement – dans le rythme des vagues contre les bateaux peints, le parfum du basilic s'échappant des fenêtres des cuisines, la lumière dorée qui transforme la pierre ancienne en quelque chose de presque vivant.",
+            "it": "La magia delle Cinque Terre si rivela lentamente – nel ritmo delle onde contro le barche dipinte, nel profumo del basilico che arriva dalle finestre delle cucine, nella luce dorata che trasforma la pietra antica in qualcosa di quasi vivo."
+          }
         },
         {
           "type": "experience",
           "icon": "hiking",
-          "title": "Guided Heritage Walks",
-          "description": "Follow medieval mule paths with expert historians who reveal the stories behind every stone and tradition."
+          "title": {
+            "en": "Guided Heritage Walks",
+            "de": "Geführte Kulturwanderungen",
+            "fr": "Promenades Patrimoniales Guidées",
+            "it": "Passeggiate Guidate del Patrimonio"
+          },
+          "description": {
+            "en": "Follow medieval mule paths with expert historians who reveal the stories behind every stone and tradition.",
+            "de": "Folgen Sie mittelalterlichen Maultierpfaden mit Experten-Historikern, die die Geschichten hinter jedem Stein und jeder Tradition enthüllen.",
+            "fr": "Suivez les chemins muletiers médiévaux avec des historiens experts qui révèlent les histoires derrière chaque pierre et tradition.",
+            "it": "Seguite gli antichi sentieri mulattieri con storici esperti che svelano le storie dietro ogni pietra e tradizione."
+          }
         },
         {
           "type": "experience",
           "icon": "chef",
-          "title": "Culinary Masterclasses",
-          "description": "Learn to prepare pesto genovese and focaccia col formaggio in family kitchens passed down through centuries."
+          "title": {
+            "en": "Culinary Masterclasses",
+            "de": "Kulinarische Meisterkurse",
+            "fr": "Masterclasses Culinaires",
+            "it": "Masterclass Culinarie"
+          },
+          "description": {
+            "en": "Learn to prepare pesto genovese and focaccia col formaggio in family kitchens passed down through centuries.",
+            "de": "Lernen Sie, Pesto Genovese und Focaccia col Formaggio in Familienküchen zuzubereiten, die seit Jahrhunderten weitergegeben werden.",
+            "fr": "Apprenez à préparer le pesto genovese et la focaccia col formaggio dans des cuisines familiales transmises de génération en génération.",
+            "it": "Imparate a preparare il pesto genovese e la focaccia col formaggio in cucine di famiglia tramandate da secoli."
+          }
         },
         {
           "type": "interlude",
-          "content": "There's a particular moment, just before sunset, when the five villages seem to glow from within. Locals call it l'ora d'oro—the golden hour—and it's when Cinque Terre reveals why it has inspired poets and painters for centuries."
+          "content": {
+            "en": "There's a particular moment, just before sunset, when the five villages seem to glow from within. Locals call it l'ora d'oro—the golden hour—and it's when Cinque Terre reveals why it has inspired poets and painters for centuries.",
+            "de": "Es gibt einen besonderen Moment, kurz vor Sonnenuntergang, wenn die fünf Dörfer von innen heraus zu leuchten scheinen. Die Einheimischen nennen es l'ora d'oro – die goldene Stunde – und es ist der Moment, in dem die Cinque Terre zeigen, warum sie Dichter und Maler seit Jahrhunderten inspiriert haben.",
+            "fr": "Il y a un moment particulier, juste avant le coucher du soleil, où les cinq villages semblent rayonner de l'intérieur. Les locaux l'appellent l'ora d'oro – l'heure dorée – et c'est le moment où les Cinque Terre révèlent pourquoi elles inspirent poètes et peintres depuis des siècles.",
+            "it": "C'è un momento particolare, poco prima del tramonto, quando i cinque borghi sembrano brillare dall'interno. I locali lo chiamano l'ora d'oro – ed è quando le Cinque Terre rivelano perché hanno ispirato poeti e pittori per secoli."
+          }
         },
         {
           "type": "experience",
           "icon": "camera",
-          "title": "Golden Hour Photography",
-          "description": "Capture the perfect shot during exclusive early morning and late evening access to the most photogenic spots."
+          "title": {
+            "en": "Golden Hour Photography",
+            "de": "Goldene-Stunde-Fotografie",
+            "fr": "Photographie à l'Heure Dorée",
+            "it": "Fotografia all'Ora d'Oro"
+          },
+          "description": {
+            "en": "Capture the perfect shot during exclusive early morning and late evening access to the most photogenic spots.",
+            "de": "Fangen Sie das perfekte Bild ein während exklusivem Zugang am frühen Morgen und späten Abend zu den fotogensten Orten.",
+            "fr": "Capturez le cliché parfait lors d'un accès exclusif tôt le matin et en fin de soirée aux spots les plus photogéniques.",
+            "it": "Catturate lo scatto perfetto durante l'accesso esclusivo al mattino presto e alla sera tardi ai luoghi più fotogenici."
+          }
         },
         {
           "type": "experience",
           "icon": "culture",
-          "title": "Local Festival Access",
-          "description": "Join authentic celebrations like the Festa di San Giovanni or vintage harvest festivals with insider invitations."
+          "title": {
+            "en": "Local Festival Access",
+            "de": "Zugang zu lokalen Festen",
+            "fr": "Accès aux Festivals Locaux",
+            "it": "Accesso alle Feste Locali"
+          },
+          "description": {
+            "en": "Join authentic celebrations like the Festa di San Giovanni or vintage harvest festivals with insider invitations.",
+            "de": "Nehmen Sie teil an authentischen Feiern wie der Festa di San Giovanni oder Weinerntefesten mit Insider-Einladungen.",
+            "fr": "Participez à des célébrations authentiques comme la Festa di San Giovanni ou les fêtes des vendanges avec des invitations privilégiées.",
+            "it": "Partecipate a celebrazioni autentiche come la Festa di San Giovanni o le feste della vendemmia con inviti esclusivi."
+          }
         }
       ]
     },
     {
       "type": "content-section",
-      "title": "A Living Testament to Mediterranean Heritage",
+      "title": {
+        "en": "A Living Testament to Mediterranean Heritage",
+        "de": "Ein lebendiges Zeugnis mediterranen Erbes",
+        "fr": "Un Témoignage Vivant du Patrimoine Méditerranéen",
+        "it": "Una Testimonianza Vivente del Patrimonio Mediterraneo"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551739440-5dd934d3a94a-regular.jpg",
-      "content": "The Cinque Terre represents more than breathtaking scenery—it's a millennium-old testament to human ingenuity and environmental harmony. These five villages (Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore) have maintained their authentic character despite global recognition, offering you an opportunity to experience Italy as it has been lived for generations.\n\nWhat makes this coastline extraordinary isn't just its UNESCO designation, but the living culture that continues to thrive here. Fishermen still haul their boats onto beaches at dawn, families tend vineyards on impossible cliffs, and local dialects echo through narrow medieval streets. The famous Sentiero Azzurro (Blue Trail) connects these communities as it has for centuries, though today's visitors enjoy carefully maintained paths and stunning viewpoints.\n\nTiming your visit thoughtfully reveals different facets of this remarkable region. Spring (April-May) brings wild herbs and comfortable hiking weather, while autumn (September-October) offers harvest season and perfect swimming conditions. Even winter holds its charms, with fewer crowds and the chance to experience village life at its most authentic pace.",
-      "callouts": [
-        "Best visited April-May and September-October for optimal weather",
-        "Advance reservations essential for quality restaurants and experiences",
-        "Each village offers distinct character—plan 2-3 days minimum"
-      ]
+      "content": {
+        "en": "The Cinque Terre represents more than breathtaking scenery—it's a millennium-old testament to human ingenuity and environmental harmony. These five villages (Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore) have maintained their authentic character despite global recognition, offering you an opportunity to experience Italy as it has been lived for generations.\n\nWhat makes this coastline extraordinary isn't just its UNESCO designation, but the living culture that continues to thrive here. Fishermen still haul their boats onto beaches at dawn, families tend vineyards on impossible cliffs, and local dialects echo through narrow medieval streets. The famous Sentiero Azzurro (Blue Trail) connects these communities as it has for centuries, though today's visitors enjoy carefully maintained paths and stunning viewpoints.\n\nTiming your visit thoughtfully reveals different facets of this remarkable region. Spring (April-May) brings wild herbs and comfortable hiking weather, while autumn (September-October) offers harvest season and perfect swimming conditions. Even winter holds its charms, with fewer crowds and the chance to experience village life at its most authentic pace.",
+        "de": "Die Cinque Terre sind mehr als atemberaubende Landschaft – sie sind ein tausendjähriges Zeugnis menschlichen Einfallsreichtums und ökologischer Harmonie. Diese fünf Dörfer (Monterosso, Vernazza, Corniglia, Manarola und Riomaggiore) haben trotz weltweiter Anerkennung ihren authentischen Charakter bewahrt und bieten Ihnen die Möglichkeit, Italien so zu erleben, wie es seit Generationen gelebt wird.\n\nWas diese Küste außergewöhnlich macht, ist nicht nur ihre UNESCO-Auszeichnung, sondern die lebendige Kultur, die hier weiter gedeiht. Fischer ziehen noch immer im Morgengrauen ihre Boote an den Strand, Familien pflegen Weinberge an unmöglichen Klippen, und lokale Dialekte hallen durch enge mittelalterliche Gassen. Der berühmte Sentiero Azzurro (Blauer Weg) verbindet diese Gemeinschaften wie seit Jahrhunderten, wobei heutige Besucher sorgfältig gepflegte Pfade und atemberaubende Aussichtspunkte genießen.\n\nDurchdachtes Timing Ihres Besuchs enthüllt verschiedene Facetten dieser bemerkenswerten Region. Der Frühling (April-Mai) bringt Wildkräuter und angenehmes Wanderwetter, während der Herbst (September-Oktober) Erntezeit und perfekte Schwimmbedingungen bietet. Auch der Winter hat seinen Reiz, mit weniger Menschenmassen und der Chance, das Dorfleben in seinem authentischsten Rhythmus zu erleben.",
+        "fr": "Les Cinque Terre représentent plus qu'un paysage à couper le souffle – c'est un témoignage millénaire de l'ingéniosité humaine et de l'harmonie environnementale. Ces cinq villages (Monterosso, Vernazza, Corniglia, Manarola et Riomaggiore) ont maintenu leur caractère authentique malgré une reconnaissance mondiale, vous offrant l'opportunité de vivre l'Italie comme elle a été vécue depuis des générations.\n\nCe qui rend ce littoral extraordinaire n'est pas seulement sa désignation UNESCO, mais la culture vivante qui continue d'y prospérer. Les pêcheurs tirent encore leurs bateaux sur les plages à l'aube, les familles entretiennent des vignobles sur des falaises impossibles, et les dialectes locaux résonnent dans les ruelles médiévales étroites. Le fameux Sentiero Azzurro (Sentier Bleu) relie ces communautés comme depuis des siècles, bien que les visiteurs d'aujourd'hui profitent de chemins soigneusement entretenus et de points de vue époustouflants.\n\nPlanifier votre visite judicieusement révèle différentes facettes de cette région remarquable. Le printemps (avril-mai) apporte les herbes sauvages et un temps agréable pour la randonnée, tandis que l'automne (septembre-octobre) offre la saison des vendanges et des conditions parfaites pour la baignade. Même l'hiver a ses charmes, avec moins de foule et la chance de vivre la vie de village à son rythme le plus authentique.",
+        "it": "Le Cinque Terre rappresentano più di un paesaggio mozzafiato – sono una testimonianza millenaria dell'ingegno umano e dell'armonia ambientale. Questi cinque borghi (Monterosso, Vernazza, Corniglia, Manarola e Riomaggiore) hanno mantenuto il loro carattere autentico nonostante il riconoscimento mondiale, offrendovi l'opportunità di vivere l'Italia come è stata vissuta per generazioni.\n\nCiò che rende questa costa straordinaria non è solo la designazione UNESCO, ma la cultura viva che continua a prosperare qui. I pescatori tirano ancora le loro barche sulle spiagge all'alba, le famiglie curano vigneti su scogliere impossibili, e i dialetti locali echeggiano nelle strette vie medievali. Il famoso Sentiero Azzurro collega queste comunità come da secoli, sebbene i visitatori di oggi godano di sentieri curati e punti panoramici mozzafiato.\n\nProgrammare la visita con attenzione rivela diverse sfaccettature di questa regione straordinaria. La primavera (aprile-maggio) porta erbe selvatiche e clima confortevole per le escursioni, mentre l'autunno (settembre-ottobre) offre la stagione della vendemmia e condizioni perfette per nuotare. Anche l'inverno ha il suo fascino, con meno folla e la possibilità di vivere la vita di borgo al suo ritmo più autentico."
+      },
+      "callouts": {
+        "en": [
+          "Best visited April-May and September-October for optimal weather",
+          "Advance reservations essential for quality restaurants and experiences",
+          "Each village offers distinct character—plan 2-3 days minimum"
+        ],
+        "de": [
+          "Am besten April-Mai und September-Oktober für optimales Wetter besuchen",
+          "Vorab-Reservierungen für Qualitätsrestaurants und Erlebnisse unerlässlich",
+          "Jedes Dorf bietet eigenen Charakter – planen Sie mindestens 2-3 Tage"
+        ],
+        "fr": [
+          "Meilleure visite avril-mai et septembre-octobre pour un temps optimal",
+          "Réservations à l'avance essentielles pour restaurants et expériences de qualité",
+          "Chaque village offre un caractère distinct – prévoyez 2-3 jours minimum"
+        ],
+        "it": [
+          "Ideale visitare aprile-maggio e settembre-ottobre per il clima ottimale",
+          "Prenotazioni anticipate essenziali per ristoranti ed esperienze di qualità",
+          "Ogni borgo offre un carattere distinto – pianificate minimo 2-3 giorni"
+        ]
+      }
     },
     {
       "type": "faq-section",
-      "title": "Essential Information for Your Visit",
+      "title": {
+        "en": "Essential Information for Your Visit",
+        "de": "Wichtige Informationen für Ihren Besuch",
+        "fr": "Informations Essentielles pour Votre Visite",
+        "it": "Informazioni Essenziali per la Vostra Visita"
+      },
       "faqs": [
         {
-          "question": "What's the best way to travel between villages?",
-          "answer": "The regional train connects all five villages in 12 minutes total journey time, running every 15-20 minutes during peak season. For a more scenic approach, regular ferry services operate April-October, offering spectacular coastal views. Private boat charters provide the ultimate luxury experience with flexible timing and exclusive access to swimming coves."
+          "question": {
+            "en": "What's the best way to travel between villages?",
+            "de": "Was ist die beste Art, zwischen den Dörfern zu reisen?",
+            "fr": "Quel est le meilleur moyen de voyager entre les villages ?",
+            "it": "Qual è il modo migliore per viaggiare tra i borghi?"
+          },
+          "answer": {
+            "en": "The regional train connects all five villages in 12 minutes total journey time, running every 15-20 minutes during peak season. For a more scenic approach, regular ferry services operate April-October, offering spectacular coastal views. Private boat charters provide the ultimate luxury experience with flexible timing and exclusive access to swimming coves.",
+            "de": "Der Regionalzug verbindet alle fünf Dörfer in insgesamt 12 Minuten Fahrzeit und verkehrt in der Hochsaison alle 15-20 Minuten. Für einen malerischeren Ansatz verkehren von April bis Oktober regelmäßige Fährverbindungen mit spektakulären Küstenblicken. Private Bootscharter bieten das ultimative Luxuserlebnis mit flexiblen Zeiten und exklusivem Zugang zu Badebuchten.",
+            "fr": "Le train régional relie les cinq villages en 12 minutes de trajet total, circulant toutes les 15-20 minutes en haute saison. Pour une approche plus panoramique, des services de ferry réguliers fonctionnent d'avril à octobre, offrant des vues côtières spectaculaires. Les locations de bateaux privés offrent l'expérience de luxe ultime avec des horaires flexibles et un accès exclusif aux criques de baignade.",
+            "it": "Il treno regionale collega tutti e cinque i borghi in 12 minuti di viaggio totale, passando ogni 15-20 minuti in alta stagione. Per un approccio più panoramico, servizi di traghetto regolari operano da aprile a ottobre, offrendo viste costiere spettacolari. I charter privati in barca offrono l'esperienza di lusso definitiva con orari flessibili e accesso esclusivo alle calette per nuotare."
+          }
         },
         {
-          "question": "How long should I plan to stay in Cinque Terre?",
-          "answer": "Three to four days allows you to experience each village's unique character without rushing. This gives you time for hiking between villages, enjoying leisurely meals, and perhaps joining a sunset boat tour or cooking class. Many luxury travelers choose to base themselves in one village and explore the others as day trips."
+          "question": {
+            "en": "How long should I plan to stay in Cinque Terre?",
+            "de": "Wie lange sollte ich meinen Aufenthalt in den Cinque Terre planen?",
+            "fr": "Combien de temps dois-je prévoir pour séjourner aux Cinque Terre ?",
+            "it": "Quanto tempo dovrei pianificare di rimanere alle Cinque Terre?"
+          },
+          "answer": {
+            "en": "Three to four days allows you to experience each village's unique character without rushing. This gives you time for hiking between villages, enjoying leisurely meals, and perhaps joining a sunset boat tour or cooking class. Many luxury travelers choose to base themselves in one village and explore the others as day trips.",
+            "de": "Drei bis vier Tage ermöglichen es Ihnen, den einzigartigen Charakter jedes Dorfes ohne Eile zu erleben. So haben Sie Zeit für Wanderungen zwischen den Dörfern, gemütliche Mahlzeiten und vielleicht eine Sonnenuntergangs-Bootstour oder einen Kochkurs. Viele Luxusreisende entscheiden sich, sich in einem Dorf niederzulassen und die anderen als Tagesausflüge zu erkunden.",
+            "fr": "Trois à quatre jours vous permettent de vivre le caractère unique de chaque village sans vous presser. Cela vous donne le temps de randonner entre les villages, de profiter de repas tranquilles, et peut-être de participer à une excursion en bateau au coucher du soleil ou à un cours de cuisine. De nombreux voyageurs de luxe choisissent de s'installer dans un village et d'explorer les autres lors d'excursions d'une journée.",
+            "it": "Tre o quattro giorni vi permettono di vivere il carattere unico di ogni borgo senza fretta. Questo vi dà tempo per escursioni tra i borghi, pasti tranquilli, e magari un tour in barca al tramonto o un corso di cucina. Molti viaggiatori di lusso scelgono di stabilirsi in un borgo ed esplorare gli altri come gite giornaliere."
+          }
         },
         {
-          "question": "What makes each village special?",
-          "answer": "Monterosso offers the only substantial beach and luxury hotels. Vernazza provides the most dramatic harbor setting and excellent restaurants. Corniglia sits highest on the cliffs with stunning panoramic views. Manarola delivers the classic postcard scenery and famous Via dell'Amore. Riomaggiore combines authentic fishing village atmosphere with excellent wine bars."
+          "question": {
+            "en": "What makes each village special?",
+            "de": "Was macht jedes Dorf besonders?",
+            "fr": "Qu'est-ce qui rend chaque village spécial ?",
+            "it": "Cosa rende speciale ogni borgo?"
+          },
+          "answer": {
+            "en": "Monterosso offers the only substantial beach and luxury hotels. Vernazza provides the most dramatic harbor setting and excellent restaurants. Corniglia sits highest on the cliffs with stunning panoramic views. Manarola delivers the classic postcard scenery and famous Via dell'Amore. Riomaggiore combines authentic fishing village atmosphere with excellent wine bars.",
+            "de": "Monterosso bietet den einzigen nennenswerten Strand und Luxushotels. Vernazza bietet die dramatischste Hafenkulisse und ausgezeichnete Restaurants. Corniglia liegt am höchsten auf den Klippen mit atemberaubenden Panoramablicken. Manarola liefert die klassische Postkartenlandschaft und die berühmte Via dell'Amore. Riomaggiore verbindet authentische Fischerdorfatmosphäre mit ausgezeichneten Weinbars.",
+            "fr": "Monterosso offre la seule plage substantielle et des hôtels de luxe. Vernazza propose le cadre portuaire le plus spectaculaire et d'excellents restaurants. Corniglia est perché le plus haut sur les falaises avec des vues panoramiques époustouflantes. Manarola offre le paysage de carte postale classique et la célèbre Via dell'Amore. Riomaggiore combine l'atmosphère authentique d'un village de pêcheurs avec d'excellents bars à vin.",
+            "it": "Monterosso offre l'unica spiaggia sostanziale e hotel di lusso. Vernazza offre l'ambientazione portuale più drammatica ed eccellenti ristoranti. Corniglia si trova più in alto sulle scogliere con viste panoramiche mozzafiato. Manarola offre il classico paesaggio da cartolina e la famosa Via dell'Amore. Riomaggiore combina l'autentica atmosfera di villaggio di pescatori con eccellenti wine bar."
+          }
         },
         {
-          "question": "Is hiking necessary to enjoy Cinque Terre?",
-          "answer": "Absolutely not. While the coastal trails offer incredible experiences, you can thoroughly enjoy each village by train, boat, or car service. Many luxury visitors prefer leisurely exploration—savoring local wines, dining at seaside restaurants, and enjoying the Mediterranean pace of life without strenuous hiking."
+          "question": {
+            "en": "Is hiking necessary to enjoy Cinque Terre?",
+            "de": "Ist Wandern notwendig, um die Cinque Terre zu genießen?",
+            "fr": "La randonnée est-elle nécessaire pour profiter des Cinque Terre ?",
+            "it": "È necessario fare escursioni per godersi le Cinque Terre?"
+          },
+          "answer": {
+            "en": "Absolutely not. While the coastal trails offer incredible experiences, you can thoroughly enjoy each village by train, boat, or car service. Many luxury visitors prefer leisurely exploration—savoring local wines, dining at seaside restaurants, and enjoying the Mediterranean pace of life without strenuous hiking.",
+            "de": "Absolut nicht. Während die Küstenwege unglaubliche Erlebnisse bieten, können Sie jedes Dorf mit Zug, Boot oder Autoservice genießen. Viele Luxusbesucher bevorzugen gemütliche Erkundungen – lokale Weine genießen, in Restaurants am Meer speisen und den mediterranen Lebensrhythmus ohne anstrengende Wanderungen erleben.",
+            "fr": "Absolument pas. Bien que les sentiers côtiers offrent des expériences incroyables, vous pouvez pleinement profiter de chaque village en train, en bateau ou en service de voiture. De nombreux visiteurs de luxe préfèrent une exploration tranquille – savourer les vins locaux, dîner dans des restaurants en bord de mer et profiter du rythme de vie méditerranéen sans randonnée fatigante.",
+            "it": "Assolutamente no. Mentre i sentieri costieri offrono esperienze incredibili, potete godere appieno di ogni borgo in treno, barca o servizio auto. Molti visitatori di lusso preferiscono un'esplorazione tranquilla – assaporando vini locali, cenando in ristoranti sul mare e godendo del ritmo di vita mediterraneo senza escursioni faticose."
+          }
         },
         {
-          "question": "When should I avoid visiting?",
-          "answer": "July and August bring intense heat and maximum crowds, making dining reservations and comfortable movement challenging. November through March sees many restaurants and services closed, though this can appeal to travelers seeking solitude and authentic winter village life."
+          "question": {
+            "en": "When should I avoid visiting?",
+            "de": "Wann sollte ich einen Besuch vermeiden?",
+            "fr": "Quand dois-je éviter de visiter ?",
+            "it": "Quando dovrei evitare di visitare?"
+          },
+          "answer": {
+            "en": "July and August bring intense heat and maximum crowds, making dining reservations and comfortable movement challenging. November through March sees many restaurants and services closed, though this can appeal to travelers seeking solitude and authentic winter village life.",
+            "de": "Juli und August bringen intensive Hitze und maximale Menschenmassen, was Restaurantreservierungen und bequemes Fortbewegen erschwert. Von November bis März sind viele Restaurants und Dienstleistungen geschlossen, obwohl dies Reisende ansprechen kann, die Einsamkeit und authentisches Winterdorfleben suchen.",
+            "fr": "Juillet et août apportent une chaleur intense et une foule maximale, rendant les réservations de restaurants et les déplacements confortables difficiles. De novembre à mars, de nombreux restaurants et services sont fermés, bien que cela puisse plaire aux voyageurs recherchant la solitude et la vie authentique d'un village en hiver.",
+            "it": "Luglio e agosto portano caldo intenso e massima affluenza, rendendo difficili le prenotazioni ai ristoranti e gli spostamenti comodi. Da novembre a marzo molti ristoranti e servizi sono chiusi, sebbene questo possa attrarre viaggiatori in cerca di solitudine e autentica vita invernale di borgo."
+          }
         },
         {
-          "question": "What luxury accommodations are available?",
-          "answer": "While Cinque Terre prioritizes authentic character over resort-style luxury, you'll find beautifully renovated boutique properties, historic villas, and sophisticated B&Bs. Many feature terraces overlooking the Mediterranean, locally-sourced breakfast, and personalized concierge services for activities and dining reservations."
+          "question": {
+            "en": "What luxury accommodations are available?",
+            "de": "Welche Luxusunterkünfte sind verfügbar?",
+            "fr": "Quels hébergements de luxe sont disponibles ?",
+            "it": "Quali alloggi di lusso sono disponibili?"
+          },
+          "answer": {
+            "en": "While Cinque Terre prioritizes authentic character over resort-style luxury, you'll find beautifully renovated boutique properties, historic villas, and sophisticated B&Bs. Many feature terraces overlooking the Mediterranean, locally-sourced breakfast, and personalized concierge services for activities and dining reservations.",
+            "de": "Während die Cinque Terre authentischen Charakter über Resort-Luxus stellen, finden Sie wunderschön renovierte Boutique-Unterkünfte, historische Villen und anspruchsvolle B&Bs. Viele bieten Terrassen mit Blick auf das Mittelmeer, Frühstück aus lokalen Produkten und persönlichen Concierge-Service für Aktivitäten und Restaurantreservierungen.",
+            "fr": "Bien que les Cinque Terre privilégient le caractère authentique au luxe de type resort, vous trouverez de superbes propriétés boutique rénovées, des villas historiques et des B&B sophistiqués. Beaucoup offrent des terrasses surplombant la Méditerranée, un petit-déjeuner de produits locaux et des services de conciergerie personnalisés pour les activités et les réservations de restaurants.",
+            "it": "Mentre le Cinque Terre privilegiano il carattere autentico rispetto al lusso da resort, troverete splendide proprietà boutique ristrutturate, ville storiche e B&B sofisticati. Molti offrono terrazze con vista sul Mediterraneo, colazione a km zero e servizi di concierge personalizzati per attività e prenotazioni ai ristoranti."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Begin Your Cinque Terre Journey",
-      "content": "Let us curate an authentic Italian coastal experience that honors both luxury and tradition.",
+      "title": {
+        "en": "Begin Your Cinque Terre Journey",
+        "de": "Beginnen Sie Ihre Cinque Terre Reise",
+        "fr": "Commencez Votre Voyage aux Cinque Terre",
+        "it": "Iniziate il Vostro Viaggio alle Cinque Terre"
+      },
+      "content": {
+        "en": "Let us curate an authentic Italian coastal experience that honors both luxury and tradition.",
+        "de": "Lassen Sie uns ein authentisches italienisches Küstenerlebnis kuratieren, das sowohl Luxus als auch Tradition würdigt.",
+        "fr": "Laissez-nous créer une expérience côtière italienne authentique qui honore à la fois le luxe et la tradition.",
+        "it": "Lasciateci curare un'esperienza costiera italiana autentica che onori sia il lusso che la tradizione."
+      },
       "primaryButton": {
-        "text": "Start Planning Your Visit",
+        "text": {
+          "en": "Start Planning Your Visit",
+          "de": "Planen Sie Ihren Besuch",
+          "fr": "Commencez à Planifier Votre Visite",
+          "it": "Iniziate a Pianificare la Vostra Visita"
+        },
         "url": "/en/team"
       },
       "secondaryButton": {
-        "text": "Download Village Guide",
+        "text": {
+          "en": "Download Village Guide",
+          "de": "Dorfführer herunterladen",
+          "fr": "Télécharger le Guide des Villages",
+          "it": "Scarica la Guida dei Borghi"
+        },
         "url": "/en/cinque-terre"
       }
     }
@@ -142,5 +365,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2025-12-16T10:54:17.180Z"
+  "updated_at": "2026-01-08T00:00:00.000Z"
 }

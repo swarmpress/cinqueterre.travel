@@ -7,36 +7,90 @@
     "it": "/it/monterosso/boat-tours"
   },
   "title": {
-    "en": "Boat Tours from Monterosso | Cinque Terre Dispatch"
+    "en": "Boat Tours from Monterosso | Cinque Terre Dispatch",
+    "de": "Bootstouren ab Monterosso | Cinque Terre Dispatch",
+    "fr": "Excursions en bateau depuis Monterosso | Cinque Terre Dispatch",
+    "it": "Escursioni in barca da Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "boat-tours",
   "seo": {
     "title": {
-      "en": "Boat Tours from Monterosso | Cinque Terre Dispatch"
+      "en": "Boat Tours from Monterosso | Cinque Terre Dispatch",
+      "de": "Bootstouren ab Monterosso | Cinque Terre Dispatch",
+      "fr": "Excursions en bateau depuis Monterosso | Cinque Terre Dispatch",
+      "it": "Escursioni in barca da Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Monterosso's protected harbor offers the most departure options, the calmest boarding conditions, and views of Il Gigante that can only be appreciated from the water."
+      "en": "Monterosso's protected harbor offers the most departure options, the calmest boarding conditions, and views of Il Gigante that can only be appreciated from the water.",
+      "de": "Monterossos geschützter Hafen bietet die meisten Abfahrtsoptionen, die ruhigsten Einstiegsbedingungen und Blicke auf den Giganten, die nur vom Wasser aus richtig zur Geltung kommen.",
+      "fr": "Le port protégé de Monterosso offre le plus d'options de départ, les conditions d'embarquement les plus calmes et des vues sur Il Gigante qu'on ne peut apprécier que depuis l'eau.",
+      "it": "Il porto protetto di Monterosso offre il maggior numero di partenze, le condizioni di imbarco più tranquille e viste del Gigante che si possono apprezzare solo dall'acqua."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Where the<br/>Fleet Gathers",
-      "subtitle": "Monterosso's harbor has sheltered boats for a millennium. Today, the largest fleet in Cinque Terre departs from here—offering more tours, more schedules, and calmer conditions than anywhere else on this coast.",
-      "badge": "Boat Tours",
+      "title": {
+        "en": "Where the<br/>Fleet Gathers",
+        "de": "Wo sich die<br/>Flotte versammelt",
+        "fr": "Là où la<br/>flotte se rassemble",
+        "it": "Dove la<br/>flotta si raduna"
+      },
+      "subtitle": {
+        "en": "Monterosso's harbor has sheltered boats for a millennium. Today, the largest fleet in Cinque Terre departs from here—offering more tours, more schedules, and calmer conditions than anywhere else on this coast.",
+        "de": "Monterossos Hafen hat seit einem Jahrtausend Boote geschützt. Heute startet hier die größte Flotte der Cinque Terre – mit mehr Touren, mehr Abfahrtszeiten und ruhigeren Bedingungen als irgendwo sonst an dieser Küste.",
+        "fr": "Le port de Monterosso abrite des bateaux depuis un millénaire. Aujourd'hui, la plus grande flotte des Cinque Terre part d'ici – offrant plus d'excursions, plus d'horaires et des conditions plus calmes que partout ailleurs sur cette côte.",
+        "it": "Il porto di Monterosso ha ospitato barche per un millennio. Oggi, la flotta più grande delle Cinque Terre parte da qui – offrendo più tour, più orari e condizioni più calme di qualsiasi altro luogo su questa costa."
+      },
+      "badge": {
+        "en": "Boat Tours",
+        "de": "Bootstouren",
+        "fr": "Excursions en bateau",
+        "it": "Escursioni in barca"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Monterosso Advantage",
-      "quote": "Every village offers boat tours. But Monterosso's larger harbor means more boats, more operators, more competition. The result: better options, better prices, and better odds of finding a departure that fits your schedule.",
-      "content": [
-        "**The harbor protects**. Monterosso's natural bay creates the calmest boarding conditions in Cinque Terre. While other villages cancel for chop, Monterosso boats often still run. The protection that attracted medieval traders now serves modern tourists.",
-        "**The Giant from the water**. Il Gigante's broken form makes most sense from the sea—you see the scale of the original villa, understand why someone would carve Neptune from cliff stone. Land views miss the drama.",
-        "**Southern perspective**. Departing from Monterosso means seeing the coastline as the first settlers did—approaching from the north, watching the villages reveal themselves in sequence. It's the natural direction.",
-        "**Return convenience**. When your boat returns to Monterosso, you return to beaches, restaurants, and facilities that other villages can't match. The post-tour gelato is better here."
-      ]
+      "badge": {
+        "en": "The Monterosso Advantage",
+        "de": "Der Monterosso-Vorteil",
+        "fr": "L'avantage de Monterosso",
+        "it": "Il vantaggio di Monterosso"
+      },
+      "quote": {
+        "en": "Every village offers boat tours. But Monterosso's larger harbor means more boats, more operators, more competition. The result: better options, better prices, and better odds of finding a departure that fits your schedule.",
+        "de": "Jedes Dorf bietet Bootstouren an. Aber Monterossos größerer Hafen bedeutet mehr Boote, mehr Anbieter, mehr Wettbewerb. Das Ergebnis: bessere Optionen, bessere Preise und bessere Chancen, eine Abfahrt zu finden, die in Ihren Zeitplan passt.",
+        "fr": "Chaque village propose des excursions en bateau. Mais le plus grand port de Monterosso signifie plus de bateaux, plus d'opérateurs, plus de concurrence. Le résultat : de meilleures options, de meilleurs prix et de meilleures chances de trouver un départ qui correspond à votre emploi du temps.",
+        "it": "Ogni borgo offre tour in barca. Ma il porto più grande di Monterosso significa più barche, più operatori, più concorrenza. Il risultato: migliori opzioni, prezzi migliori e maggiori probabilità di trovare una partenza adatta ai vostri orari."
+      },
+      "content": {
+        "en": [
+          "**The harbor protects**. Monterosso's natural bay creates the calmest boarding conditions in Cinque Terre. While other villages cancel for chop, Monterosso boats often still run. The protection that attracted medieval traders now serves modern tourists.",
+          "**The Giant from the water**. Il Gigante's broken form makes most sense from the sea—you see the scale of the original villa, understand why someone would carve Neptune from cliff stone. Land views miss the drama.",
+          "**Southern perspective**. Departing from Monterosso means seeing the coastline as the first settlers did—approaching from the north, watching the villages reveal themselves in sequence. It's the natural direction.",
+          "**Return convenience**. When your boat returns to Monterosso, you return to beaches, restaurants, and facilities that other villages can't match. The post-tour gelato is better here."
+        ],
+        "de": [
+          "**Der Hafen schützt**. Monterossos natürliche Bucht schafft die ruhigsten Einstiegsbedingungen in den Cinque Terre. Während andere Dörfer bei Wellengang absagen, fahren Monterossos Boote oft noch. Der Schutz, der mittelalterliche Händler anzog, dient heute modernen Touristen.",
+          "**Der Gigant vom Wasser aus**. Die gebrochene Form des Giganten ergibt vom Meer aus am meisten Sinn – man sieht das Ausmaß der ursprünglichen Villa, versteht, warum jemand Neptun aus Klippen meißeln würde. Landansichten verpassen das Drama.",
+          "**Südliche Perspektive**. Von Monterosso aus zu starten bedeutet, die Küste zu sehen wie die ersten Siedler – von Norden kommend, beobachtend, wie sich die Dörfer nacheinander enthüllen. Es ist die natürliche Richtung.",
+          "**Bequeme Rückkehr**. Wenn Ihr Boot nach Monterosso zurückkehrt, kehren Sie zu Stränden, Restaurants und Einrichtungen zurück, die andere Dörfer nicht bieten können. Das Gelato nach der Tour ist hier besser."
+        ],
+        "fr": [
+          "**Le port protège**. La baie naturelle de Monterosso crée les conditions d'embarquement les plus calmes des Cinque Terre. Alors que d'autres villages annulent pour cause de houle, les bateaux de Monterosso naviguent souvent encore. La protection qui attirait les marchands médiévaux sert maintenant les touristes modernes.",
+          "**Le Géant depuis l'eau**. La forme brisée du Géant prend tout son sens depuis la mer – on voit l'échelle de la villa originale, on comprend pourquoi quelqu'un a sculpté Neptune dans la falaise. Les vues terrestres manquent le spectacle.",
+          "**Perspective méridionale**. Partir de Monterosso signifie voir la côte comme les premiers colons – arrivant du nord, regardant les villages se révéler en séquence. C'est la direction naturelle.",
+          "**Retour pratique**. Quand votre bateau revient à Monterosso, vous retrouvez des plages, des restaurants et des commodités que les autres villages ne peuvent égaler. La glace d'après-excursion est meilleure ici."
+        ],
+        "it": [
+          "**Il porto protegge**. La baia naturale di Monterosso crea le condizioni di imbarco più calme delle Cinque Terre. Mentre altri borghi cancellano per il mare mosso, le barche di Monterosso spesso navigano ancora. La protezione che attraeva i mercanti medievali ora serve i turisti moderni.",
+          "**Il Gigante dall'acqua**. La forma spezzata del Gigante ha più senso dal mare – si vede la scala della villa originale, si capisce perché qualcuno avrebbe scolpito Nettuno dalla roccia. Le viste da terra perdono il dramma.",
+          "**Prospettiva meridionale**. Partire da Monterosso significa vedere la costa come i primi coloni – avvicinandosi da nord, guardando i borghi rivelarsi in sequenza. È la direzione naturale.",
+          "**Ritorno comodo**. Quando la barca torna a Monterosso, tornate a spiagge, ristoranti e servizi che gli altri borghi non possono eguagliare. Il gelato dopo il tour è migliore qui."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,61 +98,211 @@
       "items": [
         {
           "id": 1,
-          "name": "Five Villages Coastline",
-          "category": "Classic Tour",
+          "name": {
+            "en": "Five Villages Coastline",
+            "de": "Küste der fünf Dörfer",
+            "fr": "Côte des cinq villages",
+            "it": "Costa dei cinque borghi"
+          },
+          "category": {
+            "en": "Classic Tour",
+            "de": "Klassische Tour",
+            "fr": "Excursion classique",
+            "it": "Tour classico"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The complete UNESCO coast from the best starting point—all five villages revealed in their maritime context.",
-          "description": "A 2-3 hour journey passing every village, with Monterosso's harbor providing the smoothest departure. You'll see Il Gigante from sea level, watch the terraces climb impossible hillsides, understand why these villages could only exist on this specific coast. Swimming stops at hidden coves break the journey.",
-          "giuliaComment": "Starting from Monterosso means you see the villages in proper sequence—from largest to smallest, from beach to cliff. The drama builds as you go south. By the time you reach Riomaggiore, you understand the whole coast.",
-          "signature": "The complete perspective",
-          "practicalInfo": "Daily departures 9am, 11am, 2pm. Book morning for calmer water. Swimming gear required. Duration 2.5-3 hours."
+          "intro": {
+            "en": "The complete UNESCO coast from the best starting point—all five villages revealed in their maritime context.",
+            "de": "Die komplette UNESCO-Küste vom besten Ausgangspunkt – alle fünf Dörfer in ihrem maritimen Kontext enthüllt.",
+            "fr": "La côte UNESCO complète depuis le meilleur point de départ – les cinq villages révélés dans leur contexte maritime.",
+            "it": "La costa UNESCO completa dal miglior punto di partenza – tutti e cinque i borghi rivelati nel loro contesto marittimo."
+          },
+          "description": {
+            "en": "A 2-3 hour journey passing every village, with Monterosso's harbor providing the smoothest departure. You'll see Il Gigante from sea level, watch the terraces climb impossible hillsides, understand why these villages could only exist on this specific coast. Swimming stops at hidden coves break the journey.",
+            "de": "Eine 2-3-stündige Fahrt vorbei an jedem Dorf, wobei Monterossos Hafen die sanfteste Abfahrt bietet. Sie sehen den Giganten vom Meeresspiegel aus, beobachten die Terrassen, die unmögliche Hänge erklimmen, verstehen, warum diese Dörfer nur an dieser speziellen Küste existieren konnten. Badestopps in versteckten Buchten unterbrechen die Fahrt.",
+            "fr": "Un voyage de 2-3 heures passant par chaque village, le port de Monterosso offrant le départ le plus doux. Vous verrez Il Gigante au niveau de la mer, regarderez les terrasses grimper des pentes impossibles, comprendrez pourquoi ces villages ne pouvaient exister que sur cette côte précise. Des arrêts baignade dans des criques cachées ponctuent le voyage.",
+            "it": "Un viaggio di 2-3 ore passando per ogni borgo, con il porto di Monterosso che offre la partenza più dolce. Vedrete il Gigante dal livello del mare, guarderete le terrazze arrampicarsi su pendii impossibili, capirete perché questi borghi potevano esistere solo su questa costa specifica. Soste per nuotare in calette nascoste spezzano il viaggio."
+          },
+          "giuliaComment": {
+            "en": "Starting from Monterosso means you see the villages in proper sequence—from largest to smallest, from beach to cliff. The drama builds as you go south. By the time you reach Riomaggiore, you understand the whole coast.",
+            "de": "Von Monterosso aus zu starten bedeutet, die Dörfer in der richtigen Reihenfolge zu sehen – vom größten zum kleinsten, vom Strand zur Klippe. Das Drama steigert sich, je weiter Sie nach Süden kommen. Wenn Sie Riomaggiore erreichen, verstehen Sie die ganze Küste.",
+            "fr": "Partir de Monterosso signifie voir les villages dans le bon ordre – du plus grand au plus petit, de la plage à la falaise. Le spectacle s'intensifie vers le sud. Quand vous atteignez Riomaggiore, vous comprenez toute la côte.",
+            "it": "Partire da Monterosso significa vedere i borghi nella sequenza corretta – dal più grande al più piccolo, dalla spiaggia alla scogliera. Il dramma cresce andando verso sud. Quando raggiungete Riomaggiore, capite tutta la costa."
+          },
+          "signature": {
+            "en": "The complete perspective",
+            "de": "Die vollständige Perspektive",
+            "fr": "La perspective complète",
+            "it": "La prospettiva completa"
+          },
+          "practicalInfo": {
+            "en": "Daily departures 9am, 11am, 2pm. Book morning for calmer water. Swimming gear required. Duration 2.5-3 hours.",
+            "de": "Tägliche Abfahrten 9 Uhr, 11 Uhr, 14 Uhr. Morgens buchen für ruhigeres Wasser. Badeausrüstung erforderlich. Dauer 2,5-3 Stunden.",
+            "fr": "Départs quotidiens à 9h, 11h, 14h. Réservez le matin pour une mer plus calme. Équipement de natation requis. Durée 2h30-3h.",
+            "it": "Partenze giornaliere alle 9, 11, 14. Prenotate la mattina per acque più calme. Attrezzatura da nuoto necessaria. Durata 2,5-3 ore."
+          }
         },
         {
           "id": 2,
-          "name": "Sunset from the Giant",
-          "category": "Evening Experience",
+          "name": {
+            "en": "Sunset from the Giant",
+            "de": "Sonnenuntergang beim Giganten",
+            "fr": "Coucher de soleil depuis le Géant",
+            "it": "Tramonto dal Gigante"
+          },
+          "category": {
+            "en": "Evening Experience",
+            "de": "Abenderlebnis",
+            "fr": "Expérience en soirée",
+            "it": "Esperienza serale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Watching the sun set behind Il Gigante's silhouette—the Mediterranean turning gold, the broken statue becoming shadow.",
-          "description": "A 2-hour evening cruise positioned specifically for Monterosso's unique sunset angles. Watch the Giant become silhouette as the sun descends behind the headland. Prosecco and local appetizers accompany the transition from golden hour to twilight. Return to Monterosso's harbor as the village lights awaken.",
-          "giuliaComment": "The Giant at sunset is otherworldly. That broken form against the gold sky—it's tragic and beautiful simultaneously. This tour exists because someone realized the unique angle Monterosso offers. It's worth every euro.",
-          "signature": "When ruins become romantic",
-          "practicalInfo": "Departure times vary with season (typically 6pm-7pm). Book 48 hours ahead in summer. Bring layers for evening coolness."
+          "intro": {
+            "en": "Watching the sun set behind Il Gigante's silhouette—the Mediterranean turning gold, the broken statue becoming shadow.",
+            "de": "Beobachten Sie, wie die Sonne hinter der Silhouette des Giganten untergeht – das Mittelmeer wird golden, die gebrochene Statue wird zum Schatten.",
+            "fr": "Regarder le soleil se coucher derrière la silhouette du Géant – la Méditerranée devenant dorée, la statue brisée devenant ombre.",
+            "it": "Guardare il sole tramontare dietro la sagoma del Gigante – il Mediterraneo che diventa d'oro, la statua spezzata che diventa ombra."
+          },
+          "description": {
+            "en": "A 2-hour evening cruise positioned specifically for Monterosso's unique sunset angles. Watch the Giant become silhouette as the sun descends behind the headland. Prosecco and local appetizers accompany the transition from golden hour to twilight. Return to Monterosso's harbor as the village lights awaken.",
+            "de": "Eine 2-stündige Abendkreuzfahrt, speziell positioniert für Monterossos einzigartige Sonnenuntergangswinkel. Beobachten Sie, wie der Gigant zur Silhouette wird, während die Sonne hinter dem Kap untergeht. Prosecco und lokale Vorspeisen begleiten den Übergang von der goldenen Stunde zur Dämmerung. Rückkehr in Monterossos Hafen, wenn die Dorflichter erwachen.",
+            "fr": "Une croisière de 2 heures en soirée positionnée spécifiquement pour les angles de coucher de soleil uniques de Monterosso. Regardez le Géant devenir silhouette alors que le soleil descend derrière le promontoire. Prosecco et antipasti locaux accompagnent la transition de l'heure dorée au crépuscule. Retour au port de Monterosso quand les lumières du village s'éveillent.",
+            "it": "Una crociera serale di 2 ore posizionata specificamente per gli angoli unici del tramonto di Monterosso. Guardate il Gigante diventare silhouette mentre il sole scende dietro il promontorio. Prosecco e stuzzichini locali accompagnano la transizione dall'ora d'oro al crepuscolo. Ritorno al porto di Monterosso quando le luci del borgo si accendono."
+          },
+          "giuliaComment": {
+            "en": "The Giant at sunset is otherworldly. That broken form against the gold sky—it's tragic and beautiful simultaneously. This tour exists because someone realized the unique angle Monterosso offers. It's worth every euro.",
+            "de": "Der Gigant bei Sonnenuntergang ist überirdisch. Diese gebrochene Form gegen den goldenen Himmel – es ist tragisch und schön zugleich. Diese Tour existiert, weil jemand den einzigartigen Winkel erkannte, den Monterosso bietet. Jeden Euro wert.",
+            "fr": "Le Géant au coucher du soleil est surnaturel. Cette forme brisée contre le ciel doré – c'est tragique et beau simultanément. Cette excursion existe parce que quelqu'un a réalisé l'angle unique qu'offre Monterosso. Ça vaut chaque euro.",
+            "it": "Il Gigante al tramonto è ultraterreno. Quella forma spezzata contro il cielo d'oro – è tragico e bello allo stesso tempo. Questo tour esiste perché qualcuno ha capito l'angolo unico che Monterosso offre. Vale ogni euro."
+          },
+          "signature": {
+            "en": "When ruins become romantic",
+            "de": "Wenn Ruinen romantisch werden",
+            "fr": "Quand les ruines deviennent romantiques",
+            "it": "Quando le rovine diventano romantiche"
+          },
+          "practicalInfo": {
+            "en": "Departure times vary with season (typically 6pm-7pm). Book 48 hours ahead in summer. Bring layers for evening coolness.",
+            "de": "Abfahrtszeiten variieren je nach Saison (typischerweise 18-19 Uhr). Im Sommer 48 Stunden im Voraus buchen. Schichten für abendliche Kühle mitbringen.",
+            "fr": "Les heures de départ varient selon la saison (généralement 18h-19h). Réservez 48 heures à l'avance en été. Apportez des couches pour la fraîcheur du soir.",
+            "it": "Gli orari di partenza variano con la stagione (tipicamente 18-19). Prenotate 48 ore prima in estate. Portate strati per la frescura serale."
+          }
         },
         {
           "id": 3,
-          "name": "Private Beach Hopping",
-          "category": "Exclusive Experience",
+          "name": {
+            "en": "Private Beach Hopping",
+            "de": "Private Strandhopping-Tour",
+            "fr": "Découverte privée des plages",
+            "it": "Tour privato delle spiagge"
+          },
+          "category": {
+            "en": "Exclusive Experience",
+            "de": "Exklusives Erlebnis",
+            "fr": "Expérience exclusive",
+            "it": "Esperienza esclusiva"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Your own captain, your own schedule, secret beaches that only locals know.",
-          "description": "Charter a boat from Monterosso's harbor with a skipper who grew up on this water. He knows beaches that don't appear on maps, coves where you'll be alone, the best swimming spots for different times of day. A full day on the water, shaped entirely by your preferences.",
-          "giuliaComment": "The private charter skippers are the real treasure. These are fishing families who know every rock, every current, every secret. Tell them what you want—quiet, adventure, swimming, photography—and they'll design the perfect day.",
-          "signature": "The sea on your terms",
-          "practicalInfo": "Half-day from €450, full-day from €800. Includes equipment, drinks, snacks. Book 1 week ahead for peak season."
+          "intro": {
+            "en": "Your own captain, your own schedule, secret beaches that only locals know.",
+            "de": "Ihr eigener Kapitän, Ihr eigener Zeitplan, geheime Strände, die nur Einheimische kennen.",
+            "fr": "Votre propre capitaine, votre propre emploi du temps, des plages secrètes que seuls les locaux connaissent.",
+            "it": "Il vostro capitano, i vostri orari, spiagge segrete che solo i locali conoscono."
+          },
+          "description": {
+            "en": "Charter a boat from Monterosso's harbor with a skipper who grew up on this water. He knows beaches that don't appear on maps, coves where you'll be alone, the best swimming spots for different times of day. A full day on the water, shaped entirely by your preferences.",
+            "de": "Chartern Sie ein Boot aus Monterossos Hafen mit einem Skipper, der auf diesem Wasser aufgewachsen ist. Er kennt Strände, die auf keiner Karte erscheinen, Buchten, wo Sie allein sein werden, die besten Badestellen für verschiedene Tageszeiten. Ein ganzer Tag auf dem Wasser, ganz nach Ihren Wünschen gestaltet.",
+            "fr": "Affrétez un bateau depuis le port de Monterosso avec un skipper qui a grandi sur cette eau. Il connaît des plages qui n'apparaissent sur aucune carte, des criques où vous serez seuls, les meilleurs spots de baignade selon les heures. Une journée entière sur l'eau, façonnée entièrement selon vos préférences.",
+            "it": "Noleggiate una barca dal porto di Monterosso con uno skipper cresciuto su queste acque. Conosce spiagge che non appaiono sulle mappe, calette dove sarete soli, i migliori posti per nuotare in diversi momenti della giornata. Un'intera giornata sull'acqua, modellata interamente sulle vostre preferenze."
+          },
+          "giuliaComment": {
+            "en": "The private charter skippers are the real treasure. These are fishing families who know every rock, every current, every secret. Tell them what you want—quiet, adventure, swimming, photography—and they'll design the perfect day.",
+            "de": "Die privaten Charter-Skipper sind der wahre Schatz. Das sind Fischerfamilien, die jeden Felsen, jede Strömung, jedes Geheimnis kennen. Sagen Sie ihnen, was Sie wollen – Ruhe, Abenteuer, Schwimmen, Fotografie – und sie gestalten den perfekten Tag.",
+            "fr": "Les skippers de charter privé sont le vrai trésor. Ce sont des familles de pêcheurs qui connaissent chaque rocher, chaque courant, chaque secret. Dites-leur ce que vous voulez – calme, aventure, baignade, photographie – et ils concevront la journée parfaite.",
+            "it": "Gli skipper delle barche private sono il vero tesoro. Sono famiglie di pescatori che conoscono ogni roccia, ogni corrente, ogni segreto. Dite loro cosa volete – tranquillità, avventura, nuoto, fotografia – e progetteranno la giornata perfetta."
+          },
+          "signature": {
+            "en": "The sea on your terms",
+            "de": "Das Meer nach Ihren Regeln",
+            "fr": "La mer selon vos termes",
+            "it": "Il mare alle vostre condizioni"
+          },
+          "practicalInfo": {
+            "en": "Half-day from €450, full-day from €800. Includes equipment, drinks, snacks. Book 1 week ahead for peak season.",
+            "de": "Halbtag ab 450 €, ganzer Tag ab 800 €. Inklusive Ausrüstung, Getränke, Snacks. In der Hochsaison 1 Woche im Voraus buchen.",
+            "fr": "Demi-journée à partir de 450 €, journée complète à partir de 800 €. Comprend équipement, boissons, collations. Réservez 1 semaine à l'avance en haute saison.",
+            "it": "Mezza giornata da 450 €, giornata intera da 800 €. Include attrezzatura, bevande, snack. Prenotate 1 settimana prima in alta stagione."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Harbor Heritage",
-          "quote": "Monterosso's harbor has sheltered boats since before anyone wrote history. The same natural protection that made it a medieval trading port now makes it Cinque Terre's most reliable departure point. When seas are rough elsewhere, Monterosso boats often still sail."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktionelles Intermezzo",
+            "fr": "Interlude éditorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Harbor Heritage",
+            "de": "Das Hafenerbe",
+            "fr": "L'héritage du port",
+            "it": "L'eredità del porto"
+          },
+          "quote": {
+            "en": "Monterosso's harbor has sheltered boats since before anyone wrote history. The same natural protection that made it a medieval trading port now makes it Cinque Terre's most reliable departure point. When seas are rough elsewhere, Monterosso boats often still sail.",
+            "de": "Monterossos Hafen hat Boote schon vor Beginn der Geschichtsschreibung geschützt. Der gleiche natürliche Schutz, der ihn zu einem mittelalterlichen Handelshafen machte, macht ihn heute zum zuverlässigsten Abfahrtspunkt der Cinque Terre. Wenn das Meer anderswo rau ist, fahren Monterossos Boote oft noch.",
+            "fr": "Le port de Monterosso abrite des bateaux depuis avant que quiconque n'écrive l'histoire. La même protection naturelle qui en faisait un port de commerce médiéval en fait aujourd'hui le point de départ le plus fiable des Cinque Terre. Quand la mer est agitée ailleurs, les bateaux de Monterosso naviguent souvent encore.",
+            "it": "Il porto di Monterosso ha ospitato barche da prima che qualcuno scrivesse la storia. La stessa protezione naturale che lo rese un porto commerciale medievale lo rende oggi il punto di partenza più affidabile delle Cinque Terre. Quando il mare è agitato altrove, le barche di Monterosso spesso navigano ancora."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Realities",
-      "quote": "Boat tours are weather-dependent, sun-intensive, and occasionally uncomfortable. Planning and preparation transform a potentially difficult experience into an unforgettable one.",
-      "content": [
-        "**Morning versus afternoon**. Morning departures encounter calmer seas and clearer visibility. Afternoon tours offer warmer water for swimming but choppier conditions. Evening tours trade swimming for atmosphere.",
-        "**The ferry alternative**. Regular ferries connect villages for a fraction of tour prices. No swimming stops, no commentary, but the sea perspective at budget rates. From Monterosso, ferries reach all other villages.",
-        "**Sea conditions check**. Look at the harbor before booking. If waves are breaking at the entrance, afternoon tours might cancel. The Mediterranean can shift from calm to rough in hours.",
-        "**Sun protection is serious**. Water reflects UV. Two hours on a boat delivers more sun exposure than a full beach day. Apply protection before boarding, reapply at stops, wear a hat that won't blow off."
-      ]
+      "badge": {
+        "en": "Practical Realities",
+        "de": "Praktische Realitäten",
+        "fr": "Réalités pratiques",
+        "it": "Realtà pratiche"
+      },
+      "quote": {
+        "en": "Boat tours are weather-dependent, sun-intensive, and occasionally uncomfortable. Planning and preparation transform a potentially difficult experience into an unforgettable one.",
+        "de": "Bootstouren sind wetterabhängig, sonnenintensiv und gelegentlich unbequem. Planung und Vorbereitung verwandeln ein potenziell schwieriges Erlebnis in ein unvergessliches.",
+        "fr": "Les excursions en bateau dépendent de la météo, sont très ensoleillées et parfois inconfortables. La planification et la préparation transforment une expérience potentiellement difficile en une expérience inoubliable.",
+        "it": "I tour in barca dipendono dal tempo, sono molto soleggiati e occasionalmente scomodi. Pianificazione e preparazione trasformano un'esperienza potenzialmente difficile in una indimenticabile."
+      },
+      "content": {
+        "en": [
+          "**Morning versus afternoon**. Morning departures encounter calmer seas and clearer visibility. Afternoon tours offer warmer water for swimming but choppier conditions. Evening tours trade swimming for atmosphere.",
+          "**The ferry alternative**. Regular ferries connect villages for a fraction of tour prices. No swimming stops, no commentary, but the sea perspective at budget rates. From Monterosso, ferries reach all other villages.",
+          "**Sea conditions check**. Look at the harbor before booking. If waves are breaking at the entrance, afternoon tours might cancel. The Mediterranean can shift from calm to rough in hours.",
+          "**Sun protection is serious**. Water reflects UV. Two hours on a boat delivers more sun exposure than a full beach day. Apply protection before boarding, reapply at stops, wear a hat that won't blow off."
+        ],
+        "de": [
+          "**Morgens versus nachmittags**. Morgendliche Abfahrten bieten ruhigere See und bessere Sicht. Nachmittagstouren bieten wärmeres Wasser zum Schwimmen, aber unruhigere Bedingungen. Abendtouren tauschen Schwimmen gegen Atmosphäre.",
+          "**Die Fähren-Alternative**. Regelmäßige Fähren verbinden die Dörfer zu einem Bruchteil der Tourpreise. Keine Badestopps, kein Kommentar, aber die Meersperspektive zu günstigen Preisen. Von Monterosso erreichen Fähren alle anderen Dörfer.",
+          "**Seebedingungen prüfen**. Schauen Sie sich den Hafen an, bevor Sie buchen. Wenn Wellen am Eingang brechen, könnten Nachmittagstouren abgesagt werden. Das Mittelmeer kann innerhalb von Stunden von ruhig zu rau wechseln.",
+          "**Sonnenschutz ist ernst**. Wasser reflektiert UV-Strahlen. Zwei Stunden auf einem Boot bringen mehr Sonneneinstrahlung als ein ganzer Strandtag. Schutz vor dem Einsteigen auftragen, bei Stopps nachcremen, einen Hut tragen, der nicht wegweht."
+        ],
+        "fr": [
+          "**Matin contre après-midi**. Les départs matinaux rencontrent des mers plus calmes et une meilleure visibilité. Les excursions de l'après-midi offrent une eau plus chaude pour nager mais des conditions plus agitées. Les excursions du soir échangent la baignade contre l'atmosphère.",
+          "**L'alternative du ferry**. Des ferries réguliers relient les villages pour une fraction du prix des excursions. Pas d'arrêts baignade, pas de commentaire, mais la perspective maritime à prix économique. Depuis Monterosso, les ferries atteignent tous les autres villages.",
+          "**Vérifier les conditions maritimes**. Regardez le port avant de réserver. Si les vagues déferlent à l'entrée, les excursions de l'après-midi pourraient être annulées. La Méditerranée peut passer du calme à l'agitation en quelques heures.",
+          "**La protection solaire est sérieuse**. L'eau réfléchit les UV. Deux heures sur un bateau exposent plus au soleil qu'une journée entière à la plage. Appliquez la protection avant l'embarquement, réappliquez aux arrêts, portez un chapeau qui ne s'envole pas."
+        ],
+        "it": [
+          "**Mattina contro pomeriggio**. Le partenze mattutine incontrano mari più calmi e visibilità migliore. I tour pomeridiani offrono acqua più calda per nuotare ma condizioni più mosse. I tour serali scambiano il nuoto per l'atmosfera.",
+          "**L'alternativa del traghetto**. Traghetti regolari collegano i borghi a una frazione del prezzo dei tour. Nessuna sosta per nuotare, nessun commento, ma la prospettiva dal mare a prezzi economici. Da Monterosso, i traghetti raggiungono tutti gli altri borghi.",
+          "**Controllare le condizioni del mare**. Guardate il porto prima di prenotare. Se le onde si infrangono all'ingresso, i tour pomeridiani potrebbero essere cancellati. Il Mediterraneo può passare dalla calma al mare mosso in poche ore.",
+          "**La protezione solare è seria**. L'acqua riflette i raggi UV. Due ore su una barca espongono al sole più di un'intera giornata in spiaggia. Applicate la protezione prima di salire a bordo, riapplicate alle soste, indossate un cappello che non voli via."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -106,50 +310,185 @@
       "items": [
         {
           "id": 4,
-          "name": "Fishing with Locals",
-          "category": "Cultural Immersion",
+          "name": {
+            "en": "Fishing with Locals",
+            "de": "Fischen mit Einheimischen",
+            "fr": "Pêche avec les locaux",
+            "it": "Pesca con i locali"
+          },
+          "category": {
+            "en": "Cultural Immersion",
+            "de": "Kulturelle Vertiefung",
+            "fr": "Immersion culturelle",
+            "it": "Immersione culturale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Join working fishermen on their morning run—the Monterosso anchovy tradition experienced firsthand.",
-          "description": "Pre-dawn departure with a family that has fished these waters for generations. Learn traditional net techniques, understand why Monterosso anchovies carry protected status, participate in the catch that might appear in restaurants that evening. Ends with breakfast featuring what you helped catch.",
-          "giuliaComment": "This is the real Monterosso—the one that exists before tourists wake up. The fishermen who offer these experiences are sharing their heritage, not performing it. Come ready to work, ready to learn, ready to appreciate why this tradition matters.",
-          "signature": "Where tourism becomes participation",
-          "practicalInfo": "Departure 5am. Full morning commitment. Not for the seasick. Book through harbor contacts only—these aren't advertised."
+          "intro": {
+            "en": "Join working fishermen on their morning run—the Monterosso anchovy tradition experienced firsthand.",
+            "de": "Begleiten Sie arbeitende Fischer auf ihrer Morgenfahrt – die Monterossoer Sardelentradition aus erster Hand erleben.",
+            "fr": "Rejoignez les pêcheurs en activité lors de leur sortie matinale – la tradition des anchois de Monterosso vécue de première main.",
+            "it": "Unitevi ai pescatori durante la loro uscita mattutina – la tradizione delle acciughe di Monterosso vissuta in prima persona."
+          },
+          "description": {
+            "en": "Pre-dawn departure with a family that has fished these waters for generations. Learn traditional net techniques, understand why Monterosso anchovies carry protected status, participate in the catch that might appear in restaurants that evening. Ends with breakfast featuring what you helped catch.",
+            "de": "Abfahrt vor Morgengrauen mit einer Familie, die seit Generationen in diesen Gewässern fischt. Lernen Sie traditionelle Netztechniken, verstehen Sie, warum Monterossos Sardellen geschützten Status haben, nehmen Sie teil am Fang, der vielleicht noch am selben Abend in Restaurants erscheint. Endet mit einem Frühstück aus dem, was Sie mitgefangen haben.",
+            "fr": "Départ avant l'aube avec une famille qui pêche dans ces eaux depuis des générations. Apprenez les techniques traditionnelles de filet, comprenez pourquoi les anchois de Monterosso ont un statut protégé, participez à la prise qui pourrait apparaître dans les restaurants le soir même. Se termine par un petit-déjeuner avec ce que vous avez aidé à pêcher.",
+            "it": "Partenza prima dell'alba con una famiglia che pesca in queste acque da generazioni. Imparate le tecniche tradizionali delle reti, capite perché le acciughe di Monterosso hanno lo status protetto, partecipate alla pesca che potrebbe apparire nei ristoranti quella sera stessa. Termina con una colazione con quello che avete aiutato a pescare."
+          },
+          "giuliaComment": {
+            "en": "This is the real Monterosso—the one that exists before tourists wake up. The fishermen who offer these experiences are sharing their heritage, not performing it. Come ready to work, ready to learn, ready to appreciate why this tradition matters.",
+            "de": "Das ist das echte Monterosso – das, das existiert, bevor die Touristen aufwachen. Die Fischer, die diese Erlebnisse anbieten, teilen ihr Erbe, sie führen es nicht auf. Kommen Sie bereit zu arbeiten, zu lernen, zu würdigen, warum diese Tradition wichtig ist.",
+            "fr": "C'est le vrai Monterosso – celui qui existe avant que les touristes ne se réveillent. Les pêcheurs qui offrent ces expériences partagent leur patrimoine, ils ne le jouent pas. Venez prêts à travailler, à apprendre, à apprécier pourquoi cette tradition compte.",
+            "it": "Questa è la vera Monterosso – quella che esiste prima che i turisti si sveglino. I pescatori che offrono queste esperienze condividono il loro patrimonio, non lo recitano. Venite pronti a lavorare, a imparare, ad apprezzare perché questa tradizione conta."
+          },
+          "signature": {
+            "en": "Where tourism becomes participation",
+            "de": "Wo Tourismus zur Teilnahme wird",
+            "fr": "Où le tourisme devient participation",
+            "it": "Dove il turismo diventa partecipazione"
+          },
+          "practicalInfo": {
+            "en": "Departure 5am. Full morning commitment. Not for the seasick. Book through harbor contacts only—these aren't advertised.",
+            "de": "Abfahrt 5 Uhr. Ganzer Vormittag erforderlich. Nichts für Seekranke. Nur über Hafenkontakte buchbar – nicht öffentlich beworben.",
+            "fr": "Départ 5h. Engagement toute la matinée. Pas pour les personnes sujettes au mal de mer. Réservation uniquement via les contacts du port – non publicisé.",
+            "it": "Partenza alle 5. Impegno per tutta la mattina. Non per chi soffre il mal di mare. Prenotate solo tramite contatti del porto – non pubblicizzato."
+          }
         },
         {
           "id": 5,
-          "name": "Snorkeling the Coves",
-          "category": "Active Experience",
+          "name": {
+            "en": "Snorkeling the Coves",
+            "de": "Schnorcheln in den Buchten",
+            "fr": "Plongée libre dans les criques",
+            "it": "Snorkeling nelle calette"
+          },
+          "category": {
+            "en": "Active Experience",
+            "de": "Aktives Erlebnis",
+            "fr": "Expérience active",
+            "it": "Esperienza attiva"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The Mediterranean below the surface—rock formations, marine life, clarity that reveals hidden worlds.",
-          "description": "A 3-hour tour focused on underwater exploration. Multiple stops at sites chosen for marine diversity and water clarity. Equipment provided, basic instruction included. The coastline that looks dramatic from above hides equally dramatic landscapes below.",
-          "giuliaComment": "People swim at the beach and think they've experienced the Mediterranean. They haven't. The real underwater world is away from harbors, at coves only boats can reach. The clarity at the right spots is almost Caribbean.",
-          "signature": "Where the surface is just the beginning",
-          "practicalInfo": "3-hour duration. Snorkel equipment included. Water confidence required. Best June-September for visibility."
+          "intro": {
+            "en": "The Mediterranean below the surface—rock formations, marine life, clarity that reveals hidden worlds.",
+            "de": "Das Mittelmeer unter der Oberfläche – Felsformationen, Meeresleben, Klarheit, die verborgene Welten enthüllt.",
+            "fr": "La Méditerranée sous la surface – formations rocheuses, vie marine, clarté qui révèle des mondes cachés.",
+            "it": "Il Mediterraneo sotto la superficie – formazioni rocciose, vita marina, limpidezza che rivela mondi nascosti."
+          },
+          "description": {
+            "en": "A 3-hour tour focused on underwater exploration. Multiple stops at sites chosen for marine diversity and water clarity. Equipment provided, basic instruction included. The coastline that looks dramatic from above hides equally dramatic landscapes below.",
+            "de": "Eine 3-stündige Tour mit Fokus auf Unterwassererkundung. Mehrere Stopps an Orten, die für ihre Meeresvielfalt und Wasserklarheit ausgewählt wurden. Ausrüstung wird gestellt, grundlegende Einweisung inklusive. Die Küstenlinie, die von oben dramatisch aussieht, verbirgt ebenso dramatische Landschaften darunter.",
+            "fr": "Une excursion de 3 heures axée sur l'exploration sous-marine. Plusieurs arrêts à des sites choisis pour leur diversité marine et la clarté de l'eau. Équipement fourni, instruction de base incluse. La côte qui semble spectaculaire d'en haut cache des paysages tout aussi spectaculaires en dessous.",
+            "it": "Un tour di 3 ore incentrato sull'esplorazione subacquea. Soste multiple in siti scelti per la diversità marina e la limpidezza dell'acqua. Attrezzatura fornita, istruzioni di base incluse. La costa che sembra drammatica dall'alto nasconde paesaggi altrettanto drammatici sotto."
+          },
+          "giuliaComment": {
+            "en": "People swim at the beach and think they've experienced the Mediterranean. They haven't. The real underwater world is away from harbors, at coves only boats can reach. The clarity at the right spots is almost Caribbean.",
+            "de": "Leute schwimmen am Strand und denken, sie hätten das Mittelmeer erlebt. Haben sie nicht. Die wahre Unterwasserwelt liegt abseits der Häfen, in Buchten, die nur Boote erreichen. Die Klarheit an den richtigen Stellen ist fast karibisch.",
+            "fr": "Les gens nagent à la plage et pensent avoir vécu la Méditerranée. Ce n'est pas le cas. Le vrai monde sous-marin est loin des ports, dans des criques que seuls les bateaux peuvent atteindre. La clarté aux bons endroits est presque caribéenne.",
+            "it": "La gente nuota in spiaggia e pensa di aver vissuto il Mediterraneo. Non è così. Il vero mondo sottomarino è lontano dai porti, in calette raggiungibili solo in barca. La limpidezza nei posti giusti è quasi caraibica."
+          },
+          "signature": {
+            "en": "Where the surface is just the beginning",
+            "de": "Wo die Oberfläche erst der Anfang ist",
+            "fr": "Où la surface n'est que le début",
+            "it": "Dove la superficie è solo l'inizio"
+          },
+          "practicalInfo": {
+            "en": "3-hour duration. Snorkel equipment included. Water confidence required. Best June-September for visibility.",
+            "de": "3 Stunden Dauer. Schnorchelausrüstung inklusive. Wassersicherheit erforderlich. Beste Sicht Juni-September.",
+            "fr": "Durée 3 heures. Équipement de plongée libre inclus. Aisance dans l'eau requise. Meilleure visibilité juin-septembre.",
+            "it": "Durata 3 ore. Attrezzatura snorkeling inclusa. Dimestichezza con l'acqua richiesta. Migliore visibilità giugno-settembre."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Return Timing",
-          "quote": "Book morning tours if you want afternoon on the beach. Book afternoon tours if you want evening in the village. The return time matters as much as the departure—plan your boat day within your overall Monterosso day, not separate from it."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Return Timing",
+            "de": "Die richtige Rückkehrzeit",
+            "fr": "Le bon moment pour le retour",
+            "it": "I tempi del ritorno"
+          },
+          "quote": {
+            "en": "Book morning tours if you want afternoon on the beach. Book afternoon tours if you want evening in the village. The return time matters as much as the departure—plan your boat day within your overall Monterosso day, not separate from it.",
+            "de": "Buchen Sie Morgentouren, wenn Sie den Nachmittag am Strand verbringen möchten. Buchen Sie Nachmittagstouren, wenn Sie den Abend im Dorf verbringen möchten. Die Rückkehrzeit ist genauso wichtig wie die Abfahrt – planen Sie Ihren Bootstag innerhalb Ihres gesamten Monterosso-Tags, nicht getrennt davon.",
+            "fr": "Réservez les excursions du matin si vous voulez l'après-midi à la plage. Réservez les excursions de l'après-midi si vous voulez la soirée au village. L'heure de retour compte autant que le départ – planifiez votre journée en bateau dans votre journée globale à Monterosso, pas séparément.",
+            "it": "Prenotate i tour mattutini se volete il pomeriggio in spiaggia. Prenotate i tour pomeridiani se volete la sera nel borgo. L'ora di ritorno conta quanto la partenza – pianificate la vostra giornata in barca all'interno della vostra giornata complessiva a Monterosso, non separatamente."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Sea Reveals",
-      "content": [
-        "A boat tour from Monterosso does what no hiking trail can: it shows you the coast as nature designed it, villages clinging to cliffs that make no sense until you see them from below, terraces that climb to heights that seem impossible.",
-        "The Giant watching from his broken cliff. The morning light on colored facades. The coves that hide until you're almost upon them. These are Monterosso's gifts from the water—available to anyone willing to step off the shore.",
-        "Take the tour. Take the photos. But also take the time to simply look, without lens between you and the view. The memory of this coast from the sea will last longer than any image."
-      ],
+      "title": {
+        "en": "The Sea Reveals",
+        "de": "Das Meer enthüllt",
+        "fr": "La mer révèle",
+        "it": "Il mare rivela"
+      },
+      "content": {
+        "en": [
+          "A boat tour from Monterosso does what no hiking trail can: it shows you the coast as nature designed it, villages clinging to cliffs that make no sense until you see them from below, terraces that climb to heights that seem impossible.",
+          "The Giant watching from his broken cliff. The morning light on colored facades. The coves that hide until you're almost upon them. These are Monterosso's gifts from the water—available to anyone willing to step off the shore.",
+          "Take the tour. Take the photos. But also take the time to simply look, without lens between you and the view. The memory of this coast from the sea will last longer than any image."
+        ],
+        "de": [
+          "Eine Bootstour ab Monterosso zeigt, was kein Wanderweg kann: die Küste, wie die Natur sie schuf, Dörfer, die an Klippen kleben und erst von unten Sinn ergeben, Terrassen, die zu unmöglichen Höhen klettern.",
+          "Der Gigant, der von seiner gebrochenen Klippe wacht. Das Morgenlicht auf bunten Fassaden. Die Buchten, die sich verstecken, bis man fast bei ihnen ist. Das sind Monterossos Geschenke vom Wasser – zugänglich für jeden, der bereit ist, das Ufer zu verlassen.",
+          "Machen Sie die Tour. Machen Sie die Fotos. Aber nehmen Sie sich auch Zeit, einfach zu schauen, ohne Linse zwischen Ihnen und der Aussicht. Die Erinnerung an diese Küste vom Meer aus wird länger halten als jedes Bild."
+        ],
+        "fr": [
+          "Une excursion en bateau depuis Monterosso fait ce qu'aucun sentier de randonnée ne peut faire : elle vous montre la côte telle que la nature l'a conçue, des villages accrochés à des falaises qui n'ont de sens que vus d'en bas, des terrasses qui grimpent à des hauteurs impossibles.",
+          "Le Géant qui veille depuis sa falaise brisée. La lumière du matin sur les façades colorées. Les criques qui se cachent jusqu'à ce que vous soyez presque dessus. Ce sont les cadeaux de Monterosso depuis l'eau – accessibles à quiconque accepte de quitter le rivage.",
+          "Faites l'excursion. Prenez les photos. Mais prenez aussi le temps de simplement regarder, sans objectif entre vous et la vue. Le souvenir de cette côte depuis la mer durera plus longtemps que n'importe quelle image."
+        ],
+        "it": [
+          "Un tour in barca da Monterosso fa ciò che nessun sentiero escursionistico può fare: vi mostra la costa come la natura l'ha progettata, borghi aggrappati a scogliere che non hanno senso finché non li vedete dal basso, terrazze che salgono ad altezze che sembrano impossibili.",
+          "Il Gigante che veglia dalla sua scogliera spezzata. La luce del mattino sulle facciate colorate. Le calette che si nascondono finché non ci siete quasi sopra. Questi sono i doni di Monterosso dall'acqua – disponibili per chiunque sia disposto a lasciare la riva.",
+          "Fate il tour. Scattate le foto. Ma prendetevi anche il tempo di guardare semplicemente, senza obiettivo tra voi e il panorama. Il ricordo di questa costa dal mare durerà più a lungo di qualsiasi immagine."
+        ]
+      },
       "buttons": [
-        { "text": "Beach Guide", "url": "/en/monterosso/beaches", "variant": "primary" },
-        { "text": "Village Overview", "url": "/en/monterosso/overview", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Beach Guide",
+            "de": "Strandführer",
+            "fr": "Guide des plages",
+            "it": "Guida alle spiagge"
+          },
+          "url": {
+            "en": "/en/monterosso/beaches",
+            "de": "/de/monterosso/beaches",
+            "fr": "/fr/monterosso/beaches",
+            "it": "/it/monterosso/beaches"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Village Overview",
+            "de": "Dorfübersicht",
+            "fr": "Aperçu du village",
+            "it": "Panoramica del borgo"
+          },
+          "url": {
+            "en": "/en/monterosso/overview",
+            "de": "/de/monterosso/overview",
+            "fr": "/fr/monterosso/overview",
+            "it": "/it/monterosso/overview"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],

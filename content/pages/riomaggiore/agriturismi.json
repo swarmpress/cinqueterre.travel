@@ -7,36 +7,90 @@
     "it": "/it/riomaggiore/agriturismi"
   },
   "title": {
-    "en": "Farm Stays Near Riomaggiore | Cinque Terre Dispatch"
+    "en": "Farm Stays Near Riomaggiore | Cinque Terre Dispatch",
+    "de": "Bauernhof-Aufenthalte bei Riomaggiore | Cinque Terre Dispatch",
+    "fr": "Agritourismes Proche de Riomaggiore | Cinque Terre Dispatch",
+    "it": "Agriturismi Vicino a Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "agriturismi",
   "seo": {
     "title": {
-      "en": "Farm Stays Near Riomaggiore | Cinque Terre Dispatch"
+      "en": "Farm Stays Near Riomaggiore | Cinque Terre Dispatch",
+      "de": "Bauernhof-Aufenthalte bei Riomaggiore | Cinque Terre Dispatch",
+      "fr": "Agritourismes Proche de Riomaggiore | Cinque Terre Dispatch",
+      "it": "Agriturismi Vicino a Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The agriturismi above Riomaggiore offer something the village cannot: the terraced landscape that made this coast possible, experienced from inside the working farms that still maintain it."
+      "en": "The agriturismi above Riomaggiore offer something the village cannot: the terraced landscape that made this coast possible, experienced from inside the working farms that still maintain it.",
+      "de": "Die Agriturismi oberhalb von Riomaggiore bieten etwas, was das Dorf nicht kann: die terrassierte Landschaft, die diese Kuste moglich machte, erlebt von innen heraus auf den Bauernhofen, die sie noch immer bewirtschaften.",
+      "fr": "Les agritourismes au-dessus de Riomaggiore offrent ce que le village ne peut pas : le paysage en terrasses qui a rendu cette cote possible, vecu de l'interieur des fermes qui l'entretiennent encore.",
+      "it": "Gli agriturismi sopra Riomaggiore offrono qualcosa che il borgo non puo: il paesaggio terrazzato che ha reso possibile questa costa, vissuto dall'interno delle aziende agricole che ancora lo mantengono."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Above the<br/>Village",
-      "subtitle": "The terraces that cascade above Riomaggiore are not just scenery—they're working agricultural land, maintained by families whose ancestors built the stone walls a thousand years ago. An agriturismo stay puts you inside that living history.",
-      "badge": "Farm Stays",
+      "title": {
+        "en": "Above the<br/>Village",
+        "de": "Oberhalb<br/>des Dorfes",
+        "fr": "Au-Dessus<br/>du Village",
+        "it": "Sopra<br/>il Borgo"
+      },
+      "subtitle": {
+        "en": "The terraces that cascade above Riomaggiore are not just scenery--they're working agricultural land, maintained by families whose ancestors built the stone walls a thousand years ago. An agriturismo stay puts you inside that living history.",
+        "de": "Die Terrassen, die sich oberhalb von Riomaggiore erstrecken, sind nicht nur Kulisse--sie sind bewirtschaftetes Agrarland, gepflegt von Familien, deren Vorfahren vor tausend Jahren die Steinmauern errichteten. Ein Agriturismo-Aufenthalt bringt Sie mitten in diese lebendige Geschichte.",
+        "fr": "Les terrasses qui descendent en cascade au-dessus de Riomaggiore ne sont pas qu'un decor--ce sont des terres agricoles en activite, entretenues par des familles dont les ancetres ont construit les murs de pierre il y a mille ans. Un sejour en agritourisme vous plonge dans cette histoire vivante.",
+        "it": "I terrazzamenti che si estendono sopra Riomaggiore non sono solo paesaggio--sono terra agricola lavorata, mantenuta da famiglie i cui antenati costruirono i muri a secco mille anni fa. Un soggiorno in agriturismo vi porta dentro questa storia vivente."
+      },
+      "badge": {
+        "en": "Farm Stays",
+        "de": "Bauernhof-Aufenthalte",
+        "fr": "Agritourismes",
+        "it": "Agriturismi"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "Understanding Agriturismo",
-      "quote": "An agriturismo is not a rural hotel. It's a working farm that welcomes guests—a place where the food on your table came from the fields outside your window, often harvested that morning.",
-      "content": [
-        "**The word means something specific**. Italian law defines agriturismo: a registered agricultural operation that derives primary income from farming, not tourism. The hospitality supports the farm, not the other way around.",
-        "**Location means separation**. Agriturismi sit above and away from the village—10-20 minutes by car or trail. What you gain in agricultural immersion and quiet, you trade in convenience. This is intentional.",
-        "**Food is the center**. Breakfast and dinner feature what the farm produces: vegetables from terraced gardens, olive oil from ancient trees, wine from grapes grown on slopes that catch the Mediterranean sun. The meal is the experience.",
-        "**The experience is participatory**. Many farms invite guests into daily work—harvesting, pressing, maintaining walls. This isn't performance. It's how these properties have operated for generations."
-      ]
+      "badge": {
+        "en": "Understanding Agriturismo",
+        "de": "Agriturismo Verstehen",
+        "fr": "Comprendre l'Agritourisme",
+        "it": "Capire l'Agriturismo"
+      },
+      "quote": {
+        "en": "An agriturismo is not a rural hotel. It's a working farm that welcomes guests--a place where the food on your table came from the fields outside your window, often harvested that morning.",
+        "de": "Ein Agriturismo ist kein landliches Hotel. Es ist ein aktiver Bauernhof, der Gaste willkommen heisst--ein Ort, an dem das Essen auf Ihrem Tisch von den Feldern vor Ihrem Fenster stammt, oft am selben Morgen geerntet.",
+        "fr": "Un agritourisme n'est pas un hotel rural. C'est une ferme en activite qui accueille des hotes--un lieu ou la nourriture sur votre table vient des champs devant votre fenetre, souvent recoltee le matin meme.",
+        "it": "Un agriturismo non e un hotel rurale. E un'azienda agricola attiva che accoglie ospiti--un luogo dove il cibo sulla vostra tavola proviene dai campi fuori dalla finestra, spesso raccolto quella mattina stessa."
+      },
+      "content": {
+        "en": [
+          "**The word means something specific**. Italian law defines agriturismo: a registered agricultural operation that derives primary income from farming, not tourism. The hospitality supports the farm, not the other way around.",
+          "**Location means separation**. Agriturismi sit above and away from the village--10-20 minutes by car or trail. What you gain in agricultural immersion and quiet, you trade in convenience. This is intentional.",
+          "**Food is the center**. Breakfast and dinner feature what the farm produces: vegetables from terraced gardens, olive oil from ancient trees, wine from grapes grown on slopes that catch the Mediterranean sun. The meal is the experience.",
+          "**The experience is participatory**. Many farms invite guests into daily work--harvesting, pressing, maintaining walls. This isn't performance. It's how these properties have operated for generations."
+        ],
+        "de": [
+          "**Das Wort hat eine spezifische Bedeutung**. Das italienische Gesetz definiert Agriturismo: ein registrierter landwirtschaftlicher Betrieb, der seinen Hauptertrag aus der Landwirtschaft bezieht, nicht aus dem Tourismus. Die Gastfreundschaft unterstutzt den Hof, nicht umgekehrt.",
+          "**Lage bedeutet Abstand**. Agriturismi befinden sich oberhalb und abseits des Dorfes--10-20 Minuten mit dem Auto oder zu Fuss. Was Sie an landwirtschaftlichem Eintauchen und Ruhe gewinnen, geben Sie an Bequemlichkeit ab. Das ist beabsichtigt.",
+          "**Essen steht im Mittelpunkt**. Fruhstuck und Abendessen zeigen, was der Hof produziert: Gemuse aus Terrassengarten, Olivenol von uralten Baumen, Wein von Trauben, die an Hangen wachsen, die die Mittelmeersonne einfangen. Die Mahlzeit ist das Erlebnis.",
+          "**Das Erlebnis ist partizipativ**. Viele Hofe laden Gaste zur taglichen Arbeit ein--Ernten, Pressen, Mauern instand halten. Das ist keine Vorfuhrung. So haben diese Betriebe seit Generationen gewirtschaftet."
+        ],
+        "fr": [
+          "**Le mot a une signification precise**. La loi italienne definit l'agritourisme : une exploitation agricole enregistree dont le revenu principal provient de l'agriculture, pas du tourisme. L'hospitalite soutient la ferme, pas l'inverse.",
+          "**L'emplacement signifie separation**. Les agritourismes se trouvent au-dessus et a l'ecart du village--10 a 20 minutes en voiture ou a pied. Ce que vous gagnez en immersion agricole et en tranquillite, vous le perdez en commodite. C'est intentionnel.",
+          "**La nourriture est au centre**. Le petit-dejeuner et le diner presentent ce que la ferme produit : legumes des jardins en terrasses, huile d'olive d'arbres centenaires, vin de raisins cultives sur des pentes baignees de soleil mediterraneen. Le repas est l'experience.",
+          "**L'experience est participative**. Beaucoup de fermes invitent les hotes aux travaux quotidiens--recoltes, pressage, entretien des murs. Ce n'est pas du spectacle. C'est ainsi que ces proprietes fonctionnent depuis des generations."
+        ],
+        "it": [
+          "**La parola ha un significato specifico**. La legge italiana definisce l'agriturismo: un'azienda agricola registrata che trae il reddito principale dall'agricoltura, non dal turismo. L'ospitalita sostiene l'azienda agricola, non il contrario.",
+          "**La posizione significa separazione**. Gli agriturismi si trovano sopra e lontano dal borgo--10-20 minuti in auto o a piedi. Quello che guadagnate in immersione agricola e tranquillita, lo perdete in comodita. E intenzionale.",
+          "**Il cibo e al centro**. La colazione e la cena presentano cio che l'azienda produce: verdure dagli orti terrazzati, olio d'oliva da alberi secolari, vino da uve coltivate su pendii che catturano il sole mediterraneo. Il pasto e l'esperienza.",
+          "**L'esperienza e partecipativa**. Molte aziende invitano gli ospiti al lavoro quotidiano--raccolta, spremitura, manutenzione dei muri. Non e uno spettacolo. E cosi che queste proprieta hanno operato per generazioni."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "The Terrace System",
-          "category": "Agricultural Heritage",
+          "name": {
+            "en": "The Terrace System",
+            "de": "Das Terrassensystem",
+            "fr": "Le Systeme de Terrasses",
+            "it": "Il Sistema dei Terrazzamenti"
+          },
+          "category": {
+            "en": "Agricultural Heritage",
+            "de": "Landwirtschaftliches Erbe",
+            "fr": "Patrimoine Agricole",
+            "it": "Patrimonio Agricolo"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The stone walls that make Cinque Terre agriculture possible—an engineering feat that predates most European nations.",
-          "description": "The terraces above Riomaggiore represent over a millennium of human labor—dry-stone walls built without mortar, creating flat surfaces on vertical cliffs. UNESCO protects this landscape as cultural heritage. From an agriturismo, you understand its scale in ways the village views cannot reveal.",
-          "giuliaComment": "My family maintains 200 meters of terrace wall. It's constant work—every storm damages something. Staying at an agriturismo means staying with people who do this work, not just looking at its results.",
-          "signature": "Where human stubbornness becomes landscape"
+          "intro": {
+            "en": "The stone walls that make Cinque Terre agriculture possible--an engineering feat that predates most European nations.",
+            "de": "Die Steinmauern, die die Landwirtschaft der Cinque Terre ermoglichen--eine Ingenieursleistung, die alter ist als die meisten europaischen Nationen.",
+            "fr": "Les murs de pierre qui rendent l'agriculture des Cinque Terre possible--un exploit d'ingenierie qui precede la plupart des nations europeennes.",
+            "it": "I muri a secco che rendono possibile l'agricoltura delle Cinque Terre--un'impresa ingegneristica che precede la maggior parte delle nazioni europee."
+          },
+          "description": {
+            "en": "The terraces above Riomaggiore represent over a millennium of human labor--dry-stone walls built without mortar, creating flat surfaces on vertical cliffs. UNESCO protects this landscape as cultural heritage. From an agriturismo, you understand its scale in ways the village views cannot reveal.",
+            "de": "Die Terrassen oberhalb von Riomaggiore reprasentieren uber ein Jahrtausend menschlicher Arbeit--Trockensteinmauern ohne Mortel gebaut, die flache Oberflachen an senkrechten Klippen schaffen. Die UNESCO schutzt diese Landschaft als Kulturerbe. Von einem Agriturismo aus verstehen Sie deren Ausmass auf eine Weise, die die Dorfansichten nicht offenbaren konnen.",
+            "fr": "Les terrasses au-dessus de Riomaggiore representent plus d'un millenaire de labeur humain--des murs en pierres seches construits sans mortier, creant des surfaces planes sur des falaises verticales. L'UNESCO protege ce paysage comme patrimoine culturel. Depuis un agritourisme, vous comprenez son echelle d'une maniere que les vues du village ne peuvent reveler.",
+            "it": "I terrazzamenti sopra Riomaggiore rappresentano oltre un millennio di lavoro umano--muri a secco costruiti senza malta, che creano superfici piane su scogliere verticali. L'UNESCO protegge questo paesaggio come patrimonio culturale. Da un agriturismo, capite la sua scala in modi che le vedute dal borgo non possono rivelare."
+          },
+          "giuliaComment": {
+            "en": "My family maintains 200 meters of terrace wall. It's constant work--every storm damages something. Staying at an agriturismo means staying with people who do this work, not just looking at its results.",
+            "de": "Meine Familie pflegt 200 Meter Terrassenmauer. Es ist standige Arbeit--jeder Sturm beschadigt etwas. In einem Agriturismo zu ubernachten bedeutet, bei Menschen zu wohnen, die diese Arbeit tun, nicht nur ihre Ergebnisse zu betrachten.",
+            "fr": "Ma famille entretient 200 metres de mur de terrasse. C'est un travail constant--chaque tempete endommage quelque chose. Sejourner dans un agritourisme signifie sejourner chez des gens qui font ce travail, pas seulement regarder ses resultats.",
+            "it": "La mia famiglia mantiene 200 metri di muro terrazzato. E un lavoro costante--ogni tempesta danneggia qualcosa. Soggiornare in un agriturismo significa stare con persone che fanno questo lavoro, non solo guardarne i risultati."
+          },
+          "signature": {
+            "en": "Where human stubbornness becomes landscape",
+            "de": "Wo menschliche Beharrlichkeit zur Landschaft wird",
+            "fr": "Ou l'obstination humaine devient paysage",
+            "it": "Dove la caparbietà umana diventa paesaggio"
+          }
         },
         {
           "id": 2,
-          "name": "Harvest Participation",
-          "category": "Seasonal Experience",
+          "name": {
+            "en": "Harvest Participation",
+            "de": "Ernteteilnahme",
+            "fr": "Participation aux Vendanges",
+            "it": "Partecipazione alla Vendemmia"
+          },
+          "category": {
+            "en": "Seasonal Experience",
+            "de": "Saisonale Erfahrung",
+            "fr": "Experience Saisonniere",
+            "it": "Esperienza Stagionale"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the grapes and olives come in—and guests become part of the work.",
-          "description": "Autumn brings the grape harvest (vendemmia), when entire families work the terraces from dawn to dusk. Many agriturismi welcome guests into this labor—carrying baskets, cutting grapes, participating in the transformation from fruit to wine. It's physical work that connects you to centuries of tradition.",
-          "giuliaComment": "The vendemmia is not tourism. It's work. Guests who participate understand this—they come away tired, proud, and with a relationship to the wine they'll drink differently than any tasting could provide.",
-          "signature": "Where visitors become workers"
+          "intro": {
+            "en": "When the grapes and olives come in--and guests become part of the work.",
+            "de": "Wenn die Trauben und Oliven kommen--und Gaste Teil der Arbeit werden.",
+            "fr": "Quand les raisins et les olives arrivent--et les hotes font partie du travail.",
+            "it": "Quando arrivano l'uva e le olive--e gli ospiti diventano parte del lavoro."
+          },
+          "description": {
+            "en": "Autumn brings the grape harvest (vendemmia), when entire families work the terraces from dawn to dusk. Many agriturismi welcome guests into this labor--carrying baskets, cutting grapes, participating in the transformation from fruit to wine. It's physical work that connects you to centuries of tradition.",
+            "de": "Der Herbst bringt die Weinlese (vendemmia), wenn ganze Familien die Terrassen von der Morgendammerung bis zur Abenddammerung bearbeiten. Viele Agriturismi heissen Gaste bei dieser Arbeit willkommen--Korbe tragen, Trauben schneiden, an der Verwandlung von Frucht zu Wein teilnehmen. Es ist korperliche Arbeit, die Sie mit Jahrhunderten der Tradition verbindet.",
+            "fr": "L'automne apporte les vendanges, quand des familles entieres travaillent les terrasses de l'aube au crepuscule. Beaucoup d'agritourismes accueillent les hotes dans ce labeur--porter des paniers, couper les raisins, participer a la transformation du fruit en vin. C'est un travail physique qui vous connecte a des siecles de tradition.",
+            "it": "L'autunno porta la vendemmia, quando intere famiglie lavorano i terrazzamenti dall'alba al tramonto. Molti agriturismi accolgono gli ospiti in questo lavoro--portare ceste, tagliare l'uva, partecipare alla trasformazione dal frutto al vino. E un lavoro fisico che vi connette a secoli di tradizione."
+          },
+          "giuliaComment": {
+            "en": "The vendemmia is not tourism. It's work. Guests who participate understand this--they come away tired, proud, and with a relationship to the wine they'll drink differently than any tasting could provide.",
+            "de": "Die Vendemmia ist kein Tourismus. Es ist Arbeit. Gaste, die teilnehmen, verstehen das--sie gehen mude, stolz und mit einer Beziehung zum Wein, die sie anders trinken werden, als es jede Verkostung bieten konnte.",
+            "fr": "Les vendanges ne sont pas du tourisme. C'est du travail. Les hotes qui participent le comprennent--ils repartent fatigues, fiers, et avec une relation au vin qu'ils boiront differemment de ce que toute degustation pourrait offrir.",
+            "it": "La vendemmia non e turismo. E lavoro. Gli ospiti che partecipano lo capiscono--se ne vanno stanchi, orgogliosi, e con un rapporto con il vino che berranno in modo diverso da qualsiasi degustazione."
+          },
+          "signature": {
+            "en": "Where visitors become workers",
+            "de": "Wo Besucher zu Arbeitern werden",
+            "fr": "Ou les visiteurs deviennent travailleurs",
+            "it": "Dove i visitatori diventano lavoratori"
+          }
         },
         {
           "id": 3,
-          "name": "Farm Table Dining",
-          "category": "Culinary Experience",
+          "name": {
+            "en": "Farm Table Dining",
+            "de": "Essen am Bauernhoftisch",
+            "fr": "Repas a la Table de Ferme",
+            "it": "Pranzo alla Tavola Contadina"
+          },
+          "category": {
+            "en": "Culinary Experience",
+            "de": "Kulinarisches Erlebnis",
+            "fr": "Experience Culinaire",
+            "it": "Esperienza Culinaria"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the distance from field to table is measured in meters, not miles.",
-          "description": "Dinner at an agriturismo features what the farm produces: tomatoes that were on the vine that morning, herbs cut minutes before serving, olive oil pressed from trees you can see through the dining room window. The wine is from grapes grown on the property. The menu reflects the season, not the market.",
-          "giuliaComment": "Restaurant food is prepared. Agriturismo food is grown. The difference sounds subtle until you taste it—the immediacy, the freshness, the connection between place and plate that no restaurant can replicate.",
-          "signature": "Where the menu is written by the land"
+          "intro": {
+            "en": "When the distance from field to table is measured in meters, not miles.",
+            "de": "Wenn die Entfernung vom Feld zum Tisch in Metern gemessen wird, nicht in Kilometern.",
+            "fr": "Quand la distance du champ a la table se mesure en metres, pas en kilometres.",
+            "it": "Quando la distanza dal campo alla tavola si misura in metri, non in chilometri."
+          },
+          "description": {
+            "en": "Dinner at an agriturismo features what the farm produces: tomatoes that were on the vine that morning, herbs cut minutes before serving, olive oil pressed from trees you can see through the dining room window. The wine is from grapes grown on the property. The menu reflects the season, not the market.",
+            "de": "Das Abendessen in einem Agriturismo zeigt, was der Hof produziert: Tomaten, die am Morgen noch am Stock hingen, Krauter, die Minuten vor dem Servieren geschnitten wurden, Olivenol von Baumen, die Sie durch das Fenster des Speisesaals sehen konnen. Der Wein stammt von Trauben, die auf dem Grundstuck angebaut werden. Die Speisekarte spiegelt die Jahreszeit wider, nicht den Markt.",
+            "fr": "Le diner dans un agritourisme presente ce que la ferme produit : des tomates qui etaient sur la vigne ce matin, des herbes coupees quelques minutes avant le service, de l'huile d'olive pressee d'arbres que vous pouvez voir depuis la salle a manger. Le vin provient de raisins cultives sur la propriete. Le menu reflete la saison, pas le marche.",
+            "it": "La cena in un agriturismo presenta cio che l'azienda produce: pomodori che erano sulla pianta quella mattina, erbe tagliate pochi minuti prima di servire, olio d'oliva spremuto da alberi che potete vedere dalla finestra della sala da pranzo. Il vino proviene da uve coltivate sulla proprieta. Il menu riflette la stagione, non il mercato."
+          },
+          "giuliaComment": {
+            "en": "Restaurant food is prepared. Agriturismo food is grown. The difference sounds subtle until you taste it--the immediacy, the freshness, the connection between place and plate that no restaurant can replicate.",
+            "de": "Restaurantessen wird zubereitet. Agriturismo-Essen wird angebaut. Der Unterschied klingt subtil, bis Sie es schmecken--die Unmittelbarkeit, die Frische, die Verbindung zwischen Ort und Teller, die kein Restaurant nachahmen kann.",
+            "fr": "La nourriture de restaurant est preparee. La nourriture d'agritourisme est cultivee. La difference semble subtile jusqu'a ce que vous la goutiez--l'imediatete, la fraicheur, le lien entre le lieu et l'assiette qu'aucun restaurant ne peut reproduire.",
+            "it": "Il cibo del ristorante viene preparato. Il cibo dell'agriturismo viene coltivato. La differenza sembra sottile finche non lo assaggiate--l'immediatezza, la freschezza, la connessione tra luogo e piatto che nessun ristorante puo replicare."
+          },
+          "signature": {
+            "en": "Where the menu is written by the land",
+            "de": "Wo das Menu vom Land geschrieben wird",
+            "fr": "Ou le menu est ecrit par la terre",
+            "it": "Dove il menu e scritto dalla terra"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Sciacchetrà Story",
-          "quote": "The dessert wine of Cinque Terre—Sciacchetrà—comes from grapes left to dry for months after harvest, concentrating their sweetness. Most agriturismi produce small quantities. Tasting it at the farm where it was made, from the barrels where it aged, is different from any bottle you'll buy elsewhere."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Editorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Sciacchetra Story",
+            "de": "Die Sciacchetra-Geschichte",
+            "fr": "L'Histoire du Sciacchetra",
+            "it": "La Storia dello Sciacchetra"
+          },
+          "quote": {
+            "en": "The dessert wine of Cinque Terre--Sciacchetra--comes from grapes left to dry for months after harvest, concentrating their sweetness. Most agriturismi produce small quantities. Tasting it at the farm where it was made, from the barrels where it aged, is different from any bottle you'll buy elsewhere.",
+            "de": "Der Dessertwein der Cinque Terre--Sciacchetra--stammt von Trauben, die nach der Ernte monatelang getrocknet werden und dabei ihre Susse konzentrieren. Die meisten Agriturismi produzieren kleine Mengen. Ihn auf dem Hof zu verkosten, wo er hergestellt wurde, aus den Fassern, in denen er reifte, ist anders als jede Flasche, die Sie anderswo kaufen.",
+            "fr": "Le vin de dessert des Cinque Terre--le Sciacchetra--provient de raisins laisses a secher pendant des mois apres la recolte, concentrant leur douceur. La plupart des agritourismes en produisent de petites quantites. Le deguster a la ferme ou il a ete elabore, depuis les barriques ou il a vieilli, est different de toute bouteille que vous acheterez ailleurs.",
+            "it": "Il vino da dessert delle Cinque Terre--lo Sciacchetra--proviene da uve lasciate a essiccare per mesi dopo la vendemmia, concentrando la loro dolcezza. La maggior parte degli agriturismi ne produce piccole quantita. Degustarlo nell'azienda dove e stato prodotto, dalle botti dove e invecchiato, e diverso da qualsiasi bottiglia che comprerete altrove."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Realities",
-      "quote": "Agriturismo stays require adjustment—you're not in the village, transportation is necessary, and the rhythm is agricultural, not tourist. For those who adapt, the rewards are substantial.",
-      "content": [
-        "**Transportation is required**. Most farms are 10-20 minutes from Riomaggiore by car. Some offer pickup services; others require you to drive. Public transit options are limited. Plan accordingly.",
-        "**Reservations are essential**. Agriturismi are small—often just a few rooms. The best ones book months ahead, especially during harvest season. Plan early or accept whatever remains available.",
-        "**Language barriers exist**. Many farm families speak limited English. Patience, gestures, and translation apps help. But the communication through food requires no translation.",
-        "**Amenities are simple**. These are farms, not hotels. Rooms are comfortable but not luxurious. WiFi may be unreliable. Air conditioning isn't guaranteed. The trade-off is authenticity."
-      ]
+      "badge": {
+        "en": "Practical Realities",
+        "de": "Praktische Gegebenheiten",
+        "fr": "Realites Pratiques",
+        "it": "Realta Pratiche"
+      },
+      "quote": {
+        "en": "Agriturismo stays require adjustment--you're not in the village, transportation is necessary, and the rhythm is agricultural, not tourist. For those who adapt, the rewards are substantial.",
+        "de": "Agriturismo-Aufenthalte erfordern Anpassung--Sie sind nicht im Dorf, Transport ist notwendig, und der Rhythmus ist landwirtschaftlich, nicht touristisch. Fur diejenigen, die sich anpassen, sind die Belohnungen erheblich.",
+        "fr": "Les sejours en agritourisme necessitent une adaptation--vous n'etes pas dans le village, le transport est necessaire, et le rythme est agricole, pas touristique. Pour ceux qui s'adaptent, les recompenses sont substantielles.",
+        "it": "I soggiorni in agriturismo richiedono adattamento--non siete nel borgo, il trasporto e necessario, e il ritmo e agricolo, non turistico. Per chi si adatta, le ricompense sono sostanziali."
+      },
+      "content": {
+        "en": [
+          "**Transportation is required**. Most farms are 10-20 minutes from Riomaggiore by car. Some offer pickup services; others require you to drive. Public transit options are limited. Plan accordingly.",
+          "**Reservations are essential**. Agriturismi are small--often just a few rooms. The best ones book months ahead, especially during harvest season. Plan early or accept whatever remains available.",
+          "**Language barriers exist**. Many farm families speak limited English. Patience, gestures, and translation apps help. But the communication through food requires no translation.",
+          "**Amenities are simple**. These are farms, not hotels. Rooms are comfortable but not luxurious. WiFi may be unreliable. Air conditioning isn't guaranteed. The trade-off is authenticity."
+        ],
+        "de": [
+          "**Transport ist erforderlich**. Die meisten Hofe sind 10-20 Minuten mit dem Auto von Riomaggiore entfernt. Einige bieten Abholservice an; andere erfordern, dass Sie selbst fahren. Offentliche Verkehrsmittel sind begrenzt. Planen Sie entsprechend.",
+          "**Reservierungen sind unerlasslich**. Agriturismi sind klein--oft nur wenige Zimmer. Die besten sind Monate im Voraus ausgebucht, besonders wahrend der Erntezeit. Planen Sie fruh oder akzeptieren Sie, was noch verfugbar ist.",
+          "**Sprachbarrieren bestehen**. Viele Bauernfamilien sprechen nur begrenzt Englisch. Geduld, Gesten und Ubersetzungs-Apps helfen. Aber die Kommunikation durch Essen braucht keine Ubersetzung.",
+          "**Die Ausstattung ist einfach**. Dies sind Bauernhofe, keine Hotels. Die Zimmer sind komfortabel, aber nicht luxurios. WLAN kann unzuverlassig sein. Klimaanlage ist nicht garantiert. Der Kompromiss ist Authentizitat."
+        ],
+        "fr": [
+          "**Le transport est necessaire**. La plupart des fermes sont a 10-20 minutes de Riomaggiore en voiture. Certaines proposent un service de navette ; d'autres necessitent que vous conduisiez. Les options de transport en commun sont limitees. Planifiez en consequence.",
+          "**Les reservations sont essentielles**. Les agritourismes sont petits--souvent quelques chambres seulement. Les meilleurs sont reserves des mois a l'avance, surtout pendant la saison des recoltes. Planifiez tot ou acceptez ce qui reste disponible.",
+          "**Des barrieres linguistiques existent**. Beaucoup de familles d'agriculteurs parlent peu l'anglais. La patience, les gestes et les applications de traduction aident. Mais la communication par la nourriture n'a pas besoin de traduction.",
+          "**Les equipements sont simples**. Ce sont des fermes, pas des hotels. Les chambres sont confortables mais pas luxueuses. Le WiFi peut etre peu fiable. La climatisation n'est pas garantie. Le compromis est l'authenticite."
+        ],
+        "it": [
+          "**Il trasporto e necessario**. La maggior parte delle aziende e a 10-20 minuti da Riomaggiore in auto. Alcune offrono servizio di trasferimento; altre richiedono che guidiate voi. Le opzioni di trasporto pubblico sono limitate. Pianificate di conseguenza.",
+          "**Le prenotazioni sono essenziali**. Gli agriturismi sono piccoli--spesso solo poche camere. I migliori si prenotano con mesi di anticipo, specialmente durante la stagione del raccolto. Pianificate presto o accettate cio che rimane disponibile.",
+          "**Esistono barriere linguistiche**. Molte famiglie contadine parlano poco inglese. Pazienza, gesti e app di traduzione aiutano. Ma la comunicazione attraverso il cibo non richiede traduzione.",
+          "**I servizi sono semplici**. Queste sono aziende agricole, non hotel. Le camere sono confortevoli ma non lussuose. Il WiFi puo essere inaffidabile. L'aria condizionata non e garantita. Il compromesso e l'autenticita."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Spring at the Farm",
-          "category": "Seasonal Guide",
+          "name": {
+            "en": "Spring at the Farm",
+            "de": "Fruhling auf dem Bauernhof",
+            "fr": "Le Printemps a la Ferme",
+            "it": "Primavera in Agriturismo"
+          },
+          "category": {
+            "en": "Seasonal Guide",
+            "de": "Saisonaler Leitfaden",
+            "fr": "Guide Saisonnier",
+            "it": "Guida Stagionale"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the terraces wake up—wildflowers, new growth, and the promise of summer.",
-          "description": "Spring brings wildflowers to the terraces, new vegetables to the gardens, and perfect weather for exploring the trails that connect farms. It's the season of preparation—pruning, planting, repairing winter damage. Guests can often participate.",
-          "giuliaComment": "I love spring in the hills. The air smells of growth. The colors change daily. And the farms are busy with hopeful work, preparing for what the summer will bring.",
-          "signature": "When everything begins"
+          "intro": {
+            "en": "When the terraces wake up--wildflowers, new growth, and the promise of summer.",
+            "de": "Wenn die Terrassen erwachen--Wildblumen, neues Wachstum und das Versprechen des Sommers.",
+            "fr": "Quand les terrasses s'eveillent--fleurs sauvages, nouvelle croissance et promesse de l'ete.",
+            "it": "Quando i terrazzamenti si risvegliano--fiori selvatici, nuova crescita e la promessa dell'estate."
+          },
+          "description": {
+            "en": "Spring brings wildflowers to the terraces, new vegetables to the gardens, and perfect weather for exploring the trails that connect farms. It's the season of preparation--pruning, planting, repairing winter damage. Guests can often participate.",
+            "de": "Der Fruhling bringt Wildblumen auf die Terrassen, neues Gemuse in die Garten und perfektes Wetter zum Erkunden der Wege, die die Hofe verbinden. Es ist die Jahreszeit der Vorbereitung--Schneiden, Pflanzen, Reparieren von Winterschaden. Gaste konnen oft mitmachen.",
+            "fr": "Le printemps apporte des fleurs sauvages sur les terrasses, de nouveaux legumes dans les jardins et un temps parfait pour explorer les sentiers qui relient les fermes. C'est la saison de la preparation--taille, plantation, reparation des dommages de l'hiver. Les hotes peuvent souvent participer.",
+            "it": "La primavera porta fiori selvatici sui terrazzamenti, nuove verdure negli orti e tempo perfetto per esplorare i sentieri che collegano le aziende. E la stagione della preparazione--potatura, semina, riparazione dei danni invernali. Gli ospiti possono spesso partecipare."
+          },
+          "giuliaComment": {
+            "en": "I love spring in the hills. The air smells of growth. The colors change daily. And the farms are busy with hopeful work, preparing for what the summer will bring.",
+            "de": "Ich liebe den Fruhling in den Hugeln. Die Luft riecht nach Wachstum. Die Farben andern sich taglich. Und die Hofe sind beschaftigt mit hoffnungsvoller Arbeit, um sich auf das vorzubereiten, was der Sommer bringen wird.",
+            "fr": "J'adore le printemps dans les collines. L'air sent la croissance. Les couleurs changent chaque jour. Et les fermes sont occupees par un travail plein d'espoir, preparant ce que l'ete apportera.",
+            "it": "Amo la primavera sulle colline. L'aria profuma di crescita. I colori cambiano ogni giorno. E le aziende sono impegnate in un lavoro pieno di speranza, preparandosi per cio che l'estate portera."
+          },
+          "signature": {
+            "en": "When everything begins",
+            "de": "Wenn alles beginnt",
+            "fr": "Quand tout commence",
+            "it": "Quando tutto inizia"
+          }
         },
         {
           "id": 5,
-          "name": "Autumn Harvest",
-          "category": "Peak Season",
+          "name": {
+            "en": "Autumn Harvest",
+            "de": "Herbsternte",
+            "fr": "Recolte d'Automne",
+            "it": "Vendemmia Autunnale"
+          },
+          "category": {
+            "en": "Peak Season",
+            "de": "Hochsaison",
+            "fr": "Haute Saison",
+            "it": "Alta Stagione"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The reason the terraces exist—grape and olive harvest, when the year's work becomes the year's wine.",
-          "description": "September through November is when Cinque Terre agriculture peaks. Grapes come in for wine and Sciacchetrà. Olives are pressed for oil. The farms work long hours, and guests who participate gain understanding that no tour can provide.",
-          "giuliaComment": "If you can visit during vendemmia, do it. The energy is different—focused, communal, exhausting in the best way. And the meals after a day's harvest, with wine from the previous year's work, are unforgettable.",
-          "signature": "When work becomes celebration"
+          "intro": {
+            "en": "The reason the terraces exist--grape and olive harvest, when the year's work becomes the year's wine.",
+            "de": "Der Grund, warum die Terrassen existieren--Trauben- und Olivenernte, wenn die Arbeit des Jahres zum Wein des Jahres wird.",
+            "fr": "La raison d'etre des terrasses--vendanges et recolte des olives, quand le travail de l'annee devient le vin de l'annee.",
+            "it": "Il motivo per cui esistono i terrazzamenti--vendemmia e raccolta delle olive, quando il lavoro dell'anno diventa il vino dell'anno."
+          },
+          "description": {
+            "en": "September through November is when Cinque Terre agriculture peaks. Grapes come in for wine and Sciacchetra. Olives are pressed for oil. The farms work long hours, and guests who participate gain understanding that no tour can provide.",
+            "de": "Von September bis November erreicht die Landwirtschaft der Cinque Terre ihren Hohepunkt. Trauben werden fur Wein und Sciacchetra geerntet. Oliven werden zu Ol gepresst. Die Hofe arbeiten lange Stunden, und Gaste, die teilnehmen, gewinnen ein Verstandnis, das keine Tour bieten kann.",
+            "fr": "De septembre a novembre, l'agriculture des Cinque Terre atteint son apogee. Les raisins arrivent pour le vin et le Sciacchetra. Les olives sont pressees pour l'huile. Les fermes travaillent de longues heures, et les hotes qui participent acquierent une comprehension qu'aucune visite ne peut offrir.",
+            "it": "Da settembre a novembre l'agricoltura delle Cinque Terre raggiunge il suo apice. L'uva arriva per il vino e lo Sciacchetra. Le olive vengono pressate per l'olio. Le aziende lavorano a lungo, e gli ospiti che partecipano acquisiscono una comprensione che nessun tour puo offrire."
+          },
+          "giuliaComment": {
+            "en": "If you can visit during vendemmia, do it. The energy is different--focused, communal, exhausting in the best way. And the meals after a day's harvest, with wine from the previous year's work, are unforgettable.",
+            "de": "Wenn Sie wahrend der Vendemmia besuchen konnen, tun Sie es. Die Energie ist anders--fokussiert, gemeinschaftlich, auf die beste Art erschopfend. Und die Mahlzeiten nach einem Tag der Ernte, mit Wein aus der Arbeit des Vorjahres, sind unvergesslich.",
+            "fr": "Si vous pouvez visiter pendant les vendanges, faites-le. L'energie est differente--concentree, communautaire, epuisante de la meilleure facon. Et les repas apres une journee de recolte, avec le vin du travail de l'annee precedente, sont inoubliables.",
+            "it": "Se potete visitare durante la vendemmia, fatelo. L'energia e diversa--concentrata, comunitaria, sfiancante nel modo migliore. E i pasti dopo un giorno di raccolta, con il vino del lavoro dell'anno precedente, sono indimenticabili."
+          },
+          "signature": {
+            "en": "When work becomes celebration",
+            "de": "Wenn Arbeit zum Fest wird",
+            "fr": "Quand le travail devient celebration",
+            "it": "Quando il lavoro diventa festa"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "Finding Authentic Agriturismi",
-          "quote": "Not everything called 'agriturismo' is genuine. Look for properties with active agricultural operations—vineyards being worked, olive groves being harvested, vegetable gardens supplying the kitchen. Ask about farm activities when booking. The real ones are proud to explain what they grow."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "Finding Authentic Agriturismi",
+            "de": "Authentische Agriturismi Finden",
+            "fr": "Trouver des Agritourismes Authentiques",
+            "it": "Trovare Agriturismi Autentici"
+          },
+          "quote": {
+            "en": "Not everything called 'agriturismo' is genuine. Look for properties with active agricultural operations--vineyards being worked, olive groves being harvested, vegetable gardens supplying the kitchen. Ask about farm activities when booking. The real ones are proud to explain what they grow.",
+            "de": "Nicht alles, was 'Agriturismo' genannt wird, ist echt. Suchen Sie nach Betrieben mit aktiver Landwirtschaft--bearbeitete Weinberge, geerntete Olivenhaine, Gemusegarten, die die Kuche beliefern. Fragen Sie bei der Buchung nach den Aktivitaten auf dem Hof. Die echten sind stolz darauf zu erklaren, was sie anbauen.",
+            "fr": "Tout ce qui s'appelle 'agritourisme' n'est pas authentique. Recherchez des proprietes avec des operations agricoles actives--des vignobles travailles, des oliveraies recoltees, des potagers approvisionnant la cuisine. Renseignez-vous sur les activites de la ferme lors de la reservation. Les vrais sont fiers d'expliquer ce qu'ils cultivent.",
+            "it": "Non tutto cio che si chiama 'agriturismo' e autentico. Cercate proprieta con operazioni agricole attive--vigneti lavorati, uliveti raccolti, orti che riforniscono la cucina. Chiedete delle attivita agricole al momento della prenotazione. I veri sono orgogliosi di spiegare cosa coltivano."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Above and Beyond",
-      "content": [
-        "An agriturismo stay isn't for everyone. It requires transportation, adjustment, and acceptance that convenience yields to authenticity.",
-        "But for those who want to understand Cinque Terre—not just photograph it—the farms above Riomaggiore offer something the village cannot: the living heritage that created this landscape, still being practiced by families who've been here for centuries.",
-        "Come hungry. Come curious. Leave understanding why the terraces matter."
-      ],
+      "title": {
+        "en": "Above and Beyond",
+        "de": "Uber Allem",
+        "fr": "Au-Dela de Tout",
+        "it": "Oltre Ogni Aspettativa"
+      },
+      "content": {
+        "en": [
+          "An agriturismo stay isn't for everyone. It requires transportation, adjustment, and acceptance that convenience yields to authenticity.",
+          "But for those who want to understand Cinque Terre--not just photograph it--the farms above Riomaggiore offer something the village cannot: the living heritage that created this landscape, still being practiced by families who've been here for centuries.",
+          "Come hungry. Come curious. Leave understanding why the terraces matter."
+        ],
+        "de": [
+          "Ein Agriturismo-Aufenthalt ist nicht fur jeden. Er erfordert Transport, Anpassung und die Akzeptanz, dass Bequemlichkeit der Authentizitat weicht.",
+          "Aber fur diejenigen, die die Cinque Terre verstehen wollen--nicht nur fotografieren--bieten die Hofe oberhalb von Riomaggiore etwas, was das Dorf nicht kann: das lebendige Erbe, das diese Landschaft geschaffen hat, noch immer praktiziert von Familien, die seit Jahrhunderten hier sind.",
+          "Kommen Sie hungrig. Kommen Sie neugierig. Gehen Sie mit dem Verstandnis, warum die Terrassen wichtig sind."
+        ],
+        "fr": [
+          "Un sejour en agritourisme n'est pas pour tout le monde. Il necessite du transport, de l'adaptation et l'acceptation que la commodite cede a l'authenticite.",
+          "Mais pour ceux qui veulent comprendre les Cinque Terre--pas seulement les photographier--les fermes au-dessus de Riomaggiore offrent quelque chose que le village ne peut pas : l'heritage vivant qui a cree ce paysage, encore pratique par des familles qui sont ici depuis des siecles.",
+          "Venez affame. Venez curieux. Repartez en comprenant pourquoi les terrasses comptent."
+        ],
+        "it": [
+          "Un soggiorno in agriturismo non e per tutti. Richiede trasporto, adattamento e l'accettazione che la comodita cede all'autenticita.",
+          "Ma per chi vuole capire le Cinque Terre--non solo fotografarle--le aziende agricole sopra Riomaggiore offrono qualcosa che il borgo non puo: l'eredita vivente che ha creato questo paesaggio, ancora praticata da famiglie che sono qui da secoli.",
+          "Venite affamati. Venite curiosi. Andate via capendo perche i terrazzamenti contano."
+        ]
+      },
       "buttons": [
-        { "text": "Village Hotels", "url": "/en/riomaggiore/hotels", "variant": "primary" },
-        { "text": "The Culinary Story", "url": "/en/culinary", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Village Hotels",
+            "de": "Dorfhotels",
+            "fr": "Hotels du Village",
+            "it": "Hotel del Borgo"
+          },
+          "url": {
+            "en": "/en/riomaggiore/hotels",
+            "de": "/de/riomaggiore/hotels",
+            "fr": "/fr/riomaggiore/hotels",
+            "it": "/it/riomaggiore/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "The Culinary Story",
+            "de": "Die Kulinarische Geschichte",
+            "fr": "L'Histoire Culinaire",
+            "it": "La Storia Culinaria"
+          },
+          "url": {
+            "en": "/en/culinary",
+            "de": "/de/kulinarisches",
+            "fr": "/fr/gastronomie",
+            "it": "/it/gastronomia"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:00:00.000Z"
+  "updated_at": "2026-01-07T18:00:00.000Z"
 }

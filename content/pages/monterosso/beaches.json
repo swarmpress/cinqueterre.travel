@@ -7,35 +7,89 @@
     "it": "/it/monterosso/beaches"
   },
   "title": {
-    "en": "Beaches in Monterosso | Cinque Terre Dispatch"
+    "en": "Beaches in Monterosso | Cinque Terre Dispatch",
+    "de": "Strände in Monterosso | Cinque Terre Dispatch",
+    "fr": "Plages de Monterosso | Cinque Terre Dispatch",
+    "it": "Spiagge di Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "beaches",
   "seo": {
     "title": {
-      "en": "Beaches in Monterosso | Cinque Terre Dispatch"
+      "en": "Beaches in Monterosso | Cinque Terre Dispatch",
+      "de": "Strände in Monterosso | Cinque Terre Dispatch",
+      "fr": "Plages de Monterosso | Cinque Terre Dispatch",
+      "it": "Spiagge di Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Monterosso has what the other villages lack: real sandy beaches. Not rocky platforms, not concrete slabs—actual sand meeting actual sea. This is why half the visitors come, and why half of them never leave the shore."
+      "en": "Monterosso has what the other villages lack: real sandy beaches. Not rocky platforms, not concrete slabs—actual sand meeting actual sea. This is why half the visitors come, and why half of them never leave the shore.",
+      "de": "Monterosso hat, was den anderen Dörfern fehlt: echte Sandstrände. Keine Felsplattformen, keine Betonplatten — echter Sand trifft auf echtes Meer. Deshalb kommt die Hälfte der Besucher, und deshalb verlässt die Hälfte nie das Ufer.",
+      "fr": "Monterosso possède ce qui manque aux autres villages : de vraies plages de sable. Pas de plateformes rocheuses, pas de dalles de béton — du vrai sable rencontrant la vraie mer. C'est pourquoi la moitié des visiteurs viennent, et pourquoi la moitié ne quitte jamais le rivage.",
+      "it": "Monterosso ha ciò che manca agli altri borghi: vere spiagge di sabbia. Non piattaforme rocciose, non lastre di cemento — vera sabbia che incontra il vero mare. Ecco perché metà dei visitatori viene, e perché metà di loro non lascia mai la riva."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Where Sand<br/>Meets Sea",
-      "subtitle": "Monterosso is the exception. While other Cinque Terre villages offer rocky scrambles and concrete platforms, Monterosso spreads genuine sandy beaches along its bay. The old town has its pocket beach; Fegina stretches wide with stabilimenti and space. This is beach life as the Riviera intended.",
-      "badge": "Beach Guide",
+      "title": {
+        "en": "Where Sand<br/>Meets Sea",
+        "de": "Wo Sand<br/>auf Meer trifft",
+        "fr": "Où le sable<br/>rencontre la mer",
+        "it": "Dove la sabbia<br/>incontra il mare"
+      },
+      "subtitle": {
+        "en": "Monterosso is the exception. While other Cinque Terre villages offer rocky scrambles and concrete platforms, Monterosso spreads genuine sandy beaches along its bay. The old town has its pocket beach; Fegina stretches wide with stabilimenti and space. This is beach life as the Riviera intended.",
+        "de": "Monterosso ist die Ausnahme. Während andere Cinque Terre Dörfer felsige Kletterpartien und Betonplattformen bieten, breitet Monterosso echte Sandstrände entlang seiner Bucht aus. Die Altstadt hat ihren kleinen Strand; Fegina erstreckt sich weit mit Stabilimenti und Platz. Das ist Strandleben, wie die Riviera es beabsichtigt hat.",
+        "fr": "Monterosso est l'exception. Alors que les autres villages des Cinque Terre offrent des rochers à escalader et des plateformes en béton, Monterosso étend de véritables plages de sable le long de sa baie. La vieille ville a sa petite plage ; Fegina s'étire largement avec ses stabilimenti et son espace. C'est la vie de plage telle que la Riviera l'a voulue.",
+        "it": "Monterosso è l'eccezione. Mentre gli altri borghi delle Cinque Terre offrono arrampicate su rocce e piattaforme di cemento, Monterosso estende vere spiagge di sabbia lungo la sua baia. Il centro storico ha la sua spiaggia raccolta; Fegina si distende ampia con stabilimenti e spazio. Questa è la vita da spiaggia come la Riviera l'ha pensata."
+      },
+      "badge": {
+        "en": "Beach Guide",
+        "de": "Strandführer",
+        "fr": "Guide des plages",
+        "it": "Guida alle spiagge"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Sandy Truth",
-      "quote": "Other Cinque Terre villages will tell you they have beaches. They mean rocks you can lie on, or platforms with ladders. Monterosso means sand between your toes, towels spread properly, children building castles. It's not the same thing.",
+      "badge": {
+        "en": "The Sandy Truth",
+        "de": "Die sandige Wahrheit",
+        "fr": "La vérité sablonneuse",
+        "it": "La verità sabbiosa"
+      },
+      "quote": {
+        "en": "Other Cinque Terre villages will tell you they have beaches. They mean rocks you can lie on, or platforms with ladders. Monterosso means sand between your toes, towels spread properly, children building castles. It's not the same thing.",
+        "de": "Andere Cinque Terre Dörfer werden Ihnen sagen, sie hätten Strände. Sie meinen Felsen, auf denen man liegen kann, oder Plattformen mit Leitern. Monterosso bedeutet Sand zwischen den Zehen, ordentlich ausgebreitete Handtücher, Kinder, die Burgen bauen. Das ist nicht dasselbe.",
+        "fr": "Les autres villages des Cinque Terre vous diront qu'ils ont des plages. Ils veulent dire des rochers sur lesquels s'allonger, ou des plateformes avec des échelles. Monterosso signifie du sable entre les orteils, des serviettes bien étalées, des enfants construisant des châteaux. Ce n'est pas la même chose.",
+        "it": "Gli altri borghi delle Cinque Terre vi diranno che hanno spiagge. Intendono rocce su cui sdraiarsi, o piattaforme con scale. Monterosso significa sabbia tra le dita dei piedi, asciugamani stesi per bene, bambini che costruiscono castelli. Non è la stessa cosa."
+      },
       "content": [
-        "**Fegina Beach** is the main event—the long stretch of sand in the new town, divided between free sections and stabilimenti (beach clubs) where umbrellas, loungers, and seaside service come at a price.",
-        "**Old Town Beach** offers a more intimate experience—smaller, quieter, with fishing boats pulled up on the sand. This is where locals have swum for centuries.",
-        "**Il Gigante presides** over Fegina's eastern end—the damaged Neptune statue that's become Monterosso's most recognizable landmark, carved into the cliff rock.",
-        "**The red cliffs** frame everything. Monterosso takes its name from Mons Rubeus—red mountain—and the warm stone colors reflect in the water at sunset."
+        {
+          "en": "**Fegina Beach** is the main event—the long stretch of sand in the new town, divided between free sections and stabilimenti (beach clubs) where umbrellas, loungers, and seaside service come at a price.",
+          "de": "**Fegina Beach** ist das Hauptereignis — der lange Sandstreifen in der neuen Stadt, aufgeteilt zwischen freien Abschnitten und Stabilimenti (Strandclubs), wo Sonnenschirme, Liegen und Strandservice ihren Preis haben.",
+          "fr": "**La plage de Fegina** est l'événement principal — la longue étendue de sable dans la ville nouvelle, divisée entre sections libres et stabilimenti (clubs de plage) où parasols, transats et service de plage ont un prix.",
+          "it": "**La spiaggia di Fegina** è l'evento principale — la lunga distesa di sabbia nella città nuova, divisa tra sezioni libere e stabilimenti dove ombrelloni, lettini e servizio in spiaggia hanno un prezzo."
+        },
+        {
+          "en": "**Old Town Beach** offers a more intimate experience—smaller, quieter, with fishing boats pulled up on the sand. This is where locals have swum for centuries.",
+          "de": "**Der Altstadtstrand** bietet ein intimeres Erlebnis — kleiner, ruhiger, mit Fischerbooten, die auf den Sand gezogen sind. Hier schwimmen die Einheimischen seit Jahrhunderten.",
+          "fr": "**La plage de la vieille ville** offre une expérience plus intime — plus petite, plus calme, avec des bateaux de pêche tirés sur le sable. C'est là que les locaux nagent depuis des siècles.",
+          "it": "**La spiaggia del centro storico** offre un'esperienza più intima — più piccola, più tranquilla, con barche da pesca tirate sulla sabbia. È qui che i locali nuotano da secoli."
+        },
+        {
+          "en": "**Il Gigante presides** over Fegina's eastern end—the damaged Neptune statue that's become Monterosso's most recognizable landmark, carved into the cliff rock.",
+          "de": "**Il Gigante thront** über dem östlichen Ende von Fegina — die beschädigte Neptun-Statue, die zu Monterossos bekanntestem Wahrzeichen geworden ist, in den Klippenfelsen gemeißelt.",
+          "fr": "**Il Gigante préside** à l'extrémité est de Fegina — la statue endommagée de Neptune devenue le monument le plus reconnaissable de Monterosso, sculptée dans la falaise.",
+          "it": "**Il Gigante presiede** l'estremità orientale di Fegina — la statua danneggiata di Nettuno diventata il monumento più riconoscibile di Monterosso, scolpita nella roccia della scogliera."
+        },
+        {
+          "en": "**The red cliffs** frame everything. Monterosso takes its name from Mons Rubeus—red mountain—and the warm stone colors reflect in the water at sunset.",
+          "de": "**Die roten Klippen** rahmen alles ein. Monterosso hat seinen Namen von Mons Rubeus — roter Berg — und die warmen Steinfarben spiegeln sich bei Sonnenuntergang im Wasser.",
+          "fr": "**Les falaises rouges** encadrent tout. Monterosso tire son nom de Mons Rubeus — montagne rouge — et les couleurs chaudes de la pierre se reflètent dans l'eau au coucher du soleil.",
+          "it": "**Le scogliere rosse** incorniciano tutto. Monterosso prende il nome da Mons Rubeus — montagna rossa — e i caldi colori della pietra si riflettono nell'acqua al tramonto."
+        }
       ]
     },
     {
@@ -44,60 +98,210 @@
       "items": [
         {
           "id": 1,
-          "name": "Fegina Beach",
-          "category": "Main Beach",
+          "name": {
+            "en": "Fegina Beach",
+            "de": "Strand von Fegina",
+            "fr": "Plage de Fegina",
+            "it": "Spiaggia di Fegina"
+          },
+          "category": {
+            "en": "Main Beach",
+            "de": "Hauptstrand",
+            "fr": "Plage principale",
+            "it": "Spiaggia principale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The long sandy stretch that brings half of Monterosso's visitors—proper beach life with proper sand.",
-          "description": "Fegina Beach extends from the train station to Il Gigante, divided between free public sections and stabilimenti offering umbrellas, loungers, and seaside dining. The water is clean, the sand is real, and the infrastructure exists to spend an entire day without moving. This is Mediterranean beach life at its most accessible.",
-          "giuliaComment": "Arrive before 9am in summer to claim a good spot on the free section. Or pay for a stabilimento and let someone else worry about real estate. The water is the same; the stress level differs.",
-          "signature": "Where beach day becomes reality",
-          "practicalInfo": "Free sections available. Stabilimenti €20-40/day. Best before 10am in summer. Showers and facilities available."
+          "intro": {
+            "en": "The long sandy stretch that brings half of Monterosso's visitors—proper beach life with proper sand.",
+            "de": "Der lange Sandstreifen, der die Hälfte der Monterosso-Besucher anzieht — richtiges Strandleben mit richtigem Sand.",
+            "fr": "La longue étendue de sable qui attire la moitié des visiteurs de Monterosso — une vraie vie de plage avec du vrai sable.",
+            "it": "La lunga distesa di sabbia che attira metà dei visitatori di Monterosso — vera vita da spiaggia con vera sabbia."
+          },
+          "description": {
+            "en": "Fegina Beach extends from the train station to Il Gigante, divided between free public sections and stabilimenti offering umbrellas, loungers, and seaside dining. The water is clean, the sand is real, and the infrastructure exists to spend an entire day without moving. This is Mediterranean beach life at its most accessible.",
+            "de": "Der Strand von Fegina erstreckt sich vom Bahnhof bis Il Gigante, aufgeteilt zwischen freien öffentlichen Abschnitten und Stabilimenti, die Sonnenschirme, Liegen und Essen am Meer anbieten. Das Wasser ist sauber, der Sand ist echt, und die Infrastruktur ermöglicht einen ganzen Tag ohne sich zu bewegen. Das ist mediterranes Strandleben in seiner zugänglichsten Form.",
+            "fr": "La plage de Fegina s'étend de la gare à Il Gigante, divisée entre sections publiques gratuites et stabilimenti offrant parasols, transats et restauration en bord de mer. L'eau est propre, le sable est vrai, et l'infrastructure permet de passer une journée entière sans bouger. C'est la vie de plage méditerranéenne à son plus accessible.",
+            "it": "La spiaggia di Fegina si estende dalla stazione a Il Gigante, divisa tra sezioni pubbliche libere e stabilimenti che offrono ombrelloni, lettini e ristorazione in riva al mare. L'acqua è pulita, la sabbia è vera, e l'infrastruttura esiste per trascorrere un'intera giornata senza muoversi. Questa è la vita da spiaggia mediterranea nella sua forma più accessibile."
+          },
+          "giuliaComment": {
+            "en": "Arrive before 9am in summer to claim a good spot on the free section. Or pay for a stabilimento and let someone else worry about real estate. The water is the same; the stress level differs.",
+            "de": "Kommen Sie im Sommer vor 9 Uhr, um einen guten Platz im freien Bereich zu ergattern. Oder zahlen Sie für ein Stabilimento und lassen Sie jemand anderen sich um die Platzsuche kümmern. Das Wasser ist dasselbe; der Stresslevel unterscheidet sich.",
+            "fr": "Arrivez avant 9h en été pour vous réserver un bon emplacement dans la section gratuite. Ou payez pour un stabilimento et laissez quelqu'un d'autre se soucier de l'immobilier. L'eau est la même ; le niveau de stress diffère.",
+            "it": "Arrivate prima delle 9 d'estate per accaparrarvi un buon posto nella sezione libera. Oppure pagate per uno stabilimento e lasciate che qualcun altro si preoccupi del posto. L'acqua è la stessa; il livello di stress cambia."
+          },
+          "signature": {
+            "en": "Where beach day becomes reality",
+            "de": "Wo der Strandtag Wirklichkeit wird",
+            "fr": "Où la journée plage devient réalité",
+            "it": "Dove la giornata in spiaggia diventa realtà"
+          },
+          "practicalInfo": {
+            "en": "Free sections available. Stabilimenti €20-40/day. Best before 10am in summer. Showers and facilities available.",
+            "de": "Freie Abschnitte verfügbar. Stabilimenti €20-40/Tag. Am besten vor 10 Uhr im Sommer. Duschen und Einrichtungen vorhanden.",
+            "fr": "Sections gratuites disponibles. Stabilimenti 20-40€/jour. Idéal avant 10h en été. Douches et installations disponibles.",
+            "it": "Sezioni libere disponibili. Stabilimenti €20-40/giorno. Meglio prima delle 10 in estate. Docce e servizi disponibili."
+          }
         },
         {
           "id": 2,
-          "name": "Old Town Beach",
-          "category": "Historic Beach",
+          "name": {
+            "en": "Old Town Beach",
+            "de": "Altstadtstrand",
+            "fr": "Plage de la vieille ville",
+            "it": "Spiaggia del centro storico"
+          },
+          "category": {
+            "en": "Historic Beach",
+            "de": "Historischer Strand",
+            "fr": "Plage historique",
+            "it": "Spiaggia storica"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The smaller beach by the harbor—where fishing boats and swimmers share the same shore.",
-          "description": "Tucked beside the old town's harbor, this smaller beach offers a different character. Fishing boats pull up on the sand, the medieval buildings rise directly behind, and the scale feels more intimate than Fegina's expanse. Less infrastructure, more authenticity—this is how Monterosso swam before tourism arrived.",
-          "giuliaComment": "I prefer this beach to Fegina. It's smaller, yes, but the old town is right there. You can swim, dry off, and be eating lunch in five minutes. The integration with the village is what I love.",
-          "signature": "Where the village meets the water",
-          "practicalInfo": "Smaller than Fegina. Some free sections. Fishing boats present. Old town restaurants steps away."
+          "intro": {
+            "en": "The smaller beach by the harbor—where fishing boats and swimmers share the same shore.",
+            "de": "Der kleinere Strand am Hafen — wo Fischerboote und Schwimmer sich das Ufer teilen.",
+            "fr": "La plus petite plage près du port — où bateaux de pêche et baigneurs partagent le même rivage.",
+            "it": "La spiaggia più piccola vicino al porto — dove barche da pesca e nuotatori condividono la stessa riva."
+          },
+          "description": {
+            "en": "Tucked beside the old town's harbor, this smaller beach offers a different character. Fishing boats pull up on the sand, the medieval buildings rise directly behind, and the scale feels more intimate than Fegina's expanse. Less infrastructure, more authenticity—this is how Monterosso swam before tourism arrived.",
+            "de": "Eingezwängt neben dem Hafen der Altstadt, bietet dieser kleinere Strand einen anderen Charakter. Fischerboote liegen auf dem Sand, die mittelalterlichen Gebäude erheben sich direkt dahinter, und der Maßstab fühlt sich intimer an als Feginas Weite. Weniger Infrastruktur, mehr Authentizität — so schwamm man in Monterosso, bevor der Tourismus kam.",
+            "fr": "Nichée à côté du port de la vieille ville, cette plage plus petite offre un caractère différent. Les bateaux de pêche sont tirés sur le sable, les bâtiments médiévaux s'élèvent juste derrière, et l'échelle semble plus intime que l'étendue de Fegina. Moins d'infrastructure, plus d'authenticité — c'est ainsi que Monterosso nageait avant l'arrivée du tourisme.",
+            "it": "Incastonata accanto al porto del centro storico, questa spiaggia più piccola offre un carattere diverso. Le barche da pesca sono tirate sulla sabbia, gli edifici medievali si ergono direttamente dietro, e la scala sembra più intima della distesa di Fegina. Meno infrastrutture, più autenticità — così nuotava Monterosso prima dell'arrivo del turismo."
+          },
+          "giuliaComment": {
+            "en": "I prefer this beach to Fegina. It's smaller, yes, but the old town is right there. You can swim, dry off, and be eating lunch in five minutes. The integration with the village is what I love.",
+            "de": "Ich bevorzuge diesen Strand gegenüber Fegina. Er ist kleiner, ja, aber die Altstadt ist direkt da. Sie können schwimmen, sich abtrocknen und in fünf Minuten zu Mittag essen. Die Integration mit dem Dorf ist das, was ich liebe.",
+            "fr": "Je préfère cette plage à Fegina. Elle est plus petite, oui, mais la vieille ville est juste là. Vous pouvez nager, vous sécher et déjeuner en cinq minutes. L'intégration avec le village est ce que j'aime.",
+            "it": "Preferisco questa spiaggia a Fegina. È più piccola, sì, ma il centro storico è proprio lì. Potete nuotare, asciugarvi e pranzare in cinque minuti. L'integrazione con il borgo è ciò che amo."
+          },
+          "signature": {
+            "en": "Where the village meets the water",
+            "de": "Wo das Dorf auf das Wasser trifft",
+            "fr": "Où le village rencontre l'eau",
+            "it": "Dove il borgo incontra l'acqua"
+          },
+          "practicalInfo": {
+            "en": "Smaller than Fegina. Some free sections. Fishing boats present. Old town restaurants steps away.",
+            "de": "Kleiner als Fegina. Einige freie Abschnitte. Fischerboote vorhanden. Restaurants der Altstadt nur Schritte entfernt.",
+            "fr": "Plus petite que Fegina. Quelques sections gratuites. Bateaux de pêche présents. Restaurants de la vieille ville à quelques pas.",
+            "it": "Più piccola di Fegina. Alcune sezioni libere. Barche da pesca presenti. Ristoranti del centro storico a pochi passi."
+          }
         },
         {
           "id": 3,
-          "name": "Il Gigante Area",
-          "category": "Landmark Beach",
+          "name": {
+            "en": "Il Gigante Area",
+            "de": "Il Gigante Bereich",
+            "fr": "Zone d'Il Gigante",
+            "it": "Area de Il Gigante"
+          },
+          "category": {
+            "en": "Landmark Beach",
+            "de": "Wahrzeichen-Strand",
+            "fr": "Plage emblématique",
+            "it": "Spiaggia del monumento"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Swimming in the shadow of the damaged Neptune—where beach meets monument.",
-          "description": "The eastern end of Fegina Beach lies beneath Il Gigante, the 14-meter statue carved into the cliff in 1910. The water here is excellent, and the statue provides shade in the afternoon. Swimming past his armless form while looking up at Art Nouveau ambition carved into ancient rock—this is Monterosso's most distinctive beach moment.",
-          "giuliaComment": "This is where I take friends who've never been. You swim out, turn around, and there's this enormous Neptune watching over you. The photos from the water are extraordinary.",
-          "signature": "Where mythology guards the swimmers",
-          "practicalInfo": "Part of Fegina Beach. Best morning for photos (backlit in afternoon). Rocks at base—water shoes helpful."
+          "intro": {
+            "en": "Swimming in the shadow of the damaged Neptune—where beach meets monument.",
+            "de": "Schwimmen im Schatten des beschädigten Neptun — wo Strand auf Monument trifft.",
+            "fr": "Nager dans l'ombre du Neptune endommagé — où la plage rencontre le monument.",
+            "it": "Nuotare all'ombra del Nettuno danneggiato — dove spiaggia incontra monumento."
+          },
+          "description": {
+            "en": "The eastern end of Fegina Beach lies beneath Il Gigante, the 14-meter statue carved into the cliff in 1910. The water here is excellent, and the statue provides shade in the afternoon. Swimming past his armless form while looking up at Art Nouveau ambition carved into ancient rock—this is Monterosso's most distinctive beach moment.",
+            "de": "Das östliche Ende des Strandes von Fegina liegt unter Il Gigante, der 14 Meter hohen Statue, die 1910 in die Klippe gemeißelt wurde. Das Wasser hier ist ausgezeichnet, und die Statue spendet am Nachmittag Schatten. An seiner armlosen Form vorbeizuschwimmen, während man zu Art-Nouveau-Ambitionen blickt, die in uralten Felsen gemeißelt sind — das ist Monterossos markantester Strandmoment.",
+            "fr": "L'extrémité est de la plage de Fegina se trouve sous Il Gigante, la statue de 14 mètres sculptée dans la falaise en 1910. L'eau ici est excellente, et la statue offre de l'ombre l'après-midi. Nager devant sa forme sans bras en admirant l'ambition Art Nouveau sculptée dans la roche ancienne — c'est le moment de plage le plus distinctif de Monterosso.",
+            "it": "L'estremità orientale della spiaggia di Fegina si trova sotto Il Gigante, la statua di 14 metri scolpita nella scogliera nel 1910. L'acqua qui è eccellente, e la statua offre ombra nel pomeriggio. Nuotare davanti alla sua forma senza braccia guardando in alto l'ambizione Art Nouveau scolpita nella roccia antica — questo è il momento di spiaggia più distintivo di Monterosso."
+          },
+          "giuliaComment": {
+            "en": "This is where I take friends who've never been. You swim out, turn around, and there's this enormous Neptune watching over you. The photos from the water are extraordinary.",
+            "de": "Hierhin bringe ich Freunde, die noch nie hier waren. Man schwimmt hinaus, dreht sich um, und da ist dieser riesige Neptun, der über einen wacht. Die Fotos vom Wasser aus sind außergewöhnlich.",
+            "fr": "C'est là que j'emmène les amis qui n'y sont jamais allés. Vous nagez, vous vous retournez, et il y a cet énorme Neptune qui veille sur vous. Les photos depuis l'eau sont extraordinaires.",
+            "it": "È qui che porto gli amici che non sono mai stati. Nuotate, vi girate, e c'è questo enorme Nettuno che veglia su di voi. Le foto dall'acqua sono straordinarie."
+          },
+          "signature": {
+            "en": "Where mythology guards the swimmers",
+            "de": "Wo Mythologie die Schwimmer bewacht",
+            "fr": "Où la mythologie garde les baigneurs",
+            "it": "Dove la mitologia protegge i nuotatori"
+          },
+          "practicalInfo": {
+            "en": "Part of Fegina Beach. Best morning for photos (backlit in afternoon). Rocks at base—water shoes helpful.",
+            "de": "Teil des Strandes von Fegina. Am besten morgens für Fotos (nachmittags Gegenlicht). Felsen am Fuß — Wasserschuhe hilfreich.",
+            "fr": "Partie de la plage de Fegina. Meilleur le matin pour les photos (contre-jour l'après-midi). Rochers à la base — chaussures d'eau utiles.",
+            "it": "Parte della spiaggia di Fegina. Meglio al mattino per le foto (controluce nel pomeriggio). Rocce alla base — scarpette da scoglio utili."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Stabilimento Question",
-          "quote": "Stabilimenti are beach clubs: pay €20-40 and receive an umbrella, loungers, changing facilities, and often seaside food and drink service. Is it worth it? In July and August, when free beaches are packed by 9am, absolutely. In May or September, the free sections offer plenty of space. Your choice depends on season and priorities."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude éditorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Stabilimento Question",
+            "de": "Die Stabilimento-Frage",
+            "fr": "La question du stabilimento",
+            "it": "La questione dello stabilimento"
+          },
+          "quote": {
+            "en": "Stabilimenti are beach clubs: pay €20-40 and receive an umbrella, loungers, changing facilities, and often seaside food and drink service. Is it worth it? In July and August, when free beaches are packed by 9am, absolutely. In May or September, the free sections offer plenty of space. Your choice depends on season and priorities.",
+            "de": "Stabilimenti sind Strandclubs: Zahlen Sie €20-40 und erhalten Sie einen Sonnenschirm, Liegen, Umkleiden und oft Essens- und Getränkeservice am Meer. Lohnt es sich? Im Juli und August, wenn die freien Strände bis 9 Uhr voll sind, absolut. Im Mai oder September bieten die freien Abschnitte viel Platz. Ihre Wahl hängt von der Saison und Ihren Prioritäten ab.",
+            "fr": "Les stabilimenti sont des clubs de plage : payez 20-40€ et recevez un parasol, des transats, des vestiaires et souvent un service de restauration en bord de mer. Cela vaut-il le coup ? En juillet et août, quand les plages gratuites sont bondées à 9h, absolument. En mai ou septembre, les sections gratuites offrent beaucoup d'espace. Votre choix dépend de la saison et des priorités.",
+            "it": "Gli stabilimenti sono club da spiaggia: pagate €20-40 e ricevete un ombrellone, lettini, spogliatoi e spesso servizio di ristorazione in riva al mare. Ne vale la pena? In luglio e agosto, quando le spiagge libere sono piene alle 9, assolutamente. In maggio o settembre, le sezioni libere offrono molto spazio. La vostra scelta dipende dalla stagione e dalle priorità."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Beach Intelligence",
-      "quote": "Monterosso's beaches reward those who understand their rhythms. Morning brings calm water and available space. Midday brings crowds and heat. Evening brings the return of peace and golden light.",
+      "badge": {
+        "en": "Beach Intelligence",
+        "de": "Strand-Intelligenz",
+        "fr": "Intelligence plage",
+        "it": "Intelligenza da spiaggia"
+      },
+      "quote": {
+        "en": "Monterosso's beaches reward those who understand their rhythms. Morning brings calm water and available space. Midday brings crowds and heat. Evening brings the return of peace and golden light.",
+        "de": "Monterossos Strände belohnen diejenigen, die ihre Rhythmen verstehen. Der Morgen bringt ruhiges Wasser und verfügbaren Platz. Mittag bringt Menschenmengen und Hitze. Der Abend bringt die Rückkehr des Friedens und goldenes Licht.",
+        "fr": "Les plages de Monterosso récompensent ceux qui comprennent leurs rythmes. Le matin apporte une eau calme et de l'espace disponible. Midi apporte la foule et la chaleur. Le soir apporte le retour du calme et de la lumière dorée.",
+        "it": "Le spiagge di Monterosso premiano chi ne comprende i ritmi. Il mattino porta acqua calma e spazio disponibile. Mezzogiorno porta folla e caldo. La sera porta il ritorno della pace e della luce dorata."
+      },
       "content": [
-        "**Arrive early** if you want free beach space in summer. By 10am, the best spots are claimed. By noon, even the back sections are full.",
-        "**The afternoon retreat** is real. From 1pm to 4pm, heat drives swimmers to restaurants, shade, and air conditioning. The beach reopens psychologically around 4pm.",
-        "**Sunset swimming** is Monterosso's secret pleasure. As day-trippers leave, the water turns golden, the crowds thin, and the beach becomes genuinely beautiful again.",
-        "**Water shoes matter** at the transitions—where sand meets rocks at the beach edges. The Mediterranean is clear because it lacks gentle muddy bottoms."
+        {
+          "en": "**Arrive early** if you want free beach space in summer. By 10am, the best spots are claimed. By noon, even the back sections are full.",
+          "de": "**Kommen Sie früh** wenn Sie im Sommer freien Strandplatz wollen. Um 10 Uhr sind die besten Plätze vergeben. Um Mittag sind sogar die hinteren Abschnitte voll.",
+          "fr": "**Arrivez tôt** si vous voulez de l'espace gratuit sur la plage en été. À 10h, les meilleurs emplacements sont pris. À midi, même les sections arrière sont pleines.",
+          "it": "**Arrivate presto** se volete spazio libero sulla spiaggia d'estate. Alle 10 i posti migliori sono occupati. A mezzogiorno anche le sezioni posteriori sono piene."
+        },
+        {
+          "en": "**The afternoon retreat** is real. From 1pm to 4pm, heat drives swimmers to restaurants, shade, and air conditioning. The beach reopens psychologically around 4pm.",
+          "de": "**Der Nachmittagsrückzug** ist real. Von 13 bis 16 Uhr treibt die Hitze die Schwimmer in Restaurants, Schatten und Klimaanlagen. Der Strand öffnet sich psychologisch gegen 16 Uhr wieder.",
+          "fr": "**La retraite de l'après-midi** est réelle. De 13h à 16h, la chaleur pousse les baigneurs vers les restaurants, l'ombre et la climatisation. La plage rouvre psychologiquement vers 16h.",
+          "it": "**La ritirata pomeridiana** è reale. Dalle 13 alle 16, il caldo spinge i bagnanti verso ristoranti, ombra e aria condizionata. La spiaggia riapre psicologicamente verso le 16."
+        },
+        {
+          "en": "**Sunset swimming** is Monterosso's secret pleasure. As day-trippers leave, the water turns golden, the crowds thin, and the beach becomes genuinely beautiful again.",
+          "de": "**Schwimmen bei Sonnenuntergang** ist Monterossos geheimes Vergnügen. Wenn die Tagesausflügler gehen, wird das Wasser golden, die Menschenmengen dünner, und der Strand wird wieder wirklich schön.",
+          "fr": "**La baignade au coucher du soleil** est le plaisir secret de Monterosso. Quand les excursionnistes partent, l'eau devient dorée, la foule s'éclaircit et la plage redevient vraiment belle.",
+          "it": "**Nuotare al tramonto** è il piacere segreto di Monterosso. Quando i gitanti se ne vanno, l'acqua diventa dorata, la folla si dirada e la spiaggia torna genuinamente bella."
+        },
+        {
+          "en": "**Water shoes matter** at the transitions—where sand meets rocks at the beach edges. The Mediterranean is clear because it lacks gentle muddy bottoms.",
+          "de": "**Wasserschuhe sind wichtig** an den Übergängen — wo Sand auf Felsen an den Strandrändern trifft. Das Mittelmeer ist klar, weil es keine sanften schlammigen Böden hat.",
+          "fr": "**Les chaussures d'eau comptent** aux transitions — où le sable rencontre les rochers aux bords de la plage. La Méditerranée est claire parce qu'elle n'a pas de fonds boueux doux.",
+          "it": "**Le scarpette da scoglio contano** nelle transizioni — dove la sabbia incontra le rocce ai bordi della spiaggia. Il Mediterraneo è limpido perché non ha fondali fangosi morbidi."
+        }
       ]
     },
     {
@@ -106,62 +310,230 @@
       "items": [
         {
           "id": 4,
-          "name": "Free Beach Sections",
-          "category": "Public Access",
+          "name": {
+            "en": "Free Beach Sections",
+            "de": "Freie Strandabschnitte",
+            "fr": "Sections de plage gratuites",
+            "it": "Sezioni di spiaggia libera"
+          },
+          "category": {
+            "en": "Public Access",
+            "de": "Öffentlicher Zugang",
+            "fr": "Accès public",
+            "it": "Accesso pubblico"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1520942702018-0862c52ccbd4?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The spiaggia libera—where no payment is required and space goes to the early arrivers.",
-          "description": "Both Fegina and the old town beach have free public sections (spiaggia libera). No umbrellas provided, no loungers included—just sand, sea, and whatever you bring yourself. These sections fill first and empty last, used by locals, budget travelers, and anyone who prefers simplicity to service.",
-          "giuliaComment": "The free beach is where I grew up swimming. You bring a towel, maybe an umbrella you own, and you stay until you're done. No time limits, no obligations, no pretense.",
-          "signature": "Where the beach is simply beach",
-          "practicalInfo": "No facilities in free sections. Bring your own umbrella/towel. Arrive early in summer. Public showers nearby."
+          "intro": {
+            "en": "The spiaggia libera—where no payment is required and space goes to the early arrivers.",
+            "de": "Die Spiaggia Libera — wo keine Zahlung erforderlich ist und der Platz an die Frühaufsteher geht.",
+            "fr": "La spiaggia libera — où aucun paiement n'est requis et l'espace va aux premiers arrivés.",
+            "it": "La spiaggia libera — dove nessun pagamento è richiesto e lo spazio va ai primi arrivati."
+          },
+          "description": {
+            "en": "Both Fegina and the old town beach have free public sections (spiaggia libera). No umbrellas provided, no loungers included—just sand, sea, and whatever you bring yourself. These sections fill first and empty last, used by locals, budget travelers, and anyone who prefers simplicity to service.",
+            "de": "Sowohl Fegina als auch der Altstadtstrand haben freie öffentliche Abschnitte (Spiaggia Libera). Keine Sonnenschirme, keine Liegen — nur Sand, Meer und was Sie selbst mitbringen. Diese Abschnitte füllen sich zuerst und leeren sich zuletzt, genutzt von Einheimischen, Budget-Reisenden und allen, die Einfachheit dem Service vorziehen.",
+            "fr": "Fegina et la plage de la vieille ville ont des sections publiques gratuites (spiaggia libera). Pas de parasols fournis, pas de transats inclus — juste du sable, la mer et ce que vous apportez. Ces sections se remplissent en premier et se vident en dernier, utilisées par les locaux, les voyageurs à petit budget et tous ceux qui préfèrent la simplicité au service.",
+            "it": "Sia Fegina che la spiaggia del centro storico hanno sezioni pubbliche libere (spiaggia libera). Nessun ombrellone fornito, nessun lettino incluso — solo sabbia, mare e quello che portate voi. Queste sezioni si riempiono per prime e si svuotano per ultime, usate da locali, viaggiatori economici e chiunque preferisca la semplicità al servizio."
+          },
+          "giuliaComment": {
+            "en": "The free beach is where I grew up swimming. You bring a towel, maybe an umbrella you own, and you stay until you're done. No time limits, no obligations, no pretense.",
+            "de": "Der freie Strand ist, wo ich schwimmen gelernt habe. Man bringt ein Handtuch mit, vielleicht einen eigenen Sonnenschirm, und bleibt, bis man fertig ist. Keine Zeitlimits, keine Verpflichtungen, keine Prätention.",
+            "fr": "La plage gratuite est où j'ai grandi en nageant. Vous apportez une serviette, peut-être un parasol à vous, et vous restez jusqu'à ce que vous en ayez fini. Pas de limites de temps, pas d'obligations, pas de prétention.",
+            "it": "La spiaggia libera è dove sono cresciuta nuotando. Portate un asciugamano, magari un ombrellone vostro, e restate finché non avete finito. Nessun limite di tempo, nessun obbligo, nessuna pretesa."
+          },
+          "signature": {
+            "en": "Where the beach is simply beach",
+            "de": "Wo der Strand einfach Strand ist",
+            "fr": "Où la plage est simplement plage",
+            "it": "Dove la spiaggia è semplicemente spiaggia"
+          },
+          "practicalInfo": {
+            "en": "No facilities in free sections. Bring your own umbrella/towel. Arrive early in summer. Public showers nearby.",
+            "de": "Keine Einrichtungen in freien Abschnitten. Bringen Sie eigenen Sonnenschirm/Handtuch mit. Im Sommer früh kommen. Öffentliche Duschen in der Nähe.",
+            "fr": "Pas d'installations dans les sections gratuites. Apportez votre propre parasol/serviette. Arrivez tôt en été. Douches publiques à proximité.",
+            "it": "Nessun servizio nelle sezioni libere. Portate ombrellone/asciugamano. Arrivate presto d'estate. Docce pubbliche nelle vicinanze."
+          }
         },
         {
           "id": 5,
-          "name": "Beach Club Experience",
-          "category": "Full Service",
+          "name": {
+            "en": "Beach Club Experience",
+            "de": "Strandclub-Erlebnis",
+            "fr": "Expérience club de plage",
+            "it": "Esperienza stabilimento"
+          },
+          "category": {
+            "en": "Full Service",
+            "de": "Voller Service",
+            "fr": "Service complet",
+            "it": "Servizio completo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The stabilimento life—umbrella, lounger, service, and the freedom to do nothing.",
-          "description": "Monterosso's stabilimenti offer the complete beach club experience: reserved umbrella, padded loungers, changing rooms, showers, and often beachside food and drink service. You arrive, find your assigned spot, and let someone else handle logistics. In high season, this convenience becomes nearly essential.",
-          "giuliaComment": "I resisted stabilimenti until I had children. Now I understand—when you want a full beach day without stress, paying for service makes sense. The good ones feel like outdoor living rooms.",
-          "signature": "Where relaxation becomes profession",
-          "practicalInfo": "€20-40/day depending on position and season. Book ahead in July/August. Food and drinks available. Full facilities."
+          "intro": {
+            "en": "The stabilimento life—umbrella, lounger, service, and the freedom to do nothing.",
+            "de": "Das Stabilimento-Leben — Sonnenschirm, Liege, Service und die Freiheit, nichts zu tun.",
+            "fr": "La vie en stabilimento — parasol, transat, service et la liberté de ne rien faire.",
+            "it": "La vita da stabilimento — ombrellone, lettino, servizio e la libertà di non fare nulla."
+          },
+          "description": {
+            "en": "Monterosso's stabilimenti offer the complete beach club experience: reserved umbrella, padded loungers, changing rooms, showers, and often beachside food and drink service. You arrive, find your assigned spot, and let someone else handle logistics. In high season, this convenience becomes nearly essential.",
+            "de": "Monterossos Stabilimenti bieten das komplette Strandclub-Erlebnis: reservierter Sonnenschirm, gepolsterte Liegen, Umkleidekabinen, Duschen und oft Essens- und Getränkeservice am Strand. Sie kommen an, finden Ihren zugewiesenen Platz und lassen jemand anderen die Logistik erledigen. In der Hochsaison wird diese Bequemlichkeit fast unerlässlich.",
+            "fr": "Les stabilimenti de Monterosso offrent l'expérience complète du club de plage : parasol réservé, transats rembourrés, vestiaires, douches et souvent service de nourriture et boissons sur la plage. Vous arrivez, trouvez votre place assignée et laissez quelqu'un d'autre gérer la logistique. En haute saison, cette commodité devient presque essentielle.",
+            "it": "Gli stabilimenti di Monterosso offrono l'esperienza completa del club da spiaggia: ombrellone riservato, lettini imbottiti, spogliatoi, docce e spesso servizio di cibo e bevande in spiaggia. Arrivate, trovate il vostro posto assegnato e lasciate che qualcun altro gestisca la logistica. In alta stagione, questa comodità diventa quasi essenziale."
+          },
+          "giuliaComment": {
+            "en": "I resisted stabilimenti until I had children. Now I understand—when you want a full beach day without stress, paying for service makes sense. The good ones feel like outdoor living rooms.",
+            "de": "Ich habe mich gegen Stabilimenti gewehrt, bis ich Kinder hatte. Jetzt verstehe ich — wenn man einen vollen Strandtag ohne Stress will, macht es Sinn, für Service zu zahlen. Die guten fühlen sich wie Wohnzimmer im Freien an.",
+            "fr": "J'ai résisté aux stabilimenti jusqu'à ce que j'aie des enfants. Maintenant je comprends — quand on veut une journée plage complète sans stress, payer pour le service a du sens. Les bons ressemblent à des salons en plein air.",
+            "it": "Ho resistito agli stabilimenti finché non ho avuto figli. Ora capisco — quando vuoi una giornata intera in spiaggia senza stress, pagare per il servizio ha senso. I migliori sembrano salotti all'aperto."
+          },
+          "signature": {
+            "en": "Where relaxation becomes profession",
+            "de": "Wo Entspannung zum Beruf wird",
+            "fr": "Où la relaxation devient profession",
+            "it": "Dove il relax diventa professione"
+          },
+          "practicalInfo": {
+            "en": "€20-40/day depending on position and season. Book ahead in July/August. Food and drinks available. Full facilities.",
+            "de": "€20-40/Tag je nach Position und Saison. Im Juli/August vorbuchen. Essen und Getränke erhältlich. Volle Ausstattung.",
+            "fr": "20-40€/jour selon la position et la saison. Réservez à l'avance en juillet/août. Nourriture et boissons disponibles. Installations complètes.",
+            "it": "€20-40/giorno a seconda della posizione e stagione. Prenotate in anticipo in luglio/agosto. Cibo e bevande disponibili. Servizi completi."
+          }
         },
         {
           "id": 6,
-          "name": "Hidden Coves",
-          "category": "Secret Spots",
+          "name": {
+            "en": "Hidden Coves",
+            "de": "Versteckte Buchten",
+            "fr": "Criques cachées",
+            "it": "Calette nascoste"
+          },
+          "category": {
+            "en": "Secret Spots",
+            "de": "Geheime Orte",
+            "fr": "Spots secrets",
+            "it": "Posti segreti"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The swimming spots that require boats or scrambles—where effort buys solitude.",
-          "description": "Beyond the main beaches, small coves dot the rocky coastline. Access requires either boat rental, adventurous scrambling, or local knowledge. These spots offer what the main beaches cannot: solitude, pristine water, and the feeling of having found something the crowds missed.",
-          "giuliaComment": "I won't give away my favorite cove. But I'll say this: rent a kayak or a small boat, head west along the coast, and explore. The swimming improves dramatically away from the crowds.",
-          "signature": "Where the adventurous swim alone",
-          "practicalInfo": "Boat rental available at harbor. Some coves accessible by scrambling at low tide. Bring water and snacks. No facilities."
+          "intro": {
+            "en": "The swimming spots that require boats or scrambles—where effort buys solitude.",
+            "de": "Die Schwimmstellen, die Boote oder Kletterpartien erfordern — wo Anstrengung Einsamkeit erkauft.",
+            "fr": "Les spots de baignade qui nécessitent bateaux ou escalades — où l'effort achète la solitude.",
+            "it": "I posti per nuotare che richiedono barche o arrampicate — dove lo sforzo compra la solitudine."
+          },
+          "description": {
+            "en": "Beyond the main beaches, small coves dot the rocky coastline. Access requires either boat rental, adventurous scrambling, or local knowledge. These spots offer what the main beaches cannot: solitude, pristine water, and the feeling of having found something the crowds missed.",
+            "de": "Jenseits der Hauptstrände säumen kleine Buchten die felsige Küste. Der Zugang erfordert entweder Bootsvermietung, abenteuerliches Klettern oder lokales Wissen. Diese Orte bieten, was die Hauptstrände nicht können: Einsamkeit, kristallklares Wasser und das Gefühl, etwas gefunden zu haben, das die Massen verpasst haben.",
+            "fr": "Au-delà des plages principales, de petites criques parsèment le littoral rocheux. L'accès nécessite soit une location de bateau, soit une escalade aventureuse, soit des connaissances locales. Ces endroits offrent ce que les plages principales ne peuvent pas : la solitude, une eau cristalline et le sentiment d'avoir trouvé quelque chose que la foule a manqué.",
+            "it": "Oltre le spiagge principali, piccole calette punteggiano la costa rocciosa. L'accesso richiede noleggio di barche, arrampicate avventurose o conoscenza locale. Questi posti offrono ciò che le spiagge principali non possono: solitudine, acqua cristallina e la sensazione di aver trovato qualcosa che la folla ha perso."
+          },
+          "giuliaComment": {
+            "en": "I won't give away my favorite cove. But I'll say this: rent a kayak or a small boat, head west along the coast, and explore. The swimming improves dramatically away from the crowds.",
+            "de": "Ich verrate meine Lieblingsbucht nicht. Aber ich sage das: Mieten Sie ein Kajak oder ein kleines Boot, fahren Sie nach Westen entlang der Küste und erkunden Sie. Das Schwimmen wird dramatisch besser weg von den Menschenmengen.",
+            "fr": "Je ne révélerai pas ma crique préférée. Mais je dirai ceci : louez un kayak ou un petit bateau, dirigez-vous vers l'ouest le long de la côte et explorez. La baignade s'améliore considérablement loin de la foule.",
+            "it": "Non svelerò la mia caletta preferita. Ma dirò questo: noleggiate un kayak o una barchetta, andate verso ovest lungo la costa ed esplorate. Il nuoto migliora drasticamente lontano dalla folla."
+          },
+          "signature": {
+            "en": "Where the adventurous swim alone",
+            "de": "Wo die Abenteuerlustigen alleine schwimmen",
+            "fr": "Où les aventuriers nagent seuls",
+            "it": "Dove gli avventurosi nuotano da soli"
+          },
+          "practicalInfo": {
+            "en": "Boat rental available at harbor. Some coves accessible by scrambling at low tide. Bring water and snacks. No facilities.",
+            "de": "Bootsverleih am Hafen verfügbar. Einige Buchten bei Ebbe durch Klettern erreichbar. Wasser und Snacks mitbringen. Keine Einrichtungen.",
+            "fr": "Location de bateaux disponible au port. Certaines criques accessibles par escalade à marée basse. Apportez eau et collations. Pas d'installations.",
+            "it": "Noleggio barche disponibile al porto. Alcune calette accessibili arrampicando con la bassa marea. Portate acqua e snack. Nessun servizio."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 2,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The September Secret",
-          "quote": "September is the best beach month. The water is warmest (it takes all summer to heat the Mediterranean), the crowds have thinned, the light is golden, and Monterosso remembers why it exists. If you can choose your timing, choose September."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The September Secret",
+            "de": "Das September-Geheimnis",
+            "fr": "Le secret de septembre",
+            "it": "Il segreto di settembre"
+          },
+          "quote": {
+            "en": "September is the best beach month. The water is warmest (it takes all summer to heat the Mediterranean), the crowds have thinned, the light is golden, and Monterosso remembers why it exists. If you can choose your timing, choose September.",
+            "de": "September ist der beste Strandmonat. Das Wasser ist am wärmsten (es braucht den ganzen Sommer, um das Mittelmeer zu erwärmen), die Menschenmengen haben sich gelichtet, das Licht ist golden, und Monterosso erinnert sich, warum es existiert. Wenn Sie Ihre Zeit wählen können, wählen Sie September.",
+            "fr": "Septembre est le meilleur mois de plage. L'eau est la plus chaude (il faut tout l'été pour réchauffer la Méditerranée), les foules se sont éclaircies, la lumière est dorée et Monterosso se souvient pourquoi il existe. Si vous pouvez choisir votre moment, choisissez septembre.",
+            "it": "Settembre è il miglior mese da spiaggia. L'acqua è più calda (ci vuole tutta l'estate per scaldare il Mediterraneo), la folla si è diradata, la luce è dorata e Monterosso ricorda perché esiste. Se potete scegliere il momento, scegliete settembre."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Sand is Real",
+      "title": {
+        "en": "The Sand is Real",
+        "de": "Der Sand ist echt",
+        "fr": "Le sable est vrai",
+        "it": "La sabbia è vera"
+      },
       "content": [
-        "Monterosso's beaches deliver what the other villages cannot: genuine Mediterranean beach life. You can spread a towel, build a sandcastle, spend an entire day moving between sea and sand without climbing ladders or balancing on rocks.",
-        "The infrastructure exists—stabilimenti for those who want service, free sections for those who don't. The water is clear, the views are red-cliff dramatic, and Il Gigante watches over it all.",
-        "Come for the beach. The rest of Cinque Terre can wait until you've had your fill of sand."
+        {
+          "en": "Monterosso's beaches deliver what the other villages cannot: genuine Mediterranean beach life. You can spread a towel, build a sandcastle, spend an entire day moving between sea and sand without climbing ladders or balancing on rocks.",
+          "de": "Monterossos Strände liefern, was die anderen Dörfer nicht können: echtes mediterranes Strandleben. Sie können ein Handtuch ausbreiten, eine Sandburg bauen, einen ganzen Tag zwischen Meer und Sand verbringen, ohne Leitern zu klettern oder auf Felsen zu balancieren.",
+          "fr": "Les plages de Monterosso offrent ce que les autres villages ne peuvent pas : une véritable vie de plage méditerranéenne. Vous pouvez étendre une serviette, construire un château de sable, passer une journée entière entre mer et sable sans monter d'échelles ni vous équilibrer sur des rochers.",
+          "it": "Le spiagge di Monterosso offrono ciò che gli altri borghi non possono: vera vita da spiaggia mediterranea. Potete stendere un asciugamano, costruire un castello di sabbia, trascorrere un'intera giornata muovendovi tra mare e sabbia senza salire scale o bilanciarvi sulle rocce."
+        },
+        {
+          "en": "The infrastructure exists—stabilimenti for those who want service, free sections for those who don't. The water is clear, the views are red-cliff dramatic, and Il Gigante watches over it all.",
+          "de": "Die Infrastruktur existiert — Stabilimenti für diejenigen, die Service wollen, freie Abschnitte für diejenigen, die es nicht wollen. Das Wasser ist klar, die Aussichten sind rotklippig-dramatisch, und Il Gigante wacht über alles.",
+          "fr": "L'infrastructure existe — des stabilimenti pour ceux qui veulent le service, des sections gratuites pour ceux qui ne le veulent pas. L'eau est claire, les vues sont dramatiquement encadrées de falaises rouges, et Il Gigante veille sur tout.",
+          "it": "L'infrastruttura esiste — stabilimenti per chi vuole il servizio, sezioni libere per chi non lo vuole. L'acqua è limpida, le viste sono drammaticamente incorniciate da scogliere rosse, e Il Gigante veglia su tutto."
+        },
+        {
+          "en": "Come for the beach. The rest of Cinque Terre can wait until you've had your fill of sand.",
+          "de": "Kommen Sie für den Strand. Der Rest der Cinque Terre kann warten, bis Sie genug Sand hatten.",
+          "fr": "Venez pour la plage. Le reste des Cinque Terre peut attendre que vous ayez eu votre dose de sable.",
+          "it": "Venite per la spiaggia. Il resto delle Cinque Terre può aspettare finché non avrete fatto il pieno di sabbia."
+        }
       ],
       "buttons": [
-        { "text": "Where to Stay", "url": "/en/monterosso/hotels", "variant": "primary" },
-        { "text": "Where to Eat", "url": "/en/monterosso/restaurants", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Unterkünfte",
+            "fr": "Où dormir",
+            "it": "Dove dormire"
+          },
+          "url": {
+            "en": "/en/monterosso/hotels",
+            "de": "/de/monterosso/hotels",
+            "fr": "/fr/monterosso/hotels",
+            "it": "/it/monterosso/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Eat",
+            "de": "Wo essen",
+            "fr": "Où manger",
+            "it": "Dove mangiare"
+          },
+          "url": {
+            "en": "/en/monterosso/restaurants",
+            "de": "/de/monterosso/restaurants",
+            "fr": "/fr/monterosso/restaurants",
+            "it": "/it/monterosso/restaurants"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -171,5 +543,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T13:45:00.000Z"
+  "updated_at": "2026-01-08T10:30:00.000Z"
 }

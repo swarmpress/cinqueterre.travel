@@ -7,36 +7,90 @@
     "it": "/it/vernazza/insights"
   },
   "title": {
-    "en": "Vernazza Insights | Cinque Terre Dispatch"
+    "en": "Vernazza Insights | Cinque Terre Dispatch",
+    "de": "Vernazza Einblicke | Cinque Terre Dispatch",
+    "fr": "Aperçus de Vernazza | Cinque Terre Dispatch",
+    "it": "Approfondimenti su Vernazza | Cinque Terre Dispatch"
   },
   "page_type": "insights",
   "seo": {
     "title": {
-      "en": "Vernazza Insights | Cinque Terre Dispatch"
+      "en": "Vernazza Insights | Cinque Terre Dispatch",
+      "de": "Vernazza Einblicke | Cinque Terre Dispatch",
+      "fr": "Aperçus de Vernazza | Cinque Terre Dispatch",
+      "it": "Approfondimenti su Vernazza | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Deeper understanding of Vernazza—the maritime history that shaped its architecture, the culinary traditions that define its tables, the rhythms that reveal themselves only to those who look."
+      "en": "Deeper understanding of Vernazza—the maritime history that shaped its architecture, the culinary traditions that define its tables, the rhythms that reveal themselves only to those who look.",
+      "de": "Tieferes Verständnis von Vernazza—die maritime Geschichte, die seine Architektur prägte, die kulinarischen Traditionen, die seine Tische definieren, die Rhythmen, die sich nur denen offenbaren, die hinschauen.",
+      "fr": "Compréhension plus profonde de Vernazza—l'histoire maritime qui a façonné son architecture, les traditions culinaires qui définissent ses tables, les rythmes qui ne se révèlent qu'à ceux qui regardent.",
+      "it": "Comprensione più profonda di Vernazza—la storia marittima che ha plasmato la sua architettura, le tradizioni culinarie che definiscono le sue tavole, i ritmi che si rivelano solo a chi guarda."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Beneath<br/>the Surface",
-      "subtitle": "Vernazza rewards those who look deeper. The castle isn't decoration—it controlled Mediterranean trade routes. The harbor isn't scenic—it's why the village exists. The restaurants aren't just feeding tourists—they're maintaining traditions that predate tourism by centuries.",
-      "badge": "Village Insights",
+      "title": {
+        "en": "Beneath<br/>the Surface",
+        "de": "Unter<br/>der Oberfläche",
+        "fr": "Sous<br/>la Surface",
+        "it": "Sotto<br/>la Superficie"
+      },
+      "subtitle": {
+        "en": "Vernazza rewards those who look deeper. The castle isn't decoration—it controlled Mediterranean trade routes. The harbor isn't scenic—it's why the village exists. The restaurants aren't just feeding tourists—they're maintaining traditions that predate tourism by centuries.",
+        "de": "Vernazza belohnt jene, die tiefer blicken. Das Schloss ist keine Dekoration—es kontrollierte mediterrane Handelsrouten. Der Hafen ist nicht malerisch—er ist der Grund, warum das Dorf existiert. Die Restaurants füttern nicht nur Touristen—sie pflegen Traditionen, die dem Tourismus um Jahrhunderte vorausgehen.",
+        "fr": "Vernazza récompense ceux qui regardent plus profond. Le château n'est pas une décoration—il contrôlait les routes commerciales méditerranéennes. Le port n'est pas pittoresque—c'est pourquoi le village existe. Les restaurants ne nourrissent pas seulement les touristes—ils maintiennent des traditions qui précèdent le tourisme de plusieurs siècles.",
+        "it": "Vernazza ricompensa chi guarda più in profondità. Il castello non è decorazione—controllava le rotte commerciali mediterranee. Il porto non è scenografico—è il motivo per cui il borgo esiste. I ristoranti non stanno solo nutrendo i turisti—stanno mantenendo tradizioni che precedono il turismo di secoli."
+      },
+      "badge": {
+        "en": "Village Insights",
+        "de": "Dorfeinblicke",
+        "fr": "Aperçus du Village",
+        "it": "Approfondimenti del Borgo"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "Understanding Vernazza",
-      "quote": "Every visitor to Vernazza sees the photograph. Fewer understand why this particular composition exists—why the castle is positioned exactly there, why the harbor curves in that precise way, why the tower houses rise in that specific pattern. The answers lie in a thousand years of strategic thinking.",
-      "content": [
-        "**First documented in 1080** in papal records, but the strategic importance of this harbor predates the documents. The Doria family, powerful Genoese nobility, recognized what made this location extraordinary—the only true natural harbor along the entire Cinque Terre coast.",
-        "**The castle isn't romantic accident**. Built in the 11th century, its cylindrical tower provided 360-degree surveillance of the coastline. Genoese admirals commanded naval operations from these ramparts. The strategic advantage controlled Mediterranean commerce.",
-        "**UNESCO recognition in 1997** confirmed what locals have maintained for centuries: this medieval maritime architecture represents something irreplaceable. But the recognition followed the preservation, not the reverse. Locals kept these traditions alive without official validation.",
-        "**The photography reputation was earned**. Vernazza's unique geography creates the perfect composition through centuries of human decision-making. Harbor in foreground, tower as focal point, pastel houses climbing the cliff—this isn't accident. This is accumulated strategic wisdom made beautiful."
-      ]
+      "badge": {
+        "en": "Understanding Vernazza",
+        "de": "Vernazza Verstehen",
+        "fr": "Comprendre Vernazza",
+        "it": "Capire Vernazza"
+      },
+      "quote": {
+        "en": "Every visitor to Vernazza sees the photograph. Fewer understand why this particular composition exists—why the castle is positioned exactly there, why the harbor curves in that precise way, why the tower houses rise in that specific pattern. The answers lie in a thousand years of strategic thinking.",
+        "de": "Jeder Besucher in Vernazza sieht das Foto. Weniger verstehen, warum diese besondere Komposition existiert—warum das Schloss genau dort positioniert ist, warum der Hafen sich auf diese präzise Weise krümmt, warum die Turmhäuser in diesem spezifischen Muster aufsteigen. Die Antworten liegen in tausend Jahren strategischen Denkens.",
+        "fr": "Chaque visiteur de Vernazza voit la photographie. Moins comprennent pourquoi cette composition particulière existe—pourquoi le château est positionné exactement là, pourquoi le port se courbe de cette façon précise, pourquoi les maisons-tours s'élèvent dans ce schéma spécifique. Les réponses résident dans mille ans de réflexion stratégique.",
+        "it": "Ogni visitatore di Vernazza vede la fotografia. Meno capiscono perché questa particolare composizione esiste—perché il castello è posizionato esattamente lì, perché il porto si curva in quel modo preciso, perché le case-torri si innalzano in quel modello specifico. Le risposte risiedono in mille anni di pensiero strategico."
+      },
+      "content": {
+        "en": [
+          "**First documented in 1080** in papal records, but the strategic importance of this harbor predates the documents. The Doria family, powerful Genoese nobility, recognized what made this location extraordinary—the only true natural harbor along the entire Cinque Terre coast.",
+          "**The castle isn't romantic accident**. Built in the 11th century, its cylindrical tower provided 360-degree surveillance of the coastline. Genoese admirals commanded naval operations from these ramparts. The strategic advantage controlled Mediterranean commerce.",
+          "**UNESCO recognition in 1997** confirmed what locals have maintained for centuries: this medieval maritime architecture represents something irreplaceable. But the recognition followed the preservation, not the reverse. Locals kept these traditions alive without official validation.",
+          "**The photography reputation was earned**. Vernazza's unique geography creates the perfect composition through centuries of human decision-making. Harbor in foreground, tower as focal point, pastel houses climbing the cliff—this isn't accident. This is accumulated strategic wisdom made beautiful."
+        ],
+        "de": [
+          "**Erstmals dokumentiert 1080** in päpstlichen Aufzeichnungen, aber die strategische Bedeutung dieses Hafens geht den Dokumenten voraus. Die Familie Doria, mächtiger genuesischer Adel, erkannte, was diesen Standort außergewöhnlich machte—der einzige echte natürliche Hafen entlang der gesamten Cinque Terre-Küste.",
+          "**Das Schloss ist kein romantischer Zufall**. Im 11. Jahrhundert erbaut, bot sein zylindrischer Turm 360-Grad-Überwachung der Küstenlinie. Genuesische Admirale kommandierten Marineoperationen von diesen Wällen aus. Der strategische Vorteil kontrollierte den Mittelmeerhandel.",
+          "**Die UNESCO-Anerkennung 1997** bestätigte, was Einheimische seit Jahrhunderten bewahrt haben: Diese mittelalterliche maritime Architektur repräsentiert etwas Unersetzliches. Aber die Anerkennung folgte der Erhaltung, nicht umgekehrt. Einheimische hielten diese Traditionen ohne offizielle Bestätigung am Leben.",
+          "**Der Fotografie-Ruf wurde verdient**. Vernazzas einzigartige Geographie schafft die perfekte Komposition durch Jahrhunderte menschlicher Entscheidungsfindung. Hafen im Vordergrund, Turm als Blickfang, pastellfarbene Häuser, die den Felsen hinaufklettern—das ist kein Zufall. Das ist angesammelte strategische Weisheit, die schön geworden ist."
+        ],
+        "fr": [
+          "**Documenté pour la première fois en 1080** dans les archives papales, mais l'importance stratégique de ce port précède les documents. La famille Doria, puissante noblesse génoise, a reconnu ce qui rendait cet emplacement extraordinaire—le seul véritable port naturel le long de toute la côte des Cinque Terre.",
+          "**Le château n'est pas un accident romantique**. Construit au 11ème siècle, sa tour cylindrique offrait une surveillance à 360 degrés du littoral. Les amiraux génois commandaient les opérations navales depuis ces remparts. L'avantage stratégique contrôlait le commerce méditerranéen.",
+          "**La reconnaissance UNESCO en 1997** a confirmé ce que les habitants ont maintenu pendant des siècles : cette architecture maritime médiévale représente quelque chose d'irremplaçable. Mais la reconnaissance a suivi la préservation, pas l'inverse. Les habitants ont maintenu ces traditions vivantes sans validation officielle.",
+          "**La réputation photographique a été méritée**. La géographie unique de Vernazza crée la composition parfaite à travers des siècles de prise de décision humaine. Le port au premier plan, la tour comme point focal, les maisons pastel grimpant la falaise—ce n'est pas un accident. C'est la sagesse stratégique accumulée rendue belle."
+        ],
+        "it": [
+          "**Documentato per la prima volta nel 1080** nei registri papali, ma l'importanza strategica di questo porto precede i documenti. La famiglia Doria, potente nobiltà genovese, riconobbe cosa rendeva questa posizione straordinaria—l'unico vero porto naturale lungo tutta la costa delle Cinque Terre.",
+          "**Il castello non è un incidente romantico**. Costruito nell'XI secolo, la sua torre cilindrica forniva sorveglianza a 360 gradi della costa. Gli ammiragli genovesi comandavano operazioni navali da questi bastioni. Il vantaggio strategico controllava il commercio mediterraneo.",
+          "**Il riconoscimento UNESCO nel 1997** ha confermato ciò che gli abitanti hanno mantenuto per secoli: questa architettura marittima medievale rappresenta qualcosa di insostituibile. Ma il riconoscimento ha seguito la conservazione, non il contrario. Gli abitanti hanno tenuto vive queste tradizioni senza validazione ufficiale.",
+          "**La reputazione fotografica è stata guadagnata**. La geografia unica di Vernazza crea la composizione perfetta attraverso secoli di decisioni umane. Porto in primo piano, torre come punto focale, case pastello che scalano la scogliera—non è un caso. È saggezza strategica accumulata resa bella."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,59 +98,214 @@
       "items": [
         {
           "id": 1,
-          "name": "The Maritime Legacy",
-          "category": "History",
+          "name": {
+            "en": "The Maritime Legacy",
+            "de": "Das Maritime Erbe",
+            "fr": "L'Héritage Maritime",
+            "it": "L'Eredità Marittima"
+          },
+          "category": {
+            "en": "History",
+            "de": "Geschichte",
+            "fr": "Histoire",
+            "it": "Storia"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Vernazza developed not as a fishing village, but as a naval powerhouse under the medieval Genoese Republic.",
-          "description": "The village's strategic importance is immediately visible in its substantial fortifications. The Doria family's cylindrical tower and defensive walls protected what became the region's most important harbor. Walk through Vernazza's narrow caruggi (medieval alleys) and you'll notice homes built to withstand sea storms, with distinctive Ligurian slate roofs and thick stone walls. The village layout reflects its naval function: Via Roma leads directly from train station to harbor, designed for efficient movement of sailors and goods.",
-          "giuliaComment": "Visitors often ask why Vernazza feels different from the other villages. This is why. It wasn't built by fishermen—it was built by naval commanders who happened to fish. The scale of ambition is visible in every fortification, every defensive position, every strategic sightline.",
-          "signature": "Where power shaped beauty"
+          "intro": {
+            "en": "Vernazza developed not as a fishing village, but as a naval powerhouse under the medieval Genoese Republic.",
+            "de": "Vernazza entwickelte sich nicht als Fischerdorf, sondern als Seemacht unter der mittelalterlichen Genueser Republik.",
+            "fr": "Vernazza s'est développé non pas comme un village de pêcheurs, mais comme une puissance navale sous la République de Gênes médiévale.",
+            "it": "Vernazza si sviluppò non come villaggio di pescatori, ma come potenza navale sotto la medievale Repubblica di Genova."
+          },
+          "description": {
+            "en": "The village's strategic importance is immediately visible in its substantial fortifications. The Doria family's cylindrical tower and defensive walls protected what became the region's most important harbor. Walk through Vernazza's narrow caruggi (medieval alleys) and you'll notice homes built to withstand sea storms, with distinctive Ligurian slate roofs and thick stone walls. The village layout reflects its naval function: Via Roma leads directly from train station to harbor, designed for efficient movement of sailors and goods.",
+            "de": "Die strategische Bedeutung des Dorfes ist sofort sichtbar in seinen substantiellen Befestigungen. Der zylindrische Turm und die Verteidigungsmauern der Familie Doria schützten, was zum wichtigsten Hafen der Region wurde. Gehen Sie durch Vernazzas enge Caruggi (mittelalterliche Gassen) und Sie werden Häuser bemerken, die gebaut wurden, um Seestürmen standzuhalten, mit charakteristischen ligurischen Schieferdächern und dicken Steinmauern. Das Dorflayout spiegelt seine Marinefunktion wider: Die Via Roma führt direkt vom Bahnhof zum Hafen, entworfen für effiziente Bewegung von Seeleuten und Waren.",
+            "fr": "L'importance stratégique du village est immédiatement visible dans ses fortifications substantielles. La tour cylindrique et les murs défensifs de la famille Doria protégeaient ce qui devint le port le plus important de la région. Promenez-vous dans les étroites caruggi (ruelles médiévales) de Vernazza et vous remarquerez des maisons construites pour résister aux tempêtes maritimes, avec des toits distinctifs en ardoise ligure et des murs de pierre épais. Le plan du village reflète sa fonction navale : la Via Roma mène directement de la gare au port, conçue pour le mouvement efficace des marins et des marchandises.",
+            "it": "L'importanza strategica del borgo è immediatamente visibile nelle sue sostanziali fortificazioni. La torre cilindrica e le mura difensive della famiglia Doria proteggevano quello che divenne il porto più importante della regione. Camminate attraverso le strette caruggi (vicoli medievali) di Vernazza e noterete case costruite per resistere alle tempeste marine, con caratteristici tetti in ardesia ligure e spessi muri in pietra. La disposizione del borgo riflette la sua funzione navale: Via Roma conduce direttamente dalla stazione al porto, progettata per il movimento efficiente di marinai e merci."
+          },
+          "giuliaComment": {
+            "en": "Visitors often ask why Vernazza feels different from the other villages. This is why. It wasn't built by fishermen—it was built by naval commanders who happened to fish. The scale of ambition is visible in every fortification, every defensive position, every strategic sightline.",
+            "de": "Besucher fragen oft, warum sich Vernazza anders anfühlt als die anderen Dörfer. Darum. Es wurde nicht von Fischern gebaut—es wurde von Marinekommandanten gebaut, die zufällig fischten. Das Ausmaß des Ehrgeizes ist sichtbar in jeder Befestigung, jeder Verteidigungsposition, jeder strategischen Sichtlinie.",
+            "fr": "Les visiteurs demandent souvent pourquoi Vernazza semble différent des autres villages. C'est pourquoi. Il n'a pas été construit par des pêcheurs—il a été construit par des commandants navals qui pêchaient aussi. L'ampleur de l'ambition est visible dans chaque fortification, chaque position défensive, chaque ligne de vue stratégique.",
+            "it": "I visitatori chiedono spesso perché Vernazza sembra diversa dagli altri borghi. Ecco perché. Non fu costruito da pescatori—fu costruito da comandanti navali che pescavano anche. La scala dell'ambizione è visibile in ogni fortificazione, ogni posizione difensiva, ogni linea di vista strategica."
+          },
+          "signature": {
+            "en": "Where power shaped beauty",
+            "de": "Wo Macht Schönheit formte",
+            "fr": "Où le pouvoir a façonné la beauté",
+            "it": "Dove il potere ha plasmato la bellezza"
+          }
         },
         {
           "id": 2,
-          "name": "The Culinary Tradition",
-          "category": "Food & Wine",
+          "name": {
+            "en": "The Culinary Tradition",
+            "de": "Die Kulinarische Tradition",
+            "fr": "La Tradition Culinaire",
+            "it": "La Tradizione Culinaria"
+          },
+          "category": {
+            "en": "Food & Wine",
+            "de": "Essen & Wein",
+            "fr": "Gastronomie",
+            "it": "Cibo e Vino"
+          },
           "village": "Vernazza",
           "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571501679680-de32f1e7aad4-regular.jpg",
-          "intro": "Vernazza's dining scene reflects its maritime soul—centuries of fresh catch, terraced vineyards, and the simple reality that the best ingredients arrive by boat.",
-          "description": "At Gambero Rosso, positioned directly on the harbor square, you experience the freshest seafood with panoramic views of fishing boats and ancient fortifications—a setting unchanged for centuries. Belforte occupies a medieval tower perched on the cliffs, where innovative cuisine meets breathtaking Ligurian Sea views. Nessun Dorma offers aperitivo with Instagram's most photographed perspective. Each restaurant tells part of Vernazza's story—traditional fishing village fare to sophisticated Ligurian cuisine, all enhanced by settings that showcase unique geography.",
-          "giuliaComment": "The dining scene here isn't just restaurants. It's the continuation of a maritime food culture that predates tourism by centuries. The fish that arrives at Gambero Rosso this morning was swimming yesterday. The wine at Nessun Dorma was grown on terraces visible from your table. Everything connects.",
-          "signature": "Where cuisine continues culture"
+          "intro": {
+            "en": "Vernazza's dining scene reflects its maritime soul—centuries of fresh catch, terraced vineyards, and the simple reality that the best ingredients arrive by boat.",
+            "de": "Vernazzas Gastronomieszene spiegelt seine maritime Seele wider—Jahrhunderte frischer Fang, terrassierte Weinberge und die einfache Realität, dass die besten Zutaten mit dem Boot ankommen.",
+            "fr": "La scène culinaire de Vernazza reflète son âme maritime—des siècles de prises fraîches, de vignobles en terrasses, et la simple réalité que les meilleurs ingrédients arrivent par bateau.",
+            "it": "La scena culinaria di Vernazza riflette la sua anima marittima—secoli di pesce fresco, vigneti terrazzati, e la semplice realtà che i migliori ingredienti arrivano in barca."
+          },
+          "description": {
+            "en": "At Gambero Rosso, positioned directly on the harbor square, you experience the freshest seafood with panoramic views of fishing boats and ancient fortifications—a setting unchanged for centuries. Belforte occupies a medieval tower perched on the cliffs, where innovative cuisine meets breathtaking Ligurian Sea views. Nessun Dorma offers aperitivo with Instagram's most photographed perspective. Each restaurant tells part of Vernazza's story—traditional fishing village fare to sophisticated Ligurian cuisine, all enhanced by settings that showcase unique geography.",
+            "de": "Im Gambero Rosso, direkt am Hafenplatz gelegen, erleben Sie die frischesten Meeresfrüchte mit Panoramablick auf Fischerboote und antike Befestigungen—ein Ambiente, das sich seit Jahrhunderten nicht verändert hat. Belforte besetzt einen mittelalterlichen Turm auf den Klippen, wo innovative Küche auf atemberaubende Aussichten auf das Ligurische Meer trifft. Nessun Dorma bietet Aperitivo mit Instagrams meistfotografierter Perspektive. Jedes Restaurant erzählt einen Teil von Vernazzas Geschichte—von traditioneller Fischerdorfkost bis zu raffinierter ligurischer Küche, alles aufgewertet durch Umgebungen, die die einzigartige Geographie präsentieren.",
+            "fr": "Au Gambero Rosso, situé directement sur la place du port, vous découvrez les fruits de mer les plus frais avec une vue panoramique sur les bateaux de pêche et les anciennes fortifications—un cadre inchangé depuis des siècles. Belforte occupe une tour médiévale perchée sur les falaises, où une cuisine innovante rencontre des vues à couper le souffle sur la mer Ligure. Nessun Dorma offre l'aperitivo avec la perspective la plus photographiée d'Instagram. Chaque restaurant raconte une partie de l'histoire de Vernazza—de la cuisine traditionnelle de village de pêcheurs à la cuisine ligure sophistiquée, le tout rehaussé par des cadres qui mettent en valeur une géographie unique.",
+            "it": "Al Gambero Rosso, posizionato direttamente sulla piazza del porto, vivete i frutti di mare più freschi con vista panoramica sui pescherecci e le antiche fortificazioni—un ambiente immutato da secoli. Belforte occupa una torre medievale arroccata sulle scogliere, dove la cucina innovativa incontra viste mozzafiato sul Mar Ligure. Nessun Dorma offre l'aperitivo con la prospettiva più fotografata di Instagram. Ogni ristorante racconta parte della storia di Vernazza—dalla cucina tradizionale del villaggio di pescatori alla raffinata cucina ligure, il tutto esaltato da ambienti che mostrano la geografia unica."
+          },
+          "giuliaComment": {
+            "en": "The dining scene here isn't just restaurants. It's the continuation of a maritime food culture that predates tourism by centuries. The fish that arrives at Gambero Rosso this morning was swimming yesterday. The wine at Nessun Dorma was grown on terraces visible from your table. Everything connects.",
+            "de": "Die Gastronomieszene hier sind nicht nur Restaurants. Es ist die Fortsetzung einer maritimen Esskultur, die dem Tourismus um Jahrhunderte vorausgeht. Der Fisch, der heute Morgen im Gambero Rosso ankommt, schwamm gestern noch. Der Wein im Nessun Dorma wuchs auf Terrassen, die von Ihrem Tisch aus sichtbar sind. Alles ist verbunden.",
+            "fr": "La scène culinaire ici n'est pas que des restaurants. C'est la continuation d'une culture alimentaire maritime qui précède le tourisme de plusieurs siècles. Le poisson qui arrive au Gambero Rosso ce matin nageait hier. Le vin au Nessun Dorma a été cultivé sur des terrasses visibles depuis votre table. Tout est connecté.",
+            "it": "La scena culinaria qui non sono solo ristoranti. È la continuazione di una cultura alimentare marittima che precede il turismo di secoli. Il pesce che arriva al Gambero Rosso questa mattina nuotava ieri. Il vino al Nessun Dorma è cresciuto su terrazzamenti visibili dal vostro tavolo. Tutto è connesso."
+          },
+          "signature": {
+            "en": "Where cuisine continues culture",
+            "de": "Wo Küche Kultur fortsetzt",
+            "fr": "Où la cuisine continue la culture",
+            "it": "Dove la cucina continua la cultura"
+          }
         },
         {
           "id": 3,
-          "name": "The Living Rhythms",
-          "category": "Daily Life",
+          "name": {
+            "en": "The Living Rhythms",
+            "de": "Die Lebendigen Rhythmen",
+            "fr": "Les Rythmes Vivants",
+            "it": "I Ritmi Vivi"
+          },
+          "category": {
+            "en": "Daily Life",
+            "de": "Tägliches Leben",
+            "fr": "Vie Quotidienne",
+            "it": "Vita Quotidiana"
+          },
           "village": "Vernazza",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Vernazza operates on rhythms that predate tourism—fishing boats at dawn, passeggiata at dusk, traditions that continue regardless of who's watching.",
-          "description": "The village day begins before tourists wake. Fishing boats launch at dawn, following routes charted by ancestors. The harbor belongs to locals until mid-morning. Then tourism arrives—the crowds, the photographs, the energy. Evening reverses the process: day-trippers leave, locals reclaim the piazza, passeggiata unfolds as it has for centuries. The Feast of Santa Margherita in July features maritime blessing ceremonies that connect directly to medieval customs. These aren't performances—they're continuations.",
-          "giuliaComment": "The visitors who understand Vernazza best are those who see it at the wrong hours—early morning when the harbor is working, late evening when the passeggiata begins, the in-between moments when the village stops performing and simply exists. These rhythms don't require you; they welcome you if you find them.",
-          "signature": "Where tradition continues"
+          "intro": {
+            "en": "Vernazza operates on rhythms that predate tourism—fishing boats at dawn, passeggiata at dusk, traditions that continue regardless of who's watching.",
+            "de": "Vernazza funktioniert nach Rhythmen, die dem Tourismus vorausgehen—Fischerboote bei Morgendämmerung, Passeggiata in der Abenddämmerung, Traditionen, die weitergehen, unabhängig davon, wer zuschaut.",
+            "fr": "Vernazza fonctionne sur des rythmes qui précèdent le tourisme—bateaux de pêche à l'aube, passeggiata au crépuscule, traditions qui continuent quel que soit le spectateur.",
+            "it": "Vernazza funziona su ritmi che precedono il turismo—pescherecci all'alba, passeggiata al tramonto, tradizioni che continuano indipendentemente da chi guarda."
+          },
+          "description": {
+            "en": "The village day begins before tourists wake. Fishing boats launch at dawn, following routes charted by ancestors. The harbor belongs to locals until mid-morning. Then tourism arrives—the crowds, the photographs, the energy. Evening reverses the process: day-trippers leave, locals reclaim the piazza, passeggiata unfolds as it has for centuries. The Feast of Santa Margherita in July features maritime blessing ceremonies that connect directly to medieval customs. These aren't performances—they're continuations.",
+            "de": "Der Dorftag beginnt, bevor Touristen aufwachen. Fischerboote legen bei Morgengrauen ab und folgen Routen, die von Vorfahren kartiert wurden. Der Hafen gehört den Einheimischen bis zum späten Vormittag. Dann kommt der Tourismus—die Menschenmengen, die Fotos, die Energie. Der Abend kehrt den Prozess um: Tagesausflügler gehen, Einheimische erobern die Piazza zurück, die Passeggiata entfaltet sich wie seit Jahrhunderten. Das Fest der Santa Margherita im Juli bietet maritime Segnungszeremonien, die direkt mit mittelalterlichen Bräuchen verbunden sind. Das sind keine Aufführungen—das sind Fortsetzungen.",
+            "fr": "La journée du village commence avant que les touristes ne se réveillent. Les bateaux de pêche partent à l'aube, suivant des routes tracées par les ancêtres. Le port appartient aux habitants jusqu'en milieu de matinée. Puis le tourisme arrive—les foules, les photographies, l'énergie. Le soir inverse le processus : les excursionnistes partent, les habitants reprennent la piazza, la passeggiata se déroule comme depuis des siècles. La fête de Santa Margherita en juillet présente des cérémonies de bénédiction maritime qui se connectent directement aux coutumes médiévales. Ce ne sont pas des performances—ce sont des continuations.",
+            "it": "La giornata del borgo inizia prima che i turisti si sveglino. I pescherecci partono all'alba, seguendo rotte tracciate dagli antenati. Il porto appartiene agli abitanti fino a metà mattina. Poi arriva il turismo—le folle, le fotografie, l'energia. La sera inverte il processo: gli escursionisti se ne vanno, gli abitanti si riprendono la piazza, la passeggiata si svolge come da secoli. La Festa di Santa Margherita a luglio presenta cerimonie di benedizione marittima che si collegano direttamente alle usanze medievali. Non sono rappresentazioni—sono continuazioni."
+          },
+          "giuliaComment": {
+            "en": "The visitors who understand Vernazza best are those who see it at the wrong hours—early morning when the harbor is working, late evening when the passeggiata begins, the in-between moments when the village stops performing and simply exists. These rhythms don't require you; they welcome you if you find them.",
+            "de": "Die Besucher, die Vernazza am besten verstehen, sind jene, die es zu den falschen Stunden sehen—früh morgens, wenn der Hafen arbeitet, spät abends, wenn die Passeggiata beginnt, die Zwischenmomente, wenn das Dorf aufhört aufzutreten und einfach existiert. Diese Rhythmen brauchen Sie nicht; sie heißen Sie willkommen, wenn Sie sie finden.",
+            "fr": "Les visiteurs qui comprennent le mieux Vernazza sont ceux qui le voient aux mauvaises heures—tôt le matin quand le port travaille, tard le soir quand la passeggiata commence, les moments intermédiaires quand le village cesse de jouer et existe simplement. Ces rythmes n'ont pas besoin de vous ; ils vous accueillent si vous les trouvez.",
+            "it": "I visitatori che capiscono meglio Vernazza sono quelli che lo vedono nelle ore sbagliate—la mattina presto quando il porto lavora, la sera tardi quando inizia la passeggiata, i momenti intermedi quando il borgo smette di recitare e semplicemente esiste. Questi ritmi non hanno bisogno di voi; vi accolgono se li trovate."
+          },
+          "signature": {
+            "en": "Where tradition continues",
+            "de": "Wo Tradition weiterlebt",
+            "fr": "Où la tradition continue",
+            "it": "Dove la tradizione continua"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Wine Connection",
-          "quote": "The terraces climbing the slopes above Vernazza produce Cinque Terre DOC whites and the precious Sciacchetrà—a dessert wine made from grapes dried for months, concentrated to sweetness, aged for years. Production is tiny. Most never leaves the valley. Every serious restaurant pours what grows within sight of your table."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Wine Connection",
+            "de": "Die Weinverbindung",
+            "fr": "La Connexion du Vin",
+            "it": "La Connessione del Vino"
+          },
+          "quote": {
+            "en": "The terraces climbing the slopes above Vernazza produce Cinque Terre DOC whites and the precious Sciacchetrà—a dessert wine made from grapes dried for months, concentrated to sweetness, aged for years. Production is tiny. Most never leaves the valley. Every serious restaurant pours what grows within sight of your table.",
+            "de": "Die Terrassen, die die Hänge über Vernazza hinaufklettern, produzieren Cinque Terre DOC Weißweine und den kostbaren Sciacchetrà—einen Dessertwein aus monatelang getrockneten Trauben, zu Süße konzentriert, jahrelang gereift. Die Produktion ist winzig. Das meiste verlässt das Tal nie. Jedes seriöse Restaurant schenkt aus, was in Sichtweite Ihres Tisches wächst.",
+            "fr": "Les terrasses qui grimpent les pentes au-dessus de Vernazza produisent des blancs Cinque Terre DOC et le précieux Sciacchetrà—un vin de dessert fait de raisins séchés pendant des mois, concentré en douceur, vieilli pendant des années. La production est minuscule. La plupart ne quitte jamais la vallée. Chaque restaurant sérieux sert ce qui pousse à portée de vue de votre table.",
+            "it": "I terrazzamenti che salgono sui pendii sopra Vernazza producono bianchi Cinque Terre DOC e il prezioso Sciacchetrà—un vino da dessert fatto con uve essiccate per mesi, concentrate in dolcezza, invecchiate per anni. La produzione è minuscola. La maggior parte non lascia mai la valle. Ogni ristorante serio versa ciò che cresce a vista dal vostro tavolo."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Deeper View",
-      "content": [
-        "Vernazza reveals itself in layers. The first layer is the photograph—harbor, castle, pastel houses, the composition everyone recognizes. The second layer is the experience—restaurants, trails, sunset from Nessun Dorma. The third layer is understanding—why this place exists, how it survived, what it means.",
-        "The castle watches because Genoese admirals needed to watch. The harbor curves because nature designed it for ships. The restaurants thrive because maritime culture required feeding. Nothing here is accidental. Everything connects.",
-        "Come for the photograph. Stay for the layers beneath it."
-      ],
+      "title": {
+        "en": "The Deeper View",
+        "de": "Der Tiefere Blick",
+        "fr": "La Vue Plus Profonde",
+        "it": "La Vista Più Profonda"
+      },
+      "content": {
+        "en": [
+          "Vernazza reveals itself in layers. The first layer is the photograph—harbor, castle, pastel houses, the composition everyone recognizes. The second layer is the experience—restaurants, trails, sunset from Nessun Dorma. The third layer is understanding—why this place exists, how it survived, what it means.",
+          "The castle watches because Genoese admirals needed to watch. The harbor curves because nature designed it for ships. The restaurants thrive because maritime culture required feeding. Nothing here is accidental. Everything connects.",
+          "Come for the photograph. Stay for the layers beneath it."
+        ],
+        "de": [
+          "Vernazza offenbart sich in Schichten. Die erste Schicht ist das Foto—Hafen, Schloss, pastellfarbene Häuser, die Komposition, die jeder erkennt. Die zweite Schicht ist die Erfahrung—Restaurants, Wanderwege, Sonnenuntergang vom Nessun Dorma. Die dritte Schicht ist das Verständnis—warum dieser Ort existiert, wie er überlebt hat, was er bedeutet.",
+          "Das Schloss wacht, weil genuesische Admirale wachen mussten. Der Hafen krümmt sich, weil die Natur ihn für Schiffe entworfen hat. Die Restaurants gedeihen, weil die maritime Kultur Verpflegung erforderte. Nichts hier ist zufällig. Alles ist verbunden.",
+          "Kommen Sie wegen des Fotos. Bleiben Sie wegen der Schichten darunter."
+        ],
+        "fr": [
+          "Vernazza se révèle en couches. La première couche est la photographie—port, château, maisons pastel, la composition que tout le monde reconnaît. La deuxième couche est l'expérience—restaurants, sentiers, coucher de soleil depuis Nessun Dorma. La troisième couche est la compréhension—pourquoi cet endroit existe, comment il a survécu, ce qu'il signifie.",
+          "Le château surveille parce que les amiraux génois devaient surveiller. Le port se courbe parce que la nature l'a conçu pour les navires. Les restaurants prospèrent parce que la culture maritime nécessitait de se nourrir. Rien ici n'est accidentel. Tout est connecté.",
+          "Venez pour la photographie. Restez pour les couches en dessous."
+        ],
+        "it": [
+          "Vernazza si rivela a strati. Il primo strato è la fotografia—porto, castello, case pastello, la composizione che tutti riconoscono. Il secondo strato è l'esperienza—ristoranti, sentieri, tramonto dal Nessun Dorma. Il terzo strato è la comprensione—perché questo posto esiste, come è sopravvissuto, cosa significa.",
+          "Il castello sorveglia perché gli ammiragli genovesi dovevano sorvegliare. Il porto si curva perché la natura lo ha progettato per le navi. I ristoranti prosperano perché la cultura marittima richiedeva nutrimento. Niente qui è casuale. Tutto è connesso.",
+          "Venite per la fotografia. Restate per gli strati sottostanti."
+        ]
+      },
       "buttons": [
-        { "text": "Where to Stay", "url": "/en/vernazza/hotels", "variant": "primary" },
-        { "text": "Where to Eat", "url": "/en/vernazza/restaurants", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Where to Stay",
+            "de": "Unterkünfte",
+            "fr": "Où Séjourner",
+            "it": "Dove Alloggiare"
+          },
+          "url": {
+            "en": "/en/vernazza/hotels",
+            "de": "/de/vernazza/hotels",
+            "fr": "/fr/vernazza/hotels",
+            "it": "/it/vernazza/hotels"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Where to Eat",
+            "de": "Restaurants",
+            "fr": "Où Manger",
+            "it": "Dove Mangiare"
+          },
+          "url": {
+            "en": "/en/vernazza/restaurants",
+            "de": "/de/vernazza/restaurants",
+            "fr": "/fr/vernazza/restaurants",
+            "it": "/it/vernazza/restaurants"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -106,5 +315,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T12:00:00.000Z"
+  "updated_at": "2026-01-07T18:00:00.000Z"
 }

@@ -7,36 +7,90 @@
     "it": "/it/riomaggiore/blog"
   },
   "title": {
-    "en": "Stories from Riomaggiore | Cinque Terre Dispatch"
+    "en": "Stories from Riomaggiore | Cinque Terre Dispatch",
+    "de": "Geschichten aus Riomaggiore | Cinque Terre Dispatch",
+    "fr": "Histoires de Riomaggiore | Cinque Terre Dispatch",
+    "it": "Storie da Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "blog",
   "seo": {
     "title": {
-      "en": "Stories from Riomaggiore | Cinque Terre Dispatch"
+      "en": "Stories from Riomaggiore | Cinque Terre Dispatch",
+      "de": "Geschichten aus Riomaggiore | Cinque Terre Dispatch",
+      "fr": "Histoires de Riomaggiore | Cinque Terre Dispatch",
+      "it": "Storie da Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Eight centuries of stories live in these stone walls. The best ones are not found in guidebooks—they're told over wine by those who grew up hearing them from their grandmothers."
+      "en": "Eight centuries of stories live in these stone walls. The best ones are not found in guidebooks—they're told over wine by those who grew up hearing them from their grandmothers.",
+      "de": "Acht Jahrhunderte Geschichten leben in diesen Steinmauern. Die besten findet man nicht in Reisefuehrern—sie werden bei einem Glas Wein von denen erzaehlt, die sie von ihren Grossmuettern gehoert haben.",
+      "fr": "Huit siecles d'histoires vivent dans ces murs de pierre. Les meilleures ne se trouvent pas dans les guides—elles se racontent autour d'un verre de vin par ceux qui les ont entendues de leurs grand-meres.",
+      "it": "Otto secoli di storie vivono in queste mura di pietra. Le migliori non si trovano nelle guide—si raccontano davanti a un bicchiere di vino da chi le ha ascoltate dalle proprie nonne."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Stories<br/>Worth Telling",
-      "subtitle": "Every village has its official history, written in dates and facts. But the real history of Riomaggiore lives in stories—told over wine, passed through generations, earned by those who stay long enough to hear them.",
-      "badge": "Stories & Reflections",
+      "title": {
+        "en": "Stories<br/>Worth Telling",
+        "de": "Geschichten,<br/>die zaehlen",
+        "fr": "Des histoires<br/>qui comptent",
+        "it": "Storie<br/>da raccontare"
+      },
+      "subtitle": {
+        "en": "Every village has its official history, written in dates and facts. But the real history of Riomaggiore lives in stories—told over wine, passed through generations, earned by those who stay long enough to hear them.",
+        "de": "Jedes Dorf hat seine offizielle Geschichte, geschrieben in Daten und Fakten. Aber die wahre Geschichte von Riomaggiore lebt in Erzaehlungen—bei Wein weitergegeben, durch Generationen ueberliefert, verdient von jenen, die lange genug bleiben, um sie zu hoeren.",
+        "fr": "Chaque village a son histoire officielle, ecrite en dates et en faits. Mais la veritable histoire de Riomaggiore vit dans les recits—racontes autour du vin, transmis de generation en generation, merites par ceux qui restent assez longtemps pour les entendre.",
+        "it": "Ogni borgo ha la sua storia ufficiale, scritta in date e fatti. Ma la vera storia di Riomaggiore vive nei racconti—narrati davanti al vino, tramandati di generazione in generazione, guadagnati da chi resta abbastanza a lungo per ascoltarli."
+      },
+      "badge": {
+        "en": "Stories & Reflections",
+        "de": "Geschichten & Betrachtungen",
+        "fr": "Recits & Reflexions",
+        "it": "Storie & Riflessioni"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Art of Listening",
-      "quote": "The best stories in Riomaggiore are not written. They're spoken—by fishermen mending nets at dawn, by nonne who remember when the trains first came, by shopkeepers whose families have sold focaccia for four generations.",
-      "content": [
-        "**Stories require patience**. They emerge in moments you can't schedule: a shared table at a trattoria, a conversation during a sudden rainstorm, the quiet after the day-trippers leave. The village reveals itself to those who wait.",
-        "**The language carries history**. The local dialect preserves words from medieval Latin, from the Greek refugees who founded this place, from centuries of isolation on these cliffs. When old fishermen talk to each other, they speak a language tourists never hear.",
-        "**Every stone has a story**. The stairs worn smooth by centuries of climbing. The hooks in harbor walls where boats have been tied for eight hundred years. The doorways built low when people were shorter and privacy meant survival.",
-        "**The stories change with the teller**. The same legend sounds different from a seventy-year-old who heard it from her grandmother than from a young guide reading from a card. Both versions are true. Neither is complete."
-      ]
+      "badge": {
+        "en": "The Art of Listening",
+        "de": "Die Kunst des Zuhoerens",
+        "fr": "L'art d'ecouter",
+        "it": "L'arte dell'ascolto"
+      },
+      "quote": {
+        "en": "The best stories in Riomaggiore are not written. They're spoken—by fishermen mending nets at dawn, by nonne who remember when the trains first came, by shopkeepers whose families have sold focaccia for four generations.",
+        "de": "Die besten Geschichten in Riomaggiore sind nicht geschrieben. Sie werden erzaehlt—von Fischern, die im Morgengrauen Netze flicken, von Nonnas, die sich erinnern, als die ersten Zuege kamen, von Ladenbesitzern, deren Familien seit vier Generationen Focaccia verkaufen.",
+        "fr": "Les meilleures histoires de Riomaggiore ne sont pas ecrites. Elles sont racontees—par les pecheurs qui reparent leurs filets a l'aube, par les nonnes qui se souviennent de l'arrivee des premiers trains, par les commercants dont les familles vendent de la focaccia depuis quatre generations.",
+        "it": "Le storie migliori di Riomaggiore non sono scritte. Sono raccontate—dai pescatori che rammendano le reti all'alba, dalle nonne che ricordano quando arrivarono i primi treni, dai negozianti le cui famiglie vendono focaccia da quattro generazioni."
+      },
+      "content": {
+        "en": [
+          "**Stories require patience**. They emerge in moments you can't schedule: a shared table at a trattoria, a conversation during a sudden rainstorm, the quiet after the day-trippers leave. The village reveals itself to those who wait.",
+          "**The language carries history**. The local dialect preserves words from medieval Latin, from the Greek refugees who founded this place, from centuries of isolation on these cliffs. When old fishermen talk to each other, they speak a language tourists never hear.",
+          "**Every stone has a story**. The stairs worn smooth by centuries of climbing. The hooks in harbor walls where boats have been tied for eight hundred years. The doorways built low when people were shorter and privacy meant survival.",
+          "**The stories change with the teller**. The same legend sounds different from a seventy-year-old who heard it from her grandmother than from a young guide reading from a card. Both versions are true. Neither is complete."
+        ],
+        "de": [
+          "**Geschichten brauchen Geduld**. Sie entstehen in Momenten, die man nicht planen kann: an einem geteilten Tisch in einer Trattoria, in einem Gespraech waehrend eines ploetzlichen Regenschauers, in der Stille, wenn die Tagesausfluegler gegangen sind. Das Dorf offenbart sich denen, die warten.",
+          "**Die Sprache traegt Geschichte**. Der lokale Dialekt bewahrt Woerter aus dem mittelalterlichen Latein, von den griechischen Fluechtlingen, die diesen Ort gruendeten, aus Jahrhunderten der Isolation auf diesen Klippen. Wenn alte Fischer miteinander reden, sprechen sie eine Sprache, die Touristen nie hoeren.",
+          "**Jeder Stein hat eine Geschichte**. Die Treppen, glattgeschliffen von Jahrhunderten des Steigens. Die Haken in den Hafenmauern, an denen seit achthundert Jahren Boote festgemacht werden. Die niedrigen Tueren, gebaut als Menschen kleiner waren und Privatsphaere Ueberleben bedeutete.",
+          "**Die Geschichten aendern sich mit dem Erzaehler**. Dieselbe Legende klingt anders von einer Siebzigjaehrigen, die sie von ihrer Grossmutter hoerte, als von einem jungen Fuehrer, der von einer Karte abliest. Beide Versionen sind wahr. Keine ist vollstaendig."
+        ],
+        "fr": [
+          "**Les histoires demandent de la patience**. Elles emergent dans des moments qu'on ne peut pas programmer: une table partagee dans une trattoria, une conversation pendant une averse soudaine, le calme apres le depart des excursionnistes. Le village se revele a ceux qui savent attendre.",
+          "**La langue porte l'histoire**. Le dialecte local preserve des mots du latin medieval, des refugies grecs qui ont fonde cet endroit, de siecles d'isolement sur ces falaises. Quand les vieux pecheurs se parlent entre eux, ils utilisent une langue que les touristes n'entendent jamais.",
+          "**Chaque pierre a son histoire**. Les escaliers polis par des siecles de montee. Les crochets dans les murs du port ou les bateaux sont amarres depuis huit cents ans. Les portes basses construites quand les gens etaient plus petits et l'intimite signifiait la survie.",
+          "**Les histoires changent avec le conteur**. La meme legende sonne differemment d'une septuagenaire qui l'a entendue de sa grand-mere que d'un jeune guide qui lit une fiche. Les deux versions sont vraies. Aucune n'est complete."
+        ],
+        "it": [
+          "**Le storie richiedono pazienza**. Emergono in momenti che non puoi programmare: un tavolo condiviso in trattoria, una conversazione durante un temporale improvviso, il silenzio dopo che i gitanti se ne sono andati. Il borgo si rivela a chi sa aspettare.",
+          "**La lingua porta la storia**. Il dialetto locale conserva parole dal latino medievale, dai profughi greci che fondarono questo luogo, da secoli di isolamento su queste scogliere. Quando i vecchi pescatori parlano tra loro, usano una lingua che i turisti non sentono mai.",
+          "**Ogni pietra ha una storia**. Le scale levigate da secoli di salite. I ganci nei muri del porto dove le barche sono state ormeggiate per ottocento anni. Le porte basse costruite quando le persone erano piu piccole e la privacy significava sopravvivenza.",
+          "**Le storie cambiano con chi le racconta**. La stessa leggenda suona diversa da una settantenne che l'ha sentita dalla nonna rispetto a una giovane guida che legge da un foglio. Entrambe le versioni sono vere. Nessuna e completa."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "The Dolphin Legend",
-          "category": "Origin Stories",
+          "name": {
+            "en": "The Dolphin Legend",
+            "de": "Die Delfin-Legende",
+            "fr": "La legende des dauphins",
+            "it": "La leggenda dei delfini"
+          },
+          "category": {
+            "en": "Origin Stories",
+            "de": "Ursprungsgeschichten",
+            "fr": "Recits des origines",
+            "it": "Storie delle origini"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "How Greek refugees found sanctuary on these cliffs—guided, legend says, by dolphins through treacherous waters.",
-          "description": "In the 8th century, Greek refugees fleeing barbarian invasions in the Vara Valley needed a new home. The coastline here was deadly—rocks hidden beneath waves, currents that pulled boats to their destruction. But legend says dolphins guided their small vessels through safe passages to this sheltered inlet, where they would build the village that became Riomaggiore.",
-          "giuliaComment": "My grandmother told this story differently. In her version, it wasn't just any dolphins—it was the same pod that still visits our harbor, generation after generation. She swore she recognized individual markings. I believe her.",
-          "signature": "Where refuge was found through divine guidance"
+          "intro": {
+            "en": "How Greek refugees found sanctuary on these cliffs—guided, legend says, by dolphins through treacherous waters.",
+            "de": "Wie griechische Fluechtlinge Zuflucht auf diesen Klippen fanden—gefuehrt, so die Legende, von Delfinen durch gefaehrliche Gewaesser.",
+            "fr": "Comment les refugies grecs ont trouve asile sur ces falaises—guides, dit la legende, par des dauphins a travers des eaux traitresses.",
+            "it": "Come i profughi greci trovarono rifugio su queste scogliere—guidati, dice la leggenda, dai delfini attraverso acque insidiose."
+          },
+          "description": {
+            "en": "In the 8th century, Greek refugees fleeing barbarian invasions in the Vara Valley needed a new home. The coastline here was deadly—rocks hidden beneath waves, currents that pulled boats to their destruction. But legend says dolphins guided their small vessels through safe passages to this sheltered inlet, where they would build the village that became Riomaggiore.",
+            "de": "Im 8. Jahrhundert brauchten griechische Fluechtlinge, die vor Barbareneinfaellen im Vara-Tal flohen, eine neue Heimat. Die Kueste hier war toedlich—Felsen verborgen unter Wellen, Stroemungen, die Boote in die Zerstoerung zogen. Aber die Legende besagt, dass Delfine ihre kleinen Schiffe durch sichere Passagen zu dieser geschuetzten Bucht fuehrten, wo sie das Dorf gruendeten, das Riomaggiore wurde.",
+            "fr": "Au VIIIe siecle, des refugies grecs fuyant les invasions barbares dans la vallee de Vara avaient besoin d'un nouveau foyer. La cote ici etait mortelle—des rochers caches sous les vagues, des courants qui entrainaient les bateaux vers leur destruction. Mais la legende dit que des dauphins ont guide leurs petits navires a travers des passages surs jusqu'a cette crique abritee, ou ils allaient construire le village qui deviendrait Riomaggiore.",
+            "it": "Nell'VIII secolo, i profughi greci in fuga dalle invasioni barbariche nella Val di Vara avevano bisogno di una nuova casa. La costa qui era mortale—rocce nascoste sotto le onde, correnti che trascinavano le barche alla distruzione. Ma la leggenda narra che i delfini guidarono le loro piccole imbarcazioni attraverso passaggi sicuri fino a questa insenatura riparata, dove avrebbero costruito il villaggio che sarebbe diventato Riomaggiore."
+          },
+          "giuliaComment": {
+            "en": "My grandmother told this story differently. In her version, it wasn't just any dolphins—it was the same pod that still visits our harbor, generation after generation. She swore she recognized individual markings. I believe her.",
+            "de": "Meine Grossmutter erzaehlte diese Geschichte anders. In ihrer Version waren es nicht irgendwelche Delfine—es war dieselbe Schule, die noch immer unseren Hafen besucht, Generation fuer Generation. Sie schwor, dass sie einzelne Markierungen erkannte. Ich glaube ihr.",
+            "fr": "Ma grand-mere racontait cette histoire differemment. Dans sa version, ce n'etaient pas n'importe quels dauphins—c'etait le meme groupe qui visite encore notre port, generation apres generation. Elle jurait reconnaitre des marques individuelles. Je la crois.",
+            "it": "Mia nonna raccontava questa storia in modo diverso. Nella sua versione, non erano delfini qualsiasi—era lo stesso branco che ancora visita il nostro porto, generazione dopo generazione. Giurava di riconoscere segni individuali. Le credo."
+          },
+          "signature": {
+            "en": "Where refuge was found through divine guidance",
+            "de": "Wo Zuflucht durch goettliche Fuehrung gefunden wurde",
+            "fr": "Ou le refuge fut trouve grace a la guidance divine",
+            "it": "Dove il rifugio fu trovato grazie alla guida divina"
+          }
         },
         {
           "id": 2,
-          "name": "The Castle's True Purpose",
-          "category": "Medieval Tales",
+          "name": {
+            "en": "The Castle's True Purpose",
+            "de": "Der wahre Zweck der Burg",
+            "fr": "La veritable fonction du chateau",
+            "it": "Il vero scopo del castello"
+          },
+          "category": {
+            "en": "Medieval Tales",
+            "de": "Mittelalterliche Erzaehlungen",
+            "fr": "Recits medievaux",
+            "it": "Racconti medievali"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Why the medieval fortress is circular—and what that shape meant for survival.",
-          "description": "The castle built in 1260 wasn't meant to be beautiful. Its circular shape deflects cannon fire better than square walls. Its position allowed watchers to see Saracen pirates approaching from any direction. When the warning bells rang, the entire village could flee inside its walls. This wasn't architecture—it was survival made stone.",
-          "giuliaComment": "The castle saved the village multiple times. But the stories I find more interesting are about the times it didn't—the raids that succeeded, the people who were taken. Those stories are harder to find. Families don't like to tell them.",
-          "signature": "Where geometry meant survival"
+          "intro": {
+            "en": "Why the medieval fortress is circular—and what that shape meant for survival.",
+            "de": "Warum die mittelalterliche Festung rund ist—und was diese Form fuer das Ueberleben bedeutete.",
+            "fr": "Pourquoi la forteresse medievale est circulaire—et ce que cette forme signifiait pour la survie.",
+            "it": "Perche la fortezza medievale e circolare—e cosa significava quella forma per la sopravvivenza."
+          },
+          "description": {
+            "en": "The castle built in 1260 wasn't meant to be beautiful. Its circular shape deflects cannon fire better than square walls. Its position allowed watchers to see Saracen pirates approaching from any direction. When the warning bells rang, the entire village could flee inside its walls. This wasn't architecture—it was survival made stone.",
+            "de": "Die 1260 erbaute Burg sollte nicht schoen sein. Ihre runde Form lenkt Kanonenbeschuss besser ab als rechteckige Mauern. Ihre Position ermoeglichte es Waechtern, sarazenische Piraten aus jeder Richtung zu sehen. Wenn die Warnglocken laeuten, konnte das gesamte Dorf in ihre Mauern fliehen. Dies war keine Architektur—es war Ueberleben in Stein.",
+            "fr": "Le chateau construit en 1260 n'etait pas destine a etre beau. Sa forme circulaire devie mieux le feu des canons que des murs carres. Sa position permettait aux guetteurs de voir les pirates sarrasins approcher de toutes les directions. Quand les cloches d'alarme sonnaient, tout le village pouvait se refugier a l'interieur. Ce n'etait pas de l'architecture—c'etait la survie faite pierre.",
+            "it": "Il castello costruito nel 1260 non doveva essere bello. La sua forma circolare devia meglio il fuoco dei cannoni rispetto alle mura quadrate. La sua posizione permetteva alle vedette di vedere i pirati saraceni avvicinarsi da qualsiasi direzione. Quando suonavano le campane d'allarme, l'intero villaggio poteva rifugiarsi tra le sue mura. Non era architettura—era sopravvivenza fatta pietra."
+          },
+          "giuliaComment": {
+            "en": "The castle saved the village multiple times. But the stories I find more interesting are about the times it didn't—the raids that succeeded, the people who were taken. Those stories are harder to find. Families don't like to tell them.",
+            "de": "Die Burg rettete das Dorf mehrmals. Aber die Geschichten, die ich interessanter finde, handeln von den Malen, als sie es nicht tat—die erfolgreichen Ueberfaelle, die Menschen, die mitgenommen wurden. Diese Geschichten sind schwerer zu finden. Familien erzaehlen sie nicht gern.",
+            "fr": "Le chateau a sauve le village plusieurs fois. Mais les histoires que je trouve plus interessantes sont celles des fois ou il n'a pas reussi—les raids qui ont abouti, les gens qui ont ete enleves. Ces histoires sont plus difficiles a trouver. Les familles n'aiment pas les raconter.",
+            "it": "Il castello ha salvato il villaggio piu volte. Ma le storie che trovo piu interessanti riguardano le volte in cui non ci e riuscito—le incursioni andate a buon fine, le persone portate via. Quelle storie sono piu difficili da trovare. Le famiglie non amano raccontarle."
+          },
+          "signature": {
+            "en": "Where geometry meant survival",
+            "de": "Wo Geometrie Ueberleben bedeutete",
+            "fr": "Ou la geometrie signifiait la survie",
+            "it": "Dove la geometria significava sopravvivenza"
+          }
         },
         {
           "id": 3,
-          "name": "The Terraces' Human Cost",
-          "category": "Working History",
+          "name": {
+            "en": "The Terraces' Human Cost",
+            "de": "Der menschliche Preis der Terrassen",
+            "fr": "Le cout humain des terrasses",
+            "it": "Il costo umano delle terrazze"
+          },
+          "category": {
+            "en": "Working History",
+            "de": "Arbeitsgeschichte",
+            "fr": "Histoire du travail",
+            "it": "Storia del lavoro"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "A thousand years of labor, one stone at a time—the true story of how these hillsides became vineyard.",
-          "description": "UNESCO calls the terraces 'remarkable' and 'ingenious.' What they don't mention is that building them killed people. Stones that weighed too much fell on workers. Men lost their footing on wet slopes. Heat exhaustion, snakebites, collapses. Every meter of terrace wall cost something. The wine you drink here carries that weight.",
-          "giuliaComment": "My family's terrace has a section my great-grandfather built alone after his brother died. He worked through grief by moving stones. Every family here has similar stories. The terraces are beautiful, but they're also monuments to labor that never gets mentioned in the brochures.",
-          "signature": "Where beauty was built with sacrifice"
+          "intro": {
+            "en": "A thousand years of labor, one stone at a time—the true story of how these hillsides became vineyard.",
+            "de": "Tausend Jahre Arbeit, ein Stein nach dem anderen—die wahre Geschichte, wie diese Haenge zu Weinbergen wurden.",
+            "fr": "Mille ans de labeur, une pierre a la fois—la vraie histoire de comment ces collines sont devenues vignoble.",
+            "it": "Mille anni di lavoro, una pietra alla volta—la vera storia di come queste colline divennero vigneto."
+          },
+          "description": {
+            "en": "UNESCO calls the terraces 'remarkable' and 'ingenious.' What they don't mention is that building them killed people. Stones that weighed too much fell on workers. Men lost their footing on wet slopes. Heat exhaustion, snakebites, collapses. Every meter of terrace wall cost something. The wine you drink here carries that weight.",
+            "de": "Die UNESCO nennt die Terrassen 'bemerkenswert' und 'genial.' Was sie nicht erwaehnen, ist, dass ihr Bau Menschen toetete. Steine, die zu schwer waren, fielen auf Arbeiter. Maenner verloren auf nassen Haengen den Halt. Hitzschlag, Schlangenbisse, Einstuerze. Jeder Meter Terrassenmauer kostete etwas. Der Wein, den Sie hier trinken, traegt dieses Gewicht.",
+            "fr": "L'UNESCO qualifie les terrasses de 'remarquables' et 'ingenieuses.' Ce qu'ils ne mentionnent pas, c'est que leur construction a tue des gens. Des pierres trop lourdes sont tombees sur les ouvriers. Des hommes ont perdu pied sur les pentes mouillees. Epuisement par la chaleur, morsures de serpents, effondrements. Chaque metre de mur de terrasse a coute quelque chose. Le vin que vous buvez ici porte ce poids.",
+            "it": "L'UNESCO definisce le terrazze 'straordinarie' e 'ingegnose.' Quello che non menzionano e che costruirle ha ucciso delle persone. Pietre troppo pesanti cadevano sugli operai. Uomini perdevano l'equilibrio sui pendii bagnati. Colpi di calore, morsi di serpente, crolli. Ogni metro di muro a secco e costato qualcosa. Il vino che bevete qui porta quel peso."
+          },
+          "giuliaComment": {
+            "en": "My family's terrace has a section my great-grandfather built alone after his brother died. He worked through grief by moving stones. Every family here has similar stories. The terraces are beautiful, but they're also monuments to labor that never gets mentioned in the brochures.",
+            "de": "Die Terrasse meiner Familie hat einen Abschnitt, den mein Urgrossvater allein baute, nachdem sein Bruder starb. Er verarbeitete seine Trauer, indem er Steine bewegte. Jede Familie hier hat aehnliche Geschichten. Die Terrassen sind schoen, aber sie sind auch Denkmaeler fuer Arbeit, die nie in den Prospekten erwaehnt wird.",
+            "fr": "La terrasse de ma famille a une section que mon arriere-grand-pere a construite seul apres la mort de son frere. Il a traverse son deuil en deplacant des pierres. Chaque famille ici a des histoires similaires. Les terrasses sont belles, mais ce sont aussi des monuments au labeur qui n'est jamais mentionne dans les brochures.",
+            "it": "La terrazza della mia famiglia ha una sezione che il mio bisnonno costrui da solo dopo che suo fratello mori. Elaboro il lutto spostando pietre. Ogni famiglia qui ha storie simili. Le terrazze sono belle, ma sono anche monumenti a un lavoro che non viene mai menzionato nelle brochure."
+          },
+          "signature": {
+            "en": "Where beauty was built with sacrifice",
+            "de": "Wo Schoenheit mit Opfern erbaut wurde",
+            "fr": "Ou la beaute fut batie par le sacrifice",
+            "it": "Dove la bellezza fu costruita col sacrificio"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Stories We Choose",
-          "quote": "Tourism prefers certain narratives—romance, beauty, timeless charm. But the stories that matter to locals are often the hard ones: the storms that took fishermen, the years when the grapes failed, the families who left and never returned. Both versions are Riomaggiore."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Stories We Choose",
+            "de": "Die Geschichten, die wir waehlen",
+            "fr": "Les histoires que nous choisissons",
+            "it": "Le storie che scegliamo"
+          },
+          "quote": {
+            "en": "Tourism prefers certain narratives—romance, beauty, timeless charm. But the stories that matter to locals are often the hard ones: the storms that took fishermen, the years when the grapes failed, the families who left and never returned. Both versions are Riomaggiore.",
+            "de": "Der Tourismus bevorzugt bestimmte Erzaehlungen—Romantik, Schoenheit, zeitlosen Charme. Aber die Geschichten, die den Einheimischen wichtig sind, sind oft die schweren: die Stuerme, die Fischer nahmen, die Jahre, in denen die Trauben versagten, die Familien, die gingen und nie zurueckkehrten. Beide Versionen sind Riomaggiore.",
+            "fr": "Le tourisme prefere certains recits—le romanesque, la beaute, le charme intemporel. Mais les histoires qui comptent pour les locaux sont souvent les plus dures: les tempetes qui ont emporte des pecheurs, les annees ou le raisin a echoue, les familles parties sans jamais revenir. Les deux versions sont Riomaggiore.",
+            "it": "Il turismo preferisce certe narrazioni—romanticismo, bellezza, fascino senza tempo. Ma le storie che contano per la gente del posto sono spesso quelle difficili: le tempeste che portarono via i pescatori, gli anni in cui l'uva non arrivo, le famiglie che partirono e non tornarono mai. Entrambe le versioni sono Riomaggiore."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "The Living Story",
-      "quote": "Riomaggiore's story isn't finished. Every day adds to it—every boat that goes out, every child who learns to swim in the harbor, every meal shared between strangers who become friends.",
-      "content": [
-        "**The fishermen are historians**. They know which rocks have always been dangerous, where the currents changed after the earthquake of 1920, which days the sea is kind and which it isn't. Their knowledge is the village's living memory.",
-        "**The restaurants are archives**. Recipes passed through generations, modified slightly by each cook, carry the taste of specific eras. The pesto at one place tastes like the 1960s because that's when their grandmother perfected it.",
-        "**The houses tell their own stories**. Look at the doorways—some are ancient, some rebuilt after the 1966 floods, some expanded when tourism made renovation affordable. The village reads like layers of geology, each era visible in the stone.",
-        "**You become part of the story**. Stay long enough and the shopkeeper will remember your name. The fisherman will nod when you pass. The café owner will pour your usual without asking. That's when the real stories start."
-      ]
+      "badge": {
+        "en": "The Living Story",
+        "de": "Die lebendige Geschichte",
+        "fr": "L'histoire vivante",
+        "it": "La storia vivente"
+      },
+      "quote": {
+        "en": "Riomaggiore's story isn't finished. Every day adds to it—every boat that goes out, every child who learns to swim in the harbor, every meal shared between strangers who become friends.",
+        "de": "Riomaggiores Geschichte ist nicht beendet. Jeden Tag kommt etwas hinzu—jedes Boot, das ausfaehrt, jedes Kind, das im Hafen schwimmen lernt, jede Mahlzeit, die zwischen Fremden geteilt wird, die Freunde werden.",
+        "fr": "L'histoire de Riomaggiore n'est pas terminee. Chaque jour y ajoute quelque chose—chaque bateau qui part, chaque enfant qui apprend a nager dans le port, chaque repas partage entre etrangers qui deviennent amis.",
+        "it": "La storia di Riomaggiore non e finita. Ogni giorno aggiunge qualcosa—ogni barca che esce, ogni bambino che impara a nuotare nel porto, ogni pasto condiviso tra estranei che diventano amici."
+      },
+      "content": {
+        "en": [
+          "**The fishermen are historians**. They know which rocks have always been dangerous, where the currents changed after the earthquake of 1920, which days the sea is kind and which it isn't. Their knowledge is the village's living memory.",
+          "**The restaurants are archives**. Recipes passed through generations, modified slightly by each cook, carry the taste of specific eras. The pesto at one place tastes like the 1960s because that's when their grandmother perfected it.",
+          "**The houses tell their own stories**. Look at the doorways—some are ancient, some rebuilt after the 1966 floods, some expanded when tourism made renovation affordable. The village reads like layers of geology, each era visible in the stone.",
+          "**You become part of the story**. Stay long enough and the shopkeeper will remember your name. The fisherman will nod when you pass. The cafe owner will pour your usual without asking. That's when the real stories start."
+        ],
+        "de": [
+          "**Die Fischer sind Historiker**. Sie wissen, welche Felsen schon immer gefaehrlich waren, wo sich die Stroemungen nach dem Erdbeben von 1920 aenderten, an welchen Tagen das Meer freundlich ist und an welchen nicht. Ihr Wissen ist das lebendige Gedaechtnis des Dorfes.",
+          "**Die Restaurants sind Archive**. Rezepte, die ueber Generationen weitergegeben und von jedem Koch leicht abgewandelt wurden, tragen den Geschmack bestimmter Epochen. Das Pesto an einem Ort schmeckt nach den 1960ern, weil es damals von der Grossmutter perfektioniert wurde.",
+          "**Die Haeuser erzaehlen ihre eigenen Geschichten**. Schauen Sie sich die Tuerrahmen an—manche sind uralt, manche nach den Ueberschwemmungen von 1966 wiederaufgebaut, manche erweitert, als der Tourismus Renovierungen erschwinglich machte. Das Dorf liest sich wie geologische Schichten, jede Epoche im Stein sichtbar.",
+          "**Sie werden Teil der Geschichte**. Bleiben Sie lange genug, und der Ladenbesitzer wird sich an Ihren Namen erinnern. Der Fischer wird nicken, wenn Sie vorbeigehen. Der Cafebesitzer wird Ihnen das Uebliche einschenken, ohne zu fragen. Dann beginnen die wahren Geschichten."
+        ],
+        "fr": [
+          "**Les pecheurs sont des historiens**. Ils savent quels rochers ont toujours ete dangereux, ou les courants ont change apres le tremblement de terre de 1920, quels jours la mer est clemende et lesquels non. Leur savoir est la memoire vivante du village.",
+          "**Les restaurants sont des archives**. Les recettes transmises de generation en generation, legerement modifiees par chaque cuisinier, portent le gout d'epoques specifiques. Le pesto d'un endroit a le gout des annees 1960 parce que c'est a cette epoque que leur grand-mere l'a perfectionne.",
+          "**Les maisons racontent leurs propres histoires**. Regardez les encadrements de portes—certains sont anciens, certains reconstruits apres les inondations de 1966, certains agrandis quand le tourisme a rendu les renovations abordables. Le village se lit comme des couches geologiques, chaque epoque visible dans la pierre.",
+          "**Vous devenez partie de l'histoire**. Restez assez longtemps et le commercant se souviendra de votre nom. Le pecheur hochera la tete a votre passage. Le patron du cafe vous servira votre habituel sans demander. C'est la que les vraies histoires commencent."
+        ],
+        "it": [
+          "**I pescatori sono storici**. Sanno quali scogli sono sempre stati pericolosi, dove le correnti sono cambiate dopo il terremoto del 1920, quali giorni il mare e clemente e quali no. La loro conoscenza e la memoria vivente del villaggio.",
+          "**I ristoranti sono archivi**. Le ricette tramandate di generazione in generazione, leggermente modificate da ogni cuoco, portano il sapore di epoche specifiche. Il pesto di un posto sa degli anni Sessanta perche e quando la nonna lo perfeziono.",
+          "**Le case raccontano le loro storie**. Guardate gli stipiti delle porte—alcuni sono antichi, alcuni ricostruiti dopo le alluvioni del 1966, alcuni ampliati quando il turismo rese le ristrutturazioni accessibili. Il villaggio si legge come strati geologici, ogni epoca visibile nella pietra.",
+          "**Tu diventi parte della storia**. Resta abbastanza a lungo e il negoziante ricordera il tuo nome. Il pescatore annuira quando passi. Il proprietario del bar ti versera il solito senza chiedere. E allora che iniziano le vere storie."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,173 @@
       "items": [
         {
           "id": 4,
-          "name": "Evening at the Harbor",
-          "category": "Daily Life",
+          "name": {
+            "en": "Evening at the Harbor",
+            "de": "Abend am Hafen",
+            "fr": "Soir au port",
+            "it": "Sera al porto"
+          },
+          "category": {
+            "en": "Daily Life",
+            "de": "Alltagsleben",
+            "fr": "Vie quotidienne",
+            "it": "Vita quotidiana"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "When the day-trippers leave and the village exhales—the daily transformation worth staying for.",
-          "description": "Around 5pm in summer, the character of the harbor changes completely. The tourist boats stop running. The families appear—children playing on the rocks, grandparents watching from doorways, teenagers testing their courage on higher diving platforms. The village reclaims its public space.",
-          "giuliaComment": "This is when I swim. The water is warmest, the crowds are gone, and the light turns everything gold. Every local family has their spot on the rocks, claimed by decades of use. The best stories happen here, when neighbors talk across towels.",
-          "signature": "When the village returns to itself"
+          "intro": {
+            "en": "When the day-trippers leave and the village exhales—the daily transformation worth staying for.",
+            "de": "Wenn die Tagesausfluegler gehen und das Dorf aufatmet—die taegliche Verwandlung, fuer die es sich zu bleiben lohnt.",
+            "fr": "Quand les excursionnistes partent et que le village respire—la transformation quotidienne qui vaut le sejour.",
+            "it": "Quando i gitanti se ne vanno e il borgo respira—la trasformazione quotidiana per cui vale la pena restare."
+          },
+          "description": {
+            "en": "Around 5pm in summer, the character of the harbor changes completely. The tourist boats stop running. The families appear—children playing on the rocks, grandparents watching from doorways, teenagers testing their courage on higher diving platforms. The village reclaims its public space.",
+            "de": "Gegen 17 Uhr im Sommer aendert sich der Charakter des Hafens vollstaendig. Die Touristenboote hoeren auf zu fahren. Die Familien erscheinen—Kinder spielen auf den Felsen, Grosseltern beobachten von Tuereingaengen, Teenager testen ihren Mut auf hoeheren Sprungplattformen. Das Dorf fordert seinen oeffentlichen Raum zurueck.",
+            "fr": "Vers 17h en ete, le caractere du port change completement. Les bateaux touristiques cessent de circuler. Les familles apparaissent—des enfants jouant sur les rochers, des grands-parents regardant depuis les portes, des adolescents testant leur courage sur des plateformes de plongee plus hautes. Le village reprend possession de son espace public.",
+            "it": "Verso le 17 in estate, il carattere del porto cambia completamente. Le barche turistiche smettono di navigare. Compaiono le famiglie—bambini che giocano sugli scogli, nonni che osservano dalle soglie, adolescenti che testano il loro coraggio sulle piattaforme di tuffo piu alte. Il villaggio reclama il suo spazio pubblico."
+          },
+          "giuliaComment": {
+            "en": "This is when I swim. The water is warmest, the crowds are gone, and the light turns everything gold. Every local family has their spot on the rocks, claimed by decades of use. The best stories happen here, when neighbors talk across towels.",
+            "de": "Das ist die Zeit, wenn ich schwimme. Das Wasser ist am waermsten, die Menschenmassen sind weg, und das Licht taucht alles in Gold. Jede einheimische Familie hat ihren Platz auf den Felsen, beansprucht durch Jahrzehnte der Nutzung. Die besten Geschichten passieren hier, wenn Nachbarn ueber Handtuecher hinweg reden.",
+            "fr": "C'est le moment ou je nage. L'eau est la plus chaude, les foules sont parties, et la lumiere dore tout. Chaque famille locale a sa place sur les rochers, revendiquee par des decennies d'usage. Les meilleures histoires se passent ici, quand les voisins discutent par-dessus les serviettes.",
+            "it": "E quando nuoto. L'acqua e piu calda, la folla se n'e andata, e la luce tinge tutto d'oro. Ogni famiglia locale ha il suo posto sugli scogli, rivendicato da decenni di utilizzo. Le storie migliori accadono qui, quando i vicini parlano sopra gli asciugamani."
+          },
+          "signature": {
+            "en": "When the village returns to itself",
+            "de": "Wenn das Dorf zu sich selbst zurueckkehrt",
+            "fr": "Quand le village revient a lui-meme",
+            "it": "Quando il borgo torna a se stesso"
+          }
         },
         {
           "id": 5,
-          "name": "The Night Train",
-          "category": "Rituals",
+          "name": {
+            "en": "The Night Train",
+            "de": "Der Nachtzug",
+            "fr": "Le train de nuit",
+            "it": "Il treno notturno"
+          },
+          "category": {
+            "en": "Rituals",
+            "de": "Rituale",
+            "fr": "Rituels",
+            "it": "Rituali"
+          },
           "village": "Riomaggiore",
           "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
-          "intro": "After the last train leaves La Spezia, Riomaggiore becomes truly quiet—and the real night begins.",
-          "description": "The last train from La Spezia arrives around 11pm. After that, the station goes silent. The streets empty of everyone except residents and overnight guests. The harbor lights reflect on still water. This is when neighbors gather for late wine, when young couples walk streets that finally belong to them, when the village sounds like itself.",
-          "giuliaComment": "My favorite conversations happen after the last train. Something about knowing no more tourists will arrive makes people relax. The wine flows. The stories get longer. The truth comes easier in the dark.",
-          "signature": "When silence becomes intimacy"
+          "intro": {
+            "en": "After the last train leaves La Spezia, Riomaggiore becomes truly quiet—and the real night begins.",
+            "de": "Nachdem der letzte Zug La Spezia verlaesst, wird Riomaggiore wirklich still—und die wahre Nacht beginnt.",
+            "fr": "Apres que le dernier train quitte La Spezia, Riomaggiore devient vraiment calme—et la vraie nuit commence.",
+            "it": "Dopo che l'ultimo treno lascia La Spezia, Riomaggiore diventa veramente silenziosa—e inizia la vera notte."
+          },
+          "description": {
+            "en": "The last train from La Spezia arrives around 11pm. After that, the station goes silent. The streets empty of everyone except residents and overnight guests. The harbor lights reflect on still water. This is when neighbors gather for late wine, when young couples walk streets that finally belong to them, when the village sounds like itself.",
+            "de": "Der letzte Zug aus La Spezia kommt gegen 23 Uhr an. Danach wird der Bahnhof still. Die Strassen leeren sich von allen ausser Bewohnern und Uebernachtungsgaesten. Die Hafenlichter spiegeln sich auf stillem Wasser. Dies ist die Zeit, wenn Nachbarn sich zum spaeten Wein treffen, wenn junge Paare durch Strassen gehen, die ihnen endlich gehoeren, wenn das Dorf wie es selbst klingt.",
+            "fr": "Le dernier train de La Spezia arrive vers 23h. Apres cela, la gare devient silencieuse. Les rues se vident de tous sauf des residents et des clients passes la nuit. Les lumieres du port se refletent sur l'eau calme. C'est le moment ou les voisins se reunissent pour un vin tardif, ou les jeunes couples marchent dans des rues qui leur appartiennent enfin, ou le village sonne comme lui-meme.",
+            "it": "L'ultimo treno da La Spezia arriva verso le 23. Dopo, la stazione diventa silenziosa. Le strade si svuotano di tutti tranne che dei residenti e degli ospiti pernottanti. Le luci del porto si riflettono sull'acqua calma. E il momento in cui i vicini si riuniscono per un vino tardivo, quando le giovani coppie passeggiano per strade che finalmente gli appartengono, quando il villaggio suona come se stesso."
+          },
+          "giuliaComment": {
+            "en": "My favorite conversations happen after the last train. Something about knowing no more tourists will arrive makes people relax. The wine flows. The stories get longer. The truth comes easier in the dark.",
+            "de": "Meine liebsten Gespraeche finden nach dem letzten Zug statt. Etwas daran, zu wissen, dass keine Touristen mehr kommen, laesst die Menschen entspannen. Der Wein fliesst. Die Geschichten werden laenger. Die Wahrheit kommt im Dunkeln leichter.",
+            "fr": "Mes conversations preferees ont lieu apres le dernier train. Quelque chose dans le fait de savoir qu'aucun touriste n'arrivera plus detend les gens. Le vin coule. Les histoires s'allongent. La verite vient plus facilement dans l'obscurite.",
+            "it": "Le mie conversazioni preferite avvengono dopo l'ultimo treno. Qualcosa nel sapere che non arriveranno piu turisti fa rilassare le persone. Il vino scorre. Le storie si allungano. La verita viene piu facile nel buio."
+          },
+          "signature": {
+            "en": "When silence becomes intimacy",
+            "de": "Wenn Stille zur Vertrautheit wird",
+            "fr": "Quand le silence devient intimite",
+            "it": "Quando il silenzio diventa intimita"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Patience Required",
-          "quote": "Day-trippers see the surface. Weekend visitors see the performance. Week-long guests see the rhythm. But the real stories? Those require months, years, return visits. The village decides when to trust you. You cannot rush it."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Patience Required",
+            "de": "Die noetige Geduld",
+            "fr": "La patience requise",
+            "it": "La pazienza richiesta"
+          },
+          "quote": {
+            "en": "Day-trippers see the surface. Weekend visitors see the performance. Week-long guests see the rhythm. But the real stories? Those require months, years, return visits. The village decides when to trust you. You cannot rush it.",
+            "de": "Tagesausfluegler sehen die Oberflaeche. Wochenendbesucher sehen die Vorfuehrung. Gaeste fuer eine Woche sehen den Rhythmus. Aber die wahren Geschichten? Die erfordern Monate, Jahre, wiederholte Besuche. Das Dorf entscheidet, wann es Ihnen vertraut. Man kann es nicht beschleunigen.",
+            "fr": "Les excursionnistes voient la surface. Les visiteurs du week-end voient la representation. Les sejours d'une semaine voient le rythme. Mais les vraies histoires? Elles necessitent des mois, des annees, des visites repetees. Le village decide quand vous faire confiance. On ne peut pas le presser.",
+            "it": "I gitanti vedono la superficie. I visitatori del fine settimana vedono lo spettacolo. Gli ospiti di una settimana vedono il ritmo. Ma le vere storie? Quelle richiedono mesi, anni, visite ripetute. Il villaggio decide quando fidarsi di te. Non puoi affrettarlo."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "The Story Continues",
-      "content": [
-        "This page cannot contain Riomaggiore's stories—it can only point toward them. The real stories are spoken, not written. They live in the memories of those who've stayed long enough to earn them.",
-        "Come with patience. Come with curiosity. Come willing to listen more than you photograph. The stories that matter don't pose for cameras.",
-        "And when you leave, you become part of the story too—one of thousands who came, saw, and perhaps, if you stayed long enough and listened carefully enough, understood."
-      ],
+      "title": {
+        "en": "The Story Continues",
+        "de": "Die Geschichte geht weiter",
+        "fr": "L'histoire continue",
+        "it": "La storia continua"
+      },
+      "content": {
+        "en": [
+          "This page cannot contain Riomaggiore's stories—it can only point toward them. The real stories are spoken, not written. They live in the memories of those who've stayed long enough to earn them.",
+          "Come with patience. Come with curiosity. Come willing to listen more than you photograph. The stories that matter don't pose for cameras.",
+          "And when you leave, you become part of the story too—one of thousands who came, saw, and perhaps, if you stayed long enough and listened carefully enough, understood."
+        ],
+        "de": [
+          "Diese Seite kann Riomaggiores Geschichten nicht enthalten—sie kann nur auf sie hinweisen. Die wahren Geschichten werden gesprochen, nicht geschrieben. Sie leben in den Erinnerungen derer, die lange genug geblieben sind, um sie zu verdienen.",
+          "Kommen Sie mit Geduld. Kommen Sie mit Neugierde. Kommen Sie bereit, mehr zuzuhoeren als zu fotografieren. Die Geschichten, die zaehlen, posieren nicht fuer Kameras.",
+          "Und wenn Sie gehen, werden auch Sie Teil der Geschichte—einer von Tausenden, die kamen, sahen und vielleicht, wenn Sie lange genug blieben und aufmerksam genug zuhoerten, verstanden."
+        ],
+        "fr": [
+          "Cette page ne peut pas contenir les histoires de Riomaggiore—elle peut seulement les indiquer. Les vraies histoires sont racontees, pas ecrites. Elles vivent dans les memoires de ceux qui sont restes assez longtemps pour les meriter.",
+          "Venez avec patience. Venez avec curiosite. Venez prets a ecouter plus qu'a photographier. Les histoires qui comptent ne posent pas pour les cameras.",
+          "Et quand vous partez, vous devenez aussi partie de l'histoire—l'un des milliers qui sont venus, ont vu, et peut-etre, si vous etes reste assez longtemps et avez ecoute assez attentivement, ont compris."
+        ],
+        "it": [
+          "Questa pagina non puo contenere le storie di Riomaggiore—puo solo indicarle. Le vere storie sono raccontate, non scritte. Vivono nei ricordi di chi e rimasto abbastanza a lungo da meritarle.",
+          "Vieni con pazienza. Vieni con curiosita. Vieni disposto ad ascoltare piu che a fotografare. Le storie che contano non posano per le fotocamere.",
+          "E quando te ne vai, diventi anche tu parte della storia—uno delle migliaia che sono venuti, hanno visto e forse, se sei rimasto abbastanza a lungo e hai ascoltato abbastanza attentamente, hanno capito."
+        ]
+      },
       "buttons": [
-        { "text": "Cultural Insights", "url": "/en/riomaggiore/insights", "variant": "primary" },
-        { "text": "Plan Your Stay", "url": "/en/riomaggiore/hotels", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Cultural Insights",
+            "de": "Kulturelle Einblicke",
+            "fr": "Aperçus culturels",
+            "it": "Approfondimenti culturali"
+          },
+          "url": {
+            "en": "/en/riomaggiore/insights",
+            "de": "/de/riomaggiore/insights",
+            "fr": "/fr/riomaggiore/insights",
+            "it": "/it/riomaggiore/insights"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Plan Your Stay",
+            "de": "Planen Sie Ihren Aufenthalt",
+            "fr": "Planifiez votre sejour",
+            "it": "Pianifica il tuo soggiorno"
+          },
+          "url": {
+            "en": "/en/riomaggiore/hotels",
+            "de": "/de/riomaggiore/hotels",
+            "fr": "/fr/riomaggiore/hotels",
+            "it": "/it/riomaggiore/hotels"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +468,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T18:15:00.000Z"
+  "updated_at": "2026-01-07T16:00:00.000Z"
 }

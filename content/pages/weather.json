@@ -2,78 +2,204 @@
   "id": "weather-riomaggiore",
   "slug": {
     "en": "/en/weather",
-    "de": "/de/weather",
-    "fr": "/fr/weather",
-    "it": "/it/weather"
+    "de": "/de/wetter",
+    "fr": "/fr/meteo",
+    "it": "/it/meteo"
   },
   "title": {
-    "en": "Weather & Conditions | Riomaggiore | Cinque Terre Dispatch"
+    "en": "Weather & Conditions | Riomaggiore | Cinque Terre Dispatch",
+    "de": "Wetter & Bedingungen | Riomaggiore | Cinque Terre Dispatch",
+    "fr": "Meteo & Conditions | Riomaggiore | Cinque Terre Dispatch",
+    "it": "Meteo & Condizioni | Riomaggiore | Cinque Terre Dispatch"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Weather & Conditions | Riomaggiore | Cinque Terre Dispatch"
+      "en": "Weather & Conditions | Riomaggiore | Cinque Terre Dispatch",
+      "de": "Wetter & Bedingungen | Riomaggiore | Cinque Terre Dispatch",
+      "fr": "Meteo & Conditions | Riomaggiore | Cinque Terre Dispatch",
+      "it": "Meteo & Condizioni | Riomaggiore | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "The current state of the sea, the sky, and the village—curated for those who plan with intention."
+      "en": "The current state of the sea, the sky, and the village—curated for those who plan with intention.",
+      "de": "Der aktuelle Zustand von Meer, Himmel und Dorf—kuratiert fuer alle, die mit Absicht planen.",
+      "fr": "L'etat actuel de la mer, du ciel et du village—pour ceux qui planifient avec intention.",
+      "it": "Lo stato attuale del mare, del cielo e del borgo—curato per chi pianifica con intenzione."
     }
   },
   "template": "cinque-terre-weather",
   "body": [
     {
       "type": "weather-live",
-      "title": "Atmosphere &<br/>Coastal Rhythms",
-      "subtitle": "The current state of the sea, the sky, and the village—curated for those who plan with intention.",
-      "badge": "Live Conditions",
+      "title": {
+        "en": "Atmosphere &<br/>Coastal Rhythms",
+        "de": "Atmosphaere &<br/>Kuestenrhythmen",
+        "fr": "Atmosphere &<br/>Rythmes Cotiers",
+        "it": "Atmosfera &<br/>Ritmi Costieri"
+      },
+      "subtitle": {
+        "en": "The current state of the sea, the sky, and the village—curated for those who plan with intention.",
+        "de": "Der aktuelle Zustand von Meer, Himmel und Dorf—kuratiert fuer alle, die mit Absicht planen.",
+        "fr": "L'etat actuel de la mer, du ciel et du village—pour ceux qui planifient avec intention.",
+        "it": "Lo stato attuale del mare, del cielo e del borgo—curato per chi pianifica con intenzione."
+      },
+      "badge": {
+        "en": "Live Conditions",
+        "de": "Live-Bedingungen",
+        "fr": "Conditions en Direct",
+        "it": "Condizioni in Tempo Reale"
+      },
       "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000",
       "currentWeather": {
         "temp": 12,
-        "condition": "Partly Cloudy",
+        "condition": {
+          "en": "Partly Cloudy",
+          "de": "Teilweise bewoelkt",
+          "fr": "Partiellement nuageux",
+          "it": "Parzialmente nuvoloso"
+        },
         "icon": "cloud",
         "high": 14,
         "low": 8,
         "wind": "12 km/h",
         "humidity": "65%",
         "seaTemp": "16°C",
-        "uvIndex": "Low (2)",
+        "uvIndex": {
+          "en": "Low (2)",
+          "de": "Niedrig (2)",
+          "fr": "Faible (2)",
+          "it": "Basso (2)"
+        },
         "visibility": "15 km",
         "sunrise": "07:45",
         "sunset": "16:50"
       },
       "forecast": [
-        { "day": "Fri", "date": "Dec 19", "high": 13, "low": 7, "condition": "Sunny", "icon": "sun" },
-        { "day": "Sat", "date": "Dec 20", "high": 11, "low": 9, "condition": "Rainy", "icon": "rain" },
-        { "day": "Sun", "date": "Dec 21", "high": 10, "low": 6, "condition": "Cloudy", "icon": "cloud" },
-        { "day": "Mon", "date": "Dec 22", "high": 12, "low": 8, "condition": "Sunny", "icon": "sun" },
-        { "day": "Tue", "date": "Dec 23", "high": 14, "low": 10, "condition": "Partly Cloudy", "icon": "cloud" }
+        {
+          "day": { "en": "Fri", "de": "Fr", "fr": "Ven", "it": "Ven" },
+          "date": { "en": "Dec 19", "de": "19. Dez", "fr": "19 dec", "it": "19 dic" },
+          "high": 13,
+          "low": 7,
+          "condition": { "en": "Sunny", "de": "Sonnig", "fr": "Ensoleille", "it": "Soleggiato" },
+          "icon": "sun"
+        },
+        {
+          "day": { "en": "Sat", "de": "Sa", "fr": "Sam", "it": "Sab" },
+          "date": { "en": "Dec 20", "de": "20. Dez", "fr": "20 dec", "it": "20 dic" },
+          "high": 11,
+          "low": 9,
+          "condition": { "en": "Rainy", "de": "Regnerisch", "fr": "Pluvieux", "it": "Piovoso" },
+          "icon": "rain"
+        },
+        {
+          "day": { "en": "Sun", "de": "So", "fr": "Dim", "it": "Dom" },
+          "date": { "en": "Dec 21", "de": "21. Dez", "fr": "21 dec", "it": "21 dic" },
+          "high": 10,
+          "low": 6,
+          "condition": { "en": "Cloudy", "de": "Bewoelkt", "fr": "Nuageux", "it": "Nuvoloso" },
+          "icon": "cloud"
+        },
+        {
+          "day": { "en": "Mon", "de": "Mo", "fr": "Lun", "it": "Lun" },
+          "date": { "en": "Dec 22", "de": "22. Dez", "fr": "22 dec", "it": "22 dic" },
+          "high": 12,
+          "low": 8,
+          "condition": { "en": "Sunny", "de": "Sonnig", "fr": "Ensoleille", "it": "Soleggiato" },
+          "icon": "sun"
+        },
+        {
+          "day": { "en": "Tue", "de": "Di", "fr": "Mar", "it": "Mar" },
+          "date": { "en": "Dec 23", "de": "23. Dez", "fr": "23 dec", "it": "23 dic" },
+          "high": 14,
+          "low": 10,
+          "condition": { "en": "Partly Cloudy", "de": "Teilweise bewoelkt", "fr": "Partiellement nuageux", "it": "Parzialmente nuvoloso" },
+          "icon": "cloud"
+        }
       ]
     },
     {
       "type": "weather-journal",
-      "title": "Giulia's Weather Journal",
-      "signature": "Watch the horizon—it always tells the truth first.",
+      "title": {
+        "en": "Giulia's Weather Journal",
+        "de": "Giulias Wettertagebuch",
+        "fr": "Le Journal Meteo de Giulia",
+        "it": "Il Diario Meteo di Giulia"
+      },
+      "signature": {
+        "en": "Watch the horizon—it always tells the truth first.",
+        "de": "Beobachten Sie den Horizont—er sagt immer zuerst die Wahrheit.",
+        "fr": "Regardez l'horizon—il dit toujours la verite en premier.",
+        "it": "Guardate l'orizzonte—dice sempre la verita per primo."
+      },
       "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=2000",
       "giuliaAdvice": {
-        "condition": "Partly Cloudy",
-        "note": "December in Riomaggiore has a specific kind of light—crisp and clear. It's not beach weather, but it's the best time for the high trails. The air is fresh, and you won't break a sweat climbing to Montenero. Just remember: the sun drops behind the cliffs early, so the village gets chilly by 4 PM. Carry a light wool scarf—it's the local way.",
-        "recommendations": [
-          "Perfect for the hike to Santuario di Montenero.",
-          "Ideal light for photography in the harbor around 3 PM.",
-          "Grab a hot 'Sciacchetrà' tasting at a local enoteca as the sun sets."
-        ]
+        "condition": {
+          "en": "Partly Cloudy",
+          "de": "Teilweise bewoelkt",
+          "fr": "Partiellement nuageux",
+          "it": "Parzialmente nuvoloso"
+        },
+        "note": {
+          "en": "December in Riomaggiore has a specific kind of light—crisp and clear. It's not beach weather, but it's the best time for the high trails. The air is fresh, and you won't break a sweat climbing to Montenero. Just remember: the sun drops behind the cliffs early, so the village gets chilly by 4 PM. Carry a light wool scarf—it's the local way.",
+          "de": "Der Dezember in Riomaggiore hat ein besonderes Licht—frisch und klar. Es ist kein Strandwetter, aber die beste Zeit fuer die hohen Pfade. Die Luft ist frisch, und Sie werden beim Aufstieg zum Montenero nicht ins Schwitzen kommen. Denken Sie daran: Die Sonne faellt frueh hinter die Klippen, also wird es im Dorf gegen 16 Uhr kuehl. Tragen Sie einen leichten Wollschal—das ist die lokale Art.",
+          "fr": "Decembre a Riomaggiore a une lumiere particuliere—vive et claire. Ce n'est pas le temps de la plage, mais c'est le meilleur moment pour les sentiers en altitude. L'air est frais et vous ne transpirerez pas en montant au Montenero. N'oubliez pas: le soleil descend tot derriere les falaises, donc le village devient frais vers 16h. Portez une echarpe legere en laine—c'est la mode locale.",
+          "it": "Dicembre a Riomaggiore ha una luce particolare—nitida e chiara. Non e tempo da spiaggia, ma e il momento migliore per i sentieri in quota. L'aria e fresca e non suderete salendo al Montenero. Ricordate: il sole cala presto dietro le scogliere, quindi il borgo diventa fresco verso le 16. Portate una sciarpa leggera di lana—e il modo locale."
+        },
+        "recommendations": {
+          "en": [
+            "Perfect for the hike to Santuario di Montenero.",
+            "Ideal light for photography in the harbor around 3 PM.",
+            "Grab a hot Sciacchetra tasting at a local enoteca as the sun sets."
+          ],
+          "de": [
+            "Perfekt fuer die Wanderung zum Santuario di Montenero.",
+            "Ideales Licht fuer Fotografie im Hafen gegen 15 Uhr.",
+            "Geniessen Sie eine warme Sciacchetra-Verkostung in einer lokalen Enoteca bei Sonnenuntergang."
+          ],
+          "fr": [
+            "Parfait pour la randonnee vers le Santuario di Montenero.",
+            "Lumiere ideale pour la photographie au port vers 15h.",
+            "Savourez une degustation de Sciacchetra chaud dans une enoteca locale au coucher du soleil."
+          ],
+          "it": [
+            "Perfetto per l'escursione al Santuario di Montenero.",
+            "Luce ideale per la fotografia al porto verso le 15.",
+            "Godetevi una degustazione di Sciacchetra caldo in un'enoteca locale al tramonto."
+          ]
+        }
       },
       "webcams": [
         {
           "id": 1,
-          "name": "Harbor View",
-          "description": "Live view of the iconic Riomaggiore harbor and boat ramp.",
+          "name": {
+            "en": "Harbor View",
+            "de": "Hafenansicht",
+            "fr": "Vue du Port",
+            "it": "Vista del Porto"
+          },
+          "description": {
+            "en": "Live view of the iconic Riomaggiore harbor and boat ramp.",
+            "de": "Live-Ansicht des ikonischen Hafens und der Bootsrampe von Riomaggiore.",
+            "fr": "Vue en direct du port emblematique de Riomaggiore et de la rampe de mise a l'eau.",
+            "it": "Vista in diretta dell'iconico porto di Riomaggiore e della rampa delle barche."
+          },
           "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1000",
           "status": "Live"
         },
         {
           "id": 2,
-          "name": "Main Street (Via Colombo)",
-          "description": "Looking up the bustling main street from the lower village.",
+          "name": {
+            "en": "Main Street (Via Colombo)",
+            "de": "Hauptstrasse (Via Colombo)",
+            "fr": "Rue Principale (Via Colombo)",
+            "it": "Via Principale (Via Colombo)"
+          },
+          "description": {
+            "en": "Looking up the bustling main street from the lower village.",
+            "de": "Blick auf die belebte Hauptstrasse vom unteren Dorf aus.",
+            "fr": "Vue sur la rue principale animee depuis le bas du village.",
+            "it": "Vista sulla vivace via principale dal borgo basso."
+          },
           "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=1000",
           "status": "Live"
         }
@@ -81,12 +207,36 @@
     },
     {
       "type": "closing-note",
-      "title": "Watch the Horizon",
-      "content": [
-        "Coastal weather is a living thing. It changes with the tide, the wind, and the season.",
-        "Plan your day, but be ready to let the village surprise you. The best experiences in Riomaggiore are often the ones you didn't plan."
-      ],
-      "author": "The Dispatch Weather Desk"
+      "title": {
+        "en": "Watch the Horizon",
+        "de": "Beobachten Sie den Horizont",
+        "fr": "Regardez l'Horizon",
+        "it": "Guardate l'Orizzonte"
+      },
+      "content": {
+        "en": [
+          "Coastal weather is a living thing. It changes with the tide, the wind, and the season.",
+          "Plan your day, but be ready to let the village surprise you. The best experiences in Riomaggiore are often the ones you didn't plan."
+        ],
+        "de": [
+          "Kuestenwetter ist lebendig. Es aendert sich mit der Gezeiten, dem Wind und der Jahreszeit.",
+          "Planen Sie Ihren Tag, aber seien Sie bereit, sich vom Dorf ueberraschen zu lassen. Die besten Erlebnisse in Riomaggiore sind oft die, die Sie nicht geplant haben."
+        ],
+        "fr": [
+          "Le temps cotier est vivant. Il change avec la maree, le vent et la saison.",
+          "Planifiez votre journee, mais soyez pret a laisser le village vous surprendre. Les meilleures experiences a Riomaggiore sont souvent celles que vous n'avez pas planifiees."
+        ],
+        "it": [
+          "Il tempo costiero e una cosa viva. Cambia con la marea, il vento e la stagione.",
+          "Pianificate la vostra giornata, ma siate pronti a lasciarvi sorprendere dal borgo. Le migliori esperienze a Riomaggiore sono spesso quelle che non avete pianificato."
+        ]
+      },
+      "author": {
+        "en": "The Dispatch Weather Desk",
+        "de": "Die Dispatch Wetterredaktion",
+        "fr": "Le Bureau Meteo du Dispatch",
+        "it": "La Redazione Meteo del Dispatch"
+      }
     }
   ],
   "metadata": {
@@ -94,5 +244,5 @@
   },
   "status": "published",
   "created_at": "2026-01-05T12:00:00.000Z",
-  "updated_at": "2026-01-05T12:00:00.000Z"
+  "updated_at": "2026-01-07T12:00:00.000Z"
 }

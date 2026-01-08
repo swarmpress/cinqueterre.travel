@@ -7,36 +7,90 @@
     "it": "/it/corniglia/weather"
   },
   "title": {
-    "en": "Weather in Corniglia | Cinque Terre Dispatch"
+    "en": "Weather in Corniglia | Cinque Terre Dispatch",
+    "de": "Wetter in Corniglia | Cinque Terre Dispatch",
+    "fr": "Météo à Corniglia | Cinque Terre Dispatch",
+    "it": "Meteo a Corniglia | Cinque Terre Dispatch"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Weather in Corniglia | Cinque Terre Dispatch"
+      "en": "Weather in Corniglia | Cinque Terre Dispatch",
+      "de": "Wetter in Corniglia | Cinque Terre Dispatch",
+      "fr": "Météo à Corniglia | Cinque Terre Dispatch",
+      "it": "Meteo a Corniglia | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Corniglia's elevation creates its own microclimate—cooler summers, clearer views, and weather patterns that reward those who understand them."
+      "en": "Corniglia's elevation creates its own microclimate—cooler summers, clearer views, and weather patterns that reward those who understand them.",
+      "de": "Corniglias Höhenlage schafft ihr eigenes Mikroklima—kühlere Sommer, klarere Aussichten und Wettermuster, die diejenigen belohnen, die sie verstehen.",
+      "fr": "L'altitude de Corniglia crée son propre microclimat—étés plus frais, vues plus claires, et des schémas météorologiques qui récompensent ceux qui les comprennent.",
+      "it": "L'altitudine di Corniglia crea il suo microclima—estati più fresche, viste più chiare, e pattern meteorologici che premiano chi li comprende."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Weather<br/>From Above",
-      "subtitle": "At 100 meters elevation, Corniglia experiences weather differently from the coastal villages below. The height brings cooler breezes, clearer air, and light that photographers travel to capture. Understanding the seasons means knowing when to come.",
-      "badge": "Weather Guide",
+      "title": {
+        "en": "Weather<br/>From Above",
+        "de": "Wetter<br/>Von Oben",
+        "fr": "Météo<br/>D'en Haut",
+        "it": "Meteo<br/>Dall'Alto"
+      },
+      "subtitle": {
+        "en": "At 100 meters elevation, Corniglia experiences weather differently from the coastal villages below. The height brings cooler breezes, clearer air, and light that photographers travel to capture. Understanding the seasons means knowing when to come.",
+        "de": "Auf 100 Metern Höhe erlebt Corniglia das Wetter anders als die Küstendörfer unten. Die Höhe bringt kühlere Brisen, klarere Luft und Licht, das Fotografen anreisen, um es einzufangen. Die Jahreszeiten zu verstehen bedeutet zu wissen, wann man kommen sollte.",
+        "fr": "À 100 mètres d'altitude, Corniglia vit la météo différemment des villages côtiers en contrebas. L'altitude apporte des brises plus fraîches, un air plus clair, et une lumière que les photographes viennent capturer. Comprendre les saisons signifie savoir quand venir.",
+        "it": "A 100 metri di altitudine, Corniglia vive il tempo in modo diverso dai borghi costieri sottostanti. L'altezza porta brezze più fresche, aria più limpida, e luce che i fotografi viaggiano per catturare. Capire le stagioni significa sapere quando venire."
+      },
+      "badge": {
+        "en": "Weather Guide",
+        "de": "Wetterführer",
+        "fr": "Guide Météo",
+        "it": "Guida Meteo"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Elevated Climate",
-      "quote": "Corniglia's position changes everything about its weather. When coastal villages swelter in summer heat, the hilltop catches breezes that make evenings pleasant. When morning mist shrouds the sea, Corniglia often sits above it in sunshine.",
-      "content": [
-        "**The elevation advantage is real**. Two to three degrees cooler than sea-level villages in summer. Better air circulation. Views that extend further because you start higher. The climb up the Lardarina is compensated by the climate once you arrive.",
-        "**Mediterranean patterns apply**. Hot dry summers, mild wet winters, spring and fall perfection. The rain comes primarily November through February. Summer drought is normal—don't expect green terraces in August.",
-        "**Microclimates within microclimates**. South-facing terraces bake in afternoon sun. Shaded alleys stay cool. The viewpoint catches wind that the village center doesn't. Position matters as much as season.",
-        "**Weather affects everything**. When it rains, the Lardarina steps become slippery. Hot days mean climbing early or late. The best photos happen in specific light. Weather isn't just context—it shapes the experience."
-      ]
+      "badge": {
+        "en": "The Elevated Climate",
+        "de": "Das Erhöhte Klima",
+        "fr": "Le Climat Élevé",
+        "it": "Il Clima Elevato"
+      },
+      "quote": {
+        "en": "Corniglia's position changes everything about its weather. When coastal villages swelter in summer heat, the hilltop catches breezes that make evenings pleasant. When morning mist shrouds the sea, Corniglia often sits above it in sunshine.",
+        "de": "Corniglias Position ändert alles an seinem Wetter. Wenn Küstendörfer in der Sommerhitze schwitzen, fängt der Hügel Brisen ein, die die Abende angenehm machen. Wenn Morgennebel das Meer verhüllt, sitzt Corniglia oft darüber im Sonnenschein.",
+        "fr": "La position de Corniglia change tout de sa météo. Quand les villages côtiers suffoquent dans la chaleur estivale, le sommet de la colline capte des brises qui rendent les soirées agréables. Quand la brume matinale recouvre la mer, Corniglia se trouve souvent au-dessus, en plein soleil.",
+        "it": "La posizione di Corniglia cambia tutto del suo tempo. Quando i borghi costieri soffocano nel caldo estivo, la collina cattura brezze che rendono le sere piacevoli. Quando la foschia mattutina avvolge il mare, Corniglia spesso siede sopra di essa nel sole."
+      },
+      "content": {
+        "en": [
+          "**The elevation advantage is real**. Two to three degrees cooler than sea-level villages in summer. Better air circulation. Views that extend further because you start higher. The climb up the Lardarina is compensated by the climate once you arrive.",
+          "**Mediterranean patterns apply**. Hot dry summers, mild wet winters, spring and fall perfection. The rain comes primarily November through February. Summer drought is normal—don't expect green terraces in August.",
+          "**Microclimates within microclimates**. South-facing terraces bake in afternoon sun. Shaded alleys stay cool. The viewpoint catches wind that the village center doesn't. Position matters as much as season.",
+          "**Weather affects everything**. When it rains, the Lardarina steps become slippery. Hot days mean climbing early or late. The best photos happen in specific light. Weather isn't just context—it shapes the experience."
+        ],
+        "de": [
+          "**Der Höhenvorteil ist real**. Zwei bis drei Grad kühler als die Dörfer auf Meereshöhe im Sommer. Bessere Luftzirkulation. Aussichten, die weiter reichen, weil man höher beginnt. Der Aufstieg zur Lardarina wird durch das Klima kompensiert, sobald man ankommt.",
+          "**Mediterrane Muster gelten**. Heiße trockene Sommer, milde nasse Winter, Perfektion im Frühling und Herbst. Der Regen kommt hauptsächlich von November bis Februar. Sommertrockenheit ist normal—erwarten Sie keine grünen Terrassen im August.",
+          "**Mikroklimate innerhalb von Mikroklimaten**. Nach Süden ausgerichtete Terrassen backen in der Nachmittagssonne. Schattige Gassen bleiben kühl. Der Aussichtspunkt fängt Wind, den das Dorfzentrum nicht bekommt. Position ist genauso wichtig wie Jahreszeit.",
+          "**Das Wetter beeinflusst alles**. Bei Regen werden die Lardarina-Stufen rutschig. Heiße Tage bedeuten frühes oder spätes Klettern. Die besten Fotos entstehen bei bestimmtem Licht. Wetter ist nicht nur Kontext—es prägt das Erlebnis."
+        ],
+        "fr": [
+          "**L'avantage de l'altitude est réel**. Deux à trois degrés plus frais que les villages au niveau de la mer en été. Meilleure circulation d'air. Des vues qui s'étendent plus loin parce qu'on part plus haut. La montée de la Lardarina est compensée par le climat une fois arrivé.",
+          "**Les schémas méditerranéens s'appliquent**. Étés chauds et secs, hivers doux et humides, perfection au printemps et en automne. La pluie vient principalement de novembre à février. La sécheresse estivale est normale—n'attendez pas des terrasses vertes en août.",
+          "**Microclimats dans les microclimats**. Les terrasses orientées au sud cuisent au soleil de l'après-midi. Les ruelles ombragées restent fraîches. Le point de vue capte le vent que le centre du village n'a pas. La position compte autant que la saison.",
+          "**La météo affecte tout**. Quand il pleut, les marches de la Lardarina deviennent glissantes. Les jours chauds signifient monter tôt ou tard. Les meilleures photos arrivent avec une lumière spécifique. La météo n'est pas juste un contexte—elle façonne l'expérience."
+        ],
+        "it": [
+          "**Il vantaggio dell'altitudine è reale**. Due o tre gradi più fresco dei borghi a livello del mare in estate. Migliore circolazione d'aria. Viste che si estendono più lontano perché si parte più in alto. La salita della Lardarina è compensata dal clima una volta arrivati.",
+          "**I pattern mediterranei si applicano**. Estati calde e secche, inverni miti e umidi, perfezione in primavera e autunno. La pioggia viene principalmente da novembre a febbraio. La siccità estiva è normale—non aspettatevi terrazzamenti verdi in agosto.",
+          "**Microclimi dentro microclimi**. I terrazzamenti esposti a sud cuociono nel sole pomeridiano. I vicoli ombreggiati restano freschi. Il punto panoramico prende il vento che il centro del borgo non ha. La posizione conta quanto la stagione.",
+          "**Il tempo influenza tutto**. Quando piove, i gradini della Lardarina diventano scivolosi. I giorni caldi significano salire presto o tardi. Le migliori foto accadono con luce specifica. Il tempo non è solo contesto—plasma l'esperienza."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Spring (March-May)",
-          "category": "Ideal Conditions",
+          "name": {
+            "en": "Spring (March-May)",
+            "de": "Frühling (März-Mai)",
+            "fr": "Printemps (Mars-Mai)",
+            "it": "Primavera (Marzo-Maggio)"
+          },
+          "category": {
+            "en": "Ideal Conditions",
+            "de": "Ideale Bedingungen",
+            "fr": "Conditions Idéales",
+            "it": "Condizioni Ideali"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The terraces bloom, temperatures perfect for hiking, crowds still manageable—spring is when Corniglia reveals itself most gently.",
-          "description": "Temperatures range 15-22°C—warm enough for terraces, cool enough for climbing. Wildflowers blanket the slopes. Occasional rain keeps everything green. The light has clarity that summer haze obscures. April and May are ideal months.",
-          "giuliaComment": "Spring is when I fall in love with Corniglia again. After winter's quiet, everything comes alive. The terraces show every shade of green. The air smells of wild herbs. And you can climb the stairs at noon without suffering.",
-          "signature": "When the landscape awakens"
+          "intro": {
+            "en": "The terraces bloom, temperatures perfect for hiking, crowds still manageable—spring is when Corniglia reveals itself most gently.",
+            "de": "Die Terrassen blühen, Temperaturen perfekt zum Wandern, Menschenmassen noch überschaubar—der Frühling ist, wenn Corniglia sich am sanftesten zeigt.",
+            "fr": "Les terrasses fleurissent, températures parfaites pour la randonnée, foules encore gérables—le printemps est quand Corniglia se révèle le plus doucement.",
+            "it": "I terrazzamenti fioriscono, temperature perfette per le escursioni, folle ancora gestibili—la primavera è quando Corniglia si rivela nel modo più dolce."
+          },
+          "description": {
+            "en": "Temperatures range 15-22°C—warm enough for terraces, cool enough for climbing. Wildflowers blanket the slopes. Occasional rain keeps everything green. The light has clarity that summer haze obscures. April and May are ideal months.",
+            "de": "Temperaturen liegen zwischen 15-22°C—warm genug für Terrassen, kühl genug zum Klettern. Wildblumen bedecken die Hänge. Gelegentlicher Regen hält alles grün. Das Licht hat eine Klarheit, die der Sommerdunst verdeckt. April und Mai sind ideale Monate.",
+            "fr": "Les températures varient de 15-22°C—assez chaud pour les terrasses, assez frais pour monter. Les fleurs sauvages recouvrent les pentes. La pluie occasionnelle garde tout vert. La lumière a une clarté que la brume estivale obscurcit. Avril et mai sont des mois idéaux.",
+            "it": "Le temperature variano da 15-22°C—abbastanza caldo per i terrazzamenti, abbastanza fresco per salire. I fiori selvatici ricoprono i pendii. La pioggia occasionale mantiene tutto verde. La luce ha una chiarezza che la foschia estiva oscura. Aprile e maggio sono mesi ideali."
+          },
+          "giuliaComment": {
+            "en": "Spring is when I fall in love with Corniglia again. After winter's quiet, everything comes alive. The terraces show every shade of green. The air smells of wild herbs. And you can climb the stairs at noon without suffering.",
+            "de": "Der Frühling ist, wenn ich mich wieder in Corniglia verliebe. Nach der Winterruhe erwacht alles zum Leben. Die Terrassen zeigen jede Schattierung von Grün. Die Luft riecht nach wilden Kräutern. Und man kann mittags die Treppen steigen, ohne zu leiden.",
+            "fr": "Le printemps est quand je retombe amoureuse de Corniglia. Après le calme de l'hiver, tout prend vie. Les terrasses montrent chaque nuance de vert. L'air sent les herbes sauvages. Et on peut monter les escaliers à midi sans souffrir.",
+            "it": "La primavera è quando mi innamoro di nuovo di Corniglia. Dopo la quiete invernale, tutto prende vita. I terrazzamenti mostrano ogni sfumatura di verde. L'aria profuma di erbe selvatiche. E si possono salire le scale a mezzogiorno senza soffrire."
+          },
+          "signature": {
+            "en": "When the landscape awakens",
+            "de": "Wenn die Landschaft erwacht",
+            "fr": "Quand le paysage s'éveille",
+            "it": "Quando il paesaggio si risveglia"
+          }
         },
         {
           "id": 2,
-          "name": "Summer (June-August)",
-          "category": "Peak Season",
+          "name": {
+            "en": "Summer (June-August)",
+            "de": "Sommer (Juni-August)",
+            "fr": "Été (Juin-Août)",
+            "it": "Estate (Giugno-Agosto)"
+          },
+          "category": {
+            "en": "Peak Season",
+            "de": "Hochsaison",
+            "fr": "Haute Saison",
+            "it": "Alta Stagione"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Hot but elevated—Corniglia's summer is more bearable than the coast, with long evenings that reward the day's endurance.",
-          "description": "Temperatures reach 28-32°C at peak, but the elevation provides relief the coast lacks. Sea breezes climb the hill. Evenings cool beautifully. The sun is intense—shade becomes precious, morning and evening become the active hours.",
-          "giuliaComment": "Summer requires strategy. Climb early, rest at midday, emerge for aperitivo when the light turns gold. The tourists who climb at noon suffer unnecessarily. We've always known to work with the heat, not against it.",
-          "signature": "When timing becomes essential"
+          "intro": {
+            "en": "Hot but elevated—Corniglia's summer is more bearable than the coast, with long evenings that reward the day's endurance.",
+            "de": "Heiß aber erhöht—Corniglias Sommer ist erträglicher als an der Küste, mit langen Abenden, die die Ausdauer des Tages belohnen.",
+            "fr": "Chaud mais en altitude—l'été de Corniglia est plus supportable que sur la côte, avec de longues soirées qui récompensent l'endurance de la journée.",
+            "it": "Caldo ma elevato—l'estate di Corniglia è più sopportabile della costa, con lunghe serate che premiano la resistenza del giorno."
+          },
+          "description": {
+            "en": "Temperatures reach 28-32°C at peak, but the elevation provides relief the coast lacks. Sea breezes climb the hill. Evenings cool beautifully. The sun is intense—shade becomes precious, morning and evening become the active hours.",
+            "de": "Temperaturen erreichen im Maximum 28-32°C, aber die Höhenlage bietet Erleichterung, die der Küste fehlt. Meeresbrisen steigen den Hügel hinauf. Abende kühlen wunderbar ab. Die Sonne ist intensiv—Schatten wird kostbar, Morgen und Abend werden zu den aktiven Stunden.",
+            "fr": "Les températures atteignent 28-32°C au maximum, mais l'altitude offre un soulagement que la côte n'a pas. Les brises marines montent la colline. Les soirées se rafraîchissent magnifiquement. Le soleil est intense—l'ombre devient précieuse, le matin et le soir deviennent les heures actives.",
+            "it": "Le temperature raggiungono 28-32°C al picco, ma l'altitudine fornisce sollievo che la costa non ha. Le brezze marine salgono la collina. Le sere si rinfrescano magnificamente. Il sole è intenso—l'ombra diventa preziosa, mattina e sera diventano le ore attive."
+          },
+          "giuliaComment": {
+            "en": "Summer requires strategy. Climb early, rest at midday, emerge for aperitivo when the light turns gold. The tourists who climb at noon suffer unnecessarily. We've always known to work with the heat, not against it.",
+            "de": "Sommer erfordert Strategie. Früh aufsteigen, mittags ruhen, zum Aperitivo erscheinen, wenn das Licht golden wird. Die Touristen, die mittags klettern, leiden unnötig. Wir haben immer gewusst, mit der Hitze zu arbeiten, nicht dagegen.",
+            "fr": "L'été nécessite une stratégie. Montez tôt, reposez-vous à midi, sortez pour l'aperitivo quand la lumière devient dorée. Les touristes qui montent à midi souffrent inutilement. Nous avons toujours su travailler avec la chaleur, pas contre elle.",
+            "it": "L'estate richiede strategia. Salite presto, riposatevi a mezzogiorno, uscite per l'aperitivo quando la luce diventa dorata. I turisti che salgono a mezzogiorno soffrono inutilmente. Abbiamo sempre saputo lavorare con il caldo, non contro di esso."
+          },
+          "signature": {
+            "en": "When timing becomes essential",
+            "de": "Wenn Timing essentiell wird",
+            "fr": "Quand le timing devient essentiel",
+            "it": "Quando il tempismo diventa essenziale"
+          }
         },
         {
           "id": 3,
-          "name": "Autumn (September-November)",
-          "category": "Harvest Beauty",
+          "name": {
+            "en": "Autumn (September-November)",
+            "de": "Herbst (September-November)",
+            "fr": "Automne (Septembre-Novembre)",
+            "it": "Autunno (Settembre-Novembre)"
+          },
+          "category": {
+            "en": "Harvest Beauty",
+            "de": "Erntezeit-Schönheit",
+            "fr": "Beauté des Vendanges",
+            "it": "Bellezza della Vendemmia"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The grape harvest, golden light, comfortable temperatures—autumn is perhaps Corniglia's finest season.",
-          "description": "September maintains summer warmth (22-26°C) without summer crowds. October brings harvest and the changing light that photographers prize. November starts the transition—cooler, wetter, quieter. The terraces turn from green to gold.",
-          "giuliaComment": "Autumn is when the village is most itself. The harvest dominates everything—we're working, celebrating, living the purpose of these terraces. The visitors who come now understand why we're here. The light... there's nothing like autumn light on the terraces.",
-          "signature": "When the village works"
+          "intro": {
+            "en": "The grape harvest, golden light, comfortable temperatures—autumn is perhaps Corniglia's finest season.",
+            "de": "Die Weinlese, goldenes Licht, angenehme Temperaturen—der Herbst ist vielleicht Corniglias beste Jahreszeit.",
+            "fr": "Les vendanges, lumière dorée, températures confortables—l'automne est peut-être la plus belle saison de Corniglia.",
+            "it": "La vendemmia, luce dorata, temperature confortevoli—l'autunno è forse la stagione più bella di Corniglia."
+          },
+          "description": {
+            "en": "September maintains summer warmth (22-26°C) without summer crowds. October brings harvest and the changing light that photographers prize. November starts the transition—cooler, wetter, quieter. The terraces turn from green to gold.",
+            "de": "September behält die Sommerwärme (22-26°C) ohne die Sommermassen. Oktober bringt die Ernte und das wechselnde Licht, das Fotografen schätzen. November beginnt den Übergang—kühler, nasser, ruhiger. Die Terrassen wechseln von Grün zu Gold.",
+            "fr": "Septembre maintient la chaleur estivale (22-26°C) sans les foules d'été. Octobre apporte les vendanges et la lumière changeante que les photographes apprécient. Novembre commence la transition—plus frais, plus humide, plus calme. Les terrasses passent du vert au doré.",
+            "it": "Settembre mantiene il calore estivo (22-26°C) senza le folle estive. Ottobre porta la vendemmia e la luce mutevole che i fotografi apprezzano. Novembre inizia la transizione—più fresco, più umido, più tranquillo. I terrazzamenti passano dal verde all'oro."
+          },
+          "giuliaComment": {
+            "en": "Autumn is when the village is most itself. The harvest dominates everything—we're working, celebrating, living the purpose of these terraces. The visitors who come now understand why we're here. The light... there's nothing like autumn light on the terraces.",
+            "de": "Der Herbst ist, wenn das Dorf am meisten es selbst ist. Die Ernte dominiert alles—wir arbeiten, feiern, leben den Zweck dieser Terrassen. Die Besucher, die jetzt kommen, verstehen, warum wir hier sind. Das Licht... es gibt nichts wie Herbstlicht auf den Terrassen.",
+            "fr": "L'automne est quand le village est le plus lui-même. Les vendanges dominent tout—nous travaillons, célébrons, vivons le but de ces terrasses. Les visiteurs qui viennent maintenant comprennent pourquoi nous sommes ici. La lumière... il n'y a rien comme la lumière d'automne sur les terrasses.",
+            "it": "L'autunno è quando il borgo è più se stesso. La vendemmia domina tutto—stiamo lavorando, celebrando, vivendo lo scopo di questi terrazzamenti. I visitatori che vengono ora capiscono perché siamo qui. La luce... non c'è niente come la luce autunnale sui terrazzamenti."
+          },
+          "signature": {
+            "en": "When the village works",
+            "de": "Wenn das Dorf arbeitet",
+            "fr": "Quand le village travaille",
+            "it": "Quando il borgo lavora"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Elevation Effect",
-          "quote": "Those 100 meters matter more than you'd think. On the hottest August days, Corniglia is genuinely cooler than Riomaggiore or Monterosso. The breezes that die at sea level still reach our terraces. The morning mist that shrouds the coast often stops below us. Elevation is comfort."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude Éditorial",
+            "it": "Intermezzo Editoriale"
+          },
+          "title": {
+            "en": "The Elevation Effect",
+            "de": "Der Höheneffekt",
+            "fr": "L'Effet de l'Altitude",
+            "it": "L'Effetto dell'Altitudine"
+          },
+          "quote": {
+            "en": "Those 100 meters matter more than you'd think. On the hottest August days, Corniglia is genuinely cooler than Riomaggiore or Monterosso. The breezes that die at sea level still reach our terraces. The morning mist that shrouds the coast often stops below us. Elevation is comfort.",
+            "de": "Diese 100 Meter sind wichtiger als man denkt. An den heißesten Augusttagen ist Corniglia wirklich kühler als Riomaggiore oder Monterosso. Die Brisen, die auf Meereshöhe sterben, erreichen noch unsere Terrassen. Der Morgennebel, der die Küste verhüllt, hört oft unter uns auf. Höhe ist Komfort.",
+            "fr": "Ces 100 mètres comptent plus qu'on ne le pense. Lors des jours les plus chauds d'août, Corniglia est vraiment plus fraîche que Riomaggiore ou Monterosso. Les brises qui meurent au niveau de la mer atteignent encore nos terrasses. La brume matinale qui recouvre la côte s'arrête souvent en dessous de nous. L'altitude est confort.",
+            "it": "Quei 100 metri contano più di quanto si pensi. Nei giorni più caldi di agosto, Corniglia è davvero più fresca di Riomaggiore o Monterosso. Le brezze che muoiono a livello del mare raggiungono ancora i nostri terrazzamenti. La foschia mattutina che avvolge la costa spesso si ferma sotto di noi. L'altitudine è comfort."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "What to Bring",
-      "quote": "Packing for Corniglia means packing for Mediterranean weather plus elevation plus stairs. The combination creates specific needs that generic travel advice misses.",
-      "content": [
-        "**Layers are essential**. Mornings can be cool, afternoons warm, evenings breezy. The ability to adjust throughout the day matters more than any single perfect outfit.",
-        "**Sun protection is serious**. The terrace exposure means intense sun. Hat, sunscreen, sunglasses—these aren't optional. The light that makes photos beautiful also burns.",
-        "**Good shoes are non-negotiable**. The Lardarina stairs, the terrace paths, the village cobblestones—you'll walk on uneven surfaces constantly. Support and grip matter.",
-        "**Rain gear in shoulder seasons**. Spring and fall bring occasional showers. A compact jacket or umbrella avoids surprises."
-      ]
+      "badge": {
+        "en": "What to Bring",
+        "de": "Was Mitbringen",
+        "fr": "Quoi Apporter",
+        "it": "Cosa Portare"
+      },
+      "quote": {
+        "en": "Packing for Corniglia means packing for Mediterranean weather plus elevation plus stairs. The combination creates specific needs that generic travel advice misses.",
+        "de": "Für Corniglia packen bedeutet für mediterranes Wetter plus Höhenlage plus Treppen packen. Die Kombination schafft spezifische Bedürfnisse, die allgemeine Reiseratschläge übersehen.",
+        "fr": "Préparer ses bagages pour Corniglia signifie préparer pour la météo méditerranéenne plus l'altitude plus les escaliers. La combinaison crée des besoins spécifiques que les conseils de voyage génériques manquent.",
+        "it": "Preparare i bagagli per Corniglia significa preparare per il tempo mediterraneo più altitudine più scale. La combinazione crea esigenze specifiche che i consigli di viaggio generici non colgono."
+      },
+      "content": {
+        "en": [
+          "**Layers are essential**. Mornings can be cool, afternoons warm, evenings breezy. The ability to adjust throughout the day matters more than any single perfect outfit.",
+          "**Sun protection is serious**. The terrace exposure means intense sun. Hat, sunscreen, sunglasses—these aren't optional. The light that makes photos beautiful also burns.",
+          "**Good shoes are non-negotiable**. The Lardarina stairs, the terrace paths, the village cobblestones—you'll walk on uneven surfaces constantly. Support and grip matter.",
+          "**Rain gear in shoulder seasons**. Spring and fall bring occasional showers. A compact jacket or umbrella avoids surprises."
+        ],
+        "de": [
+          "**Schichten sind essentiell**. Morgen können kühl sein, Nachmittage warm, Abende windig. Die Fähigkeit, sich den ganzen Tag anzupassen, ist wichtiger als ein einzelnes perfektes Outfit.",
+          "**Sonnenschutz ist ernst**. Die Terrassenexposition bedeutet intensive Sonne. Hut, Sonnencreme, Sonnenbrille—das sind keine Optionen. Das Licht, das Fotos schön macht, verbrennt auch.",
+          "**Gute Schuhe sind nicht verhandelbar**. Die Lardarina-Treppen, die Terrassenwege, das Dorfpflaster—Sie werden ständig auf unebenen Oberflächen gehen. Halt und Grip sind wichtig.",
+          "**Regenschutz in der Nebensaison**. Frühling und Herbst bringen gelegentliche Schauer. Eine kompakte Jacke oder ein Regenschirm vermeidet Überraschungen."
+        ],
+        "fr": [
+          "**Les couches sont essentielles**. Les matins peuvent être frais, les après-midis chauds, les soirées venteuses. La capacité de s'ajuster tout au long de la journée compte plus qu'une seule tenue parfaite.",
+          "**La protection solaire est sérieuse**. L'exposition des terrasses signifie un soleil intense. Chapeau, crème solaire, lunettes de soleil—ce ne sont pas optionnels. La lumière qui rend les photos belles brûle aussi.",
+          "**De bonnes chaussures sont non négociables**. Les escaliers de la Lardarina, les chemins des terrasses, les pavés du village—vous marcherez constamment sur des surfaces inégales. Le maintien et l'adhérence comptent.",
+          "**Équipement de pluie en demi-saison**. Le printemps et l'automne apportent des averses occasionnelles. Une veste compacte ou un parapluie évite les surprises."
+        ],
+        "it": [
+          "**Gli strati sono essenziali**. Le mattine possono essere fresche, i pomeriggi caldi, le sere ventose. La capacità di adattarsi durante il giorno conta più di un singolo outfit perfetto.",
+          "**La protezione solare è seria**. L'esposizione dei terrazzamenti significa sole intenso. Cappello, crema solare, occhiali da sole—non sono opzionali. La luce che rende le foto belle brucia anche.",
+          "**Buone scarpe sono non negoziabili**. Le scale della Lardarina, i sentieri dei terrazzamenti, i ciottoli del borgo—camminerete costantemente su superfici irregolari. Supporto e grip contano.",
+          "**Attrezzatura da pioggia nelle mezze stagioni**. Primavera e autunno portano occasionali acquazzoni. Una giacca compatta o un ombrello evita sorprese."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,48 +292,163 @@
       "items": [
         {
           "id": 4,
-          "name": "Winter (December-February)",
-          "category": "Quiet Season",
+          "name": {
+            "en": "Winter (December-February)",
+            "de": "Winter (Dezember-Februar)",
+            "fr": "Hiver (Décembre-Février)",
+            "it": "Inverno (Dicembre-Febbraio)"
+          },
+          "category": {
+            "en": "Quiet Season",
+            "de": "Ruhige Jahreszeit",
+            "fr": "Saison Calme",
+            "it": "Stagione Tranquilla"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The village at its quietest—some businesses close, storms can be dramatic, but those who come find something authentic.",
-          "description": "Temperatures range 8-14°C—mild by northern standards but brisk by Mediterranean expectations. Rain is common; storms can be spectacular. Some restaurants and accommodations close. What remains is the village living for itself.",
-          "giuliaComment": "Winter is when Corniglia belongs to us again. The visitors leave, the village contracts to its core. We repair walls, prune vines, gather in the bar. It's not for tourists who want entertainment—it's for those who want truth.",
-          "signature": "When the village rests"
+          "intro": {
+            "en": "The village at its quietest—some businesses close, storms can be dramatic, but those who come find something authentic.",
+            "de": "Das Dorf in seiner ruhigsten Phase—einige Geschäfte schließen, Stürme können dramatisch sein, aber wer kommt, findet etwas Authentisches.",
+            "fr": "Le village à son plus calme—certains commerces ferment, les tempêtes peuvent être dramatiques, mais ceux qui viennent trouvent quelque chose d'authentique.",
+            "it": "Il borgo al suo più tranquillo—alcuni negozi chiudono, le tempeste possono essere drammatiche, ma chi viene trova qualcosa di autentico."
+          },
+          "description": {
+            "en": "Temperatures range 8-14°C—mild by northern standards but brisk by Mediterranean expectations. Rain is common; storms can be spectacular. Some restaurants and accommodations close. What remains is the village living for itself.",
+            "de": "Temperaturen liegen zwischen 8-14°C—mild nach nördlichen Standards, aber frisch nach mediterranen Erwartungen. Regen ist häufig; Stürme können spektakulär sein. Einige Restaurants und Unterkünfte schließen. Was bleibt, ist das Dorf, das für sich selbst lebt.",
+            "fr": "Les températures varient de 8-14°C—doux selon les standards nordiques mais vif selon les attentes méditerranéennes. La pluie est courante ; les tempêtes peuvent être spectaculaires. Certains restaurants et hébergements ferment. Ce qui reste est le village vivant pour lui-même.",
+            "it": "Le temperature variano da 8-14°C—mite secondo gli standard nordici ma frizzante secondo le aspettative mediterranee. La pioggia è comune; le tempeste possono essere spettacolari. Alcuni ristoranti e alloggi chiudono. Ciò che rimane è il borgo che vive per se stesso."
+          },
+          "giuliaComment": {
+            "en": "Winter is when Corniglia belongs to us again. The visitors leave, the village contracts to its core. We repair walls, prune vines, gather in the bar. It's not for tourists who want entertainment—it's for those who want truth.",
+            "de": "Der Winter ist, wenn Corniglia wieder uns gehört. Die Besucher gehen, das Dorf zieht sich auf seinen Kern zusammen. Wir reparieren Mauern, beschneiden Reben, treffen uns in der Bar. Es ist nicht für Touristen, die Unterhaltung wollen—es ist für die, die Wahrheit wollen.",
+            "fr": "L'hiver est quand Corniglia nous appartient à nouveau. Les visiteurs partent, le village se contracte à son noyau. Nous réparons les murs, taillons les vignes, nous rassemblons au bar. Ce n'est pas pour les touristes qui veulent du divertissement—c'est pour ceux qui veulent la vérité.",
+            "it": "L'inverno è quando Corniglia appartiene di nuovo a noi. I visitatori partono, il borgo si contrae al suo nucleo. Ripariamo muri, potiamo viti, ci riuniamo al bar. Non è per i turisti che vogliono intrattenimento—è per chi vuole la verità."
+          },
+          "signature": {
+            "en": "When the village rests",
+            "de": "Wenn das Dorf ruht",
+            "fr": "Quand le village se repose",
+            "it": "Quando il borgo riposa"
+          }
         },
         {
           "id": 5,
-          "name": "The Perfect Week",
-          "category": "Best Timing",
+          "name": {
+            "en": "The Perfect Week",
+            "de": "Die Perfekte Woche",
+            "fr": "La Semaine Parfaite",
+            "it": "La Settimana Perfetta"
+          },
+          "category": {
+            "en": "Best Timing",
+            "de": "Beste Zeit",
+            "fr": "Meilleur Moment",
+            "it": "Momento Migliore"
+          },
           "village": "Corniglia",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "If you could choose any week—late May or mid-September, when everything aligns.",
-          "description": "Late May offers spring's final flourish: flowers still blooming, temperatures ideal (18-24°C), crowds not yet peaked, light spectacular. Mid-September brings harvest energy, summer's warmth without summer's heat, and the golden light that defines Cinque Terre photography.",
-          "giuliaComment": "When friends ask when to visit, I say late May or mid-September without hesitation. These weeks offer what the others can't—perfect weather, manageable crowds, and the village at its most alive. Plan around these windows if you can.",
-          "signature": "When everything aligns"
+          "intro": {
+            "en": "If you could choose any week—late May or mid-September, when everything aligns.",
+            "de": "Wenn Sie jede Woche wählen könnten—Ende Mai oder Mitte September, wenn alles zusammenpasst.",
+            "fr": "Si vous pouviez choisir n'importe quelle semaine—fin mai ou mi-septembre, quand tout s'aligne.",
+            "it": "Se poteste scegliere qualsiasi settimana—fine maggio o metà settembre, quando tutto si allinea."
+          },
+          "description": {
+            "en": "Late May offers spring's final flourish: flowers still blooming, temperatures ideal (18-24°C), crowds not yet peaked, light spectacular. Mid-September brings harvest energy, summer's warmth without summer's heat, and the golden light that defines Cinque Terre photography.",
+            "de": "Ende Mai bietet den letzten Höhepunkt des Frühlings: Blumen blühen noch, Temperaturen ideal (18-24°C), Menschenmassen noch nicht auf dem Höhepunkt, Licht spektakulär. Mitte September bringt Ernteenergie, Sommerwärme ohne Sommerhitze und das goldene Licht, das die Cinque-Terre-Fotografie definiert.",
+            "fr": "Fin mai offre l'épanouissement final du printemps : fleurs encore en floraison, températures idéales (18-24°C), foules pas encore à leur maximum, lumière spectaculaire. Mi-septembre apporte l'énergie des vendanges, la chaleur de l'été sans sa canicule, et la lumière dorée qui définit la photographie des Cinque Terre.",
+            "it": "Fine maggio offre l'ultimo fiorire della primavera: fiori ancora in fiore, temperature ideali (18-24°C), folle non ancora al picco, luce spettacolare. Metà settembre porta l'energia della vendemmia, il calore estivo senza il caldo estivo, e la luce dorata che definisce la fotografia delle Cinque Terre."
+          },
+          "giuliaComment": {
+            "en": "When friends ask when to visit, I say late May or mid-September without hesitation. These weeks offer what the others can't—perfect weather, manageable crowds, and the village at its most alive. Plan around these windows if you can.",
+            "de": "Wenn Freunde fragen, wann sie besuchen sollen, sage ich ohne Zögern Ende Mai oder Mitte September. Diese Wochen bieten, was die anderen nicht können—perfektes Wetter, überschaubare Menschenmassen und das Dorf in seiner lebendigsten Form. Planen Sie wenn möglich um diese Fenster herum.",
+            "fr": "Quand des amis demandent quand visiter, je dis fin mai ou mi-septembre sans hésitation. Ces semaines offrent ce que les autres ne peuvent pas—temps parfait, foules gérables, et le village au plus vivant. Planifiez autour de ces fenêtres si vous le pouvez.",
+            "it": "Quando gli amici chiedono quando visitare, dico fine maggio o metà settembre senza esitazione. Queste settimane offrono ciò che le altre non possono—tempo perfetto, folle gestibili, e il borgo al massimo della vita. Pianificate intorno a queste finestre se potete."
+          },
+          "signature": {
+            "en": "When everything aligns",
+            "de": "Wenn alles zusammenpasst",
+            "fr": "Quand tout s'aligne",
+            "it": "Quando tutto si allinea"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "Reading the Weather",
-          "quote": "We watch the horizon, not the forecast. When clouds build over the sea, rain follows in hours. When the morning is hazy, the afternoon will be hot. When the wind shifts to the south, weather is changing. The old ways of reading sky and sea still work here."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse Locale",
+            "it": "Saggezza Locale"
+          },
+          "title": {
+            "en": "Reading the Weather",
+            "de": "Das Wetter Lesen",
+            "fr": "Lire la Météo",
+            "it": "Leggere il Tempo"
+          },
+          "quote": {
+            "en": "We watch the horizon, not the forecast. When clouds build over the sea, rain follows in hours. When the morning is hazy, the afternoon will be hot. When the wind shifts to the south, weather is changing. The old ways of reading sky and sea still work here.",
+            "de": "Wir beobachten den Horizont, nicht die Vorhersage. Wenn sich Wolken über dem Meer bilden, folgt Regen in Stunden. Wenn der Morgen dunstig ist, wird der Nachmittag heiß. Wenn der Wind nach Süden dreht, ändert sich das Wetter. Die alten Methoden, Himmel und Meer zu lesen, funktionieren hier noch.",
+            "fr": "Nous regardons l'horizon, pas les prévisions. Quand les nuages s'accumulent sur la mer, la pluie suit en quelques heures. Quand le matin est brumeux, l'après-midi sera chaud. Quand le vent tourne au sud, le temps change. Les anciennes façons de lire le ciel et la mer fonctionnent encore ici.",
+            "it": "Guardiamo l'orizzonte, non le previsioni. Quando le nuvole si accumulano sul mare, la pioggia segue in ore. Quando la mattina è nebbiosa, il pomeriggio sarà caldo. Quando il vento gira a sud, il tempo sta cambiando. I vecchi modi di leggere cielo e mare funzionano ancora qui."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Weather as Guide",
-      "content": [
-        "Corniglia's weather isn't just backdrop—it shapes what you can do, what you'll see, how the village feels. Understanding the patterns means working with them rather than against them.",
-        "Come in the right season for your purposes. Spring for hiking and wildflowers. Summer for long evenings and sea access. Autumn for harvest and photography. Winter for solitude and authenticity. Each has its rewards.",
-        "And accept that weather changes, plans adjust, and sometimes the unexpected day—the storm that clears to rainbow, the fog that lifts to reveal everything—becomes the one you remember."
-      ],
+      "title": {
+        "en": "Weather as Guide",
+        "de": "Wetter als Wegweiser",
+        "fr": "La Météo comme Guide",
+        "it": "Il Tempo come Guida"
+      },
+      "content": {
+        "en": [
+          "Corniglia's weather isn't just backdrop—it shapes what you can do, what you'll see, how the village feels. Understanding the patterns means working with them rather than against them.",
+          "Come in the right season for your purposes. Spring for hiking and wildflowers. Summer for long evenings and sea access. Autumn for harvest and photography. Winter for solitude and authenticity. Each has its rewards.",
+          "And accept that weather changes, plans adjust, and sometimes the unexpected day—the storm that clears to rainbow, the fog that lifts to reveal everything—becomes the one you remember."
+        ],
+        "de": [
+          "Corniglias Wetter ist nicht nur Kulisse—es prägt, was Sie tun können, was Sie sehen werden, wie sich das Dorf anfühlt. Die Muster zu verstehen bedeutet, mit ihnen zu arbeiten, nicht gegen sie.",
+          "Kommen Sie in der richtigen Jahreszeit für Ihre Zwecke. Frühling zum Wandern und für Wildblumen. Sommer für lange Abende und Meerzugang. Herbst für Ernte und Fotografie. Winter für Einsamkeit und Authentizität. Jede hat ihre Belohnungen.",
+          "Und akzeptieren Sie, dass sich das Wetter ändert, Pläne angepasst werden, und manchmal der unerwartete Tag—der Sturm, der sich zum Regenbogen klärt, der Nebel, der sich hebt und alles enthüllt—zu dem wird, an den Sie sich erinnern."
+        ],
+        "fr": [
+          "La météo de Corniglia n'est pas qu'un décor—elle façonne ce que vous pouvez faire, ce que vous verrez, comment le village se ressent. Comprendre les schémas signifie travailler avec eux plutôt que contre eux.",
+          "Venez à la bonne saison pour vos objectifs. Le printemps pour la randonnée et les fleurs sauvages. L'été pour les longues soirées et l'accès à la mer. L'automne pour les vendanges et la photographie. L'hiver pour la solitude et l'authenticité. Chacune a ses récompenses.",
+          "Et acceptez que la météo change, les plans s'ajustent, et parfois le jour inattendu—la tempête qui se dégage en arc-en-ciel, le brouillard qui se lève pour tout révéler—devient celui dont vous vous souvenez."
+        ],
+        "it": [
+          "Il tempo di Corniglia non è solo sfondo—plasma cosa potete fare, cosa vedrete, come si sente il borgo. Capire i pattern significa lavorare con loro piuttosto che contro di loro.",
+          "Venite nella stagione giusta per i vostri scopi. Primavera per le escursioni e i fiori selvatici. Estate per le lunghe serate e l'accesso al mare. Autunno per la vendemmia e la fotografia. Inverno per la solitudine e l'autenticità. Ognuna ha le sue ricompense.",
+          "E accettate che il tempo cambia, i piani si adattano, e a volte il giorno inaspettato—la tempesta che si schiarisce in arcobaleno, la nebbia che si alza per rivelare tutto—diventa quello che ricorderete."
+        ]
+      },
       "buttons": [
-        { "text": "Getting Here", "url": "/en/corniglia/getting-here", "variant": "primary" },
-        { "text": "Village Overview", "url": "/en/corniglia/overview", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Comment Arriver",
+            "it": "Come Arrivare"
+          },
+          "url": "/en/corniglia/getting-here",
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Village Overview",
+            "de": "Dorf Überblick",
+            "fr": "Aperçu du Village",
+            "it": "Panoramica del Borgo"
+          },
+          "url": "/en/corniglia/overview",
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -154,5 +458,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-05T19:00:00.000Z"
+  "updated_at": "2026-01-07T18:30:00.000Z"
 }

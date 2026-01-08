@@ -2,40 +2,94 @@
   "id": "c64510c0-efcf-4ae2-b00f-6e4896526abf",
   "slug": {
     "en": "/en/monterosso/weather",
-    "de": "/de/monterosso/weather",
-    "fr": "/fr/monterosso/weather",
-    "it": "/it/monterosso/weather"
+    "de": "/de/monterosso/wetter",
+    "fr": "/fr/monterosso/meteo",
+    "it": "/it/monterosso/meteo"
   },
   "title": {
-    "en": "Weather in Monterosso | Cinque Terre Dispatch"
+    "en": "Weather in Monterosso | Cinque Terre Dispatch",
+    "de": "Wetter in Monterosso | Cinque Terre Dispatch",
+    "fr": "Météo à Monterosso | Cinque Terre Dispatch",
+    "it": "Meteo a Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Weather in Monterosso | Cinque Terre Dispatch"
+      "en": "Weather in Monterosso | Cinque Terre Dispatch",
+      "de": "Wetter in Monterosso | Cinque Terre Dispatch",
+      "fr": "Météo à Monterosso | Cinque Terre Dispatch",
+      "it": "Meteo a Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Monterosso's beaches make weather matter more than in any other village. Summer brings crowds and swimming; autumn brings lemons and quiet; winter brings storms and solitude. Each season offers a different Monterosso."
+      "en": "Monterosso's beaches make weather matter more than in any other village. Summer brings crowds and swimming; autumn brings lemons and quiet; winter brings storms and solitude. Each season offers a different Monterosso.",
+      "de": "Monterossos Strände machen das Wetter wichtiger als in jedem anderen Dorf. Der Sommer bringt Menschenmengen und Badespaß, der Herbst Zitronen und Ruhe, der Winter Stürme und Einsamkeit. Jede Jahreszeit zeigt ein anderes Monterosso.",
+      "fr": "Les plages de Monterosso rendent la météo plus importante qu'ailleurs. L'été apporte les foules et la baignade, l'automne les citrons et le calme, l'hiver les tempêtes et la solitude. Chaque saison révèle un Monterosso différent.",
+      "it": "Le spiagge di Monterosso rendono il meteo più importante che in qualsiasi altro borgo. L'estate porta folle e nuotate, l'autunno limoni e quiete, l'inverno tempeste e solitudine. Ogni stagione offre un Monterosso diverso."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "The Beach<br/>Defines It",
-      "subtitle": "Weather matters more in Monterosso than in any other Cinque Terre village. The beaches that draw visitors depend on summer sun; the lemon terraces that define the landscape depend on Mediterranean warmth; the storms that crash against the shore in winter remind everyone why this coast was once feared. The season you choose determines the Monterosso you meet.",
-      "badge": "Weather & Seasons",
+      "title": {
+        "en": "The Beach<br/>Defines It",
+        "de": "Der Strand<br/>bestimmt alles",
+        "fr": "La plage<br/>définit tout",
+        "it": "La spiaggia<br/>definisce tutto"
+      },
+      "subtitle": {
+        "en": "Weather matters more in Monterosso than in any other Cinque Terre village. The beaches that draw visitors depend on summer sun; the lemon terraces that define the landscape depend on Mediterranean warmth; the storms that crash against the shore in winter remind everyone why this coast was once feared. The season you choose determines the Monterosso you meet.",
+        "de": "Das Wetter ist in Monterosso wichtiger als in jedem anderen Dorf der Cinque Terre. Die Strände, die Besucher anziehen, brauchen die Sommersonne; die Zitronenterrassen, die die Landschaft prägen, brauchen mediterrane Wärme; die Stürme, die im Winter gegen die Küste peitschen, erinnern alle daran, warum diese Küste einst gefürchtet war. Die Jahreszeit, die Sie wählen, bestimmt das Monterosso, das Sie erleben.",
+        "fr": "La météo compte plus à Monterosso que dans tout autre village des Cinque Terre. Les plages qui attirent les visiteurs dépendent du soleil estival ; les terrasses de citronniers qui définissent le paysage dépendent de la chaleur méditerranéenne ; les tempêtes qui s'abattent sur le rivage en hiver rappellent pourquoi cette côte était autrefois redoutée. La saison que vous choisissez détermine le Monterosso que vous découvrirez.",
+        "it": "Il meteo conta più a Monterosso che in qualsiasi altro borgo delle Cinque Terre. Le spiagge che attirano i visitatori dipendono dal sole estivo; i terrazzamenti di limoni che definiscono il paesaggio dipendono del calore mediterraneo; le tempeste che si abbattono sulla costa in inverno ricordano a tutti perché questo litorale era un tempo temuto. La stagione che scegliete determina il Monterosso che incontrerete."
+      },
+      "badge": {
+        "en": "Weather & Seasons",
+        "de": "Wetter & Jahreszeiten",
+        "fr": "Météo & Saisons",
+        "it": "Meteo & Stagioni"
+      },
       "image": "https://images.unsplash.com/photo-1580495173000-b5b56e4eab00?q=80&w=2670&auto=format&fit=crop"
     },
     {
       "type": "editorial-intro",
-      "badge": "Mediterranean Gifts",
-      "quote": "The bay protects Monterosso from the worst of Ligurian weather. When other villages see rough seas and cancelled ferries, Monterosso's beaches often remain calm. This shelter is why Romans built their villas here, why the village grew larger than its neighbors, why the beaches exist at all.",
+      "badge": {
+        "en": "Mediterranean Gifts",
+        "de": "Mediterrane Geschenke",
+        "fr": "Dons méditerranéens",
+        "it": "Doni mediterranei"
+      },
+      "quote": {
+        "en": "The bay protects Monterosso from the worst of Ligurian weather. When other villages see rough seas and cancelled ferries, Monterosso's beaches often remain calm. This shelter is why Romans built their villas here, why the village grew larger than its neighbors, why the beaches exist at all.",
+        "de": "Die Bucht schützt Monterosso vor dem schlimmsten ligurischen Wetter. Wenn andere Dörfer raue See und ausgefallene Fähren erleben, bleiben die Strände von Monterosso oft ruhig. Dieser Schutz ist der Grund, warum die Römer hier ihre Villen bauten, warum das Dorf größer wurde als seine Nachbarn, warum die Strände überhaupt existieren.",
+        "fr": "La baie protège Monterosso des pires intempéries ligures. Quand les autres villages affrontent une mer agitée et des ferries annulés, les plages de Monterosso restent souvent calmes. C'est grâce à cet abri que les Romains y construisirent leurs villas, que le village grandit plus que ses voisins, que les plages existent.",
+        "it": "La baia protegge Monterosso dalle peggiori intemperie liguri. Quando gli altri borghi vedono mare mosso e traghetti cancellati, le spiagge di Monterosso spesso restano calme. Questo riparo spiega perché i Romani costruirono qui le loro ville, perché il borgo crebbe più dei vicini, perché le spiagge esistono."
+      },
       "content": [
-        "**The red cliffs absorb heat**. Monterosso's name—Mons Rubeus, red mountain—comes from the warm stone that stores summer sun and releases it slowly. Autumn evenings stay mild longer here than anywhere on the coast.",
-        "**The bay faces west**. Sunsets are spectacular, golden light flooding the beaches and the old town. But afternoons can be hot—the beach bakes from noon to four in summer.",
-        "**Rain comes in bursts**. Mediterranean storms are brief and theatrical—fifteen minutes of deluge, then sunshine. Carry a small umbrella and learn to duck into bars when the sky darkens.",
-        "**The sea moderates everything**. Summer stays cooler than inland, winter stays warmer. The Mediterranean is nature's thermostat, and Monterosso benefits from its proximity."
+        {
+          "en": "**The red cliffs absorb heat**. Monterosso's name—Mons Rubeus, red mountain—comes from the warm stone that stores summer sun and releases it slowly. Autumn evenings stay mild longer here than anywhere on the coast.",
+          "de": "**Die roten Klippen speichern Wärme**. Monterossos Name – Mons Rubeus, roter Berg – stammt vom warmen Stein, der die Sommersonne speichert und langsam abgibt. Herbstabende bleiben hier länger mild als irgendwo sonst an der Küste.",
+          "fr": "**Les falaises rouges absorbent la chaleur**. Le nom de Monterosso – Mons Rubeus, montagne rouge – vient de la pierre chaude qui emmagasine le soleil d'été et le libère lentement. Les soirées d'automne restent douces plus longtemps ici qu'ailleurs sur la côte.",
+          "it": "**Le scogliere rosse assorbono il calore**. Il nome di Monterosso – Mons Rubeus, monte rosso – deriva dalla pietra calda che immagazzina il sole estivo e lo rilascia lentamente. Le serate autunnali restano miti più a lungo qui che altrove sulla costa."
+        },
+        {
+          "en": "**The bay faces west**. Sunsets are spectacular, golden light flooding the beaches and the old town. But afternoons can be hot—the beach bakes from noon to four in summer.",
+          "de": "**Die Bucht liegt nach Westen**. Die Sonnenuntergänge sind spektakulär, goldenes Licht flutet die Strände und die Altstadt. Aber die Nachmittage können heiß werden – der Strand glüht im Sommer von mittags bis vier.",
+          "fr": "**La baie fait face à l'ouest**. Les couchers de soleil sont spectaculaires, la lumière dorée inondant les plages et la vieille ville. Mais les après-midi peuvent être torrides – la plage cuit de midi à quatre heures en été.",
+          "it": "**La baia guarda a ovest**. I tramonti sono spettacolari, la luce dorata inonda le spiagge e il borgo antico. Ma i pomeriggi possono essere roventi – la spiaggia cuoce da mezzogiorno alle quattro in estate."
+        },
+        {
+          "en": "**Rain comes in bursts**. Mediterranean storms are brief and theatrical—fifteen minutes of deluge, then sunshine. Carry a small umbrella and learn to duck into bars when the sky darkens.",
+          "de": "**Regen kommt in Schüben**. Mediterrane Gewitter sind kurz und dramatisch – fünfzehn Minuten Wolkenbruch, dann wieder Sonnenschein. Nehmen Sie einen kleinen Schirm mit und lernen Sie, in Bars zu flüchten, wenn der Himmel sich verdunkelt.",
+          "fr": "**La pluie arrive par rafales**. Les orages méditerranéens sont brefs et théâtraux – quinze minutes de déluge, puis le soleil. Emportez un petit parapluie et apprenez à vous réfugier dans les bars quand le ciel s'assombrit.",
+          "it": "**La pioggia arriva a scrosci**. I temporali mediterranei sono brevi e teatrali – quindici minuti di diluvio, poi il sole. Portate un piccolo ombrello e imparate a rifugiarvi nei bar quando il cielo si oscura."
+        },
+        {
+          "en": "**The sea moderates everything**. Summer stays cooler than inland, winter stays warmer. The Mediterranean is nature's thermostat, and Monterosso benefits from its proximity.",
+          "de": "**Das Meer mildert alles**. Im Sommer bleibt es kühler als im Landesinneren, im Winter wärmer. Das Mittelmeer ist der Thermostat der Natur, und Monterosso profitiert von seiner Nähe.",
+          "fr": "**La mer tempère tout**. L'été reste plus frais qu'à l'intérieur des terres, l'hiver plus doux. La Méditerranée est le thermostat de la nature, et Monterosso bénéficie de sa proximité.",
+          "it": "**Il mare modera tutto**. L'estate resta più fresca che nell'entroterra, l'inverno più mite. Il Mediterraneo è il termostato della natura, e Monterosso beneficia della sua vicinanza."
+        }
       ]
     },
     {
@@ -44,72 +98,257 @@
       "items": [
         {
           "id": 1,
-          "name": "Summer (June-August)",
-          "category": "Peak Season",
+          "name": {
+            "en": "Summer (June-August)",
+            "de": "Sommer (Juni-August)",
+            "fr": "Été (juin-août)",
+            "it": "Estate (giugno-agosto)"
+          },
+          "category": {
+            "en": "Peak Season",
+            "de": "Hochsaison",
+            "fr": "Haute saison",
+            "it": "Alta stagione"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Beach season in full glory—long days, warm water, and the crowds that come for both.",
-          "description": "Summer transforms Monterosso into a proper beach resort. Temperatures reach 28-30°C but sea breezes make it bearable. The water warms to swimming perfection by late June. Days stretch past 9pm, filling the beaches until sunset and the restaurants until midnight. This is the Monterosso of postcards—and postcard crowds.",
-          "giuliaComment": "Summer is why people come. The beach is perfect, the water is perfect, the aperitivo hour stretches forever. Yes, it's crowded. That's the price of paradise.",
-          "signature": "Where the beach fulfills its promise",
-          "practicalInfo": "Book accommodation months ahead. Stabilimenti fill by 10am. Evening dining reservations essential. Swim early or late to avoid crowds."
+          "intro": {
+            "en": "Beach season in full glory—long days, warm water, and the crowds that come for both.",
+            "de": "Strandsaison in voller Pracht – lange Tage, warmes Wasser und die Menschenmengen, die beides suchen.",
+            "fr": "La saison balnéaire dans toute sa splendeur – longues journées, eau chaude et foules qui viennent pour les deux.",
+            "it": "La stagione balneare in tutto il suo splendore – giornate lunghe, acqua calda e le folle che vengono per entrambi."
+          },
+          "description": {
+            "en": "Summer transforms Monterosso into a proper beach resort. Temperatures reach 28-30°C but sea breezes make it bearable. The water warms to swimming perfection by late June. Days stretch past 9pm, filling the beaches until sunset and the restaurants until midnight. This is the Monterosso of postcards—and postcard crowds.",
+            "de": "Der Sommer verwandelt Monterosso in einen richtigen Badeort. Die Temperaturen erreichen 28-30°C, aber die Meeresbrise macht es erträglich. Das Wasser erwärmt sich bis Ende Juni auf perfekte Badetemperatur. Die Tage dauern bis nach 21 Uhr, füllen die Strände bis zum Sonnenuntergang und die Restaurants bis Mitternacht. Das ist das Monterosso der Postkarten – und der Postkartenmassen.",
+            "fr": "L'été transforme Monterosso en véritable station balnéaire. Les températures atteignent 28-30°C mais la brise marine les rend supportables. L'eau atteint la température idéale pour la baignade fin juin. Les journées s'étirent au-delà de 21h, remplissant les plages jusqu'au coucher du soleil et les restaurants jusqu'à minuit. C'est le Monterosso des cartes postales – avec les foules qui vont avec.",
+            "it": "L'estate trasforma Monterosso in una vera località balneare. Le temperature raggiungono i 28-30°C ma la brezza marina le rende sopportabili. L'acqua si scalda alla perfezione per nuotare verso fine giugno. Le giornate si allungano oltre le 21, riempiendo le spiagge fino al tramonto e i ristoranti fino a mezzanotte. Questa è la Monterosso delle cartoline – e delle folle da cartolina."
+          },
+          "giuliaComment": {
+            "en": "Summer is why people come. The beach is perfect, the water is perfect, the aperitivo hour stretches forever. Yes, it's crowded. That's the price of paradise.",
+            "de": "Der Sommer ist der Grund, warum die Menschen kommen. Der Strand ist perfekt, das Wasser ist perfekt, die Aperitivo-Stunde dehnt sich endlos. Ja, es ist voll. Das ist der Preis des Paradieses.",
+            "fr": "L'été, c'est la raison pour laquelle les gens viennent. La plage est parfaite, l'eau est parfaite, l'heure de l'aperitivo s'étire à l'infini. Oui, c'est bondé. C'est le prix du paradis.",
+            "it": "L'estate è il motivo per cui la gente viene. La spiaggia è perfetta, l'acqua è perfetta, l'ora dell'aperitivo si allunga all'infinito. Sì, c'è folla. È il prezzo del paradiso."
+          },
+          "signature": {
+            "en": "Where the beach fulfills its promise",
+            "de": "Wo der Strand sein Versprechen hält",
+            "fr": "Où la plage tient ses promesses",
+            "it": "Dove la spiaggia mantiene le sue promesse"
+          },
+          "practicalInfo": {
+            "en": "Book accommodation months ahead. Stabilimenti fill by 10am. Evening dining reservations essential. Swim early or late to avoid crowds.",
+            "de": "Unterkünfte Monate im Voraus buchen. Strandbäder sind um 10 Uhr voll. Abendessen-Reservierungen unerlässlich. Früh oder spät schwimmen, um Menschenmengen zu meiden.",
+            "fr": "Réservez l'hébergement des mois à l'avance. Les établissements balnéaires sont pleins à 10h. Réservations pour le dîner indispensables. Nagez tôt ou tard pour éviter la foule.",
+            "it": "Prenotate l'alloggio con mesi di anticipo. Gli stabilimenti si riempiono entro le 10. Prenotazioni per la cena essenziali. Nuotate presto o tardi per evitare la folla."
+          }
         },
         {
           "id": 2,
-          "name": "Autumn (September-November)",
-          "category": "Shoulder Season",
+          "name": {
+            "en": "Autumn (September-November)",
+            "de": "Herbst (September-November)",
+            "fr": "Automne (septembre-novembre)",
+            "it": "Autunno (settembre-novembre)"
+          },
+          "category": {
+            "en": "Shoulder Season",
+            "de": "Nebensaison",
+            "fr": "Intersaison",
+            "it": "Mezza stagione"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The harvest arrives—grapes from the terraces, lemons from the groves, quiet from the departed crowds.",
-          "description": "September holds summer's warmth with manageable crowds. October brings the grape harvest and the first cool mornings. November can be rainy but offers the village at its most authentic—locals reclaiming the streets, restaurants serving to neighbors, the tourism machine winding down.",
-          "giuliaComment": "September is my favorite month. The water is warmest (it takes all summer to heat), the crowds have thinned, and the light turns golden. If I could only visit once, I'd choose September.",
-          "signature": "When the village remembers itself",
-          "practicalInfo": "September still excellent for swimming. October perfect for hiking. November: check restaurant hours, bring rain gear."
+          "intro": {
+            "en": "The harvest arrives—grapes from the terraces, lemons from the groves, quiet from the departed crowds.",
+            "de": "Die Ernte kommt – Trauben von den Terrassen, Zitronen aus den Hainen, Ruhe von den abgereisten Menschenmengen.",
+            "fr": "La récolte arrive – raisins des terrasses, citrons des vergers, calme des foules parties.",
+            "it": "Arriva la vendemmia – uva dalle terrazze, limoni dai frutteti, quiete dalle folle partite."
+          },
+          "description": {
+            "en": "September holds summer's warmth with manageable crowds. October brings the grape harvest and the first cool mornings. November can be rainy but offers the village at its most authentic—locals reclaiming the streets, restaurants serving to neighbors, the tourism machine winding down.",
+            "de": "Der September bewahrt die Sommerwärme bei überschaubaren Besucherzahlen. Der Oktober bringt die Weinlese und die ersten kühlen Morgen. Der November kann regnerisch sein, bietet aber das authentischste Dorfleben – Einheimische erobern die Straßen zurück, Restaurants bewirten Nachbarn, die Tourismusmaschinerie fährt herunter.",
+            "fr": "Septembre conserve la chaleur estivale avec des foules gérables. Octobre apporte les vendanges et les premières matinées fraîches. Novembre peut être pluvieux mais offre le village le plus authentique – les habitants reconquièrent les rues, les restaurants servent les voisins, la machine touristique ralentit.",
+            "it": "Settembre mantiene il calore estivo con folle gestibili. Ottobre porta la vendemmia e le prime mattinate fresche. Novembre può essere piovoso ma offre il borgo più autentico – i locali si riappropriano delle strade, i ristoranti servono i vicini, la macchina turistica rallenta."
+          },
+          "giuliaComment": {
+            "en": "September is my favorite month. The water is warmest (it takes all summer to heat), the crowds have thinned, and the light turns golden. If I could only visit once, I'd choose September.",
+            "de": "September ist mein Lieblingsmonat. Das Wasser ist am wärmsten (es braucht den ganzen Sommer zum Aufheizen), die Menschenmengen haben sich gelichtet, und das Licht wird golden. Wenn ich nur einmal kommen könnte, würde ich September wählen.",
+            "fr": "Septembre est mon mois préféré. L'eau est la plus chaude (il faut tout l'été pour la réchauffer), les foules se sont éclaircies et la lumière devient dorée. Si je ne pouvais venir qu'une fois, je choisirais septembre.",
+            "it": "Settembre è il mio mese preferito. L'acqua è più calda (ci vuole tutta l'estate per scaldarla), le folle si sono diradate e la luce diventa dorata. Se potessi venire solo una volta, sceglierei settembre."
+          },
+          "signature": {
+            "en": "When the village remembers itself",
+            "de": "Wenn das Dorf sich selbst wiederfindet",
+            "fr": "Quand le village se retrouve",
+            "it": "Quando il borgo ritrova se stesso"
+          },
+          "practicalInfo": {
+            "en": "September still excellent for swimming. October perfect for hiking. November: check restaurant hours, bring rain gear.",
+            "de": "September noch ausgezeichnet zum Schwimmen. Oktober perfekt zum Wandern. November: Öffnungszeiten der Restaurants prüfen, Regenkleidung mitbringen.",
+            "fr": "Septembre encore excellent pour la baignade. Octobre parfait pour la randonnée. Novembre : vérifier les horaires des restaurants, prévoir un équipement de pluie.",
+            "it": "Settembre ancora eccellente per nuotare. Ottobre perfetto per le escursioni. Novembre: controllare gli orari dei ristoranti, portare abbigliamento antipioggia."
+          }
         },
         {
           "id": 3,
-          "name": "Winter (December-February)",
-          "category": "Off Season",
+          "name": {
+            "en": "Winter (December-February)",
+            "de": "Winter (Dezember-Februar)",
+            "fr": "Hiver (décembre-février)",
+            "it": "Inverno (dicembre-febbraio)"
+          },
+          "category": {
+            "en": "Off Season",
+            "de": "Nebensaison",
+            "fr": "Basse saison",
+            "it": "Bassa stagione"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Storms and solitude—the beaches empty, the village turns inward, the Mediterranean shows its power.",
-          "description": "Winter Monterosso belongs to residents. Temperatures rarely drop below 8°C, but the damp sea air feels colder. Storms can be spectacular—waves crashing against the breakwater, the beach transformed. Many restaurants close, but those that remain offer authentic local life without performance.",
-          "giuliaComment": "Winter visitors see something tourists miss. The storms are dramatic, the quiet is profound, and the locals have time to talk. It's not the Monterosso of postcards—it's better.",
-          "signature": "Where the village rests",
-          "practicalInfo": "Many businesses closed December-February. Warm, waterproof clothing essential. Fewer trains. The quiet is real."
+          "intro": {
+            "en": "Storms and solitude—the beaches empty, the village turns inward, the Mediterranean shows its power.",
+            "de": "Stürme und Einsamkeit – die Strände leeren sich, das Dorf kehrt nach innen, das Mittelmeer zeigt seine Kraft.",
+            "fr": "Tempêtes et solitude – les plages se vident, le village se replie, la Méditerranée montre sa puissance.",
+            "it": "Tempeste e solitudine – le spiagge si svuotano, il borgo si chiude in sé, il Mediterraneo mostra la sua potenza."
+          },
+          "description": {
+            "en": "Winter Monterosso belongs to residents. Temperatures rarely drop below 8°C, but the damp sea air feels colder. Storms can be spectacular—waves crashing against the breakwater, the beach transformed. Many restaurants close, but those that remain offer authentic local life without performance.",
+            "de": "Das winterliche Monterosso gehört den Einwohnern. Die Temperaturen fallen selten unter 8°C, aber die feuchte Meeresluft fühlt sich kälter an. Stürme können spektakulär sein – Wellen, die gegen die Mole krachen, der Strand verwandelt sich. Viele Restaurants schließen, aber die, die offen bleiben, bieten authentisches lokales Leben ohne Inszenierung.",
+            "fr": "L'hiver, Monterosso appartient aux résidents. Les températures descendent rarement sous 8°C, mais l'air marin humide semble plus froid. Les tempêtes peuvent être spectaculaires – vagues s'écrasant contre la digue, plage transformée. Beaucoup de restaurants ferment, mais ceux qui restent offrent une vie locale authentique sans mise en scène.",
+            "it": "Monterosso d'inverno appartiene ai residenti. Le temperature raramente scendono sotto gli 8°C, ma l'aria umida del mare sembra più fredda. Le tempeste possono essere spettacolari – onde che si infrangono contro il frangiflutti, la spiaggia trasformata. Molti ristoranti chiudono, ma quelli che restano offrono vita locale autentica senza finzioni."
+          },
+          "giuliaComment": {
+            "en": "Winter visitors see something tourists miss. The storms are dramatic, the quiet is profound, and the locals have time to talk. It's not the Monterosso of postcards—it's better.",
+            "de": "Winterbesucher sehen etwas, das Touristen entgeht. Die Stürme sind dramatisch, die Stille ist tiefgründig, und die Einheimischen haben Zeit zum Reden. Es ist nicht das Monterosso der Postkarten – es ist besser.",
+            "fr": "Les visiteurs d'hiver voient ce que les touristes manquent. Les tempêtes sont dramatiques, le calme est profond, et les habitants ont le temps de parler. Ce n'est pas le Monterosso des cartes postales – c'est mieux.",
+            "it": "I visitatori invernali vedono qualcosa che i turisti perdono. Le tempeste sono drammatiche, la quiete è profonda e la gente del posto ha tempo per chiacchierare. Non è la Monterosso delle cartoline – è meglio."
+          },
+          "signature": {
+            "en": "Where the village rests",
+            "de": "Wo das Dorf ruht",
+            "fr": "Où le village se repose",
+            "it": "Dove il borgo riposa"
+          },
+          "practicalInfo": {
+            "en": "Many businesses closed December-February. Warm, waterproof clothing essential. Fewer trains. The quiet is real.",
+            "de": "Viele Geschäfte von Dezember bis Februar geschlossen. Warme, wasserdichte Kleidung unerlässlich. Weniger Züge. Die Stille ist echt.",
+            "fr": "De nombreux commerces fermés de décembre à février. Vêtements chauds et imperméables indispensables. Moins de trains. Le calme est réel.",
+            "it": "Molte attività chiuse da dicembre a febbraio. Abbigliamento caldo e impermeabile essenziale. Meno treni. La quiete è reale."
+          }
         },
         {
           "id": 4,
-          "name": "Spring (March-May)",
-          "category": "Awakening",
+          "name": {
+            "en": "Spring (March-May)",
+            "de": "Frühling (März-Mai)",
+            "fr": "Printemps (mars-mai)",
+            "it": "Primavera (marzo-maggio)"
+          },
+          "category": {
+            "en": "Awakening",
+            "de": "Erwachen",
+            "fr": "Réveil",
+            "it": "Risveglio"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The terraces bloom, the restaurants reopen, the village wakes from winter's rest.",
-          "description": "Spring arrives slowly. March can still be cool and rainy, but April brings wildflowers to the terraces and the first brave swimmers to the beach. May is ideal—warm enough for hiking, not yet packed with crowds, and the Lemon Festival transforming the village with citrus scent and sculpture.",
-          "giuliaComment": "The Lemon Festival in May is extraordinary. The entire village smells of citrus, and the terraces are visible from below in ways summer crowds obscure. This is when I remember why I live here.",
-          "signature": "When everything begins again",
-          "practicalInfo": "May ideal for hiking and festivals. Swimming possible late May. Lemon Festival books up fast. Layers essential."
+          "intro": {
+            "en": "The terraces bloom, the restaurants reopen, the village wakes from winter's rest.",
+            "de": "Die Terrassen blühen, die Restaurants öffnen wieder, das Dorf erwacht aus der Winterruhe.",
+            "fr": "Les terrasses fleurissent, les restaurants rouvrent, le village s'éveille de son repos hivernal.",
+            "it": "Le terrazze fioriscono, i ristoranti riaprono, il borgo si risveglia dal riposo invernale."
+          },
+          "description": {
+            "en": "Spring arrives slowly. March can still be cool and rainy, but April brings wildflowers to the terraces and the first brave swimmers to the beach. May is ideal—warm enough for hiking, not yet packed with crowds, and the Lemon Festival transforming the village with citrus scent and sculpture.",
+            "de": "Der Frühling kommt langsam. Der März kann noch kühl und regnerisch sein, aber der April bringt Wildblumen auf die Terrassen und die ersten mutigen Schwimmer an den Strand. Der Mai ist ideal – warm genug zum Wandern, noch nicht überfüllt, und das Zitronenfest verwandelt das Dorf mit Zitrusduft und Skulpturen.",
+            "fr": "Le printemps arrive lentement. Mars peut encore être frais et pluvieux, mais avril apporte les fleurs sauvages sur les terrasses et les premiers nageurs courageux à la plage. Mai est idéal – assez chaud pour la randonnée, pas encore bondé, et la Fête du Citron transforme le village avec ses parfums d'agrumes et ses sculptures.",
+            "it": "La primavera arriva lentamente. Marzo può essere ancora fresco e piovoso, ma aprile porta fiori selvatici sulle terrazze e i primi coraggiosi nuotatori in spiaggia. Maggio è ideale – abbastanza caldo per le escursioni, non ancora affollato, e la Sagra del Limone trasforma il borgo con profumi di agrumi e sculture."
+          },
+          "giuliaComment": {
+            "en": "The Lemon Festival in May is extraordinary. The entire village smells of citrus, and the terraces are visible from below in ways summer crowds obscure. This is when I remember why I live here.",
+            "de": "Das Zitronenfest im Mai ist außergewöhnlich. Das ganze Dorf duftet nach Zitrus, und die Terrassen sind von unten sichtbar, wie es die Sommermassen verdecken. Das ist der Moment, in dem ich mich erinnere, warum ich hier lebe.",
+            "fr": "La Fête du Citron en mai est extraordinaire. Tout le village embaume les agrumes, et les terrasses sont visibles d'en bas comme les foules estivales ne le permettent pas. C'est là que je me souviens pourquoi je vis ici.",
+            "it": "La Sagra del Limone a maggio è straordinaria. Tutto il borgo profuma di agrumi, e le terrazze sono visibili dal basso in modi che le folle estive oscurano. È allora che ricordo perché vivo qui."
+          },
+          "signature": {
+            "en": "When everything begins again",
+            "de": "Wenn alles von Neuem beginnt",
+            "fr": "Quand tout recommence",
+            "it": "Quando tutto ricomincia"
+          },
+          "practicalInfo": {
+            "en": "May ideal for hiking and festivals. Swimming possible late May. Lemon Festival books up fast. Layers essential.",
+            "de": "Mai ideal für Wanderungen und Feste. Schwimmen ab Ende Mai möglich. Zitronenfest schnell ausgebucht. Schichten unerlässlich.",
+            "fr": "Mai idéal pour randonnées et festivals. Baignade possible fin mai. Fête du Citron se réserve vite. Superposition de vêtements indispensable.",
+            "it": "Maggio ideale per escursioni e sagre. Nuoto possibile a fine maggio. Sagra del Limone si prenota in fretta. Vestirsi a strati essenziale."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Beach Calendar",
-          "quote": "Beach season in Monterosso runs from late May through early October. The stabilimenti open in May, the water reaches comfortable temperature by mid-June, and swimmers linger into October's warm days. Outside this window, the beach is still beautiful—but for walking, not swimming."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude éditorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Beach Calendar",
+            "de": "Der Strandkalender",
+            "fr": "Le calendrier de la plage",
+            "it": "Il calendario della spiaggia"
+          },
+          "quote": {
+            "en": "Beach season in Monterosso runs from late May through early October. The stabilimenti open in May, the water reaches comfortable temperature by mid-June, and swimmers linger into October's warm days. Outside this window, the beach is still beautiful—but for walking, not swimming.",
+            "de": "Die Strandsaison in Monterosso dauert von Ende Mai bis Anfang Oktober. Die Strandbäder öffnen im Mai, das Wasser erreicht Mitte Juni eine angenehme Temperatur, und Schwimmer verweilen bis in die warmen Oktobertage. Außerhalb dieses Zeitfensters ist der Strand immer noch schön – aber zum Spazierengehen, nicht zum Schwimmen.",
+            "fr": "La saison balnéaire à Monterosso s'étend de fin mai à début octobre. Les établissements ouvrent en mai, l'eau atteint une température agréable à la mi-juin, et les nageurs s'attardent jusqu'aux journées chaudes d'octobre. En dehors de cette période, la plage reste magnifique – mais pour se promener, pas pour nager.",
+            "it": "La stagione balneare a Monterosso va da fine maggio a inizio ottobre. Gli stabilimenti aprono a maggio, l'acqua raggiunge una temperatura confortevole a metà giugno, e i nuotatori si attardano fino alle giornate calde di ottobre. Fuori da questa finestra, la spiaggia è ancora bella – ma per passeggiare, non per nuotare."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Weather",
-      "quote": "Monterosso's weather is forgiving but rewards preparation. The right clothing, the right timing, and the right expectations transform any season into the right season.",
+      "badge": {
+        "en": "Practical Weather",
+        "de": "Praktisches zum Wetter",
+        "fr": "Météo pratique",
+        "it": "Meteo pratico"
+      },
+      "quote": {
+        "en": "Monterosso's weather is forgiving but rewards preparation. The right clothing, the right timing, and the right expectations transform any season into the right season.",
+        "de": "Monterossos Wetter ist nachsichtig, belohnt aber Vorbereitung. Die richtige Kleidung, das richtige Timing und die richtigen Erwartungen verwandeln jede Jahreszeit in die richtige Jahreszeit.",
+        "fr": "La météo de Monterosso est clémente mais récompense la préparation. Les bons vêtements, le bon timing et les bonnes attentes transforment chaque saison en la bonne saison.",
+        "it": "Il meteo di Monterosso è clemente ma premia la preparazione. L'abbigliamento giusto, il momento giusto e le aspettative giuste trasformano ogni stagione nella stagione giusta."
+      },
       "content": [
-        "**Mornings are best for hiking**. The trails heat up by noon in summer; the afternoon light is harsh. Start early, return for lunch, spend afternoons on the beach or in cool restaurants.",
-        "**Afternoons belong to the beach**. The midday heat that discourages walking makes the water feel perfect. The stabilimenti exist for exactly this purpose—surrender to the heat, float in the Mediterranean.",
-        "**Evenings last forever**. The passeggiata begins around 6pm, stretching through aperitivo hour into dinner. The light is golden, the temperature perfect, the village at its most social.",
-        "**Weather changes quickly**. The Mediterranean can go from calm to dramatic in an hour. Watch the fishermen—if they're not going out, conditions are changing."
+        {
+          "en": "**Mornings are best for hiking**. The trails heat up by noon in summer; the afternoon light is harsh. Start early, return for lunch, spend afternoons on the beach or in cool restaurants.",
+          "de": "**Vormittage sind am besten zum Wandern**. Die Wege heizen sich im Sommer bis Mittag auf; das Nachmittagslicht ist grell. Starten Sie früh, kommen Sie zum Mittagessen zurück, verbringen Sie Nachmittage am Strand oder in kühlen Restaurants.",
+          "fr": "**Les matinées sont idéales pour la randonnée**. Les sentiers chauffent dès midi en été ; la lumière de l'après-midi est dure. Partez tôt, rentrez pour le déjeuner, passez les après-midi à la plage ou dans des restaurants climatisés.",
+          "it": "**Le mattine sono migliori per le escursioni**. I sentieri si surriscaldano entro mezzogiorno in estate; la luce del pomeriggio è dura. Partite presto, tornate per pranzo, passate i pomeriggi in spiaggia o in ristoranti freschi."
+        },
+        {
+          "en": "**Afternoons belong to the beach**. The midday heat that discourages walking makes the water feel perfect. The stabilimenti exist for exactly this purpose—surrender to the heat, float in the Mediterranean.",
+          "de": "**Nachmittage gehören dem Strand**. Die Mittagshitze, die vom Wandern abhält, lässt das Wasser perfekt erscheinen. Die Strandbäder existieren genau für diesen Zweck – ergeben Sie sich der Hitze, treiben Sie im Mittelmeer.",
+          "fr": "**Les après-midi appartiennent à la plage**. La chaleur de midi qui décourage la marche rend l'eau parfaite. Les établissements existent précisément pour cela – abandonnez-vous à la chaleur, flottez dans la Méditerranée.",
+          "it": "**I pomeriggi appartengono alla spiaggia**. Il caldo di mezzogiorno che scoraggia le camminate rende l'acqua perfetta. Gli stabilimenti esistono esattamente per questo – arrendetevi al caldo, galleggiate nel Mediterraneo."
+        },
+        {
+          "en": "**Evenings last forever**. The passeggiata begins around 6pm, stretching through aperitivo hour into dinner. The light is golden, the temperature perfect, the village at its most social.",
+          "de": "**Abende dauern ewig**. Die Passeggiata beginnt gegen 18 Uhr und erstreckt sich über die Aperitivo-Stunde bis zum Abendessen. Das Licht ist golden, die Temperatur perfekt, das Dorf am geselligsten.",
+          "fr": "**Les soirées durent éternellement**. La passeggiata commence vers 18h, s'étirant de l'aperitivo jusqu'au dîner. La lumière est dorée, la température parfaite, le village au summum de sa vie sociale.",
+          "it": "**Le serate durano per sempre**. La passeggiata inizia verso le 18, si estende attraverso l'aperitivo fino alla cena. La luce è dorata, la temperatura perfetta, il borgo al massimo della sua socialità."
+        },
+        {
+          "en": "**Weather changes quickly**. The Mediterranean can go from calm to dramatic in an hour. Watch the fishermen—if they're not going out, conditions are changing.",
+          "de": "**Das Wetter ändert sich schnell**. Das Mittelmeer kann in einer Stunde von ruhig zu dramatisch wechseln. Beobachten Sie die Fischer – wenn sie nicht hinausfahren, ändert sich das Wetter.",
+          "fr": "**La météo change vite**. La Méditerranée peut passer du calme au dramatique en une heure. Observez les pêcheurs – s'ils ne sortent pas, les conditions changent.",
+          "it": "**Il tempo cambia velocemente**. Il Mediterraneo può passare da calmo a drammatico in un'ora. Osservate i pescatori – se non escono, le condizioni stanno cambiando."
+        }
       ]
     },
     {
@@ -118,50 +357,183 @@
       "items": [
         {
           "id": 5,
-          "name": "Packing for Monterosso",
-          "category": "Preparation",
+          "name": {
+            "en": "Packing for Monterosso",
+            "de": "Packen für Monterosso",
+            "fr": "Faire sa valise pour Monterosso",
+            "it": "Cosa mettere in valigia per Monterosso"
+          },
+          "category": {
+            "en": "Preparation",
+            "de": "Vorbereitung",
+            "fr": "Préparation",
+            "it": "Preparazione"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
-          "intro": "What to bring depends on season—but layers work year-round.",
-          "description": "Summer demands swimwear, sun protection, and light evening clothes. Shoulder seasons need layers—mornings and evenings cool quickly. Winter requires waterproof outer layers and warm clothing. Year-round: comfortable walking shoes (cobblestones are hard on unprepared feet) and a light rain layer.",
-          "giuliaComment": "I see tourists suffering in flip-flops on the cobblestones every summer. Good shoes transform your experience. And never underestimate Mediterranean sun—the reflection off the water doubles the exposure.",
-          "signature": "Where packing determines comfort",
-          "practicalInfo": "Summer: swimwear, sunscreen, hat, light layers. Winter: waterproof shell, warm layers. Always: walking shoes, rain layer."
+          "intro": {
+            "en": "What to bring depends on season—but layers work year-round.",
+            "de": "Was Sie mitbringen sollten, hängt von der Jahreszeit ab – aber Schichten funktionieren das ganze Jahr.",
+            "fr": "Ce qu'il faut emporter dépend de la saison – mais les couches fonctionnent toute l'année.",
+            "it": "Cosa portare dipende dalla stagione – ma vestirsi a strati funziona tutto l'anno."
+          },
+          "description": {
+            "en": "Summer demands swimwear, sun protection, and light evening clothes. Shoulder seasons need layers—mornings and evenings cool quickly. Winter requires waterproof outer layers and warm clothing. Year-round: comfortable walking shoes (cobblestones are hard on unprepared feet) and a light rain layer.",
+            "de": "Der Sommer erfordert Badebekleidung, Sonnenschutz und leichte Abendkleidung. Die Zwischensaison braucht Schichten – Morgen und Abende kühlen schnell ab. Der Winter erfordert wasserdichte Außenschichten und warme Kleidung. Ganzjährig: bequeme Wanderschuhe (Kopfsteinpflaster ist hart zu unvorbereiteten Füßen) und eine leichte Regenschicht.",
+            "fr": "L'été exige maillot de bain, protection solaire et vêtements légers pour le soir. Les intersaisons nécessitent des couches – matins et soirées se rafraîchissent vite. L'hiver requiert des couches imperméables et des vêtements chauds. Toute l'année : chaussures de marche confortables (les pavés sont durs pour les pieds non préparés) et une couche de pluie légère.",
+            "it": "L'estate richiede costume, protezione solare e vestiti leggeri per la sera. Le mezze stagioni richiedono strati – mattine e serate si raffreddano velocemente. L'inverno richiede strati esterni impermeabili e vestiti caldi. Tutto l'anno: scarpe comode per camminare (i ciottoli sono duri per i piedi non preparati) e uno strato antipioggia leggero."
+          },
+          "giuliaComment": {
+            "en": "I see tourists suffering in flip-flops on the cobblestones every summer. Good shoes transform your experience. And never underestimate Mediterranean sun—the reflection off the water doubles the exposure.",
+            "de": "Ich sehe jeden Sommer Touristen, die in Flip-Flops auf dem Kopfsteinpflaster leiden. Gute Schuhe verwandeln Ihr Erlebnis. Und unterschätzen Sie nie die mediterrane Sonne – die Reflexion vom Wasser verdoppelt die Exposition.",
+            "fr": "Je vois des touristes souffrir en tongs sur les pavés chaque été. De bonnes chaussures transforment votre expérience. Et ne sous-estimez jamais le soleil méditerranéen – le reflet de l'eau double l'exposition.",
+            "it": "Ogni estate vedo turisti soffrire con le infradito sui ciottoli. Buone scarpe trasformano la vostra esperienza. E non sottovalutate mai il sole mediterraneo – il riflesso dall'acqua raddoppia l'esposizione."
+          },
+          "signature": {
+            "en": "Where packing determines comfort",
+            "de": "Wo das Packen den Komfort bestimmt",
+            "fr": "Où faire sa valise détermine le confort",
+            "it": "Dove la valigia determina il comfort"
+          },
+          "practicalInfo": {
+            "en": "Summer: swimwear, sunscreen, hat, light layers. Winter: waterproof shell, warm layers. Always: walking shoes, rain layer.",
+            "de": "Sommer: Badebekleidung, Sonnencreme, Hut, leichte Schichten. Winter: wasserdichte Jacke, warme Schichten. Immer: Wanderschuhe, Regenschicht.",
+            "fr": "Été : maillot, crème solaire, chapeau, couches légères. Hiver : veste imperméable, couches chaudes. Toujours : chaussures de marche, couche de pluie.",
+            "it": "Estate: costume, crema solare, cappello, strati leggeri. Inverno: giacca impermeabile, strati caldi. Sempre: scarpe da camminata, strato antipioggia."
+          }
         },
         {
           "id": 6,
-          "name": "Reading the Sea",
-          "category": "Local Knowledge",
+          "name": {
+            "en": "Reading the Sea",
+            "de": "Das Meer lesen",
+            "fr": "Lire la mer",
+            "it": "Leggere il mare"
+          },
+          "category": {
+            "en": "Local Knowledge",
+            "de": "Lokales Wissen",
+            "fr": "Savoir local",
+            "it": "Sapere locale"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The fishermen don't check apps—they watch the water and the sky.",
-          "description": "When the boats stay in harbor, expect weather. When the morning haze burns off early, the day will be clear. When the wind shifts southwest, rain often follows. The village has been reading these signs for a thousand years—watch what the locals do.",
-          "giuliaComment": "My grandfather never owned a barometer. He watched the harbor, the clouds over the terraces, the behavior of the birds. He was rarely wrong. The sea tells you everything if you learn to look.",
-          "signature": "Where ancient wisdom meets daily weather",
-          "practicalInfo": "Boats in = weather coming. Early haze clearing = clear day. Southwest wind = possible rain. Watch what fishermen do."
+          "intro": {
+            "en": "The fishermen don't check apps—they watch the water and the sky.",
+            "de": "Die Fischer schauen keine Apps – sie beobachten das Wasser und den Himmel.",
+            "fr": "Les pêcheurs ne consultent pas d'applis – ils observent l'eau et le ciel.",
+            "it": "I pescatori non controllano le app – osservano l'acqua e il cielo."
+          },
+          "description": {
+            "en": "When the boats stay in harbor, expect weather. When the morning haze burns off early, the day will be clear. When the wind shifts southwest, rain often follows. The village has been reading these signs for a thousand years—watch what the locals do.",
+            "de": "Wenn die Boote im Hafen bleiben, erwarten Sie Unwetter. Wenn der Morgendunst früh verschwindet, wird der Tag klar. Wenn der Wind nach Südwesten dreht, folgt oft Regen. Das Dorf liest diese Zeichen seit tausend Jahren – beobachten Sie, was die Einheimischen tun.",
+            "fr": "Quand les bateaux restent au port, attendez-vous à du mauvais temps. Quand la brume matinale se dissipe tôt, la journée sera claire. Quand le vent tourne au sud-ouest, la pluie suit souvent. Le village lit ces signes depuis mille ans – observez ce que font les habitants.",
+            "it": "Quando le barche restano in porto, aspettatevi maltempo. Quando la foschia mattutina si dissolve presto, la giornata sarà limpida. Quando il vento gira a sud-ovest, spesso segue la pioggia. Il borgo legge questi segni da mille anni – osservate cosa fanno i locali."
+          },
+          "giuliaComment": {
+            "en": "My grandfather never owned a barometer. He watched the harbor, the clouds over the terraces, the behavior of the birds. He was rarely wrong. The sea tells you everything if you learn to look.",
+            "de": "Mein Großvater besaß nie ein Barometer. Er beobachtete den Hafen, die Wolken über den Terrassen, das Verhalten der Vögel. Er lag selten falsch. Das Meer sagt Ihnen alles, wenn Sie zu schauen lernen.",
+            "fr": "Mon grand-père n'a jamais eu de baromètre. Il observait le port, les nuages au-dessus des terrasses, le comportement des oiseaux. Il se trompait rarement. La mer vous dit tout si vous apprenez à regarder.",
+            "it": "Mio nonno non ha mai posseduto un barometro. Osservava il porto, le nuvole sopra le terrazze, il comportamento degli uccelli. Raramente sbagliava. Il mare vi dice tutto se imparate a guardare."
+          },
+          "signature": {
+            "en": "Where ancient wisdom meets daily weather",
+            "de": "Wo uralte Weisheit auf tägliches Wetter trifft",
+            "fr": "Où la sagesse ancestrale rencontre la météo quotidienne",
+            "it": "Dove la saggezza antica incontra il meteo quotidiano"
+          },
+          "practicalInfo": {
+            "en": "Boats in = weather coming. Early haze clearing = clear day. Southwest wind = possible rain. Watch what fishermen do.",
+            "de": "Boote drin = Unwetter kommt. Frühe Dunstauflösung = klarer Tag. Südwestwind = möglicher Regen. Beobachten Sie, was die Fischer tun.",
+            "fr": "Bateaux au port = mauvais temps à venir. Brume dissipée tôt = journée claire. Vent du sud-ouest = pluie possible. Observez les pêcheurs.",
+            "it": "Barche in porto = maltempo in arrivo. Foschia che si dissolve presto = giornata limpida. Vento da sud-ovest = possibile pioggia. Osservate cosa fanno i pescatori."
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 0,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Midday Truth",
-          "quote": "From noon to 4pm in summer, Monterosso divides: the beach fills with swimmers, the old town empties for lunch and rest. Fight this rhythm at your peril. The Italians understand something about heat and productivity that visitors often ignore—until they're exhausted by 3pm."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Midday Truth",
+            "de": "Die Mittagswahrheit",
+            "fr": "La vérité de midi",
+            "it": "La verità di mezzogiorno"
+          },
+          "quote": {
+            "en": "From noon to 4pm in summer, Monterosso divides: the beach fills with swimmers, the old town empties for lunch and rest. Fight this rhythm at your peril. The Italians understand something about heat and productivity that visitors often ignore—until they're exhausted by 3pm.",
+            "de": "Von Mittag bis 16 Uhr im Sommer teilt sich Monterosso: Der Strand füllt sich mit Schwimmern, die Altstadt leert sich für Mittagessen und Ruhe. Kämpfen Sie gegen diesen Rhythmus auf eigene Gefahr. Die Italiener verstehen etwas über Hitze und Produktivität, das Besucher oft ignorieren – bis sie um 15 Uhr erschöpft sind.",
+            "fr": "De midi à 16h en été, Monterosso se divise : la plage se remplit de nageurs, la vieille ville se vide pour le déjeuner et le repos. Combattez ce rythme à vos risques et périls. Les Italiens comprennent quelque chose sur la chaleur et la productivité que les visiteurs ignorent souvent – jusqu'à être épuisés à 15h.",
+            "it": "Da mezzogiorno alle 16 in estate, Monterosso si divide: la spiaggia si riempie di nuotatori, il borgo antico si svuota per pranzo e riposo. Combattete questo ritmo a vostro rischio. Gli italiani capiscono qualcosa sul caldo e la produttività che i visitatori spesso ignorano – finché non sono esausti alle 15."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Every Season Has Its Monterosso",
+      "title": {
+        "en": "Every Season Has Its Monterosso",
+        "de": "Jede Jahreszeit hat ihr Monterosso",
+        "fr": "Chaque saison a son Monterosso",
+        "it": "Ogni stagione ha la sua Monterosso"
+      },
       "content": [
-        "There is no wrong time to visit Monterosso—only wrong expectations. Summer brings the beaches everyone imagines. Autumn brings the harvest and the quiet. Winter brings storms and authenticity. Spring brings flowers and renewal.",
-        "Choose your season based on what you want. Beach and crowds? Summer. Swimming with space? September. Village life without performance? Winter. Hiking in wildflowers? Spring.",
-        "The weather will cooperate more than you expect. The Mediterranean is generous, and Monterosso has been welcoming visitors in every season for longer than weather forecasts have existed."
+        {
+          "en": "There is no wrong time to visit Monterosso—only wrong expectations. Summer brings the beaches everyone imagines. Autumn brings the harvest and the quiet. Winter brings storms and authenticity. Spring brings flowers and renewal.",
+          "de": "Es gibt keine falsche Zeit, Monterosso zu besuchen – nur falsche Erwartungen. Der Sommer bringt die Strände, die sich jeder vorstellt. Der Herbst bringt die Ernte und die Ruhe. Der Winter bringt Stürme und Authentizität. Der Frühling bringt Blumen und Erneuerung.",
+          "fr": "Il n'y a pas de mauvais moment pour visiter Monterosso – seulement de mauvaises attentes. L'été apporte les plages que tout le monde imagine. L'automne apporte la récolte et le calme. L'hiver apporte les tempêtes et l'authenticité. Le printemps apporte les fleurs et le renouveau.",
+          "it": "Non c'è momento sbagliato per visitare Monterosso – solo aspettative sbagliate. L'estate porta le spiagge che tutti immaginano. L'autunno porta la vendemmia e la quiete. L'inverno porta tempeste e autenticità. La primavera porta fiori e rinnovamento."
+        },
+        {
+          "en": "Choose your season based on what you want. Beach and crowds? Summer. Swimming with space? September. Village life without performance? Winter. Hiking in wildflowers? Spring.",
+          "de": "Wählen Sie Ihre Jahreszeit nach Ihren Wünschen. Strand und Menschenmengen? Sommer. Schwimmen mit Platz? September. Dorfleben ohne Inszenierung? Winter. Wandern in Wildblumen? Frühling.",
+          "fr": "Choisissez votre saison selon ce que vous voulez. Plage et foule ? L'été. Nager avec de l'espace ? Septembre. Vie de village sans artifice ? L'hiver. Randonner parmi les fleurs sauvages ? Le printemps.",
+          "it": "Scegliete la vostra stagione in base a ciò che volete. Spiaggia e folla? Estate. Nuotare con spazio? Settembre. Vita di borgo senza finzioni? Inverno. Escursioni tra i fiori selvatici? Primavera."
+        },
+        {
+          "en": "The weather will cooperate more than you expect. The Mediterranean is generous, and Monterosso has been welcoming visitors in every season for longer than weather forecasts have existed.",
+          "de": "Das Wetter wird mehr mitspielen, als Sie erwarten. Das Mittelmeer ist großzügig, und Monterosso empfängt Besucher in jeder Jahreszeit länger, als es Wettervorhersagen gibt.",
+          "fr": "La météo coopérera plus que vous ne le pensez. La Méditerranée est généreuse, et Monterosso accueille des visiteurs en toute saison depuis plus longtemps que les prévisions météo n'existent.",
+          "it": "Il tempo collaborerà più di quanto vi aspettiate. Il Mediterraneo è generoso, e Monterosso accoglie visitatori in ogni stagione da più tempo di quanto esistano le previsioni meteo."
+        }
       ],
       "buttons": [
-        { "text": "Plan Your Visit", "url": "/en/monterosso/things-to-do", "variant": "primary" },
-        { "text": "Getting Here", "url": "/en/monterosso/getting-here", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Plan Your Visit",
+            "de": "Planen Sie Ihren Besuch",
+            "fr": "Planifiez votre visite",
+            "it": "Pianifica la tua visita"
+          },
+          "url": {
+            "en": "/en/monterosso/things-to-do",
+            "de": "/de/monterosso/aktivitaeten",
+            "fr": "/fr/monterosso/activites",
+            "it": "/it/monterosso/cosa-fare"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Comment y aller",
+            "it": "Come arrivare"
+          },
+          "url": {
+            "en": "/en/monterosso/getting-here",
+            "de": "/de/monterosso/anreise",
+            "fr": "/fr/monterosso/acces",
+            "it": "/it/monterosso/come-arrivare"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],
@@ -171,5 +543,5 @@
   },
   "status": "published",
   "created_at": "2025-12-04T13:18:46.911Z",
-  "updated_at": "2026-01-07T14:15:00.000Z"
+  "updated_at": "2026-01-08T10:00:00.000Z"
 }

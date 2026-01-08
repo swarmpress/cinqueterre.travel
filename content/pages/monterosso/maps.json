@@ -7,36 +7,90 @@
     "it": "/it/monterosso/maps"
   },
   "title": {
-    "en": "Navigating Monterosso | Cinque Terre Dispatch"
+    "en": "Navigating Monterosso | Cinque Terre Dispatch",
+    "de": "Monterosso erkunden | Cinque Terre Dispatch",
+    "fr": "Se reperer a Monterosso | Cinque Terre Dispatch",
+    "it": "Orientarsi a Monterosso | Cinque Terre Dispatch"
   },
   "page_type": "maps",
   "seo": {
     "title": {
-      "en": "Navigating Monterosso | Cinque Terre Dispatch"
+      "en": "Navigating Monterosso | Cinque Terre Dispatch",
+      "de": "Monterosso erkunden | Cinque Terre Dispatch",
+      "fr": "Se reperer a Monterosso | Cinque Terre Dispatch",
+      "it": "Orientarsi a Monterosso | Cinque Terre Dispatch"
     },
     "description": {
-      "en": "Monterosso requires different navigation than other Cinque Terre villages—two distinct neighborhoods, actual flat terrain, and a tunnel that connects separate worlds."
+      "en": "Monterosso requires different navigation than other Cinque Terre villages—two distinct neighborhoods, actual flat terrain, and a tunnel that connects separate worlds.",
+      "de": "Monterosso erfordert eine andere Orientierung als die anderen Cinque-Terre-Dorfer – zwei unterschiedliche Viertel, tatsachlich flaches Gelande und ein Tunnel, der getrennte Welten verbindet.",
+      "fr": "Monterosso necessite une navigation differente des autres villages des Cinque Terre – deux quartiers distincts, un terrain reellement plat et un tunnel qui relie des mondes separes.",
+      "it": "Monterosso richiede un orientamento diverso dagli altri borghi delle Cinque Terre – due quartieri distinti, un terreno effettivamente pianeggiante e un tunnel che collega mondi separati."
     }
   },
   "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "editorial-hero",
-      "title": "Two Villages,<br/>One Map",
-      "subtitle": "Monterosso's unique layout—old town and Fegina connected by tunnel, beach and hill, medieval and modern—requires navigation that accounts for the divide. Understanding the geography transforms your experience.",
-      "badge": "Navigation & Maps",
+      "title": {
+        "en": "Two Villages,<br/>One Map",
+        "de": "Zwei Dorfer,<br/>eine Karte",
+        "fr": "Deux villages,<br/>une carte",
+        "it": "Due borghi,<br/>una mappa"
+      },
+      "subtitle": {
+        "en": "Monterosso's unique layout—old town and Fegina connected by tunnel, beach and hill, medieval and modern—requires navigation that accounts for the divide. Understanding the geography transforms your experience.",
+        "de": "Monterossos einzigartige Anlage – Altstadt und Fegina durch einen Tunnel verbunden, Strand und Hugel, mittelalterlich und modern – erfordert eine Orientierung, die diese Teilung berucksichtigt. Das Verstandnis der Geografie verwandelt Ihr Erlebnis.",
+        "fr": "La disposition unique de Monterosso – vieille ville et Fegina reliees par un tunnel, plage et colline, medieval et moderne – necessite une navigation qui tient compte de la division. Comprendre la geographie transforme votre experience.",
+        "it": "La disposizione unica di Monterosso – centro storico e Fegina collegati da un tunnel, spiaggia e collina, medievale e moderno – richiede un orientamento che tenga conto della divisione. Comprendere la geografia trasforma la vostra esperienza."
+      },
+      "badge": {
+        "en": "Navigation & Maps",
+        "de": "Orientierung & Karten",
+        "fr": "Orientation & cartes",
+        "it": "Orientamento e mappe"
+      },
       "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg"
     },
     {
       "type": "editorial-intro",
-      "badge": "The Unique Layout",
-      "quote": "Most Cinque Terre navigation concerns stairs. Monterosso navigation concerns something else: the relationship between two neighborhoods that feel like separate villages but share one identity.",
-      "content": [
-        "**The tunnel changes everything**. A 5-minute walk through Aurora Tower connects old town to Fegina. This passage is the key to Monterosso navigation—use it constantly, think nothing of crossing between worlds.",
-        "**Flat terrain actually exists**. Via Fegina is level. The beach promenade is level. After the stair-intensive other villages, this feels almost miraculous. Plan accordingly—some Monterosso exploration requires no climbing at all.",
-        "**The train station is in Fegina**. Most arrivals happen in the new town. Old town requires either the tunnel walk or the scenic coastal path. Know this before booking accommodation.",
-        "**The hills still climb**. Above both neighborhoods, the terrain rises toward the terraces, the sanctuaries, the views. The flat parts are valuable; the climbs remain rewarding."
-      ]
+      "badge": {
+        "en": "The Unique Layout",
+        "de": "Die einzigartige Anlage",
+        "fr": "La disposition unique",
+        "it": "La disposizione unica"
+      },
+      "quote": {
+        "en": "Most Cinque Terre navigation concerns stairs. Monterosso navigation concerns something else: the relationship between two neighborhoods that feel like separate villages but share one identity.",
+        "de": "Bei der Orientierung in den meisten Cinque-Terre-Dorfern geht es um Treppen. Bei der Orientierung in Monterosso geht es um etwas anderes: die Beziehung zwischen zwei Vierteln, die sich wie getrennte Dorfer anfuhlen, aber eine Identitat teilen.",
+        "fr": "Dans la plupart des villages des Cinque Terre, la navigation concerne les escaliers. A Monterosso, elle concerne autre chose : la relation entre deux quartiers qui semblent etre des villages separes mais partagent une identite.",
+        "it": "Nella maggior parte dei borghi delle Cinque Terre, l'orientamento riguarda le scale. A Monterosso riguarda qualcos'altro: il rapporto tra due quartieri che sembrano borghi separati ma condividono un'identita."
+      },
+      "content": {
+        "en": [
+          "**The tunnel changes everything**. A 5-minute walk through Aurora Tower connects old town to Fegina. This passage is the key to Monterosso navigation—use it constantly, think nothing of crossing between worlds.",
+          "**Flat terrain actually exists**. Via Fegina is level. The beach promenade is level. After the stair-intensive other villages, this feels almost miraculous. Plan accordingly—some Monterosso exploration requires no climbing at all.",
+          "**The train station is in Fegina**. Most arrivals happen in the new town. Old town requires either the tunnel walk or the scenic coastal path. Know this before booking accommodation.",
+          "**The hills still climb**. Above both neighborhoods, the terrain rises toward the terraces, the sanctuaries, the views. The flat parts are valuable; the climbs remain rewarding."
+        ],
+        "de": [
+          "**Der Tunnel verandert alles**. Ein 5-minutiger Spaziergang durch den Aurora-Turm verbindet die Altstadt mit Fegina. Dieser Durchgang ist der Schlussel zur Orientierung in Monterosso – nutzen Sie ihn standig, denken Sie nichts dabei, zwischen den Welten zu wechseln.",
+          "**Flaches Gelande existiert tatsachlich**. Die Via Fegina ist eben. Die Strandpromenade ist eben. Nach den treppenreichen anderen Dorfern fuhlt sich das fast wie ein Wunder an. Planen Sie entsprechend – manche Erkundungen in Monterosso erfordern uberhaupt kein Klettern.",
+          "**Der Bahnhof liegt in Fegina**. Die meisten Ankuenfte erfolgen im neuen Teil. Die Altstadt erreicht man entweder durch den Tunnel oder uber den malerischen Kustenweg. Wissen Sie das vor der Unterkunftsbuchung.",
+          "**Die Hugel steigen weiter an**. Uber beiden Vierteln steigt das Gelande zu den Terrassen, den Heiligtuemern, den Aussichtspunkten an. Die flachen Teile sind wertvoll; die Aufstiege bleiben lohnend."
+        ],
+        "fr": [
+          "**Le tunnel change tout**. Une marche de 5 minutes a travers la Tour Aurora relie le vieux village a Fegina. Ce passage est la cle de la navigation a Monterosso – utilisez-le constamment, ne pensez a rien en passant d'un monde a l'autre.",
+          "**Le terrain plat existe vraiment**. La Via Fegina est plate. La promenade de la plage est plate. Apres les autres villages riches en escaliers, cela semble presque miraculeux. Planifiez en consequence – certaines explorations de Monterosso ne necessitent aucune montee.",
+          "**La gare est a Fegina**. La plupart des arrivees se font dans la nouvelle ville. Le vieux village necessite soit la marche par le tunnel, soit le sentier cotier pittoresque. Sachez-le avant de reserver votre hebergement.",
+          "**Les collines montent toujours**. Au-dessus des deux quartiers, le terrain s'eleve vers les terrasses, les sanctuaires, les panoramas. Les parties plates sont precieuses ; les montees restent gratifiantes."
+        ],
+        "it": [
+          "**Il tunnel cambia tutto**. Una passeggiata di 5 minuti attraverso la Torre Aurora collega il centro storico a Fegina. Questo passaggio e la chiave per orientarsi a Monterosso – usatelo costantemente, non pensateci due volte a passare da un mondo all'altro.",
+          "**Il terreno pianeggiante esiste davvero**. Via Fegina e in piano. Il lungomare e in piano. Dopo gli altri borghi pieni di scale, questo sembra quasi miracoloso. Pianificate di conseguenza – alcune esplorazioni di Monterosso non richiedono alcuna salita.",
+          "**La stazione ferroviaria e a Fegina**. La maggior parte degli arrivi avviene nella parte nuova. Il centro storico richiede la passeggiata nel tunnel o il panoramico sentiero costiero. Sappiatelo prima di prenotare l'alloggio.",
+          "**Le colline continuano a salire**. Sopra entrambi i quartieri, il terreno sale verso i terrazzamenti, i santuari, i panorami. Le parti pianeggianti sono preziose; le salite rimangono gratificanti."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -44,58 +98,193 @@
       "items": [
         {
           "id": 1,
-          "name": "Fegina Beach District",
-          "category": "Village Geography",
+          "name": {
+            "en": "Fegina Beach District",
+            "de": "Strandviertel Fegina",
+            "fr": "Quartier de la plage de Fegina",
+            "it": "Quartiere della spiaggia di Fegina"
+          },
+          "category": {
+            "en": "Village Geography",
+            "de": "Dorfgeografie",
+            "fr": "Geographie du village",
+            "it": "Geografia del borgo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The train station, the main beach, Il Gigante—Monterosso's modern resort face.",
-          "description": "Fegina stretches along the beach promenade from the train station to the tunnel entrance. This is flat Monterosso: beach clubs, hotels, restaurants with sea views. Il Gigante guards the southern end. The parking area connects above. Most first-time visitors spend most time here because arrival deposits them here and the beach holds them.",
-          "giuliaComment": "Fegina is where Monterosso welcomes the world. The beach, the train, the accessibility—it's designed for tourism. That's not criticism; it's function. Embrace it for what it offers: ease, comfort, sand.",
-          "signature": "Where Monterosso meets the modern world"
+          "intro": {
+            "en": "The train station, the main beach, Il Gigante—Monterosso's modern resort face.",
+            "de": "Der Bahnhof, der Hauptstrand, Il Gigante – Monterossos modernes Badeort-Gesicht.",
+            "fr": "La gare, la plage principale, Il Gigante – le visage balneaire moderne de Monterosso.",
+            "it": "La stazione ferroviaria, la spiaggia principale, Il Gigante – il volto balneare moderno di Monterosso."
+          },
+          "description": {
+            "en": "Fegina stretches along the beach promenade from the train station to the tunnel entrance. This is flat Monterosso: beach clubs, hotels, restaurants with sea views. Il Gigante guards the southern end. The parking area connects above. Most first-time visitors spend most time here because arrival deposits them here and the beach holds them.",
+            "de": "Fegina erstreckt sich entlang der Strandpromenade vom Bahnhof bis zum Tunneleingang. Das ist das flache Monterosso: Strandclubs, Hotels, Restaurants mit Meerblick. Il Gigante bewacht das sudliche Ende. Der Parkplatz liegt oberhalb. Die meisten Erstbesucher verbringen hier die meiste Zeit, weil die Ankunft sie hierher fuhrt und der Strand sie halt.",
+            "fr": "Fegina s'etend le long de la promenade de la plage, de la gare a l'entree du tunnel. C'est le Monterosso plat : clubs de plage, hotels, restaurants avec vue sur la mer. Il Gigante garde l'extremite sud. Le parking est situe au-dessus. La plupart des visiteurs pour la premiere fois passent le plus de temps ici parce que l'arrivee les depose ici et la plage les retient.",
+            "it": "Fegina si estende lungo il lungomare dalla stazione ferroviaria all'ingresso del tunnel. Questa e la Monterosso pianeggiante: stabilimenti balneari, hotel, ristoranti con vista mare. Il Gigante sorveglia l'estremita meridionale. Il parcheggio e situato sopra. La maggior parte dei visitatori alla prima visita trascorre qui il tempo maggiore perche l'arrivo li deposita qui e la spiaggia li trattiene."
+          },
+          "giuliaComment": {
+            "en": "Fegina is where Monterosso welcomes the world. The beach, the train, the accessibility—it's designed for tourism. That's not criticism; it's function. Embrace it for what it offers: ease, comfort, sand.",
+            "de": "Fegina ist der Ort, an dem Monterosso die Welt willkommen heisst. Der Strand, der Zug, die Zuganglichkeit – es ist fur den Tourismus konzipiert. Das ist keine Kritik; es ist Funktion. Nehmen Sie es fur das, was es bietet: Leichtigkeit, Komfort, Sand.",
+            "fr": "Fegina est l'endroit ou Monterosso accueille le monde. La plage, le train, l'accessibilite – c'est concu pour le tourisme. Ce n'est pas une critique ; c'est sa fonction. Acceptez-le pour ce qu'il offre : facilite, confort, sable.",
+            "it": "Fegina e il luogo in cui Monterosso accoglie il mondo. La spiaggia, il treno, l'accessibilita – e progettata per il turismo. Non e una critica; e funzione. Accoglietela per cio che offre: facilita, comfort, sabbia."
+          },
+          "signature": {
+            "en": "Where Monterosso meets the modern world",
+            "de": "Wo Monterosso die moderne Welt trifft",
+            "fr": "Ou Monterosso rencontre le monde moderne",
+            "it": "Dove Monterosso incontra il mondo moderno"
+          }
         },
         {
           "id": 2,
-          "name": "Old Town Centro Storico",
-          "category": "Village Geography",
+          "name": {
+            "en": "Old Town Centro Storico",
+            "de": "Altstadt Centro Storico",
+            "fr": "Vieille ville Centro Storico",
+            "it": "Centro Storico"
+          },
+          "category": {
+            "en": "Village Geography",
+            "de": "Dorfgeografie",
+            "fr": "Geographie du village",
+            "it": "Geografia del borgo"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Medieval caruggi, the Gothic church, working harbor—Monterosso as Cinque Terre village.",
-          "description": "Through the tunnel from Fegina, old town presents narrow streets, stone buildings, the church of San Giovanni Battista rising above. This is Monterosso as fishing village, less changed by tourism than Fegina. The harbor still works. The caruggi (narrow alleyways) still confuse. The atmosphere still feels medieval.",
-          "giuliaComment": "Get lost in old town—intentionally. The caruggi twist, dead-end, reveal unexpected views. Every wrong turn teaches you something. The medieval layout wasn't designed for efficiency; it was designed for defense and survival. Navigate accordingly.",
-          "signature": "Where Monterosso remembers its past"
+          "intro": {
+            "en": "Medieval caruggi, the Gothic church, working harbor—Monterosso as Cinque Terre village.",
+            "de": "Mittelalterliche Caruggi, die gotische Kirche, der Arbeitshafen – Monterosso als Cinque-Terre-Dorf.",
+            "fr": "Caruggi medievaux, l'eglise gothique, le port de travail – Monterosso comme village des Cinque Terre.",
+            "it": "Caruggi medievali, la chiesa gotica, il porto operativo – Monterosso come borgo delle Cinque Terre."
+          },
+          "description": {
+            "en": "Through the tunnel from Fegina, old town presents narrow streets, stone buildings, the church of San Giovanni Battista rising above. This is Monterosso as fishing village, less changed by tourism than Fegina. The harbor still works. The caruggi (narrow alleyways) still confuse. The atmosphere still feels medieval.",
+            "de": "Durch den Tunnel von Fegina prasentiert die Altstadt enge Gassen, Steingebaude, die Kirche San Giovanni Battista, die sich daruber erhebt. Das ist Monterosso als Fischerdorf, weniger vom Tourismus verandert als Fegina. Der Hafen arbeitet noch. Die Caruggi (enge Gassen) verwirren noch immer. Die Atmosphare fuhlt sich noch mittelalterlich an.",
+            "fr": "A travers le tunnel depuis Fegina, la vieille ville presente des rues etroites, des batiments en pierre, l'eglise de San Giovanni Battista qui s'eleve au-dessus. C'est Monterosso comme village de pecheurs, moins change par le tourisme que Fegina. Le port fonctionne encore. Les caruggi (ruelles etroites) deroutent encore. L'atmosphere semble encore medievale.",
+            "it": "Attraverso il tunnel da Fegina, il centro storico presenta strade strette, edifici in pietra, la chiesa di San Giovanni Battista che si erge sopra. Questa e Monterosso come borgo di pescatori, meno cambiato dal turismo rispetto a Fegina. Il porto funziona ancora. I caruggi (vicoli stretti) confondono ancora. L'atmosfera sembra ancora medievale."
+          },
+          "giuliaComment": {
+            "en": "Get lost in old town—intentionally. The caruggi twist, dead-end, reveal unexpected views. Every wrong turn teaches you something. The medieval layout wasn't designed for efficiency; it was designed for defense and survival. Navigate accordingly.",
+            "de": "Verlaufen Sie sich in der Altstadt – absichtlich. Die Caruggi winden sich, enden blind, enthullen unerwartete Ausblicke. Jede falsche Abbiegung lehrt Sie etwas. Die mittelalterliche Anlage war nicht auf Effizienz ausgelegt; sie war fur Verteidigung und Uberleben konzipiert. Orientieren Sie sich entsprechend.",
+            "fr": "Perdez-vous dans la vieille ville – intentionnellement. Les caruggi serpentent, se terminent en impasse, revelent des vues inattendues. Chaque mauvais tournant vous apprend quelque chose. La disposition medievale n'etait pas concue pour l'efficacite ; elle etait concue pour la defense et la survie. Naviguez en consequence.",
+            "it": "Perdetevi nel centro storico – intenzionalmente. I caruggi si snodano, finiscono in vicoli ciechi, rivelano vedute inaspettate. Ogni svolta sbagliata vi insegna qualcosa. La disposizione medievale non era progettata per l'efficienza; era progettata per la difesa e la sopravvivenza. Orientatevi di conseguenza."
+          },
+          "signature": {
+            "en": "Where Monterosso remembers its past",
+            "de": "Wo Monterosso sich an seine Vergangenheit erinnert",
+            "fr": "Ou Monterosso se souvient de son passe",
+            "it": "Dove Monterosso ricorda il suo passato"
+          }
         },
         {
           "id": 3,
-          "name": "The Aurora Tower Passage",
-          "category": "The Connection",
+          "name": {
+            "en": "The Aurora Tower Passage",
+            "de": "Der Durchgang am Aurora-Turm",
+            "fr": "Le passage de la Tour Aurora",
+            "it": "Il passaggio della Torre Aurora"
+          },
+          "category": {
+            "en": "The Connection",
+            "de": "Die Verbindung",
+            "fr": "La connexion",
+            "it": "Il collegamento"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "The tunnel that connects two worlds—five minutes that span five centuries.",
-          "description": "Aurora Tower once defended the passage between Monterosso's two halves. The 19th-century tunnel carved through it connected what geography had separated. Today, this short walk is the most important navigation in Monterosso—you'll use it multiple times daily, passing from resort to village and back.",
-          "giuliaComment": "The tunnel is more than passage; it's transition. Walking through, you feel the temperature change, the sound change, the century change. I love that moment of emergence—whether into Fegina's brightness or old town's shadow.",
-          "signature": "Where passage becomes transformation"
+          "intro": {
+            "en": "The tunnel that connects two worlds—five minutes that span five centuries.",
+            "de": "Der Tunnel, der zwei Welten verbindet – funf Minuten, die funf Jahrhunderte uberspannen.",
+            "fr": "Le tunnel qui relie deux mondes – cinq minutes qui couvrent cinq siecles.",
+            "it": "Il tunnel che collega due mondi – cinque minuti che abbracciano cinque secoli."
+          },
+          "description": {
+            "en": "Aurora Tower once defended the passage between Monterosso's two halves. The 19th-century tunnel carved through it connected what geography had separated. Today, this short walk is the most important navigation in Monterosso—you'll use it multiple times daily, passing from resort to village and back.",
+            "de": "Der Aurora-Turm verteidigte einst den Durchgang zwischen den beiden Halften von Monterosso. Der im 19. Jahrhundert durchgeschlagene Tunnel verband, was die Geografie getrennt hatte. Heute ist dieser kurze Spaziergang die wichtigste Navigation in Monterosso – Sie werden ihn mehrmals taglich nutzen, vom Badeort ins Dorf und zuruck.",
+            "fr": "La Tour Aurora defendait autrefois le passage entre les deux moities de Monterosso. Le tunnel creuse au XIXe siecle a relie ce que la geographie avait separe. Aujourd'hui, cette courte marche est la navigation la plus importante a Monterosso – vous l'utiliserez plusieurs fois par jour, passant de la station balneaire au village et retour.",
+            "it": "La Torre Aurora un tempo difendeva il passaggio tra le due meta di Monterosso. Il tunnel scavato nell'Ottocento collegò ciò che la geografia aveva separato. Oggi, questa breve passeggiata e la navigazione piu importante a Monterosso – la userete piu volte al giorno, passando dalla localita balneare al borgo e ritorno."
+          },
+          "giuliaComment": {
+            "en": "The tunnel is more than passage; it's transition. Walking through, you feel the temperature change, the sound change, the century change. I love that moment of emergence—whether into Fegina's brightness or old town's shadow.",
+            "de": "Der Tunnel ist mehr als ein Durchgang; er ist ein Ubergang. Wenn man hindurchgeht, spurt man den Temperaturwechsel, den Klangwechsel, den Jahrhundertwechsel. Ich liebe diesen Moment des Auftauchens – ob in Feginas Helligkeit oder den Schatten der Altstadt.",
+            "fr": "Le tunnel est plus qu'un passage ; c'est une transition. En le traversant, vous sentez le changement de temperature, le changement de son, le changement de siecle. J'adore ce moment d'emergence – que ce soit dans la luminosite de Fegina ou l'ombre de la vieille ville.",
+            "it": "Il tunnel e piu di un passaggio; e una transizione. Attraversandolo, si sente il cambio di temperatura, il cambio di suono, il cambio di secolo. Amo quel momento di emersione – sia nella luminosita di Fegina che nell'ombra del centro storico."
+          },
+          "signature": {
+            "en": "Where passage becomes transformation",
+            "de": "Wo der Durchgang zur Verwandlung wird",
+            "fr": "Ou le passage devient transformation",
+            "it": "Dove il passaggio diventa trasformazione"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "primary",
-          "badge": "Editorial Interlude",
-          "title": "The Flat Miracle",
-          "quote": "After navigating other Cinque Terre villages—where every destination involves stairs—Monterosso's flat terrain feels revolutionary. Via Fegina requires no climbing. The beach promenade is level. For those with mobility concerns, this changes everything about what's possible."
+          "badge": {
+            "en": "Editorial Interlude",
+            "de": "Redaktioneller Einschub",
+            "fr": "Interlude editorial",
+            "it": "Intermezzo editoriale"
+          },
+          "title": {
+            "en": "The Flat Miracle",
+            "de": "Das flache Wunder",
+            "fr": "Le miracle du plat",
+            "it": "Il miracolo del piano"
+          },
+          "quote": {
+            "en": "After navigating other Cinque Terre villages—where every destination involves stairs—Monterosso's flat terrain feels revolutionary. Via Fegina requires no climbing. The beach promenade is level. For those with mobility concerns, this changes everything about what's possible.",
+            "de": "Nach der Navigation in anderen Cinque-Terre-Dorfern – wo jedes Ziel Treppen beinhaltet – fuhlt sich das flache Gelande von Monterosso revolutionar an. Die Via Fegina erfordert kein Klettern. Die Strandpromenade ist eben. Fur Menschen mit Mobilitats einschrankungen andert dies alles daran, was moglich ist.",
+            "fr": "Apres avoir navigue dans d'autres villages des Cinque Terre – ou chaque destination implique des escaliers – le terrain plat de Monterosso semble revolutionnaire. La Via Fegina ne necessite aucune montee. La promenade de la plage est plate. Pour ceux qui ont des problemes de mobilite, cela change tout ce qui est possible.",
+            "it": "Dopo aver navigato in altri borghi delle Cinque Terre – dove ogni destinazione comporta scale – il terreno pianeggiante di Monterosso sembra rivoluzionario. Via Fegina non richiede salite. Il lungomare e in piano. Per chi ha problemi di mobilita, questo cambia tutto su cio che e possibile."
+          }
         }
       ]
     },
     {
       "type": "editorial-intro",
-      "badge": "Practical Navigation",
-      "quote": "Understanding Monterosso's layout is half the navigation challenge. The other half is knowing which routes connect what, which climbs reward the effort, and which shortcuts locals use.",
-      "content": [
-        "**Train station to old town**: Exit right, follow the promenade to the tunnel (10 minutes), or take the coastal path for views (15 minutes). The tunnel is faster; the path is prettier.",
-        "**Parking to beach**: The Loreto parking area sits above Fegina. A steep path descends to the train station area. Alternatively, a longer road winds down more gradually. Neither is easy with heavy luggage.",
-        "**Beach to terraces**: From the old town harbor, paths climb toward the lemon groves. From Fegina, the trail to Soviore sanctuary ascends through agricultural landscape. Both offer views unavailable from sea level.",
-        "**The scenic coastal path**: An alternative to the tunnel, this path follows the headland between old town and Fegina. Takes longer but offers views of both areas and Il Gigante from above."
-      ]
+      "badge": {
+        "en": "Practical Navigation",
+        "de": "Praktische Orientierung",
+        "fr": "Navigation pratique",
+        "it": "Orientamento pratico"
+      },
+      "quote": {
+        "en": "Understanding Monterosso's layout is half the navigation challenge. The other half is knowing which routes connect what, which climbs reward the effort, and which shortcuts locals use.",
+        "de": "Das Verstandnis von Monterossos Anlage ist die halbe Orientierungsherausforderung. Die andere Halfte ist zu wissen, welche Routen was verbinden, welche Aufstiege die Muhe belohnen und welche Abkurzungen die Einheimischen nutzen.",
+        "fr": "Comprendre la disposition de Monterosso est la moitie du defi de navigation. L'autre moitie est de savoir quels itineraires relient quoi, quelles montees recompensent l'effort et quels raccourcis utilisent les locaux.",
+        "it": "Comprendere la disposizione di Monterosso e meta della sfida di orientamento. L'altra meta e sapere quali percorsi collegano cosa, quali salite ripagano lo sforzo e quali scorciatoie usano i locali."
+      },
+      "content": {
+        "en": [
+          "**Train station to old town**: Exit right, follow the promenade to the tunnel (10 minutes), or take the coastal path for views (15 minutes). The tunnel is faster; the path is prettier.",
+          "**Parking to beach**: The Loreto parking area sits above Fegina. A steep path descends to the train station area. Alternatively, a longer road winds down more gradually. Neither is easy with heavy luggage.",
+          "**Beach to terraces**: From the old town harbor, paths climb toward the lemon groves. From Fegina, the trail to Soviore sanctuary ascends through agricultural landscape. Both offer views unavailable from sea level.",
+          "**The scenic coastal path**: An alternative to the tunnel, this path follows the headland between old town and Fegina. Takes longer but offers views of both areas and Il Gigante from above."
+        ],
+        "de": [
+          "**Vom Bahnhof zur Altstadt**: Rechts abbiegen, der Promenade zum Tunnel folgen (10 Minuten), oder den Kustenweg fur Aussichten nehmen (15 Minuten). Der Tunnel ist schneller; der Weg ist huebscher.",
+          "**Vom Parkplatz zum Strand**: Der Parkplatz Loreto liegt oberhalb von Fegina. Ein steiler Weg fuhrt hinunter zum Bahnhofsbereich. Alternativ windet sich eine langere Strasse allmahlicher hinunter. Beides ist mit schwerem Gepack nicht einfach.",
+          "**Vom Strand zu den Terrassen**: Vom Hafen der Altstadt steigen Wege zu den Zitronenhainen auf. Von Fegina fuhrt der Weg zum Heiligtum Soviore durch landwirtschaftliche Landschaft. Beide bieten Aussichten, die vom Meeresspiegel aus nicht verfugbar sind.",
+          "**Der malerische Kustenweg**: Eine Alternative zum Tunnel, dieser Weg folgt der Landzunge zwischen Altstadt und Fegina. Dauert langer, bietet aber Ausblicke auf beide Gebiete und Il Gigante von oben."
+        ],
+        "fr": [
+          "**De la gare a la vieille ville** : Sortez a droite, suivez la promenade jusqu'au tunnel (10 minutes), ou prenez le sentier cotier pour les vues (15 minutes). Le tunnel est plus rapide ; le sentier est plus joli.",
+          "**Du parking a la plage** : Le parking Loreto se trouve au-dessus de Fegina. Un chemin raide descend vers la zone de la gare. Alternativement, une route plus longue descend plus progressivement. Aucun des deux n'est facile avec des bagages lourds.",
+          "**De la plage aux terrasses** : Du port de la vieille ville, des chemins montent vers les citronniers. Depuis Fegina, le sentier vers le sanctuaire de Soviore monte a travers un paysage agricole. Les deux offrent des vues impossibles depuis le niveau de la mer.",
+          "**Le sentier cotier panoramique** : Une alternative au tunnel, ce sentier suit le promontoire entre la vieille ville et Fegina. Prend plus de temps mais offre des vues sur les deux zones et Il Gigante d'en haut."
+        ],
+        "it": [
+          "**Dalla stazione al centro storico**: Uscite a destra, seguite il lungomare fino al tunnel (10 minuti), o prendete il sentiero costiero per i panorami (15 minuti). Il tunnel e piu veloce; il sentiero e piu bello.",
+          "**Dal parcheggio alla spiaggia**: Il parcheggio Loreto si trova sopra Fegina. Un sentiero ripido scende verso la zona della stazione. In alternativa, una strada piu lunga scende piu gradualmente. Nessuna delle due e facile con bagagli pesanti.",
+          "**Dalla spiaggia ai terrazzamenti**: Dal porto del centro storico, i sentieri salgono verso i limoneti. Da Fegina, il sentiero per il santuario di Soviore sale attraverso il paesaggio agricolo. Entrambi offrono vedute non disponibili dal livello del mare.",
+          "**Il sentiero costiero panoramico**: Un'alternativa al tunnel, questo sentiero segue il promontorio tra il centro storico e Fegina. Richiede piu tempo ma offre vedute su entrambe le aree e Il Gigante dall'alto."
+        ]
+      }
     },
     {
       "type": "collection-with-interludes",
@@ -103,59 +292,214 @@
       "items": [
         {
           "id": 4,
-          "name": "Station to Best Views",
-          "category": "Viewpoint Access",
+          "name": {
+            "en": "Station to Best Views",
+            "de": "Vom Bahnhof zu den besten Aussichten",
+            "fr": "De la gare aux plus belles vues",
+            "it": "Dalla stazione alle migliori vedute"
+          },
+          "category": {
+            "en": "Viewpoint Access",
+            "de": "Zugang zu Aussichtspunkten",
+            "fr": "Acces aux points de vue",
+            "it": "Accesso ai punti panoramici"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
-          "intro": "From arrival to panorama—the paths that reward climbing.",
-          "description": "From Fegina station, the trail to Soviore sanctuary offers the best panoramic ascent—2+ hours round trip, but views of both neighborhoods, the entire coast, and the interior hills. For quicker views, the coastal path above the tunnel provides elevated perspective without major climbing. The Capuchin monastery terrace offers accessible views with less effort.",
-          "giuliaComment": "For the best photos of both old town and Fegina in one frame, take the coastal path above the tunnel. The view from above Aurora Tower shows exactly how the two neighborhoods relate—and how they differ.",
-          "signature": "Where effort earns perspective"
+          "intro": {
+            "en": "From arrival to panorama—the paths that reward climbing.",
+            "de": "Von der Ankunft zum Panorama – die Wege, die das Klettern belohnen.",
+            "fr": "De l'arrivee au panorama – les chemins qui recompensent la montee.",
+            "it": "Dall'arrivo al panorama – i sentieri che ripagano la salita."
+          },
+          "description": {
+            "en": "From Fegina station, the trail to Soviore sanctuary offers the best panoramic ascent—2+ hours round trip, but views of both neighborhoods, the entire coast, and the interior hills. For quicker views, the coastal path above the tunnel provides elevated perspective without major climbing. The Capuchin monastery terrace offers accessible views with less effort.",
+            "de": "Vom Bahnhof Fegina bietet der Weg zum Heiligtum Soviore den besten Panorama-Aufstieg – uber 2 Stunden hin und zuruck, aber Aussichten auf beide Viertel, die gesamte Kuste und die Hugel im Landesinneren. Fur schnellere Aussichten bietet der Kustenweg uber dem Tunnel erhohte Perspektive ohne grossen Aufstieg. Die Terrasse des Kapuzinerklosters bietet zugangliche Aussichten mit weniger Anstrengung.",
+            "fr": "De la gare de Fegina, le sentier vers le sanctuaire de Soviore offre la meilleure montee panoramique – plus de 2 heures aller-retour, mais des vues sur les deux quartiers, toute la cote et les collines de l'interieur. Pour des vues plus rapides, le sentier cotier au-dessus du tunnel offre une perspective elevee sans montee majeure. La terrasse du monastere des Capucins offre des vues accessibles avec moins d'effort.",
+            "it": "Dalla stazione di Fegina, il sentiero per il santuario di Soviore offre la migliore salita panoramica – oltre 2 ore andata e ritorno, ma vedute su entrambi i quartieri, l'intera costa e le colline dell'entroterra. Per vedute piu rapide, il sentiero costiero sopra il tunnel offre una prospettiva elevata senza grande salita. La terrazza del monastero dei Cappuccini offre vedute accessibili con meno sforzo."
+          },
+          "giuliaComment": {
+            "en": "For the best photos of both old town and Fegina in one frame, take the coastal path above the tunnel. The view from above Aurora Tower shows exactly how the two neighborhoods relate—and how they differ.",
+            "de": "Fur die besten Fotos von Altstadt und Fegina in einem Bild nehmen Sie den Kustenweg uber dem Tunnel. Die Aussicht von oberhalb des Aurora-Turms zeigt genau, wie die beiden Viertel zusammenhangen – und wie sie sich unterscheiden.",
+            "fr": "Pour les meilleures photos du vieux village et de Fegina dans un seul cadre, prenez le sentier cotier au-dessus du tunnel. La vue d'au-dessus de la Tour Aurora montre exactement comment les deux quartiers sont lies – et comment ils different.",
+            "it": "Per le migliori foto del centro storico e di Fegina in un'unica inquadratura, prendete il sentiero costiero sopra il tunnel. La vista dall'alto della Torre Aurora mostra esattamente come i due quartieri si relazionano – e come differiscono."
+          },
+          "signature": {
+            "en": "Where effort earns perspective",
+            "de": "Wo Anstrengung Perspektive verdient",
+            "fr": "Ou l'effort merite la perspective",
+            "it": "Dove lo sforzo guadagna prospettiva"
+          }
         },
         {
           "id": 5,
-          "name": "The Hiking Trail Starts",
-          "category": "Trail Access",
+          "name": {
+            "en": "The Hiking Trail Starts",
+            "de": "Die Wanderwege beginnen",
+            "fr": "Les departs des sentiers de randonnee",
+            "it": "I punti di partenza dei sentieri"
+          },
+          "category": {
+            "en": "Trail Access",
+            "de": "Zugang zu Wanderwegen",
+            "fr": "Acces aux sentiers",
+            "it": "Accesso ai sentieri"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Where the famous coastal trails begin—and what you need to know before starting.",
-          "description": "The Sentiero Azzurro (Blue Trail) to Vernazza starts from old town, beyond the harbor. It's the most famous hike in Cinque Terre—2 hours, challenging sections, spectacular views. The trail requires a Cinque Terre Card. The alternative alta via (high trail) starts from above Fegina, heading to Soviore and beyond—longer, higher, less crowded.",
-          "giuliaComment": "The Monterosso-Vernazza trail is justifiably famous but often crowded. For solitude, take the high trail to Soviore instead. The views are different—more mountain than coast—but the experience is more peaceful.",
-          "signature": "Where the coast calls to hikers"
+          "intro": {
+            "en": "Where the famous coastal trails begin—and what you need to know before starting.",
+            "de": "Wo die beruehmten Kustenwege beginnen – und was Sie wissen muessen, bevor Sie starten.",
+            "fr": "Ou commencent les fameux sentiers cotiers – et ce que vous devez savoir avant de partir.",
+            "it": "Dove iniziano i famosi sentieri costieri – e cosa dovete sapere prima di partire."
+          },
+          "description": {
+            "en": "The Sentiero Azzurro (Blue Trail) to Vernazza starts from old town, beyond the harbor. It's the most famous hike in Cinque Terre—2 hours, challenging sections, spectacular views. The trail requires a Cinque Terre Card. The alternative alta via (high trail) starts from above Fegina, heading to Soviore and beyond—longer, higher, less crowded.",
+            "de": "Der Sentiero Azzurro (Blauer Weg) nach Vernazza beginnt in der Altstadt, hinter dem Hafen. Es ist die beruehmteste Wanderung in den Cinque Terre – 2 Stunden, anspruchsvolle Abschnitte, spektakulare Aussichten. Der Weg erfordert eine Cinque Terre Card. Die alternative Alta Via (Hohenweg) beginnt oberhalb von Fegina und fuhrt nach Soviore und daruber hinaus – langer, hoher, weniger uberlaufen.",
+            "fr": "Le Sentiero Azzurro (Sentier Bleu) vers Vernazza part de la vieille ville, au-dela du port. C'est la randonnee la plus celebre des Cinque Terre – 2 heures, sections difficiles, vues spectaculaires. Le sentier necessite une Cinque Terre Card. L'alternative alta via (sentier haut) part d'au-dessus de Fegina, vers Soviore et au-dela – plus long, plus haut, moins frequente.",
+            "it": "Il Sentiero Azzurro per Vernazza parte dal centro storico, oltre il porto. E l'escursione piu famosa delle Cinque Terre – 2 ore, tratti impegnativi, vedute spettacolari. Il sentiero richiede una Cinque Terre Card. L'alternativa alta via parte da sopra Fegina, dirigendosi verso Soviore e oltre – piu lunga, piu alta, meno affollata."
+          },
+          "giuliaComment": {
+            "en": "The Monterosso-Vernazza trail is justifiably famous but often crowded. For solitude, take the high trail to Soviore instead. The views are different—more mountain than coast—but the experience is more peaceful.",
+            "de": "Der Monterosso-Vernazza-Weg ist zu Recht beruhmt, aber oft uberlaufen. Fur Einsamkeit nehmen Sie stattdessen den Hohenweg nach Soviore. Die Aussichten sind anders – mehr Berg als Kuste – aber das Erlebnis ist friedlicher.",
+            "fr": "Le sentier Monterosso-Vernazza est a juste titre celebre mais souvent bonde. Pour la solitude, prenez plutot le sentier haut vers Soviore. Les vues sont differentes – plus montagne que cote – mais l'experience est plus paisible.",
+            "it": "Il sentiero Monterosso-Vernazza e giustamente famoso ma spesso affollato. Per la solitudine, prendete invece il sentiero alto verso Soviore. Le vedute sono diverse – piu montagna che costa – ma l'esperienza e piu tranquilla."
+          },
+          "signature": {
+            "en": "Where the coast calls to hikers",
+            "de": "Wo die Kuste Wanderer ruft",
+            "fr": "Ou la cote appelle les randonneurs",
+            "it": "Dove la costa chiama gli escursionisti"
+          }
         },
         {
           "id": 6,
-          "name": "The Beach Circuit",
-          "category": "Leisure Navigation",
+          "name": {
+            "en": "The Beach Circuit",
+            "de": "Der Strand-Rundgang",
+            "fr": "Le circuit des plages",
+            "it": "Il circuito delle spiagge"
+          },
+          "category": {
+            "en": "Leisure Navigation",
+            "de": "Freizeit-Orientierung",
+            "fr": "Navigation de loisirs",
+            "it": "Orientamento per il tempo libero"
+          },
           "village": "Monterosso",
           "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
-          "intro": "Moving between beach areas, swimming spots, and seaside dining—the navigation of leisure.",
-          "description": "The main Fegina beach stretches from the train station toward Il Gigante. Beach clubs occupy the central section; public beach fills the edges. A smaller beach exists in old town near the harbor. Moving between them means tunnel walks. The best pattern: morning at one beach, tunnel passage for lunch, afternoon at the other.",
-          "giuliaComment": "I swim in old town in the morning—quieter, more local, the water somehow feels different. Then tunnel to Fegina for afternoon beach club comfort. The tunnel becomes the rhythm of a Monterosso day.",
-          "signature": "Where leisure has its own geography"
+          "intro": {
+            "en": "Moving between beach areas, swimming spots, and seaside dining—the navigation of leisure.",
+            "de": "Bewegung zwischen Strandbereichen, Badestellen und Restaurants am Meer – die Navigation der Freizeit.",
+            "fr": "Se deplacer entre les zones de plage, les spots de baignade et les restaurants en bord de mer – la navigation des loisirs.",
+            "it": "Spostarsi tra le zone di spiaggia, i punti per nuotare e i ristoranti sul mare – l'orientamento del tempo libero."
+          },
+          "description": {
+            "en": "The main Fegina beach stretches from the train station toward Il Gigante. Beach clubs occupy the central section; public beach fills the edges. A smaller beach exists in old town near the harbor. Moving between them means tunnel walks. The best pattern: morning at one beach, tunnel passage for lunch, afternoon at the other.",
+            "de": "Der Hauptstrand von Fegina erstreckt sich vom Bahnhof Richtung Il Gigante. Strandclubs belegen den mittleren Abschnitt; offentlicher Strand fullt die Rander. Ein kleinerer Strand existiert in der Altstadt nahe dem Hafen. Zwischen ihnen zu wechseln bedeutet Tunnelgange. Das beste Muster: Vormittag an einem Strand, Tunneldurchgang zum Mittagessen, Nachmittag am anderen.",
+            "fr": "La plage principale de Fegina s'etend de la gare vers Il Gigante. Les clubs de plage occupent la section centrale ; la plage publique remplit les bords. Une plus petite plage existe dans la vieille ville pres du port. Se deplacer entre elles signifie des passages par le tunnel. Le meilleur schema : matinee a une plage, passage par le tunnel pour le dejeuner, apres-midi a l'autre.",
+            "it": "La spiaggia principale di Fegina si estende dalla stazione verso Il Gigante. Gli stabilimenti balneari occupano la sezione centrale; la spiaggia libera riempie i bordi. Una spiaggia piu piccola esiste nel centro storico vicino al porto. Spostarsi tra loro significa passaggi nel tunnel. Il miglior schema: mattina in una spiaggia, passaggio nel tunnel per pranzo, pomeriggio nell'altra."
+          },
+          "giuliaComment": {
+            "en": "I swim in old town in the morning—quieter, more local, the water somehow feels different. Then tunnel to Fegina for afternoon beach club comfort. The tunnel becomes the rhythm of a Monterosso day.",
+            "de": "Ich schwimme morgens in der Altstadt – ruhiger, lokaler, das Wasser fuhlt sich irgendwie anders an. Dann durch den Tunnel nach Fegina fur Nachmittags-Strandclub-Komfort. Der Tunnel wird zum Rhythmus eines Monterosso-Tages.",
+            "fr": "Je nage dans la vieille ville le matin – plus calme, plus local, l'eau semble differente. Puis tunnel vers Fegina pour le confort du club de plage l'apres-midi. Le tunnel devient le rythme d'une journee a Monterosso.",
+            "it": "Nuoto nel centro storico la mattina – piu tranquillo, piu locale, l'acqua sembra in qualche modo diversa. Poi tunnel verso Fegina per il comfort dello stabilimento balneare nel pomeriggio. Il tunnel diventa il ritmo di una giornata a Monterosso."
+          },
+          "signature": {
+            "en": "Where leisure has its own geography",
+            "de": "Wo Freizeit ihre eigene Geografie hat",
+            "fr": "Ou les loisirs ont leur propre geographie",
+            "it": "Dove il tempo libero ha la sua geografia"
+          }
         }
       ],
       "interludes": [
         {
           "afterIndex": 1,
           "type": "secondary",
-          "badge": "Local Wisdom",
-          "title": "The Caruggi Logic",
-          "quote": "Old town's narrow alleys seem random but follow medieval logic: the widest streets handled commerce, the narrowest provided defense, dead ends were intentional. Don't fight the confusion—embrace it. Every wrong turn reveals something. The caruggi teach navigation by wandering."
+          "badge": {
+            "en": "Local Wisdom",
+            "de": "Lokale Weisheit",
+            "fr": "Sagesse locale",
+            "it": "Saggezza locale"
+          },
+          "title": {
+            "en": "The Caruggi Logic",
+            "de": "Die Logik der Caruggi",
+            "fr": "La logique des caruggi",
+            "it": "La logica dei caruggi"
+          },
+          "quote": {
+            "en": "Old town's narrow alleys seem random but follow medieval logic: the widest streets handled commerce, the narrowest provided defense, dead ends were intentional. Don't fight the confusion—embrace it. Every wrong turn reveals something. The caruggi teach navigation by wandering.",
+            "de": "Die engen Gassen der Altstadt scheinen zufallig, folgen aber mittelalterlicher Logik: Die breitesten Strassen dienten dem Handel, die engsten der Verteidigung, Sackgassen waren beabsichtigt. Kampfen Sie nicht gegen die Verwirrung – nehmen Sie sie an. Jede falsche Abbiegung enthullt etwas. Die Caruggi lehren Navigation durch Wandern.",
+            "fr": "Les ruelles etroites de la vieille ville semblent aleatoires mais suivent une logique medievale : les rues les plus larges gerent le commerce, les plus etroites assurent la defense, les impasses sont intentionnelles. Ne luttez pas contre la confusion – acceptez-la. Chaque mauvais tournant revele quelque chose. Les caruggi enseignent la navigation par la flânerie.",
+            "it": "I vicoli stretti del centro storico sembrano casuali ma seguono una logica medievale: le strade piu larghe gestivano il commercio, le piu strette fornivano difesa, i vicoli ciechi erano intenzionali. Non combattete la confusione – abbracciatela. Ogni svolta sbagliata rivela qualcosa. I caruggi insegnano l'orientamento vagando."
+          }
         }
       ]
     },
     {
       "type": "closing-note",
-      "title": "Learning Both Monterossos",
-      "content": [
-        "Navigating Monterosso means navigating two villages and understanding how they connect. The tunnel becomes familiar. The caruggi become legible. The flat promenades become refuge after the vertical challenges elsewhere.",
-        "The best navigation is eventually no navigation—when the village becomes mental map, when you know which tunnel entrance to use, which caruggio leads where, which viewpoint rewards which climb.",
-        "Give yourself time. Get lost intentionally. Let Monterosso teach you its layout. The village has been welcoming visitors for over a century now. It knows how to reveal itself."
-      ],
+      "title": {
+        "en": "Learning Both Monterossos",
+        "de": "Beide Monterossos kennenlernen",
+        "fr": "Apprendre les deux Monterosso",
+        "it": "Conoscere entrambe le Monterosso"
+      },
+      "content": {
+        "en": [
+          "Navigating Monterosso means navigating two villages and understanding how they connect. The tunnel becomes familiar. The caruggi become legible. The flat promenades become refuge after the vertical challenges elsewhere.",
+          "The best navigation is eventually no navigation—when the village becomes mental map, when you know which tunnel entrance to use, which caruggio leads where, which viewpoint rewards which climb.",
+          "Give yourself time. Get lost intentionally. Let Monterosso teach you its layout. The village has been welcoming visitors for over a century now. It knows how to reveal itself."
+        ],
+        "de": [
+          "Die Orientierung in Monterosso bedeutet, zwei Dorfer zu navigieren und zu verstehen, wie sie verbunden sind. Der Tunnel wird vertraut. Die Caruggi werden lesbar. Die flachen Promenaden werden zur Zuflucht nach den vertikalen Herausforderungen anderswo.",
+          "Die beste Navigation ist schliesslich keine Navigation – wenn das Dorf zur mentalen Karte wird, wenn Sie wissen, welchen Tunneleingang Sie nutzen, welcher Caruggio wohin fuhrt, welcher Aussichtspunkt welchen Aufstieg belohnt.",
+          "Geben Sie sich Zeit. Verlaufen Sie sich absichtlich. Lassen Sie Monterosso Ihnen seine Anlage beibringen. Das Dorf heisst seit uber einem Jahrhundert Besucher willkommen. Es weiss, wie es sich offenbart."
+        ],
+        "fr": [
+          "Naviguer a Monterosso signifie naviguer deux villages et comprendre comment ils se connectent. Le tunnel devient familier. Les caruggi deviennent lisibles. Les promenades plates deviennent un refuge apres les defis verticaux ailleurs.",
+          "La meilleure navigation est finalement pas de navigation – quand le village devient carte mentale, quand vous savez quelle entree de tunnel utiliser, quel caruggio mene ou, quel point de vue recompense quelle montee.",
+          "Donnez-vous du temps. Perdez-vous intentionnellement. Laissez Monterosso vous enseigner sa disposition. Le village accueille des visiteurs depuis plus d'un siecle maintenant. Il sait comment se reveler."
+        ],
+        "it": [
+          "Orientarsi a Monterosso significa navigare due borghi e capire come sono collegati. Il tunnel diventa familiare. I caruggi diventano leggibili. I lungomari pianeggianti diventano rifugio dopo le sfide verticali altrove.",
+          "Il miglior orientamento e alla fine nessun orientamento – quando il borgo diventa mappa mentale, quando sapete quale ingresso del tunnel usare, quale caruggio porta dove, quale punto panoramico ripaga quale salita.",
+          "Datevi tempo. Perdetevi intenzionalmente. Lasciate che Monterosso vi insegni la sua disposizione. Il borgo accoglie visitatori da oltre un secolo ormai. Sa come rivelarsi."
+        ]
+      },
       "buttons": [
-        { "text": "Getting Here", "url": "/en/monterosso/getting-here", "variant": "primary" },
-        { "text": "Things to Do", "url": "/en/monterosso/things-to-do", "variant": "secondary" }
+        {
+          "text": {
+            "en": "Getting Here",
+            "de": "Anreise",
+            "fr": "Comment arriver",
+            "it": "Come arrivare"
+          },
+          "url": {
+            "en": "/en/monterosso/getting-here",
+            "de": "/de/monterosso/getting-here",
+            "fr": "/fr/monterosso/getting-here",
+            "it": "/it/monterosso/getting-here"
+          },
+          "variant": "primary"
+        },
+        {
+          "text": {
+            "en": "Things to Do",
+            "de": "Aktivitaten",
+            "fr": "A faire",
+            "it": "Cosa fare"
+          },
+          "url": {
+            "en": "/en/monterosso/things-to-do",
+            "de": "/de/monterosso/things-to-do",
+            "fr": "/fr/monterosso/things-to-do",
+            "it": "/it/monterosso/things-to-do"
+          },
+          "variant": "secondary"
+        }
       ]
     }
   ],

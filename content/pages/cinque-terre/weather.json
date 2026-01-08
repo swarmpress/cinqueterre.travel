@@ -1,101 +1,197 @@
 {
   "id": "weather-page-01",
   "slug": {
-    "en": "/en/weather",
-    "de": "/de/wetter",
-    "fr": "/fr/meteo",
-    "it": "/it/meteo"
+    "en": "/en/cinque-terre/weather",
+    "de": "/de/cinque-terre/wetter",
+    "fr": "/fr/cinque-terre/meteo",
+    "it": "/it/cinque-terre/meteo"
   },
   "title": {
-    "en": "Weather & Conditions | Riomaggiore",
-    "de": "Wetter & Bedingungen | Riomaggiore",
-    "fr": "Météo & Conditions | Riomaggiore",
-    "it": "Meteo & Condizioni | Riomaggiore"
+    "en": "Cinque Terre Weather & Conditions | Plan Your Perfect Visit",
+    "de": "Wetter & Bedingungen in den Cinque Terre | Planen Sie Ihren perfekten Besuch",
+    "fr": "Météo & Conditions aux Cinque Terre | Planifiez Votre Visite Parfaite",
+    "it": "Meteo & Condizioni alle Cinque Terre | Pianifica la Visita Perfetta"
   },
   "page_type": "weather",
   "seo": {
     "title": {
-      "en": "Weather & Conditions | Cinque Terre Dispatch"
+      "en": "Cinque Terre Weather & Conditions | Complete Guide",
+      "de": "Wetter & Bedingungen Cinque Terre | Vollständiger Führer",
+      "fr": "Météo & Conditions Cinque Terre | Guide Complet",
+      "it": "Meteo & Condizioni Cinque Terre | Guida Completa"
     },
     "description": {
-      "en": "The current state of the sea, the sky, and the village—curated for those who plan with intention."
+      "en": "The current state of the sea, the sky, and the villages - curated for those who plan with intention.",
+      "de": "Der aktuelle Zustand von Meer, Himmel und Dörfern - kuratiert für alle, die bewusst planen.",
+      "fr": "L'état actuel de la mer, du ciel et des villages - préparé pour ceux qui planifient avec intention.",
+      "it": "Lo stato attuale del mare, del cielo e dei borghi - curato per chi pianifica con intenzione."
     }
   },
-  "template": "cinque-terre",
+  "template": "cinque-terre-editorial",
   "body": [
     {
       "type": "weather-live",
-      "title": "Atmosphere &\nCoastal Rhythms",
-      "subtitle": "The current state of the sea, the sky, and the village—curated for those who plan with intention.",
+      "title": {
+        "en": "Atmosphere &\nCoastal Rhythms",
+        "de": "Atmosphäre &\nKüstenrhythmen",
+        "fr": "Atmosphère &\nRythmes Côtiers",
+        "it": "Atmosfera &\nRitmi Costieri"
+      },
+      "subtitle": {
+        "en": "The current state of the sea, the sky, and the villages - curated for those who plan with intention.",
+        "de": "Der aktuelle Zustand von Meer, Himmel und Dörfern - kuratiert für alle, die bewusst planen.",
+        "fr": "L'état actuel de la mer, du ciel et des villages - préparé pour ceux qui planifient avec intention.",
+        "it": "Lo stato attuale del mare, del cielo e dei borghi - curato per chi pianifica con intenzione."
+      },
       "heroImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000",
       "current": {
         "temp": 12,
-        "condition": "Partly Cloudy",
+        "condition": {
+          "en": "Partly Cloudy",
+          "de": "Teilweise bewölkt",
+          "fr": "Partiellement nuageux",
+          "it": "Parzialmente nuvoloso"
+        },
         "icon": "cloud",
         "high": 14,
         "low": 8,
         "wind": "12 km/h",
         "humidity": "65%",
         "seaTemp": "16°C",
-        "uvIndex": "Low (2)",
+        "uvIndex": {
+          "en": "Low (2)",
+          "de": "Niedrig (2)",
+          "fr": "Faible (2)",
+          "it": "Basso (2)"
+        },
         "visibility": "15 km",
         "sunrise": "07:45",
         "sunset": "16:50"
       },
       "forecast": [
         {
-          "day": "Fri",
+          "day": {
+            "en": "Fri",
+            "de": "Fr",
+            "fr": "Ven",
+            "it": "Ven"
+          },
           "date": "Dec 19",
           "high": 13,
           "low": 7,
-          "condition": "Sunny",
+          "condition": {
+            "en": "Sunny",
+            "de": "Sonnig",
+            "fr": "Ensoleillé",
+            "it": "Soleggiato"
+          },
           "icon": "sun"
         },
         {
-          "day": "Sat",
+          "day": {
+            "en": "Sat",
+            "de": "Sa",
+            "fr": "Sam",
+            "it": "Sab"
+          },
           "date": "Dec 20",
           "high": 11,
           "low": 9,
-          "condition": "Rainy",
+          "condition": {
+            "en": "Rainy",
+            "de": "Regnerisch",
+            "fr": "Pluvieux",
+            "it": "Piovoso"
+          },
           "icon": "rain"
         },
         {
-          "day": "Sun",
+          "day": {
+            "en": "Sun",
+            "de": "So",
+            "fr": "Dim",
+            "it": "Dom"
+          },
           "date": "Dec 21",
           "high": 10,
           "low": 6,
-          "condition": "Cloudy",
+          "condition": {
+            "en": "Cloudy",
+            "de": "Bewölkt",
+            "fr": "Nuageux",
+            "it": "Nuvoloso"
+          },
           "icon": "cloud"
         },
         {
-          "day": "Mon",
+          "day": {
+            "en": "Mon",
+            "de": "Mo",
+            "fr": "Lun",
+            "it": "Lun"
+          },
           "date": "Dec 22",
           "high": 12,
           "low": 8,
-          "condition": "Sunny",
+          "condition": {
+            "en": "Sunny",
+            "de": "Sonnig",
+            "fr": "Ensoleillé",
+            "it": "Soleggiato"
+          },
           "icon": "sun"
         },
         {
-          "day": "Tue",
+          "day": {
+            "en": "Tue",
+            "de": "Di",
+            "fr": "Mar",
+            "it": "Mar"
+          },
           "date": "Dec 23",
           "high": 14,
           "low": 10,
-          "condition": "Partly Cloudy",
+          "condition": {
+            "en": "Partly Cloudy",
+            "de": "Teilweise bewölkt",
+            "fr": "Partiellement nuageux",
+            "it": "Parzialmente nuvoloso"
+          },
           "icon": "cloud"
         }
       ],
       "webcams": [
         {
           "id": 1,
-          "name": "Harbor View",
-          "description": "Live view of the iconic Riomaggiore harbor and boat ramp.",
+          "name": {
+            "en": "Harbor View",
+            "de": "Hafenblick",
+            "fr": "Vue du Port",
+            "it": "Vista del Porto"
+          },
+          "description": {
+            "en": "Live view of the iconic Cinque Terre harbor and boat ramp.",
+            "de": "Live-Ansicht des ikonischen Hafens der Cinque Terre und der Bootsrampe.",
+            "fr": "Vue en direct du port emblématique des Cinque Terre et de la rampe de mise à l'eau.",
+            "it": "Vista in diretta dell'iconico porto delle Cinque Terre e della rampa delle barche."
+          },
           "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1000",
           "status": "Live"
         },
         {
           "id": 2,
-          "name": "Main Street (Via Colombo)",
-          "description": "Looking up the bustling main street from the lower village.",
+          "name": {
+            "en": "Main Street View",
+            "de": "Hauptstraßenblick",
+            "fr": "Vue de la Rue Principale",
+            "it": "Vista della Via Principale"
+          },
+          "description": {
+            "en": "Looking up the bustling main street from the lower village.",
+            "de": "Blick auf die belebte Hauptstraße vom unteren Dorf aus.",
+            "fr": "Vue sur la rue principale animée depuis le bas du village.",
+            "it": "Vista sulla vivace via principale dalla parte bassa del borgo."
+          },
           "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=1000",
           "status": "Live"
         }
@@ -103,31 +199,96 @@
     },
     {
       "type": "weather-journal",
-      "condition": "Partly Cloudy",
-      "note": "December in Riomaggiore has a specific kind of light—crisp and clear. It's not beach weather, but it's the best time for the high trails. The air is fresh, and you won't break a sweat climbing to Montenero. Just remember: the sun drops behind the cliffs early, so the village gets chilly by 4 PM. Carry a light wool scarf—it's the local way.",
-      "quote": "Watch the horizon—it always tells the truth first.",
+      "condition": {
+        "en": "Partly Cloudy",
+        "de": "Teilweise bewölkt",
+        "fr": "Partiellement nuageux",
+        "it": "Parzialmente nuvoloso"
+      },
+      "note": {
+        "en": "Winter in Cinque Terre has a specific kind of light - crisp and clear. It's not beach weather, but it's the best time for the high trails. The air is fresh, and you won't break a sweat climbing to the sanctuaries. Just remember: the sun drops behind the cliffs early, so the villages get chilly by 4 PM. Carry a light wool scarf - it's the local way.",
+        "de": "Der Winter in den Cinque Terre hat ein besonderes Licht - klar und frisch. Es ist kein Strandwetter, aber die beste Zeit für die Höhenwege. Die Luft ist frisch, und Sie werden nicht ins Schwitzen kommen beim Aufstieg zu den Heiligtümern. Denken Sie daran: Die Sonne verschwindet früh hinter den Klippen, daher wird es in den Dörfern gegen 16 Uhr kühl. Tragen Sie einen leichten Wollschal - so machen es die Einheimischen.",
+        "fr": "L'hiver aux Cinque Terre a une lumière particulière - vive et claire. Ce n'est pas la saison de la plage, mais c'est le meilleur moment pour les sentiers d'altitude. L'air est frais, et vous ne transpirerez pas en montant vers les sanctuaires. N'oubliez pas : le soleil descend tôt derrière les falaises, donc les villages se refroidissent vers 16h. Portez une écharpe en laine légère - c'est la coutume locale.",
+        "it": "L'inverno alle Cinque Terre ha una luce particolare - nitida e tersa. Non è tempo da spiaggia, ma è il periodo migliore per i sentieri in quota. L'aria è fresca, e non suderete salendo verso i santuari. Ricordate: il sole scende presto dietro le scogliere, quindi i borghi si raffreddano verso le 16. Portate una sciarpa di lana leggera - è l'usanza locale."
+      },
+      "quote": {
+        "en": "Watch the horizon - it always tells the truth first.",
+        "de": "Beobachten Sie den Horizont - er sagt immer zuerst die Wahrheit.",
+        "fr": "Observez l'horizon - il dit toujours la vérité en premier.",
+        "it": "Osservate l'orizzonte - dice sempre la verità per primo."
+      },
       "recommendations": [
-        "Perfect for the hike to Santuario di Montenero.",
-        "Ideal light for photography in the harbor around 3 PM.",
-        "Grab a hot 'Sciacchetrà' tasting at a local enoteca as the sun sets."
+        {
+          "en": "Perfect for the hike to Santuario di Montenero.",
+          "de": "Perfekt für die Wanderung zum Santuario di Montenero.",
+          "fr": "Parfait pour la randonnée au Santuario di Montenero.",
+          "it": "Perfetto per l'escursione al Santuario di Montenero."
+        },
+        {
+          "en": "Ideal light for photography in the harbor around 3 PM.",
+          "de": "Ideales Licht für Fotografie im Hafen gegen 15 Uhr.",
+          "fr": "Lumière idéale pour la photographie au port vers 15h.",
+          "it": "Luce ideale per la fotografia nel porto intorno alle 15."
+        },
+        {
+          "en": "Grab a hot Sciacchetra tasting at a local enoteca as the sun sets.",
+          "de": "Genießen Sie eine warme Sciacchetra-Verkostung in einer lokalen Enoteca bei Sonnenuntergang.",
+          "fr": "Offrez-vous une dégustation de Sciacchetra chaud dans une enoteca locale au coucher du soleil.",
+          "it": "Concedetevi una degustazione di Sciacchetrà caldo in un'enoteca locale al tramonto."
+        }
       ],
-      "author": "Giulia Rossi",
-      "role": "Riomaggiore Expert",
-      "image": "/giulia_rossi.png"
+      "author": {
+        "en": "Local Expert",
+        "de": "Lokaler Experte",
+        "fr": "Expert Local",
+        "it": "Esperto Locale"
+      },
+      "role": {
+        "en": "Cinque Terre Insider",
+        "de": "Cinque Terre Insider",
+        "fr": "Initié des Cinque Terre",
+        "it": "Esperto delle Cinque Terre"
+      },
+      "image": "/images/expert.png"
     },
     {
       "type": "closing-note",
-      "badge": "Weather Wisdom",
-      "title": "Watch the Horizon",
-      "content": "<p>Coastal weather is a living thing. It changes with the tide, the wind, and the season. Plan your day, but be ready to let the village surprise you.</p><p>The best experiences in Riomaggiore are often the ones you didn't plan.</p>",
+      "badge": {
+        "en": "Weather Wisdom",
+        "de": "Wetter-Weisheit",
+        "fr": "Sagesse Météo",
+        "it": "Saggezza Meteorologica"
+      },
+      "title": {
+        "en": "Watch the Horizon",
+        "de": "Beobachten Sie den Horizont",
+        "fr": "Observez l'Horizon",
+        "it": "Osservate l'Orizzonte"
+      },
+      "content": {
+        "en": "<p>Coastal weather is a living thing. It changes with the tide, the wind, and the season. Plan your day, but be ready to let the villages surprise you.</p><p>The best experiences in Cinque Terre are often the ones you didn't plan.</p>",
+        "de": "<p>Das Küstenwetter ist etwas Lebendiges. Es ändert sich mit den Gezeiten, dem Wind und der Jahreszeit. Planen Sie Ihren Tag, aber seien Sie bereit, sich von den Dörfern überraschen zu lassen.</p><p>Die besten Erlebnisse in den Cinque Terre sind oft die, die Sie nicht geplant haben.</p>",
+        "fr": "<p>Le temps côtier est une chose vivante. Il change avec la marée, le vent et la saison. Planifiez votre journée, mais soyez prêt à vous laisser surprendre par les villages.</p><p>Les meilleures expériences aux Cinque Terre sont souvent celles que vous n'avez pas planifiées.</p>",
+        "it": "<p>Il tempo costiero è una cosa viva. Cambia con la marea, il vento e la stagione. Pianificate la giornata, ma siate pronti a lasciarvi sorprendere dai borghi.</p><p>Le migliori esperienze alle Cinque Terre sono spesso quelle che non avete pianificato.</p>"
+      },
       "actions": [
         {
-          "label": "Plan Your Journey",
+          "label": {
+            "en": "Plan Your Journey",
+            "de": "Planen Sie Ihre Reise",
+            "fr": "Planifier Votre Voyage",
+            "it": "Pianifica il Tuo Viaggio"
+          },
           "href": "/itinerary",
           "variant": "primary"
         },
         {
-          "label": "Explore Sights",
+          "label": {
+            "en": "Explore Sights",
+            "de": "Sehenswürdigkeiten entdecken",
+            "fr": "Explorer les Sites",
+            "it": "Esplora le Attrazioni"
+          },
           "href": "/sights",
           "variant": "secondary"
         }
@@ -135,9 +296,10 @@
     }
   ],
   "metadata": {
+    "city": "cinque-terre",
     "page_type": "weather"
   },
   "status": "published",
   "created_at": "2025-01-05T00:00:00.000Z",
-  "updated_at": "2025-01-05T00:00:00.000Z"
+  "updated_at": "2026-01-08T00:00:00.000Z"
 }
