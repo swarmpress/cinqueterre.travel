@@ -1,0 +1,1328 @@
+{
+  "type": "cinqueterre_events",
+  "display_name": "Cinque Terre Events",
+  "singular_name": "Event",
+  "description": "Events and festivals in Cinque Terre",
+  "icon": "calendar",
+  "color": "#8B5CF6",
+  "json_schema": {
+    "$ref": "#/definitions/cinqueterre_events",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+      "cinqueterre_events": {
+        "type": "object",
+        "required": [
+          "name",
+          "slug",
+          "category",
+          "schedule",
+          "location",
+          "details"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rank": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "url",
+                "source",
+                "alt_text",
+                "type"
+              ],
+              "properties": {
+                "url": {
+                  "type": "string"
+                },
+                "type": {
+                  "enum": [
+                    "fireworks",
+                    "procession",
+                    "crowd",
+                    "food",
+                    "venue",
+                    "performers",
+                    "poster",
+                    "historical"
+                  ],
+                  "type": "string"
+                },
+                "source": {
+                  "enum": [
+                    "Google",
+                    "TripAdvisor",
+                    "Official",
+                    "Local News",
+                    "Flickr"
+                  ],
+                  "type": "string"
+                },
+                "alt_text": {
+                  "type": "string"
+                },
+                "year_taken": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "details": {
+            "type": "object",
+            "required": [
+              "description_short"
+            ],
+            "properties": {
+              "history": {
+                "type": "string"
+              },
+              "organizer": {
+                "type": "object",
+                "required": [
+                  "name",
+                  "type"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "enum": [
+                      "Municipality",
+                      "Non-Profit",
+                      "Religious",
+                      "Private",
+                      "Tourism Board"
+                    ],
+                    "type": "string"
+                  },
+                  "website": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "contact_email": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "contact_phone": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "significance": {
+                "type": "string"
+              },
+              "official_event": {
+                "type": "boolean",
+                "default": false
+              },
+              "description_long": {
+                "type": "string"
+              },
+              "tradition_origin": {
+                "anyOf": [
+                  {
+                    "enum": [
+                      "Religious",
+                      "Pagan",
+                      "Historical",
+                      "Modern"
+                    ],
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "year_established": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "description_short": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "program": {
+            "type": "object",
+            "properties": {
+              "workshops": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "time"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "time": {
+                      "type": "string"
+                    },
+                    "price_eur": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "highlights": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "performers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "type"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "performance_time": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "main_attractions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "schedule_of_activities": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "time",
+                    "activity"
+                  ],
+                  "properties": {
+                    "time": {
+                      "type": "string"
+                    },
+                    "activity": {
+                      "type": "string"
+                    },
+                    "location": {
+                      "type": "string"
+                    },
+                    "duration_minutes": {
+                      "type": "integer"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "reviews": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "source",
+                "author",
+                "rating",
+                "date",
+                "text"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "author": {
+                  "type": "string"
+                },
+                "rating": {
+                  "type": "integer",
+                  "maximum": 5,
+                  "minimum": 1
+                },
+                "source": {
+                  "enum": [
+                    "TripAdvisor",
+                    "Google",
+                    "Facebook",
+                    "Blog"
+                  ],
+                  "type": "string"
+                },
+                "visit_year": {
+                  "type": "integer"
+                },
+                "helpful_votes": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "author_country": {
+                  "type": "string"
+                },
+                "verified_attendance": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "complaints_mentioned": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "default": []
+                },
+                "highlights_mentioned": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "default": []
+                }
+              },
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "village": {
+            "enum": [
+              "Riomaggiore",
+              "Manarola",
+              "Corniglia",
+              "Vernazza",
+              "Monterosso",
+              "All Villages"
+            ],
+            "type": "string"
+          },
+          "category": {
+            "type": "object",
+            "required": [
+              "primary"
+            ],
+            "properties": {
+              "tags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "primary": {
+                "enum": [
+                  "Festival",
+                  "Religious",
+                  "Cultural",
+                  "Market",
+                  "Concert",
+                  "Food & Wine",
+                  "Sporting",
+                  "Seasonal",
+                  "Traditional",
+                  "Exhibition",
+                  "Theater",
+                  "Workshop",
+                  "Music",
+                  "Art",
+                  "Family"
+                ],
+                "type": "string"
+              },
+              "secondary": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "location": {
+            "type": "object",
+            "required": [
+              "venue_name",
+              "venue_type",
+              "address",
+              "area",
+              "coordinates"
+            ],
+            "properties": {
+              "area": {
+                "enum": [
+                  "Village Center",
+                  "Harbor",
+                  "Hilltop",
+                  "Throughout Village",
+                  "Church",
+                  "Square"
+                ],
+                "type": "string"
+              },
+              "city": {
+                "type": "string",
+                "default": "Riomaggiore"
+              },
+              "region": {
+                "type": "string",
+                "default": "Liguria"
+              },
+              "address": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string",
+                "default": "Italy"
+              },
+              "venue_name": {
+                "type": "string"
+              },
+              "venue_type": {
+                "enum": [
+                  "Outdoor",
+                  "Indoor",
+                  "Mixed"
+                ],
+                "type": "string"
+              },
+              "coordinates": {
+                "type": "object",
+                "required": [
+                  "latitude",
+                  "longitude"
+                ],
+                "properties": {
+                  "latitude": {
+                    "type": "number"
+                  },
+                  "longitude": {
+                    "type": "number"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "meeting_point": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "venue_capacity": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "multiple_locations": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "schedule": {
+            "type": "object",
+            "required": [
+              "event_type",
+              "next_occurrence"
+            ],
+            "properties": {
+              "confirmed": {
+                "type": "boolean",
+                "default": false
+              },
+              "event_type": {
+                "enum": [
+                  "Annual",
+                  "Monthly",
+                  "Weekly",
+                  "One-Time",
+                  "Seasonal",
+                  "Recurring"
+                ],
+                "type": "string"
+              },
+              "schedule_notes": {
+                "type": "string"
+              },
+              "next_occurrence": {
+                "type": "object",
+                "required": [
+                  "start_date",
+                  "end_date"
+                ],
+                "properties": {
+                  "all_day": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "end_date": {
+                    "type": "string"
+                  },
+                  "end_time": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "timezone": {
+                    "type": "string",
+                    "default": "Europe/Rome"
+                  },
+                  "start_date": {
+                    "type": "string"
+                  },
+                  "start_time": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "historical_dates": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "year",
+                    "date"
+                  ],
+                  "properties": {
+                    "date": {
+                      "type": "string"
+                    },
+                    "year": {
+                      "type": "integer"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "typical_schedule": {
+                "type": "object",
+                "properties": {
+                  "month": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "season": {
+                    "enum": [
+                      "Spring",
+                      "Summer",
+                      "Fall",
+                      "Winter",
+                      "Year-Round"
+                    ],
+                    "type": "string"
+                  },
+                  "day_of_week": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "day_of_month": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "duration_days": {
+                    "type": "integer",
+                    "default": 1
+                  },
+                  "week_of_month": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "duration_hours": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "recurrence_pattern": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "cancellation_history": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "pros_cons": {
+            "type": "object",
+            "properties": {
+              "cons": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "pros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "attendance": {
+            "type": "object",
+            "properties": {
+              "peak_hours": {
+                "type": "string"
+              },
+              "crowd_level": {
+                "enum": [
+                  "Very High",
+                  "High",
+                  "Moderate",
+                  "Low"
+                ],
+                "type": "string"
+              },
+              "family_friendly": {
+                "type": "boolean",
+                "default": true
+              },
+              "best_arrival_time": {
+                "type": "string"
+              },
+              "expected_attendance": {
+                "type": "integer"
+              },
+              "local_vs_tourist_ratio": {
+                "type": "string"
+              },
+              "typical_attendance_range": {
+                "type": "object",
+                "required": [
+                  "min",
+                  "max"
+                ],
+                "properties": {
+                  "max": {
+                    "type": "integer"
+                  },
+                  "min": {
+                    "type": "integer"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "name_local": {
+            "type": "string"
+          },
+          "data_source": {
+            "type": "string",
+            "default": "claude_web_search"
+          },
+          "contact_info": {
+            "type": "object",
+            "properties": {
+              "email": {
+                "type": "string"
+              },
+              "phone": {
+                "type": "string"
+              },
+              "website": {
+                "type": "string"
+              },
+              "main_contact": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "social_media": {
+            "type": "object",
+            "properties": {
+              "live_streaming": {
+                "type": "boolean",
+                "default": false
+              },
+              "official_hashtag": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "facebook_event_page": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "instagram_hashtag_count": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "food_and_drink": {
+            "type": "object",
+            "properties": {
+              "wine_types": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "food_stalls": {
+                "type": "boolean",
+                "default": false
+              },
+              "wine_featured": {
+                "type": "boolean",
+                "default": false
+              },
+              "food_available": {
+                "type": "boolean",
+                "default": false
+              },
+              "number_of_stalls": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "signature_dishes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "typical_price_eur": {
+                      "type": "number"
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "food_included_in_ticket": {
+                "type": "boolean",
+                "default": false
+              },
+              "local_specialties_served": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "restaurants_participating": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "practical_info": {
+            "type": "object",
+            "properties": {
+              "parking": {
+                "type": "object",
+                "required": [
+                  "available"
+                ],
+                "properties": {
+                  "notes": {
+                    "type": "string"
+                  },
+                  "available": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "dress_code": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "facilities": {
+                "type": "object",
+                "properties": {
+                  "first_aid": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "restrooms": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "information_booth": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "pet_policy": {
+                "type": "string"
+              },
+              "what_to_wear": {
+                "type": "string"
+              },
+              "accessibility": {
+                "type": "object",
+                "properties": {
+                  "accessibility_notes": {
+                    "type": "string"
+                  },
+                  "wheelchair_accessible": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "what_to_bring": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "public_transport": {
+                "type": "object",
+                "properties": {
+                  "boat_service": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "train_service": {
+                    "type": "string"
+                  },
+                  "last_train_to_la_spezia": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "rules_regulations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "photography_policy": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "related_events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "relationship"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "relationship": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "ratings_reviews": {
+            "type": "object",
+            "required": [
+              "average_rating"
+            ],
+            "properties": {
+              "google": {
+                "type": "object",
+                "properties": {
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "facebook": {
+                "type": "object",
+                "properties": {
+                  "event_url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "going_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "interested_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "tripadvisor": {
+                "type": "object",
+                "properties": {
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "total_reviews": {
+                "type": "integer",
+                "default": 0
+              },
+              "average_rating": {
+                "type": "number",
+                "maximum": 5,
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "safety_security": {
+            "type": "object",
+            "properties": {
+              "prohibited_items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "security_present": {
+                "type": "boolean",
+                "default": false
+              },
+              "emergency_contact": {
+                "type": "string",
+                "default": "112"
+              },
+              "emergency_services": {
+                "type": "boolean",
+                "default": false
+              },
+              "first_aid_stations": {
+                "type": "integer",
+                "default": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "tickets_pricing": {
+            "type": "object",
+            "properties": {
+              "is_free": {
+                "type": "boolean",
+                "default": true
+              },
+              "pricing": {
+                "type": "object",
+                "properties": {
+                  "adult_eur": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "child_eur": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "family_pass_eur": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "general_admission_eur": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "sells_out": {
+                "type": "boolean",
+                "default": false
+              },
+              "booking_url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "price_notes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "ticket_required": {
+                "type": "boolean",
+                "default": false
+              },
+              "booking_required": {
+                "type": "boolean",
+                "default": false
+              },
+              "typical_sellout_time": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "weather_contingency": {
+            "type": "object",
+            "properties": {
+              "backup_date": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "rain_policy": {
+                "type": "string"
+              },
+              "typical_weather": {
+                "type": "object",
+                "properties": {
+                  "temperature_low_c": {
+                    "type": "integer"
+                  },
+                  "temperature_high_c": {
+                    "type": "integer"
+                  },
+                  "precipitation_chance_percent": {
+                    "type": "integer"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "weather_dependent": {
+                "type": "boolean",
+                "default": false
+              },
+              "indoor_alternative": {
+                "type": "boolean",
+                "default": false
+              },
+              "cancellation_notification": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "tips_recommendations": {
+            "type": "object",
+            "properties": {
+              "avoid": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "combine_with": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "insider_tips": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "local_customs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "best_viewing_spots": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "booking_recommendations": {
+            "type": "object",
+            "properties": {
+              "transport_book_ahead": {
+                "type": "boolean",
+                "default": false
+              },
+              "accommodation_book_ahead_weeks": {
+                "type": "integer"
+              },
+              "restaurant_reservations_recommended": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "field_metadata": {
+    "name": {
+      "label": "Event Name",
+      "helpText": "The name of the event",
+      "required": true,
+      "placeholder": "Enter event name"
+    },
+    "slug": {
+      "label": "URL Slug",
+      "helpText": "URL-friendly identifier",
+      "required": true,
+      "placeholder": "event-name"
+    },
+    "category.primary": {
+      "type": "select",
+      "label": "Category",
+      "options": [
+        "Festival",
+        "Religious",
+        "Cultural",
+        "Market",
+        "Concert",
+        "Food & Wine"
+      ],
+      "required": true
+    },
+    "schedule.event_type": {
+      "type": "select",
+      "label": "Event Type",
+      "options": [
+        "Annual",
+        "Monthly",
+        "Weekly",
+        "One-Time",
+        "Seasonal",
+        "Recurring"
+      ]
+    },
+    "tickets_pricing.is_free": {
+      "type": "boolean",
+      "label": "Free Event"
+    }
+  },
+  "title_field": "name",
+  "summary_field": "short_description",
+  "date_field": "schedule.start_date"
+}

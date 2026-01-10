@@ -1,0 +1,546 @@
+{
+  "site": {
+    "name": "Cinqueterre.travel",
+    "title": "Cinqueterre.travel - Your Complete Guide to the Italian Riviera",
+    "tagline": "Discover the magic of Italy's most beautiful coastal villages",
+    "base_url": "https://cinqueterre.travel",
+    "default_language": "en",
+    "languages": ["en", "de", "fr", "it"],
+    "titles": {
+      "en": "Cinqueterre.travel - Your Complete Guide to the Italian Riviera",
+      "de": "Cinqueterre.travel - Ihr kompletter Reiseführer für die Italienische Riviera",
+      "fr": "Cinqueterre.travel - Votre Guide Complet de la Riviera Italienne",
+      "it": "Cinqueterre.travel - La Guida Completa alla Riviera Ligure"
+    }
+  },
+  "pages": [
+    {
+      "slug": "cinque-terre",
+      "title": "Cinque Terre",
+      "titles": {
+        "en": "Cinque Terre - Complete Travel Guide",
+        "de": "Cinque Terre - Kompletter Reiseführer",
+        "fr": "Cinque Terre - Guide de Voyage Complet",
+        "it": "Cinque Terre - Guida di Viaggio Completa"
+      },
+      "page_file": "cinque-terre.json",
+      "in_nav": true,
+      "nav_order": 1
+    },
+    {
+      "slug": "monterosso",
+      "title": "Monterosso",
+      "titles": {
+        "en": "Monterosso al Mare",
+        "de": "Monterosso al Mare",
+        "fr": "Monterosso al Mare",
+        "it": "Monterosso al Mare"
+      },
+      "page_file": "monterosso.json",
+      "in_nav": true,
+      "nav_order": 2,
+      "children": [
+        {
+          "slug": "restaurants",
+          "title": "Restaurants",
+          "titles": { "en": "Restaurants", "de": "Restaurants", "fr": "Restaurants", "it": "Ristoranti" },
+          "page_file": "monterosso-restaurants.json",
+          "collection": "restaurants",
+          "in_nav": false
+        },
+        {
+          "slug": "accommodations",
+          "title": "Accommodations",
+          "titles": { "en": "Hotels & Accommodations", "de": "Hotels & Unterkünfte", "fr": "Hôtels & Hébergements", "it": "Hotel & Alloggi" },
+          "page_file": "monterosso-accommodations.json",
+          "collection": "accommodations",
+          "in_nav": false
+        },
+        {
+          "slug": "hikes",
+          "title": "Hiking Trails",
+          "titles": { "en": "Hiking Trails", "de": "Wanderwege", "fr": "Sentiers de Randonnée", "it": "Sentieri Escursionistici" },
+          "page_file": "monterosso-hikes.json",
+          "collection": "hikes",
+          "in_nav": false
+        },
+        {
+          "slug": "pois",
+          "title": "Points of Interest",
+          "titles": { "en": "Points of Interest", "de": "Sehenswürdigkeiten", "fr": "Points d'Intérêt", "it": "Punti di Interesse" },
+          "page_file": "monterosso-pois.json",
+          "collection": "pois",
+          "in_nav": false
+        },
+        {
+          "slug": "events",
+          "title": "Events",
+          "titles": { "en": "Events & Festivals", "de": "Veranstaltungen", "fr": "Événements", "it": "Eventi" },
+          "page_file": "monterosso-events.json",
+          "collection": "events",
+          "in_nav": false
+        }
+      ]
+    },
+    {
+      "slug": "vernazza",
+      "title": "Vernazza",
+      "titles": {
+        "en": "Vernazza",
+        "de": "Vernazza",
+        "fr": "Vernazza",
+        "it": "Vernazza"
+      },
+      "page_file": "vernazza.json",
+      "in_nav": true,
+      "nav_order": 3,
+      "children": [
+        {
+          "slug": "restaurants",
+          "title": "Restaurants",
+          "titles": { "en": "Restaurants", "de": "Restaurants", "fr": "Restaurants", "it": "Ristoranti" },
+          "page_file": "vernazza-restaurants.json",
+          "collection": "restaurants",
+          "in_nav": false
+        },
+        {
+          "slug": "accommodations",
+          "title": "Accommodations",
+          "titles": { "en": "Hotels & Accommodations", "de": "Hotels & Unterkünfte", "fr": "Hôtels & Hébergements", "it": "Hotel & Alloggi" },
+          "page_file": "vernazza-accommodations.json",
+          "collection": "accommodations",
+          "in_nav": false
+        },
+        {
+          "slug": "hikes",
+          "title": "Hiking Trails",
+          "titles": { "en": "Hiking Trails", "de": "Wanderwege", "fr": "Sentiers de Randonnée", "it": "Sentieri Escursionistici" },
+          "page_file": "vernazza-hikes.json",
+          "collection": "hikes",
+          "in_nav": false
+        },
+        {
+          "slug": "pois",
+          "title": "Points of Interest",
+          "titles": { "en": "Points of Interest", "de": "Sehenswürdigkeiten", "fr": "Points d'Intérêt", "it": "Punti di Interesse" },
+          "page_file": "vernazza-pois.json",
+          "collection": "pois",
+          "in_nav": false
+        },
+        {
+          "slug": "events",
+          "title": "Events",
+          "titles": { "en": "Events & Festivals", "de": "Veranstaltungen", "fr": "Événements", "it": "Eventi" },
+          "page_file": "vernazza-events.json",
+          "collection": "events",
+          "in_nav": false
+        }
+      ]
+    },
+    {
+      "slug": "corniglia",
+      "title": "Corniglia",
+      "titles": {
+        "en": "Corniglia",
+        "de": "Corniglia",
+        "fr": "Corniglia",
+        "it": "Corniglia"
+      },
+      "page_file": "corniglia.json",
+      "in_nav": true,
+      "nav_order": 4,
+      "children": [
+        {
+          "slug": "restaurants",
+          "title": "Restaurants",
+          "titles": { "en": "Restaurants", "de": "Restaurants", "fr": "Restaurants", "it": "Ristoranti" },
+          "page_file": "corniglia-restaurants.json",
+          "collection": "restaurants",
+          "in_nav": false
+        },
+        {
+          "slug": "accommodations",
+          "title": "Accommodations",
+          "titles": { "en": "Hotels & Accommodations", "de": "Hotels & Unterkünfte", "fr": "Hôtels & Hébergements", "it": "Hotel & Alloggi" },
+          "page_file": "corniglia-accommodations.json",
+          "collection": "accommodations",
+          "in_nav": false
+        },
+        {
+          "slug": "hikes",
+          "title": "Hiking Trails",
+          "titles": { "en": "Hiking Trails", "de": "Wanderwege", "fr": "Sentiers de Randonnée", "it": "Sentieri Escursionistici" },
+          "page_file": "corniglia-hikes.json",
+          "collection": "hikes",
+          "in_nav": false
+        },
+        {
+          "slug": "pois",
+          "title": "Points of Interest",
+          "titles": { "en": "Points of Interest", "de": "Sehenswürdigkeiten", "fr": "Points d'Intérêt", "it": "Punti di Interesse" },
+          "page_file": "corniglia-pois.json",
+          "collection": "pois",
+          "in_nav": false
+        },
+        {
+          "slug": "events",
+          "title": "Events",
+          "titles": { "en": "Events & Festivals", "de": "Veranstaltungen", "fr": "Événements", "it": "Eventi" },
+          "page_file": "corniglia-events.json",
+          "collection": "events",
+          "in_nav": false
+        }
+      ]
+    },
+    {
+      "slug": "manarola",
+      "title": "Manarola",
+      "titles": {
+        "en": "Manarola",
+        "de": "Manarola",
+        "fr": "Manarola",
+        "it": "Manarola"
+      },
+      "page_file": "manarola.json",
+      "in_nav": true,
+      "nav_order": 5,
+      "children": [
+        {
+          "slug": "restaurants",
+          "title": "Restaurants",
+          "titles": { "en": "Restaurants", "de": "Restaurants", "fr": "Restaurants", "it": "Ristoranti" },
+          "page_file": "manarola-restaurants.json",
+          "collection": "restaurants",
+          "in_nav": false
+        },
+        {
+          "slug": "accommodations",
+          "title": "Accommodations",
+          "titles": { "en": "Hotels & Accommodations", "de": "Hotels & Unterkünfte", "fr": "Hôtels & Hébergements", "it": "Hotel & Alloggi" },
+          "page_file": "manarola-accommodations.json",
+          "collection": "accommodations",
+          "in_nav": false
+        },
+        {
+          "slug": "hikes",
+          "title": "Hiking Trails",
+          "titles": { "en": "Hiking Trails", "de": "Wanderwege", "fr": "Sentiers de Randonnée", "it": "Sentieri Escursionistici" },
+          "page_file": "manarola-hikes.json",
+          "collection": "hikes",
+          "in_nav": false
+        },
+        {
+          "slug": "pois",
+          "title": "Points of Interest",
+          "titles": { "en": "Points of Interest", "de": "Sehenswürdigkeiten", "fr": "Points d'Intérêt", "it": "Punti di Interesse" },
+          "page_file": "manarola-pois.json",
+          "collection": "pois",
+          "in_nav": false
+        },
+        {
+          "slug": "events",
+          "title": "Events",
+          "titles": { "en": "Events & Festivals", "de": "Veranstaltungen", "fr": "Événements", "it": "Eventi" },
+          "page_file": "manarola-events.json",
+          "collection": "events",
+          "in_nav": false
+        }
+      ]
+    },
+    {
+      "slug": "riomaggiore",
+      "title": "Riomaggiore",
+      "titles": {
+        "en": "Riomaggiore",
+        "de": "Riomaggiore",
+        "fr": "Riomaggiore",
+        "it": "Riomaggiore"
+      },
+      "page_file": "riomaggiore.json",
+      "in_nav": true,
+      "nav_order": 6,
+      "children": [
+        {
+          "slug": "restaurants",
+          "title": "Restaurants",
+          "titles": { "en": "Restaurants", "de": "Restaurants", "fr": "Restaurants", "it": "Ristoranti" },
+          "page_file": "riomaggiore-restaurants.json",
+          "collection": "restaurants",
+          "in_nav": false
+        },
+        {
+          "slug": "accommodations",
+          "title": "Accommodations",
+          "titles": { "en": "Hotels & Accommodations", "de": "Hotels & Unterkünfte", "fr": "Hôtels & Hébergements", "it": "Hotel & Alloggi" },
+          "page_file": "riomaggiore-accommodations.json",
+          "collection": "accommodations",
+          "in_nav": false
+        },
+        {
+          "slug": "hikes",
+          "title": "Hiking Trails",
+          "titles": { "en": "Hiking Trails", "de": "Wanderwege", "fr": "Sentiers de Randonnée", "it": "Sentieri Escursionistici" },
+          "page_file": "riomaggiore-hikes.json",
+          "collection": "hikes",
+          "in_nav": false
+        },
+        {
+          "slug": "pois",
+          "title": "Points of Interest",
+          "titles": { "en": "Points of Interest", "de": "Sehenswürdigkeiten", "fr": "Points d'Intérêt", "it": "Punti di Interesse" },
+          "page_file": "riomaggiore-pois.json",
+          "collection": "pois",
+          "in_nav": false
+        },
+        {
+          "slug": "events",
+          "title": "Events",
+          "titles": { "en": "Events & Festivals", "de": "Veranstaltungen", "fr": "Événements", "it": "Eventi" },
+          "page_file": "riomaggiore-events.json",
+          "collection": "events",
+          "in_nav": false
+        }
+      ]
+    },
+    {
+      "slug": "hikes",
+      "title": "Hiking Trails",
+      "titles": {
+        "en": "Hiking Trails",
+        "de": "Wanderwege",
+        "fr": "Sentiers de Randonnée",
+        "it": "Sentieri Escursionistici"
+      },
+      "page_file": "hikes.json",
+      "collection": "hikes",
+      "in_nav": true,
+      "nav_order": 7
+    },
+    {
+      "slug": "restaurants",
+      "title": "Restaurants",
+      "titles": {
+        "en": "Restaurants",
+        "de": "Restaurants",
+        "fr": "Restaurants",
+        "it": "Ristoranti"
+      },
+      "page_file": "restaurants.json",
+      "collection": "restaurants",
+      "in_nav": true,
+      "nav_order": 8
+    },
+    {
+      "slug": "accommodations",
+      "title": "Accommodations",
+      "titles": {
+        "en": "Hotels & Accommodations",
+        "de": "Hotels & Unterkünfte",
+        "fr": "Hôtels & Hébergements",
+        "it": "Hotel & Alloggi"
+      },
+      "page_file": "accommodations.json",
+      "collection": "accommodations",
+      "in_nav": true,
+      "nav_order": 9
+    },
+    {
+      "slug": "weather",
+      "title": "Weather",
+      "titles": {
+        "en": "Weather & Best Time to Visit",
+        "de": "Wetter & Beste Reisezeit",
+        "fr": "Météo & Meilleure Période",
+        "it": "Meteo & Periodo Migliore"
+      },
+      "page_file": "weather.json",
+      "collection": "weather",
+      "in_nav": true,
+      "nav_order": 10
+    },
+    {
+      "slug": "transportation",
+      "title": "Transportation",
+      "titles": {
+        "en": "Getting There & Around",
+        "de": "Anreise & Fortbewegung",
+        "fr": "Comment Arriver & Se Déplacer",
+        "it": "Come Arrivare & Muoversi"
+      },
+      "page_file": "transportation.json",
+      "collection": "transportation",
+      "in_nav": true,
+      "nav_order": 11
+    },
+    {
+      "slug": "events",
+      "title": "Events",
+      "titles": {
+        "en": "Events & Festivals",
+        "de": "Veranstaltungen & Feste",
+        "fr": "Événements & Festivals",
+        "it": "Eventi & Festival"
+      },
+      "page_file": "events.json",
+      "collection": "events",
+      "in_nav": true,
+      "nav_order": 12
+    },
+    {
+      "slug": "pois",
+      "title": "Points of Interest",
+      "titles": {
+        "en": "Points of Interest",
+        "de": "Sehenswürdigkeiten",
+        "fr": "Points d'Intérêt",
+        "it": "Punti di Interesse"
+      },
+      "page_file": "pois.json",
+      "collection": "pois",
+      "in_nav": false,
+      "nav_order": 13
+    },
+    {
+      "slug": "blog",
+      "title": "Blog",
+      "titles": {
+        "en": "The Dispatch | Stories & Guides",
+        "de": "Die Depesche | Geschichten & Reiseführer",
+        "fr": "Les Dépêches | Récits & Guides",
+        "it": "Il Dispaccio | Storie & Guide"
+      },
+      "page_file": "cinque-terre/blog-index.json",
+      "in_nav": true,
+      "nav_order": 14,
+      "children": [
+        {
+          "slug": "the-ultimate-guide-to-cinque-terres-best-beaches",
+          "title": "Best Beaches Guide",
+          "page_file": "blog/the-ultimate-guide-to-cinque-terres-best-beaches.json",
+          "in_nav": false
+        },
+        {
+          "slug": "5-hidden-gelaterias-you-need-to-try",
+          "title": "Hidden Gelaterias",
+          "page_file": "blog/5-hidden-gelaterias-you-need-to-try.json",
+          "in_nav": false
+        }
+      ]
+    },
+    {
+      "slug": "itinerary",
+      "title": "Itinerary",
+      "titles": {
+        "en": "The Salt & Stone Path | 4-Day Journey",
+        "de": "Der Salz & Stein Pfad | 4-Tage-Reise",
+        "fr": "Le Chemin du Sel et de la Pierre | 4 Jours",
+        "it": "Il Sentiero del Sale e della Pietra | 4 Giorni"
+      },
+      "page_file": "cinque-terre/itinerary.json",
+      "in_nav": true,
+      "nav_order": 15
+    },
+    {
+      "slug": "team",
+      "title": "Team",
+      "titles": {
+        "en": "Meet the Team",
+        "de": "Das Team",
+        "fr": "L'Équipe",
+        "it": "Il Team"
+      },
+      "page_file": "cinque-terre/team.json",
+      "in_nav": false,
+      "nav_order": 16
+    },
+    {
+      "slug": "culinary",
+      "title": "Culinary",
+      "titles": {
+        "en": "Culinary Guide",
+        "de": "Kulinarischer Führer",
+        "fr": "Guide Culinaire",
+        "it": "Guida Culinaria"
+      },
+      "page_file": "cinque-terre/culinary.json",
+      "in_nav": true,
+      "nav_order": 17
+    },
+    {
+      "slug": "sights",
+      "title": "Sights",
+      "titles": {
+        "en": "Sights & Experiences",
+        "de": "Sehenswürdigkeiten & Erlebnisse",
+        "fr": "Sites & Expériences",
+        "it": "Attrazioni & Esperienze"
+      },
+      "page_file": "cinque-terre/sights-editorial.json",
+      "in_nav": false,
+      "nav_order": 18
+    },
+    {
+      "slug": "things-to-do",
+      "title": "Things to Do",
+      "titles": {
+        "en": "Things to Do",
+        "de": "Aktivitäten",
+        "fr": "Choses à Faire",
+        "it": "Cose da Fare"
+      },
+      "page_file": "cinque-terre/things-to-do-editorial.json",
+      "in_nav": true,
+      "nav_order": 19
+    },
+    {
+      "slug": "village",
+      "title": "Riomaggiore Village",
+      "titles": {
+        "en": "Riomaggiore | The Gateway",
+        "de": "Riomaggiore | Das Tor",
+        "fr": "Riomaggiore | La Porte d'Entrée",
+        "it": "Riomaggiore | La Porta d'Ingresso"
+      },
+      "page_file": "cinque-terre/village.json",
+      "in_nav": false,
+      "nav_order": 20
+    }
+  ],
+  "footer_nav": [
+    {
+      "title": "Villages",
+      "titles": { "en": "Villages", "de": "Dörfer", "fr": "Villages", "it": "Borghi" },
+      "links": [
+        { "title": "Monterosso", "url": "/monterosso/" },
+        { "title": "Vernazza", "url": "/vernazza/" },
+        { "title": "Corniglia", "url": "/corniglia/" },
+        { "title": "Manarola", "url": "/manarola/" },
+        { "title": "Riomaggiore", "url": "/riomaggiore/" }
+      ]
+    },
+    {
+      "title": "Plan Your Trip",
+      "titles": { "en": "Plan Your Trip", "de": "Planen Sie Ihre Reise", "fr": "Planifiez Votre Voyage", "it": "Pianifica il Tuo Viaggio" },
+      "links": [
+        { "title": "Hiking Trails", "url": "/hikes/" },
+        { "title": "Restaurants", "url": "/restaurants/" },
+        { "title": "Accommodations", "url": "/accommodations/" },
+        { "title": "Weather", "url": "/weather/" },
+        { "title": "Transportation", "url": "/transportation/" }
+      ]
+    },
+    {
+      "title": "Explore",
+      "titles": { "en": "Explore", "de": "Entdecken", "fr": "Explorer", "it": "Esplora" },
+      "links": [
+        { "title": "Events", "url": "/events/" },
+        { "title": "Points of Interest", "url": "/pois/" }
+      ]
+    }
+  ],
+  "sitemap_xml": {
+    "changefreq_default": "weekly",
+    "priority_default": 0.5,
+    "exclude_patterns": []
+  }
+}

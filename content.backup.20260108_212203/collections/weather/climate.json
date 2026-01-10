@@ -1,0 +1,191 @@
+{
+  "collection_type": "cinqueterre_weather",
+  "generated_at": "2025-12-10T16:14:08.254Z",
+  "item_count": 1,
+  "items": [
+    {
+      "slug": "climate",
+      "metadata": {
+        "timezone": "Europe/Rome",
+        "coordinates": {
+          "latitude": 44.1448,
+          "longitude": 9.6526
+        },
+        "elevation_m": 10,
+        "search_type": "weather_and_recommendations",
+        "climate_zone": "Mediterranean",
+        "data_sources": [
+          "OpenWeatherMap",
+          "MeteoAM",
+          "Windy.com"
+        ],
+        "generated_at": "2025-12-10T12:12:02.611Z",
+        "query_location": "Monterosso al Mare, Cinque Terre, Italy"
+      },
+      "daily_forecast": {
+        "days": [
+          {
+            "date": "2025-12-10",
+            "icon": "partly-cloudy",
+            "summary": "Partly cloudy with mild temperatures, perfect for village exploration",
+            "is_today": true,
+            "day_of_week": "Tuesday",
+            "temperature": {
+              "low_c": 11.3,
+              "low_f": 52.3,
+              "high_c": 16.1,
+              "high_f": 61
+            },
+            "precipitation": {
+              "type": "none",
+              "timing": null,
+              "probability_percent": 20
+            },
+            "activity_ratings": {
+              "hiking": {
+                "score": 8,
+                "rating": "good",
+                "best_time": "Morning hours"
+              },
+              "photography": {
+                "score": 9,
+                "rating": "excellent",
+                "lighting_conditions": "Soft diffused light ideal for landscapes"
+              },
+              "outdoor_dining": {
+                "score": 7,
+                "rating": "good",
+                "best_time": "Lunch and early evening"
+              }
+            }
+          }
+        ],
+        "generated_at": "2025-12-10T12:12:02.611Z"
+      },
+      "weather_alerts": {
+        "no_alerts": true,
+        "last_checked": "2025-12-10T12:00:00Z",
+        "active_alerts": []
+      },
+      "seasonal_context": {
+        "current_season": "winter",
+        "tourist_season": "low",
+        "is_typical_weather": true,
+        "season_description": "Mild winter weather typical for the Ligurian coast"
+      },
+      "marine_conditions": {
+        "sea_state": {
+          "description": "slight",
+          "wave_height_m": 0.8,
+          "beaufort_sea_scale": 3
+        },
+        "observation_time": "2025-12-10T12:00:00Z",
+        "water_temperature": {
+          "surface_c": 16.2,
+          "surface_f": 61.2,
+          "swimming_comfort": "cool",
+          "wetsuit_recommendation": "recommended"
+        },
+        "ferry_boat_conditions": {
+          "overall_status": "good",
+          "seasickness_risk": "low"
+        }
+      },
+      "current_conditions": {
+        "icon": "partly-cloudy",
+        "wind": {
+          "speed_kmh": 12.5,
+          "speed_mph": 7.8,
+          "description": "gentle-breeze",
+          "speed_knots": 6.7,
+          "beaufort_scale": 3,
+          "direction_degrees": 315,
+          "direction_cardinal": "NW"
+        },
+        "summary": "Partly cloudy with mild temperatures",
+        "humidity": {
+          "dew_point_c": 8.1,
+          "comfort_level": "comfortable",
+          "relative_percent": 68
+        },
+        "pressure": {
+          "hpa": 1018.2,
+          "inhg": 30.07,
+          "trend": "steady",
+          "trend_description": "Stable conditions expected"
+        },
+        "sun_moon": {
+          "sunset": "16:47",
+          "sunrise": "07:42",
+          "moon_phase": "waxing-crescent",
+          "daylight_hours": 9.08,
+          "blue_hour_evening": {
+            "end": "17:24",
+            "start": "16:47"
+          },
+          "blue_hour_morning": {
+            "end": "07:42",
+            "start": "07:05"
+          },
+          "golden_hour_evening": {
+            "end": "16:47",
+            "start": "15:40"
+          },
+          "golden_hour_morning": {
+            "end": "08:20",
+            "start": "07:15"
+          },
+          "moon_illumination_percent": 12
+        },
+        "uv_index": {
+          "level": "low",
+          "value": 2,
+          "recommendation": "No protection required for normal skin types",
+          "protection_required": false
+        },
+        "visibility": {
+          "km": 15,
+          "miles": 9.3,
+          "description": "excellent"
+        },
+        "temperature": {
+          "current_c": 14.2,
+          "current_f": 57.6,
+          "max_today_c": 16.1,
+          "min_today_c": 11.3,
+          "feels_like_c": 13.8,
+          "feels_like_f": 56.8
+        },
+        "precipitation": {
+          "type": "none",
+          "intensity": "none",
+          "amount_today_mm": 0,
+          "is_precipitating": false,
+          "amount_last_hour_mm": 0,
+          "probability_percent": 15
+        },
+        "comfort_indices": {
+          "outdoor_comfort": "good",
+          "outdoor_comfort_score": 7
+        },
+        "observation_time": "2025-12-10T12:00:00Z"
+      },
+      "activity_recommendations": {
+        "generated_for_date": "2025-12-10",
+        "todays_top_recommendations": [
+          {
+            "rank": 1,
+            "reason": "Excellent soft lighting conditions for capturing the colorful houses and coastal scenery",
+            "activity": "Village Photography Tour",
+            "category": "cultural",
+            "best_time_window": {
+              "end": "08:20",
+              "start": "07:15"
+            },
+            "weather_suitability_score": 9
+          }
+        ]
+      }
+    }
+  ]
+}

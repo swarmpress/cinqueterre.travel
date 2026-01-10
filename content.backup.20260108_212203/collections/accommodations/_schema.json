@@ -1,0 +1,1332 @@
+{
+  "type": "cinqueterre_accommodations",
+  "display_name": "Cinque Terre Accommodations",
+  "singular_name": "Accommodation",
+  "description": "Hotels, B&Bs, and apartments in Cinque Terre",
+  "icon": "bed",
+  "color": "#EC4899",
+  "json_schema": {
+    "$ref": "#/definitions/cinqueterre_accommodations",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+      "cinqueterre_accommodations": {
+        "type": "object",
+        "required": [
+          "name",
+          "slug",
+          "type",
+          "village",
+          "location",
+          "ratings",
+          "pricing"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rank": {
+            "type": "integer"
+          },
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "tips": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "type": {
+            "type": "object",
+            "required": [
+              "category"
+            ],
+            "properties": {
+              "category": {
+                "enum": [
+                  "Hotel",
+                  "B&B",
+                  "Apartment",
+                  "Guesthouse",
+                  "Hostel",
+                  "Villa",
+                  "Room Rental"
+                ],
+                "type": "string"
+              },
+              "star_rating": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "maximum": 5,
+                    "minimum": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "property_class": {
+                "enum": [
+                  "Luxury",
+                  "Boutique",
+                  "Mid-Range",
+                  "Budget",
+                  "Vacation Rental"
+                ],
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "url",
+                "source",
+                "alt_text",
+                "type"
+              ],
+              "properties": {
+                "url": {
+                  "type": "string"
+                },
+                "type": {
+                  "enum": [
+                    "exterior",
+                    "interior",
+                    "room",
+                    "bathroom",
+                    "view",
+                    "breakfast",
+                    "common_area"
+                  ],
+                  "type": "string"
+                },
+                "source": {
+                  "enum": [
+                    "Official",
+                    "Booking.com",
+                    "TripAdvisor",
+                    "Google",
+                    "Airbnb"
+                  ],
+                  "type": "string"
+                },
+                "alt_text": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "nearby": {
+            "type": "object",
+            "properties": {
+              "transport": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "attractions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "restaurants": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "contact": {
+            "type": "object",
+            "properties": {
+              "email": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "phone": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "website": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "booking_urls": {
+                "type": "object",
+                "properties": {
+                  "airbnb": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "direct": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "expedia": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "booking_com": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "pricing": {
+            "type": "object",
+            "required": [
+              "price_level"
+            ],
+            "properties": {
+              "currency": {
+                "type": "string",
+                "default": "EUR"
+              },
+              "price_level": {
+                "enum": [
+                  "€",
+                  "€€",
+                  "€€€",
+                  "€€€€"
+                ],
+                "type": "string"
+              },
+              "price_range": {
+                "type": "object",
+                "properties": {
+                  "low_season": {
+                    "type": "object",
+                    "required": [
+                      "min_per_night",
+                      "max_per_night"
+                    ],
+                    "properties": {
+                      "max_per_night": {
+                        "type": "integer"
+                      },
+                      "min_per_night": {
+                        "type": "integer"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "high_season": {
+                    "type": "object",
+                    "required": [
+                      "min_per_night",
+                      "max_per_night"
+                    ],
+                    "properties": {
+                      "max_per_night": {
+                        "type": "integer"
+                      },
+                      "min_per_night": {
+                        "type": "integer"
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  "peak_season": {
+                    "type": "object",
+                    "required": [
+                      "min_per_night",
+                      "max_per_night"
+                    ],
+                    "properties": {
+                      "max_per_night": {
+                        "type": "integer"
+                      },
+                      "min_per_night": {
+                        "type": "integer"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "cleaning_fee": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "taxes_included": {
+                "type": "boolean",
+                "default": false
+              },
+              "payment_methods": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "deposit_required": {
+                "type": "boolean",
+                "default": false
+              },
+              "deposit_amount_eur": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "cancellation_policy": {
+                "type": "string"
+              },
+              "service_fee_percent": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "average_nightly_rate": {
+                "type": "integer"
+              }
+            },
+            "additionalProperties": false
+          },
+          "ratings": {
+            "type": "object",
+            "required": [
+              "average_rating"
+            ],
+            "properties": {
+              "airbnb": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "superhost": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "certificate_of_excellence": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "google": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "superhost": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "certificate_of_excellence": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "expedia": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "superhost": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "certificate_of_excellence": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "hotels_com": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "superhost": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "certificate_of_excellence": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "booking_com": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "superhost": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "certificate_of_excellence": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "tripadvisor": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "rating": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "ranking": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "superhost": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "review_count": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "certificate_of_excellence": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "average_rating": {
+                "type": "number",
+                "maximum": 5,
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          },
+          "reviews": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "source",
+                "author",
+                "rating",
+                "date",
+                "text"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "author": {
+                  "type": "string"
+                },
+                "rating": {
+                  "type": "number",
+                  "maximum": 10,
+                  "minimum": 1
+                },
+                "source": {
+                  "enum": [
+                    "Booking.com",
+                    "TripAdvisor",
+                    "Google",
+                    "Airbnb",
+                    "Expedia"
+                  ],
+                  "type": "string"
+                },
+                "stayed_in": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "trip_type": {
+                  "enum": [
+                    "Couple",
+                    "Family",
+                    "Solo",
+                    "Business",
+                    "Friends"
+                  ],
+                  "type": "string"
+                },
+                "helpful_votes": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "verified_stay": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "author_country": {
+                  "type": "string"
+                },
+                "cons_mentioned": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "default": []
+                },
+                "pros_mentioned": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "default": []
+                }
+              },
+              "additionalProperties": false
+            },
+            "default": []
+          },
+          "village": {
+            "enum": [
+              "Riomaggiore",
+              "Manarola",
+              "Corniglia",
+              "Vernazza",
+              "Monterosso"
+            ],
+            "type": "string"
+          },
+          "location": {
+            "type": "object",
+            "required": [
+              "address",
+              "city",
+              "coordinates"
+            ],
+            "properties": {
+              "city": {
+                "type": "string"
+              },
+              "region": {
+                "type": "string",
+                "default": "Liguria"
+              },
+              "street": {
+                "type": "string"
+              },
+              "address": {
+                "type": "string"
+              },
+              "country": {
+                "type": "string",
+                "default": "Italy"
+              },
+              "coordinates": {
+                "type": "object",
+                "required": [
+                  "latitude",
+                  "longitude"
+                ],
+                "properties": {
+                  "latitude": {
+                    "type": "number"
+                  },
+                  "longitude": {
+                    "type": "number"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "postal_code": {
+                "type": "string",
+                "default": "19017"
+              },
+              "accessibility_notes": {
+                "type": "string"
+              },
+              "location_description": {
+                "type": "string"
+              },
+              "distance_to_landmarks": {
+                "type": "object",
+                "properties": {
+                  "harbor_meters": {
+                    "type": "integer"
+                  },
+                  "main_street_meters": {
+                    "type": "integer"
+                  },
+                  "nearest_beach_meters": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "train_station_meters": {
+                    "type": "integer"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            "additionalProperties": false
+          },
+          "policies": {
+            "type": "object",
+            "required": [
+              "check_in",
+              "check_out"
+            ],
+            "properties": {
+              "smoking": {
+                "enum": [
+                  "Non-smoking",
+                  "Designated areas",
+                  "Allowed"
+                ],
+                "type": "string",
+                "default": "Non-smoking"
+              },
+              "check_in": {
+                "type": "object",
+                "required": [
+                  "from"
+                ],
+                "properties": {
+                  "to": {
+                    "type": "string"
+                  },
+                  "from": {
+                    "type": "string"
+                  },
+                  "notes": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "flexible": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "self_check_in": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "check_out": {
+                "type": "object",
+                "required": [
+                  "by"
+                ],
+                "properties": {
+                  "by": {
+                    "type": "string"
+                  },
+                  "late_checkout_fee_eur": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "late_checkout_available": {
+                    "type": "boolean",
+                    "default": false
+                  }
+                },
+                "additionalProperties": false
+              },
+              "quiet_hours": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "minimum_stay": {
+                "type": "object",
+                "properties": {
+                  "low_season": {
+                    "type": "integer",
+                    "default": 1
+                  },
+                  "high_season": {
+                    "type": "integer",
+                    "default": 2
+                  },
+                  "peak_season": {
+                    "type": "integer",
+                    "default": 3
+                  }
+                },
+                "additionalProperties": false
+              },
+              "parties_events": {
+                "enum": [
+                  "Not allowed",
+                  "Allowed",
+                  "Upon request"
+                ],
+                "type": "string",
+                "default": "Not allowed"
+              },
+              "age_restriction": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "amenities": {
+            "type": "object",
+            "properties": {
+              "pets": {
+                "type": "object",
+                "properties": {
+                  "allowed": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "restrictions": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "fee_per_night_eur": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "general": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "kitchen": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "outdoor": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "parking": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "On-site",
+                          "Nearby",
+                          "Street"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "notes": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "available": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "price_per_day_eur": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "services": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "breakfast": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "Continental",
+                          "Italian",
+                          "Buffet",
+                          "À la carte"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "hours": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "notes": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "included": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "price_if_extra_eur": {
+                    "anyOf": [
+                      {
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              "accessibility": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "room_amenities": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "host_info": {
+            "type": "object",
+            "properties": {
+              "host_name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "host_type": {
+                "enum": [
+                  "Individual",
+                  "Professional",
+                  "Property Management"
+                ],
+                "type": "string"
+              },
+              "response_time": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "years_hosting": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "languages_spoken": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "superhost_status": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "local_tips_provided": {
+                "type": "boolean",
+                "default": false
+              },
+              "response_rate_percent": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "pros_cons": {
+            "type": "object",
+            "properties": {
+              "cons": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "pros": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              }
+            },
+            "additionalProperties": false
+          },
+          "data_source": {
+            "type": "string",
+            "default": "claude_web_search"
+          },
+          "rooms_units": {
+            "type": "object",
+            "required": [
+              "total_rooms"
+            ],
+            "properties": {
+              "room_types": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "max_occupancy"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "has_view": {
+                      "type": "boolean",
+                      "default": false
+                    },
+                    "size_sqm": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "amenities": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "default": []
+                    },
+                    "view_type": {
+                      "anyOf": [
+                        {
+                          "enum": [
+                            "Sea View",
+                            "Village View",
+                            "Garden View"
+                          ],
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "max_occupancy": {
+                      "type": "integer"
+                    },
+                    "bed_configuration": {
+                      "type": "string"
+                    },
+                    "price_per_night_eur": {
+                      "type": "integer"
+                    },
+                    "has_private_bathroom": {
+                      "type": "boolean",
+                      "default": true
+                    }
+                  },
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "total_rooms": {
+                "type": "integer"
+              }
+            },
+            "additionalProperties": false
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "sustainability": {
+            "type": "object",
+            "properties": {
+              "practices": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "default": []
+              },
+              "eco_certified": {
+                "type": "boolean",
+                "default": false
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "field_metadata": {
+    "name": {
+      "label": "Property Name",
+      "helpText": "The name of the accommodation",
+      "required": true,
+      "placeholder": "Enter property name"
+    },
+    "slug": {
+      "label": "URL Slug",
+      "helpText": "URL-friendly identifier",
+      "required": true,
+      "placeholder": "property-name"
+    },
+    "village": {
+      "type": "select",
+      "label": "Village",
+      "options": [
+        "Riomaggiore",
+        "Manarola",
+        "Corniglia",
+        "Vernazza",
+        "Monterosso"
+      ],
+      "required": true
+    },
+    "type.category": {
+      "type": "select",
+      "label": "Type",
+      "options": [
+        "Hotel",
+        "B&B",
+        "Apartment",
+        "Guesthouse",
+        "Hostel",
+        "Villa",
+        "Room Rental"
+      ],
+      "required": true
+    },
+    "type.star_rating": {
+      "type": "select",
+      "label": "Star Rating",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "pricing.price_level": {
+      "type": "select",
+      "label": "Price Level",
+      "options": [
+        "€",
+        "€€",
+        "€€€",
+        "€€€€"
+      ]
+    },
+    "ratings.average_rating": {
+      "max": 5,
+      "min": 0,
+      "type": "number",
+      "label": "Average Rating"
+    }
+  },
+  "title_field": "name",
+  "summary_field": "description",
+  "image_field": "images"
+}

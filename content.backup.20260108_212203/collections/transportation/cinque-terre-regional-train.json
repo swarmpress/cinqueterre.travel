@@ -1,0 +1,112 @@
+{
+  "collection_type": "cinqueterre_transportation",
+  "generated_at": "2025-12-10T16:13:49.339Z",
+  "item_count": 1,
+  "items": [
+    {
+      "slug": "cinque-terre-regional-train",
+      "name": {
+        "de": "Cinque Terre Regionalzugverbindung",
+        "en": "Cinque Terre Regional Train Service",
+        "fr": "Service de Train Régional des Cinque Terre",
+        "it": "Servizio Treno Regionale Cinque Terre"
+      },
+      "routes": [
+        {
+          "origin": "La Spezia Centrale",
+          "via_stops": [
+            "Riomaggiore",
+            "Manarola",
+            "Corniglia",
+            "Vernazza"
+          ],
+          "route_name": "La Spezia - Monterosso",
+          "destination": "Monterosso al Mare",
+          "scenic_rating": 5,
+          "scenic_highlights": [
+            "Mediterranean coastline",
+            "Terraced vineyards",
+            "Historic villages"
+          ],
+          "total_distance_km": 18.2,
+          "total_duration_minutes": 32
+        }
+      ],
+      "pricing": {
+        "passes": [
+          {
+            "name": "Cinque Terre Treno Card",
+            "recommended": true,
+            "validity_options": [
+              {
+                "duration": "1 day",
+                "adult_eur": 16,
+                "child_eur": 10
+              },
+              {
+                "duration": "2 days",
+                "adult_eur": 29,
+                "child_eur": 19.5
+              }
+            ]
+          }
+        ],
+        "currency": "EUR",
+        "single_tickets": {
+          "between_any_cinque_terre": 4,
+          "riomaggiore_to_la_spezia": 2.3
+        }
+      },
+      "category": {
+        "tags": [
+          "scenic",
+          "frequent",
+          "village-hopping"
+        ],
+        "primary": "Train",
+        "secondary": "Regional Service"
+      },
+      "operator": {
+        "name": "Trenitalia",
+        "type": "National Rail Operator",
+        "website": "https://www.trenitalia.com",
+        "name_local": "Trenitalia"
+      },
+      "schedule": {
+        "frequency": {
+          "off_peak": {
+            "trains_per_hour": 2,
+            "interval_minutes": 30
+          },
+          "peak_hours": {
+            "trains_per_hour": 3,
+            "interval_minutes": 20
+          }
+        },
+        "service_hours": {
+          "last_train_from_la_spezia": "23:49",
+          "first_train_from_la_spezia": "06:12"
+        }
+      },
+      "pros_cons": {
+        "cons": [
+          "Crowded in summer",
+          "Limited storage space",
+          "Potential delays"
+        ],
+        "pros": [
+          "Frequent service",
+          "Scenic coastal views",
+          "Connects all villages",
+          "Weather independent"
+        ]
+      },
+      "description": {
+        "de": "Das Rückgrat des Cinque Terre-Verkehrs, verbindet alle fünf Dörfer mit häufigen Regionalzügen und atemberaubenden Küstenaussichten.",
+        "en": "The backbone of Cinque Terre transportation, connecting all five villages with frequent regional trains offering stunning coastal views. Essential for village hopping.",
+        "fr": "L'épine dorsale des transports des Cinque Terre, reliant les cinq villages avec des trains régionaux fréquents offrant des vues côtières époustouflantes.",
+        "it": "La spina dorsale dei trasporti delle Cinque Terre, collega tutti i cinque borghi con treni regionali frequenti e viste costiere mozzafiato."
+      }
+    }
+  ]
+}

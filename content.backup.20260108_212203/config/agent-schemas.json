@@ -1,0 +1,541 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cinque Terre Content Schemas for Agents",
+  "description": "Block types and collection schemas for WriterAgent content generation",
+  "version": "1.0.0",
+  "last_updated": "2026-01-08",
+
+  "block_types": {
+    "core": {
+      "hero-section": {
+        "description": "Large hero banner with background image, title, subtitle, and CTA buttons",
+        "props": {
+          "image": { "type": "string", "description": "Background image URL" },
+          "eyebrow": { "type": "string", "description": "Small text above title" },
+          "title": { "type": "string", "required": true },
+          "subtitle": { "type": "string" },
+          "buttons": {
+            "type": "array",
+            "items": {
+              "text": "string | LocalizedString",
+              "url": "string | LocalizedString",
+              "variant": "primary | secondary | outline | ghost"
+            }
+          },
+          "variant": "centered | split-with-image | minimal"
+        },
+        "example": {
+          "type": "hero-section",
+          "image": "https://images.unsplash.com/photo-xxx",
+          "eyebrow": "Welcome to",
+          "title": "Cinque Terre",
+          "subtitle": "Five villages suspended between sea and sky",
+          "buttons": [{ "text": "Explore", "url": "/en/explore", "variant": "primary" }]
+        }
+      },
+      "stats-section": {
+        "description": "Statistics display with numbers and labels",
+        "props": {
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "stats": {
+            "type": "array",
+            "required": true,
+            "items": {
+              "number": "string",
+              "label": "string",
+              "description": "string"
+            }
+          }
+        }
+      },
+      "feature-section": {
+        "description": "Grid of features with icons, titles, and descriptions",
+        "props": {
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "features": {
+            "type": "array",
+            "required": true,
+            "items": {
+              "icon": "string (lucide icon name)",
+              "title": "string",
+              "description": "string"
+            }
+          }
+        }
+      },
+      "section-header": {
+        "description": "Section title with optional eyebrow text",
+        "props": {
+          "eyebrow": { "type": "string" },
+          "title": { "type": "string", "required": true },
+          "subtitle": { "type": "string" },
+          "centered": { "type": "boolean", "default": false }
+        }
+      },
+      "newsletter": {
+        "description": "Email newsletter signup form",
+        "props": {
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "placeholder": { "type": "string" },
+          "buttonText": { "type": "string" },
+          "disclaimer": { "type": "string" }
+        }
+      }
+    },
+
+    "village": {
+      "village-selector": {
+        "description": "Interactive village selection cards for homepage",
+        "props": {
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "villages": {
+            "type": "array",
+            "items": {
+              "name": "string",
+              "slug": "string",
+              "description": "string",
+              "image": "string (URL)",
+              "tags": "string[]"
+            }
+          }
+        },
+        "note": "Usually rendered with hardcoded village data from village-content.config.ts"
+      },
+      "village-intro": {
+        "description": "Village landing page intro with essentials and lead story",
+        "props": {
+          "village": { "type": "string", "required": true, "enum": ["Riomaggiore", "Manarola", "Corniglia", "Vernazza", "Monterosso"] },
+          "leadStory": {
+            "type": "object",
+            "properties": {
+              "id": "string",
+              "title": "string",
+              "category": "string",
+              "excerpt": "string",
+              "image": "string",
+              "url": "string"
+            }
+          },
+          "essentials": {
+            "type": "object",
+            "properties": {
+              "weather": "string",
+              "seaTemp": "string",
+              "seaConditions": "string",
+              "sunset": "string",
+              "crowdRhythm": "string",
+              "bestFelt": "string",
+              "villageShape": "string",
+              "foodWine": "string",
+              "origins": "string",
+              "shapedBy": "string",
+              "rating": "string",
+              "rememberedFor": "string"
+            }
+          },
+          "stories": { "type": "array" }
+        }
+      },
+      "places-to-stay": {
+        "description": "Accommodation listings with prices",
+        "props": {
+          "title": { "type": "string" },
+          "eyebrow": { "type": "string" },
+          "stays": {
+            "type": "array",
+            "items": {
+              "name": "string",
+              "village": "string",
+              "special": "string (unique selling point)",
+              "price": "string (e.g., 'From €120/night')",
+              "image": "string",
+              "url": "string"
+            }
+          },
+          "viewAllUrl": { "type": "string" }
+        }
+      },
+      "eat-drink": {
+        "description": "Restaurant listings carousel (React component)",
+        "props": {
+          "title": { "type": "string" },
+          "subtitle": { "type": "string" },
+          "restaurants": {
+            "type": "array",
+            "items": {
+              "name": "string",
+              "type": "string (e.g., 'Trattoria', 'Wine Bar')",
+              "description": "string",
+              "priceRange": "string (€, €€, €€€, €€€€)",
+              "image": "string",
+              "rating": "number (0-5)",
+              "specialty": "string",
+              "url": "string"
+            }
+          }
+        }
+      }
+    },
+
+    "editorial": {
+      "editorial-hero": {
+        "description": "Large editorial hero with badge and background image",
+        "props": {
+          "title": { "type": "string", "required": true },
+          "subtitle": { "type": "string" },
+          "badge": { "type": "string", "description": "Category or section label" },
+          "image": { "type": "string", "required": true },
+          "height": { "type": "string", "default": "80vh" }
+        },
+        "example": {
+          "type": "editorial-hero",
+          "title": "The Art of Slow Travel",
+          "subtitle": "Discovering the rhythm of the five villages",
+          "badge": "Editor's Journey",
+          "image": "https://images.unsplash.com/photo-xxx"
+        }
+      },
+      "editorial-intro": {
+        "description": "Two-column editorial intro with centered quote",
+        "props": {
+          "badge": { "type": "string", "required": true },
+          "quote": { "type": "string", "required": true, "description": "Central pull quote" },
+          "leftContent": { "type": "string", "required": true, "description": "Left column markdown" },
+          "rightContent": { "type": "string", "required": true, "description": "Right column markdown" }
+        }
+      },
+      "editorial-interlude": {
+        "description": "Highlighted break between content sections",
+        "props": {
+          "badge": { "type": "string" },
+          "title": { "type": "string", "required": true },
+          "quote": { "type": "string", "required": true },
+          "interludeType": { "type": "string", "enum": ["primary", "secondary"] },
+          "align": { "type": "string", "enum": ["left", "right"] },
+          "icon": { "type": "string" }
+        }
+      },
+      "editor-note": {
+        "description": "Expert quote with avatar - typically Giulia Rossi's local perspective",
+        "props": {
+          "quote": { "type": "string", "required": true },
+          "author": { "type": "string", "default": "Giulia Rossi" },
+          "role": { "type": "string", "default": "Local Editor" },
+          "image": { "type": "string" }
+        },
+        "voice": "Use warm, knowledgeable tone. Giulia is a local who has lived in Cinque Terre for years."
+      },
+      "closing-note": {
+        "description": "Dark reflective closing section with call-to-action",
+        "props": {
+          "badge": { "type": "string" },
+          "title": { "type": "string", "required": true },
+          "content": { "type": "string", "required": true, "description": "Closing reflection markdown" },
+          "actions": {
+            "type": "array",
+            "items": {
+              "label": "string",
+              "href": "string",
+              "variant": "primary | secondary"
+            }
+          },
+          "backgroundIcon": { "type": "string" }
+        }
+      }
+    },
+
+    "content": {
+      "featured-carousel": {
+        "description": "Scrollable story cards carousel (React)",
+        "props": {
+          "title": { "type": "string" },
+          "viewAllUrl": { "type": "string" },
+          "stories": {
+            "type": "array",
+            "items": {
+              "id": "string | number",
+              "title": "string",
+              "category": "string",
+              "dek": "string (short teaser)",
+              "excerpt": "string",
+              "image": "string",
+              "author": "string",
+              "date": "string",
+              "readTime": "string",
+              "url": "string",
+              "isLead": "boolean"
+            }
+          }
+        }
+      },
+      "trending-now": {
+        "description": "Trending articles or topics section",
+        "note": "Renders from hardcoded data, not customizable via JSON"
+      },
+      "latest-stories": {
+        "description": "Recent blog posts grid",
+        "note": "Renders from blog collection automatically"
+      },
+      "highlights": {
+        "description": "Key highlights section for homepage",
+        "note": "Renders from hardcoded data"
+      },
+      "curated-escapes": {
+        "description": "Curated travel experiences section",
+        "note": "Renders from hardcoded data"
+      },
+      "audio-guides": {
+        "description": "Audio guide listings",
+        "note": "Renders from hardcoded data"
+      },
+      "practical-advice": {
+        "description": "Travel tips and practical information",
+        "note": "Renders from hardcoded data"
+      }
+    },
+
+    "blog": {
+      "blog-article": {
+        "description": "Full blog post content block",
+        "props": {
+          "post": {
+            "type": "object",
+            "required": true,
+            "properties": {
+              "title": "string",
+              "subtitle": "string",
+              "author": "string",
+              "authorBio": "string",
+              "date": "string",
+              "readTime": "string",
+              "category": "string",
+              "image": "string",
+              "tags": "string[]"
+            }
+          },
+          "content": {
+            "type": "object",
+            "properties": {
+              "intro": "string (opening paragraph)",
+              "sections": {
+                "type": "array",
+                "items": {
+                  "title": "string",
+                  "text": "string (markdown)"
+                }
+              },
+              "quote": {
+                "text": "string",
+                "author": "string"
+              }
+            }
+          }
+        },
+        "example": {
+          "type": "blog-article",
+          "post": {
+            "title": "5 Hidden Gelaterias You Need to Try",
+            "subtitle": "Skip the tourist traps and find the real deal",
+            "author": "Marco Bianchi",
+            "date": "October 14, 2023",
+            "readTime": "4 min read",
+            "category": "Food",
+            "image": "https://images.unsplash.com/photo-xxx",
+            "tags": ["Gelato", "Foodie", "Local Secrets"]
+          },
+          "content": {
+            "intro": "In Italy, gelato is not just a dessert; it's a daily ritual...",
+            "sections": [
+              { "title": "The Art of the Scoop", "text": "True artisanal gelato..." }
+            ]
+          }
+        }
+      },
+      "blog-index": {
+        "description": "Blog listing page with categories and featured posts",
+        "note": "Automatically renders from blog collection"
+      }
+    },
+
+    "template": {
+      "itinerary-hero": {
+        "description": "Hero for itinerary pages with duration and highlights"
+      },
+      "itinerary-days": {
+        "description": "Day-by-day itinerary breakdown"
+      },
+      "team-grid": {
+        "description": "Team member grid layout"
+      },
+      "airports-overview": {
+        "description": "Airport and transportation information"
+      },
+      "collection-with-interludes": {
+        "description": "Collection items with editorial breaks between",
+        "props": {
+          "collectionType": { "type": "string", "enum": ["restaurants", "accommodations", "hikes", "pois"] },
+          "village": { "type": "string" },
+          "interludes": {
+            "type": "array",
+            "items": {
+              "afterIndex": "number",
+              "type": "editorial-interlude | editor-note",
+              "content": "object"
+            }
+          }
+        }
+      },
+      "weather-live": {
+        "description": "Live weather data display"
+      },
+      "weather-journal": {
+        "description": "Weather history and seasonal patterns"
+      }
+    }
+  },
+
+  "collections": {
+    "restaurants": {
+      "description": "Restaurant data for Cinque Terre villages",
+      "required_fields": ["name", "slug", "location", "village", "ratings", "details"],
+      "key_fields": {
+        "name": "Restaurant name",
+        "slug": "URL-friendly identifier (lowercase, hyphens)",
+        "village": "Riomaggiore | Manarola | Corniglia | Vernazza | Monterosso",
+        "details.cuisine_type": "Array of cuisine types",
+        "details.price_range.level": "€ | €€ | €€€ | €€€€",
+        "details.atmosphere": "Description of the ambiance",
+        "ratings.average_rating": "0-5 aggregate rating",
+        "ratings.google": "{ rating, review_count, url }",
+        "ratings.tripadvisor": "{ rating, review_count, url }",
+        "menu.specialties": "Array of specialty dishes",
+        "menu.signature_dishes": "Array of { name, description, price_eur }",
+        "tips": "Array of insider tips"
+      }
+    },
+    "accommodations": {
+      "description": "Hotels, B&Bs, and apartments in Cinque Terre",
+      "required_fields": ["name", "slug", "type", "village", "location", "ratings", "pricing"],
+      "key_fields": {
+        "type.category": "Hotel | B&B | Apartment | Guesthouse | Hostel | Villa | Room Rental",
+        "type.star_rating": "1-5 star rating",
+        "type.property_class": "Luxury | Boutique | Mid-Range | Budget | Vacation Rental",
+        "pricing.price_level": "€ | €€ | €€€ | €€€€",
+        "pricing.average_nightly_rate": "Integer in EUR",
+        "amenities": "{ general, room_amenities, services, outdoor, breakfast, parking, pets }",
+        "policies": "{ check_in, check_out, minimum_stay, smoking }",
+        "rooms_units": "{ total_rooms, room_types[] }"
+      }
+    },
+    "hikes": {
+      "description": "Hiking trail data for Cinque Terre",
+      "required_fields": ["name", "slug", "category", "popularity", "route", "metrics", "difficulty", "trail_conditions", "access_and_fees", "ratings"],
+      "key_fields": {
+        "category.primary": "Coastal Path | Mountain Trail | Sanctuary Trail | Village Connection | Ridge Walk",
+        "metrics.distance": "{ km, miles }",
+        "metrics.duration": "{ minimum_hours, average_hours, leisurely_hours }",
+        "metrics.elevation": "{ gain_m, loss_m, max_altitude_m, min_altitude_m }",
+        "difficulty.overall_rating": "easy | moderate | difficult | very-difficult | expert",
+        "difficulty.difficulty_score": "1-10",
+        "trail_conditions.current_status": "open | partially-open | closed | unknown",
+        "safety.overall_safety": "very-safe | safe | moderate-risk | risky | dangerous",
+        "route.start_point": "{ name, location, coordinates }",
+        "route.end_point": "{ name, location, coordinates }",
+        "route.waypoints": "Array of notable points along trail",
+        "highlights.viewpoints": "Array of scenic viewpoints",
+        "access_and_fees.cinque_terre_card_valid": "boolean"
+      }
+    },
+    "events": {
+      "description": "Local events and festivals",
+      "key_fields": {
+        "name": "Event name",
+        "village": "Which village hosts the event",
+        "date": "Event date or date range",
+        "category": "Festival | Religious | Cultural | Food & Wine | Music",
+        "description": "What the event is about"
+      }
+    },
+    "pois": {
+      "description": "Points of Interest - sights, landmarks, attractions",
+      "key_fields": {
+        "name": "POI name",
+        "village": "Which village it's in",
+        "category": "Church | Monument | Viewpoint | Beach | Historic Site",
+        "description": "What to see/do there"
+      }
+    },
+    "villages": {
+      "description": "Core village information",
+      "key_fields": {
+        "name": "Village name",
+        "slug": "URL slug",
+        "description": "Overview of the village",
+        "character": "The village's personality/vibe",
+        "population": "Number of residents"
+      }
+    }
+  },
+
+  "page_structure": {
+    "description": "Standard page JSON structure",
+    "schema": {
+      "id": "UUID",
+      "slug": "LocalizedString - e.g., { en: '/en/path', de: '/de/path' }",
+      "title": "LocalizedString",
+      "page_type": "language_root | village | hub | blog-article | collection",
+      "seo": {
+        "title": "LocalizedString",
+        "description": "LocalizedString"
+      },
+      "template": "string - which page template to use",
+      "body": "Array of block objects with { type: BlockType, ...props }",
+      "metadata": "object - additional page metadata",
+      "status": "draft | in_review | published",
+      "created_at": "ISO date string",
+      "updated_at": "ISO date string"
+    }
+  },
+
+  "localization": {
+    "description": "Multi-language content pattern",
+    "supported_languages": ["en", "de", "fr", "it"],
+    "LocalizedString": {
+      "type": "object",
+      "example": {
+        "en": "English text",
+        "de": "German text",
+        "fr": "French text",
+        "it": "Italian text"
+      }
+    },
+    "notes": [
+      "All user-facing text should use LocalizedString",
+      "English (en) is the primary/fallback language",
+      "URLs should be prefixed with language code: /en/path, /de/path"
+    ]
+  },
+
+  "editorial_voice": {
+    "brand": "Cinque Terre Dispatch",
+    "tone": "Warm, knowledgeable, and evocative. We write like a trusted local friend sharing secrets.",
+    "persona": {
+      "name": "Giulia Rossi",
+      "role": "Local Editor",
+      "voice": "Personal, insider perspective. Uses 'I' and 'we'. Shares genuine local knowledge."
+    },
+    "guidelines": [
+      "Avoid tourist cliches - we reveal the authentic Cinque Terre",
+      "Use sensory language - colors, sounds, smells, tastes",
+      "Include practical tips alongside poetic descriptions",
+      "Reference local traditions, seasonal rhythms, and history",
+      "Write for curious travelers, not mass tourists",
+      "Embrace the slow travel philosophy"
+    ],
+    "example_intro": "The morning light in Riomaggiore has a particular quality - the way it catches the ochre and pink facades, the sound of fishing boats returning, the scent of fresh focaccia from the bakery on Via Colombo. This is when the village belongs to those who stay."
+  }
+}

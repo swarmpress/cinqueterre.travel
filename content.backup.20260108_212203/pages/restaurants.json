@@ -1,0 +1,240 @@
+{
+  "id": "restaurants-listing-001",
+  "slug": {
+    "en": "/en/restaurants",
+    "de": "/de/restaurants",
+    "fr": "/fr/restaurants"
+  },
+  "title": {
+    "en": "Cinque Terre Restaurants: Where Ligurian Tradition Meets Coastal Elegance"
+  },
+  "page_type": "collection",
+  "template": "cinque-terre-editorial",
+  "seo": {
+    "title": {
+      "en": "Best Restaurants Cinque Terre | Fine Dining | Cinqueterre.travel"
+    },
+    "description": {
+      "en": "Discover exceptional restaurants in Cinque Terre, from Michelin-starred dining to family trattorias. Fresh seafood, handmade pasta, and stunning views."
+    }
+  },
+  "body": [
+    {
+      "type": "editorial-hero",
+      "badge": "Culinary Excellence",
+      "title": "A Feast for the Senses<br/>in the Five Lands",
+      "subtitle": "From family-run trattorias serving grandmother's recipes to Michelin-starred establishments pushing culinary boundaries, discover where the treasures of land and sea unite in perfect harmony along these legendary cliffs.",
+      "image": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1748164795892-c85ed20da144-hero.jpg"
+    },
+    {
+      "type": "editorial-intro",
+      "content": "One hundred and six exceptional restaurants. Five UNESCO villages. Eight hundred years of culinary tradition. Three Michelin-recommended establishments. This is the gastronomic heart of Liguria—where pesto was born and every meal tells a story."
+    },
+    {
+      "type": "collection-embed",
+      "collectionType": "restaurants",
+      "heading": "Featured Restaurants",
+      "headingLevel": 2,
+      "items": [
+        {
+          "slug": "cecio",
+          "title": "Cecio",
+          "summary": "Authentic family recipes in the heart of Corniglia",
+          "url": "/cecio",
+          "village": "corniglia",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "ristorante-miky",
+          "title": "Ristorante Miky",
+          "summary": "Sophisticated seafood dining with panoramic coastal views",
+          "url": "/ristorante-miky",
+          "village": "monterosso",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "rio-bistrot",
+          "title": "Rio Bistrot",
+          "summary": "Michelin Guide contemporary restaurant with creative seafood dishes",
+          "url": "/rio-bistrot",
+          "village": "riomaggiore",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "gambero-rosso-vernazza",
+          "title": "Gambero Rosso",
+          "summary": "Waterfront dining with the freshest seafood in Vernazza's most scenic setting",
+          "url": "/gambero-rosso-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "osteria-mananan",
+          "title": "Osteria Mananan",
+          "summary": "Fine dining with breathtaking sea views",
+          "url": "/osteria-mananan",
+          "village": "corniglia",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "dau-cila",
+          "title": "Dau Cila",
+          "summary": "Romantic seaside dining with traditional Ligurian flavors and sea views",
+          "url": "/dau-cila",
+          "village": "riomaggiore",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "ristorante-belforte-vernazza",
+          "title": "Ristorante Belforte",
+          "summary": "Clifftop fine dining in a medieval tower with breathtaking Ligurian Sea views",
+          "url": "/ristorante-belforte-vernazza",
+          "village": "vernazza",
+          "data": {
+            "featured": true
+          }
+        },
+        {
+          "slug": "il-porticciolo",
+          "title": "Il Porticciolo",
+          "summary": "Refined seafood dining with harbor views and daily fresh catches",
+          "url": "/il-porticciolo",
+          "village": "manarola",
+          "data": {
+            "featured": true
+          }
+        }
+      ],
+      "display": {
+        "layout": "grid",
+        "columns": 3,
+        "showImage": true,
+        "showSummary": true,
+        "imageAspect": "landscape"
+      },
+      "showViewAll": true,
+      "viewAllUrl": "/restaurants"
+    },
+    {
+      "type": "content-section",
+      "id": "cuisine",
+      "variant": "text-with-image",
+      "image": "https://images.unsplash.com/photo-1563379091339-03246963d29b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200&q=80",
+      "eyebrow": "Ligurian Gastronomy",
+      "title": "The Soul of Cinque Terre Cuisine",
+      "content": "Mamma mia, where do I begin? Every morning in Cinque Terre starts with the same intoxicating ritual—fishermen returning with silvery catches while nonne emerge from ancient kitchens, their hands already dusted with flour for the day's pasta.\n\nThis is where pesto was born, dear friends. Not in some sterile commercial kitchen, but in the sun-drenched gardens of Liguria, where basil grows so aromatic it perfumes entire neighborhoods. Here, every restaurant tells a story through food—whether it's the century-old family recipe for trofie al pesto or the innovative interpretations earning Michelin recognition.\n\nThe magic lies in the marriage of mountain and sea. Wild herbs cascade down terraced cliffs to meet the Mediterranean's bounty. Farinata—that golden chickpea pancake—sizzles in wood-fired ovens while anchovies from Monterosso are transformed into colatura, Liguria's liquid gold.\n\nBook your table for sunset, when the golden hour transforms every meal into a masterpiece. The locals dine late here—8:30 PM is early—because great food, like great wine, cannot be rushed."
+    },
+    {
+      "type": "collection-with-interludes",
+      "heading": "What Makes Dining Here Extraordinary",
+      "headingLevel": 2,
+      "items": [
+        {
+          "type": "experience",
+          "icon": "wine",
+          "title": "Local Wine Pairings",
+          "description": "Crisp Vermentino and sweet Sciacchetra wines crafted from grapes grown on impossible terraces carved into cliffsides over centuries."
+        },
+        {
+          "type": "experience",
+          "icon": "fish",
+          "title": "Daily Fresh Catches",
+          "description": "Restaurants source directly from local fishermen—what was swimming this morning becomes your dinner, prepared with time-honored techniques."
+        },
+        {
+          "type": "interlude",
+          "content": "There's a moment, just after the antipasti arrives, when you realize this isn't merely a meal—it's a conversation with centuries of tradition, each bite telling stories of the sea and the terraced hills above."
+        },
+        {
+          "type": "experience",
+          "icon": "herb",
+          "title": "Garden-to-Table Herbs",
+          "description": "Wild fennel, marjoram, and basil harvested from ancient terraces add layers of flavor impossible to replicate elsewhere."
+        },
+        {
+          "type": "experience",
+          "icon": "chef",
+          "title": "Generational Recipes",
+          "description": "Family secrets passed down through centuries, from hand-rolled pasta techniques to the perfect balance of garlic in pesto."
+        },
+        {
+          "type": "interlude",
+          "content": "The nonne still make pasta by hand here. Watch their weathered fingers shape trofie with the speed of decades, and understand why some things cannot be rushed or mechanized."
+        },
+        {
+          "type": "experience",
+          "icon": "castle",
+          "title": "Historic Settings",
+          "description": "Dine in medieval towers, converted monasteries, and clifftop terraces where every meal comes with 800 years of history."
+        },
+        {
+          "type": "experience",
+          "icon": "sunset",
+          "title": "Unmatched Views",
+          "description": "Every restaurant offers a feast for the eyes—dramatic seascapes, vineyard vistas, and sunsets that paint the sky in impossible colors."
+        }
+      ]
+    },
+    {
+      "type": "faq-section",
+      "title": "Your Dining Questions Answered",
+      "faqs": [
+        {
+          "question": "Do I need reservations for Cinque Terre restaurants?",
+          "answer": "Absolutely, especially during peak season (April-October) and for dinner service. The best restaurants book weeks in advance. Even casual trattorias appreciate a call the morning of your visit. Pro tip: many restaurants close between 3-7 PM, so don't expect to walk in for an early dinner."
+        },
+        {
+          "question": "What's the typical dining schedule here?",
+          "answer": "Lunch runs 12:00-3:00 PM, with many kitchens closing by 2:30 PM. Dinner starts around 7:30 PM for tourists, though locals prefer 8:30-9:00 PM. Most restaurants close one day per week and may have seasonal closures, so always check ahead."
+        },
+        {
+          "question": "What should I expect to spend on a meal?",
+          "answer": "Casual trattorias: €25-40 per person for pasta and wine. Mid-range restaurants: €50-80 per person for antipasti, main course, and wine. Fine dining establishments: €80-150 per person for full tasting experiences. Fresh seafood commands premium prices, especially whole fish."
+        },
+        {
+          "question": "Are there vegetarian options in this seafood-focused region?",
+          "answer": "Surprisingly, yes! Ligurian cuisine offers incredible vegetarian dishes—pesto pasta (ensure no fish-based sauce), farinata, focaccia col formaggio, and numerous veggie-based antipasti. Most restaurants are happy to accommodate, though always mention dietary needs when booking."
+        },
+        {
+          "question": "Which village has the best restaurant scene?",
+          "answer": "Each village offers distinct experiences: Monterosso has the most options and fine dining; Vernazza delivers unbeatable harbor views; Corniglia offers the best value with locals' favorites; Manarola balances romance with quality; Riomaggiore surprises with innovative kitchens. Try multiple villages!"
+        },
+        {
+          "question": "When is the best time to visit for food lovers?",
+          "answer": "Late spring (May-June) and early autumn (September-October) offer perfect weather, full seasonal menus, and fewer crowds. Summer brings energy but requires advance planning. Winter (November-March) sees many closures, but remaining restaurants offer intimate experiences with locals."
+        }
+      ]
+    },
+    {
+      "type": "closing-note",
+      "title": "Ready to Taste Cinque Terre?",
+      "content": "Let our local dining experts craft the perfect culinary journey for your visit. From securing impossible-to-get reservations to arranging private cooking classes, we'll ensure every meal becomes a treasured memory.",
+      "primaryButton": {
+        "text": "Plan My Culinary Journey",
+        "url": "/en/team"
+      },
+      "secondaryButton": {
+        "text": "Browse All Restaurants",
+        "url": "/restaurants"
+      }
+    }
+  ],
+  "metadata": {
+    "page_type": "collection"
+  },
+  "status": "published",
+  "created_at": "2025-12-12T22:00:00.000Z",
+  "updated_at": "2025-12-16T13:11:30.241Z"
+}

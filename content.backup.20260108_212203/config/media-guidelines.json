@@ -1,0 +1,311 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cinque Terre Media Guidelines",
+  "description": "Image search queries, style guidelines, and asset specifications for MediaAgent",
+  "version": "1.0.0",
+
+  "brand_visual_identity": {
+    "description": "Visual style for Cinque Terre Dispatch",
+    "mood": "Warm, Mediterranean, editorial luxury, authentic",
+    "color_palette": {
+      "primary": ["Ochre", "Terracotta", "Mediterranean Blue", "Olive Green"],
+      "accent": ["Coral", "Golden Hour Yellow", "Sea Foam"],
+      "neutrals": ["Stone", "Parchment", "Slate"]
+    },
+    "photography_style": {
+      "lighting": "Golden hour, soft natural light, dappled shadows",
+      "composition": "Editorial, documentary-style, atmospheric",
+      "avoid": ["Over-saturated colors", "Tourist selfie angles", "Generic stock poses"],
+      "prefer": ["Authentic moments", "Architectural details", "Local life", "Intimate scenes"]
+    },
+    "image_treatments": {
+      "hero_images": "High contrast, cinematic, wide aspect ratio",
+      "gallery_images": "Consistent white balance, natural colors",
+      "editorial_portraits": "Environmental, contextual, not studio"
+    }
+  },
+
+  "village_imagery": {
+    "Riomaggiore": {
+      "description": "The dramatic easternmost village with colorful cliffside houses",
+      "search_queries": [
+        "Riomaggiore colorful houses cliff",
+        "Riomaggiore harbor sunset",
+        "Riomaggiore marina fishing boats",
+        "Riomaggiore terraced vineyards",
+        "Riomaggiore Via Colombo street"
+      ],
+      "iconic_shots": [
+        "View from the main road above the village",
+        "Colorful houses reflected in harbor water",
+        "Sunset over the marina",
+        "Looking up from the harbor"
+      ],
+      "colors": "Pink, ochre, yellow houses against blue sea",
+      "best_light": "Sunset (west-facing harbor)"
+    },
+    "Manarola": {
+      "description": "Famous for wine terraces and Christmas lights nativity",
+      "search_queries": [
+        "Manarola village view classic",
+        "Manarola terraces vineyards",
+        "Manarola harbor boats sunset",
+        "Manarola church San Lorenzo",
+        "Manarola Punta Bonfiglio viewpoint"
+      ],
+      "iconic_shots": [
+        "Classic postcard view from Punta Bonfiglio",
+        "Terraced hillside with colorful houses",
+        "Sunset reflection in the small harbor",
+        "Via Discovolo wine bars"
+      ],
+      "colors": "Pastel palette - pink, coral, yellow, green",
+      "best_light": "Golden hour from the south viewpoint"
+    },
+    "Corniglia": {
+      "description": "The hidden hilltop village - only one not at sea level",
+      "search_queries": [
+        "Corniglia village Cinque Terre hilltop",
+        "Corniglia 382 steps Lardarina",
+        "Corniglia vineyard terraces view",
+        "Corniglia church San Pietro",
+        "Corniglia panoramic sea view"
+      ],
+      "iconic_shots": [
+        "Village perched on the cliff from below",
+        "Looking down the famous staircase",
+        "Panoramic sea view from the terrace",
+        "Narrow cobblestone Via Fieschi"
+      ],
+      "colors": "Muted terracotta, stone, green vineyards",
+      "best_light": "Morning (east-facing location)",
+      "note": "Less photographed - more authentic feel"
+    },
+    "Vernazza": {
+      "description": "The most picturesque village with natural harbor and Doria Castle",
+      "search_queries": [
+        "Vernazza harbor castle view",
+        "Vernazza Doria Tower sunset",
+        "Vernazza Piazza Marconi",
+        "Vernazza Santa Margherita church",
+        "Vernazza natural harbor boats"
+      ],
+      "iconic_shots": [
+        "Classic view from the hiking trail above",
+        "Doria Castle silhouette at sunset",
+        "Harbor with fishing boats and church",
+        "Piazza Marconi with outdoor dining"
+      ],
+      "colors": "Warm ochre, burnt orange, seafoam green",
+      "best_light": "Late afternoon (west-facing harbor)"
+    },
+    "Monterosso": {
+      "description": "The largest village with sandy beaches and resort feel",
+      "search_queries": [
+        "Monterosso beach Cinque Terre",
+        "Monterosso old town Fegina",
+        "Monterosso Giant statue Neptune",
+        "Monterosso beach umbrellas",
+        "Monterosso lemon groves"
+      ],
+      "iconic_shots": [
+        "Beach with colorful umbrellas",
+        "The Giant (Neptune statue) carved in cliff",
+        "Old town narrow streets",
+        "Beach view from above"
+      ],
+      "colors": "Beach tones - sand, blue, white umbrellas",
+      "best_light": "Midday for beach, sunset for old town"
+    }
+  },
+
+  "content_type_imagery": {
+    "restaurants": {
+      "search_queries": [
+        "Italian trattoria outdoor dining",
+        "Ligurian seafood cuisine plate",
+        "pesto Genovese fresh basil",
+        "Italian wine bar aperitivo",
+        "fresh anchovy seafood Liguria",
+        "focaccia Italian bread olive oil"
+      ],
+      "shot_types": {
+        "hero": "Atmospheric exterior or table setting with view",
+        "food": "Close-up of signature dishes, natural light",
+        "ambiance": "Interior showing character and mood"
+      },
+      "avoid": ["Generic food stock", "Studio-lit food", "Empty restaurants"]
+    },
+    "accommodations": {
+      "search_queries": [
+        "boutique hotel sea view Italy",
+        "Italian bed breakfast terrace",
+        "colorful Italian apartment balcony",
+        "Mediterranean bedroom interior",
+        "Italian hotel breakfast"
+      ],
+      "shot_types": {
+        "hero": "Exterior with view or best room feature",
+        "room": "Well-lit interior showing character",
+        "view": "What guests see from the room/terrace"
+      },
+      "avoid": ["Sterile hotel chain aesthetics", "Dark interiors"]
+    },
+    "hikes": {
+      "search_queries": [
+        "Cinque Terre hiking trail coastal",
+        "Sentiero Azzurro Blue Trail",
+        "Italian Riviera hiking viewpoint",
+        "Mediterranean coast path walker",
+        "terraced hillside vineyard trail"
+      ],
+      "shot_types": {
+        "hero": "Dramatic trail view with sea/village",
+        "detail": "Trail surface, signage, difficulty features",
+        "viewpoint": "What hikers see at key spots"
+      },
+      "include_people": "Yes - shows scale and human experience",
+      "avoid": ["Crowds on trail", "Unhappy hikers"]
+    },
+    "blog_articles": {
+      "hero_image": {
+        "requirements": "High resolution (min 1920px), 16:9 ratio, editorial quality",
+        "style": "Cinematic, atmospheric, evocative of the article topic"
+      },
+      "inline_images": {
+        "requirements": "Support the narrative, varied aspect ratios",
+        "style": "Documentary, authentic, detail-oriented"
+      }
+    }
+  },
+
+  "ai_image_generation": {
+    "description": "Guidelines for using generate_image tool",
+    "when_to_use": [
+      "Abstract or conceptual illustrations",
+      "Custom compositions not available as stock",
+      "Artistic interpretations of themes",
+      "Infographic backgrounds"
+    ],
+    "when_not_to_use": [
+      "Real village views (use stock photos for authenticity)",
+      "Specific restaurants or hotels",
+      "Named landmarks or buildings",
+      "Content requiring photographic accuracy"
+    ],
+    "prompt_guidelines": {
+      "include": [
+        "Specific colors from brand palette",
+        "Lighting direction and quality",
+        "Mood and atmosphere",
+        "Aspect ratio requirements"
+      ],
+      "style_keywords": [
+        "Mediterranean",
+        "Italian Riviera",
+        "Golden hour",
+        "Editorial photography style",
+        "Warm color palette",
+        "Soft natural lighting"
+      ],
+      "example_prompts": [
+        {
+          "purpose": "Hero illustration for gelato article",
+          "prompt": "Artisanal Italian gelato in waffle cone, Mediterranean summer setting, warm golden hour lighting, soft focus background with colorful Italian buildings, editorial food photography style"
+        },
+        {
+          "purpose": "Abstract travel mood",
+          "prompt": "Mediterranean coastal landscape, terraced vineyards meeting azure sea, warm ochre and terracotta tones, cinematic wide angle, golden hour, impressionistic style"
+        }
+      ]
+    }
+  },
+
+  "stock_photo_sources": {
+    "primary": {
+      "unsplash": {
+        "description": "High-quality free photos, good Cinque Terre coverage",
+        "pros": ["Free commercial use", "High resolution", "Good travel content"],
+        "search_tips": "Use specific village names + descriptors"
+      },
+      "pexels": {
+        "description": "Free photos, video clips available",
+        "pros": ["Free commercial use", "Consistent quality"],
+        "search_tips": "Good for generic Italian/Mediterranean scenes"
+      }
+    },
+    "premium_if_needed": {
+      "shutterstock": "Large Italian library, editorial content",
+      "getty_images": "Premium editorial, specific events"
+    }
+  },
+
+  "technical_specifications": {
+    "hero_images": {
+      "min_width": 1920,
+      "aspect_ratio": "16:9",
+      "format": "WebP with JPEG fallback",
+      "max_file_size": "500KB after optimization"
+    },
+    "gallery_images": {
+      "min_width": 1200,
+      "aspect_ratio": "Mixed (photographer's choice)",
+      "format": "WebP",
+      "max_file_size": "300KB after optimization"
+    },
+    "thumbnails": {
+      "sizes": {
+        "small": 150,
+        "medium": 300,
+        "large": 600
+      },
+      "aspect_ratio": "1:1 (square) for consistency",
+      "format": "WebP"
+    },
+    "optimization": {
+      "tool": "Sharp or ImageMagick",
+      "quality": 80,
+      "strip_metadata": true,
+      "progressive": true
+    }
+  },
+
+  "alt_text_guidelines": {
+    "structure": "[Subject] [action/state] [location context]",
+    "examples": [
+      {
+        "image": "Vernazza harbor sunset",
+        "good_alt": "Colorful fishing boats moored in Vernazza's natural harbor at sunset",
+        "bad_alt": "Beautiful sunset photo"
+      },
+      {
+        "image": "Pesto being made",
+        "good_alt": "Traditional Ligurian pesto being ground in marble mortar with fresh basil leaves",
+        "bad_alt": "Italian food"
+      },
+      {
+        "image": "Hiking trail",
+        "good_alt": "Hiker on the coastal trail between Monterosso and Vernazza with sea view",
+        "bad_alt": "Person hiking"
+      }
+    ],
+    "include": [
+      "Location when identifiable",
+      "Action or state of subjects",
+      "Relevant descriptive details",
+      "Context for the content"
+    ],
+    "avoid": [
+      "Starting with 'Image of' or 'Photo of'",
+      "Redundant information visible in caption",
+      "Overly long descriptions (aim for 125 characters)"
+    ]
+  },
+
+  "attribution_format": {
+    "unsplash": "Photo by {photographer_name} on Unsplash",
+    "pexels": "Photo by {photographer_name} on Pexels",
+    "generated": "Illustration by Cinque Terre Dispatch",
+    "placement": "In image caption or article footer"
+  }
+}
