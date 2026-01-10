@@ -1624,6 +1624,53 @@
               "additionalProperties": false
             },
             "default": []
+          },
+          "editorial": {
+            "type": "object",
+            "description": "Editorial content from local experts",
+            "properties": {
+              "giuliaComment": {
+                "type": "object",
+                "description": "Giulia's personal commentary",
+                "properties": {
+                  "en": { "type": "string" },
+                  "de": { "type": "string" },
+                  "fr": { "type": "string" },
+                  "it": { "type": "string" }
+                }
+              },
+              "signature": {
+                "type": "object",
+                "description": "Signature characteristic or moment",
+                "properties": {
+                  "en": { "type": "string" },
+                  "de": { "type": "string" },
+                  "fr": { "type": "string" },
+                  "it": { "type": "string" }
+                }
+              },
+              "intro": {
+                "type": "object",
+                "description": "Brief editorial introduction",
+                "properties": {
+                  "en": { "type": "string" },
+                  "de": { "type": "string" },
+                  "fr": { "type": "string" },
+                  "it": { "type": "string" }
+                }
+              },
+              "practicalInfo": {
+                "type": "object",
+                "description": "Practical visitor information",
+                "properties": {
+                  "en": { "type": "string" },
+                  "de": { "type": "string" },
+                  "fr": { "type": "string" },
+                  "it": { "type": "string" }
+                }
+              }
+            },
+            "additionalProperties": false
           }
         },
         "additionalProperties": false
@@ -1674,6 +1721,26 @@
         "closed",
         "unknown"
       ]
+    },
+    "editorial.giuliaComment": {
+      "type": "textarea",
+      "label": "Giulia's Comment",
+      "helpText": "Personal commentary from local expert Giulia"
+    },
+    "editorial.signature": {
+      "type": "text",
+      "label": "Signature Moment",
+      "helpText": "The defining characteristic or experience"
+    },
+    "editorial.intro": {
+      "type": "textarea",
+      "label": "Editorial Intro",
+      "helpText": "Brief editorial introduction"
+    },
+    "editorial.practicalInfo": {
+      "type": "textarea",
+      "label": "Practical Info",
+      "helpText": "Practical visitor information"
     }
   },
   "title_field": "name",
