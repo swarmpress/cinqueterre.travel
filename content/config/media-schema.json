@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "media-index-schema",
+  "title": "Media Index Schema",
+  "description": "Schema for the Website Knowledge Index (WKI) media registry",
+  "type": "object",
+  "required": ["version", "lastUpdated", "images", "categories", "villages"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/MediaImage"
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "subcategories": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "villages": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "moods": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "timeOfDay": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "seasons": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "$defs": {
+    "LocalizedString": {
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string" },
+        "de": { "type": "string" },
+        "fr": { "type": "string" },
+        "it": { "type": "string" }
+      }
+    },
+    "MediaTags": {
+      "type": "object",
+      "required": ["village", "category"],
+      "properties": {
+        "village": {
+          "type": "string",
+          "description": "The village this image belongs to (riomaggiore, manarola, corniglia, vernazza, monterosso, or 'region' for general Cinque Terre)"
+        },
+        "category": {
+          "type": "string",
+          "description": "Primary category (sights, beaches, trails, food, accommodations, transport, events, culture)"
+        },
+        "subcategory": {
+          "type": "string",
+          "description": "Specific subcategory within the category"
+        },
+        "timeOfDay": {
+          "type": "string",
+          "enum": ["sunrise", "daylight", "golden-hour", "sunset", "blue-hour", "night"]
+        },
+        "season": {
+          "type": "string",
+          "enum": ["spring", "summer", "autumn", "winter", "all"]
+        },
+        "mood": {
+          "type": "string",
+          "description": "Emotional tone of the image"
+        }
+      }
+    },
+    "MediaImage": {
+      "type": "object",
+      "required": ["id", "url", "tags", "license"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Unique identifier for this image (lowercase, hyphens only)"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Full URL to the image"
+        },
+        "tags": {
+          "$ref": "#/$defs/MediaTags"
+        },
+        "alt": {
+          "$ref": "#/$defs/LocalizedString",
+          "description": "Alt text for accessibility"
+        },
+        "license": {
+          "type": "string",
+          "enum": ["unsplash", "pexels", "owned", "stock", "creative-commons", "editorial"],
+          "description": "License type for usage rights"
+        },
+        "photographer": {
+          "type": "string",
+          "description": "Photographer name for attribution"
+        },
+        "photographerUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Link to photographer profile"
+        },
+        "dimensions": {
+          "type": "object",
+          "properties": {
+            "width": { "type": "integer" },
+            "height": { "type": "integer" }
+          }
+        },
+        "dominantColors": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Hex color codes for dominant colors"
+        },
+        "usedIn": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of files/components where this image is used"
+        }
+      }
+    }
+  }
+}

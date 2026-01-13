@@ -1,0 +1,150 @@
+{
+  "$schema": "./linking-policy-schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-13T10:00:00.000Z",
+  "description": "Linking policies for content blocks - defines min/max internal links and allowed targets",
+  "policies": {
+    "paragraph": {
+      "minLinks": 0,
+      "maxLinks": 3,
+      "allowedTargets": ["villages", "hikes", "restaurants", "accommodations", "sights"],
+      "anchorTextRules": "Use descriptive anchor text that describes the destination page. Avoid generic text like 'click here' or 'read more'."
+    },
+    "hero": {
+      "minLinks": 0,
+      "maxLinks": 2,
+      "allowedTargets": ["villages", "itinerary"],
+      "anchorTextRules": "CTA-style text like 'Explore Riomaggiore' or 'Plan Your Trip'"
+    },
+    "editorial-hero": {
+      "minLinks": 0,
+      "maxLinks": 1,
+      "allowedTargets": ["villages", "itinerary"],
+      "anchorTextRules": "Single prominent CTA if present"
+    },
+    "village-intro": {
+      "minLinks": 2,
+      "maxLinks": 5,
+      "allowedTargets": ["restaurants", "accommodations", "hikes", "beaches", "sights"],
+      "anchorTextRules": "Link to village subsections naturally within the narrative"
+    },
+    "faq": {
+      "minLinks": 1,
+      "maxLinks": 5,
+      "allowedTargets": ["villages", "hikes", "transport", "weather"],
+      "anchorTextRules": "Link relevant terms in answers to help users find more information"
+    },
+    "places-to-stay": {
+      "minLinks": 1,
+      "maxLinks": 3,
+      "allowedTargets": ["accommodations", "villages"],
+      "anchorTextRules": "Link to individual accommodation pages or village overview"
+    },
+    "eat-drink": {
+      "minLinks": 1,
+      "maxLinks": 3,
+      "allowedTargets": ["restaurants", "villages", "culinary"],
+      "anchorTextRules": "Link to individual restaurant pages or culinary guides"
+    },
+    "featured-carousel": {
+      "minLinks": 3,
+      "maxLinks": 8,
+      "allowedTargets": ["villages", "blog", "itinerary"],
+      "anchorTextRules": "Each carousel item should link to its detail page"
+    },
+    "village-selector": {
+      "minLinks": 5,
+      "maxLinks": 5,
+      "allowedTargets": ["villages"],
+      "anchorTextRules": "Village name as anchor text"
+    },
+    "highlights": {
+      "minLinks": 2,
+      "maxLinks": 6,
+      "allowedTargets": ["villages", "hikes", "beaches", "sights"],
+      "anchorTextRules": "Highlight title or descriptive phrase"
+    },
+    "itinerary-days": {
+      "minLinks": 4,
+      "maxLinks": 15,
+      "allowedTargets": ["villages", "hikes", "restaurants", "accommodations"],
+      "anchorTextRules": "Link each village and activity mentioned to its dedicated page"
+    },
+    "collection-with-interludes": {
+      "minLinks": 2,
+      "maxLinks": 10,
+      "allowedTargets": ["villages", "restaurants", "accommodations"],
+      "anchorTextRules": "Link collection items and relevant village references"
+    },
+    "cta-section": {
+      "minLinks": 1,
+      "maxLinks": 2,
+      "allowedTargets": ["itinerary", "accommodations", "restaurants"],
+      "anchorTextRules": "Action-oriented text: 'Book Now', 'View Itinerary', 'Browse Hotels'"
+    },
+    "testimonial-section": {
+      "minLinks": 0,
+      "maxLinks": 1,
+      "allowedTargets": ["villages", "itinerary"],
+      "anchorTextRules": "Optional link to related content mentioned in testimonial"
+    },
+    "newsletter": {
+      "minLinks": 0,
+      "maxLinks": 0,
+      "allowedTargets": [],
+      "anchorTextRules": "No internal links - focus on signup action"
+    },
+    "gallery": {
+      "minLinks": 0,
+      "maxLinks": 1,
+      "allowedTargets": ["villages", "sights"],
+      "anchorTextRules": "Optional 'View all photos' or similar"
+    },
+    "image": {
+      "minLinks": 0,
+      "maxLinks": 1,
+      "allowedTargets": ["villages", "sights", "hikes"],
+      "anchorTextRules": "Optional link in caption if relevant"
+    }
+  },
+  "globalRules": {
+    "maxLinksPerPage": 50,
+    "minLinksPerPage": 5,
+    "avoidLinkingTo": ["404", "search", "login"],
+    "preferredTargetDistribution": {
+      "villages": 0.3,
+      "hikes": 0.2,
+      "restaurants": 0.15,
+      "accommodations": 0.15,
+      "other": 0.2
+    }
+  },
+  "anchorTextGuidelines": {
+    "avoid": [
+      "click here",
+      "read more",
+      "learn more",
+      "this link",
+      "here",
+      "more info"
+    ],
+    "prefer": [
+      "descriptive phrases",
+      "page titles",
+      "entity names",
+      "action verbs with context"
+    ],
+    "examples": {
+      "good": [
+        "explore the colorful harbor of Riomaggiore",
+        "hiking the Sentiero Azzurro",
+        "best restaurants in Manarola"
+      ],
+      "bad": [
+        "click here for more",
+        "read more about it",
+        "this page"
+      ]
+    }
+  }
+}

@@ -1,0 +1,5033 @@
+{
+  "$schema": "./media-schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-13T08:26:04.479Z",
+  "images": [
+    {
+      "id": "riomaggiore-hero-001",
+      "url": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "subcategory": "village-overview",
+        "timeOfDay": "daylight",
+        "season": "all",
+        "mood": "vibrant"
+      },
+      "alt": {
+        "en": "Riomaggiore colorful houses on the cliff",
+        "de": "Riomaggiore bunte Häuser an der Klippe",
+        "fr": "Maisons colorées de Riomaggiore sur la falaise",
+        "it": "Case colorate di Riomaggiore sulla scogliera"
+      },
+      "license": "unsplash",
+      "photographer": "Unknown",
+      "dimensions": {
+        "width": 2670,
+        "height": 1780
+      },
+      "usedIn": [
+        "riomaggiore.json:hero",
+        "riomaggiore.json:leadStory"
+      ]
+    },
+    {
+      "id": "manarola-hero-001",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "subcategory": "village-overview",
+        "timeOfDay": "sunset",
+        "season": "all",
+        "mood": "romantic"
+      },
+      "alt": {
+        "en": "Manarola at sunset with colorful buildings",
+        "de": "Manarola bei Sonnenuntergang mit bunten Gebäuden",
+        "fr": "Manarola au coucher du soleil avec des bâtiments colorés",
+        "it": "Manarola al tramonto con edifici colorati"
+      },
+      "license": "unsplash",
+      "photographer": "Unknown",
+      "dimensions": {
+        "width": 2574,
+        "height": 1716
+      },
+      "usedIn": [
+        "manarola.json:hero",
+        "manarola.json:leadStory"
+      ]
+    },
+    {
+      "id": "corniglia-hero-001",
+      "url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?q=80&w=2676&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "subcategory": "village-overview",
+        "timeOfDay": "daylight",
+        "season": "all",
+        "mood": "serene"
+      },
+      "alt": {
+        "en": "Corniglia perched high on the cliffs",
+        "de": "Corniglia hoch auf den Klippen thronend",
+        "fr": "Corniglia perchée sur les falaises",
+        "it": "Corniglia arroccata sulle scogliere"
+      },
+      "license": "unsplash",
+      "photographer": "Unknown",
+      "dimensions": {
+        "width": 2676,
+        "height": 1784
+      },
+      "usedIn": [
+        "corniglia.json:hero"
+      ]
+    },
+    {
+      "id": "corniglia-leadstory-001",
+      "url": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "subcategory": "streets",
+        "timeOfDay": "daylight",
+        "season": "all",
+        "mood": "authentic"
+      },
+      "alt": {
+        "en": "Corniglia village streets and architecture",
+        "de": "Corniglia Dorfstraßen und Architektur",
+        "fr": "Rues et architecture du village de Corniglia",
+        "it": "Strade e architettura del villaggio di Corniglia"
+      },
+      "license": "unsplash",
+      "photographer": "Unknown",
+      "dimensions": {
+        "width": 2670,
+        "height": 1780
+      },
+      "usedIn": [
+        "corniglia.json:leadStory"
+      ]
+    },
+    {
+      "id": "vernazza-hero-001",
+      "url": "https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "subcategory": "harbor",
+        "timeOfDay": "daylight",
+        "season": "all",
+        "mood": "iconic"
+      },
+      "alt": {
+        "en": "Vernazza harbor with colorful buildings",
+        "de": "Vernazza Hafen mit bunten Gebäuden",
+        "fr": "Port de Vernazza avec des bâtiments colorés",
+        "it": "Porto di Vernazza con edifici colorati"
+      },
+      "license": "unsplash",
+      "photographer": "Unknown",
+      "dimensions": {
+        "width": 2670,
+        "height": 1780
+      },
+      "usedIn": [
+        "vernazza.json:hero"
+      ]
+    },
+    {
+      "id": "vernazza-leadstory-001",
+      "url": "https://images.unsplash.com/photo-1592345279419-959d784e8aad?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "subcategory": "tower",
+        "timeOfDay": "daylight",
+        "season": "all",
+        "mood": "historic"
+      },
+      "alt": {
+        "en": "Vernazza medieval tower and harbor view",
+        "de": "Vernazza mittelalterlicher Turm und Hafenblick",
+        "fr": "Tour médiévale de Vernazza et vue sur le port",
+        "it": "Torre medievale di Vernazza e vista sul porto"
+      },
+      "license": "unsplash",
+      "photographer": "Unknown",
+      "dimensions": {
+        "width": 2670,
+        "height": 1780
+      },
+      "usedIn": [
+        "vernazza.json:leadStory"
+      ]
+    },
+    {
+      "id": "monterosso-hero-001",
+      "url": "https://images.unsplash.com/photo-1555979863-69fb96e63359?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "beaches",
+        "subcategory": "beach-overview",
+        "timeOfDay": "daylight",
+        "season": "summer",
+        "mood": "relaxed"
+      },
+      "alt": {
+        "en": "Monterosso beach and old town",
+        "de": "Monterosso Strand und Altstadt",
+        "fr": "Plage de Monterosso et vieille ville",
+        "it": "Spiaggia di Monterosso e centro storico"
+      },
+      "license": "unsplash",
+      "photographer": "Unknown",
+      "dimensions": {
+        "width": 2670,
+        "height": 1780
+      },
+      "usedIn": [
+        "monterosso.json:hero",
+        "monterosso.json:leadStory"
+      ]
+    },
+    {
+      "id": "vernazza-hero-14996783",
+      "url": "https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "subcategory": "village-overview",
+        "season": "all"
+      },
+      "alt": {
+        "en": "Vernazza harbor with colorful buildings",
+        "de": "Vernazza Hafen mit bunten Gebäuden",
+        "fr": "Port de Vernazza avec des bâtiments colorés",
+        "it": "Porto di Vernazza con edifici colorati"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "villages/villages/vernazza.json:hero"
+      ]
+    },
+    {
+      "id": "vernazza-leadstory-15923452",
+      "url": "https://images.unsplash.com/photo-1592345279419-959d784e8aad?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "subcategory": "editorial",
+        "season": "all"
+      },
+      "alt": {
+        "en": "Vernazza harbor with colorful buildings",
+        "de": "Vernazza Hafen mit bunten Gebäuden",
+        "fr": "Port de Vernazza avec des bâtiments colorés",
+        "it": "Porto di Vernazza con edifici colorati"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "villages/villages/vernazza.json:leadStory"
+      ]
+    },
+    {
+      "id": "riomaggiore-hero-15344458",
+      "url": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "subcategory": "village-overview",
+        "season": "all"
+      },
+      "alt": {
+        "en": "Riomaggiore colorful houses on the cliff",
+        "de": "Riomaggiore bunte Häuser an der Klippe",
+        "fr": "Maisons colorées de Riomaggiore sur la falaise",
+        "it": "Case colorate di Riomaggiore sulla scogliera"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "villages/villages/riomaggiore.json:hero"
+      ]
+    },
+    {
+      "id": "monterosso-hero-15559798",
+      "url": "https://images.unsplash.com/photo-1555979863-69fb96e63359?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "subcategory": "village-overview",
+        "season": "all"
+      },
+      "alt": {
+        "en": "Monterosso beach and old town",
+        "de": "Monterosso Strand und Altstadt",
+        "fr": "Plage de Monterosso et vieille ville",
+        "it": "Spiaggia di Monterosso e centro storico"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "villages/villages/monterosso.json:hero"
+      ]
+    },
+    {
+      "id": "manarola-hero-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "subcategory": "village-overview",
+        "season": "all"
+      },
+      "alt": {
+        "en": "Manarola at sunset with colorful buildings",
+        "de": "Manarola bei Sonnenuntergang mit bunten Gebäuden",
+        "fr": "Manarola au coucher du soleil avec des bâtiments colorés",
+        "it": "Manarola al tramonto con edifici colorati"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "villages/villages/manarola.json:hero"
+      ]
+    },
+    {
+      "id": "corniglia-hero-15292608",
+      "url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?q=80&w=2676&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "subcategory": "village-overview",
+        "season": "all"
+      },
+      "alt": {
+        "en": "Corniglia perched high on the cliffs",
+        "de": "Corniglia hoch auf den Klippen thronend",
+        "fr": "Corniglia perchée sur les falaises",
+        "it": "Corniglia arroccata sulle scogliere"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "villages/villages/corniglia.json:hero"
+      ]
+    },
+    {
+      "id": "corniglia-leadstory-15963945",
+      "url": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "subcategory": "editorial",
+        "season": "all"
+      },
+      "alt": {
+        "en": "Corniglia perched high on the cliffs",
+        "de": "Corniglia hoch auf den Klippen thronend",
+        "fr": "Corniglia perchée sur les falaises",
+        "it": "Corniglia arroccata sulle scogliere"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "villages/villages/corniglia.json:leadStory"
+      ]
+    },
+    {
+      "id": "region-image-15344476",
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/weather.json:image",
+        "pages/pages/team.json:image",
+        "pages/pages/sights.json:image",
+        "pages/pages/itinerary.json:image",
+        "pages/pages/cinque-terre/weather.json:image",
+        "pages/pages/cinque-terre/village.json:image",
+        "pages/pages/cinque-terre/things-to-do-editorial.json:image",
+        "pages/pages/cinque-terre/sights-editorial.json:image",
+        "pages/pages/cinque-terre/itinerary.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14996783",
+      "url": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=2000",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/weather.json:image",
+        "pages/pages/sights.json:image",
+        "pages/pages/culinary.json:image",
+        "pages/pages/cinque-terre/weather.json:image",
+        "pages/pages/cinque-terre/village.json:image",
+        "pages/pages/cinque-terre/things-to-do-editorial.json:image",
+        "pages/pages/cinque-terre/sights-editorial.json:image",
+        "pages/pages/cinque-terre/itinerary.json:image",
+        "pages/pages/cinque-terre/culinary.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-o1dvyz",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1462922905131-1a670ce6093c-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza.json:image",
+        "pages/pages/vernazza/things-to-do.json:image",
+        "pages/pages/vernazza/overview.json:image",
+        "pages/pages/vernazza/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15396501",
+      "url": "https://images.unsplash.com/photo-1539650116574-75c0c6d0d63a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwzfHx2ZXJuYXp6YSUyMGNhc3RsZXxlbnwwfDB8fHwxNzY1ODkxNzQ1fDA&ixlib=rb-4.1.0&q=80&w=600",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza.json:image",
+        "pages/pages/vernazza/sights.json:image",
+        "pages/pages/vernazza/overview.json:image",
+        "pages/pages/vernazza/maps.json:image",
+        "pages/pages/vernazza/insights.json:image",
+        "pages/pages/vernazza/blog.json:image",
+        "pages/pages/vernazza/apartments.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15718989",
+      "url": "https://images.unsplash.com/photo-1571898901264-a4f8f5de817d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwyfHx2ZXJuYXp6YSUyMGhhcmJvcnxlbnwwfDB8fHwxNzY1ODkxNzQ1fDA&ixlib=rb-4.1.0&q=80&w=600",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15344458",
+      "url": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza.json:image",
+        "pages/pages/vernazza/overview.json:image",
+        "pages/pages/vernazza/faq.json:image",
+        "pages/pages/vernazza/apartments.json:image",
+        "pages/pages/vernazza/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15900867",
+      "url": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza.json:image",
+        "pages/pages/vernazza/overview.json:image",
+        "pages/pages/vernazza/hiking.json:image",
+        "pages/pages/vernazza/faq.json:image",
+        "pages/pages/vernazza/apartments.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2572&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/transportation.json:image",
+        "pages/pages/things-to-do.json:image",
+        "pages/pages/sights.json:image",
+        "pages/pages/itinerary.json:image",
+        "pages/pages/blog-index.json:image",
+        "pages/pages/blog/the-ultimate-guide-to-cinque-terres-best-beaches.json:image",
+        "pages/pages/blog/5-hidden-gelaterias-you-need-to-try.json:image",
+        "pages/pages/cinque-terre/transportation.json:image",
+        "pages/pages/cinque-terre/things-to-do-editorial.json:image",
+        "pages/pages/cinque-terre/team.json:image",
+        "pages/pages/cinque-terre/sights-editorial.json:image",
+        "pages/pages/cinque-terre/itinerary.json:image",
+        "pages/pages/cinque-terre/blog-index.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14744875",
+      "url": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/transportation.json:image",
+        "pages/pages/cinque-terre/transportation.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14499654",
+      "url": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/transportation.json:image",
+        "pages/pages/cinque-terre/transportation.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15005149",
+      "url": "https://images.unsplash.com/photo-1500514966906-fe245eea9344?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/transportation.json:image"
+      ]
+    },
+    {
+      "id": "region-image-seir2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/transport.json:image",
+        "pages/pages/cinque-terre/events.json:image",
+        "pages/pages/cinque-terre/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "region-image-hytnfr",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551632436-cbf8dd35adfa-regular.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/transport.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15344458",
+      "url": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/things-to-do.json:image",
+        "pages/pages/blog-index.json:image",
+        "pages/pages/accommodations.json:image",
+        "pages/pages/blog/the-ultimate-guide-to-cinque-terres-best-beaches.json:image",
+        "pages/pages/blog/5-hidden-gelaterias-you-need-to-try.json:image",
+        "pages/pages/cinque-terre/blog-index.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15963945",
+      "url": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/things-to-do.json:image",
+        "pages/pages/sights.json:image",
+        "pages/pages/blog-index.json:image",
+        "pages/pages/cinque-terre/sights-editorial.json:image",
+        "pages/pages/cinque-terre/itinerary.json:image",
+        "pages/pages/cinque-terre/blog-index.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15063772",
+      "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/things-to-do.json:image",
+        "pages/pages/events.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14947901",
+      "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/team.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15070032",
+      "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/team.json:image",
+        "pages/pages/cinque-terre/team.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14387616",
+      "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/team.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15235312",
+      "url": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/sights.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-vrafd9",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/riomaggiore.json:image",
+        "pages/pages/riomaggiore/weather.json:image",
+        "pages/pages/riomaggiore/things-to-do.json:image",
+        "pages/pages/riomaggiore/sights.json:image",
+        "pages/pages/riomaggiore/restaurants.json:image",
+        "pages/pages/riomaggiore/overview.json:image",
+        "pages/pages/riomaggiore/maps.json:image",
+        "pages/pages/riomaggiore/insights.json:image",
+        "pages/pages/riomaggiore/hotels.json:image",
+        "pages/pages/riomaggiore/hiking.json:image",
+        "pages/pages/riomaggiore/getting-here.json:image",
+        "pages/pages/riomaggiore/faq.json:image",
+        "pages/pages/riomaggiore/camping.json:image",
+        "pages/pages/riomaggiore/boat-tours.json:image",
+        "pages/pages/riomaggiore/blog.json:image",
+        "pages/pages/riomaggiore/beaches.json:image",
+        "pages/pages/riomaggiore/apartments.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-9i0s8c",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1682686580391-615b1f28e5ee-regular.jpg",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/riomaggiore.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-sehuby",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1682686581427-7c80ab60e3f3-regular.jpg",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/riomaggiore.json:image"
+      ]
+    },
+    {
+      "id": "region-image-ud97zo",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1748164795892-c85ed20da144-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/restaurants.json:image",
+        "pages/pages/cinque-terre/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15633790",
+      "url": "https://images.unsplash.com/photo-1563379091339-03246963d29b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200&q=80",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-ka8ti4",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1674046739884-ae502cae2782-hero.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/monterosso.json:image",
+        "pages/pages/monterosso/things-to-do.json:image",
+        "pages/pages/monterosso/hotels.json:image",
+        "pages/pages/monterosso/getting-here.json:image",
+        "pages/pages/monterosso/beaches.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-qfkyic",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555993539-1732b0258235-hero.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/monterosso.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-a1b7k2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551218808-94e220e084d2-hero.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/monterosso.json:image",
+        "pages/pages/monterosso/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-xnzmj2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746957-3b5101e09fae-hero.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/manarola.json:image",
+        "pages/pages/manarola/things-to-do.json:image",
+        "pages/pages/manarola/sights.json:image",
+        "pages/pages/manarola/restaurants.json:image",
+        "pages/pages/manarola/overview.json:image",
+        "pages/pages/manarola/maps.json:image",
+        "pages/pages/manarola/insights.json:image",
+        "pages/pages/manarola/hotels.json:image",
+        "pages/pages/manarola/hiking.json:image",
+        "pages/pages/manarola/getting-here.json:image",
+        "pages/pages/manarola/faq.json:image",
+        "pages/pages/manarola/blog.json:image",
+        "pages/pages/manarola/beaches.json:image",
+        "pages/pages/manarola/apartments.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15660501",
+      "url": "https://images.unsplash.com/photo-1566050191421-b4ef6a14ca10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxtYW5hcm9sYSUyMHdpbmUlMjB2aW5leWFyZCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODM1MTl8MA&ixlib=rb-4.1.0&q=80&w=1200",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14985031",
+      "url": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/events.json:image",
+        "pages/pages/blog-index.json:image",
+        "pages/pages/blog/the-ultimate-guide-to-cinque-terres-best-beaches.json:image",
+        "pages/pages/blog/5-hidden-gelaterias-you-need-to-try.json:image",
+        "pages/pages/cinque-terre/blog-index.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15331740",
+      "url": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/events.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15123891",
+      "url": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/events.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15149336",
+      "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/culinary.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15509668",
+      "url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/culinary.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15553962",
+      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/culinary.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-jw8ea0",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1609068224740-7af77277c2db-hero.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia.json:image",
+        "pages/pages/corniglia/weather.json:image",
+        "pages/pages/corniglia/things-to-do.json:image",
+        "pages/pages/corniglia/sights.json:image",
+        "pages/pages/corniglia/overview.json:image",
+        "pages/pages/corniglia/hotels.json:image",
+        "pages/pages/corniglia/hiking.json:image",
+        "pages/pages/corniglia/getting-here.json:image",
+        "pages/pages/corniglia/faq.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-o42ce5",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1568640347023-a616a30bc3bd-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15711544",
+      "url": "https://images.unsplash.com/photo-1571154429321-ee080ee78589?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjb3JuaWdsaWElMjBjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5fGVufDB8MHx8fDE3NjU4ODI0NjB8MA&ixlib=rb-4.1.0&q=80&w=600",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15826468",
+      "url": "https://images.unsplash.com/photo-1582646897554-cc2ae350c9f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjb3JuaWdsaWElMjBjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5fGVufDB8MHx8fDE3NjU4ODI0NjB8MA&ixlib=rb-4.1.0&q=80&w=600",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-pkxeta",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1590845947670-c009801ffa74-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-ogkfj",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1414235077428-338989a2e8c0-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-khe88p",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1592908659732-bd3147d607e8-hero.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia.json:image"
+      ]
+    },
+    {
+      "id": "region-image-xb83ar",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1548671074-349a73ad5733-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre.json:image",
+        "pages/pages/cinque-terre/things-to-do.json:image",
+        "pages/pages/cinque-terre/overview.json:image",
+        "pages/pages/cinque-terre/insights.json:image",
+        "pages/pages/cinque-terre/hotels.json:image",
+        "pages/pages/cinque-terre/boat-tours.json:image",
+        "pages/pages/cinque-terre/blog.json:image",
+        "pages/pages/cinque-terre/apartments.json:image"
+      ]
+    },
+    {
+      "id": "region-image-mya7u8",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551739440-5dd934d3a94a-regular.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15660737",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/blog-index.json:image",
+        "pages/pages/cinque-terre/blog-index.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15559798",
+      "url": "https://images.unsplash.com/photo-1555979863-69fb96e63359?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/blog-index.json:image",
+        "pages/pages/blog/5-hidden-gelaterias-you-need-to-try.json:image",
+        "pages/pages/cinque-terre/blog-index.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15154447",
+      "url": "https://images.unsplash.com/photo-1515444744559-7be63e1600de?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/accommodations.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15518825",
+      "url": "https://images.unsplash.com/photo-1551882547-ff43c63e1c24?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/accommodations.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15202504",
+      "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/accommodations.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-6hm3ys",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/weather.json:image",
+        "pages/pages/vernazza/insights.json:image",
+        "pages/pages/vernazza/blog.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15339297",
+      "url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/weather.json:image",
+        "pages/pages/vernazza/things-to-do.json:image",
+        "pages/pages/vernazza/sights.json:image",
+        "pages/pages/vernazza/events.json:image",
+        "pages/pages/vernazza/beaches.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15063772",
+      "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/weather.json:image",
+        "pages/pages/vernazza/things-to-do.json:image",
+        "pages/pages/vernazza/sights.json:image",
+        "pages/pages/vernazza/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15123891",
+      "url": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/weather.json:image",
+        "pages/pages/vernazza/events.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-14907509",
+      "url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/weather.json:image",
+        "pages/pages/vernazza/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15535313",
+      "url": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/weather.json:image",
+        "pages/pages/vernazza/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15340885",
+      "url": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/weather.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15441481",
+      "url": "https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/things-to-do.json:image",
+        "pages/pages/vernazza/sights.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15907369",
+      "url": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/things-to-do.json:image",
+        "pages/pages/vernazza/beaches.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15069059",
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/things-to-do.json:image",
+        "pages/pages/vernazza/hiking.json:image",
+        "pages/pages/vernazza/getting-here.json:image",
+        "pages/pages/vernazza/beaches.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15598478",
+      "url": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/things-to-do.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15235312",
+      "url": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/sights.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/sights.json:image",
+        "pages/pages/vernazza/overview.json:image",
+        "pages/pages/vernazza/insights.json:image",
+        "pages/pages/vernazza/hiking.json:image",
+        "pages/pages/vernazza/getting-here.json:image",
+        "pages/pages/vernazza/blog.json:image",
+        "pages/pages/vernazza/beaches.json:image",
+        "pages/pages/vernazza/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15149336",
+      "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/sights.json:image",
+        "pages/pages/vernazza/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-7728f7",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544148103-0773bf10d330-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15553962",
+      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15172481",
+      "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15509668",
+      "url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-14954744",
+      "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15097227",
+      "url": "https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15689013",
+      "url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15445517",
+      "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/restaurants.json:image",
+        "pages/pages/vernazza/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15167477",
+      "url": "https://images.unsplash.com/photo-1516747760143-a27c8ba887ae?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/overview.json:image",
+        "pages/pages/vernazza/maps.json:image",
+        "pages/pages/vernazza/apartments.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-jnc2do",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551698618-1dfe5d97d256-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/maps.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-lx1rzn",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1414235077428-338989a2e8c0-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/maps.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-gakfpp",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571501679680-de32f1e7aad4-regular.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/insights.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-gr5l0l",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1507003211169-0a1dd7228f2d-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/hotels.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15660737",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/hotels.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15202504",
+      "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/hotels.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15827194",
+      "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/hotels.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15718963",
+      "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/hotels.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15518825",
+      "url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/hotels.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15645010",
+      "url": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/hotels.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-seir2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/hiking.json:image",
+        "pages/pages/vernazza/faq.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15900787",
+      "url": "https://images.unsplash.com/photo-1590078756532-171c4a1ec067?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/hiking.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15516324",
+      "url": "https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/hiking.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15446402",
+      "url": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15390371",
+      "url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-14499654",
+      "url": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-iqlx3y",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551218808-94e220e084d2-regular.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/faq.json:image",
+        "pages/pages/vernazza/blog.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-23h64e",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533174072545-7a4b6ad7a6c3-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/events.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15145252",
+      "url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/events.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-t74frl",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504280390367-361c6d9f38f4-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/camping.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15862760",
+      "url": "https://images.unsplash.com/photo-1586276014137-3b58f0138bb6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/camping.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15042803",
+      "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/camping.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-14694749",
+      "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/camping.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-2m28is",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-inuplc",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551698618-1dfe5d97d256-regular.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15598272",
+      "url": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-t2nk4f",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746959-ea81b2d10e0b-hero.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/vernazza/beaches.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15586180",
+      "url": "https://images.unsplash.com/photo-1558618047-3c8c76d99d4c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/beaches.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15206378",
+      "url": "https://images.unsplash.com/photo-1520637836862-4d197d17c50a?q=80&w=1200&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/apartments.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15569091",
+      "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/apartments.json:image",
+        "pages/pages/vernazza/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "vernazza-image-15714062",
+      "url": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "vernazza",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/vernazza/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15339297",
+      "url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/weather.json:image",
+        "pages/pages/riomaggiore/things-to-do.json:image",
+        "pages/pages/riomaggiore/sights.json:image",
+        "pages/pages/riomaggiore/overview.json:image",
+        "pages/pages/riomaggiore/maps.json:image",
+        "pages/pages/riomaggiore/insights.json:image",
+        "pages/pages/riomaggiore/blog.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15063772",
+      "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/weather.json:image",
+        "pages/pages/riomaggiore/things-to-do.json:image",
+        "pages/pages/riomaggiore/sights.json:image",
+        "pages/pages/riomaggiore/overview.json:image",
+        "pages/pages/riomaggiore/insights.json:image",
+        "pages/pages/riomaggiore/blog.json:image",
+        "pages/pages/riomaggiore/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15123891",
+      "url": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/weather.json:image",
+        "pages/pages/riomaggiore/events.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-14907509",
+      "url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/weather.json:image",
+        "pages/pages/riomaggiore/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15535313",
+      "url": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/weather.json:image",
+        "pages/pages/riomaggiore/getting-here.json:image",
+        "pages/pages/riomaggiore/faq.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15340885",
+      "url": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/weather.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15344458",
+      "url": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/things-to-do.json:image",
+        "pages/pages/riomaggiore/sights.json:image",
+        "pages/pages/riomaggiore/overview.json:image",
+        "pages/pages/riomaggiore/maps.json:image",
+        "pages/pages/riomaggiore/insights.json:image",
+        "pages/pages/riomaggiore/hiking.json:image",
+        "pages/pages/riomaggiore/faq.json:image",
+        "pages/pages/riomaggiore/blog.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15907369",
+      "url": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/things-to-do.json:image",
+        "pages/pages/riomaggiore/faq.json:image",
+        "pages/pages/riomaggiore/boat-tours.json:image",
+        "pages/pages/riomaggiore/beaches.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15069059",
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/things-to-do.json:image",
+        "pages/pages/riomaggiore/hiking.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15598478",
+      "url": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/things-to-do.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15235312",
+      "url": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/sights.json:image",
+        "pages/pages/riomaggiore/events.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/sights.json:image",
+        "pages/pages/riomaggiore/overview.json:image",
+        "pages/pages/riomaggiore/maps.json:image",
+        "pages/pages/riomaggiore/insights.json:image",
+        "pages/pages/riomaggiore/hiking.json:image",
+        "pages/pages/riomaggiore/getting-here.json:image",
+        "pages/pages/riomaggiore/faq.json:image",
+        "pages/pages/riomaggiore/blog.json:image",
+        "pages/pages/riomaggiore/apartments.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15149336",
+      "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/sights.json:image",
+        "pages/pages/riomaggiore/faq.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15900867",
+      "url": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/overview.json:image",
+        "pages/pages/riomaggiore/insights.json:image",
+        "pages/pages/riomaggiore/hiking.json:image",
+        "pages/pages/riomaggiore/camping.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15446402",
+      "url": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/maps.json:image",
+        "pages/pages/riomaggiore/getting-here.json:image",
+        "pages/pages/riomaggiore/faq.json:image",
+        "pages/pages/riomaggiore/camping.json:image",
+        "pages/pages/riomaggiore/blog.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15660737",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/hotels.json:image",
+        "pages/pages/riomaggiore/apartments.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15202504",
+      "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/hotels.json:image",
+        "pages/pages/riomaggiore/apartments.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15827194",
+      "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/hotels.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15718963",
+      "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/hotels.json:image",
+        "pages/pages/riomaggiore/apartments.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15518825",
+      "url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/hotels.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15645010",
+      "url": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/hotels.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15900787",
+      "url": "https://images.unsplash.com/photo-1590078756532-171c4a1ec067?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/hiking.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15390371",
+      "url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/getting-here.json:image",
+        "pages/pages/riomaggiore/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-14499654",
+      "url": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-seir2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/riomaggiore/events.json:image",
+        "pages/pages/riomaggiore/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15145252",
+      "url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/events.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15048511",
+      "url": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/camping.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-14996960",
+      "url": "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/camping.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15196813",
+      "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/camping.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15308413",
+      "url": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15445517",
+      "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/boat-tours.json:image",
+        "pages/pages/riomaggiore/beaches.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15029205",
+      "url": "https://images.unsplash.com/photo-1502920514313-52581002a659?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/beaches.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15108124",
+      "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/beaches.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15569091",
+      "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/apartments.json:image",
+        "pages/pages/riomaggiore/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "riomaggiore-image-15714062",
+      "url": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/riomaggiore/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-seir2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/manarola/weather.json:image",
+        "pages/pages/manarola/events.json:image",
+        "pages/pages/manarola/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-14907509",
+      "url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/weather.json:image",
+        "pages/pages/manarola/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15907369",
+      "url": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/weather.json:image",
+        "pages/pages/manarola/things-to-do.json:image",
+        "pages/pages/manarola/maps.json:image",
+        "pages/pages/manarola/boat-tours.json:image",
+        "pages/pages/manarola/beaches.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15063772",
+      "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/weather.json:image",
+        "pages/pages/manarola/things-to-do.json:image",
+        "pages/pages/manarola/sights.json:image",
+        "pages/pages/manarola/restaurants.json:image",
+        "pages/pages/manarola/overview.json:image",
+        "pages/pages/manarola/hiking.json:image",
+        "pages/pages/manarola/events.json:image",
+        "pages/pages/manarola/boat-tours.json:image",
+        "pages/pages/manarola/blog.json:image",
+        "pages/pages/manarola/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15308413",
+      "url": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/weather.json:image",
+        "pages/pages/manarola/things-to-do.json:image",
+        "pages/pages/manarola/sights.json:image",
+        "pages/pages/manarola/restaurants.json:image",
+        "pages/pages/manarola/insights.json:image",
+        "pages/pages/manarola/camping.json:image",
+        "pages/pages/manarola/blog.json:image",
+        "pages/pages/manarola/beaches.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15344458",
+      "url": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/weather.json:image",
+        "pages/pages/manarola/things-to-do.json:image",
+        "pages/pages/manarola/sights.json:image",
+        "pages/pages/manarola/overview.json:image",
+        "pages/pages/manarola/maps.json:image",
+        "pages/pages/manarola/hiking.json:image",
+        "pages/pages/manarola/getting-here.json:image",
+        "pages/pages/manarola/faq.json:image",
+        "pages/pages/manarola/events.json:image",
+        "pages/pages/manarola/camping.json:image",
+        "pages/pages/manarola/boat-tours.json:image",
+        "pages/pages/manarola/beaches.json:image",
+        "pages/pages/manarola/apartments.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15446402",
+      "url": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/things-to-do.json:image",
+        "pages/pages/manarola/insights.json:image",
+        "pages/pages/manarola/hiking.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15339297",
+      "url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/sights.json:image",
+        "pages/pages/manarola/overview.json:image",
+        "pages/pages/manarola/insights.json:image",
+        "pages/pages/manarola/hiking.json:image",
+        "pages/pages/manarola/events.json:image",
+        "pages/pages/manarola/blog.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/sights.json:image",
+        "pages/pages/manarola/overview.json:image",
+        "pages/pages/manarola/maps.json:image",
+        "pages/pages/manarola/insights.json:image",
+        "pages/pages/manarola/getting-here.json:image",
+        "pages/pages/manarola/faq.json:image",
+        "pages/pages/manarola/beaches.json:image",
+        "pages/pages/manarola/apartments.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15149336",
+      "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15553962",
+      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15172481",
+      "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15509668",
+      "url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15900867",
+      "url": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/overview.json:image",
+        "pages/pages/manarola/maps.json:image",
+        "pages/pages/manarola/hotels.json:image",
+        "pages/pages/manarola/hiking.json:image",
+        "pages/pages/manarola/faq.json:image",
+        "pages/pages/manarola/events.json:image",
+        "pages/pages/manarola/camping.json:image",
+        "pages/pages/manarola/beaches.json:image",
+        "pages/pages/manarola/apartments.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15446203",
+      "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/maps.json:image",
+        "pages/pages/manarola/getting-here.json:image",
+        "pages/pages/manarola/faq.json:image",
+        "pages/pages/manarola/blog.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15569091",
+      "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/insights.json:image",
+        "pages/pages/manarola/hotels.json:image",
+        "pages/pages/manarola/faq.json:image",
+        "pages/pages/manarola/apartments.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15445517",
+      "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/getting-here.json:image",
+        "pages/pages/manarola/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15069059",
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/getting-here.json:image",
+        "pages/pages/manarola/faq.json:image",
+        "pages/pages/manarola/events.json:image",
+        "pages/pages/manarola/camping.json:image",
+        "pages/pages/manarola/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-4snlaq",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504851149312-7a075b496cc7-hero.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/manarola/camping.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15042803",
+      "url": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/camping.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-2m28is",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/manarola/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-14742240",
+      "url": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/blog.json:image",
+        "pages/pages/manarola/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15786629",
+      "url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/apartments.json:image"
+      ]
+    },
+    {
+      "id": "manarola-image-15714062",
+      "url": "https://images.unsplash.com/photo-1571406251871-c4d4d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "manarola",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/manarola/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15804951",
+      "url": "https://images.unsplash.com/photo-1580495173000-b5b56e4eab00?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/weather.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15907369",
+      "url": "https://images.unsplash.com/photo-1590736969955-71cc94901144?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/weather.json:image",
+        "pages/pages/monterosso/things-to-do.json:image",
+        "pages/pages/monterosso/boat-tours.json:image",
+        "pages/pages/monterosso/beaches.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15063772",
+      "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/weather.json:image",
+        "pages/pages/monterosso/overview.json:image",
+        "pages/pages/monterosso/insights.json:image",
+        "pages/pages/monterosso/hiking.json:image",
+        "pages/pages/monterosso/faq.json:image",
+        "pages/pages/monterosso/events.json:image",
+        "pages/pages/monterosso/blog.json:image",
+        "pages/pages/monterosso/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15123891",
+      "url": "https://images.unsplash.com/photo-1512389142860-9c449e58a814?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/weather.json:image",
+        "pages/pages/monterosso/events.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-14907509",
+      "url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/weather.json:image",
+        "pages/pages/monterosso/events.json:image",
+        "pages/pages/monterosso/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15535313",
+      "url": "https://images.unsplash.com/photo-1553531384-397c80973a0b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/weather.json:image",
+        "pages/pages/monterosso/getting-here.json:image",
+        "pages/pages/monterosso/faq.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15340885",
+      "url": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/weather.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15339002",
+      "url": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/things-to-do.json:image",
+        "pages/pages/monterosso/sights.json:image",
+        "pages/pages/monterosso/beaches.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15396501",
+      "url": "https://images.unsplash.com/photo-1539650116574-75c0c6b73b5e?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/things-to-do.json:image",
+        "pages/pages/monterosso/sights.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-16002988",
+      "url": "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/things-to-do.json:image",
+        "pages/pages/monterosso/sights.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15069059",
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/things-to-do.json:image",
+        "pages/pages/monterosso/hiking.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15598478",
+      "url": "https://images.unsplash.com/photo-1559847844-5315695dadae?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/things-to-do.json:image",
+        "pages/pages/monterosso/events.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-kj1j0y",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1595846519845-68e298c2edd8-hero.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/monterosso/sights.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15553962",
+      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/sights.json:image",
+        "pages/pages/monterosso/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15178210",
+      "url": "https://images.unsplash.com/photo-1517821099606-cef63a9bcda6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/sights.json:image",
+        "pages/pages/monterosso/events.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15786629",
+      "url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/sights.json:image",
+        "pages/pages/monterosso/events.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15149336",
+      "url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/restaurants.json:image",
+        "pages/pages/monterosso/faq.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15172481",
+      "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15509668",
+      "url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-vrafd9",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1721485746961-6029d1cbc475-hero.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/monterosso/overview.json:image",
+        "pages/pages/monterosso/maps.json:image",
+        "pages/pages/monterosso/insights.json:image",
+        "pages/pages/monterosso/faq.json:image",
+        "pages/pages/monterosso/camping.json:image",
+        "pages/pages/monterosso/boat-tours.json:image",
+        "pages/pages/monterosso/blog.json:image",
+        "pages/pages/monterosso/apartments.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/overview.json:image",
+        "pages/pages/monterosso/maps.json:image",
+        "pages/pages/monterosso/insights.json:image",
+        "pages/pages/monterosso/getting-here.json:image",
+        "pages/pages/monterosso/faq.json:image",
+        "pages/pages/monterosso/blog.json:image",
+        "pages/pages/monterosso/apartments.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15344458",
+      "url": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/overview.json:image",
+        "pages/pages/monterosso/maps.json:image",
+        "pages/pages/monterosso/insights.json:image",
+        "pages/pages/monterosso/faq.json:image",
+        "pages/pages/monterosso/blog.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15718963",
+      "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/overview.json:image",
+        "pages/pages/monterosso/hotels.json:image",
+        "pages/pages/monterosso/apartments.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15900867",
+      "url": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/overview.json:image",
+        "pages/pages/monterosso/insights.json:image",
+        "pages/pages/monterosso/camping.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15339297",
+      "url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/maps.json:image",
+        "pages/pages/monterosso/insights.json:image",
+        "pages/pages/monterosso/hiking.json:image",
+        "pages/pages/monterosso/blog.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15446402",
+      "url": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/maps.json:image",
+        "pages/pages/monterosso/hiking.json:image",
+        "pages/pages/monterosso/getting-here.json:image",
+        "pages/pages/monterosso/faq.json:image",
+        "pages/pages/monterosso/camping.json:image",
+        "pages/pages/monterosso/blog.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15660737",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/maps.json:image",
+        "pages/pages/monterosso/hotels.json:image",
+        "pages/pages/monterosso/apartments.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15202504",
+      "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/hotels.json:image",
+        "pages/pages/monterosso/apartments.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15827194",
+      "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/hotels.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15518825",
+      "url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/hotels.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15645010",
+      "url": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/hotels.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-seir2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/monterosso/hiking.json:image",
+        "pages/pages/monterosso/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15554009",
+      "url": "https://images.unsplash.com/photo-1555400943-00cd67af994d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/hiking.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15608400",
+      "url": "https://images.unsplash.com/photo-1560840067-ddcaeb7831d2?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/hiking.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15390371",
+      "url": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/getting-here.json:image",
+        "pages/pages/monterosso/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-14499654",
+      "url": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15441983",
+      "url": "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-ykg9xj",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533900298318-6b8da08a523e-hero.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/monterosso/events.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15048511",
+      "url": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/camping.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-14996960",
+      "url": "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/camping.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15196813",
+      "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/camping.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15308413",
+      "url": "https://images.unsplash.com/photo-1530841344095-9a851cc9d96b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15445517",
+      "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15650260",
+      "url": "https://images.unsplash.com/photo-1565026057447-bc90a3dceb87?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/beaches.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15209427",
+      "url": "https://images.unsplash.com/photo-1520942702018-0862c52ccbd4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/beaches.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15075254",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/beaches.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15598272",
+      "url": "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/beaches.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15569091",
+      "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/apartments.json:image",
+        "pages/pages/monterosso/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "monterosso-image-15714062",
+      "url": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "monterosso",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/monterosso/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-14907509",
+      "url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/weather.json:image",
+        "pages/pages/corniglia/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15075254",
+      "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/weather.json:image",
+        "pages/pages/corniglia/beaches.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15063772",
+      "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/weather.json:image",
+        "pages/pages/corniglia/things-to-do.json:image",
+        "pages/pages/corniglia/restaurants.json:image",
+        "pages/pages/corniglia/maps.json:image",
+        "pages/pages/corniglia/insights.json:image",
+        "pages/pages/corniglia/events.json:image",
+        "pages/pages/corniglia/blog.json:image",
+        "pages/pages/corniglia/apartments.json:image",
+        "pages/pages/corniglia/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-14895152",
+      "url": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/weather.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/weather.json:image",
+        "pages/pages/corniglia/sights.json:image",
+        "pages/pages/corniglia/maps.json:image",
+        "pages/pages/corniglia/getting-here.json:image",
+        "pages/pages/corniglia/faq.json:image",
+        "pages/pages/corniglia/boat-tours.json:image",
+        "pages/pages/corniglia/blog.json:image",
+        "pages/pages/corniglia/apartments.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-14742240",
+      "url": "https://images.unsplash.com/photo-1474224017046-182ece80b263?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/things-to-do.json:image",
+        "pages/pages/corniglia/sights.json:image",
+        "pages/pages/corniglia/hiking.json:image",
+        "pages/pages/corniglia/faq.json:image",
+        "pages/pages/corniglia/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15666338",
+      "url": "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/things-to-do.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15569101",
+      "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/things-to-do.json:image",
+        "pages/pages/corniglia/events.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15069059",
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/things-to-do.json:image",
+        "pages/pages/corniglia/hiking.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15893080",
+      "url": "https://images.unsplash.com/photo-1589308078059-be1415eab4c7?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/sights.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-g225zx",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1578662996442-48f60103fc96-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/sights.json:image",
+        "pages/pages/corniglia/overview.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-8ql1ld",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1605540436563-5bca919ae766-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/sights.json:image",
+        "pages/pages/corniglia/overview.json:image",
+        "pages/pages/corniglia/hiking.json:image",
+        "pages/pages/corniglia/faq.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-aiq8pc",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1555396273-367ea4eb4db5-hero.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-14142350",
+      "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/restaurants.json:image",
+        "pages/pages/corniglia/faq.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15593393",
+      "url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15652996",
+      "url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-14954744",
+      "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15014437",
+      "url": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-299174",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/overview.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-njsidf",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506377247377-2a5b3b417ebb-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/overview.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-og352d",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1474224017046-182ece80b263-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/overview.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-seir2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-hero.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/maps.json:image",
+        "pages/pages/corniglia/insights.json:image",
+        "pages/pages/corniglia/events.json:image",
+        "pages/pages/corniglia/camping.json:image",
+        "pages/pages/corniglia/blog.json:image",
+        "pages/pages/corniglia/beaches.json:image",
+        "pages/pages/corniglia/apartments.json:image",
+        "pages/pages/corniglia/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15446402",
+      "url": "https://images.unsplash.com/photo-1544640285-7bb0bb2da9d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/maps.json:image",
+        "pages/pages/corniglia/camping.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15344458",
+      "url": "https://images.unsplash.com/photo-1534445867742-43195f401b6c?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/maps.json:image",
+        "pages/pages/corniglia/insights.json:image",
+        "pages/pages/corniglia/blog.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15196813",
+      "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/maps.json:image",
+        "pages/pages/corniglia/camping.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15714062",
+      "url": "https://images.unsplash.com/photo-1571406251871-c4d2d64cd6d6?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/insights.json:image",
+        "pages/pages/corniglia/events.json:image",
+        "pages/pages/corniglia/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15900867",
+      "url": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/insights.json:image",
+        "pages/pages/corniglia/hiking.json:image",
+        "pages/pages/corniglia/camping.json:image",
+        "pages/pages/corniglia/beaches.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15227717",
+      "url": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/hotels.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15569091",
+      "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/hotels.json:image",
+        "pages/pages/corniglia/blog.json:image",
+        "pages/pages/corniglia/apartments.json:image",
+        "pages/pages/corniglia/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-zd1j2i",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544735716-392fe2489ffa-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/hiking.json:image",
+        "pages/pages/corniglia/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15446203",
+      "url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15701259",
+      "url": "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15535318",
+      "url": "https://images.unsplash.com/photo-1553531889-e6cf4d692b1b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15660737",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/faq.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15339297",
+      "url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/events.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15016127",
+      "url": "https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/events.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15048511",
+      "url": "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/camping.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-14996960",
+      "url": "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/camping.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-2m28is",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15009302",
+      "url": "https://images.unsplash.com/photo-1500930287596-c1ecaa373bb2?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15692639",
+      "url": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/boat-tours.json:image",
+        "pages/pages/corniglia/beaches.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15335878",
+      "url": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-fbk3ls",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-regular.jpg",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/corniglia/beaches.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-14734961",
+      "url": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/beaches.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15202504",
+      "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/apartments.json:image"
+      ]
+    },
+    {
+      "id": "corniglia-image-15718963",
+      "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=2670&auto=format&fit=crop",
+      "tags": {
+        "village": "corniglia",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/corniglia/apartments.json:image"
+      ]
+    },
+    {
+      "id": "region-image-8avv3c",
+      "url": "/giulia_rossi.png",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/blog/the-ultimate-guide-to-cinque-terres-best-beaches.json:image",
+        "pages/pages/cinque-terre/team.json:image",
+        "pages/pages/cinque-terre/itinerary.json:image"
+      ]
+    },
+    {
+      "id": "region-src-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=2574&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/blog/the-ultimate-guide-to-cinque-terres-best-beaches.json:src"
+      ]
+    },
+    {
+      "id": "region-src-15344476",
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=1000",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/blog/the-ultimate-guide-to-cinque-terres-best-beaches.json:src"
+      ]
+    },
+    {
+      "id": "region-src-14996783",
+      "url": "https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=1000",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/blog/the-ultimate-guide-to-cinque-terres-best-beaches.json:src"
+      ]
+    },
+    {
+      "id": "region-image-jvzpcp",
+      "url": "/marco_bianchi.png",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/blog/5-hidden-gelaterias-you-need-to-try.json:image"
+      ]
+    },
+    {
+      "id": "region-heroimage-15344476",
+      "url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&q=80&w=2000",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/weather.json:heroImage"
+      ]
+    },
+    {
+      "id": "region-image-127uh9",
+      "url": "/images/expert.png",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/weather.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15445517",
+      "url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/transportation.json:image",
+        "pages/pages/cinque-terre/things-to-do-editorial.json:image"
+      ]
+    },
+    {
+      "id": "region-image-xygbbx",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551632436-cbf8dd35adfa-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/things-to-do.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14906239",
+      "url": "https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?q=80&w=2669&auto=format&fit=crop",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/things-to-do-editorial.json:image",
+        "pages/pages/cinque-terre/sights-editorial.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15108124",
+      "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=1600",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/things-to-do-editorial.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14648227",
+      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/things-to-do-editorial.json:image",
+        "pages/pages/cinque-terre/sights-editorial.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15804899",
+      "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/team.json:image"
+      ]
+    },
+    {
+      "id": "region-image-6hm3ys",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/sights.json:image",
+        "pages/pages/cinque-terre/maps.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15396501",
+      "url": "https://images.unsplash.com/photo-1539650116574-75c0c6d73a0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHw4fHxjaW5xdWUlMjB0ZXJyZSUyMGFyY2hpdGVjdHVyZXxlbnwwfDB8fHwxNzY1ODgwNzM4fDA&ixlib=rb-4.1.0&q=80&w=600",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/sights.json:image",
+        "pages/pages/cinque-terre/insights.json:image"
+      ]
+    },
+    {
+      "id": "region-image-lx1rzn",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1414235077428-338989a2e8c0-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/restaurants.json:image"
+      ]
+    },
+    {
+      "id": "region-image-jnc2do",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551698618-1dfe5d97d256-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/overview.json:image",
+        "pages/pages/cinque-terre/accommodations.json:image"
+      ]
+    },
+    {
+      "id": "region-image-ui9ope",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1551632811-561732d1e306-regular.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/maps.json:image"
+      ]
+    },
+    {
+      "id": "region-image-8nobd4",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1717266599342-52e4fefc06e9-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/hotels.json:image"
+      ]
+    },
+    {
+      "id": "region-image-4bwgzz",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1582518400468-eb5b45c8190a-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/hiking.json:image"
+      ]
+    },
+    {
+      "id": "region-image-sj92a",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516684732162-798a0062be99-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/hiking.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15586180",
+      "url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5JTIwdHJhaW58ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=1200",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "region-image-598bpn",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1464207687429-7505649dae38-regular.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/getting-here.json:image"
+      ]
+    },
+    {
+      "id": "region-image-t4h51e",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1533105079780-92b9be482077-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/faq.json:image"
+      ]
+    },
+    {
+      "id": "region-image-lm027t",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1590846406792-0adc7f938f1d-regular.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/faq.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15711157",
+      "url": "https://images.unsplash.com/photo-1571115764595-644a1f56a55c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxpdGFsaWFuJTIwcHJvY2Vzc2lvbiUyMGZlc3RpdmFsJTIwY2VsZWJyYXRpb258ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=800",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/events.json:image"
+      ]
+    },
+    {
+      "id": "region-image-4snlaq",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1504851149312-7a075b496cc7-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/camping.json:image"
+      ]
+    },
+    {
+      "id": "region-image-14969478",
+      "url": "https://images.unsplash.com/photo-1496947850313-7743325ca6e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxnbGFtcGluZyUyMHRlbnQlMjBsdXh1cnl8ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=600",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/camping.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15335878",
+      "url": "https://images.unsplash.com/photo-1533587851505-d119e26e802d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxoaWtpbmclMjB0cmFpbCUyMGNpbnF1ZSUyMHRlcnJlfGVufDB8MHx8fDE3NjU4ODA3Mzh8MA&ixlib=rb-4.1.0&q=80&w=600",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/camping.json:image"
+      ]
+    },
+    {
+      "id": "region-image-15707370",
+      "url": "https://images.unsplash.com/photo-1570737040404-cd52ed5543c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGJvYXR8ZW58MHwwfHx8MTc2NTg4MDczOHww&ixlib=rb-4.1.0&q=80&w=800",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "pages/pages/cinque-terre/boat-tours.json:image"
+      ]
+    },
+    {
+      "id": "region-image-299174",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1516483638261-f4dbaf036963-regular.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/blog.json:image"
+      ]
+    },
+    {
+      "id": "region-image-2m28is",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1544551763-46a013bb70d5-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/beaches.json:image"
+      ]
+    },
+    {
+      "id": "region-image-ji7mt2",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1506905925346-21bda4d32df4-regular.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/beaches.json:image"
+      ]
+    },
+    {
+      "id": "region-image-4hmnv8",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1582719471137-c3967ffb1c42-regular.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/apartments.json:image"
+      ]
+    },
+    {
+      "id": "region-image-bf2f19",
+      "url": "https://pub-107bd685a64ecdfbd35a502e746c96d1.r2.dev/images/1571019613454-1cb2f99b2d8b-hero.jpg",
+      "tags": {
+        "village": "region",
+        "category": "sights",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "pages/pages/cinque-terre/agriturismi.json:image"
+      ]
+    },
+    {
+      "id": "manarola-url-o7oprz",
+      "url": "https://example.com/nessun-dorma-sunset-view.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "restaurants",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/restaurants/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-vrjcsp",
+      "url": "https://example.com/nessun-dorma-terrace.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "restaurants",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/restaurants/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-vhwsn1",
+      "url": "https://example.com/nessun-dorma-anchovies.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "restaurants",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/restaurants/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-irx3xs",
+      "url": "https://example.com/nessun-dorma-bruschetta.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "restaurants",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/restaurants/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-uiiq3u",
+      "url": "https://example.com/nessun-dorma-wine.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "restaurants",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/restaurants/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-15164836",
+      "url": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+      "tags": {
+        "village": "manarola",
+        "category": "pois",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "collections/collections/pois/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-15396501",
+      "url": "https://images.unsplash.com/photo-1539650116574-75c0c6d90d24",
+      "tags": {
+        "village": "manarola",
+        "category": "pois",
+        "season": "all"
+      },
+      "license": "unsplash",
+      "usedIn": [
+        "collections/collections/pois/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-l",
+      "url": "https://images.tripadvisor.com/media/photo-l/manarola-aerial.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "pois",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/pois/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-ec2hz9",
+      "url": "https://images.google.com/cinque-terre/manarola-detail.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "pois",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/pois/manarola.json:url"
+      ]
+    },
+    {
+      "id": "vernazza-url-8a74jp",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/pensione-sorriso-exterior.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/vernazza.json:url"
+      ]
+    },
+    {
+      "id": "vernazza-url-pe30of",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/pensione-sorriso-terrace.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/vernazza.json:url"
+      ]
+    },
+    {
+      "id": "vernazza-url-nt96e6",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/pensione-sorriso-room.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/vernazza.json:url"
+      ]
+    },
+    {
+      "id": "vernazza-url-8wq8n5",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/pensione-sorriso-lounge.jpg",
+      "tags": {
+        "village": "vernazza",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/vernazza.json:url"
+      ]
+    },
+    {
+      "id": "riomaggiore-url-lpr9cf",
+      "url": "https://villa-argentina-riomaggiore.com/images/exterior-main.jpg",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/riomaggiore.json:url"
+      ]
+    },
+    {
+      "id": "riomaggiore-url-1km85b",
+      "url": "https://villa-argentina-riomaggiore.com/images/room-seaview.jpg",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/riomaggiore.json:url"
+      ]
+    },
+    {
+      "id": "riomaggiore-url-oxrsan",
+      "url": "https://booking-static.com/villa-argentina/breakfast-terrace.jpg",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/riomaggiore.json:url"
+      ]
+    },
+    {
+      "id": "riomaggiore-url-6g0uob",
+      "url": "https://villa-argentina-riomaggiore.com/images/panoramic-view.jpg",
+      "tags": {
+        "village": "riomaggiore",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/riomaggiore.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-e3cz6r",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618901.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-e2t6le",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618902.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-e29e01",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618903.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-e1pleo",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618904.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-e15stb",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245618905.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-8664wu",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456789.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-7u2nuw",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456790.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-7tiv9j",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456791.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-7sz2o6",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456792.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "monterosso-url-7sfa2t",
+      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456793.jpg",
+      "tags": {
+        "village": "monterosso",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/monterosso.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-epd2dx",
+      "url": "https://cf.bstatic.com/images/hotel/max1024x768/emporio-rooms-exterior.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-yq7em1",
+      "url": "https://cf.bstatic.com/images/hotel/max1024x768/emporio-rooms-interior.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-c6zsxw",
+      "url": "https://cf.bstatic.com/images/hotel/max1024x768/emporio-rooms-view.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/manarola.json:url"
+      ]
+    },
+    {
+      "id": "manarola-url-k6a3h7",
+      "url": "https://cf.bstatic.com/images/hotel/max1024x768/emporio-rooms-bathroom.jpg",
+      "tags": {
+        "village": "manarola",
+        "category": "accommodations",
+        "season": "all"
+      },
+      "license": "unknown",
+      "usedIn": [
+        "collections/collections/accommodations/manarola.json:url"
+      ]
+    }
+  ],
+  "categories": [
+    "sights",
+    "beaches",
+    "trails",
+    "food",
+    "accommodations",
+    "transport",
+    "events",
+    "culture"
+  ],
+  "subcategories": {
+    "sights": [
+      "village-overview",
+      "harbor",
+      "tower",
+      "church",
+      "streets",
+      "viewpoint"
+    ],
+    "beaches": [
+      "beach-overview",
+      "swimming",
+      "rocks",
+      "marina"
+    ],
+    "trails": [
+      "sentiero-azzurro",
+      "via-dell-amore",
+      "mountain-path",
+      "vineyard-trail"
+    ],
+    "food": [
+      "restaurant",
+      "wine",
+      "gelato",
+      "market",
+      "cooking"
+    ],
+    "accommodations": [
+      "hotel-exterior",
+      "hotel-interior",
+      "pool",
+      "terrace",
+      "room"
+    ],
+    "transport": [
+      "train",
+      "boat",
+      "station",
+      "ferry"
+    ],
+    "events": [
+      "festival",
+      "concert",
+      "fireworks",
+      "market"
+    ],
+    "culture": [
+      "church-interior",
+      "museum",
+      "art",
+      "traditional"
+    ]
+  },
+  "villages": [
+    "riomaggiore",
+    "manarola",
+    "corniglia",
+    "vernazza",
+    "monterosso"
+  ],
+  "moods": [
+    "vibrant",
+    "romantic",
+    "serene",
+    "iconic",
+    "historic",
+    "authentic",
+    "relaxed",
+    "dramatic"
+  ],
+  "timeOfDay": [
+    "sunrise",
+    "daylight",
+    "golden-hour",
+    "sunset",
+    "blue-hour",
+    "night"
+  ],
+  "seasons": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter",
+    "all"
+  ]
+}
