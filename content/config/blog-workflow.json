@@ -3,7 +3,6 @@
   "title": "Cinque Terre Blog Publishing Workflow",
   "description": "Configuration for the blog article creation and publishing workflow",
   "version": "1.0.0",
-
   "workflow": {
     "name": "blog-publishing",
     "description": "Agent creates blog article JSON → Git commit → PR → Review → Merge → Deploy",
@@ -20,7 +19,11 @@
         "name": "write_draft",
         "actor": "WriterAgent",
         "action": "Research topic, write article using Cinque Terre blocks",
-        "tools": ["web_search", "write_draft", "search_stock_photos"],
+        "tools": [
+          "web_search",
+          "write_draft",
+          "search_stock_photos"
+        ],
         "output": "Blog article JSON with editorial blocks"
       },
       {
@@ -49,7 +52,11 @@
         "name": "editorial_review",
         "actor": "EditorAgent or Human",
         "action": "Review content quality, accuracy, brand voice",
-        "decisions": ["approve", "request_changes", "escalate_to_ceo"],
+        "decisions": [
+          "approve",
+          "request_changes",
+          "escalate_to_ceo"
+        ],
         "output": "PR review with feedback"
       },
       {
@@ -76,7 +83,6 @@
       }
     ]
   },
-
   "blog_article_schema": {
     "description": "Required structure for blog article JSON files",
     "file_path": "cinqueterre.travel/content/blog/{slug}.json",
@@ -112,11 +118,26 @@
       "body": {
         "description": "Array of block objects",
         "recommended_structure": [
-          { "type": "editorial-hero", "purpose": "Article header with image" },
-          { "type": "editorial-intro", "purpose": "Opening hook and context" },
-          { "type": "paragraph | heading | image | list", "purpose": "Main content" },
-          { "type": "editor-note", "purpose": "Giulia's perspective (optional)" },
-          { "type": "closing-note", "purpose": "Wrap-up with CTAs" }
+          {
+            "type": "editorial-hero",
+            "purpose": "Article header with image"
+          },
+          {
+            "type": "editorial-intro",
+            "purpose": "Opening hook and context"
+          },
+          {
+            "type": "paragraph | heading | image | list",
+            "purpose": "Main content"
+          },
+          {
+            "type": "editor-note",
+            "purpose": "Giulia's perspective (optional)"
+          },
+          {
+            "type": "closing-note",
+            "purpose": "Wrap-up with CTAs"
+          }
         ]
       }
     },
@@ -134,7 +155,11 @@
           "it": "5 gelaterie nascoste da provare"
         },
         "category": "Food & Drink",
-        "tags": ["Gelato", "Local Secrets", "Foodie"],
+        "tags": [
+          "Gelato",
+          "Local Secrets",
+          "Foodie"
+        ],
         "author": {
           "name": "Marco Bianchi",
           "role": "Food Writer"
@@ -147,7 +172,7 @@
           "title": "5 Hidden Gelaterias You Need to Try",
           "subtitle": "Skip the tourist traps and find the real deal",
           "badge": "Local Secrets",
-          "image": "https://images.unsplash.com/photo-xxx"
+          "image": "https://images.unsplash.com/photo-1544828237-b63b6409fd74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5JTIwY29sb3JmdWwlMjB2aWxsYWdlfGVufDB8MHx8fDE3NjkzMjczNTF8MA&ixlib=rb-4.1.0&q=80&w=1080"
         },
         {
           "type": "editorial-intro",
@@ -159,7 +184,6 @@
       ]
     }
   },
-
   "categories": {
     "description": "Standard blog categories for Cinque Terre Dispatch",
     "list": [
@@ -195,13 +219,14 @@
       }
     ]
   },
-
   "pr_template": {
     "title": "📝 Blog: {article_title}",
     "body": "## New Blog Article for Editorial Review\n\n**Title:** {title}\n**Category:** {category}\n**Author:** {author}\n**Read Time:** {readTime}\n\n### Summary\n{subtitle}\n\n### Content Blocks\n{block_list}\n\n### SEO\n- **Keywords:** {keywords}\n- **Description:** {seo_description}\n\n---\n\n**Review Checklist:**\n- [ ] Title is compelling and SEO-friendly\n- [ ] Content matches Cinque Terre Dispatch voice\n- [ ] Images have proper alt text\n- [ ] Links are valid\n- [ ] No factual errors\n- [ ] Call-to-action is clear\n\n**Labels:** `content-review`, `blog`, `{category}`",
-    "labels": ["content-review", "blog"]
+    "labels": [
+      "content-review",
+      "blog"
+    ]
   },
-
   "automation_config": {
     "auto_assign_reviewer": true,
     "default_reviewer": "editor-agent",
@@ -213,17 +238,25 @@
     "auto_merge_on_approval": false,
     "deploy_on_merge": true
   },
-
   "content_guidelines": {
     "min_word_count": 500,
     "max_word_count": 2500,
-    "required_blocks": ["editorial-hero", "editorial-intro", "closing-note"],
+    "required_blocks": [
+      "editorial-hero",
+      "editorial-intro",
+      "closing-note"
+    ],
     "recommended_images": 3,
     "alt_text_required": true,
-    "localization_required": ["en"],
-    "localization_recommended": ["de", "fr", "it"]
+    "localization_required": [
+      "en"
+    ],
+    "localization_recommended": [
+      "de",
+      "fr",
+      "it"
+    ]
   },
-
   "triggers": {
     "description": "Events that can trigger blog workflow",
     "manual": {

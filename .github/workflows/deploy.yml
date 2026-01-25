@@ -1,0 +1,92 @@
+name: Deploy to GitHub Pages
+
+on:
+  # Trigger on push to main branch
+  push:
+    branches: [main]
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout content repository
+        uses: actions/checkout@v4
+        with:
+          path: content
+
+      - name: Checkout monorepo (for theme)
+        uses: actions/checkout@v4
+        with:
+          repository: swarmpress/swarmpress
+          path: swarmpress
+          token: ${{ secrets.MONOREPO_PAT }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+
+      - name: Install dependencies
+        run: |
+          cd swarmpress
+          pnpm install
+
+      - name: Build Astro site
+        run: |
+          cd swarmpress/packages/site-builder/src/themes/cinque-terre
+          export CONTENT_DIR="${GITHUB_WORKSPACE}/content/content/pages"
+          pnpm astro build --outDir "${GITHUB_WORKSPACE}/dist"
+        env:
+          CONTENT_DIR: ${{ github.workspace }}/content/content/pages
+
+      - name: Add required files
+        run: |
+          echo "cinqueterre.travel" > dist/CNAME
+          touch dist/.nojekyll
+
+      - name: Verify build
+        run: |
+          echo "Checking for language folders..."
+          ls -la dist/
+          test -d dist/de && echo "German folder exists"
+          test -d dist/en && echo "English folder exists"
+          test -d dist/fr && echo "French folder exists"
+          test -d dist/it && echo "Italian folder exists"
+          PAGE_COUNT=$(find dist -name "*.html" | wc -l)
+          echo "Total HTML pages: $PAGE_COUNT"
+          if [ "$PAGE_COUNT" -lt 100 ]; then
+            echo "ERROR: Build produced fewer than 100 pages"
+            exit 1
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

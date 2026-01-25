@@ -4,16 +4,26 @@
   "description": "Block types and collection schemas for WriterAgent content generation",
   "version": "1.0.0",
   "last_updated": "2026-01-08",
-
   "block_types": {
     "core": {
       "hero-section": {
         "description": "Large hero banner with background image, title, subtitle, and CTA buttons",
         "props": {
-          "image": { "type": "string", "description": "Background image URL" },
-          "eyebrow": { "type": "string", "description": "Small text above title" },
-          "title": { "type": "string", "required": true },
-          "subtitle": { "type": "string" },
+          "image": {
+            "type": "string",
+            "description": "Background image URL"
+          },
+          "eyebrow": {
+            "type": "string",
+            "description": "Small text above title"
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "subtitle": {
+            "type": "string"
+          },
           "buttons": {
             "type": "array",
             "items": {
@@ -26,18 +36,28 @@
         },
         "example": {
           "type": "hero-section",
-          "image": "https://images.unsplash.com/photo-xxx",
+          "image": "https://images.unsplash.com/photo-1544828237-b63b6409fd74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5JTIwY29sb3JmdWwlMjB2aWxsYWdlfGVufDB8MHx8fDE3NjkzMjczNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "eyebrow": "Welcome to",
           "title": "Cinque Terre",
           "subtitle": "Five villages suspended between sea and sky",
-          "buttons": [{ "text": "Explore", "url": "/en/explore", "variant": "primary" }]
+          "buttons": [
+            {
+              "text": "Explore",
+              "url": "/en/explore",
+              "variant": "primary"
+            }
+          ]
         }
       },
       "stats-section": {
         "description": "Statistics display with numbers and labels",
         "props": {
-          "title": { "type": "string" },
-          "subtitle": { "type": "string" },
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
           "stats": {
             "type": "array",
             "required": true,
@@ -52,8 +72,12 @@
       "feature-section": {
         "description": "Grid of features with icons, titles, and descriptions",
         "props": {
-          "title": { "type": "string" },
-          "subtitle": { "type": "string" },
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
           "features": {
             "type": "array",
             "required": true,
@@ -68,30 +92,53 @@
       "section-header": {
         "description": "Section title with optional eyebrow text",
         "props": {
-          "eyebrow": { "type": "string" },
-          "title": { "type": "string", "required": true },
-          "subtitle": { "type": "string" },
-          "centered": { "type": "boolean", "default": false }
+          "eyebrow": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "subtitle": {
+            "type": "string"
+          },
+          "centered": {
+            "type": "boolean",
+            "default": false
+          }
         }
       },
       "newsletter": {
         "description": "Email newsletter signup form",
         "props": {
-          "title": { "type": "string" },
-          "subtitle": { "type": "string" },
-          "placeholder": { "type": "string" },
-          "buttonText": { "type": "string" },
-          "disclaimer": { "type": "string" }
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
+          "placeholder": {
+            "type": "string"
+          },
+          "buttonText": {
+            "type": "string"
+          },
+          "disclaimer": {
+            "type": "string"
+          }
         }
       }
     },
-
     "village": {
       "village-selector": {
         "description": "Interactive village selection cards for homepage",
         "props": {
-          "title": { "type": "string" },
-          "subtitle": { "type": "string" },
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
           "villages": {
             "type": "array",
             "items": {
@@ -108,7 +155,17 @@
       "village-intro": {
         "description": "Village landing page intro with essentials and lead story",
         "props": {
-          "village": { "type": "string", "required": true, "enum": ["Riomaggiore", "Manarola", "Corniglia", "Vernazza", "Monterosso"] },
+          "village": {
+            "type": "string",
+            "required": true,
+            "enum": [
+              "Riomaggiore",
+              "Manarola",
+              "Corniglia",
+              "Vernazza",
+              "Monterosso"
+            ]
+          },
           "leadStory": {
             "type": "object",
             "properties": {
@@ -137,14 +194,20 @@
               "rememberedFor": "string"
             }
           },
-          "stories": { "type": "array" }
+          "stories": {
+            "type": "array"
+          }
         }
       },
       "places-to-stay": {
         "description": "Accommodation listings with prices",
         "props": {
-          "title": { "type": "string" },
-          "eyebrow": { "type": "string" },
+          "title": {
+            "type": "string"
+          },
+          "eyebrow": {
+            "type": "string"
+          },
           "stays": {
             "type": "array",
             "items": {
@@ -156,14 +219,20 @@
               "url": "string"
             }
           },
-          "viewAllUrl": { "type": "string" }
+          "viewAllUrl": {
+            "type": "string"
+          }
         }
       },
       "eat-drink": {
         "description": "Restaurant listings carousel (React component)",
         "props": {
-          "title": { "type": "string" },
-          "subtitle": { "type": "string" },
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          },
           "restaurants": {
             "type": "array",
             "items": {
@@ -180,61 +249,131 @@
         }
       }
     },
-
     "editorial": {
       "editorial-hero": {
         "description": "Large editorial hero with badge and background image",
         "props": {
-          "title": { "type": "string", "required": true },
-          "subtitle": { "type": "string" },
-          "badge": { "type": "string", "description": "Category or section label" },
-          "image": { "type": "string", "required": true },
-          "height": { "type": "string", "default": "80vh" }
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "subtitle": {
+            "type": "string"
+          },
+          "badge": {
+            "type": "string",
+            "description": "Category or section label"
+          },
+          "image": {
+            "type": "string",
+            "required": true
+          },
+          "height": {
+            "type": "string",
+            "default": "80vh"
+          }
         },
         "example": {
           "type": "editorial-hero",
           "title": "The Art of Slow Travel",
           "subtitle": "Discovering the rhythm of the five villages",
           "badge": "Editor's Journey",
-          "image": "https://images.unsplash.com/photo-xxx"
+          "image": "https://images.unsplash.com/photo-1544828237-b63b6409fd74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5JTIwY29sb3JmdWwlMjB2aWxsYWdlfGVufDB8MHx8fDE3NjkzMjczNTF8MA&ixlib=rb-4.1.0&q=80&w=1080"
         }
       },
       "editorial-intro": {
         "description": "Two-column editorial intro with centered quote",
         "props": {
-          "badge": { "type": "string", "required": true },
-          "quote": { "type": "string", "required": true, "description": "Central pull quote" },
-          "leftContent": { "type": "string", "required": true, "description": "Left column markdown" },
-          "rightContent": { "type": "string", "required": true, "description": "Right column markdown" }
+          "badge": {
+            "type": "string",
+            "required": true
+          },
+          "quote": {
+            "type": "string",
+            "required": true,
+            "description": "Central pull quote"
+          },
+          "leftContent": {
+            "type": "string",
+            "required": true,
+            "description": "Left column markdown"
+          },
+          "rightContent": {
+            "type": "string",
+            "required": true,
+            "description": "Right column markdown"
+          }
         }
       },
       "editorial-interlude": {
         "description": "Highlighted break between content sections",
         "props": {
-          "badge": { "type": "string" },
-          "title": { "type": "string", "required": true },
-          "quote": { "type": "string", "required": true },
-          "interludeType": { "type": "string", "enum": ["primary", "secondary"] },
-          "align": { "type": "string", "enum": ["left", "right"] },
-          "icon": { "type": "string" }
+          "badge": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "quote": {
+            "type": "string",
+            "required": true
+          },
+          "interludeType": {
+            "type": "string",
+            "enum": [
+              "primary",
+              "secondary"
+            ]
+          },
+          "align": {
+            "type": "string",
+            "enum": [
+              "left",
+              "right"
+            ]
+          },
+          "icon": {
+            "type": "string"
+          }
         }
       },
       "editor-note": {
         "description": "Expert quote with avatar - typically Giulia Rossi's local perspective",
         "props": {
-          "quote": { "type": "string", "required": true },
-          "author": { "type": "string", "default": "Giulia Rossi" },
-          "role": { "type": "string", "default": "Local Editor" },
-          "image": { "type": "string" }
+          "quote": {
+            "type": "string",
+            "required": true
+          },
+          "author": {
+            "type": "string",
+            "default": "Giulia Rossi"
+          },
+          "role": {
+            "type": "string",
+            "default": "Local Editor"
+          },
+          "image": {
+            "type": "string"
+          }
         },
         "voice": "Use warm, knowledgeable tone. Giulia is a local who has lived in Cinque Terre for years."
       },
       "closing-note": {
         "description": "Dark reflective closing section with call-to-action",
         "props": {
-          "badge": { "type": "string" },
-          "title": { "type": "string", "required": true },
-          "content": { "type": "string", "required": true, "description": "Closing reflection markdown" },
+          "badge": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string",
+            "required": true
+          },
+          "content": {
+            "type": "string",
+            "required": true,
+            "description": "Closing reflection markdown"
+          },
           "actions": {
             "type": "array",
             "items": {
@@ -243,17 +382,22 @@
               "variant": "primary | secondary"
             }
           },
-          "backgroundIcon": { "type": "string" }
+          "backgroundIcon": {
+            "type": "string"
+          }
         }
       }
     },
-
     "content": {
       "featured-carousel": {
         "description": "Scrollable story cards carousel (React)",
         "props": {
-          "title": { "type": "string" },
-          "viewAllUrl": { "type": "string" },
+          "title": {
+            "type": "string"
+          },
+          "viewAllUrl": {
+            "type": "string"
+          },
           "stories": {
             "type": "array",
             "items": {
@@ -297,7 +441,6 @@
         "note": "Renders from hardcoded data"
       }
     },
-
     "blog": {
       "blog-article": {
         "description": "Full blog post content block",
@@ -344,13 +487,20 @@
             "date": "October 14, 2023",
             "readTime": "4 min read",
             "category": "Food",
-            "image": "https://images.unsplash.com/photo-xxx",
-            "tags": ["Gelato", "Foodie", "Local Secrets"]
+            "image": "https://images.unsplash.com/photo-1544828237-b63b6409fd74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDQzNDB8MHwxfHNlYXJjaHwxfHxjaW5xdWUlMjB0ZXJyZSUyMGl0YWx5JTIwY29sb3JmdWwlMjB2aWxsYWdlfGVufDB8MHx8fDE3NjkzMjczNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+            "tags": [
+              "Gelato",
+              "Foodie",
+              "Local Secrets"
+            ]
           },
           "content": {
             "intro": "In Italy, gelato is not just a dessert; it's a daily ritual...",
             "sections": [
-              { "title": "The Art of the Scoop", "text": "True artisanal gelato..." }
+              {
+                "title": "The Art of the Scoop",
+                "text": "True artisanal gelato..."
+              }
             ]
           }
         }
@@ -360,7 +510,6 @@
         "note": "Automatically renders from blog collection"
       }
     },
-
     "template": {
       "itinerary-hero": {
         "description": "Hero for itinerary pages with duration and highlights"
@@ -377,8 +526,18 @@
       "collection-with-interludes": {
         "description": "Collection items with editorial breaks between",
         "props": {
-          "collectionType": { "type": "string", "enum": ["restaurants", "accommodations", "hikes", "pois"] },
-          "village": { "type": "string" },
+          "collectionType": {
+            "type": "string",
+            "enum": [
+              "restaurants",
+              "accommodations",
+              "hikes",
+              "pois"
+            ]
+          },
+          "village": {
+            "type": "string"
+          },
           "interludes": {
             "type": "array",
             "items": {
@@ -397,11 +556,17 @@
       }
     }
   },
-
   "collections": {
     "restaurants": {
       "description": "Restaurant data for Cinque Terre villages",
-      "required_fields": ["name", "slug", "location", "village", "ratings", "details"],
+      "required_fields": [
+        "name",
+        "slug",
+        "location",
+        "village",
+        "ratings",
+        "details"
+      ],
       "key_fields": {
         "name": "Restaurant name",
         "slug": "URL-friendly identifier (lowercase, hyphens)",
@@ -419,7 +584,15 @@
     },
     "accommodations": {
       "description": "Hotels, B&Bs, and apartments in Cinque Terre",
-      "required_fields": ["name", "slug", "type", "village", "location", "ratings", "pricing"],
+      "required_fields": [
+        "name",
+        "slug",
+        "type",
+        "village",
+        "location",
+        "ratings",
+        "pricing"
+      ],
       "key_fields": {
         "type.category": "Hotel | B&B | Apartment | Guesthouse | Hostel | Villa | Room Rental",
         "type.star_rating": "1-5 star rating",
@@ -433,7 +606,18 @@
     },
     "hikes": {
       "description": "Hiking trail data for Cinque Terre",
-      "required_fields": ["name", "slug", "category", "popularity", "route", "metrics", "difficulty", "trail_conditions", "access_and_fees", "ratings"],
+      "required_fields": [
+        "name",
+        "slug",
+        "category",
+        "popularity",
+        "route",
+        "metrics",
+        "difficulty",
+        "trail_conditions",
+        "access_and_fees",
+        "ratings"
+      ],
       "key_fields": {
         "category.primary": "Coastal Path | Mountain Trail | Sanctuary Trail | Village Connection | Ridge Walk",
         "metrics.distance": "{ km, miles }",
@@ -480,7 +664,6 @@
       }
     }
   },
-
   "page_structure": {
     "description": "Standard page JSON structure",
     "schema": {
@@ -500,10 +683,14 @@
       "updated_at": "ISO date string"
     }
   },
-
   "localization": {
     "description": "Multi-language content pattern",
-    "supported_languages": ["en", "de", "fr", "it"],
+    "supported_languages": [
+      "en",
+      "de",
+      "fr",
+      "it"
+    ],
     "LocalizedString": {
       "type": "object",
       "example": {
@@ -519,7 +706,6 @@
       "URLs should be prefixed with language code: /en/path, /de/path"
     ]
   },
-
   "editorial_voice": {
     "brand": "Cinque Terre Dispatch",
     "tone": "Warm, knowledgeable, and evocative. We write like a trusted local friend sharing secrets.",

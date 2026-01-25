@@ -1,0 +1,328 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Cinque Terre Content Calendar Configuration",
+  "description": "Editorial calendar for automated and scheduled content generation",
+  "version": "1.0.0",
+
+  "seasonal_content": {
+    "spring": {
+      "season_name": "Spring",
+      "publish_window": {
+        "start": "03-01",
+        "end": "05-31"
+      },
+      "ideal_generation_lead_time_weeks": 4,
+      "topics": [
+        {
+          "id": "spring-wildflowers",
+          "title": "Spring Wildflower Hiking Guide",
+          "slug": "spring-wildflower-hiking-cinque-terre",
+          "priority": "high",
+          "content_type": "blog-article",
+          "brief": "Comprehensive guide to spring wildflower hikes in Cinque Terre (March-May). Cover major trails with botanical highlights, bloom timing by elevation, and photography tips for capturing wildflowers against coastal backdrops.",
+          "target_length": "1800-2200 words",
+          "ideal_publish_date": "03-15",
+          "keywords": ["spring hiking", "wildflowers", "Cinque Terre trails", "nature photography"]
+        },
+        {
+          "id": "easter-traditions",
+          "title": "Easter Traditions in Each Village",
+          "slug": "easter-traditions-cinque-terre-villages",
+          "priority": "medium",
+          "content_type": "blog-article",
+          "brief": "Explore the unique Easter traditions and celebrations in each of the five villages. Cover religious processions, traditional foods (focaccia di Pasqua, colomba), church services, and how locals celebrate. Include practical tips for visitors during Holy Week.",
+          "target_length": "1500-1800 words",
+          "ideal_publish_date": "variable - 3 weeks before Easter",
+          "keywords": ["Easter", "Italian traditions", "religious festivals", "spring travel"]
+        },
+        {
+          "id": "spring-photography",
+          "title": "Best Spring Photography Spots",
+          "slug": "spring-photography-spots-cinque-terre",
+          "priority": "medium",
+          "content_type": "blog-article",
+          "brief": "Guide to capturing Cinque Terre in spring light. Cover the golden hour spots, flower-framed village views, vineyard paths with spring growth, and the dramatic weather conditions unique to shoulder season.",
+          "target_length": "1200-1500 words",
+          "ideal_publish_date": "04-01",
+          "keywords": ["photography", "spring travel", "golden hour", "landscape photography"]
+        }
+      ],
+      "themes": ["rebirth", "wildflowers", "hiking season begins", "Easter", "winemaking preparation"],
+      "weather_context": "Temperatures 12-20C, occasional rain, increasingly sunny days"
+    },
+
+    "summer": {
+      "season_name": "Summer",
+      "publish_window": {
+        "start": "06-01",
+        "end": "08-31"
+      },
+      "ideal_generation_lead_time_weeks": 4,
+      "topics": [
+        {
+          "id": "beat-the-crowds",
+          "title": "Beat the Crowds: Early Morning Strategies",
+          "slug": "beat-the-crowds-cinque-terre-summer",
+          "priority": "high",
+          "content_type": "blog-article",
+          "brief": "Tactical guide for experiencing Cinque Terre without the summer crowds. Cover early morning hiking (5-7 AM starts), sunrise spots, breakfast at local bars before tourists wake, and the magic of villages before 9 AM. Include specific timing recommendations for each village.",
+          "target_length": "1500-1800 words",
+          "ideal_publish_date": "06-01",
+          "keywords": ["avoiding crowds", "summer travel tips", "early morning", "local experience"]
+        },
+        {
+          "id": "swimming-spots",
+          "title": "Best Swimming Spots by Village",
+          "slug": "best-swimming-spots-cinque-terre",
+          "priority": "high",
+          "content_type": "blog-article",
+          "brief": "Complete guide to swimming in Cinque Terre. Cover beaches (Monterosso, Guvano), rock swimming spots (Manarola, Riomaggiore marina), the harbor swimming spots, and secret locals-only spots. Include safety tips, water shoes recommendations, and best times to avoid jellyfish.",
+          "target_length": "1800-2000 words",
+          "ideal_publish_date": "06-15",
+          "keywords": ["swimming", "beaches", "summer activities", "water sports"]
+        },
+        {
+          "id": "summer-aperitivo",
+          "title": "Summer Evening Aperitivo Guide",
+          "slug": "summer-aperitivo-guide-cinque-terre",
+          "priority": "medium",
+          "content_type": "blog-article",
+          "brief": "Guide to the perfect aperitivo hour in each village. Cover sunset-view bars, local wines (Sciacchetra, Cinque Terre DOC), typical aperitivo snacks, pricing expectations, and the art of the Italian evening ritual. Focus on atmosphere over tourist bars.",
+          "target_length": "1200-1500 words",
+          "ideal_publish_date": "07-01",
+          "keywords": ["aperitivo", "sunset", "wine", "Italian culture", "summer evenings"]
+        },
+        {
+          "id": "staying-cool",
+          "title": "Staying Cool: Hot Weather Survival Guide",
+          "slug": "staying-cool-cinque-terre-heat",
+          "priority": "low",
+          "content_type": "blog-article",
+          "brief": "Practical guide for dealing with summer heat in Cinque Terre. Cover shaded walking routes, air-conditioned refuges (churches, gelaterias), best times for activities, hydration tips, and the local approach to avoiding the midday sun.",
+          "target_length": "1000-1200 words",
+          "ideal_publish_date": "07-15",
+          "keywords": ["summer heat", "travel tips", "staying cool", "practical advice"]
+        }
+      ],
+      "themes": ["beaches", "swimming", "evening culture", "managing heat and crowds", "outdoor dining"],
+      "weather_context": "Temperatures 25-32C, dry, intense sun, sea swimming ideal"
+    },
+
+    "fall": {
+      "season_name": "Autumn",
+      "publish_window": {
+        "start": "09-01",
+        "end": "11-30"
+      },
+      "ideal_generation_lead_time_weeks": 4,
+      "topics": [
+        {
+          "id": "wine-harvest",
+          "title": "Wine Harvest Experiences",
+          "slug": "wine-harvest-cinque-terre-vendemmia",
+          "priority": "high",
+          "content_type": "blog-article",
+          "brief": "Deep dive into the vendemmia (grape harvest) season in Cinque Terre's UNESCO-protected vineyards. Cover the heroic viticulture tradition, opportunities to participate in harvest, winery visits, and the festivals celebrating Sciacchetra production.",
+          "target_length": "1800-2200 words",
+          "ideal_publish_date": "09-01",
+          "keywords": ["wine harvest", "vendemmia", "Sciacchetra", "wine tourism", "viticulture"]
+        },
+        {
+          "id": "autumn-hiking",
+          "title": "Autumn Hiking Without the Heat",
+          "slug": "autumn-hiking-cinque-terre-perfect-weather",
+          "priority": "high",
+          "content_type": "blog-article",
+          "brief": "Why autumn is the best hiking season in Cinque Terre. Cover the perfect temperatures, clearer visibility, golden light for photography, fewer crowds, and the changing colors of the vineyards. Include specific trail recommendations.",
+          "target_length": "1500-1800 words",
+          "ideal_publish_date": "09-15",
+          "keywords": ["autumn hiking", "fall travel", "best season", "trail guide"]
+        },
+        {
+          "id": "mushroom-foraging",
+          "title": "Mushroom Foraging Traditions",
+          "slug": "mushroom-foraging-cinque-terre-porcini",
+          "priority": "medium",
+          "content_type": "blog-article",
+          "brief": "Explore the local mushroom hunting culture in the forests above the villages. Cover porcini season, traditional recipes, where to taste mushroom dishes in restaurants, and the cultural significance of foraging in Liguria.",
+          "target_length": "1200-1500 words",
+          "ideal_publish_date": "10-15",
+          "keywords": ["mushrooms", "foraging", "porcini", "local cuisine", "autumn activities"]
+        },
+        {
+          "id": "storm-watching",
+          "title": "Autumn Storm Watching: A Different Kind of Beauty",
+          "slug": "autumn-storms-cinque-terre-dramatic-coast",
+          "priority": "low",
+          "content_type": "blog-article",
+          "brief": "Guide to experiencing Cinque Terre's dramatic autumn storms safely. Cover the best sheltered viewpoints, cozy restaurants for rainy days, the power of the Mediterranean sea, and photography tips for moody weather.",
+          "target_length": "1000-1200 words",
+          "ideal_publish_date": "11-01",
+          "keywords": ["storms", "autumn weather", "photography", "dramatic landscape"]
+        }
+      ],
+      "themes": ["harvest", "wine", "perfect hiking weather", "fewer crowds", "local traditions"],
+      "weather_context": "Temperatures 15-25C, occasional rain, golden light, sea still warm enough for swimming until October"
+    },
+
+    "winter": {
+      "season_name": "Winter",
+      "publish_window": {
+        "start": "12-01",
+        "end": "02-28"
+      },
+      "ideal_generation_lead_time_weeks": 4,
+      "topics": [
+        {
+          "id": "christmas-traditions",
+          "title": "Christmas Markets and Traditions",
+          "slug": "christmas-markets-traditions-cinque-terre",
+          "priority": "high",
+          "content_type": "blog-article",
+          "brief": "Guide to Christmas in Cinque Terre. Cover the famous Manarola presepe (world's largest illuminated nativity), Riomaggiore's underwater nativity, local Christmas foods, and the intimate atmosphere of villages decorated for the holidays.",
+          "target_length": "1500-1800 words",
+          "ideal_publish_date": "12-01",
+          "keywords": ["Christmas", "nativity", "presepe", "holiday travel", "winter traditions"]
+        },
+        {
+          "id": "winter-storms",
+          "title": "Winter Storm Watching",
+          "slug": "winter-storms-cinque-terre-mareggiata",
+          "priority": "medium",
+          "content_type": "blog-article",
+          "brief": "The drama of winter storms (mareggiata) on the Cinque Terre coast. Cover safe viewpoints, the power of Mediterranean winter waves, cozy places to watch from warmth, and the rhythm of winter life in the villages.",
+          "target_length": "1200-1500 words",
+          "ideal_publish_date": "01-15",
+          "keywords": ["winter storms", "mareggiata", "dramatic weather", "off-season travel"]
+        },
+        {
+          "id": "offseason-restaurants",
+          "title": "Off-Season Restaurant Recommendations",
+          "slug": "winter-restaurants-cinque-terre-local-favorites",
+          "priority": "high",
+          "content_type": "blog-article",
+          "brief": "The best restaurants open during winter months (many close seasonally). Focus on where locals eat, warming Ligurian dishes perfect for cold evenings, and the advantage of reservations being possible at normally-packed spots.",
+          "target_length": "1500-1800 words",
+          "ideal_publish_date": "01-01",
+          "keywords": ["winter dining", "off-season", "local restaurants", "authentic cuisine"]
+        },
+        {
+          "id": "winter-hiking",
+          "title": "Mild Winter Hiking Days",
+          "slug": "winter-hiking-cinque-terre-sunny-days",
+          "priority": "medium",
+          "content_type": "blog-article",
+          "brief": "Taking advantage of Cinque Terre's mild Mediterranean winter for hiking. Cover which trails remain open, the beauty of empty paths, what to wear, and the magic of sunny January days on the coast.",
+          "target_length": "1200-1500 words",
+          "ideal_publish_date": "02-01",
+          "keywords": ["winter hiking", "mild climate", "off-season", "empty trails"]
+        }
+      ],
+      "themes": ["Christmas lights", "storms", "local life", "restaurants", "quiet villages"],
+      "weather_context": "Temperatures 5-15C, rain common, can be sunny and mild, many businesses closed"
+    }
+  },
+
+  "evergreen_content": {
+    "description": "Content that remains relevant year-round, updated annually",
+    "topics": [
+      {
+        "id": "train-schedule-guide",
+        "title": "Complete Train Schedule Guide",
+        "slug": "cinque-terre-train-schedule-guide",
+        "priority": "critical",
+        "content_type": "guide",
+        "brief": "Comprehensive guide to train travel in Cinque Terre. Cover the regional train system, frequency between villages, Cinque Terre Card options, La Spezia connections, platform navigation, and money-saving tips.",
+        "target_length": "2000-2500 words",
+        "update_frequency": "annually in March",
+        "keywords": ["train schedule", "transportation", "Cinque Terre Card", "travel logistics"]
+      },
+      {
+        "id": "packing-list",
+        "title": "Packing List for Cinque Terre",
+        "slug": "complete-packing-list-cinque-terre",
+        "priority": "high",
+        "content_type": "guide",
+        "brief": "Season-by-season packing guide. Cover hiking gear essentials (shoes especially), swimwear, layers for unpredictable weather, what NOT to bring (heavy luggage for stairs), and village-specific considerations.",
+        "target_length": "1500-1800 words",
+        "update_frequency": "annually",
+        "keywords": ["packing list", "what to bring", "hiking gear", "travel preparation"]
+      },
+      {
+        "id": "accessibility-guide",
+        "title": "Accessibility Guide for Each Village",
+        "slug": "cinque-terre-accessibility-guide",
+        "priority": "high",
+        "content_type": "guide",
+        "brief": "Honest accessibility information for each village. Cover steps/stairs counts, cobblestone conditions, which areas are wheelchair accessible (limited), recommendations for mobility-challenged visitors, and alternatives to hiking.",
+        "target_length": "1800-2200 words",
+        "update_frequency": "annually",
+        "keywords": ["accessibility", "mobility", "wheelchair", "stairs", "limited mobility"]
+      },
+      {
+        "id": "budget-guide",
+        "title": "Visiting Cinque Terre on a Budget",
+        "slug": "cinque-terre-budget-travel-guide",
+        "priority": "medium",
+        "content_type": "guide",
+        "brief": "Complete budget guide covering affordable accommodation, cheap eats, free activities, Cinque Terre Card value analysis, and day trip vs overnight cost comparison. Include specific price examples.",
+        "target_length": "2000-2500 words",
+        "update_frequency": "annually in January",
+        "keywords": ["budget travel", "cheap", "affordable", "saving money"]
+      },
+      {
+        "id": "first-time-guide",
+        "title": "First-Time Visitor's Complete Guide",
+        "slug": "first-time-visitor-guide-cinque-terre",
+        "priority": "critical",
+        "content_type": "guide",
+        "brief": "Everything a first-time visitor needs to know. Cover what Cinque Terre is (and isn't), realistic expectations, how to get there, how long to stay, which villages to prioritize, common mistakes to avoid.",
+        "target_length": "2500-3000 words",
+        "update_frequency": "annually",
+        "keywords": ["first time", "beginners guide", "what to know", "travel tips"]
+      }
+    ]
+  },
+
+  "content_generation_rules": {
+    "automatic_triggers": {
+      "seasonal": {
+        "enabled": true,
+        "trigger_weeks_before_publish_window": 4,
+        "require_human_review": true
+      },
+      "event_based": {
+        "enabled": true,
+        "events": ["trail_status_change", "major_closure", "new_restaurant_opening"],
+        "require_human_review": true
+      }
+    },
+    "quality_requirements": {
+      "minimum_sources": 2,
+      "require_local_verification": true,
+      "seo_score_minimum": 70,
+      "readability_score_minimum": 60
+    },
+    "publishing_workflow": {
+      "stages": ["brief_created", "draft", "in_editorial_review", "approved", "scheduled", "published"],
+      "require_ceo_approval_for": ["high_priority_seasonal", "evergreen_updates"],
+      "auto_publish_allowed_for": ["low_priority_seasonal"]
+    }
+  },
+
+  "agent_instructions": {
+    "general": [
+      "Always verify seasonal dates and events are current for the publication year",
+      "Include practical tips based on the target season's weather",
+      "Reference related content on the site where relevant",
+      "Use the established editorial voice from writer-prompt.json",
+      "Include relevant collection links (restaurants, accommodations) where appropriate"
+    ],
+    "seasonal_specific": {
+      "spring": "Emphasize rebirth themes, wildflower bloom timing, Easter traditions",
+      "summer": "Focus on crowd management, heat tips, swimming, early morning strategies",
+      "fall": "Highlight harvest culture, perfect hiking weather, local food traditions",
+      "winter": "Emphasize Christmas traditions, cozy atmosphere, storm drama, authentic local life"
+    }
+  }
+}
