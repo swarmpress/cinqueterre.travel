@@ -29,6 +29,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: swarmpress/swarmpress
+          # Pinned to the last TypeScript-era commit (tag legacy-final): swarmpress main is now the
+          # new Rust tree, and the live site must not follow it (cutover runbook, step 0).
+          ref: 391d5de8fe4eae3184dfd3f845f7e418239123f9
           path: swarmpress
           token: ${{ secrets.MONOREPO_PAT }}
 
