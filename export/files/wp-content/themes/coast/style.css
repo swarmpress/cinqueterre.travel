@@ -1,0 +1,89 @@
+/*
+Theme Name: Coast
+Theme URI: https://github.com/swarmpress/wp-sandbox
+Author: swarm.press
+Description: An editorial block theme for travel guides moved onto WordPress by swarm.press: display serif headings, a calm teal accent, wide images and the editorial sections (hero, intro, collections with interludes, closing notes, FAQs) of the sites it imports.
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 8.1
+Version: 0.1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: coast
+*/
+
+/* The editorial sections an import brings (class ct-{kind}). */
+.ct-editorial-hero, .ct-hero-section, .ct-itinerary-hero, .ct-weather-live {
+	position: relative;
+	padding-block: clamp(3rem, 8vw, 7rem);
+	text-align: center;
+}
+.ct-editorial-hero h2, .ct-itinerary-hero h2, .ct-weather-live h2 {
+	font-size: clamp(2.5rem, 6vw, 4.5rem);
+	line-height: 1.05;
+	margin-block: .5rem 1.25rem;
+}
+.ct-editorial-hero .wp-block-image, .ct-itinerary-hero .wp-block-image, .ct-weather-live .wp-block-image {
+	max-width: var(--wp--style--global--wide-size);
+	margin-inline: auto;
+}
+.ct-editorial-hero .wp-block-image img, .ct-itinerary-hero .wp-block-image img {
+	width: 100%;
+	aspect-ratio: 21 / 9;
+	object-fit: cover;
+	border-radius: var(--wp--custom--radius);
+}
+.ct-badge, .ct-category, .ct-eyebrow, .ct-village, .ct-date, .ct-read-time, .ct-role {
+	font-family: var(--wp--preset--font-family--sans);
+	font-size: var(--wp--preset--font-size--small);
+	letter-spacing: .14em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--brand);
+	margin-block: 0 .5rem;
+}
+.ct-editorial-intro, .ct-closing-note, .ct-content-section, .ct-weather-journal {
+	padding-block: clamp(2rem, 5vw, 4rem);
+}
+.ct-editorial-intro .wp-block-quote, .ct-weather-journal .wp-block-quote {
+	border: 0;
+	padding: 0;
+	font-family: var(--wp--preset--font-family--display);
+	font-size: clamp(1.5rem, 3vw, 2.1rem);
+	line-height: 1.3;
+}
+.ct-editorial-intro .wp-block-quote cite { font-size: var(--wp--preset--font-size--small); font-style: normal; }
+.ct-collection-with-interludes, .ct-collection {
+	display: grid;
+	gap: 2rem;
+	padding-block: 2rem;
+}
+.ct-items-item, .ct-collection-item, .ct-stories-item, .ct-editors-item, .ct-days-item {
+	border-top: 1px solid var(--wp--preset--color--border);
+	padding-block: 1.5rem;
+}
+.ct-items-item .wp-block-image img, .ct-days-item .wp-block-image img, .ct-stories-item .wp-block-image img {
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	border-radius: var(--wp--custom--radius);
+}
+.ct-interludes-item {
+	background: var(--wp--preset--color--background-alt);
+	padding: clamp(1.5rem, 4vw, 3rem);
+	border-radius: var(--wp--custom--radius);
+}
+.ct-meta {
+	font-family: var(--wp--preset--font-family--sans);
+	font-size: var(--wp--preset--font-size--small);
+	color: var(--wp--preset--color--muted);
+	margin-block: .25rem;
+}
+.ct-meta-key { font-weight: 600; color: var(--wp--preset--color--foreground); }
+.ct-faq-section .wp-block-details {
+	border-bottom: 1px solid var(--wp--preset--color--border);
+	padding-block: 1rem;
+}
+.ct-faq-section summary { font-family: var(--wp--preset--font-family--display); font-size: 1.35rem; cursor: pointer; }
+.ct-closing-note { text-align: center; }
+.ct-closing-note .wp-block-buttons { justify-content: center; }
+.ct-callouts, .ct-content-section .wp-block-list { color: var(--wp--preset--color--muted); }
+.coast-langs a { margin-inline-start: .75rem; text-decoration: none; text-transform: uppercase; font-size: var(--wp--preset--font-size--small); }
