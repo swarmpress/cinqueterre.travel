@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Listing templates</title>
+<script src="8afb86c2-dae1-41f5-b45c-9af9b9074de5"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>/* math */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/57c99caa95a61ef7.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/71d669c668ad1f01.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v28/aFTS7PxzY382XsXX63LUYJSPeKTcW3JNsapGZQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/3fac62d55a70c44b.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* math */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v28/aFTQ7PxzY382XsXX63LUYJT2SKjWXFBPgas.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v28/aFTQ7PxzY382XsXX63LUYJTkSKjWXFBPgas.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v28/aFTQ7PxzY382XsXX63LUYJSESKjWXFBPgas.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/fe710b15e2acd1f3.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/c6f09ee0e0a24b7c.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/7b59d6bf7f8b8408.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/0a8b854cc18641bd.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/f1050dc5317b4343.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/c36f509c0a8f9f85.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/311098be73eac339.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/d524dc8ff6dbf7ed.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/b2529fba93fd07a5.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/77f03e26f981c582.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/a76f53ca6612e7b3.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/schibstedgrotesk/v7/Jqz_5SSPQuCQF3t8uOwiUL-taUTtap9DWyYpcgNMR1M16w.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/c0aab3a5acaeb1f0.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/schibstedgrotesk/v7/Jqz55SSPQuCQF3t8uOwiUL-taUTtap9IayojdSFOd1I.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/e3b56e90510a84ac.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+body{margin:0;background:#F3EFE7}
+a{color:#0F1E2E;text-decoration:none}a:hover{color:#B5482F}
+.mono{font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace}
+.disp{font-family:'Bodoni Moda','Didot','Bodoni 72',Georgia,serif;font-optical-sizing:auto}
+.ph{background-image:repeating-linear-gradient(135deg,rgba(15,30,46,0.08) 0 1px,transparent 1px 11px)}
+.ul{background-image:linear-gradient(currentColor,currentColor);background-size:0% 1px;background-position:0 100%;background-repeat:no-repeat;transition:background-size 320ms cubic-bezier(0.22,1,0.36,1)}
+.ul:hover,a:hover .ul{background-size:100% 1px}
+.card .imgw{overflow:hidden}.card .img{transition:transform 560ms cubic-bezier(0.22,1,0.36,1)}.card:hover .img{transform:scale(1.04)}
+.chip{all:unset;cursor:pointer;height:40px;padding:0 16px;border-radius:999px;border:1px solid #0F1E2E;font:500 14px/40px 'Schibsted Grotesk',sans-serif;transition:background-color 200ms cubic-bezier(0.22,1,0.36,1),color 200ms}
+.chip:hover{background:#E8E2D6}
+.chip:focus-visible,summary:focus-visible{outline:2px solid #0F1E2E;outline-offset:3px;box-shadow:0 0 0 7px #E8C547}
+details summary{list-style:none;cursor:pointer}
+details summary::-webkit-details-marker{display:none}
+details .plus{transition:transform 320ms cubic-bezier(0.22,1,0.36,1)}
+details[open] .plus{transform:rotate(45deg)}
+.fr:hover{background:#E8E2D6}
+.portrait .img{filter:grayscale(1);transition:filter 560ms cubic-bezier(0.22,1,0.36,1),transform 560ms cubic-bezier(0.22,1,0.36,1)}
+.portrait:hover .img{filter:grayscale(0);transform:scale(1.03)}
+</style>
+</helmet>
+<div style="width:1440px;height:2900px;box-sizing:border-box;background:#F3EFE7;color:#0F1E2E;font-family:'Schibsted Grotesk','Helvetica Neue',sans-serif;padding:56px 64px;display:flex;flex-direction:column;gap:56px">
+
+<div style="display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #0F1E2E;padding-bottom:20px">
+<div style="display:flex;align-items:baseline;gap:24px"><span class="mono" style="font-size:12px;letter-spacing:0.14em;color:#B5482F">07</span><h2 class="disp" style="margin:0;font-size:88px;line-height:0.95;font-weight:400;letter-spacing:-0.025em">Listings</h2></div>
+<p style="margin:0;max-width:560px;font-size:16px;line-height:1.6;color:#3A4756">Things to do, restaurants, weather and the team are written today as long prose with headings. The system keeps the essay voice but pulls the facts out into structured entries that can be filtered and compared.</p>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px">
+<div style="grid-column:1 / span 12;display:flex;flex-direction:column;gap:10px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">Observed on these pages → fix</div>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px;font-size:14px;line-height:1.45">
+<div style="display:grid;grid-template-columns:28px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid #CFC6B6"><span class="mono" style="color:#B5482F">07</span><span>No filters or sorting on any listing → the <strong>Listing bar</strong> (7.1).</span></div>
+<div style="display:grid;grid-template-columns:28px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid #CFC6B6"><span class="mono" style="color:#B5482F">08</span><span>Activities have no duration, price or season; location appears on 5 of 7 → required fields.</span></div>
+<div style="display:grid;grid-template-columns:28px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid #CFC6B6"><span class="mono" style="color:#B5482F">09</span><span>Restaurant tips mix closing day, booking and payment in one sentence → structured "Know before you go".</span></div>
+<div style="display:grid;grid-template-columns:28px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid #CFC6B6"><span class="mono" style="color:#B5482F">10</span><span>Price shown in $ on a euro site → € scale, 1–4.</span></div>
+<div style="display:grid;grid-template-columns:28px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid #CFC6B6"><span class="mono" style="color:#B5482F">11</span><span>Forecast uses emoji icons; climate facts sit only in prose → stroke icons + season cards.</span></div>
+<div style="display:grid;grid-template-columns:28px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid #CFC6B6"><span class="mono" style="color:#B5482F">12</span><span>Headings carry double spaces ("The Hungry  Village"); images have empty alt → content lint in CMS.</span></div>
+</div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">7.1 Listing bar — sticky under masthead, wraps on mobile</div>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;border-top:1px solid #0F1E2E;border-bottom:1px solid #CFC6B6;padding:14px 0">
+<span class="mono" style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:#3A4756">Corniglia · {{count}} things to do</span>
+<div role="group" aria-label="Filter by type" style="display:flex;flex-wrap:wrap;gap:8px">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="5">
+<button class="chip" type="button" aria-pressed="{{f.on}}" sc-camel-on-click="{{f.pick}}" style="background:{{f.bg}};color:{{f.fg}}">{{f.label}}</button>
+</sc-for>
+</div>
+<label style="margin-left:auto;display:flex;align-items:center;gap:10px;font-size:14px">
+<span class="mono" style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:#3A4756">Sort</span>
+<sc-raw-select style="height:40px;border-radius:2px;border:1px solid #0F1E2E;background:#F3EFE7;font:500 14px 'Schibsted Grotesk',sans-serif;padding:0 12px;color:#0F1E2E"><option>Editors’ order</option><option>Shortest first</option><option>Best at sunset</option></sc-raw-select>
+</label>
+</div>
+<span class="mono" style="font-size:11px;color:#3A4756">Chips are toggles (aria-pressed). Results cross-fade 200ms, re-enter with 60ms stagger. Active chip = Ink fill.</span>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">7.2 Activity entry — Things to do</div>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">
+<sc-for list="{{acts}}" as="a" hint-placeholder-count="3">
+<a href="#" class="card" style="display:flex;flex-direction:column;gap:14px">
+<div class="imgw" style="aspect-ratio:4 / 5;position:relative"><div class="img ph" style="width:100%;height:100%;background-color:#9DAA7C"></div>
+<span class="mono" style="position:absolute;left:12px;top:12px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;background:#F3EFE7;padding:5px 9px">{{a.label}}</span></div>
+<span class="disp" style="font-size:32px;line-height:1.05;letter-spacing:-0.01em"><span class="ul">{{a.name}}</span></span>
+<span class="disp" style="font-size:19px;line-height:1.35;font-style:italic;color:#3A4756">{{a.tag}}</span>
+<div class="mono" style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #0F1E2E;font-size:12px">
+<div style="display:flex;flex-direction:column;gap:3px;padding:10px 10px 0 0;border-right:1px solid #CFC6B6"><span style="font-size:10px;letter-spacing:0.14em;color:#3A4756">TIME</span><span>[Duration]</span></div>
+<div style="display:flex;flex-direction:column;gap:3px;padding:10px 10px 0;border-right:1px solid #CFC6B6"><span style="font-size:10px;letter-spacing:0.14em;color:#3A4756">COST</span><span>[€ / free]</span></div>
+<div style="display:flex;flex-direction:column;gap:3px;padding:10px 0 0 10px"><span style="font-size:10px;letter-spacing:0.14em;color:#3A4756">BEST</span><span>[Season]</span></div>
+</div>
+</a>
+</sc-for>
+</div>
+<span class="mono" style="font-size:11px;color:#3A4756">Label (Mono on image) → name h3 32 → tagline lede-italic 19 → 3-cell fact row. Location is implied by the page's village; shown as a chip only on cross-village lists.</span>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">7.3 Restaurant entry — Where to eat</div>
+<article style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;border-top:1px solid #0F1E2E;padding-top:24px">
+<div class="card" style="grid-column:1 / span 5;display:flex;flex-direction:column;gap:10px">
+<div class="imgw" style="aspect-ratio:3 / 2"><div class="img ph" style="width:100%;height:100%;background-color:#E8C547"></div></div>
+<span style="font-size:13px;line-height:1.5;font-style:italic;color:#3A4756">Where Monterosso’s seafood tradition meets contemporary technique—the village’s most celebrated table.</span>
+</div>
+<div style="grid-column:6 / span 7;display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px">
+<div style="display:flex;flex-direction:column;gap:10px">
+<span class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:#B5482F">Sophisticated seafood</span>
+<h3 class="disp" style="margin:0;font-size:48px;line-height:1;font-weight:400;letter-spacing:-0.02em">Ristorante Miky</h3>
+<span class="disp" style="font-size:21px;font-style:italic;color:#3A4756">Three generations of coastal excellence</span>
+</div>
+<div style="flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;gap:4px"><span class="disp" aria-label="Price level 3 of 4" style="font-size:30px;line-height:1;letter-spacing:0.04em">€€€<span style="color:#CFC6B6">€</span></span><span class="mono" style="font-size:11px;color:#3A4756">PRICE</span></div>
+</div>
+<p style="margin:0;max-width:60ch;font-size:17px;line-height:1.6">The Miky family has been feeding Monterosso for three generations.</p>
+<div class="mono" style="display:flex;gap:0;border-top:1px solid #CFC6B6;border-bottom:1px solid #CFC6B6">
+<div style="flex:1;display:flex;align-items:baseline;gap:10px;padding:12px 16px 12px 0;border-right:1px solid #CFC6B6"><span class="disp" style="font-size:34px;line-height:1">4.6</span><span style="font-size:11px;color:#3A4756">/5 · GOOGLE</span></div>
+<div style="flex:1;display:flex;align-items:baseline;gap:10px;padding:12px 16px"><span class="disp" style="font-size:34px;line-height:1">4.5</span><span style="font-size:11px;color:#3A4756">/5 · TRIPADVISOR</span></div>
+</div>
+<details open="" style="background:#E8E2D6">
+<summary style="display:flex;justify-content:space-between;align-items:center;min-height:52px;padding:0 20px"><span class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">Know before you go</span><span class="plus" aria-hidden="true" style="font-size:24px;line-height:1">+</span></summary>
+<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding:4px 20px 20px">
+<div style="display:flex;flex-direction:column;gap:4px"><span class="mono" style="font-size:10px;letter-spacing:0.14em;color:#3A4756">BOOK</span><span style="font-size:15px;font-weight:600">Well in advance</span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span class="mono" style="font-size:10px;letter-spacing:0.14em;color:#3A4756">CLOSED</span><span style="font-size:15px;font-weight:600">Tuesdays</span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span class="mono" style="font-size:10px;letter-spacing:0.14em;color:#3A4756">MENU</span><span style="font-size:15px;font-weight:600">Tasting menus</span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span class="mono" style="font-size:10px;letter-spacing:0.14em;color:#3A4756">ASK FOR</span><span style="font-size:15px;font-weight:600">The terrace</span></div>
+</div>
+</details>
+</div>
+</article>
+<span class="mono" style="font-size:11px;color:#3A4756">External ratings keep their own scale and always name the source — never averaged or converted. Price: 4 € glyphs, unfilled ones in Line. Closed day also feeds a "Open today" filter.</span>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">7.4 Weather — The week ahead + seasons</div>
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;align-items:start">
+<div style="grid-column:1 / span 7;display:flex;flex-direction:column">
+<div class="mono" style="display:grid;grid-template-columns:90px 1fr 210px 70px 80px;gap:16px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;padding-bottom:10px;border-bottom:1px solid #0F1E2E"><span>Day</span><span>Sky</span><span>Low — High</span><span>Rain</span><span>Wind</span></div>
+<sc-for list="{{wx}}" as="w" hint-placeholder-count="3">
+<div class="fr" style="display:grid;grid-template-columns:90px 1fr 210px 70px 80px;gap:16px;align-items:center;min-height:56px;border-bottom:1px solid #CFC6B6;transition:background-color 200ms">
+<span class="mono" style="font-size:13px;font-weight:500">{{w.day}}</span>
+<span style="display:flex;align-items:center;gap:10px;font-size:15px">
+<sc-if value="{{w.pc}}" hint-placeholder-val="{{ true }}"><svg width="24" height="24" sc-camel-view-box="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="9" r="3"></circle><path d="M9 3v1M3 9h1M4.8 4.8l.7.7M13.2 4.8l-.7.7"></path><path d="M8 19h9a3.5 3.5 0 0 0 0-7 5 5 0 0 0-9.5 1.5A2.8 2.8 0 0 0 8 19z"></path></svg></sc-if>
+<sc-if value="{{w.oc}}" hint-placeholder-val="{{ false }}"><svg width="24" height="24" sc-camel-view-box="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 0-8 6 6 0 0 0-11.4 2A3 3 0 0 0 7 18z"></path></svg></sc-if>
+{{w.sky}}</span>
+<span style="display:flex;align-items:center;gap:10px;font-variant-numeric:tabular-nums"><span class="mono" style="font-size:13px;color:#3A4756">{{w.lo}}</span><span style="position:relative;flex:1;height:4px;background:#E8E2D6;border-radius:999px"><span style="position:absolute;top:0;bottom:0;left:{{w.l}};right:{{w.r}};background:#B5482F;border-radius:999px"></span></span><span class="mono" style="font-size:13px;font-weight:500">{{w.hi}}</span></span>
+<span class="mono" style="font-size:13px;color:{{w.rc}}">{{w.rain}}</span>
+<span class="mono" style="font-size:13px">{{w.wind}}</span>
+</div>
+</sc-for>
+<span class="mono" style="font-size:11px;color:#3A4756;padding-top:10px">Forecast from 13 October 2026 · Weather data by Open-Meteo.com (CC BY 4.0) · temperature bar on a fixed 10–30° week scale · rain ≥20% in Mare</span>
+</div>
+<div style="grid-column:8 / span 5;display:flex;flex-direction:column;gap:12px">
+<sc-for list="{{seasons}}" as="s" hint-placeholder-count="3">
+<div style="display:grid;grid-template-columns:1fr auto;gap:6px 16px;padding:16px 18px;background:{{s.bg}}">
+<span class="disp" style="font-size:26px;line-height:1.1">{{s.n}} <span class="mono" style="font-size:12px;color:#3A4756">{{s.m}}</span></span>
+<span class="disp" style="font-size:26px;line-height:1.1;font-variant-numeric:tabular-nums;text-align:right">{{s.sea}}</span>
+<span class="disp" style="font-size:16px;font-style:italic;color:#3A4756">{{s.t}}</span>
+<span class="mono" style="font-size:10px;letter-spacing:0.14em;color:#3A4756;text-align:right">SEA</span>
+</div>
+</sc-for>
+<span class="mono" style="font-size:11px;color:#3A4756">Season ground = tint of the season's mood, not a village pigment. Autumn sea temp: [CONFIRM].</span>
+</div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">7.5 Editor profile — The Editors</div>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px">
+<sc-for list="{{team}}" as="m" hint-placeholder-count="3">
+<article class="portrait" style="display:flex;flex-direction:column;gap:14px">
+<div style="overflow:hidden;aspect-ratio:4 / 5;position:relative"><div class="img ph" style="width:100%;height:100%;background-color:{{m.c}}"></div><span class="mono" style="position:absolute;left:12px;bottom:12px;font-size:11px;background:#F3EFE7;padding:4px 8px">PORTRAIT · mono → colour on hover</span></div>
+<span class="disp" style="font-size:17px;font-style:italic;color:#3A4756">[Sensory line]</span>
+<h3 class="disp" style="margin:0;font-size:36px;line-height:1;font-weight:400;letter-spacing:-0.015em">{{m.n}}</h3>
+<span class="mono" style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:#B5482F">{{m.r}}</span>
+<p style="margin:0;font-size:15px;line-height:1.6;color:#0F1E2E">{{m.b}}</p>
+<div class="mono" style="display:flex;flex-wrap:wrap;gap:6px;font-size:11px;letter-spacing:0.1em;text-transform:uppercase"><span style="padding:5px 9px;border:1px solid #0F1E2E">[Specialty]</span><span style="padding:5px 9px;border:1px solid #0F1E2E">[Specialty]</span></div>
+<a href="#" style="font-size:14px;font-weight:600"><span class="ul">Stories by {{m.first}} →</span></a>
+</article>
+</sc-for>
+</div>
+<span class="mono" style="font-size:11px;color:#3A4756">Adds "Stories by …" (author archive link) — today profiles have no links. Byline avatars elsewhere reuse each editor's village pigment.</span>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:2900}}">
+class Component extends DCLogic {
+constructor(...a) { super(...a); this.state = { f: 'All' }; }
+renderVals() {
+const kinds = ['All', 'Food & wine', 'Walks', 'Slow', 'Classes'];
+const all = [
+{ label: 'Essential experience', name: 'Wine Tasting', tag: 'Where terraces become wine', k: 'Food & wine' },
+{ label: 'Landscape immersion', name: 'Terrace Walking', tag: 'Where walking becomes understanding', k: 'Walks' },
+{ label: 'Hands-on learning', name: 'Cooking Classes', tag: 'Where cooking becomes culture', k: 'Classes' }
+];
+const f = this.state.f;
+const acts = f === 'All' ? all : all.filter((a) => a.k === f);
+const pos = (v) => ((v - 10) / 20 * 100).toFixed(1) + '%';
+const row = (day, sky, hi, lo, rain, wind, pc) => ({ day, sky, hi: hi + '°', lo: lo + '°', rain: rain + '%', wind: wind + ' km/h', pc, oc: !pc, l: pos(lo), r: ((30 - hi) / 20 * 100).toFixed(1) + '%', rc: rain >= 20 ? '#1F6F8B' : '#0F1E2E' });
+return {
+count: 7,
+filters: kinds.map((label) => ({ label, on: label === f ? 'true' : 'false', bg: label === f ? '#0F1E2E' : 'transparent', fg: label === f ? '#F3EFE7' : '#0F1E2E', pick: () => this.setState({ f: label }) })),
+acts,
+wx: [row('Tue 13', 'Partly cloudy', 20, 18, 0, 15, true), row('Wed 14', 'Overcast', 21, 17, 0, 10, false), row('Mon 19', 'Overcast', 23, 16, 24, 9, false)],
+seasons: [
+{ n: 'Spring', m: 'MAR–MAY', sea: '16–19°', t: 'When the terraces come alive', bg: '#E7E5D8' },
+{ n: 'Summer', m: 'JUN–AUG', sea: '22–24°', t: 'When the sea finally invites', bg: '#E3E5E2' },
+{ n: 'Autumn', m: 'SEP–OCT', sea: '[—]', t: 'When the light turns gold', bg: '#EFE4D0' }
+],
+team: [
+{ n: 'Giulia Rossi', first: 'Giulia', r: 'Lead Editor & Local Expert', b: 'Born and raised in Riomaggiore, Giulia knows every stone of the village.', c: '#D98C7A' },
+{ n: 'Marco Bianchi', first: 'Marco', r: 'Food & Culinary Editor', b: '[Bio — 2–3 sentences, first person avoided.]', c: '#E8C547' },
+{ n: 'Elena Moretti', first: 'Elena', r: 'Visual Editor & Photographer', b: '[Bio — 2–3 sentences, first person avoided.]', c: '#D9A441' }
+]
+};
+}
+}
+</script>
+
+
+</body></html>

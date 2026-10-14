@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Components</title>
+<script src="63499253-21b8-4fa5-852c-139cbe1b8db5"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>/* math */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/57c99caa95a61ef7.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/71d669c668ad1f01.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v28/aFTS7PxzY382XsXX63LUYJSPeKTcW3JNsapGZQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/3fac62d55a70c44b.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* math */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v28/aFTQ7PxzY382XsXX63LUYJT2SKjWXFBPgas.woff2) format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v28/aFTQ7PxzY382XsXX63LUYJTkSKjWXFBPgas.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bodonimoda/v28/aFTQ7PxzY382XsXX63LUYJSESKjWXFBPgas.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/fe710b15e2acd1f3.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/c6f09ee0e0a24b7c.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/7b59d6bf7f8b8408.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/0a8b854cc18641bd.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/f1050dc5317b4343.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../assets/c36f509c0a8f9f85.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/311098be73eac339.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/d524dc8ff6dbf7ed.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/b2529fba93fd07a5.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/77f03e26f981c582.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../assets/a76f53ca6612e7b3.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/schibstedgrotesk/v7/Jqz_5SSPQuCQF3t8uOwiUL-taUTtap9DWyYpcgNMR1M16w.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/c0aab3a5acaeb1f0.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/schibstedgrotesk/v7/Jqz55SSPQuCQF3t8uOwiUL-taUTtap9IayojdSFOd1I.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("../assets/e3b56e90510a84ac.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+body{margin:0;background:#F3EFE7}
+a{color:#0F1E2E;text-decoration:none}a:hover{color:#B5482F}
+.mono{font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace}
+.disp{font-family:'Bodoni Moda','Didot','Bodoni 72',Georgia,serif;font-optical-sizing:auto}
+.ph{background-image:repeating-linear-gradient(135deg,rgba(15,30,46,0.08) 0 1px,transparent 1px 11px)}
+.btn{font:600 15px/1 'Schibsted Grotesk',sans-serif;height:52px;padding:0 26px;border-radius:999px;display:inline-flex;align-items:center;gap:10px;cursor:pointer;border:1px solid #0F1E2E;transition:background-color 200ms cubic-bezier(0.22,1,0.36,1),color 200ms cubic-bezier(0.22,1,0.36,1),border-color 200ms,transform 120ms cubic-bezier(0.22,1,0.36,1)}
+.btn .arr{transition:transform 320ms cubic-bezier(0.22,1,0.36,1)}
+.btn:hover .arr{transform:translateX(4px)}
+.btn:active{transform:scale(0.98)}
+.btn:focus-visible{outline:2px solid #0F1E2E;outline-offset:3px;box-shadow:0 0 0 7px #E8C547}
+.btn-p{background:#0F1E2E;color:#F3EFE7}.btn-p:hover{background:#B5482F;border-color:#B5482F;color:#F3EFE7}
+.btn-s{background:transparent;color:#0F1E2E}.btn-s:hover{background:#0F1E2E;color:#F3EFE7}
+.btn:disabled{background:#E8E2D6;border-color:#E8E2D6;color:#6B7682;cursor:not-allowed}
+.ul{background-image:linear-gradient(currentColor,currentColor);background-size:0% 1px;background-position:0 100%;background-repeat:no-repeat;transition:background-size 320ms cubic-bezier(0.22,1,0.36,1),color 200ms}
+.ul:hover,a:hover .ul{background-size:100% 1px}
+.card .imgw{overflow:hidden}
+.card .img{transition:transform 560ms cubic-bezier(0.22,1,0.36,1)}
+.card:hover .img{transform:scale(1.04)}
+.card .go{transition:transform 320ms cubic-bezier(0.22,1,0.36,1)}
+.card:hover .go{transform:translateX(4px)}
+.vchip{position:relative;overflow:hidden;isolation:isolate;height:36px;padding:0 14px 0 28px;border-radius:999px;border:1px solid #0F1E2E;display:inline-flex;align-items:center;font:500 14px/1 'Schibsted Grotesk',sans-serif;color:#0F1E2E}
+.vchip .fill{position:absolute;z-index:-1;left:11px;top:13px;width:8px;height:8px;border-radius:999px;transition:left 320ms cubic-bezier(0.22,1,0.36,1),top 320ms cubic-bezier(0.22,1,0.36,1),width 320ms cubic-bezier(0.22,1,0.36,1),height 320ms cubic-bezier(0.22,1,0.36,1)}
+.vchip:hover{color:#0F1E2E}
+.vchip:hover .fill{left:0;top:0;width:100%;height:100%}
+.nav-v{display:inline-flex;align-items:center;gap:8px;height:44px;font:500 15px/1 'Schibsted Grotesk',sans-serif}
+.nav-v .dot{width:7px;height:7px;border-radius:50%;transition:transform 200ms cubic-bezier(0.34,1.56,0.64,1)}
+.nav-v:hover .dot{transform:scale(1.6)}
+.ibtn{width:44px;height:44px;border-radius:50%;border:1px solid #CFC6B6;background:transparent;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:border-color 200ms,background-color 200ms}
+.ibtn:hover{border-color:#0F1E2E;background:#E8E2D6}
+</style>
+</helmet>
+<div style="width:1440px;height:2440px;box-sizing:border-box;background:#F3EFE7;color:#0F1E2E;font-family:'Schibsted Grotesk','Helvetica Neue',sans-serif;padding:56px 64px;display:flex;flex-direction:column;gap:48px">
+
+<div style="display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #0F1E2E;padding-bottom:20px">
+<div style="display:flex;align-items:baseline;gap:24px"><span class="mono" style="font-size:12px;letter-spacing:0.14em;color:#B5482F">04</span><h2 class="disp" style="margin:0;font-size:88px;line-height:0.95;font-weight:400;letter-spacing:-0.025em">Components</h2></div>
+<p style="margin:0;max-width:480px;font-size:16px;line-height:1.6;color:#3A4756">Hover anything on this board in Play — every interaction shown is the spec. Timings and curves are listed on sheet 05.</p>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:16px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">4.1 Masthead &amp; village menu</div>
+<div style="border-top:3px solid #0F1E2E;background:#F3EFE7;box-shadow:0 1px 0 #CFC6B6,0 12px 32px -16px rgba(15,30,46,0.28);padding:0 32px;height:76px;display:flex;align-items:center;justify-content:space-between">
+<a href="#" style="display:flex;align-items:baseline;gap:8px"><span class="disp" style="font-size:26px;letter-spacing:-0.01em">Cinque Terre</span><span class="disp" style="font-size:26px;font-style:italic;color:#B5482F">Dispatch</span></a>
+<nav aria-label="Villages" style="display:flex;gap:28px">
+<a class="nav-v" href="#"><span class="dot" style="background:#D98C7A"></span><span class="ul">Riomaggiore</span></a>
+<a class="nav-v" href="#"><span class="dot" style="background:#D9A441"></span><span class="ul">Manarola</span></a>
+<a class="nav-v" href="#"><span class="dot" style="background:#9DAA7C"></span><span class="ul">Corniglia</span></a>
+<a class="nav-v" href="#" style="color:#B5482F"><span class="dot" style="background:#7FA9C2"></span><span style="background-image:linear-gradient(#B5482F,#B5482F);background-size:100% 1px;background-position:0 100%;background-repeat:no-repeat">Vernazza</span></a>
+<a class="nav-v" href="#"><span class="dot" style="background:#E8C547"></span><span class="ul">Monterosso</span></a>
+</nav>
+<div style="display:flex;align-items:center;gap:16px">
+<div class="mono" style="display:flex;gap:10px;font-size:12px;letter-spacing:0.1em"><a href="#" style="color:#0F1E2E;font-weight:500;border-bottom:1px solid #0F1E2E">EN</a><a href="#" style="color:#3A4756">DE</a><a href="#" style="color:#3A4756">FR</a><a href="#" style="color:#3A4756">IT</a></div>
+<a class="btn btn-p" href="#" style="height:44px;padding:0 20px;font-size:14px">Plan your trip <span class="arr">→</span></a>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;background:#E3E5E2;box-shadow:0 24px 64px -24px rgba(15,30,46,0.35);padding:32px">
+<div style="grid-column:1 / span 3;display:flex;flex-direction:column;gap:10px">
+<span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase">Village 04</span>
+<span class="disp" style="font-size:56px;line-height:0.95;font-style:italic;letter-spacing:-0.02em">Vernazza</span>
+<span style="font-size:14px;line-height:1.5;color:#3A4756">Mega-menu ground = village tint. Opens on hover after 120ms intent delay, or on click/Enter.</span>
+</div>
+<div style="grid-column:4 / span 5;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;align-content:start">
+<sc-for list="{{sub}}" as="s" hint-placeholder-count="10">
+<a href="#" style="display:flex;justify-content:space-between;align-items:center;height:44px;border-bottom:1px solid rgba(15,30,46,0.18);font-size:16px"><span class="ul">{{s.label}}</span><span class="mono" style="font-size:11px;color:#3A4756">{{s.no}}</span></a>
+</sc-for>
+</div>
+<a href="#" class="card" style="grid-column:9 / span 4;display:flex;gap:16px;align-items:flex-start">
+<div class="imgw" style="flex:0 0 132px;height:165px"><div class="img ph" style="width:100%;height:100%;background-color:#7FA9C2"></div></div>
+<div style="display:flex;flex-direction:column;gap:8px"><span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#B5482F">Featured</span><span class="disp" style="font-size:22px;line-height:1.15">A Local’s Guide to Vernazza: Beyond the Instagram Shots</span><span class="mono go" style="font-size:12px">Read →</span></div>
+</a>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;row-gap:24px">
+<div style="grid-column:1 / span 7;display:flex;flex-direction:column;gap:16px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">4.2 Buttons</div>
+<div style="display:flex;gap:16px;align-items:center;flex-wrap:wrap">
+<button class="btn btn-p" type="button">Explore the villages <span class="arr">→</span></button>
+<button class="btn btn-s" type="button">Plan your trip <span class="arr">→</span></button>
+<a href="#" style="font-size:16px;font-weight:600;display:inline-flex;gap:8px;align-items:center;height:44px"><span class="ul">All stories</span><span>→</span></a>
+<button class="ibtn" type="button" aria-label="Save story"><svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"></path></svg></button>
+</div>
+<div class="mono" style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:#3A4756;margin-top:8px"><span>Default</span><span>Hover</span><span>Focus-visible</span><span>Pressed</span><span>Disabled</span></div>
+<div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;align-items:center">
+<span class="btn btn-p" style="justify-content:center;padding:0 14px">Book <span>→</span></span>
+<span class="btn btn-p" style="justify-content:center;padding:0 14px;background:#B5482F;border-color:#B5482F">Book <span style="transform:translateX(4px)">→</span></span>
+<span class="btn btn-p" style="justify-content:center;padding:0 14px;outline:2px solid #0F1E2E;outline-offset:3px;box-shadow:0 0 0 7px #E8C547">Book <span>→</span></span>
+<span class="btn btn-p" style="justify-content:center;padding:0 14px;transform:scale(0.98);background:#9A3D28;border-color:#9A3D28">Book <span>→</span></span>
+<span class="btn" style="justify-content:center;padding:0 14px;background:#E8E2D6;border-color:#E8E2D6;color:#6B7682">Book</span>
+</div>
+<span class="mono" style="font-size:11px;line-height:1.6;color:#3A4756">H 52 (44 compact) · pad 0 26 · pill · 15/600 · arrow +4px on hover 320ms · press scale .98 120ms · focus: 2px Ink ring, 3px offset, Limone 7px halo</span>
+</div>
+
+<div style="grid-column:8 / span 5;display:flex;flex-direction:column;gap:16px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">4.3 Tags, chips, tabs</div>
+<div style="display:flex;gap:10px;flex-wrap:wrap">
+<a class="vchip" href="#"><span class="fill" style="background:#D98C7A"></span>Riomaggiore</a>
+<a class="vchip" href="#"><span class="fill" style="background:#D9A441"></span>Manarola</a>
+<a class="vchip" href="#"><span class="fill" style="background:#9DAA7C"></span>Corniglia</a>
+<a class="vchip" href="#"><span class="fill" style="background:#7FA9C2"></span>Vernazza</a>
+<a class="vchip" href="#"><span class="fill" style="background:#E8C547"></span>Monterosso</a>
+</div>
+<span style="font-size:13px;color:#3A4756">Village chip — the pigment dot floods the pill on hover (320ms).</span>
+<div class="mono" style="display:flex;gap:8px;flex-wrap:wrap;font-size:11px;letter-spacing:0.12em;text-transform:uppercase">
+<span style="padding:6px 10px;background:#0F1E2E;color:#F3EFE7">Guides</span>
+<span style="padding:6px 10px;border:1px solid #0F1E2E">Food &amp; Drink</span>
+<span style="padding:6px 10px;border:1px solid #0F1E2E">Photography</span>
+<span style="padding:6px 10px;background:#E8C547">New</span>
+</div>
+<div role="tablist" aria-label="Story filter" style="display:flex;gap:24px;border-bottom:1px solid #CFC6B6">
+<button role="tab" aria-selected="true" type="button" style="all:unset;cursor:pointer;height:44px;font-size:15px;font-weight:600;box-shadow:inset 0 -2px 0 #B5482F">All stories</button>
+<button role="tab" aria-selected="false" type="button" style="all:unset;cursor:pointer;height:44px;font-size:15px;color:#3A4756">Guides</button>
+<button role="tab" aria-selected="false" type="button" style="all:unset;cursor:pointer;height:44px;font-size:15px;color:#3A4756">Culture</button>
+<button role="tab" aria-selected="false" type="button" style="all:unset;cursor:pointer;height:44px;font-size:15px;color:#3A4756">Hotels</button>
+</div>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:16px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">4.4 Cards — story · village · stay</div>
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;align-items:start">
+
+<a href="#" class="card" style="grid-column:1 / span 4;display:flex;flex-direction:column;gap:14px">
+<div class="imgw" style="aspect-ratio:4 / 5;position:relative"><div class="img ph" style="width:100%;height:100%;background-color:#D9A441"></div><span class="mono" style="position:absolute;left:12px;bottom:12px;font-size:11px;letter-spacing:0.1em;background:#F3EFE7;padding:4px 8px">PHOTO · Manarola at sunset</span></div>
+<span class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:#B5482F">Photography</span>
+<span class="disp" style="font-size:30px;line-height:1.12;letter-spacing:-0.01em"><span class="ul">A Photographer’s Guide to Manarola at Sunset</span></span>
+<span class="mono" style="font-size:13px;color:#3A4756">Elena Moretti · <span style="color:#0F1E2E">8 min</span> <span class="go" style="display:inline-block">→</span></span>
+</a>
+
+<a href="#" class="card" style="grid-column:5 / span 3;display:flex;flex-direction:column;gap:12px">
+<div class="imgw" style="aspect-ratio:3 / 4;position:relative"><div class="img ph" style="width:100%;height:100%;background-color:#9DAA7C"></div>
+<span class="disp" style="position:absolute;left:14px;top:8px;font-size:72px;line-height:1;color:#0F1E2E">03</span></div>
+<span class="disp" style="font-size:34px;line-height:1;font-style:italic">Corniglia</span>
+<span style="font-size:14px;line-height:1.5;color:#3A4756">The only one of the five not set on the water — it sits up on the headland.</span>
+</a>
+
+<a href="#" class="card" style="grid-column:8 / span 5;display:flex;flex-direction:column;gap:14px">
+<div class="imgw" style="aspect-ratio:3 / 2;position:relative"><div class="img ph" style="width:100%;height:100%;background-color:#D98C7A"></div>
+<span class="vchip" style="position:absolute;left:12px;top:12px;background:#F3EFE7;height:30px;font-size:13px"><span class="fill" style="background:#D98C7A;top:10px"></span>Riomaggiore</span></div>
+<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:16px">
+<div style="display:flex;flex-direction:column;gap:6px"><span class="disp" style="font-size:28px;line-height:1.1"><span class="ul">Locanda Ca’ dei Duxi</span></span><span class="mono" style="font-size:13px;color:#3A4756;font-variant-numeric:tabular-nums">€120–200 / night</span></div>
+<div style="flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-end;border-left:1px solid #CFC6B6;padding-left:16px"><span class="disp" style="font-size:40px;line-height:1;font-variant-numeric:tabular-nums">8.1</span><span class="mono" style="font-size:11px;letter-spacing:0.1em;color:#3A4756">/ 10</span></div>
+</div>
+</a>
+</div>
+<div class="mono" style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;font-size:11px;line-height:1.6;color:#3A4756">
+<span style="grid-column:1 / span 4">4:5 · eyebrow → h3 30 → meta. Hover: image 1.04 in 560ms, title underline draws, arrow +4px.</span>
+<span style="grid-column:5 / span 3">3:4 · Bodoni numeral 72 on image · name italic 34.</span>
+<span style="grid-column:8 / span 5">3:2 · village chip on image · rating always /10, one decimal, tabular.</span>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;row-gap:24px">
+<div style="grid-column:1 / span 7;display:flex;flex-direction:column;gap:16px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">4.5 Trail Ledger — replaces inline trail stats</div>
+<div style="border-top:1px solid #0F1E2E;border-bottom:1px solid #0F1E2E">
+<div style="display:flex;justify-content:space-between;align-items:baseline;padding:18px 0;border-bottom:1px solid #CFC6B6">
+<span class="disp" style="font-size:34px;line-height:1">Manarola <em style="color:#B5482F">→</em> Corniglia</span>
+<span class="mono" style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;display:flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:50%;background:#D9A441"></span>Sentiero Azzurro · Coastal</span>
+</div>
+<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr))">
+<div style="padding:18px 0;display:flex;flex-direction:column;gap:6px;border-right:1px solid #CFC6B6"><span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#3A4756">Distance</span><span class="disp" style="font-size:52px;line-height:1;font-variant-numeric:tabular-nums">3<span style="font-size:24px"> km</span></span></div>
+<div style="padding:18px 20px;display:flex;flex-direction:column;gap:6px;border-right:1px solid #CFC6B6"><span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#3A4756">Time</span><span class="disp" style="font-size:52px;line-height:1;font-variant-numeric:tabular-nums">1<span style="font-size:24px">h</span>30</span></div>
+<div style="padding:18px 20px;display:flex;flex-direction:column;gap:10px;border-right:1px solid #CFC6B6"><span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#3A4756">Grade</span>
+<div style="display:flex;gap:4px" role="img" aria-label="Moderate, 2 of 4"><span style="width:22px;height:8px;background:#0F1E2E"></span><span style="width:22px;height:8px;background:#0F1E2E"></span><span style="width:22px;height:8px;background:#CFC6B6"></span><span style="width:22px;height:8px;background:#CFC6B6"></span></div><span style="font-size:18px;font-weight:600">Moderate</span></div>
+<div style="padding:18px 20px;display:flex;flex-direction:column;gap:10px"><span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#3A4756">Access</span><span style="font-size:18px;font-weight:600">Card required</span><a href="#" style="font-size:14px;color:#1F6F8B"><span class="ul">Cinque Terre Card →</span></a></div>
+</div>
+</div>
+<span class="mono" style="font-size:11px;color:#3A4756">Stats in Bodoni stat 52 · grade = 4-step bar + word (never colour alone)</span>
+</div>
+
+<div style="grid-column:8 / span 5;display:flex;flex-direction:column;gap:16px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">4.6 Essentials ticker</div>
+<div style="background:#0B1622;color:#EDE7DB;padding:20px 24px;display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;justify-content:space-between"><span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#E8826A">Vernazza essentials · live</span><span class="mono" style="font-size:11px;color:#9AA4AE">updated 09:40</span></div>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px">
+<div style="display:flex;flex-direction:column;gap:4px"><span class="disp" style="font-size:48px;line-height:1;font-variant-numeric:tabular-nums">22°</span><span class="mono" style="font-size:11px;color:#9AA4AE">SEA</span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span class="disp" style="font-size:48px;line-height:1;font-variant-numeric:tabular-nums">24°</span><span class="mono" style="font-size:11px;color:#9AA4AE">AIR · SUNNY</span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span class="disp" style="font-size:48px;line-height:1;font-variant-numeric:tabular-nums">20:48</span><span class="mono" style="font-size:11px;color:#9AA4AE">SUNSET</span></div>
+</div>
+</div>
+<span class="mono" style="font-size:11px;color:#3A4756">Notte surface · numbers count up 600ms on first view · values from a weather feed, never hard-coded.</span>
+</div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:16px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">4.7 Editorial callouts</div>
+<div style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:24px;align-items:start">
+<figure style="grid-column:1 / span 6;margin:0;display:grid;grid-template-columns:56px 1fr;gap:8px">
+<span class="disp" aria-hidden="true" style="font-size:120px;line-height:0.8;color:#B5482F">“</span>
+<div style="display:flex;flex-direction:column;gap:16px;padding-top:8px">
+<blockquote class="disp" style="margin:0;font-size:36px;line-height:1.2;font-style:italic;letter-spacing:-0.01em;text-wrap:balance">[Pull quote from the story — one sentence, 8–18 words, set at 36px italic.]</blockquote>
+<figcaption class="mono" style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase">Editorial interlude</figcaption>
+</div>
+</figure>
+<aside style="grid-column:7 / span 3;background:#E8E2D6;padding:22px;display:flex;flex-direction:column;gap:10px">
+<span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;display:flex;gap:8px;align-items:center"><svg width="16" height="16" sc-camel-view-box="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="10" r="3"></circle><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path></svg>Local wisdom</span>
+<p style="margin:0;font-size:16px;line-height:1.55">Start before 8:00. By ten the coastal path is single-file in both directions.</p>
+</aside>
+<aside style="grid-column:10 / span 3;background:#0F1E2E;color:#F3EFE7;padding:22px;display:flex;flex-direction:column;gap:10px">
+<span class="mono" style="font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#E8C547">Trail notice</span>
+<p style="margin:0;font-size:16px;line-height:1.55">Via dell’Amore: check the park’s current status and booking rules before you go.</p>
+<a href="#" style="color:#F3EFE7;font-size:14px;font-weight:600"><span class="ul">Trail conditions →</span></a>
+</aside>
+</div>
+<span class="mono" style="font-size:11px;color:#3A4756">No left-border accents. Callouts are full-fill blocks: Calce for tips, Ink for notices. Pull quotes hang the mark outside the measure.</span>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:16px">
+<div class="mono" style="font-size:12px;letter-spacing:0.14em;text-transform:uppercase">4.8 Dateline &amp; byline</div>
+<div style="display:flex;align-items:center;gap:20px;border-top:1px solid #0F1E2E;border-bottom:1px solid #CFC6B6;padding:14px 0">
+<span style="width:44px;height:44px;border-radius:50%;background:#7FA9C2;display:inline-flex;align-items:center;justify-content:center" class="disp" aria-hidden="true">LV</span>
+<span style="font-size:15px;font-weight:600">Luca Verdi</span>
+<span class="mono" style="font-size:13px;color:#3A4756">VERNAZZA — 22 Oct 2023 · History &amp; Culture · 9 min read</span>
+<span style="margin-left:auto;display:flex;gap:10px"><button class="ibtn" type="button" aria-label="Save"><svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"></path></svg></button><button class="ibtn" type="button" aria-label="Share"><svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="#0F1E2E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v13M7 8l5-5 5 5M5 14v6h14v-6"></path></svg></button></span>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:2440}}">
+class Component extends DCLogic {
+renderVals() {
+return {
+sub: ['Overview','Things to Do','Restaurants','Hotels','Sights','Hiking','Beaches','Events','Weather','Getting Here'].map((label, i) => ({ label, no: String(i + 1).padStart(2, '0') }))
+};
+}
+}
+</script>
+
+
+</body></html>
