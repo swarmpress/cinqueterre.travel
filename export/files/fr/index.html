@@ -147,9 +147,9 @@ a,.wp-element-button{transition:color var(--dur-quick) var(--ease-tide),backgrou
 .ds-rating-row{display:flex;align-items:baseline;gap:10px;border-top:1px solid var(--wp--preset--color--line);border-bottom:1px solid var(--wp--preset--color--line);padding:12px 0}
 .ds-rating-row .ds-stat{font-size:34px}
 .wp-block-buttons{gap:12px}
-.ds-hero{display:flex;flex-wrap:wrap;gap:40px 48px;align-items:flex-end;padding-top:clamp(40px,6vw,88px);padding-bottom:clamp(48px,7vw,112px)}
+.ds-hero{display:flex;flex-wrap:wrap;gap:40px 48px;align-items:flex-start;padding-top:clamp(40px,6vw,88px);padding-bottom:clamp(48px,7vw,112px)}
 .ds-hero-main{flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:28px}
-.ds-hero-aside{flex:1 1 300px;display:flex;flex-direction:column;gap:12px}
+.ds-hero-aside{flex:1 1 340px;max-width:440px;display:flex;flex-direction:column;gap:12px;align-self:flex-start;margin-top:clamp(0px,3vw,40px)}
 .ds-hero h1{margin:0;font-family:var(--wp--preset--font-family--bodoni-moda);font-size:var(--wp--preset--font-size--display-xl);font-weight:400;line-height:.88;letter-spacing:-0.035em}
 .ds-hero h1 em{color:var(--wp--preset--color--mare)}
 .ds-lede,.ds-hero .ds-lede{margin:0;max-width:30ch;font-family:var(--wp--preset--font-family--bodoni-moda);font-size:var(--wp--preset--font-size--lede);line-height:1.4;font-style:italic}
@@ -335,6 +335,18 @@ header.wp-block-template-part:has(.ds-masthead.ds-hidden){transform:translateY(-
 @media (max-width:599px){.ds-nav-dots .wp-block-navigation__responsive-container-open{width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center}}
 @media (min-width:960px){.ds-masthead-row{flex-wrap:nowrap;gap:12px 24px}.ds-masthead-row>.ds-nav-dots{flex:1 1 auto;justify-content:center}.ds-masthead .ds-nav-dots .wp-block-navigation__container{flex-wrap:nowrap;gap:4px 20px!important}.ds-masthead-end{flex-wrap:nowrap;gap:12px}.ds-masthead .ds-wordmark{white-space:nowrap}}
 @media (max-width:599px){.ds-masthead-row{flex-wrap:nowrap;gap:8px}.ds-masthead-row>.ds-wordmark,.ds-masthead-row>.wp-block-navigation:first-child{flex:1 1 auto;order:1}.ds-masthead-end{order:2;flex-wrap:nowrap}.ds-masthead-row>.ds-nav-dots{order:3;flex:0 0 auto}}
+/* a wrap inside a wrap is not narrowed again; a band's ground runs the page's full width */
+.ds-wrap .ds-wrap{max-width:none!important;padding-inline:0!important}
+.ds-band.ds-wrap{max-width:none!important;padding-inline:0!important}
+.ds-band.ds-wrap>.ds-wrap{max-width:1312px!important;padding-inline:var(--ds-margin)!important}
+/* never an empty picture frame: an entry without a picture is its text-only variant */
+.ds-card-img:not(:has(img[src]:not([src=""]))):not(:has(.ds-chip:not(:empty))),.wp-block-image:not(:has(img[src]:not([src=""]))){display:none}
+.ds-tile:not(:has(img[src]:not([src=""]))) .ds-numeral{position:static}
+/* a story's text at its measure (64ch at body-l), its section heads at the type sheet's h2 */
+.wp-block-post-content.ds-prose-article p,.wp-block-post-content.ds-prose-article li{max-width:64ch;font-size:var(--wp--preset--font-size--body-l,19px);line-height:1.6}
+.wp-block-post-content :is(.ds-prose-article,.ds-prose-wide) h2,.wp-block-post-content.ds-prose-article h2,.wp-block-post-content.ds-prose-wide h2{font-family:var(--wp--preset--font-family--bodoni-moda);font-size:clamp(34px, 1.6vw + 25px, 48px);font-weight:400;line-height:1.05;letter-spacing:-0.02em;margin:48px 0 16px}
+.wp-block-post-content.ds-prose-article h3,.wp-block-post-content.ds-prose-wide h3{font-family:var(--wp--preset--font-family--bodoni-moda);font-size:clamp(24px, 0.6vw + 21px, 30px);font-weight:400;line-height:1.15}
+@media (min-width:960px){.ds-article .wp-block-post-content{grid-template-columns:minmax(0,760px) minmax(220px,280px)!important;justify-content:space-between}}
 /* the page's own content on the grid's left, at its measure (the design is set flush left) */
 .wp-block-post-content.ds-prose-wide>*,.wp-block-post-content.ds-prose-article>*,.wp-block-post-content .is-layout-constrained>*{margin-left:0!important;margin-right:auto!important}
 .wp-block-post-content.ds-prose-wide>*{max-width:min(100%,1100px)}
@@ -418,9 +430,9 @@ html:not(.ds-js) .ds-search{display:none}
 .ds-ticker-head{display:flex;justify-content:space-between;gap:12px;font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin:0}
 .ds-ticker-head>:first-child{color:var(--wp--preset--color--corallo-l)}
 .ds-ticker-head>:last-child{opacity:.7;text-transform:none;letter-spacing:0}
-.ds-ticker-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0}
+.ds-ticker-values{display:grid;grid-template-columns:repeat(3,auto);justify-content:space-between;gap:16px;margin:0}
 .ds-ticker-values>*{display:flex;flex-direction:column;gap:4px;margin:0}
-.ds-ticker .ds-count{font-family:var(--wp--preset--font-family--bodoni-moda);font-size:clamp(32px,2vw + 16px,48px);line-height:1;font-variant-numeric:tabular-nums}
+.ds-ticker .ds-count{white-space:nowrap;font-family:var(--wp--preset--font-family--bodoni-moda);font-size:clamp(30px,1.6vw + 14px,44px);line-height:1;font-variant-numeric:tabular-nums}
 .ds-ticker .ds-meta{color:color-mix(in srgb,var(--wp--preset--color--salt) 62%,transparent);font-size:11px;text-transform:uppercase}
 .ds-ticker-source{font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:11px;opacity:.7;margin:0}
 .ds-ticker-source a{color:inherit}
@@ -570,6 +582,9 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 .is-style-editorial-callouts-pull-quote blockquote p{margin:0}
 .is-style-editorial-callouts-pull-quote .ct-badge,.is-style-editorial-callouts-pull-quote::after{font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--wp--preset--color--ink-soft)}
 .is-style-editorial-callouts-pull-quote::after{grid-column:2;margin-top:12px}
+.is-style-editorial-callouts-pull-quote cite,.is-style-editorial-callouts-pull-quote .ct-author,.is-style-editorial-callouts-pull-quote .ct-role{order:5;font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:12px;font-style:normal;letter-spacing:.12em;text-transform:uppercase;color:var(--wp--preset--color--ink-soft)}
+.is-style-editorial-callouts-pull-quote .wp-block-quote::before,.is-style-editorial-callouts-pull-quote blockquote::before{display:none}
+.is-style-editorial-callouts-pull-quote .wp-block-image{display:none}
 .is-style-editorial-callouts-pull-quote .ct-content{font-size:17px;line-height:1.65;font-family:var(--wp--preset--font-family--schibsted-grotesk);font-style:normal}
 .is-style-editorial-callouts-trail-notice{background:var(--wp--preset--color--ink);color:var(--wp--preset--color--paper);padding:22px!important;margin-block:16px;max-width:820px;font-size:16px;line-height:1.55}
 .is-style-editorial-callouts-trail-notice::before{display:block;font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--wp--preset--color--limone);margin-bottom:8px}
@@ -614,7 +629,9 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 .is-style-page-header-itinerary>.wp-block-image{margin:12px 0 0}
 .is-style-page-header-itinerary>.wp-block-image img{width:100%;aspect-ratio:21 / 9;object-fit:cover;display:block}
 .is-style-page-header-itinerary .ct-duration,.is-style-page-header-itinerary .ct-pace,.is-style-page-header-itinerary .ct-effort,.is-style-page-header-itinerary .ct-best-season{display:inline-block;font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:13px;color:var(--wp--preset--color--ink-soft);margin:0 20px 0 0}
-.is-style-tags-chips-tabs-tag{display:inline-block;font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--wp--preset--color--ink);padding:5px 9px;margin:0;line-height:1.2}
+.is-style-tags-chips-tabs-list{display:flex!important;flex-wrap:wrap;gap:6px;list-style:none;padding:0!important;margin:24px 0}
+.is-style-tags-chips-tabs-list li{font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--wp--preset--color--ink);padding:5px 9px;margin:0;line-height:1.2}
+.is-style-tags-chips-tabs-tag{display:inline-block;width:fit-content;align-self:flex-start;justify-self:start;font-family:var(--wp--preset--font-family--ibm-plex-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--wp--preset--color--ink);padding:5px 9px;margin:0;line-height:1.2}
 .is-style-trail-ledger{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--wp--preset--color--ink);border-bottom:1px solid var(--wp--preset--color--ink);margin:20px 0;gap:0!important}
 .is-style-trail-ledger>.ct-fact{display:flex;flex-direction:column;gap:6px;padding:18px 20px;margin:0!important;border-right:1px solid var(--wp--preset--color--line)}
 .is-style-trail-ledger>.ct-fact:first-child{padding-left:0}
@@ -765,7 +782,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 <div class="wp-block-group sp-header ds-masthead ds-c-masthead-village-menu has-paper-background-color has-background is-layout-flow wp-block-group-is-layout-flow">
 
 <div class="wp-block-group ds-wrap ds-masthead-row is-layout-flow wp-block-group-is-layout-flow">
-<p class="ds-wordmark wp-block-site-title"><a href="/" target="_self" rel="home">Cinque Terre Dispatch</a></p>
+<p class="sp-menu-brand ds-wordmark wp-block-site-title"><a href="/" target="_self" rel="home">Cinque Terre Dispatch</a></p>
 <nav class="is-responsive sp-menu-villages ds-nav-dots ds-c-masthead-village-menu ds-c-mobile-menu-390 wp-block-navigation is-layout-flex wp-block-navigation-is-layout-flex" aria-label="Villages" 
 		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" 
 				data-wp-on--click="actions.openMenuOnClick"
@@ -819,14 +836,11 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 
 <main id="wp--skip-link--target" class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
 
-<section class="wp-block-group sp-hero ds-wrap ds-section ds-hero ds-c-buttons is-layout-flow wp-block-group-is-layout-flow">
+<section class="wp-block-group sp-hero ds-wrap ds-hero ds-c-buttons is-layout-flow wp-block-group-is-layout-flow">
 
 <div class="wp-block-group ds-hero-main is-layout-flow wp-block-group-is-layout-flow">
 
-<p class="ds-eyebrow wp-block-paragraph">Travel guide</p>
-
-
-<p class="ds-meta wp-block-paragraph">Liguria, Italy</p>
+<p class="ds-eyebrow wp-block-paragraph">Travel guide · Liguria, Italy</p>
 
 
 <h1 class="wp-block-heading has-display-xl-font-size">Five villages,<br>walked <em>slowly.</em></h1>
@@ -845,7 +859,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 
 <div class="wp-block-group ds-hero-aside is-layout-flow wp-block-group-is-layout-flow">
 
-<div class="wp-block-group ds-ticker sp-essentials sp-place-riomaggiore ds-c-essentials-ticker is-layout-flow wp-block-group-is-layout-flow"><p class="ds-ticker-head"><span>Riomaggiore en direct</span><span>mis à jour 14:15</span></p><div class="ds-ticker-values"><p><span class="ds-count">23°</span><span class="ds-meta">Mer</span></p><p><span class="ds-count">20°</span><span class="ds-meta"><span class="ct-wx ct-wx-sun" aria-hidden="true"></span>Air · Dégagé</span></p><p><span class="ds-count">18:39</span><span class="ds-meta">Coucher du soleil</span></p></div><p class="ds-ticker-source">Données météo : <a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0)</p></div>
+<div class="wp-block-group ds-ticker sp-essentials sp-place-riomaggiore ds-c-essentials-ticker is-layout-flow wp-block-group-is-layout-flow"><p class="ds-ticker-head"><span>Riomaggiore en direct</span><span>mis à jour 13:15</span></p><div class="ds-ticker-values"><p><span class="ds-count">23°</span><span class="ds-meta">Mer</span></p><p><span class="ds-count">21°</span><span class="ds-meta"><span class="ct-wx ct-wx-partly-cloudy" aria-hidden="true"></span>Air · Partiellement nuageux</span></p><p><span class="ds-count">18:37</span><span class="ds-meta">Coucher du soleil</span></p></div><p class="ds-ticker-source">Données météo : <a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0)</p></div>
 
 </div>
 
@@ -857,11 +871,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 <figure class="wp-block-image size-full"><img src="https://images.unsplash.com/photo-1499678329028-101435549a4e?q=80&amp;w=2670&amp;auto=format&amp;fit=crop" alt="Vernazza harbor with colorful buildings"/></figure>
 
 
-<div class="wp-block-group ds-meta is-layout-flow wp-block-group-is-layout-flow">
-
-<p class="ds-meta wp-block-paragraph">Vernazza harbour, early morning</p>
-
-</div>
+<p class="ds-meta wp-block-paragraph">Vernazza harbor with colorful buildings</p>
 
 </section>
 
@@ -983,6 +993,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 <div class="taxonomy-category ds-eyebrow wp-block-post-terms"><a href="/category/accommodation/" rel="tag">Accommodation</a></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/where-to-stay-hotel-vs-airbnb/" target="_self" >Where to Stay: Hotel vs. Airbnb</a></h3>
 <div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">Pros and cons for every type of traveler, plus insider tips on the best neighborhoods. </p></div>
+<div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T08:04:40+00:00">25 Jan 2026</time></div>
 </div>
 
 </li><li class="wp-block-post post-448 post type-post status-publish format-standard hentry category-guides tag-blue-trail tag-francais tag-hiking tag-outdoors tag-sentiero-azzurro">
@@ -998,6 +1009,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 <div class="taxonomy-category ds-eyebrow wp-block-post-terms"><a href="/category/guides/" rel="tag">Guides</a></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/hiking-the-blue-trail-what-to-expect/" target="_self" >Hiking the Blue Trail: What to Expect</a></h3>
 <div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">Everything you need to know about the Sentiero Azzurro, from difficulty levels to scenic stops. </p></div>
+<div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T08:04:40+00:00">25 Jan 2026</time></div>
 </div>
 
 </li><li class="wp-block-post post-443 post type-post status-publish format-standard hentry category-photography tag-francais tag-manarola tag-photography tag-sunset tag-tips">
@@ -1013,6 +1025,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 <div class="taxonomy-category ds-eyebrow wp-block-post-terms"><a href="/category/photography/" rel="tag">Photography</a></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/a-photographers-guide-to-manarola-at-sunset/" target="_self" >A Photographer&#8217;s Guide to Manarola at Sunset</a></h3>
 <div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">Best angles, times, and settings for capturing the most photogenic village in Cinque Terre. </p></div>
+<div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T08:04:40+00:00">25 Jan 2026</time></div>
 </div>
 
 </li><li class="wp-block-post post-449 post type-post status-publish format-standard hentry category-guides tag-francais">
@@ -1028,6 +1041,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 <div class="taxonomy-category ds-eyebrow wp-block-post-terms"><a href="/category/guides/" rel="tag">Guides</a></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/le-guide-ultime-des-plus-belles-plages-des-cinque-terre/" target="_self" >Le guide ultime des plus belles plages des Cinque Terre</a></h3>
 <div class="wp-block-post-excerpt"><p class="wp-block-post-excerpt__excerpt">Des plages de sable de Monterosso aux criques rocheuses secretes de Riomaggiore, decouvrez les plus beaux endroits pour se baigner&hellip; </p></div>
+<div class="ds-meta wp-block-post-date"><time datetime="2025-01-05T00:00:00+00:00">5 Jan 2025</time></div>
 </div>
 
 </li></ul>
@@ -1036,7 +1050,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 </section>
 
 
-<section class="wp-block-group sp-query-collection-2 ds-wrap ds-band ds-c-cards ds-c-itinerary-timeline has-calce-background-color has-background has-notte-color has-text-color has-link-color wp-elements-1 is-layout-flow wp-block-group-is-layout-flow">
+<section class="wp-block-group sp-query-collection-2 ds-band ds-c-cards ds-c-itinerary-timeline has-calce-background-color has-background has-notte-color has-text-color has-link-color wp-elements-1 is-layout-flow wp-block-group-is-layout-flow">
 
 <div class="wp-block-group ds-wrap is-layout-flow wp-block-group-is-layout-flow">
 
@@ -1059,6 +1073,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 <ul class="wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow"><li class="wp-block-post post-1399 sp_stay type-sp_stay status-publish hentry sp_place-corniglia">
 
 <div class="wp-block-group ds-card-img is-layout-flow wp-block-group-is-layout-flow">
+
 
 <p class="ds-chip wp-block-paragraph">Corniglia</p>
 
@@ -1097,6 +1112,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 
 <div class="wp-block-group ds-card-img is-layout-flow wp-block-group-is-layout-flow">
 
+
 <p class="ds-chip wp-block-paragraph">Manarola</p>
 
 </div>
@@ -1133,6 +1149,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 </li><li class="wp-block-post post-1423 sp_stay type-sp_stay status-publish hentry sp_place-monterosso">
 
 <div class="wp-block-group ds-card-img is-layout-flow wp-block-group-is-layout-flow">
+
 
 <p class="ds-chip wp-block-paragraph">Monterosso</p>
 
@@ -1196,46 +1213,46 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 <ul class="wp-block-post-template is-layout-flow wp-block-post-template-is-layout-flow"><li class="wp-block-post post-455 post type-post status-publish format-standard hentry category-seasonal tag-easter tag-francais tag-hiking tag-seasonal tag-spring tag-wildflowers">
 <div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T12:00:00+00:00">25 Jan 2026</time></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/spring-in-cinque-terre-wildflowers-and-easter/" target="_self" >Spring in Cinque Terre: Wildflowers, Renewal &#038; Easter Traditions</a></h3>
-<div class="taxonomy-category wp-block-post-terms"><a href="/category/seasonal/" rel="tag">Seasonal</a></div>
+<div class="taxonomy-category ds-meta wp-block-post-terms"><a href="/category/seasonal/" rel="tag">Seasonal</a></div>
 </li><li class="wp-block-post post-453 post type-post status-publish format-standard hentry category-villages tag-francais tag-hidden-gems tag-local-life tag-photography tag-vernazza tag-villages">
 <div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T11:30:00+00:00">25 Jan 2026</time></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/locals-guide-to-vernazza/" target="_self" >A Local&#8217;s Guide to Vernazza: Beyond the Instagram Shots</a></h3>
-<div class="taxonomy-category wp-block-post-terms"><a href="/category/villages/" rel="tag">Villages</a></div>
+<div class="taxonomy-category ds-meta wp-block-post-terms"><a href="/category/villages/" rel="tag">Villages</a></div>
 </li><li class="wp-block-post post-456 post type-post status-publish format-standard hentry category-travel-tips tag-environment tag-francais tag-local-impact tag-responsible-tourism tag-sustainable-travel tag-tips">
 <div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T11:00:00+00:00">25 Jan 2026</time></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/sustainable-travel-in-cinque-terre/" target="_self" >Sustainable Travel in Cinque Terre: How to Visit Responsibly</a></h3>
-<div class="taxonomy-category wp-block-post-terms"><a href="/category/travel-tips/" rel="tag">Travel Tips</a></div>
+<div class="taxonomy-category ds-meta wp-block-post-terms"><a href="/category/travel-tips/" rel="tag">Travel Tips</a></div>
 </li><li class="wp-block-post post-450 post type-post status-publish format-standard hentry category-food-drink tag-cooking tag-food tag-francais tag-ligurian-cuisine tag-local-culture tag-restaurants">
 <div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T10:30:00+00:00">25 Jan 2026</time></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/ligurian-food-culture-what-locals-actually-eat/" target="_self" >Ligurian Food Culture: What Locals Actually Eat</a></h3>
-<div class="taxonomy-category wp-block-post-terms"><a href="/category/food-drink/" rel="tag">Food &amp; Drink</a></div>
+<div class="taxonomy-category ds-meta wp-block-post-terms"><a href="/category/food-drink/" rel="tag">Food &amp; Drink</a></div>
 </li><li class="wp-block-post post-445 post type-post status-publish format-standard hentry category-activities tag-activities tag-boat-tours tag-francais tag-kayaking tag-summer tag-water-sports">
 <div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T10:00:00+00:00">25 Jan 2026</time></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/cinque-terre-by-boat-kayaking-and-water-adventures/" target="_self" >Cinque Terre by Boat: Kayaking, Boat Tours &#038; Water Adventures</a></h3>
-<div class="taxonomy-category wp-block-post-terms"><a href="/category/activities/" rel="tag">Activities</a></div>
+<div class="taxonomy-category ds-meta wp-block-post-terms"><a href="/category/activities/" rel="tag">Activities</a></div>
 </li><li class="wp-block-post post-459 post type-post status-publish format-standard hentry category-accommodation tag-accommodation tag-airbnb tag-francais tag-hotels tag-where-to-stay">
 <div class="ds-meta wp-block-post-date"><time datetime="2026-01-25T08:04:40+00:00">25 Jan 2026</time></div>
 <h3 class="wp-block-post-title"><a href="/fr/blog/where-to-stay-hotel-vs-airbnb/" target="_self" >Where to Stay: Hotel vs. Airbnb</a></h3>
-<div class="taxonomy-category wp-block-post-terms"><a href="/category/accommodation/" rel="tag">Accommodation</a></div>
+<div class="taxonomy-category ds-meta wp-block-post-terms"><a href="/category/accommodation/" rel="tag">Accommodation</a></div>
 </li></ul>
 </div>
 
 </section>
 
 
-<section class="wp-block-group sp-content ds-wrap ds-band ds-dark ds-c-buttons ds-c-itinerary-timeline has-notte-background-color has-background has-paper-color has-text-color has-link-color wp-elements-2 is-layout-flow wp-block-group-is-layout-flow">
+<section class="wp-block-group sp-content ds-band ds-dark ds-c-buttons ds-c-itinerary-timeline has-notte-background-color has-background has-paper-color has-text-color has-link-color wp-elements-2 is-layout-flow wp-block-group-is-layout-flow">
 
 <div class="wp-block-group ds-wrap ds-band-row is-layout-flow wp-block-group-is-layout-flow">
 
 <div class="wp-block-group ds-band-main is-layout-flow wp-block-group-is-layout-flow">
 
-<p class="ds-eyebrow wp-block-paragraph">Signature itinerary</p>
+<p class="ds-eyebrow wp-block-paragraph">Signature itinerary · 4 days · Moderate</p>
 
 
 <h2 class="wp-block-heading">The Salt &amp; <em>Stone</em> Path</h2>
 
 
-<p class="wp-block-paragraph">4 days · Moderate. Riomaggiore to Monterosso over four slow days — terraces to Volastra, a morning boat to Vernazza, the Blue Trail to finish. Best April–June or September–October.</p>
+<p class="wp-block-paragraph">Riomaggiore to Monterosso over four slow days — terraces to Volastra, a morning boat to Vernazza, the Blue Trail to finish. Best April–June or September–October.</p>
 
 <nav class="sp-menu-link-read-the-itinerary ds-btn-light wp-block-navigation is-layout-flex wp-block-navigation-is-layout-flex" aria-label="Read the itinerary"><ul class="wp-block-navigation__container sp-menu-link-read-the-itinerary ds-btn-light wp-block-navigation" aria-label="Read the itinerary"><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="/fr/itinerary/"><span class="wp-block-navigation-item__label">Lire l&#8217;itinéraire</span></a></li></ul></nav>
 </div>
@@ -1263,7 +1280,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 </main>
 
 <footer class="wp-block-template-part">
-<div class="wp-block-group sp-footer ds-footer has-paper-background-color has-ink-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+<footer class="wp-block-group sp-footer ds-footer has-ink-color has-paper-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
 
 <div class="wp-block-group ds-wrap ds-footer-inner is-layout-flow wp-block-group-is-layout-flow">
 
@@ -1322,7 +1339,7 @@ p.is-style-editorial-callouts-local-wisdom,.is-style-editorial-callouts-local-wi
 
 </div>
 
-</div>
+</footer>
 </footer></div>
 <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/canvas/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
